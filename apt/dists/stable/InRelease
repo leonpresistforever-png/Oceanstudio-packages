@@ -1,0 +1,27 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: Ocean Distribution
+Label: Ocean
+Suite: stable
+Codename: stable
+Components: main
+Architectures: aarch64 all
+Description: Ocean Native APT Package Repository
+MD5Sum:
+ 099dae28628f0ac6e8736d7e4a2f4e97 283046 main/binary-aarch64/Packages
+ 437e09f16b922f9218031900fb7ead9f 110105 main/binary-aarch64/Packages.gz
+SHA1:
+ 8e3db83875a067b96b6b208797787df170621bff 283046 main/binary-aarch64/Packages
+ 9e6a411457b6061b219774f187264d7b3dbf1875 110105 main/binary-aarch64/Packages.gz
+SHA256:
+ 99041bfa02d299414a7b2ad1a9dea18fff4d4470b3aafa4f91d4f26130a52ea3 283046 main/binary-aarch64/Packages
+ b42fd4fcb4cf0b53cb59e02790f94a019cbd6d7e52d5abfe876d16ab02a0c32b 110105 main/binary-aarch64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iJAEARYKADkWIQQJ1F3SzcN71Pm8LEWOwVQxylVC4gUCaplIiRsUgAAAAAAEAA5t
+YW51MiwyLjUrMS4xMSwzLDIACgkQjsFUMcpVQuLyEwD3eY7TGf2n6m9jt94sB8fe
+Z1D9X782PQWArqlIxrGhcwD8CbWtcOR8uFopD9Uu26mQDKXia8ltjc7yW3SJwqEr
+lgs=
+=2Tyt
+-----END PGP SIGNATURE-----
