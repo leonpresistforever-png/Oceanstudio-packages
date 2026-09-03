@@ -1,27 +1,27 @@
 -----BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA256
+Hash: SHA512
 
-Origin: Ocean Distribution
+Origin: OceanStudio
 Label: Ocean
 Suite: stable
 Codename: stable
+Architectures: aarch64
 Components: main
-Architectures: aarch64 all
-Description: Ocean Native APT Package Repository
+Description: Official OceanStudio APT Repository
 MD5Sum:
- 9d3f9a84d7f119b4c48a7a93fd80f666 234236 main/binary-aarch64/Packages
- 07c57aef70e3f8573d803cf2fe9f5b15 72914 main/binary-aarch64/Packages.gz
+ 2e08f3171c1d3803391aea103564e87e 224213 main/binary-aarch64/Packages
+ fecdb44f71086ecfa42fdbca8b6688ce 73748 main/binary-aarch64/Packages.gz
 SHA1:
- 23aea03496ec1d0fabf0cf07462f0cb6b7471010 234236 main/binary-aarch64/Packages
- e15d18f218fb277e5f0a24352135a44933402e5f 72914 main/binary-aarch64/Packages.gz
+ 395703d4c013b39d0d86022cfba87edc6d36b81c 224213 main/binary-aarch64/Packages
+ a0f937d9a99dd327d0819e1dd08a12c5ffa1e8bf 73748 main/binary-aarch64/Packages.gz
 SHA256:
- 35e94e68c714f8f888e453d0227c0b95e76df642193872c92c12eeb4e419893a 234236 main/binary-aarch64/Packages
- b4783a6dbd87696cd141dbd92976d72007eba57ab4dd6017976954605773241b 72914 main/binary-aarch64/Packages.gz
+ e0ec31069c536638ec188354234c587c79690baa5408cb5973ceff8f3f97b76b 224213 main/binary-aarch64/Packages
+ eddd0248a57d5df2b7431249f0ffd6f81660490d31e4516c88bbd89411cf146d 73748 main/binary-aarch64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iJEEARYIADkWIQQJ1F3SzcN71Pm8LEWOwVQxylVC4gUCapmPTxsUgAAAAAAEAA5t
-YW51MiwyLjUrMS4xMSwzLDIACgkQjsFUMcpVQuLiIgEAqK93RLjSajnZpkHh56Mm
-m1lgOVLSc4de1RG0ybcHgsYA/0Pofn7bb65OeBG2FVuwo7yWQmzr9RIeGWMcL8JG
-IoQC
-=goXe
+iJEEARYKADkWIQQJ1F3SzcN71Pm8LEWOwVQxylVC4gUCapm4xxsUgAAAAAAEAA5t
+YW51MiwyLjUrMS4xMSwzLDIACgkQjsFUMcpVQuKNAwEA0VJ3q/Y2oBVzkj0DiAb3
+MlqyJw41J+lwbRLyBVYL+mcBANCefTwEtxFovuOSGKPy4mDY4xLlwNMf2WOS54Fc
+KbwP
+=RUkG
 -----END PGP SIGNATURE-----
