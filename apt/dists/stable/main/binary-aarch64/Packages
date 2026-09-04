@@ -590,6 +590,21 @@ MD5sum: 73f6edf1526df658f97d077e512cad99
 SHA1: 3ddb22fefe1e351ff4c2df771c55af03da7c79ca
 SHA256: fff027ad946ee19447ca4f604b4fcd60d75f37c67fee8a0e7d8925259be76aac
 
+Package: default-jdk
+Version: 21.0.6
+Architecture: all
+Maintainer: OceanStudio <archive@ocean.studio>
+Depends: openjdk-21
+Section: utils
+Priority: optional
+Homepage: https://ocean.studio
+Description: Default JDK transition metapackage for Ocean OS
+Filename: pool/main/default-jdk_21.0.6_all.deb
+Size: 748
+MD5sum: 761be7e99c286ce7bd3203f722bca9ea
+SHA1: f0f386d64e1eddcbfb79c52e31a30f37739cd228
+SHA256: 2bec9eb05cdf739b68558dfb05a61584f9fc677838ff0f9d6f6a8eaef7be9506
+
 Package: diffutils
 Architecture: aarch64
 Installed-Size: 668
@@ -1478,6 +1493,21 @@ Size: 83344
 MD5sum: 8588d440fc16bbbb21f2116e06d4acfa
 SHA1: b5eb3606a37ebaa5cdee6e842f957bf21a7d3e74
 SHA256: 2a6e6b7a4bdd9aff4ad42d3d8f91dfa640e6333d3caa1cc5f7f065cb33892fc4
+
+Package: java
+Version: 21.0.6
+Architecture: all
+Maintainer: OceanStudio <archive@ocean.studio>
+Depends: openjdk-21
+Section: utils
+Priority: optional
+Homepage: https://ocean.studio
+Description: Java runtime transition metapackage for Ocean OS
+Filename: pool/main/java_21.0.6_all.deb
+Size: 748
+MD5sum: 91209d99304eb36b2c7dbaf0663cbf9a
+SHA1: ce3b9973512f9efb37fd69431e64c6de1a9010d3
+SHA256: 4a5f64b5e69cb04d90931a493992a2102b1f53942064be6fa89320ecd03c94c2
 
 Package: jq-static
 Architecture: aarch64
@@ -5242,6 +5272,21 @@ MD5sum: d692898d36ae8f2d5a47e3044e372e40
 SHA1: c89e9a708f67c78c621df7d9de33aecc167aff8c
 SHA256: acde4a86ce742b1968f55739065ab205fadde8dab12b582cb97c819e27da4334
 
+Package: openjdk
+Version: 21.0.6
+Architecture: all
+Maintainer: OceanStudio <archive@ocean.studio>
+Depends: openjdk-21
+Section: utils
+Priority: optional
+Homepage: https://ocean.studio
+Description: OpenJDK runtime transition metapackage for Ocean OS
+Filename: pool/main/openjdk_21.0.6_all.deb
+Size: 748
+MD5sum: 5ce1f0fd6c77d3e81c9e9a74b5fb76a2
+SHA1: 785342e8608464f38fc3b01b10fe6ecdf956f68e
+SHA256: 1fd4dd1ac08050a588dc955d390a0dd9f595139d42142cb15713f72a48b155d2
+
 Package: openldap-static
 Architecture: aarch64
 Installed-Size: 808
@@ -6114,6 +6159,21 @@ MD5sum: ecc7c87693aa3843c9db1b1fe5e4c1c4
 SHA1: f7adf510e0270ee0db1a5169834646a5cd57c071
 SHA256: cdee3505b9afc6de7c8a51881131e883c9e15c65c93d9d70fe73a0e4bd8bf113
 
+Package: sqlite3
+Version: 3.53.4
+Architecture: all
+Maintainer: OceanStudio <archive@ocean.studio>
+Depends: sqlite
+Section: utils
+Priority: optional
+Homepage: https://ocean.studio
+Description: SQLite 3 CLI transition metapackage for Ocean OS
+Filename: pool/main/sqlite3_3.53.4_all.deb
+Size: 744
+MD5sum: 0c9ab9b01d841236af1718e80f6a9cc1
+SHA1: 07a983c9b84ffd2d95d727008b6d88bdc82dbf8f
+SHA256: 929088bc0231f7fb908a12e6efb9cd1fa507c2101b4376cf9134dbcb41854f5c
+
 Package: sqlite
 Architecture: aarch64
 Installed-Size: 1552
@@ -6385,6 +6445,20 @@ Size: 653576
 MD5sum: 4ee183124df6a25a63dd41dfbba8c952
 SHA1: e2156d0d5ea7709f0896a5a2a251f0403c030d8f
 SHA256: 7950d89f695f4f8ace452c41babe369a2c89c72a96459b82f8281b21f22c3243
+
+Package: unzip
+Architecture: aarch64
+Installed-Size: 332
+Maintainer: OceanStudio <archive@ocean.studio>
+Version: 6.0-10
+Homepage: https://ocean.studio
+Depends: libbz2
+Description: Tools for working with zip files
+Filename: pool/main/unzip_6.0-10_aarch64.deb
+Size: 154596
+MD5sum: 7da7c07381687f4d4b324eb63b3b1b47
+SHA1: 654d0f0ed90a93fa8971162f7d2a08a5a0997d79
+SHA256: 974c3a69ccff966b7f856b67045a24469c214dae7422b7e5ebc18529f2cb5a5f
 
 Package: update-info-dir
 Architecture: all
@@ -6703,6 +6777,20 @@ MD5sum: ea066fbfd4c06cc82a1796e789b0679d
 SHA1: 539a259b5c4f8c11971da663bf8ca31b8db669dd
 SHA256: a7e4bccc55373075797b2ff29d92ff4b41e674776b6186fd7bbcb28c54c710c7
 
+Package: zip
+Architecture: aarch64
+Installed-Size: 548
+Maintainer: OceanStudio <archive@ocean.studio>
+Version: 3.0-7
+Homepage: https://ocean.studio
+Depends: libandroid-support, libbz2
+Description: Tools for working with zip files
+Filename: pool/main/zip_3.0-7_aarch64.deb
+Size: 142876
+MD5sum: 269505264576d7ca9d127161f5320d5f
+SHA1: da6e9d4fe84844a98db4995cc91996dd70b86d4d
+SHA256: 9faa2ec9bef06dca3045379375c11d7676a70698e94d47e36e6bf0727bfe4797
+
 Package: zlib-static
 Architecture: aarch64
 Installed-Size: 140
@@ -6747,3 +6835,4 @@ Size: 359504
 MD5sum: 1ed550778bea2b96425fac2e961bfa0e
 SHA1: 1a6326ca807a3fe5492b8623ebd47a7f0ee9d474
 SHA256: 6d085428fe832ca40e9a9e1f86cb05df7410d373bc0d4bcf2800b7bccb62db9d
+
