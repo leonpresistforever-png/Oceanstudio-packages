@@ -235,6 +235,34 @@ MD5sum: 845870ccab7619942ad630606386b925
 SHA1: a349575314d6995f7b16a1fff65207589951fd76
 SHA256: e9bac48f43f592721d9f6476a77651ba79ca7c9d9ba89d41219fa1abfd7dfdf1
 
+Package: autoconf
+Version: 2.72-3
+Architecture: all
+Maintainer: OceanStudio <archive@ocean.studio>
+Installed-Size: 2100
+Depends: m4, perl
+Homepage: https://www.gnu.org/software/autoconf/
+Description: Automatic configure script builder
+Filename: pool/main/autoconf_2.72-3_all.deb
+Size: 491816
+MD5sum: 800a6e6345896c4df197e2066027117f
+SHA1: 14be9a02aed34a80dc671a2f67384babee0c696b
+SHA256: 65d9360a67fcaf86591819405c864e0fb21a98bae75f66e9bd7685a435660803
+
+Package: automake
+Version: 1.16.5
+Architecture: all
+Maintainer: OceanStudio <archive@ocean.studio>
+Installed-Size: 1800
+Depends: autoconf, perl
+Homepage: https://www.gnu.org/software/automake/
+Description: Tool for generating GNU Standards-compliant Makefiles
+Filename: pool/main/automake_1.16.5_all.deb
+Size: 819036
+MD5sum: b62f92bcdfe607a33c4774b2d8ab76ac
+SHA1: 835b81a20a5107a4293059dbdf0849841dd406c5
+SHA256: f0ef540cbdbda7ab3084c6570aa56c68a660563ab6ce8030e23d146c36face86
+
 Package: bash-completion
 Architecture: all
 Installed-Size: 2724
@@ -266,6 +294,19 @@ Size: 955604
 MD5sum: 5e50b56053cf2e4c284654007d8bdb5f
 SHA1: 1f68eeb165d01f3cc7d03e644dd794e5ec16cf9c
 SHA256: 6bf5b1a43d94d07fde8b0aa57bcd3a5fd934923e9f1976ec485f4212726679b0
+
+Package: bat
+Version: 0.26.1
+Architecture: aarch64
+Maintainer: OceanStudio <archive@ocean.studio>
+Installed-Size: 5899
+Homepage: https://ocean.studio
+Description: Cat clone with syntax highlighting and Git integration
+Filename: pool/main/bat_0.26.1_aarch64.deb
+Size: 2600548
+MD5sum: 91de253f3a1bf92031e2ddd296f48087
+SHA1: 636d28e8ab83d7b7620aef974a5c0e1c7efc9586
+SHA256: 05ffda242f411539d25e3c34e2123e88009f37c324ff1acd35c1dfe0c77001f1
 
 Package: binutils
 Architecture: aarch64
@@ -727,7 +768,7 @@ SHA256: e98c1a073256bdfb000783de35270f4c3a1d10f35ba8b26492099844e2d3dca7
 Package: dropbear
 Architecture: aarch64
 Installed-Size: 444
-Maintainer: OceanStudio <maintainer@ocean.studio>
+Maintainer: OceanStudio <archive@ocean.studio>
 Version: 2026.94
 Homepage: https://matt.ucc.asn.au/dropbear/dropbear.html
 Depends: ocean-auth, zlib
@@ -735,10 +776,10 @@ Conflicts: openssh
 Suggests: openssh-sftp-server, termux-services
 Description: Small SSH server and client
 Filename: pool/main/dropbear_2026.94_aarch64.deb
-Size: 143664
-MD5sum: a179eead7f84ff90c77e336e859fdffa
-SHA1: dc45625daa7070b463cb58fac36b42ea6ab4d05c
-SHA256: 4b0c1864f853ad92dc685b9d2159c8132500630a7b5f490e3f444b6f5e083632
+Size: 143708
+MD5sum: 95febcd0f67465fc5713684070b43a43
+SHA1: a4909a8a4290fb3902d78d7a35232c6c17197ce1
+SHA256: 48976067aff9323ae4e84ab93d93a2cab0649677d2a7102298e8fb27fc7c25c1
 
 Package: dx
 Architecture: all
@@ -766,6 +807,19 @@ Size: 7220922
 MD5sum: 3dad0b12f14e663c84ae1ceffc6cc34a
 SHA1: 276bcbc65daec4fc36ca870357c9afdcc0fa8175
 SHA256: ec9c2a9eafbd1ca7ec68bf9182b394d85fc52ffd8d23e1252f19a05044c06b19
+
+Package: fd
+Version: 10.2.0
+Architecture: aarch64
+Maintainer: OceanStudio <archive@ocean.studio>
+Installed-Size: 3198
+Homepage: https://ocean.studio
+Description: Simple, fast and user-friendly alternative to find
+Filename: pool/main/fd_10.2.0_aarch64.deb
+Size: 1037492
+MD5sum: 02c29cbaf1c7a8502d87e9388c2c95ff
+SHA1: 86cd1db957a3de222b03473250644bf25863cb27
+SHA256: a6516a370f39a1ecc40418441b77869e270726e0581a322c707b36e702534eb1
 
 Package: fdisk
 Architecture: aarch64
@@ -811,6 +865,19 @@ Size: 251764
 MD5sum: 0046784f4b4dc3941cd9ac15ccb40158
 SHA1: a2ab268363ba66095d877d6dfa257bf2d5814221
 SHA256: 19ebda4c258f20370dccb1c854e049ce80049e075e19d6046606e03e3cfc42cf
+
+Package: fish
+Version: 4.9.0
+Architecture: aarch64
+Maintainer: OceanStudio <archive@ocean.studio>
+Installed-Size: 14486
+Homepage: https://ocean.studio
+Description: Smart and user-friendly command line shell for macOS, Linux, and Android
+Filename: pool/main/fish_4.9.0_aarch64.deb
+Size: 2915916
+MD5sum: 73a445743f73a5f89768d1257bdce84f
+SHA1: eb89222d41a47fd3d73dcd79058c7adf75a201f2
+SHA256: fd08a130604b516f03cb6cc2a54571e8619a6309b2b2bc969b15966f566147f8
 
 Package: flac
 Architecture: aarch64
@@ -1420,6 +1487,19 @@ MD5sum: d825b50ec47c43014c47936519f18b09
 SHA1: a4c2bc23faa1baf6afca275de977b4cd271c2dd5
 SHA256: 592ac41226414ac0c61097e02513607afe0ad8ca2cd68c5672a3fb5c50eebdf3
 
+Package: helm
+Version: 3.15.4
+Architecture: aarch64
+Maintainer: OceanStudio <archive@ocean.studio>
+Installed-Size: 49732
+Homepage: https://ocean.studio
+Description: The Kubernetes Package Manager
+Filename: pool/main/helm_3.15.4_aarch64.deb
+Size: 9504480
+MD5sum: ca593d36a7467d6ce7a88b597d02b787
+SHA1: 109aa04829f268171992cdc94b09cf24d7efba67
+SHA256: 1cd45f94386dac1abb6084a62e67e086368cdbde54fdbfe0f4ffd8f5cbc2aa0d
+
 Package: iconv
 Architecture: aarch64
 Installed-Size: 56
@@ -1627,6 +1707,19 @@ Size: 901328
 MD5sum: ea4e78a58c3bb78cb81de96b6ac9495d
 SHA1: 227ef803882eca57aa27fdd5b78fec432d090cc3
 SHA256: 9a499700aa5426f8bc497735e8d3c2d25923d8e9cc6b1514f965550f1d2e5434
+
+Package: kubectl
+Version: 1.37.0
+Architecture: aarch64
+Maintainer: OceanStudio <archive@ocean.studio>
+Installed-Size: 56516
+Homepage: https://ocean.studio
+Description: Production-Grade Container Orchestration Command-line tool
+Filename: pool/main/kubectl_1.37.0_aarch64.deb
+Size: 10209796
+MD5sum: f281b7f008e536357e7e0b72def25459
+SHA1: 02b20c552e1609a7545941e1cbb9234159fecbfe
+SHA256: 82dfba0832223cfd0c1985c4de985b73ec2e5e95559dc129c44a900d7a20dae1
 
 Package: lame
 Architecture: aarch64
@@ -4853,6 +4946,20 @@ MD5sum: 166f3edd5c9dbf44b1947b7d72e057fb
 SHA1: 1d74c91d54fdf1e50caa8d0d46f338d520361359
 SHA256: 5ae942efb540831f7de914432a2cb1506d2b00a76d1d75e50cc13b33dade7238
 
+Package: m4
+Version: 1.4.19
+Architecture: aarch64
+Maintainer: OceanStudio <archive@ocean.studio>
+Installed-Size: 800
+Depends: libiconv
+Homepage: https://www.gnu.org/software/m4/
+Description: Traditional Unix macro processor
+Filename: pool/main/m4_1.4.19_aarch64.deb
+Size: 119008
+MD5sum: 562c3d6f561a7737de755c2217096b18
+SHA1: 2c671b90170b95b95c53d42fdfb01de4fb21b23c
+SHA256: 1caaabd50cf37010e31e0a9973b4e39e288f97b62c5c509e2b85c53d0c27738a
+
 Package: make
 Architecture: aarch64
 Installed-Size: 944
@@ -5083,6 +5190,20 @@ MD5sum: 58d884c54199e87ea01c2377d8e07ce5
 SHA1: c5ef1da9f208dc8e81c1e58e63ae9f80f0f9b27b
 SHA256: 42e35109d2678be414f454654283bbe114e8957f1a1a3973ca64c33f9314b74f
 
+Package: nmap
+Version: 7.95
+Architecture: aarch64
+Maintainer: OceanStudio <archive@ocean.studio>
+Installed-Size: 28000
+Depends: libpcre2, zlib
+Homepage: https://nmap.org
+Description: Network exploration tool and security / port scanner (includes nmap, ncat, nping)
+Filename: pool/main/nmap_7.95_aarch64.deb
+Size: 5493168
+MD5sum: e34abb59d9d90349f9896885b157889c
+SHA1: 76375b0b941d346749457f3dfa2a4313330c0187
+SHA256: 0217fddb72005eaead7ca514d330232d85ff9e93d60a161f32d1bbd946c0d60f
+
 Package: nodejs
 Architecture: aarch64
 Installed-Size: 50488
@@ -5259,18 +5380,17 @@ SHA256: 73fb7841134aa82a75fb31344798031cdf20eb1c45b814c4a1c0c3abf35bd1ed
 Package: openjdk-21
 Architecture: aarch64
 Installed-Size: 249532
-Maintainer: OceanStudio <maintainer@ocean.studio>
+Maintainer: OceanStudio <archive@ocean.studio>
 Version: 21.0.12
 Homepage: https://openjdk.java.net
-Depends: libandroid-shmem, libandroid-spawn, libiconv, libjpeg-turbo, zlib, littlecms, alsa-plugins
-Recommends: ca-certificates-java, openjdk-21-x, resolv-conf
-Suggests: cups
+Depends: libandroid-shmem, libandroid-spawn, libiconv, libjpeg-turbo, zlib, littlecms
+Recommends: ca-certificates-java, resolv-conf
 Description: Java development kit and runtime
 Filename: pool/main/openjdk-21_21.0.12_aarch64.deb
-Size: 106207100
-MD5sum: d692898d36ae8f2d5a47e3044e372e40
-SHA1: c89e9a708f67c78c621df7d9de33aecc167aff8c
-SHA256: acde4a86ce742b1968f55739065ab205fadde8dab12b582cb97c819e27da4334
+Size: 106214652
+MD5sum: be239d7cc28fa47e3c976b20de723506
+SHA1: 1f08802100d7c9bc14adfb23f5d46d24aa87d62a
+SHA256: dbfc45ef6afa10d93a5dc0369c0227fe71c9b0079cc8d9e0cb365293892fcd44
 
 Package: openjdk
 Version: 21.0.6
@@ -5352,7 +5472,7 @@ SHA256: 21c94b1e146dfa5658c644088763e8df92b06ea3d0c65300ac5c3ac80605d419
 Package: openssh
 Architecture: aarch64
 Installed-Size: 6376
-Maintainer: OceanStudio <maintainer@ocean.studio>
+Maintainer: OceanStudio <archive@ocean.studio>
 Version: 10.5p1
 Homepage: https://www.openssh.com/
 Depends: krb5, ldns, libandroid-support, libedit, openssh-sftp-server, openssl, ocean-auth, zlib
@@ -5360,10 +5480,10 @@ Conflicts: dropbear
 Suggests: termux-services
 Description: Secure shell for logging into a remote machine
 Filename: pool/main/openssh_10.5p1_aarch64.deb
-Size: 963112
-MD5sum: 8ce368c37f10f641a56a41d92caffa54
-SHA1: b052b0d4172a05fb7787fcb35007b12c718b3593
-SHA256: eeb6236e2af34df8a8ed7ee1fe36e81b0a640171c9f13119300ef9b4a5a6cb8d
+Size: 963100
+MD5sum: b2b4dae431487c1ab649acd23b1f84d0
+SHA1: 5b639cb60fdf3459862393e2f844066b931af020
+SHA256: 506d27d8a27b114c228db40288538d4a1faf2ed78c04a3f9880d15167f00091d
 
 Package: openssl-static
 Architecture: aarch64
@@ -5711,6 +5831,20 @@ MD5sum: 987131d85133e5379b1ac3e7bb1507e4
 SHA1: 98aa4d68fe53264bad810b7a0d37492bb7d00555
 SHA256: cd54cb86c5c3d69f0fd0a4336ca1d9d3708deccd051593084c54c81bacc70af4
 
+Package: proot-distro
+Version: 1.0.0
+Architecture: all
+Maintainer: OceanStudio <archive@ocean.studio>
+Installed-Size: 4
+Homepage: https://ocean.studio
+Description: Ocean container management compatibility shim for proot-distro
+Depends: ocean-tools | ocean-distro
+Filename: pool/main/proot-distro_1.0.0_all.deb
+Size: 864
+MD5sum: 55f70a88a4f20d054b869a0aff25f2a8
+SHA1: c53672ea1b1b5bb71a292bbc304f41571139e518
+SHA256: 81e26aaea71b3dc701b44dfd64cb3acd9a10c820c61e136398a712b2b563c7c1
+
 Package: proot
 Architecture: aarch64
 Installed-Size: 336
@@ -5896,6 +6030,19 @@ MD5sum: c8fea6e2a675736218960fc0acf68ef3
 SHA1: eae3482263f6324e17a281123a1fcca5d1d7b428
 SHA256: 80b39136faadf7d8eeab61ca5947e90f4a16354cc8559655d1c141ee5e7bc092
 
+Package: rclone
+Version: 1.75.0
+Architecture: aarch64
+Maintainer: OceanStudio <archive@ocean.studio>
+Installed-Size: 76484
+Homepage: https://ocean.studio
+Description: Rsync for cloud storage (Google Drive, S3, Dropbox, etc.)
+Filename: pool/main/rclone_1.75.0_aarch64.deb
+Size: 17784056
+MD5sum: 9c3fcf61c13085910201597ead5ade19
+SHA1: a91d967edd23efa5fcc56d98c534f041f093e7aa
+SHA256: b885f034d650793df2114cdbaae37d321f6ad1c81f20c66435b573b91a692166
+
 Package: readline-static
 Architecture: aarch64
 Installed-Size: 712
@@ -5968,6 +6115,19 @@ Size: 162380
 MD5sum: 12a8c6343d2cc1ddc365e1fb23873175
 SHA1: b78f6b1e43efbd7eb4285b3aad74608629fd28e4
 SHA256: 23a6b45db8fdcf0a99b7f52e04e3f4d3b2a2871cca33af41c2c43a848bf82032
+
+Package: ripgrep
+Version: 15.2.0
+Architecture: aarch64
+Maintainer: OceanStudio <archive@ocean.studio>
+Installed-Size: 4365
+Homepage: https://ocean.studio
+Description: Fast line-oriented search tool combining grep speed with ack usability
+Filename: pool/main/ripgrep_15.2.0_aarch64.deb
+Size: 1305308
+MD5sum: 435f5d62043ed54dcbdb0274a76a0f88
+SHA1: f26131e88a63271fe174250a6344ddc6afde1d60
+SHA256: 107836ae1a7da3e7c96b51512d1c4f4f883339cedb641ac13f7d70c1b4514ff5
 
 Package: rsync
 Architecture: aarch64
@@ -6419,6 +6579,19 @@ MD5sum: 2e05a2a63b2a5ed831d9678309bd333b
 SHA1: 3d4ed1e858b3044b35cf83c81713a1bd61f0af76
 SHA256: 8112df5ca88905aaf1f0c750729f1103da639f117748357d34eb0ae62bf01263
 
+Package: tree
+Version: 2.1.3
+Architecture: aarch64
+Maintainer: OceanStudio <archive@ocean.studio>
+Installed-Size: 95
+Homepage: https://ocean.studio
+Description: Directory listing program displaying a depth indented list of files
+Filename: pool/main/tree_2.1.3_aarch64.deb
+Size: 30840
+MD5sum: 146b7f6823fa667545c8e13413653dec
+SHA1: 7205ac60e7268e85d6205135b0845e27aa549fc1
+SHA256: 65108e13ff1e0a8095f6af5714cf3737e3b533a231a103b7b09161d8a12f08d4
+
 Package: ttf-dejavu
 Architecture: all
 Installed-Size: 10108
@@ -6819,6 +6992,20 @@ Size: 62924
 MD5sum: 6887b66397ac7e64fe880ab644e744e6
 SHA1: 76962ad031046cc34c174a5124491b25cdad8b33
 SHA256: 15d4d2aca89e1888cc5eeaa6d1c4a6b21ee420b90e98d8f131e3515ca4eff658
+
+Package: zsh
+Version: 5.9.2
+Architecture: aarch64
+Maintainer: OceanStudio <archive@ocean.studio>
+Installed-Size: 12500
+Depends: libiconv, ncurses
+Homepage: https://www.zsh.org
+Description: Advanced programmable command interpreter and command line shell
+Filename: pool/main/zsh_5.9.2_aarch64.deb
+Size: 2130948
+MD5sum: 6563116fcfe32e5d2e8252b8b2bc38b2
+SHA1: c397ef9ac2be6131eda7af851070efee175ee242
+SHA256: d8e34a5722ca78e71faf4e198d433d1aa6fdac9d6ca7907fad8f9f9f91669d64
 
 Package: zstd
 Architecture: aarch64
