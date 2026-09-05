@@ -397,6 +397,21 @@ MD5sum: b948645e9cf4d966978b30716d9357ad
 SHA1: e2c274d870f3f432c448ec024811fb7df7026203
 SHA256: b0fd52f746806d2490963c130aa9e84d091db94f865fc0d9cce5e7f417ab30ff
 
+Package: c++-compiler
+Version: 21.1.8-3
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: clang
+Section: devel
+Priority: optional
+Homepage: https://ocean.studio
+Description: C++ compiler virtual package (provided by clang)
+Filename: pool/main/c++-compiler_21.1.8-3_all.deb
+Size: 606
+MD5sum: 3a4b693518fa5a4b90ef86814456d986
+SHA1: bbb27e249e6fa90dd178428e152ae5ac7721e773
+SHA256: c2d256302d9b3c59bfd078e4544117263fb2fc2d23971dc8ddd35ed7db98f182
+
 Package: c-ares
 Architecture: aarch64
 Installed-Size: 1104
@@ -412,6 +427,21 @@ Size: 194864
 MD5sum: 26979b77109b46dfa0687e633b971f4a
 SHA1: a5de7bfc74e000e7a2a4289a6b5831e5c9a6a248
 SHA256: e6d75e39b743963f1f38a07b26d3ee44302f623763fa36ecacdff560549ae7e4
+
+Package: c-compiler
+Version: 21.1.8-3
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: clang
+Section: devel
+Priority: optional
+Homepage: https://ocean.studio
+Description: C compiler virtual package (provided by clang)
+Filename: pool/main/c-compiler_21.1.8-3_all.deb
+Size: 602
+MD5sum: d03398820a28476469fd8c946a6f9169
+SHA1: eded50865800f8e417e56096910026d1e379a077
+SHA256: 3a1e94694547936b1b28b8977b98dd8a224c9c1577ee8c6faa3302132102fb9b
 
 Package: ca-certificates-java
 Architecture: all
@@ -517,14 +547,15 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Version: 21.1.8-3
 Homepage: https://clang.llvm.org/
 Depends: libcompiler-rt, lld, llvm, ndk-sysroot, libllvm (= 21.1.8-3)
+Provides: c-compiler, c++-compiler
 Breaks: libllvm (<< 16.0.0), clangd
 Replaces: libllvm (<< 16.0.0), clangd
 Description: C language frontend for LLVM
 Filename: pool/main/clang_21.1.8-3_aarch64.deb
-Size: 30731924
-MD5sum: 763b38518716f7bcba036b801928b16a
-SHA1: 20c0ac1d0c6e0ed9ea25308a121f50e8ced901f9
-SHA256: d97358da24f6a4e0267f6b315aad13254c5c470820817c482097ca02d4a26bae
+Size: 49336332
+MD5sum: 6f220565c760df28b85a44bb48fc058d
+SHA1: 801616b5e18c26fa4945c0737c27e7318f8baa7d
+SHA256: 92abff0164c5571e098496804da643ae0e2f3f5446f1a5b4b06699361a5f13ca
 
 Package: cmake-curses-gui
 Architecture: aarch64
@@ -1039,6 +1070,21 @@ MD5sum: 2b5af64fbc6b13b99d44efe5c2b6eeba
 SHA1: 745cff0c264ef4e4fa4bbcc8f102c1de5d5aa169
 SHA256: b2a7664c4940cc6e9793bdeb4613bfbbb00e07d2a416bf40fb80138b163c7035
 
+Package: g++
+Version: 21.1.8-3
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: clang
+Section: devel
+Priority: optional
+Homepage: https://ocean.studio
+Description: GNU C++ compiler (wrapper around clang)
+Filename: pool/main/g++_21.1.8-3_all.deb
+Size: 598
+MD5sum: 2d13f1e6c272174648b5166132182ff3
+SHA1: 5f9bd9f21e6ef367f5bf62c020d1ab7019c10673
+SHA256: a166706963d0293feb624186d6d5c303fe68b24075b6ff7b6cb2d065584feebb
+
 Package: g-ir-scanner
 Architecture: aarch64
 Installed-Size: 1076
@@ -1113,6 +1159,21 @@ Size: 872708
 MD5sum: 348ef44f5cd0a06142c450b9c409e82f
 SHA1: 3f2ddac1fca43d4744780d1f0707536489d8a783
 SHA256: 8d29d61de566bb8d61f284368c064140df74745e9ec8de25573d6ce730246607
+
+Package: gcc
+Version: 21.1.8-3
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: clang
+Section: devel
+Priority: optional
+Homepage: https://ocean.studio
+Description: GNU C compiler (wrapper around clang)
+Filename: pool/main/gcc_21.1.8-3_all.deb
+Size: 596
+MD5sum: 4982e3760644b48528c481ae1b9cdd81
+SHA1: 7d6ae697465f495edf02da90e204b26cbc9616fc
+SHA256: e5cf0db7ff5c1119d1b01c1d35ce3d333f1c3579dd8b2f8d23f8fa04836f4a35
 
 Package: gdb
 Architecture: aarch64
@@ -1367,6 +1428,21 @@ MD5sum: 49ada48a08efba2aa75d00055e1c2999
 SHA1: 7cf12de16c996b06e7266c55fb876a7b0fcd6763
 SHA256: ba0f2058eef895c2baffc7f96ca67fefe92ffad3c11eb9a648684f30d38f5d52
 
+Package: go
+Version: 3:1.27.0
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: golang
+Section: devel
+Priority: optional
+Homepage: https://ocean.studio
+Description: Go programming language compiler (metapackage)
+Filename: pool/main/go_1.27.0_all.deb
+Size: 598
+MD5sum: f7b9838dd7ee51d266811b56a7e9d0a8
+SHA1: dbff5c3910aee7df335efa72f11d88f6c49a78c6
+SHA256: 644691bc301449cc88da881d9055cea80a445da3462e9f9765602443db0dfa7e
+
 Package: gobject-introspection
 Architecture: aarch64
 Installed-Size: 1456
@@ -1402,14 +1478,14 @@ Installed-Size: 223784
 Maintainer: OceanStudio <maintainer@ocean.studio>
 Version: 3:1.27.0
 Homepage: https://go.dev/
-Depends: clang
-Recommends: resolv-conf
+Recommends: clang, resolv-conf
+Provides: go
 Description: Go programming language compiler
 Filename: pool/main/golang_3:1.27.0_aarch64.deb
-Size: 38085896
-MD5sum: c986e05f387492fadfd9ca8ccc8619ff
-SHA1: 2cd42a4082dae5ebd73bb7b6a10c7ea0c182f75c
-SHA256: 83729cf77921a107209e6b1f9ef73157e2f5b986dcef0bce27f4291e2bfdc6f8
+Size: 57470450
+MD5sum: 2dd41e6ea4566fde51c1dc3d61e8c113
+SHA1: 05c23d567ae4ca0b11a1bf4884efff7d175326e7
+SHA256: ab75ef814e51bab973e3320e21c049bc8f95ffb7fa33679aa1ca0f67fdc0d34e
 
 Package: gpgv
 Architecture: aarch64
