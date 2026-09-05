@@ -192,6 +192,19 @@ MD5sum: d3d49c59901285faaca32866c83f162a
 SHA1: 1ebd6d3eb0ace39432efee778558bf74ec1ac828
 SHA256: 928490fccb27d661b23dd601d6fc735509f608cd5e11a58c5f1bd6849f15f6df
 
+Package: argp
+Architecture: aarch64
+Installed-Size: 108
+Maintainer: OceanStudio <archive@ocean.studio>
+Version: 1.5.0-1
+Homepage: https://ocean.studio
+Description: Standalone version of arguments parsing functions from GLIBC
+Filename: pool/main/argp_1.5.0-1_aarch64.deb
+Size: 21228
+MD5sum: c00f81467ff0d3195aaa3b2a896607dc
+SHA1: 987875079b62f0bf8cbe64e3a3d67e3493789790
+SHA256: 9c0c4f039c682b142ae3d92092f9195e20c47aa15555770d695ac239077fb487
+
 Package: aria2
 Architecture: aarch64
 Installed-Size: 2696
@@ -581,10 +594,10 @@ Essential: yes
 Replaces: chroot, busybox (<< 1.30.1-4)
 Description: Basic file, shell and text manipulation utilities from the GNU project
 Filename: pool/main/coreutils_9.11-1_aarch64.deb
-Size: 812288
-MD5sum: b6c37feb34b40b4647e2501e6f2e34dd
-SHA1: 221ba2c412d5552f79ecf4f9a875dbb181f16cf2
-SHA256: 7b033056d2be47b5f474b287bc2f9031b2b455237e7721affaa16cba5ee4759e
+Size: 812028
+MD5sum: 210d8276a9ce4b1141e03ea9ddc025ec
+SHA1: 9c78f7d3d1e78606a9dcec57f60b3b30e7613a80
+SHA256: be2b1a67144490999c8e0272fac4c1172e90c79ded77115f5d99171759523cc1
 
 Package: curl
 Architecture: aarch64
@@ -626,10 +639,10 @@ Depends: libexpat, libx11
 Replaces: dbus-dev
 Description: Freedesktop.org message bus system
 Filename: pool/main/dbus_1.16.2-3_aarch64.deb
-Size: 428768
-MD5sum: 73f6edf1526df658f97d077e512cad99
-SHA1: 3ddb22fefe1e351ff4c2df771c55af03da7c79ca
-SHA256: fff027ad946ee19447ca4f604b4fcd60d75f37c67fee8a0e7d8925259be76aac
+Size: 429060
+MD5sum: 13547d18c1541b0247c67946f87a86d3
+SHA1: 810e9455820aad2c9ac650f8b666485032e3c25e
+SHA256: 8b64ee0da133953050c6786104c814a7f60ba0adfa97ce2a67177c45e4f444b2
 
 Package: default-jdk
 Version: 21.0.6
@@ -687,10 +700,10 @@ Breaks: docbook-xsl (<= 1.79.2-1)
 Depends: libxml2-utils
 Description: A widely used XML scheme for writing documentation and help
 Filename: pool/main/docbook-xml_5.1-1_all.deb
-Size: 78288
-MD5sum: dca9ee4ce45e5e4c18163c3a564adb6c
-SHA1: 106d40edad1e18be229e7f1167e32ad2605f655a
-SHA256: 52f0d232b2d361d4bce0606194942c3c1d44ff128b49cb2fdfc7833082052f64
+Size: 78292
+MD5sum: fe2b7e58137c1f430b179a453fea9ddc
+SHA1: dd86bb7f18e49e6d4c69494c55a78a9bef46593b
+SHA256: 43d1351ca8e9047000ae2b5fcc787936822f1449547007540f6c61f8719ce04e
 
 Package: docbook-xsl
 Architecture: all
@@ -701,10 +714,10 @@ Homepage: https://docbook.org/
 Depends: docbook-xml (>= 5.1), libxml2-utils, xsltproc
 Description: XML stylesheets for Docbook-xml transformations
 Filename: pool/main/docbook-xsl_1.79.2-4_all.deb
-Size: 1387604
-MD5sum: aace68941313402db4ffeeb21a0695b6
-SHA1: 7ea26755a155c06de3ff740f5336165f1320e304
-SHA256: 75d9f5952d7305d4a954834f052fd4fc0f6c7c21fbcd7a2910d9aa3d7e2072a3
+Size: 1387728
+MD5sum: a11ecd99aa92e0098423dd89daec09c7
+SHA1: 514cbbc5a026f83ad896a6c0cee52fc17bc8bfbb
+SHA256: 017bdfa212de00e2f298dcbbdc5b56d322ce3d82a19c7c087fc275d4516c50a9
 
 Package: doxygen
 Architecture: aarch64
@@ -729,10 +742,10 @@ Homepage: https://packages.debian.org/dpkg
 Depends: perl, clang, make, dpkg (= 1.22.6-5)
 Description: Perl modules for dpkg
 Filename: pool/main/dpkg-perl_1.22.6-5_all.deb
-Size: 126328
-MD5sum: 93e11f29e33ddbb13145eefff07e6a93
-SHA1: 81fdddad641e82ba4e4f54c9eb448049ca1d0df3
-SHA256: 51e696b7c0af6257640b310567c208d7594e205b412672e3c46f15ce92ea1c36
+Size: 126344
+MD5sum: 3bec903cf8c635ad822433fb342c05a0
+SHA1: dd5a3372c29903cd99db71e9b33d8c4ba81aa677
+SHA256: 52499fe5ad50bf70b0c0b0defe7ddeb704a46cf473318f10b0a0c7844cc47f55
 
 Package: dpkg-scanpackages
 Architecture: all
@@ -892,6 +905,20 @@ Size: 105744
 MD5sum: 0a8e8d32c37a55b0ec71f57089be79a8
 SHA1: 7bdc8046683996e31a008a36b577ecedcc9846c4
 SHA256: f44a35d62e6e5f3d72c2fe275bba011e5d6de4ca2ef419da04a9994dedab900b
+
+Package: fmt
+Architecture: aarch64
+Installed-Size: 824
+Maintainer: OceanStudio <archive@ocean.studio>
+Version: 1:11.2.0
+Homepage: https://ocean.studio
+Depends: libc++
+Description: Open-source formatting library for C++
+Filename: pool/main/fmt_11.2.0_aarch64.deb
+Size: 168704
+MD5sum: 5de82c527d538e01c075900f0df399da
+SHA1: 75e8063577ebf4149e0de13379819de30aaba1e0
+SHA256: f1915f999bb1d9188f1e7790c831e55ef10bfacc12dabcf73a831e949c58401a
 
 Package: fontconfig-static
 Architecture: aarch64
@@ -1158,10 +1185,10 @@ Homepage: https://cli.github.com/
 Recommends: openssh
 Description: GitHub’s official command line tool
 Filename: pool/main/gh_2.98.0_aarch64.deb
-Size: 9924008
-MD5sum: 768ff3aeac78ed671bd29196f435423d
-SHA1: 6958ea91ff1a318649424e67665d147de32b0769
-SHA256: 65de73d642cbd9c4f31d9dd36f0231c47447a7aa56c670aa0559d38e07233f4d
+Size: 9922236
+MD5sum: 602264cb2e7e500ee91791c3b0da0688
+SHA1: dbbc627bd6fc485e230e318182b78b731da3de75
+SHA256: 6cea4a5f061b5f524132093a644a0877fed39de816c1f79f28dec54e7ed84013
 
 Package: giflib-static
 Architecture: aarch64
@@ -1290,10 +1317,10 @@ Depends: libandroid-support, libffi, libiconv, pcre2, resolv-conf, zlib, python
 Replaces: glib-dev, glib-bin
 Description: Library providing core building blocks for libraries and applications written in C
 Filename: pool/main/glib_2.88.3_aarch64.deb
-Size: 2558152
-MD5sum: 9ed785bdfc774b3a38bdb914741c90b9
-SHA1: 65c44c4c5efd49ca3d4f4c6118beff8fedeed8f5
-SHA256: 2c847da62d84f3ee29704535c9c198174d3ced2a1ce12481957d715db5d764d8
+Size: 2557868
+MD5sum: 344f242e443fd119483c1fcbd6d6117a
+SHA1: 8b9e5b2aefae2b8b1c347d6eb49523ff1a529655
+SHA256: cd29385ff3e98cbf0127984da7607d1591dbc034652c730f7714e1249ade4617
 
 Package: glslang
 Architecture: aarch64
@@ -1398,19 +1425,47 @@ MD5sum: f2a9f84b987b3bc32a5a79d2526ac2dc
 SHA1: d7f99139d525aac73102735807e9d9bfc306f0ff
 SHA256: b4dd967c32741e47e24d79ec3f46197b431790477422e07e5bf5e7f35e69940f
 
+Package: gradle-libs
+Version: 9.7.1
+Architecture: all
+Maintainer: OceanStudio <archive@ocean.studio>
+Section: devel
+Priority: optional
+Homepage: https://gradle.org/
+Description: Core libraries and compiler for Gradle build tool
+Filename: pool/main/gradle-libs_9.7.1_all.deb
+Size: 60971640
+MD5sum: c047db129c3a56e9e85cae2e9cda7c51
+SHA1: 3faf8e6068d2600a92d45ae9a18442ad683625aa
+SHA256: 0fc737993b31b7e41984bb282a0267b60710d32130a37afd573779c6105d0504
+
+Package: gradle-plugins
+Version: 9.7.1
+Architecture: all
+Maintainer: OceanStudio <archive@ocean.studio>
+Section: devel
+Priority: optional
+Homepage: https://gradle.org/
+Description: Plugins for the Gradle build tool
+Filename: pool/main/gradle-plugins_9.7.1_all.deb
+Size: 36111588
+MD5sum: 80171f45e7f98b3b9a67a94f088658c1
+SHA1: 06549451d377ddf58bceb8089a266e4c6a77a2c1
+SHA256: cf3d22bfcd9ac4fbf79ab10f9770c3fd398254b80b999b02eda72d7df04381c4
+
 Package: gradle
 Architecture: all
 Installed-Size: 168380
 Maintainer: OceanStudio <maintainer@ocean.studio>
 Version: 1:9.7.1
 Homepage: https://gradle.org/
-Depends: openjdk-21
+Depends: gradle-libs (= 9.7.1), gradle-plugins (= 9.7.1), openjdk-21
 Description: Powerful build system for the JVM
 Filename: pool/main/gradle_9.7.1_all.deb
-Size: 151233750
-MD5sum: 0babee463655f79fa97c2defd2b6ba80
-SHA1: a4dd41d6f616b868fb0cfda480b0889256e61f62
-SHA256: 131dbbfd5503a633d4a17ebebfc569d6a7743902319073dec349bf55d2c92363
+Size: 51906408
+MD5sum: 31da59e4c4a5d21b965599b676946170
+SHA1: 2ae1e4134047dce40197ae74ba338bdbf2e5ecaf
+SHA256: 9fa74fb812cb1b02bb36c94fc0b5953da5b77fc56eeff8b25db624f82b33cf2e
 
 Package: grep
 Architecture: aarch64
@@ -1426,6 +1481,23 @@ Size: 128360
 MD5sum: 8f1928b4da4621a4fc162742cc6b0f42
 SHA1: f75ea8591c4a788320c71842b69ec78ebb60449f
 SHA256: 99e659f9d6be625aec585a8fe3bea593ebeed24034cebf25b7da26ee2002dd38
+
+Package: guile
+Architecture: aarch64
+Installed-Size: 61004
+Maintainer: OceanStudio <archive@ocean.studio>
+Version: 3.0.11-1
+Homepage: https://ocean.studio
+Breaks: guile-dev
+Depends: libandroid-spawn, libandroid-support, libffi, libgc, libgmp, libiconv, libunistring, ncurses, readline
+Conflicts: guile18
+Replaces: guile-dev
+Description: Portable, embeddable Scheme implementation written in C
+Filename: pool/main/guile_3.0.11-1_aarch64.deb
+Size: 7692740
+MD5sum: 185e654e1ccf92c12decf09752cd1a58
+SHA1: 13b1bc56a465257f5bcda40660d5a79a618f2ac0
+SHA256: 75c91d20251ff1fe988140c527c54ada867c5a91fb940977683f1f8780dfd253
 
 Package: gzip
 Architecture: aarch64
@@ -1588,6 +1660,21 @@ Size: 748
 MD5sum: 91209d99304eb36b2c7dbaf0663cbf9a
 SHA1: ce3b9973512f9efb37fd69431e64c6de1a9010d3
 SHA256: 4a5f64b5e69cb04d90931a493992a2102b1f53942064be6fa89320ecd03c94c2
+
+Package: jdk
+Version: 21.0.12
+Architecture: all
+Maintainer: OceanStudio <archive@ocean.studio>
+Section: utils
+Priority: optional
+Depends: openjdk-21
+Homepage: https://ocean.studio
+Description: Java Development Kit (metapackage)
+Filename: pool/main/jdk_21.0.12_all.deb
+Size: 740
+MD5sum: fb6ed56650522369d1bbcc75d2153679
+SHA1: 7d3ac67286cd452c4a0e3aff98a8297bfdba9754
+SHA256: 15347166b192402b577698a6a57d342d6c2aaa66df3bdced37d84b2c2123f783
 
 Package: jq-static
 Architecture: aarch64
@@ -1791,10 +1878,10 @@ Essential: yes
 Replaces: lazyread
 Description: Terminal pager program used to view the contents of a text file one screen at a time
 Filename: pool/main/less_704_aarch64.deb
-Size: 138776
-MD5sum: e82126004b4e5682d536ec97f6f04b5b
-SHA1: 719dd469741a74273fb169a0071fdaf86d161784
-SHA256: 2221734ce27a0d091c4462d40247ae1cc246d5d4fb040ae2176c8706d9169b25
+Size: 138800
+MD5sum: 674ca28b9d1f57aca44693dc2139a330
+SHA1: bd1e214b7d9468fd30c8ce2f449f449d52850e21
+SHA256: 08f87a8677a3ede32a4aede89453ce7d6851528486f681e400e0548e84edbb6b
 
 Package: libacl-static
 Architecture: aarch64
@@ -2407,10 +2494,10 @@ Depends: libc++
 Conflicts: libllvm (<< 21.1.3), ndk-multilib (<< 23b-6)
 Description: Compiler runtime libraries for clang
 Filename: pool/main/libcompiler-rt_21.1.8-3_aarch64.deb
-Size: 3024552
-MD5sum: f1c7192ca0d5ca11016dd524194f30ac
-SHA1: 8ce44f0ae97a69848880caa4b0da2a86ca971294
-SHA256: c3d005b3ecbe4070c24dd83db4d551769bcca24c8f0bd399fffbc20234dfee26
+Size: 3026068
+MD5sum: cb928cbc15b7c421ae738204b6d2a623
+SHA1: aee6dcabbcef4853c4d84029cc89995169692510
+SHA256: 19f2599077a3802a3cbcd3ce6d8f1285d654708512087ff9de05cbbc6ca3df68
 
 Package: libcrypt
 Architecture: aarch64
@@ -2572,6 +2659,20 @@ MD5sum: ed1689423fe3fe5352c1db64f11b7bce
 SHA1: 71dfde703fdac98492f9e0704170ac92ab53eeb3
 SHA256: c765d6a100f04ca6ea2b6b2a6008231ac3780fa830bdfaf90e76c50ae7f1a7dd
 
+Package: libdw
+Architecture: aarch64
+Installed-Size: 816
+Maintainer: OceanStudio <archive@ocean.studio>
+Version: 0.193-1
+Homepage: https://ocean.studio
+Depends: argp, libbz2, liblzma, libelf (= 0.193-1)
+Description: Library to read DWARF information
+Filename: pool/main/libdw_0.193-1_aarch64.deb
+Size: 211892
+MD5sum: ab2f54a7daa71af5f63af61c01a1e0d2
+SHA1: 975ea97358219fab751b4bb4e86f3386f8ffb22d
+SHA256: d09e891b9084159b680102ace3ecef2ee645da58438dd5fa92cdc5a3af9d2179
+
 Package: libedit-static
 Architecture: aarch64
 Installed-Size: 388
@@ -2601,6 +2702,22 @@ Size: 80016
 MD5sum: 911016821df8af04b068286efc086516
 SHA1: c23b5efcdc9927809b73b476b6414d0f8f2ae460
 SHA256: b9e6adf103cc91194c74884da821897f6ee99521fe5d949358d84816c078e37c
+
+Package: libelf
+Architecture: aarch64
+Installed-Size: 372
+Maintainer: OceanStudio <archive@ocean.studio>
+Version: 0.193-1
+Homepage: https://ocean.studio
+Depends: libandroid-support, zlib, zstd, json-c
+Conflicts: libelf-dev
+Replaces: libelf-dev
+Description: ELF object file access library
+Filename: pool/main/libelf_0.193-1_aarch64.deb
+Size: 66208
+MD5sum: d273bd17380bed3dcac2ee386d98a244
+SHA1: 271f3463d8581e2c75e70969865cf0114688d454
+SHA256: e5a776ae3e6c7f64d7e4d873876049743ceddc4d08b134e15c31b1e4a38714f8
 
 Package: libevent
 Architecture: aarch64
@@ -2718,6 +2835,21 @@ Size: 203192
 MD5sum: 4712a7f30d3d3f602f9b5b2ec59b2952
 SHA1: 9e774bf4b753640ac39c2a615367d08ea78bc5d9
 SHA256: 8551dab142ea5250711b474e1b91750db36f83efa1efcf8a5c5180f7733bac6e
+
+Package: libgc
+Architecture: aarch64
+Installed-Size: 880
+Maintainer: OceanStudio <archive@ocean.studio>
+Version: 8.2.12
+Homepage: https://ocean.studio
+Breaks: libgc-dev
+Replaces: libgc-dev
+Description: Library providing the Boehm-Demers-Weiser conservative garbage collector
+Filename: pool/main/libgc_8.2.12_aarch64.deb
+Size: 204832
+MD5sum: b33547a1ef7da85dc8f5266b5f602846
+SHA1: 0baca793ca6128522a7144d8f7b8235e344212d5
+SHA256: 02c5e512c7cad023974035e064b0a572a6e6ef8317f17c9c3ef488b2e51ff56a
 
 Package: libgcrypt-static
 Architecture: aarch64
@@ -3715,6 +3847,21 @@ MD5sum: 7959e7678de2a7299437f40fc0ebdd8e
 SHA1: 4696ba6ceee0f23a497d3c0ba757c83b61fbe7f3
 SHA256: 7aa7923429b98c62eabb969080abdd794e47ef0c21496206a24f39128c165228
 
+Package: libpcre2
+Version: 10.47
+Architecture: all
+Maintainer: OceanStudio <archive@ocean.studio>
+Section: utils
+Priority: optional
+Depends: pcre2
+Homepage: https://ocean.studio
+Description: PCRE2 library compatibility package
+Filename: pool/main/libpcre2_10.47_all.deb
+Size: 736
+MD5sum: cf94d98ba2ee971754888987c52c3ef3
+SHA1: b8dbc8df82601b4d4dec6da6f9b6a2e1cd5030df
+SHA256: d7507f80d6f31f1e63040a8a2afa98eb869829c2acf9007cf19dfa00a5201a7c
+
 Package: libpixman
 Architecture: aarch64
 Installed-Size: 672
@@ -4095,6 +4242,19 @@ Size: 101436
 MD5sum: f9277ef0119399069fee1a178f8c73d6
 SHA1: 2bb64426a2997e1caf3176049bc8730fb3ceaf10
 SHA256: 08b67882ee618638b6bb2d530f1083fa61e28bed4b4e5e295d1c0a92fcb666b0
+
+Package: libthread-db
+Architecture: aarch64
+Installed-Size: 56
+Maintainer: OceanStudio <archive@ocean.studio>
+Version: 22-2
+Homepage: https://ocean.studio
+Description: Thread debugging library
+Filename: pool/main/libthread-db_22-2_aarch64.deb
+Size: 4332
+MD5sum: c7beddf7e9132749480496baca7bb5ee
+SHA1: 7e2653b149e71be7767805f5c185ec01f14693bf
+SHA256: 36b0ffc40d82c1ebfc0b8de08f7a877aab6382eca2c6e9c9e073c1cc7226ecec
 
 Package: libtiff-static
 Architecture: aarch64
@@ -4765,6 +4925,22 @@ MD5sum: 20e14621d620d57c8a26a14a9f63bd10
 SHA1: 43320fa061f492c6cf764a6f0a58976dde21c61e
 SHA256: b797481f4b9568b18f028d1083760eca1c304a870d5ddf0bfa21a81532bec340
 
+Package: libzopfli
+Architecture: aarch64
+Installed-Size: 368
+Maintainer: OceanStudio <archive@ocean.studio>
+Version: 1.0.3-5
+Homepage: https://ocean.studio
+Breaks: libzopfli-dev
+Depends: libc++
+Replaces: libzopfli-dev
+Description: New zlib compatible compressor library
+Filename: pool/main/libzopfli_1.0.3-5_aarch64.deb
+Size: 119100
+MD5sum: cce1118520f8ba17db5a381d125429d9
+SHA1: 614993d87d067e8741648c540e9c2da9fc268f46
+SHA256: 86c80fd18bdaa79da19dfc17f0883ffb640c07670d5b74c2e7d253c31d34d527
+
 Package: littlecms-static
 Architecture: aarch64
 Installed-Size: 652
@@ -4898,10 +5074,10 @@ Breaks: liblua-dev, liblua54
 Replaces: liblua-dev, liblua54
 Description: Lua scripting language 5.4.x
 Filename: pool/main/lua54_5.4.8-10_aarch64.deb
-Size: 160920
-MD5sum: 343680be730bfeb63ff28c0e37983224
-SHA1: 0542027d401a53b91c677834e2cbcf920d0ca2d6
-SHA256: 396921f60548f84ca80a5db077eda136dc7e2bf15ea2b101b54cf4d7063dc0a8
+Size: 161036
+MD5sum: 1df2ef07b8f63b219f4b5a6e09e662e3
+SHA1: 159c6cd3b86aec6828a41f8dfe2badb966ebf1f4
+SHA256: c52a5ae7bce8ca71480c64b5cd8827cdbc2c3911f39b06377903a6cd1a815100
 
 Package: luajit-static
 Architecture: aarch64
@@ -4998,10 +5174,10 @@ Version: 2.0.15-2
 Homepage: https://micro-editor.github.io/
 Description: Modern and intuitive terminal-based text editor
 Filename: pool/main/micro_2.0.15-2_aarch64.deb
-Size: 3850940
-MD5sum: 85ed3781609871ae4f694184c2416406
-SHA1: 8b16585c9556f33998e00576b10a3b40596e226e
-SHA256: cc680b676763ae69950e42154cfc468f295fbd90070cedb9c2ee76e0713b5354
+Size: 3853740
+MD5sum: f719e4026f4fe46228dfb16872a191b6
+SHA1: 72615635e876a06bb16351f7788f3df4c1ac730a
+SHA256: 07ffbce8709fe397dd033b4ea03fd1861384874b10cb260270c33598d8c21b04
 
 Package: mlir
 Architecture: aarch64
@@ -5055,10 +5231,10 @@ Homepage: https://www.nano-editor.org/
 Depends: libandroid-support, ncurses, libmagic
 Description: Small, free and friendly text editor
 Filename: pool/main/nano_9.2-1_aarch64.deb
-Size: 241032
-MD5sum: f9c33b123674c594bc47af39994ef71b
-SHA1: d261995b7693129855b14ffa129586cf8e0f886d
-SHA256: c8c7cf5feff3939cc15b7f166129c639e27a19d104f8a271fafa559e7783e8e4
+Size: 241112
+MD5sum: bdcff64e0965fcc52684653c53a90f1f
+SHA1: 1e6822d9bee073d30e6c728e514889283212ed40
+SHA256: b03cc8079260b1f2807d1fe67de0f14eb391907c777bc2d6c0c970202ec79f47
 
 Package: ncurses-static
 Architecture: aarch64
@@ -5195,14 +5371,14 @@ Version: 7.95
 Architecture: aarch64
 Maintainer: OceanStudio <archive@ocean.studio>
 Installed-Size: 28000
-Depends: libpcre2, zlib
+Depends: pcre2, zlib
 Homepage: https://nmap.org
 Description: Network exploration tool and security / port scanner (includes nmap, ncat, nping)
 Filename: pool/main/nmap_7.95_aarch64.deb
-Size: 5493168
-MD5sum: e34abb59d9d90349f9896885b157889c
-SHA1: 76375b0b941d346749457f3dfa2a4313330c0187
-SHA256: 0217fddb72005eaead7ca514d330232d85ff9e93d60a161f32d1bbd946c0d60f
+Size: 5492560
+MD5sum: 00f955623bc7334d82180e6ffbd03f60
+SHA1: 18c6780aa7101e93b6b1708625f1c3c4c7056570
+SHA256: c8f221aa03526c1300a4bf2f1234f572171dfe948922f19d574895b80f1afc79
 
 Package: nodejs
 Architecture: aarch64
@@ -5218,10 +5394,10 @@ Replaces: nodejs-current, nodejs-dev
 Suggests: clang, make, pkg-config, python
 Description: Open Source, cross-platform JavaScript runtime environment
 Filename: pool/main/nodejs_26.4.0-1_aarch64.deb
-Size: 10339588
-MD5sum: e4c445348c4ec14b0b446daf2f43f9d6
-SHA1: 8a1220908e732484885ddd7470eab1b48121bdd0
-SHA256: 266c55b266a5c46abda989d1e1a80ca92386877e079f7abff865fb968ed5b71e
+Size: 10352956
+MD5sum: 6da2a8993eff26375cf74b0f67e5b4e9
+SHA1: 1a32014470354aca7da1c8dd530b81a708088e5f
+SHA256: 9945a3e8471075a09df96ca53dda861b22f730ae615ed1cfa915f9fe0a8e3c1b
 
 Package: npm
 Architecture: all
@@ -5267,10 +5443,10 @@ Description: Ocean PRoot Linux distribution and rootfs manager
  AlmaLinux, Kali, Mint, CentOS, Devuan, Gentoo, and Slackware userland
  universes inside OceanStudio using PRoot virtualization.
 Filename: pool/main/ocean-distro_1.0.0_all.deb
-Size: 5224
-MD5sum: 6b68b5e55fb6e3fb6613568a264ac789
-SHA1: c9b932ef1eb74031e7432fc51654265d36bd9cf9
-SHA256: 2585f6e3cc3167eb2d57c7dd456c421c16529823f412345b402c7c584472d578
+Size: 5404
+MD5sum: 86f261395ede660b251aa22cf340bfc2
+SHA1: d93a607bf277893688a0e328466b33071de4ff5f
+SHA256: c57427c64c3b27d6f6a82e657e5d06aa2325325f66162a3f08e30afc85f5b71d
 
 Package: ocean-exec
 Version: 1.0.0
@@ -5361,6 +5537,21 @@ MD5sum: 11c4cdf141fb10f347b97c0669088680
 SHA1: 2396f285f2be5729cfb62bfe63f19423ba363741
 SHA256: 9f69dd8aa347dc9aab0f754d569fba39a03437b6eb6cfe13810bc638d392efa0
 
+Package: open-jdk
+Version: 21.0.12
+Architecture: all
+Maintainer: OceanStudio <archive@ocean.studio>
+Section: utils
+Priority: optional
+Depends: openjdk-21
+Homepage: https://ocean.studio
+Description: Java Development Kit (metapackage)
+Filename: pool/main/open-jdk_21.0.12_all.deb
+Size: 744
+MD5sum: 5641ad4b4d62273b9e83d414639c90a2
+SHA1: 22a82dd91306bbcfd63e16bbedb35ad5e5fe96ca
+SHA256: 5a5320044a103f5577cc0647cc4b69f0ee55f23c658d5ffa6f32f1e4a24738bb
+
 Package: openexr
 Architecture: aarch64
 Installed-Size: 4940
@@ -5377,7 +5568,7 @@ MD5sum: 7a3d34d1f0a724fc27579757ea4b9596
 SHA1: 4fcf529885bd0ddebafd92b9464faa075b57e34e
 SHA256: 73fb7841134aa82a75fb31344798031cdf20eb1c45b814c4a1c0c3abf35bd1ed
 
-Package: openjdk-21
+Package: openjdk-21-jre-headless
 Architecture: aarch64
 Installed-Size: 249532
 Maintainer: OceanStudio <archive@ocean.studio>
@@ -5385,12 +5576,27 @@ Version: 21.0.12
 Homepage: https://openjdk.java.net
 Depends: libandroid-shmem, libandroid-spawn, libiconv, libjpeg-turbo, zlib, littlecms
 Recommends: ca-certificates-java, resolv-conf
+Description: Java runtime environment (headless)
+Filename: pool/main/openjdk-21-jre-headless_21.0.12_aarch64.deb
+Size: 38449072
+MD5sum: 6bb4302d545a29ea05c2224b35ceec0e
+SHA1: 89a7aaed8bfd3f5cb0024637ed174ddd6c5b9167
+SHA256: 62e6dbfcd86fa8c4431f520e6c240d1902fca1a9018d0c81805a4a4c9267caa7
+
+Package: openjdk-21
+Architecture: aarch64
+Installed-Size: 249532
+Maintainer: OceanStudio <archive@ocean.studio>
+Version: 21.0.12
+Homepage: https://openjdk.java.net
+Depends: openjdk-21-jre-headless (= 21.0.12)
+Recommends: ca-certificates-java, resolv-conf
 Description: Java development kit and runtime
 Filename: pool/main/openjdk-21_21.0.12_aarch64.deb
-Size: 106214652
-MD5sum: be239d7cc28fa47e3c976b20de723506
-SHA1: 1f08802100d7c9bc14adfb23f5d46d24aa87d62a
-SHA256: dbfc45ef6afa10d93a5dc0369c0227fe71c9b0079cc8d9e0cb365293892fcd44
+Size: 74094116
+MD5sum: 9f6630cf0a4b4434b60aa20d86827f2e
+SHA1: c008725aef86f9e15f5e1d6c02ad0e2a53c34e50
+SHA256: 4a1c999cf4d21d3cbd29d93489fcd7f96c09f0df7791b2356d2bac1d7407fcd8
 
 Package: openjdk
 Version: 21.0.6
@@ -5665,10 +5871,10 @@ Homepage: https://php.net
 Depends: apache2, apr-util, php (= 8.5.1)
 Description: Apache 2.0 Handler module for PHP
 Filename: pool/main/php-apache_8.5.1_aarch64.deb
-Size: 3627980
-MD5sum: fa78472e72a8040a1b0085ab25bc0881
-SHA1: 202590dd06fc2dd7de689be66d000819b873ea56
-SHA256: 9320a270aea98367afde78b25c294d6207e42aa6d96ee3656bad748832303ad9
+Size: 3627780
+MD5sum: fb5540ccb2e6df8e05da70d05a1f3a72
+SHA1: 7eeb9a02baf427c8ae3e3e2790b76e8d87dc5f48
+SHA256: b223f12b71dc56edc1affe9dec2d3b71de2cc9a43e5fe8911e6720037e0be20b
 
 Package: php-fpm
 Architecture: aarch64
@@ -5855,10 +6061,10 @@ Depends: libandroid-shmem, libtalloc
 Suggests: proot-distro
 Description: Emulate chroot, bind mount and binfmt_misc for non-root users
 Filename: pool/main/proot_5.1.107.92_aarch64.deb
-Size: 97420
-MD5sum: 37ca66b7368f92d73c4d6df2e66da87c
-SHA1: 6088450726232e389ef454f8d4b9cc18fec427ad
-SHA256: 1127d3e6507fd607c22a4357e497ccd3b3b66be3de3b95765d130ae5fca54c7d
+Size: 97668
+MD5sum: c1711fc87b1ee18d5a1c778775d41664
+SHA1: 2f975fd5d466a22e94cf81d3a7d0fc60e19af583
+SHA256: 018d7f3d5e6569bbac83b62e5727ee52e4465e46135ee4565e976aecff2f4740
 
 Package: pulseaudio-glib
 Architecture: aarch64
@@ -6174,20 +6380,34 @@ MD5sum: 8ecaa632bec5bed24b8c44d4aa515f52
 SHA1: ee849882f76584a11284e1941c95451c5f2ae050
 SHA256: eaa0fce9e9d8968b0528b107d2fe3ec21019cdf7a2e1114f9e4883a95cadc867
 
+Package: rust-std-aarch64-linux-android
+Architecture: aarch64
+Version: 1.98.0
+Maintainer: OceanStudio <archive@ocean.studio>
+Section: devel
+Priority: optional
+Description: Rust standard library for aarch64-linux-android
+Filename: pool/main/rust-std-aarch64-linux-android_1.98.0_aarch64.deb
+Size: 44755088
+MD5sum: 8116edf2be030e8d789916e3498c289c
+SHA1: c6fbf312e56fcb593a7feea863c2b46c0b087146
+SHA256: cff9ec5d87da2c43a68492e2241aa78c337b7dda700bf8d946316547de535255
+
 Package: rust
 Architecture: aarch64
 Installed-Size: 562160
 Maintainer: OceanStudio <maintainer@ocean.studio>
 Version: 1.98.0
 Homepage: https://www.rust-lang.org/
-Depends: clang, libandroid-execinfo, libc++, libllvm (<< 22), lld, openssl, zlib, rust-std-aarch64-linux-android
+Depends: clang, libandroid-execinfo, libc++, libllvm (<< 22), lld, openssl, zlib, rust-std-aarch64-linux-android (= 1.98.0)
 Suggests: rust-analyzer
 Description: Systems programming language focused on safety, speed and concurrency
+Provides: rust-std-aarch64-linux-android (= 1.98.0)
 Filename: pool/main/rust_1.98.0_aarch64.deb
-Size: 125357504
-MD5sum: 34c329ae9c29333181381e3294f2d003
-SHA1: 77b971421dc07ff30c4d36a280239e15f3783ecc
-SHA256: 37c352593171367a65394f3748c0a7edcd6bc812f2394ecde30d293dac188680
+Size: 80601372
+MD5sum: 9d2e8074eaba50bf630e1e07b1e4c136
+SHA1: 4ba0c41cf5b71f6a5c6d0f1669a681fbad3a9b32
+SHA256: d40cf1110e631c8a247955986f1d130558905da38767282c62d0d1b2b96561e9
 
 Package: scdaemon
 Architecture: aarch64
@@ -6605,6 +6825,21 @@ MD5sum: 4902afaf295adf375ce2340a00d44a2f
 SHA1: 18d2dc6dc69df8e30949d9afee36dd811665a32a
 SHA256: 4faa2f856c8c077ece0bab980acaec56ebd55033189182302eab834d18effc09
 
+Package: typescript
+Version: 7.0.2
+Architecture: all
+Maintainer: OceanStudio <archive@ocean.studio>
+Section: devel
+Priority: optional
+Depends: nodejs
+Homepage: https://www.typescriptlang.org/
+Description: TypeScript is a language for application-scale JavaScript development
+Filename: pool/main/typescript_7.0.2_all.deb
+Size: 270204
+MD5sum: ccd553b54b855aae35cce3c9c19fa847
+SHA1: 0db161e9905131572f269c64705b4f31163eb9fd
+SHA256: eabdd06958a00f6caed4b0ed615363c981283c28807a13e7e4f2169281c907d9
+
 Package: unbound
 Architecture: aarch64
 Installed-Size: 3504
@@ -6642,10 +6877,10 @@ Homepage: https://www.gnu.org/software/texinfo/
 Depends: texinfo (= 7.3)
 Description: Update or create index file from all installed info files in directory
 Filename: pool/main/update-info-dir_7.3_all.deb
-Size: 2524
-MD5sum: 17e2365db4f239daf1eaaa5333c99d5b
-SHA1: 368951c00f14f3d6144542c989b2a37ef484a747
-SHA256: 50f37d2352834737b0bef2412cbfc80f4dcfb3c433dfb21ef885f55b6fc0a1c4
+Size: 2540
+MD5sum: 49f202e23569b47b21f603c371fdca08
+SHA1: 97af0c1e9390bf3697c032a6971022fca9318493
+SHA256: fdac330732f74d15b417f6c2d0af60fb5f7149afedbdb9c11139092316eb1729
 
 Package: utf8proc-static
 Architecture: aarch64
@@ -6702,10 +6937,10 @@ Essential: yes
 Replaces: util-linux-dev
 Description: Miscellaneous system utilities
 Filename: pool/main/util-linux_2.42.1-4_aarch64.deb
-Size: 786376
-MD5sum: ba68039cd344ae6987754264f2b456b6
-SHA1: 6f71c1dd5d7fe4cc9bc942992ad8446cb91c4928
-SHA256: 51dca05a078435885179ca2273e3fd33a57dbff7d6434ca1b7c91ac8f1481169
+Size: 786856
+MD5sum: 2772139d91bb5f1d62f808dd2bc25418
+SHA1: efd1c228a799cb654c3c9d283ca84019dca5cb4b
+SHA256: 5f8e72f0d99224de00e0416b7dd0336ab41a51788f14d118679af0231d229c30
 
 Package: uuid-utils
 Architecture: aarch64
@@ -6736,10 +6971,10 @@ Provides: vim-python
 Suggests: luajit, perl, python, ruby, tcl
 Description: Vi IMproved - enhanced vi editor
 Filename: pool/main/vim_9.2.1000_aarch64.deb
-Size: 6797780
-MD5sum: ddd0c04e101529222d482851e594d975
-SHA1: 9698382a73cdf549caec3795af914f0c422484fd
-SHA256: 17eeee3a5d52eb0361baa8c4b3c3444c93440fbcedec8cde81e4e6f5119999d7
+Size: 6798440
+MD5sum: 9ebae7fa6a9be0e1b90c0920ff69f47c
+SHA1: 34f22d64e883f8b800a47d67b65b0e5121bb20c9
+SHA256: 8ee85d0c6e1a7423c124eb712db95f6d11bbf530a27a7a6e757ddc7445b9d02c
 
 Package: vulkan-headers
 Architecture: all
@@ -6760,13 +6995,12 @@ Installed-Size: 4
 Maintainer: OceanStudio <maintainer@ocean.studio>
 Version: 0.1-1
 Homepage: https://ocean.studio
-Depends: mesa-vulkan-icd-swrast | mesa-vulkan-icd-freedreno | mesa-vulkan-icd-virtio | swiftshader
 Description: A metapackage that provides Vulkan ICDs
 Filename: pool/main/vulkan-icd_0.1-1_all.deb
-Size: 764
-MD5sum: d0908692f669c1ac12785539b196895d
-SHA1: e106748eb2b4a5a716f89abd3194a00186b133a5
-SHA256: 058535ff04d60e6bedd9a2aced2ad1969abdb7f2485aacfd5b179849f05b75d2
+Size: 732
+MD5sum: ae967823373c981163600c47f9450765
+SHA1: f22665072632c4d35eb7d12b2501035806158ece
+SHA256: 3322081830c66d4799e087efec44a18205134d20ab7b39817da9e779c3c03603
 
 Package: wget
 Architecture: aarch64
