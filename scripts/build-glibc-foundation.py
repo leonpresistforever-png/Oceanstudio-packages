@@ -165,7 +165,7 @@ def main():
         w=pathlib.Path(temp);source=w/"source"
         run(["git","init","-q",source])
         run(["git","-C",source,"remote","add","origin",m["sourceUrl"]])
-        run(["git","-C",source,"fetch","--depth=1","origin",m["commit"]])
+        run(["git","-C",source,"fetch","--depth=2","origin",m["commit"]])
         run(["git","-C",source,"checkout","--detach","-q","FETCH_HEAD"])
         head=run(["git","-C",source,"rev-parse","HEAD"],capture=True).stdout.strip()
         if head!=m["commit"]: raise SystemExit(f"glibc source commit mismatch: {head}")
