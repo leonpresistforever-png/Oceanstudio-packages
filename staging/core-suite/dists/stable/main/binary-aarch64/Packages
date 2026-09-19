@@ -1,0 +1,69 @@
+Package: buildroot
+Version: 2026.08-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: bash, make, python, git, tar, gzip, bzip2, xz-utils, patch, sed, gawk, grep, findutils, diffutils, coreutils
+Filename: pool/main/buildroot_2026.08-1_all.deb
+Size: 5595172
+MD5sum: f06ce763d8158238f48a7dafc72f967b
+SHA1: 279f4498a4f49b4b2aaa5a561096cb2ab63cd375
+SHA256: be83f749e15ae87d49c06b39a48a120f738e5e75ba7df53f21a5ec2eaae93e50
+Section: devel
+Priority: optional
+Description: Official Buildroot 2026.08 source framework with Ocean private workspace launcher
+
+Package: busybox
+Version: 1.38.0-1
+Architecture: aarch64
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Filename: pool/main/busybox_1.38.0-1_aarch64.deb
+Size: 428344
+MD5sum: e810738d66a104631aa26752cb5f5149
+SHA1: 0f070b33a75defbad25c95f577727fb8b0c7ee50
+SHA256: 7888fe8ba4de16aed5f0a4ab4a0306362c96497cf6c2486e211fbf17f5d29e76
+Section: utils
+Priority: optional
+Description: BusyBox multicall utility compiled from official upstream source for Ocean Android/AArch64
+
+Package: sbase
+Version: 0.1+gitc546c3a-1
+Architecture: aarch64
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Filename: pool/main/sbase_0.1+gitc546c3a-1_aarch64.deb
+Size: 128372
+MD5sum: ae64318379a8d0b22f427d8aef459375
+SHA1: a03fe0ed3f85be6df2375c3a12c09d7bdb33eef6
+SHA256: 600ec6901d78d902e3a91dce40e126f79be1d68ccf1ade56873ee42913f03194
+Section: utils
+Priority: optional
+Description: suckless sbase multicall utilities compiled for Ocean Android/AArch64
+
+Package: sinit
+Version: 1.1+git28c44b6-1
+Architecture: aarch64
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Filename: pool/main/sinit_1.1+git28c44b6-1_aarch64.deb
+Size: 3996
+MD5sum: 9c2c8a6a54aeb4ea357233a5dad205e5
+SHA1: f4d5cbb03590692f6f881514444d6f4752d190bf
+SHA256: f909d5fe26d86637770de2d55394b25f6bae7a281befe3512076dfd74052b51c
+Section: utils
+Priority: optional
+Description: suckless sinit compiled for Ocean; intended for a suitable PID-1 container/rootfs environment
+
+Package: ubase
+Version: 0.1+gite8249b4-1
+Architecture: aarch64
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Filename: pool/main/ubase_0.1+gite8249b4-1_aarch64.deb
+Size: 30440
+MD5sum: e8ae9ae948b9f89dcfccc8b5e40c30b6
+SHA1: ace04bfa1a860876b06bbe83070aa74aea869f2f
+SHA256: dfebe24bac8ff2dfce8eb16f4a1b10b407157efccba022d58e03499acc8f16d9
+Section: utils
+Priority: optional
+Description: suckless ubase Linux utility multicall binary compiled for Ocean Android/AArch64
+
+dpkg-scanpackages: warning: Packages in archive but missing from override file:
+dpkg-scanpackages: warning:   buildroot busybox sbase sinit ubase
+dpkg-scanpackages: info: Wrote 5 entries to output Packages file.

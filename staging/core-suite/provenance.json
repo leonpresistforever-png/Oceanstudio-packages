@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "sourcePolicy": "official upstream source only; no Termux packages or binary caches",
+  "target": "aarch64-linux-android28",
+  "ndkRevision": "27.0.12077973",
+  "packageCount": 5,
+  "builds": [
+    {
+      "package": "busybox",
+      "artifact": "busybox_1.38.0-1_aarch64.deb",
+      "sha256": "7888fe8ba4de16aed5f0a4ab4a0306362c96497cf6c2486e211fbf17f5d29e76",
+      "sourceSha256": "34f9ea6ff8636f2c9241153b9114eefa9e65674a45318ae1ef95bb5f31c53bb2",
+      "patches": [
+        "base config switched to upstream android_ndk_defconfig",
+        "strip obsolete upstream NDK path/toolchain flags",
+        "disable Android-incompatible console/init/power/adjtimex/login crypt features"
+      ],
+      "validation": {
+        "needed": [
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "interpreter": [
+          "/system/bin/linker64"
+        ]
+      }
+    },
+    {
+      "package": "sbase",
+      "artifact": "sbase_0.1+gitc546c3a-1_aarch64.deb",
+      "sha256": "600ec6901d78d902e3a91dce40e126f79be1d68ccf1ade56873ee42913f03194",
+      "commit": "c546c3a5724c81cee9a11d816a38ccdf17472129",
+      "patches": [
+        "HOSTCC for build-time scripts/make"
+      ],
+      "validation": {
+        "needed": [
+          "libdl.so",
+          "libc.so"
+        ],
+        "interpreter": [
+          "/system/bin/linker64"
+        ]
+      }
+    },
+    {
+      "package": "ubase",
+      "artifact": "ubase_0.1+gite8249b4-1_aarch64.deb",
+      "sha256": "dfebe24bac8ff2dfce8eb16f4a1b10b407157efccba022d58e03499acc8f16d9",
+      "commit": "e8249b49ca3e02032dece5e0cdac3d236667a6d9",
+      "patches": [
+        "exclude setuid passwd/su and console getty/login unsupported on Android Bionic"
+      ],
+      "validation": {
+        "needed": [
+          "libdl.so",
+          "libc.so"
+        ],
+        "interpreter": [
+          "/system/bin/linker64"
+        ]
+      }
+    },
+    {
+      "package": "sinit",
+      "artifact": "sinit_1.1+git28c44b6-1_aarch64.deb",
+      "sha256": "f909d5fe26d86637770de2d55394b25f6bae7a281befe3512076dfd74052b51c",
+      "commit": "28c44b6b94a870f2942c37f9cfbae8b770595712",
+      "patches": [
+        "rc paths relocated to Ocean private prefix"
+      ],
+      "validation": {
+        "needed": [
+          "libdl.so",
+          "libc.so"
+        ],
+        "interpreter": [
+          "/system/bin/linker64"
+        ]
+      }
+    },
+    {
+      "package": "buildroot",
+      "artifact": "buildroot_2026.08-1_all.deb",
+      "sha256": "be83f749e15ae87d49c06b39a48a120f738e5e75ba7df53f21a5ec2eaae93e50",
+      "tag": "2026.08",
+      "commit": "d5180309b1b66ef3b8eaccca70ad69be8e0729a1",
+      "validation": {
+        "makeHelp": "passed"
+      }
+    }
+  ],
+  "packages": [
+    {
+      "package": "buildroot",
+      "architecture": "all",
+      "artifact": "buildroot_2026.08-1_all.deb",
+      "sha256": "be83f749e15ae87d49c06b39a48a120f738e5e75ba7df53f21a5ec2eaae93e50",
+      "bytes": 5595172
+    },
+    {
+      "package": "busybox",
+      "architecture": "aarch64",
+      "artifact": "busybox_1.38.0-1_aarch64.deb",
+      "sha256": "7888fe8ba4de16aed5f0a4ab4a0306362c96497cf6c2486e211fbf17f5d29e76",
+      "bytes": 428344
+    },
+    {
+      "package": "sbase",
+      "architecture": "aarch64",
+      "artifact": "sbase_0.1+gitc546c3a-1_aarch64.deb",
+      "sha256": "600ec6901d78d902e3a91dce40e126f79be1d68ccf1ade56873ee42913f03194",
+      "bytes": 128372
+    },
+    {
+      "package": "sinit",
+      "architecture": "aarch64",
+      "artifact": "sinit_1.1+git28c44b6-1_aarch64.deb",
+      "sha256": "f909d5fe26d86637770de2d55394b25f6bae7a281befe3512076dfd74052b51c",
+      "bytes": 3996
+    },
+    {
+      "package": "ubase",
+      "architecture": "aarch64",
+      "artifact": "ubase_0.1+gite8249b4-1_aarch64.deb",
+      "sha256": "dfebe24bac8ff2dfce8eb16f4a1b10b407157efccba022d58e03499acc8f16d9",
+      "bytes": 30440
+    }
+  ],
+  "promotion": "staging-only until signed repository promotion"
+}
