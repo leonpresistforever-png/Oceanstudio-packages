@@ -1,0 +1,70 @@
+name: Build isolated Ocean glibc foundation
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'sources/glibc-2.44/**'
+      - 'scripts/build-glibc-foundation.py'
+      - '.github/workflows/glibc-foundation.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ocean-glibc-foundation
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    steps:
+      - name: Checkout package repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install cross-build and verification tools
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          sudo apt-get install -y             build-essential gawk bison python3 texinfo gettext             dpkg-dev gnupg gzip xz-utils             gcc-aarch64-linux-gnu g++-aarch64-linux-gnu             binutils-aarch64-linux-gnu linux-libc-dev-arm64-cross             qemu-user
+
+      - name: Build and validate isolated glibc packages
+        run: |
+          set -euo pipefail
+          rm -rf staging/glibc-2.44
+          python3 scripts/build-glibc-foundation.py             --manifest sources/glibc-2.44/manifest.json             --output staging/glibc-2.44
+
+          test "$(find staging/glibc-2.44/pool/main -name '*.deb' | wc -l)" -eq 5
+          test "$(grep -c '^Package: ' staging/glibc-2.44/dists/stable/main/binary-aarch64/Packages)" -eq 5
+          grep -q '"signatureVerification": "gpgv PASS"' staging/glibc-2.44/provenance.json
+          grep -q '"qemuSmokeTest": "OCEAN_GLIBC_OK"' staging/glibc-2.44/provenance.json
+
+          ! grep -R -a -E '/data/(data|user/0)/com\.termux|packages\.termux\.dev|TERMUX_PREFIX' staging/glibc-2.44
+
+          dpkg-deb -c staging/glibc-2.44/pool/main/ocean-glibc_2.44-1_aarch64.deb             | grep -q 'data/data/studio.ocean.app/files/glibc'
+          dpkg-deb -c staging/glibc-2.44/pool/main/ocean-glibc-runner_2.44-1_all.deb             | grep -q 'data/data/studio.ocean.app/files/usr/bin/ocean-glibc-run'
+
+      - name: Verify existing Ocean core remains untouched
+        run: |
+          set -euo pipefail
+          test -f apt/dists/stable/main/binary-aarch64/Packages
+          grep -q '^Package: bash$' apt/dists/stable/main/binary-aarch64/Packages
+          ! grep -q '^Package: ocean-glibc$' apt/dists/stable/main/binary-aarch64/Packages
+          echo "Live signed APT index intentionally unchanged."
+
+      - name: Commit verified staged glibc family
+        run: |
+          set -euo pipefail
+          git config user.name "Ocean Package Builder"
+          git config user.email "packages@ocean.studio"
+          git add staging/glibc-2.44
+          if git diff --cached --quiet; then
+            echo "No generated changes."
+            exit 0
+          fi
+          git commit -m "Build isolated GNU glibc 2.44 Ocean foundation [skip ci]"
+          git push origin HEAD:main
