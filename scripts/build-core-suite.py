@@ -112,7 +112,7 @@ def busybox(item,ndk,work,pool,readelf):
     cfg=src/".config";text=cfg.read_text()
     text=re.sub(r'^CONFIG_CROSS_COMPILER_PREFIX=.*$', 'CONFIG_CROSS_COMPILER_PREFIX=""', text, flags=re.M)
     text=re.sub(r'^CONFIG_SYSROOT=.*$', 'CONFIG_SYSROOT=""', text, flags=re.M)
-    text=re.sub(r'^CONFIG_EXTRA_CFLAGS=.*$', 'CONFIG_EXTRA_CFLAGS=""', text, flags=re.M)
+    text=re.sub(r'^CONFIG_EXTRA_CFLAGS=.*$', 'CONFIG_EXTRA_CFLAGS="-Dexplicit_bzero(b,len)=memset(b,0,len)"', text, flags=re.M)
     text=re.sub(r'^CONFIG_EXTRA_LDFLAGS=.*$', 'CONFIG_EXTRA_LDFLAGS=""', text, flags=re.M)
     text=re.sub(r'^CONFIG_EXTRA_LDLIBS=.*$', 'CONFIG_EXTRA_LDLIBS=""', text, flags=re.M)
     text=re.sub(r'^CONFIG_STATIC=y$', '# CONFIG_STATIC is not set', text, flags=re.M)
