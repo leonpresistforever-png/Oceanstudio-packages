@@ -14,7 +14,7 @@ permissions:
 
 concurrency:
   group: ocean-glibc-foundation
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   build:
@@ -40,7 +40,7 @@ jobs:
 
           test "$(find staging/glibc-2.44/pool/main -name '*.deb' | wc -l)" -eq 5
           test "$(grep -c '^Package: ' staging/glibc-2.44/dists/stable/main/binary-aarch64/Packages)" -eq 5
-          grep -q '"signatureVerification": "gpgv PASS"' staging/glibc-2.44/provenance.json
+          grep -q '"sourceVerification": "exact upstream git commit + CVE fix ancestry PASS"' staging/glibc-2.44/provenance.json
           grep -q '"qemuSmokeTest": "OCEAN_GLIBC_OK"' staging/glibc-2.44/provenance.json
 
           ! grep -R -a -E '/data/(data|user/0)/com\.termux|packages\.termux\.dev|TERMUX_PREFIX' staging/glibc-2.44
