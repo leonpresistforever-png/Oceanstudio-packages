@@ -43,6 +43,8 @@ def main():
     ap.add_argument("--nix-output",required=True,help="Original /nix/store/... static Nix output path")
     ap.add_argument("--source",type=Path,required=True)
     ap.add_argument("--output",type=Path,required=True)
+    ap.add_argument("--chroot-smoke",default="UNSPECIFIED")
+    ap.add_argument("--proot-smoke",default="UNSPECIFIED")
     a=ap.parse_args()
     m=json.loads(a.manifest.read_text())
     root=a.root.resolve();source=a.source.resolve();out=a.output.resolve()
@@ -127,6 +129,9 @@ def main():
           "buildSystem":m["buildSystem"],"nixOutput":a.nix_output,"commands":commands,
           "staticPrimarySha256":sha256(primary),"caCertificate":cert_target,
           "runtime":"Ocean proot with pre-initialized rooted Nix store",
+          "chrootSmokeTest":a.chroot_smoke,
+          "prootSmokeTest":a.proot_smoke,
+          "deviceExecuted":False,
           "sourcePolicy":m["sourcePolicy"]
         }
         (doc/"ocean-build.json").write_text(json.dumps(provenance,indent=2)+"\n")
