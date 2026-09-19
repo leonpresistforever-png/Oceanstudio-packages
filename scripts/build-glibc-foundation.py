@@ -160,16 +160,20 @@ def main():
     args=ap.parse_args();m=json.loads(args.manifest.read_text());out=args.output.resolve()
     if out.exists(): shutil.rmtree(out)
     out.mkdir(parents=True)
-    for cmd in ("gpgv","tar","make","aarch64-linux-gnu-gcc","aarch64-linux-gnu-readelf","dpkg-deb","dpkg-scanpackages","qemu-aarch64"): shutil.which(cmd) or (_ for _ in ()).throw(SystemExit(f"missing tool: {cmd}"))
+    for cmd in ("git","make","aarch64-linux-gnu-gcc","aarch64-linux-gnu-readelf","dpkg-deb","dpkg-scanpackages","qemu-aarch64"): shutil.which(cmd) or (_ for _ in ()).throw(SystemExit(f"missing tool: {cmd}"))
     with tempfile.TemporaryDirectory(prefix="ocean-glibc-") as temp:
-        w=pathlib.Path(temp);arc=w/"glibc.tar.xz";sig=w/"glibc.tar.xz.sig";key=w/"gnu-keyring.gpg"
-        download(m["sourceUrl"],arc);download(m["signatureUrl"],sig);download(m["gnuKeyringUrl"],key)
-        run(["gpgv","--keyring",key,sig,arc])
-        src=w/"source";src.mkdir()
-        with tarfile.open(arc,"r:xz") as tf: tf.extractall(src,filter="data")
-        roots=[p for p in src.iterdir() if p.is_dir()]
-        if len(roots)!=1: raise SystemExit("unexpected glibc archive layout")
-        source=roots[0];build=w/"build";build.mkdir();dest=w/"dest";dest.mkdir()
+        w=pathlib.Path(temp);source=w/"source"
+        run(["git","init","-q",source])
+        run(["git","-C",source,"remote","add","origin",m["sourceUrl"]])
+        run(["git","-C",source,"fetch","--depth=1","origin",m["commit"]])
+        run(["git","-C",source,"checkout","--detach","-q","FETCH_HEAD"])
+        head=run(["git","-C",source,"rev-parse","HEAD"],capture=True).stdout.strip()
+        if head!=m["commit"]: raise SystemExit(f"glibc source commit mismatch: {head}")
+        tree=run(["git","-C",source,"rev-parse","HEAD^{tree}"],capture=True).stdout.strip()
+        fix="0b4e41fc51e6aba6216a908961b49b0622b47fa0"
+        if run(["git","-C",source,"merge-base","--is-ancestor",fix,"HEAD"],capture=True).returncode!=0:
+            raise SystemExit("security-fixed glibc commit does not contain CVE-2026-18374 fix")
+        build=w/"build";build.mkdir();dest=w/"dest";dest.mkdir()
         prefix=m["glibcPrefix"]
         env=dict(os.environ)
         env.update({"CC":"aarch64-linux-gnu-gcc","CXX":"aarch64-linux-gnu-g++","AR":"aarch64-linux-gnu-ar","RANLIB":"aarch64-linux-gnu-ranlib",
@@ -188,10 +192,11 @@ def main():
         hello_bin=w/"hello";run(["aarch64-linux-gnu-gcc",hello,"-o",hello_bin])
         test=run(["qemu-aarch64",loader,"--library-path",installed/"lib",hello_bin],capture=True).stdout
         if "OCEAN_GLIBC_OK" not in test: raise SystemExit("qemu glibc smoke test failed")
-        meta={"schemaVersion":1,"sourceUrl":m["sourceUrl"],"signatureUrl":m["signatureUrl"],"gnuKeyringUrl":m["gnuKeyringUrl"],
-              "sourceSha256":sha256(arc),"version":m["version"],"glibcPrefix":prefix,"oceanPrefix":m["oceanPrefix"],
-              "hostTriplet":m["hostTriplet"],"enableKernel":m["enableKernel"],"signatureVerification":"gpgv PASS",
-              "qemuSmokeTest":"OCEAN_GLIBC_OK","sourcePolicy":"official GNU signed release; no Termux package or binary input"}
+        meta={"schemaVersion":1,"sourceUrl":m["sourceUrl"],"sourceCommit":head,"sourceTree":tree,
+              "releaseBranch":m["releaseBranch"],"securityFixes":m["securityFixes"],"version":m["version"],
+              "glibcPrefix":prefix,"oceanPrefix":m["oceanPrefix"],"hostTriplet":m["hostTriplet"],
+              "enableKernel":m["enableKernel"],"sourceVerification":"exact upstream git commit + CVE fix ancestry PASS",
+              "qemuSmokeTest":"OCEAN_GLIBC_OK","sourcePolicy":"official Sourceware glibc stable branch; exact security-fixed commit; no Termux package or binary input"}
         produced=package_all(m,dest,source,out,meta)
         verify_tree(out)
         idx=out/"dists/stable/main/binary-aarch64";idx.mkdir(parents=True)
