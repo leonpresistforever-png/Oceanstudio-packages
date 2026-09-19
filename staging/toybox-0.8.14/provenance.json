@@ -180,1074 +180,1074 @@
       "architecture": "all",
       "artifact": "ocean-toybox-acpi_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "2672c8bf9f3b172093a08347944f6a27b6a688fcff6e89f504fcc7fedf7a484b"
+      "sha256": "32d81779a7601205578a9611cce7bfd858a1c60b2cce83fe1b64ba98045ad71e"
     },
     {
       "package": "ocean-toybox-base64",
       "architecture": "all",
       "artifact": "ocean-toybox-base64_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "8105d2cf1ac4ae24790813655a0d37d9251ed650579c5d11e0e60fc740c00bb6"
+      "sha256": "909a4418e7e8cab11c8972670ca0f3b830c4d107a743a44f69c6d8d1c98ccc07"
     },
     {
       "package": "ocean-toybox-basename",
       "architecture": "all",
       "artifact": "ocean-toybox-basename_0.8.14-1_all.deb",
       "bytes": 1528,
-      "sha256": "5b34b25ff50edd37c6bf21cb0802e94c0573a89a7f53107150d5e8c9a832e49d"
+      "sha256": "55dc635ee5bbd687c6b40a9af0bd6ef3fa91754dd9623bfaeae4001e3279a6cb"
     },
     {
       "package": "ocean-toybox-blkid",
       "architecture": "all",
       "artifact": "ocean-toybox-blkid_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "30daf225912556600512b27a1394a67d5edca57e59e2d9a16c0066bc74c483c1"
+      "sha256": "f61d68952be7d72bdd0d9a1924d116c00e0b287630761687db6233b108e45b76"
     },
     {
       "package": "ocean-toybox-cal",
       "architecture": "all",
       "artifact": "ocean-toybox-cal_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "73ae6affb0301e3aa7795d41aa25abd2f307ee89a3a4e901af7a27beaf674b15"
+      "sha256": "3b8811cac4d9397acd8e80c4501538df3dc569e24397dee2ba58849bb0aa5fbc"
     },
     {
       "package": "ocean-toybox-cat",
       "architecture": "all",
       "artifact": "ocean-toybox-cat_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "85295f6ab01f887d3359b868c27ac938b5a03380c5e2e1c6ce871355717c3a10"
+      "sha256": "08c48ed73a5b3cba5d1dc491d346ed2399fae40c986e1a7a3260a2dd139b5207"
     },
     {
       "package": "ocean-toybox-chattr",
       "architecture": "all",
       "artifact": "ocean-toybox-chattr_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "20f595e99649d2092d88473b6ff6eaa586d17a2bc1e495128101e8f0f0cbfdc3"
+      "sha256": "135385a9be5a45497d1ebb619b206ae576cbd406da783ceaab5eb5f38d456cc2"
     },
     {
       "package": "ocean-toybox-chgrp",
       "architecture": "all",
       "artifact": "ocean-toybox-chgrp_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "9878a55ffcea5bf0bc073c6e5ea92ffffa4181533da2c0b6ec4470fbc33a7832"
+      "sha256": "e4891845c155c4d28ed673d51bd2d6ab04f83ef7f2952804a124d3322239d76c"
     },
     {
       "package": "ocean-toybox-chmod",
       "architecture": "all",
       "artifact": "ocean-toybox-chmod_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "e7c068fd01b46b8c8c352ee5946ee2ec9b5e155e2e1f7ebf524276c631de01d6"
+      "sha256": "455fd927af22a55732b97f2ca70e1ca7e582ce4cb9b5e1b0e528c68c3868d681"
     },
     {
       "package": "ocean-toybox-chown",
       "architecture": "all",
       "artifact": "ocean-toybox-chown_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "be263cd4978c306d9b2cd0ce9f2452cbf5e087c01c786d6f7a2aea2c0142a046"
+      "sha256": "6275fb90f315c2c6e283f2922d452b1784a18ced6155eee6cceff36b99b5f44b"
     },
     {
       "package": "ocean-toybox-chrt",
       "architecture": "all",
       "artifact": "ocean-toybox-chrt_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "97fae3fbe0c4985234e0436151465d94e78abc1f9ff057bde6196c7a36634ad3"
+      "sha256": "4c98ae34bc679aec6c8da5460e7efb79c839ad08b53e87e1262c218f968cbace"
     },
     {
       "package": "ocean-toybox-cksum",
       "architecture": "all",
       "artifact": "ocean-toybox-cksum_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "2f4b57de7ebe4eb9d14252d473aa99dfb0eca40aabb9f2e253fe7b45bd5f960d"
+      "sha256": "4cb8cd1c99f624eb4fc755dfd0baf1c84563d6e88f50ad2a726b0df96be5644e"
     },
     {
       "package": "ocean-toybox-clear",
       "architecture": "all",
       "artifact": "ocean-toybox-clear_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "0935cec019524fc31e5b0d1ca4289934d7e14412dea9a5c28b0a7fe568c8ee9b"
+      "sha256": "4b35fffd17531e6296b461c76d515616e0ee8cc8251c892f8895e674896e5459"
     },
     {
       "package": "ocean-toybox-cmp",
       "architecture": "all",
       "artifact": "ocean-toybox-cmp_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "a72e3edfcbbc45e33c88651c6be370a98fc3388b8c6100a2840c0bd0a9369dd2"
+      "sha256": "83b11979047f574ca966923acc906c9f5bd05920b4145204017dca806b1bdae0"
     },
     {
       "package": "ocean-toybox-comm",
       "architecture": "all",
       "artifact": "ocean-toybox-comm_0.8.14-1_all.deb",
       "bytes": 1520,
-      "sha256": "218ed6b42eaaafd20859db0355f7ca6cf9dd8ae783fa3c4740ee58db02d326e1"
+      "sha256": "a9950eb1cba9d60456c72aaf8f5fb714c43d62af032c951844812bceb2cc5ca7"
     },
     {
       "package": "ocean-toybox-cp",
       "architecture": "all",
       "artifact": "ocean-toybox-cp_0.8.14-1_all.deb",
       "bytes": 1516,
-      "sha256": "5487f3e124d1ca1f8a3ee4401e9430dd8368a86c046a25408b0017a252fd150f"
+      "sha256": "fc63f99f1a7eaafd12689a27f7454b6763479b696e7327d23bd38a35ef97b375"
     },
     {
       "package": "ocean-toybox-cpio",
       "architecture": "all",
       "artifact": "ocean-toybox-cpio_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "92b961f6ff3554d56a49e413056984f2fd74330143fc2318611e9628112a279e"
+      "sha256": "9d456ec00be61f504d7578c2ca9a1e71a67479c0c7cb2e11ad1c85c199327036"
     },
     {
       "package": "ocean-toybox-cut",
       "architecture": "all",
       "artifact": "ocean-toybox-cut_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "5c3621360a82944228b425dcc939ea3c8f6be987dbdcecd812915f040b432055"
+      "sha256": "4d74b8e5115c2e7885787e2d643b084cebbab6a8d99b6afc99b13d7be88f9317"
     },
     {
       "package": "ocean-toybox-date",
       "architecture": "all",
       "artifact": "ocean-toybox-date_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "182df40dc102496e12aa615653723d9130ed6ba9dd217f960b455bc6dfe6c057"
+      "sha256": "32b8a50e193e654aa750001300bb698e6eefc2d7990c043b01607b40d2dffdbe"
     },
     {
       "package": "ocean-toybox-dd",
       "architecture": "all",
       "artifact": "ocean-toybox-dd_0.8.14-1_all.deb",
       "bytes": 1516,
-      "sha256": "5a1285c8b3c163cafe2f5807426cce81e03f851e3f9da6ff784746aabb3c70d6"
+      "sha256": "e5f5c057931aa77500c46cf9e7395c7d06d946b80656ccb6a05862fa9f698322"
     },
     {
       "package": "ocean-toybox-df",
       "architecture": "all",
       "artifact": "ocean-toybox-df_0.8.14-1_all.deb",
       "bytes": 1516,
-      "sha256": "15f3c6a3ad52501e965652835fb2e90f8dfe42e9fa8ed5ece04514229d767f2a"
+      "sha256": "50404f185c317b538234f7c9e6e508e4160a688b133e9610d8a72515e47cca3a"
     },
     {
       "package": "ocean-toybox-diff",
       "architecture": "all",
       "artifact": "ocean-toybox-diff_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "22014cb1f5469e02358aca7e719a9ebb53b67c61f10096eeb33db22b731b2d92"
+      "sha256": "6c86219dd756ac7c6fe1b77505b6b19b800f96fa89aaef30ed658952fae18204"
     },
     {
       "package": "ocean-toybox-dirname",
       "architecture": "all",
       "artifact": "ocean-toybox-dirname_0.8.14-1_all.deb",
       "bytes": 1532,
-      "sha256": "237c947ea037ecc6a033922ba231fb6d46c3f74f98342512c2b511d9c24b590f"
+      "sha256": "3fa4399856e3950f4613faa383ad5078477f6cae5fc30f01f089a1a4341201dd"
     },
     {
       "package": "ocean-toybox-dmesg",
       "architecture": "all",
       "artifact": "ocean-toybox-dmesg_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "fa7842bc9db0c09f15887e910009d50ccb5139bbcf12e675a91bcba7f0df421b"
+      "sha256": "12af8fb1581280285d114da120b4e4ded99fcd4a3abcd44cb16b6233005d1b1c"
     },
     {
       "package": "ocean-toybox-dos2unix",
       "architecture": "all",
       "artifact": "ocean-toybox-dos2unix_0.8.14-1_all.deb",
       "bytes": 1532,
-      "sha256": "517d9583564b5051fe61039c45d8f14b269e4314ba73e19aa86ab1128b446eac"
+      "sha256": "753f130868b41d2cd11634291f298ca83df51330998f813c322cda00e6de6139"
     },
     {
       "package": "ocean-toybox-du",
       "architecture": "all",
       "artifact": "ocean-toybox-du_0.8.14-1_all.deb",
       "bytes": 1516,
-      "sha256": "fe3843b218f0f2ededa5a06a0f01e55816b83b0e2969201840e0ef97743bed81"
+      "sha256": "3c62bb82a55901d20c6e051fef5e0daf14ebcd1427bfe10bd996eeccf943d516"
     },
     {
       "package": "ocean-toybox-echo",
       "architecture": "all",
       "artifact": "ocean-toybox-echo_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "c0629219c1837bc8d5b3904327748b59043f5e31e79bc91e3832977d62beaf35"
+      "sha256": "98b22614d05e83f636c66aab2da7fe67a663d28d5633592e5a29d09de56cd8c1"
     },
     {
       "package": "ocean-toybox-env",
       "architecture": "all",
       "artifact": "ocean-toybox-env_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "740b753dabff41f0564b5b863ec6665840cf5dba2f8a8c8ed853c68787ebdc4c"
+      "sha256": "5460152a5609d4f0e608cda44a9eca679d796cf7794f91d9691f3900af52291b"
     },
     {
       "package": "ocean-toybox-expand",
       "architecture": "all",
       "artifact": "ocean-toybox-expand_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "9de2f17ec13c83f36b43ea2f6d04ec6895a1b8043d19c6bed002f7d3f7a3bd29"
+      "sha256": "8d14fe0b633e4316f894b00de03f184dffbd539c9b03b409468e3b5409649319"
     },
     {
       "package": "ocean-toybox-expr",
       "architecture": "all",
       "artifact": "ocean-toybox-expr_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "740f8073ed2e809722ec4e4c04c64be1b407f53b781fa937f14975303a96da02"
+      "sha256": "48a55fcd0b1d0424a3d47c8778aaa4be9bf1f692aa56b8d2b42fa786d750c21b"
     },
     {
       "package": "ocean-toybox-fallocate",
       "architecture": "all",
       "artifact": "ocean-toybox-fallocate_0.8.14-1_all.deb",
       "bytes": 1528,
-      "sha256": "a1f31ff347983b92051bf1d1199d3906630e65166a75c983d625fbef4235c747"
+      "sha256": "4d992c2828e45e8f8eae95fbcf44ceee719d420dbcb2c557e18bddba9a7811e4"
     },
     {
       "package": "ocean-toybox-false",
       "architecture": "all",
       "artifact": "ocean-toybox-false_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "d7069a71046b2d798b8c9727ed9c835018c123a315cd7eff4d2f5f3239a24478"
+      "sha256": "b7c0141ab44e0b439475742c8a9deb2973e157c22fbd6e2872fc11e9ab00bf1e"
     },
     {
       "package": "ocean-toybox-file",
       "architecture": "all",
       "artifact": "ocean-toybox-file_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "333ea46f7a6f4cbe0aa4b166e2375d1ebfdbfff9b17a5734eb7fc5c4e09153f2"
+      "sha256": "c297c4914b7f5126cf39364a65ffe1966ada913941bbaa4250bd90ebb59dc6c1"
     },
     {
       "package": "ocean-toybox-find",
       "architecture": "all",
       "artifact": "ocean-toybox-find_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "462bb9af4893c80f113b9c826a81c0051b095c3b030b9d994e7eedb4098a735d"
+      "sha256": "f01d16b10adc815c901b40e78b56baab4bcc3b0b6a1edab0aeb673b71acdedbe"
     },
     {
       "package": "ocean-toybox-flock",
       "architecture": "all",
       "artifact": "ocean-toybox-flock_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "194f3b809818a6835ba451b8a65bd61dfa0c32bcf9d52d39a780ec1f9d3cd3e8"
+      "sha256": "3accb5dd82f43f599b58dfcbfef7701d00324ff585c29f70949365b88ba7540a"
     },
     {
       "package": "ocean-toybox-fmt",
       "architecture": "all",
       "artifact": "ocean-toybox-fmt_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "83dca8811caa7f8414630f8ec54be64a00929a0c111d9fd32a6624d2c5aa41ee"
+      "sha256": "4509b5c24f9652172954b227d45ac9f0295f9a606a059f3e2a78def16a373c78"
     },
     {
       "package": "ocean-toybox-free",
       "architecture": "all",
       "artifact": "ocean-toybox-free_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "6f180fa7fd45d3cd445a81f96bfc6c99c6f8ed846d656dfe89e4b57b772a0090"
+      "sha256": "7a57e3077f72799fa0a31198d3e66494bdea52f139d3a806423a8d1bb2116c13"
     },
     {
       "package": "ocean-toybox-fsync",
       "architecture": "all",
       "artifact": "ocean-toybox-fsync_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "c48e5782ccea6a2e4016e4383b87b9292d9ade988ca982995b9ac3a35a27e53c"
+      "sha256": "ed8f5b5877943780baae5ab84fb4cdec07c719173d41c02d3ab353fda683ed4a"
     },
     {
       "package": "ocean-toybox-getconf",
       "architecture": "all",
       "artifact": "ocean-toybox-getconf_0.8.14-1_all.deb",
       "bytes": 1532,
-      "sha256": "343608098f4abb59ee01d1a288252200fb751c98159f2ef6c32be144423f082f"
+      "sha256": "1dfd29bdfc802441d086ddc025929edfac08e001675a4fa731aae4c001079f81"
     },
     {
       "package": "ocean-toybox-getfattr",
       "architecture": "all",
       "artifact": "ocean-toybox-getfattr_0.8.14-1_all.deb",
       "bytes": 1528,
-      "sha256": "b4f75d54ac6ee889ce401504ba85b2c78426208db0df9c3f60348f7803876f82"
+      "sha256": "862224cdcd797572f2a834235796c6d1aaf4563efe8ebf375c6578b4bb21d7bd"
     },
     {
       "package": "ocean-toybox-getopt",
       "architecture": "all",
       "artifact": "ocean-toybox-getopt_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "550e4c1b97c1ee79841747d23f163ce9d8d412893a9b6bd7ab073c1272cb1c78"
+      "sha256": "690c6084e0a8c4a2a08e2a89fd02d35dca6ae9172fa9cafedc78fd1b370d1a6b"
     },
     {
       "package": "ocean-toybox-grep",
       "architecture": "all",
       "artifact": "ocean-toybox-grep_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "0bc13eeda533f6a8c9e7faedc1b01c9a7a2f43e3e657dfa89a5c5f1134fa3413"
+      "sha256": "ec62fe74914a171a1b15b5e78e39e4f045125494ff4cb8004f755823315dbd4f"
     },
     {
       "package": "ocean-toybox-groups",
       "architecture": "all",
       "artifact": "ocean-toybox-groups_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "3ea549dfcf5916a4658ee663fa8a00f74ae97bb0007b0ab8728bde525fae3891"
+      "sha256": "f3062c416afa7b989a84deb9893bda2f060f6857125d0a13f387bb2d05791aa6"
     },
     {
       "package": "ocean-toybox-gunzip",
       "architecture": "all",
       "artifact": "ocean-toybox-gunzip_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "4972dfaaa45328fd7740e2cfa9f42bf9a198b706b974a41a81fe94f81ad48923"
+      "sha256": "74d8c1cf407dcd9613caba9ad0da756f78f9c0a17782cc9661872e09e3fd929a"
     },
     {
       "package": "ocean-toybox-gzip",
       "architecture": "all",
       "artifact": "ocean-toybox-gzip_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "90d30248013021596abb099db57e05af1fa812b70885fea69ad7d7240f2ae2a8"
+      "sha256": "2266fd41aefe2bf763621f8e7bddf0bb5360fb240d49b42a80517ae6ea452009"
     },
     {
       "package": "ocean-toybox-head",
       "architecture": "all",
       "artifact": "ocean-toybox-head_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "22231b5613fdba9db22c588d67c84c13ea363798d2211dfa0433b6ebf84114f9"
+      "sha256": "9734edcfd9056672984c4aa85fc4bf15458aa5d04af0ffb658461405853d2966"
     },
     {
       "package": "ocean-toybox-help",
       "architecture": "all",
       "artifact": "ocean-toybox-help_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "8b2c0fddc2a65dd7c536656a54d4059dfd0abbc4b513cca8445dcc390f8c7a6a"
+      "sha256": "6b2f3d97ab42dc36af501be68c7e26cdec662df8699abe147b0bd04090189a0c"
     },
     {
       "package": "ocean-toybox-hostname",
       "architecture": "all",
       "artifact": "ocean-toybox-hostname_0.8.14-1_all.deb",
       "bytes": 1528,
-      "sha256": "8119df978940d01fdc2eeed8968bbdd19dd46acb74c26721cfb51dbb44c0d3de"
+      "sha256": "3ea2dcb1d84fa02b1f11c74128b20ffd0c41f388d7386610609bb1d00581a51a"
     },
     {
       "package": "ocean-toybox-iconv",
       "architecture": "all",
       "artifact": "ocean-toybox-iconv_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "e26f378b87b083e078129dd8e402c913d882a177cc9302783f43c5e44741d227"
+      "sha256": "c84870e612d952f98937c3e0eea0b606d2cd8a73d2aeef846b4b60a9fe94a041"
     },
     {
       "package": "ocean-toybox-id",
       "architecture": "all",
       "artifact": "ocean-toybox-id_0.8.14-1_all.deb",
       "bytes": 1512,
-      "sha256": "30f540ce91c5366ff709e320b60b3c8546cc095185f0b1025795d6165c620c28"
+      "sha256": "12abfce6edd1e2912c0f77c76542d9c1ac8089cefc4deb91f25cec22e4cc67da"
     },
     {
       "package": "ocean-toybox-ifconfig",
       "architecture": "all",
       "artifact": "ocean-toybox-ifconfig_0.8.14-1_all.deb",
       "bytes": 1528,
-      "sha256": "dc3ac2405f22c57dd8278744c4d7d79de00c7f1f8e5d1d80a332c65156c37794"
+      "sha256": "1e390a16261f3beeac7136f445de3e668b516c2b3c7485d909423ec13eb92b39"
     },
     {
       "package": "ocean-toybox-inotifyd",
       "architecture": "all",
       "artifact": "ocean-toybox-inotifyd_0.8.14-1_all.deb",
       "bytes": 1528,
-      "sha256": "22cf6cae1f2064de49087c03d3493a4e38e82d4e6c319a5aaa68ae5ed5fd8acb"
+      "sha256": "7f26b397e71d5067982d693ec2165da8147561869a1112aca4ced6d24efc02e5"
     },
     {
       "package": "ocean-toybox-install",
       "architecture": "all",
       "artifact": "ocean-toybox-install_0.8.14-1_all.deb",
       "bytes": 1528,
-      "sha256": "f10d88e4a06ad037a8518176e595ffa8638b6f9deedd8caf99741286b96d6a16"
+      "sha256": "a9ebd22c295a391e534c95a27477d0c77be940ff6e7277c249454238e20b22ad"
     },
     {
       "package": "ocean-toybox-ionice",
       "architecture": "all",
       "artifact": "ocean-toybox-ionice_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "47163723bd863f9e464756d8135e4ee2390f7edff569f502b681d9d7977075c8"
+      "sha256": "e1dd250684e60fab4c1c446fe3fe26b5194bce35d648d8cbdea8531f46e09504"
     },
     {
       "package": "ocean-toybox-iorenice",
       "architecture": "all",
       "artifact": "ocean-toybox-iorenice_0.8.14-1_all.deb",
       "bytes": 1528,
-      "sha256": "cc9869785dd4f0353d2f87358c484a1be75165519edfac0b5067f82edc89e322"
+      "sha256": "cf427b4791762238eb42d029423148530db98f61845ac6d427a1a30340d1d98f"
     },
     {
       "package": "ocean-toybox-iotop",
       "architecture": "all",
       "artifact": "ocean-toybox-iotop_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "b237f3193f2c339072debb2f7851f5e9244b29f2d7637550be1f33113b465caa"
+      "sha256": "e5de190211fe0327071d30e1195087773c4981b0118a65da096a4fa5b94af06b"
     },
     {
       "package": "ocean-toybox-kill",
       "architecture": "all",
       "artifact": "ocean-toybox-kill_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "8908e4b41da5cff44091aea43a847171b094233487e0ae04b65381c5e0477a15"
+      "sha256": "5f154bbd997775a655146568dfe867a9e147f62cdc83642077a247d89d78c1cc"
     },
     {
       "package": "ocean-toybox-killall",
       "architecture": "all",
       "artifact": "ocean-toybox-killall_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "34c75d5e86b60ca0c12fbdae1cef6e4fa45c9d88bc62eec692a2b6a8864010b7"
+      "sha256": "4189ab1a481985d0414097b75c87e837c23f4c5669d4ac408c6b61ec5cdeaef6"
     },
     {
       "package": "ocean-toybox-ln",
       "architecture": "all",
       "artifact": "ocean-toybox-ln_0.8.14-1_all.deb",
       "bytes": 1516,
-      "sha256": "74e8c75fb155570537e7fe8d91eb7f2a285ecb4037d6450975e83ce05373e043"
+      "sha256": "f9c91beb4d8dee9234f86b282da9b048f19b3e1e3cdd64ac998192e53f39edae"
     },
     {
       "package": "ocean-toybox-logname",
       "architecture": "all",
       "artifact": "ocean-toybox-logname_0.8.14-1_all.deb",
       "bytes": 1528,
-      "sha256": "90fc902a0fce93bb610c6e105b1b5c2e37d31330a661e55dba355257ade48488"
+      "sha256": "008c868d906d5fab4a21b520d5aec65c88403d5ffd76e72fe5a1561991ccdfce"
     },
     {
       "package": "ocean-toybox-ls",
       "architecture": "all",
       "artifact": "ocean-toybox-ls_0.8.14-1_all.deb",
       "bytes": 1516,
-      "sha256": "9f6266840c3739041cf2e3add11039f728f07ec6ab1a48bcdc637f1f48629c06"
+      "sha256": "9d0d09349c75f3924afa43ea1ddd796bf00aac6e913e4e1742b29edf06c8886e"
     },
     {
       "package": "ocean-toybox-lsattr",
       "architecture": "all",
       "artifact": "ocean-toybox-lsattr_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "0a7cb9735d6970185286087130d73299c02bd7385a394df25e446b1315d7cfe8"
+      "sha256": "e12d7cc8e28247fe499ebcac0b6d71b093ea9b65fb5af74ecfc96e92c5d1299b"
     },
     {
       "package": "ocean-toybox-lsof",
       "architecture": "all",
       "artifact": "ocean-toybox-lsof_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "54f4f6259c52c10540dd79f42978872ac62cbd8e4a794800275bd1c45c2fe905"
+      "sha256": "16488028de689585f40e688958cef18fca06763bf26b556506625c73d86b0023"
     },
     {
       "package": "ocean-toybox-lspci",
       "architecture": "all",
       "artifact": "ocean-toybox-lspci_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "1bf0fe6ab1830f3c1335585efc790f5fe39133c0919563c6e15e2ff872354341"
+      "sha256": "1cd3f02c0cc4a2b2b4866a0760440bbaadd80ead1109d223c3c3500e98b3b25c"
     },
     {
       "package": "ocean-toybox-lsusb",
       "architecture": "all",
       "artifact": "ocean-toybox-lsusb_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "8e54d42b9eccd9ff364e9908317f5ce77d3f2bf11421eadfdbdbf7e59cd6e73d"
+      "sha256": "663cd8e3ebfb0084623582ea07412edf46a98f737e61d39dd25a88e3b98bc3a5"
     },
     {
       "package": "ocean-toybox-md5sum",
       "architecture": "all",
       "artifact": "ocean-toybox-md5sum_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "d6b83184d2be350aca6c70b2fb5081710da21ed72fa73e70b10942616e3a7fc8"
+      "sha256": "c8cb3f079231477d6c7e59a8454c49579036fc68824781d4b1d5460a3fdcea46"
     },
     {
       "package": "ocean-toybox-microcom",
       "architecture": "all",
       "artifact": "ocean-toybox-microcom_0.8.14-1_all.deb",
       "bytes": 1532,
-      "sha256": "308371ee148ebc8bccd9a585469f38a23f114e5589323d2c98f2a11ac70cd7ec"
+      "sha256": "22d742b4abf08fc058345a970ee307d3a353009d0e46c72e8164494b254b09ff"
     },
     {
       "package": "ocean-toybox-mkdir",
       "architecture": "all",
       "artifact": "ocean-toybox-mkdir_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "ef0c652dc21c91df14799f8d9c6b4e58a963fade343ac38e3d590f67772206a2"
+      "sha256": "4353dfc70aae1a5d6153e712d439aad91b41b0372f657d1d264496df65feb768"
     },
     {
       "package": "ocean-toybox-mkfifo",
       "architecture": "all",
       "artifact": "ocean-toybox-mkfifo_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "da938e51ffe2b3fbf05c1ce4ac2ac21ca45992c38c29ded7e27a8f7bff71fb4d"
+      "sha256": "2079699531650be8068a0d9944724ab86a474e4730249917c83d781821584e1d"
     },
     {
       "package": "ocean-toybox-mktemp",
       "architecture": "all",
       "artifact": "ocean-toybox-mktemp_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "543f3f6296afed64d253d3b99590e9d2de654307e3e5a2ca48663fcfc2978c4f"
+      "sha256": "50f684ad4bedd3c126d9e93e02fb3c2c46410a0a0d3bdef354ad2eaed7673e8d"
     },
     {
       "package": "ocean-toybox-more",
       "architecture": "all",
       "artifact": "ocean-toybox-more_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "0016b857760e97ebf8df44ecc8a9a108cbbccf4c8657a8691b9365367fe4fc7d"
+      "sha256": "68cc81a9bcc8f3961e843926f05b13125f0cf587687b60ed63a5e0a687d541cd"
     },
     {
       "package": "ocean-toybox-mountpoint",
       "architecture": "all",
       "artifact": "ocean-toybox-mountpoint_0.8.14-1_all.deb",
       "bytes": 1532,
-      "sha256": "9892a17f9eb4edbcff3026ba4a15bdcacb71f131ea1106dd1e6e79ac9b819c7e"
+      "sha256": "d75463647950129fb981db15b9b1b5d59c513f7868932e51a7d57b5e89270930"
     },
     {
       "package": "ocean-toybox-mv",
       "architecture": "all",
       "artifact": "ocean-toybox-mv_0.8.14-1_all.deb",
       "bytes": 1516,
-      "sha256": "84df5330f652558177305a0ccdce0af4824b8cb6c315977d969d50b063af9450"
+      "sha256": "9264146f6a537a4c405d2a1e97f810b0f9f58c75deca5f4e507aa7151f067047"
     },
     {
       "package": "ocean-toybox-netcat",
       "architecture": "all",
       "artifact": "ocean-toybox-netcat_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "3c6d57956a4aa3cdd3b57368799bef022b48db94f5d7ece5678205263c5bea4e"
+      "sha256": "384dba0c16ea18040207294eba0f4a66cb0630e0224b26f5f77123b91406a6fd"
     },
     {
       "package": "ocean-toybox-netstat",
       "architecture": "all",
       "artifact": "ocean-toybox-netstat_0.8.14-1_all.deb",
       "bytes": 1532,
-      "sha256": "bd8fe1a97ebf8f03f75a144d4ce5628cc8993c7a74e77f5803c62254d47a5719"
+      "sha256": "cc07d773ea1fbed6b8d7149c4432092b5ecd813c153ccf2050bd0edee21f0643"
     },
     {
       "package": "ocean-toybox-nice",
       "architecture": "all",
       "artifact": "ocean-toybox-nice_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "cc397ed858e8ff18db400129851528126fefa0b125ade9974b0447257eea6c62"
+      "sha256": "ba8571e656a7e3ddb531392810dfc2ad195e1391e8f65e2675b2efc3dc88866a"
     },
     {
       "package": "ocean-toybox-nl",
       "architecture": "all",
       "artifact": "ocean-toybox-nl_0.8.14-1_all.deb",
       "bytes": 1516,
-      "sha256": "a7bfba2348142e6fe4627b7abbf5ffbec748ef69af00d92342db50884201a22b"
+      "sha256": "9ff819b444b123611c6084f92d74fb93f53fbcc6cb37323d7a185cea984dae24"
     },
     {
       "package": "ocean-toybox-nohup",
       "architecture": "all",
       "artifact": "ocean-toybox-nohup_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "5138ade925b2687a198093b9dc2d65c54ec126f008d3740f3cb5be65fda99191"
+      "sha256": "c002162e91547efe3c185aca8a4c93a1a70a3c4740d5cc70acbaa931e379385c"
     },
     {
       "package": "ocean-toybox-nproc",
       "architecture": "all",
       "artifact": "ocean-toybox-nproc_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "3d7a0ef937cc0e175c1e2a7bc2b2f74c828e66823248bb8e20cca2d802dc3670"
+      "sha256": "f624b8da9ad620e236c391009266b39a7de80673ff68573fea87e8a9f6d076a3"
     },
     {
       "package": "ocean-toybox-od",
       "architecture": "all",
       "artifact": "ocean-toybox-od_0.8.14-1_all.deb",
       "bytes": 1516,
-      "sha256": "874c298f5f9ef1263443a6ca833cb965758f469baa64169fcea3af6e09d66381"
+      "sha256": "dd0cdfe4b913c4651a8e2854637fff5470a31d2ceb34f40fec8d9a4ad75cf86b"
     },
     {
       "package": "ocean-toybox-paste",
       "architecture": "all",
       "artifact": "ocean-toybox-paste_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "27e214f9d9efbfb78e32d03647d52082138f1a79914221184438e989aad2e35a"
+      "sha256": "8027af730193c52405adb95caa2632a97edfd3529edb8b73d8efd64198e56c94"
     },
     {
       "package": "ocean-toybox-patch",
       "architecture": "all",
       "artifact": "ocean-toybox-patch_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "dada1e11a0b6db4e01aa115b58c84eb389b04e758eb72f668739fb3b098b7e15"
+      "sha256": "b57c54bb83869eafc14d7b657b2bd05ae832b8a8f5dca3b9ea5e3c9ea9a60ab8"
     },
     {
       "package": "ocean-toybox-pgrep",
       "architecture": "all",
       "artifact": "ocean-toybox-pgrep_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "14567325581fa6a8339590889d3c77b855a98f00b06673f8b82fd4a72a249152"
+      "sha256": "58ae26efea53f17434ed108ec6525332c0dc77418ded1be0cb4d89cf1cd0d74a"
     },
     {
       "package": "ocean-toybox-pidof",
       "architecture": "all",
       "artifact": "ocean-toybox-pidof_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "7c1cdb2742cc59d254b22ea833c4f515bcb9f84f33e09174f9aec1d85df7470a"
+      "sha256": "e11ba72f3726b0ee8b40f30a56350f87070dfed1f964cd776f40eb527e172e56"
     },
     {
       "package": "ocean-toybox-ping",
       "architecture": "all",
       "artifact": "ocean-toybox-ping_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "6e8e5f715128a104c0469820d86d6b0b33ab3635beef28a55a505b12134ecc9c"
+      "sha256": "0dabfb61cd9c1dfdb08ab57c8cf8c035167ec74e139961e4e2c9d020ca6560b8"
     },
     {
       "package": "ocean-toybox-pkill",
       "architecture": "all",
       "artifact": "ocean-toybox-pkill_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "09313d0732aeecbb73ac646a8c8ff4118ced366057b859d78b736be3e0b1c17e"
+      "sha256": "f1a676e4ffc88999eea83d15c1f8ec333a24de99454df0a9db4757e2f2be3bb9"
     },
     {
       "package": "ocean-toybox-pmap",
       "architecture": "all",
       "artifact": "ocean-toybox-pmap_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "9ee79407af508d6c24c7da29b59e1e1279846fb1af607250f3263525759cd4ec"
+      "sha256": "dfe43a71b001287d935140145d6d0d76323c37e6d7100b92a4e9d7f47c71ddbb"
     },
     {
       "package": "ocean-toybox-printenv",
       "architecture": "all",
       "artifact": "ocean-toybox-printenv_0.8.14-1_all.deb",
       "bytes": 1528,
-      "sha256": "a25c73ed181d197e639dba473aebc0d2b8974abfd45a438d673d003b226cd968"
+      "sha256": "a2760c1133e2a2c3649553847f5d6838fe55b8dbbe3c1926f15203d11e0d6ba7"
     },
     {
       "package": "ocean-toybox-printf",
       "architecture": "all",
       "artifact": "ocean-toybox-printf_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "7efa65d5902f9f00a15fa64e98a086b91777e9966d4583b1575d95ab8cda569c"
+      "sha256": "9cf3c74c52485c051c483f662d1aa120e00f24bab4aba79a8412b620975939a7"
     },
     {
       "package": "ocean-toybox-ps",
       "architecture": "all",
       "artifact": "ocean-toybox-ps_0.8.14-1_all.deb",
       "bytes": 1516,
-      "sha256": "0f880636ad26a63c8f55c79e938d171917d801248dcda0fdcb606eb5bd94cc45"
+      "sha256": "6c30a51077147e9e1ccd2bdd0c4548b76f980003db63680f109901058e54a327"
     },
     {
       "package": "ocean-toybox-pwd",
       "architecture": "all",
       "artifact": "ocean-toybox-pwd_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "cc7770bba715b2a93a5b1b9f39cab86e21ed6abc1ba2952fb329f0221ff87127"
+      "sha256": "cd9f7f5da6c2de9a215500dc9ab077eaaf269e1f08b133adfbf4803ad52efd50"
     },
     {
       "package": "ocean-toybox-pwdx",
       "architecture": "all",
       "artifact": "ocean-toybox-pwdx_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "8104a94201a1c4b82ae0b52033dfd6b4eadde0b6c47fbee19277df70a3fb4646"
+      "sha256": "54946ccc1967a61a1de0f647b79fe73cde586efb9d9cff31c6811c8b210f8e70"
     },
     {
       "package": "ocean-toybox-readelf",
       "architecture": "all",
       "artifact": "ocean-toybox-readelf_0.8.14-1_all.deb",
       "bytes": 1532,
-      "sha256": "f70c30f5042574363d03be6d7e09711464bc2328753e93dda42af47f3af0bb50"
+      "sha256": "4e7db86a93193035c3caac956f023284d865c0529b7f295240a6897077b0b19b"
     },
     {
       "package": "ocean-toybox-readlink",
       "architecture": "all",
       "artifact": "ocean-toybox-readlink_0.8.14-1_all.deb",
       "bytes": 1532,
-      "sha256": "e362ca33e3b0bc5c4b95e87f44b4cd3ecf04b6190b9e133a8781ccfceb7d7719"
+      "sha256": "251c35de54f034571769b1e86357f4b9756289b0d008805df485303b6536ab64"
     },
     {
       "package": "ocean-toybox-realpath",
       "architecture": "all",
       "artifact": "ocean-toybox-realpath_0.8.14-1_all.deb",
       "bytes": 1528,
-      "sha256": "4b9de4d3541d9ffe5d31edb6d5f229cf5fe0d24afcc5e69e8fb83ddcb5562530"
+      "sha256": "bf84d0c962b955d22235afac38e635efd75729a7c201a682b2a10edfe5620e6a"
     },
     {
       "package": "ocean-toybox-renice",
       "architecture": "all",
       "artifact": "ocean-toybox-renice_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "5908aeedd9909e7041d048eeb9056d66a1c05badad4d84660ae3a154440348b6"
+      "sha256": "d214efcd2bf43f204ff74b86b34985607f1f854504dc408892b62a8a3118abf1"
     },
     {
       "package": "ocean-toybox-rev",
       "architecture": "all",
       "artifact": "ocean-toybox-rev_0.8.14-1_all.deb",
       "bytes": 1520,
-      "sha256": "cb309bfeb5357c9167cdaa6c7c0f18044f5fd4fefe8cf0a2e3ec2147bcee345b"
+      "sha256": "3cd9064112e1fb4a3bdbe9e69d5c387373691d7693ab34d16e2129dbb47d1098"
     },
     {
       "package": "ocean-toybox-rm",
       "architecture": "all",
       "artifact": "ocean-toybox-rm_0.8.14-1_all.deb",
       "bytes": 1516,
-      "sha256": "0e4e460c47035cdcb5c349e8da9fa224e775e31cb22617225498d70c1344c9db"
+      "sha256": "d772cbcff72cbb0a96dec26d828bbaf3f28419f91a526ee8f718d530ad4c64fe"
     },
     {
       "package": "ocean-toybox-rmdir",
       "architecture": "all",
       "artifact": "ocean-toybox-rmdir_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "ffb57e701c0eabbbb29578acbc7d956859ddcee40c75eafd94a2b51c4f54d86e"
+      "sha256": "95c340c858085196da83ad11fd2e7fb654eabade0e8c2a82f2667f4a91c6b991"
     },
     {
       "package": "ocean-toybox-rtcwake",
       "architecture": "all",
       "artifact": "ocean-toybox-rtcwake_0.8.14-1_all.deb",
       "bytes": 1528,
-      "sha256": "9ade2e436ed859c8af3469f5239321a76ef2e7bce5259dc71549a38ab722e512"
+      "sha256": "d147f329d9e0119d5f8b3aa0cca579499d8ab0c9d2ebe3336d96784500db3c15"
     },
     {
       "package": "ocean-toybox-sed",
       "architecture": "all",
       "artifact": "ocean-toybox-sed_0.8.14-1_all.deb",
       "bytes": 1516,
-      "sha256": "91decaf991c73dc16bf0e90761a92b3c6e75394325913d2a711e0ce78203bc58"
+      "sha256": "ab1c910c19d86a468967ccf2027bc1713ae36d75d9a2fe9da07c53e5f9e36599"
     },
     {
       "package": "ocean-toybox-seq",
       "architecture": "all",
       "artifact": "ocean-toybox-seq_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "e33341128e354e9da0bc14b5b28582cfc0c2eabfcccfb25074d330ffa1d7e9f9"
+      "sha256": "9c1573750bb03c23cc7217a1f81f225f07715ed474e2cff5382bfce86b3d86dd"
     },
     {
       "package": "ocean-toybox-setfattr",
       "architecture": "all",
       "artifact": "ocean-toybox-setfattr_0.8.14-1_all.deb",
       "bytes": 1528,
-      "sha256": "93a3a08b4abce37707e8ef411e99e34a7804cfaaa8a8983206cc21fe79046faf"
+      "sha256": "9611e4f14af974ddf0779e2efb66bc9e2040f7371cbbe78f1df458db5f4549fa"
     },
     {
       "package": "ocean-toybox-setsid",
       "architecture": "all",
       "artifact": "ocean-toybox-setsid_0.8.14-1_all.deb",
       "bytes": 1520,
-      "sha256": "c48c1683b1375e7e622908284dc0e000685e5e5d2616e4a49a623fd4fcc616c9"
+      "sha256": "7dfebdb4dca262f3169c80a605b6dac746511c209e87c48b1ed860b5b8d311cf"
     },
     {
       "package": "ocean-toybox-sha1sum",
       "architecture": "all",
       "artifact": "ocean-toybox-sha1sum_0.8.14-1_all.deb",
       "bytes": 1532,
-      "sha256": "9ee0c9c83c4d089b711c538be2ad80eb31f0adc1a5a43e32d9d17f0d6fc32a8b"
+      "sha256": "8f522343959bb0c2ad93fdaf3979baa6d1f0de0e40c6a976b4d9d37119ba2df3"
     },
     {
       "package": "ocean-toybox-sha224sum",
       "architecture": "all",
       "artifact": "ocean-toybox-sha224sum_0.8.14-1_all.deb",
       "bytes": 1532,
-      "sha256": "63603baa61af8e10e1c9bb6358130cd9955b11c0c9103a781d305a9e30ea7192"
+      "sha256": "19ab34170739287419d2f770510a072af7c716d059d0e2ab8ad228fd6281658d"
     },
     {
       "package": "ocean-toybox-sha256sum",
       "architecture": "all",
       "artifact": "ocean-toybox-sha256sum_0.8.14-1_all.deb",
       "bytes": 1532,
-      "sha256": "79acf75babd85450b73bab07aeef26ed0ab1eb57c221267deaddd0ec6ea07469"
+      "sha256": "438c8b2d9d2228c5dba8bcc998e0461dbd5140b734dd09f01724b954fde35d30"
     },
     {
       "package": "ocean-toybox-sha384sum",
       "architecture": "all",
       "artifact": "ocean-toybox-sha384sum_0.8.14-1_all.deb",
       "bytes": 1532,
-      "sha256": "4fffa30527b98b410c1ed349623e78fc53cfb40c96f465b85d0710488f3c0a3f"
+      "sha256": "802056d078077fe31d2f464f7baf3a20ddb39c9cb7cb3054a1dfa440fcae0b41"
     },
     {
       "package": "ocean-toybox-sha512sum",
       "architecture": "all",
       "artifact": "ocean-toybox-sha512sum_0.8.14-1_all.deb",
       "bytes": 1532,
-      "sha256": "af9bedaf96b48da2ae6e28e1f41d7d715468b72a46f0ca6cee5d7446c2846718"
+      "sha256": "221a290ef03ec183b95b253a3779e22ea9d51f1502b35c3bc2753e2b37d4c99e"
     },
     {
       "package": "ocean-toybox-sleep",
       "architecture": "all",
       "artifact": "ocean-toybox-sleep_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "1694d2b850f333230299a5840489f6174be6190d4bbc0f61ea60f0dbe07ce972"
+      "sha256": "b8ba2df553672338a97e59713f6a16986f660b879419022df3991c96acd5599c"
     },
     {
       "package": "ocean-toybox-sort",
       "architecture": "all",
       "artifact": "ocean-toybox-sort_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "4e9b253a0fd29402b905cbfc80e9e8d6de5c1b0d98e0332c284c75b389184125"
+      "sha256": "0c4efade19fb08318eab31383cbdbff7ea6fbd461adb450624e36a0ea05b66ef"
     },
     {
       "package": "ocean-toybox-split",
       "architecture": "all",
       "artifact": "ocean-toybox-split_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "b920b3ca42cfd0d543dc752cdbfd38d862d6c39b264424cc0d0c7fc1645771cf"
+      "sha256": "2e50530689e9869487080156d9efde5905e14e4f85cd6d87f32a8de00a265ce3"
     },
     {
       "package": "ocean-toybox-stat",
       "architecture": "all",
       "artifact": "ocean-toybox-stat_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "59a8dd226d8027ad11214d438126307672f26609e46f5ecdb6444a3a9b90f7ff"
+      "sha256": "4d24e9630ce4ac0cca075703cb703ff8b064ebf84e1d93c387ef055ee21a379f"
     },
     {
       "package": "ocean-toybox-strings",
       "architecture": "all",
       "artifact": "ocean-toybox-strings_0.8.14-1_all.deb",
       "bytes": 1532,
-      "sha256": "d8dc50862db9f7cda61944917601ca4d3229192d4e318dfbc20988c2fbede0c7"
+      "sha256": "b9e563d3b62e19c98088b2354bab9c4699c3d37e0f3de91298b998fd6a09113c"
     },
     {
       "package": "ocean-toybox-stty",
       "architecture": "all",
       "artifact": "ocean-toybox-stty_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "b9f3098e62929f4826bcdff8728b0cd009799521373ef348b69127c0227b9a1d"
+      "sha256": "433936607bc00dcf27b8d3ba6b5616c556b441b1220e281b225c6dd556cda271"
     },
     {
       "package": "ocean-toybox-sync",
       "architecture": "all",
       "artifact": "ocean-toybox-sync_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "9242edfebc20f1edea4a8a031af1939c532cd10fde7f87a5c8bead9fa60afd0b"
+      "sha256": "c64dac66dfc71d3ed1a0dd669a5bf5aeab757959038dfe288a2f18dfe0120187"
     },
     {
       "package": "ocean-toybox-sysctl",
       "architecture": "all",
       "artifact": "ocean-toybox-sysctl_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "d94814d9e4f64b34b7fe1a42229b14c610143c7e952ef79c58b33698d63d0028"
+      "sha256": "f01d908d1d2ae9305c4d7221e8a8e1ed22c3b2b86fbe5d521ba31e257d696127"
     },
     {
       "package": "ocean-toybox-tac",
       "architecture": "all",
       "artifact": "ocean-toybox-tac_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "c0c871c9f237ec666365272103d2ab1aac17f2bb14bd2dc9f07920ce97a576df"
+      "sha256": "4fbb3672d4808ada1f138c173da4ed58b5c783006a059cd5bc791b46fa9f1cf9"
     },
     {
       "package": "ocean-toybox-tail",
       "architecture": "all",
       "artifact": "ocean-toybox-tail_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "324ef0b4edb849a51ef9bea3e348aa3ab2e35219093ed4744b18d74a51da21a9"
+      "sha256": "202efac9e544065d51abdddf3b4f5be80dd8c4ffeab2ec6367099820c3352a0b"
     },
     {
       "package": "ocean-toybox-tar",
       "architecture": "all",
       "artifact": "ocean-toybox-tar_0.8.14-1_all.deb",
       "bytes": 1520,
-      "sha256": "9775612e0f1b89761b98e72dcd2fee39af5327223d310a1c564b2e047d42c82f"
+      "sha256": "56fed0c0e9d8bbd712a747d3ceb7585256ed67bb5f6b143223ea22c36482f1d4"
     },
     {
       "package": "ocean-toybox-taskset",
       "architecture": "all",
       "artifact": "ocean-toybox-taskset_0.8.14-1_all.deb",
       "bytes": 1528,
-      "sha256": "b637f4e5f26b8f39ff50f21fe6efba1ea451e5c3715518790e0ffc50283e4542"
+      "sha256": "9fd2672ceb86658dda4aaea0cf14ff8bbec5ccd76121ed603c7a0d0aa56f1c11"
     },
     {
       "package": "ocean-toybox-tee",
       "architecture": "all",
       "artifact": "ocean-toybox-tee_0.8.14-1_all.deb",
       "bytes": 1520,
-      "sha256": "cb3f14d10e7f0133adbb20ef248e22fb7f5c96260025a57ce62454f4231449b2"
+      "sha256": "0dcb4651cab820a67345279b904583193642c1be6a20dcb8633d13c958d66896"
     },
     {
       "package": "ocean-toybox-test",
       "architecture": "all",
       "artifact": "ocean-toybox-test_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "e0fd63862cabaf2154b450dd38e9c8396d7e08cdeda4dc2d9e8a21fb708d2202"
+      "sha256": "fd878582d5957222d38e979dbca00fd2ae9ed5efef8dc8deabd6e143b13cbd20"
     },
     {
       "package": "ocean-toybox-time",
       "architecture": "all",
       "artifact": "ocean-toybox-time_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "8253fbf3e8aea6998f9344b87a209c87c375fb81c65797ef11ac57cd3f88395a"
+      "sha256": "7217804bc840d8824fd7a12864d564ba70f42193022eb87fb3c747c7d39b95f0"
     },
     {
       "package": "ocean-toybox-timeout",
       "architecture": "all",
       "artifact": "ocean-toybox-timeout_0.8.14-1_all.deb",
       "bytes": 1532,
-      "sha256": "7bfe60607fdf5279c17065e6dace6f4458108d12e253bd89cb5c32c99c6d1a7d"
+      "sha256": "0a53386a2de916cbb6368cfb40265594b2bd908bdf2a45b21daea6fc9f9bc381"
     },
     {
       "package": "ocean-toybox-top",
       "architecture": "all",
       "artifact": "ocean-toybox-top_0.8.14-1_all.deb",
       "bytes": 1520,
-      "sha256": "202b6073f9c2b597ff4d854bd84fba31c55937dc58902767472d378f5f19461b"
+      "sha256": "57abb132a4e46f17ac1b2f74d864291a966a18387af59d7589d62aca31934afb"
     },
     {
       "package": "ocean-toybox-touch",
       "architecture": "all",
       "artifact": "ocean-toybox-touch_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "89c5faff11469002f3eed2e56844b863aec92217f980e0b801f9dd910555378e"
+      "sha256": "76ef4385ab9e30f1ec3401a15eb0899821213dffcbf036ec723e0334f4095c4d"
     },
     {
       "package": "ocean-toybox-tr",
       "architecture": "all",
       "artifact": "ocean-toybox-tr_0.8.14-1_all.deb",
       "bytes": 1516,
-      "sha256": "eda276872e033d64636506eb9bb801a69c4a1652775ed6ec9aae1179bae7d59d"
+      "sha256": "4a4b9186116bb44fa6261ca07508b5a24239d0d723878650d8998eef8a50cbe9"
     },
     {
       "package": "ocean-toybox-traceroute",
       "architecture": "all",
       "artifact": "ocean-toybox-traceroute_0.8.14-1_all.deb",
       "bytes": 1532,
-      "sha256": "18c3e127148c725b83ffb71283f03a357a9ba9bc46f6174cbd3b6bfb840b6c5f"
+      "sha256": "27c22a5307f3d7875464aef309599aa31329894eac856fa87cf1ab980bcd3c89"
     },
     {
       "package": "ocean-toybox-true",
       "architecture": "all",
       "artifact": "ocean-toybox-true_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "9f1beb376853caa6daa7cf703b4fb864b5114f0410ffb3cb12eba9143030fbc7"
+      "sha256": "c31387595dcb39757e7e9073465f6e6c077183b276713f888dbc20a7bf161d18"
     },
     {
       "package": "ocean-toybox-truncate",
       "architecture": "all",
       "artifact": "ocean-toybox-truncate_0.8.14-1_all.deb",
       "bytes": 1528,
-      "sha256": "f8d2e22ea113e6a05e6cb55c840933d0f205f19d4c7138f4090cfdb9cdf51934"
+      "sha256": "a441db451b3c9bb3afe7faaf13c2ea26a9e31743fbbd5a04ec55e033d9226376"
     },
     {
       "package": "ocean-toybox-tty",
       "architecture": "all",
       "artifact": "ocean-toybox-tty_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "4110498b7b7b7007d55fa6741fcae3c25cc2996d0b4d9487cd491da15a29ae8f"
+      "sha256": "df5d2c9be7823188a7edccf7b533a5af5605db5e122115b06934825523947b77"
     },
     {
       "package": "ocean-toybox-ulimit",
       "architecture": "all",
       "artifact": "ocean-toybox-ulimit_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "4220f9e139a832aebfef97bb7b1a8b4358b2b827893ae7438a9526cad22ba79a"
+      "sha256": "c3e95eca7f985c1e71bef92d28f54a4de51e84669bfade57bc1685a68f30c622"
     },
     {
       "package": "ocean-toybox-uname",
       "architecture": "all",
       "artifact": "ocean-toybox-uname_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "9e5b475623894ff21443f1ded04b3223c581c54c06f8d52d101913280532f563"
+      "sha256": "34d45c2442bfbafa5b87cb3da057232a33fc7e92c873019114a21de55dffa023"
     },
     {
       "package": "ocean-toybox-uniq",
       "architecture": "all",
       "artifact": "ocean-toybox-uniq_0.8.14-1_all.deb",
       "bytes": 1520,
-      "sha256": "a3147e750bcfb700ed95dd6fbabfa8005930723cd5a2e8b3d469f5c802ccc15f"
+      "sha256": "50168385ab8ed80330cdf6d30c3970b03e76aa3f0ea419e26d973272ecb8bbeb"
     },
     {
       "package": "ocean-toybox-unix2dos",
       "architecture": "all",
       "artifact": "ocean-toybox-unix2dos_0.8.14-1_all.deb",
       "bytes": 1532,
-      "sha256": "748c3a05d4e9c869f5fe648723075a7c2d8c513c1106739c46dafef9667db4bc"
+      "sha256": "225269be13f7ca639d57d9c4dca57383d558f0bd0e3a0c72e6996b1e5b13861a"
     },
     {
       "package": "ocean-toybox-unlink",
       "architecture": "all",
       "artifact": "ocean-toybox-unlink_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "cb6ce1428c5a79b606b1cfdf929c0e505b8ad2d027997adff18d53e84e5d7730"
+      "sha256": "72d4f2578e56a92f8a5b5670ab1371b1fc36734c69ecd467de8e71263577c879"
     },
     {
       "package": "ocean-toybox-uptime",
       "architecture": "all",
       "artifact": "ocean-toybox-uptime_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "0d934533af0d7881190f7015b213b59f335902792e97bbfd00ae458db720d25c"
+      "sha256": "b416e66e0c3a9647c8f287e34b1304c34f62bf84a2d092f1c597771291ef03a8"
     },
     {
       "package": "ocean-toybox-usleep",
       "architecture": "all",
       "artifact": "ocean-toybox-usleep_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "44c0c3700a87758d01ff574f90065eb78638de7718d135e1dfd4b5ae780d4f1e"
+      "sha256": "8c3bc6dc2eb890b0ecdd98cc19eac3fa06e7472e5174d1aaddfa00fb69612ea1"
     },
     {
       "package": "ocean-toybox-uudecode",
       "architecture": "all",
       "artifact": "ocean-toybox-uudecode_0.8.14-1_all.deb",
       "bytes": 1528,
-      "sha256": "048f90f91c479aff96057574eb3869139fd1c9cc93a21175553034dc46ce872c"
+      "sha256": "93a0338a1220aaab1aa8bcec762eadf5e58633ea360e02ee245576ef47bb1eae"
     },
     {
       "package": "ocean-toybox-uuencode",
       "architecture": "all",
       "artifact": "ocean-toybox-uuencode_0.8.14-1_all.deb",
       "bytes": 1532,
-      "sha256": "095b238686f98e845c4938bcdf79633651b172387c69ef3fabdeee256cb79974"
+      "sha256": "ca982cbc22767c558fcd1ff7eb48080f602caa4c3177420d0817d1675c4aa960"
     },
     {
       "package": "ocean-toybox-uuidgen",
       "architecture": "all",
       "artifact": "ocean-toybox-uuidgen_0.8.14-1_all.deb",
       "bytes": 1528,
-      "sha256": "c45ab12de88f0a7dcdaeae441ebc97819fa74b02e8997bd886a738818b2439c9"
+      "sha256": "5c33ab44529b7b397f5c21f6ae3441b1483b7c896c6fc0d647bcca5dffa0f510"
     },
     {
       "package": "ocean-toybox-vi",
       "architecture": "all",
       "artifact": "ocean-toybox-vi_0.8.14-1_all.deb",
       "bytes": 1516,
-      "sha256": "12ea3f494b8675b07026e2fe0dbce1ebb7b0716e5c5bb375daba5b861ce983af"
+      "sha256": "fdff50c285ccda82ade092ccdf79488923139711cfa492e007d954b643e63435"
     },
     {
       "package": "ocean-toybox-vmstat",
       "architecture": "all",
       "artifact": "ocean-toybox-vmstat_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "9d2bee807db20a45d73b6d6fa46962f5facd15759ceabace2c60d9fc8dbc83f1"
+      "sha256": "dccf266fb4b76facca5e786f0cdbdaaded9a23e44a674445e60c66f712d77eea"
     },
     {
       "package": "ocean-toybox-watch",
       "architecture": "all",
       "artifact": "ocean-toybox-watch_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "5e1aed77cb01c344b121311a46fef5a36c0485bedbf065c9ca6a39b635e0619c"
+      "sha256": "938378c8340bc85d7eeb1b674889c745176638ae2a41277223f6552251e23600"
     },
     {
       "package": "ocean-toybox-wc",
       "architecture": "all",
       "artifact": "ocean-toybox-wc_0.8.14-1_all.deb",
       "bytes": 1516,
-      "sha256": "8625b52e51f83c923d788de2e77528c92a84f36e5ca1b30c8617b239218609c5"
+      "sha256": "01eb1c32b56486c249ac6df0778f5e8136019004eaa4fac0067b03a0bdc338fc"
     },
     {
       "package": "ocean-toybox-which",
       "architecture": "all",
       "artifact": "ocean-toybox-which_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "9aba0c9ef10a86923a166c84b0fb8e33945ef5373f0bd4ce91cedf55ff626dbd"
+      "sha256": "3f58a5984cec2e80d4cc811c1d23deac86e2c6607b5b4d1a93d5e60c5bd5f04f"
     },
     {
       "package": "ocean-toybox-whoami",
       "architecture": "all",
       "artifact": "ocean-toybox-whoami_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "42bc29a5ab9c8b95e7d8beb12f46956d9427bfc6a2ca1d9963f7094c6154fc83"
+      "sha256": "46de106c18494ea347d258804d9b77f3d300983b7d1edc40ca106ccb5974d2aa"
     },
     {
       "package": "ocean-toybox-xargs",
       "architecture": "all",
       "artifact": "ocean-toybox-xargs_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "001515ca09d5740290a43ce8d201f9ffbd20d54e93ff49ee420968373412bc17"
+      "sha256": "a041a1a00f74d6bbdc8d921a1d0c71519ccbe7fc88b71053ae789eac01ab6b58"
     },
     {
       "package": "ocean-toybox-xxd",
       "architecture": "all",
       "artifact": "ocean-toybox-xxd_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "a0a2fb2bdb7e28c7d8c3798352c5c8d5f234f1db97927b54dfedfdb922d0d70a"
+      "sha256": "46b023e601a100a97f28bb4c0bed0d54e6e805b01ebace1dab56618bb94d8f49"
     },
     {
       "package": "ocean-toybox-yes",
       "architecture": "all",
       "artifact": "ocean-toybox-yes_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "68c7fecb43b0329a6123b86ee8556aba71ecdc34ea317600f7b79d9f279449cb"
+      "sha256": "e46ac092a54dd308fa1a86bd16bb8e031d60a39aa546a73668a19838071fff70"
     },
     {
       "package": "ocean-toybox-zcat",
       "architecture": "all",
       "artifact": "ocean-toybox-zcat_0.8.14-1_all.deb",
       "bytes": 1524,
-      "sha256": "03c2073256d58e239d459f45338ef0ad0e180bf49d52c6e8431ba12686881e99"
+      "sha256": "2c892b49dd7fcfd9b958c312748d863ff59765fb9b3336cc48dbff054319b338"
     },
     {
       "package": "ocean-toybox",
       "architecture": "aarch64",
       "artifact": "ocean-toybox_0.8.14-1_aarch64.deb",
       "bytes": 196696,
-      "sha256": "8e85d3bbee31e63063a5821bf0dcf630091cf8835029cba12abc2f01130b4c88"
+      "sha256": "71732fdf42b51de1a3b9992e42e00fb913efb1b28129f23d40a63ece9d8ece7b"
     }
   ],
-  "indexSha256": "1ec59d86fe709eed8d87da285bc47582c1dfe82ec9bf60c4747f4cf0f5cfa1a1",
-  "indexGzipSha256": "89c5b5cd1675c5361e593a56f7f66657491616b9bbc23f1bd1a096d01b3e2d85",
+  "indexSha256": "a913eedeeabfba25a72a543946c293cc316f8fbdcd4286dd3319de657670a165",
+  "indexGzipSha256": "0d9e6f1947f0761fca017ee8905b684e35258f80a74ae3d5f5bc3a4bc6e156c8",
   "promotion": "staging-only until existing Ocean repository signing identity is available"
 }
