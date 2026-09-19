@@ -7,7 +7,7 @@
   "commit": "f3f1c3c5b8ad91850e0f7c590cf177f7ab022024",
   "tree": "5b775fcd5d2bd42d028648d5513ef662009a27af",
   "copyingBlob": "f6683e74e0f0130f246dbf7054f4cacc88ca84b0",
-  "buildAttribute": "nix-everything-static",
+  "buildAttribute": "nix-cli-static",
   "buildSystem": "aarch64-linux",
   "prefix": "/data/data/studio.ocean.app/files/usr",
   "runtime": "Ocean proot chroot-store compatibility layer",
@@ -16,5 +16,5 @@
   ],
   "sourcePolicy": "official Nix source and official Nix release bootstrap only; no Termux packages or binary inputs",
   "command": "nix-ocean",
-  "compatibilityNote": "Namespaced command avoids file ownership collisions with the existing nix-bridge package."
+  "compatibilityNote": "Namespaced command avoids existing nix-bridge collisions; static CLI is packaged inside an isolated Ocean proot store."
 }
