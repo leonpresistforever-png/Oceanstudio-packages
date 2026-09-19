@@ -115,6 +115,7 @@ def busybox(item,ndk,work,pool,readelf):
       "# CONFIG_PIE is not set":"CONFIG_PIE=y",
       "CONFIG_SELINUX=y":"# CONFIG_SELINUX is not set",
       "CONFIG_FEATURE_HAVE_RPC=y":"# CONFIG_FEATURE_HAVE_RPC is not set",
+      "CONFIG_TC=y":"# CONFIG_TC is not set",
     }.items(): text=text.replace(a,b)
     cfg.write_text(text)
     run(["make","oldconfig"],cwd=src,env=env)
@@ -122,7 +123,8 @@ def busybox(item,ndk,work,pool,readelf):
     binary=src/"busybox";validation=validate_binary(binary,readelf)
     deb=package_binary("busybox",item["version"],binary,src/"LICENSE",pool,
         "BusyBox multicall utility compiled from official upstream source for Ocean Android/AArch64")
-    return {"package":"busybox","artifact":deb.name,"sha256":sha256(deb),"sourceSha256":expected,"validation":validation}
+    return {"package":"busybox","artifact":deb.name,"sha256":sha256(deb),"sourceSha256":expected,
+      "patches":["disable CONFIG_TC because Android NDK omits Linux CBQ traffic-control ABI"],"validation":validation}
 
 def sbase(item,ndk,work,pool,readelf):
     src=work/"sbase";clone_pinned(item["source"],item["commit"],src)
