@@ -100,9 +100,14 @@ jobs:
           mkdir -p "$ROOT/usr/bin" "$ROOT/home/ocean" "$ROOT/tmp"
           ln -sf "$NIX_STATIC_OUT/bin/nix" "$ROOT/usr/bin/nix"
 
+          mkdir -p "$ROOT/proc"
+          sudo mount -t proc proc "$ROOT/proc"
+          trap 'sudo umount "$ROOT/proc" >/dev/null 2>&1 || true' EXIT
           sudo chroot "$ROOT" /usr/bin/nix --version | grep -F '2.34.8'
           sudo chroot "$ROOT" /usr/bin/nix --extra-experimental-features 'nix-command flakes' store info --store local
           echo "NIX_CHROOT_SMOKE=PASS" >> "$GITHUB_ENV"
+          sudo umount "$ROOT/proc"
+          trap - EXIT
 
           set +e
           proot -0 -r "$ROOT" -w /home/ocean /usr/bin/nix --version >"$RUNNER_TEMP/proot-nix.log" 2>&1
