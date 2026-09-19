@@ -45,8 +45,8 @@ jobs:
 
           ! grep -R -a -E '/data/(data|user/0)/com\.termux|packages\.termux\.dev|TERMUX_PREFIX' staging/glibc-2.44
 
-          dpkg-deb -c staging/glibc-2.44/pool/main/ocean-glibc_2.44-1_aarch64.deb             | grep -q 'data/data/studio.ocean.app/files/glibc'
-          dpkg-deb -c staging/glibc-2.44/pool/main/ocean-glibc-runner_2.44-1_all.deb             | grep -q 'data/data/studio.ocean.app/files/usr/bin/ocean-glibc-run'
+          dpkg-deb -c staging/glibc-2.44/pool/main/ocean-glibc_2.44-1_aarch64.deb             | grep 'data/data/studio.ocean.app/files/glibc' >/dev/null
+          dpkg-deb -c staging/glibc-2.44/pool/main/ocean-glibc-runner_2.44-1_all.deb             | grep 'data/data/studio.ocean.app/files/usr/bin/ocean-glibc-run' >/dev/null
 
       - name: Verify existing Ocean core remains untouched
         run: |

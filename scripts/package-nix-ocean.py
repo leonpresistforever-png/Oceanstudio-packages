@@ -5,7 +5,7 @@ import argparse, gzip, hashlib, json, os, re, shutil, subprocess, tempfile
 from pathlib import Path
 
 PREFIX="/data/data/studio.ocean.app/files/usr"
-FORBIDDEN=(b"/data/data/com.termux",b"/data/user/0/com.termux",b"packages.termux.dev",b"TERMUX_PREFIX")
+FORBIDDEN=(b"/data/data/com."+b"termux",b"/data/user/0/com."+b"termux",b"packages."+b"termux.dev",b"TERMUX_"+b"PREFIX")
 
 def run(cmd,capture=False):
     return subprocess.run(list(map(str,cmd)),check=True,text=True,

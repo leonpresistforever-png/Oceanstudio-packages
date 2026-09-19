@@ -117,13 +117,15 @@ def busybox(item,ndk,work,pool,readelf):
     text=re.sub(r'^CONFIG_EXTRA_LDLIBS=.*$', 'CONFIG_EXTRA_LDLIBS=""', text, flags=re.M)
     text=re.sub(r'^CONFIG_STATIC=y$', '# CONFIG_STATIC is not set', text, flags=re.M)
     text=re.sub(r'^# CONFIG_PIE is not set$', 'CONFIG_PIE=y', text, flags=re.M)
+    text=re.sub(r'^# CONFIG_USE_BB_CRYPT is not set$', 'CONFIG_USE_BB_CRYPT=y', text, flags=re.M)
+    text=re.sub(r'^# CONFIG_USE_BB_CRYPT_SHA is not set$', 'CONFIG_USE_BB_CRYPT_SHA=y', text, flags=re.M)
     android_off=[
       "TC","HOSTID","CHVT","DEALLOCVT","DUMPKMAP","FGCONSOLE","KBD_MODE",
       "LOADFONT","LOADKMAP","OPENVT","RESET","RESIZE","SETCONSOLE",
       "SETFONT","SETKEYCODES","SHOWKEY","SETLOGCONS",
       "HALT","REBOOT","POWEROFF","INIT","LINUXRC","BOOTCHARTD",
       "FEATURE_UTMP","FEATURE_WTMP","ADJTIMEX",
-      "USE_BB_CRYPT","USE_BB_CRYPT_SHA","PASSWD","FEATURE_PASSWD_WEAK_CHECK",
+      "PASSWD","FEATURE_PASSWD_WEAK_CHECK",
       "CRYPTPW","MKPASSWD","CHPASSWD","SULOGIN","VLOCK","SU","LOGIN","GETTY"
     ]
     for symbol in android_off:
