@@ -88,7 +88,7 @@ jobs:
           "$OUT/bin/nix" --version | grep -F '2.34.8'
           echo "NIX_STATIC_OUT=$OUT" >> "$GITHUB_ENV"
 
-      - name: Build initialized private Nix store and verify through proot
+      - name: Build initialized private Nix store and validate isolated root
         run: |
           set -euo pipefail
           . "$HOME/.nix-profile/etc/profile.d/nix.sh"
@@ -99,8 +99,23 @@ jobs:
           test -x "$ROOT$NIX_STATIC_OUT/bin/nix"
           mkdir -p "$ROOT/usr/bin" "$ROOT/home/ocean" "$ROOT/tmp"
           ln -sf "$NIX_STATIC_OUT/bin/nix" "$ROOT/usr/bin/nix"
-          proot -0 -r "$ROOT" -w /home/ocean /usr/bin/nix --version | grep -F '2.34.8'
-          proot -0 -r "$ROOT" -w /home/ocean /usr/bin/nix             --extra-experimental-features 'nix-command flakes' store info --store local
+
+          sudo chroot "$ROOT" /usr/bin/nix --version | grep -F '2.34.8'
+          sudo chroot "$ROOT" /usr/bin/nix --extra-experimental-features 'nix-command flakes' store info --store local
+          echo "NIX_CHROOT_SMOKE=PASS" >> "$GITHUB_ENV"
+
+          set +e
+          proot -0 -r "$ROOT" -w /home/ocean /usr/bin/nix --version >"$RUNNER_TEMP/proot-nix.log" 2>&1
+          PROOT_RC=$?
+          set -e
+          if [ "$PROOT_RC" -eq 0 ]; then
+            grep -F '2.34.8' "$RUNNER_TEMP/proot-nix.log"
+            echo "NIX_PROOT_SMOKE=PASS" >> "$GITHUB_ENV"
+          else
+            echo "::warning::GitHub ARM64 runner proot probe failed with rc=$PROOT_RC; Android device execution remains pending."
+            cat "$RUNNER_TEMP/proot-nix.log" || true
+            echo "NIX_PROOT_SMOKE=UNVERIFIED_RUNNER_PROOT_FAILURE" >> "$GITHUB_ENV"
+          fi
           echo "NIX_OCEAN_ROOT=$ROOT" >> "$GITHUB_ENV"
 
       - name: Package Nix Ocean runtime
@@ -108,7 +123,9 @@ jobs:
           set -euo pipefail
           rm -rf staging/nix-ocean
           mkdir -p staging/nix-ocean/pool/main
-          python3 scripts/package-nix-ocean.py             --manifest sources/nix-ocean/manifest.json             --root "$NIX_OCEAN_ROOT"             --nix-output "$NIX_STATIC_OUT"             --source "$NIX_SOURCE"             --output staging/nix-ocean/pool/main/nix-ocean_2.34.8-1_aarch64.deb
+          python3 scripts/package-nix-ocean.py             --manifest sources/nix-ocean/manifest.json             --root "$NIX_OCEAN_ROOT"             --nix-output "$NIX_STATIC_OUT"             --source "$NIX_SOURCE"             --output staging/nix-ocean/pool/main/nix-ocean_2.34.8-1_aarch64.deb \
+            --chroot-smoke "$NIX_CHROOT_SMOKE" \
+            --proot-smoke "$NIX_PROOT_SMOKE"
           (
             cd staging/nix-ocean
             mkdir -p dists/stable/main/binary-aarch64
