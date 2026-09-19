@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "family": "ocean-glibc",
+  "version": "2.44-1",
+  "upstream": "GNU C Library",
+  "sourceUrl": "https://ftp.gnu.org/gnu/glibc/glibc-2.44.tar.xz",
+  "signatureUrl": "https://ftp.gnu.org/gnu/glibc/glibc-2.44.tar.xz.sig",
+  "gnuKeyringUrl": "https://ftp.gnu.org/gnu/gnu-keyring.gpg",
+  "glibcPrefix": "/data/data/studio.ocean.app/files/glibc",
+  "oceanPrefix": "/data/data/studio.ocean.app/files/usr",
+  "architecture": "aarch64",
+  "hostTriplet": "aarch64-linux-gnu",
+  "enableKernel": "4.14",
+  "packages": [
+    "ocean-glibc",
+    "ocean-glibc-runner",
+    "ocean-glibc-devel",
+    "ocean-glibc-utils",
+    "ocean-glibc-locale-data"
+  ],
+  "isolationRules": [
+    "Do not replace Android Bionic",
+    "Do not set global LD_LIBRARY_PATH",
+    "Do not replace Ocean Bash or existing commands",
+    "Run glibc binaries explicitly through the packaged loader",
+    "Keep all glibc runtime state under the dedicated glibc prefix"
+  ]
+}
