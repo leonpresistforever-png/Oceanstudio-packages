@@ -1,0 +1,15 @@
+Package: nix-ocean
+Version: 2.34.8-1
+Architecture: aarch64
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: proot
+Filename: pool/main/nix-ocean_2.34.8-1_aarch64.deb
+Size: 10246184
+MD5sum: a803a8a8f0907c562939c3e558860db4
+SHA1: ea09d62b095f88e57f641098b576d7386d60a761
+SHA256: 158b4351df8d6c569639a4eb9daca93ed2dfc6cd1fbb689d1d108c3f5afa642d
+Section: devel
+Priority: optional
+Homepage: https://nixos.org/
+Description: Official Nix package manager static ARM64 runtime in an isolated Ocean proot store
+
