@@ -145,6 +145,8 @@ def sbase(item,ndk,work,pool,readelf):
     makefile=src/"Makefile";txt=makefile.read_text()
     txt=txt.replace("$(CC) $(CPPFLAGS) $(CFLAGS) -o $@ make/*.c","$(HOSTCC) $(CPPFLAGS) $(CFLAGS) -o $@ make/*.c")
     makefile.write_text(txt)
+    getconf = src / "getconf.c"
+    if getconf.is_file(): getconf.write_text("#include <stddef.h>\nstatic inline size_t confstr(int name, char *buf, size_t len) { return 0; }\n" + getconf.read_text())
     clang=ndk/"toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android28-clang"
     ar=ndk/"toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar";ran=ndk/"toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ranlib"
     run(["make","-j2","sbase-box",f"CC={clang}","HOSTCC=cc",f"AR={ar}",f"RANLIB={ran}",
