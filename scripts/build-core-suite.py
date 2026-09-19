@@ -115,8 +115,14 @@ def busybox(item,ndk,work,pool,readelf):
       "# CONFIG_PIE is not set":"CONFIG_PIE=y",
       "CONFIG_SELINUX=y":"# CONFIG_SELINUX is not set",
       "CONFIG_FEATURE_HAVE_RPC=y":"# CONFIG_FEATURE_HAVE_RPC is not set",
-      "CONFIG_TC=y":"# CONFIG_TC is not set",
     }.items(): text=text.replace(a,b)
+    android_off=[
+      "TC","HOSTID","CHVT","DEALLOCVT","DUMPKMAP","FGCONSOLE","KBD_MODE",
+      "LOADFONT","LOADKMAP","OPENVT","RESET","RESIZE","SETCONSOLE",
+      "SETFONT","SETKEYCODES","SHOWKEY"
+    ]
+    for symbol in android_off:
+        text=re.sub(rf"^CONFIG_{symbol}=y$",f"# CONFIG_{symbol} is not set",text,flags=re.M)
     cfg.write_text(text)
     run(["make","oldconfig",f"CC={clang}","HOSTCC=cc",f"STRIP={strip}"],cwd=src,env=env)
     run(["make","-j2",f"CC={clang}","HOSTCC=cc",f"STRIP={strip}"],cwd=src,env=env)
@@ -124,7 +130,7 @@ def busybox(item,ndk,work,pool,readelf):
     deb=package_binary("busybox",item["version"],binary,src/"LICENSE",pool,
         "BusyBox multicall utility compiled from official upstream source for Ocean Android/AArch64")
     return {"package":"busybox","artifact":deb.name,"sha256":sha256(deb),"sourceSha256":expected,
-      "patches":["disable CONFIG_TC because Android NDK omits Linux CBQ traffic-control ABI"],"validation":validation}
+      "patches":["disable Linux console/host-only applets unavailable in Android NDK/Bionic","disable CONFIG_TC because Android NDK omits Linux CBQ traffic-control ABI"],"validation":validation}
 
 def sbase(item,ndk,work,pool,readelf):
     src=work/"sbase";clone_pinned(item["source"],item["commit"],src)
