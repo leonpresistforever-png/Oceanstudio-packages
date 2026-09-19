@@ -1,0 +1,101 @@
+Package: ocean-glibc
+Version: 2.44-1
+Architecture: aarch64
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Filename: pool/main/ocean-glibc_2.44-1_aarch64.deb
+Size: 6781328
+MD5sum: c74fa033e84bd593f5e44b8c2fa70970
+SHA1: dec89eeef2e4b6637dcf3d5b9e57eefd25f8da5a
+SHA256: 561187144f791b8d112286cd814a5ac2e8dc698fc7724591fedeaf6ef5e76e50
+Section: libs
+Priority: optional
+Homepage: https://www.gnu.org/software/libc/
+Description: Isolated GNU C Library runtime for OceanStudio; does not replace Android Bionic
+
+Package: ocean-glibc-devel
+Version: 2.44-1
+Architecture: aarch64
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-glibc (= 2.44-1)
+Filename: pool/main/ocean-glibc-devel_2.44-1_aarch64.deb
+Size: 6082064
+MD5sum: 9d78c68324371700215a4f13ed9de2bb
+SHA1: fb0be9c3428b0a7110ad35a4504a476c7d06885a
+SHA256: d6f7fe03f8fa4db9093d7753d0a3a1496c5bbfd5ddbe53dd94ff45a16844a7bf
+Section: devel
+Priority: optional
+Description: Headers and development files for the isolated Ocean glibc runtime
+
+Package: ocean-glibc-locale-data
+Version: 2.44-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-glibc (= 2.44-1)
+Filename: pool/main/ocean-glibc-locale-data_2.44-1_all.deb
+Size: 4572920
+MD5sum: 7a888ea5e3fb4df884c59e248dd4ae4f
+SHA1: d273d179c6c6072e61f44e18e560e0de639258f5
+SHA256: 5e3020af5dbe760bff9bcddf50efe08da7f98c28f772e9dbb3e2141a1d9634b1
+Section: localization
+Priority: optional
+Description: Locale source and translation data for isolated Ocean glibc
+
+Package: ocean-glibc-patchelf
+Version: 2.44-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-glibc (= 2.44-1), patchelf
+Filename: pool/main/ocean-glibc-patchelf_2.44-1_all.deb
+Size: 1052
+MD5sum: 300e274f428b4c7d40ffb091a1301a53
+SHA1: d672b115e4e37541f62c3bf7ac1ad1067c21f03d
+SHA256: 8ba9c78d2b069405d2a460b98be214404520f3b847b22526aaf26a4a48ad1e0a
+Section: utils
+Priority: optional
+Description: Namespaced helper to retarget an ELF binary to the isolated Ocean glibc loader
+
+Package: ocean-glibc-runner
+Version: 2.44-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-glibc (= 2.44-1)
+Filename: pool/main/ocean-glibc-runner_2.44-1_all.deb
+Size: 1112
+MD5sum: 59634bd6fb11eb176be5b5cfbb7b5f59
+SHA1: 727523bf84a597ae5d3d45c41ab7d36bd95396fb
+SHA256: 083ea94f5d309d04d3f0d6c9afc3f36f2dd05f8801000ff6160d68b4b6fbac52
+Section: utils
+Priority: optional
+Description: Explicit loader runner for isolated Ocean glibc binaries
+
+Package: ocean-glibc-suite
+Version: 2.44-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-glibc (= 2.44-1), ocean-glibc-runner (= 2.44-1), ocean-glibc-utils (= 2.44-1), ocean-glibc-devel (= 2.44-1), ocean-glibc-locale-data (= 2.44-1), ocean-glibc-patchelf (= 2.44-1)
+Filename: pool/main/ocean-glibc-suite_2.44-1_all.deb
+Size: 764
+MD5sum: f8517cd1cb195d6de929fd109aee3995
+SHA1: b7cf4ec88c63e8b77c2f9be2041177a9d39b47d6
+SHA256: 6ee73a533c7bd424b78a5a7d9e1300e6734c8242d07e9cd0eea688aa248f26cc
+Section: metapackages
+Priority: optional
+Description: Meta package for the isolated Ocean glibc compatibility foundation
+
+Package: ocean-glibc-utils
+Version: 2.44-1
+Architecture: aarch64
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-glibc (= 2.44-1), ocean-glibc-runner (= 2.44-1)
+Filename: pool/main/ocean-glibc-utils_2.44-1_aarch64.deb
+Size: 2428552
+MD5sum: b1d57b2b885504b9fc86a1e9f44b5342
+SHA1: 85c5ee1d2564f144edeecf2b5227db93c672ed29
+SHA256: e227eeb2a609c7f9ac1e8d7213d69c9ac6e0c9d32bb33dea84468df32fc79025
+Section: utils
+Priority: optional
+Description: Namespaced GNU libc utilities for OceanStudio glibc compatibility
+
+dpkg-scanpackages: warning: Packages in archive but missing from override file:
+dpkg-scanpackages: warning:   ocean-glibc ocean-glibc-devel ocean-glibc-locale-data ocean-glibc-patchelf ocean-glibc-runner ocean-glibc-suite ocean-glibc-utils
+dpkg-scanpackages: info: Wrote 7 entries to output Packages file.
