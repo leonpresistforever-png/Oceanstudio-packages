@@ -119,7 +119,8 @@ def busybox(item,ndk,work,pool,readelf):
     android_off=[
       "TC","HOSTID","CHVT","DEALLOCVT","DUMPKMAP","FGCONSOLE","KBD_MODE",
       "LOADFONT","LOADKMAP","OPENVT","RESET","RESIZE","SETCONSOLE",
-      "SETFONT","SETKEYCODES","SHOWKEY"
+      "SETFONT","SETKEYCODES","SHOWKEY",
+      "HALT","REBOOT","POWEROFF"
     ]
     for symbol in android_off:
         text=re.sub(rf"^CONFIG_{symbol}=y$",f"# CONFIG_{symbol} is not set",text,flags=re.M)
