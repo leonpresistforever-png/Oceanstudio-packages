@@ -108,19 +108,21 @@ def busybox(item,ndk,work,pool,readelf):
     clang=ndk/"toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android28-clang"
     strip=ndk/"toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-strip"
     env=dict(os.environ,CC=str(clang),HOSTCC=require("cc"),STRIP=str(strip),KCONFIG_NOTIMESTAMP="1",LC_ALL="C")
-    run(["make","defconfig"],cwd=src,env=env)
+    run(["make","android_ndk_defconfig"],cwd=src,env=env)
     cfg=src/".config";text=cfg.read_text()
-    for a,b in {
-      "CONFIG_STATIC=y":"# CONFIG_STATIC is not set",
-      "# CONFIG_PIE is not set":"CONFIG_PIE=y",
-      "CONFIG_SELINUX=y":"# CONFIG_SELINUX is not set",
-      "CONFIG_FEATURE_HAVE_RPC=y":"# CONFIG_FEATURE_HAVE_RPC is not set",
-    }.items(): text=text.replace(a,b)
+    text=re.sub(r'^CONFIG_CROSS_COMPILER_PREFIX=.*$', 'CONFIG_CROSS_COMPILER_PREFIX=""', text, flags=re.M)
+    text=re.sub(r'^CONFIG_SYSROOT=.*$', 'CONFIG_SYSROOT=""', text, flags=re.M)
+    text=re.sub(r'^CONFIG_EXTRA_CFLAGS=.*$', 'CONFIG_EXTRA_CFLAGS=""', text, flags=re.M)
+    text=re.sub(r'^CONFIG_EXTRA_LDFLAGS=.*$', 'CONFIG_EXTRA_LDFLAGS=""', text, flags=re.M)
+    text=re.sub(r'^CONFIG_EXTRA_LDLIBS=.*$', 'CONFIG_EXTRA_LDLIBS=""', text, flags=re.M)
+    text=re.sub(r'^CONFIG_STATIC=y$', '# CONFIG_STATIC is not set', text, flags=re.M)
+    text=re.sub(r'^# CONFIG_PIE is not set$', 'CONFIG_PIE=y', text, flags=re.M)
     android_off=[
       "TC","HOSTID","CHVT","DEALLOCVT","DUMPKMAP","FGCONSOLE","KBD_MODE",
       "LOADFONT","LOADKMAP","OPENVT","RESET","RESIZE","SETCONSOLE",
-      "SETFONT","SETKEYCODES","SHOWKEY",
-      "HALT","REBOOT","POWEROFF","FEATURE_UTMP","FEATURE_WTMP",
+      "SETFONT","SETKEYCODES","SHOWKEY","SETLOGCONS",
+      "HALT","REBOOT","POWEROFF","INIT","LINUXRC","BOOTCHARTD",
+      "FEATURE_UTMP","FEATURE_WTMP","ADJTIMEX",
       "USE_BB_CRYPT","USE_BB_CRYPT_SHA","PASSWD","FEATURE_PASSWD_WEAK_CHECK",
       "CRYPTPW","MKPASSWD","CHPASSWD","SULOGIN","VLOCK","SU","LOGIN","GETTY"
     ]
@@ -133,7 +135,7 @@ def busybox(item,ndk,work,pool,readelf):
     deb=package_binary("busybox",item["version"],binary,src/"LICENSE",pool,
         "BusyBox multicall utility compiled from official upstream source for Ocean Android/AArch64")
     return {"package":"busybox","artifact":deb.name,"sha256":sha256(deb),"sourceSha256":expected,
-      "patches":["disable Linux console/host-only applets unavailable in Android NDK/Bionic","disable CONFIG_TC because Android NDK omits Linux CBQ traffic-control ABI"],"validation":validation}
+      "patches":["base config switched to upstream android_ndk_defconfig","strip obsolete upstream NDK path/toolchain flags","disable Android-incompatible console/init/power/adjtimex/login crypt features"],"validation":validation}
 
 def sbase(item,ndk,work,pool,readelf):
     src=work/"sbase";clone_pinned(item["source"],item["commit"],src)
