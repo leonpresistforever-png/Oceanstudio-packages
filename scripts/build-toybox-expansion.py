@@ -99,7 +99,11 @@ def compile_toybox(manifest: dict, source: Path, ndk: Path, work: Path) -> tuple
         if not re.fullmatch(r"[A-Z0-9_]+", symbol):
             raise SystemExit(f"invalid applet symbol: {applet}")
         symbols.append(symbol)
-    miniconfig.write_text("".join(f"CONFIG_{symbol}=y\n" for symbol in symbols))
+    feature_symbols = ["TOYBOX_FLOAT", "TOYBOX_HELP"]
+    miniconfig.write_text(
+        "".join(f"CONFIG_{symbol}=y\n" for symbol in symbols)
+        + "".join(f"CONFIG_{symbol}=y\n" for symbol in feature_symbols)
+    )
 
     env = dict(os.environ)
     env.update({
