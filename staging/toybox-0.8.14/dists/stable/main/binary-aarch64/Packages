@@ -1,0 +1,2297 @@
+Package: ocean-toybox
+Version: 0.8.14-1
+Architecture: aarch64
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Filename: pool/main/ocean-toybox_0.8.14-1_aarch64.deb
+Size: 196696
+MD5sum: 0b694e8c72b278e34333f24661dddb78
+SHA1: f852a9c8adfc16fb3b21e90c618b6c596b2ccdf0
+SHA256: a80ba5e7606a518086f6a2fb8ea97011efa5cfd0da05845b372b6a7db1eec091
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Ocean namespaced Toybox multicall binary built from pinned official upstream source
+
+Package: ocean-toybox-acpi
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-acpi_0.8.14-1_all.deb
+Size: 1524
+MD5sum: dfd58d2bfc9d7d5b8dddb129f03a9a20
+SHA1: 9900d92bada5f0f9620800a57c79a673c59530b1
+SHA256: fd481d29513ea23785303c11208f4027ff4ee84292e7639d0c26b4286deb31f1
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox acpi applet for OceanStudio (command: tb-acpi)
+
+Package: ocean-toybox-base64
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-base64_0.8.14-1_all.deb
+Size: 1524
+MD5sum: 386763b7133941ece620910f834abcb1
+SHA1: 6e07a224d413ef2fa4b81444e18032f59331467e
+SHA256: 2efe4142f6e9951cd31ae50f182993671440094804ec033ba2b718be2e271cab
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox base64 applet for OceanStudio (command: tb-base64)
+
+Package: ocean-toybox-basename
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-basename_0.8.14-1_all.deb
+Size: 1528
+MD5sum: 994ceba6e46e74791e54de68d15da60b
+SHA1: 30a6530de0839ab206191e1bf30a130964529a6f
+SHA256: c6ffadaa4cb2b0a75f6cfc585da1644710885755ed9957c0623309e5b3f7e1d3
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox basename applet for OceanStudio (command: tb-basename)
+
+Package: ocean-toybox-blkid
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-blkid_0.8.14-1_all.deb
+Size: 1524
+MD5sum: 668ee736779057effa0e2903f4dcc87f
+SHA1: 9f368eb54df872b721fd7249e44085b63ea27c52
+SHA256: 23f30940200399265ac46bb52303fc52eeb0ecdab37d890feca56c21dce84db3
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox blkid applet for OceanStudio (command: tb-blkid)
+
+Package: ocean-toybox-cal
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-cal_0.8.14-1_all.deb
+Size: 1524
+MD5sum: ae47a20ef7279a1a38fa5814e3ce75ea
+SHA1: ea7efb9b21cd3a3b029cadd044c924f5fc429559
+SHA256: 9d72b8d13e114977cc59b7a999bc4d84c23e3fbd85cf52aa8b69909a8d0aea56
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox cal applet for OceanStudio (command: tb-cal)
+
+Package: ocean-toybox-cat
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-cat_0.8.14-1_all.deb
+Size: 1524
+MD5sum: 5f2667a42dedaa67cda8680cd2d71ce2
+SHA1: e6f79b09efd1fc31b20e5e0229fc58279584cb9f
+SHA256: 688cac055658ff11e3e495e6b772ff7aa4aaf263569266fe382421a4f7180134
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox cat applet for OceanStudio (command: tb-cat)
+
+Package: ocean-toybox-chattr
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-chattr_0.8.14-1_all.deb
+Size: 1524
+MD5sum: f20a4633a9ad0a8b4a9212593c3411cb
+SHA1: 59c0525cf498dd1588c16f0e71e8bddbd3a0c1e8
+SHA256: 11d31cafec3fa22e4bf17ae6738ea0b41334d8d5db3b902469eade5f272e84ba
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox chattr applet for OceanStudio (command: tb-chattr)
+
+Package: ocean-toybox-chgrp
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-chgrp_0.8.14-1_all.deb
+Size: 1524
+MD5sum: 45bc81d9e5407fd19b69f519cfea58e5
+SHA1: b7760429cdb15b0c5be45a0125bc403b5bea2bfb
+SHA256: f1a7b0263f29c8cf6d624113f4092b31897cf3c936fb71b31fc0aaa8693f8f79
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox chgrp applet for OceanStudio (command: tb-chgrp)
+
+Package: ocean-toybox-chmod
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-chmod_0.8.14-1_all.deb
+Size: 1524
+MD5sum: 8c30de661f2826d592ce0ffc0ce8253d
+SHA1: 4105ca600d92f5ecc3c2f90c0a43e2930960e857
+SHA256: fbba65c77a98e4ede5ed79546831e09e30d9f63e6fccec6c2a326608b2c080a1
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox chmod applet for OceanStudio (command: tb-chmod)
+
+Package: ocean-toybox-chown
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-chown_0.8.14-1_all.deb
+Size: 1524
+MD5sum: d0804f9c099582c15d42de603bf7edf2
+SHA1: 1f64e89a923e8aa48fc96546239d8543830818f5
+SHA256: d90f1d13f0975aafadefb92aa11d9b9c8ff9e107808cf2d52efeaada504ac78b
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox chown applet for OceanStudio (command: tb-chown)
+
+Package: ocean-toybox-chrt
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-chrt_0.8.14-1_all.deb
+Size: 1524
+MD5sum: dfdeaa0a5c0c41b400dc0ac6d9da53c0
+SHA1: 96b1015cc69b55e9914083844c21ac6202971e52
+SHA256: 9bc7288541502c145cfd5cfb6c8a070c96291ee914caa1aa14b5c8aa1e54c0cd
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox chrt applet for OceanStudio (command: tb-chrt)
+
+Package: ocean-toybox-cksum
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-cksum_0.8.14-1_all.deb
+Size: 1524
+MD5sum: aab022f9985a4264dcf914b7621e9b82
+SHA1: 55fe4032f40a01cc0e9ef131fe9667baad0209e8
+SHA256: 19acbbd5c8c3082ef112ee13ce310c2732872c8364872cae945cd2594322acb2
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox cksum applet for OceanStudio (command: tb-cksum)
+
+Package: ocean-toybox-clear
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-clear_0.8.14-1_all.deb
+Size: 1524
+MD5sum: 441b96f40d22997368de3e5c85221342
+SHA1: 35b008d6dc9ee9b143fbeb130065caa2941f68f5
+SHA256: f13ddf4dc6bd5009184aec0b9b50e5d54ee00132030b219da45db240c3013e42
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox clear applet for OceanStudio (command: tb-clear)
+
+Package: ocean-toybox-cmp
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-cmp_0.8.14-1_all.deb
+Size: 1524
+MD5sum: 4d82e045c0db5f72b1694afe09ee8df2
+SHA1: 45724552ec42704d0bb3ef31e3caa0b842c948ca
+SHA256: 12cf732271d9f2cdfd35b12d4999cb3936f90de3ef358f1110b1826ccd08c372
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox cmp applet for OceanStudio (command: tb-cmp)
+
+Package: ocean-toybox-comm
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-comm_0.8.14-1_all.deb
+Size: 1520
+MD5sum: 2e9b7507689d524de94dbfd3991817f0
+SHA1: ab9a2265f027ba2231a7497c064b145039cfbdfc
+SHA256: 6b96f4425d8f13bafef759b4c7bb9d97c05c5d41330c45f99ce3b6d9231dfef0
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox comm applet for OceanStudio (command: tb-comm)
+
+Package: ocean-toybox-cp
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-cp_0.8.14-1_all.deb
+Size: 1516
+MD5sum: fdedee8a3719ecf66583117aa2694a93
+SHA1: 3f670aabd523ea1721b2f04b9f3c5784c4e19b73
+SHA256: 30fe97e2d0c6035dd4d3eb9b850ee5bebf65ac96cde1e00119c02e325285ec52
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox cp applet for OceanStudio (command: tb-cp)
+
+Package: ocean-toybox-cpio
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-cpio_0.8.14-1_all.deb
+Size: 1524
+MD5sum: 85e8a1460c96cc58b28d55d120349ff3
+SHA1: 5df68a8497a40f42a2434e95d13abf1403549724
+SHA256: cfefad1b4f56b013243265f18ac24d5b8d18a077ca0bc42cbc15b513f0c9186e
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox cpio applet for OceanStudio (command: tb-cpio)
+
+Package: ocean-toybox-cut
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-cut_0.8.14-1_all.deb
+Size: 1524
+MD5sum: 5d89073728d75ac9642e8f57530d6e82
+SHA1: cfafc587cf6fabd488de27af6af2f0b4e73f723d
+SHA256: 3d6ef61940a0e0b9e3978f7bbd3f7876559dc156f2210c4da06157a944592c8d
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox cut applet for OceanStudio (command: tb-cut)
+
+Package: ocean-toybox-date
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-date_0.8.14-1_all.deb
+Size: 1524
+MD5sum: 2a1c4c6d80e35263ba5fcfd51bb095a9
+SHA1: 8f1ba89a65b9980f27f8dbca554b4d7a0d7a95c5
+SHA256: 6215144f7b666102ce0071748ccfdbef4ba61d47a7a67af72ae0440240f504d2
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox date applet for OceanStudio (command: tb-date)
+
+Package: ocean-toybox-dd
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-dd_0.8.14-1_all.deb
+Size: 1516
+MD5sum: c4c1e9c3297f5200990c089c6f4efc9a
+SHA1: 488c8a7c177eed11b6d094d5d9795e5808e7f8d7
+SHA256: 7a4e92c0f86b6abab18127fe230acb2fafa2bba93fae7f1cc7d00d2efb3a0622
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox dd applet for OceanStudio (command: tb-dd)
+
+Package: ocean-toybox-df
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-df_0.8.14-1_all.deb
+Size: 1516
+MD5sum: 94e7dbb0b0fb1f7ea49c2db61a22cf29
+SHA1: e42711f284e82162e2f2bfecdff10848be96608f
+SHA256: 17bd303a5436ef944bbe48d6af8695cc342ba88099cb938c98fcf3da37f8aca7
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox df applet for OceanStudio (command: tb-df)
+
+Package: ocean-toybox-diff
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-diff_0.8.14-1_all.deb
+Size: 1524
+MD5sum: 39290900be01b5c6b21b2a5254d31e2a
+SHA1: 687083cd6a10a7418ac2aac61f60daa770828f89
+SHA256: 668cd6f5342865a15cbfe23dada978845ea38a95f9113c70316e2efc76190868
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox diff applet for OceanStudio (command: tb-diff)
+
+Package: ocean-toybox-dirname
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-dirname_0.8.14-1_all.deb
+Size: 1532
+MD5sum: 604fe7c6ba97277c57099f9c8767485d
+SHA1: 6729c534275ca4bab6218f4948248209cb86f3e4
+SHA256: d26325c72ef724e2db876ff040b6902121fd3ae861b4fad053368f76c0d99d14
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox dirname applet for OceanStudio (command: tb-dirname)
+
+Package: ocean-toybox-dmesg
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-dmesg_0.8.14-1_all.deb
+Size: 1524
+MD5sum: 25485df3ee59a3b632f52b5d0387536f
+SHA1: abf61b4d867a676b3acbc0311202991ac8bee6ea
+SHA256: ecdecc21be1e0b84860d913542cefe26b20d95bcc442f5b3a1ad0533f89cb274
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox dmesg applet for OceanStudio (command: tb-dmesg)
+
+Package: ocean-toybox-dos2unix
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-dos2unix_0.8.14-1_all.deb
+Size: 1532
+MD5sum: 3219d1ce1a23446d21dd0912b3feb9e6
+SHA1: 7127cf411feb6b880a4f58ee2d572fae28fc7067
+SHA256: a6ac64856ab82a6e344c93f9b5ae8426c674ab8a97c1436496d023cab57c6d4d
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox dos2unix applet for OceanStudio (command: tb-dos2unix)
+
+Package: ocean-toybox-du
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-du_0.8.14-1_all.deb
+Size: 1516
+MD5sum: b7a23aa849cb0020acc88935d2610d76
+SHA1: 1d21ace4a0347127aa4f0030f9775b8d12b8151f
+SHA256: 376f82ae027585f2169315e1def45a9ecb1f87f10aa53eb70b944e9a834e9680
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox du applet for OceanStudio (command: tb-du)
+
+Package: ocean-toybox-echo
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-echo_0.8.14-1_all.deb
+Size: 1524
+MD5sum: 55f102d2ab7204f06cd0d9bc32c2f447
+SHA1: 6bd015c02aae9419eb7fc5a358a09f91b873f819
+SHA256: fad301e82d68929b462b592cb0ec3e4405ff8821c05c0627b0db3082090a7723
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox echo applet for OceanStudio (command: tb-echo)
+
+Package: ocean-toybox-env
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-env_0.8.14-1_all.deb
+Size: 1524
+MD5sum: 779fea3fc6bb93950431d451cd7cba2c
+SHA1: ec35609274b5fdbe3867fdbab85f2ff04e0a30a9
+SHA256: dfa6cdffd6a9667cfa86cb29c2f9f2a0561a979e01ce60ac5379775ee2438fa3
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox env applet for OceanStudio (command: tb-env)
+
+Package: ocean-toybox-expand
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-expand_0.8.14-1_all.deb
+Size: 1524
+MD5sum: 9d9150b6697670946ce2c8e6328b7599
+SHA1: ebf930c2ab5d1b1ac461f07f4945fcc8dff17632
+SHA256: c33ea6bb9762bf136374152b8757ce8717c720452cc4e6298ca2c334cec2308a
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox expand applet for OceanStudio (command: tb-expand)
+
+Package: ocean-toybox-expr
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-expr_0.8.14-1_all.deb
+Size: 1524
+MD5sum: fdc5531861c1f69bc469f9eb04e4d60d
+SHA1: 41cfe836c4dabf79d58782a20103190d6d7d6d4c
+SHA256: 1b806113e57caa06d6b4910c6b2e6518e3b6c94bdc67ce7395040574c376e39c
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox expr applet for OceanStudio (command: tb-expr)
+
+Package: ocean-toybox-fallocate
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-fallocate_0.8.14-1_all.deb
+Size: 1528
+MD5sum: 60f696a99b2c466ad60edde614a8cd23
+SHA1: c7078c49315b7fa2ab95a9622ccfd7c13f67d724
+SHA256: c54437886d25c50e02f8ed6224df4595946234843c8e6d35973258ae4ab7e6eb
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox fallocate applet for OceanStudio (command: tb-fallocate)
+
+Package: ocean-toybox-false
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-false_0.8.14-1_all.deb
+Size: 1524
+MD5sum: c93c7f5d539a26b0ba00596d3cb4b9ad
+SHA1: feb337b1bea5c3b1ad1d9eb3562b8d461b5e4595
+SHA256: 17544ffbadfd7eb97f9e436fcd39215a1b812acdba7b50eee99e5267cc273098
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox false applet for OceanStudio (command: tb-false)
+
+Package: ocean-toybox-file
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-file_0.8.14-1_all.deb
+Size: 1524
+MD5sum: a2c4663ad88d835f53ceac5ad7c273f2
+SHA1: f6da75534edc1c866ef8fe18c179f86a2536d30c
+SHA256: 1b650d3d6b2ba21e73b894b29bf21561ef6f989b99243e996f1e53b2fa0eeca3
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox file applet for OceanStudio (command: tb-file)
+
+Package: ocean-toybox-find
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-find_0.8.14-1_all.deb
+Size: 1524
+MD5sum: 317e660dcda92693f30b1e8882b8de63
+SHA1: acb7cb7baea1e861c8381596c2a9d91df0d35ba1
+SHA256: 0f261c305a7835bc55bcce331edab455a0d0bc9904ed4714a9f9eb76bdb0e82f
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox find applet for OceanStudio (command: tb-find)
+
+Package: ocean-toybox-flock
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-flock_0.8.14-1_all.deb
+Size: 1524
+MD5sum: df5563dc7bb9ba4ca249fb3e0694be15
+SHA1: fe12288873289e1be785d00f29de372d3fc79f55
+SHA256: 5adaab79f5386ef623f226973ea67e144d71984836ba669cdc8178b10a679398
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox flock applet for OceanStudio (command: tb-flock)
+
+Package: ocean-toybox-fmt
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-fmt_0.8.14-1_all.deb
+Size: 1524
+MD5sum: e448fc7efd33552e8014a1460b9f270b
+SHA1: 7cd17a96de63f073c38169f65422756df1b75e50
+SHA256: b0a4f7afa2865b3f7b4c2167a0fd717d8bdf18628e948dfe9a73e13d2447f57a
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox fmt applet for OceanStudio (command: tb-fmt)
+
+Package: ocean-toybox-free
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-free_0.8.14-1_all.deb
+Size: 1524
+MD5sum: 13263ea51b5f64b997c34a3b610e3d0d
+SHA1: 32fc936caffd0fe9073529e0d999c726f844eb24
+SHA256: 2075ce86fd5c6212844696db777b4d4ace5fa36baf1eb4555e712e526da077c7
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox free applet for OceanStudio (command: tb-free)
+
+Package: ocean-toybox-fsync
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-fsync_0.8.14-1_all.deb
+Size: 1524
+MD5sum: 6a46287a32bc3929a06577a19b9446cc
+SHA1: 70e9dc4aff3dd041d52c1951b511cc6c5e62e7dd
+SHA256: 4bf50815a866d6010922614c8bfa5309146a0797de7926d4bb42ccf64e75ece4
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox fsync applet for OceanStudio (command: tb-fsync)
+
+Package: ocean-toybox-getconf
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-getconf_0.8.14-1_all.deb
+Size: 1532
+MD5sum: c44b35eafd9d9fe9d34859a10a5ea54d
+SHA1: 0b01b6c2983383fb59945cbb4dc1bc8b382d3237
+SHA256: db23ffecf568b13b041b68fa711d7c376fb0a7bad3465bcb28d22d1d40759c9b
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox getconf applet for OceanStudio (command: tb-getconf)
+
+Package: ocean-toybox-getfattr
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-getfattr_0.8.14-1_all.deb
+Size: 1528
+MD5sum: ddd8a76ef442ca8c4e8f853d1b351929
+SHA1: 085a7b6f28d10dcd04d106b90696dd8c53b064ae
+SHA256: e9261ac4a446adf9b982aa667184c5964588cc2c68f7d271020eb7ac6eb21032
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox getfattr applet for OceanStudio (command: tb-getfattr)
+
+Package: ocean-toybox-getopt
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-getopt_0.8.14-1_all.deb
+Size: 1524
+MD5sum: ea79687a77dcab1e5f9985ab420228e1
+SHA1: aa39b8e721c5213af0406767fda9b1edc11c67cc
+SHA256: 21722f883f36e873dd71f73dbe22dd39b2c22ca747480ac5ebf2e8328b6f6d6a
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox getopt applet for OceanStudio (command: tb-getopt)
+
+Package: ocean-toybox-grep
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-grep_0.8.14-1_all.deb
+Size: 1524
+MD5sum: 11cddef583a4b54e5cb51abcf6ad3387
+SHA1: f7d42b1ea4d0291bf3d11e3f30dd156798c10d91
+SHA256: 94d2c703b855285e5ed94e3c38e25a753ad716917fba5835ef81b3a87abda5cf
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox grep applet for OceanStudio (command: tb-grep)
+
+Package: ocean-toybox-groups
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-groups_0.8.14-1_all.deb
+Size: 1524
+MD5sum: 1876ffd67162ccb43294e0df4c6c8c3d
+SHA1: b0315cf6f32495fb398853a887f6cf398cf79d8f
+SHA256: 4297d56246339d285915f81909ff85b6f6c9f2fbfaf9fe05518fbb6bd3eb8827
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox groups applet for OceanStudio (command: tb-groups)
+
+Package: ocean-toybox-gunzip
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-gunzip_0.8.14-1_all.deb
+Size: 1524
+MD5sum: 3bd0272d939ebaf0e68b3cf08e031cc8
+SHA1: eb1e60eaaf512bcb5273ea84161207c0e8bd9060
+SHA256: 7ac799337ee5338f37bb0033fbf73f3eaa8ca155db6f63aed3c3d22a6a1359f5
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox gunzip applet for OceanStudio (command: tb-gunzip)
+
+Package: ocean-toybox-gzip
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-gzip_0.8.14-1_all.deb
+Size: 1524
+MD5sum: 6d65346708653f6740a209f070781386
+SHA1: 5b0c3027e0def27c35b36caeabe060cf9ee7d5d1
+SHA256: 1ad8400581b2fa0975dde81e49ef2597030abb05540391a52f59a22d79a1a777
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox gzip applet for OceanStudio (command: tb-gzip)
+
+Package: ocean-toybox-head
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-head_0.8.14-1_all.deb
+Size: 1524
+MD5sum: 7d822207706cd34ad60413440f040c46
+SHA1: 0e11066bb25646064b40df581b2c9ecad13b8568
+SHA256: 0098006a71c2634f7d12382cc89fcc9f9e3e6fb98bb6637a43c923281fb374e1
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox head applet for OceanStudio (command: tb-head)
+
+Package: ocean-toybox-help
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-help_0.8.14-1_all.deb
+Size: 1524
+MD5sum: 070938b68f9be6ad8227c67d1d56b90f
+SHA1: 4554d857e5d10db4476b23b9fd861a3676b32a0c
+SHA256: a332973537c2ed43adc7168bbb2161a92bf725aa870867bd0d084ebb2451452f
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox help applet for OceanStudio (command: tb-help)
+
+Package: ocean-toybox-hostname
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-hostname_0.8.14-1_all.deb
+Size: 1528
+MD5sum: e6da12f5b9ec6b2a49cd99c23bbd0e2d
+SHA1: c06661b17267ec664eacbcddf6099c44bc1064e5
+SHA256: fb215b7f0333bf4d17febc7551143d25a0beb237ef5635c75937bbbacef50f21
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox hostname applet for OceanStudio (command: tb-hostname)
+
+Package: ocean-toybox-iconv
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-iconv_0.8.14-1_all.deb
+Size: 1524
+MD5sum: 4f16d2ece676c2080c7ca24321965a8c
+SHA1: cc6a93a166a93bb411f8b7653d6a3fa0dfb1377a
+SHA256: 30811ad2800bd38dc5b7c2490386d463c0bf4a99ca272f7c7ef557d5affd668b
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox iconv applet for OceanStudio (command: tb-iconv)
+
+Package: ocean-toybox-id
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-id_0.8.14-1_all.deb
+Size: 1512
+MD5sum: c586623064290a8dfccd535cd07bef70
+SHA1: d4a6b4ec1c86cbe2ff91b57be1ee2c52b8e325b3
+SHA256: 0760c2a985b15581cf996fdb137b348c46722f8461820dd8f558749fc632e563
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox id applet for OceanStudio (command: tb-id)
+
+Package: ocean-toybox-ifconfig
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-ifconfig_0.8.14-1_all.deb
+Size: 1528
+MD5sum: b1f9bb8b31c7bbe7938d61c3692ed65d
+SHA1: ba01d9da948066b64cdcefc3be16fefa2b297527
+SHA256: c7d49cb2fde05993d9311024362a0602ac0edbe069b6344b2feb4346ce619857
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox ifconfig applet for OceanStudio (command: tb-ifconfig)
+
+Package: ocean-toybox-inotifyd
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-inotifyd_0.8.14-1_all.deb
+Size: 1528
+MD5sum: 38c21b8862caa6bf47bf4ed92246274c
+SHA1: 0813831673ed2c4b4bf7c330453d355dbef1691e
+SHA256: 2c8fe60b8aa193d74bf84369621c91e99482219f61fa8b312d5668c12c7af219
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox inotifyd applet for OceanStudio (command: tb-inotifyd)
+
+Package: ocean-toybox-install
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-install_0.8.14-1_all.deb
+Size: 1528
+MD5sum: ee7f0e94b52ede9ed924b4a22d8b6491
+SHA1: c0e5fe29f1870ad248616bde18860b9ba9c6d827
+SHA256: 3b3e3eb5fa80bc3a5f2690c421c79f7651f89b5f615fb5c2d31f19dd2e1d335a
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox install applet for OceanStudio (command: tb-install)
+
+Package: ocean-toybox-ionice
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-ionice_0.8.14-1_all.deb
+Size: 1524
+MD5sum: 4a118915d3c638830bfa462c6b938de3
+SHA1: 154bc3443ac5b7ba2e0eec0017ec06c84cd30ca2
+SHA256: 73bba9d6b37c3bc926cefb3656aff0621dc87d4ebfebae5f566b081958cdb6f0
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox ionice applet for OceanStudio (command: tb-ionice)
+
+Package: ocean-toybox-iorenice
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-iorenice_0.8.14-1_all.deb
+Size: 1528
+MD5sum: ff1701fdbb2912c9f496aa66f21e92f3
+SHA1: fadcd4313e809eba09553d0e8040a2541f13bc77
+SHA256: be6e46f49c4ee8393b89d1fa91cde395f8108e2742e2b0d860e6b796430e117d
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox iorenice applet for OceanStudio (command: tb-iorenice)
+
+Package: ocean-toybox-iotop
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-iotop_0.8.14-1_all.deb
+Size: 1524
+MD5sum: 3fef50d0b5b7c6db98b46eecfbd1f6ac
+SHA1: 07f5ad19d6b3aaa558bfbb0e15aa4506eb865864
+SHA256: 6f46b497004a7f60a48de8a3967345455089a89ded6526d60aea8d9c0b97eee7
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox iotop applet for OceanStudio (command: tb-iotop)
+
+Package: ocean-toybox-kill
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-kill_0.8.14-1_all.deb
+Size: 1524
+MD5sum: 961389911d040689062a6a2929cc14be
+SHA1: 67b3e0fffb5ae04fec0397e9e83c56aaafbaca7a
+SHA256: 083b8e2d3731428d8a6db8270b4b5daaa45a3f4a1349cde0b9f6f5f5fe782ee4
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox kill applet for OceanStudio (command: tb-kill)
+
+Package: ocean-toybox-killall
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-killall_0.8.14-1_all.deb
+Size: 1524
+MD5sum: 49dba25bc8fd2bb0d3894edb9ae62a60
+SHA1: 973708d027e751f3dfa2e375f76382d550b3b39f
+SHA256: 8515f4c10ee2467289e4faff162cb18724e6be1be14672ca0ba3b9255125508b
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox killall applet for OceanStudio (command: tb-killall)
+
+Package: ocean-toybox-ln
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-ln_0.8.14-1_all.deb
+Size: 1516
+MD5sum: 1c3d592ca22544b567c4c01a0b23de0f
+SHA1: e00964cba94871515218f168e408673cb49d4a6b
+SHA256: dca5c1329b77ca48c8b14538a80139856e4c6f5653655086af6caf865e0437e9
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox ln applet for OceanStudio (command: tb-ln)
+
+Package: ocean-toybox-logname
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-logname_0.8.14-1_all.deb
+Size: 1528
+MD5sum: b86fdc6d19e8ead0f16ad89b4cf47706
+SHA1: ce20a58205b4214ff265e65cc77f12fd75c4fb6e
+SHA256: 541e02eca4d2c34d9851844284e9d638b22d6ba107de26a38e9301b2917cba64
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox logname applet for OceanStudio (command: tb-logname)
+
+Package: ocean-toybox-ls
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-ls_0.8.14-1_all.deb
+Size: 1516
+MD5sum: bd467693d83d53f454e3ff708b42ddd3
+SHA1: c80f2339937308bf72f349198eb87bd4de7ccbe1
+SHA256: fe56c122adaf4bd895d3909be09e3386e5459f2a90d46cc54432627c4d8750c1
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox ls applet for OceanStudio (command: tb-ls)
+
+Package: ocean-toybox-lsattr
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-lsattr_0.8.14-1_all.deb
+Size: 1524
+MD5sum: 6a532cd1230180c16a9d8a08ce3aaf74
+SHA1: 99293a55ad3f9009cebc4145f8209665116a3c19
+SHA256: ce1ec8500c413c38413999f1ce4bd34135eff6a3d5bd1e432dc7aac6463c7f3d
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox lsattr applet for OceanStudio (command: tb-lsattr)
+
+Package: ocean-toybox-lsof
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-lsof_0.8.14-1_all.deb
+Size: 1524
+MD5sum: 8e6015292e6861b3d58ffa22775f151b
+SHA1: a93dfb1c92a221bbfef55cc0eb7c261e4cf60d12
+SHA256: 3adc16bb9706c793e3227330912d58ca74ddd915af706f25d7abc066eb05a934
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox lsof applet for OceanStudio (command: tb-lsof)
+
+Package: ocean-toybox-lspci
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-lspci_0.8.14-1_all.deb
+Size: 1524
+MD5sum: 5637f4363dace7eb23cf8a4e0edc3e8e
+SHA1: d15471a0c43f3f7c47e34b4215a9e3876ecea316
+SHA256: aaf41219ad9d5f57b4f79bbdeb0bea702e5152d8ee9e22e18dc8dc4721de41e2
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox lspci applet for OceanStudio (command: tb-lspci)
+
+Package: ocean-toybox-lsusb
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-lsusb_0.8.14-1_all.deb
+Size: 1524
+MD5sum: f0b41eada8687e8d7efc317b4f8abb40
+SHA1: 19c9bf567658bb1454620a55eaf93ee79b2ff235
+SHA256: d12c94c94d2b07e0c6293bde1654fbf590362c8cde3775bae8ab824c257b3e6a
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox lsusb applet for OceanStudio (command: tb-lsusb)
+
+Package: ocean-toybox-md5sum
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-md5sum_0.8.14-1_all.deb
+Size: 1524
+MD5sum: cc6b663d729da4ab8f6560ff66cacacd
+SHA1: a8863b0db4cf60892dd95f36bb93e20db718c664
+SHA256: 4089f9c52d088b2ec1b14dedb4431c1d065bda6278488ef56425f931583b56c3
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox md5sum applet for OceanStudio (command: tb-md5sum)
+
+Package: ocean-toybox-microcom
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-microcom_0.8.14-1_all.deb
+Size: 1532
+MD5sum: a05744a3e302dac9f65009396229453d
+SHA1: 4560310bf821d8dcaf2fe176a5716934f000efe5
+SHA256: 8d4a1a46217155e8f45a2f5c9fc62bfb7993d6867cdb97b9a6ea5304e7cec13f
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox microcom applet for OceanStudio (command: tb-microcom)
+
+Package: ocean-toybox-mkdir
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-mkdir_0.8.14-1_all.deb
+Size: 1524
+MD5sum: 55855c26b76379e69cb7af446d6a7d15
+SHA1: 811bda6dc54b9f5cf660a94db02e893690d3e05e
+SHA256: ec1b50d46935daee91327a2768b184057a77945b2ba7ac8f7080dcfe8675b400
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox mkdir applet for OceanStudio (command: tb-mkdir)
+
+Package: ocean-toybox-mkfifo
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-mkfifo_0.8.14-1_all.deb
+Size: 1524
+MD5sum: bf03d91f4302e5a9c88239f272388ac1
+SHA1: 584871086c47b21f8fd0de8382295faa8ef80308
+SHA256: 8184d4262ccc0bc2a50a6a734c62caef013fa5ab3acfc0be389be1d2c1fc54cf
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox mkfifo applet for OceanStudio (command: tb-mkfifo)
+
+Package: ocean-toybox-mktemp
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-mktemp_0.8.14-1_all.deb
+Size: 1524
+MD5sum: 4743671a2b5c6a59a46f19232de9e6f3
+SHA1: 99c7d0260399a3d427bf5184746bb0585a0ad106
+SHA256: 1257b41c3a0dca20e59bf6392daed323203fd0b8293346d40ce50b5509d42232
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox mktemp applet for OceanStudio (command: tb-mktemp)
+
+Package: ocean-toybox-more
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-more_0.8.14-1_all.deb
+Size: 1524
+MD5sum: 1b607762429f12c5f48818ed903829b6
+SHA1: 7641b0b8431eb5119d8f4ab83b8da552cdf494c1
+SHA256: def42d276bab560ed9aad2ee801da6790a1ec3a42dbd925427cb621de03f952d
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox more applet for OceanStudio (command: tb-more)
+
+Package: ocean-toybox-mountpoint
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-mountpoint_0.8.14-1_all.deb
+Size: 1532
+MD5sum: 43cb4ccff6c39cc22fcc9bb958bfce37
+SHA1: 717dc3a4a0da83eb261785ce0019f6ba9ae8df93
+SHA256: 0e90c98ee526a524bc87cce46fdad901e6d60a1363600303861568f8416da642
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox mountpoint applet for OceanStudio (command: tb-mountpoint)
+
+Package: ocean-toybox-mv
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-mv_0.8.14-1_all.deb
+Size: 1516
+MD5sum: f9556f50edf46f0b718efe598f8e4db2
+SHA1: c9c9c372ecf20fd2fb6acd305877d80a7ea6b07b
+SHA256: f0ec4dc23624feb54df577daedeb5c8786cebfd0f8a9912c22dc5bfab628229b
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox mv applet for OceanStudio (command: tb-mv)
+
+Package: ocean-toybox-netcat
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-netcat_0.8.14-1_all.deb
+Size: 1524
+MD5sum: bd0ac911f8d49176b0fa10bfa594a608
+SHA1: 2704cadf388009bf40b12628f9f9fe5779430eb1
+SHA256: eb5f12851519be751c2dec52f7d2e1fd3e6d381b3002ad09146e249caca9d14e
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox netcat applet for OceanStudio (command: tb-netcat)
+
+Package: ocean-toybox-netstat
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-netstat_0.8.14-1_all.deb
+Size: 1532
+MD5sum: d2c83bdadb4a1b7a3284c7ddc93bf217
+SHA1: a2ee42756fcede4407e092d0c5d27a4282eb46e3
+SHA256: 8e58350c07e830605d55faca0a3a6cc99e43c658c9a1c235ddfeddd74c4d6976
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox netstat applet for OceanStudio (command: tb-netstat)
+
+Package: ocean-toybox-nice
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-nice_0.8.14-1_all.deb
+Size: 1524
+MD5sum: 043b938816b2301b243efd9a36e3207f
+SHA1: 6799947bf9f5bbed9d13a261291d184c888b6c35
+SHA256: 08b12aa9f7cce600e49a1719f95fa7d14e7e878c281bafc01330bd8910cbb6fb
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox nice applet for OceanStudio (command: tb-nice)
+
+Package: ocean-toybox-nl
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-nl_0.8.14-1_all.deb
+Size: 1516
+MD5sum: 9f0f216b2441ddf3b4a156ebb889679b
+SHA1: fa56f8f79806d0de7557891645aec46a19b751af
+SHA256: 37a36a21c7c2cb0f50204eba2bd67f382478a8e201b8f0cc38dc65f9d69b69c9
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox nl applet for OceanStudio (command: tb-nl)
+
+Package: ocean-toybox-nohup
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-nohup_0.8.14-1_all.deb
+Size: 1524
+MD5sum: 0bcbcc458ad2b5f3bd166c7022555ad8
+SHA1: 4bb72b7872e4920223b5c48d365224ea753f40f8
+SHA256: 1de004c2959a68d827c86e100fb6d8896c6c4c85e15bf7aa319288ef4f0b9ef4
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox nohup applet for OceanStudio (command: tb-nohup)
+
+Package: ocean-toybox-nproc
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-nproc_0.8.14-1_all.deb
+Size: 1524
+MD5sum: 4c14fe00ed5c5003b3a0edfb0186cb3b
+SHA1: a7140e2bf0bbfa33baefd59af3ed9e63147af890
+SHA256: f0f35d07755218ad6538d408c50ac6a270d31c6a5df8e9c65bf4013b905b9b37
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox nproc applet for OceanStudio (command: tb-nproc)
+
+Package: ocean-toybox-od
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-od_0.8.14-1_all.deb
+Size: 1516
+MD5sum: 65afdff158a2092e25910b09b3c19a1b
+SHA1: 10097abc2859904ac126b778ec71358dafd8ffb4
+SHA256: 6c792056ec9be1517fcc7479b9824f4e1c4e4726090b20f81f264e4fc71b6264
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox od applet for OceanStudio (command: tb-od)
+
+Package: ocean-toybox-paste
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-paste_0.8.14-1_all.deb
+Size: 1524
+MD5sum: 52e6e5a047cc0eaaa6d9896dbe65224e
+SHA1: b9dd30775f97cdf73ba939118a1a513651d6f83c
+SHA256: adf0274316f97d483f08e106f6c6cf8bf80e9c088af2030fa2710fc2700f7271
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox paste applet for OceanStudio (command: tb-paste)
+
+Package: ocean-toybox-patch
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-patch_0.8.14-1_all.deb
+Size: 1524
+MD5sum: 9d4bdf566c0bd7d7210a82744c5e7eee
+SHA1: 2a56367b4b07dda8568571c36400b3d35d4fa9dd
+SHA256: 4f42a92826e3ef7c9456241ebf148a599627ea422d4ee1c58e38341588cc1b68
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox patch applet for OceanStudio (command: tb-patch)
+
+Package: ocean-toybox-pgrep
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-pgrep_0.8.14-1_all.deb
+Size: 1524
+MD5sum: 65373f9c547073e213de0979a24f76e7
+SHA1: 0184d25a777160d3a05b1dfa783f4d8bae1049c0
+SHA256: a7f37e3d330509e9261728a3356a5906e7515c8db326f1036e632535ff9581ed
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox pgrep applet for OceanStudio (command: tb-pgrep)
+
+Package: ocean-toybox-pidof
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-pidof_0.8.14-1_all.deb
+Size: 1524
+MD5sum: 4db4e36b0eabe5a71087197dbcb9bf38
+SHA1: 55348fa5ea66a57ebd250e0e2e437a50bf2b366a
+SHA256: ba4ab2296adff1c7d12c82a67e135aa6101f7d1e578c28935bfa38faa5aa3c2b
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox pidof applet for OceanStudio (command: tb-pidof)
+
+Package: ocean-toybox-ping
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-ping_0.8.14-1_all.deb
+Size: 1524
+MD5sum: 77db5a764eac1074f34564d0097ef902
+SHA1: 59f1970145e4cae201643f7a27fe4545e7b380ee
+SHA256: 748fb874b7f0cb92469a5b83fcc1794f690a4d628d4f5316e75b529643861307
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox ping applet for OceanStudio (command: tb-ping)
+
+Package: ocean-toybox-pkill
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-pkill_0.8.14-1_all.deb
+Size: 1524
+MD5sum: 6e9bb4f748efd2b6869dc5feab04e369
+SHA1: 0d3f7c458ee30324077c5a300f2beba7bcb6059d
+SHA256: 016d01878e9ebf0558d4ce0106262e11773a2d9811cce001f5131b9e81610d6a
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox pkill applet for OceanStudio (command: tb-pkill)
+
+Package: ocean-toybox-pmap
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-pmap_0.8.14-1_all.deb
+Size: 1524
+MD5sum: e9aec2f43f4551e94d836c8789970732
+SHA1: db9e0534f872d89182ce7b8bd181398a58110016
+SHA256: b5e1b9f368885c0e2e2823fd558def6857a9c7803167e7dc458452df7a03fb06
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox pmap applet for OceanStudio (command: tb-pmap)
+
+Package: ocean-toybox-printenv
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-printenv_0.8.14-1_all.deb
+Size: 1528
+MD5sum: 04b8020c9112360c5e097b5fd0048d0f
+SHA1: 40111796adcf9a15d15ae1cfbcfa96bad6ca4aa6
+SHA256: ca8eb03d50d90d27bd978cd5a994906350b150a336eed6947d5d50de38078021
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox printenv applet for OceanStudio (command: tb-printenv)
+
+Package: ocean-toybox-printf
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-printf_0.8.14-1_all.deb
+Size: 1524
+MD5sum: 84b7b4243c0c522ab81f14a766493b1e
+SHA1: 8b805455ebe541339b56ca79d8df80037b465947
+SHA256: eb5f8b786e7063a0adcde5278642b93bc3aed01563b244fc9a52e4e7079904ee
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox printf applet for OceanStudio (command: tb-printf)
+
+Package: ocean-toybox-ps
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-ps_0.8.14-1_all.deb
+Size: 1516
+MD5sum: 75d5a26809a687f2e0f04ade2b5409db
+SHA1: 212187e106311ccee9b94f0028659bc6b0f8f4ff
+SHA256: f5aa9d3be9d571e0620853451b3e5af29284be7df8a4e0b1dae281bcc3e34afb
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox ps applet for OceanStudio (command: tb-ps)
+
+Package: ocean-toybox-pwd
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-pwd_0.8.14-1_all.deb
+Size: 1524
+MD5sum: 1e77f80c4f0d64229f819000cdd40eb7
+SHA1: 96ce73ee15770e272d987729afa0c8fe858c347d
+SHA256: ac285edd6775d5d0cad640a06424e1bcf2eca34cb54361046a6d81d83b0ad267
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox pwd applet for OceanStudio (command: tb-pwd)
+
+Package: ocean-toybox-pwdx
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-pwdx_0.8.14-1_all.deb
+Size: 1524
+MD5sum: baaae3704c4fed938e9522aa60efe415
+SHA1: 5af012eb7217bee579facfe21c971b9ac7ea17bf
+SHA256: 472926367cd23828b18d9373bc0ea706bd0192e31a943799da92780717b73a93
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox pwdx applet for OceanStudio (command: tb-pwdx)
+
+Package: ocean-toybox-readelf
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-readelf_0.8.14-1_all.deb
+Size: 1532
+MD5sum: e695b850a23941688b0c00186752baf2
+SHA1: cad8d0a614344939aa16fc0a0bb9fea23e6defe1
+SHA256: 4cc9d1ba2237a89d59c1b89af4fbc17fb8e146c8a1111352736e641a591623b8
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox readelf applet for OceanStudio (command: tb-readelf)
+
+Package: ocean-toybox-readlink
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-readlink_0.8.14-1_all.deb
+Size: 1532
+MD5sum: ce6869b53855327075f92fd86b160779
+SHA1: b5358bb8d4fc5cf95551f7d2deffd44b3c8308a9
+SHA256: 4f08952ef566c3003cfa7eb28f0979583844f58a254677b81422c7669ab90920
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox readlink applet for OceanStudio (command: tb-readlink)
+
+Package: ocean-toybox-realpath
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-realpath_0.8.14-1_all.deb
+Size: 1528
+MD5sum: cae21563685ced1c9cb3d3e15380bddc
+SHA1: 688f051bd1e8c5df228cb67bbfd08716565ecba8
+SHA256: fa33f03b922f29e9dfd2a5a3538b34191db105db7633d7bf7ad22e7caa2cb8d9
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox realpath applet for OceanStudio (command: tb-realpath)
+
+Package: ocean-toybox-renice
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-renice_0.8.14-1_all.deb
+Size: 1524
+MD5sum: 6cc2a48214af6297238c4dd8db322714
+SHA1: 0583a27cc3f53784bd82e6e238e30fcbd53a25aa
+SHA256: e699403c81441aae0adf524b0e6fdf623154e1654b1333c3ba20b1c1363f76aa
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox renice applet for OceanStudio (command: tb-renice)
+
+Package: ocean-toybox-rev
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-rev_0.8.14-1_all.deb
+Size: 1520
+MD5sum: 30c2b70d9cdb6a6a81a13f4b67b6338b
+SHA1: fe6d8dac4dbf58b32cfbd89127c82012fa5aeea7
+SHA256: 0dc3eb3d2d691717a5c3d73a85cb5c15894526d42b599d607fb480265b4a4332
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox rev applet for OceanStudio (command: tb-rev)
+
+Package: ocean-toybox-rm
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-rm_0.8.14-1_all.deb
+Size: 1516
+MD5sum: 2879ec7f3c07904e8a066d2de9885dfb
+SHA1: d774a458a68509096d2f890be114989c44159cbf
+SHA256: be6dfc2c890173d96545d43b393348eb003d5ab896940717bab6651086a965df
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox rm applet for OceanStudio (command: tb-rm)
+
+Package: ocean-toybox-rmdir
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-rmdir_0.8.14-1_all.deb
+Size: 1524
+MD5sum: 596d7cfca22b317be1fe38efa29a5ad5
+SHA1: bc45850a6811970bbc2fce52a92f5688dd19c385
+SHA256: fba5edd6ecf26e397a97e0eb03f1d6ec8ad29cc4ee8a3806263d4a5e9a869f70
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox rmdir applet for OceanStudio (command: tb-rmdir)
+
+Package: ocean-toybox-rtcwake
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-rtcwake_0.8.14-1_all.deb
+Size: 1528
+MD5sum: f240d82b885c6651d4327ec4fc781095
+SHA1: 070c4358738490e5afb3ac9ff7c6e2f5e01674d3
+SHA256: abf735267ff9f7fda9849e04e3b29e29b8996a7deb238642880903634b46670e
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox rtcwake applet for OceanStudio (command: tb-rtcwake)
+
+Package: ocean-toybox-sed
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-sed_0.8.14-1_all.deb
+Size: 1516
+MD5sum: 75712a6a71264ee5855417387ee792b0
+SHA1: c7a33e8ad63571f11f936c00eb60652f8454d52d
+SHA256: 2555db80152d997674a8168560cd5706ac171c9a78b96fd64037b90760844a9c
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox sed applet for OceanStudio (command: tb-sed)
+
+Package: ocean-toybox-seq
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-seq_0.8.14-1_all.deb
+Size: 1524
+MD5sum: 01b4bc62dca71b7cb7e6927cc0b110f1
+SHA1: c6b536d1b5c1dffa65269720a30e768dcfa16fa6
+SHA256: ad1662e091dcd483e7b8bbe467bafb67db5d60a03b08d2123c4da21ad547133f
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox seq applet for OceanStudio (command: tb-seq)
+
+Package: ocean-toybox-setfattr
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-setfattr_0.8.14-1_all.deb
+Size: 1528
+MD5sum: d6d4077681b5d4f5963ab2a14d7cd0fd
+SHA1: 3a551cd700a35a981b1e4056e6675cd474fe5218
+SHA256: 13923af4f0ade3d4aa210e0e460c940c3acf6b0c496f0b9b8da3283ea325a743
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox setfattr applet for OceanStudio (command: tb-setfattr)
+
+Package: ocean-toybox-setsid
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-setsid_0.8.14-1_all.deb
+Size: 1520
+MD5sum: df5b7f8e163dea9d5cad6ffbb1e173a8
+SHA1: 4ee4142076e71ed2cfedb96b94afdf94e2b13f75
+SHA256: e0954f066442021a35ab1203573512013de2b896038d5b3c0568218b8ca7b3ca
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox setsid applet for OceanStudio (command: tb-setsid)
+
+Package: ocean-toybox-sha1sum
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-sha1sum_0.8.14-1_all.deb
+Size: 1532
+MD5sum: c3afeeb570a6a26f973f0fcf6bc5878d
+SHA1: 85eb5e7c900b2e8273faefbf72b75ddd64aae413
+SHA256: 5365ad8c5cf450f3bfec3e0bd4ea52be9e6363bf4b3d46b11265c1cd665dae01
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox sha1sum applet for OceanStudio (command: tb-sha1sum)
+
+Package: ocean-toybox-sha224sum
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-sha224sum_0.8.14-1_all.deb
+Size: 1532
+MD5sum: f830760fd9e0aa19324dd0c705a75ddc
+SHA1: 7a3e7212c89df00b0ce2a167b6807bc7c8c6d373
+SHA256: 95817d0b2ea16154ca49665672e63b4a738c65c3ad8d70f30a5ed2290beafec0
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox sha224sum applet for OceanStudio (command: tb-sha224sum)
+
+Package: ocean-toybox-sha256sum
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-sha256sum_0.8.14-1_all.deb
+Size: 1532
+MD5sum: 4f2787d3809c29b28bf4a76b6a800ea9
+SHA1: cd2dde38b536c24a82fc6e3a69d3d20fe01ee966
+SHA256: 02817309bf3d2e851aa265b61c6689dafa6f3119786b5d4247bf09f3d133ca8c
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox sha256sum applet for OceanStudio (command: tb-sha256sum)
+
+Package: ocean-toybox-sha384sum
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-sha384sum_0.8.14-1_all.deb
+Size: 1532
+MD5sum: f28c11ca9915b59aaa565f161b0b301a
+SHA1: e062eb636ba05aceeb7ab95f452ec0b3c54e7d35
+SHA256: 4bb51cedb6d9372a91bf58a732e5569d2f66c08eca245383dbea21928238d8a5
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox sha384sum applet for OceanStudio (command: tb-sha384sum)
+
+Package: ocean-toybox-sha512sum
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-sha512sum_0.8.14-1_all.deb
+Size: 1532
+MD5sum: 080ce61baa8e5313fc818b29611f16bf
+SHA1: 381416fd0f79d013c9a6764c9343f9fde7a3a82e
+SHA256: 2beec442f9c9bb271d9e88236a2f0c764437acc7e4cd1e61801fe1b48404b291
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox sha512sum applet for OceanStudio (command: tb-sha512sum)
+
+Package: ocean-toybox-sleep
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-sleep_0.8.14-1_all.deb
+Size: 1524
+MD5sum: d1dd6a5cca31408a81b649710ca89a16
+SHA1: c977011b85617bde2806b79a0d8f14d43be3a517
+SHA256: 57c1d8f8e4c44de4318340a024026844eaf6ca523adddd5b95c145c53875d85a
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox sleep applet for OceanStudio (command: tb-sleep)
+
+Package: ocean-toybox-sort
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-sort_0.8.14-1_all.deb
+Size: 1524
+MD5sum: d575f5918d64f63449f1b53ccba0967f
+SHA1: 14bd8c90453506f1d5dfe3f9c222c9704af255ad
+SHA256: d3b92dbc90b6961dd13af8a1a4ce019136e8c599c1071be76f300d916ebffe17
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox sort applet for OceanStudio (command: tb-sort)
+
+Package: ocean-toybox-split
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-split_0.8.14-1_all.deb
+Size: 1524
+MD5sum: e4729f0cac5a78ead4c42e1706682d53
+SHA1: 67e18a40d9c7fe5578fc067cdbb0c0af72f451d2
+SHA256: 1ce36bd454a59b143d90f19f491f4b89cb603287fb993cd341263d4fff961968
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox split applet for OceanStudio (command: tb-split)
+
+Package: ocean-toybox-stat
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-stat_0.8.14-1_all.deb
+Size: 1524
+MD5sum: 07da774e47f4bedba45645b0ced34af7
+SHA1: a64fd9aad734ca8acfaa7126dc63acf0945a8e23
+SHA256: 5147cf56d621664d18e9a19b4b9944e8a8d7aeee79310537a9534f801a23907a
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox stat applet for OceanStudio (command: tb-stat)
+
+Package: ocean-toybox-strings
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-strings_0.8.14-1_all.deb
+Size: 1532
+MD5sum: 74b67c6c7be76ce3f18b74f637d47334
+SHA1: b01cac487d03ff8cc6f6a3853b4c6487aba7416c
+SHA256: 4b8e5de958f44b6f8c29f64a5b736a4ee3b4305bf6cc26c785ac4ec761a13822
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox strings applet for OceanStudio (command: tb-strings)
+
+Package: ocean-toybox-stty
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-stty_0.8.14-1_all.deb
+Size: 1524
+MD5sum: ec1e64d252cc4e48a25de1ea04abfb73
+SHA1: 4166a0c1d3805a4689a7ae1f829b5bb8c2ea6584
+SHA256: 26647d68dc625317b343d25517746c364645201cd38e1f7d15ed357fa6195fe9
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox stty applet for OceanStudio (command: tb-stty)
+
+Package: ocean-toybox-sync
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-sync_0.8.14-1_all.deb
+Size: 1524
+MD5sum: fd72147a8941c7ace70f2768decfe28f
+SHA1: f2a12346c9c55ca21f320bb96f07aa8289520ff4
+SHA256: f75a0f06fd1fb5b4796fc91b5c64a746baf249404bf4b197ac4e637892f109be
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox sync applet for OceanStudio (command: tb-sync)
+
+Package: ocean-toybox-sysctl
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-sysctl_0.8.14-1_all.deb
+Size: 1524
+MD5sum: cb534e7e737ba4a1abbc7209d0fd5a0f
+SHA1: c69717b9e7ff7ba8aa97a34280df724ec05a910f
+SHA256: 184395567cd2296556e39f32836c7c2b73f2ed66e6db386f75e959426df2717b
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox sysctl applet for OceanStudio (command: tb-sysctl)
+
+Package: ocean-toybox-tac
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-tac_0.8.14-1_all.deb
+Size: 1524
+MD5sum: 36dec233c3356f4e66ec7c6f1a3dc872
+SHA1: 33f74a2caa2ad3b69392efa0b1477c43f0109f89
+SHA256: ec12d0fba42fb1bf3cdce373d1f919e7e84f51186adcfba073ac121674effff5
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox tac applet for OceanStudio (command: tb-tac)
+
+Package: ocean-toybox-tail
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-tail_0.8.14-1_all.deb
+Size: 1524
+MD5sum: db87f7e749778674bc3241b4b541acd3
+SHA1: ec5bcc8ba746d58d7390ed8912e84dba233f5dd9
+SHA256: c2b59457b0487c1cfa6f4abe528bc3bbd9d60c51ec1e4128d96ad31ced441be9
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox tail applet for OceanStudio (command: tb-tail)
+
+Package: ocean-toybox-tar
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-tar_0.8.14-1_all.deb
+Size: 1520
+MD5sum: fb779bbfd945e5cf399c4d893d6d25ca
+SHA1: 739b61c43e599ee779d1eec3513cec9543bec058
+SHA256: 5649d8fe630087fe8edb3c43d19a7cec2686789d809fe9a4a3c65d56704535a4
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox tar applet for OceanStudio (command: tb-tar)
+
+Package: ocean-toybox-taskset
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-taskset_0.8.14-1_all.deb
+Size: 1528
+MD5sum: 3b84b1a4746d8809c00824e7005ed4e7
+SHA1: 7b16a9f97ef5ec7a1f474931ae1b56974745cd18
+SHA256: b24b9e5bac9ce844fa7cd9e8b692a94d01f02aa37b9d08b55d8fa16a3b3fc99c
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox taskset applet for OceanStudio (command: tb-taskset)
+
+Package: ocean-toybox-tee
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-tee_0.8.14-1_all.deb
+Size: 1520
+MD5sum: fbd5c83cc9d74ceb9d37b7f0c2a4b176
+SHA1: 7a94678bc517f5b6f739c65e9eeb3169ec3e450b
+SHA256: 00998ec5068932b696b31d2081681a5da8667b7e7c360c5ef98572d2796c98a0
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox tee applet for OceanStudio (command: tb-tee)
+
+Package: ocean-toybox-test
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-test_0.8.14-1_all.deb
+Size: 1524
+MD5sum: a438523b8f30809ed32133f0736366ef
+SHA1: 7cc40a2c5d6b4bd7ee3c1005888e97820c919aa4
+SHA256: 4d38bb1570e3d92157aa9bca9587b74bf2ad307ee1bfc9fa8c731441ced01131
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox test applet for OceanStudio (command: tb-test)
+
+Package: ocean-toybox-time
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-time_0.8.14-1_all.deb
+Size: 1524
+MD5sum: 6ad8851daa4f0bf4b497fae48c96fc59
+SHA1: 1f89dd93fa646752e2ea059ad4c37ee02e88a6de
+SHA256: c374dd420a4bfb018d1bf981622bda1d4061e6e54b9b70c2d2bd2b7b58fe6d27
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox time applet for OceanStudio (command: tb-time)
+
+Package: ocean-toybox-timeout
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-timeout_0.8.14-1_all.deb
+Size: 1532
+MD5sum: cc4c71cda738526f74bce7492483e5bd
+SHA1: 0fb3ea976eb10298fe5f4f8b5a8e4e9a47c28bf9
+SHA256: 68e2407a00f37842a1e70f28b3f01c62d0a30b9fa4b2f7fb477622c441d8376a
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox timeout applet for OceanStudio (command: tb-timeout)
+
+Package: ocean-toybox-top
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-top_0.8.14-1_all.deb
+Size: 1520
+MD5sum: d2a917a0a4ee2f1eac4e1c43a3c2348b
+SHA1: 94c66757d6c25ac8b0f199d7643aab9527ab4c44
+SHA256: 4cfcae6a45b4084d7512dc489cf1809c31887f616ab1fd467f912d19a8eb2b05
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox top applet for OceanStudio (command: tb-top)
+
+Package: ocean-toybox-touch
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-touch_0.8.14-1_all.deb
+Size: 1524
+MD5sum: 42d82622deaf97d1119e95e4ee91c3d3
+SHA1: 6052ebabc170985ad579d676e48bcb1fea685ce3
+SHA256: 0e68cccfdbdd9a3f9b6a9bfe90bc9b5a186d675226719f04c3798923db87c779
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox touch applet for OceanStudio (command: tb-touch)
+
+Package: ocean-toybox-tr
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-tr_0.8.14-1_all.deb
+Size: 1516
+MD5sum: 846b8b90714777ee20c08636b0352091
+SHA1: e04343166d773993c2a9724d945ea8438d67fc9d
+SHA256: 7df4707f736c902e87c545eac6ee89af24c3199dab7d5b8efa46e0a3c76fe475
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox tr applet for OceanStudio (command: tb-tr)
+
+Package: ocean-toybox-traceroute
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-traceroute_0.8.14-1_all.deb
+Size: 1532
+MD5sum: 1d27a9927a564e6ee5e6fbde476a11fa
+SHA1: bf008366450bb7ffd0d295da8e175cc8e6b535f0
+SHA256: 6f7dc6be16513e140bd3a5a1318835a78750f3e21ec255cd37427b138bc47904
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox traceroute applet for OceanStudio (command: tb-traceroute)
+
+Package: ocean-toybox-true
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-true_0.8.14-1_all.deb
+Size: 1524
+MD5sum: 3d7037e63f01982f3453e1674acdd577
+SHA1: 7ae005da4580708234db25e8e416f065536f6bbe
+SHA256: e9cf7dcf55005b15f06124b6712cd4159d19521eb803575d74d2fe6a72ad6808
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox true applet for OceanStudio (command: tb-true)
+
+Package: ocean-toybox-truncate
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-truncate_0.8.14-1_all.deb
+Size: 1528
+MD5sum: 96a6a65544350d6e34f94f196f1d1cd3
+SHA1: c7d85f75a95858fb1d4dddf57e7fae5bc94d8517
+SHA256: 2d5f575d1585a938879782373e7920f02bc51e5a3d257c43b866ad0be1a48d96
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox truncate applet for OceanStudio (command: tb-truncate)
+
+Package: ocean-toybox-tty
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-tty_0.8.14-1_all.deb
+Size: 1524
+MD5sum: 5fdf9590c8d1562e25383e24febf5ac1
+SHA1: c3c5da710c6021b210e0dcc70fdde349467cf67c
+SHA256: 9e2cd4074ed1bcd6270e6448fcf15261931965c9dbc8c4deb61e90dfea6ad3bc
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox tty applet for OceanStudio (command: tb-tty)
+
+Package: ocean-toybox-ulimit
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-ulimit_0.8.14-1_all.deb
+Size: 1524
+MD5sum: ab86efcd2b4417b6378cc9a3ce7636be
+SHA1: e7d35c5a5665cd2c40e1d875b6633f561303a25f
+SHA256: 122a168482799f7b19cf2d462dce0a5aedefd75ff2b02d336f485b086de6f130
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox ulimit applet for OceanStudio (command: tb-ulimit)
+
+Package: ocean-toybox-uname
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-uname_0.8.14-1_all.deb
+Size: 1524
+MD5sum: cf95f79873b1583bcc76ea85053f1d63
+SHA1: 33c8326ffb163f32ac4f559e0b9ba948c34ec6f8
+SHA256: 39c96d0944fcfb986b756dfff426f5e9c81c5186da0677a67efd6a1879b842e1
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox uname applet for OceanStudio (command: tb-uname)
+
+Package: ocean-toybox-uniq
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-uniq_0.8.14-1_all.deb
+Size: 1520
+MD5sum: 7f837518f5fe486fe04374e19615ed30
+SHA1: 327c6a6563c077d7bc25b56999afd9cfcc2e887d
+SHA256: ef7fcbd57fa55bf877067aa741aeadfad2a80201127969138a92a5181e329f56
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox uniq applet for OceanStudio (command: tb-uniq)
+
+Package: ocean-toybox-unix2dos
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-unix2dos_0.8.14-1_all.deb
+Size: 1532
+MD5sum: b8e11d43e8f932f89471509b98f0f9f9
+SHA1: d669dd250ed709ed7565cda1e4c8e4f7dd6356fc
+SHA256: 4889e3270c979c07d10b082e632372198ff73064e2694a0c6ec183df637cb446
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox unix2dos applet for OceanStudio (command: tb-unix2dos)
+
+Package: ocean-toybox-unlink
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-unlink_0.8.14-1_all.deb
+Size: 1524
+MD5sum: dc78dcf4935ae99e298b952d2e9cc011
+SHA1: 7b3781f4d049eb12d3ee07df69c441412735b6f9
+SHA256: 445c47409d1c0d84fc0acefde631039fe936576b76c87e5dfca8af58373838f0
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox unlink applet for OceanStudio (command: tb-unlink)
+
+Package: ocean-toybox-uptime
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-uptime_0.8.14-1_all.deb
+Size: 1524
+MD5sum: da9aee6e4316130e558a7c4fd3b5bcaa
+SHA1: acb593bdb8cb661e460c6bf10f9e0e335827091f
+SHA256: e329df1e0e050c86fd153d7cc1dcaee3afde6738381d3b6f8fac2875a97e0c15
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox uptime applet for OceanStudio (command: tb-uptime)
+
+Package: ocean-toybox-usleep
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-usleep_0.8.14-1_all.deb
+Size: 1524
+MD5sum: 26aaf6c0f02f71258856db7e22ee16bb
+SHA1: 8175ec21e3ced8cc327b933fa7461ddac1c0b45a
+SHA256: 66b79ece3f79183ada184632dc13296aaa74f639038c21dc45386879cddbcbbb
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox usleep applet for OceanStudio (command: tb-usleep)
+
+Package: ocean-toybox-uudecode
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-uudecode_0.8.14-1_all.deb
+Size: 1528
+MD5sum: d09809a1e6e0f68b8a25c635eff8c2ed
+SHA1: 6c3628639aff4af9a49ea61c5f25f6bb3bbd029d
+SHA256: 5efebc7e9e99efd773ee0fbc9e9bc20befefdb99a41b2a8b856c490642ff9fe0
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox uudecode applet for OceanStudio (command: tb-uudecode)
+
+Package: ocean-toybox-uuencode
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-uuencode_0.8.14-1_all.deb
+Size: 1532
+MD5sum: 91e7a37b556967ba07639b088378f86b
+SHA1: 7bdf89ae0517c8b2e2a8071e4c9dc451940819d7
+SHA256: 9d1885fbc0728b6542558e03aadd7b6ea3447cf98787248f0373033b01a11525
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox uuencode applet for OceanStudio (command: tb-uuencode)
+
+Package: ocean-toybox-uuidgen
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-uuidgen_0.8.14-1_all.deb
+Size: 1528
+MD5sum: 9c9400d1d30e036efd0fd08c432ded7f
+SHA1: 4095cf1661a5c75cd596302e1361b1c0f00543ee
+SHA256: 4f648ec468121e733260e83327473fb032d51e7e2c8b6f42c3330fe1247cc3ce
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox uuidgen applet for OceanStudio (command: tb-uuidgen)
+
+Package: ocean-toybox-vi
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-vi_0.8.14-1_all.deb
+Size: 1516
+MD5sum: a81851d5536a511d5eb9c738dde33214
+SHA1: 82f836091e2438fa49de104632a13787e55787f3
+SHA256: 855d7b8d023f1dc8495cd0b3f819aa17e83dd8608fcbc88e3bc8898755ae4e06
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox vi applet for OceanStudio (command: tb-vi)
+
+Package: ocean-toybox-vmstat
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-vmstat_0.8.14-1_all.deb
+Size: 1524
+MD5sum: 18f12f14265dff67519283a68a616da8
+SHA1: c4a25d317039bb68d66e16aaf7ac3359e7d69d0e
+SHA256: d3f74aa0e68152e812c2d42c42aaff2b703bfc035f4292b12ddb708bc74b6313
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox vmstat applet for OceanStudio (command: tb-vmstat)
+
+Package: ocean-toybox-watch
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-watch_0.8.14-1_all.deb
+Size: 1524
+MD5sum: 5cb581dab79570badadb757f4fba19ef
+SHA1: 227357b0e5dc6aa860ccbfb8ccebbe1ff7d8944c
+SHA256: 5d8fcc6191fe050c4642badec8febd1a7ba9d9ec80037331497ddbcf6b8a11f6
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox watch applet for OceanStudio (command: tb-watch)
+
+Package: ocean-toybox-wc
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-wc_0.8.14-1_all.deb
+Size: 1516
+MD5sum: 26a471970761bb9b5c50dd4f545124fb
+SHA1: 965046116ab31c3900b270234fb7e79a3cca8afb
+SHA256: b0bc62bcbfdd07e7a6f0b54ac7e6850bcf09a9d2caa6bdb7ebafa0f9a77d10be
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox wc applet for OceanStudio (command: tb-wc)
+
+Package: ocean-toybox-which
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-which_0.8.14-1_all.deb
+Size: 1524
+MD5sum: 0ab2af3b52f0111c77b1c8b9cd56ed1e
+SHA1: e120fe26333ed44984f02cb429fa9b7382ec520e
+SHA256: cdde157bdb8df39b7e228cac6684003f3e8dafda3e8368705c38365cf71cffde
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox which applet for OceanStudio (command: tb-which)
+
+Package: ocean-toybox-whoami
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-whoami_0.8.14-1_all.deb
+Size: 1524
+MD5sum: b063cfa9d2970f7e0e73f25c5319c0c5
+SHA1: 13d78323c5f69f249f4c23322adb147ed9d40073
+SHA256: 4045cd21692cdf243053537b021abf70b89d1f546da58a26b1b30e80ba9d5c4e
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox whoami applet for OceanStudio (command: tb-whoami)
+
+Package: ocean-toybox-xargs
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-xargs_0.8.14-1_all.deb
+Size: 1524
+MD5sum: c81080a780f7561b22ce61d0f1cd2792
+SHA1: bc937081d3a736d88aa9c98dffd1f6c87b300119
+SHA256: 74aa9773074e5d3b219d2af6e357daa93a171050096a69f693de4992ba127d4a
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox xargs applet for OceanStudio (command: tb-xargs)
+
+Package: ocean-toybox-xxd
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-xxd_0.8.14-1_all.deb
+Size: 1524
+MD5sum: a6ebfba3748de5cfdc6bec7f1a6df073
+SHA1: b45d99aa3617a721339ef529145eadc3f023f6a8
+SHA256: a5219e4fc307ad3e44f695a6235f292cb5f32de7710e2bd90a8ae4caffe309e2
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox xxd applet for OceanStudio (command: tb-xxd)
+
+Package: ocean-toybox-yes
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-yes_0.8.14-1_all.deb
+Size: 1524
+MD5sum: 9daf7d7badd714ead8f2bd078a545bcc
+SHA1: 802f131971900a0ff06f1265c29851163792ade0
+SHA256: b784eb8d7b17e2d204fb0ad75d0775380dc54dce916ce1220927d97facda003b
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox yes applet for OceanStudio (command: tb-yes)
+
+Package: ocean-toybox-zcat
+Version: 0.8.14-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-toybox (= 0.8.14-1)
+Filename: pool/main/ocean-toybox-zcat_0.8.14-1_all.deb
+Size: 1524
+MD5sum: 073460d0dd748c38363577f9ce675f7e
+SHA1: e90b3973008f0a966fb63db6b41e06a15b01219e
+SHA256: f2a5682a084f1d86ec76dfbf657045251d447d6eeed3fd621db3da8cc7a83f9c
+Section: utils
+Priority: optional
+Homepage: https://landley.net/toybox/
+Description: Namespaced Toybox zcat applet for OceanStudio (command: tb-zcat)
+
+dpkg-scanpackages: warning: Packages in archive but missing from override file:
+dpkg-scanpackages: warning:   ocean-toybox ocean-toybox-acpi ocean-toybox-base64 ocean-toybox-basename ocean-toybox-blkid ocean-toybox-cal ocean-toybox-cat ocean-toybox-chattr ocean-toybox-chgrp ocean-toybox-chmod ocean-toybox-chown ocean-toybox-chrt ocean-toybox-cksum ocean-toybox-clear ocean-toybox-cmp ocean-toybox-comm ocean-toybox-cp ocean-toybox-cpio ocean-toybox-cut ocean-toybox-date ocean-toybox-dd ocean-toybox-df ocean-toybox-diff ocean-toybox-dirname ocean-toybox-dmesg ocean-toybox-dos2unix ocean-toybox-du ocean-toybox-echo ocean-toybox-env ocean-toybox-expand ocean-toybox-expr ocean-toybox-fallocate ocean-toybox-false ocean-toybox-file ocean-toybox-find ocean-toybox-flock ocean-toybox-fmt ocean-toybox-free ocean-toybox-fsync ocean-toybox-getconf ocean-toybox-getfattr ocean-toybox-getopt ocean-toybox-grep ocean-toybox-groups ocean-toybox-gunzip ocean-toybox-gzip ocean-toybox-head ocean-toybox-help ocean-toybox-hostname ocean-toybox-iconv ocean-toybox-id ocean-toybox-ifconfig ocean-toybox-inotifyd ocean-toybox-install ocean-toybox-ionice ocean-toybox-iorenice ocean-toybox-iotop ocean-toybox-kill ocean-toybox-killall ocean-toybox-ln ocean-toybox-logname ocean-toybox-ls ocean-toybox-lsattr ocean-toybox-lsof ocean-toybox-lspci ocean-toybox-lsusb ocean-toybox-md5sum ocean-toybox-microcom ocean-toybox-mkdir ocean-toybox-mkfifo ocean-toybox-mktemp ocean-toybox-more ocean-toybox-mountpoint ocean-toybox-mv ocean-toybox-netcat ocean-toybox-netstat ocean-toybox-nice ocean-toybox-nl ocean-toybox-nohup ocean-toybox-nproc ocean-toybox-od ocean-toybox-paste ocean-toybox-patch ocean-toybox-pgrep ocean-toybox-pidof ocean-toybox-ping ocean-toybox-pkill ocean-toybox-pmap ocean-toybox-printenv ocean-toybox-printf ocean-toybox-ps ocean-toybox-pwd ocean-toybox-pwdx ocean-toybox-readelf ocean-toybox-readlink ocean-toybox-realpath ocean-toybox-renice ocean-toybox-rev ocean-toybox-rm ocean-toybox-rmdir ocean-toybox-rtcwake ocean-toybox-sed ocean-toybox-seq ocean-toybox-setfattr ocean-toybox-setsid ocean-toybox-sha1sum ocean-toybox-sha224sum ocean-toybox-sha256sum ocean-toybox-sha384sum ocean-toybox-sha512sum ocean-toybox-sleep ocean-toybox-sort ocean-toybox-split ocean-toybox-stat ocean-toybox-strings ocean-toybox-stty ocean-toybox-sync ocean-toybox-sysctl ocean-toybox-tac ocean-toybox-tail ocean-toybox-tar ocean-toybox-taskset ocean-toybox-tee ocean-toybox-test ocean-toybox-time ocean-toybox-timeout ocean-toybox-top ocean-toybox-touch ocean-toybox-tr ocean-toybox-traceroute ocean-toybox-true ocean-toybox-truncate ocean-toybox-tty ocean-toybox-ulimit ocean-toybox-uname ocean-toybox-uniq ocean-toybox-unix2dos ocean-toybox-unlink ocean-toybox-uptime ocean-toybox-usleep ocean-toybox-uudecode ocean-toybox-uuencode ocean-toybox-uuidgen ocean-toybox-vi ocean-toybox-vmstat ocean-toybox-watch ocean-toybox-wc ocean-toybox-which ocean-toybox-whoami ocean-toybox-xargs ocean-toybox-xxd ocean-toybox-yes ocean-toybox-zcat
+dpkg-scanpackages: info: Wrote 153 entries to output Packages file.
