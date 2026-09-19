@@ -1,0 +1,127 @@
+name: Build official-source Nix for Ocean
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'sources/nix-ocean/**'
+      - 'scripts/package-nix-ocean.py'
+      - '.github/workflows/nix-ocean.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ocean-nix
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04-arm
+    timeout-minutes: 120
+    steps:
+      - name: Checkout Nix package sources only
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout: |
+            .github/workflows/nix-ocean.yml
+            scripts/package-nix-ocean.py
+            sources/nix-ocean
+            staging
+
+      - name: Install packaging and proot test tools
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          sudo apt-get install -y curl xz-utils git dpkg-dev proot ca-certificates
+
+      - name: Bootstrap official Nix 2.34.8 on native ARM64 runner
+        run: |
+          set -euo pipefail
+          BASE=https://releases.nixos.org/nix/nix-2.34.8
+          TAR=nix-2.34.8-aarch64-linux.tar.xz
+          curl --fail --location --retry 5 -o "$RUNNER_TEMP/$TAR" "$BASE/$TAR"
+          curl --fail --location --retry 5 -o "$RUNNER_TEMP/$TAR.sha256" "$BASE/$TAR.sha256"
+          EXPECTED=$(awk '{print $1}' "$RUNNER_TEMP/$TAR.sha256" | head -n1)
+          test -n "$EXPECTED"
+          echo "$EXPECTED  $RUNNER_TEMP/$TAR" | sha256sum -c -
+          tar -xJf "$RUNNER_TEMP/$TAR" -C "$RUNNER_TEMP"
+          sudo mkdir -p /nix
+          sudo chown "$USER" /nix
+          bash "$RUNNER_TEMP/nix-2.34.8-aarch64-linux/install" --no-daemon --no-channel-add
+          . "$HOME/.nix-profile/etc/profile.d/nix.sh"
+          nix --version | grep -F '2.34.8'
+          echo "$HOME/.nix-profile/bin" >> "$GITHUB_PATH"
+
+      - name: Fetch and verify pinned official Nix source
+        run: |
+          set -euo pipefail
+          COMMIT=$(jq -r .commit sources/nix-ocean/manifest.json)
+          TREE=$(jq -r .tree sources/nix-ocean/manifest.json)
+          COPYING=$(jq -r .copyingBlob sources/nix-ocean/manifest.json)
+          SRC="$RUNNER_TEMP/nix-source"
+          git init -q "$SRC"
+          git -C "$SRC" remote add origin https://github.com/NixOS/nix.git
+          git -C "$SRC" fetch --depth=1 origin "$COMMIT"
+          git -C "$SRC" checkout --detach -q FETCH_HEAD
+          test "$(git -C "$SRC" rev-parse HEAD)" = "$COMMIT"
+          test "$(git -C "$SRC" rev-parse 'HEAD^{tree}')" = "$TREE"
+          test "$(git -C "$SRC" rev-parse HEAD:COPYING)" = "$COPYING"
+          echo "NIX_SOURCE=$SRC" >> "$GITHUB_ENV"
+
+      - name: Rebuild official static Nix from source
+        run: |
+          set -euo pipefail
+          . "$HOME/.nix-profile/etc/profile.d/nix.sh"
+          export NIX_CONFIG='experimental-features = nix-command flakes'
+          OUT=$(nix build "$NIX_SOURCE#nix-everything-static"             --rebuild --no-link --print-out-paths --print-build-logs | tail -n1)
+          test -n "$OUT"
+          test -x "$OUT/bin/nix"
+          file "$OUT/bin/nix" | grep -Ei 'ARM aarch64|ARM64'
+          ! readelf -l "$OUT/bin/nix" | grep -q 'Requesting program interpreter'
+          ! readelf -d "$OUT/bin/nix" | grep -q '(NEEDED)'
+          "$OUT/bin/nix" --version | grep -F '2.34.8'
+          echo "NIX_STATIC_OUT=$OUT" >> "$GITHUB_ENV"
+
+      - name: Build initialized private Nix store and verify through proot
+        run: |
+          set -euo pipefail
+          . "$HOME/.nix-profile/etc/profile.d/nix.sh"
+          export NIX_CONFIG='experimental-features = nix-command flakes'
+          ROOT="$RUNNER_TEMP/nix-ocean-root"
+          mkdir -p "$ROOT"
+          nix copy --to "local?root=$ROOT" "$NIX_STATIC_OUT"
+          test -x "$ROOT$NIX_STATIC_OUT/bin/nix"
+          mkdir -p "$ROOT/usr/bin" "$ROOT/home/ocean" "$ROOT/tmp"
+          ln -sf "$NIX_STATIC_OUT/bin/nix" "$ROOT/usr/bin/nix"
+          proot -0 -r "$ROOT" -w /home/ocean /usr/bin/nix --version | grep -F '2.34.8'
+          proot -0 -r "$ROOT" -w /home/ocean /usr/bin/nix             --extra-experimental-features 'nix-command flakes' store info --store local
+          echo "NIX_OCEAN_ROOT=$ROOT" >> "$GITHUB_ENV"
+
+      - name: Package Nix Ocean runtime
+        run: |
+          set -euo pipefail
+          rm -rf staging/nix-ocean
+          mkdir -p staging/nix-ocean/pool/main
+          python3 scripts/package-nix-ocean.py             --manifest sources/nix-ocean/manifest.json             --root "$NIX_OCEAN_ROOT"             --nix-output "$NIX_STATIC_OUT"             --source "$NIX_SOURCE"             --output staging/nix-ocean/pool/main/nix-ocean_2.34.8-1_aarch64.deb
+          (
+            cd staging/nix-ocean
+            mkdir -p dists/stable/main/binary-aarch64
+            dpkg-scanpackages --multiversion pool/main /dev/null > dists/stable/main/binary-aarch64/Packages
+            gzip -n -9 -c dists/stable/main/binary-aarch64/Packages > dists/stable/main/binary-aarch64/Packages.gz
+          )
+          test "$(grep -c '^Package: ' staging/nix-ocean/dists/stable/main/binary-aarch64/Packages)" -eq 1
+          ! grep -R -a -E '/data/(data|user/0)/com\.termux|packages\.termux\.dev|TERMUX_PREFIX'              sources/nix-ocean scripts/package-nix-ocean.py staging/nix-ocean/dists
+
+      - name: Commit verified staged Nix package
+        run: |
+          set -euo pipefail
+          git config user.name "Ocean Package Builder"
+          git config user.email "packages@ocean.studio"
+          git add staging/nix-ocean
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Build official-source static Nix 2.34.8 for Ocean [skip ci]"
+          git push origin HEAD:main
