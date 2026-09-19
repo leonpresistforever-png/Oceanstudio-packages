@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "target": "aarch64-linux-android28",
+  "ndkRevision": "27.0.12077973",
+  "prefix": "/data/data/studio.ocean.app/files/usr",
+  "packages": [
+    {
+      "name": "busybox",
+      "version": "1.38.0-1",
+      "kind": "android-c",
+      "upstream": "BusyBox",
+      "source": "https://busybox.net/downloads/busybox-1.38.0.tar.bz2",
+      "checksum": "https://busybox.net/downloads/busybox-1.38.0.tar.bz2.sha256",
+      "license": "GPL-2.0-only",
+      "command": "busybox",
+      "note": "Latest upstream 1.38.0 release; upstream currently labels this line unstable."
+    },
+    {
+      "name": "sbase",
+      "version": "0.1+gitc546c3a-1",
+      "kind": "android-c-git",
+      "upstream": "suckless/sbase",
+      "source": "git://git.suckless.org/sbase",
+      "commit": "c546c3a5724c81cee9a11d816a38ccdf17472129",
+      "license": "MIT/X Consortium",
+      "command": "sbase-box"
+    },
+    {
+      "name": "ubase",
+      "version": "0.1+gite8249b4-1",
+      "kind": "android-c-git",
+      "upstream": "suckless/ubase",
+      "source": "git://git.suckless.org/ubase",
+      "commit": "e8249b49ca3e02032dece5e0cdac3d236667a6d9",
+      "license": "MIT/X Consortium",
+      "command": "ubase-box"
+    },
+    {
+      "name": "sinit",
+      "version": "1.1+git28c44b6-1",
+      "kind": "android-c-git",
+      "upstream": "suckless/sinit",
+      "source": "git://git.suckless.org/sinit",
+      "commit": "28c44b6b94a870f2942c37f9cfbae8b770595712",
+      "license": "MIT/X Consortium",
+      "command": "sinit",
+      "note": "Useful as PID 1 inside a suitable container/proot/rootfs; ordinary Android apps cannot replace Android init."
+    },
+    {
+      "name": "buildroot",
+      "version": "2026.08-1",
+      "kind": "source-framework",
+      "upstream": "Buildroot",
+      "source": "https://gitlab.com/buildroot.org/buildroot.git",
+      "tag": "2026.08",
+      "license": "GPL-2.0-or-later",
+      "command": "buildroot-ocean",
+      "note": "Host build framework packaged as official source plus Ocean workspace launcher."
+    }
+  ]
+}
