@@ -108,7 +108,11 @@ def package_all(m,install_root,source,output,source_meta):
         stage=pathlib.Path(t);dst=stage/m["glibcPrefix"].lstrip("/")
         copy_runtime_libs(prefix/"lib",dst/"lib")
         copytree_if(prefix/"etc",dst/"etc")
-        doc=dst/"share/doc/ocean-glibc";doc.mkdir(parents=True,exist_ok=True);shutil.copy2(source/"COPYING",doc/"COPYING")
+        doc=dst/"share/doc/ocean-glibc";doc.mkdir(parents=True,exist_ok=True)
+        licenses=[p for p in (source/"COPYING.LIB",source/"COPYING",source/"LICENSES") if p.exists()]
+        if not licenses: raise SystemExit("glibc license files are missing from pinned source checkout")
+        for license_file in licenses:
+            if license_file.is_file(): shutil.copy2(license_file,doc/license_file.name)
         (doc/"ocean-build.json").write_text(json.dumps(source_meta,indent=2)+"\n")
         control(stage,[("Package","ocean-glibc"),("Version",version),("Architecture","aarch64"),
             ("Maintainer","OceanStudio <maintainer@ocean.studio>"),("Homepage","https://www.gnu.org/software/libc/"),
