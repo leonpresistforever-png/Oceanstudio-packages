@@ -158,7 +158,7 @@ def sbase(item,ndk,work,pool,readelf):
 
 def ubase(item,ndk,work,pool,readelf):
     src=work/"ubase";clone_pinned(item["source"],item["commit"],src)
-    (src/"shadow.h").write_text("struct spwd { char *sp_namp; char *sp_pwdp; };\nstatic inline struct spwd *getspnam(const char *n) { return 0; }\nstatic inline char *crypt(const char *k, const char *s) { return (char *)""; }\n")
+    (src/"shadow.h").write_text("struct spwd { char *sp_namp; char *sp_pwdp; };\nstatic inline struct spwd *getspnam(const char *n) { return 0; }\nstatic inline char *crypt(const char *k, const char *s) { return (char *)0; }\n")
     clang=ndk/"toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android28-clang"
     ar=ndk/"toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar";ran=ndk/"toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ranlib"
     run(["make","-j2","ubase-box",f"CC={clang}",f"AR={ar}",f"RANLIB={ran}",
