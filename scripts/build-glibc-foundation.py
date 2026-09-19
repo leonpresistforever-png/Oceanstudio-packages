@@ -153,6 +153,30 @@ def package_all(m,install_root,source,output,source_meta):
             ("Depends",f"ocean-glibc (= {version})"),("Maintainer","OceanStudio <maintainer@ocean.studio>"),
             ("Section","localization"),("Priority","optional"),("Description","Locale source and translation data for isolated Ocean glibc")])
         out=pool/f"ocean-glibc-locale-data_{version}_all.deb";build_deb(stage,out);produced.append(out)
+
+    with tempfile.TemporaryDirectory() as t:
+        stage=pathlib.Path(t);ocean=stage/m["oceanPrefix"].lstrip("/")/"bin";ocean.mkdir(parents=True,exist_ok=True)
+        helper=ocean/"ocean-glibc-patchelf"
+        helper.write_text(
+            "#!/system/bin/sh\n"
+            f"ROOT='{m['glibcPrefix']}'\n"
+            "if [ \"$#\" -ne 1 ]; then echo 'usage: ocean-glibc-patchelf ELF_FILE' >&2; exit 2; fi\n"
+            "FILE=\"$1\"\n"
+            "if [ ! -f \"$FILE\" ]; then echo \"file not found: $FILE\" >&2; exit 2; fi\n"
+            f"exec '{m['oceanPrefix']}/bin/patchelf' --set-interpreter \"$ROOT/lib/ld-linux-aarch64.so.1\" --set-rpath \"$ROOT/lib\" \"$FILE\"\n"
+        );helper.chmod(0o755)
+        control(stage,[("Package","ocean-glibc-patchelf"),("Version",version),("Architecture","all"),
+            ("Depends",f"ocean-glibc (= {version}), patchelf"),("Maintainer","OceanStudio <maintainer@ocean.studio>"),
+            ("Section","utils"),("Priority","optional"),("Description","Namespaced helper to retarget an ELF binary to the isolated Ocean glibc loader")])
+        out=pool/f"ocean-glibc-patchelf_{version}_all.deb";build_deb(stage,out);produced.append(out)
+
+    with tempfile.TemporaryDirectory() as t:
+        stage=pathlib.Path(t)
+        control(stage,[("Package","ocean-glibc-suite"),("Version",version),("Architecture","all"),
+            ("Depends",f"ocean-glibc (= {version}), ocean-glibc-runner (= {version}), ocean-glibc-utils (= {version}), ocean-glibc-devel (= {version}), ocean-glibc-locale-data (= {version}), ocean-glibc-patchelf (= {version})"),
+            ("Maintainer","OceanStudio <maintainer@ocean.studio>"),("Section","metapackages"),("Priority","optional"),
+            ("Description","Meta package for the isolated Ocean glibc compatibility foundation")])
+        out=pool/f"ocean-glibc-suite_{version}_all.deb";build_deb(stage,out);produced.append(out)
     return produced
 
 def main():
