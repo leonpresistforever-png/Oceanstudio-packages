@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "package": "nix",
+  "package": "nix-ocean",
   "version": "2.34.8-1",
   "upstream": "NixOS/nix",
   "sourceUrl": "https://github.com/NixOS/nix.git",
@@ -14,5 +14,7 @@
   "depends": [
     "proot"
   ],
-  "sourcePolicy": "official Nix source and official Nix release bootstrap only; no Termux packages or binary inputs"
+  "sourcePolicy": "official Nix source and official Nix release bootstrap only; no Termux packages or binary inputs",
+  "command": "nix-ocean",
+  "compatibilityNote": "Namespaced command avoids file ownership collisions with the existing nix-bridge package."
 }
