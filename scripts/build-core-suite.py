@@ -118,8 +118,8 @@ def busybox(item,ndk,work,pool,readelf):
       "CONFIG_TC=y":"# CONFIG_TC is not set",
     }.items(): text=text.replace(a,b)
     cfg.write_text(text)
-    run(["make","oldconfig"],cwd=src,env=env)
-    run(["make","-j2"],cwd=src,env=env)
+    run(["make","oldconfig",f"CC={clang}","HOSTCC=cc",f"STRIP={strip}"],cwd=src,env=env)
+    run(["make","-j2",f"CC={clang}","HOSTCC=cc",f"STRIP={strip}"],cwd=src,env=env)
     binary=src/"busybox";validation=validate_binary(binary,readelf)
     deb=package_binary("busybox",item["version"],binary,src/"LICENSE",pool,
         "BusyBox multicall utility compiled from official upstream source for Ocean Android/AArch64")
