@@ -158,8 +158,10 @@ def sbase(item,ndk,work,pool,readelf):
 
 def ubase(item,ndk,work,pool,readelf):
     src=work/"ubase";clone_pinned(item["source"],item["commit"],src)
-    mk=src/"Makefile";mktxt=mk.read_text()
+    mk=src/"Makefile";mktxt=mk.read_text().replace("-lcrypt","")
     mk.write_text("".join([x for x in mktxt.splitlines(keepends=True) if not (x.strip().startswith("passwd") or x.strip().startswith("su"))]))
+    cfg=src/"config.mk"
+    if cfg.is_file(): cfg.write_text(cfg.read_text().replace("-lcrypt",""))
     (src/"libutil/passwd.c").write_text("/* disabled */")
     (src/"passwd.c").write_text("int passwd_main(int c, char **v) { return 0; }")
     (src/"su.c").write_text("int su_main(int c, char **v) { return 0; }")
