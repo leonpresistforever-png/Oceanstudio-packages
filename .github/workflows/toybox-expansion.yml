@@ -20,8 +20,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 60
-    env:
-      NDK_VERSION: 27.0.12077973
     steps:
       - name: Checkout package repository
         uses: actions/checkout@v4
@@ -35,110 +33,17 @@ jobs:
           sudo apt-get install -y dpkg-dev gnupg gzip git make gcc curl unzip
           NDK_HOME="$RUNNER_TEMP/android-ndk-r27"
           if [ ! -f "$NDK_HOME/source.properties" ]; then
-            curl --fail --location --retry 5 --retry-all-errors               --connect-timeout 20 --max-time 1800               -o "$RUNNER_TEMP/android-ndk-r27-linux.zip"               "https://dl.google.com/android/repository/android-ndk-r27-linux.zip"
+            curl --fail --location --retry 5 --retry-all-errors --connect-timeout 20 --max-time 1800 -o "$RUNNER_TEMP/android-ndk-r27-linux.zip" "https://dl.google.com/android/repository/android-ndk-r27-linux.zip"
             unzip -q "$RUNNER_TEMP/android-ndk-r27-linux.zip" -d "$RUNNER_TEMP"
           fi
-          grep -Eq '^Pkg.Revision[[:space:]]*=[[:space:]]*27\.0\.12077973[[:space:]]*
-
-      - name: Build and validate 153-package expansion
-        run: |
-          set -euo pipefail
-          rm -rf staging/toybox-0.8.14
-          python3 scripts/build-toybox-expansion.py             --manifest sources/toybox-0.8.14/manifest.json             --ndk "$ANDROID_NDK_HOME"             --output staging/toybox-0.8.14
-          test "$(find staging/toybox-0.8.14/pool/main -name '*.deb' | wc -l)" -eq 153
-          test "$(grep -c '^Package: ' staging/toybox-0.8.14/dists/stable/main/binary-aarch64/Packages)" -eq 153
-          grep -q '"packageCount": 153' staging/toybox-0.8.14/provenance.json
-          ! grep -R -a -E '/data/(data|user/0)/com\.termux|packages\.termux\.dev|TERMUX_PREFIX' staging/toybox-0.8.14
-
-      - name: Promote only with the existing trusted Ocean signing identity
-        id: promote
-        env:
-          OCEAN_REPOSITORY_SIGNING_KEY: ${{ secrets.OCEAN_REPOSITORY_SIGNING_KEY }}
-        run: |
-          set -euo pipefail
-          if [ -z "${OCEAN_REPOSITORY_SIGNING_KEY:-}" ]; then
-            echo "No repository signing secret is available in this public repository."
-            echo "Live apt/ remains unchanged; compiled packages stay in staging."
-            echo "promoted=false" >> "$GITHUB_OUTPUT"
-            exit 0
-          fi
-
-          EXPECTED=$(gpg --batch --show-keys --with-colons apt/ocean.gpg 2>/dev/null | awk -F: '$1=="fpr"{print $10;exit}')
-          test -n "$EXPECTED"
-          printf '%s\n' "$OCEAN_REPOSITORY_SIGNING_KEY" | gpg --batch --import
-          ACTUAL=$(gpg --batch --list-secret-keys --with-colons 2>/dev/null | awk -F: '$1=="fpr"{print $10;exit}')
-          if [ "$ACTUAL" != "$EXPECTED" ]; then
-            echo "Refusing live promotion: signing fingerprint mismatch expected=$EXPECTED actual=${ACTUAL:-missing}" >&2
-            exit 1
-          fi
-
-          cp -f staging/toybox-0.8.14/pool/main/*.deb apt/pool/main/
-          mkdir -p apt/dists/stable/main/binary-aarch64
-          (
-            cd apt
-            dpkg-scanpackages --multiversion pool/main /dev/null > dists/stable/main/binary-aarch64/Packages
-            gzip -n -9 -c dists/stable/main/binary-aarch64/Packages > dists/stable/main/binary-aarch64/Packages.gz
-          )
-
-          RELEASE=apt/dists/stable/Release
-          PKG=apt/dists/stable/main/binary-aarch64/Packages
-          PKG_GZ=apt/dists/stable/main/binary-aarch64/Packages.gz
-          DATE=$(date -u -R)
-          VALID=$(date -u -R -d '+30 days')
-          {
-            echo "Origin: OceanStudio"
-            echo "Label: Ocean Packages"
-            echo "Suite: stable"
-            echo "Codename: stable"
-            echo "Architectures: aarch64 all"
-            echo "Components: main"
-            echo "Description: Official Ocean APT Repository"
-            echo "Date: $DATE"
-            echo "Valid-Until: $VALID"
-            echo "MD5Sum:"
-            printf ' %s %s main/binary-aarch64/Packages\n' "$(md5sum "$PKG" | awk '{print $1}')" "$(stat -c %s "$PKG")"
-            printf ' %s %s main/binary-aarch64/Packages.gz\n' "$(md5sum "$PKG_GZ" | awk '{print $1}')" "$(stat -c %s "$PKG_GZ")"
-            echo "SHA1:"
-            printf ' %s %s main/binary-aarch64/Packages\n' "$(sha1sum "$PKG" | awk '{print $1}')" "$(stat -c %s "$PKG")"
-            printf ' %s %s main/binary-aarch64/Packages.gz\n' "$(sha1sum "$PKG_GZ" | awk '{print $1}')" "$(stat -c %s "$PKG_GZ")"
-            echo "SHA256:"
-            printf ' %s %s main/binary-aarch64/Packages\n' "$(sha256sum "$PKG" | awk '{print $1}')" "$(stat -c %s "$PKG")"
-            printf ' %s %s main/binary-aarch64/Packages.gz\n' "$(sha256sum "$PKG_GZ" | awk '{print $1}')" "$(stat -c %s "$PKG_GZ")"
-          } > "$RELEASE"
-
-          gpg --batch --yes --local-user "$EXPECTED" --digest-algo SHA256             --clearsign --output apt/dists/stable/InRelease "$RELEASE"
-          gpg --batch --yes --local-user "$EXPECTED" --digest-algo SHA256             --detach-sign --output apt/dists/stable/Release.gpg "$RELEASE"
-          gpgv --keyring apt/ocean.gpg apt/dists/stable/InRelease
-          gpgv --keyring apt/ocean.gpg apt/dists/stable/Release.gpg "$RELEASE"
-
-          LIVE_COUNT=$(grep -c '^Package: ' "$PKG")
-          test "$LIVE_COUNT" -ge 1199
-          echo "Live signed repository now contains $LIVE_COUNT indexed records."
-          echo "promoted=true" >> "$GITHUB_OUTPUT"
-
-      - name: Commit compiled staging batch and any signed live promotion
-        run: |
-          set -euo pipefail
-          git config user.name "Ocean Package Builder"
-          git config user.email "packages@ocean.studio"
-          git add staging/toybox-0.8.14
-          if [ "${{ steps.promote.outputs.promoted }}" = "true" ]; then
-            git add apt/pool/main apt/dists/stable
-          fi
-          if git diff --cached --quiet; then
-            echo "No generated changes to commit."
-            exit 0
-          fi
-          git commit -m "Build 153 official-source Toybox Ocean packages [skip ci]"
-          git push origin HEAD:main
- "$NDK_HOME/source.properties"
+          grep -Eq '^Pkg.Revision[[:space:]]*=[[:space:]]*27\.0\.12077973[[:space:]]*$' "$NDK_HOME/source.properties"
           echo "ANDROID_NDK_HOME=$NDK_HOME" >> "$GITHUB_ENV"
 
       - name: Build and validate 153-package expansion
         run: |
           set -euo pipefail
           rm -rf staging/toybox-0.8.14
-          python3 scripts/build-toybox-expansion.py             --manifest sources/toybox-0.8.14/manifest.json             --ndk "$ANDROID_NDK_HOME"             --output staging/toybox-0.8.14
+          python3 scripts/build-toybox-expansion.py --manifest sources/toybox-0.8.14/manifest.json --ndk "$ANDROID_NDK_HOME" --output staging/toybox-0.8.14
           test "$(find staging/toybox-0.8.14/pool/main -name '*.deb' | wc -l)" -eq 153
           test "$(grep -c '^Package: ' staging/toybox-0.8.14/dists/stable/main/binary-aarch64/Packages)" -eq 153
           grep -q '"packageCount": 153' staging/toybox-0.8.14/provenance.json
@@ -150,7 +55,7 @@ jobs:
           OCEAN_REPOSITORY_SIGNING_KEY: ${{ secrets.OCEAN_REPOSITORY_SIGNING_KEY }}
         run: |
           set -euo pipefail
-          if [ -z "${OCEAN_REPOSITORY_SIGNING_KEY:-}" ]; then
+          if [ -z "$OCEAN_REPOSITORY_SIGNING_KEY" ]; then
             echo "No repository signing secret is available in this public repository."
             echo "Live apt/ remains unchanged; compiled packages stay in staging."
             echo "promoted=false" >> "$GITHUB_OUTPUT"
@@ -162,7 +67,7 @@ jobs:
           printf '%s\n' "$OCEAN_REPOSITORY_SIGNING_KEY" | gpg --batch --import
           ACTUAL=$(gpg --batch --list-secret-keys --with-colons 2>/dev/null | awk -F: '$1=="fpr"{print $10;exit}')
           if [ "$ACTUAL" != "$EXPECTED" ]; then
-            echo "Refusing live promotion: signing fingerprint mismatch expected=$EXPECTED actual=${ACTUAL:-missing}" >&2
+            echo "Refusing live promotion: signing fingerprint mismatch expected=$EXPECTED actual=$ACTUAL" >&2
             exit 1
           fi
 
@@ -200,8 +105,8 @@ jobs:
             printf ' %s %s main/binary-aarch64/Packages.gz\n' "$(sha256sum "$PKG_GZ" | awk '{print $1}')" "$(stat -c %s "$PKG_GZ")"
           } > "$RELEASE"
 
-          gpg --batch --yes --local-user "$EXPECTED" --digest-algo SHA256             --clearsign --output apt/dists/stable/InRelease "$RELEASE"
-          gpg --batch --yes --local-user "$EXPECTED" --digest-algo SHA256             --detach-sign --output apt/dists/stable/Release.gpg "$RELEASE"
+          gpg --batch --yes --local-user "$EXPECTED" --digest-algo SHA256 --clearsign --output apt/dists/stable/InRelease "$RELEASE"
+          gpg --batch --yes --local-user "$EXPECTED" --digest-algo SHA256 --detach-sign --output apt/dists/stable/Release.gpg "$RELEASE"
           gpgv --keyring apt/ocean.gpg apt/dists/stable/InRelease
           gpgv --keyring apt/ocean.gpg apt/dists/stable/Release.gpg "$RELEASE"
 
