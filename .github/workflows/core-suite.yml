@@ -1,0 +1,124 @@
+name: Build official-source core suite
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'sources/core-suite/**'
+      - 'scripts/build-core-suite.py'
+      - '.github/workflows/core-suite.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ocean-core-suite
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - name: Checkout package sources only
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout: |
+            .github/workflows/core-suite.yml
+            scripts/build-core-suite.py
+            sources/core-suite
+            staging
+
+      - name: Install Android NDK r27 and packaging tools
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          sudo apt-get install -y dpkg-dev gnupg gzip git make gcc curl unzip bzip2 xz-utils
+          NDK_HOME="$RUNNER_TEMP/android-ndk-r27"
+          if [ ! -f "$NDK_HOME/source.properties" ]; then
+            curl --fail --location --retry 5 --retry-all-errors --connect-timeout 20 --max-time 1800               -o "$RUNNER_TEMP/android-ndk-r27-linux.zip"               "https://dl.google.com/android/repository/android-ndk-r27-linux.zip"
+            unzip -q "$RUNNER_TEMP/android-ndk-r27-linux.zip" -d "$RUNNER_TEMP"
+          fi
+          grep -Eq '^Pkg.Revision[[:space:]]*=[[:space:]]*27\.0\.12077973[[:space:]]*$' "$NDK_HOME/source.properties"
+          echo "ANDROID_NDK_HOME=$NDK_HOME" >> "$GITHUB_ENV"
+
+      - name: Build and validate core suite
+        run: |
+          set -euo pipefail
+          rm -rf staging/core-suite
+          python3 scripts/build-core-suite.py             --manifest sources/core-suite/manifest.json             --ndk "$ANDROID_NDK_HOME"             --output staging/core-suite
+          test "$(find staging/core-suite/pool/main -name '*.deb' | wc -l)" -eq 5
+          test "$(grep -c '^Package: ' staging/core-suite/dists/stable/main/binary-aarch64/Packages)" -eq 5
+          grep -q '"packageCount": 5' staging/core-suite/provenance.json
+          ! grep -R -a -E '/data/(data|user/0)/com\.termux|packages\.termux\.dev|TERMUX_PREFIX' staging/core-suite
+
+      - name: Promote only with trusted Ocean signing key
+        id: promote
+        env:
+          OCEAN_REPOSITORY_SIGNING_KEY: ${{ secrets.OCEAN_REPOSITORY_SIGNING_KEY }}
+        run: |
+          set -euo pipefail
+          if [ -z "$OCEAN_REPOSITORY_SIGNING_KEY" ]; then
+            echo "No repository signing secret here; keeping core suite in staging."
+            echo "promoted=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git sparse-checkout add apt
+          EXPECTED=$(gpg --batch --show-keys --with-colons apt/ocean.gpg 2>/dev/null | awk -F: '$1=="fpr"{print $10;exit}')
+          test -n "$EXPECTED"
+          printf '%s\n' "$OCEAN_REPOSITORY_SIGNING_KEY" | gpg --batch --import
+          ACTUAL=$(gpg --batch --list-secret-keys --with-colons 2>/dev/null | awk -F: '$1=="fpr"{print $10;exit}')
+          [ "$ACTUAL" = "$EXPECTED" ] || { echo "Signing fingerprint mismatch" >&2; exit 1; }
+
+          cp -f staging/core-suite/pool/main/*.deb apt/pool/main/
+          (
+            cd apt
+            dpkg-scanpackages --multiversion pool/main /dev/null > dists/stable/main/binary-aarch64/Packages
+            gzip -n -9 -c dists/stable/main/binary-aarch64/Packages > dists/stable/main/binary-aarch64/Packages.gz
+          )
+          RELEASE=apt/dists/stable/Release
+          PKG=apt/dists/stable/main/binary-aarch64/Packages
+          PKG_GZ=apt/dists/stable/main/binary-aarch64/Packages.gz
+          DATE=$(date -u -R)
+          VALID=$(date -u -R -d '+30 days')
+          {
+            echo "Origin: OceanStudio"
+            echo "Label: Ocean Packages"
+            echo "Suite: stable"
+            echo "Codename: stable"
+            echo "Architectures: aarch64 all"
+            echo "Components: main"
+            echo "Description: Official Ocean APT Repository"
+            echo "Date: $DATE"
+            echo "Valid-Until: $VALID"
+            echo "MD5Sum:"
+            printf ' %s %s main/binary-aarch64/Packages\n' "$(md5sum "$PKG" | awk '{print $1}')" "$(stat -c %s "$PKG")"
+            printf ' %s %s main/binary-aarch64/Packages.gz\n' "$(md5sum "$PKG_GZ" | awk '{print $1}')" "$(stat -c %s "$PKG_GZ")"
+            echo "SHA1:"
+            printf ' %s %s main/binary-aarch64/Packages\n' "$(sha1sum "$PKG" | awk '{print $1}')" "$(stat -c %s "$PKG")"
+            printf ' %s %s main/binary-aarch64/Packages.gz\n' "$(sha1sum "$PKG_GZ" | awk '{print $1}')" "$(stat -c %s "$PKG_GZ")"
+            echo "SHA256:"
+            printf ' %s %s main/binary-aarch64/Packages\n' "$(sha256sum "$PKG" | awk '{print $1}')" "$(stat -c %s "$PKG")"
+            printf ' %s %s main/binary-aarch64/Packages.gz\n' "$(sha256sum "$PKG_GZ" | awk '{print $1}')" "$(stat -c %s "$PKG_GZ")"
+          } > "$RELEASE"
+          gpg --batch --yes --local-user "$EXPECTED" --digest-algo SHA256 --clearsign --output apt/dists/stable/InRelease "$RELEASE"
+          gpg --batch --yes --local-user "$EXPECTED" --digest-algo SHA256 --detach-sign --output apt/dists/stable/Release.gpg "$RELEASE"
+          gpgv --keyring apt/ocean.gpg apt/dists/stable/InRelease
+          gpgv --keyring apt/ocean.gpg apt/dists/stable/Release.gpg "$RELEASE"
+          echo "promoted=true" >> "$GITHUB_OUTPUT"
+
+      - name: Commit staging batch and optional signed promotion
+        run: |
+          set -euo pipefail
+          git config user.name "Ocean Package Builder"
+          git config user.email "packages@ocean.studio"
+          git add staging/core-suite
+          if [ "${{ steps.promote.outputs.promoted }}" = "true" ]; then
+            git add apt/pool/main apt/dists/stable
+          fi
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Build official-source BusyBox Buildroot sbase ubase sinit [skip ci]"
+          git push origin HEAD:main
