@@ -1,0 +1,46 @@
+name: Audit staged Toybox expansion
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/audit-toybox-expansion.py'
+      - '.github/workflows/toybox-audit.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout staged expansion
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout: |
+            scripts/audit-toybox-expansion.py
+            staging/toybox-0.8.14
+
+      - name: Audit package/index/provenance integrity
+        run: |
+          set -euo pipefail
+          python3 scripts/audit-toybox-expansion.py staging/toybox-0.8.14 | tee staging/toybox-0.8.14/audit.json
+          grep -q '"status": "passed"' staging/toybox-0.8.14/audit.json
+          grep -q '"packageCount": 153' staging/toybox-0.8.14/audit.json
+          grep -q '"distinctPackageNames": 153' staging/toybox-0.8.14/audit.json
+
+      - name: Save audit result
+        run: |
+          set -euo pipefail
+          git config user.name "Ocean Package Auditor"
+          git config user.email "packages@ocean.studio"
+          git add --sparse staging/toybox-0.8.14/audit.json
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m "Record Toybox expansion integrity audit [skip ci]"
+          git push origin HEAD:main
