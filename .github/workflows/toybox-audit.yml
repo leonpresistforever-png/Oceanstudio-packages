@@ -43,4 +43,5 @@ jobs:
             exit 0
           fi
           git commit -m "Record Toybox expansion integrity audit [skip ci]"
+          git pull --rebase origin main
           git push origin HEAD:main

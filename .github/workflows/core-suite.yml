@@ -121,4 +121,5 @@ jobs:
           fi
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "Build official-source BusyBox Buildroot sbase ubase sinit [skip ci]"
+          git pull --rebase origin main
           git push origin HEAD:main

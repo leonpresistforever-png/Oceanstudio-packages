@@ -139,4 +139,5 @@ jobs:
             exit 0
           fi
           git commit -m "Build 153 official-source Toybox Ocean packages [skip ci]"
+          git pull --rebase origin main
           git push origin HEAD:main
