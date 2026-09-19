@@ -199,7 +199,7 @@ def buildroot(item,work,pool):
     run(["make","help"],cwd=src,capture=True)
     with tempfile.TemporaryDirectory(prefix="buildroot-pkg-") as td:
         stage=Path(td);prefix=stage/PREFIX.lstrip("/")
-        dst=prefix/"share/buildroot"/item["tag"];dst.parent.mkdir(parents=True);shutil.copytree(src,dst,ignore=shutil.ignore_patterns(".git"))
+        dst=prefix/"share/buildroot"/item["tag"];dst.parent.mkdir(parents=True);shutil.copytree(src,dst,symlinks=True,ignore=shutil.ignore_patterns(".git"))
         bindir=prefix/"bin";bindir.mkdir(parents=True)
         launcher=bindir/"buildroot-ocean"
         launcher.write_text("#!/system/bin/sh\nset -eu\nROOT=\""+PREFIX+"/share/buildroot/"+item["tag"]+"\"\nOUT=\"$HOME/.ocean/buildroot-output\"\nif [ -n \"$BUILDROOT_OUTPUT\" ]; then OUT=\"$BUILDROOT_OUTPUT\"; fi\nmkdir -p \"$OUT\"\nexec make -C \"$ROOT\" O=\"$OUT\" \"$@\"\n")
