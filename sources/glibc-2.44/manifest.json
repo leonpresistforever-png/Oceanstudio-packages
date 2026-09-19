@@ -13,7 +13,9 @@
     "ocean-glibc-runner",
     "ocean-glibc-devel",
     "ocean-glibc-utils",
-    "ocean-glibc-locale-data"
+    "ocean-glibc-locale-data",
+    "ocean-glibc-patchelf",
+    "ocean-glibc-suite"
   ],
   "isolationRules": [
     "Do not replace Android Bionic",
