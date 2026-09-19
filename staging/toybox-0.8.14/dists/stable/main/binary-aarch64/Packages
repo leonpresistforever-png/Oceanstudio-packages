@@ -4,9 +4,9 @@ Architecture: aarch64
 Maintainer: OceanStudio <maintainer@ocean.studio>
 Filename: pool/main/ocean-toybox_0.8.14-1_aarch64.deb
 Size: 196696
-MD5sum: f2f2032503d54228f43f4c61914b9ad5
-SHA1: 5befbd1d2d7ad29b26127c2661a4cd101d64423c
-SHA256: 7ce046680962af688f9efb68870630b739a3de3bfc5462b50003a15a8e5ef61c
+MD5sum: c95edc8c80126748e70ed49d0f6101da
+SHA1: d61045c928183b75670df28d8d2e4e8f315bd4ec
+SHA256: 8e85d3bbee31e63063a5821bf0dcf630091cf8835029cba12abc2f01130b4c88
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -19,9 +19,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-acpi_0.8.14-1_all.deb
 Size: 1524
-MD5sum: 39224fc41a444eebaa7e5afc497aeef3
-SHA1: ce867873b2643aa6ad62ce49f36d41aba5d2969a
-SHA256: 234852d01c08f62d9132e4dd6f9b29abfbf5bd11add98745f07c3d799ce8122d
+MD5sum: 25d708aab2d3bc8f936f99958136dd44
+SHA1: b49521ea1ee201db8e4aaa9972655db7451b9ced
+SHA256: 2672c8bf9f3b172093a08347944f6a27b6a688fcff6e89f504fcc7fedf7a484b
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -34,9 +34,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-base64_0.8.14-1_all.deb
 Size: 1524
-MD5sum: 6d0136a3f4a4f2cc52fb35a21320c85e
-SHA1: e9fff8032fc244d60990a2eb87ed16f65aea429a
-SHA256: 2b80576db8892dc7dfc3fc5a6b45a6c49f1d0381704434916d5aeacafdbdcb3f
+MD5sum: 7419d981a9789f0da511ed96dd9b689c
+SHA1: 741d342ef512572f59ec3052768d13913f77f6d3
+SHA256: 8105d2cf1ac4ae24790813655a0d37d9251ed650579c5d11e0e60fc740c00bb6
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -49,9 +49,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-basename_0.8.14-1_all.deb
 Size: 1528
-MD5sum: 9940b505f0371e7c5aa9bd8d4f92e454
-SHA1: 2bc52914e705aeb3e61df91b0a10163cb0f24a14
-SHA256: df4856e4cd43feb322a22119dd68d9bff4a4f882dab9d03c5b947838da5765f6
+MD5sum: 0ed91aed8044e1e415c848dbe2ced974
+SHA1: 685f6e59289ac497725d59a764dacb2b10c3ece4
+SHA256: 5b34b25ff50edd37c6bf21cb0802e94c0573a89a7f53107150d5e8c9a832e49d
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -64,9 +64,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-blkid_0.8.14-1_all.deb
 Size: 1524
-MD5sum: 46a33a14193d7a6017c459a7336d9b49
-SHA1: 38b9eff0ed3c61384ce6fee230d833f15d651875
-SHA256: cbec0e34f712ab83fd31e7bf46321da8e935148f24ac05e00d54516e67cabb31
+MD5sum: e2b688e934b245ef3485efd489a68784
+SHA1: 543e97e2bb1f33455d7829bbd8eb4a1c7400d1f7
+SHA256: 30daf225912556600512b27a1394a67d5edca57e59e2d9a16c0066bc74c483c1
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -79,9 +79,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-cal_0.8.14-1_all.deb
 Size: 1524
-MD5sum: db0a70480e630b527c49408c2375da10
-SHA1: c22a029a941cb99fb294c83b17f9fc0f0dffb68c
-SHA256: d3921dec5339c742474b14a9be510db3e3da65a491ab5c13628d6b862be772e0
+MD5sum: 27ec73ac41911decd4fb0f0145dd4e0c
+SHA1: cb4600ed0634415b04a475996d5fed3b46732f4a
+SHA256: 73ae6affb0301e3aa7795d41aa25abd2f307ee89a3a4e901af7a27beaf674b15
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -94,9 +94,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-cat_0.8.14-1_all.deb
 Size: 1524
-MD5sum: 7fc2a99b37dc58c4c716e583f61b8c53
-SHA1: 971ad0cb7cc15e70b9a4891ce94e547e3f02a087
-SHA256: babcf581513570b70fa7f2f85d496e805f9c88044eac97178f356b60cf04a135
+MD5sum: 442b6eb4a1f9e8a8e889caf5bda9fc58
+SHA1: c3964c27519e52b60b4626a84ef24ba798784455
+SHA256: 85295f6ab01f887d3359b868c27ac938b5a03380c5e2e1c6ce871355717c3a10
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -109,9 +109,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-chattr_0.8.14-1_all.deb
 Size: 1524
-MD5sum: 8675fda0c395057e0d0642978b7f8ec1
-SHA1: d7241beeb01bd868e191b3692e8dd27f8825c215
-SHA256: d9c088c886aa8c22887d297f4186fe080a271acae1fc5c1a26e685d5d17d768e
+MD5sum: 87fa1e1faf7dc541ee72e184db1e1ebf
+SHA1: 8780689b38afcb2cbba3f461661088794bedcb42
+SHA256: 20f595e99649d2092d88473b6ff6eaa586d17a2bc1e495128101e8f0f0cbfdc3
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -124,9 +124,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-chgrp_0.8.14-1_all.deb
 Size: 1524
-MD5sum: fb9f066d53ec084df134f2f86ea9e17a
-SHA1: 0c0d05e0fc1b9a15f1902b550ecde51c9033b7ed
-SHA256: fb10d07a534ec89b0703618c38a08486fdc767889acdc8fcb59c4aa5a5fc4b6c
+MD5sum: f7c4abc8ae4171e15a83be8f72bffdc4
+SHA1: 38df2a44af83ed92aac3fa97fce9b82ef6840e2b
+SHA256: 9878a55ffcea5bf0bc073c6e5ea92ffffa4181533da2c0b6ec4470fbc33a7832
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -139,9 +139,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-chmod_0.8.14-1_all.deb
 Size: 1524
-MD5sum: 1334edea2b7a820bf3096c844c77f86b
-SHA1: e5e14a35a8c483a50f55a2ea6edbcf1a265d3ab8
-SHA256: 32d47d74f42c5d1b30932ff8790debb6a3cf18ac5c3d700fee0cbd5342fad543
+MD5sum: 2a839362dd4569aa94bd8f1a518916b1
+SHA1: 7d2b5d30072be68a003baad28cebe482bdd01096
+SHA256: e7c068fd01b46b8c8c352ee5946ee2ec9b5e155e2e1f7ebf524276c631de01d6
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -154,9 +154,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-chown_0.8.14-1_all.deb
 Size: 1524
-MD5sum: 0b439abe16c47ee4e46a217cf84978ec
-SHA1: ba032533b83bbd07e321fa3dc9e6bcbf857e995f
-SHA256: 249d56d14bbf0a53161f6e3448a4b872a20befb5afeef12fdbdcee2d9c294102
+MD5sum: 00cabc08e64244e620a62fd93e3d9d6e
+SHA1: edf507090c58856df9b2197dfe0d906cb6519bee
+SHA256: be263cd4978c306d9b2cd0ce9f2452cbf5e087c01c786d6f7a2aea2c0142a046
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -169,9 +169,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-chrt_0.8.14-1_all.deb
 Size: 1524
-MD5sum: 150ef5cd59474ffb52fec43b21007241
-SHA1: e367b174d9664963f48735273ed6233794c64a85
-SHA256: 8bea3b9cbb6deb971f1384c087586b034fbcc5d6953ff2754625d15aeb3dd068
+MD5sum: f28dab4635e4a5abb1b98904816a4b18
+SHA1: 900d5823af9636916fcf9a72ac933c0819ce5061
+SHA256: 97fae3fbe0c4985234e0436151465d94e78abc1f9ff057bde6196c7a36634ad3
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -184,9 +184,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-cksum_0.8.14-1_all.deb
 Size: 1524
-MD5sum: 623c84ab45248179d9f39410590490b6
-SHA1: 7e3c82bf30161a04bb2da5b059e6d31811c38621
-SHA256: e9640a26a177e12c14e6edb8cf1e9ef6f340ad717f7e380f048175905dab03f2
+MD5sum: 1d59f95d15c01b91388a0431265b3b7b
+SHA1: 8affad492b98a6776c4c3465923859de77fecc50
+SHA256: 2f4b57de7ebe4eb9d14252d473aa99dfb0eca40aabb9f2e253fe7b45bd5f960d
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -199,9 +199,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-clear_0.8.14-1_all.deb
 Size: 1524
-MD5sum: 06462e45734c9dd4536423547f5b875c
-SHA1: fed0472e16a8186928189e3a36179b75875bcc87
-SHA256: eb50fe48421580ffc767ace1c409781c271aa0797def8a1c33f90eb92d85462d
+MD5sum: 2d94e632d1a7295ab9490026b5abf5ed
+SHA1: 4ebc46dd6518d895659647f58aa73dc6c0dfa510
+SHA256: 0935cec019524fc31e5b0d1ca4289934d7e14412dea9a5c28b0a7fe568c8ee9b
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -214,9 +214,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-cmp_0.8.14-1_all.deb
 Size: 1524
-MD5sum: 7ad20f87f2cd7f6e63651ea68bcc9f40
-SHA1: cdcf77b0c422746a7aa1f59dc791b6035c08ee46
-SHA256: 6b3deeb7a2c78f2d90f4f934f6969450df8c69323d8ca905876b0aae418e36d4
+MD5sum: 67e7573f83d998796efbd4698aad34b3
+SHA1: c11d6c9de6ef301f3568e4b86f75807659baca4b
+SHA256: a72e3edfcbbc45e33c88651c6be370a98fc3388b8c6100a2840c0bd0a9369dd2
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -229,9 +229,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-comm_0.8.14-1_all.deb
 Size: 1520
-MD5sum: 162ec7b91a562aaab1a19f92a3217653
-SHA1: 98f9491b4f388d0ea7ef3c20bf001343604eff8c
-SHA256: 470328179f0a336e14c05f11b3a24544de85de59b58079c4713618fae3e4f0b6
+MD5sum: e85b84b28fbf09d43362da83423130ed
+SHA1: 845a3c5496f7005e4a6fe6545eae61af1f65323f
+SHA256: 218ed6b42eaaafd20859db0355f7ca6cf9dd8ae783fa3c4740ee58db02d326e1
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -244,9 +244,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-cp_0.8.14-1_all.deb
 Size: 1516
-MD5sum: 63b994a0cfef25f78c2057682825a687
-SHA1: 0cc608531f372bc8c6a67415db244c220efd553c
-SHA256: cf0235aad00f2a14b6c5b27bb92c398eed810fd547a8c81359d25458ff99439b
+MD5sum: 08eaa65625dbe9dad43e72078c948456
+SHA1: a83a7a72ad99ac78c921eead0d2ae7dc597a36a5
+SHA256: 5487f3e124d1ca1f8a3ee4401e9430dd8368a86c046a25408b0017a252fd150f
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -259,9 +259,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-cpio_0.8.14-1_all.deb
 Size: 1524
-MD5sum: 317ffee89bc7b34a2626476a183f79bc
-SHA1: b9d937c3b32ddf8631085045f295ea2c0bb560f4
-SHA256: 23808b87eb95097643478afc71333b521aa68a94b86b96bb178e63d07c763135
+MD5sum: 0bdbeedfe52bd9a6d5e0337dfd05d1cb
+SHA1: 655f7ab66cef49fc53db09b0e48a0c6c59d84eaf
+SHA256: 92b961f6ff3554d56a49e413056984f2fd74330143fc2318611e9628112a279e
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -274,9 +274,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-cut_0.8.14-1_all.deb
 Size: 1524
-MD5sum: f39ad0f9e9b427213060ca8fbb7d2f07
-SHA1: 2e22d388841c8965829eae13bc2f15c64e75c87c
-SHA256: 49ed556feb9870f342148a0b7149ac42a7acca5b571fb7639ead23a4d44b092a
+MD5sum: 370b43bd224d3f612a2fb12bfea3edb3
+SHA1: 9dbf8a480e0fddfd4c44d965c93369f8cbfb0c58
+SHA256: 5c3621360a82944228b425dcc939ea3c8f6be987dbdcecd812915f040b432055
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -289,9 +289,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-date_0.8.14-1_all.deb
 Size: 1524
-MD5sum: 9ea432aa4f80ea9f47801ef9e0fc3389
-SHA1: 5c8c3deb8aa1f8d0a698fe49ed66c41f5273fad2
-SHA256: bb679f6b9b8072079033a20cd3ad59e74d4ea69199019b0b25ca94128c0a4ce0
+MD5sum: 4af5ed7fb0ebb8399677f79e80432a3b
+SHA1: 2df49daaa37f362ee63a19cf45129e983ee73664
+SHA256: 182df40dc102496e12aa615653723d9130ed6ba9dd217f960b455bc6dfe6c057
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -304,9 +304,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-dd_0.8.14-1_all.deb
 Size: 1516
-MD5sum: 24dba3a9402f32f5d1157def24c71bed
-SHA1: e809cee0f669ae8c103a3782fc42868f6c5d7f00
-SHA256: 728db0decba15dfb4e77bf475e58a8fc69d5c2f2f38806e1210d1512589ffff3
+MD5sum: 27970b8b6064dc04693c30671eae678a
+SHA1: 61d0167690121195cfaf1e628c570f202f5fb337
+SHA256: 5a1285c8b3c163cafe2f5807426cce81e03f851e3f9da6ff784746aabb3c70d6
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -319,9 +319,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-df_0.8.14-1_all.deb
 Size: 1516
-MD5sum: 2c4020bc95032ec823b90af2eea6c284
-SHA1: 49ad5b3c4daf4a2cee992e100df94247d9ce82be
-SHA256: fa4891dd062b9a8eccc4252daf041110c7525ccbd1b017acbe84947c03696f91
+MD5sum: 9c80ee8b675be785e81b43587f661acf
+SHA1: 80471f851e021307534dd934dc96682625362c63
+SHA256: 15f3c6a3ad52501e965652835fb2e90f8dfe42e9fa8ed5ece04514229d767f2a
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -334,9 +334,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-diff_0.8.14-1_all.deb
 Size: 1524
-MD5sum: dcbbbac589db4c3b389b275f384cb983
-SHA1: 03217ccaa3639755ad85346bd78ef4d40b6b9b65
-SHA256: bc0202eade79d15005ab66cc2939fee2d1d4a8d1d7424fce472996826a20a247
+MD5sum: 993766507b080f4ed9bdb894e11de4bf
+SHA1: 075d727413a78fac99bd62519c10549ef1e48170
+SHA256: 22014cb1f5469e02358aca7e719a9ebb53b67c61f10096eeb33db22b731b2d92
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -349,9 +349,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-dirname_0.8.14-1_all.deb
 Size: 1532
-MD5sum: 636dfd47bd5708a31c8b127d505eb10f
-SHA1: 8afc5994936f1be3e9c7b0c5e35f083d7080cefb
-SHA256: fc89ed09ce9afa82cf21487d7502ed66663cf4638bbfb425f31003288addf8e1
+MD5sum: b84aa045c27ca5f16110c7f8144d4869
+SHA1: 52152f44b728c8815aa50f698510fbb7d1a21cc2
+SHA256: 237c947ea037ecc6a033922ba231fb6d46c3f74f98342512c2b511d9c24b590f
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -364,9 +364,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-dmesg_0.8.14-1_all.deb
 Size: 1524
-MD5sum: 95f6423777fc1d9c08d8dd96658ec53d
-SHA1: b5d89a9d00f2602062d109f292fb7caaa8ef1fb2
-SHA256: 9503d0f3d853b45ae4871b8f409c06b617bbc5d0f3fc9bef5cf4fd5c17a7a7b8
+MD5sum: be3593d4b678462c89794d61b5512a4d
+SHA1: 516d9ef3765149112587a713688bb1aa3770c5ec
+SHA256: fa7842bc9db0c09f15887e910009d50ccb5139bbcf12e675a91bcba7f0df421b
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -379,9 +379,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-dos2unix_0.8.14-1_all.deb
 Size: 1532
-MD5sum: 5b10b500d98c69a9d7ad05d94ae94ebb
-SHA1: b987f34b395fa25e9a66f303e2f3d7eafc0cb1db
-SHA256: 137e5b7c0be1b190dbd981eecd4734b361f963804d9105be9f76e2c19d43f4e8
+MD5sum: a09a033760ee7bd5904ecf60cea3d4da
+SHA1: 385f78390f8a8f2647109c1b65df60d4dbab7750
+SHA256: 517d9583564b5051fe61039c45d8f14b269e4314ba73e19aa86ab1128b446eac
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -394,9 +394,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-du_0.8.14-1_all.deb
 Size: 1516
-MD5sum: dea3f5dab7ea3d3484ee79495a68cf80
-SHA1: f19cb2b269b3ce2769138a182f19112db2dfc9b8
-SHA256: b4940c03022558c1525324e50e67acb3d0c8b0c11f8124b4cdfb95f46038afae
+MD5sum: b7419f25c3f8bdf39e1e92823bc6fdba
+SHA1: c720e438062b48c96efc6e140b76046a7474c2db
+SHA256: fe3843b218f0f2ededa5a06a0f01e55816b83b0e2969201840e0ef97743bed81
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -409,9 +409,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-echo_0.8.14-1_all.deb
 Size: 1524
-MD5sum: 253001fa106980ceb9de8c3637611afb
-SHA1: 13c8ddb27d644b5078ada862a340970fcd42ec17
-SHA256: f76208144ba4f36c938874076b7c72e3428962e7113de7cceb7a8a6bfe3266e5
+MD5sum: a27767fb4511c159966686c80c9d0780
+SHA1: 5266a04a99a46f432ee060ba167a4ae7d1362b54
+SHA256: c0629219c1837bc8d5b3904327748b59043f5e31e79bc91e3832977d62beaf35
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -424,9 +424,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-env_0.8.14-1_all.deb
 Size: 1524
-MD5sum: 19accbe2062cac2ce0ffdcc51fcba73c
-SHA1: 940b139f7dd1a01d1e9978f5a13c66dcba137bd0
-SHA256: 81306f64845051dec67529a14bdb96812d1b616042d12026addec8760dcb4736
+MD5sum: f45dfd183eb83b9f75e62ba46a86bd19
+SHA1: 60d8ca03ce46dc5b7d3836fb763efd8847315c0c
+SHA256: 740b753dabff41f0564b5b863ec6665840cf5dba2f8a8c8ed853c68787ebdc4c
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -439,9 +439,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-expand_0.8.14-1_all.deb
 Size: 1524
-MD5sum: 1be16cebce040c26b93ee765d9036bee
-SHA1: ae4ceb3693172022651c06ded7b64ceee141db32
-SHA256: c03f6c640fe2ffc0548ed1edac0c6b0243c89b7e646dda0f7a6b129f830b8ee2
+MD5sum: 9f5590b0d2e12a495354a61631237b56
+SHA1: a4c02837149f060ca3eb55f6e456bcd2d4a91b66
+SHA256: 9de2f17ec13c83f36b43ea2f6d04ec6895a1b8043d19c6bed002f7d3f7a3bd29
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -454,9 +454,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-expr_0.8.14-1_all.deb
 Size: 1524
-MD5sum: 0c8113e6f483aa21d1257b3ae18a2953
-SHA1: 25ec411c5418be785135069a49cedc09b771711d
-SHA256: ed57dda5893bda93e3e948d17e5d8a9f47f7dea64eba48ffd0a09697b4a5101c
+MD5sum: 55888b1c18f48a2680ef8b711bad9c3f
+SHA1: c04a51718728f8b299bfa8dc6cb1b96ea5602484
+SHA256: 740f8073ed2e809722ec4e4c04c64be1b407f53b781fa937f14975303a96da02
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -469,9 +469,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-fallocate_0.8.14-1_all.deb
 Size: 1528
-MD5sum: c79aaf2f895ed33b1e1c9937bf25de84
-SHA1: 82d43d46f3308bb128ccf01c06d40cf46eec41e2
-SHA256: 9d8d1b0af7a17c7ba246dfcfd500a105e1078cdd6278e37f1eb0ed20a1a7e691
+MD5sum: c1f78d3bad443dba4a34d3b93cdf6b32
+SHA1: 7da726582e30516164ff2b6f27a1c253e8b1625a
+SHA256: a1f31ff347983b92051bf1d1199d3906630e65166a75c983d625fbef4235c747
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -484,9 +484,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-false_0.8.14-1_all.deb
 Size: 1524
-MD5sum: ecb24dc2d217e5ad58e352ecf45e728a
-SHA1: 2a48762f2b6160f1c2f0353fb027ffed1a3ecfde
-SHA256: 3710f73bd81f124ae54fd0716a8997363d91ad044d32a738f51ef479e2cb4434
+MD5sum: 3ad0aed7dec5fc3c8b0f4def653ad7c8
+SHA1: f12ce13d6337ed06d19c4736084839f96beb8388
+SHA256: d7069a71046b2d798b8c9727ed9c835018c123a315cd7eff4d2f5f3239a24478
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -499,9 +499,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-file_0.8.14-1_all.deb
 Size: 1524
-MD5sum: aa4c1338195d6eccd33b5a0950129a1b
-SHA1: 0849ca990a747343bdcc233d5d1e162a38598838
-SHA256: 2dd4ec18a2ab94973125e0738e16350054cdded12f60baed99de17a42d4caf41
+MD5sum: 33b5fcef0fd8070a24e693e8d16beca8
+SHA1: a94bb5f50f4eecc706a5bf3e3fd6c7a0157e9e6e
+SHA256: 333ea46f7a6f4cbe0aa4b166e2375d1ebfdbfff9b17a5734eb7fc5c4e09153f2
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -514,9 +514,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-find_0.8.14-1_all.deb
 Size: 1524
-MD5sum: 75ac6fc8955e0d54a55ce229cdb86b4b
-SHA1: 744a21e50edbd5c7f15e27ae0b0aa7f46b9857af
-SHA256: 5d5353e0cf8e4aeb2720e47262ed6d7bc5da08cec63aae24ad8765cd0b889f38
+MD5sum: 32bf6ecd214d3849886b8ebc46a5e5f1
+SHA1: c235ecdee92b96ab08cd368321b89b6daef73efa
+SHA256: 462bb9af4893c80f113b9c826a81c0051b095c3b030b9d994e7eedb4098a735d
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -529,9 +529,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-flock_0.8.14-1_all.deb
 Size: 1524
-MD5sum: c73e72cc38e7bc1e761805560e66a580
-SHA1: b5f7200ef0d1ebba5218a9fee537f37b46b59891
-SHA256: c5022d760780093f79d7a63d0af734cb58379391475b65616bf3f264aed65e17
+MD5sum: ec509791f6aeea28ae381f942e89515d
+SHA1: b812f75409a09ec3b8586c414070ee9feb3b793b
+SHA256: 194f3b809818a6835ba451b8a65bd61dfa0c32bcf9d52d39a780ec1f9d3cd3e8
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -544,9 +544,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-fmt_0.8.14-1_all.deb
 Size: 1524
-MD5sum: 1bfbbd0b42773593cff50b2811fc8869
-SHA1: 9c11ea4c446196f964c98b494e2b31efd06913f9
-SHA256: a0a7a1d22e7f2d391bc11b4467355ea1c074d4fbecf08aca9bb284e2a5a04145
+MD5sum: 0da720cdb72a2c158423c9bcb347ffdd
+SHA1: ced804ab5789c3efde888683e520b3752691215b
+SHA256: 83dca8811caa7f8414630f8ec54be64a00929a0c111d9fd32a6624d2c5aa41ee
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -559,9 +559,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-free_0.8.14-1_all.deb
 Size: 1524
-MD5sum: 14a2d193971a05e5692787d404340caf
-SHA1: c27d10fab29cf9fb9f2a5174f71459c1ca7bfab2
-SHA256: 20f9ca25960b2f4ae1e5d2d9f03656c65f428b9290fad732064e5157e3885ae9
+MD5sum: 9d35c2a185f05bc307747a65fe0cc1af
+SHA1: 744a641554e0689baa2f0bcb66e4fd6ba6470543
+SHA256: 6f180fa7fd45d3cd445a81f96bfc6c99c6f8ed846d656dfe89e4b57b772a0090
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -574,9 +574,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-fsync_0.8.14-1_all.deb
 Size: 1524
-MD5sum: b913d111b098113da4cd7765c356e87a
-SHA1: c8d357cab70db38fff84c82c3d7439d8af75562f
-SHA256: 73a81228e02e315b3d74834b8c284a47e164771a0502b4ae8b0042295c6e43b8
+MD5sum: d144fb0dba948b5713a2472cf8d189e3
+SHA1: f46c2ad5e5064b9ce598a7a660b24634bdfe2781
+SHA256: c48e5782ccea6a2e4016e4383b87b9292d9ade988ca982995b9ac3a35a27e53c
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -589,9 +589,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-getconf_0.8.14-1_all.deb
 Size: 1532
-MD5sum: 389f47343c97fc0476e7b1f1420ded08
-SHA1: 9ea4d19745eb7d21ab6513250bb5aea421849181
-SHA256: 6d04edf278551c7151651bb15c4e71fba0fb97d7d766e83c3e8b127d0895ddd1
+MD5sum: 3629c3806fd6eac61e3f443fd7ca3a59
+SHA1: 6e9e60864d0e8e769e2da0314ad13513ca32cbb3
+SHA256: 343608098f4abb59ee01d1a288252200fb751c98159f2ef6c32be144423f082f
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -604,9 +604,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-getfattr_0.8.14-1_all.deb
 Size: 1528
-MD5sum: 209fa1bbd72d84cd43fe87ef9203939a
-SHA1: 6e99cd1e362df329918b6e879f9a9d4647b706f9
-SHA256: da53a02ed9612196af4a2224bcb59833a594d3a97a9864b8be474f3a553d7dc0
+MD5sum: 4499a37b945af85310591a2ea5c27d3d
+SHA1: cd146ebc85089461ef60fa9c39c8ad7da9805b75
+SHA256: b4f75d54ac6ee889ce401504ba85b2c78426208db0df9c3f60348f7803876f82
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -619,9 +619,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-getopt_0.8.14-1_all.deb
 Size: 1524
-MD5sum: c3b473f5323acf69f346df203619cf14
-SHA1: 14f4b2b730436b5af8b40a803fd9c6c9bdeb39fc
-SHA256: a2c3ce95596b8af65dcdf0b0394380dd6827b4662902ad7923bda2eb460853f1
+MD5sum: 3339361c62da0a8125a4823379ba1735
+SHA1: 4a34760de636ff0d031c00369eaa7ca2b4130a0e
+SHA256: 550e4c1b97c1ee79841747d23f163ce9d8d412893a9b6bd7ab073c1272cb1c78
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -634,9 +634,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-grep_0.8.14-1_all.deb
 Size: 1524
-MD5sum: c8828112cff821622f15e05a024fb4c9
-SHA1: 7883b6045bf2d56cbc209ceec8a42299d0ceb314
-SHA256: 7da2f245ced6b068b28231a9d6d337f2d69c2e6c44158925694e7dff2c6b23d8
+MD5sum: 49e44a2976686b6881ce7202f05a81fd
+SHA1: 26942ae1abf2a6ad6ef9f6d7256b741423efba0a
+SHA256: 0bc13eeda533f6a8c9e7faedc1b01c9a7a2f43e3e657dfa89a5c5f1134fa3413
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -649,9 +649,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-groups_0.8.14-1_all.deb
 Size: 1524
-MD5sum: cb20e41b4629e1eab90c7f79b73c9701
-SHA1: b4fb3523439fb47f566d96ed270b7f884adb0e0f
-SHA256: a49b493a15288771d057da01b64f88c0465493d3fc9f10ac8e63f302950cc26d
+MD5sum: ec1e5664afea4787abbd5defdf9c96c8
+SHA1: 4107bc04faa5f8e2a7db5be4d1f1a3893e8811ae
+SHA256: 3ea549dfcf5916a4658ee663fa8a00f74ae97bb0007b0ab8728bde525fae3891
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -664,9 +664,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-gunzip_0.8.14-1_all.deb
 Size: 1524
-MD5sum: c8d1bcbd18bd095ebdd5dd3f9e73c6ca
-SHA1: 5b0931683c3edf51eb64dc870538ca0cf375a648
-SHA256: 1242946f2869a4bf8953598af0622764a10ded70efbe335c6cbaca08c215c839
+MD5sum: 2da484775a613c3f0bd16a097bbe4d1c
+SHA1: 54c5bb206c7595d6ef79e377a7e5d7048a4a7dfb
+SHA256: 4972dfaaa45328fd7740e2cfa9f42bf9a198b706b974a41a81fe94f81ad48923
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -679,9 +679,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-gzip_0.8.14-1_all.deb
 Size: 1524
-MD5sum: e3a726550329b9259308f73181696521
-SHA1: aad608393717f593bf9685f7846453fddde7227e
-SHA256: 4e5b633b1e6151a6b068a0a66f243541a1bd507980e5d739ae8c09307bada025
+MD5sum: 15d6a5c05d4d74d35e955ffbb14d7e88
+SHA1: 278d8d9878b28a2ad07cee1ed9e407687030cb56
+SHA256: 90d30248013021596abb099db57e05af1fa812b70885fea69ad7d7240f2ae2a8
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -694,9 +694,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-head_0.8.14-1_all.deb
 Size: 1524
-MD5sum: c573234039ef25fda78da2d0c600270a
-SHA1: 6686720060393bb3feee47cddbba224fdcab9dd6
-SHA256: 1fa43613aad1a03a733d111673e71057bd2447dc7ea84058596c01a52f8f2f07
+MD5sum: 5f97a3b44be2d85042491eaa7d9e7fe2
+SHA1: 188c2590c96807f008f2fcb02f2ec103a22a7542
+SHA256: 22231b5613fdba9db22c588d67c84c13ea363798d2211dfa0433b6ebf84114f9
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -709,9 +709,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-help_0.8.14-1_all.deb
 Size: 1524
-MD5sum: 563d2b4b53caad1a7e23e41021289ac0
-SHA1: 43f257722fcd61fb6ee8928094d830c88f92e33c
-SHA256: fe31e3f10b3c3664b6ec91fb20db712ce929a61b837a71b7830d262c37c42e6b
+MD5sum: 2cb1302eab73ad9691c894e2be301b9b
+SHA1: 9c8d866dcef2bfb85565a6f56044228535f74a92
+SHA256: 8b2c0fddc2a65dd7c536656a54d4059dfd0abbc4b513cca8445dcc390f8c7a6a
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -724,9 +724,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-hostname_0.8.14-1_all.deb
 Size: 1528
-MD5sum: 52513bc402642ab6bcea5390a205bece
-SHA1: dd4224c615c1316117e94b3d1ae9487da23f375f
-SHA256: 69bf6c7458d5563ab89eb54db0e14c229a16e46c323f8b4cc0ddd6bd452bdeba
+MD5sum: 60aa72d6418687b7ce4cc96c4dbac08c
+SHA1: 491b7698e03758dd5e56c7937527ae92aa1fd195
+SHA256: 8119df978940d01fdc2eeed8968bbdd19dd46acb74c26721cfb51dbb44c0d3de
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -739,9 +739,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-iconv_0.8.14-1_all.deb
 Size: 1524
-MD5sum: 066fae4839a0364b943bf52b8070c23d
-SHA1: 732db814f992dbc8fe36bd8345c8e181467d8a86
-SHA256: 291b49bb273d4aa2150b3f0ad4efc1289c8749a0915dcc438091fb504584bb63
+MD5sum: bb866d8f329db3fd5e3f5005eb1efee1
+SHA1: 6e90004298925e73f8e14b932196063a1ceaa734
+SHA256: e26f378b87b083e078129dd8e402c913d882a177cc9302783f43c5e44741d227
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -754,9 +754,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-id_0.8.14-1_all.deb
 Size: 1512
-MD5sum: 3986504a8057ea30c0f265938bc16303
-SHA1: 231e76d8f81838d49b39dd3b51712925f272907e
-SHA256: c29dc47ddbe5bf867f88115f23a0a0a5213f82a92b7f839e77e6b8e6bae9eeb3
+MD5sum: 07d5ea31a1d436d7cfe035eadee65533
+SHA1: 5a9d202c871c02c71dc4c8900d0081f98363d1be
+SHA256: 30f540ce91c5366ff709e320b60b3c8546cc095185f0b1025795d6165c620c28
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -769,9 +769,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-ifconfig_0.8.14-1_all.deb
 Size: 1528
-MD5sum: 1aa54fd2a2fea348d1750a37043874d2
-SHA1: e9e4e27b8959ed612365789b89abbcc67f34acce
-SHA256: 22aafd829ff2dcd62a0616d713d3c0740affd72484d0b70b303a11ab0faebf02
+MD5sum: 8220c50d65aeb81d556f4310db818e7c
+SHA1: 73962a5fe19803d5d07124aaac524b28fb74b4fa
+SHA256: dc3ac2405f22c57dd8278744c4d7d79de00c7f1f8e5d1d80a332c65156c37794
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -784,9 +784,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-inotifyd_0.8.14-1_all.deb
 Size: 1528
-MD5sum: 0de500d46a47d2e355bdbafb45df06e6
-SHA1: 25abcc445f3bbb8a9d9dbb3c9589cc4c84508590
-SHA256: 22eeb532cc108552bde6b8a6d78dca59bcda50605b211b5389807ec75eb60cd9
+MD5sum: df42eafd8d13ac746a66ef192cd66c8e
+SHA1: 30a4a87473083f75099f8a8ef347c1e7130a29e0
+SHA256: 22cf6cae1f2064de49087c03d3493a4e38e82d4e6c319a5aaa68ae5ed5fd8acb
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -799,9 +799,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-install_0.8.14-1_all.deb
 Size: 1528
-MD5sum: e9426cb028d9384475f5e91fa8baccec
-SHA1: f069277c6b93bd87c7091261fb099eef16779bbe
-SHA256: 02327162fafb7507adb5cda9e8574e8d61fae5f2f6dd857042cea72d2f90ca93
+MD5sum: 465689d97eabc7a5d97834b88ed14f88
+SHA1: 2e4332f28757d7f5c557157748eb8674ab7435e8
+SHA256: f10d88e4a06ad037a8518176e595ffa8638b6f9deedd8caf99741286b96d6a16
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -814,9 +814,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-ionice_0.8.14-1_all.deb
 Size: 1524
-MD5sum: 1271711adcfb3afdae70d86f57524664
-SHA1: 5bcc4bf99964354e6c7ce8834feab653ad1796e5
-SHA256: cba9eda7882bb531960768914a455334ff3e6846dc07d59e7f52224e3b6cbfa6
+MD5sum: d8870f3666af160416aa97d3e7750781
+SHA1: d1bf3f34c05c788c64730e925572804681077d15
+SHA256: 47163723bd863f9e464756d8135e4ee2390f7edff569f502b681d9d7977075c8
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -829,9 +829,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-iorenice_0.8.14-1_all.deb
 Size: 1528
-MD5sum: 41d4a8a297471d26b790c887efc28606
-SHA1: 773cd36aaaec0f710965830b459bb978510f76ad
-SHA256: 320cc6d19d865664a140df120b62f4e3c06162b87da098e85b002c69c77e787e
+MD5sum: 0586c3cf1eedf91b48dc893cd3c5de7c
+SHA1: f2eafef5e3450aba60d78804ba31a7a9a263e543
+SHA256: cc9869785dd4f0353d2f87358c484a1be75165519edfac0b5067f82edc89e322
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -844,9 +844,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-iotop_0.8.14-1_all.deb
 Size: 1524
-MD5sum: f12a0cfc452e8d89e8805c2c0a519454
-SHA1: 8691a933f25ec373a6c2c9b0343cd4d1e8bf3e05
-SHA256: 79e500f9fb9cc4dbd1162a06459714573cc23ba07b57148c3fa17278a4d1a093
+MD5sum: 8f471825d5f6bc84052a27d0fda53dd1
+SHA1: e9965ab031a06255dbb3cac97dec2cba940d73cb
+SHA256: b237f3193f2c339072debb2f7851f5e9244b29f2d7637550be1f33113b465caa
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -859,9 +859,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-kill_0.8.14-1_all.deb
 Size: 1524
-MD5sum: 2b98d67c0580935207047ce9492a471a
-SHA1: d40f5697d1b9c34db1fe3cb42142b140e585526c
-SHA256: 0117533bdcf4af9f66d8f7536de5dededb97039cfece59c0131c15a1e517d8bb
+MD5sum: 3cf5837023b8846e88d59067eace0b70
+SHA1: 3178fe694dc82a1d0b3d95073d5c0a44811490ff
+SHA256: 8908e4b41da5cff44091aea43a847171b094233487e0ae04b65381c5e0477a15
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -874,9 +874,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-killall_0.8.14-1_all.deb
 Size: 1524
-MD5sum: bb4737b4cddca1024da18aef4a843e65
-SHA1: 6b80f90b6ccfb26e143191b48a349b1f395466da
-SHA256: 30cddc5eb87ceaa775498ea28ec85b4b8befbbad71ddedd89fa188f810a13525
+MD5sum: f725de2207258c3a48c059c8a6628261
+SHA1: 5388886602590dff371e302fb8acabb7af4b3685
+SHA256: 34c75d5e86b60ca0c12fbdae1cef6e4fa45c9d88bc62eec692a2b6a8864010b7
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -889,9 +889,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-ln_0.8.14-1_all.deb
 Size: 1516
-MD5sum: 692efecc37508cae8658e3fd4b6b07ff
-SHA1: 51c39b3bae892a82acb0ed00e899453f3af4df35
-SHA256: 37147fd76dfc65a0b0464b462f8314845779946b8a90559963a4a499356b90a1
+MD5sum: 42593817f01c0ffe1fbd9852b3372b75
+SHA1: d1e720a525379de83cb160e4fc6e81a8d49e7381
+SHA256: 74e8c75fb155570537e7fe8d91eb7f2a285ecb4037d6450975e83ce05373e043
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -904,9 +904,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-logname_0.8.14-1_all.deb
 Size: 1528
-MD5sum: 9775160f8a036310619c1763222b33e5
-SHA1: cf41ee9d6b7f6da4a5764026ec3585afa104c565
-SHA256: 6825e85f3b7e2877e98e10b31e3ac8a9895c839f110995ebdcb248d75b813842
+MD5sum: 23800728ce85239c0a7652726e5318b6
+SHA1: 299534316414bfee166fe2898914be400416f986
+SHA256: 90fc902a0fce93bb610c6e105b1b5c2e37d31330a661e55dba355257ade48488
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -919,9 +919,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-ls_0.8.14-1_all.deb
 Size: 1516
-MD5sum: b5c99ff7135b060a0522a4dfec9d5ad7
-SHA1: 631e4eb47cffce25121b7df8a97e1e366a9ee018
-SHA256: 7aa4641a67df527fcb456817e52b13d8e3cf527b259fa05732157d1482330841
+MD5sum: 79242993774bcc75574f94967a29d5ad
+SHA1: c0e1073a39f08ced63c1a229b7b7eb33b1e8f8ee
+SHA256: 9f6266840c3739041cf2e3add11039f728f07ec6ab1a48bcdc637f1f48629c06
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -934,9 +934,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-lsattr_0.8.14-1_all.deb
 Size: 1524
-MD5sum: a6e77893ddd5a6c003fd9b34870da026
-SHA1: 21c980b25486197d1b60537397502057e9dbb7d8
-SHA256: a3065ce0eeda16a4208fc384908bd6fe06b1395ad9e256c7e1d7cc0173a7ab27
+MD5sum: 46969da4dba164e496b8aade182b7042
+SHA1: 468d43c81e218be87d7707fc6c16d13b928eb873
+SHA256: 0a7cb9735d6970185286087130d73299c02bd7385a394df25e446b1315d7cfe8
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -949,9 +949,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-lsof_0.8.14-1_all.deb
 Size: 1524
-MD5sum: 3373374a81cd13576ebf2c613a5e6996
-SHA1: d3eeebaa5013ab907152ed92bf10734e1e5b1b43
-SHA256: 6bbce165087798e30d7766b4cf3f0861b0a513cf463b6a23db0459eabf11178d
+MD5sum: 7df315144d98f3d85702c65ad359739b
+SHA1: b6288aa1a2ace8d671c783c11c3e8c654e9fb2ae
+SHA256: 54f4f6259c52c10540dd79f42978872ac62cbd8e4a794800275bd1c45c2fe905
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -964,9 +964,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-lspci_0.8.14-1_all.deb
 Size: 1524
-MD5sum: 6dd5648ff0a6a007e9b42754ce3aeb97
-SHA1: 51747806f519fff05ef69d586f4d3db7d37930b2
-SHA256: f7f9af991f3a22a0c71eea9837d7a89b1b981379b3adb6a9aad0e09471794c03
+MD5sum: 9b9bb588d9e3c7ba7b0eed1a202da15e
+SHA1: de1781a1c0f0baa46f5cf2ae3278cf743bc9364e
+SHA256: 1bf0fe6ab1830f3c1335585efc790f5fe39133c0919563c6e15e2ff872354341
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -979,9 +979,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-lsusb_0.8.14-1_all.deb
 Size: 1524
-MD5sum: d41a7825b1f017421a6fbd7674cd5653
-SHA1: da1db09eb9220a930d812287033a27e6ad01ee67
-SHA256: a5587eec29c2ae2cae609eab64844ce251134e2d15d0188b22d8a67281144240
+MD5sum: ef06662dbc3e2a9880b75c736b7575c2
+SHA1: 0a38e14c1fd55a9a877c7a3f180f6296116946bd
+SHA256: 8e54d42b9eccd9ff364e9908317f5ce77d3f2bf11421eadfdbdbf7e59cd6e73d
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -994,9 +994,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-md5sum_0.8.14-1_all.deb
 Size: 1524
-MD5sum: 806c589e3944c1ebde6aeb41e98dea55
-SHA1: c932e7ec2ed5bfce5dc9f2ca8767474e2d775991
-SHA256: 46d20be437a05aa4114781a34f8c5abbe89513974c22ea332d9a8110066175da
+MD5sum: 0a2c1af2e51479a64b71ead31e5923ac
+SHA1: 6ae0c81bc124d7741bb1d93a3e10ff0e57d35b82
+SHA256: d6b83184d2be350aca6c70b2fb5081710da21ed72fa73e70b10942616e3a7fc8
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1009,9 +1009,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-microcom_0.8.14-1_all.deb
 Size: 1532
-MD5sum: 510167e3aea29e58acd3bd8f4142cd2d
-SHA1: 8a66b4891847010e188becb2f83bde220fef7697
-SHA256: 3faac7a9630de523f74f627e4610fa35867d5303758ec851f0827a88bd49bb79
+MD5sum: 7bf52a6d5ad8151715350aaede33b46d
+SHA1: eb051da5c21b0eee6e4df14eccf267722d5bb034
+SHA256: 308371ee148ebc8bccd9a585469f38a23f114e5589323d2c98f2a11ac70cd7ec
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1024,9 +1024,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-mkdir_0.8.14-1_all.deb
 Size: 1524
-MD5sum: 7ad1bf49602301d900b1e09c33c93d2f
-SHA1: c434045139c07071668a9a020b531b5c81742672
-SHA256: c8da3698673d64722672329e289938ce3131d86beef0d1a369c8713a419651b8
+MD5sum: eaf2423c2ea398c2c1d1d3f3be736892
+SHA1: 7b2c45b766a03070ce33f51a8b096de330bb6e18
+SHA256: ef0c652dc21c91df14799f8d9c6b4e58a963fade343ac38e3d590f67772206a2
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1039,9 +1039,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-mkfifo_0.8.14-1_all.deb
 Size: 1524
-MD5sum: df25365580393c3fc9309224ddab1e44
-SHA1: 6b8b197d52dd5ba1c9bec8544811e179c26025f4
-SHA256: 3b90e28900e13406ac286b1c46f2200eb005ab15d20f52b877b9e3a6fc3628ea
+MD5sum: 7295d3d51ec1cc00aef66424739577ee
+SHA1: 6b926d4ec769c71815e24c43083411e48dac737e
+SHA256: da938e51ffe2b3fbf05c1ce4ac2ac21ca45992c38c29ded7e27a8f7bff71fb4d
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1054,9 +1054,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-mktemp_0.8.14-1_all.deb
 Size: 1524
-MD5sum: f5f439c5b7db621a9fc7350c13b0792a
-SHA1: 49112b9ccc4b442e1322486570315c4d3f71e015
-SHA256: 51e12fef6f2767b528f6756b93c4a5af38015e8a2d86862401370306a42710b4
+MD5sum: 6c8f12cc56936685ef95978c62d9dc0c
+SHA1: 8e91ae82a423b2e2166cf35e68382832b51766a1
+SHA256: 543f3f6296afed64d253d3b99590e9d2de654307e3e5a2ca48663fcfc2978c4f
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1069,9 +1069,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-more_0.8.14-1_all.deb
 Size: 1524
-MD5sum: 69ec5a97a78afee67c0b39b750f20454
-SHA1: 1dfc3bda4fb4fae843089d5b163954f7b70a1b87
-SHA256: 869a92493fd4e57765de6aba5078f30d02c28b9b6d8d69e522e0652e1c9b8aa6
+MD5sum: 6eaae3e2e399c42b2a826ba413ba3c81
+SHA1: c121478bc45e85203665533ca8feb82968028992
+SHA256: 0016b857760e97ebf8df44ecc8a9a108cbbccf4c8657a8691b9365367fe4fc7d
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1084,9 +1084,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-mountpoint_0.8.14-1_all.deb
 Size: 1532
-MD5sum: f722874b3a67cdeafb3c98e3ddfa7e58
-SHA1: c12f1afca568c7b788dc1978e7cd83b34ed39fa5
-SHA256: c7f30f17a03350228a574745076ac0049f3cb5ea6795300f611d076059a848c1
+MD5sum: bb1e953dd094a39d092d46292155a6f8
+SHA1: 4948b3e724bd21e24a4037e82fd9e881e7d83208
+SHA256: 9892a17f9eb4edbcff3026ba4a15bdcacb71f131ea1106dd1e6e79ac9b819c7e
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1099,9 +1099,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-mv_0.8.14-1_all.deb
 Size: 1516
-MD5sum: 3d5ac4ecdf631467e8225ae53b14b0fb
-SHA1: 1449cb6843cd16628376621b52213152ea1f4454
-SHA256: c96a584e7c479de9df8d4a61213412de02c6b0c2b463c88d1428e63baf5d5a4f
+MD5sum: c9bc09f41fc27e317766851e9b698c00
+SHA1: 2905006a10c93eb5c850c3fccbae9ab46208e7f2
+SHA256: 84df5330f652558177305a0ccdce0af4824b8cb6c315977d969d50b063af9450
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1114,9 +1114,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-netcat_0.8.14-1_all.deb
 Size: 1524
-MD5sum: 8fa3521324ece4c4f0656bd1e443f463
-SHA1: bf7908db3704811db8ebf216ecea893370951bd2
-SHA256: 7223090e1b0c90a155509761853b4cd39ec7a0b7e590f24dc512f4906a6206fb
+MD5sum: 427e225e4dbdcbf8caa26d28b70c120f
+SHA1: e6e930342de7c585ab9a89ef75627e62960513bf
+SHA256: 3c6d57956a4aa3cdd3b57368799bef022b48db94f5d7ece5678205263c5bea4e
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1129,9 +1129,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-netstat_0.8.14-1_all.deb
 Size: 1532
-MD5sum: fffcb7e18ba0c3ab01f44ccdae106833
-SHA1: 70fdc55de5ca71699de059b2d0e91e81b60e1c2f
-SHA256: 081170be5974f20734dd8957f2b03c6ea43ca97c9f43d1170c483d0dc7811a0c
+MD5sum: 5c396dc7e092cc6f916a6b58d934a320
+SHA1: 726ca5030a0df46f4aeffe949adda833435d31bc
+SHA256: bd8fe1a97ebf8f03f75a144d4ce5628cc8993c7a74e77f5803c62254d47a5719
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1144,9 +1144,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-nice_0.8.14-1_all.deb
 Size: 1524
-MD5sum: 0e1eb6540930c1a59c6c957c280a88e8
-SHA1: eb811e6e5e6b41cc1ded7aac2245db2306709726
-SHA256: 73356ffc0cc907f0292947ee76e411e327da9d737ee9b88509cc319799f94604
+MD5sum: 874449c3f4812357419596744ea00a5a
+SHA1: 8ccbf71d76a8bdf5cbe16a98faaa3a4f4bb5c4f0
+SHA256: cc397ed858e8ff18db400129851528126fefa0b125ade9974b0447257eea6c62
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1159,9 +1159,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-nl_0.8.14-1_all.deb
 Size: 1516
-MD5sum: c7126f97d90cbba3a2efabbbbf557d88
-SHA1: ef9590dee7b0537231298d0d1ed527ca2900de2a
-SHA256: f31870e0f49cddc250c5e98762188724c50eecc3e0e0652128e45c3b76a11193
+MD5sum: 45eb5e7308e772d3d64d9631b72a3f8f
+SHA1: 62f2b757662c4961116c97dbe28aa1a9c8a3ef9c
+SHA256: a7bfba2348142e6fe4627b7abbf5ffbec748ef69af00d92342db50884201a22b
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1174,9 +1174,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-nohup_0.8.14-1_all.deb
 Size: 1524
-MD5sum: f96dfb60855eceb7dba5e5a4a7391546
-SHA1: 9413dea220053bcae7e9c2f41b60f385aee56d80
-SHA256: c08b0c7bedb2ac8b2c21d6d4c29363ce61c59aa46a552dcde804c392c1badccd
+MD5sum: 24e7ac8b68ae29e9e88dda71e8e196d5
+SHA1: d9100c3f39c1f64645059dbf21bc59b090bddca6
+SHA256: 5138ade925b2687a198093b9dc2d65c54ec126f008d3740f3cb5be65fda99191
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1189,9 +1189,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-nproc_0.8.14-1_all.deb
 Size: 1524
-MD5sum: ea79c39d3a15c3f1e8744df7fa075d7c
-SHA1: 599587122cece244f4a80ce8c17541acc5d0f356
-SHA256: d12540089ab79ed09efefcb27c97029f5300229feb223ae0892d9110517a1c64
+MD5sum: d159a3e31019bf8e074c8474fddd25e2
+SHA1: d180f7c72afa14224aed2682fc4e30fc6080fd9c
+SHA256: 3d7a0ef937cc0e175c1e2a7bc2b2f74c828e66823248bb8e20cca2d802dc3670
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1204,9 +1204,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-od_0.8.14-1_all.deb
 Size: 1516
-MD5sum: 246dc3dabf9f5222e179574f6cf816ce
-SHA1: f6844178d9edae1f69090c5b6530314ead4b976b
-SHA256: 679f8d87eca5c161396dc7d3fb6892619e083a4e098ead0aa16e34bb01b762ca
+MD5sum: f7fced7968679ff1cfd07c1e157c27ba
+SHA1: 6d57a44f7f28e59df2a063e0a4efd414fcf37358
+SHA256: 874c298f5f9ef1263443a6ca833cb965758f469baa64169fcea3af6e09d66381
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1219,9 +1219,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-paste_0.8.14-1_all.deb
 Size: 1524
-MD5sum: a6f9fee500499aa170b2d6355a036803
-SHA1: 34694c05dcf593dd40e5a6faf16ad25453b43d27
-SHA256: ce942a04908518fcfd93787d4e9757542369d630d1a6d4eb1cbcf45b77a6bd18
+MD5sum: 4939ef9368420364ff4cc280decd09d8
+SHA1: 397f51b4e40fc36ce0e4a0b332c9bea3f648fa39
+SHA256: 27e214f9d9efbfb78e32d03647d52082138f1a79914221184438e989aad2e35a
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1234,9 +1234,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-patch_0.8.14-1_all.deb
 Size: 1524
-MD5sum: 3bad6283395569a3e55e42689618d830
-SHA1: f451f1a75f8160ed216c53018a2cdf7335c93384
-SHA256: c5778983bd8326249e8c45e9e896bb094da9bddf868ccf9149d0163b6b9a126c
+MD5sum: 82eb5d8583516ed839e50a84f08cf971
+SHA1: 4f03c6fc1d3e58d474167fc41ac506505feb247a
+SHA256: dada1e11a0b6db4e01aa115b58c84eb389b04e758eb72f668739fb3b098b7e15
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1249,9 +1249,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-pgrep_0.8.14-1_all.deb
 Size: 1524
-MD5sum: 4d6d4b7059bcbfb44f9e3d6e094639e6
-SHA1: 87092baea1d2485bf587bf2f10cb12905e49f954
-SHA256: 88af72b70054a8d54f261ff5440b815122541c1c16297864a6be8bcc86c24359
+MD5sum: 535eb4577fea460a223e56ab9cf55e8b
+SHA1: f75496575190c6c55f66cb9074e35ee90dda9e66
+SHA256: 14567325581fa6a8339590889d3c77b855a98f00b06673f8b82fd4a72a249152
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1264,9 +1264,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-pidof_0.8.14-1_all.deb
 Size: 1524
-MD5sum: 5c25dcfbab70a129d9cac067cae63acc
-SHA1: 5e8385716372efba81b7c06f4cb451328e27e606
-SHA256: be5436bad0ed0e6d9ef7990e6c0d5ca03adbdda8988dabd38e9c9e307573d04d
+MD5sum: 1f4c21d31ad084ba4b824d02afa0a1a6
+SHA1: 39b91682d41c0d864f3973cd5c63d5a1873f71a9
+SHA256: 7c1cdb2742cc59d254b22ea833c4f515bcb9f84f33e09174f9aec1d85df7470a
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1279,9 +1279,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-ping_0.8.14-1_all.deb
 Size: 1524
-MD5sum: 21b30dc7024cfdb48cffc3d9e7ec79b5
-SHA1: 2682bf17f95647be394e6a56b3d3765661b6424f
-SHA256: 598d4a12a8b9ebe864dbddefd03e845ad0bb6b3a967efe8f5997811bf4850037
+MD5sum: e55f3db75aa2603cf346a4ca0ff5fc74
+SHA1: 119501ccf5a03f1eb12f931c0e235e95e879f49d
+SHA256: 6e8e5f715128a104c0469820d86d6b0b33ab3635beef28a55a505b12134ecc9c
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1294,9 +1294,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-pkill_0.8.14-1_all.deb
 Size: 1524
-MD5sum: 06b6a5d1c4863a7a8f60c029b7f8ab1b
-SHA1: 03516e8b40f72347c200931ff5a1e1562e3174c8
-SHA256: c09895b144e7c1f089ce1229b751a48336f391186503a622388e275fccd86414
+MD5sum: 5c035261cc04721afe770d637bf59305
+SHA1: 529199acc874ef3b606a3c0f38e9abbc6cd6d8f7
+SHA256: 09313d0732aeecbb73ac646a8c8ff4118ced366057b859d78b736be3e0b1c17e
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1309,9 +1309,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-pmap_0.8.14-1_all.deb
 Size: 1524
-MD5sum: 596ab5ee72e9e740a00d267318d82975
-SHA1: 9838c3f900e29dcbaff2def5006c15a4b1ed3c3c
-SHA256: 9dee7452a8300a553af057f8fd6cc883e4ab5edd61e8d2b0593993550a70ce64
+MD5sum: abf7412c786c9f382fcf594aa60864be
+SHA1: 28934bcc64be7edc277b7707abfc8bd6246cba02
+SHA256: 9ee79407af508d6c24c7da29b59e1e1279846fb1af607250f3263525759cd4ec
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1324,9 +1324,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-printenv_0.8.14-1_all.deb
 Size: 1528
-MD5sum: 07fb90b96dd6f36838c6262eef9821c4
-SHA1: 5efe229223fa7e2753fd01e58cba052806e410f5
-SHA256: 5200892cd03222248d61d30109954e3899444d93c9fe4451f7367aefb162397b
+MD5sum: 44013b82c215f43fb782784febb29ca4
+SHA1: ec966e34aa26afd2cbce6d625f846c3bd9c5c3fb
+SHA256: a25c73ed181d197e639dba473aebc0d2b8974abfd45a438d673d003b226cd968
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1339,9 +1339,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-printf_0.8.14-1_all.deb
 Size: 1524
-MD5sum: 6ae9ce7224a1516c46ca5409a69a1124
-SHA1: 1c5224cc21fd771e82454a313bb597c88941d534
-SHA256: b5735077606fb7806ff9b37d945b7460eaf7de5ff2f4827ec759193e2b32cb0f
+MD5sum: ab100fe071c9a8c9d172e61ee63715b8
+SHA1: ee730bedeed322f25afa7ca4a5ba5538c19ff5fd
+SHA256: 7efa65d5902f9f00a15fa64e98a086b91777e9966d4583b1575d95ab8cda569c
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1354,9 +1354,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-ps_0.8.14-1_all.deb
 Size: 1516
-MD5sum: 26e6c47c6cffc74dfdef3b5b8683becc
-SHA1: 8233875b175a8e222a46d31a456f5ee3ecd96475
-SHA256: 9ee3887406672da3375c5796c4b7365a2efe889657dd153a4a22ac68af0dfd0c
+MD5sum: d20af689357126dbc46333e4c41f9056
+SHA1: 0534d17bad3c977cba6a04aec5c3e66fd39d0f8c
+SHA256: 0f880636ad26a63c8f55c79e938d171917d801248dcda0fdcb606eb5bd94cc45
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1369,9 +1369,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-pwd_0.8.14-1_all.deb
 Size: 1524
-MD5sum: cf905295d83a78e629b6923f7593e51e
-SHA1: 60b30713039ea0dc5a0a23d72e332173f427bb74
-SHA256: a74680b872cad62ee23624db2087ca8744a0ac27c1bb43cf7d99c1d94b595eca
+MD5sum: 2c34d7462f9a17f5313028d3073d283b
+SHA1: 6190aaeac836d1565e45bb42ec00d3e03e81d36c
+SHA256: cc7770bba715b2a93a5b1b9f39cab86e21ed6abc1ba2952fb329f0221ff87127
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1384,9 +1384,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-pwdx_0.8.14-1_all.deb
 Size: 1524
-MD5sum: c9cc3e659ee827655788e65dbdca41ed
-SHA1: 07d9422c6aa8a395563e03be402e4fd50d31f32b
-SHA256: fb09e832fbbae2d2530a8512a63cd6cd5a5ad7a5116abe1cd809e0efb5ac9957
+MD5sum: 76eb5adc4061981e37c0d4a71dedd7d9
+SHA1: aa2d64cea8e9a78a2521d9d283b05a566f1b4343
+SHA256: 8104a94201a1c4b82ae0b52033dfd6b4eadde0b6c47fbee19277df70a3fb4646
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1399,9 +1399,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-readelf_0.8.14-1_all.deb
 Size: 1532
-MD5sum: 1fed86cffd40710debc0f2b136ba2a97
-SHA1: 8f8bbe7e23cfab3ee0b81afec27cc306f35e3a50
-SHA256: 79f86d614c33bd507c4d0ff324cf32a8fd0dbef7c700d4252ff93124fd0146ff
+MD5sum: 005162f58546ab91ae959083c51f6cce
+SHA1: 6c4e88a65f1aa190ab057dde007c1dd281e5ba2c
+SHA256: f70c30f5042574363d03be6d7e09711464bc2328753e93dda42af47f3af0bb50
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1414,9 +1414,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-readlink_0.8.14-1_all.deb
 Size: 1532
-MD5sum: 9d1b367ea31e86e03e828d60ebb185db
-SHA1: 1a0ac799aff4900c885b238725823804f612a9fb
-SHA256: 600be460730abcd820c125de554924f261bb03d12335060cbfe23a192607e5a3
+MD5sum: 62c8131df9f3a32fbd08d0bb0df3df06
+SHA1: 0e3d7c157bf65122b3c5f490a4b2039e7961c2fe
+SHA256: e362ca33e3b0bc5c4b95e87f44b4cd3ecf04b6190b9e133a8781ccfceb7d7719
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1429,9 +1429,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-realpath_0.8.14-1_all.deb
 Size: 1528
-MD5sum: 3eb6d7d66324ae791bfac5045dcdd186
-SHA1: 6b72a4b2624a7ebb90124a0a7b018fb2d3ae40f6
-SHA256: e2f8045c5cd12507c14d846426b0cdaedff56ba009f77ac7748c235e7890b4e2
+MD5sum: 37f05a38ced1db9c6766a44e14de7e43
+SHA1: 2343eb0b5bccf6bf842b89f1fa78a8b597e52cdf
+SHA256: 4b9de4d3541d9ffe5d31edb6d5f229cf5fe0d24afcc5e69e8fb83ddcb5562530
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1444,9 +1444,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-renice_0.8.14-1_all.deb
 Size: 1524
-MD5sum: 23b3d1f314524b4c0769b25c04d5f9cf
-SHA1: b7f236d4c7a5741e489444e9f2bda59c87f5a060
-SHA256: 6c4b916bff58d20af33a523c2879df81462da9718ec3a9db4499b18781f4f51a
+MD5sum: 86e7c80dfab4950df68fbe67c1fafa2f
+SHA1: 9891c533b8c2197933debe6b53f4c6b2b072a99c
+SHA256: 5908aeedd9909e7041d048eeb9056d66a1c05badad4d84660ae3a154440348b6
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1459,9 +1459,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-rev_0.8.14-1_all.deb
 Size: 1520
-MD5sum: 704a6c8b3fe86443b77c0aba04d2541d
-SHA1: 5bcc3fb4a8806815b04d09a76bf5b2a6251cdac0
-SHA256: 00e4a4cf1c6fcebcabf4b5912c295d387ef641f5edc8cca0470ee02884f34303
+MD5sum: b3602d57697d96e890c07384d503bb61
+SHA1: 939d6b4843966da258271520d9032da633da8371
+SHA256: cb309bfeb5357c9167cdaa6c7c0f18044f5fd4fefe8cf0a2e3ec2147bcee345b
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1474,9 +1474,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-rm_0.8.14-1_all.deb
 Size: 1516
-MD5sum: d2a1b34a75027f85ccf536012bc9ea28
-SHA1: e7e4ff7a0301ebbab5e4641122e00669abd77439
-SHA256: 794bef722e5a8b8881f66c8058af53ff8388e2f159dfd54dd7d19e60d3c9a4a2
+MD5sum: d9a4fa6a8c1d131cdb5de3f92d20eb9a
+SHA1: 66e2f5e65b6936df7e53169f290a87f0a41d011a
+SHA256: 0e4e460c47035cdcb5c349e8da9fa224e775e31cb22617225498d70c1344c9db
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1489,9 +1489,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-rmdir_0.8.14-1_all.deb
 Size: 1524
-MD5sum: c2d02d010df3f68fde180aac2c62687d
-SHA1: 52259336ceff6111f36cf85e8fe2e50eac87d4f9
-SHA256: f1324fdb255d0bac57200d705856b9e8f5c6c23f313e378c9adb8521277042d0
+MD5sum: 8196df14b6ef5dd082e43c03e49057f4
+SHA1: 64a3fd7121015fb03e81c2be56c60de63895c557
+SHA256: ffb57e701c0eabbbb29578acbc7d956859ddcee40c75eafd94a2b51c4f54d86e
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1504,9 +1504,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-rtcwake_0.8.14-1_all.deb
 Size: 1528
-MD5sum: 7d48ce445e61f906263b0a96bb797c61
-SHA1: 8f2254e38671a11c61ddf915a5666cee8414b348
-SHA256: d0c7824da9c0b231908295e8bceecdf23511aefdc527c9953d91c5c17d2a098a
+MD5sum: 4739596fbf2aa08befd4b6667c0edc3d
+SHA1: e1419b1079db9340f6d2bfadf1078f370a1fb9c7
+SHA256: 9ade2e436ed859c8af3469f5239321a76ef2e7bce5259dc71549a38ab722e512
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1519,9 +1519,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-sed_0.8.14-1_all.deb
 Size: 1516
-MD5sum: 3dbb437a6f7a066d3c2923a09259bd94
-SHA1: d44be61b1bde71a3ceef32ce9e3a37e9b7e1a4d1
-SHA256: 2dd0b48fd89fc2f1df048fe4d587e910503267aacc49c8ef842afd3d0dd91790
+MD5sum: 6f4d5fb196f4adfeb058098997b93b9e
+SHA1: 141d5f11469b5668b0e8dd508249e8e4f9385d79
+SHA256: 91decaf991c73dc16bf0e90761a92b3c6e75394325913d2a711e0ce78203bc58
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1534,9 +1534,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-seq_0.8.14-1_all.deb
 Size: 1524
-MD5sum: a4444132bf6b2a544a38a5c661295f83
-SHA1: 4781929d52cc994993dfbc08fe6bc6237c573543
-SHA256: 2c0a66d8607d8fe3b9b0486b9706218da7f2b104df470b034f3a90f6a542cb1a
+MD5sum: 642e3b152e940441d0ace573ca5fd6b2
+SHA1: bff929f239e7b37e590797f2e15680ef29695375
+SHA256: e33341128e354e9da0bc14b5b28582cfc0c2eabfcccfb25074d330ffa1d7e9f9
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1549,9 +1549,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-setfattr_0.8.14-1_all.deb
 Size: 1528
-MD5sum: 68cc6ca6f3c764f14c4c027c80cd0dc1
-SHA1: f636bd9077dc5658a0fd1b7387282c4bc088eff0
-SHA256: ba1a84423beaf747d318990f29aa90c94942784a3c53b4ab7cb8f90ab6c43c06
+MD5sum: 8eca40dd55ce0b0e8be039b4ee5dcf3f
+SHA1: d401c6cbe7a4a32ae85dbecd60896645414cbd7a
+SHA256: 93a3a08b4abce37707e8ef411e99e34a7804cfaaa8a8983206cc21fe79046faf
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1564,9 +1564,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-setsid_0.8.14-1_all.deb
 Size: 1520
-MD5sum: 8bbaef37a6147560a215722483f9d7c7
-SHA1: baed21d9edcd9eb9f80728fbcb0ff690ad712b36
-SHA256: 1477fd0ce2121afa5205ea8e87d53754bc79dbcf3ea4a86c76fac2dd6d6f0ff5
+MD5sum: 8e6f6a5e84b031b9f42d83c500df3341
+SHA1: 2d408af24bfb9931b6af6fb97a8b30f336f283c2
+SHA256: c48c1683b1375e7e622908284dc0e000685e5e5d2616e4a49a623fd4fcc616c9
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1579,9 +1579,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-sha1sum_0.8.14-1_all.deb
 Size: 1532
-MD5sum: 1e5183401bbadb72b727fb62b0c7005e
-SHA1: 41e6b902a2628d56a115d65bccb07a870d03279e
-SHA256: 1b92d02d8df7c1d206753bf272e470bcc9810177446cb49ac5b7f87bda03e86f
+MD5sum: 4d20740e53085a821bf8ab374b1eaa32
+SHA1: 866f5f1d43321884f14e0fde5791e0dcee57210d
+SHA256: 9ee0c9c83c4d089b711c538be2ad80eb31f0adc1a5a43e32d9d17f0d6fc32a8b
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1594,9 +1594,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-sha224sum_0.8.14-1_all.deb
 Size: 1532
-MD5sum: ecf9dedf3f8feab17c57ed4e3bdbfeb8
-SHA1: f78987287d39194f0d02a4023a6febd7c1a8cc4a
-SHA256: bb220cc61433049ba10718c00aa5fed6b883b9fec62046bba64697f2d09890eb
+MD5sum: b48a52c3e491dacb5334b604db845e12
+SHA1: 5243f61fd9347b945fd60597ea295eb3ff47b1e4
+SHA256: 63603baa61af8e10e1c9bb6358130cd9955b11c0c9103a781d305a9e30ea7192
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1609,9 +1609,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-sha256sum_0.8.14-1_all.deb
 Size: 1532
-MD5sum: 4999b7c26c4d96bf2db1340705c22b93
-SHA1: 198e751032710b4cca316b02f3eda4d2e1c15641
-SHA256: 1539eabe3dde8a03a0d00a03a95d5e33419656c4b766a6812186cff35939b20e
+MD5sum: 5c71fed847678948257b742b10290982
+SHA1: 619119e64bdc93fcccc94678981695bd28a98e60
+SHA256: 79acf75babd85450b73bab07aeef26ed0ab1eb57c221267deaddd0ec6ea07469
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1624,9 +1624,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-sha384sum_0.8.14-1_all.deb
 Size: 1532
-MD5sum: b4aa8d6d93279d6063788a96b24c8a4b
-SHA1: c8987f5338c1361d78e4688744eb2604082c6789
-SHA256: b7b6ce4940444102e80ea7304b46776a4dc2fe70ae34088d229fbc947702f17c
+MD5sum: 00eebc619942c09710a990b7d2c214c7
+SHA1: 8d2e1f0a96b1a474f60cae027d15f6d8e02eacf8
+SHA256: 4fffa30527b98b410c1ed349623e78fc53cfb40c96f465b85d0710488f3c0a3f
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1639,9 +1639,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-sha512sum_0.8.14-1_all.deb
 Size: 1532
-MD5sum: a313d6d1c7e8913724f9a289e7db995f
-SHA1: da57318d215e2819941da4c39624c11413ce2128
-SHA256: 04231e27cf865da5fdfa1ecfc1a8037d151c7537fed747589349bd282d978302
+MD5sum: 9f151b1975d6ecc8f885e3cbb2f3fa34
+SHA1: 1dd011add89401fb1099edd29aaea1ec1df70b66
+SHA256: af9bedaf96b48da2ae6e28e1f41d7d715468b72a46f0ca6cee5d7446c2846718
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1654,9 +1654,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-sleep_0.8.14-1_all.deb
 Size: 1524
-MD5sum: be23d87f181c98bfa1d725d495698aaa
-SHA1: 1068942d0563eeab335cc71374a796469943f34f
-SHA256: 729d5f0cdf8be804a59e9c77d8f6166799efd39adb68c8ee61ff5ebb729b2bb7
+MD5sum: 8d5dc7f7be01fa507fa9b7f017809874
+SHA1: fff2156a17c99ac19d1b15b2178797d7d97f8743
+SHA256: 1694d2b850f333230299a5840489f6174be6190d4bbc0f61ea60f0dbe07ce972
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1669,9 +1669,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-sort_0.8.14-1_all.deb
 Size: 1524
-MD5sum: f36f363a9427300fc28457d6d0fbab38
-SHA1: 0b0b675037f6da33f471a881a9d6993103d0b5b8
-SHA256: 2fbe288ca15eb694292f76bc139ac66289e420231c28e71c4795ad2d668ab88d
+MD5sum: 06dcdde78b0e2cb6809a6ee4d2c32104
+SHA1: dd1be9c3f37837e8624df31266d63e576d397728
+SHA256: 4e9b253a0fd29402b905cbfc80e9e8d6de5c1b0d98e0332c284c75b389184125
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1684,9 +1684,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-split_0.8.14-1_all.deb
 Size: 1524
-MD5sum: fa0ff819d071b309d497b987c19aa9a1
-SHA1: 185d5f0043503926e6227bf0196642f9fc41ff1f
-SHA256: 63de92b3ba226df65282658e09383295108ac6e6382f6b4fd4a8a134b1308dc5
+MD5sum: 1988e08125a032a1a40dffdb4acbe393
+SHA1: 157b6abf8dd90daa23086d9fa1d32ab24e885cba
+SHA256: b920b3ca42cfd0d543dc752cdbfd38d862d6c39b264424cc0d0c7fc1645771cf
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1699,9 +1699,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-stat_0.8.14-1_all.deb
 Size: 1524
-MD5sum: b8f5ab6e6827e273e5a1986377fb9622
-SHA1: 15e36b350ee0234b77b9e5ddde5ffc4884aad647
-SHA256: a7a4a3b63ba49cbf0ca732c01fa839ac34e4fe69fa9bb84db52245d232855610
+MD5sum: 81f1653b57c0ad18401f32df6ac57e79
+SHA1: 51398620458c92ac9cf35a386b73b76735135f72
+SHA256: 59a8dd226d8027ad11214d438126307672f26609e46f5ecdb6444a3a9b90f7ff
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1714,9 +1714,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-strings_0.8.14-1_all.deb
 Size: 1532
-MD5sum: 556caf5f417f9ecf5d92500a0378796e
-SHA1: 01271642c95b389c4324ce62a66ae73116c536c3
-SHA256: 4d7d366ef31c5b27539ceda69070379e303263bf56959986e638343614df2f82
+MD5sum: 4742d21752345a5e0261a1a01947685d
+SHA1: c32b8935088dc9094fe210fe6f299cb29f98b8ef
+SHA256: d8dc50862db9f7cda61944917601ca4d3229192d4e318dfbc20988c2fbede0c7
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1729,9 +1729,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-stty_0.8.14-1_all.deb
 Size: 1524
-MD5sum: 037d6497c9c8eaa5e874646f8382aeb5
-SHA1: da62658aa806091e0f031d12e5bdacf2492d745d
-SHA256: 9324c2d7315a6eba64855fb4d0f7b8384888229b9830c7b4052ea63cdbb32412
+MD5sum: 3e5b593371f2edb451360118b014052b
+SHA1: b0eed51b62b8e81e2bb8cdee46c305dc5227d817
+SHA256: b9f3098e62929f4826bcdff8728b0cd009799521373ef348b69127c0227b9a1d
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1744,9 +1744,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-sync_0.8.14-1_all.deb
 Size: 1524
-MD5sum: 6539c9704ea6fdae6fb6ba93b680ee23
-SHA1: f76b1bd2fbfd92e9f306029c2c25faf9ea78208c
-SHA256: a90a841044300cc4d0028260cac6d5595e1839f0f9d00667747f1441a7736792
+MD5sum: 3b9127a6dd2e187bebd85ffb3dc69fdf
+SHA1: 86cd8d11a18b11eda3cf98ddf1d7556c78023024
+SHA256: 9242edfebc20f1edea4a8a031af1939c532cd10fde7f87a5c8bead9fa60afd0b
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1759,9 +1759,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-sysctl_0.8.14-1_all.deb
 Size: 1524
-MD5sum: 88d319b7cab1b47b5935aaa1c4e6026c
-SHA1: aef8dbe59c6ca3afd724b6669d7f23e3309ca48e
-SHA256: 5ce0d346d6a98797e0fb0dc9294717d9690d3bfa6c448a60f45b7819cd98dbfc
+MD5sum: f20d36cefeae1c4cb9f3e1897bf8d061
+SHA1: 04e4d7131c9286e1cb91830293722b8f78b8d1b7
+SHA256: d94814d9e4f64b34b7fe1a42229b14c610143c7e952ef79c58b33698d63d0028
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1774,9 +1774,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-tac_0.8.14-1_all.deb
 Size: 1524
-MD5sum: d58155182096912938ccfe888a162c20
-SHA1: 89e56f5dcd45c4fd012c98c47a6c066876ddff60
-SHA256: 67a93407be6bc581372dc976da3310411499fd0e7eb650ce53fcecfc60c4a146
+MD5sum: 3be6afdafb8a3898c75f4caf71370768
+SHA1: e8451c9fa2edefbe9bffd64c3135fa7b2ada4d2f
+SHA256: c0c871c9f237ec666365272103d2ab1aac17f2bb14bd2dc9f07920ce97a576df
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1789,9 +1789,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-tail_0.8.14-1_all.deb
 Size: 1524
-MD5sum: ff5614c6e298bf148cb002ef5a997817
-SHA1: 567d885db640208f8ec8466292502a179f51146c
-SHA256: f734d884d06e08264dddb0aa6860fd188bfb59e8d0e6f72231cadd1ba9fef09a
+MD5sum: 72dfc79e491b457a7e5acedbd08f4076
+SHA1: d8e8ff2561278382a0aa6cb44270aace0e0c7cb5
+SHA256: 324ef0b4edb849a51ef9bea3e348aa3ab2e35219093ed4744b18d74a51da21a9
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1804,9 +1804,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-tar_0.8.14-1_all.deb
 Size: 1520
-MD5sum: 0ce5d9f1abf242b74c67384a2d9fda09
-SHA1: a289c21d5870ee5a0c46ffeba0dba887e23227c5
-SHA256: b6a8582b74f1d46036c9ef7e6dd5a948cf595659455e659c4461dad9db936561
+MD5sum: 056005ccb559a09ba0c05c736e97e950
+SHA1: 9f63fc72ccb982d8f105a67ae3179d8cb0f951e0
+SHA256: 9775612e0f1b89761b98e72dcd2fee39af5327223d310a1c564b2e047d42c82f
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1819,9 +1819,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-taskset_0.8.14-1_all.deb
 Size: 1528
-MD5sum: c2890fc715f02a17abb3cc9649bef5f7
-SHA1: bd0757790dbddfd6941cf4b44dcca8a225ae81be
-SHA256: 9c4f69e9b86633941aa9734865a89af02ec03a957b497ad3779af4a795ec3d92
+MD5sum: 19676ee07d702fad021fbb20233af856
+SHA1: 7621632087b14a5d1de99ad282a7c1bd1e141a1d
+SHA256: b637f4e5f26b8f39ff50f21fe6efba1ea451e5c3715518790e0ffc50283e4542
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1834,9 +1834,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-tee_0.8.14-1_all.deb
 Size: 1520
-MD5sum: 5d99c874132ebbf81a2f9b77e7c078ad
-SHA1: 87195d4b747b6749e3ef0e7f85c9a8b885c2578a
-SHA256: fd1aa43746abe44f70414883defb6ddac23627c3920e10d1f5082e89d6ed3cc9
+MD5sum: 03cbbbd9933559f1c22074eac5f2f12c
+SHA1: 6ea70963348abe100a69600116415597840d3fe7
+SHA256: cb3f14d10e7f0133adbb20ef248e22fb7f5c96260025a57ce62454f4231449b2
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1849,9 +1849,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-test_0.8.14-1_all.deb
 Size: 1524
-MD5sum: c84d3909687bbbe4453401b9020ba94a
-SHA1: 9af4b3d136d89dfa13157be889e6cdc6087f5454
-SHA256: 409709142142fa91b4e6abc6fa8b033ceaafd5363173ba34ea52910313b7ae60
+MD5sum: 0678bc4889200841c2e27ab033aac7cf
+SHA1: 7b5ff9ff68f1583466ec2eacb27b48694a061fc2
+SHA256: e0fd63862cabaf2154b450dd38e9c8396d7e08cdeda4dc2d9e8a21fb708d2202
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1864,9 +1864,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-time_0.8.14-1_all.deb
 Size: 1524
-MD5sum: fe2df6b7d4aab964ba2e182024a4b477
-SHA1: 0cff5592ac77d4d4091bcd91f66cca1b367ffa64
-SHA256: c69e5c7fb13b071f2fe6da974023deb1daefc61bde0eefc12accabd8ed5b3ccc
+MD5sum: 3a1e76b72580cf87355c37124e8c69df
+SHA1: 2c71ee9e67a1dcfbff95fcdb8003a31ef91a4d8a
+SHA256: 8253fbf3e8aea6998f9344b87a209c87c375fb81c65797ef11ac57cd3f88395a
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1879,9 +1879,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-timeout_0.8.14-1_all.deb
 Size: 1532
-MD5sum: 79109cd8cdf33f7bc8c5be993dd1f8c7
-SHA1: 4b833eacf71c44b904aba64fa05b2519c43e3f3e
-SHA256: ee270e27ebf7612eb7d4f498ea6d47665c2523e8654def58102f4f50e8351691
+MD5sum: bb42fb1de7dc936dc8023dd61eef5395
+SHA1: 7eb65fa3be5b5852ce2a783bea945161ee057a8a
+SHA256: 7bfe60607fdf5279c17065e6dace6f4458108d12e253bd89cb5c32c99c6d1a7d
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1894,9 +1894,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-top_0.8.14-1_all.deb
 Size: 1520
-MD5sum: 0f3a71600c843125fd3e865e10b8c9c3
-SHA1: b5ff9ccd89f6cf8dd298357d6569a4fe3f207d6b
-SHA256: 468d44f68fc4d7ba5ba844363bd7d6d0f6e5787443305080ea3f5dcfbea837fe
+MD5sum: 1e0893d84ca62c44f9b976b5f49d70fe
+SHA1: 76ae98d448c02cb95b0d3a80f0ff34543d9fb2b6
+SHA256: 202b6073f9c2b597ff4d854bd84fba31c55937dc58902767472d378f5f19461b
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1909,9 +1909,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-touch_0.8.14-1_all.deb
 Size: 1524
-MD5sum: 51887f4a2c0af6ad9a880dc10af630e7
-SHA1: 475a34a76c1ab565feb71039a08da4d9b205b410
-SHA256: 9c1045801b8695c810b8dd2e4bcfa777a23b51ae57d9c058f53b7ebe4c9973ef
+MD5sum: 76d1567d1564f8256957688f9e01e157
+SHA1: be3e42749132ac3a399ee207a121e199a204bd71
+SHA256: 89c5faff11469002f3eed2e56844b863aec92217f980e0b801f9dd910555378e
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1924,9 +1924,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-tr_0.8.14-1_all.deb
 Size: 1516
-MD5sum: 7ec1173d5a19a32aa0ec237508704819
-SHA1: 14a8554bb30a87fde0b8d4f11e5802647145cc2b
-SHA256: fb130c9167421df76f1a6b99fe8b7bfd3bb7e1f8d2d99f5bf43fd61a583586f4
+MD5sum: 3d2b52b5474a10e0298316f963b84a48
+SHA1: 92cccdc6bf2a029c124880594a17f0eddac965bf
+SHA256: eda276872e033d64636506eb9bb801a69c4a1652775ed6ec9aae1179bae7d59d
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1939,9 +1939,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-traceroute_0.8.14-1_all.deb
 Size: 1532
-MD5sum: 8276826a05e225ab48b29a43c3f30af9
-SHA1: 6131fadfdb3b2fc83b052e216cb06fdd73146e0d
-SHA256: f2e96df09e5a0f5941e9261bfb9a2e69398fe31ea655061c96cbf2eabbc06974
+MD5sum: d7cee63a7e43040934135016fbca4366
+SHA1: 3220bfbea6cf15880f0cbaa2c1a1ab364b1dd64e
+SHA256: 18c3e127148c725b83ffb71283f03a357a9ba9bc46f6174cbd3b6bfb840b6c5f
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1954,9 +1954,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-true_0.8.14-1_all.deb
 Size: 1524
-MD5sum: 0e5b0eea9abfdbaac5ae073e5633afde
-SHA1: 47438d94c9cf5e6411d5333c27bfc08651ce5c21
-SHA256: fd4d765e2c24e516176ef410404b4c504108fb34fcd4469345c23bcf8b665c1d
+MD5sum: 52c04ae3166d098993eadcde78c399d8
+SHA1: 8a1fe18c94df5d4aecf44eb9edb40dff23439262
+SHA256: 9f1beb376853caa6daa7cf703b4fb864b5114f0410ffb3cb12eba9143030fbc7
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1969,9 +1969,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-truncate_0.8.14-1_all.deb
 Size: 1528
-MD5sum: 717ca852b3dc0ec5bd1202918a3248f5
-SHA1: 599159dc10864ee7ace5277a9fed63aabf97ea1b
-SHA256: 688b11c85b33dd0dd6b7e4577a67f3b26af3f93c1fa2c9d868a91bb23bf02540
+MD5sum: b75962233057ee505117e5b3fb9e0981
+SHA1: 44eeebd35c6590884f6af1bf6dce8ddee30aec88
+SHA256: f8d2e22ea113e6a05e6cb55c840933d0f205f19d4c7138f4090cfdb9cdf51934
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1984,9 +1984,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-tty_0.8.14-1_all.deb
 Size: 1524
-MD5sum: c17ee9e7794fcdcaf8931862b5b18b98
-SHA1: 3d636aacf01c9b80d47ea3a09a0bfdd1a724647c
-SHA256: 9c29f6799f6af83eab8e1993d5286934ab27ee1fa27c06f03784e93d117bf366
+MD5sum: 1ac18948f50fac9e7b54c1f00e64ebba
+SHA1: d72177624cb55ed22158f06b104c363d02ab7687
+SHA256: 4110498b7b7b7007d55fa6741fcae3c25cc2996d0b4d9487cd491da15a29ae8f
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -1999,9 +1999,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-ulimit_0.8.14-1_all.deb
 Size: 1524
-MD5sum: 34d7f9d17ffe17b6254a98c61f77f30e
-SHA1: e0955ac40741b0a2cda921bd3c3db9152a66a8be
-SHA256: 79b3e12afd21442ece4ed91b89a26e002b7b32ad864ff395d70104a951027e0f
+MD5sum: 6e508e8ea9a1b1eb294b7d37fecbffa7
+SHA1: a368d676ef1b212b683d5269ce6340b37a480557
+SHA256: 4220f9e139a832aebfef97bb7b1a8b4358b2b827893ae7438a9526cad22ba79a
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -2014,9 +2014,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-uname_0.8.14-1_all.deb
 Size: 1524
-MD5sum: d82b450994ccfc22108c16b0f6c8b22e
-SHA1: 51be7c6da6a4bbd133873d9d986c2ecdc8256b14
-SHA256: 5506cf01fd59801a6a8a738e8fb7958317f0895e58d1766e4cbbef2ddec7d9d1
+MD5sum: 0912b329bbc858b38b221aef76e5768a
+SHA1: 54574e379e93e9ce45a7e64ce8e6d7408fcb2e73
+SHA256: 9e5b475623894ff21443f1ded04b3223c581c54c06f8d52d101913280532f563
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -2029,9 +2029,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-uniq_0.8.14-1_all.deb
 Size: 1520
-MD5sum: 78a101a5171a0ad726e9621ddc492515
-SHA1: 51cd6c4669adf7ea91f0b6839a33371e2bdd1671
-SHA256: bf9eaf500c27d46a373cdab3c45a971317829f58b9d8a46e8f52d8a6d83349ba
+MD5sum: 6c52eb330eb808189841660a2ab1051b
+SHA1: 2bcc4ed5f0e8762555bd5aa794fd21ac5429ffa1
+SHA256: a3147e750bcfb700ed95dd6fbabfa8005930723cd5a2e8b3d469f5c802ccc15f
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -2044,9 +2044,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-unix2dos_0.8.14-1_all.deb
 Size: 1532
-MD5sum: 952ecd245787a6d0d62df629f45d675a
-SHA1: 59c7e5bf1466917bb9fbdf9ccada15d3448a6f80
-SHA256: 900c3d7826162f969369bede6dddb8424752aa1916359f4fd5623e5f0acab93b
+MD5sum: 8dbada8fc34af533cd67512423a3e295
+SHA1: 23708ad0fec764dad619ba2c6a769e4f70c4e9c3
+SHA256: 748c3a05d4e9c869f5fe648723075a7c2d8c513c1106739c46dafef9667db4bc
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -2059,9 +2059,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-unlink_0.8.14-1_all.deb
 Size: 1524
-MD5sum: ac4e8a43cb97251febd8feb4da260e67
-SHA1: 4d5768582a399187eaf5bbe33f77069454e724cf
-SHA256: a94bb488681c8e76767c3e8f177d3377c1b44ba47c4ae11ec3c7612b0c8e4425
+MD5sum: 4a46fd09d0e807bff116af631674e262
+SHA1: addca2bde12f4710d8e77710f28e94f275e11d9e
+SHA256: cb6ce1428c5a79b606b1cfdf929c0e505b8ad2d027997adff18d53e84e5d7730
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -2074,9 +2074,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-uptime_0.8.14-1_all.deb
 Size: 1524
-MD5sum: be487d80476e27240f936562b21194a5
-SHA1: a97d68034784aff60d89cc93f8aa1b4ca5843182
-SHA256: bf506d99537154626a30493d419c5192d687e86c51ff10e24cc8e3c2780d9950
+MD5sum: f643d054d7793d62e776a53b5c96d2dc
+SHA1: 02d48a69fd3ed9449d9973fdc35baf2090b3d215
+SHA256: 0d934533af0d7881190f7015b213b59f335902792e97bbfd00ae458db720d25c
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -2089,9 +2089,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-usleep_0.8.14-1_all.deb
 Size: 1524
-MD5sum: d0fb58698b14b94377e38c1d275dc31a
-SHA1: 936fd56ed73abe4b47a77f4b458ed75880af275f
-SHA256: e0ffe5decdc69d919445cf9c7c1a38e9be964a9ea0c29e2824b96c21d093f7cf
+MD5sum: 95faa6790194262f22cbf683d4a727bb
+SHA1: 2aa21205948004786596460a81a230efc9ec575b
+SHA256: 44c0c3700a87758d01ff574f90065eb78638de7718d135e1dfd4b5ae780d4f1e
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -2104,9 +2104,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-uudecode_0.8.14-1_all.deb
 Size: 1528
-MD5sum: 8ac763259682c71876c2f77015d7c39c
-SHA1: fbf8f538ad20a3d2a27cb4aa7ed9c8d528ac7187
-SHA256: 079dd89a757e67d2f9e01273306583aaf8a27cec46746d6f6e0dcadd03d45c64
+MD5sum: 9f4b528077f447c08d525590875106e5
+SHA1: 2633450fcd118a385c81a2b805f039286f19a32e
+SHA256: 048f90f91c479aff96057574eb3869139fd1c9cc93a21175553034dc46ce872c
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -2119,9 +2119,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-uuencode_0.8.14-1_all.deb
 Size: 1532
-MD5sum: 0d5360985b03283eae627b42c309b640
-SHA1: 206765d8896cd99e4c3481a2739f1429c7e1d562
-SHA256: 3b5d4e870627b76fffe027ff998531ac9748c1c2c951510e130439c027c1f95b
+MD5sum: 4487a107807e42d67a8e789734c4df9e
+SHA1: 751f0df3f0908639aec3bd16543bacb25890191d
+SHA256: 095b238686f98e845c4938bcdf79633651b172387c69ef3fabdeee256cb79974
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -2134,9 +2134,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-uuidgen_0.8.14-1_all.deb
 Size: 1528
-MD5sum: 51238671b206719edc96c68dacc253cc
-SHA1: 1e4d9f287608916d1dd48d2ca87a414d0c4d2195
-SHA256: a3e2005dd6770f572e1c5bb730b95694711485835ce956b185faf555c79c5661
+MD5sum: 405c6457b84d43bc04a888b1289ed79c
+SHA1: fc08afcef1b01c89bbbebc015a989ebde900a5ce
+SHA256: c45ab12de88f0a7dcdaeae441ebc97819fa74b02e8997bd886a738818b2439c9
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -2149,9 +2149,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-vi_0.8.14-1_all.deb
 Size: 1516
-MD5sum: bcb538008a1b02e337652a7c92c5c94e
-SHA1: 182a3d835539c6745a45ad9638f87218a7861be7
-SHA256: 7f34a60c295d3a2ff08fd9e16ad63de3a474dd4b4439815b317d16c72eff723c
+MD5sum: 2336126e81dcc7d86d6e7bcd149a35c7
+SHA1: d1fc1cb265a52c9390aab9e0c56efd41c676f970
+SHA256: 12ea3f494b8675b07026e2fe0dbce1ebb7b0716e5c5bb375daba5b861ce983af
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -2164,9 +2164,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-vmstat_0.8.14-1_all.deb
 Size: 1524
-MD5sum: 6d324f8877f929d9299f77ca13bac6f4
-SHA1: 72b578b4dfd074be76f3cd04d48c052fe31f8a62
-SHA256: 6acf86085cbcc4b82e3ba528d6cc4d1a5128f955e489c616aed7d84b0991ca91
+MD5sum: 71b43cda9c765cec628bc19103460b29
+SHA1: c51123aacdafbbfe1311f1d42a163f65c17ba70d
+SHA256: 9d2bee807db20a45d73b6d6fa46962f5facd15759ceabace2c60d9fc8dbc83f1
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -2179,9 +2179,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-watch_0.8.14-1_all.deb
 Size: 1524
-MD5sum: 58daa184de2c6a0850e69ec058eaa701
-SHA1: 353e0a28156923e97228f158eecff5435f4f57cb
-SHA256: e210db977161a4e9d4694167f0614041345628e052d6b5a1b0ac65afd086761b
+MD5sum: 1634885f7c434d3164561d01bd81882c
+SHA1: 3d1c3663bd97ec155cd8bfc735e204279c5dc606
+SHA256: 5e1aed77cb01c344b121311a46fef5a36c0485bedbf065c9ca6a39b635e0619c
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -2194,9 +2194,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-wc_0.8.14-1_all.deb
 Size: 1516
-MD5sum: 277264f26849ce17d9e84ef09f3b7d74
-SHA1: 104e53654472158876cf522d048da35a11847c1e
-SHA256: 9d49d1f89f276f7b718753bc69a4f6dea92d1c7e2e4e52ef6fe7dfee355a1363
+MD5sum: 083b51fa84dffb2d23b04c26963d4650
+SHA1: 8e0d75072c15d36af97127e3b4f860cd6863dd03
+SHA256: 8625b52e51f83c923d788de2e77528c92a84f36e5ca1b30c8617b239218609c5
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -2209,9 +2209,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-which_0.8.14-1_all.deb
 Size: 1524
-MD5sum: ab1a593225288f06ec0c753a1eef1b18
-SHA1: 3101ab87c258a1926d13940938dcdd0e53a4c417
-SHA256: eddec5c07dead54d02f62d0fe47a415345eae1ec3a2f0471bea42eff52e14724
+MD5sum: a77a5f1d59d1717fe552b3b2433342c1
+SHA1: 5c3e9732d28015dd864ef3f35b622a4778247cdc
+SHA256: 9aba0c9ef10a86923a166c84b0fb8e33945ef5373f0bd4ce91cedf55ff626dbd
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -2224,9 +2224,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-whoami_0.8.14-1_all.deb
 Size: 1524
-MD5sum: d229bb446fcb322a52af8b450aed0357
-SHA1: 3e9424d0b2d1f2f74081ee7a3ec025db79762aad
-SHA256: 6a158d0df9c4871019ec1bf00c5d8a0a167e4634454b91c978a12a86da2b4394
+MD5sum: f181fa7aa21ebe860ccf96683b987aeb
+SHA1: f5770ee371d86df879376dd857f5b076b852a936
+SHA256: 42bc29a5ab9c8b95e7d8beb12f46956d9427bfc6a2ca1d9963f7094c6154fc83
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -2239,9 +2239,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-xargs_0.8.14-1_all.deb
 Size: 1524
-MD5sum: 8a2c8b76a9a2c2ae29d6bd8f46ba03f4
-SHA1: cbed195d8fbd82c338e2296f2557ed64bb4a4766
-SHA256: af83bbd5873bb71b3fc707d57cffc11f2c948df36f01bad51902f4155f75a2b4
+MD5sum: c4497598f59217d9b1d478f4c51fc8e7
+SHA1: 4a72970ea62f76bdbc3569b684f023ca6ee5e599
+SHA256: 001515ca09d5740290a43ce8d201f9ffbd20d54e93ff49ee420968373412bc17
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -2254,9 +2254,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-xxd_0.8.14-1_all.deb
 Size: 1524
-MD5sum: 85487a26b6c184a2445057a73e906384
-SHA1: 78b9ee98364f1346955be40b444af2d1d97a8b0b
-SHA256: e5dbed9623c145afdca9776848c8563b37eae84b40f47143488dac8dc8430d80
+MD5sum: f8fbe334aebb140fd172209f70925275
+SHA1: d1c949bd7e51e42f3d3edbdca4c5184d0c4c762a
+SHA256: a0a2fb2bdb7e28c7d8c3798352c5c8d5f234f1db97927b54dfedfdb922d0d70a
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -2269,9 +2269,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-yes_0.8.14-1_all.deb
 Size: 1524
-MD5sum: 08a7a2a70cb1fded63c518a767346095
-SHA1: ab0b5337ce171cd5b828e7e950c49e41e07f5013
-SHA256: c112ed1898593d8d7f758804ccdfe3a5c60b2aa74d97edacb6d46f539804840d
+MD5sum: 2622741d91314003dc84389f6135d6d0
+SHA1: fa0848135f0f4f85e92b824021122cc673775a05
+SHA256: 68c7fecb43b0329a6123b86ee8556aba71ecdc34ea317600f7b79d9f279449cb
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
@@ -2284,9 +2284,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: ocean-toybox (= 0.8.14-1)
 Filename: pool/main/ocean-toybox-zcat_0.8.14-1_all.deb
 Size: 1524
-MD5sum: fc8071bee8e30bb29f8b39c8f8502540
-SHA1: e5a0f8373e152109ee8c82bd73dd0fe94b82621e
-SHA256: 15e5d952c096c199fe4ff2dfb2b7d2360bf7f54b62b9ee25c2ffc0149f521676
+MD5sum: c9e370af79fd9f5a97b35ce1e0986ff4
+SHA1: 2634da3f034899f109cacfc4a74441eb1fe173cc
+SHA256: 03c2073256d58e239d459f45338ef0ad0e180bf49d52c6e8431ba12686881e99
 Section: utils
 Priority: optional
 Homepage: https://landley.net/toybox/
