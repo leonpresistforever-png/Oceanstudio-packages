@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "package": "nix",
+  "version": "2.34.8-1",
+  "upstream": "NixOS/nix",
+  "sourceUrl": "https://github.com/NixOS/nix.git",
+  "commit": "f3f1c3c5b8ad91850e0f7c590cf177f7ab022024",
+  "tree": "5b775fcd5d2bd42d028648d5513ef662009a27af",
+  "copyingBlob": "f6683e74e0f0130f246dbf7054f4cacc88ca84b0",
+  "buildAttribute": "nix-everything-static",
+  "buildSystem": "aarch64-linux",
+  "prefix": "/data/data/studio.ocean.app/files/usr",
+  "runtime": "Ocean proot chroot-store compatibility layer",
+  "depends": [
+    "proot"
+  ],
+  "sourcePolicy": "official Nix source and official Nix release bootstrap only; no Termux packages or binary inputs"
+}
