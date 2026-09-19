@@ -14,7 +14,7 @@ permissions:
 
 concurrency:
   group: ocean-toybox-expansion
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   build:
@@ -24,7 +24,7 @@ jobs:
       - name: Checkout package repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 1
 
       - name: Install official Android NDK r27 and packaging tools
         run: |
