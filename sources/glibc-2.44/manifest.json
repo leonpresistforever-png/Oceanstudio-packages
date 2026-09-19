@@ -3,9 +3,6 @@
   "family": "ocean-glibc",
   "version": "2.44-1",
   "upstream": "GNU C Library",
-  "sourceUrl": "https://ftp.gnu.org/gnu/glibc/glibc-2.44.tar.xz",
-  "signatureUrl": "https://ftp.gnu.org/gnu/glibc/glibc-2.44.tar.xz.sig",
-  "gnuKeyringUrl": "https://ftp.gnu.org/gnu/gnu-keyring.gpg",
   "glibcPrefix": "/data/data/studio.ocean.app/files/glibc",
   "oceanPrefix": "/data/data/studio.ocean.app/files/usr",
   "architecture": "aarch64",
@@ -24,5 +21,13 @@
     "Do not replace Ocean Bash or existing commands",
     "Run glibc binaries explicitly through the packaged loader",
     "Keep all glibc runtime state under the dedicated glibc prefix"
+  ],
+  "sourceKind": "git",
+  "sourceUrl": "https://sourceware.org/git/glibc.git",
+  "commit": "30950ce64dbc29db0aedf1d46b6b8eb70b360f0c",
+  "releaseBranch": "release/2.44/master",
+  "securityFixes": [
+    "0b4e41fc51e6aba6216a908961b49b0622b47fa0 - CVE-2026-18374 fix",
+    "30950ce64dbc29db0aedf1d46b6b8eb70b360f0c - regression test on top of fix"
   ]
 }
