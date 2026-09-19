@@ -158,6 +158,10 @@ def sbase(item,ndk,work,pool,readelf):
 
 def ubase(item,ndk,work,pool,readelf):
     src=work/"ubase";clone_pinned(item["source"],item["commit"],src)
+    mk=src/"Makefile";mktxt=mk.read_text()
+    for drop in ("\tpasswd\\\n", "\tsu\\\n"):
+        mktxt=mktxt.replace(drop, "")
+    mk.write_text(mktxt)
     (src/"shadow.h").write_text("struct spwd { char *sp_namp; char *sp_pwdp; };\nstatic inline struct spwd *getspnam(const char *n) { return 0; }\nstatic inline char *crypt(const char *k, const char *s) { return (char *)0; }\n")
     clang=ndk/"toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android28-clang"
     ar=ndk/"toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar";ran=ndk/"toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ranlib"
@@ -166,7 +170,7 @@ def ubase(item,ndk,work,pool,readelf):
     binary=src/"ubase-box";validation=validate_binary(binary,readelf)
     deb=package_binary("ubase",item["version"],binary,src/"LICENSE",pool,
         "suckless ubase Linux utility multicall binary compiled for Ocean Android/AArch64")
-    return {"package":"ubase","artifact":deb.name,"sha256":sha256(deb),"commit":item["commit"],"patches":[],"validation":validation}
+    return {"package":"ubase","artifact":deb.name,"sha256":sha256(deb),"commit":item["commit"],"patches":["exclude setuid passwd and su unsupported on Android Bionic"],"validation":validation}
 
 def sinit(item,ndk,work,pool,readelf):
     src=work/"sinit";clone_pinned(item["source"],item["commit"],src)
