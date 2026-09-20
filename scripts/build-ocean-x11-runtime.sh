@@ -9,7 +9,13 @@ test -x "$ROOTFS/usr/bin/Xvfb"
 test -x "$ROOTFS/usr/bin/x11vnc"
 test -x "$ROOTFS/usr/bin/openbox"
 test -x "$ROOTFS/usr/bin/xterm"
-test -e "$ROOTFS/lib/ld-linux-aarch64.so.1" -o -e "$ROOTFS/lib/aarch64-linux-gnu/ld-linux-aarch64.so.1"
+LOADER="$(find "$ROOTFS/lib" "$ROOTFS/usr/lib" -name 'ld-linux-aarch64.so.1' -print -quit 2>/dev/null || true)"
+test -n "$LOADER"
+mkdir -p "$ROOTFS/lib"
+if [ ! -e "$ROOTFS/lib/ld-linux-aarch64.so.1" ]; then
+  cp -L "$LOADER" "$ROOTFS/lib/ld-linux-aarch64.so.1"
+fi
+test -x "$ROOTFS/lib/ld-linux-aarch64.so.1"
 
 WORK="$(mktemp -d)"
 trap 'rm -rf "$WORK"' EXIT
