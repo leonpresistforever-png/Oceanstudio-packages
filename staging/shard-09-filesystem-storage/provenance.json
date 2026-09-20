@@ -1,361 +1,513 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "shard": "shard-09-filesystem-storage",
-  "section": "utils",
   "category": "Filesystem Engineering & Storage Forensics",
+  "repair": "placeholder-to-functional",
   "target": "aarch64-linux-android28",
   "prefix": "/data/data/studio.ocean.app/files/usr",
   "packageCount": 50,
+  "uniquePackageCount": 50,
+  "version": "1.0.0-2",
   "packages": [
     {
       "package": "f2fs-status-inspector",
-      "version": "1.0.0-1",
-      "artifact": "f2fs-status-inspector_1.0.0-1_aarch64.deb",
-      "sha256": "fb389f42a9d2147f3a87a8a868eaeddd82f35234d89d77c45de6650b43dec6f0",
-      "size": 2156
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "f2fs-status-inspector_1.0.0-2_aarch64.deb",
+      "sha256": "f11c88fa575a2b5e087717b08eeb5c2befff9a822ffaf88eacbc958bd4d6d894",
+      "size": 7900,
+      "implementation": "sources/functional-shards/shard09_storage.py",
+      "status": "functional-repair"
     },
     {
       "package": "ext4-super-block-dump",
-      "version": "1.0.0-1",
-      "artifact": "ext4-super-block-dump_1.0.0-1_aarch64.deb",
-      "sha256": "2dd36aecafca6bf95cc4eb2170154d10813b4802144d72f79e9b4e2e7b76dc17",
-      "size": 2148
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "ext4-super-block-dump_1.0.0-2_aarch64.deb",
+      "sha256": "8f605f59b20b12e370075df909e8c4a5a8b15380a25a37073845308960bd5e5f",
+      "size": 7880,
+      "implementation": "sources/functional-shards/shard09_storage.py",
+      "status": "functional-repair"
     },
     {
       "package": "inode-usage-analyzer",
-      "version": "1.0.0-1",
-      "artifact": "inode-usage-analyzer_1.0.0-1_aarch64.deb",
-      "sha256": "11e0701a4535d8d4c890f5592586c7f59a552aa9f6e6ef4767d072108dae697a",
-      "size": 2132
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "inode-usage-analyzer_1.0.0-2_aarch64.deb",
+      "sha256": "6d5c168e10188417efabba32c73973dbf89d19a3ff31d37ecd52a2a7044fafb8",
+      "size": 7884,
+      "implementation": "sources/functional-shards/shard09_storage.py",
+      "status": "functional-repair"
     },
     {
       "package": "sparse-file-creator",
-      "version": "1.0.0-1",
-      "artifact": "sparse-file-creator_1.0.0-1_aarch64.deb",
-      "sha256": "46bcde107affc9133a2f04f7e26b3f7e9d6becbbb9036f6f13350a383f275fce",
-      "size": 2144
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "sparse-file-creator_1.0.0-2_aarch64.deb",
+      "sha256": "5392878695e6c010f3d9dc9426ee8401ae50f9635674ecb2823c48e7faf34d9e",
+      "size": 7892,
+      "implementation": "sources/functional-shards/shard09_storage.py",
+      "status": "functional-repair"
     },
     {
       "package": "hole-punch-tester",
-      "version": "1.0.0-1",
-      "artifact": "hole-punch-tester_1.0.0-1_aarch64.deb",
-      "sha256": "d4d599de78275fb3094754f7113d8fa098e526f85091438f1291bca8f9aea5fc",
-      "size": 2148
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "hole-punch-tester_1.0.0-2_aarch64.deb",
+      "sha256": "a6915f7209baebcccc91fc01b98348da070719755f0a59506db8945e272878df",
+      "size": 7888,
+      "implementation": "sources/functional-shards/shard09_storage.py",
+      "status": "functional-repair"
     },
     {
       "package": "disk-read-benchmark",
-      "version": "1.0.0-1",
-      "artifact": "disk-read-benchmark_1.0.0-1_aarch64.deb",
-      "sha256": "6ee54b38b11f40a09c55beba53625178d10598ee43c42ad28e1d4eb696c32ac4",
-      "size": 2140
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "disk-read-benchmark_1.0.0-2_aarch64.deb",
+      "sha256": "a3b15669522e557cbc75250e69dd3856d9fc18377ac2752e6670e612a44c1f83",
+      "size": 7876,
+      "implementation": "sources/functional-shards/shard09_storage.py",
+      "status": "functional-repair"
     },
     {
       "package": "disk-write-benchmark",
-      "version": "1.0.0-1",
-      "artifact": "disk-write-benchmark_1.0.0-1_aarch64.deb",
-      "sha256": "2ecd733136fbf1e9907c71eaee34f446f3fa143122633346992080a5b7afed7c",
-      "size": 2136
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "disk-write-benchmark_1.0.0-2_aarch64.deb",
+      "sha256": "08ec2178b27a2d8bf3d19631384421ef7953edd1282d485dbf56276b33107950",
+      "size": 7884,
+      "implementation": "sources/functional-shards/shard09_storage.py",
+      "status": "functional-repair"
     },
     {
       "package": "sync-latency-timer",
-      "version": "1.0.0-1",
-      "artifact": "sync-latency-timer_1.0.0-1_aarch64.deb",
-      "sha256": "078e3a0cc0e7a24b8a74139f80debb230c44811cf9a4c110438987082b89b659",
-      "size": 2136
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "sync-latency-timer_1.0.0-2_aarch64.deb",
+      "sha256": "8530de0204e824036d1b3ddd6eedf2bb2b5d354366bd1f9d0dc9fb1c7b3a624c",
+      "size": 7868,
+      "implementation": "sources/functional-shards/shard09_storage.py",
+      "status": "functional-repair"
     },
     {
       "package": "fdatasync-tester",
-      "version": "1.0.0-1",
-      "artifact": "fdatasync-tester_1.0.0-1_aarch64.deb",
-      "sha256": "73a3cc7624ce321b3958d055d0fb6bd2d4c2a48ad7b8b05062933b96f2856b50",
-      "size": 2128
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "fdatasync-tester_1.0.0-2_aarch64.deb",
+      "sha256": "cf1d2e26d5e5c4ea42204136928de95d59d0765b73c8b203a5ff1290ce568e21",
+      "size": 7876,
+      "implementation": "sources/functional-shards/shard09_storage.py",
+      "status": "functional-repair"
     },
     {
       "package": "blkdiscard-analyzer",
-      "version": "1.0.0-1",
-      "artifact": "blkdiscard-analyzer_1.0.0-1_aarch64.deb",
-      "sha256": "18328be8a54a80dafa0c1b9069a53c26689233722a553ceee352314237c01a17",
-      "size": 2140
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "blkdiscard-analyzer_1.0.0-2_aarch64.deb",
+      "sha256": "80a77c2eca39e0e8b5310d105b57644624f2fcab70c18bf928dc19a7f985b450",
+      "size": 7880,
+      "implementation": "sources/functional-shards/shard09_storage.py",
+      "status": "functional-repair"
     },
     {
       "package": "blockdev-geometry",
-      "version": "1.0.0-1",
-      "artifact": "blockdev-geometry_1.0.0-1_aarch64.deb",
-      "sha256": "14834334d736885e7b9df86b627d458912991e84e97fc5187b2da8fdc11e02e5",
-      "size": 2140
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "blockdev-geometry_1.0.0-2_aarch64.deb",
+      "sha256": "50121827ca3456c90300fe2137187ccebba973b4c2fdaaccfb9ff0e0ef6b3185",
+      "size": 7880,
+      "implementation": "sources/functional-shards/shard09_storage.py",
+      "status": "functional-repair"
     },
     {
       "package": "partition-table-view",
-      "version": "1.0.0-1",
-      "artifact": "partition-table-view_1.0.0-1_aarch64.deb",
-      "sha256": "5e0795e1f309c4a9c02be389888f74e7dac602cd32a2b9afb336dd81197cfefe",
-      "size": 2148
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "partition-table-view_1.0.0-2_aarch64.deb",
+      "sha256": "6541bd21948e53a581c4458489d2f7bc5c8ba5cfeb7ea0c8e1b52f0083283798",
+      "size": 7888,
+      "implementation": "sources/functional-shards/shard09_storage.py",
+      "status": "functional-repair"
     },
     {
       "package": "gpt-header-inspector",
-      "version": "1.0.0-1",
-      "artifact": "gpt-header-inspector_1.0.0-1_aarch64.deb",
-      "sha256": "50627a6e926bf4644a13bdfa8468041f6bb1d6f8518a05479d8f39ad0a593d18",
-      "size": 2160
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "gpt-header-inspector_1.0.0-2_aarch64.deb",
+      "sha256": "69cf39841ecfefc1575add167565e67757dc5be5a5d158bbea2b15d7ab4a5d94",
+      "size": 7892,
+      "implementation": "sources/functional-shards/shard09_storage.py",
+      "status": "functional-repair"
     },
     {
       "package": "mbr-sector-dump",
-      "version": "1.0.0-1",
-      "artifact": "mbr-sector-dump_1.0.0-1_aarch64.deb",
-      "sha256": "88bf281b1c5699ca04e51b563bd4d644bc356104248d14230c96a78e3539beff",
-      "size": 2144
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "mbr-sector-dump_1.0.0-2_aarch64.deb",
+      "sha256": "0a67d451ab55f2d2eb893005eb695f34ea191684efb5d08e6ba8d4c3ee280525",
+      "size": 7896,
+      "implementation": "sources/functional-shards/shard09_storage.py",
+      "status": "functional-repair"
     },
     {
       "package": "vfat-boot-sector-chk",
-      "version": "1.0.0-1",
-      "artifact": "vfat-boot-sector-chk_1.0.0-1_aarch64.deb",
-      "sha256": "8b6d589dbc3a1fca8ed311f4c6db7689472c6432ecaefdb8a6ddfd40c88bb0d0",
-      "size": 2156
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "vfat-boot-sector-chk_1.0.0-2_aarch64.deb",
+      "sha256": "40107511b477eb633e9519d53d0c10f9ef3ba24107bfc54c6ab3dde0b143f2a7",
+      "size": 7888,
+      "implementation": "sources/functional-shards/shard09_storage.py",
+      "status": "functional-repair"
     },
     {
       "package": "fat32-cluster-calc",
-      "version": "1.0.0-1",
-      "artifact": "fat32-cluster-calc_1.0.0-1_aarch64.deb",
-      "sha256": "6cfe6feeb8ba55f6fcf39d1a395a8c4b095d79a0bc34e02ce1bd86eab0bacf0b",
-      "size": 2148
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "fat32-cluster-calc_1.0.0-2_aarch64.deb",
+      "sha256": "63bf74556f79b8959fe1b9fbd099c01c9da4ee4c95eb95c0b61e3fc105959d59",
+      "size": 7892,
+      "implementation": "sources/functional-shards/shard09_storage.py",
+      "status": "functional-repair"
     },
     {
       "package": "exfat-header-parser",
-      "version": "1.0.0-1",
-      "artifact": "exfat-header-parser_1.0.0-1_aarch64.deb",
-      "sha256": "61c2efe36740b2ddd1f88c40515439760b0162b0f6c87375861020c5d00ec8d1",
-      "size": 2156
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "exfat-header-parser_1.0.0-2_aarch64.deb",
+      "sha256": "e51d43d0e0b99502997e630dd149cd9460ff95af8c7e6a12baaefff236fd5d3c",
+      "size": 7896,
+      "implementation": "sources/functional-shards/shard09_storage.py",
+      "status": "functional-repair"
     },
     {
       "package": "iso9660-browser",
-      "version": "1.0.0-1",
-      "artifact": "iso9660-browser_1.0.0-1_aarch64.deb",
-      "sha256": "b7aa444cb4352125cf9c8a246c7a603454acb5f751e136bba2339b579e49c18c",
-      "size": 2132
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "iso9660-browser_1.0.0-2_aarch64.deb",
+      "sha256": "2293a77b5371b2ce928d82198647c37edad2f970b0aea117873a0e31cd094fd5",
+      "size": 7876,
+      "implementation": "sources/functional-shards/shard09_storage.py",
+      "status": "functional-repair"
     },
     {
       "package": "squashfs-super-view",
-      "version": "1.0.0-1",
-      "artifact": "squashfs-super-view_1.0.0-1_aarch64.deb",
-      "sha256": "894a95234f9cdce9b62c63d4e191bb2e96da58a392f5882ba77580e7bb699eab",
-      "size": 2144
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "squashfs-super-view_1.0.0-2_aarch64.deb",
+      "sha256": "f8dbffd103f2e54b010d321e9adc0e9f2529b3fd5a2c9d710a1eae57186bf2a5",
+      "size": 7880,
+      "implementation": "sources/functional-shards/shard09_storage.py",
+      "status": "functional-repair"
     },
     {
       "package": "ramdisk-builder-cli",
-      "version": "1.0.0-1",
-      "artifact": "ramdisk-builder-cli_1.0.0-1_aarch64.deb",
-      "sha256": "8eaa138b5e1d43d1dad259c0a8ad26cdae16ffc43f5010edcb52abfa146be49e",
-      "size": 2140
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "ramdisk-builder-cli_1.0.0-2_aarch64.deb",
+      "sha256": "2197e0be0fa2e374f9a09881b1a80558fb7498f0a056bd84095465b5d014a9a3",
+      "size": 7884,
+      "implementation": "sources/functional-shards/shard09_storage.py",
+      "status": "functional-repair"
     },
     {
       "package": "tmpfs-usage-tracker",
-      "version": "1.0.0-1",
-      "artifact": "tmpfs-usage-tracker_1.0.0-1_aarch64.deb",
-      "sha256": "b4492bf6cd40f869e9c16a7b0d9b67da5679d98a6fe06160a01844ebfe810571",
-      "size": 2144
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "tmpfs-usage-tracker_1.0.0-2_aarch64.deb",
+      "sha256": "1b80458d361bd4bcbdd780e6af5f2aede32a6124bcbfcee9bd7977aafc33975e",
+      "size": 7888,
+      "implementation": "sources/functional-shards/shard09_storage.py",
+      "status": "functional-repair"
     },
     {
       "package": "bind-mount-auditor",
-      "version": "1.0.0-1",
-      "artifact": "bind-mount-auditor_1.0.0-1_aarch64.deb",
-      "sha256": "055d58ef3c5e25d2c3a795961b2b76b361c8c0ed4aaa692861ddf99d3e5896f2",
-      "size": 2136
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "bind-mount-auditor_1.0.0-2_aarch64.deb",
+      "sha256": "19b04381b254e2c72d8027ae31e75bf5a5b61c57afd7dd67673dae185605e081",
+      "size": 7880,
+      "implementation": "sources/functional-shards/shard09_storage.py",
+      "status": "functional-repair"
     },
     {
       "package": "mount-options-checker",
-      "version": "1.0.0-1",
-      "artifact": "mount-options-checker_1.0.0-1_aarch64.deb",
-      "sha256": "3b5c32f009ca622ceeb83758c5fb6363486b3f1fad8afc8aea0b7872bfffe76a",
-      "size": 2132
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "mount-options-checker_1.0.0-2_aarch64.deb",
+      "sha256": "061c6cdd5e0164d0a76e5e436afe28947d1cf4b786d53d5825b70e96456288df",
+      "size": 7884,
+      "implementation": "sources/functional-shards/shard09_storage.py",
+      "status": "functional-repair"
     },
     {
       "package": "statvfs-free-calc",
-      "version": "1.0.0-1",
-      "artifact": "statvfs-free-calc_1.0.0-1_aarch64.deb",
-      "sha256": "bc3b3450efc868e6a864a58f79ef9c6cc6d2130a341a0cd0e96b5f7233c6b2c9",
-      "size": 2156
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "statvfs-free-calc_1.0.0-2_aarch64.deb",
+      "sha256": "887697c4a699eb1e3b6dd24c06b5ac703aae6bac81c515380f18e52e13119f52",
+      "size": 7892,
+      "implementation": "sources/functional-shards/shard09_storage.py",
+      "status": "functional-repair"
     },
     {
       "package": "df-human-sorter",
-      "version": "1.0.0-1",
-      "artifact": "df-human-sorter_1.0.0-1_aarch64.deb",
-      "sha256": "e04e931ca6149f68a99697ec4a3975c6122381937ffb65537b08c6a774f54642",
-      "size": 2124
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "df-human-sorter_1.0.0-2_aarch64.deb",
+      "sha256": "0131bb540f2bd496dd5a2d124bb758fb679bca7cd51a41918e868981c20d702a",
+      "size": 7884,
+      "implementation": "sources/functional-shards/shard09_storage.py",
+      "status": "functional-repair"
     },
     {
       "package": "du-depth-limiter",
-      "version": "1.0.0-1",
-      "artifact": "du-depth-limiter_1.0.0-1_aarch64.deb",
-      "sha256": "1a96cac4910e0abc998f6e4be052ad5fb048b1816e64989c77e11f4ebf8d5320",
-      "size": 2148
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "du-depth-limiter_1.0.0-2_aarch64.deb",
+      "sha256": "b1c1c10b5fe10e6fd9c2075c19dfcedcd7215dcd9c07f23d3031e161972f275c",
+      "size": 7892,
+      "implementation": "sources/functional-shards/shard09_storage.py",
+      "status": "functional-repair"
     },
     {
       "package": "hardlink-counter",
-      "version": "1.0.0-1",
-      "artifact": "hardlink-counter_1.0.0-1_aarch64.deb",
-      "sha256": "12257213281a9d6e8f8649aea5bee082f46a85dba6799b9bb293ec802aa0f11d",
-      "size": 2140
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "hardlink-counter_1.0.0-2_aarch64.deb",
+      "sha256": "83c71db0dff19833dd95e74f1388a5a2f1404fadbb3a49157e69912873a6d2e6",
+      "size": 7884,
+      "implementation": "sources/functional-shards/shard09_storage.py",
+      "status": "functional-repair"
     },
     {
       "package": "broken-symlink-clean",
-      "version": "1.0.0-1",
-      "artifact": "broken-symlink-clean_1.0.0-1_aarch64.deb",
-      "sha256": "ff4b518c93a7f5d589f563e8bfec6a923c4b371ae6bf7dc49c07798048d792a0",
-      "size": 2132
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "broken-symlink-clean_1.0.0-2_aarch64.deb",
+      "sha256": "b8a7cb0cebd03dbc7395feaa5470e0d5250f1d9308e9a2f856d6a4793b6d053e",
+      "size": 7872,
+      "implementation": "sources/functional-shards/shard09_storage.py",
+      "status": "functional-repair"
     },
     {
       "package": "file-timestamp-sync",
-      "version": "1.0.0-1",
-      "artifact": "file-timestamp-sync_1.0.0-1_aarch64.deb",
-      "sha256": "02c717876d1088b82359b62a4e5944b2019111275eb2386a2ece4efd07c254d8",
-      "size": 2132
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "file-timestamp-sync_1.0.0-2_aarch64.deb",
+      "sha256": "defa0285a2bdc89c95d67a2af1e2d11a56d05ce9a0a65a274362ca616bf2a77b",
+      "size": 7876,
+      "implementation": "sources/functional-shards/shard09_storage.py",
+      "status": "functional-repair"
     },
     {
       "package": "touch-date-setter",
-      "version": "1.0.0-1",
-      "artifact": "touch-date-setter_1.0.0-1_aarch64.deb",
-      "sha256": "4b10e79215e637bef2e35738aad8337eec21db3cedd25685ff979c46fef985c2",
-      "size": 2132
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "touch-date-setter_1.0.0-2_aarch64.deb",
+      "sha256": "63e46ccea564e28dc1708b744dc8535d9fbe1a0d982dcfb09a068875d1d83986",
+      "size": 7888,
+      "implementation": "sources/functional-shards/shard09_storage.py",
+      "status": "functional-repair"
     },
     {
       "package": "truncate-file-tool",
-      "version": "1.0.0-1",
-      "artifact": "truncate-file-tool_1.0.0-1_aarch64.deb",
-      "sha256": "5f0fef83b93ff3de2f619fb64313b8c891ef898bfc03d38b3e850eeb77e6bc3c",
-      "size": 2128
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "truncate-file-tool_1.0.0-2_aarch64.deb",
+      "sha256": "b78d25b56f232a5554fef1ecd27f366c75506101ed3ef796fa0b7adb375e213b",
+      "size": 7880,
+      "implementation": "sources/functional-shards/shard09_storage.py",
+      "status": "functional-repair"
     },
     {
       "package": "shred-secure-delete",
-      "version": "1.0.0-1",
-      "artifact": "shred-secure-delete_1.0.0-1_aarch64.deb",
-      "sha256": "c167b6d9d020a771fd6adaf3e9b84f477536fcb87188786d717d9209608b40b3",
-      "size": 2144
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "shred-secure-delete_1.0.0-2_aarch64.deb",
+      "sha256": "c3ca198dc50630f053a4ba9f0c1641876b91428f2b258a9b9fe2a2074adcab5f",
+      "size": 7896,
+      "implementation": "sources/functional-shards/shard09_storage.py",
+      "status": "functional-repair"
     },
     {
       "package": "wipefs-magic-scanner",
-      "version": "1.0.0-1",
-      "artifact": "wipefs-magic-scanner_1.0.0-1_aarch64.deb",
-      "sha256": "c054fa140c1df8a9e3a5b182252f2e53f21a2490f8377c6b6d5ee62403d4f089",
-      "size": 2128
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "wipefs-magic-scanner_1.0.0-2_aarch64.deb",
+      "sha256": "89960adefcbeda1ec20191d412dadf3bd293d8698decc288cbfad05befdf16d3",
+      "size": 7868,
+      "implementation": "sources/functional-shards/shard09_storage.py",
+      "status": "functional-repair"
     },
     {
       "package": "file-allocation-chk",
-      "version": "1.0.0-1",
-      "artifact": "file-allocation-chk_1.0.0-1_aarch64.deb",
-      "sha256": "4ad0f683452cfeb364ddd753ffedaaf3903ab814afa5af54aa124f6c34e77fcf",
-      "size": 2132
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "file-allocation-chk_1.0.0-2_aarch64.deb",
+      "sha256": "cc3860ba8fe4a0a6bcfa50dcb1d1a97e91f480cd7343357fac98d7134aaa1150",
+      "size": 7880,
+      "implementation": "sources/functional-shards/shard09_storage.py",
+      "status": "functional-repair"
     },
     {
       "package": "direct-io-benchmark",
-      "version": "1.0.0-1",
-      "artifact": "direct-io-benchmark_1.0.0-1_aarch64.deb",
-      "sha256": "1816c61fe24c7598e2d2e64233670514bf83cce1aefb215b7faf641f03c3ce6e",
-      "size": 2136
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "direct-io-benchmark_1.0.0-2_aarch64.deb",
+      "sha256": "2465acac1bbd949d390923c55ce80d40455f5b92aaea9e5e17e329f1c947b6e7",
+      "size": 7880,
+      "implementation": "sources/functional-shards/shard09_storage.py",
+      "status": "functional-repair"
     },
     {
       "package": "fallocate-prealloc",
-      "version": "1.0.0-1",
-      "artifact": "fallocate-prealloc_1.0.0-1_aarch64.deb",
-      "sha256": "c3162c74cf26b5d445b33196bf70743c1f0b9901e2ed21573ad1c11f9ba943e6",
-      "size": 2140
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "fallocate-prealloc_1.0.0-2_aarch64.deb",
+      "sha256": "febbf6955a4be7b21c837e45d85f71aec50db50aee296065889929d9ed6c4ae1",
+      "size": 7892,
+      "implementation": "sources/functional-shards/shard09_storage.py",
+      "status": "functional-repair"
     },
     {
       "package": "flock-file-mutex",
-      "version": "1.0.0-1",
-      "artifact": "flock-file-mutex_1.0.0-1_aarch64.deb",
-      "sha256": "89b242314988ee1bf0a9280c4b15c42222aecd2d9e38f572114b61f166245181",
-      "size": 2140
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "flock-file-mutex_1.0.0-2_aarch64.deb",
+      "sha256": "4f5dee05d345cbee6c41f9bed742b016f7a9bb007d6f0bcb7d98b494aec68a6d",
+      "size": 7892,
+      "implementation": "sources/functional-shards/shard09_storage.py",
+      "status": "functional-repair"
     },
     {
       "package": "lockfile-manager",
-      "version": "1.0.0-1",
-      "artifact": "lockfile-manager_1.0.0-1_aarch64.deb",
-      "sha256": "9b0c7b8ca7b9ee09f683f719515427b95220738715e37f0fdd24cf60679eaeec",
-      "size": 2128
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "lockfile-manager_1.0.0-2_aarch64.deb",
+      "sha256": "5653dcaa1ca0d1e6ffc7c2c8879e845f65640e699a384141e3cc4edf091815b5",
+      "size": 7880,
+      "implementation": "sources/functional-shards/shard09_storage.py",
+      "status": "functional-repair"
     },
     {
       "package": "faccessat-tester",
-      "version": "1.0.0-1",
-      "artifact": "faccessat-tester_1.0.0-1_aarch64.deb",
-      "sha256": "324d8be8413512a5aca0e4605704a39046151562eee3eff3106b1f81269bac41",
-      "size": 2128
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "faccessat-tester_1.0.0-2_aarch64.deb",
+      "sha256": "1e46b7fa063caabb1ef1778cfc928f4d36f2d4b28c9cb8435b0ef42b0264a224",
+      "size": 7880,
+      "implementation": "sources/functional-shards/shard09_storage.py",
+      "status": "functional-repair"
     },
     {
       "package": "chattr-attribute-view",
-      "version": "1.0.0-1",
-      "artifact": "chattr-attribute-view_1.0.0-1_aarch64.deb",
-      "sha256": "2c5f8201091308c2b4a714adf6aee7264a24db19d2f8787cfabafcfc4d2eaa70",
-      "size": 2144
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "chattr-attribute-view_1.0.0-2_aarch64.deb",
+      "sha256": "9d03c19693b5687fb7af9d8a7dbcf82bef7a3263b34ba593474b5877baf868c8",
+      "size": 7896,
+      "implementation": "sources/functional-shards/shard09_storage.py",
+      "status": "functional-repair"
     },
     {
       "package": "lsattr-ocean",
-      "version": "1.0.0-1",
-      "artifact": "lsattr-ocean_1.0.0-1_aarch64.deb",
-      "sha256": "59de1be9a4759668ffa65f7b7b38ef7a0570ac33b1f13b3c34759e8bae99cec7",
-      "size": 2136
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "lsattr-ocean_1.0.0-2_aarch64.deb",
+      "sha256": "f3440bc4e838de7022fe7a2fa970201ecc21386fdacf5d8e7ad1111a51ecfe05",
+      "size": 7884,
+      "implementation": "sources/functional-shards/shard09_storage.py",
+      "status": "functional-repair"
     },
     {
       "package": "file-descriptor-duper",
-      "version": "1.0.0-1",
-      "artifact": "file-descriptor-duper_1.0.0-1_aarch64.deb",
-      "sha256": "0f1d4dac94760f34449e83b2d3e2361ad5bd19942762e225c3b0d332750702c8",
-      "size": 2120
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "file-descriptor-duper_1.0.0-2_aarch64.deb",
+      "sha256": "dcaf93af4eb0814a566d2fe231e7805e815e65aee5bbbb0f0d0c6cd5fbdb2a13",
+      "size": 7868,
+      "implementation": "sources/functional-shards/shard09_storage.py",
+      "status": "functional-repair"
     },
     {
       "package": "fifo-pipe-tester",
-      "version": "1.0.0-1",
-      "artifact": "fifo-pipe-tester_1.0.0-1_aarch64.deb",
-      "sha256": "562088f5fd0c752a7c6c20acd98aeee782828c47626afea97f568e378d4777ce",
-      "size": 2136
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "fifo-pipe-tester_1.0.0-2_aarch64.deb",
+      "sha256": "668813841195a1426514d510dd661c156e73c56a561d59295bc5395655b32f29",
+      "size": 7888,
+      "implementation": "sources/functional-shards/shard09_storage.py",
+      "status": "functional-repair"
     },
     {
       "package": "mknod-device-parser",
-      "version": "1.0.0-1",
-      "artifact": "mknod-device-parser_1.0.0-1_aarch64.deb",
-      "sha256": "5a9314c5c1204ab73417468673551741caf2652b14ec3455dbb69663c96fcf6e",
-      "size": 2144
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "mknod-device-parser_1.0.0-2_aarch64.deb",
+      "sha256": "321790dff01c23738db5ae7500edd7f3681576e16b8945905925511f82a5e50f",
+      "size": 7892,
+      "implementation": "sources/functional-shards/shard09_storage.py",
+      "status": "functional-repair"
     },
     {
       "package": "socket-file-creator",
-      "version": "1.0.0-1",
-      "artifact": "socket-file-creator_1.0.0-1_aarch64.deb",
-      "sha256": "ec7439f987c6861550ad480db50770570c04beec72c4a1d233d73c802c68e70c",
-      "size": 2136
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "socket-file-creator_1.0.0-2_aarch64.deb",
+      "sha256": "d2a96e55400377e3cc7640f789642a3a92de58eaf0bf76f52bfb4c8fecf50903",
+      "size": 7876,
+      "implementation": "sources/functional-shards/shard09_storage.py",
+      "status": "functional-repair"
     },
     {
       "package": "directory-depth-calc",
-      "version": "1.0.0-1",
-      "artifact": "directory-depth-calc_1.0.0-1_aarch64.deb",
-      "sha256": "95d1546c1c3aedeb102c265760e5af03644328e6e91469544315e4f535928f7d",
-      "size": 2140
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "directory-depth-calc_1.0.0-2_aarch64.deb",
+      "sha256": "ccd571b4e51de33ae8442a67799d27b5f62c7bc998aaeafdfcba4c9aa791565a",
+      "size": 7876,
+      "implementation": "sources/functional-shards/shard09_storage.py",
+      "status": "functional-repair"
     },
     {
       "package": "empty-dir-pruner",
-      "version": "1.0.0-1",
-      "artifact": "empty-dir-pruner_1.0.0-1_aarch64.deb",
-      "sha256": "5259ac3f6602ee17a0e50ff8b564869e38c6fc8b338d1ddc5bc03b3d396af5e0",
-      "size": 2140
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "empty-dir-pruner_1.0.0-2_aarch64.deb",
+      "sha256": "598ba0d8cd69d847eddc4e9da283f2296c1fac3821b059f0a8cac4225ea6215d",
+      "size": 7884,
+      "implementation": "sources/functional-shards/shard09_storage.py",
+      "status": "functional-repair"
     },
     {
       "package": "xattr-metadata-viewer",
-      "version": "1.0.0-1",
-      "artifact": "xattr-metadata-viewer_1.0.0-1_aarch64.deb",
-      "sha256": "c0733de8d2b02cd8d58547056e97ec7f96c657aa43caf056a50b17df7b4ccd78",
-      "size": 2156
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "xattr-metadata-viewer_1.0.0-2_aarch64.deb",
+      "sha256": "24e05abe809b356e2f4a84edaec3cef93bc804ccbd6a4de17437c2a7d6d70729",
+      "size": 7892,
+      "implementation": "sources/functional-shards/shard09_storage.py",
+      "status": "functional-repair"
     },
     {
       "package": "file-checksum-tree",
-      "version": "1.0.0-1",
-      "artifact": "file-checksum-tree_1.0.0-1_aarch64.deb",
-      "sha256": "d74b4f7922cc7350989230e2402d3997ec3ea822540eebd6da88184cedf61369",
-      "size": 2148
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "file-checksum-tree_1.0.0-2_aarch64.deb",
+      "sha256": "7edb5c97c869700a3e6b9595cf9b387831b375f1f09b521e3a73e658d71dc056",
+      "size": 7900,
+      "implementation": "sources/functional-shards/shard09_storage.py",
+      "status": "functional-repair"
     },
     {
       "package": "storage-tree-graph",
-      "version": "1.0.0-1",
-      "artifact": "storage-tree-graph_1.0.0-1_aarch64.deb",
-      "sha256": "284dbd410a095e0ba81dee666034e1d9420658dbfa3001614ee38cdb7a16fac5",
-      "size": 2136
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "storage-tree-graph_1.0.0-2_aarch64.deb",
+      "sha256": "5b3436356aaa1b34327713d20dc433b7eccbf93a9ef31dda6bded530bb27c45f",
+      "size": 7880,
+      "implementation": "sources/functional-shards/shard09_storage.py",
+      "status": "functional-repair"
     }
   ]
 }

@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "targetExpansionPackages": 1000,
-  "stagedFunctionalRepairs": 500,
+  "stagedFunctionalRepairs": 650,
   "livePromotedRepairs": 0,
-  "remainingPlaceholderPackages": 500,
+  "remainingPlaceholderPackages": 350,
   "repairVersion": "1.0.0-2",
   "signingBlockedBy": "OCEAN_REPOSITORY_SIGNING_KEY unavailable to GitHub Actions",
   "shards": [
@@ -20,7 +20,43 @@
       "status": "staged-functional"
     },
     {
+      "name": "shard-09-filesystem-storage",
+      "packages": 50,
+      "testsPassed": 50,
+      "status": "staged-functional"
+    },
+    {
+      "name": "shard-13-text-nlp-corpora",
+      "packages": 50,
+      "testsPassed": 50,
+      "status": "staged-functional"
+    },
+    {
+      "name": "shard-16-math-scientific-computing",
+      "packages": 50,
+      "testsPassed": 50,
+      "status": "staged-functional"
+    },
+    {
+      "name": "shard-17-android-bionic-platform",
+      "packages": 50,
+      "testsPassed": 50,
+      "status": "staged-functional"
+    },
+    {
       "name": "shard-18-code-lint-analysis",
+      "packages": 50,
+      "testsPassed": 50,
+      "status": "staged-functional"
+    },
+    {
+      "name": "shard-19-archive-backup-sync",
+      "packages": 50,
+      "testsPassed": 50,
+      "status": "staged-functional"
+    },
+    {
+      "name": "shard-21-cloud-container-runtime",
       "packages": 50,
       "testsPassed": 50,
       "status": "staged-functional"
@@ -45,24 +81,6 @@
     },
     {
       "name": "shard-27-data-stream-etl",
-      "packages": 50,
-      "testsPassed": 50,
-      "status": "staged-functional"
-    },
-    {
-      "name": "shard-17-android-bionic-platform",
-      "packages": 50,
-      "testsPassed": 50,
-      "status": "staged-functional"
-    },
-    {
-      "name": "shard-19-archive-backup-sync",
-      "packages": 50,
-      "testsPassed": 50,
-      "status": "staged-functional"
-    },
-    {
-      "name": "shard-21-cloud-container-runtime",
       "packages": 50,
       "testsPassed": 50,
       "status": "staged-functional"

@@ -1,361 +1,513 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "shard": "shard-16-math-scientific-computing",
-  "section": "math",
   "category": "Scientific Computing & Discrete Mathematics",
+  "repair": "placeholder-to-functional",
   "target": "aarch64-linux-android28",
   "prefix": "/data/data/studio.ocean.app/files/usr",
   "packageCount": 50,
+  "uniquePackageCount": 50,
+  "version": "1.0.0-2",
   "packages": [
     {
       "package": "bigint-modular-power",
-      "version": "1.0.0-1",
-      "artifact": "bigint-modular-power_1.0.0-1_aarch64.deb",
-      "sha256": "f41ed158ece8de88e6f191c7dd61f6739d0173ec96e6ea8041704e37362d7d64",
-      "size": 2152
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "bigint-modular-power_1.0.0-2_aarch64.deb",
+      "sha256": "0c3dc831b9acf951ffcfb659cbaff3f03f34219f8917b0396106c145459a341e",
+      "size": 9312,
+      "implementation": "sources/functional-shards/shard16_math.py",
+      "status": "functional-repair"
     },
     {
       "package": "bigint-extended-gcd",
-      "version": "1.0.0-1",
-      "artifact": "bigint-extended-gcd_1.0.0-1_aarch64.deb",
-      "sha256": "7c886d2ff1a57b0e66b0a23ddc1bc332d9d23d3a9d70d7d91b4e068ba4d01551",
-      "size": 2160
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "bigint-extended-gcd_1.0.0-2_aarch64.deb",
+      "sha256": "0f9336ad1cd0e251ac0b690670c88bab56b947fc6f0fa478dc8c6ed4648bfd25",
+      "size": 9316,
+      "implementation": "sources/functional-shards/shard16_math.py",
+      "status": "functional-repair"
     },
     {
       "package": "bigfloat-sqrt-calc",
-      "version": "1.0.0-1",
-      "artifact": "bigfloat-sqrt-calc_1.0.0-1_aarch64.deb",
-      "sha256": "b84635229ba40ac85da1341fd79f195bc38894932918b7a41fd277c21f523e50",
-      "size": 2164
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "bigfloat-sqrt-calc_1.0.0-2_aarch64.deb",
+      "sha256": "8412dae026b9ac733e52be762c082e4323f0034176d24ec22c0f197920706d80",
+      "size": 9312,
+      "implementation": "sources/functional-shards/shard16_math.py",
+      "status": "functional-repair"
     },
     {
       "package": "bigfloat-pi-chudnovsky",
-      "version": "1.0.0-1",
-      "artifact": "bigfloat-pi-chudnovsky_1.0.0-1_aarch64.deb",
-      "sha256": "ca3a5fb9840c8c9ce6b77629cf62327fe7e547ec3a0ed375d27157ed1c47dc38",
-      "size": 2164
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "bigfloat-pi-chudnovsky_1.0.0-2_aarch64.deb",
+      "sha256": "8a750e998df8c814ae3daccacc1ded53e6f5056f26fdc9bdff74167fa3d80716",
+      "size": 9312,
+      "implementation": "sources/functional-shards/shard16_math.py",
+      "status": "functional-repair"
     },
     {
       "package": "matrix-determinant-2d",
-      "version": "1.0.0-1",
-      "artifact": "matrix-determinant-2d_1.0.0-1_aarch64.deb",
-      "sha256": "3a5bf4a57d81d5bd8d80e4af25d5809c77ca1cf48b31446aeccdb3d43d16cbd5",
-      "size": 2156
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "matrix-determinant-2d_1.0.0-2_aarch64.deb",
+      "sha256": "f04cc7b8e4d9bc0ed97aeb53d18d93643e0c926bc0faadb0e461c449f37d50eb",
+      "size": 9304,
+      "implementation": "sources/functional-shards/shard16_math.py",
+      "status": "functional-repair"
     },
     {
       "package": "matrix-inverse-3d",
-      "version": "1.0.0-1",
-      "artifact": "matrix-inverse-3d_1.0.0-1_aarch64.deb",
-      "sha256": "b2c77a48cc5157aea2cd2e1cb81c0432b2765425ef8368d04ccc272f022db84e",
-      "size": 2148
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "matrix-inverse-3d_1.0.0-2_aarch64.deb",
+      "sha256": "8c48d97f9c635f9cb3ae84194bb6bbea5ec39c90a9eb2bd73499c714710e1138",
+      "size": 9300,
+      "implementation": "sources/functional-shards/shard16_math.py",
+      "status": "functional-repair"
     },
     {
       "package": "matrix-eigen-evaluator",
-      "version": "1.0.0-1",
-      "artifact": "matrix-eigen-evaluator_1.0.0-1_aarch64.deb",
-      "sha256": "be5cc37733fc079cadd58cf11f7338fd5c5755928421f362b47d668c17047cf4",
-      "size": 2164
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "matrix-eigen-evaluator_1.0.0-2_aarch64.deb",
+      "sha256": "9a1067a4b9762d404e4401525f2bd6e2bf7c28badb730405785a8efb2f544aaf",
+      "size": 9300,
+      "implementation": "sources/functional-shards/shard16_math.py",
+      "status": "functional-repair"
     },
     {
       "package": "vector-dot-cross-prod",
-      "version": "1.0.0-1",
-      "artifact": "vector-dot-cross-prod_1.0.0-1_aarch64.deb",
-      "sha256": "eb260eac0d22e987ae799790ea9a6efcba32f50a4fe0a969498e4b768ce02ffb",
-      "size": 2148
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "vector-dot-cross-prod_1.0.0-2_aarch64.deb",
+      "sha256": "7fd602a01625ce9751dca6c3ad28d2c9a29cac5b0cb596564a043b192c231c6e",
+      "size": 9308,
+      "implementation": "sources/functional-shards/shard16_math.py",
+      "status": "functional-repair"
     },
     {
       "package": "linear-regression-ols",
-      "version": "1.0.0-1",
-      "artifact": "linear-regression-ols_1.0.0-1_aarch64.deb",
-      "sha256": "01c1573177407db194fc96d362a64c46a892273384ff0e6ed5c236aebad37fbf",
-      "size": 2172
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "linear-regression-ols_1.0.0-2_aarch64.deb",
+      "sha256": "0ddecc92a09769a720741f88d685c05a3b2dec350603f103f8c1c1687e10c602",
+      "size": 9312,
+      "implementation": "sources/functional-shards/shard16_math.py",
+      "status": "functional-repair"
     },
     {
       "package": "polynomial-root-finder",
-      "version": "1.0.0-1",
-      "artifact": "polynomial-root-finder_1.0.0-1_aarch64.deb",
-      "sha256": "74f743a1f2729355417b8c8aba818cb4a8afcb3c452095197884d2fb8b101224",
-      "size": 2148
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "polynomial-root-finder_1.0.0-2_aarch64.deb",
+      "sha256": "7d32f8626164f5fd1fd5b5e793dc405df7d3ef837b9169ab3725d780b4a1cd31",
+      "size": 9300,
+      "implementation": "sources/functional-shards/shard16_math.py",
+      "status": "functional-repair"
     },
     {
       "package": "runge-kutta-integrator",
-      "version": "1.0.0-1",
-      "artifact": "runge-kutta-integrator_1.0.0-1_aarch64.deb",
-      "sha256": "761e3cccd8881f50afdf3cf11e86dafa9e3b05ba97e7764b805a051b434c0561",
-      "size": 2164
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "runge-kutta-integrator_1.0.0-2_aarch64.deb",
+      "sha256": "34be3cf2a94539e83d860057d324bc119c6846efd04dc8b8a905faf99350d3e3",
+      "size": 9316,
+      "implementation": "sources/functional-shards/shard16_math.py",
+      "status": "functional-repair"
     },
     {
       "package": "simpson-integral-calc",
-      "version": "1.0.0-1",
-      "artifact": "simpson-integral-calc_1.0.0-1_aarch64.deb",
-      "sha256": "5647b22dc5482ee00aacd7545e1ce1cc14858774583685bc38a0eb4c52b87345",
-      "size": 2156
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "simpson-integral-calc_1.0.0-2_aarch64.deb",
+      "sha256": "fe22a6c6cb308217f34ebec73307199633a0246e5b489dc9939d291fb08fab6d",
+      "size": 9312,
+      "implementation": "sources/functional-shards/shard16_math.py",
+      "status": "functional-repair"
     },
     {
       "package": "fft-fourier-transform",
-      "version": "1.0.0-1",
-      "artifact": "fft-fourier-transform_1.0.0-1_aarch64.deb",
-      "sha256": "d088f3e3c143a4e440e97d2349b6fcd86caaf5524a0c5a5c66d2bbfe968cba53",
-      "size": 2164
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "fft-fourier-transform_1.0.0-2_aarch64.deb",
+      "sha256": "eae8aefbff3d3f1b8bdfd5c8ed0b26c330c198e18f2f2143e1643eca667fa8ba",
+      "size": 9312,
+      "implementation": "sources/functional-shards/shard16_math.py",
+      "status": "functional-repair"
     },
     {
       "package": "dft-discrete-fourier",
-      "version": "1.0.0-1",
-      "artifact": "dft-discrete-fourier_1.0.0-1_aarch64.deb",
-      "sha256": "92bf1956ad1b07ede84b2c96f38a454453edcd998b8bdff5a4cdeea24e72e93c",
-      "size": 2168
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "dft-discrete-fourier_1.0.0-2_aarch64.deb",
+      "sha256": "397541a6847c3ac9c4007c6f57497b00ca5f134acd39e4fae018b05228a9795f",
+      "size": 9312,
+      "implementation": "sources/functional-shards/shard16_math.py",
+      "status": "functional-repair"
     },
     {
       "package": "complex-number-calc",
-      "version": "1.0.0-1",
-      "artifact": "complex-number-calc_1.0.0-1_aarch64.deb",
-      "sha256": "ddafe9411cc895bb17d55a4861d1c22be36114673c4216f04a37bde3c2a8b3b3",
-      "size": 2156
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "complex-number-calc_1.0.0-2_aarch64.deb",
+      "sha256": "d2f0d23619221d34f589bee10df1a9b426a66c41e4db03043b6beb81129d14c9",
+      "size": 9312,
+      "implementation": "sources/functional-shards/shard16_math.py",
+      "status": "functional-repair"
     },
     {
       "package": "quaternion-rotation",
-      "version": "1.0.0-1",
-      "artifact": "quaternion-rotation_1.0.0-1_aarch64.deb",
-      "sha256": "c6059d287a29da064530f017f89db8de4e1a7ebd68d65f33613947ce38ef6160",
-      "size": 2140
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "quaternion-rotation_1.0.0-2_aarch64.deb",
+      "sha256": "bc7df3b0780322f2dae997350b57b2281a8a03df68a48830b27a8d074a5c3685",
+      "size": 9304,
+      "implementation": "sources/functional-shards/shard16_math.py",
+      "status": "functional-repair"
     },
     {
       "package": "normal-distribution-cdf",
-      "version": "1.0.0-1",
-      "artifact": "normal-distribution-cdf_1.0.0-1_aarch64.deb",
-      "sha256": "76ce73f2f946c6061a3efdeb55daf6e43186b07053c79713e4b92526bb3493e2",
-      "size": 2156
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "normal-distribution-cdf_1.0.0-2_aarch64.deb",
+      "sha256": "a3608af5ccfb62516c49df18c0cf14432b86021951909c94877ab25470a5dd92",
+      "size": 9300,
+      "implementation": "sources/functional-shards/shard16_math.py",
+      "status": "functional-repair"
     },
     {
       "package": "poisson-prob-calc",
-      "version": "1.0.0-1",
-      "artifact": "poisson-prob-calc_1.0.0-1_aarch64.deb",
-      "sha256": "2fae5c2bfdd21724b0dfa2bd96cdee83a03ab06c345a266af8698cdf2d62f740",
-      "size": 2152
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "poisson-prob-calc_1.0.0-2_aarch64.deb",
+      "sha256": "d0cda49a7bdb0d58fd90af1cab1af0ed36e468db706400b2055b5f519df7b670",
+      "size": 9304,
+      "implementation": "sources/functional-shards/shard16_math.py",
+      "status": "functional-repair"
     },
     {
       "package": "binomial-distribution",
-      "version": "1.0.0-1",
-      "artifact": "binomial-distribution_1.0.0-1_aarch64.deb",
-      "sha256": "beecc71aba75f214a2fa19b2a9100b8ac6b143370111622d97d84aa1a8431fbe",
-      "size": 2140
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "binomial-distribution_1.0.0-2_aarch64.deb",
+      "sha256": "193f904c7bda006a68a54f3c69d3a16b0ad0d1e12783e1e7cabec4b4697b5b78",
+      "size": 9320,
+      "implementation": "sources/functional-shards/shard16_math.py",
+      "status": "functional-repair"
     },
     {
       "package": "chi-square-statistic",
-      "version": "1.0.0-1",
-      "artifact": "chi-square-statistic_1.0.0-1_aarch64.deb",
-      "sha256": "8dee4f49e102e63f6b3949b0d1ace12c0dc200ea491fbe4af563b1bd0cf677aa",
-      "size": 2164
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "chi-square-statistic_1.0.0-2_aarch64.deb",
+      "sha256": "3343151aa9011c0e46f54bb81e884b5e09b8a78ebc3c1fd99188a76099a9f8d1",
+      "size": 9308,
+      "implementation": "sources/functional-shards/shard16_math.py",
+      "status": "functional-repair"
     },
     {
       "package": "student-t-distribution",
-      "version": "1.0.0-1",
-      "artifact": "student-t-distribution_1.0.0-1_aarch64.deb",
-      "sha256": "f0e211de1e954841641e42f8d762272ef80434411b3b28bce55ec47da8756c84",
-      "size": 2148
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "student-t-distribution_1.0.0-2_aarch64.deb",
+      "sha256": "2637167a7aa8d8334cde7bd372d351a9dfe031714c54147c63dad9ce9812a8d5",
+      "size": 9300,
+      "implementation": "sources/functional-shards/shard16_math.py",
+      "status": "functional-repair"
     },
     {
       "package": "standard-deviation-calc",
-      "version": "1.0.0-1",
-      "artifact": "standard-deviation-calc_1.0.0-1_aarch64.deb",
-      "sha256": "f8812a1be49bd5f1602e8f297ba6495b47dfa8637903434de93adb794293e51a",
-      "size": 2136
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "standard-deviation-calc_1.0.0-2_aarch64.deb",
+      "sha256": "c8a520f313cbd77e51520501e0ca6560be29a6c4d196d4f6dad576db83727d9b",
+      "size": 9292,
+      "implementation": "sources/functional-shards/shard16_math.py",
+      "status": "functional-repair"
     },
     {
       "package": "covariance-matrix-cli",
-      "version": "1.0.0-1",
-      "artifact": "covariance-matrix-cli_1.0.0-1_aarch64.deb",
-      "sha256": "f40ceaa4d0f527a25133364ea29515af4da1ee854f01f1df160450b618bcc47f",
-      "size": 2140
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "covariance-matrix-cli_1.0.0-2_aarch64.deb",
+      "sha256": "bf68aec5db8c508b2edb6b710259d2d9aba64cfd9ae627ee59ef8c41706c3410",
+      "size": 9304,
+      "implementation": "sources/functional-shards/shard16_math.py",
+      "status": "functional-repair"
     },
     {
       "package": "spearman-rank-calc",
-      "version": "1.0.0-1",
-      "artifact": "spearman-rank-calc_1.0.0-1_aarch64.deb",
-      "sha256": "f0a9e8b8c51d1d2a314f4cab34b30960773d8ba172523653a752c277b2a1cf8a",
-      "size": 2136
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "spearman-rank-calc_1.0.0-2_aarch64.deb",
+      "sha256": "b4cfb93fa83cdb284f82116cf9c0648c1deb0b2253a7ebc4d6390baf10e602d2",
+      "size": 9304,
+      "implementation": "sources/functional-shards/shard16_math.py",
+      "status": "functional-repair"
     },
     {
       "package": "pearson-correlation",
-      "version": "1.0.0-1",
-      "artifact": "pearson-correlation_1.0.0-1_aarch64.deb",
-      "sha256": "08d9b094da31eca0dd02654ca60a6f59dc752e4f4b8eb74590fa4e94e5c2dba3",
-      "size": 2136
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "pearson-correlation_1.0.0-2_aarch64.deb",
+      "sha256": "6d1729ca7d16b23d89c3755fbf60ae6a1f94a9e4ef6a8f177b0ebd8e2e98d2ad",
+      "size": 9304,
+      "implementation": "sources/functional-shards/shard16_math.py",
+      "status": "functional-repair"
     },
     {
       "package": "k-means-clustering-cli",
-      "version": "1.0.0-1",
-      "artifact": "k-means-clustering-cli_1.0.0-1_aarch64.deb",
-      "sha256": "f8dc75bfb5bb8940b39e2f206930ad935335467b092d980a66d23124f7078e98",
-      "size": 2156
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "k-means-clustering-cli_1.0.0-2_aarch64.deb",
+      "sha256": "bc2e83f72f0da4df54b8f5477d30dee243df4a62caa32a644cc4292bc1b42b4f",
+      "size": 9308,
+      "implementation": "sources/functional-shards/shard16_math.py",
+      "status": "functional-repair"
     },
     {
       "package": "dijkstra-shortest-path",
-      "version": "1.0.0-1",
-      "artifact": "dijkstra-shortest-path_1.0.0-1_aarch64.deb",
-      "sha256": "0e97de857d60708e84c8886b2c0250c1898dbc724b6e477225cf60158e517702",
-      "size": 2144
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "dijkstra-shortest-path_1.0.0-2_aarch64.deb",
+      "sha256": "e9053155eb79752d2a9263c3eb356e1fd602a977b19271c7ddd64c69e9e42267",
+      "size": 9300,
+      "implementation": "sources/functional-shards/shard16_math.py",
+      "status": "functional-repair"
     },
     {
       "package": "a-star-path-finder",
-      "version": "1.0.0-1",
-      "artifact": "a-star-path-finder_1.0.0-1_aarch64.deb",
-      "sha256": "43cd0ab6ed737d0e8135bb9823fe4d2d294aeea214107bc06ccf6b04584f0274",
-      "size": 2160
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "a-star-path-finder_1.0.0-2_aarch64.deb",
+      "sha256": "63487b135b74725015bd1200e661798eacb5a97d0beac4506f5b21286c0de327",
+      "size": 9308,
+      "implementation": "sources/functional-shards/shard16_math.py",
+      "status": "functional-repair"
     },
     {
       "package": "bellman-ford-detector",
-      "version": "1.0.0-1",
-      "artifact": "bellman-ford-detector_1.0.0-1_aarch64.deb",
-      "sha256": "d883f42170d0ecd72666415310c63f727bb7638dc905e7bd238fde95d77c252e",
-      "size": 2148
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "bellman-ford-detector_1.0.0-2_aarch64.deb",
+      "sha256": "50b310771630278b9f923deacc6b25ce0049769ee97bc0b0a9b535cee35b560b",
+      "size": 9296,
+      "implementation": "sources/functional-shards/shard16_math.py",
+      "status": "functional-repair"
     },
     {
       "package": "topological-sorter",
-      "version": "1.0.0-1",
-      "artifact": "topological-sorter_1.0.0-1_aarch64.deb",
-      "sha256": "347ee1f7839df866f2a2739d655dc18b636a30bc262b10d2c8dd66072216d014",
-      "size": 2148
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "topological-sorter_1.0.0-2_aarch64.deb",
+      "sha256": "6f9f0e8b43ef3c0094daa784556e1a51bc8d7df1ea9968fba3ca48fc27ed9848",
+      "size": 9308,
+      "implementation": "sources/functional-shards/shard16_math.py",
+      "status": "functional-repair"
     },
     {
       "package": "bipartite-graph-match",
-      "version": "1.0.0-1",
-      "artifact": "bipartite-graph-match_1.0.0-1_aarch64.deb",
-      "sha256": "4326a098b4db90ae0494f1d61c30abd3831716fa53ebd486344621d71c0fcc24",
-      "size": 2156
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "bipartite-graph-match_1.0.0-2_aarch64.deb",
+      "sha256": "8b96fcb721b724995ec293e76145fe2a72581e19af40a5e221298142b61aa452",
+      "size": 9312,
+      "implementation": "sources/functional-shards/shard16_math.py",
+      "status": "functional-repair"
     },
     {
       "package": "spanning-tree-kruskal",
-      "version": "1.0.0-1",
-      "artifact": "spanning-tree-kruskal_1.0.0-1_aarch64.deb",
-      "sha256": "6606f53c34111470e625687b88bd6e41b146795f324af74311431032ea14d397",
-      "size": 2164
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "spanning-tree-kruskal_1.0.0-2_aarch64.deb",
+      "sha256": "e5d8fc5eb5701206a1dfbd1b4e4af36dfdb792700de7f12d389f65128275e333",
+      "size": 9316,
+      "implementation": "sources/functional-shards/shard16_math.py",
+      "status": "functional-repair"
     },
     {
       "package": "convex-hull-graham",
-      "version": "1.0.0-1",
-      "artifact": "convex-hull-graham_1.0.0-1_aarch64.deb",
-      "sha256": "b74d223523015a8b76d1428adcd357757ff799d7b9ad0bdcfe94fc619e96f417",
-      "size": 2148
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "convex-hull-graham_1.0.0-2_aarch64.deb",
+      "sha256": "c7fec6aa3191802246c0d2311cb248c7841be335a8a2707db6f5ebcfec680ef6",
+      "size": 9312,
+      "implementation": "sources/functional-shards/shard16_math.py",
+      "status": "functional-repair"
     },
     {
       "package": "voronoi-diagram-cli",
-      "version": "1.0.0-1",
-      "artifact": "voronoi-diagram-cli_1.0.0-1_aarch64.deb",
-      "sha256": "db7f602adb5236fd03ab3058aed8eae9ce8fff83c390d7e4a2f809bc83a99ea6",
-      "size": 2160
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "voronoi-diagram-cli_1.0.0-2_aarch64.deb",
+      "sha256": "685fa70f26a00b45f8cc21c6afa33b4a85a32a4edee7c9dd859b34a8e1507293",
+      "size": 9312,
+      "implementation": "sources/functional-shards/shard16_math.py",
+      "status": "functional-repair"
     },
     {
       "package": "delaunay-triangulate",
-      "version": "1.0.0-1",
-      "artifact": "delaunay-triangulate_1.0.0-1_aarch64.deb",
-      "sha256": "e7b2d557aa95c38a188f799d74a800dc23e740f6d166f8e1f780f8665c40fe37",
-      "size": 2148
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "delaunay-triangulate_1.0.0-2_aarch64.deb",
+      "sha256": "8a76211fff6564ab66b156607a04c9b4e965625e4f10bda6b8c03b6607c83aac",
+      "size": 9304,
+      "implementation": "sources/functional-shards/shard16_math.py",
+      "status": "functional-repair"
     },
     {
       "package": "geodesic-distance-vin",
-      "version": "1.0.0-1",
-      "artifact": "geodesic-distance-vin_1.0.0-1_aarch64.deb",
-      "sha256": "fcd53851bfe5fa89af791141fd22a3d7d24951a19525ff0a69b08350320418c3",
-      "size": 2156
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "geodesic-distance-vin_1.0.0-2_aarch64.deb",
+      "sha256": "fbd1ae38e55e5c1e907a64fa482f75c459b9458ed838f3631e552a07bc63950e",
+      "size": 9308,
+      "implementation": "sources/functional-shards/shard16_math.py",
+      "status": "functional-repair"
     },
     {
       "package": "haversine-distance-cli",
-      "version": "1.0.0-1",
-      "artifact": "haversine-distance-cli_1.0.0-1_aarch64.deb",
-      "sha256": "d62d7e0fd712fc1d82d0d1afd3b3b84fea22f27cfefe97b1ea1452491d2c0775",
-      "size": 2144
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "haversine-distance-cli_1.0.0-2_aarch64.deb",
+      "sha256": "7627b195c0813ea3ceffd38581587eec2d8718e1005f4ab2364e24492a08901a",
+      "size": 9316,
+      "implementation": "sources/functional-shards/shard16_math.py",
+      "status": "functional-repair"
     },
     {
       "package": "utm-lat-long-converter",
-      "version": "1.0.0-1",
-      "artifact": "utm-lat-long-converter_1.0.0-1_aarch64.deb",
-      "sha256": "299bf0dd1fdf81823a6d58c668b82126681cd5ee94ae804afa8da40c98b2b2e1",
-      "size": 2176
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "utm-lat-long-converter_1.0.0-2_aarch64.deb",
+      "sha256": "e609549fb88e08e99c87a57f7b912e9f8299ba1b40fc4990c8b7fc567d5b1d69",
+      "size": 9316,
+      "implementation": "sources/functional-shards/shard16_math.py",
+      "status": "functional-repair"
     },
     {
       "package": "coordinate-proj-proj4",
-      "version": "1.0.0-1",
-      "artifact": "coordinate-proj-proj4_1.0.0-1_aarch64.deb",
-      "sha256": "4b1cf84cc77b6ae1f58bf8d23c3c434ffb512527af62ceff49ec99715507d000",
-      "size": 2144
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "coordinate-proj-proj4_1.0.0-2_aarch64.deb",
+      "sha256": "32eeceec1507bcccff7aaad7e8d30f9171d44f89aea9714b5b27623562909b6a",
+      "size": 9296,
+      "implementation": "sources/functional-shards/shard16_math.py",
+      "status": "functional-repair"
     },
     {
       "package": "astronomical-julian",
-      "version": "1.0.0-1",
-      "artifact": "astronomical-julian_1.0.0-1_aarch64.deb",
-      "sha256": "8601df1d123724fc034e201acc75bcce83c05c20aad4ef23922c237d7f1e3158",
-      "size": 2148
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "astronomical-julian_1.0.0-2_aarch64.deb",
+      "sha256": "2071193b4794185e8b455d6a8b3fa16254b43326401b1eeb1a2e1fb1b5105986",
+      "size": 9304,
+      "implementation": "sources/functional-shards/shard16_math.py",
+      "status": "functional-repair"
     },
     {
       "package": "sidereal-time-calc",
-      "version": "1.0.0-1",
-      "artifact": "sidereal-time-calc_1.0.0-1_aarch64.deb",
-      "sha256": "31d3426309a013f4810636c6fccc518ce5dd739733dd8a939261c689a7f667e5",
-      "size": 2152
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "sidereal-time-calc_1.0.0-2_aarch64.deb",
+      "sha256": "cfa7e031036883ac0b7f6087a8b6a0a370c399a9fd9dbb2b5f9bf9a2f9268e06",
+      "size": 9316,
+      "implementation": "sources/functional-shards/shard16_math.py",
+      "status": "functional-repair"
     },
     {
       "package": "solar-zenith-angle",
-      "version": "1.0.0-1",
-      "artifact": "solar-zenith-angle_1.0.0-1_aarch64.deb",
-      "sha256": "5a5e16561308f7ecab123a504c8c1ece8fc6ddc10614513c6e9563ea5e7e61d2",
-      "size": 2140
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "solar-zenith-angle_1.0.0-2_aarch64.deb",
+      "sha256": "da1ce639db62bfcc0f7ab72551a579b4d301e156b13f371ff0dcb491d0256d7e",
+      "size": 9308,
+      "implementation": "sources/functional-shards/shard16_math.py",
+      "status": "functional-repair"
     },
     {
       "package": "temperature-scale-conv",
-      "version": "1.0.0-1",
-      "artifact": "temperature-scale-conv_1.0.0-1_aarch64.deb",
-      "sha256": "584103105e45e77d3a960b8456f7ade72e0208c34005610202dc08836b2a10df",
-      "size": 2172
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "temperature-scale-conv_1.0.0-2_aarch64.deb",
+      "sha256": "14da0937530355d5ce90bcd5629fa4dc817435d69edb2b6c455f6b561821a3a9",
+      "size": 9320,
+      "implementation": "sources/functional-shards/shard16_math.py",
+      "status": "functional-repair"
     },
     {
       "package": "pressure-unit-calc",
-      "version": "1.0.0-1",
-      "artifact": "pressure-unit-calc_1.0.0-1_aarch64.deb",
-      "sha256": "c77331c17208088e6a86971f8bc967a841e15cf6858f9c33988eb3e19c41df7e",
-      "size": 2164
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "pressure-unit-calc_1.0.0-2_aarch64.deb",
+      "sha256": "4fcf43c08ce8c5b9123f0f13006006aedd953485b35e99d19a431b01cc2dc032",
+      "size": 9316,
+      "implementation": "sources/functional-shards/shard16_math.py",
+      "status": "functional-repair"
     },
     {
       "package": "energy-joule-kwh-conv",
-      "version": "1.0.0-1",
-      "artifact": "energy-joule-kwh-conv_1.0.0-1_aarch64.deb",
-      "sha256": "c0ced838f587ad9d8935d28fad92f011bf2b43ef9b313d55c82c9edb23029eed",
-      "size": 2168
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "energy-joule-kwh-conv_1.0.0-2_aarch64.deb",
+      "sha256": "89e0f06985446a16fdc14725027985586f71745d3c4840c5514abcffc9523b1d",
+      "size": 9300,
+      "implementation": "sources/functional-shards/shard16_math.py",
+      "status": "functional-repair"
     },
     {
       "package": "speed-of-sound-calc",
-      "version": "1.0.0-1",
-      "artifact": "speed-of-sound-calc_1.0.0-1_aarch64.deb",
-      "sha256": "2621dbe83c8cee01b64369c19ebbc168475db3b67d4a88f3be09d47edc2b4001",
-      "size": 2152
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "speed-of-sound-calc_1.0.0-2_aarch64.deb",
+      "sha256": "93052b46035f438d6600e22be34e4cd27e89de469aa3a70df50eecdd22e849fd",
+      "size": 9308,
+      "implementation": "sources/functional-shards/shard16_math.py",
+      "status": "functional-repair"
     },
     {
       "package": "doppler-shift-calc",
-      "version": "1.0.0-1",
-      "artifact": "doppler-shift-calc_1.0.0-1_aarch64.deb",
-      "sha256": "7b1ef064914db8c9877a2eaaf7dc8c83b8a6248dfa7e280eeb4cb01a5e37378a",
-      "size": 2152
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "doppler-shift-calc_1.0.0-2_aarch64.deb",
+      "sha256": "6f85ab410e9de38185311a283b4e03ef041ea1aa8ecb6005c497df1ef1165667",
+      "size": 9320,
+      "implementation": "sources/functional-shards/shard16_math.py",
+      "status": "functional-repair"
     },
     {
       "package": "signal-to-noise-ratio",
-      "version": "1.0.0-1",
-      "artifact": "signal-to-noise-ratio_1.0.0-1_aarch64.deb",
-      "sha256": "1ae947dbece5d0e9f59c5ebbfd8117b8095cfb8dd7a21b2841a1dc26ddd706e5",
-      "size": 2148
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "signal-to-noise-ratio_1.0.0-2_aarch64.deb",
+      "sha256": "65892ef38fd4bfbcf4d1d6a255289ed8c652b721d5f03fef64c686068499ef1a",
+      "size": 9316,
+      "implementation": "sources/functional-shards/shard16_math.py",
+      "status": "functional-repair"
     },
     {
       "package": "boolean-logic-solver",
-      "version": "1.0.0-1",
-      "artifact": "boolean-logic-solver_1.0.0-1_aarch64.deb",
-      "sha256": "b6c319393862cf380e33845637182191c2784cb62fe3622305f0d80b06926b28",
-      "size": 2156
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "boolean-logic-solver_1.0.0-2_aarch64.deb",
+      "sha256": "543d1f81900a2efa8ef030e95adce6b3d10e712080df902678ef03367fd93edd",
+      "size": 9304,
+      "implementation": "sources/functional-shards/shard16_math.py",
+      "status": "functional-repair"
     },
     {
       "package": "truth-table-generator",
-      "version": "1.0.0-1",
-      "artifact": "truth-table-generator_1.0.0-1_aarch64.deb",
-      "sha256": "ee3342a3b83a6b30c0730d4d1a3a95a82bf956f03f55cfd32bd85d6232ba8b30",
-      "size": 2156
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "truth-table-generator_1.0.0-2_aarch64.deb",
+      "sha256": "9330b1ca43c48df763474c89b1d837d4f12624fa58056f18882951788f5c6461",
+      "size": 9308,
+      "implementation": "sources/functional-shards/shard16_math.py",
+      "status": "functional-repair"
     }
   ]
 }

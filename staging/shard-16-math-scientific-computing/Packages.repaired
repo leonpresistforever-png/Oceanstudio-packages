@@ -1,0 +1,749 @@
+Package: bigint-modular-power
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/bigint-modular-power_1.0.0-2_aarch64.deb
+Size: 9312
+MD5sum: 5af493b719dad72975276ee28b22b8db
+SHA1: 3c77e5a32ee8ab517bda4c519256556296ac7020
+SHA256: 0c3dc831b9acf951ffcfb659cbaff3f03f34219f8917b0396106c145459a341e
+Section: math
+Priority: optional
+Description: arbitrary-precision modular exponentiation calculator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: bigint-extended-gcd
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/bigint-extended-gcd_1.0.0-2_aarch64.deb
+Size: 9316
+MD5sum: 0e13269f3dd6d4da221ef59b6f6f5977
+SHA1: de78c19ee094d58c2782fe4943ae47f1e0230a4c
+SHA256: 0f9336ad1cd0e251ac0b690670c88bab56b947fc6f0fa478dc8c6ed4648bfd25
+Section: math
+Priority: optional
+Description: Extended Euclidean algorithm Bezout identity solver
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: bigfloat-sqrt-calc
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/bigfloat-sqrt-calc_1.0.0-2_aarch64.deb
+Size: 9312
+MD5sum: 3d03a9dcd962547ec93dd978dd4abc4c
+SHA1: 2192b363587dbd91a887a9705166159096891b83
+SHA256: 8412dae026b9ac733e52be762c082e4323f0034176d24ec22c0f197920706d80
+Section: math
+Priority: optional
+Description: arbitrary-precision square root via Newton-Raphson
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: bigfloat-pi-chudnovsky
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/bigfloat-pi-chudnovsky_1.0.0-2_aarch64.deb
+Size: 9312
+MD5sum: c1b0e08d1eda8982ea65a5ea1c1cd1a0
+SHA1: 59e8d7e88998580008b082240a51fc5d42be8ea0
+SHA256: 8a750e998df8c814ae3daccacc1ded53e6f5056f26fdc9bdff74167fa3d80716
+Section: math
+Priority: optional
+Description: Chudnovsky algorithm arbitrary precision Pi generator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: matrix-determinant-2d
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/matrix-determinant-2d_1.0.0-2_aarch64.deb
+Size: 9304
+MD5sum: 0bca9ffda26fb6a9fa731a08d14bbde3
+SHA1: 71793f364e004037d9b66168ebe71e0538cfaa5f
+SHA256: f04cc7b8e4d9bc0ed97aeb53d18d93643e0c926bc0faadb0e461c449f37d50eb
+Section: math
+Priority: optional
+Description: 2x2 and NxN matrix determinant algebraic solver
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: matrix-inverse-3d
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/matrix-inverse-3d_1.0.0-2_aarch64.deb
+Size: 9300
+MD5sum: 30b47f7eb88eb5985d79c4120309bbc2
+SHA1: 9570a95ade8ed50dace75c188756de32e455c3e6
+SHA256: 8c48d97f9c635f9cb3ae84194bb6bbea5ec39c90a9eb2bd73499c714710e1138
+Section: math
+Priority: optional
+Description: matrix Gauss-Jordan elimination inversion tool
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: matrix-eigen-evaluator
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/matrix-eigen-evaluator_1.0.0-2_aarch64.deb
+Size: 9300
+MD5sum: 736e1a003968cea5fb4cae4672444214
+SHA1: 7a147328f93107b107033f211af9376eae1f78eb
+SHA256: 9a1067a4b9762d404e4401525f2bd6e2bf7c28badb730405785a8efb2f544aaf
+Section: math
+Priority: optional
+Description: symmetric matrix eigenvalue power iteration estimator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: vector-dot-cross-prod
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/vector-dot-cross-prod_1.0.0-2_aarch64.deb
+Size: 9308
+MD5sum: 5bb7a96d839810383a1a41d37d12ad57
+SHA1: 2149edfcadbf465197856712d6c26b53c2396e2a
+SHA256: 7fd602a01625ce9751dca6c3ad28d2c9a29cac5b0cb596564a043b192c231c6e
+Section: math
+Priority: optional
+Description: 3D vector dot product cross product and norm calculator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: linear-regression-ols
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/linear-regression-ols_1.0.0-2_aarch64.deb
+Size: 9312
+MD5sum: 5bbef3ca62e952712d1d8e40f15a7b15
+SHA1: b745a453975c1528ceaf774f724e112d8d7b45d0
+SHA256: 0ddecc92a09769a720741f88d685c05a3b2dec350603f103f8c1c1687e10c602
+Section: math
+Priority: optional
+Description: Ordinary Least Squares slope and intercept calculator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: polynomial-root-finder
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/polynomial-root-finder_1.0.0-2_aarch64.deb
+Size: 9300
+MD5sum: d409f92ac7f6688dbf62fe2ef7a469ec
+SHA1: 3e45f2541d95d0b6b95325060171ca0979fb708d
+SHA256: 7d32f8626164f5fd1fd5b5e793dc405df7d3ef837b9169ab3725d780b4a1cd31
+Section: math
+Priority: optional
+Description: polynomial synthetic division and real root finder
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: runge-kutta-integrator
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/runge-kutta-integrator_1.0.0-2_aarch64.deb
+Size: 9316
+MD5sum: e7dbdb49ac1a023584578c9644c6f4fd
+SHA1: 951b840272b1b52692302489d0f80e2e86dfdaa6
+SHA256: 34be3cf2a94539e83d860057d324bc119c6846efd04dc8b8a905faf99350d3e3
+Section: math
+Priority: optional
+Description: RK4 fourth-order Runge-Kutta differential solver
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: simpson-integral-calc
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/simpson-integral-calc_1.0.0-2_aarch64.deb
+Size: 9312
+MD5sum: 1f2be44857c78d5136b030cad4e5243a
+SHA1: 3235256a99a2cb08cf5831754d055c74c247e1a3
+SHA256: fe22a6c6cb308217f34ebec73307199633a0246e5b489dc9939d291fb08fab6d
+Section: math
+Priority: optional
+Description: composite Simpson numerical definite integral solver
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: fft-fourier-transform
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/fft-fourier-transform_1.0.0-2_aarch64.deb
+Size: 9312
+MD5sum: 451f24ebf8e4eb08fce23a4349b7bce8
+SHA1: 2fe72219374dd7df9521e80be39c664fa5f5e3a2
+SHA256: eae8aefbff3d3f1b8bdfd5c8ed0b26c330c198e18f2f2143e1643eca667fa8ba
+Section: math
+Priority: optional
+Description: Cooley-Tukey Radix-2 Fast Fourier Transform tool
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: dft-discrete-fourier
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/dft-discrete-fourier_1.0.0-2_aarch64.deb
+Size: 9312
+MD5sum: 5b7d8165400ed66ef629bf608be2a27a
+SHA1: f3cb2896e05e71ddbc49abac1b3f95e3e1859a50
+SHA256: 397541a6847c3ac9c4007c6f57497b00ca5f134acd39e4fae018b05228a9795f
+Section: math
+Priority: optional
+Description: Discrete Fourier Transform discrete frequency analyzer
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: complex-number-calc
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/complex-number-calc_1.0.0-2_aarch64.deb
+Size: 9312
+MD5sum: ba8d997c361c15e0dfbca9b977856ec8
+SHA1: eb58baaeae31a2c056e5b17b5183b8b1d489633d
+SHA256: d2f0d23619221d34f589bee10df1a9b426a66c41e4db03043b6beb81129d14c9
+Section: math
+Priority: optional
+Description: complex arithmetic magnitude phase Euler polar form
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: quaternion-rotation
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/quaternion-rotation_1.0.0-2_aarch64.deb
+Size: 9304
+MD5sum: b74f8982bc89e6a0dac111305cd61307
+SHA1: 8184b2afcf5dfa3fdb463e26469a59a7c0676b39
+SHA256: bc7df3b0780322f2dae997350b57b2281a8a03df68a48830b27a8d074a5c3685
+Section: math
+Priority: optional
+Description: 3D quaternion Hamilton product and spatial rotation
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: normal-distribution-cdf
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/normal-distribution-cdf_1.0.0-2_aarch64.deb
+Size: 9300
+MD5sum: dbae5e0b05e0e03ac651ba778f081e8a
+SHA1: 571e2b2f78191bed1d7c8b9c1758289502c80791
+SHA256: a3608af5ccfb62516c49df18c0cf14432b86021951909c94877ab25470a5dd92
+Section: math
+Priority: optional
+Description: Gaussian standard normal cumulative distribution
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: poisson-prob-calc
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/poisson-prob-calc_1.0.0-2_aarch64.deb
+Size: 9304
+MD5sum: 4b86234ac961d5b561de6f0e43b527da
+SHA1: ea818aa3f1ca8157b322321ec8fcaf7442fa1e3a
+SHA256: d0cda49a7bdb0d58fd90af1cab1af0ed36e468db706400b2055b5f519df7b670
+Section: math
+Priority: optional
+Description: Poisson probability mass function and interval solver
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: binomial-distribution
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/binomial-distribution_1.0.0-2_aarch64.deb
+Size: 9320
+MD5sum: a3319ec2d04535ca6b49549cb9f0981a
+SHA1: f2bfa7c620d67d0989d67f93cc58c432132d5655
+SHA256: 193f904c7bda006a68a54f3c69d3a16b0ad0d1e12783e1e7cabec4b4697b5b78
+Section: math
+Priority: optional
+Description: binomial coefficient and Bernoulli trial calculator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: chi-square-statistic
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/chi-square-statistic_1.0.0-2_aarch64.deb
+Size: 9308
+MD5sum: 8bd8dc5252c7513a9b9e8153845acdcc
+SHA1: f6416034dee5e5f91e38a34e77f37cfc7668bbe3
+SHA256: 3343151aa9011c0e46f54bb81e884b5e09b8a78ebc3c1fd99188a76099a9f8d1
+Section: math
+Priority: optional
+Description: Chi-square goodness-of-fit contingency test tool
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: student-t-distribution
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/student-t-distribution_1.0.0-2_aarch64.deb
+Size: 9300
+MD5sum: ca009c4301e4a7eb5ca72fc5b1765808
+SHA1: 1f8eb18a8c239d2f8024e85add5d6771fac94f45
+SHA256: 2637167a7aa8d8334cde7bd372d351a9dfe031714c54147c63dad9ce9812a8d5
+Section: math
+Priority: optional
+Description: Student t-distribution two-tailed p-value evaluator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: standard-deviation-calc
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/standard-deviation-calc_1.0.0-2_aarch64.deb
+Size: 9292
+MD5sum: fcb6f108d7b7ff80d2642876574a2dd4
+SHA1: 3a54eb8c0d9e44e16bd7ad83efd7b2e173958330
+SHA256: c8a520f313cbd77e51520501e0ca6560be29a6c4d196d4f6dad576db83727d9b
+Section: math
+Priority: optional
+Description: sample variance and standard deviation calculator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: covariance-matrix-cli
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/covariance-matrix-cli_1.0.0-2_aarch64.deb
+Size: 9304
+MD5sum: e373d5674ffe1a0f7e05d7a1348070ef
+SHA1: 22955fd4dacd33843c1e6fe589bd53c5ee7219bc
+SHA256: bf68aec5db8c508b2edb6b710259d2d9aba64cfd9ae627ee59ef8c41706c3410
+Section: math
+Priority: optional
+Description: multivariate dataset covariance matrix calculator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: spearman-rank-calc
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/spearman-rank-calc_1.0.0-2_aarch64.deb
+Size: 9304
+MD5sum: 2ea64ac2b5ec6108dbeb33e1b60ba819
+SHA1: f8def75c093c943d04d97781fa487140097b4f82
+SHA256: b4cfb93fa83cdb284f82116cf9c0648c1deb0b2253a7ebc4d6390baf10e602d2
+Section: math
+Priority: optional
+Description: Spearman rank correlation coefficient calculator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: pearson-correlation
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/pearson-correlation_1.0.0-2_aarch64.deb
+Size: 9304
+MD5sum: 13364d0eff277d4e0c412ff68331e980
+SHA1: 20e81dda51cbcd1a1ac4552be5ddb3e731fa3547
+SHA256: 6d1729ca7d16b23d89c3755fbf60ae6a1f94a9e4ef6a8f177b0ebd8e2e98d2ad
+Section: math
+Priority: optional
+Description: Pearson product-moment correlation coefficient tool
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: k-means-clustering-cli
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/k-means-clustering-cli_1.0.0-2_aarch64.deb
+Size: 9308
+MD5sum: da2743c6f27d876a55bbbec3bad61019
+SHA1: 15a6f5da7fd2bfc8eac9c13c90031e5e24ac58bd
+SHA256: bc2e83f72f0da4df54b8f5477d30dee243df4a62caa32a644cc4292bc1b42b4f
+Section: math
+Priority: optional
+Description: K-Means Lloyd clustering centroid classifier
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: dijkstra-shortest-path
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/dijkstra-shortest-path_1.0.0-2_aarch64.deb
+Size: 9300
+MD5sum: 2df467b56ddf67d4d9ea6825e649fc28
+SHA1: 74bcae3eac45f67ade516f6dc8b025429e19fb1c
+SHA256: e9053155eb79752d2a9263c3eb356e1fd602a977b19271c7ddd64c69e9e42267
+Section: math
+Priority: optional
+Description: Dijkstra weighted graph shortest path algorithm
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: a-star-path-finder
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/a-star-path-finder_1.0.0-2_aarch64.deb
+Size: 9308
+MD5sum: 8a2f4c86e9b74c019b3d0050fd264723
+SHA1: ad4293f7cdeae5e6ca179df85bb46b46dd360960
+SHA256: 63487b135b74725015bd1200e661798eacb5a97d0beac4506f5b21286c0de327
+Section: math
+Priority: optional
+Description: A* heuristic search 2D grid pathfinding solver
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: bellman-ford-detector
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/bellman-ford-detector_1.0.0-2_aarch64.deb
+Size: 9296
+MD5sum: ae6250a1e45ae77cfa378c6de3f30e14
+SHA1: 305babfeec76d839d265aff0c6db985cc72c6192
+SHA256: 50b310771630278b9f923deacc6b25ce0049769ee97bc0b0a9b535cee35b560b
+Section: math
+Priority: optional
+Description: Bellman-Ford negative weight cycle detector
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: topological-sorter
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/topological-sorter_1.0.0-2_aarch64.deb
+Size: 9308
+MD5sum: e5ee2abfa17bdb8adf8fc32e8f33dddb
+SHA1: 5b26dc4735af53ef51bb3df453fd8ebbda868ff7
+SHA256: 6f9f0e8b43ef3c0094daa784556e1a51bc8d7df1ea9968fba3ca48fc27ed9848
+Section: math
+Priority: optional
+Description: Directed Acyclic Graph Kahn topological sort engine
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: bipartite-graph-match
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/bipartite-graph-match_1.0.0-2_aarch64.deb
+Size: 9312
+MD5sum: eb73f4cb7fa224e7ca606d295c7a4ba3
+SHA1: 3df370c3e5301557240980f64176f1ed13bb1416
+SHA256: 8b96fcb721b724995ec293e76145fe2a72581e19af40a5e221298142b61aa452
+Section: math
+Priority: optional
+Description: Hopcroft-Karp maximum bipartite matching algorithm
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: spanning-tree-kruskal
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/spanning-tree-kruskal_1.0.0-2_aarch64.deb
+Size: 9316
+MD5sum: 2aa0985ec0da98971a36128f405f8db7
+SHA1: a6c80338f59209e233a3d1c26c602c7a2dd666a7
+SHA256: e5d8fc5eb5701206a1dfbd1b4e4af36dfdb792700de7f12d389f65128275e333
+Section: math
+Priority: optional
+Description: Kruskal Minimum Spanning Tree disjoint-set solver
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: convex-hull-graham
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/convex-hull-graham_1.0.0-2_aarch64.deb
+Size: 9312
+MD5sum: aad71cad8c0ea0bf66c67b0b6c10e5a9
+SHA1: f9df2c92720148733def421e4ffa6495c74356ea
+SHA256: c7fec6aa3191802246c0d2311cb248c7841be335a8a2707db6f5ebcfec680ef6
+Section: math
+Priority: optional
+Description: Graham scan 2D point cloud convex hull calculator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: voronoi-diagram-cli
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/voronoi-diagram-cli_1.0.0-2_aarch64.deb
+Size: 9312
+MD5sum: a8489750cd30c88894f93b7756ec58fb
+SHA1: bb762ccdd36562990baba81eade2d155eb107505
+SHA256: 685fa70f26a00b45f8cc21c6afa33b4a85a32a4edee7c9dd859b34a8e1507293
+Section: math
+Priority: optional
+Description: 2D planar Voronoi partition cell vertex generator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: delaunay-triangulate
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/delaunay-triangulate_1.0.0-2_aarch64.deb
+Size: 9304
+MD5sum: 9684fbb31c28326171274d1dff44e0be
+SHA1: 5c242456d7d455a22ce46b364c88c88ed1a063af
+SHA256: 8a76211fff6564ab66b156607a04c9b4e965625e4f10bda6b8c03b6607c83aac
+Section: math
+Priority: optional
+Description: Bowyer-Watson 2D Delaunay triangulation tool
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: geodesic-distance-vin
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/geodesic-distance-vin_1.0.0-2_aarch64.deb
+Size: 9308
+MD5sum: 35784b3ba94e64058f67a1afd88a89c4
+SHA1: 207653a1613cbaa0ab2ed7faf396153f8086afe4
+SHA256: fbd1ae38e55e5c1e907a64fa482f75c459b9458ed838f3631e552a07bc63950e
+Section: math
+Priority: optional
+Description: Vincenty inverse geodesic ellipsoid distance tool
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: haversine-distance-cli
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/haversine-distance-cli_1.0.0-2_aarch64.deb
+Size: 9316
+MD5sum: 2108892eb506ce96f611feed67f99731
+SHA1: 3cd4ce806aff6996ac0bacceca37e2555c0f9592
+SHA256: 7627b195c0813ea3ceffd38581587eec2d8718e1005f4ab2364e24492a08901a
+Section: math
+Priority: optional
+Description: Haversine great-circle spherical distance calculator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: utm-lat-long-converter
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/utm-lat-long-converter_1.0.0-2_aarch64.deb
+Size: 9316
+MD5sum: ef3b85754012a5f4f91ac2ed5cbc1e6c
+SHA1: e5ff41edbbb92ffc5a03563253f0aa82f20689ab
+SHA256: e609549fb88e08e99c87a57f7b912e9f8299ba1b40fc4990c8b7fc567d5b1d69
+Section: math
+Priority: optional
+Description: Universal Transverse Mercator GPS coordinate converter
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: coordinate-proj-proj4
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/coordinate-proj-proj4_1.0.0-2_aarch64.deb
+Size: 9296
+MD5sum: 640d711cb079fd97668427b95b408f94
+SHA1: c706e0e738b049a9640544fd6813438ff94108ef
+SHA256: 32eeceec1507bcccff7aaad7e8d30f9171d44f89aea9714b5b27623562909b6a
+Section: math
+Priority: optional
+Description: cartographic coordinate transformation helper
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: astronomical-julian
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/astronomical-julian_1.0.0-2_aarch64.deb
+Size: 9304
+MD5sum: 6dff69595ad32f69a6640b4b58e79ac0
+SHA1: fb476f5a56cd63c3f32b40f04ff1e3e54761aa66
+SHA256: 2071193b4794185e8b455d6a8b3fa16254b43326401b1eeb1a2e1fb1b5105986
+Section: math
+Priority: optional
+Description: Julian Day and Modified Julian Date astronomical calc
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: sidereal-time-calc
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/sidereal-time-calc_1.0.0-2_aarch64.deb
+Size: 9316
+MD5sum: 09e44fd5f54fb22f3bbe1823ef452b2a
+SHA1: 37d4adbb628a9eafcdaa1d7023ff9b1a9bed4561
+SHA256: cfa7e031036883ac0b7f6087a8b6a0a370c399a9fd9dbb2b5f9bf9a2f9268e06
+Section: math
+Priority: optional
+Description: Greenwich Mean Sidereal Time astronomical calculator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: solar-zenith-angle
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/solar-zenith-angle_1.0.0-2_aarch64.deb
+Size: 9308
+MD5sum: d81295fc2e55e8960d343d1b5153d45a
+SHA1: 37f78e043076ad58c72bb0be1d8dd389450b5a4d
+SHA256: da1ce639db62bfcc0f7ab72551a579b4d301e156b13f371ff0dcb491d0256d7e
+Section: math
+Priority: optional
+Description: solar elevation and azimuth zenith angle calculator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: temperature-scale-conv
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/temperature-scale-conv_1.0.0-2_aarch64.deb
+Size: 9320
+MD5sum: 2958f24c13e266c7a22defc0e92c56a7
+SHA1: 9033466a350abd6936d5375c52ef367c4bad8c31
+SHA256: 14da0937530355d5ce90bcd5629fa4dc817435d69edb2b6c455f6b561821a3a9
+Section: math
+Priority: optional
+Description: Celsius Fahrenheit Kelvin Rankine Delisle converter
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: pressure-unit-calc
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/pressure-unit-calc_1.0.0-2_aarch64.deb
+Size: 9316
+MD5sum: 37e4642e6c396b0878cc9d2ac18dcf5f
+SHA1: 270f5c84a94a1736b71796a6d4d4507240ee2cc5
+SHA256: 4fcf43c08ce8c5b9123f0f13006006aedd953485b35e99d19a431b01cc2dc032
+Section: math
+Priority: optional
+Description: Pascal Bar Atmosphere Torr PSI pressure converter
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: energy-joule-kwh-conv
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/energy-joule-kwh-conv_1.0.0-2_aarch64.deb
+Size: 9300
+MD5sum: b6e618936fdef07c847c440ced888e39
+SHA1: 890ae7d4300a083ec30d18c0765e3b5a8d234bc5
+SHA256: 89e0f06985446a16fdc14725027985586f71745d3c4840c5514abcffc9523b1d
+Section: math
+Priority: optional
+Description: Joule Watt-hour Calorie BTU energy converter
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: speed-of-sound-calc
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/speed-of-sound-calc_1.0.0-2_aarch64.deb
+Size: 9308
+MD5sum: 380f7479898b2cbed3e871f0352b814a
+SHA1: 1ab2e070a2c321cc39c4b3fc8ee0f03362d384b2
+SHA256: 93052b46035f438d6600e22be34e4cd27e89de469aa3a70df50eecdd22e849fd
+Section: math
+Priority: optional
+Description: speed of sound in dry air by temperature calculator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: doppler-shift-calc
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/doppler-shift-calc_1.0.0-2_aarch64.deb
+Size: 9320
+MD5sum: e223f04d885b35dfb4e8171ac0e31ff2
+SHA1: aab7287eb88799a01e86063ad888c7696e447ac9
+SHA256: 6f85ab410e9de38185311a283b4e03ef041ea1aa8ecb6005c497df1ef1165667
+Section: math
+Priority: optional
+Description: Doppler frequency shift acoustic and RF calculator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: signal-to-noise-ratio
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/signal-to-noise-ratio_1.0.0-2_aarch64.deb
+Size: 9316
+MD5sum: 812005a558e9c69a469fa4ecdfc4896a
+SHA1: b3ed22998f5210fc8c22a1717f4877ab943c2944
+SHA256: 65892ef38fd4bfbcf4d1d6a255289ed8c652b721d5f03fef64c686068499ef1a
+Section: math
+Priority: optional
+Description: Signal-to-Noise Ratio and decibel power calculator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: boolean-logic-solver
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/boolean-logic-solver_1.0.0-2_aarch64.deb
+Size: 9304
+MD5sum: 1d727930e2f0c281294bb4a080b31ebc
+SHA1: 927377894c4b69e968cfe16fc11dff9f67f7f290
+SHA256: 543d1f81900a2efa8ef030e95adce6b3d10e712080df902678ef03367fd93edd
+Section: math
+Priority: optional
+Description: boolean logic expression truth table and SAT solver
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: truth-table-generator
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/truth-table-generator_1.0.0-2_aarch64.deb
+Size: 9308
+MD5sum: ecb09d14a66588a19b048ca006665133
+SHA1: 322925ed21841c43d554e788aafb0425f588c12c
+SHA256: 9330b1ca43c48df763474c89b1d837d4f12624fa58056f18882951788f5c6461
+Section: math
+Priority: optional
+Description: propositional logic formula full truth table matrix
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.

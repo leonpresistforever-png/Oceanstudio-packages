@@ -1,361 +1,513 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "shard": "shard-13-text-nlp-corpora",
-  "section": "text",
   "category": "Text Processing & Natural Language Corpora",
+  "repair": "placeholder-to-functional",
   "target": "aarch64-linux-android28",
   "prefix": "/data/data/studio.ocean.app/files/usr",
   "packageCount": 50,
+  "uniquePackageCount": 50,
+  "version": "1.0.0-2",
   "packages": [
     {
       "package": "unicode-codepoint-info",
-      "version": "1.0.0-1",
-      "artifact": "unicode-codepoint-info_1.0.0-1_aarch64.deb",
-      "sha256": "afdf536b3bfad35818ccf853c13685c3dccd82f4653c47e502f78b549e560ace",
-      "size": 2164
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "unicode-codepoint-info_1.0.0-2_aarch64.deb",
+      "sha256": "6c29536ad714f3daf2e9ae5049ff751dbac2d1a8db738649d0647fcfed9c230d",
+      "size": 7236,
+      "implementation": "sources/functional-shards/shard13_text.py",
+      "status": "functional-repair"
     },
     {
       "package": "unicode-normalization",
-      "version": "1.0.0-1",
-      "artifact": "unicode-normalization_1.0.0-1_aarch64.deb",
-      "sha256": "ef9960753e33481974570c32b1e6180e4f5833a314186b647274e3a9d15888c3",
-      "size": 2152
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "unicode-normalization_1.0.0-2_aarch64.deb",
+      "sha256": "d85c8cd97c5a9963029ca31656ff580b50e250ef2c93cf64df06eae9c3c03737",
+      "size": 7236,
+      "implementation": "sources/functional-shards/shard13_text.py",
+      "status": "functional-repair"
     },
     {
       "package": "utf8-byte-inspector",
-      "version": "1.0.0-1",
-      "artifact": "utf8-byte-inspector_1.0.0-1_aarch64.deb",
-      "sha256": "ca5a145f71f95d5f1928aba6b39386257aa46d6a3b7f4a55935cfbe8f26fed0e",
-      "size": 2172
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "utf8-byte-inspector_1.0.0-2_aarch64.deb",
+      "sha256": "927471b9dacc5cfd6836e91fd479de5266b45bc7d2e63cf36e0988fd24443213",
+      "size": 7244,
+      "implementation": "sources/functional-shards/shard13_text.py",
+      "status": "functional-repair"
     },
     {
       "package": "utf16-surrogate-pair",
-      "version": "1.0.0-1",
-      "artifact": "utf16-surrogate-pair_1.0.0-1_aarch64.deb",
-      "sha256": "536bbee33610683c77e4ae1aecb19a6fd6965a2d7bc1c27ad33b52fc3611f5f4",
-      "size": 2156
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "utf16-surrogate-pair_1.0.0-2_aarch64.deb",
+      "sha256": "1f5f0f902673e90f162e872a8b253ec26a8ccbfb818a0f11a45d7430a4444998",
+      "size": 7236,
+      "implementation": "sources/functional-shards/shard13_text.py",
+      "status": "functional-repair"
     },
     {
       "package": "ascii-armor-encoder",
-      "version": "1.0.0-1",
-      "artifact": "ascii-armor-encoder_1.0.0-1_aarch64.deb",
-      "sha256": "6af074c18fe0d5eec2efdd10815b738d2bcc85280c1b71cff16532d857973561",
-      "size": 2164
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "ascii-armor-encoder_1.0.0-2_aarch64.deb",
+      "sha256": "ee0d1bf8304bc874aee59d8e58e61caeb39a35e1b17071063ba88ada9b87f95d",
+      "size": 7256,
+      "implementation": "sources/functional-shards/shard13_text.py",
+      "status": "functional-repair"
     },
     {
       "package": "punycode-idna-decode",
-      "version": "1.0.0-1",
-      "artifact": "punycode-idna-decode_1.0.0-1_aarch64.deb",
-      "sha256": "3ac09fd66c0610c47ff881034722067e44dfc1cdc8741995edfed09ec6a00364",
-      "size": 2164
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "punycode-idna-decode_1.0.0-2_aarch64.deb",
+      "sha256": "ebc760200152dfb0b26ca5b4b589c525997dcd61f2bc8de16d884e4cb9cb88dc",
+      "size": 7240,
+      "implementation": "sources/functional-shards/shard13_text.py",
+      "status": "functional-repair"
     },
     {
       "package": "regex-pcre2-tester",
-      "version": "1.0.0-1",
-      "artifact": "regex-pcre2-tester_1.0.0-1_aarch64.deb",
-      "sha256": "44a3b8eb51fbab1b70eb97450f57f310d9cc0503a434b2689fabec037ba34cd7",
-      "size": 2172
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "regex-pcre2-tester_1.0.0-2_aarch64.deb",
+      "sha256": "bc47ad292eef4e985a66a875d553d438484aeab204dad0d5500bc84f5c6f93bd",
+      "size": 7248,
+      "implementation": "sources/functional-shards/shard13_text.py",
+      "status": "functional-repair"
     },
     {
       "package": "regex-posix-matcher",
-      "version": "1.0.0-1",
-      "artifact": "regex-posix-matcher_1.0.0-1_aarch64.deb",
-      "sha256": "fc084e43751fce392be69ac2365c4264fbadab65e245045000b31558779b5739",
-      "size": 2160
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "regex-posix-matcher_1.0.0-2_aarch64.deb",
+      "sha256": "b8182e9ca99df7344fcc4a91e3972514a9374da6a4b3bfb7437e3bc51fbc609e",
+      "size": 7252,
+      "implementation": "sources/functional-shards/shard13_text.py",
+      "status": "functional-repair"
     },
     {
       "package": "regex-dfa-visualizer",
-      "version": "1.0.0-1",
-      "artifact": "regex-dfa-visualizer_1.0.0-1_aarch64.deb",
-      "sha256": "1353d8ad74bea2957df865042589ec4a275946620764a976f868564e41b42d14",
-      "size": 2176
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "regex-dfa-visualizer_1.0.0-2_aarch64.deb",
+      "sha256": "c1dfec641d92f1487b4321d428dfa6f5b914d64cb285eff5bb49613aaaaa5624",
+      "size": 7256,
+      "implementation": "sources/functional-shards/shard13_text.py",
+      "status": "functional-repair"
     },
     {
       "package": "word-frequency-counter",
-      "version": "1.0.0-1",
-      "artifact": "word-frequency-counter_1.0.0-1_aarch64.deb",
-      "sha256": "86d9f61aab2cbd054885539c9437935c823de796461beac21dcd92ae7c45d790",
-      "size": 2156
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "word-frequency-counter_1.0.0-2_aarch64.deb",
+      "sha256": "75316aabd0d5c7de67060a20ea2524eb5e59205e999435dd36c3f1fb4c848b71",
+      "size": 7224,
+      "implementation": "sources/functional-shards/shard13_text.py",
+      "status": "functional-repair"
     },
     {
       "package": "character-ngram-gen",
-      "version": "1.0.0-1",
-      "artifact": "character-ngram-gen_1.0.0-1_aarch64.deb",
-      "sha256": "20c821d5496237ec2dfed29a354c810f056737d5159799346f5fd3e0693851c5",
-      "size": 2156
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "character-ngram-gen_1.0.0-2_aarch64.deb",
+      "sha256": "543549450f08dae903eb55e6fab5ee9d0de4a0b8f16f0200a10dff80594e47d9",
+      "size": 7236,
+      "implementation": "sources/functional-shards/shard13_text.py",
+      "status": "functional-repair"
     },
     {
       "package": "token-stopword-filter",
-      "version": "1.0.0-1",
-      "artifact": "token-stopword-filter_1.0.0-1_aarch64.deb",
-      "sha256": "f0f9032d9962d8837bb7f353a55ce98feaa9ff6337b15960b005b610291f09cc",
-      "size": 2136
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "token-stopword-filter_1.0.0-2_aarch64.deb",
+      "sha256": "adc768709ad243d5cb4c5e7d824d3a7cb56a2da2dff65de2e8f0271ba35bf4e2",
+      "size": 7244,
+      "implementation": "sources/functional-shards/shard13_text.py",
+      "status": "functional-repair"
     },
     {
       "package": "porter-stemmer-cli",
-      "version": "1.0.0-1",
-      "artifact": "porter-stemmer-cli_1.0.0-1_aarch64.deb",
-      "sha256": "59e7c7621aa96b9e112b500f70df2cc0b419a294eb373b981f34c4e6b29fbbd2",
-      "size": 2156
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "porter-stemmer-cli_1.0.0-2_aarch64.deb",
+      "sha256": "86c7fc014e8c08b488c39dcafad8123ce38b40c3086ef7cc9b968f209c871108",
+      "size": 7240,
+      "implementation": "sources/functional-shards/shard13_text.py",
+      "status": "functional-repair"
     },
     {
       "package": "snowball-stemmer-tool",
-      "version": "1.0.0-1",
-      "artifact": "snowball-stemmer-tool_1.0.0-1_aarch64.deb",
-      "sha256": "e5e5bc7545a30b9d7cc58cb4ffe0ce87a2301442e91e6a664c87ae3f4f22348b",
-      "size": 2156
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "snowball-stemmer-tool_1.0.0-2_aarch64.deb",
+      "sha256": "5fb19898b2ef838d27eee12d92f507dd78ac7cc182061ea9394153f76233e15e",
+      "size": 7232,
+      "implementation": "sources/functional-shards/shard13_text.py",
+      "status": "functional-repair"
     },
     {
       "package": "soundex-phonetic-calc",
-      "version": "1.0.0-1",
-      "artifact": "soundex-phonetic-calc_1.0.0-1_aarch64.deb",
-      "sha256": "aa4d82ed8a0125460b960869db03888590faf174f7408ddbc872c6566a503ef1",
-      "size": 2148
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "soundex-phonetic-calc_1.0.0-2_aarch64.deb",
+      "sha256": "a8d04ff1cfb2c6d9817a33bc1ac08280a6a436d10f9a1e4d9defc4ea99c33c78",
+      "size": 7220,
+      "implementation": "sources/functional-shards/shard13_text.py",
+      "status": "functional-repair"
     },
     {
       "package": "metaphone-phonetic-cli",
-      "version": "1.0.0-1",
-      "artifact": "metaphone-phonetic-cli_1.0.0-1_aarch64.deb",
-      "sha256": "2987ff1dab7493ff83766a5379875cca627f49b58181ba94309e3a63a9733014",
-      "size": 2160
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "metaphone-phonetic-cli_1.0.0-2_aarch64.deb",
+      "sha256": "0be9ba203d7df96a5b0a1ad7543507455c060167938560884703a0651b318699",
+      "size": 7236,
+      "implementation": "sources/functional-shards/shard13_text.py",
+      "status": "functional-repair"
     },
     {
       "package": "levenshtein-distance",
-      "version": "1.0.0-1",
-      "artifact": "levenshtein-distance_1.0.0-1_aarch64.deb",
-      "sha256": "958c1880cf93586e90b6c16d42a21872990d58c1b9e85534b46274b1b0f97bb2",
-      "size": 2152
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "levenshtein-distance_1.0.0-2_aarch64.deb",
+      "sha256": "16fafc4959ea16ac98a7a93e38e546b8b369e676d2253da3781ad8ff4d249170",
+      "size": 7236,
+      "implementation": "sources/functional-shards/shard13_text.py",
+      "status": "functional-repair"
     },
     {
       "package": "jaro-winkler-similarity",
-      "version": "1.0.0-1",
-      "artifact": "jaro-winkler-similarity_1.0.0-1_aarch64.deb",
-      "sha256": "9fed6975782f8ebaaffc2bfa41a8b756904291d21dd348bd9c47f87bcf5899c4",
-      "size": 2160
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "jaro-winkler-similarity_1.0.0-2_aarch64.deb",
+      "sha256": "ab59634298b2801fda5a883c09f5ac93b62014c2c69e618258ecbc63dc2d7ff7",
+      "size": 7228,
+      "implementation": "sources/functional-shards/shard13_text.py",
+      "status": "functional-repair"
     },
     {
       "package": "hamming-distance-calc",
-      "version": "1.0.0-1",
-      "artifact": "hamming-distance-calc_1.0.0-1_aarch64.deb",
-      "sha256": "3a5dc83d0ce24986eaa97210d127a78bb4344d7631a049818690c09402d847e2",
-      "size": 2160
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "hamming-distance-calc_1.0.0-2_aarch64.deb",
+      "sha256": "8f601dac2b20d8316cd0c732d994dd7668f6911b04a2ca8021a47ca3262ae8f2",
+      "size": 7240,
+      "implementation": "sources/functional-shards/shard13_text.py",
+      "status": "functional-repair"
     },
     {
       "package": "diff-side-by-side",
-      "version": "1.0.0-1",
-      "artifact": "diff-side-by-side_1.0.0-1_aarch64.deb",
-      "sha256": "8023add369d2c9e59602c5c34d17a2cc84783c33276924c9193c3d29a3d78c20",
-      "size": 2144
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "diff-side-by-side_1.0.0-2_aarch64.deb",
+      "sha256": "f41bad3c75fa644c6b001d077542a231457cff81aa4c5c28b7bd2959ebc9b9a7",
+      "size": 7232,
+      "implementation": "sources/functional-shards/shard13_text.py",
+      "status": "functional-repair"
     },
     {
       "package": "diff-unified-patcher",
-      "version": "1.0.0-1",
-      "artifact": "diff-unified-patcher_1.0.0-1_aarch64.deb",
-      "sha256": "55cab9a6b788a3d3f21db891a1775c609a5f35773d078df730f8df60b896ab8f",
-      "size": 2160
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "diff-unified-patcher_1.0.0-2_aarch64.deb",
+      "sha256": "dd196191cd9bec5dc2c30b992251f0499d42a4021baa7660aa031af182ac87d5",
+      "size": 7244,
+      "implementation": "sources/functional-shards/shard13_text.py",
+      "status": "functional-repair"
     },
     {
       "package": "diff-3way-merge-tool",
-      "version": "1.0.0-1",
-      "artifact": "diff-3way-merge-tool_1.0.0-1_aarch64.deb",
-      "sha256": "df01d602325d060f330a56e17dbb47b7a5c6e1fed4d0f5d0fdc85e49251c3c48",
-      "size": 2160
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "diff-3way-merge-tool_1.0.0-2_aarch64.deb",
+      "sha256": "417d8aaad0ca16efd0ca9dc5c2e4e423522831cee014ee4f4256882eb3a4bf96",
+      "size": 7232,
+      "implementation": "sources/functional-shards/shard13_text.py",
+      "status": "functional-repair"
     },
     {
       "package": "wdiff-word-differ",
-      "version": "1.0.0-1",
-      "artifact": "wdiff-word-differ_1.0.0-1_aarch64.deb",
-      "sha256": "c0094714866ce27d24824236dfa85b4845bf70496f5ccf35c16922e9ffa21c88",
-      "size": 2128
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "wdiff-word-differ_1.0.0-2_aarch64.deb",
+      "sha256": "0a01e8ca8e0bbf13d856d48506d2dced1f8a3813b9ea20885101edf1795d5d55",
+      "size": 7228,
+      "implementation": "sources/functional-shards/shard13_text.py",
+      "status": "functional-repair"
     },
     {
       "package": "markdown-ast-generator",
-      "version": "1.0.0-1",
-      "artifact": "markdown-ast-generator_1.0.0-1_aarch64.deb",
-      "sha256": "634b05186018c0bd6bcae3591d512b2e5edc5729a4141eeb0294ba265bb03b90",
-      "size": 2164
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "markdown-ast-generator_1.0.0-2_aarch64.deb",
+      "sha256": "62c52693c3bb24b1d65ce939460528fb415149ba7c36eb48de45c21ee79eb3e1",
+      "size": 7232,
+      "implementation": "sources/functional-shards/shard13_text.py",
+      "status": "functional-repair"
     },
     {
       "package": "markdown-toc-builder",
-      "version": "1.0.0-1",
-      "artifact": "markdown-toc-builder_1.0.0-1_aarch64.deb",
-      "sha256": "e38e8f4975a0f5f110255613f6dcb817150549c78c0e7446c89bc9e305075df7",
-      "size": 2160
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "markdown-toc-builder_1.0.0-2_aarch64.deb",
+      "sha256": "55dfa17a14cbc5c2dc15dc97d497947f6fbcea6ed5aae2de355dc627f5747d9b",
+      "size": 7236,
+      "implementation": "sources/functional-shards/shard13_text.py",
+      "status": "functional-repair"
     },
     {
       "package": "markdown-table-prettifier",
-      "version": "1.0.0-1",
-      "artifact": "markdown-table-prettifier_1.0.0-1_aarch64.deb",
-      "sha256": "12740d8f65cee78ec486e78ddeb0ec9df88161344247eaacfb1f4aba3da45016",
-      "size": 2168
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "markdown-table-prettifier_1.0.0-2_aarch64.deb",
+      "sha256": "d27c7422fe3836394ac68055148a6bf357de9b802006275d27adf0859e57d669",
+      "size": 7236,
+      "implementation": "sources/functional-shards/shard13_text.py",
+      "status": "functional-repair"
     },
     {
       "package": "markdown-link-auditor",
-      "version": "1.0.0-1",
-      "artifact": "markdown-link-auditor_1.0.0-1_aarch64.deb",
-      "sha256": "aa0b4b1e44e88222a81e84a71d40cd3f6bcab6bdd6dff20abb10cfb9a4e1a2f2",
-      "size": 2156
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "markdown-link-auditor_1.0.0-2_aarch64.deb",
+      "sha256": "fdab8759b20ecc6f318bbb58329e231c2733f41d6511fe53af436690ab163824",
+      "size": 7240,
+      "implementation": "sources/functional-shards/shard13_text.py",
+      "status": "functional-repair"
     },
     {
       "package": "frontmatter-extractor",
-      "version": "1.0.0-1",
-      "artifact": "frontmatter-extractor_1.0.0-1_aarch64.deb",
-      "sha256": "e39dd3f3ee35870006ee099fe9aa5c1d94adde86af84f4ce471c6ed62f6e387e",
-      "size": 2152
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "frontmatter-extractor_1.0.0-2_aarch64.deb",
+      "sha256": "1141c0ea52eaaf87702b7d02d24e4a08f91de0c522bfa8e6593a44cb29af5f8b",
+      "size": 7232,
+      "implementation": "sources/functional-shards/shard13_text.py",
+      "status": "functional-repair"
     },
     {
       "package": "latex-math-sanitizer",
-      "version": "1.0.0-1",
-      "artifact": "latex-math-sanitizer_1.0.0-1_aarch64.deb",
-      "sha256": "c2c61745aa3a68be8b3b451812956b448409de2d54e72adee30ec2dd8107567e",
-      "size": 2160
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "latex-math-sanitizer_1.0.0-2_aarch64.deb",
+      "sha256": "dd382094da7c28d53a020e6e74be408b619a4b031d651e12ee9eba59ed992e80",
+      "size": 7240,
+      "implementation": "sources/functional-shards/shard13_text.py",
+      "status": "functional-repair"
     },
     {
       "package": "typst-document-linter",
-      "version": "1.0.0-1",
-      "artifact": "typst-document-linter_1.0.0-1_aarch64.deb",
-      "sha256": "46183ce6f936a98ef11df947492b4229c5fe16e9300f912ee3775334b4df4a4d",
-      "size": 2160
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "typst-document-linter_1.0.0-2_aarch64.deb",
+      "sha256": "f1b15bb85b8378b40f0de7b953a1779319b315243dc1cc3c3c10999e6879d18c",
+      "size": 7240,
+      "implementation": "sources/functional-shards/shard13_text.py",
+      "status": "functional-repair"
     },
     {
       "package": "asciidoc-section-view",
-      "version": "1.0.0-1",
-      "artifact": "asciidoc-section-view_1.0.0-1_aarch64.deb",
-      "sha256": "e3d3deff6a626da9766d7a7efe5ba0fb99ef3e5794a2b6fb486ffc23393d60dd",
-      "size": 2160
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "asciidoc-section-view_1.0.0-2_aarch64.deb",
+      "sha256": "1d81b640a5efad750aa879af786254ee075b85bfac89527916b8834948ce87f1",
+      "size": 7240,
+      "implementation": "sources/functional-shards/shard13_text.py",
+      "status": "functional-repair"
     },
     {
       "package": "manpage-troff-linter",
-      "version": "1.0.0-1",
-      "artifact": "manpage-troff-linter_1.0.0-1_aarch64.deb",
-      "sha256": "f0fe419f639776ea9199c13df2284281c6eb231413d085d212e91c15e137d11b",
-      "size": 2160
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "manpage-troff-linter_1.0.0-2_aarch64.deb",
+      "sha256": "2a1e1f98d5eb43e9b1ff59c84ab951bdb0c540bf3efd270a9570699fed841092",
+      "size": 7244,
+      "implementation": "sources/functional-shards/shard13_text.py",
+      "status": "functional-repair"
     },
     {
       "package": "groff-formatter-lite",
-      "version": "1.0.0-1",
-      "artifact": "groff-formatter-lite_1.0.0-1_aarch64.deb",
-      "sha256": "69e77fecfb2033aae7de6913b8095630c6817f1dd41d12ad93a8ec42434728f4",
-      "size": 2156
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "groff-formatter-lite_1.0.0-2_aarch64.deb",
+      "sha256": "86f4fc6fa586d3e8098c48ff5454cd625e4a6b6378723df86fd77110c59d7e62",
+      "size": 7244,
+      "implementation": "sources/functional-shards/shard13_text.py",
+      "status": "functional-repair"
     },
     {
       "package": "spellcheck-hunspell",
-      "version": "1.0.0-1",
-      "artifact": "spellcheck-hunspell_1.0.0-1_aarch64.deb",
-      "sha256": "8d89df2fc2604a4531d35f071b18302fce98e44e883205d268fe879ae833e956",
-      "size": 2148
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "spellcheck-hunspell_1.0.0-2_aarch64.deb",
+      "sha256": "2220217ce67005aefbc53615d409f022d29a3c11b3dea86533f0543602b69eaa",
+      "size": 7224,
+      "implementation": "sources/functional-shards/shard13_text.py",
+      "status": "functional-repair"
     },
     {
       "package": "aspell-word-filter",
-      "version": "1.0.0-1",
-      "artifact": "aspell-word-filter_1.0.0-1_aarch64.deb",
-      "sha256": "10416904b4c296ff81f317d31db9168123b1c236731dc26fb83cfb66d81caed1",
-      "size": 2160
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "aspell-word-filter_1.0.0-2_aarch64.deb",
+      "sha256": "5fe59eb74f43faa67c2a0ef4eb7e220f61077085f1321ca716c93bcd648770bd",
+      "size": 7236,
+      "implementation": "sources/functional-shards/shard13_text.py",
+      "status": "functional-repair"
     },
     {
       "package": "syllable-counter-cli",
-      "version": "1.0.0-1",
-      "artifact": "syllable-counter-cli_1.0.0-1_aarch64.deb",
-      "sha256": "42e988391d32d4369e816b2b2f9a456788fe5b13013ad3c61ad8506ef5513db1",
-      "size": 2156
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "syllable-counter-cli_1.0.0-2_aarch64.deb",
+      "sha256": "1ccd3c27e566360c8315bee3673094b9f944b8c2c6156a50f77acfe0abc9e168",
+      "size": 7232,
+      "implementation": "sources/functional-shards/shard13_text.py",
+      "status": "functional-repair"
     },
     {
       "package": "readability-flesch",
-      "version": "1.0.0-1",
-      "artifact": "readability-flesch_1.0.0-1_aarch64.deb",
-      "sha256": "4e239e396ce6c4a4a273d99392d76e4047884c68c1668807d3256c68fba3d9b9",
-      "size": 2160
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "readability-flesch_1.0.0-2_aarch64.deb",
+      "sha256": "7e8ee46768f2d9c11f59dfa8a98fbae0c1f518ff3656708873300ec1729cb341",
+      "size": 7244,
+      "implementation": "sources/functional-shards/shard13_text.py",
+      "status": "functional-repair"
     },
     {
       "package": "text-summarizer-lex",
-      "version": "1.0.0-1",
-      "artifact": "text-summarizer-lex_1.0.0-1_aarch64.deb",
-      "sha256": "cec43c7c2dd23fd674655c06f0be7662743787cecf4055bf7d29a94abff2ec6b",
-      "size": 2144
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "text-summarizer-lex_1.0.0-2_aarch64.deb",
+      "sha256": "256fb6a391f6c14b15e397fddf66db2d212b23eeca3817efe0c492a5499f6f05",
+      "size": 7220,
+      "implementation": "sources/functional-shards/shard13_text.py",
+      "status": "functional-repair"
     },
     {
       "package": "line-wrap-hyphenator",
-      "version": "1.0.0-1",
-      "artifact": "line-wrap-hyphenator_1.0.0-1_aarch64.deb",
-      "sha256": "05475907c600b62238117cd946f7f866a687e1e787aa587ab0b3e65acabdd70f",
-      "size": 2156
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "line-wrap-hyphenator_1.0.0-2_aarch64.deb",
+      "sha256": "92b5568613936555f85a5a9bc003ec05eadb54173d2022c7d4743e44504fae33",
+      "size": 7228,
+      "implementation": "sources/functional-shards/shard13_text.py",
+      "status": "functional-repair"
     },
     {
       "package": "column-table-justifier",
-      "version": "1.0.0-1",
-      "artifact": "column-table-justifier_1.0.0-1_aarch64.deb",
-      "sha256": "5665f1e5f2865891cf9b9abe1ce1b3c0dd37dbe6411367f36b981ceace8dd5d2",
-      "size": 2172
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "column-table-justifier_1.0.0-2_aarch64.deb",
+      "sha256": "5c7356b86e020b304776e4ecdd55a0c17f0df3fa08b36e6b2813c366ebe88d33",
+      "size": 7244,
+      "implementation": "sources/functional-shards/shard13_text.py",
+      "status": "functional-repair"
     },
     {
       "package": "ansi-color-stripper",
-      "version": "1.0.0-1",
-      "artifact": "ansi-color-stripper_1.0.0-1_aarch64.deb",
-      "sha256": "43b6254c83da5193ee6b77aa7d706e37b3d836ae228fe9aa755194ee115505db",
-      "size": 2168
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "ansi-color-stripper_1.0.0-2_aarch64.deb",
+      "sha256": "8af36e52b1cdae6acc06207d9734b753a0b2caed27a21d01fa65bc4edda93c6c",
+      "size": 7252,
+      "implementation": "sources/functional-shards/shard13_text.py",
+      "status": "functional-repair"
     },
     {
       "package": "ansi-art-renderer",
-      "version": "1.0.0-1",
-      "artifact": "ansi-art-renderer_1.0.0-1_aarch64.deb",
-      "sha256": "c7f9b15e35b9ba4e4ff13e5ba955c5f83323cfebf03349bcf9a76d8b97288e7b",
-      "size": 2148
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "ansi-art-renderer_1.0.0-2_aarch64.deb",
+      "sha256": "8564728b1896f7c9fb3eed39a22230957906dbd9e7bfbec65798dfd7e45194b8",
+      "size": 7244,
+      "implementation": "sources/functional-shards/shard13_text.py",
+      "status": "functional-repair"
     },
     {
       "package": "ascii-box-drawing",
-      "version": "1.0.0-1",
-      "artifact": "ascii-box-drawing_1.0.0-1_aarch64.deb",
-      "sha256": "387abb348b9c159a396b42710cc05b29aebe88abc1c490f9ccc17702b986cba5",
-      "size": 2144
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "ascii-box-drawing_1.0.0-2_aarch64.deb",
+      "sha256": "201816f4bfa4fbcaf605d4b32d3cdf383c211fa6c1b5a8599cdea53190f60f74",
+      "size": 7224,
+      "implementation": "sources/functional-shards/shard13_text.py",
+      "status": "functional-repair"
     },
     {
       "package": "slugify-text-cli",
-      "version": "1.0.0-1",
-      "artifact": "slugify-text-cli_1.0.0-1_aarch64.deb",
-      "sha256": "0cd14065432308900c601f2544273196783fc4a76aac7a935ae99121f4629631",
-      "size": 2152
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "slugify-text-cli_1.0.0-2_aarch64.deb",
+      "sha256": "3a32a3eb148c3a732978e14814a0c8b34f6add6e82a0d41cf30cf05b70f404a6",
+      "size": 7240,
+      "implementation": "sources/functional-shards/shard13_text.py",
+      "status": "functional-repair"
     },
     {
       "package": "case-camel-snake-kebab",
-      "version": "1.0.0-1",
-      "artifact": "case-camel-snake-kebab_1.0.0-1_aarch64.deb",
-      "sha256": "e64beebe5819f6fc87cbb93f75b19f2dc63e6f18ccbd220bd2abc5d696bed803",
-      "size": 2164
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "case-camel-snake-kebab_1.0.0-2_aarch64.deb",
+      "sha256": "7ff814b80d04f4aa11edca08eee240562ad6264601d2768e66c77e7fab9ad554",
+      "size": 7228,
+      "implementation": "sources/functional-shards/shard13_text.py",
+      "status": "functional-repair"
     },
     {
       "package": "rot47-cipher-tool",
-      "version": "1.0.0-1",
-      "artifact": "rot47-cipher-tool_1.0.0-1_aarch64.deb",
-      "sha256": "11528c2c44cddb4a8624e3409eb88863a87c7d85f195333aa1d15bd02717e6cc",
-      "size": 2160
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "rot47-cipher-tool_1.0.0-2_aarch64.deb",
+      "sha256": "cb394579e90c42adea25eca21ef1486a80a16ef1bc27ee52682a5ee8c3394ba2",
+      "size": 7248,
+      "implementation": "sources/functional-shards/shard13_text.py",
+      "status": "functional-repair"
     },
     {
       "package": "bidi-text-reverser",
-      "version": "1.0.0-1",
-      "artifact": "bidi-text-reverser_1.0.0-1_aarch64.deb",
-      "sha256": "c022fb2af08fdf90b8531e1c2799f79e6f1ade16252aae86cd8e8ec43423488f",
-      "size": 2152
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "bidi-text-reverser_1.0.0-2_aarch64.deb",
+      "sha256": "230101fa6ee4df612c58e81223c9d12827759f18878e9556e23850d7e52b7c85",
+      "size": 7224,
+      "implementation": "sources/functional-shards/shard13_text.py",
+      "status": "functional-repair"
     },
     {
       "package": "zero-width-char-chk",
-      "version": "1.0.0-1",
-      "artifact": "zero-width-char-chk_1.0.0-1_aarch64.deb",
-      "sha256": "4f0cf78fc61b59ae41f90d2317dfe8b314a15204fb688934ea7db8267ab00b5e",
-      "size": 2160
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "zero-width-char-chk_1.0.0-2_aarch64.deb",
+      "sha256": "6cd2cb37a5ae85db149202d0f58e68c485fd3f934c9124032c26f4de26de6370",
+      "size": 7236,
+      "implementation": "sources/functional-shards/shard13_text.py",
+      "status": "functional-repair"
     },
     {
       "package": "line-ending-dos2unix",
-      "version": "1.0.0-1",
-      "artifact": "line-ending-dos2unix_1.0.0-1_aarch64.deb",
-      "sha256": "8904e1f013fa8140e24d00557b8e1ee713253ec1897574b75e5cf379dff55b0b",
-      "size": 2156
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "line-ending-dos2unix_1.0.0-2_aarch64.deb",
+      "sha256": "dbee3220216990c8da0dc9f28c29d3c2a3528d794965c878d958fca4bb2088bc",
+      "size": 7236,
+      "implementation": "sources/functional-shards/shard13_text.py",
+      "status": "functional-repair"
     },
     {
       "package": "tab-space-converter",
-      "version": "1.0.0-1",
-      "artifact": "tab-space-converter_1.0.0-1_aarch64.deb",
-      "sha256": "f446d57f89227bc27acb7cf5526bf7166a0bad987d1cd40d6a8b71e0bba42c34",
-      "size": 2144
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "tab-space-converter_1.0.0-2_aarch64.deb",
+      "sha256": "3b5f47309bd01986d7b5084251c7cad5e6e265b82d6d6ced26a87c3b39576a2c",
+      "size": 7232,
+      "implementation": "sources/functional-shards/shard13_text.py",
+      "status": "functional-repair"
     }
   ]
 }

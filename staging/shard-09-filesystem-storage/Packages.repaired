@@ -1,0 +1,749 @@
+Package: f2fs-status-inspector
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/f2fs-status-inspector_1.0.0-2_aarch64.deb
+Size: 7900
+MD5sum: 9408462608b5260b43f10cd1e424be1c
+SHA1: 8deee0d4138d6981d9a6c11572727e573ae70bde
+SHA256: f11c88fa575a2b5e087717b08eeb5c2befff9a822ffaf88eacbc958bd4d6d894
+Section: utils
+Priority: optional
+Description: Flash-Friendly File System segment and checkpoint tool
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: ext4-super-block-dump
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/ext4-super-block-dump_1.0.0-2_aarch64.deb
+Size: 7880
+MD5sum: 4450746d584949f1c8bf459fe4decbff
+SHA1: 66ddd37c21be672e103ff7d9f9fd982b35a161a7
+SHA256: 8f605f59b20b12e370075df909e8c4a5a8b15380a25a37073845308960bd5e5f
+Section: utils
+Priority: optional
+Description: ext4 superblock feature flags and block group view
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: inode-usage-analyzer
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/inode-usage-analyzer_1.0.0-2_aarch64.deb
+Size: 7884
+MD5sum: 5981a21099b1c6d72520846dbd432af2
+SHA1: 358028198357aaba6e59379a7a9f5d01a95e6f73
+SHA256: 6d5c168e10188417efabba32c73973dbf89d19a3ff31d37ecd52a2a7044fafb8
+Section: utils
+Priority: optional
+Description: filesystem inode consumption and density distribution
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: sparse-file-creator
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/sparse-file-creator_1.0.0-2_aarch64.deb
+Size: 7892
+MD5sum: 9de7837f9fd29502c0828d8ca1fbe89d
+SHA1: 780537852c1f8a6e63c668a0d3dc385a411b2723
+SHA256: 5392878695e6c010f3d9dc9426ee8401ae50f9635674ecb2823c48e7faf34d9e
+Section: utils
+Priority: optional
+Description: POSIX sparse file generator with arbitrary hole sizes
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: hole-punch-tester
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/hole-punch-tester_1.0.0-2_aarch64.deb
+Size: 7888
+MD5sum: 98428d35059b71ea99babbe83c4da984
+SHA1: 39905359b88d1433138ea5678dd400d0815c26fa
+SHA256: a6915f7209baebcccc91fc01b98348da070719755f0a59506db8945e272878df
+Section: utils
+Priority: optional
+Description: fallocate FALLOC_FL_PUNCH_HOLE capability tester
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: disk-read-benchmark
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/disk-read-benchmark_1.0.0-2_aarch64.deb
+Size: 7876
+MD5sum: 454a3b64b55e1e4dae4cd64c7eb00f15
+SHA1: 86dc3fcc7f08aad1ae6190420b5cc3bde4307096
+SHA256: a3b15669522e557cbc75250e69dd3856d9fc18377ac2752e6670e612a44c1f83
+Section: utils
+Priority: optional
+Description: sequential and random disk block read benchmark
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: disk-write-benchmark
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/disk-write-benchmark_1.0.0-2_aarch64.deb
+Size: 7884
+MD5sum: 17b40bf55b43125c2e7253b635e6efbc
+SHA1: b084e3c643877be64a7923bc61857b4ddfe64306
+SHA256: 08ec2178b27a2d8bf3d19631384421ef7953edd1282d485dbf56276b33107950
+Section: utils
+Priority: optional
+Description: direct I/O filesystem write throughput benchmark
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: sync-latency-timer
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/sync-latency-timer_1.0.0-2_aarch64.deb
+Size: 7868
+MD5sum: 320359b11678aebc30b2a8a034aa5ae4
+SHA1: 7a9769f00f70b69a4ae5449863aa0f4dec196979
+SHA256: 8530de0204e824036d1b3ddd6eedf2bb2b5d354366bd1f9d0dc9fb1c7b3a624c
+Section: utils
+Priority: optional
+Description: kernel sync and fsync flush latency benchmark
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: fdatasync-tester
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/fdatasync-tester_1.0.0-2_aarch64.deb
+Size: 7876
+MD5sum: 487e5a6935532b1e309afe0b3b8a08fb
+SHA1: 0b1fce9c9eb344f8ebffca938500ba5a5159dfbb
+SHA256: cf1d2e26d5e5c4ea42204136928de95d59d0765b73c8b203a5ff1290ce568e21
+Section: utils
+Priority: optional
+Description: metadata vs data-only sync timing benchmark
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: blkdiscard-analyzer
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/blkdiscard-analyzer_1.0.0-2_aarch64.deb
+Size: 7880
+MD5sum: dabb543aaf35a60b26bde150ca565136
+SHA1: 741451b3154d876b0cf0648ae9be7918ef4a6329
+SHA256: 80a77c2eca39e0e8b5310d105b57644624f2fcab70c18bf928dc19a7f985b450
+Section: utils
+Priority: optional
+Description: block device TRIM and discard support tester
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: blockdev-geometry
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/blockdev-geometry_1.0.0-2_aarch64.deb
+Size: 7880
+MD5sum: 70729e872afa1c76abcfa493df12fb7f
+SHA1: 98a25a1f7a3b0a4b34e769e2776bc217b48f894e
+SHA256: 50121827ca3456c90300fe2137187ccebba973b4c2fdaaccfb9ff0e0ef6b3185
+Section: utils
+Priority: optional
+Description: block device logical sector size and rotational view
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: partition-table-view
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/partition-table-view_1.0.0-2_aarch64.deb
+Size: 7888
+MD5sum: 452dc93590be6c7cb6267d09611eee4e
+SHA1: 8c33c5ab3d3234451118f889224460a1ffb60cac
+SHA256: 6541bd21948e53a581c4458489d2f7bc5c8ba5cfeb7ea0c8e1b52f0083283798
+Section: utils
+Priority: optional
+Description: disk partition layout and sector boundary reporter
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: gpt-header-inspector
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/gpt-header-inspector_1.0.0-2_aarch64.deb
+Size: 7892
+MD5sum: 62b8aa5d99dc069976182eee45d7d8ce
+SHA1: 6b1f805ad2a6d891063aec652e4e6d30f50f5ad9
+SHA256: 69cf39841ecfefc1575add167565e67757dc5be5a5d158bbea2b15d7ab4a5d94
+Section: utils
+Priority: optional
+Description: GUID Partition Table primary and backup header parser
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: mbr-sector-dump
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/mbr-sector-dump_1.0.0-2_aarch64.deb
+Size: 7896
+MD5sum: fc8be254d1a637f329268f88a341229d
+SHA1: 0f750da65ff3bf66e600fa1c6900b4b508edafcc
+SHA256: 0a67d451ab55f2d2eb893005eb695f34ea191684efb5d08e6ba8d4c3ee280525
+Section: utils
+Priority: optional
+Description: Master Boot Record bootcode and partition table dump
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: vfat-boot-sector-chk
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/vfat-boot-sector-chk_1.0.0-2_aarch64.deb
+Size: 7888
+MD5sum: 84d0641113e6d484b6fe5567aeeb76a3
+SHA1: 32be4fcc69d6c37dd2177fb233d552ec2af43253
+SHA256: 40107511b477eb633e9519d53d0c10f9ef3ba24107bfc54c6ab3dde0b143f2a7
+Section: utils
+Priority: optional
+Description: FAT32/VFAT BPB BIOS parameter block inspector
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: fat32-cluster-calc
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/fat32-cluster-calc_1.0.0-2_aarch64.deb
+Size: 7892
+MD5sum: f70c8d456b131aa83768760e204eeb6f
+SHA1: c0134e274ba74b87f945f6ff827b2f7e39e4b1ce
+SHA256: 63bf74556f79b8959fe1b9fbd099c01c9da4ee4c95eb95c0b61e3fc105959d59
+Section: utils
+Priority: optional
+Description: FAT cluster chain size and sector offset calculator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: exfat-header-parser
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/exfat-header-parser_1.0.0-2_aarch64.deb
+Size: 7896
+MD5sum: 173ad237b3b5b604dae574a103f1a55c
+SHA1: d1eab61460616c38d5e8a8b53894b0fc9e104701
+SHA256: e51d43d0e0b99502997e630dd149cd9460ff95af8c7e6a12baaefff236fd5d3c
+Section: utils
+Priority: optional
+Description: exFAT volume boot record and allocation bitmap tool
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: iso9660-browser
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/iso9660-browser_1.0.0-2_aarch64.deb
+Size: 7876
+MD5sum: 75d4a8f8ea04bd892c76e251b1b5af8f
+SHA1: f730f55812deef15315f2075a290735803f862f5
+SHA256: 2293a77b5371b2ce928d82198647c37edad2f970b0aea117873a0e31cd094fd5
+Section: utils
+Priority: optional
+Description: ISO 9660 Joliet primary volume descriptor browser
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: squashfs-super-view
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/squashfs-super-view_1.0.0-2_aarch64.deb
+Size: 7880
+MD5sum: 82895d2ec92bb4baff2a7db56d58d7a3
+SHA1: 100f2fd184b9b6013be47fe24cdefeecc87372b4
+SHA256: f8dbffd103f2e54b010d321e9adc0e9f2529b3fd5a2c9d710a1eae57186bf2a5
+Section: utils
+Priority: optional
+Description: SquashFS superblock compression and block size viewer
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: ramdisk-builder-cli
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/ramdisk-builder-cli_1.0.0-2_aarch64.deb
+Size: 7884
+MD5sum: 9858f91640e0ed8c2052f34cec4860c6
+SHA1: 027000f67f04d816003eac3924c3bc0d01099b6d
+SHA256: 2197e0be0fa2e374f9a09881b1a80558fb7498f0a056bd84095465b5d014a9a3
+Section: utils
+Priority: optional
+Description: in-memory tmpfs ramdisk staging and sizing utility
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: tmpfs-usage-tracker
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/tmpfs-usage-tracker_1.0.0-2_aarch64.deb
+Size: 7888
+MD5sum: e45aea9c955362c4bc4b1c5f653d2a7d
+SHA1: ca433c7dcbc8a3d7690de74f79d075d5082bbbb2
+SHA256: 1b80458d361bd4bcbdd780e6af5f2aede32a6124bcbfcee9bd7977aafc33975e
+Section: utils
+Priority: optional
+Description: virtual memory tmpfs allocation and swap usage tracker
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: bind-mount-auditor
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/bind-mount-auditor_1.0.0-2_aarch64.deb
+Size: 7880
+MD5sum: 6171b6e0dcf89969f9b67adce97e1162
+SHA1: 65f67836bc3267079be1657bb36d9910f6caee4e
+SHA256: 19b04381b254e2c72d8027ae31e75bf5a5b61c57afd7dd67673dae185605e081
+Section: utils
+Priority: optional
+Description: mount namespace bind-mount source and target mapper
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: mount-options-checker
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/mount-options-checker_1.0.0-2_aarch64.deb
+Size: 7884
+MD5sum: 77dbb257124b1f8f6f40b4da7774b051
+SHA1: 3a990508fd2f093ed63fa4abb5d5254816de6a3b
+SHA256: 061c6cdd5e0164d0a76e5e436afe28947d1cf4b786d53d5825b70e96456288df
+Section: utils
+Priority: optional
+Description: filesystem mount flags noatime nodiratime audit
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: statvfs-free-calc
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/statvfs-free-calc_1.0.0-2_aarch64.deb
+Size: 7892
+MD5sum: 3b35516c766b8bb2e8419ac0b7f9fcce
+SHA1: 89f8f89824c01b2057cea74c323a31caceeb8028
+SHA256: 887697c4a699eb1e3b6dd24c06b5ac703aae6bac81c515380f18e52e13119f52
+Section: utils
+Priority: optional
+Description: POSIX statvfs available disk space and block calculator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: df-human-sorter
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/df-human-sorter_1.0.0-2_aarch64.deb
+Size: 7884
+MD5sum: adb944096ab2b75362de0aa23037a5ca
+SHA1: df18b67d5c8d69253209b52d5fe13691491318fb
+SHA256: 0131bb540f2bd496dd5a2d124bb758fb679bca7cd51a41918e868981c20d702a
+Section: utils
+Priority: optional
+Description: disk filesystem usage sorter with percentage thresholds
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: du-depth-limiter
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/du-depth-limiter_1.0.0-2_aarch64.deb
+Size: 7892
+MD5sum: 05a551bbcf11faad018e4128d0085ed1
+SHA1: 0017f92ed2c43f4958851939edb2615603c4e7fe
+SHA256: b1c1c10b5fe10e6fd9c2075c19dfcedcd7215dcd9c07f23d3031e161972f275c
+Section: utils
+Priority: optional
+Description: directory disk usage reporter with configurable max-depth
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: hardlink-counter
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/hardlink-counter_1.0.0-2_aarch64.deb
+Size: 7884
+MD5sum: e88e6f61106efe728a7e5ab2a4abdabd
+SHA1: 5b5478a4ed61d8369c1eceb9bb7f3f0f062a8b76
+SHA256: 83c71db0dff19833dd95e74f1388a5a2f1404fadbb3a49157e69912873a6d2e6
+Section: utils
+Priority: optional
+Description: inode link count scanner and multiple reference finder
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: broken-symlink-clean
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/broken-symlink-clean_1.0.0-2_aarch64.deb
+Size: 7872
+MD5sum: 269f4123abbb05af8b7fd271ca22a44f
+SHA1: 9a03e28816cad261dfa5ba64e3ad39a84156bfb2
+SHA256: b8a7cb0cebd03dbc7395feaa5470e0d5250f1d9308e9a2f856d6a4793b6d053e
+Section: utils
+Priority: optional
+Description: dangling and broken symbolic link locator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: file-timestamp-sync
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/file-timestamp-sync_1.0.0-2_aarch64.deb
+Size: 7876
+MD5sum: 027eb5c8ff5fd947505bf958107ba8f3
+SHA1: f4b4e092764d4cb5d67de64b0e52ca5c80cdb0fa
+SHA256: defa0285a2bdc89c95d67a2af1e2d11a56d05ce9a0a65a274362ca616bf2a77b
+Section: utils
+Priority: optional
+Description: file atime mtime ctime inspection and synchronization
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: touch-date-setter
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/touch-date-setter_1.0.0-2_aarch64.deb
+Size: 7888
+MD5sum: 5835fec3413c61d19b5fefe7434e616d
+SHA1: 0f74a5aa708e85d695ad6bcee1cb791ecdae2e12
+SHA256: 63e46ccea564e28dc1708b744dc8535d9fbe1a0d982dcfb09a068875d1d83986
+Section: utils
+Priority: optional
+Description: RFC 3339 timestamp setter for file modifications
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: truncate-file-tool
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/truncate-file-tool_1.0.0-2_aarch64.deb
+Size: 7880
+MD5sum: 9df8b7e66c132fa43c2358736bdd7b19
+SHA1: 25f59fd060768a987a7a4f0e48c49dd835d2e93e
+SHA256: b78d25b56f232a5554fef1ecd27f366c75506101ed3ef796fa0b7adb375e213b
+Section: utils
+Priority: optional
+Description: fast file length expansion and truncation utility
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: shred-secure-delete
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/shred-secure-delete_1.0.0-2_aarch64.deb
+Size: 7896
+MD5sum: 7e78ac8e3cc0ca9c720048b365cda796
+SHA1: c5ef5893145fc1b3553a70b437edec7533599152
+SHA256: c3ca198dc50630f053a4ba9f0c1641876b91428f2b258a9b9fe2a2074adcab5f
+Section: utils
+Priority: optional
+Description: NIST 800-88 compliant multi-pass secure file shredder
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: wipefs-magic-scanner
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/wipefs-magic-scanner_1.0.0-2_aarch64.deb
+Size: 7868
+MD5sum: 91a7014aec0624982217de4099af60a8
+SHA1: 3f12956bec3e2d63e19c3b404509e52bfd38db4b
+SHA256: 89960adefcbeda1ec20191d412dadf3bd293d8698decc288cbfad05befdf16d3
+Section: utils
+Priority: optional
+Description: filesystem signature magic number scanner
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: file-allocation-chk
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/file-allocation-chk_1.0.0-2_aarch64.deb
+Size: 7880
+MD5sum: 2981c6f87d31e0e06be626e009b2175b
+SHA1: 8317a40ea1e5be7588077ddead7fde744e5bc5d9
+SHA256: cc3860ba8fe4a0a6bcfa50dcb1d1a97e91f480cd7343357fac98d7134aaa1150
+Section: utils
+Priority: optional
+Description: file disk block preallocation and fragmentation check
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: direct-io-benchmark
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/direct-io-benchmark_1.0.0-2_aarch64.deb
+Size: 7880
+MD5sum: ad8fe75d3140a06cf58286ce06ca119c
+SHA1: 640c6d3cbe76b58a7be682816eaf51bd5a6b1258
+SHA256: 2465acac1bbd949d390923c55ce80d40455f5b92aaea9e5e17e329f1c947b6e7
+Section: utils
+Priority: optional
+Description: O_DIRECT page-cache bypass storage benchmark
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: fallocate-prealloc
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/fallocate-prealloc_1.0.0-2_aarch64.deb
+Size: 7892
+MD5sum: e7d25db8693b410e926f6e6f0ef92396
+SHA1: 52192e9f369c92127745e2f13bfc4a6f65eb7afb
+SHA256: febbf6955a4be7b21c837e45d85f71aec50db50aee296065889929d9ed6c4ae1
+Section: utils
+Priority: optional
+Description: fast POSIX file space allocation without zero-fill
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: flock-file-mutex
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/flock-file-mutex_1.0.0-2_aarch64.deb
+Size: 7892
+MD5sum: 2ae627c67f1907a7302b298a97688e32
+SHA1: 833d5f5410d5b407d4c44944605884d5d4feab45
+SHA256: 4f5dee05d345cbee6c41f9bed742b016f7a9bb007d6f0bcb7d98b494aec68a6d
+Section: utils
+Priority: optional
+Description: advisory file locking mutex for pipeline synchronization
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: lockfile-manager
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/lockfile-manager_1.0.0-2_aarch64.deb
+Size: 7880
+MD5sum: fde64f4f34c5cca5f8864eedaf69940a
+SHA1: 85a7db4e00ad588079d4e37b06bba76cfe7a2e11
+SHA256: 5653dcaa1ca0d1e6ffc7c2c8879e845f65640e699a384141e3cc4edf091815b5
+Section: utils
+Priority: optional
+Description: atomic lockfile acquisition with timeout handling
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: faccessat-tester
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/faccessat-tester_1.0.0-2_aarch64.deb
+Size: 7880
+MD5sum: d9f5586ab2538be3365b7b9949f93550
+SHA1: 9cf18add88fccac1538543da82f7e84d795d775a
+SHA256: 1e46b7fa063caabb1ef1778cfc928f4d36f2d4b28c9cb8435b0ef42b0264a224
+Section: utils
+Priority: optional
+Description: POSIX faccessat file existence and permission tester
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: chattr-attribute-view
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/chattr-attribute-view_1.0.0-2_aarch64.deb
+Size: 7896
+MD5sum: f098a4a0524255e2f35744033be3d1a2
+SHA1: bdb8df0210ceb70757c42a40800352be518ebdfa
+SHA256: 9d03c19693b5687fb7af9d8a7dbcf82bef7a3263b34ba593474b5877baf868c8
+Section: utils
+Priority: optional
+Description: ext2/3/4 file system extended attribute flag viewer
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: lsattr-ocean
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/lsattr-ocean_1.0.0-2_aarch64.deb
+Size: 7884
+MD5sum: dc53f12d75c8ef4b4bdbadbcc3c22ea9
+SHA1: aa56268c17cc2c21a79b70e9043036084c0568dd
+SHA256: f3440bc4e838de7022fe7a2fa970201ecc21386fdacf5d8e7ad1111a51ecfe05
+Section: utils
+Priority: optional
+Description: list file attributes on Linux second extended file system
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: file-descriptor-duper
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/file-descriptor-duper_1.0.0-2_aarch64.deb
+Size: 7868
+MD5sum: 6fc35f7d7e73c23bc49e28fc53420185
+SHA1: 136c3c44bc3999fd88d6afbf91b8a1882c8fda4e
+SHA256: dcaf93af4eb0814a566d2fe231e7805e815e65aee5bbbb0f0d0c6cd5fbdb2a13
+Section: utils
+Priority: optional
+Description: file descriptor duplication and redirection helper
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: fifo-pipe-tester
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/fifo-pipe-tester_1.0.0-2_aarch64.deb
+Size: 7888
+MD5sum: f151c30f60691124d8be562f3829d6f6
+SHA1: 040dd94616f1579d3825e68be50ffc609bdc0de9
+SHA256: 668813841195a1426514d510dd661c156e73c56a561d59295bc5395655b32f29
+Section: utils
+Priority: optional
+Description: named pipe FIFO non-blocking read/write tester
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: mknod-device-parser
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/mknod-device-parser_1.0.0-2_aarch64.deb
+Size: 7892
+MD5sum: b171e8ac439875136686a078eea52c12
+SHA1: ac33ffb2a5bffe82e07013eb5b6ba860fafbb2c7
+SHA256: 321790dff01c23738db5ae7500edd7f3681576e16b8945905925511f82a5e50f
+Section: utils
+Priority: optional
+Description: character and block special device major/minor parser
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: socket-file-creator
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/socket-file-creator_1.0.0-2_aarch64.deb
+Size: 7876
+MD5sum: 9ad4d9bfaa07ab04140148a06ca99704
+SHA1: e8d996efc2f85b42381985534052f650de074dfe
+SHA256: d2a96e55400377e3cc7640f789642a3a92de58eaf0bf76f52bfb4c8fecf50903
+Section: utils
+Priority: optional
+Description: UNIX domain socket placeholder file validator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: directory-depth-calc
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/directory-depth-calc_1.0.0-2_aarch64.deb
+Size: 7876
+MD5sum: 4af77a112a60a92f4f6dae228c398e2c
+SHA1: 6320fd045769b96df2ab41628a1d2f5aea3c8d90
+SHA256: ccd571b4e51de33ae8442a67799d27b5f62c7bc998aaeafdfcba4c9aa791565a
+Section: utils
+Priority: optional
+Description: directory tree maximum nesting depth calculator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: empty-dir-pruner
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/empty-dir-pruner_1.0.0-2_aarch64.deb
+Size: 7884
+MD5sum: 30c66307b172bb0e9efaa0c835713f14
+SHA1: 33001bb1856b227683c55a0fc1ae297fa182f474
+SHA256: 598ba0d8cd69d847eddc4e9da283f2296c1fac3821b059f0a8cac4225ea6215d
+Section: utils
+Priority: optional
+Description: recursive empty directory finder and cleanup tool
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: xattr-metadata-viewer
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/xattr-metadata-viewer_1.0.0-2_aarch64.deb
+Size: 7892
+MD5sum: 732447ded07478acb745a92383d2685f
+SHA1: 7d7a7c94855c85eab96c55c8ecd1277145a8683d
+SHA256: 24e05abe809b356e2f4a84edaec3cef93bc804ccbd6a4de17437c2a7d6d70729
+Section: utils
+Priority: optional
+Description: user and security namespace extended attribute viewer
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: file-checksum-tree
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/file-checksum-tree_1.0.0-2_aarch64.deb
+Size: 7900
+MD5sum: e3d6aebc3a2700f282465f712c2d11f5
+SHA1: 00023091551e1e3c03bf065b985d52a7c36118da
+SHA256: 7edb5c97c869700a3e6b9595cf9b387831b375f1f09b521e3a73e658d71dc056
+Section: utils
+Priority: optional
+Description: recursive file tree SHA256 checksum manifest builder
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: storage-tree-graph
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/storage-tree-graph_1.0.0-2_aarch64.deb
+Size: 7880
+MD5sum: b6a1bdc00074d9081b64f28242980a3c
+SHA1: a400dd1471c789fb8219adb944268c5db0dec59f
+SHA256: 5b3436356aaa1b34327713d20dc433b7eccbf93a9ef31dda6bded530bb27c45f
+Section: utils
+Priority: optional
+Description: ASCII visual storage usage directory treemap generator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
