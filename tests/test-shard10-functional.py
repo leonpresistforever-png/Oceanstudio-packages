@@ -1,0 +1,48 @@
+#!/usr/bin/env python3
+import importlib.util,json,tempfile,sys,os,hashlib,hmac
+from pathlib import Path
+def load(p,n):
+ s=importlib.util.spec_from_file_location(n,p);m=importlib.util.module_from_spec(s);s.loader.exec_module(m);return m
+r=load(Path(sys.argv[1]),"r");b=load(Path(sys.argv[2]),"b")
+names={x[0] for x in b.BATCH1_SHARDS["shard-10-devops-microservices"]["packages"]}
+assert set(r.COMMANDS)==names and len(names)==50 and all(callable(r.COMMANDS[x]) for x in names)
+with tempfile.TemporaryDirectory() as td:
+ p=Path(td)
+ def wf(n,x):
+  q=p/n;q.write_text(json.dumps(x) if not isinstance(x,str) else x);return str(q)
+ r.COMMANDS["consul-health-checker"]([wf("c.json",[{"Status":"passing"}])])
+ r.COMMANDS["etcd-kv-parser"]([wf("e.json",{"kvs":[]})])
+ r.COMMANDS["prometheus-metric-fmt"](["ocean_jobs","2","gauge"])
+ r.COMMANDS["openmetrics-validator"]([wf("m.txt",'a 1\nb{z="x"} 2\n')])
+ r.COMMANDS["logfmt-parser-cli"](["a=1 b=two"])
+ os.environ["OCEAN_TEST"]="ok";r.COMMANDS["envsubst-lite"](["\${OCEAN_TEST}"])
+ r.COMMANDS["mustache-templater"](["hi {{name}}",'{"name":"ocean"}'])
+ r.COMMANDS["dockerfile-linter"]([wf("Dockerfile","FROM scratch\nCOPY . /x\n")])
+ r.COMMANDS["oci-spec-validator"]([wf("oci.json",{"ociVersion":"1.1.0","process":{},"root":{}})])
+ r.COMMANDS["compose-file-validator"]([wf("compose.yml","services:\n  app:\n    image: ocean\n")])
+ r.COMMANDS["k8s-pod-yaml-linter"]([wf("pod.yml","apiVersion: v1\nkind: Pod\nmetadata:\n  name: x\n")])
+ r.COMMANDS["circuit-breaker-tester"](["3","5"])
+ r.COMMANDS["rate-limit-simulator"](["2","10","1","2","12"])
+ r.COMMANDS["retry-backoff-calc"](["4","1","10"])
+ r.COMMANDS["protobuf-field-mask"](["a.b","c"])
+ old=wf("old.json",{"type":"record","fields":[{"name":"x","type":"int"}]})
+ new=wf("new.json",{"type":"record","fields":[{"name":"x","type":"long"},{"name":"y","type":"string"}]})
+ r.COMMANDS["avro-schema-diff"]([old,new])
+ r.COMMANDS["thrift-idl-linter"](["service S { void ping() }"])
+ r.COMMANDS["capnp-schema-viewer"](["struct X { a @0 :Int32; }"])
+ r.COMMANDS["json-rpc-request-gen"](["ping","{}"])
+ sig=hmac.new(b"k",b"body",hashlib.sha256).hexdigest();r.COMMANDS["webhook-signature-chk"](["k","sha256="+sig,"body"])
+ r.COMMANDS["sse-event-streamer"](["event: x\ndata: y\n\n"])
+ r.COMMANDS["pubsub-topic-tester"](["a.*","a.b"])
+ r.COMMANDS["kafka-offset-calc"](["100","90"])
+ r.COMMANDS["mqtt-packet-decoder"](["3000"])
+ r.COMMANDS["amqp-frame-inspector"](["01000100000000"])
+ r.COMMANDS["cron-expression-next"](["* * * * *"])
+ r.COMMANDS["systemd-unit-linter"](["[Service]\nExecStart=/bin/true\n"])
+ r.COMMANDS["dotenv-loader-cli"](["A=1\nB=2"])
+ r.COMMANDS["dotenv-encryption-chk"](["TOKEN=plain"])
+ r.COMMANDS["feature-flag-eval"](["flag","25","user"])
+ r.COMMANDS["chaos-kill-selector"](["p1","p2"])
+ r.COMMANDS["load-balancer-round"](["a:2","b:1"])
+ r.COMMANDS["canary-traffic-calc"](["10","1000"])
+print("PASS: shard10 exact 50-command registry + deterministic functional smoke")
