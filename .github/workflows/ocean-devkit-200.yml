@@ -1,0 +1,156 @@
+name: Build Ocean DevKit 200 package suite
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'sources/ocean-devkit-200/ocean_devkit.py'
+      - 'scripts/build-ocean-devkit-200.py'
+      - 'tests/test-ocean-devkit-200.py'
+      - '.github/workflows/ocean-devkit-200.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ocean-devkit-200
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /sources/ocean-devkit-200/ocean_devkit.py
+            /scripts/build-ocean-devkit-200.py
+            /tests/test-ocean-devkit-200.py
+            /staging/ocean-devkit-200/
+            /apt/dists/stable/main/binary-aarch64/Packages
+            /.github/workflows/ocean-devkit-200.yml
+
+      - name: Install packaging and test tools
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          sudo apt-get install -y dpkg-dev git
+
+      - name: Compile and functionally test runtime
+        run: |
+          set -euo pipefail
+          python3 -m py_compile \
+            sources/ocean-devkit-200/ocean_devkit.py \
+            scripts/build-ocean-devkit-200.py \
+            tests/test-ocean-devkit-200.py
+          python3 tests/test-ocean-devkit-200.py sources/ocean-devkit-200/ocean_devkit.py
+
+      - name: Prove all 200 names are new repo-wide
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import importlib.util,subprocess
+          from pathlib import Path
+          p=Path("sources/ocean-devkit-200/ocean_devkit.py")
+          s=importlib.util.spec_from_file_location("devkit",p);m=importlib.util.module_from_spec(s);s.loader.exec_module(m)
+          tree=subprocess.check_output(["git","ls-tree","-r","--name-only","HEAD"],text=True).splitlines()
+          existing=set()
+          for path in tree:
+              if not path.endswith(".deb") or path.startswith("staging/ocean-devkit-200/"):
+                  continue
+              existing.add(Path(path).name.split("_",1)[0])
+          collisions=sorted(set(m.COMMANDS)&existing)
+          if collisions:
+              raise SystemExit("repo-wide package collisions: "+", ".join(collisions))
+          assert len(m.COMMANDS)==200 and len(set(m.COMMANDS))==200
+          print("PASS: 200/200 package names are new across live and staged repository artifacts")
+          PY
+
+      - name: Build exactly 200 packages
+        run: |
+          set -euo pipefail
+          python3 scripts/build-ocean-devkit-200.py \
+            --runtime sources/ocean-devkit-200/ocean_devkit.py \
+            --output staging/ocean-devkit-200 \
+            --live-packages apt/dists/stable/main/binary-aarch64/Packages
+
+      - name: Audit generated packages
+        run: |
+          set -euo pipefail
+          test "$(find staging/ocean-devkit-200/pool/main -type f -name '*.deb' | wc -l)" -eq 200
+          test "$(grep -c '^Package:' staging/ocean-devkit-200/Packages.repaired)" -eq 200
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          d=json.loads(Path("staging/ocean-devkit-200/provenance.json").read_text())
+          assert d["packageCount"]==200
+          assert d["uniquePackageCount"]==200
+          assert d["runtimePackage"]=="ocean-devkit-runtime"
+          assert len({x["package"] for x in d["packages"]})==200
+          assert sum(d["groups"].values())==200
+          required={
+            "ocean-devkit-runtime",
+            "ocean-apkx-native-abis",
+            "ocean-webx-url-parse",
+            "ocean-gitx-status-json",
+            "ocean-textx-wordfreq",
+            "ocean-datax-json-flatten",
+            "ocean-fsx-duplicates",
+            "ocean-netx-cidr-info",
+            "ocean-cryptox-pbkdf2",
+            "ocean-buildx-repro-hash",
+            "ocean-archivex-safe-check",
+          }
+          assert required <= {x["package"] for x in d["packages"]}
+          print("PASS: provenance and domain identities verified")
+          PY
+          while IFS= read -r deb; do
+            dpkg-deb --info "$deb" >/dev/null
+          done < <(find staging/ocean-devkit-200/pool/main -type f -name '*.deb' | sort)
+          ! grep -R -a -E '/data/(data|user/0)/com\.termux|packages\.termux\.dev|TERMUX_PREFIX' \
+            staging/ocean-devkit-200 sources/ocean-devkit-200/ocean_devkit.py
+          python3 - <<'PY'
+          import subprocess
+          from pathlib import Path
+          pool=Path("staging/ocean-devkit-200/pool/main")
+          runtime=pool/"ocean-devkit-runtime_1.0.0-1_all.deb"
+          assert "Depends: python" in subprocess.check_output(["dpkg-deb","-f",str(runtime)],text=True)
+          gitpkg=pool/"ocean-gitx-status-json_1.0.0-1_all.deb"
+          fields=subprocess.check_output(["dpkg-deb","-f",str(gitpkg)],text=True)
+          assert "ocean-devkit-runtime (= 1.0.0-1), git" in fields
+          print("PASS: runtime/dependency wiring verified")
+          PY
+
+      - name: Commit staged suite
+        run: |
+          set -euo pipefail
+          git config user.name "Ocean DevKit Builder"
+          git config user.email "packages@ocean.studio"
+          git add staging/ocean-devkit-200
+          if git diff --cached --quiet; then
+            echo "No staged changes."
+            exit 0
+          fi
+          git commit -m "feat(devkit): stage 200 unique functional packages [skip ci]"
+          for attempt in 1 2 3 4 5; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then exit 0; fi
+            echo "Concurrent push detected; retry $attempt/5"
+            sleep $((attempt*2))
+          done
+          exit 1
+
+      - name: Report
+        run: |
+          python3 - <<'PY'
+          import json
+          d=json.load(open("staging/ocean-devkit-200/provenance.json"))
+          print("Ocean DevKit staged:",d["packageCount"],"packages")
+          print("Unique:",d["uniquePackageCount"])
+          print("Groups:",d["groups"])
+          PY
