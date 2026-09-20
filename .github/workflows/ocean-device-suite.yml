@@ -1,0 +1,99 @@
+name: Build Ocean device/render 200 package suite
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'sources/ocean-device-suite/ocean_device.py'
+      - 'scripts/build-ocean-device-suite.py'
+      - 'tests/test-ocean-device-suite.py'
+      - '.github/workflows/ocean-device-suite.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ocean-device-suite
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /sources/ocean-device-suite/ocean_device.py
+            /scripts/build-ocean-device-suite.py
+            /tests/test-ocean-device-suite.py
+            /staging/ocean-device-suite/
+            /apt/dists/stable/main/binary-aarch64/Packages
+            /.github/workflows/ocean-device-suite.yml
+
+      - name: Install packaging tools
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          sudo apt-get install -y dpkg-dev
+
+      - name: Compile and exercise runtime
+        run: |
+          set -euo pipefail
+          python3 -m py_compile \
+            sources/ocean-device-suite/ocean_device.py \
+            scripts/build-ocean-device-suite.py \
+            tests/test-ocean-device-suite.py
+          python3 tests/test-ocean-device-suite.py sources/ocean-device-suite/ocean_device.py
+
+      - name: Build exactly 200 new packages
+        run: |
+          set -euo pipefail
+          python3 scripts/build-ocean-device-suite.py \
+            --runtime sources/ocean-device-suite/ocean_device.py \
+            --output staging/ocean-device-suite \
+            --live-packages apt/dists/stable/main/binary-aarch64/Packages
+
+      - name: Audit package set
+        run: |
+          set -euo pipefail
+          test "$(find staging/ocean-device-suite/pool/main -type f -name '*.deb' | wc -l)" -eq 200
+          test "$(grep -c '^Package:' staging/ocean-device-suite/Packages.repaired)" -eq 200
+          python3 - <<'PY'
+          import json
+          d=json.load(open("staging/ocean-device-suite/provenance.json"))
+          assert d["packageCount"]==200
+          assert d["uniquePackageCount"]==200
+          assert len({x["package"] for x in d["packages"]})==200
+          required={"ocean-open","ocean-click","ocean-coordinate","ocean-object","ocean-render","ocean-3d","ocean-intent-pass","ocean-take-selfie","ocean-screenshot","ocean-record","ocean-api","ocean-x11-runtime"}
+          assert required <= {x["package"] for x in d["packages"]}
+          print("200/200 package identities verified")
+          PY
+          while IFS= read -r deb; do
+            dpkg-deb --info "$deb" >/dev/null
+          done < <(find staging/ocean-device-suite/pool/main -type f -name '*.deb' | sort)
+          ! grep -R -a -E '/data/(data|user/0)/com\.termux|packages\.termux\.dev|TERMUX_PREFIX' \
+            staging/ocean-device-suite sources/ocean-device-suite/ocean_device.py
+
+      - name: Commit staged suite
+        run: |
+          set -euo pipefail
+          git config user.name "Ocean Package Builder"
+          git config user.email "packages@ocean.studio"
+          git add staging/ocean-device-suite
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "feat(device-suite): stage 200 unique working Ocean packages [skip ci]"
+          for attempt in 1 2 3 4 5; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then exit 0; fi
+            sleep $((attempt * 2))
+          done
+          exit 1
+
+      - name: Report
+        run: |
+          cat staging/ocean-device-suite/provenance.json | python3 -c 'import json,sys;d=json.load(sys.stdin);print("built",d["packageCount"],"unique packages")'
