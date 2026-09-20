@@ -203,7 +203,11 @@ def main(cmd,a):
         emit({"broken":bad,"deleted":delete});return
     if cmd=="file-timestamp-sync":need(a,2);s=os.stat(a[0]);os.utime(a[1],ns=(s.st_atime_ns,s.st_mtime_ns));emit({"source":a[0],"target":a[1],"atime_ns":s.st_atime_ns,"mtime_ns":s.st_mtime_ns});return
     if cmd=="touch-date-setter":need(a,2);t=dt.datetime.fromisoformat(a[1].replace("Z","+00:00")).timestamp();os.utime(a[0],(t,t));emit({"path":a[0],"timestamp":t});return
-    if cmd=="truncate-file-tool":need(a,2);os.truncate(a[0],int(a[1]));emit({"path":a[0],"size":os.path.getsize(a[0])});return
+    if cmd=="truncate-file-tool":
+        need(a,2);fd=os.open(a[0],os.O_RDWR|os.O_CREAT,0o600)
+        try:os.ftruncate(fd,int(a[1]))
+        finally:os.close(fd)
+        emit({"path":a[0],"size":os.path.getsize(a[0])});return
     if cmd=="shred-secure-delete":
         need(a,1);p=Path(a[0]);passes=int(a[1]) if len(a)>1 and a[1].isdigit() else 3;do="--delete" in a
         if not p.is_file():raise SystemExit("regular file required")
