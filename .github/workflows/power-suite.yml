@@ -1,0 +1,180 @@
+name: Build Ocean Power suite
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'sources/power-suite/**'
+      - 'scripts/build-power-suite.py'
+      - '.github/workflows/power-suite.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ocean-power-suite
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Checkout only required repository paths
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /.github/workflows/power-suite.yml
+            /scripts/build-power-suite.py
+            /sources/power-suite/ocean_power_core.py
+            /staging/power-suite/
+            /apt/dists/stable/
+            /apt/ocean.gpg
+
+      - name: Install packaging and signing tools
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          sudo apt-get install -y dpkg-dev gnupg gzip git
+
+      - name: Source smoke tests
+        run: |
+          set -euo pipefail
+          python3 -m py_compile sources/power-suite/ocean_power_core.py scripts/build-power-suite.py
+          test "$(printf 'hello\n' | python3 sources/power-suite/ocean_power_core.py ocean-pwr-hash-sha256)" = "5891b5b522d5df086d0ff0b110fbd9d21bb4fc7163af34d08286a2e846f6be03"
+          test "$(python3 sources/power-suite/ocean_power_core.py ocean-pwr-net-ipv4-to-int 127.0.0.1)" = "2130706433"
+          test "$(python3 sources/power-suite/ocean_power_core.py ocean-pwr-time-duration-seconds 1h30m)" = "5400.0"
+          python3 sources/power-suite/ocean_power_core.py ocean-pwr-id-uuid4 | grep -Eq '^[0-9a-f-]{36}$'
+          printf '{"b":2,"a":1}' | python3 sources/power-suite/ocean_power_core.py ocean-pwr-json-canonical | grep -q '{"a":1,"b":2}'
+          printf 'a,b\n1,2\n3,4\n' | python3 sources/power-suite/ocean_power_core.py ocean-pwr-csv-rows | grep -qx '2'
+          python3 sources/power-suite/ocean_power_core.py ocean-pwr-dev-semver-compare 1.2.3 1.3.0 | grep -qx -- '-1'
+
+      - name: Build 250 packages and audit zero duplicates
+        run: |
+          set -euo pipefail
+          OLD_STANZAS=$(grep -c '^Package:' apt/dists/stable/main/binary-aarch64/Packages)
+          OLD_UNIQUE=$(grep '^Package:' apt/dists/stable/main/binary-aarch64/Packages | sed 's/^Package:[[:space:]]*//' | sort -u | wc -l)
+          echo "Existing: $OLD_STANZAS stanzas / $OLD_UNIQUE unique names"
+
+          python3 scripts/build-power-suite.py \
+            --source sources/power-suite \
+            --output staging/power-suite \
+            --existing-packages apt/dists/stable/main/binary-aarch64/Packages
+
+          test "$(find staging/power-suite/pool/main -type f -name '*.deb' | wc -l)" -eq 250
+          test "$(grep -c '^Package:' staging/power-suite/Packages.new)" -eq 250
+          test "$(grep '^Package:' staging/power-suite/Packages.new | sort -u | wc -l)" -eq 250
+          grep -q '"packageCount": 250' staging/power-suite/provenance.json
+          grep -q '"uniquePackageCount": 250' staging/power-suite/provenance.json
+          ! grep -R -a -E '/data/(data|user/0)/com\.termux|packages\.termux\.dev|TERMUX_PREFIX' staging/power-suite sources/power-suite scripts/build-power-suite.py
+
+          comm -12 \
+            <(grep '^Package:' apt/dists/stable/main/binary-aarch64/Packages | sed 's/^Package:[[:space:]]*//' | sort -u) \
+            <(grep '^Package:' staging/power-suite/Packages.new | sed 's/^Package:[[:space:]]*//' | sort -u) \
+            > "$RUNNER_TEMP/collisions"
+          test ! -s "$RUNNER_TEMP/collisions"
+
+      - name: Promote and sign live APT repository
+        id: promote
+        env:
+          OCEAN_REPOSITORY_SIGNING_KEY: ${{ secrets.OCEAN_REPOSITORY_SIGNING_KEY }}
+        run: |
+          set -euo pipefail
+          if [ -z "$OCEAN_REPOSITORY_SIGNING_KEY" ]; then
+            echo "Signing key unavailable; leaving all 250 packages safely staged."
+            echo "promoted=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          EXPECTED=$(gpg --batch --show-keys --with-colons apt/ocean.gpg 2>/dev/null | awk -F: '$1=="fpr"{print $10;exit}')
+          test -n "$EXPECTED"
+          printf '%s\n' "$OCEAN_REPOSITORY_SIGNING_KEY" | gpg --batch --import
+          ACTUAL=$(gpg --batch --list-secret-keys --with-colons 2>/dev/null | awk -F: '$1=="fpr"{print $10;exit}')
+          [ "$ACTUAL" = "$EXPECTED" ] || { echo "Signing fingerprint mismatch" >&2; exit 1; }
+
+          PKG=apt/dists/stable/main/binary-aarch64/Packages
+          PKG_GZ=apt/dists/stable/main/binary-aarch64/Packages.gz
+          OLD_STANZAS=$(grep -c '^Package:' "$PKG")
+          OLD_UNIQUE=$(grep '^Package:' "$PKG" | sed 's/^Package:[[:space:]]*//' | sort -u | wc -l)
+
+          mkdir -p apt/pool/main
+          cp -f staging/power-suite/pool/main/*.deb apt/pool/main/
+
+          printf '\n' >> "$PKG"
+          cat staging/power-suite/Packages.new >> "$PKG"
+
+          NEW_STANZAS=$(grep -c '^Package:' "$PKG")
+          NEW_UNIQUE=$(grep '^Package:' "$PKG" | sed 's/^Package:[[:space:]]*//' | sort -u | wc -l)
+          test "$NEW_STANZAS" -eq "$((OLD_STANZAS + 250))"
+          test "$NEW_UNIQUE" -eq "$((OLD_UNIQUE + 250))"
+
+          gzip -n -9 -c "$PKG" > "$PKG_GZ"
+
+          RELEASE=apt/dists/stable/Release
+          DATE=$(date -u -R)
+          VALID=$(date -u -R -d '+30 days')
+          {
+            echo "Origin: OceanStudio"
+            echo "Label: Ocean Packages"
+            echo "Suite: stable"
+            echo "Codename: stable"
+            echo "Architectures: aarch64 all"
+            echo "Components: main"
+            echo "Description: Official Ocean APT Repository"
+            echo "Date: $DATE"
+            echo "Valid-Until: $VALID"
+            echo "MD5Sum:"
+            printf ' %s %s main/binary-aarch64/Packages\n' "$(md5sum "$PKG" | awk '{print $1}')" "$(stat -c %s "$PKG")"
+            printf ' %s %s main/binary-aarch64/Packages.gz\n' "$(md5sum "$PKG_GZ" | awk '{print $1}')" "$(stat -c %s "$PKG_GZ")"
+            echo "SHA1:"
+            printf ' %s %s main/binary-aarch64/Packages\n' "$(sha1sum "$PKG" | awk '{print $1}')" "$(stat -c %s "$PKG")"
+            printf ' %s %s main/binary-aarch64/Packages.gz\n' "$(sha1sum "$PKG_GZ" | awk '{print $1}')" "$(stat -c %s "$PKG_GZ")"
+            echo "SHA256:"
+            printf ' %s %s main/binary-aarch64/Packages\n' "$(sha256sum "$PKG" | awk '{print $1}')" "$(stat -c %s "$PKG")"
+            printf ' %s %s main/binary-aarch64/Packages.gz\n' "$(sha256sum "$PKG_GZ" | awk '{print $1}')" "$(stat -c %s "$PKG_GZ")"
+          } > "$RELEASE"
+
+          gpg --batch --yes --local-user "$EXPECTED" --digest-algo SHA256 --clearsign --output apt/dists/stable/InRelease "$RELEASE"
+          gpg --batch --yes --local-user "$EXPECTED" --digest-algo SHA256 --detach-sign --output apt/dists/stable/Release.gpg "$RELEASE"
+          gpgv --keyring apt/ocean.gpg apt/dists/stable/InRelease
+          gpgv --keyring apt/ocean.gpg apt/dists/stable/Release.gpg "$RELEASE"
+
+          echo "old_stanzas=$OLD_STANZAS" >> "$GITHUB_OUTPUT"
+          echo "old_unique=$OLD_UNIQUE" >> "$GITHUB_OUTPUT"
+          echo "new_stanzas=$NEW_STANZAS" >> "$GITHUB_OUTPUT"
+          echo "new_unique=$NEW_UNIQUE" >> "$GITHUB_OUTPUT"
+          echo "promoted=true" >> "$GITHUB_OUTPUT"
+
+      - name: Commit staged build and signed promotion
+        run: |
+          set -euo pipefail
+          git config user.name "Ocean Package Builder"
+          git config user.email "packages@ocean.studio"
+
+          git add staging/power-suite
+          if [ "${{ steps.promote.outputs.promoted }}" = "true" ]; then
+            git add apt/dists/stable
+            git add --sparse apt/pool/main/*.deb
+          fi
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "release(power-suite): add 250 unique functional packages [skip ci]"
+          git pull --rebase origin main
+          git push origin HEAD:main
+
+      - name: Final report
+        run: |
+          echo "Built packages: 250"
+          echo "Promoted: ${{ steps.promote.outputs.promoted }}"
+          echo "Old live stanzas: ${{ steps.promote.outputs.old_stanzas }}"
+          echo "New live stanzas: ${{ steps.promote.outputs.new_stanzas }}"
+          echo "Old unique names: ${{ steps.promote.outputs.old_unique }}"
+          echo "New unique names: ${{ steps.promote.outputs.new_unique }}"
