@@ -1,361 +1,513 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "shard": "shard-27-data-stream-etl",
-  "section": "utils",
   "category": "Data Streaming & ETL Pipelines",
+  "repair": "placeholder-to-functional",
   "target": "aarch64-linux-android28",
   "prefix": "/data/data/studio.ocean.app/files/usr",
   "packageCount": 50,
+  "uniquePackageCount": 50,
+  "version": "1.0.0-2",
   "packages": [
     {
       "package": "csv-delimiter-detector",
-      "version": "1.0.0-1",
-      "artifact": "csv-delimiter-detector_1.0.0-1_aarch64.deb",
-      "sha256": "517c04710d396599ac2a6865f061b3578da30892e5fda6cfccc0d957f2854d91",
-      "size": 2148
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "csv-delimiter-detector_1.0.0-2_aarch64.deb",
+      "sha256": "f09c775de6d92135d3bbb0ae66757d23931e3648a0a8ce274ff14b7e17e86425",
+      "size": 10740,
+      "implementation": "sources/functional-shards/shard27_etl.py",
+      "status": "functional-repair"
     },
     {
       "package": "csv-quoting-fixer",
-      "version": "1.0.0-1",
-      "artifact": "csv-quoting-fixer_1.0.0-1_aarch64.deb",
-      "sha256": "bb57f58980809caa576396a627d738cdfb6367885732419cb92ce7f4f37545fa",
-      "size": 2152
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "csv-quoting-fixer_1.0.0-2_aarch64.deb",
+      "sha256": "5a15e7402a7dc605ded452fec7f5de53af2d7e9a7cefa0505248ff2839b3e0f4",
+      "size": 10764,
+      "implementation": "sources/functional-shards/shard27_etl.py",
+      "status": "functional-repair"
     },
     {
       "package": "csv-transpose-matrix",
-      "version": "1.0.0-1",
-      "artifact": "csv-transpose-matrix_1.0.0-1_aarch64.deb",
-      "sha256": "c4a841d416e05cba75271bb8e4d95d8be124713de890f64f1749b6ad7c7e3996",
-      "size": 2136
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "csv-transpose-matrix_1.0.0-2_aarch64.deb",
+      "sha256": "00691c1f98a1e2a6aba1113a64eb092c1e1c185fea71d48348c6ac26d0123688",
+      "size": 10748,
+      "implementation": "sources/functional-shards/shard27_etl.py",
+      "status": "functional-repair"
     },
     {
       "package": "csv-diff-table-tool",
-      "version": "1.0.0-1",
-      "artifact": "csv-diff-table-tool_1.0.0-1_aarch64.deb",
-      "sha256": "328617cccf07ad92ef0a5ffb2354b7a0e84b96046e4a5745ee3d7220468c4403",
-      "size": 2156
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "csv-diff-table-tool_1.0.0-2_aarch64.deb",
+      "sha256": "108b7832e7c829a1c5694b8b6dc856fff93504e04b3529e5f157c3ab101e1586",
+      "size": 10768,
+      "implementation": "sources/functional-shards/shard27_etl.py",
+      "status": "functional-repair"
     },
     {
       "package": "tsv-aggregate-group-by",
-      "version": "1.0.0-1",
-      "artifact": "tsv-aggregate-group-by_1.0.0-1_aarch64.deb",
-      "sha256": "72bb1c1513bec71be3019ac3b7816a54724723c4810bcfe3daf00a02ba53ef02",
-      "size": 2152
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "tsv-aggregate-group-by_1.0.0-2_aarch64.deb",
+      "sha256": "e7f5b6dbc2400cae661e529ef6b42ca430190c900d924a9cb7f4fe5bd2b9e279",
+      "size": 10748,
+      "implementation": "sources/functional-shards/shard27_etl.py",
+      "status": "functional-repair"
     },
     {
       "package": "tsv-sliding-window-avg",
-      "version": "1.0.0-1",
-      "artifact": "tsv-sliding-window-avg_1.0.0-1_aarch64.deb",
-      "sha256": "e0c137b1977b9a7abbaee04e8aa31d517e3cd998ab437c46556f508f11997b36",
-      "size": 2156
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "tsv-sliding-window-avg_1.0.0-2_aarch64.deb",
+      "sha256": "92be7d86e4656166ed9c201cb8e345ca850651240dcaf5fb326ef42de13c4b1c",
+      "size": 10744,
+      "implementation": "sources/functional-shards/shard27_etl.py",
+      "status": "functional-repair"
     },
     {
       "package": "tsv-cumsum-running-tot",
-      "version": "1.0.0-1",
-      "artifact": "tsv-cumsum-running-tot_1.0.0-1_aarch64.deb",
-      "sha256": "8a21809887d49ebcdf0f8842767bc8c10685649d3b4bd663317029d60bed943c",
-      "size": 2144
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "tsv-cumsum-running-tot_1.0.0-2_aarch64.deb",
+      "sha256": "b45066567599e3fcd084de5a410417e65842846f75f0118360d7fd0e5e5189dc",
+      "size": 10752,
+      "implementation": "sources/functional-shards/shard27_etl.py",
+      "status": "functional-repair"
     },
     {
       "package": "tsv-quantile-cut-cli",
-      "version": "1.0.0-1",
-      "artifact": "tsv-quantile-cut-cli_1.0.0-1_aarch64.deb",
-      "sha256": "d790f9e835dc14003e3f4abae00b7fb4d97fb4e6903ab9ce18ffab3e50d5ad67",
-      "size": 2152
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "tsv-quantile-cut-cli_1.0.0-2_aarch64.deb",
+      "sha256": "2431f35df601e70686b079719c79ee3a7d09c13375e3c392d5e63e3bc17fb742",
+      "size": 10756,
+      "implementation": "sources/functional-shards/shard27_etl.py",
+      "status": "functional-repair"
     },
     {
       "package": "json-lines-flatten-tool",
-      "version": "1.0.0-1",
-      "artifact": "json-lines-flatten-tool_1.0.0-1_aarch64.deb",
-      "sha256": "3cd389c24772e9ab40d2b6c7daead6b32be2c0010e7d8a5928f6a75e93ebc6c7",
-      "size": 2160
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "json-lines-flatten-tool_1.0.0-2_aarch64.deb",
+      "sha256": "da6ef72344bad65c9e6a0db0df23d750f6bbae4c5e169384b3168a7924c22073",
+      "size": 10764,
+      "implementation": "sources/functional-shards/shard27_etl.py",
+      "status": "functional-repair"
     },
     {
       "package": "json-lines-unflatten",
-      "version": "1.0.0-1",
-      "artifact": "json-lines-unflatten_1.0.0-1_aarch64.deb",
-      "sha256": "067f344a4de320b12172b6f416d0fdf6a740564081d5510995948fb5c8031e15",
-      "size": 2148
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "json-lines-unflatten_1.0.0-2_aarch64.deb",
+      "sha256": "4d8f0c6c7d567c631a4e331e05a144c8510bdb00bbde93ce1d4a9e5b10bfd464",
+      "size": 10764,
+      "implementation": "sources/functional-shards/shard27_etl.py",
+      "status": "functional-repair"
     },
     {
       "package": "ndjson-filter-jq-lite",
-      "version": "1.0.0-1",
-      "artifact": "ndjson-filter-jq-lite_1.0.0-1_aarch64.deb",
-      "sha256": "e4c685ee6ab26c047ca17fb4a06bc0efc656f1ed0577581bdbd2b09673eeab27",
-      "size": 2156
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "ndjson-filter-jq-lite_1.0.0-2_aarch64.deb",
+      "sha256": "6f979a208a9aa36d3965adfef5755f72a1a795ab3e675c19a530c83d609914b2",
+      "size": 10760,
+      "implementation": "sources/functional-shards/shard27_etl.py",
+      "status": "functional-repair"
     },
     {
       "package": "ndjson-sort-by-key",
-      "version": "1.0.0-1",
-      "artifact": "ndjson-sort-by-key_1.0.0-1_aarch64.deb",
-      "sha256": "1729373c1b1cae7c0c41b1cd16607e6b150b3881d7d677f73efc7a4da04d0120",
-      "size": 2156
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "ndjson-sort-by-key_1.0.0-2_aarch64.deb",
+      "sha256": "88ef272e0feaf0c9bd264d30570a06285c782c252869d586a563d4b2febd82fa",
+      "size": 10760,
+      "implementation": "sources/functional-shards/shard27_etl.py",
+      "status": "functional-repair"
     },
     {
       "package": "log-regex-named-captures",
-      "version": "1.0.0-1",
-      "artifact": "log-regex-named-captures_1.0.0-1_aarch64.deb",
-      "sha256": "0d9af4d6eec3856a7234068bee193698c89f6821108f08d46d791a454f59be1a",
-      "size": 2168
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "log-regex-named-captures_1.0.0-2_aarch64.deb",
+      "sha256": "152fad7c77f9b1224ac8c9ab53ebb0eecc59d9285fad122fc4f9916ab159078c",
+      "size": 10748,
+      "implementation": "sources/functional-shards/shard27_etl.py",
+      "status": "functional-repair"
     },
     {
       "package": "grok-pattern-parser",
-      "version": "1.0.0-1",
-      "artifact": "grok-pattern-parser_1.0.0-1_aarch64.deb",
-      "sha256": "a0b6ef7e71ebd439bff52dc75302f66f2e2f63a0fa449d67dd9fff77637e9a5a",
-      "size": 2144
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "grok-pattern-parser_1.0.0-2_aarch64.deb",
+      "sha256": "b27ebe4476cfbf1a3a25843bd1d5e5eff76335814ba628369fcb02c21f38dc4c",
+      "size": 10740,
+      "implementation": "sources/functional-shards/shard27_etl.py",
+      "status": "functional-repair"
     },
     {
       "package": "clf-apache-log-parser",
-      "version": "1.0.0-1",
-      "artifact": "clf-apache-log-parser_1.0.0-1_aarch64.deb",
-      "sha256": "7770a2b9dbb3333ba8610bdb09b64aceab55121e56da3a1db1fbd6f9b4a97b23",
-      "size": 2160
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "clf-apache-log-parser_1.0.0-2_aarch64.deb",
+      "sha256": "bc2b2c5b50c7167d0cb1142d9fe26c3aa496d70c573f2a7516036bcc46e6c5c1",
+      "size": 10752,
+      "implementation": "sources/functional-shards/shard27_etl.py",
+      "status": "functional-repair"
     },
     {
       "package": "combined-log-formatter",
-      "version": "1.0.0-1",
-      "artifact": "combined-log-formatter_1.0.0-1_aarch64.deb",
-      "sha256": "72f5187989d925fe08eb851d16bd9630d94821553e51fb2e43ef9728064a7be4",
-      "size": 2156
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "combined-log-formatter_1.0.0-2_aarch64.deb",
+      "sha256": "5933fb303723e0fab11e18f9f184bf4343c2c6727fefd3492f287cc32ba98a13",
+      "size": 10752,
+      "implementation": "sources/functional-shards/shard27_etl.py",
+      "status": "functional-repair"
     },
     {
       "package": "nginx-access-log-parser",
-      "version": "1.0.0-1",
-      "artifact": "nginx-access-log-parser_1.0.0-1_aarch64.deb",
-      "sha256": "6a28050f17635c98a5068966941a8cae665b0a1febb10791ba41018dcb67c74e",
-      "size": 2156
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "nginx-access-log-parser_1.0.0-2_aarch64.deb",
+      "sha256": "228da7013f1268deee7a3929c2cab6ccafa80d1cb66adfa81d2d31478befc755",
+      "size": 10748,
+      "implementation": "sources/functional-shards/shard27_etl.py",
+      "status": "functional-repair"
     },
     {
       "package": "auth-log-ip-aggregator",
-      "version": "1.0.0-1",
-      "artifact": "auth-log-ip-aggregator_1.0.0-1_aarch64.deb",
-      "sha256": "d5be77bf8f2a87e01858db4e9910c3a3c732899b3d6e4c244d4ebe8544901d00",
-      "size": 2160
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "auth-log-ip-aggregator_1.0.0-2_aarch64.deb",
+      "sha256": "801743ff171497efd3ecd2acc802a9710c63bbac5a90552a9baa25273c70c39f",
+      "size": 10760,
+      "implementation": "sources/functional-shards/shard27_etl.py",
+      "status": "functional-repair"
     },
     {
       "package": "fail2ban-regex-tester",
-      "version": "1.0.0-1",
-      "artifact": "fail2ban-regex-tester_1.0.0-1_aarch64.deb",
-      "sha256": "9ccd75007773e51012da1e136bf3f7b17da0eb14e5f71c530aa8e1fbbb7817f0",
-      "size": 2148
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "fail2ban-regex-tester_1.0.0-2_aarch64.deb",
+      "sha256": "07c34557c6e58933bff1c5f00d9fa5003715699e12d0a90c357f674486887eb8",
+      "size": 10752,
+      "implementation": "sources/functional-shards/shard27_etl.py",
+      "status": "functional-repair"
     },
     {
       "package": "tsv-pivot-table-gen",
-      "version": "1.0.0-1",
-      "artifact": "tsv-pivot-table-gen_1.0.0-1_aarch64.deb",
-      "sha256": "fe0380a82107f651b6a730fe91597a64728dd3166b0a846af1f58cc497045933",
-      "size": 2144
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "tsv-pivot-table-gen_1.0.0-2_aarch64.deb",
+      "sha256": "2278ce6f29fcac5c4203389ff50e15d8538a9280bfba6b765818b69f59a59979",
+      "size": 10744,
+      "implementation": "sources/functional-shards/shard27_etl.py",
+      "status": "functional-repair"
     },
     {
       "package": "tsv-unpivot-melt-tool",
-      "version": "1.0.0-1",
-      "artifact": "tsv-unpivot-melt-tool_1.0.0-1_aarch64.deb",
-      "sha256": "0d78eafa97b73de0e4513bf1db2e9b2c12f2a1728a00278a75c8d1a20508b85c",
-      "size": 2140
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "tsv-unpivot-melt-tool_1.0.0-2_aarch64.deb",
+      "sha256": "e783ba657abc6a32fe247b0d722fc3e8bdef391b3dd7e46f35f76baa08a585ef",
+      "size": 10756,
+      "implementation": "sources/functional-shards/shard27_etl.py",
+      "status": "functional-repair"
     },
     {
       "package": "stream-sample-reservoir",
-      "version": "1.0.0-1",
-      "artifact": "stream-sample-reservoir_1.0.0-1_aarch64.deb",
-      "sha256": "c754c7879d8b485cb13051af220c9c5adcb2f6dbef74cbcac8c9cce60bd0435d",
-      "size": 2148
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "stream-sample-reservoir_1.0.0-2_aarch64.deb",
+      "sha256": "1a8245b1b5232e9d7b8830740e1892b35acb54fc18272e8eb563280b61a2e973",
+      "size": 10744,
+      "implementation": "sources/functional-shards/shard27_etl.py",
+      "status": "functional-repair"
     },
     {
       "package": "stream-distinct-hyperlog",
-      "version": "1.0.0-1",
-      "artifact": "stream-distinct-hyperlog_1.0.0-1_aarch64.deb",
-      "sha256": "eb6bb019cb25c367546fd451fbe13d5e040eb054b6f4a1d1a86e60159339db6c",
-      "size": 2148
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "stream-distinct-hyperlog_1.0.0-2_aarch64.deb",
+      "sha256": "90b5734e234fa74b1c667b78fa7e37f6a835c25dadd0ba37719c54cf5407d90b",
+      "size": 10744,
+      "implementation": "sources/functional-shards/shard27_etl.py",
+      "status": "functional-repair"
     },
     {
       "package": "stream-moving-average",
-      "version": "1.0.0-1",
-      "artifact": "stream-moving-average_1.0.0-1_aarch64.deb",
-      "sha256": "70f9c7e0edcc891b33014ebd15c966711a04b6bcf75407f2f45143f882893930",
-      "size": 2132
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "stream-moving-average_1.0.0-2_aarch64.deb",
+      "sha256": "4f1ba681dc792caf49b0722e2d2dd65f1e3a5f2e3b740d17598c4c7f55dec0c3",
+      "size": 10744,
+      "implementation": "sources/functional-shards/shard27_etl.py",
+      "status": "functional-repair"
     },
     {
       "package": "stream-exponential-decay",
-      "version": "1.0.0-1",
-      "artifact": "stream-exponential-decay_1.0.0-1_aarch64.deb",
-      "sha256": "5738c367f8b6d919ec15040d2b5efc63ba47da2898e11d6caca8ff30606bf25d",
-      "size": 2152
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "stream-exponential-decay_1.0.0-2_aarch64.deb",
+      "sha256": "6ff45b46ca094849adf208afa3494cb9bf5fcc169a2bebfdf971fe218de6c518",
+      "size": 10756,
+      "implementation": "sources/functional-shards/shard27_etl.py",
+      "status": "functional-repair"
     },
     {
       "package": "stream-rate-throttle-cli",
-      "version": "1.0.0-1",
-      "artifact": "stream-rate-throttle-cli_1.0.0-1_aarch64.deb",
-      "sha256": "f938918e512d612ea25c60334def177d7528b0ecfff51cd9ca4cd795fd58396d",
-      "size": 2152
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "stream-rate-throttle-cli_1.0.0-2_aarch64.deb",
+      "sha256": "675ca85dbcbac98a28a53ed9f6f45f798b992d232aa6a27843e158d874958309",
+      "size": 10748,
+      "implementation": "sources/functional-shards/shard27_etl.py",
+      "status": "functional-repair"
     },
     {
       "package": "stream-chunk-byte-split",
-      "version": "1.0.0-1",
-      "artifact": "stream-chunk-byte-split_1.0.0-1_aarch64.deb",
-      "sha256": "36db2f2ad3bed95ab5c4832bd02b5fc5d0d937b4364a4c0e227fe5a6256e19b8",
-      "size": 2148
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "stream-chunk-byte-split_1.0.0-2_aarch64.deb",
+      "sha256": "c7a2d0372e414dd412c48cbcc874ec2d4103604b21882bd3fa113ebb4d75acba",
+      "size": 10756,
+      "implementation": "sources/functional-shards/shard27_etl.py",
+      "status": "functional-repair"
     },
     {
       "package": "stream-checksum-hasher",
-      "version": "1.0.0-1",
-      "artifact": "stream-checksum-hasher_1.0.0-1_aarch64.deb",
-      "sha256": "2334bfbdb61dbfac3f67e0081c240c13db72c4e101c3627b7a27e8d5e1399ccd",
-      "size": 2140
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "stream-checksum-hasher_1.0.0-2_aarch64.deb",
+      "sha256": "33599119762f2cc0f015eb6d1f695f96abf40353b42eda323c87c6743871d9f4",
+      "size": 10756,
+      "implementation": "sources/functional-shards/shard27_etl.py",
+      "status": "functional-repair"
     },
     {
       "package": "stream-xor-filter-cli",
-      "version": "1.0.0-1",
-      "artifact": "stream-xor-filter-cli_1.0.0-1_aarch64.deb",
-      "sha256": "00ec0f4b949e873dfa617ccd99fbbd46292d04d94912e7d7b90d35e5f3714e76",
-      "size": 2140
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "stream-xor-filter-cli_1.0.0-2_aarch64.deb",
+      "sha256": "4cbfd42b13cf3d1a38b8677b9431cf99695239156b280261d3f7304ba9a5d100",
+      "size": 10752,
+      "implementation": "sources/functional-shards/shard27_etl.py",
+      "status": "functional-repair"
     },
     {
       "package": "byte-frequency-analysis",
-      "version": "1.0.0-1",
-      "artifact": "byte-frequency-analysis_1.0.0-1_aarch64.deb",
-      "sha256": "06ae179d4485883bd82b771b40c64afc0677e403c856b9ba8109b371a558f1d1",
-      "size": 2148
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "byte-frequency-analysis_1.0.0-2_aarch64.deb",
+      "sha256": "c3cc9fc0a634ffce3f3de39ee025bb272e4a9620d92b1b1953ec4a0d88ae2c58",
+      "size": 10740,
+      "implementation": "sources/functional-shards/shard27_etl.py",
+      "status": "functional-repair"
     },
     {
       "package": "file-dedup-block-hasher",
-      "version": "1.0.0-1",
-      "artifact": "file-dedup-block-hasher_1.0.0-1_aarch64.deb",
-      "sha256": "68342825d27c9ff62b9a3be67aa7a2d231b79c24839521544c39bf3ff326f66b",
-      "size": 2156
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "file-dedup-block-hasher_1.0.0-2_aarch64.deb",
+      "sha256": "ee07240acaf88c46afdc9f1e437bcf1faa24c3d86a064ee416bd4d82233736d2",
+      "size": 10752,
+      "implementation": "sources/functional-shards/shard27_etl.py",
+      "status": "functional-repair"
     },
     {
       "package": "rolling-checksum-fast",
-      "version": "1.0.0-1",
-      "artifact": "rolling-checksum-fast_1.0.0-1_aarch64.deb",
-      "sha256": "db99a78c430f670b0843bd2fba7e89e838211ac506b26b2cd291aefda4255859",
-      "size": 2140
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "rolling-checksum-fast_1.0.0-2_aarch64.deb",
+      "sha256": "f45d7bc573c63fa97a2097d340fbef61e0fa5d431b1eac1929041f1b6d1dfd8f",
+      "size": 10748,
+      "implementation": "sources/functional-shards/shard27_etl.py",
+      "status": "functional-repair"
     },
     {
       "package": "run-length-encoder-cli",
-      "version": "1.0.0-1",
-      "artifact": "run-length-encoder-cli_1.0.0-1_aarch64.deb",
-      "sha256": "5e03e0b2cdb718cc406f7ee7a1b276a23f50fd7aba744ff917c69ed48936d72d",
-      "size": 2156
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "run-length-encoder-cli_1.0.0-2_aarch64.deb",
+      "sha256": "ff915a343f1ddda45f74967c04f95580aca5b8d73f3531124bc8311725fcf4c0",
+      "size": 10760,
+      "implementation": "sources/functional-shards/shard27_etl.py",
+      "status": "functional-repair"
     },
     {
       "package": "run-length-decoder-cli",
-      "version": "1.0.0-1",
-      "artifact": "run-length-decoder-cli_1.0.0-1_aarch64.deb",
-      "sha256": "bd835e7a8f6709948e7887b7b940fea48faf06b0ba0d1fa53ce8824046afe341",
-      "size": 2136
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "run-length-decoder-cli_1.0.0-2_aarch64.deb",
+      "sha256": "05d39fa68562beb20daaeedbe65213e93e3186eb303652ccb2900183a5e4f9c5",
+      "size": 10748,
+      "implementation": "sources/functional-shards/shard27_etl.py",
+      "status": "functional-repair"
     },
     {
       "package": "delta-encoding-tool",
-      "version": "1.0.0-1",
-      "artifact": "delta-encoding-tool_1.0.0-1_aarch64.deb",
-      "sha256": "7e8278ffdfc161ca9adc122ef3cc630099d3238c5c121dd8af31f53fe4caf5a0",
-      "size": 2152
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "delta-encoding-tool_1.0.0-2_aarch64.deb",
+      "sha256": "176de66c17d558852d8b65dc1b800f6d18565bfd53546d1953bcff1024d1e81d",
+      "size": 10748,
+      "implementation": "sources/functional-shards/shard27_etl.py",
+      "status": "functional-repair"
     },
     {
       "package": "zigzag-encoding-cli",
-      "version": "1.0.0-1",
-      "artifact": "zigzag-encoding-cli_1.0.0-1_aarch64.deb",
-      "sha256": "6eed2a716beff2daa2eeb6a81e63eda031c1b1da59e3ee0cde52559eb9d6885a",
-      "size": 2156
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "zigzag-encoding-cli_1.0.0-2_aarch64.deb",
+      "sha256": "4ffc28efd5297562afd4f0c243ea1113923e9233566d0053c1dd344e4198a600",
+      "size": 10748,
+      "implementation": "sources/functional-shards/shard27_etl.py",
+      "status": "functional-repair"
     },
     {
       "package": "variable-byte-encoder",
-      "version": "1.0.0-1",
-      "artifact": "variable-byte-encoder_1.0.0-1_aarch64.deb",
-      "sha256": "cde1939d435b2974996503ad318a410d68160930349a6e88251619c96f00bba3",
-      "size": 2140
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "variable-byte-encoder_1.0.0-2_aarch64.deb",
+      "sha256": "8489d8579fd22761c2505e25bc0fbc39a4c8bcb70dd5ac8fa843cf8e4d822bba",
+      "size": 10736,
+      "implementation": "sources/functional-shards/shard27_etl.py",
+      "status": "functional-repair"
     },
     {
       "package": "bit-packing-unpacker",
-      "version": "1.0.0-1",
-      "artifact": "bit-packing-unpacker_1.0.0-1_aarch64.deb",
-      "sha256": "23923c65616e1fc28702105dee02ed9fd50d00486315ec911349b3b9de7a557d",
-      "size": 2132
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "bit-packing-unpacker_1.0.0-2_aarch64.deb",
+      "sha256": "07248b46c3f9849c3495e92cea096d85c210353002e4dfae9625f2c58e6d55b2",
+      "size": 10740,
+      "implementation": "sources/functional-shards/shard27_etl.py",
+      "status": "functional-repair"
     },
     {
       "package": "column-to-row-transposer",
-      "version": "1.0.0-1",
-      "artifact": "column-to-row-transposer_1.0.0-1_aarch64.deb",
-      "sha256": "bbdd0aa7268f6a26b2f35f182949d9a71f3eb6e353205101cbcf0bb323074149",
-      "size": 2152
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "column-to-row-transposer_1.0.0-2_aarch64.deb",
+      "sha256": "84695650fac10859eb69317a1fd8c69c1f0700a9228dc4ddc3cd141ca7fe673e",
+      "size": 10744,
+      "implementation": "sources/functional-shards/shard27_etl.py",
+      "status": "functional-repair"
     },
     {
       "package": "row-to-column-pack-cli",
-      "version": "1.0.0-1",
-      "artifact": "row-to-column-pack-cli_1.0.0-1_aarch64.deb",
-      "sha256": "b6abd3f1f684e16127054695eb11fd13e53b49e4068fc77db08683b19c0ba09d",
-      "size": 2160
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "row-to-column-pack-cli_1.0.0-2_aarch64.deb",
+      "sha256": "50a14c34f1f87787bc01bf5dbae98ea87de4cae9bd7f48d912abeb6dda6d8a9e",
+      "size": 10752,
+      "implementation": "sources/functional-shards/shard27_etl.py",
+      "status": "functional-repair"
     },
     {
       "package": "data-masking-pseudonym",
-      "version": "1.0.0-1",
-      "artifact": "data-masking-pseudonym_1.0.0-1_aarch64.deb",
-      "sha256": "b34d63454e9702d09b6c0051945a89a9586d548e121b2a08b0785e7b8ed9ddca",
-      "size": 2152
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "data-masking-pseudonym_1.0.0-2_aarch64.deb",
+      "sha256": "226784f88b1abad9d99dac56984fc416e6e66827d9aef65016c4e1ac7251d4a3",
+      "size": 10748,
+      "implementation": "sources/functional-shards/shard27_etl.py",
+      "status": "functional-repair"
     },
     {
       "package": "pii-regex-scrubber-cli",
-      "version": "1.0.0-1",
-      "artifact": "pii-regex-scrubber-cli_1.0.0-1_aarch64.deb",
-      "sha256": "e6b9a961f65f5b2f54bc2297d0508baeecfb12e3de00fe44c53b5d79ca8f0014",
-      "size": 2160
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "pii-regex-scrubber-cli_1.0.0-2_aarch64.deb",
+      "sha256": "ad2a9f7077b0586bd01d023b33b94fda693ed92b01be7bd068a11875a70ad69b",
+      "size": 10756,
+      "implementation": "sources/functional-shards/shard27_etl.py",
+      "status": "functional-repair"
     },
     {
       "package": "credit-card-luhn-chk",
-      "version": "1.0.0-1",
-      "artifact": "credit-card-luhn-chk_1.0.0-1_aarch64.deb",
-      "sha256": "0cc9e8923f0a0ca40c805ebff9c4a8f7166fe6e22988f1a6c14353397b50a090",
-      "size": 2152
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "credit-card-luhn-chk_1.0.0-2_aarch64.deb",
+      "sha256": "411ace605f436d1c125f4fbe41e3b91c794f9e2e4cf0f95174f6521c1c76f1b9",
+      "size": 10756,
+      "implementation": "sources/functional-shards/shard27_etl.py",
+      "status": "functional-repair"
     },
     {
       "package": "iban-validator-cli-tool",
-      "version": "1.0.0-1",
-      "artifact": "iban-validator-cli-tool_1.0.0-1_aarch64.deb",
-      "sha256": "f57c266980a7b733af374427b722f7ebd2936665636b34854f5a57f20184fc31",
-      "size": 2168
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "iban-validator-cli-tool_1.0.0-2_aarch64.deb",
+      "sha256": "fad7f216e45107c51746305738db95af2a3cfffea502e69e2b073b38cf29c094",
+      "size": 10764,
+      "implementation": "sources/functional-shards/shard27_etl.py",
+      "status": "functional-repair"
     },
     {
       "package": "uuid-v1-timestamp-view",
-      "version": "1.0.0-1",
-      "artifact": "uuid-v1-timestamp-view_1.0.0-1_aarch64.deb",
-      "sha256": "efb3ced7148ee80141463caf9c32afc0840a576024ee1891c5b4643a519db513",
-      "size": 2156
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "uuid-v1-timestamp-view_1.0.0-2_aarch64.deb",
+      "sha256": "5a4848232965ab9d69b4abdc303fee9dc07383a86abc4f784e6f4828ac40f57d",
+      "size": 10756,
+      "implementation": "sources/functional-shards/shard27_etl.py",
+      "status": "functional-repair"
     },
     {
       "package": "uuid-v4-entropy-tester",
-      "version": "1.0.0-1",
-      "artifact": "uuid-v4-entropy-tester_1.0.0-1_aarch64.deb",
-      "sha256": "d4ba497e10bad81b2dcada55d2ac096ba34051a6d9ef05fb540a2c659c875f54",
-      "size": 2164
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "uuid-v4-entropy-tester_1.0.0-2_aarch64.deb",
+      "sha256": "3eb6ffb742b3a1627c7967984edf56abd525914c1d5329cceecb6ddc256a4be0",
+      "size": 10760,
+      "implementation": "sources/functional-shards/shard27_etl.py",
+      "status": "functional-repair"
     },
     {
       "package": "uuid-v5-name-hasher",
-      "version": "1.0.0-1",
-      "artifact": "uuid-v5-name-hasher_1.0.0-1_aarch64.deb",
-      "sha256": "4d0c5e70262b18a7d04b1327c36550f6d1d98e228f85a1b236ba9b2fced07e0a",
-      "size": 2156
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "uuid-v5-name-hasher_1.0.0-2_aarch64.deb",
+      "sha256": "ec62452c6c82d25612b2d57678a20b4d2eeb3d1ecabcbc13b53fc170cdcf5890",
+      "size": 10756,
+      "implementation": "sources/functional-shards/shard27_etl.py",
+      "status": "functional-repair"
     },
     {
       "package": "uuid-v7-sortable-maker",
-      "version": "1.0.0-1",
-      "artifact": "uuid-v7-sortable-maker_1.0.0-1_aarch64.deb",
-      "sha256": "844f6d34e56c9df0759af37acc352f80898b0110445134923b156a32ff0e099b",
-      "size": 2152
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "uuid-v7-sortable-maker_1.0.0-2_aarch64.deb",
+      "sha256": "fbe8637dec7ef1a0229b156579471c35eb803d1297503dda7c50df362892f541",
+      "size": 10752,
+      "implementation": "sources/functional-shards/shard27_etl.py",
+      "status": "functional-repair"
     },
     {
       "package": "ulid-timestamp-extractor",
-      "version": "1.0.0-1",
-      "artifact": "ulid-timestamp-extractor_1.0.0-1_aarch64.deb",
-      "sha256": "5beafdde8790fb947b3edc6d5088dd26a3769d2085fae7c6c7eb14d7c4047989",
-      "size": 2168
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "ulid-timestamp-extractor_1.0.0-2_aarch64.deb",
+      "sha256": "8d2c2da69260b02b1e5038d6983da517bdad2c450ba0a5a916dd142f87880278",
+      "size": 10768,
+      "implementation": "sources/functional-shards/shard27_etl.py",
+      "status": "functional-repair"
     },
     {
       "package": "nanoid-collision-calc",
-      "version": "1.0.0-1",
-      "artifact": "nanoid-collision-calc_1.0.0-1_aarch64.deb",
-      "sha256": "75b88431fa814ff7ec864f3815f8c822cd255c3f9901baa7eb53af59abcb2f80",
-      "size": 2148
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "nanoid-collision-calc_1.0.0-2_aarch64.deb",
+      "sha256": "fb385212ae65671dbe6d11950e9296e52e1c2772ed106a9d0b5f3a38fd536cdf",
+      "size": 10760,
+      "implementation": "sources/functional-shards/shard27_etl.py",
+      "status": "functional-repair"
     }
   ]
 }

@@ -1,0 +1,799 @@
+Package: csv-delimiter-detector
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/csv-delimiter-detector_1.0.0-2_aarch64.deb
+Size: 10740
+MD5sum: a605c41fb760f1586a38a99ecdbe3cf2
+SHA1: 4b97139684ad6b209ffec289533c4d634f87947d
+SHA256: f09c775de6d92135d3bbb0ae66757d23931e3648a0a8ce274ff14b7e17e86425
+Section: utils
+Priority: optional
+Description: automatic tabular CSV TSV semicolon delimiter detector
+ Functional OceanStudio implementation for Android AArch64.
+ This repair replaces the earlier generic passthrough placeholder.
+
+Package: csv-quoting-fixer
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/csv-quoting-fixer_1.0.0-2_aarch64.deb
+Size: 10764
+MD5sum: 2193f3fc973f6277ce3296c40cce6b87
+SHA1: 7e81be0fb53721ef3b17ee5eb1596f434516cf0d
+SHA256: 5a15e7402a7dc605ded452fec7f5de53af2d7e9a7cefa0505248ff2839b3e0f4
+Section: utils
+Priority: optional
+Description: malformed CSV unescaped quotes RFC 4180 repair tool
+ Functional OceanStudio implementation for Android AArch64.
+ This repair replaces the earlier generic passthrough placeholder.
+
+Package: csv-transpose-matrix
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/csv-transpose-matrix_1.0.0-2_aarch64.deb
+Size: 10748
+MD5sum: c50b070630580965c1a7b0b1fc9427e7
+SHA1: 1a638cc251cdb22406e31d0cb4651f7bfc6bfa10
+SHA256: 00691c1f98a1e2a6aba1113a64eb092c1e1c185fea71d48348c6ac26d0123688
+Section: utils
+Priority: optional
+Description: stream tabular CSV rows and columns matrix transposer
+ Functional OceanStudio implementation for Android AArch64.
+ This repair replaces the earlier generic passthrough placeholder.
+
+Package: csv-diff-table-tool
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/csv-diff-table-tool_1.0.0-2_aarch64.deb
+Size: 10768
+MD5sum: 2280538d6d1db1fa16a1bf244332b655
+SHA1: 07e86e61ed97365ed23c9a911dffff5118a9bd23
+SHA256: 108b7832e7c829a1c5694b8b6dc856fff93504e04b3529e5f157c3ab101e1586
+Section: utils
+Priority: optional
+Description: tabular CSV schema and record content differential tool
+ Functional OceanStudio implementation for Android AArch64.
+ This repair replaces the earlier generic passthrough placeholder.
+
+Package: tsv-aggregate-group-by
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/tsv-aggregate-group-by_1.0.0-2_aarch64.deb
+Size: 10748
+MD5sum: f9512006148dbffe4362c8f398a5f9a0
+SHA1: 0bf737ba5866550f3bddd25725579e37d2a8cb18
+SHA256: e7f5b6dbc2400cae661e529ef6b42ca430190c900d924a9cb7f4fe5bd2b9e279
+Section: utils
+Priority: optional
+Description: TSV stream group-by column aggregator sum min max count
+ Functional OceanStudio implementation for Android AArch64.
+ This repair replaces the earlier generic passthrough placeholder.
+
+Package: tsv-sliding-window-avg
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/tsv-sliding-window-avg_1.0.0-2_aarch64.deb
+Size: 10744
+MD5sum: 975be0cc53812e9c06c6cf379b07aeb6
+SHA1: f4a5fc5726962ee4df4943cd1e1f64c2a188a650
+SHA256: 92be7d86e4656166ed9c201cb8e345ca850651240dcaf5fb326ef42de13c4b1c
+Section: utils
+Priority: optional
+Description: TSV numeric column rolling sliding window average tool
+ Functional OceanStudio implementation for Android AArch64.
+ This repair replaces the earlier generic passthrough placeholder.
+
+Package: tsv-cumsum-running-tot
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/tsv-cumsum-running-tot_1.0.0-2_aarch64.deb
+Size: 10752
+MD5sum: 3b39f75d8d18513d0c0d53b0d7981668
+SHA1: 4893f02058af0ee3f7ee8c3fb94ce7e219dad358
+SHA256: b45066567599e3fcd084de5a410417e65842846f75f0118360d7fd0e5e5189dc
+Section: utils
+Priority: optional
+Description: TSV cumulative running sum and running product tool
+ Functional OceanStudio implementation for Android AArch64.
+ This repair replaces the earlier generic passthrough placeholder.
+
+Package: tsv-quantile-cut-cli
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/tsv-quantile-cut-cli_1.0.0-2_aarch64.deb
+Size: 10756
+MD5sum: 99aa249c8aa20eb25847ca2e92b2c851
+SHA1: a35b151e4ebbfd5007a53a4899fec11acfef8873
+SHA256: 2431f35df601e70686b079719c79ee3a7d09c13375e3c392d5e63e3bc17fb742
+Section: utils
+Priority: optional
+Description: TSV numerical values into quantile bins discretization
+ Functional OceanStudio implementation for Android AArch64.
+ This repair replaces the earlier generic passthrough placeholder.
+
+Package: json-lines-flatten-tool
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/json-lines-flatten-tool_1.0.0-2_aarch64.deb
+Size: 10764
+MD5sum: c8c27769d0c3619361bafa480804ee8e
+SHA1: b5c34bed28dd59c6049ec28eefc3f90f57bdaa4c
+SHA256: da6ef72344bad65c9e6a0db0df23d750f6bbae4c5e169384b3168a7924c22073
+Section: utils
+Priority: optional
+Description: nested JSON object hierarchy to dot-notation flattener
+ Functional OceanStudio implementation for Android AArch64.
+ This repair replaces the earlier generic passthrough placeholder.
+
+Package: json-lines-unflatten
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/json-lines-unflatten_1.0.0-2_aarch64.deb
+Size: 10764
+MD5sum: ddd71720b400910dd9975a2c6e5a7e77
+SHA1: bfc72657fa95464819058a78ec5b5671e0acaa29
+SHA256: 4d8f0c6c7d567c631a4e331e05a144c8510bdb00bbde93ce1d4a9e5b10bfd464
+Section: utils
+Priority: optional
+Description: dot-notation key-value JSON records unflattening tool
+ Functional OceanStudio implementation for Android AArch64.
+ This repair replaces the earlier generic passthrough placeholder.
+
+Package: ndjson-filter-jq-lite
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/ndjson-filter-jq-lite_1.0.0-2_aarch64.deb
+Size: 10760
+MD5sum: 6edc97f3878b1ae53136c55b0c6c8c67
+SHA1: 019aa1a4900209633b7094bdbd56738c11c0881b
+SHA256: 6f979a208a9aa36d3965adfef5755f72a1a795ab3e675c19a530c83d609914b2
+Section: utils
+Priority: optional
+Description: streaming NDJSON record filter with boolean predicates
+ Functional OceanStudio implementation for Android AArch64.
+ This repair replaces the earlier generic passthrough placeholder.
+
+Package: ndjson-sort-by-key
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/ndjson-sort-by-key_1.0.0-2_aarch64.deb
+Size: 10760
+MD5sum: 8428940aad37d0d6a973bfe0ea06362b
+SHA1: 7fc96acc95a1b1cc297e48c2689e1a9eb7e05d63
+SHA256: 88ef272e0feaf0c9bd264d30570a06285c782c252869d586a563d4b2febd82fa
+Section: utils
+Priority: optional
+Description: streaming newline-delimited JSON sorting by field value
+ Functional OceanStudio implementation for Android AArch64.
+ This repair replaces the earlier generic passthrough placeholder.
+
+Package: log-regex-named-captures
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/log-regex-named-captures_1.0.0-2_aarch64.deb
+Size: 10748
+MD5sum: a10d124bc9550323660b602e2e97c83e
+SHA1: 13eff555da971f3dd3cfe674b2f2f4819cb62162
+SHA256: 152fad7c77f9b1224ac8c9ab53ebb0eecc59d9285fad122fc4f9916ab159078c
+Section: utils
+Priority: optional
+Description: regular expression named capture group JSON extractor
+ Functional OceanStudio implementation for Android AArch64.
+ This repair replaces the earlier generic passthrough placeholder.
+
+Package: grok-pattern-parser
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/grok-pattern-parser_1.0.0-2_aarch64.deb
+Size: 10740
+MD5sum: 2a52f652c8ccdcffe57cda4fabf5bd63
+SHA1: ed2abcb479a704de3d565df4b9da21373715c58f
+SHA256: b27ebe4476cfbf1a3a25843bd1d5e5eff76335814ba628369fcb02c21f38dc4c
+Section: utils
+Priority: optional
+Description: Logstash Grok pattern regex library line parser
+ Functional OceanStudio implementation for Android AArch64.
+ This repair replaces the earlier generic passthrough placeholder.
+
+Package: clf-apache-log-parser
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/clf-apache-log-parser_1.0.0-2_aarch64.deb
+Size: 10752
+MD5sum: 872d917dda84bc9277cc01989057bc68
+SHA1: c0374bb76a0c2a5bbd82e83af797a33a941b86c0
+SHA256: bc2b2c5b50c7167d0cb1142d9fe26c3aa496d70c573f2a7516036bcc46e6c5c1
+Section: utils
+Priority: optional
+Description: Common Log Format Apache HTTP server log parser
+ Functional OceanStudio implementation for Android AArch64.
+ This repair replaces the earlier generic passthrough placeholder.
+
+Package: combined-log-formatter
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/combined-log-formatter_1.0.0-2_aarch64.deb
+Size: 10752
+MD5sum: 76a83955914a00f20bb0f348cc18690b
+SHA1: 33375370d7054efe12f307df2493a2e7072ab8ef
+SHA256: 5933fb303723e0fab11e18f9f184bf4343c2c6727fefd3492f287cc32ba98a13
+Section: utils
+Priority: optional
+Description: NCSA Combined Log Format to structured JSON converter
+ Functional OceanStudio implementation for Android AArch64.
+ This repair replaces the earlier generic passthrough placeholder.
+
+Package: nginx-access-log-parser
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/nginx-access-log-parser_1.0.0-2_aarch64.deb
+Size: 10748
+MD5sum: d5fbd2eff5270cf16969ee9834acbae1
+SHA1: 4bd26bb0b80c1c97976f8ef3230a4012587af6d5
+SHA256: 228da7013f1268deee7a3929c2cab6ccafa80d1cb66adfa81d2d31478befc755
+Section: utils
+Priority: optional
+Description: Nginx custom access log format string decompiler
+ Functional OceanStudio implementation for Android AArch64.
+ This repair replaces the earlier generic passthrough placeholder.
+
+Package: auth-log-ip-aggregator
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/auth-log-ip-aggregator_1.0.0-2_aarch64.deb
+Size: 10760
+MD5sum: ad411dbbbebbcfa4832380bd400aeeb7
+SHA1: 53755880010367d6f12e7a449dbdd8db2070a66e
+SHA256: 801743ff171497efd3ecd2acc802a9710c63bbac5a90552a9baa25273c70c39f
+Section: utils
+Priority: optional
+Description: Linux /var/log/auth.log failed SSH IP address aggregator
+ Functional OceanStudio implementation for Android AArch64.
+ This repair replaces the earlier generic passthrough placeholder.
+
+Package: fail2ban-regex-tester
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/fail2ban-regex-tester_1.0.0-2_aarch64.deb
+Size: 10752
+MD5sum: 366726f2e82f17a1385b331f01dcb3a2
+SHA1: 5a64db7cbaec567f57ac3d12701b079749494018
+SHA256: 07c34557c6e58933bff1c5f00d9fa5003715699e12d0a90c357f674486887eb8
+Section: utils
+Priority: optional
+Description: fail2ban jail failregex regular expression test tool
+ Functional OceanStudio implementation for Android AArch64.
+ This repair replaces the earlier generic passthrough placeholder.
+
+Package: tsv-pivot-table-gen
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/tsv-pivot-table-gen_1.0.0-2_aarch64.deb
+Size: 10744
+MD5sum: 308f023f01e92fd3c9f73963c01dd39b
+SHA1: c3fe812fe62765452b74f1618400b661216e1549
+SHA256: 2278ce6f29fcac5c4203389ff50e15d8538a9280bfba6b765818b69f59a59979
+Section: utils
+Priority: optional
+Description: tabular stream pivot table cross-tabulation generator
+ Functional OceanStudio implementation for Android AArch64.
+ This repair replaces the earlier generic passthrough placeholder.
+
+Package: tsv-unpivot-melt-tool
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/tsv-unpivot-melt-tool_1.0.0-2_aarch64.deb
+Size: 10756
+MD5sum: 9955d9fc729ff1adf2546cd04fcc8a42
+SHA1: 766291f48b40571996b36737e60a86a2d4d7ca1a
+SHA256: e783ba657abc6a32fe247b0d722fc3e8bdef391b3dd7e46f35f76baa08a585ef
+Section: utils
+Priority: optional
+Description: wide-format tabular data to long-format unpivot melt
+ Functional OceanStudio implementation for Android AArch64.
+ This repair replaces the earlier generic passthrough placeholder.
+
+Package: stream-sample-reservoir
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/stream-sample-reservoir_1.0.0-2_aarch64.deb
+Size: 10744
+MD5sum: 7b4da2d758a385be3fc80e055fac99ce
+SHA1: 42005c706a361fc5251d6f2dc9704c43a599dedd
+SHA256: 1a8245b1b5232e9d7b8830740e1892b35acb54fc18272e8eb563280b61a2e973
+Section: utils
+Priority: optional
+Description: Reservoir Sampling Algorithm R streaming uniform sample
+ Functional OceanStudio implementation for Android AArch64.
+ This repair replaces the earlier generic passthrough placeholder.
+
+Package: stream-distinct-hyperlog
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/stream-distinct-hyperlog_1.0.0-2_aarch64.deb
+Size: 10744
+MD5sum: dd17fd0b9e49805c2107f9b4f02aba22
+SHA1: 669b4e0763b6b69a1649f0f3b1c99509c92fb0d5
+SHA256: 90b5734e234fa74b1c667b78fa7e37f6a835c25dadd0ba37719c54cf5407d90b
+Section: utils
+Priority: optional
+Description: streaming cardinality estimation using HyperLogLog
+ Functional OceanStudio implementation for Android AArch64.
+ This repair replaces the earlier generic passthrough placeholder.
+
+Package: stream-moving-average
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/stream-moving-average_1.0.0-2_aarch64.deb
+Size: 10744
+MD5sum: 1310b3f0c2616757be1d78ee5ae18db8
+SHA1: ccf95c56026519836ed8803500f95d204853b5ed
+SHA256: 4f1ba681dc792caf49b0722e2d2dd65f1e3a5f2e3b740d17598c4c7f55dec0c3
+Section: utils
+Priority: optional
+Description: Simple Moving Average SMA stream filter utility
+ Functional OceanStudio implementation for Android AArch64.
+ This repair replaces the earlier generic passthrough placeholder.
+
+Package: stream-exponential-decay
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/stream-exponential-decay_1.0.0-2_aarch64.deb
+Size: 10756
+MD5sum: 4a1640f7da6abf7a32bf03041132da9e
+SHA1: 1312e141a468f6731ede4041e0f0ec9652d88245
+SHA256: 6ff45b46ca094849adf208afa3494cb9bf5fcc169a2bebfdf971fe218de6c518
+Section: utils
+Priority: optional
+Description: Exponential Moving Average EMA half-life calculator
+ Functional OceanStudio implementation for Android AArch64.
+ This repair replaces the earlier generic passthrough placeholder.
+
+Package: stream-rate-throttle-cli
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/stream-rate-throttle-cli_1.0.0-2_aarch64.deb
+Size: 10748
+MD5sum: 9828dd931f8cbf43776008a12ce615b0
+SHA1: 3512a37dd6662f6b31da26901de7e35a5e70d6f4
+SHA256: 675ca85dbcbac98a28a53ed9f6f45f798b992d232aa6a27843e158d874958309
+Section: utils
+Priority: optional
+Description: standard input line throughput rate limiting throttle
+ Functional OceanStudio implementation for Android AArch64.
+ This repair replaces the earlier generic passthrough placeholder.
+
+Package: stream-chunk-byte-split
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/stream-chunk-byte-split_1.0.0-2_aarch64.deb
+Size: 10756
+MD5sum: 54e6809674c35268ef848a489fa957f6
+SHA1: b06f707ce585410390d95e322330757b14d405e1
+SHA256: c7a2d0372e414dd412c48cbcc874ec2d4103604b21882bd3fa113ebb4d75acba
+Section: utils
+Priority: optional
+Description: stream chunking by byte count without creating files
+ Functional OceanStudio implementation for Android AArch64.
+ This repair replaces the earlier generic passthrough placeholder.
+
+Package: stream-checksum-hasher
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/stream-checksum-hasher_1.0.0-2_aarch64.deb
+Size: 10756
+MD5sum: 2f25b5cbef6ab3680824947fe59fac4d
+SHA1: 84c052f56dc4a5977a1d1ad03a4bace538d5e613
+SHA256: 33599119762f2cc0f015eb6d1f695f96abf40353b42eda323c87c6743871d9f4
+Section: utils
+Priority: optional
+Description: inline streaming checksum calculator preserving pipe
+ Functional OceanStudio implementation for Android AArch64.
+ This repair replaces the earlier generic passthrough placeholder.
+
+Package: stream-xor-filter-cli
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/stream-xor-filter-cli_1.0.0-2_aarch64.deb
+Size: 10752
+MD5sum: 51b859ba64a9ad00539793f68b034d4e
+SHA1: 917fa09a980de360d0558e1876abf4751aa7d029
+SHA256: 4cbfd42b13cf3d1a38b8677b9431cf99695239156b280261d3f7304ba9a5d100
+Section: utils
+Priority: optional
+Description: fast stream XOR filter membership data structure tool
+ Functional OceanStudio implementation for Android AArch64.
+ This repair replaces the earlier generic passthrough placeholder.
+
+Package: byte-frequency-analysis
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/byte-frequency-analysis_1.0.0-2_aarch64.deb
+Size: 10740
+MD5sum: aa80af82e2d34b8ceb6c9881b2768a0d
+SHA1: 6ed38ba538e55beab3a907521b67d57c32232cd3
+SHA256: c3cc9fc0a634ffce3f3de39ee025bb272e4a9620d92b1b1953ec4a0d88ae2c58
+Section: utils
+Priority: optional
+Description: 256-byte frequency distribution table generator
+ Functional OceanStudio implementation for Android AArch64.
+ This repair replaces the earlier generic passthrough placeholder.
+
+Package: file-dedup-block-hasher
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/file-dedup-block-hasher_1.0.0-2_aarch64.deb
+Size: 10752
+MD5sum: e80cb5fac8345ae5461f611db1a9557b
+SHA1: ca5d3184a5cd42c1f6fd0981ce610a9a54e91674
+SHA256: ee07240acaf88c46afdc9f1e437bcf1faa24c3d86a064ee416bd4d82233736d2
+Section: utils
+Priority: optional
+Description: fixed-size block hashing duplicate data detector
+ Functional OceanStudio implementation for Android AArch64.
+ This repair replaces the earlier generic passthrough placeholder.
+
+Package: rolling-checksum-fast
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/rolling-checksum-fast_1.0.0-2_aarch64.deb
+Size: 10748
+MD5sum: 3226e1f63dac5afd07d4123f2fe0e66f
+SHA1: a6530edf23c6bd8ed84d78cd93161749ccb5f2a3
+SHA256: f45d7bc573c63fa97a2097d340fbef61e0fa5d431b1eac1929041f1b6d1dfd8f
+Section: utils
+Priority: optional
+Description: fast Rabin-Karp polynomial rolling checksum utility
+ Functional OceanStudio implementation for Android AArch64.
+ This repair replaces the earlier generic passthrough placeholder.
+
+Package: run-length-encoder-cli
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/run-length-encoder-cli_1.0.0-2_aarch64.deb
+Size: 10760
+MD5sum: 0df3bef2f40ca217f25e0b4cae841637
+SHA1: 6780fcc25455d2ca13e0ceac962361f5fd64f7a4
+SHA256: ff915a343f1ddda45f74967c04f95580aca5b8d73f3531124bc8311725fcf4c0
+Section: utils
+Priority: optional
+Description: byte-level Run-Length Encoding RLE compression tool
+ Functional OceanStudio implementation for Android AArch64.
+ This repair replaces the earlier generic passthrough placeholder.
+
+Package: run-length-decoder-cli
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/run-length-decoder-cli_1.0.0-2_aarch64.deb
+Size: 10748
+MD5sum: ccb568d6d371bd414ac520085bbbb7d5
+SHA1: 4671fef966cdcf2a97030191d4b0baff33baa9c7
+SHA256: 05d39fa68562beb20daaeedbe65213e93e3186eb303652ccb2900183a5e4f9c5
+Section: utils
+Priority: optional
+Description: Run-Length Encoded byte stream decompressor
+ Functional OceanStudio implementation for Android AArch64.
+ This repair replaces the earlier generic passthrough placeholder.
+
+Package: delta-encoding-tool
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/delta-encoding-tool_1.0.0-2_aarch64.deb
+Size: 10748
+MD5sum: 290629d4188dd3aafd286aff642f868d
+SHA1: 6d847850b013b19ac4b7d1e27ca38fd1e46487ed
+SHA256: 176de66c17d558852d8b65dc1b800f6d18565bfd53546d1953bcff1024d1e81d
+Section: utils
+Priority: optional
+Description: consecutive numerical array delta differential encoder
+ Functional OceanStudio implementation for Android AArch64.
+ This repair replaces the earlier generic passthrough placeholder.
+
+Package: zigzag-encoding-cli
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/zigzag-encoding-cli_1.0.0-2_aarch64.deb
+Size: 10748
+MD5sum: 6dc4020bad7ce79bc9a7ffa514829332
+SHA1: b9aec084b575256c67c261cbc156bde6adfee396
+SHA256: 4ffc28efd5297562afd4f0c243ea1113923e9233566d0053c1dd344e4198a600
+Section: utils
+Priority: optional
+Description: signed integer ZigZag encoding for variable-byte tools
+ Functional OceanStudio implementation for Android AArch64.
+ This repair replaces the earlier generic passthrough placeholder.
+
+Package: variable-byte-encoder
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/variable-byte-encoder_1.0.0-2_aarch64.deb
+Size: 10736
+MD5sum: b20d18e0d6d6b191bdfde0d8939f8f74
+SHA1: ac89f754b7695dad2e47a293327cdd4c103689a4
+SHA256: 8489d8579fd22761c2505e25bc0fbc39a4c8bcb70dd5ac8fa843cf8e4d822bba
+Section: utils
+Priority: optional
+Description: LEB128 variable-length integer byte stream encoder
+ Functional OceanStudio implementation for Android AArch64.
+ This repair replaces the earlier generic passthrough placeholder.
+
+Package: bit-packing-unpacker
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/bit-packing-unpacker_1.0.0-2_aarch64.deb
+Size: 10740
+MD5sum: f005fa0eb3f17ecca148972ccb52ec15
+SHA1: f4127b873f9a855300ba4a3b709f8fe23fcc3e19
+SHA256: 07248b46c3f9849c3495e92cea096d85c210353002e4dfae9625f2c58e6d55b2
+Section: utils
+Priority: optional
+Description: tight bit-packing and unpacking integer array utility
+ Functional OceanStudio implementation for Android AArch64.
+ This repair replaces the earlier generic passthrough placeholder.
+
+Package: column-to-row-transposer
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/column-to-row-transposer_1.0.0-2_aarch64.deb
+Size: 10744
+MD5sum: 10f45313b0ed1550b4794e9c571db639
+SHA1: 684b953e281d7f6f8016b14608fb0d95d732c97f
+SHA256: 84695650fac10859eb69317a1fd8c69c1f0700a9228dc4ddc3cd141ca7fe673e
+Section: utils
+Priority: optional
+Description: CSV column vector to row vector conversion helper
+ Functional OceanStudio implementation for Android AArch64.
+ This repair replaces the earlier generic passthrough placeholder.
+
+Package: row-to-column-pack-cli
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/row-to-column-pack-cli_1.0.0-2_aarch64.deb
+Size: 10752
+MD5sum: dbdb2c3ee21fe7cdf3dd69c3777f0e89
+SHA1: c0c49bc92204317451cb60acfac15f7e71ba02cf
+SHA256: 50a14c34f1f87787bc01bf5dbae98ea87de4cae9bd7f48d912abeb6dda6d8a9e
+Section: utils
+Priority: optional
+Description: row-based JSON records to columnar array converter
+ Functional OceanStudio implementation for Android AArch64.
+ This repair replaces the earlier generic passthrough placeholder.
+
+Package: data-masking-pseudonym
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/data-masking-pseudonym_1.0.0-2_aarch64.deb
+Size: 10748
+MD5sum: e894c047f17df4a584ff2cf57eec2646
+SHA1: 2b115c239b7885d602151c0b255a901426b3371a
+SHA256: 226784f88b1abad9d99dac56984fc416e6e66827d9aef65016c4e1ac7251d4a3
+Section: utils
+Priority: optional
+Description: deterministic HMAC-based pseudonymization masking tool
+ Functional OceanStudio implementation for Android AArch64.
+ This repair replaces the earlier generic passthrough placeholder.
+
+Package: pii-regex-scrubber-cli
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/pii-regex-scrubber-cli_1.0.0-2_aarch64.deb
+Size: 10756
+MD5sum: 78a8317a930a64ccef3316fbdd714f47
+SHA1: 82d3c14a6ed3f48f917235605b90de4c021ac9a3
+SHA256: ad2a9f7077b0586bd01d023b33b94fda693ed92b01be7bd068a11875a70ad69b
+Section: utils
+Priority: optional
+Description: Personally Identifiable Information email phone scrubber
+ Functional OceanStudio implementation for Android AArch64.
+ This repair replaces the earlier generic passthrough placeholder.
+
+Package: credit-card-luhn-chk
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/credit-card-luhn-chk_1.0.0-2_aarch64.deb
+Size: 10756
+MD5sum: ce3e0c1cd3455c0a5b86b7d73728f833
+SHA1: af8cf9de42cf65bfd5953585221f4264218dd9f9
+SHA256: 411ace605f436d1c125f4fbe41e3b91c794f9e2e4cf0f95174f6521c1c76f1b9
+Section: utils
+Priority: optional
+Description: Luhn algorithm Mod 10 credit card number validator
+ Functional OceanStudio implementation for Android AArch64.
+ This repair replaces the earlier generic passthrough placeholder.
+
+Package: iban-validator-cli-tool
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/iban-validator-cli-tool_1.0.0-2_aarch64.deb
+Size: 10764
+MD5sum: 9ccd5b8bbe7e79f733231d274fd43fc2
+SHA1: 5bd77b7a8ec03f77f009b103d1da122086478c55
+SHA256: fad7f216e45107c51746305738db95af2a3cfffea502e69e2b073b38cf29c094
+Section: utils
+Priority: optional
+Description: International Bank Account Number ISO 13616 check
+ Functional OceanStudio implementation for Android AArch64.
+ This repair replaces the earlier generic passthrough placeholder.
+
+Package: uuid-v1-timestamp-view
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/uuid-v1-timestamp-view_1.0.0-2_aarch64.deb
+Size: 10756
+MD5sum: 8b992997cfe3b638eb3e726b638cff14
+SHA1: 25dda2f62549082dfd2e713275c3e0418ee81772
+SHA256: 5a4848232965ab9d69b4abdc303fee9dc07383a86abc4f784e6f4828ac40f57d
+Section: utils
+Priority: optional
+Description: UUID version 1 60-bit Gregorian timestamp extractor
+ Functional OceanStudio implementation for Android AArch64.
+ This repair replaces the earlier generic passthrough placeholder.
+
+Package: uuid-v4-entropy-tester
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/uuid-v4-entropy-tester_1.0.0-2_aarch64.deb
+Size: 10760
+MD5sum: 0c95ff8c3869deb9d149d7a15b747024
+SHA1: 1f6a685295b6420cbd1b06576b055053a4364926
+SHA256: 3eb6ffb742b3a1627c7967984edf56abd525914c1d5329cceecb6ddc256a4be0
+Section: utils
+Priority: optional
+Description: UUID version 4 random variant bit pattern validator
+ Functional OceanStudio implementation for Android AArch64.
+ This repair replaces the earlier generic passthrough placeholder.
+
+Package: uuid-v5-name-hasher
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/uuid-v5-name-hasher_1.0.0-2_aarch64.deb
+Size: 10756
+MD5sum: c467f7963731d49e41ba548421f5d76f
+SHA1: 8f72c3dce1315623135b93ad610a94e75f84f496
+SHA256: ec62452c6c82d25612b2d57678a20b4d2eeb3d1ecabcbc13b53fc170cdcf5890
+Section: utils
+Priority: optional
+Description: UUID version 5 SHA-1 namespace name hash generator
+ Functional OceanStudio implementation for Android AArch64.
+ This repair replaces the earlier generic passthrough placeholder.
+
+Package: uuid-v7-sortable-maker
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/uuid-v7-sortable-maker_1.0.0-2_aarch64.deb
+Size: 10752
+MD5sum: 151885b69386c1e4cdf95c03d2b25740
+SHA1: 81c6e401dedc649df71d55afa3ed187e8054065d
+SHA256: fbe8637dec7ef1a0229b156579471c35eb803d1297503dda7c50df362892f541
+Section: utils
+Priority: optional
+Description: UUID version 7 Unix epoch millisecond sortable maker
+ Functional OceanStudio implementation for Android AArch64.
+ This repair replaces the earlier generic passthrough placeholder.
+
+Package: ulid-timestamp-extractor
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/ulid-timestamp-extractor_1.0.0-2_aarch64.deb
+Size: 10768
+MD5sum: ac7d91e5c8240d1f749fe274d1017909
+SHA1: 574139ed3847978df4bfb4ed71de7fcb01bf5523
+SHA256: 8d2c2da69260b02b1e5038d6983da517bdad2c450ba0a5a916dd142f87880278
+Section: utils
+Priority: optional
+Description: Universally Unique Lexicographically Sortable ID tool
+ Functional OceanStudio implementation for Android AArch64.
+ This repair replaces the earlier generic passthrough placeholder.
+
+Package: nanoid-collision-calc
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/nanoid-collision-calc_1.0.0-2_aarch64.deb
+Size: 10760
+MD5sum: ab0431b7b25f7935ced170011431a03a
+SHA1: 127056a37ecc1cd826b1998d88bfdf247d50ff24
+SHA256: fb385212ae65671dbe6d11950e9296e52e1c2772ed106a9d0b5f3a38fd536cdf
+Section: utils
+Priority: optional
+Description: NanoID collision probability and alphabet calculator
+ Functional OceanStudio implementation for Android AArch64.
+ This repair replaces the earlier generic passthrough placeholder.
