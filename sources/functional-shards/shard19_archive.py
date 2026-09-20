@@ -109,4 +109,123 @@ def wim(path):
     b=read(path)[:208]
     if len(b)<48:return {"valid":False}
     valid=b[:8]==b"MSWIM\0\0\0"
-    return {"valid":valid,"header_size":struct.unpack_from("<I",b,8)[0] if valid else None,"version":hex(struct.unpack_from("<I",b,12)[0]) if len(b)>=16 else None,"flags":hex(struct.unpack_from("<I",b
+    return {"valid":valid,"header_size":struct.unpack_from("<I",b,8)[0] if valid else None,"version":hex(struct.unpack_from("<I",b,12)[0]) if len(b)>=16 else None,"flags":hex(struct.unpack_from("<I",b,16)[0]) if len(b)>=20 else None,"chunk_size":struct.unpack_from("<I",b,20)[0] if len(b)>=24 else None,"part_number":struct.unpack_from("<H",b,40)[0] if len(b)>=42 else None,"total_parts":struct.unpack_from("<H",b,42)[0] if len(b)>=44 else None,"images":struct.unpack_from("<I",b,44)[0] if len(b)>=48 else None}
+def squash(path):
+    b=read(path)[:96]
+    if len(b)<96:return {"valid":False}
+    return {"valid":struct.unpack_from("<I",b,0)[0]==0x73717368,"inodes":struct.unpack_from("<I",b,4)[0],"block_size":struct.unpack_from("<I",b,12)[0],"fragments":struct.unpack_from("<I",b,28)[0],"inode_table_start":struct.unpack_from("<Q",b,64)[0],"directory_table_start":struct.unpack_from("<Q",b,72)[0],"fragment_table_start":struct.unpack_from("<Q",b,80)[0],"export_table_start":struct.unpack_from("<Q",b,88)[0]}
+def rollsum(b):
+    a=sum(b)&0xffff;bb=sum((len(b)-i)*x for i,x in enumerate(b))&0xffff;return (bb<<16)|a
+def chunks_rabin(data,minsz=2048,avgsz=8192,maxsz=65536):
+    if not data:return []
+    mask=max(1,avgsz-1);out=[];start=0;h=0
+    for i,x in enumerate(data):
+        h=((h*257)+x)&0xffffffff;n=i-start+1
+        if n>=minsz and ((h&mask)==0 or n>=maxsz):out.append((start,n,h));start=i+1;h=0
+    if start<len(data):out.append((start,len(data)-start,h))
+    return out
+GEAR=[int(hashlib.sha256(bytes([i])).hexdigest()[:16],16) for i in range(256)]
+def ilog2(x):
+    n=0
+    while (1<<(n+1))<=x:n+=1
+    return n
+def chunks_fast(data,minsz=2048,avgsz=8192,maxsz=65536):
+    if not data:return []
+    mask=(1<<max(1,ilog2(avgsz)))-1;out=[];start=0;h=0
+    for i,x in enumerate(data):
+        h=((h<<1)+GEAR[x])&0xffffffffffffffff;n=i-start+1
+        if n>=minsz and ((h&mask)==0 or n>=maxsz):out.append((start,n,h));start=i+1;h=0
+    if start<len(data):out.append((start,len(data)-start,h))
+    return out
+def snapshot(root):
+    root=Path(root);out={}
+    for p in sorted(root.rglob("*")):
+        if p.is_file() and not p.is_symlink():
+            try:out[str(p.relative_to(root))]={"size":p.stat().st_size,"sha256":sha(p)}
+            except OSError:pass
+    return out
+def merkle(root):
+    items=snapshot(root);h=hashlib.sha256()
+    for k,v in sorted(items.items()):h.update(k.encode()+b"\0"+v["sha256"].encode()+b"\0")
+    return {"root_sha256":h.hexdigest(),"files":len(items),"entries":items}
+def mtree(root):
+    root=Path(root);rows=["#mtree"]
+    for p in sorted(root.rglob("*")):
+        rel="./"+str(p.relative_to(root))
+        try:
+            s=p.lstat()
+            if p.is_symlink():rows.append(f"{rel} type=link link={os.readlink(p)}")
+            elif p.is_dir():rows.append(f"{rel} type=dir mode={oct(s.st_mode&0o7777)}")
+            elif p.is_file():rows.append(f"{rel} type=file size={s.st_size} sha256digest={sha(p)} mode={oct(s.st_mode&0o7777)}")
+        except OSError:pass
+    return rows
+def parse_sparse(path,outpath):
+    b=read(path)
+    if len(b)<28:raise ValueError("short Android sparse image")
+    magic,maj,minv,fhsz,chsz,blksz,total_blks,total_chunks,checksum=struct.unpack_from("<I4H4I",b,0)
+    if magic!=0xED26FF3A:raise ValueError("bad Android sparse magic")
+    p=fhsz;written=0
+    with open(outpath,"wb") as o:
+        for _ in range(total_chunks):
+            typ,res,chunk_sz,total_sz=struct.unpack_from("<2H2I",b,p);payload=p+chsz;outbytes=chunk_sz*blksz
+            if typ==0xCAC1:o.write(b[payload:payload+outbytes])
+            elif typ==0xCAC2:
+                word=b[payload:payload+4]
+                if len(word)!=4:raise ValueError("short fill chunk")
+                for _ in range(outbytes//4):o.write(word)
+            elif typ==0xCAC3:o.seek(outbytes,1)
+            elif typ==0xCAC4:pass
+            else:raise ValueError(f"unknown chunk type {hex(typ)}")
+            written+=outbytes;p+=total_sz
+        o.truncate(total_blks*blksz)
+    return {"major":maj,"minor":minv,"block_size":blksz,"blocks":total_blks,"chunks":total_chunks,"output_bytes":total_blks*blksz,"logical_written":written}
+
+def main(cmd,a):
+    if cmd not in COMMANDS:raise SystemExit("unknown command")
+    if cmd=="tar-header-validator":need(a,1);emit(tar_block(a[0]));return
+    if cmd=="tar-gnu-longlink-chk":need(a,1);emit([{"entry":n,"long_name":p.rstrip(b"\0").decode("utf-8","replace")} for n,t,s,p,h in raw_tar_entries(a[0]) if t=="L"]);return
+    if cmd=="tar-pax-extended-chk":
+        need(a,1);out=[]
+        with tarfile.open(a[0],"r:*") as t:
+            for m in t:
+                if getattr(m,"pax_headers",None):out.append({"name":m.name,"pax":m.pax_headers})
+        emit(out);return
+    if cmd=="tar-sparse-header-chk":
+        need(a,1);out=[]
+        with tarfile.open(a[0],"r:*") as t:
+            for m in t:
+                keys={k:v for k,v in getattr(m,"pax_headers",{}).items() if "sparse" in k.lower()}
+                if keys or getattr(m,"sparse",None):out.append({"name":m.name,"sparse":getattr(m,"sparse",None),"pax":keys})
+        emit(out);return
+    if cmd=="cpio-crc-format-dump":need(a,1);emit([x for x in cpio_newc(a[0]) if x["magic"]=="070702"]);return
+    if cmd=="cpio-odc-format-dump":need(a,1);emit(cpio_odc(a[0]));return
+    if cmd=="cpio-newc-header-chk":need(a,1);emit(cpio_newc(a[0]));return
+    if cmd in ("ar-bsd-variant-parser","ar-gnu-variant-parser"):need(a,1);emit(ar_entries(a[0]));return
+    if cmd=="zip-eocd-locator-cli":need(a,1);emit(zip_eocd(a[0]));return
+    if cmd=="zip-cd-record-viewer":
+        need(a,1)
+        with zipfile.ZipFile(a[0]) as z:emit([{"name":i.filename,"compressed":i.compress_size,"size":i.file_size,"method":i.compress_type,"crc32":hex(i.CRC),"header_offset":i.header_offset} for i in z.infolist()])
+        return
+    if cmd=="zip-extra-field-parse":
+        need(a,1);out=[]
+        with zipfile.ZipFile(a[0]) as z:
+            for i in z.infolist():out.append({"name":i.filename,"extra":extra_fields(i.extra)})
+        emit(out);return
+    if cmd=="zip64-locator-parser":
+        need(a,1);b=read(a[0]);i=b.rfind(b"PK\x06\x07");emit({"found":i>=0,"offset":i if i>=0 else None,"disk_with_eocd64":struct.unpack_from("<I",b,i+4)[0] if i>=0 and i+20<=len(b) else None,"eocd64_offset":struct.unpack_from("<Q",b,i+8)[0] if i>=0 and i+20<=len(b) else None});return
+    if cmd in ("sevenzip-signature-chk","sevenzip-header-view"):need(a,1);emit(seven(a[0]));return
+    if cmd=="rar5-header-validator":need(a,1);b=read(a[0])[:8];emit({"valid":b==b"Rar!\x1a\x07\x01\x00","signature":b.hex()});return
+    if cmd=="cab-folder-extractor":need(a,1);emit(cab(a[0]));return
+    if cmd=="iso-rockridge-parser":
+        need(a,1);b=read(a[0]);hits=[]
+        for sig in (b"SP",b"RR",b"NM",b"PX",b"TF",b"SL"):
+            pos=0
+            while True:
+                i=b.find(sig,pos)
+                if i<0:break
+                if i+4<=len(b) and 4<=b[i+2]<=255:hits.append({"signature":sig.decode(),"offset":i,"length":b[i+2],"version":b[i+3]})
+                pos=i+2
+        emit(hits[:500]);return
+    if cmd=="iso-joliet-ext-parser":
+        need(a,1);out=[]
+        for typ,b in i
