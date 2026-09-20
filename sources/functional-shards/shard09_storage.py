@@ -114,7 +114,12 @@ def main(cmd,a):
         b=readat(p,1024,16);magic=struct.unpack_from("<I",b,0)[0] if len(b)>=4 else 0;emit({"magic":hex(magic),"valid":magic==0xF2F52010});return
     if cmd=="ext4-super-block-dump":need(a,1);emit(ext4(a[0]));return
     if cmd=="inode-usage-analyzer":need(a,1);emit(statv(a[0]));return
-    if cmd=="sparse-file-creator":need(a,2);Path(a[0]).parent.mkdir(parents=True,exist_ok=True);os.truncate(a[0],int(a[1]));s=os.stat(a[0]);emit({"size":s.st_size,"allocated_bytes":s.st_blocks*512,"sparse":s.st_blocks*512<s.st_size});return
+    if cmd=="sparse-file-creator":
+        need(a,2);p=Path(a[0]);p.parent.mkdir(parents=True,exist_ok=True)
+        fd=os.open(p,os.O_RDWR|os.O_CREAT,0o600)
+        try:os.ftruncate(fd,int(a[1]))
+        finally:os.close(fd)
+        s=p.stat();emit({"size":s.st_size,"allocated_bytes":s.st_blocks*512,"sparse":s.st_blocks*512<s.st_size});return
     if cmd=="hole-punch-tester":
         need(a,1);p=a[0];off=int(a[1]) if len(a)>1 else 0;length=int(a[2]) if len(a)>2 else 4096;libc=ctypes.CDLL(None,use_errno=True);fn=getattr(libc,"fallocate",None)
         if not fn:emit({"supported":False,"reason":"libc fallocate unavailable"});return
