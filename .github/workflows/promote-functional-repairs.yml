@@ -26,6 +26,7 @@ jobs:
             /apt/dists/stable/
             /apt/ocean.gpg
             /staging/functional-repair-status.json
+            /staging/shard-18-code-lint-analysis/
             /staging/shard-24-firmware-hardware-iot/
             /staging/shard-25-api-contract-validation/
             /staging/shard-26-performance-profiling/
@@ -37,7 +38,7 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y gnupg gzip git
 
-      - name: Verify the 200-package repair set
+      - name: Verify the 250-package repair set
         run: |
           set -euo pipefail
           python3 - <<'PY'
@@ -45,6 +46,7 @@ jobs:
           import json, re
 
           shards = [
+              "shard-18-code-lint-analysis",
               "shard-24-firmware-hardware-iot",
               "shard-25-api-contract-validation",
               "shard-26-performance-profiling",
@@ -69,15 +71,15 @@ jobs:
                   raise SystemExit(f"{shard}: repaired index mismatch")
               names.extend(shard_names)
 
-          if len(names) != 200 or len(set(names)) != 200:
-              raise SystemExit("repair set must contain exactly 200 unique package names")
+          if len(names) != 250 or len(set(names)) != 250:
+              raise SystemExit("repair set must contain exactly 250 unique package names")
 
           live = Path("apt/dists/stable/main/binary-aarch64/Packages").read_text()
           live_names = re.findall(r"^Package:\s*(\S+)", live, re.M)
           missing = sorted(set(names) - set(live_names))
           if missing:
               raise SystemExit(f"live placeholders missing: {missing[:20]}")
-          print("Verified 200 unique staged functional repairs.")
+          print("Verified 250 unique staged functional repairs.")
           PY
 
       - name: Require the trusted Ocean signing key
@@ -96,10 +98,11 @@ jobs:
           [ "$ACTUAL" = "$EXPECTED" ] || { echo "Signing fingerprint mismatch" >&2; exit 1; }
           echo "OCEAN_SIGNING_FINGERPRINT=$EXPECTED" >> "$GITHUB_ENV"
 
-      - name: Replace 200 live package stanzas and stage new artifacts
+      - name: Replace 250 live package stanzas and stage new artifacts
         run: |
           set -euo pipefail
           mkdir -p apt/pool/main
+          cp staging/shard-18-code-lint-analysis/pool/main/*.deb apt/pool/main/
           cp staging/shard-24-firmware-hardware-iot/pool/main/*.deb apt/pool/main/
           cp staging/shard-25-api-contract-validation/pool/main/*.deb apt/pool/main/
           cp staging/shard-26-performance-profiling/pool/main/*.deb apt/pool/main/
@@ -110,6 +113,7 @@ jobs:
           import re
 
           shards = [
+              "shard-18-code-lint-analysis",
               "shard-24-firmware-hardware-iot",
               "shard-25-api-contract-validation",
               "shard-26-performance-profiling",
@@ -138,8 +142,8 @@ jobs:
               else:
                   kept.append(stanza)
 
-          if len(removed) != 200:
-              raise SystemExit(f"expected exactly 200 live placeholder stanzas, found {len(removed)}")
+          if len(removed) != 250:
+              raise SystemExit(f"expected exactly 250 live placeholder stanzas, found {len(removed)}")
 
           result = "\n\n".join(kept + new_parts) + "\n"
           live_path.write_text(result)
@@ -203,7 +207,7 @@ jobs:
           gpgv --keyring apt/ocean.gpg apt/dists/stable/InRelease
           gpgv --keyring apt/ocean.gpg apt/dists/stable/Release.gpg "$RELEASE"
 
-      - name: Commit atomic 200-package promotion
+      - name: Commit atomic 250-package promotion
         run: |
           set -euo pipefail
           git config user.name "Ocean Package Repair"
@@ -221,7 +225,7 @@ jobs:
           import json
           p=Path("staging/functional-repair-status.json")
           d=json.loads(p.read_text())
-          d["livePromotedRepairs"]=200
+          d["livePromotedRepairs"]=250
           d["signingBlockedBy"]=None
           for s in d["shards"]:
               s["status"]="live-functional"
@@ -229,12 +233,12 @@ jobs:
           PY
           git add staging/functional-repair-status.json
 
-          git commit -m "release: atomically promote 200 validated functional package repairs [skip ci]"
+          git commit -m "release: atomically promote 250 validated functional package repairs [skip ci]"
           git pull --rebase origin main
           git push origin HEAD:main
 
       - name: Promotion report
         run: |
-          echo "Promoted functional repairs: 200"
-          echo "Shards: 24, 25, 26, 27"
+          echo "Promoted functional repairs: 250"
+          echo "Shards: 18, 24, 25, 26, 27"
           echo "Signed index verified with apt/ocean.gpg"
