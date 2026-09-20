@@ -23268,10 +23268,10 @@ Architecture: aarch64
 Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Installed-Size: 4
 Filename: pool/main/scrypt-ocean_1.3.2-1_aarch64.deb
-Size: 2124
-MD5sum: b0d778c361d1095169a336ac546e3ce2
-SHA1: b6e914f16e8f1b99c4784f4b3d942408f8fe72ca
-SHA256: 02d453891146b7d863285408918c6506e95e51884357431ced434b3f88976d23
+Size: 1896
+MD5sum: d2ba59d2484c178a1c883d4619bb5c89
+SHA1: 2f7515624bdb0889c61478ef94945358f20ea12f
+SHA256: 2f3ac8ec83a89cdd7f50d739737f9d719b97325628d2fd0e83a839c5610be009
 Section: utils
 Priority: optional
 Description: memory-hard scrypt key derivation and encryption utility
@@ -23285,10 +23285,10 @@ Architecture: aarch64
 Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Installed-Size: 4
 Filename: pool/main/argon2-hasher_20190702-1_aarch64.deb
-Size: 2128
-MD5sum: 53498280c129ecb72aac716fa4394d56
-SHA1: a3eee50e306f9719f677be3c1dab31ff9cb39137
-SHA256: 0288e4bc49cab43b6df04d18471b6aa2694e55169d34816a3f480c203c727990
+Size: 2004
+MD5sum: 9e95431e859658dc83470d32e4fc854a
+SHA1: 7fb9ff81c2cd3649a45eff056d1c372cdd264ea8
+SHA256: 5920456a877ef25c41a416626df1ab909c231a7095406e9bbed291b043a6639b
 Section: utils
 Priority: optional
 Description: Argon2 password hashing and verification tool
@@ -23302,10 +23302,10 @@ Architecture: aarch64
 Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Installed-Size: 4
 Filename: pool/main/minisign-signer_0.11-1_aarch64.deb
-Size: 2116
-MD5sum: f08dee751f8611e86bb3168d3773cbcd
-SHA1: b27e22e676ec0e46e8de4bb160e4b1e15bfbfccd
-SHA256: defff550bb826212b40a60d728e2e1ca2d3142e8f5856475d69de98d2984ac6f
+Size: 2004
+MD5sum: ee9ce51d99aa5dd6a0b062239840b354
+SHA1: fb93020af5d96aadf66baf337c0d9d4d81739451
+SHA256: 8e527fe693c0fe0d257b2d91f4a75da80a20d17ed9c97f7ef2665a23c3279b17
 Section: utils
 Priority: optional
 Description: dead simple cryptographic signature tool
@@ -23319,10 +23319,10 @@ Architecture: aarch64
 Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Installed-Size: 4
 Filename: pool/main/age-encryption-tool_1.2.0-1_aarch64.deb
-Size: 2132
-MD5sum: 1f05165f195653f11e15faf362e9b2ce
-SHA1: 8b8094e45e778c7439778d4d1470bb19723e5066
-SHA256: 833edde5c6a1f2f15f1da09c3afc45d92ee38c38658d97204cf11c006981a786
+Size: 2040
+MD5sum: 91e643453adf28dbac5f76288dc7122c
+SHA1: 4d0949c04beb075d0c3726283efb867564d2c474
+SHA256: 672e2b99a5f79a644e7a0a3220b0ca481e40f62fe1f290868226ab8c57a75dbc
 Section: utils
 Priority: optional
 Description: simple modern and secure file encryption tool
@@ -23336,10 +23336,10 @@ Architecture: aarch64
 Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Installed-Size: 4
 Filename: pool/main/shamir-secret-sharer_1.0.0-1_aarch64.deb
-Size: 2140
-MD5sum: f73867ed31800c4fb56f765db3c087bc
-SHA1: bdf4e4544810f9040647e526ab61e15708f42b68
-SHA256: ab9730dbdd22ea1015abc9728e2fb9f4167bfc5f0b43b4fd8f7e7451fd0f767d
+Size: 2236
+MD5sum: 81a26276ce3a0601b61dc763e6eccc2c
+SHA1: d071ad069d3616b8e2bb7e08eeb8a083b88ab3c4
+SHA256: 029254665ed6db2995b33802a7d75e4637ce47a5ffea6f34e5ac7a546357c35b
 Section: utils
 Priority: optional
 Description: Shamir secret sharing scheme splitter and combiner
@@ -23353,10 +23353,10 @@ Architecture: aarch64
 Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Installed-Size: 4
 Filename: pool/main/totp-authenticator-cli_1.0.0-1_aarch64.deb
-Size: 2160
-MD5sum: b7e7c3109893fa66f285832c0cadc80f
-SHA1: 835359dd339c40e670eacff8646a030f4b0a3b94
-SHA256: 426b721e0a4a5b7cfce5d57f696f8a8a572a9fc4c72a2a71e1b3f53ac7c40eb6
+Size: 1960
+MD5sum: 47e7a72a197ce420a7b4a1c65935c4b4
+SHA1: 9406dc43f612a98139b06314cc928efdda0e6b77
+SHA256: 66e0a3644103c76f2df48a6b4cdc2ef13535181d3ff1761e75767a77e3769e39
 Section: utils
 Priority: optional
 Description: time-based one-time password generator for MFA
@@ -23370,10 +23370,10 @@ Architecture: aarch64
 Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Installed-Size: 4
 Filename: pool/main/hotp-generator_1.0.0-1_aarch64.deb
-Size: 2124
-MD5sum: d2d57ed7fc38c18063b5eebc879de684
-SHA1: 1a28bf13c6fb5fcb4c543db42fcb236ef2ceb6d5
-SHA256: e077eab7a82bb5bdc3082fdd3234bb30461c7fdbd961ec8e6cd9a4537def3356
+Size: 1868
+MD5sum: 79b3ee3e754b73ea00b2633a428d7c53
+SHA1: 04f02835e5f65ac212fbec56fe51b038f561eae4
+SHA256: 40fde024961aef97094d3c7338a1f055fc998a5e8e341210a4ab7328e735cb3d
 Section: utils
 Priority: optional
 Description: HMAC-based one-time password generator
@@ -23387,10 +23387,10 @@ Architecture: aarch64
 Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Installed-Size: 4
 Filename: pool/main/bcrypt-verifier_1.0.0-1_aarch64.deb
-Size: 2136
-MD5sum: 82ec863db347225abf3f05df6bf371a6
-SHA1: 5778c8f2faefdc2747dd099a9c5b8d11ca3c32a8
-SHA256: a025e8a16ce2d6c894a2e23678bd848d7ea2443d319095ac7f087ea353d64152
+Size: 1856
+MD5sum: 52318a1f9451437596957f41cbc28382
+SHA1: 5a948edbbc8f20fa63720cab9ea88efc6a5ce3cb
+SHA256: 8eec93a68b2bd191262c93a7cabcaf5aab4234f2d49962adaef943b47c6aae6e
 Section: utils
 Priority: optional
 Description: Blowfish-based password hashing and verification cli
@@ -23404,10 +23404,10 @@ Architecture: aarch64
 Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Installed-Size: 4
 Filename: pool/main/pbkdf2-keygen_1.0.0-1_aarch64.deb
-Size: 2140
-MD5sum: 449e42fbdd0cf9ed44407e95fc384159
-SHA1: 529c48c0c9e757152ba73a769015444a3c56eae5
-SHA256: a3f8b3412ed01d0a9c046e4edc52c1a7a6d52e825970f6505531aaad14ff87f6
+Size: 1744
+MD5sum: 5d55c70ccdd244d99f34568cb9feedde
+SHA1: b72db3f3f7882232b8fbe1022eafb70439580cbc
+SHA256: 4a5cf53d23d721277e19e8074f6614320e10a89762c916a8b960399ff8944486
 Section: utils
 Priority: optional
 Description: password-based key derivation function 2 generator
@@ -23421,10 +23421,10 @@ Architecture: aarch64
 Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Installed-Size: 4
 Filename: pool/main/ed25519-tool_1.0.0-1_aarch64.deb
-Size: 2132
-MD5sum: cb718cf964fbce3215a354b33192aee7
-SHA1: de0ac31b96d5a546c3cb907a930752ba87d2dd0e
-SHA256: 1927736496aa615e33bc0718e6b7e80c2183d6673d1f4ccac216c47dc295144a
+Size: 1760
+MD5sum: 05bc68c56d68dd88987f434c4d5aa696
+SHA1: 887877ad08a4d750651beb6ce344cb2ecbfd8ed5
+SHA256: 61a12642865eeaa24a277a7647d1cd450d1cf1cbf4da29ebbc609f01debb0f81
 Section: utils
 Priority: optional
 Description: Edwards-curve Ed25519 key generator and verifier
@@ -23438,10 +23438,10 @@ Architecture: aarch64
 Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Installed-Size: 4
 Filename: pool/main/curve25519-keygen_1.0.0-1_aarch64.deb
-Size: 2140
-MD5sum: 357043dfb7f6ef8212fbb2531545f344
-SHA1: bf3a464e88f5023acf88074e6ff968ded50dc641
-SHA256: 6dddd8fa981f4cf33819a1e4a47bf6f42c41179bef3d01873a829e5f8366c9f7
+Size: 1756
+MD5sum: e1c88096ccacd39116b5a3248fb61600
+SHA1: 21a8816021f35fbbb84c6f89401354624c4e1152
+SHA256: be458fbcd9d171af58689428f127f7055913c3d9c3e0b2866967882d319360ff
 Section: utils
 Priority: optional
 Description: Montgomery curve Curve25519 key exchange helper
@@ -23455,10 +23455,10 @@ Architecture: aarch64
 Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Installed-Size: 4
 Filename: pool/main/blake3-sum_1.5.0-1_aarch64.deb
-Size: 2132
-MD5sum: 56e95849219c2274ea856195c4f6ebef
-SHA1: 596fda77ad328c7664f9c5686a630f67ecda480f
-SHA256: c94166835ef8318c0aa89adc047a66bebe264df34910b9b7cf0eb285ab2520a6
+Size: 1780
+MD5sum: fc10fb8586b89e7da2ce61c22a100a15
+SHA1: 3f4892a671214e2a847c74def46a97a167901a52
+SHA256: e8626d227c8c65b5dabda09111aeb0e89c6b2a708822d5321ec88f16da2b2d19
 Section: utils
 Priority: optional
 Description: cryptographic hash function BLAKE3 checksum calculator
@@ -23472,10 +23472,10 @@ Architecture: aarch64
 Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Installed-Size: 4
 Filename: pool/main/blake2b-tool_1.0.0-1_aarch64.deb
-Size: 2124
-MD5sum: d6bbb3e05eca5e758435cd03d87605aa
-SHA1: c2dcad416b6f9a8a427c88580fbe7c2af4559e7e
-SHA256: ace030c05a01bd6e2ed9e447987a0eed4ecd43f0cfbe021a88d1729c7b633a44
+Size: 1848
+MD5sum: 56279ddd0dbb97a7251b8ad1a4702268
+SHA1: c36ff66c01201ef6dddbe6c7fa7ad2bbb83dc7b4
+SHA256: 2e5a7a48187668ec4596a27dba901a959be1ed6dd940633d924e33522b6d4122
 Section: utils
 Priority: optional
 Description: BLAKE2b 512-bit high-speed cryptographic hasher
@@ -23489,10 +23489,10 @@ Architecture: aarch64
 Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Installed-Size: 4
 Filename: pool/main/siphash-calc_1.0.0-1_aarch64.deb
-Size: 2144
-MD5sum: 7bdc8ab50be5cfdef015a08d6c92bf5e
-SHA1: 21d66c634b1dabaf16f5808af5b6e82fa44358d4
-SHA256: c4680aca953509b50796f074adde022c8d043843948ffb50659f2d84d25944e3
+Size: 2176
+MD5sum: c6a371e788c3ece068b94aef156f90ba
+SHA1: 695342c9039c340725a18359ad3f72576d5f08ed
+SHA256: 358bbba3a922821b87cfc9f4a7ee3b4698167b52bb0f94e19eadfa474dc25a7c
 Section: utils
 Priority: optional
 Description: SipHash pseudo-random function against hash flooding
@@ -23506,10 +23506,10 @@ Architecture: aarch64
 Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Installed-Size: 4
 Filename: pool/main/xxh3-checksum-fast_0.8.2-1_aarch64.deb
-Size: 2152
-MD5sum: 4ad090ce553193b29a7f574b3b2ed06e
-SHA1: 014a93481b81ab07bfc9aa6e063ff4fa5ab724ca
-SHA256: b2b2f8a449155bd0a29e2b2161a9942452925c9b3ea41bb677434f011f25613a
+Size: 1804
+MD5sum: 60f07b4039272b74f0bf44d926450609
+SHA1: 588c42001a496417697bc26e3b5531eba970bc77
+SHA256: 99fdcdbbdd1cbb76057b96fd5d637d58d0d9b8847fb0ec2590d6124951e6a2dc
 Section: utils
 Priority: optional
 Description: extremely fast XXH3 64-bit and 128-bit checksum utility
@@ -23523,10 +23523,10 @@ Architecture: aarch64
 Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Installed-Size: 4
 Filename: pool/main/keccak-digest_1.0.0-1_aarch64.deb
-Size: 2124
-MD5sum: e797975cde75c201fb392e751df0954d
-SHA1: e51db71df4e5b1e3d9fdfbc88215cade62d1d345
-SHA256: 60b8eaa467971bdb9386800272fb56fb3f79838a37f8d9a0c55b4a7e8ea994a7
+Size: 1848
+MD5sum: f4cd778ca830689b56c68942d36e9984
+SHA1: 23485d4cffa81d25e8880b5d9379cc6a5603a8f2
+SHA256: 37b9367aea2beaf4e32bdeff75ede132d7827e86f5eabc8116dd293ce79ba332
 Section: utils
 Priority: optional
 Description: Keccak SHA-3 sponge function digest generator
@@ -23540,10 +23540,10 @@ Architecture: aarch64
 Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Installed-Size: 4
 Filename: pool/main/ripemd320-hasher_1.0.0-1_aarch64.deb
-Size: 2168
-MD5sum: 29556573995211ca2048b2ea46b958e5
-SHA1: c8cdd15ff1c541428c6e3458cdc9d25e6308a5bc
-SHA256: 67a55fd01c3bff170899223b4eb7a1d769af6b13d7a2119bb00cbe6308faa0c6
+Size: 1808
+MD5sum: 2d7230314454237bd16525336dc3f01f
+SHA1: 73aa419f605dce65ef35d1b9b2dbf51f540bee21
+SHA256: 9505d84a94953fe4b4b4d5535ae0dec54738455b89613500d7223423ccc3c086
 Section: utils
 Priority: optional
 Description: RACE Integrity Primitives Evaluation 320-bit double-width hasher
@@ -23557,10 +23557,10 @@ Architecture: aarch64
 Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Installed-Size: 4
 Filename: pool/main/poly1305-auth_1.0.0-1_aarch64.deb
-Size: 2116
-MD5sum: 58ed3f3a19da3601fad984d8fcb53026
-SHA1: 9b06d2bc33fa14d8e516b8b7a03420f2a3dd87e9
-SHA256: 5210cd851f04578ec7c0f10df2d0620f4360ff2eabf70201c45260f34bcb3ab9
+Size: 1948
+MD5sum: 19d15fd089803b4fa035495949602d5c
+SHA1: 2870b1d98901d1d04704f8397ebc2c2ea75cde2c
+SHA256: 189a0e39cd0298c41fa1e167d5ac91075371a522ab15a0347dfd34f82c9d2a7f
 Section: utils
 Priority: optional
 Description: Poly1305 one-time authenticator message authentication
@@ -23574,10 +23574,10 @@ Architecture: aarch64
 Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Installed-Size: 4
 Filename: pool/main/chacha20-stream_1.0.0-1_aarch64.deb
-Size: 2124
-MD5sum: 71fed982298e0b4eb0b64f08f2c32109
-SHA1: 43778f5b29ccfd319197ec731f8711d676ab2d2d
-SHA256: 3d62023973e6a9c07fdc51cb51775e12088e2360226a59bdc86c04ece9bb343d
+Size: 1892
+MD5sum: 443cbdc009db992ba5b7af8ac5119284
+SHA1: 8e9c7bd1d7d4ec2e1dd9585f50857a5b1b2e0082
+SHA256: 7480960e744670362d6853b515b949e5af9608235cab5d47139cdf8fecbe89e7
 Section: utils
 Priority: optional
 Description: ChaCha20 stream cipher file encryptor and decryptor
@@ -23591,10 +23591,10 @@ Architecture: aarch64
 Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Installed-Size: 4
 Filename: pool/main/aes-gcm-tool_1.0.0-1_aarch64.deb
-Size: 2140
-MD5sum: 7c3039e5c09904cc159a594a7899e298
-SHA1: 9a6e07702d6971314d08073dc729a668725b6947
-SHA256: f3d902d19be7c632c984793f0d64e25d77567a3ef12400d897f42b6f4754e4c0
+Size: 1960
+MD5sum: b3c31823eca0ad19a87ad9f85b9d512d
+SHA1: 86db0de5e36cd7529857df3bf6f65c8e04746e96
+SHA256: 12c3e0cff343dd595a7e11c50afd22150ec9eb9d46d76144ed04696e2d581458
 Section: utils
 Priority: optional
 Description: AES Galois/Counter Mode authenticated encryptor
@@ -23608,10 +23608,10 @@ Architecture: aarch64
 Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Installed-Size: 4
 Filename: pool/main/rsa-key-parser_1.0.0-1_aarch64.deb
-Size: 2144
-MD5sum: 05628199f346bf19b359410e667a7ead
-SHA1: 87f326260d8d958782c7802132796d8b42af1954
-SHA256: 7542dbaa97cf4b139d3b04320fb3fb74b64e5e2a6662efbedca35b4d139e0031
+Size: 1848
+MD5sum: 5b05f91341042b5b4d2bc309411b1b8e
+SHA1: 85303fe7ad424e2642c9fa675b32b859025b7234
+SHA256: 6bebb68976f4a77d4bb386821f3787229af6e0fba84e483dcd059b9caf24a756
 Section: utils
 Priority: optional
 Description: RSA public and private key structure parser and viewer
@@ -23625,10 +23625,10 @@ Architecture: aarch64
 Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Installed-Size: 4
 Filename: pool/main/dsa-key-auditor_1.0.0-1_aarch64.deb
-Size: 2140
-MD5sum: ec2ddbd6533e5ad081181860474b6b1b
-SHA1: c33f731fbebb26297527a6ddfcdbcc779ce2b42c
-SHA256: 50fe008f5ef4bc5a148f4d220198030b0c4028c9000615a35802eb9eb61d290f
+Size: 1716
+MD5sum: 03621225dcecb6d9897e3263931cedfe
+SHA1: 055744b9f0f56ca6e908819fbebea77a27612c81
+SHA256: 37db29f91d5f8c8c3f3b0fe021392c1a1e0ba5bb608a67a74beddac7254fa68b
 Section: utils
 Priority: optional
 Description: Digital Signature Algorithm key parameter auditor
@@ -23642,10 +23642,10 @@ Architecture: aarch64
 Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Installed-Size: 4
 Filename: pool/main/ecc-point-calc_1.0.0-1_aarch64.deb
-Size: 2144
-MD5sum: d3c171d0e5835a1fc649b734fea03393
-SHA1: 420a4fed5165e3041db6cdb677ecf2abcdbf749e
-SHA256: 341365fd5bef4b6ada8dd845a641edc022e84e7510bd02ddca99f3523bc1a0a8
+Size: 1760
+MD5sum: 5720fdc0647140cd3e9655a2588d11b7
+SHA1: d04e99fbae99af59375d6032244970557d8f46de
+SHA256: 515e529feafc95da298a6a75fb1d40f24c59d8ee74a8fa0ed6c9eb1720b36ee1
 Section: utils
 Priority: optional
 Description: elliptic curve point multiplication and math validator
@@ -23659,10 +23659,10 @@ Architecture: aarch64
 Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Installed-Size: 4
 Filename: pool/main/tls-cipher-scanner_1.0.0-1_aarch64.deb
-Size: 2156
-MD5sum: a9a9adb239927aa4459c38ff3f1fc5dd
-SHA1: 20b6dc619b747d65077cfb47aecfa4d0c9ff1f94
-SHA256: f5828ba3a1ddae9d32d31dca66f4e44112e5cb671d3988289d396dbbe45f41e0
+Size: 1844
+MD5sum: 294575708941e9b73c33f495374cd504
+SHA1: 3ed9ddb0cad0f11d3d11e4f5c09ce71d7cdee841
+SHA256: 6b02491155011b0ce325e56ccfbeb234505755652aaf940df6caaa7eae6e2969
 Section: utils
 Priority: optional
 Description: TLS cipher suite enumerator and vulnerability checker
@@ -23676,10 +23676,10 @@ Architecture: aarch64
 Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Installed-Size: 4
 Filename: pool/main/x509-csr-builder_1.0.0-1_aarch64.deb
-Size: 2148
-MD5sum: d3a86c489ea85e2b03cf578335a489b3
-SHA1: d6eadd9145c4aa13b87310349c1f357abbf92ff5
-SHA256: 216dc53fa4a37bdbb5e2bd11a464f28d1435c69cb978ce316cdfa710a66de93d
+Size: 1764
+MD5sum: 47f7802655d81f7adff5c7aaa7d1d879
+SHA1: e663a966188b4ec1c2af94dbae0ad41f6d95aee3
+SHA256: 91cde7e33cbe188b9888cd1e9026026ebaa23b793f519a4f0d9a807f7b85747a
 Section: utils
 Priority: optional
 Description: X.509 Certificate Signing Request generation utility
@@ -23693,10 +23693,10 @@ Architecture: aarch64
 Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Installed-Size: 4
 Filename: pool/main/ssl-san-inspector_1.0.0-1_aarch64.deb
-Size: 2156
-MD5sum: c333311f784b2bdf0d374a807a163167
-SHA1: 5a2fb5eca441e9eaffb21b168ec343d09c337bc2
-SHA256: 4fd4b2878ca8b3ffae2d07a4314d1c4a900a00d23d67e9f9f798d006e5b57798
+Size: 1900
+MD5sum: e2183f5b88df6a7ea1c4101cc6f75a34
+SHA1: afefaddd97b393eca6fc95dba580cd8175ca140b
+SHA256: d0abd9334295e3b6dbf4185bb0f912a5a4895c267aae665d16797bdec4915345
 Section: utils
 Priority: optional
 Description: SSL Subject Alternative Name extractor and validator
@@ -23710,10 +23710,10 @@ Architecture: aarch64
 Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Installed-Size: 4
 Filename: pool/main/ssh-key-fingerprinter_1.0.0-1_aarch64.deb
-Size: 2156
-MD5sum: cf7c757164309d076bdfb713956135af
-SHA1: ce1afe534c080fdfa6228d526bf1dd5687ba920b
-SHA256: a18af1caa8e58cde8ca96779b4c77bf378c7160f2bbe34597b8da4ced4895f83
+Size: 1832
+MD5sum: 9c9f5de8b0ac8df46e3a4d33637fe859
+SHA1: 04907518710a99a6ba4b558d365542d30cd44582
+SHA256: 5d81d58c47d8b5b6b952f97c6f1f5506e19dd17f100097cb1004167cc2d733b8
 Section: utils
 Priority: optional
 Description: SSH public key SHA256 and MD5 fingerprint scanner
@@ -23727,10 +23727,10 @@ Architecture: aarch64
 Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Installed-Size: 4
 Filename: pool/main/ssh-cert-checker_1.0.0-1_aarch64.deb
-Size: 2136
-MD5sum: e741e9ac56ab51ff1ff5e226c49c75a4
-SHA1: d198d588d700486587eaffb5cb6e7d12561dd6d2
-SHA256: 57f8e4accae5b2980cf5c5914b4c1b3c7f2831ed31c9906da2d86749156ead1d
+Size: 1664
+MD5sum: 7de3458def8442c882ace9845a99a4a5
+SHA1: 79dc353829de1e930c0d2a932cd5e41a200afffc
+SHA256: 46717ddd5ebf30efafb6288bbb1cbc8603d018a31c5616ec2ce7c9c96495e48c
 Section: utils
 Priority: optional
 Description: OpenSSH user and host certificate inspector
@@ -23744,10 +23744,10 @@ Architecture: aarch64
 Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Installed-Size: 4
 Filename: pool/main/pgp-packet-dump_1.0.0-1_aarch64.deb
-Size: 2144
-MD5sum: b6ff5c5fa83df3832a7e85f1daa58b3a
-SHA1: f4443d2da430319d82c50571139516f102f6a12f
-SHA256: 7413e5f7551d20e5ff03068674ad321f06550fdd85f2d09e69debcb41d396522
+Size: 1664
+MD5sum: c9890af5d885bfcce3207559b6f84b86
+SHA1: acb659325b0c4a67a0315c1d634d16c6b5de4ceb
+SHA256: e3cc3638625ba6062adc698934be5439b9521c6e887f4fed0281716e87567ccc
 Section: utils
 Priority: optional
 Description: OpenPGP packet structure decompiler and analyzer
@@ -23761,10 +23761,10 @@ Architecture: aarch64
 Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Installed-Size: 4
 Filename: pool/main/wireguard-key-gen_1.0.0-1_aarch64.deb
-Size: 2128
-MD5sum: eb6b3af4ad037a1beabaabb769136948
-SHA1: 041b018715b4394f27ca912f422e9531c0d1f77a
-SHA256: 4b01486c46772f329b1f35fdaf87b4c7714bf527d2885daa888f2e2c9ff2b8a7
+Size: 1748
+MD5sum: 213bd685c35dce7ffa3ad754c729f311
+SHA1: 60368becab3e387845a39a4068bc3c061d865d46
+SHA256: 678484b3e870c8bd681493bfb6bff32f3534534bafb85e8331da54ef21986d72
 Section: utils
 Priority: optional
 Description: WireGuard private and public key generator
@@ -23778,10 +23778,10 @@ Architecture: aarch64
 Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Installed-Size: 4
 Filename: pool/main/jwt-decoder-cli_1.0.0-1_aarch64.deb
-Size: 2152
-MD5sum: 92de53c7f409beb56f1ae2eceb772c96
-SHA1: aeed0d93eed8c5c78838ceb18083613002c195f0
-SHA256: a8b74e341de9db40b2eb96731154fbc1e2b3507efb8957f3ed3822c017b55f7b
+Size: 1820
+MD5sum: 81059659b9d8cdf6548eecdf5edd9a3e
+SHA1: 40c15b5c73f0716d4e60f9d4ceb2ddb150d66956
+SHA256: 0916dbe90361cb6f683e34a3a386cd2379a65544be86e58095db0423a6352bdc
 Section: utils
 Priority: optional
 Description: JSON Web Token header payload and claims decoder
@@ -23795,10 +23795,10 @@ Architecture: aarch64
 Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Installed-Size: 4
 Filename: pool/main/jwt-signer-tool_1.0.0-1_aarch64.deb
-Size: 2152
-MD5sum: 92e46564f302180a69272a67267994c1
-SHA1: dd5bbce36f898963ff7192967f90bfd251762503
-SHA256: db23546a4c298fa0160c80fce6a603dca0ab71d829c02f49315e120a09010538
+Size: 1888
+MD5sum: 1d82d9c9ada4e4569bd255573b6cfaa2
+SHA1: 7cf4f7619b56f1b5f48385ae0e9f1ee21aa6a470
+SHA256: 7d606dc100f8fbe58f4cbad91d3be30f1076ca6a7f0ca0c4341c9262c252abf7
 Section: utils
 Priority: optional
 Description: JSON Web Token HMAC and RSA signature generator
@@ -23812,10 +23812,10 @@ Architecture: aarch64
 Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Installed-Size: 4
 Filename: pool/main/paseto-token-tool_1.0.0-1_aarch64.deb
-Size: 2152
-MD5sum: 53a220ce5440df2ac363dc40479013ca
-SHA1: 7ee12c0412020d3cce04b2d758d5f9a803027510
-SHA256: e10f77e469047e41523257556ca9b56c4243edafc15ff3846e4815f57b20a9ad
+Size: 1680
+MD5sum: 9b0aa4e732abb1892b6e477f14d2299b
+SHA1: a001549716e382d58d439c2af8efd43e3a5722ad
+SHA256: 8ef7abb86d661d7d640d0a599136918f41777819b18aa43231a00db5e48ccd4d
 Section: utils
 Priority: optional
 Description: Platform-Agnostic Security Tokens creator and parser
@@ -23829,10 +23829,10 @@ Architecture: aarch64
 Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Installed-Size: 4
 Filename: pool/main/macaroon-token-cli_1.0.0-1_aarch64.deb
-Size: 2152
-MD5sum: 161664094f248f962272a2aa3086c57d
-SHA1: 8906b750fbccc64538e9098627b99b1526e4b9f4
-SHA256: 1ed29af3ee42412454a91b1f3dad5d1d1b2e00750cb39260a8567bd8641b93c7
+Size: 1800
+MD5sum: 47ac9fc1809354a2fb89203121759eea
+SHA1: 79b13171ff5b76f52f32513715c572618312e92c
+SHA256: 9f89a4447c6845b5dff7c47b1d9a637bd5ec59ab22a050e65aeee87c9d1073a3
 Section: utils
 Priority: optional
 Description: Macaroons decentralized authorization token inspector
@@ -23846,10 +23846,10 @@ Architecture: aarch64
 Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Installed-Size: 4
 Filename: pool/main/vault-kv-fetcher_1.0.0-1_aarch64.deb
-Size: 2152
-MD5sum: 1593ecee18d1f2867d578b9bad53575f
-SHA1: 8c1de2a22e9bc3c75437c371b7015c6b9871b0e7
-SHA256: 51af1ccff65a03f15dad36ecdd4e02624c3574cdad8d38d9937297db15c103d9
+Size: 1680
+MD5sum: 5655bcbba62e8fdc8d5174f7a446c6d8
+SHA1: 058e6cf4d24f8b0195d2c23780f74212d9b933b2
+SHA256: 73f4ad30b318ba0b401fa57341cb7545c9263998aa087f07a45fb52bfb3bc96e
 Section: utils
 Priority: optional
 Description: HashiCorp Vault key-value secrets retrieval client
@@ -23863,10 +23863,10 @@ Architecture: aarch64
 Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Installed-Size: 4
 Filename: pool/main/sops-config-decrypt_1.0.0-1_aarch64.deb
-Size: 2148
-MD5sum: 75297072170e370f82500372a878d83c
-SHA1: e00efd8e77c45e89a433595185a52f563c833ad0
-SHA256: b27d545f76ef111e95f954444344700049323c2764bff9a0b07d2b8bb8d545ed
+Size: 1656
+MD5sum: 8fecc6b553300ac5e0f137208b441c60
+SHA1: e26146071581b2f38478f2a8677288ace6492d18
+SHA256: e64aa64e639c7436e0e967b83e4dc9f209e7119aa7e7f595ff4187eff1b262e1
 Section: utils
 Priority: optional
 Description: SOPS encrypted configuration parameter inspector
@@ -23880,10 +23880,10 @@ Architecture: aarch64
 Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Installed-Size: 4
 Filename: pool/main/cert-expiration-watcher_1.0.0-1_aarch64.deb
-Size: 2156
-MD5sum: 89025ab54817c43e2c9deb3df30adf0d
-SHA1: fc0f9c52483bc7057ee488462c42a544b06b34fc
-SHA256: 8fecceafb8245f30bbc4ab6747bf39dec68add6f1f2e8e8f56f8656a8a87f7e1
+Size: 1708
+MD5sum: 178f76645c7322587d17c994f537cf72
+SHA1: 7bb1253d5a772f2e704239d43e252cf6f44176c3
+SHA256: ab0e9f98e51b39b16c3b4472f6eaeea34a20984cd6a06a8b7aa7c4f9da8b5ea7
 Section: utils
 Priority: optional
 Description: TLS/SSL certificate expiration countdown monitor
@@ -23897,10 +23897,10 @@ Architecture: aarch64
 Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Installed-Size: 4
 Filename: pool/main/pkcs12-exporter_1.0.0-1_aarch64.deb
-Size: 2148
-MD5sum: 3747f79aff725dea118b6dbd9ddc4ae6
-SHA1: 042295e2ef1fb45dcf1b9d7ccf165ebbd8824535
-SHA256: 6c665220173e383bd1146ffe84497f9d4310e61959f9913b2e281cf3dae18b0d
+Size: 1660
+MD5sum: 728d467d26fe703f0fbb937d8464f8da
+SHA1: 3e245494da4b04c3426a263f1ae023a7fa07b9d7
+SHA256: ba39d60bab6b343d05e039ab04dda7305f36ddc94ed5f9d25feb58dcfc67eb0c
 Section: utils
 Priority: optional
 Description: PKCS#12 archive certificate and private key extractor
@@ -23914,10 +23914,10 @@ Architecture: aarch64
 Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Installed-Size: 4
 Filename: pool/main/pkcs8-converter_1.0.0-1_aarch64.deb
-Size: 2132
-MD5sum: fafeaa0cbc91fa6e0b6134a91ac1abfe
-SHA1: c1b996a5235b4655e0c291414ffc249bc5827dfc
-SHA256: be32aced7f28c924c2a2893d6b0d3b3fd614d12e41da01f813ccbe683d0781db
+Size: 1648
+MD5sum: a2839d0ba4be87cac109472914f1e876
+SHA1: 5f4ade42b3ff9d624601f67893640f606a7ea88f
+SHA256: 9824a764af7a4bc13fc3f599e0dcc169f9372714ab18493ff8f5cf005cab7bf6
 Section: utils
 Priority: optional
 Description: PKCS#8 private key information syntax converter
@@ -23931,10 +23931,10 @@ Architecture: aarch64
 Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Installed-Size: 4
 Filename: pool/main/der-asn1-dump_1.0.0-1_aarch64.deb
-Size: 2144
-MD5sum: 8abc294b6f0c1464f71a6e8b42a2a6a4
-SHA1: 6deaee15e72ba39c00c2989c9d7d32466a625a54
-SHA256: 540cefd68c03d0f9de9b4beeb0417d2bfe3077977fadb1f3eb158cf3ace8da65
+Size: 1656
+MD5sum: b48eaef2d58636429b13c4f0e68d989a
+SHA1: 074385981f737fa885c7fde9b634c62095ee8dd8
+SHA256: 51cf7d2d0ec8c4dba423bf06cbd058c64b10aec9d3fb3375e6010168bdd5cfa8
 Section: utils
 Priority: optional
 Description: DER encoded ASN.1 structure visualizer and linter
@@ -23948,10 +23948,10 @@ Architecture: aarch64
 Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Installed-Size: 4
 Filename: pool/main/random-seed-collector_1.0.0-1_aarch64.deb
-Size: 2148
-MD5sum: c3804fc736ea342714604e43a4ae6871
-SHA1: 9c2b5f481d798a9e89196499d6466d499fcca9ef
-SHA256: fac273a4139dd258d2725f49017908240bacbf398807417852f8f0837623ba6e
+Size: 1680
+MD5sum: aa40c8db16624656594725b72afae6e5
+SHA1: 897b94fa949b2049351661e1eaa51caa99bc60f0
+SHA256: 6fccbd3e8b485e418f0dc32090ef1ffb019ef06427ef85e26f2d81f6343e87bf
 Section: utils
 Priority: optional
 Description: high-entropy system randomness pool sampler
@@ -23965,10 +23965,10 @@ Architecture: aarch64
 Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Installed-Size: 4
 Filename: pool/main/urandom-tester_1.0.0-1_aarch64.deb
-Size: 2132
-MD5sum: c733704722e482ba1b7bf8fe24afd705
-SHA1: 011bd86cef1bbcc45bc2dbc9ce04ca12a1463bc6
-SHA256: de8c0158c893bb6a2e062624ad219f5aba09420eab230984e36b62c0454e32de
+Size: 1808
+MD5sum: 352dce03912433373a57620de5f325ae
+SHA1: 24e70a2f23d93ef2f9efa08878fa66d42728b07b
+SHA256: c87a03289bafa22c55b0603d5dd22ec443ed43bc867083bba7bf235571b3ede2
 Section: utils
 Priority: optional
 Description: kernel /dev/urandom throughput and randomness tester
@@ -23982,10 +23982,10 @@ Architecture: aarch64
 Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Installed-Size: 4
 Filename: pool/main/dice-entropy-calc_1.0.0-1_aarch64.deb
-Size: 2148
-MD5sum: d43e7f3b6ffebb515fb43fa7a0e620ab
-SHA1: 46d20f64d87b60a30ebf8289618b47af6ec18936
-SHA256: 3124cf0ab2a6343675f2f593b5a6659a77c97c75956fa8af30d92b9e40df20aa
+Size: 1724
+MD5sum: 334e11e5ef7985fb873e45c0127639cb
+SHA1: 31f6f84680d0715e4b776bcca05bc42c8e299828
+SHA256: 5027b2c6c10b3937abb14c904cc6d4eeb37b66641cd85e3011ae42607ac8158f
 Section: utils
 Priority: optional
 Description: Shannon entropy and bit-level distribution calculator
@@ -23999,10 +23999,10 @@ Architecture: aarch64
 Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Installed-Size: 4
 Filename: pool/main/steganography-tool_1.0.0-1_aarch64.deb
-Size: 2148
-MD5sum: b4a7b79e1683c38cd1393a32f8c5ce0c
-SHA1: 834463fba584df711e981b244ec8149e802ac3c4
-SHA256: 22df493bd208146fb0dc52212bc79bff71243bc2f8c0f8dc06dcfdea0b6959bc
+Size: 1712
+MD5sum: e6b98d80283f55c521f1c0bec51963d2
+SHA1: a11f2e9276afaa0fa6f9664f174418ddc5b141aa
+SHA256: ede09452fafca8b8c0602e8cf2909f2596f799f75de69524469c520171a2d952
 Section: utils
 Priority: optional
 Description: carrier file LSB payload detection and extractor
@@ -24016,10 +24016,10 @@ Architecture: aarch64
 Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Installed-Size: 4
 Filename: pool/main/xor-cipher-cli_1.0.0-1_aarch64.deb
-Size: 2140
-MD5sum: a0e74d1479618b92bebe9a69d35f74a3
-SHA1: 19cfe6efa30457ff93bdbcd34f5d16d5a4cfc52b
-SHA256: 82e1fc2b134e02c01357bb6c87b5bd3c71e249a67d129b59875e5c349dc30093
+Size: 1808
+MD5sum: ec1a50bef014e7c15d1ea04f7f9f20bf
+SHA1: f79916491bdb8dd1c08ea4fadb80f0238b90747c
+SHA256: 865e98f0dd9ecc493370d5aafcfd7df0ab1d9389d2878a3b9bff2c312adff5c4
 Section: utils
 Priority: optional
 Description: multi-byte repeating XOR key encoder and analyst
@@ -24033,10 +24033,10 @@ Architecture: aarch64
 Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Installed-Size: 4
 Filename: pool/main/rot13-encoder_1.0.0-1_aarch64.deb
-Size: 2132
-MD5sum: e17d9a8fcc7c56c6afe3de09cc6affe4
-SHA1: bf7f4ec99b40bd7950a17a9b0b6bf4d2eb42b5aa
-SHA256: 792da8995e55bc1641bc08d5857c19cfa1ae9477112a2dd5a466f53cba561286
+Size: 1696
+MD5sum: d92b1b94e865c7b68d62131b3705b914
+SHA1: 92f7c15c109b62df3fad0f45f3e77314fc1d0346
+SHA256: dad01a8da3150693e5ba1f8b3361a421e45069fa0773aeac39895b8c1f766ea6
 Section: utils
 Priority: optional
 Description: Caesar ROT13 alphabetic transposition filter
@@ -24050,10 +24050,10 @@ Architecture: aarch64
 Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Installed-Size: 4
 Filename: pool/main/caesar-cipher-tool_1.0.0-1_aarch64.deb
-Size: 2148
-MD5sum: 6707e1d2589dff1a9f32570f11eaa819
-SHA1: 2c5f2559b3482420fec5986189f1d4a4f92c6f0f
-SHA256: ec2a374406cffa4e534e164652ccef698d9954e2b054739b081e219a04c9e949
+Size: 1808
+MD5sum: 396cbf4dd04098519f2c98b87c4532b4
+SHA1: 69f1af46270fd18d529940d7dfb83fcafa1e3591
+SHA256: 02b37f8ebce4b95f9b402365c4d35c87352894c6c2437a7f397a792f175fb260
 Section: utils
 Priority: optional
 Description: Caesar substitution cipher brute-force decoder
@@ -24067,10 +24067,10 @@ Architecture: aarch64
 Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Installed-Size: 4
 Filename: pool/main/vigenere-analyzer_1.0.0-1_aarch64.deb
-Size: 2140
-MD5sum: 96be0c5d653c6ebccbd2943e443d5a8c
-SHA1: f534af23729f902e83474022137ca96b02d730c6
-SHA256: 8f3eca4b89ea4ee571f7b4d16824a52e594a9ade1c11aeddc9142ee08bd33b4c
+Size: 1856
+MD5sum: 1ae1c30afeaab2b363ab93f8708d5443
+SHA1: c74abb8751a4fae663b528d42cb15ed0f143ea85
+SHA256: c9e34205c5639837ad7772a73e4adba17c5442d38dc478801116c32c3a834047
 Section: utils
 Priority: optional
 Description: Vigenere cipher index of coincidence analyzer
@@ -24084,10 +24084,10 @@ Architecture: aarch64
 Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Installed-Size: 4
 Filename: pool/main/base45-qr-decoder_1.0.0-1_aarch64.deb
-Size: 2136
-MD5sum: f54f638eb6da4f461cd30c1033e0e304
-SHA1: e125621b97ad0db393f20e78b6f2f413868c66c9
-SHA256: 823b4006b115c03a2f98b8181d0d06c119db5723d5b55a8280340317e71533c7
+Size: 1860
+MD5sum: 2ef68510d2303acc1d4443f6db6a821b
+SHA1: 0f625e941c2843d5bad2326c7499945e19cbf891
+SHA256: 219a00ebde55ffdcfe41b884e54f5dcb4a48448e312c8b7c74a4336b42e90f81
 Section: utils
 Priority: optional
 Description: Base45 barcode and health certificate data decoder
@@ -24101,10 +24101,10 @@ Architecture: aarch64
 Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Installed-Size: 4
 Filename: pool/main/base91-encoder-tool_1.0.0-1_aarch64.deb
-Size: 2156
-MD5sum: c581089e037c0fbfbf5bfe105d9bcba8
-SHA1: 8d2c5792e3f5b703848233522b18873a6e5ad32e
-SHA256: 5b0f3c0895b809ede38a9e58853b4686ce9ec912efd6c27d9003f408c4b77940
+Size: 1924
+MD5sum: 186c55b93a4bf1d84e0cb749caff44d8
+SHA1: e1f6e1941c893501b07dcfdfccbfc6d2a69532ef
+SHA256: 32877b3028a5073a9e5e0e6a0430453d7b89b4b2eb2b974d5a50262ae374d134
 Section: utils
 Priority: optional
 Description: Base91 advanced high-density binary data encoder

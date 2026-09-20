@@ -1,12 +1,18 @@
 {
   "schemaVersion": 1,
   "targetExpansionPackages": 1000,
-  "stagedFunctionalRepairs": 250,
+  "stagedFunctionalRepairs": 300,
   "livePromotedRepairs": 0,
-  "remainingPlaceholderPackages": 750,
+  "remainingPlaceholderPackages": 700,
   "repairVersion": "1.0.0-2",
   "signingBlockedBy": "OCEAN_REPOSITORY_SIGNING_KEY unavailable to GitHub Actions",
   "shards": [
+    {
+      "name": "shard-05-cryptography-secrets",
+      "packages": 50,
+      "testsPassed": 50,
+      "status": "staged-functional"
+    },
     {
       "name": "shard-18-code-lint-analysis",
       "packages": 50,
