@@ -1,0 +1,1427 @@
+{
+  "schemaVersion": 1,
+  "suite": "ocean-devkit-200",
+  "version": "1.0.0-1",
+  "sourceType": "Ocean-native original source",
+  "prefix": "/data/data/studio.ocean.app/files/usr",
+  "packageCount": 200,
+  "uniquePackageCount": 200,
+  "runtimePackage": "ocean-devkit-runtime",
+  "termuxRuntimeDependency": false,
+  "groups": {
+    "apk": 20,
+    "web": 20,
+    "git": 20,
+    "text": 20,
+    "data": 20,
+    "filesystem": 20,
+    "network": 20,
+    "crypto": 20,
+    "build": 20,
+    "archive": 19,
+    "runtime": 1
+  },
+  "packages": [
+    {
+      "package": "ocean-apkx-entry-list",
+      "artifact": "ocean-apkx-entry-list_1.0.0-1_all.deb",
+      "bytes": 816,
+      "sha256": "29aa08faba1a08c813156665e829d70aea95f48b3ab461e9802970e22a3c47e3",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-apkx-dex-count",
+      "artifact": "ocean-apkx-dex-count_1.0.0-1_all.deb",
+      "bytes": 816,
+      "sha256": "9bfd16a477c3e7918e24d77eefa49b0c148337aabdf902d67739bdfad4c4d5a2",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-apkx-dex-names",
+      "artifact": "ocean-apkx-dex-names_1.0.0-1_all.deb",
+      "bytes": 808,
+      "sha256": "dfef548da60d9ea635e5f3e938be38c158402f5e7a8b80de30e3f99d1f23433f",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-apkx-resource-list",
+      "artifact": "ocean-apkx-resource-list_1.0.0-1_all.deb",
+      "bytes": 822,
+      "sha256": "eba0ea632f3ab0678ea56aa6c077600a635b033d4935da7be45f4595ed2e6efb",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-apkx-native-abis",
+      "artifact": "ocean-apkx-native-abis_1.0.0-1_all.deb",
+      "bytes": 808,
+      "sha256": "57644cc928dca7e0a0e74b16610e21a71f59a752ec0f61d29551b3c5ea475ae8",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-apkx-native-libs",
+      "artifact": "ocean-apkx-native-libs_1.0.0-1_all.deb",
+      "bytes": 808,
+      "sha256": "32d2871de1855db2387489efc57002dd87c550b843267d36498a0bbfca5319ea",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-apkx-permission-hints",
+      "artifact": "ocean-apkx-permission-hints_1.0.0-1_all.deb",
+      "bytes": 818,
+      "sha256": "9df687db3c1300a45336c68550d2ce89a690e982280c8e2065c7f9518f5e0074",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-apkx-feature-hints",
+      "artifact": "ocean-apkx-feature-hints_1.0.0-1_all.deb",
+      "bytes": 820,
+      "sha256": "e72ebfc9b7526732778d731ba8051e541804077142a144ec6fb381ea69643699",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-apkx-manifest-bytes",
+      "artifact": "ocean-apkx-manifest-bytes_1.0.0-1_all.deb",
+      "bytes": 824,
+      "sha256": "f7001299624e37c1904b1f8c3a2d1f8c1d5f17a8d530f2d6ea17070ac315d350",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-apkx-file-map",
+      "artifact": "ocean-apkx-file-map_1.0.0-1_all.deb",
+      "bytes": 806,
+      "sha256": "d21d167212a63eac43ae6185886d55a64b24c9279adac97c63e0fb8ebd356668",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-apkx-compression-report",
+      "artifact": "ocean-apkx-compression-report_1.0.0-1_all.deb",
+      "bytes": 826,
+      "sha256": "19773320dc8a804b5328052d056d32b181fbcbe198b8405d390341ed12951e9f",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-apkx-largest-files",
+      "artifact": "ocean-apkx-largest-files_1.0.0-1_all.deb",
+      "bytes": 822,
+      "sha256": "5cb1f37d3ffb3b5b3a3fe21caf3a51e4f76a97c82933b959eea3aa1360578d19",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-apkx-duplicate-files",
+      "artifact": "ocean-apkx-duplicate-files_1.0.0-1_all.deb",
+      "bytes": 822,
+      "sha256": "055292e161a9cd9497cf0c48cd545682b7f388aebbc9566b71745891ddc1c013",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-apkx-path-search",
+      "artifact": "ocean-apkx-path-search_1.0.0-1_all.deb",
+      "bytes": 810,
+      "sha256": "b6ab56e95e4bb307482e8c2f99197f91fec4644837b23a58f23a6131fe83a810",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-apkx-cert-files",
+      "artifact": "ocean-apkx-cert-files_1.0.0-1_all.deb",
+      "bytes": 812,
+      "sha256": "6d6d7a5ebb176918f8ea520876f8990138675373f548511beb6233c94ec8deea",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-apkx-integrity-hash",
+      "artifact": "ocean-apkx-integrity-hash_1.0.0-1_all.deb",
+      "bytes": 824,
+      "sha256": "678ef17a6e831c4ce1c4c29dd3a21fc993f2248810a5a4530077a8f68f648ab2",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-apkx-zip-test",
+      "artifact": "ocean-apkx-zip-test_1.0.0-1_all.deb",
+      "bytes": 808,
+      "sha256": "273d94578a6baa0233e14f33cf541827d9c0181abc56e119b8ef98bae7c80c5c",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-apkx-assets-list",
+      "artifact": "ocean-apkx-assets-list_1.0.0-1_all.deb",
+      "bytes": 810,
+      "sha256": "e2625ba79762a3a8b56245622025eb2c2fb715f00519f0527e0a4696df34f070",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-apkx-res-list",
+      "artifact": "ocean-apkx-res-list_1.0.0-1_all.deb",
+      "bytes": 806,
+      "sha256": "f08f0a2061f125e45018cbfcde2cbdf86a4f0d5c80a59f0aa4ea3b21e3d6f11a",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-apkx-meta-inf-list",
+      "artifact": "ocean-apkx-meta-inf-list_1.0.0-1_all.deb",
+      "bytes": 824,
+      "sha256": "41d51af2d5a7a71a82da6db3bbf308834cb4a906c968d3e66fe64c4e1476b2d1",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-webx-url-parse",
+      "artifact": "ocean-webx-url-parse_1.0.0-1_all.deb",
+      "bytes": 818,
+      "sha256": "53a618f45a1d5e80801e39e7b3fb23d62cb0d7dcc079271d24bc2660f812b053",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-webx-url-normalize",
+      "artifact": "ocean-webx-url-normalize_1.0.0-1_all.deb",
+      "bytes": 824,
+      "sha256": "b91f6b1e6aa944ad07f28d43574f525c119c5f176628c6aab867a61d6d7b6106",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-webx-query-get",
+      "artifact": "ocean-webx-query-get_1.0.0-1_all.deb",
+      "bytes": 822,
+      "sha256": "d633f37c27f135073bc5c112301535bcc32cee2c08af8b4ecffc4d9eb7cac73c",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-webx-query-set",
+      "artifact": "ocean-webx-query-set_1.0.0-1_all.deb",
+      "bytes": 818,
+      "sha256": "39fb88d416ccefb1393518ee542b928c7e5cec7842b39e81ca43f0c2f1879732",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-webx-query-delete",
+      "artifact": "ocean-webx-query-delete_1.0.0-1_all.deb",
+      "bytes": 824,
+      "sha256": "a8d3da8e8b1904285637145849f319362314ff0a88662cd074de4fdb1349dd03",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-webx-http-head",
+      "artifact": "ocean-webx-http-head_1.0.0-1_all.deb",
+      "bytes": 818,
+      "sha256": "c50abd03590fcd3d10a07a0ded183f5ff2ada9f5888dcb755e99c362b59e822f",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-webx-http-get",
+      "artifact": "ocean-webx-http-get_1.0.0-1_all.deb",
+      "bytes": 810,
+      "sha256": "1055d9f62b2d0d88bace6f34244a1107989b36a96a30f1320fc395ce98f55118",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-webx-http-json",
+      "artifact": "ocean-webx-http-json_1.0.0-1_all.deb",
+      "bytes": 818,
+      "sha256": "8a72832219f3b495c81392ae240e8611cefe974bf92a3f5b2cc7c34ff05202ac",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-webx-http-status",
+      "artifact": "ocean-webx-http-status_1.0.0-1_all.deb",
+      "bytes": 812,
+      "sha256": "2f4c40a97a28dbfa038e8cdb84811af0b5e1dbfa21c4b288cb9fbf33fc401a53",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-webx-http-headers",
+      "artifact": "ocean-webx-http-headers_1.0.0-1_all.deb",
+      "bytes": 822,
+      "sha256": "9bf508b174ae9ea81e6c598a74179ca21f024043c55a027ad45de2e2e7ea1192",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-webx-http-download",
+      "artifact": "ocean-webx-http-download_1.0.0-1_all.deb",
+      "bytes": 824,
+      "sha256": "9feca8f325992bcd47868a5924665a975cef6e90d97550d889b33038b33a5a01",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-webx-form-encode",
+      "artifact": "ocean-webx-form-encode_1.0.0-1_all.deb",
+      "bytes": 814,
+      "sha256": "4a0f9d05d59d12e170791113e2917f8478640330b1b6d37db693a819648385db",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-webx-multipart-boundary",
+      "artifact": "ocean-webx-multipart-boundary_1.0.0-1_all.deb",
+      "bytes": 830,
+      "sha256": "0fd4d44c69dc2b9b532e7c08886c534fa2f2abfa75bbcbca9f8377989c961e29",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-webx-html-links",
+      "artifact": "ocean-webx-html-links_1.0.0-1_all.deb",
+      "bytes": 818,
+      "sha256": "deedf7fac47eecb9ac3fe325df77636b7959916873ace64eb83672ad0073ced5",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-webx-html-images",
+      "artifact": "ocean-webx-html-images_1.0.0-1_all.deb",
+      "bytes": 814,
+      "sha256": "999a0b7d7c83c40b989bb80d544e7dccdcb2b6c12bbebc9da9920c3d00bde328",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-webx-html-title",
+      "artifact": "ocean-webx-html-title_1.0.0-1_all.deb",
+      "bytes": 818,
+      "sha256": "0301f722343cab8605616618cdaac34a0029e5a1d52c1bbf3af41a6cd5ea67de",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-webx-html-text",
+      "artifact": "ocean-webx-html-text_1.0.0-1_all.deb",
+      "bytes": 816,
+      "sha256": "f4c13679210d3d03a855cbd0c5b222f7e7d2fa12cde00c09f4bc090550afd341",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-webx-robots-paths",
+      "artifact": "ocean-webx-robots-paths_1.0.0-1_all.deb",
+      "bytes": 822,
+      "sha256": "ea1bee4afed22cd20f1d7db9819be155d77ce4271974f8a62d798a2a1e27aa14",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-webx-sitemap-urls",
+      "artifact": "ocean-webx-sitemap-urls_1.0.0-1_all.deb",
+      "bytes": 824,
+      "sha256": "966a118ddd96e9af03d4019430706292c723bb182ef275173e0f75b5331e3b2e",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-webx-cookie-parse",
+      "artifact": "ocean-webx-cookie-parse_1.0.0-1_all.deb",
+      "bytes": 822,
+      "sha256": "1ed3ef68e2547fe40d971fdf5d55ffb661c4374013ee7a2314bf6630e3c5ff43",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-gitx-status-json",
+      "artifact": "ocean-gitx-status-json_1.0.0-1_all.deb",
+      "bytes": 824,
+      "sha256": "ad5b444b13e710f557d97f0cfdad57bcf00be58f5924cf8f940017df07b3dd98",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1), git"
+    },
+    {
+      "package": "ocean-gitx-branch-current",
+      "artifact": "ocean-gitx-branch-current_1.0.0-1_all.deb",
+      "bytes": 828,
+      "sha256": "b344722d5a0638ab55738af1e5b05d2fcfa34f1438faeac99ab9d275f0689169",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1), git"
+    },
+    {
+      "package": "ocean-gitx-branches",
+      "artifact": "ocean-gitx-branches_1.0.0-1_all.deb",
+      "bytes": 820,
+      "sha256": "6ba5dd850545717458cacabb45a6de292e60775574f6d595d0dd94ba5143d37e",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1), git"
+    },
+    {
+      "package": "ocean-gitx-log-json",
+      "artifact": "ocean-gitx-log-json_1.0.0-1_all.deb",
+      "bytes": 822,
+      "sha256": "ddea520b3f8143c823dc5699856ad9cc60e9af89037e6e9e08e72e9c704b2ca5",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1), git"
+    },
+    {
+      "package": "ocean-gitx-last-commit",
+      "artifact": "ocean-gitx-last-commit_1.0.0-1_all.deb",
+      "bytes": 822,
+      "sha256": "4c8c119b63d990891c83c31a438c41d1503884358ead1eb91a53b0d7da0446b2",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1), git"
+    },
+    {
+      "package": "ocean-gitx-remotes",
+      "artifact": "ocean-gitx-remotes_1.0.0-1_all.deb",
+      "bytes": 816,
+      "sha256": "2cb6eb918c4c116b52a4d1bda1e7355e6d921b4d5e8854ee61736ee8a12c1e8c",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1), git"
+    },
+    {
+      "package": "ocean-gitx-config-get",
+      "artifact": "ocean-gitx-config-get_1.0.0-1_all.deb",
+      "bytes": 822,
+      "sha256": "422f05cadac0c49b8736f435b5e50cfd1eb5fa80fa0bfd1fe09a2254488e1dae",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1), git"
+    },
+    {
+      "package": "ocean-gitx-config-list",
+      "artifact": "ocean-gitx-config-list_1.0.0-1_all.deb",
+      "bytes": 824,
+      "sha256": "ef443b187d0775318def4322bb7cb88c901044168544be819f0c2d0055663ded",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1), git"
+    },
+    {
+      "package": "ocean-gitx-diff-stat",
+      "artifact": "ocean-gitx-diff-stat_1.0.0-1_all.deb",
+      "bytes": 822,
+      "sha256": "a3d94662e62c5de9c5fccd31238471b325d0128da6bf91ef87393dc74280da45",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1), git"
+    },
+    {
+      "package": "ocean-gitx-changed-files",
+      "artifact": "ocean-gitx-changed-files_1.0.0-1_all.deb",
+      "bytes": 828,
+      "sha256": "e6ae691dc6272f391e0c4673fbc864aee65d97c81ab5aa5a0e96bd8f3070dbff",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1), git"
+    },
+    {
+      "package": "ocean-gitx-untracked",
+      "artifact": "ocean-gitx-untracked_1.0.0-1_all.deb",
+      "bytes": 820,
+      "sha256": "e8bebce7207398baed9aae8d8cc7c56e9798a5551e01a4336b8fafd93237db26",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1), git"
+    },
+    {
+      "package": "ocean-gitx-root",
+      "artifact": "ocean-gitx-root_1.0.0-1_all.deb",
+      "bytes": 804,
+      "sha256": "32d6bc6f735f7c79dd2b808682983cc67064bd912a7f22106b5da717c74975b6",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1), git"
+    },
+    {
+      "package": "ocean-gitx-object-type",
+      "artifact": "ocean-gitx-object-type_1.0.0-1_all.deb",
+      "bytes": 824,
+      "sha256": "d9eeb0baab642609f8d0039bf1b6e53ddccdbfefa1eb95046d0264d25b69bd35",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1), git"
+    },
+    {
+      "package": "ocean-gitx-object-size",
+      "artifact": "ocean-gitx-object-size_1.0.0-1_all.deb",
+      "bytes": 826,
+      "sha256": "a12de860f284b11c946a49e1b0c25034894f4d57506fcd523787cab258455c70",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1), git"
+    },
+    {
+      "package": "ocean-gitx-show-file",
+      "artifact": "ocean-gitx-show-file_1.0.0-1_all.deb",
+      "bytes": 822,
+      "sha256": "9738658473deab977eb7e99e893aabce5b7349c1ee1436baaca15ea8968e9132",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1), git"
+    },
+    {
+      "package": "ocean-gitx-tag-list",
+      "artifact": "ocean-gitx-tag-list_1.0.0-1_all.deb",
+      "bytes": 818,
+      "sha256": "3d087b0dd164f578793581b10861bc765b3ad0c10329a945a5bdffd9e330a665",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1), git"
+    },
+    {
+      "package": "ocean-gitx-head-sha",
+      "artifact": "ocean-gitx-head-sha_1.0.0-1_all.deb",
+      "bytes": 822,
+      "sha256": "ca67b5e8b14802c98bce7fc7e688afe607c3eca2008b512dcc8b91b55e975608",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1), git"
+    },
+    {
+      "package": "ocean-gitx-short-sha",
+      "artifact": "ocean-gitx-short-sha_1.0.0-1_all.deb",
+      "bytes": 818,
+      "sha256": "97ce1a7873ac662da7e8b9f00c710720e9d47fc75291d8f4d620bdf326038771",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1), git"
+    },
+    {
+      "package": "ocean-gitx-author",
+      "artifact": "ocean-gitx-author_1.0.0-1_all.deb",
+      "bytes": 814,
+      "sha256": "462f2e2b1cc09115bb2ff19b531c8a63d5ad4d49cfb629b58d60426f96c934a9",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1), git"
+    },
+    {
+      "package": "ocean-gitx-commit-message",
+      "artifact": "ocean-gitx-commit-message_1.0.0-1_all.deb",
+      "bytes": 826,
+      "sha256": "3417f1698800e195802fd658d76c494b29c71dae213eac29f96a7150ce4532b6",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1), git"
+    },
+    {
+      "package": "ocean-textx-slug",
+      "artifact": "ocean-textx-slug_1.0.0-1_all.deb",
+      "bytes": 800,
+      "sha256": "4531b151eb8e4ae33e8698378d35465d98f70462e402e772b95874574048540a",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-textx-wordfreq",
+      "artifact": "ocean-textx-wordfreq_1.0.0-1_all.deb",
+      "bytes": 808,
+      "sha256": "fbfb419c1a5d9243f12e97775355c38a395db596b047517417d05818bf28877b",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-textx-lines-unique",
+      "artifact": "ocean-textx-lines-unique_1.0.0-1_all.deb",
+      "bytes": 822,
+      "sha256": "4551c43f73ade765bf76bd5594f301034aaaa70d4cdea7385f1300bb28096927",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-textx-lines-duplicate",
+      "artifact": "ocean-textx-lines-duplicate_1.0.0-1_all.deb",
+      "bytes": 822,
+      "sha256": "b5c9565a1b039e5da3b2e9b4fb26387a942f32de076eadd62fe850b0205f620c",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-textx-lines-sort",
+      "artifact": "ocean-textx-lines-sort_1.0.0-1_all.deb",
+      "bytes": 810,
+      "sha256": "ded1d03bafee1d517010ff1848eec8246c430707ba61731f644e09548e50a348",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-textx-lines-reverse",
+      "artifact": "ocean-textx-lines-reverse_1.0.0-1_all.deb",
+      "bytes": 822,
+      "sha256": "7f824495f96e9ab2fcf3229a8870cd7e25c7352a147aa55820285efcb42da7fe",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-textx-tabs-spaces",
+      "artifact": "ocean-textx-tabs-spaces_1.0.0-1_all.deb",
+      "bytes": 820,
+      "sha256": "27007bc006f0474f355c736a7db3ee5e53560dee875268cb419c8f3e742bbe6c",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-textx-spaces-tabs",
+      "artifact": "ocean-textx-spaces-tabs_1.0.0-1_all.deb",
+      "bytes": 820,
+      "sha256": "5262528f71a34ade30597856b5fefd8b6434e9e96671deb3b1bfd9229d295bdf",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-textx-trim",
+      "artifact": "ocean-textx-trim_1.0.0-1_all.deb",
+      "bytes": 798,
+      "sha256": "4cd15e7731af19ac8fc1a75ebe7c3a68d93402064167eb272d05f5be08f048d4",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-textx-lower",
+      "artifact": "ocean-textx-lower_1.0.0-1_all.deb",
+      "bytes": 802,
+      "sha256": "99a41f8b3f94a05072685f3ec325a14c8269d1dd229cb8923dc1920701412f88",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-textx-upper",
+      "artifact": "ocean-textx-upper_1.0.0-1_all.deb",
+      "bytes": 802,
+      "sha256": "6d54b63548b08dc1343dd5cd0d722d39d6877a4b1985e3057752a577fd2abccb",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-textx-title",
+      "artifact": "ocean-textx-title_1.0.0-1_all.deb",
+      "bytes": 800,
+      "sha256": "035133bd556b5cc41cacf2b7efbb1389a5b66629bf53c3713be3c5c31ee18615",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-textx-wrap",
+      "artifact": "ocean-textx-wrap_1.0.0-1_all.deb",
+      "bytes": 800,
+      "sha256": "29cacd86f6d65497f83e13b95ccff6f4f033830ba2bef3fd5d9f67d36df56b0a",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-textx-indent",
+      "artifact": "ocean-textx-indent_1.0.0-1_all.deb",
+      "bytes": 804,
+      "sha256": "db3caec1d6cab08cc03428b1b7e211e47a670509622e984853911bf8e3cf9365",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-textx-dedent",
+      "artifact": "ocean-textx-dedent_1.0.0-1_all.deb",
+      "bytes": 802,
+      "sha256": "3374199330e107edc08097df138851f84087033c6c7d856d566c486e751347e9",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-textx-prefix",
+      "artifact": "ocean-textx-prefix_1.0.0-1_all.deb",
+      "bytes": 804,
+      "sha256": "8d46f680ea1115d7632a900931fd5e3efd27ea09c06f012c058d90e320a229f9",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-textx-suffix",
+      "artifact": "ocean-textx-suffix_1.0.0-1_all.deb",
+      "bytes": 804,
+      "sha256": "1cea4ea77ff776850c57245d78596abf5ea4e0a9ea27ef3afb85ed73fcd2d57e",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-textx-replace",
+      "artifact": "ocean-textx-replace_1.0.0-1_all.deb",
+      "bytes": 804,
+      "sha256": "008a43199f52fc2aabb71ff4e96f4e3ed58fd6f0e6849d6fd3ea312c806200e8",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-textx-regex-find",
+      "artifact": "ocean-textx-regex-find_1.0.0-1_all.deb",
+      "bytes": 810,
+      "sha256": "5175e78d871d3511a2914e9fd02afe9899ea4aed018cfa9b2f25cb15c54fcd2a",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-textx-regex-replace",
+      "artifact": "ocean-textx-regex-replace_1.0.0-1_all.deb",
+      "bytes": 822,
+      "sha256": "87e83e89287214871f0a198a9a05ba517342570ae6fe21512af729c24233a07f",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-datax-json-pretty",
+      "artifact": "ocean-datax-json-pretty_1.0.0-1_all.deb",
+      "bytes": 818,
+      "sha256": "060a644025800cd9a786e9be8a9971ad8e2764a09b0983087785894a0756ed9b",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-datax-json-minify",
+      "artifact": "ocean-datax-json-minify_1.0.0-1_all.deb",
+      "bytes": 820,
+      "sha256": "2ec40fd392dbc58cb1323710f0e9a5b1ace70df44a5d5bbfe054f10e55aebd8b",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-datax-json-keys",
+      "artifact": "ocean-datax-json-keys_1.0.0-1_all.deb",
+      "bytes": 814,
+      "sha256": "2d6104fbaa495e1820e2328749cca48ccf9d59afa3cc3283cce70a59bd112071",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-datax-json-values",
+      "artifact": "ocean-datax-json-values_1.0.0-1_all.deb",
+      "bytes": 818,
+      "sha256": "d20464bca7d7c40539428cc282535cbf4278cc34553961c2f89f3d4fcbea826e",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-datax-json-flatten",
+      "artifact": "ocean-datax-json-flatten_1.0.0-1_all.deb",
+      "bytes": 818,
+      "sha256": "073f167d125d41b4b538c13d84492b1ca3b55b735c94d12e518236edaa8ad83c",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-datax-json-unflatten",
+      "artifact": "ocean-datax-json-unflatten_1.0.0-1_all.deb",
+      "bytes": 824,
+      "sha256": "2ecaee7fd6ddcd77dca42bda1c1a3b854788946c87e0f6ac9609372ba649bc5f",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-datax-json-merge",
+      "artifact": "ocean-datax-json-merge_1.0.0-1_all.deb",
+      "bytes": 810,
+      "sha256": "18d8b76212bfdb81998c98d43abf4dc8f0bd796da7056852ee9069aafe913c5f",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-datax-json-diff",
+      "artifact": "ocean-datax-json-diff_1.0.0-1_all.deb",
+      "bytes": 808,
+      "sha256": "c89e046243d84490acb4a0407aca13e409972b00d7dc43f6dcfae83abb8809f5",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-datax-json-lines",
+      "artifact": "ocean-datax-json-lines_1.0.0-1_all.deb",
+      "bytes": 810,
+      "sha256": "bbf068b0fd49729b24122a7bdf75d7e6d960d1dd2698fc937c0ef6743742da6b",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-datax-csv-head",
+      "artifact": "ocean-datax-csv-head_1.0.0-1_all.deb",
+      "bytes": 808,
+      "sha256": "0eb3b8e0b94ad6ed3c3e3e74b77a3bd444158e5d71721414960965409d4f73d6",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-datax-csv-columns",
+      "artifact": "ocean-datax-csv-columns_1.0.0-1_all.deb",
+      "bytes": 820,
+      "sha256": "aff8306880dec168a8306591f636b8aefd3d7485ccc04be1f0ad941402f23b5c",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-datax-csv-select",
+      "artifact": "ocean-datax-csv-select_1.0.0-1_all.deb",
+      "bytes": 808,
+      "sha256": "15af99720ca4cc82695eee1ddea90cba9f422ecde9a5db63cb4a9129ff5141f1",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-datax-csv-count",
+      "artifact": "ocean-datax-csv-count_1.0.0-1_all.deb",
+      "bytes": 816,
+      "sha256": "6d8c5a95a3d1c68981d82b00c4ca881dc43e4c7accc1be6f2a9fb4e3f753adff",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-datax-csv-sort",
+      "artifact": "ocean-datax-csv-sort_1.0.0-1_all.deb",
+      "bytes": 806,
+      "sha256": "99fc87d6e3b7fb2412d69fd455b55330c237820be871fe64ae86910d37113f34",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-datax-tsv-to-csv",
+      "artifact": "ocean-datax-tsv-to-csv_1.0.0-1_all.deb",
+      "bytes": 818,
+      "sha256": "f3c4263fca31ef937866ae304ebe02503a0bb11d9bf8af24b4438455891bcd03",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-datax-csv-to-tsv",
+      "artifact": "ocean-datax-csv-to-tsv_1.0.0-1_all.deb",
+      "bytes": 818,
+      "sha256": "427a34a97371d420914d31b951f44328b3fd040488093e84eb6ed38dc7171593",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-datax-ndjson-to-json",
+      "artifact": "ocean-datax-ndjson-to-json_1.0.0-1_all.deb",
+      "bytes": 824,
+      "sha256": "ff0fb6d90da2a0a82574d20b71a6f9f3ca6310c4457fc6f371a63d00b805849b",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-datax-json-to-ndjson",
+      "artifact": "ocean-datax-json-to-ndjson_1.0.0-1_all.deb",
+      "bytes": 824,
+      "sha256": "7fce6f09892e1bea97c5c9bba0636bf05e30a2c683c6ef33ca01265cbf852363",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-datax-kv-json",
+      "artifact": "ocean-datax-kv-json_1.0.0-1_all.deb",
+      "bytes": 814,
+      "sha256": "cc0a38188a6095e2d4fd09d9660eb4ead629c9940d65fd1bf6ecbba01c2ea92f",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-datax-env-json",
+      "artifact": "ocean-datax-env-json_1.0.0-1_all.deb",
+      "bytes": 808,
+      "sha256": "291d6311bd64bc56b7ed383daab4d17611f071ef4d627b50ae08935614c3a57c",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-fsx-tree-size",
+      "artifact": "ocean-fsx-tree-size_1.0.0-1_all.deb",
+      "bytes": 808,
+      "sha256": "cd67fa70458fd95e33f3e3cf609055a39a85b7483ea19828005d783e917eedfd",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-fsx-largest",
+      "artifact": "ocean-fsx-largest_1.0.0-1_all.deb",
+      "bytes": 804,
+      "sha256": "053915c35f9e9291a3ad9cb4256ad5684bd91ebb9dc6646301d7466fff04a3bf",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-fsx-newest",
+      "artifact": "ocean-fsx-newest_1.0.0-1_all.deb",
+      "bytes": 802,
+      "sha256": "65bab91e8a9155beab2b0258d07e5bb6721719d18a43403ddcc60fa5b86dfdb1",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-fsx-oldest",
+      "artifact": "ocean-fsx-oldest_1.0.0-1_all.deb",
+      "bytes": 804,
+      "sha256": "7e33b66a8123b2ad0ea6c4be85879c78bec4c542a4862c731540562520c20902",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-fsx-empty",
+      "artifact": "ocean-fsx-empty_1.0.0-1_all.deb",
+      "bytes": 800,
+      "sha256": "efda7900ee44cc27cf4173e1c9525e0c757b158644f0e1274c1146b5fa09b447",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-fsx-duplicates",
+      "artifact": "ocean-fsx-duplicates_1.0.0-1_all.deb",
+      "bytes": 806,
+      "sha256": "2a355660fc1f608d8be9f529d1e6fce5409629eb92aa87f622e13453d1f2fab5",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-fsx-extension-stats",
+      "artifact": "ocean-fsx-extension-stats_1.0.0-1_all.deb",
+      "bytes": 824,
+      "sha256": "d3c942b724f71a89d114a3ff7eda0fc5fb9d862be791410f5d21065520fb27f4",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-fsx-mime-stats",
+      "artifact": "ocean-fsx-mime-stats_1.0.0-1_all.deb",
+      "bytes": 814,
+      "sha256": "469c10fc06a749f2fe39495d9474abb1faaddf2e3058968c40335569145c7ccf",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-fsx-name-search",
+      "artifact": "ocean-fsx-name-search_1.0.0-1_all.deb",
+      "bytes": 812,
+      "sha256": "9dc2e56c2ece34543454d308bc2dbf219c0d563d00eefe20a8bf66c3451ec25e",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-fsx-content-search",
+      "artifact": "ocean-fsx-content-search_1.0.0-1_all.deb",
+      "bytes": 822,
+      "sha256": "7493e93a6b3b36d3d5e4e5cb08ab3775787eca4900202576dd2c88da3ddfee46",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-fsx-checksum-manifest",
+      "artifact": "ocean-fsx-checksum-manifest_1.0.0-1_all.deb",
+      "bytes": 828,
+      "sha256": "e488c5f520acb0cf03e0c277c9f91c5922ef0711be3e282b4eaa354057551f25",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-fsx-verify-manifest",
+      "artifact": "ocean-fsx-verify-manifest_1.0.0-1_all.deb",
+      "bytes": 824,
+      "sha256": "b4f84156f56dde9844648fb64bf0080a5916347cc4f47bc9a5f3c5524d037b6f",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-fsx-safe-name",
+      "artifact": "ocean-fsx-safe-name_1.0.0-1_all.deb",
+      "bytes": 810,
+      "sha256": "17c217c9b7dffae1ad3382ba67f4311afc2caaea5ba9598e5029814444f6ebd9",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-fsx-touch-batch",
+      "artifact": "ocean-fsx-touch-batch_1.0.0-1_all.deb",
+      "bytes": 818,
+      "sha256": "09eb50a5e77366593f23a526b6209cb832a4c237b78ff625bd0945f8cdb6de29",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-fsx-mkdir-batch",
+      "artifact": "ocean-fsx-mkdir-batch_1.0.0-1_all.deb",
+      "bytes": 818,
+      "sha256": "5b1df3b264584dce81e799f6fb280081cfab29f3fd21e5844bf318af732c93dc",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-fsx-copy-tree",
+      "artifact": "ocean-fsx-copy-tree_1.0.0-1_all.deb",
+      "bytes": 808,
+      "sha256": "01fdbe30ee2e43b6037293ded57f392b847f034f80ead7fd6bedb8423731516e",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-fsx-file-age",
+      "artifact": "ocean-fsx-file-age_1.0.0-1_all.deb",
+      "bytes": 804,
+      "sha256": "e7d524bf6f6da566df4ae1f2b6e60f2f843ee57d2052bbc21ba818af0c002c15",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-fsx-path-depth",
+      "artifact": "ocean-fsx-path-depth_1.0.0-1_all.deb",
+      "bytes": 818,
+      "sha256": "6ebca23622abb97192b533948728c1b3c913480c0d83e1ea1ee1ae3f222e6100",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-fsx-permissions",
+      "artifact": "ocean-fsx-permissions_1.0.0-1_all.deb",
+      "bytes": 810,
+      "sha256": "53d9c6aa80eae0a67d1a647b77f7968b8409a95df3ee0e41b78c9483d8e7984e",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-fsx-symlinks",
+      "artifact": "ocean-fsx-symlinks_1.0.0-1_all.deb",
+      "bytes": 806,
+      "sha256": "5e4cbe45ea48f7479cf26cd585e7719acfff418741b81f6a9995c28e992c39a3",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-netx-dns-a",
+      "artifact": "ocean-netx-dns-a_1.0.0-1_all.deb",
+      "bytes": 802,
+      "sha256": "32a354aed67bfc2e713e041858098004d136d451a37e3ea6d35d758c354f139d",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-netx-dns-aaaa",
+      "artifact": "ocean-netx-dns-aaaa_1.0.0-1_all.deb",
+      "bytes": 808,
+      "sha256": "f945958341cb9da3b49197802f96f12ba83dfd5d385e5b3d46d74a61c8c2058d",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-netx-dns-reverse",
+      "artifact": "ocean-netx-dns-reverse_1.0.0-1_all.deb",
+      "bytes": 810,
+      "sha256": "1dbac5daa5d72892e108d83143808c7ce9b5e73a8ea69194df393d4c54516a4c",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-netx-tcp-check",
+      "artifact": "ocean-netx-tcp-check_1.0.0-1_all.deb",
+      "bytes": 816,
+      "sha256": "11a16b3f255b9217add54d2b4a055db70bec4cdfc6b5bdbf647f4813cdd7bbbf",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-netx-port-range",
+      "artifact": "ocean-netx-port-range_1.0.0-1_all.deb",
+      "bytes": 818,
+      "sha256": "d71258fe296a640748c1432b7169210769abb6f7b4cc681e562b7a629b3acf4f",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-netx-http-latency",
+      "artifact": "ocean-netx-http-latency_1.0.0-1_all.deb",
+      "bytes": 820,
+      "sha256": "18a2325183ad3066c10385b150ab7aeca60d22524a2385022390049c6458623e",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-netx-url-latency",
+      "artifact": "ocean-netx-url-latency_1.0.0-1_all.deb",
+      "bytes": 812,
+      "sha256": "fcea91a9702fe786c88499179fd891c6c85d9f7b868bed1de49302c6a7227071",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-netx-ip-classify",
+      "artifact": "ocean-netx-ip-classify_1.0.0-1_all.deb",
+      "bytes": 818,
+      "sha256": "a11f6519a26a0c6b79ffbc542cc0c51208ad8f44cdb4c651b590b7e877707a75",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-netx-cidr-info",
+      "artifact": "ocean-netx-cidr-info_1.0.0-1_all.deb",
+      "bytes": 816,
+      "sha256": "7481596636fdc7d4cadbd893a0c96713fb24ec605eb29845b4f4ee9108fbd998",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-netx-cidr-contains",
+      "artifact": "ocean-netx-cidr-contains_1.0.0-1_all.deb",
+      "bytes": 816,
+      "sha256": "4e2bfe6450b4fb29785c66ac05d5d398fdf6f4d4d79d891f8f1f82ebf86fa8e6",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-netx-cidr-split",
+      "artifact": "ocean-netx-cidr-split_1.0.0-1_all.deb",
+      "bytes": 814,
+      "sha256": "1d2c588d82cbfe549a4807b52219442f81dbecb8892627375fdc8eb0808b9f64",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-netx-ip-int",
+      "artifact": "ocean-netx-ip-int_1.0.0-1_all.deb",
+      "bytes": 802,
+      "sha256": "4327e60ae97dbcce5a7a6e97e6bbafb7e424d3c5e86fff2d0cb4c03d96e168ef",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-netx-int-ip",
+      "artifact": "ocean-netx-int-ip_1.0.0-1_all.deb",
+      "bytes": 804,
+      "sha256": "8376d65765904679b7e8668ff8797df56cc92965803a4ba124ff910aaf1f081d",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-netx-hostname",
+      "artifact": "ocean-netx-hostname_1.0.0-1_all.deb",
+      "bytes": 804,
+      "sha256": "ef0d543d6c2b172a59566cc2a636ab354a67a70e65cba7d2521c470aad377636",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-netx-interfaces",
+      "artifact": "ocean-netx-interfaces_1.0.0-1_all.deb",
+      "bytes": 812,
+      "sha256": "a4df14b2bde4c96daa7c70b1c32cb067a6efc6ae364574c2ae94f4c440c8e77e",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-netx-route-lite",
+      "artifact": "ocean-netx-route-lite_1.0.0-1_all.deb",
+      "bytes": 816,
+      "sha256": "29b6e7d2259bb5ffe58653aa9e35ee52c7dee5c67a895643c94960e09ffcffb7",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-netx-proxy-env",
+      "artifact": "ocean-netx-proxy-env_1.0.0-1_all.deb",
+      "bytes": 814,
+      "sha256": "d03715047ade14e0d1fe947f7ea0abd76fc3d875b7bc44b4a5a5eb4029b58143",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-netx-user-agent",
+      "artifact": "ocean-netx-user-agent_1.0.0-1_all.deb",
+      "bytes": 808,
+      "sha256": "8e8a48c287eb68e4802a9dfdd043c9f2fdaae979d43fc7c08c6f37c9476d4e2c",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-netx-content-type",
+      "artifact": "ocean-netx-content-type_1.0.0-1_all.deb",
+      "bytes": 820,
+      "sha256": "449ac3c030997a18e013728e4c6cfd4f8dae7f9e3a81a1487587bd5837ad4686",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-netx-download-size",
+      "artifact": "ocean-netx-download-size_1.0.0-1_all.deb",
+      "bytes": 822,
+      "sha256": "5bbae4ee998afa66c4a3e729047def90e558384369a6eb783dc96ae247724c42",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-cryptox-sha256-file",
+      "artifact": "ocean-cryptox-sha256-file_1.0.0-1_all.deb",
+      "bytes": 824,
+      "sha256": "628f219223bb7e65119008ce02fce28333c565ee26ff1578c10a2ab6db14a0a4",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-cryptox-sha512-file",
+      "artifact": "ocean-cryptox-sha512-file_1.0.0-1_all.deb",
+      "bytes": 822,
+      "sha256": "3371e14b5e4fdfd8dd664c8a7dde0490b0b89c6c28ab595a6f2e717cd1e658ec",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-cryptox-blake2b-file",
+      "artifact": "ocean-cryptox-blake2b-file_1.0.0-1_all.deb",
+      "bytes": 826,
+      "sha256": "eb07ef865d28ee4b9ddecb4dd9ea0e17d2bdd7e64b902fd0194ace4157ff2f1e",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-cryptox-md5-file",
+      "artifact": "ocean-cryptox-md5-file_1.0.0-1_all.deb",
+      "bytes": 810,
+      "sha256": "6544709533bb05ffde17e6dc813f10f15b35dfd0f7490ec70a97cb58c459359e",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-cryptox-hmac-sha256",
+      "artifact": "ocean-cryptox-hmac-sha256_1.0.0-1_all.deb",
+      "bytes": 826,
+      "sha256": "5a88a1def183d5ed16a72ed03fe50c83ede0d0cd6741a573e9eb6ded53ed275d",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-cryptox-hmac-sha512",
+      "artifact": "ocean-cryptox-hmac-sha512_1.0.0-1_all.deb",
+      "bytes": 826,
+      "sha256": "5f4ce8bf6bf2c5eff26216f2e09714b147c1fba93148a3079c07f9114c23982a",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-cryptox-random-hex",
+      "artifact": "ocean-cryptox-random-hex_1.0.0-1_all.deb",
+      "bytes": 826,
+      "sha256": "486e9991f9073d12dd39c662a0c9da6caaebf23b842b2eb32efa000535e36ffd",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-cryptox-random-base64",
+      "artifact": "ocean-cryptox-random-base64_1.0.0-1_all.deb",
+      "bytes": 828,
+      "sha256": "ee989fa9c40a1ff693e9d7dd883ad07f9d7b4b8dbabe572b70be8f45557555a5",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-cryptox-token-url",
+      "artifact": "ocean-cryptox-token-url_1.0.0-1_all.deb",
+      "bytes": 820,
+      "sha256": "906fcdc5dbc57aa9a1bd0d54a6e7cd685c70da317f164eaba59365c102727c0a",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-cryptox-uuid4",
+      "artifact": "ocean-cryptox-uuid4_1.0.0-1_all.deb",
+      "bytes": 806,
+      "sha256": "9be2b75dc60d0ac1702e2a0985f48ab3695a18ab976d329c92fc5ac3c68d30f9",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-cryptox-uuid5",
+      "artifact": "ocean-cryptox-uuid5_1.0.0-1_all.deb",
+      "bytes": 806,
+      "sha256": "954447f6113995f8a2b4706851c5b77fe40cfa61df502a0f1e4a6884705911a7",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-cryptox-pbkdf2",
+      "artifact": "ocean-cryptox-pbkdf2_1.0.0-1_all.deb",
+      "bytes": 810,
+      "sha256": "f98ff855f3daa47239f3d8f5876b031e2e30d1fbac5a4ea295dae5eaac05ad0d",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-cryptox-scrypt",
+      "artifact": "ocean-cryptox-scrypt_1.0.0-1_all.deb",
+      "bytes": 806,
+      "sha256": "5ef4418de8548825e5f99f8283ca518a9efb64250117be0ac97871788ffae7d9",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-cryptox-compare",
+      "artifact": "ocean-cryptox-compare_1.0.0-1_all.deb",
+      "bytes": 814,
+      "sha256": "5c157ccd9584b5d014fc6460f827ba5af26853d87c6441b1fd99a30d600e7aad",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-cryptox-base64-encode",
+      "artifact": "ocean-cryptox-base64-encode_1.0.0-1_all.deb",
+      "bytes": 828,
+      "sha256": "cc2f8f0071b733706d2395839969c1e04e6790db6965031136cc157a26950cbd",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-cryptox-base64-decode",
+      "artifact": "ocean-cryptox-base64-decode_1.0.0-1_all.deb",
+      "bytes": 826,
+      "sha256": "8509f5aa664fd30af1bf3da911b24737f55e6857a2511a48cad304554e6bd9c5",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-cryptox-hex-encode",
+      "artifact": "ocean-cryptox-hex-encode_1.0.0-1_all.deb",
+      "bytes": 824,
+      "sha256": "24548b44c1f9273d6cb3a5e3b27f7ca4ad08dfdbdb3bdb095467b9209a0a9478",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-cryptox-hex-decode",
+      "artifact": "ocean-cryptox-hex-decode_1.0.0-1_all.deb",
+      "bytes": 822,
+      "sha256": "3d17d151ed2c5a7b3f4ca1646cd5369845483dbce97bf830fc8885653880d378",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-cryptox-file-fingerprint",
+      "artifact": "ocean-cryptox-file-fingerprint_1.0.0-1_all.deb",
+      "bytes": 830,
+      "sha256": "b9de30a3fe25de8ea431506dc54011bdf2bb5bd0b5e2b236e255b51fb965ad49",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-cryptox-dir-fingerprint",
+      "artifact": "ocean-cryptox-dir-fingerprint_1.0.0-1_all.deb",
+      "bytes": 830,
+      "sha256": "8fd86c23ba5d2408e20ed2257569da81070b271c62c4f4a870025dfe16f09276",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-buildx-env-report",
+      "artifact": "ocean-buildx-env-report_1.0.0-1_all.deb",
+      "bytes": 824,
+      "sha256": "95fac9a87273acf9243c891154f80d6e292d9ddcb395c3436ebc4e249bfde3d3",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-buildx-tool-versions",
+      "artifact": "ocean-buildx-tool-versions_1.0.0-1_all.deb",
+      "bytes": 822,
+      "sha256": "1eaf5700d7ea000968f211a91b2ad40db3765c5483466031b6b051395d27d48f",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-buildx-path-check",
+      "artifact": "ocean-buildx-path-check_1.0.0-1_all.deb",
+      "bytes": 820,
+      "sha256": "2b6b2b0a0f1606b2af93b88e2c53db2bc22f079ca5a051865c20b2c6fe542066",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-buildx-shebang-check",
+      "artifact": "ocean-buildx-shebang-check_1.0.0-1_all.deb",
+      "bytes": 826,
+      "sha256": "bc793d653603219744432eb4858e3c81563e41d86894854ac3cf396aa8e6cea9",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-buildx-executable-check",
+      "artifact": "ocean-buildx-executable-check_1.0.0-1_all.deb",
+      "bytes": 828,
+      "sha256": "798a2ded768018546d371c41e3a6fa310069213103315a3555a580ac3749111d",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-buildx-script-lint",
+      "artifact": "ocean-buildx-script-lint_1.0.0-1_all.deb",
+      "bytes": 820,
+      "sha256": "dbaeb21df5bf6ae43502de03ff362265adebc52e95a9b7a7419fc79812f6cf82",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-buildx-json-check",
+      "artifact": "ocean-buildx-json-check_1.0.0-1_all.deb",
+      "bytes": 824,
+      "sha256": "b7945215a6ae5925d955c06bac8a3ae84237aeee8a0bded40c7bbd984472c351",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-buildx-xml-check",
+      "artifact": "ocean-buildx-xml-check_1.0.0-1_all.deb",
+      "bytes": 812,
+      "sha256": "c798060bd37abbb380840ea37766429208389f2fc0cb3af3060abf39e454b2c7",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-buildx-python-compile",
+      "artifact": "ocean-buildx-python-compile_1.0.0-1_all.deb",
+      "bytes": 824,
+      "sha256": "4ba02a1ca247e4e54697383fdc98652424c614f61e4c202bd39e459d243ca4e5",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-buildx-python-imports",
+      "artifact": "ocean-buildx-python-imports_1.0.0-1_all.deb",
+      "bytes": 824,
+      "sha256": "63ff4e9d9e264498f2e1e4a8483125388632f82457ea93f13972e01e31a19f7f",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-buildx-c-includes",
+      "artifact": "ocean-buildx-c-includes_1.0.0-1_all.deb",
+      "bytes": 820,
+      "sha256": "68ed0b4d12a05279326d9fe308dbf59c0e50b0d41bb81b2ca6098a81e046e41f",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-buildx-make-targets",
+      "artifact": "ocean-buildx-make-targets_1.0.0-1_all.deb",
+      "bytes": 824,
+      "sha256": "5a8f4a7b19deeadf367e3afcf01ffdd60797e3ed5469ff42ccfa9238344fc373",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-buildx-gradle-tasks-lite",
+      "artifact": "ocean-buildx-gradle-tasks-lite_1.0.0-1_all.deb",
+      "bytes": 832,
+      "sha256": "64981e6c788c1604f9d6e9a4f5190833589090a2fa0f51e341649e773859188c",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-buildx-package-json-scripts",
+      "artifact": "ocean-buildx-package-json-scripts_1.0.0-1_all.deb",
+      "bytes": 834,
+      "sha256": "e84ee3b5f77c54906429d7297333c8233cbf6aa295132d54e0ab93fee6939225",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-buildx-lockfiles",
+      "artifact": "ocean-buildx-lockfiles_1.0.0-1_all.deb",
+      "bytes": 808,
+      "sha256": "5238382458cb5a333338e48dd445b2228c89e5122e8a3d8e38790c95d882376c",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-buildx-source-count",
+      "artifact": "ocean-buildx-source-count_1.0.0-1_all.deb",
+      "bytes": 824,
+      "sha256": "82a45bf90068743be12a49affd22a8529b17eca3cf20ab96a3d9dc5e32e8b819",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-buildx-todo-scan",
+      "artifact": "ocean-buildx-todo-scan_1.0.0-1_all.deb",
+      "bytes": 810,
+      "sha256": "15e857cca5ba568b4adeac8fe2bd954f2f28601c3d55171a2b787910ad43864b",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-buildx-binary-detect",
+      "artifact": "ocean-buildx-binary-detect_1.0.0-1_all.deb",
+      "bytes": 822,
+      "sha256": "629ba136dfa46a14090791e0388f9e1e9e76513a7a2bf2e1acfabb36881f0e99",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-buildx-line-endings",
+      "artifact": "ocean-buildx-line-endings_1.0.0-1_all.deb",
+      "bytes": 824,
+      "sha256": "c59bd9996f6dc0608d710fe56c7ca85b2799dcb94ffe942bb8dbca112837769e",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-buildx-repro-hash",
+      "artifact": "ocean-buildx-repro-hash_1.0.0-1_all.deb",
+      "bytes": 822,
+      "sha256": "e84ec4c642609e46604fd619711b354e005681e82321394e1d3e6aecd081926f",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-archivex-zip-list",
+      "artifact": "ocean-archivex-zip-list_1.0.0-1_all.deb",
+      "bytes": 812,
+      "sha256": "df53dbb0ac19f4449c67eaba90ab1ead5c62b5158ced7ebb8034afd534efdedd",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-archivex-zip-test",
+      "artifact": "ocean-archivex-zip-test_1.0.0-1_all.deb",
+      "bytes": 812,
+      "sha256": "0c07d1ee6b54620001543fca911aa7353c1a806a8a121faf43c4b4afb019db3d",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-archivex-zip-extract-one",
+      "artifact": "ocean-archivex-zip-extract-one_1.0.0-1_all.deb",
+      "bytes": 830,
+      "sha256": "d7fc6126a49b643325040ddabb0aa104531f3f91fca54397ed06bec239ffdae3",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-archivex-zip-top",
+      "artifact": "ocean-archivex-zip-top_1.0.0-1_all.deb",
+      "bytes": 814,
+      "sha256": "4a259d4219c156ccc287c0fb549e279c82f694038e7dafe451885fcc57d7bb41",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-archivex-zip-ratio",
+      "artifact": "ocean-archivex-zip-ratio_1.0.0-1_all.deb",
+      "bytes": 824,
+      "sha256": "6111de08c3920b0bc782ff7cedada0b0721ad71fce4dc0d02680423e71895513",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-archivex-tar-list",
+      "artifact": "ocean-archivex-tar-list_1.0.0-1_all.deb",
+      "bytes": 810,
+      "sha256": "7fa6489dd9a09356f4c4a9435b8867e56058b71b1d43a621922d8bc10d0d71c0",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-archivex-tar-test",
+      "artifact": "ocean-archivex-tar-test_1.0.0-1_all.deb",
+      "bytes": 810,
+      "sha256": "e9efa233489d0a21113f6a698bfaf090a40e2a5174a867b8e531e781606d7aca",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-archivex-tar-extract-one",
+      "artifact": "ocean-archivex-tar-extract-one_1.0.0-1_all.deb",
+      "bytes": 826,
+      "sha256": "ea74f7a32125a5173fca9133d6a38dcc0129dd47d846e5929d9400e455bd44c0",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-archivex-gzip-info",
+      "artifact": "ocean-archivex-gzip-info_1.0.0-1_all.deb",
+      "bytes": 822,
+      "sha256": "be6392958479c38b261f954f62d886747da71d0ed2a4c07079d24c0515b5049d",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-archivex-gzip-test",
+      "artifact": "ocean-archivex-gzip-test_1.0.0-1_all.deb",
+      "bytes": 822,
+      "sha256": "a99bb5bc0b5049a35751a34557af43801d3ec15edfaca9f0bcbd9071cb6e8a5a",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-archivex-gzip-decompress",
+      "artifact": "ocean-archivex-gzip-decompress_1.0.0-1_all.deb",
+      "bytes": 830,
+      "sha256": "529eadf762f45ffbc1817b5580ac56b56c72603594be1d31a3a59ab1a4c6d7ea",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-archivex-bz2-test",
+      "artifact": "ocean-archivex-bz2-test_1.0.0-1_all.deb",
+      "bytes": 812,
+      "sha256": "3911f9f343c4d6b25861539a9806fcbde480130c78e2b1b060a6f5cb0f859d92",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-archivex-xz-test",
+      "artifact": "ocean-archivex-xz-test_1.0.0-1_all.deb",
+      "bytes": 810,
+      "sha256": "9b48c58be077e3af1fd0c21034206d6c301f11ba79121305c02822f43acc24aa",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-archivex-file-count",
+      "artifact": "ocean-archivex-file-count_1.0.0-1_all.deb",
+      "bytes": 824,
+      "sha256": "5196ff69a418baa4fd6b4fb2572a28e8d9b15ce9d45196988eea500e553d79f3",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-archivex-largest-entry",
+      "artifact": "ocean-archivex-largest-entry_1.0.0-1_all.deb",
+      "bytes": 826,
+      "sha256": "5c333f9779d2eb9464cbe33a03d98c5eb673fc4084acfed8d0fd0b30a9a45eb7",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-archivex-extension-stats",
+      "artifact": "ocean-archivex-extension-stats_1.0.0-1_all.deb",
+      "bytes": 826,
+      "sha256": "50e76fc863c547b50f9cca353cceb668f56f627db650ddbf0c28c1e5dff2f495",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-archivex-manifest-hash",
+      "artifact": "ocean-archivex-manifest-hash_1.0.0-1_all.deb",
+      "bytes": 826,
+      "sha256": "d18ad6a647f555c3051c6278e92c52837ab296fba7dfb8919ba241814e5973eb",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-archivex-path-search",
+      "artifact": "ocean-archivex-path-search_1.0.0-1_all.deb",
+      "bytes": 816,
+      "sha256": "52350a77cabc6dc59657ad648fd792e13165e15e7a8e46dd51984ad0476ad2cc",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-archivex-safe-check",
+      "artifact": "ocean-archivex-safe-check_1.0.0-1_all.deb",
+      "bytes": 822,
+      "sha256": "9c2dd413438ac7ff6d6c9bd0667b2cc068c566c713e4d1e13248f8310771f145",
+      "depends": "ocean-devkit-runtime (= 1.0.0-1)"
+    },
+    {
+      "package": "ocean-devkit-runtime",
+      "artifact": "ocean-devkit-runtime_1.0.0-1_all.deb",
+      "bytes": 10588,
+      "sha256": "9d9c886208e9349f4184047915a871b6bde72ab3f4d4f8875566176a02d31ddb",
+      "depends": "python"
+    }
+  ],
+  "promotion": "staging-only until APT promotion/signing"
+}
