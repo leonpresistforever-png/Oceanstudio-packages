@@ -1,0 +1,190 @@
+name: Repair 150 functional packages (09 16 19)
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'sources/functional-shards/shard09_storage.py'
+      - 'sources/functional-shards/shard16_math.py'
+      - 'sources/functional-shards/shard19_archive.py'
+      - 'tests/test-shard09-functional.py'
+      - 'tests/test-shard16-functional.py'
+      - 'tests/test-shard19-functional.py'
+      - '.github/workflows/repair-150-09-16-19.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ocean-repair-150-09-16-19
+  cancel-in-progress: true
+
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Checkout repair inputs
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /.github/workflows/repair-150-09-16-19.yml
+            /sources/functional-shards/shard09_storage.py
+            /sources/functional-shards/shard16_math.py
+            /sources/functional-shards/shard19_archive.py
+            /scripts/repair-functional-shard.py
+            /scripts/expansion/shard_batch1.py
+            /scripts/expansion/shard_batch2.py
+            /scripts/expansion/shard_batch3.py
+            /tests/test-shard09-functional.py
+            /tests/test-shard16-functional.py
+            /tests/test-shard19-functional.py
+            /staging/functional-repair-status.json
+            /staging/shard-09-filesystem-storage/
+            /staging/shard-16-math-scientific-computing/
+            /staging/shard-19-archive-backup-sync/
+            /apt/dists/stable/main/binary-aarch64/Packages
+
+      - name: Install packaging tools
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          sudo apt-get install -y dpkg-dev git
+
+      - name: Compile all repair sources and tests
+        run: |
+          set -euo pipefail
+          python3 -m py_compile \
+            sources/functional-shards/shard09_storage.py \
+            sources/functional-shards/shard16_math.py \
+            sources/functional-shards/shard19_archive.py \
+            scripts/repair-functional-shard.py \
+            tests/test-shard09-functional.py \
+            tests/test-shard16-functional.py \
+            tests/test-shard19-functional.py
+
+      - name: Exercise all 150 commands
+        run: |
+          set -euo pipefail
+          python3 tests/test-shard09-functional.py sources/functional-shards/shard09_storage.py
+          python3 tests/test-shard16-functional.py sources/functional-shards/shard16_math.py
+          python3 tests/test-shard19-functional.py sources/functional-shards/shard19_archive.py
+
+      - name: Rebuild shard 09
+        run: |
+          set -euo pipefail
+          python3 scripts/repair-functional-shard.py \
+            --runtime sources/functional-shards/shard09_storage.py \
+            --batch scripts/expansion/shard_batch1.py \
+            --batch-symbol BATCH1_SHARDS \
+            --shard shard-09-filesystem-storage \
+            --output staging/shard-09-filesystem-storage \
+            --live-packages apt/dists/stable/main/binary-aarch64/Packages \
+            --version 1.0.0-2
+
+      - name: Rebuild shard 16
+        run: |
+          set -euo pipefail
+          python3 scripts/repair-functional-shard.py \
+            --runtime sources/functional-shards/shard16_math.py \
+            --batch scripts/expansion/shard_batch2.py \
+            --batch-symbol BATCH2_SHARDS \
+            --shard shard-16-math-scientific-computing \
+            --output staging/shard-16-math-scientific-computing \
+            --live-packages apt/dists/stable/main/binary-aarch64/Packages \
+            --version 1.0.0-2
+
+      - name: Rebuild shard 19
+        run: |
+          set -euo pipefail
+          python3 scripts/repair-functional-shard.py \
+            --runtime sources/functional-shards/shard19_archive.py \
+            --batch scripts/expansion/shard_batch3.py \
+            --batch-symbol BATCH3_SHARDS \
+            --shard shard-19-archive-backup-sync \
+            --output staging/shard-19-archive-backup-sync \
+            --live-packages apt/dists/stable/main/binary-aarch64/Packages \
+            --version 1.0.0-2
+
+      - name: Audit all 150 packages
+        run: |
+          set -euo pipefail
+          for shard in shard-09-filesystem-storage shard-16-math-scientific-computing shard-19-archive-backup-sync; do
+            test "$(find "staging/$shard/pool/main" -type f -name '*.deb' | wc -l)" -eq 50
+            test "$(grep -c '^Package:' "staging/$shard/Packages.repaired")" -eq 50
+            grep -q '"repair": "placeholder-to-functional"' "staging/$shard/provenance.json"
+            test "$(python3 - "$shard" <<'PY'
+          import json,sys
+          from pathlib import Path
+          p=json.loads((Path("staging")/sys.argv[1]/"provenance.json").read_text())
+          print(len({x["package"] for x in p["packages"]}))
+          PY
+          )" -eq 50
+          done
+          ! grep -R -a -E '/data/(data|user/0)/com\.termux|packages\.termux\.dev|TERMUX_PREFIX' \
+            staging/shard-09-filesystem-storage \
+            staging/shard-16-math-scientific-computing \
+            staging/shard-19-archive-backup-sync \
+            sources/functional-shards/shard09_storage.py \
+            sources/functional-shards/shard16_math.py \
+            sources/functional-shards/shard19_archive.py
+
+      - name: Update functional repair status
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          from pathlib import Path
+          import json
+          p=Path("staging/functional-repair-status.json")
+          d=json.loads(p.read_text())
+          add=[
+            ("shard-09-filesystem-storage",50),
+            ("shard-16-math-scientific-computing",50),
+            ("shard-19-archive-backup-sync",50),
+          ]
+          by={x["name"]:x for x in d["shards"]}
+          for name,count in add:
+            by[name]={"name":name,"packages":count,"testsPassed":count,"status":"staged-functional"}
+          d["shards"]=sorted(by.values(),key=lambda x:x["name"])
+          repaired=sum(x["packages"] for x in d["shards"] if x["status"] in ("staged-functional","live-functional"))
+          d["stagedFunctionalRepairs"]=repaired
+          d["remainingPlaceholderPackages"]=max(0,d["targetExpansionPackages"]-repaired)
+          p.write_text(json.dumps(d,indent=2)+"\n")
+          if repaired < 500:
+            raise SystemExit(f"expected at least 500 repaired packages after this batch, got {repaired}")
+          print(f"Functional repaired: {repaired}; placeholders remaining: {d['remainingPlaceholderPackages']}")
+          PY
+
+      - name: Commit validated 150-package repair
+        run: |
+          set -euo pipefail
+          git config user.name "Ocean Package Repair"
+          git config user.email "packages@ocean.studio"
+          git add \
+            staging/shard-09-filesystem-storage \
+            staging/shard-16-math-scientific-computing \
+            staging/shard-19-archive-backup-sync \
+            staging/functional-repair-status.json
+          if git diff --cached --quiet; then
+            echo "No generated changes to commit."
+            exit 0
+          fi
+          git commit -m "fix(packages): replace 150 placeholders in shards 09 16 19 [skip ci]"
+          git pull --rebase origin main
+          git push origin HEAD:main
+
+      - name: Report
+        run: |
+          echo "Functional commands exercised: 150/150"
+          echo "Functional packages rebuilt: 150"
+          echo "Shards repaired: 09 filesystem/storage, 16 math/scientific, 19 archive/backup"
+          python3 - <<'PY'
+          import json
+          d=json.load(open("staging/functional-repair-status.json"))
+          print("Total repaired:",d["stagedFunctionalRepairs"])
+          print("Remaining placeholders:",d["remainingPlaceholderPackages"])
+          PY
