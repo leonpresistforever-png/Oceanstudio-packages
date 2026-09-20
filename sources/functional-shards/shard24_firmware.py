@@ -421,8 +421,12 @@ def regulator_voltage_view(args):
     rows=[]
     bases=[Path("/sys/class/regulator"),Path("/sys/kernel/debug/regulator")]
     for base in bases:
-        if not base.exists():continue
-        for p in sorted(base.glob("*")):
+        try:
+            if not base.exists():continue
+            entries=sorted(base.glob("*"))
+        except OSError:
+            continue
+        for p in entries:
             if not p.is_dir():continue
             d={"path":str(p)}
             for k in ("name","microvolts","min_microvolts","max_microvolts","state","status"):
