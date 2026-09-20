@@ -465,7 +465,7 @@ def buffer_copy_throughput(args):
 def zero_copy_splice_bench(args):
     if not hasattr(os,"splice"):
         out({"supported":False}); return
-    total=int(args[0]) if args else 1024*1024; chunk=min(65536,total)
+    total=int(args[0]) if args else 1024*1024; chunk=min(4096,total)
     r,w=os.pipe(); sink=os.open("/dev/null",os.O_WRONLY); moved=0; payload=b"x"*chunk
     t=time.perf_counter()
     try:
