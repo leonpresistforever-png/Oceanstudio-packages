@@ -1,0 +1,361 @@
+{
+  "schemaVersion": 1,
+  "shard": "shard-17-android-bionic-platform",
+  "section": "admin",
+  "category": "Android Bionic & Subsystem Platform",
+  "target": "aarch64-linux-android28",
+  "prefix": "/data/data/studio.ocean.app/files/usr",
+  "packageCount": 50,
+  "packages": [
+    {
+      "package": "android-property-parser",
+      "version": "1.0.0-1",
+      "artifact": "android-property-parser_1.0.0-1_aarch64.deb",
+      "sha256": "c8c415599e5e0ca23c309a86ee77281ee1d0b9116822bf799f9806bb120ae5a9",
+      "size": 2140
+    },
+    {
+      "package": "getprop-filter-tool",
+      "version": "1.0.0-1",
+      "artifact": "getprop-filter-tool_1.0.0-1_aarch64.deb",
+      "sha256": "77537f727837a2553a95f636b07a8346a8eb09a6ec01db9b459c2a11d87c8ba4",
+      "size": 2136
+    },
+    {
+      "package": "setprop-format-checker",
+      "version": "1.0.0-1",
+      "artifact": "setprop-format-checker_1.0.0-1_aarch64.deb",
+      "sha256": "fb0560042b07cd24d0bcb5abcff6155ca19b86a8dc1385b5e0f38d834563c8f4",
+      "size": 2144
+    },
+    {
+      "package": "logcat-tag-filter",
+      "version": "1.0.0-1",
+      "artifact": "logcat-tag-filter_1.0.0-1_aarch64.deb",
+      "sha256": "defbd4b8167fbcc5050c2f82c2e15507b7ea388385cac4bf48ab59ef9ac5a131",
+      "size": 2124
+    },
+    {
+      "package": "logcat-json-formatter",
+      "version": "1.0.0-1",
+      "artifact": "logcat-json-formatter_1.0.0-1_aarch64.deb",
+      "sha256": "748cb84617f9935ce4c9296330256edb4df03d51173bf23f2a04a24ee0bb0e91",
+      "size": 2128
+    },
+    {
+      "package": "logcat-timestamp-align",
+      "version": "1.0.0-1",
+      "artifact": "logcat-timestamp-align_1.0.0-1_aarch64.deb",
+      "sha256": "3fbdca2ffd641c869d9da4537003ebf16e0b07bb717c08ce6902b5b8ede7158d",
+      "size": 2120
+    },
+    {
+      "package": "binder-transact-tracer",
+      "version": "1.0.0-1",
+      "artifact": "binder-transact-tracer_1.0.0-1_aarch64.deb",
+      "sha256": "92810c00c6fea2f44c448df18891d66722d5afa38cc8ad37fb7b8507cc542b83",
+      "size": 2136
+    },
+    {
+      "package": "ashmem-region-auditor",
+      "version": "1.0.0-1",
+      "artifact": "ashmem-region-auditor_1.0.0-1_aarch64.deb",
+      "sha256": "73414cda54849c348a871d55724c227d0a428bcd952599ba3dd0c2dd8ab4c310",
+      "size": 2144
+    },
+    {
+      "package": "ion-memory-alloc-view",
+      "version": "1.0.0-1",
+      "artifact": "ion-memory-alloc-view_1.0.0-1_aarch64.deb",
+      "sha256": "de6ed0945d345a733be7776b375abd1884755096098a73930184054333a28bce",
+      "size": 2140
+    },
+    {
+      "package": "dmabuf-heap-inspector",
+      "version": "1.0.0-1",
+      "artifact": "dmabuf-heap-inspector_1.0.0-1_aarch64.deb",
+      "sha256": "eb38d610b51acb2253d1f45ff0680e15322e5e816c8c3f7de4258bce6973a943",
+      "size": 2144
+    },
+    {
+      "package": "selinux-context-check",
+      "version": "1.0.0-1",
+      "artifact": "selinux-context-check_1.0.0-1_aarch64.deb",
+      "sha256": "640270354be4ecfd25e03d3d100a908af6c99bcf8d2ce71401b9a90591c31888",
+      "size": 2148
+    },
+    {
+      "package": "selinux-avc-denial-log",
+      "version": "1.0.0-1",
+      "artifact": "selinux-avc-denial-log_1.0.0-1_aarch64.deb",
+      "sha256": "0628469afd09d17ec8ea69808d289f6b0a5653dcdb8b9e0e78ec7e52ad1756a4",
+      "size": 2152
+    },
+    {
+      "package": "sepolicy-rule-search",
+      "version": "1.0.0-1",
+      "artifact": "sepolicy-rule-search_1.0.0-1_aarch64.deb",
+      "sha256": "0f1bff6dea0269f9ccccc1bb494c5b4232dcc72bb23b172c46ebe400e2e37662",
+      "size": 2132
+    },
+    {
+      "package": "service-list-auditor",
+      "version": "1.0.0-1",
+      "artifact": "service-list-auditor_1.0.0-1_aarch64.deb",
+      "sha256": "2dcc1ccb862db757e73e09795a1deccd1c1a95c835fb94604660bc05531bc45e",
+      "size": 2140
+    },
+    {
+      "package": "package-setting-parser",
+      "version": "1.0.0-1",
+      "artifact": "package-setting-parser_1.0.0-1_aarch64.deb",
+      "sha256": "45bc9dfc2d20fe6d596da80d61341c282472dc5a19b6675f331c44ce11e6016d",
+      "size": 2108
+    },
+    {
+      "package": "package-signing-v1-chk",
+      "version": "1.0.0-1",
+      "artifact": "package-signing-v1-chk_1.0.0-1_aarch64.deb",
+      "sha256": "50df7e0a516ca6e2d41e0a1af2ff1100705fb2cf7227b2dc071c40e1ed50fa36",
+      "size": 2144
+    },
+    {
+      "package": "package-signing-v2-chk",
+      "version": "1.0.0-1",
+      "artifact": "package-signing-v2-chk_1.0.0-1_aarch64.deb",
+      "sha256": "0d855517d27f0d1501a6c554c6cf662cac17e9ead2ad63e1548936e385fe1be4",
+      "size": 2152
+    },
+    {
+      "package": "package-signing-v3-chk",
+      "version": "1.0.0-1",
+      "artifact": "package-signing-v3-chk_1.0.0-1_aarch64.deb",
+      "sha256": "f87319b10468f98512ddcda12f3ca58789db140ff98decb1ce0e13dac1393257",
+      "size": 2140
+    },
+    {
+      "package": "package-signing-v4-chk",
+      "version": "1.0.0-1",
+      "artifact": "package-signing-v4-chk_1.0.0-1_aarch64.deb",
+      "sha256": "14dc772e341bd18227340d0d6dd1539da153f6b17e7df64805073be8c9623297",
+      "size": 2152
+    },
+    {
+      "package": "dex-header-inspector",
+      "version": "1.0.0-1",
+      "artifact": "dex-header-inspector_1.0.0-1_aarch64.deb",
+      "sha256": "2836ee841dd96b654c6c7ac39a53a4b85b96597991f3c7eb91cffe9fad1e3bcb",
+      "size": 2152
+    },
+    {
+      "package": "dex-map-list-parser",
+      "version": "1.0.0-1",
+      "artifact": "dex-map-list-parser_1.0.0-1_aarch64.deb",
+      "sha256": "1787b665711560aeb43c494454c84d7464d342f8e1e17d3d8146e75662369289",
+      "size": 2148
+    },
+    {
+      "package": "dex-string-id-dump",
+      "version": "1.0.0-1",
+      "artifact": "dex-string-id-dump_1.0.0-1_aarch64.deb",
+      "sha256": "bb1dcf9ce85e5f04073cbc18392235070c0a6bf19b3cd117ca195acc14d86ea6",
+      "size": 2140
+    },
+    {
+      "package": "dex-type-id-parser",
+      "version": "1.0.0-1",
+      "artifact": "dex-type-id-parser_1.0.0-1_aarch64.deb",
+      "sha256": "09bcdb2ca16cfcae480c59d184181f90a67398346e1f81c096a1e6427e22e7fe",
+      "size": 2132
+    },
+    {
+      "package": "dex-proto-id-view",
+      "version": "1.0.0-1",
+      "artifact": "dex-proto-id-view_1.0.0-1_aarch64.deb",
+      "sha256": "1d3dff51bc16f368cf63b41a376fe3dbecab955f6a2fe9c78bcb6d08a9ddd3c3",
+      "size": 2144
+    },
+    {
+      "package": "dex-field-id-dump",
+      "version": "1.0.0-1",
+      "artifact": "dex-field-id-dump_1.0.0-1_aarch64.deb",
+      "sha256": "431d09a52d1ca3e11d22768326f63a6a28e0bb003685f4901eac48f60b92d6ab",
+      "size": 2136
+    },
+    {
+      "package": "dex-method-id-dump",
+      "version": "1.0.0-1",
+      "artifact": "dex-method-id-dump_1.0.0-1_aarch64.deb",
+      "sha256": "fcb7fd47213805bce5b21c7582ddaa56274dd29c2dc70366c704b96344ddb8d0",
+      "size": 2140
+    },
+    {
+      "package": "dex-class-def-viewer",
+      "version": "1.0.0-1",
+      "artifact": "dex-class-def-viewer_1.0.0-1_aarch64.deb",
+      "sha256": "4e483d63a8126f93c4f7879d498c329ac1988845cf66c7a460d27665ec29d7c0",
+      "size": 2148
+    },
+    {
+      "package": "cdex-compact-header",
+      "version": "1.0.0-1",
+      "artifact": "cdex-compact-header_1.0.0-1_aarch64.deb",
+      "sha256": "ce98971ba545b06c4ee0ca8dfc31841f77e764a35221321f9666ac69d5c75da5",
+      "size": 2144
+    },
+    {
+      "package": "vdex-verifier-header",
+      "version": "1.0.0-1",
+      "artifact": "vdex-verifier-header_1.0.0-1_aarch64.deb",
+      "sha256": "b6f0a525c6b2a6e623f5fa84e8d454d311ed8d8026d3edb798e864c4d33d68fa",
+      "size": 2128
+    },
+    {
+      "package": "oat-runtime-header",
+      "version": "1.0.0-1",
+      "artifact": "oat-runtime-header_1.0.0-1_aarch64.deb",
+      "sha256": "3aa2d989832ed78fb80e02d7dd7c984bda80a3f605a74f8b2d8a686c2f29fa1d",
+      "size": 2124
+    },
+    {
+      "package": "art-image-header-dump",
+      "version": "1.0.0-1",
+      "artifact": "art-image-header-dump_1.0.0-1_aarch64.deb",
+      "sha256": "ad5af026bde801ef9b0fa77626abca035943a24d8de94cd79a574f633c5a1a92",
+      "size": 2144
+    },
+    {
+      "package": "apex-manifest-parser",
+      "version": "1.0.0-1",
+      "artifact": "apex-manifest-parser_1.0.0-1_aarch64.deb",
+      "sha256": "8a8580bb572d61fd79effcd768bfba48b1b36f663977a53304dae1c4d6abcbb0",
+      "size": 2128
+    },
+    {
+      "package": "apex-payload-inspector",
+      "version": "1.0.0-1",
+      "artifact": "apex-payload-inspector_1.0.0-1_aarch64.deb",
+      "sha256": "828ebf5e46900429cb13bb9ad43909b0e3daa48bf9f809ff1c71896b516a4647",
+      "size": 2132
+    },
+    {
+      "package": "dalvik-bytecode-check",
+      "version": "1.0.0-1",
+      "artifact": "dalvik-bytecode-check_1.0.0-1_aarch64.deb",
+      "sha256": "42c2ed7f50f5b2c7a0a3b47299e54c5ab83c9bb8a3b00697fd997a808db58009",
+      "size": 2144
+    },
+    {
+      "package": "bionic-pthread-key-chk",
+      "version": "1.0.0-1",
+      "artifact": "bionic-pthread-key-chk_1.0.0-1_aarch64.deb",
+      "sha256": "a263f01a79f614caf89c7e82f71cea1c4f613886f12b7460f98566bfd748befa",
+      "size": 2144
+    },
+    {
+      "package": "bionic-futex-flags",
+      "version": "1.0.0-1",
+      "artifact": "bionic-futex-flags_1.0.0-1_aarch64.deb",
+      "sha256": "1ff387f1edb6645b78be60e776bd7b3cc6f8407eb1a3acecfa0b2ee3bf9290ad",
+      "size": 2124
+    },
+    {
+      "package": "android-cmd-caller",
+      "version": "1.0.0-1",
+      "artifact": "android-cmd-caller_1.0.0-1_aarch64.deb",
+      "sha256": "67a5269ac2f657a15333491ff080360ffce7d58347d8ea9feff99f33c0ace9b3",
+      "size": 2136
+    },
+    {
+      "package": "am-intent-uri-builder",
+      "version": "1.0.0-1",
+      "artifact": "am-intent-uri-builder_1.0.0-1_aarch64.deb",
+      "sha256": "ea4ac342abb4a58fa6c9d4adb0cafe577817ea05ed26ae77c387ed8d73c92065",
+      "size": 2144
+    },
+    {
+      "package": "pm-dump-permissions",
+      "version": "1.0.0-1",
+      "artifact": "pm-dump-permissions_1.0.0-1_aarch64.deb",
+      "sha256": "2af72bb6dda604d29b23980d1e0550b70c1b262ba50e907c3a6cfb159854e717",
+      "size": 2124
+    },
+    {
+      "package": "dumpsys-battery-parse",
+      "version": "1.0.0-1",
+      "artifact": "dumpsys-battery-parse_1.0.0-1_aarch64.deb",
+      "sha256": "5069f771b88c628808651261cefdd410978130d233e0d69307c3110952045871",
+      "size": 2132
+    },
+    {
+      "package": "dumpsys-meminfo-parse",
+      "version": "1.0.0-1",
+      "artifact": "dumpsys-meminfo-parse_1.0.0-1_aarch64.deb",
+      "sha256": "84976dfe75a2a4481b2c5e5b92e1ced599a05296ef615921735b5e356eb5b737",
+      "size": 2144
+    },
+    {
+      "package": "dumpsys-cpuinfo-parse",
+      "version": "1.0.0-1",
+      "artifact": "dumpsys-cpuinfo-parse_1.0.0-1_aarch64.deb",
+      "sha256": "3203358089e8aeda9b19ca0fa438beaad8faa1ea2db38f415cf44776001a7461",
+      "size": 2140
+    },
+    {
+      "package": "dumpsys-window-parser",
+      "version": "1.0.0-1",
+      "artifact": "dumpsys-window-parser_1.0.0-1_aarch64.deb",
+      "sha256": "000e9fdc4fd93b1ecaaf53dba45db0e929911912349d83c702fe281a195f73d3",
+      "size": 2136
+    },
+    {
+      "package": "settings-db-query-cli",
+      "version": "1.0.0-1",
+      "artifact": "settings-db-query-cli_1.0.0-1_aarch64.deb",
+      "sha256": "1f9d9e6116d5a674b1750248a73988c33b5aa463b094d9ce60cbb5de9621af63",
+      "size": 2140
+    },
+    {
+      "package": "keystore-key-alias-chk",
+      "version": "1.0.0-1",
+      "artifact": "keystore-key-alias-chk_1.0.0-1_aarch64.deb",
+      "sha256": "f6721f9f8ea158434b229f1aed25e6f901ce4b8457af904668f88fc9a9aca782",
+      "size": 2148
+    },
+    {
+      "package": "keymaster-tag-parser",
+      "version": "1.0.0-1",
+      "artifact": "keymaster-tag-parser_1.0.0-1_aarch64.deb",
+      "sha256": "a01b437e4ea4b8503975c07b57ca2d56645a2f62558ad6b6ca3c56d188d4b7e4",
+      "size": 2136
+    },
+    {
+      "package": "input-event-code-view",
+      "version": "1.0.0-1",
+      "artifact": "input-event-code-view_1.0.0-1_aarch64.deb",
+      "sha256": "9b79bb9c77575d60679235df5b0f918389e23094b7e0dba2f5931709ac686576",
+      "size": 2156
+    },
+    {
+      "package": "vold-mount-inspector",
+      "version": "1.0.0-1",
+      "artifact": "vold-mount-inspector_1.0.0-1_aarch64.deb",
+      "sha256": "f07ece2b8fd58dc382e7ebb5f4fed7ef12f40b03c159b4f2d91591e0b4a0dace",
+      "size": 2128
+    },
+    {
+      "package": "recovery-fstab-parser",
+      "version": "1.0.0-1",
+      "artifact": "recovery-fstab-parser_1.0.0-1_aarch64.deb",
+      "sha256": "98e602b484c7d771784df4c39ea9bc4a9c35b58dbce9e74703ce501aa08e96e4",
+      "size": 2140
+    },
+    {
+      "package": "boot-image-v4-header",
+      "version": "1.0.0-1",
+      "artifact": "boot-image-v4-header_1.0.0-1_aarch64.deb",
+      "sha256": "46ab67df485dfe74242a973f8ea46560cff0ee28159f0ef32688e6dd0571d82d",
+      "size": 2136
+    }
+  ]
+}

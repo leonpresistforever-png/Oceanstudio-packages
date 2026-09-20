@@ -1,0 +1,361 @@
+{
+  "schemaVersion": 1,
+  "shard": "shard-13-text-nlp-corpora",
+  "section": "text",
+  "category": "Text Processing & Natural Language Corpora",
+  "target": "aarch64-linux-android28",
+  "prefix": "/data/data/studio.ocean.app/files/usr",
+  "packageCount": 50,
+  "packages": [
+    {
+      "package": "unicode-codepoint-info",
+      "version": "1.0.0-1",
+      "artifact": "unicode-codepoint-info_1.0.0-1_aarch64.deb",
+      "sha256": "afdf536b3bfad35818ccf853c13685c3dccd82f4653c47e502f78b549e560ace",
+      "size": 2164
+    },
+    {
+      "package": "unicode-normalization",
+      "version": "1.0.0-1",
+      "artifact": "unicode-normalization_1.0.0-1_aarch64.deb",
+      "sha256": "ef9960753e33481974570c32b1e6180e4f5833a314186b647274e3a9d15888c3",
+      "size": 2152
+    },
+    {
+      "package": "utf8-byte-inspector",
+      "version": "1.0.0-1",
+      "artifact": "utf8-byte-inspector_1.0.0-1_aarch64.deb",
+      "sha256": "ca5a145f71f95d5f1928aba6b39386257aa46d6a3b7f4a55935cfbe8f26fed0e",
+      "size": 2172
+    },
+    {
+      "package": "utf16-surrogate-pair",
+      "version": "1.0.0-1",
+      "artifact": "utf16-surrogate-pair_1.0.0-1_aarch64.deb",
+      "sha256": "536bbee33610683c77e4ae1aecb19a6fd6965a2d7bc1c27ad33b52fc3611f5f4",
+      "size": 2156
+    },
+    {
+      "package": "ascii-armor-encoder",
+      "version": "1.0.0-1",
+      "artifact": "ascii-armor-encoder_1.0.0-1_aarch64.deb",
+      "sha256": "6af074c18fe0d5eec2efdd10815b738d2bcc85280c1b71cff16532d857973561",
+      "size": 2164
+    },
+    {
+      "package": "punycode-idna-decode",
+      "version": "1.0.0-1",
+      "artifact": "punycode-idna-decode_1.0.0-1_aarch64.deb",
+      "sha256": "3ac09fd66c0610c47ff881034722067e44dfc1cdc8741995edfed09ec6a00364",
+      "size": 2164
+    },
+    {
+      "package": "regex-pcre2-tester",
+      "version": "1.0.0-1",
+      "artifact": "regex-pcre2-tester_1.0.0-1_aarch64.deb",
+      "sha256": "44a3b8eb51fbab1b70eb97450f57f310d9cc0503a434b2689fabec037ba34cd7",
+      "size": 2172
+    },
+    {
+      "package": "regex-posix-matcher",
+      "version": "1.0.0-1",
+      "artifact": "regex-posix-matcher_1.0.0-1_aarch64.deb",
+      "sha256": "fc084e43751fce392be69ac2365c4264fbadab65e245045000b31558779b5739",
+      "size": 2160
+    },
+    {
+      "package": "regex-dfa-visualizer",
+      "version": "1.0.0-1",
+      "artifact": "regex-dfa-visualizer_1.0.0-1_aarch64.deb",
+      "sha256": "1353d8ad74bea2957df865042589ec4a275946620764a976f868564e41b42d14",
+      "size": 2176
+    },
+    {
+      "package": "word-frequency-counter",
+      "version": "1.0.0-1",
+      "artifact": "word-frequency-counter_1.0.0-1_aarch64.deb",
+      "sha256": "86d9f61aab2cbd054885539c9437935c823de796461beac21dcd92ae7c45d790",
+      "size": 2156
+    },
+    {
+      "package": "character-ngram-gen",
+      "version": "1.0.0-1",
+      "artifact": "character-ngram-gen_1.0.0-1_aarch64.deb",
+      "sha256": "20c821d5496237ec2dfed29a354c810f056737d5159799346f5fd3e0693851c5",
+      "size": 2156
+    },
+    {
+      "package": "token-stopword-filter",
+      "version": "1.0.0-1",
+      "artifact": "token-stopword-filter_1.0.0-1_aarch64.deb",
+      "sha256": "f0f9032d9962d8837bb7f353a55ce98feaa9ff6337b15960b005b610291f09cc",
+      "size": 2136
+    },
+    {
+      "package": "porter-stemmer-cli",
+      "version": "1.0.0-1",
+      "artifact": "porter-stemmer-cli_1.0.0-1_aarch64.deb",
+      "sha256": "59e7c7621aa96b9e112b500f70df2cc0b419a294eb373b981f34c4e6b29fbbd2",
+      "size": 2156
+    },
+    {
+      "package": "snowball-stemmer-tool",
+      "version": "1.0.0-1",
+      "artifact": "snowball-stemmer-tool_1.0.0-1_aarch64.deb",
+      "sha256": "e5e5bc7545a30b9d7cc58cb4ffe0ce87a2301442e91e6a664c87ae3f4f22348b",
+      "size": 2156
+    },
+    {
+      "package": "soundex-phonetic-calc",
+      "version": "1.0.0-1",
+      "artifact": "soundex-phonetic-calc_1.0.0-1_aarch64.deb",
+      "sha256": "aa4d82ed8a0125460b960869db03888590faf174f7408ddbc872c6566a503ef1",
+      "size": 2148
+    },
+    {
+      "package": "metaphone-phonetic-cli",
+      "version": "1.0.0-1",
+      "artifact": "metaphone-phonetic-cli_1.0.0-1_aarch64.deb",
+      "sha256": "2987ff1dab7493ff83766a5379875cca627f49b58181ba94309e3a63a9733014",
+      "size": 2160
+    },
+    {
+      "package": "levenshtein-distance",
+      "version": "1.0.0-1",
+      "artifact": "levenshtein-distance_1.0.0-1_aarch64.deb",
+      "sha256": "958c1880cf93586e90b6c16d42a21872990d58c1b9e85534b46274b1b0f97bb2",
+      "size": 2152
+    },
+    {
+      "package": "jaro-winkler-similarity",
+      "version": "1.0.0-1",
+      "artifact": "jaro-winkler-similarity_1.0.0-1_aarch64.deb",
+      "sha256": "9fed6975782f8ebaaffc2bfa41a8b756904291d21dd348bd9c47f87bcf5899c4",
+      "size": 2160
+    },
+    {
+      "package": "hamming-distance-calc",
+      "version": "1.0.0-1",
+      "artifact": "hamming-distance-calc_1.0.0-1_aarch64.deb",
+      "sha256": "3a5dc83d0ce24986eaa97210d127a78bb4344d7631a049818690c09402d847e2",
+      "size": 2160
+    },
+    {
+      "package": "diff-side-by-side",
+      "version": "1.0.0-1",
+      "artifact": "diff-side-by-side_1.0.0-1_aarch64.deb",
+      "sha256": "8023add369d2c9e59602c5c34d17a2cc84783c33276924c9193c3d29a3d78c20",
+      "size": 2144
+    },
+    {
+      "package": "diff-unified-patcher",
+      "version": "1.0.0-1",
+      "artifact": "diff-unified-patcher_1.0.0-1_aarch64.deb",
+      "sha256": "55cab9a6b788a3d3f21db891a1775c609a5f35773d078df730f8df60b896ab8f",
+      "size": 2160
+    },
+    {
+      "package": "diff-3way-merge-tool",
+      "version": "1.0.0-1",
+      "artifact": "diff-3way-merge-tool_1.0.0-1_aarch64.deb",
+      "sha256": "df01d602325d060f330a56e17dbb47b7a5c6e1fed4d0f5d0fdc85e49251c3c48",
+      "size": 2160
+    },
+    {
+      "package": "wdiff-word-differ",
+      "version": "1.0.0-1",
+      "artifact": "wdiff-word-differ_1.0.0-1_aarch64.deb",
+      "sha256": "c0094714866ce27d24824236dfa85b4845bf70496f5ccf35c16922e9ffa21c88",
+      "size": 2128
+    },
+    {
+      "package": "markdown-ast-generator",
+      "version": "1.0.0-1",
+      "artifact": "markdown-ast-generator_1.0.0-1_aarch64.deb",
+      "sha256": "634b05186018c0bd6bcae3591d512b2e5edc5729a4141eeb0294ba265bb03b90",
+      "size": 2164
+    },
+    {
+      "package": "markdown-toc-builder",
+      "version": "1.0.0-1",
+      "artifact": "markdown-toc-builder_1.0.0-1_aarch64.deb",
+      "sha256": "e38e8f4975a0f5f110255613f6dcb817150549c78c0e7446c89bc9e305075df7",
+      "size": 2160
+    },
+    {
+      "package": "markdown-table-prettifier",
+      "version": "1.0.0-1",
+      "artifact": "markdown-table-prettifier_1.0.0-1_aarch64.deb",
+      "sha256": "12740d8f65cee78ec486e78ddeb0ec9df88161344247eaacfb1f4aba3da45016",
+      "size": 2168
+    },
+    {
+      "package": "markdown-link-auditor",
+      "version": "1.0.0-1",
+      "artifact": "markdown-link-auditor_1.0.0-1_aarch64.deb",
+      "sha256": "aa0b4b1e44e88222a81e84a71d40cd3f6bcab6bdd6dff20abb10cfb9a4e1a2f2",
+      "size": 2156
+    },
+    {
+      "package": "frontmatter-extractor",
+      "version": "1.0.0-1",
+      "artifact": "frontmatter-extractor_1.0.0-1_aarch64.deb",
+      "sha256": "e39dd3f3ee35870006ee099fe9aa5c1d94adde86af84f4ce471c6ed62f6e387e",
+      "size": 2152
+    },
+    {
+      "package": "latex-math-sanitizer",
+      "version": "1.0.0-1",
+      "artifact": "latex-math-sanitizer_1.0.0-1_aarch64.deb",
+      "sha256": "c2c61745aa3a68be8b3b451812956b448409de2d54e72adee30ec2dd8107567e",
+      "size": 2160
+    },
+    {
+      "package": "typst-document-linter",
+      "version": "1.0.0-1",
+      "artifact": "typst-document-linter_1.0.0-1_aarch64.deb",
+      "sha256": "46183ce6f936a98ef11df947492b4229c5fe16e9300f912ee3775334b4df4a4d",
+      "size": 2160
+    },
+    {
+      "package": "asciidoc-section-view",
+      "version": "1.0.0-1",
+      "artifact": "asciidoc-section-view_1.0.0-1_aarch64.deb",
+      "sha256": "e3d3deff6a626da9766d7a7efe5ba0fb99ef3e5794a2b6fb486ffc23393d60dd",
+      "size": 2160
+    },
+    {
+      "package": "manpage-troff-linter",
+      "version": "1.0.0-1",
+      "artifact": "manpage-troff-linter_1.0.0-1_aarch64.deb",
+      "sha256": "f0fe419f639776ea9199c13df2284281c6eb231413d085d212e91c15e137d11b",
+      "size": 2160
+    },
+    {
+      "package": "groff-formatter-lite",
+      "version": "1.0.0-1",
+      "artifact": "groff-formatter-lite_1.0.0-1_aarch64.deb",
+      "sha256": "69e77fecfb2033aae7de6913b8095630c6817f1dd41d12ad93a8ec42434728f4",
+      "size": 2156
+    },
+    {
+      "package": "spellcheck-hunspell",
+      "version": "1.0.0-1",
+      "artifact": "spellcheck-hunspell_1.0.0-1_aarch64.deb",
+      "sha256": "8d89df2fc2604a4531d35f071b18302fce98e44e883205d268fe879ae833e956",
+      "size": 2148
+    },
+    {
+      "package": "aspell-word-filter",
+      "version": "1.0.0-1",
+      "artifact": "aspell-word-filter_1.0.0-1_aarch64.deb",
+      "sha256": "10416904b4c296ff81f317d31db9168123b1c236731dc26fb83cfb66d81caed1",
+      "size": 2160
+    },
+    {
+      "package": "syllable-counter-cli",
+      "version": "1.0.0-1",
+      "artifact": "syllable-counter-cli_1.0.0-1_aarch64.deb",
+      "sha256": "42e988391d32d4369e816b2b2f9a456788fe5b13013ad3c61ad8506ef5513db1",
+      "size": 2156
+    },
+    {
+      "package": "readability-flesch",
+      "version": "1.0.0-1",
+      "artifact": "readability-flesch_1.0.0-1_aarch64.deb",
+      "sha256": "4e239e396ce6c4a4a273d99392d76e4047884c68c1668807d3256c68fba3d9b9",
+      "size": 2160
+    },
+    {
+      "package": "text-summarizer-lex",
+      "version": "1.0.0-1",
+      "artifact": "text-summarizer-lex_1.0.0-1_aarch64.deb",
+      "sha256": "cec43c7c2dd23fd674655c06f0be7662743787cecf4055bf7d29a94abff2ec6b",
+      "size": 2144
+    },
+    {
+      "package": "line-wrap-hyphenator",
+      "version": "1.0.0-1",
+      "artifact": "line-wrap-hyphenator_1.0.0-1_aarch64.deb",
+      "sha256": "05475907c600b62238117cd946f7f866a687e1e787aa587ab0b3e65acabdd70f",
+      "size": 2156
+    },
+    {
+      "package": "column-table-justifier",
+      "version": "1.0.0-1",
+      "artifact": "column-table-justifier_1.0.0-1_aarch64.deb",
+      "sha256": "5665f1e5f2865891cf9b9abe1ce1b3c0dd37dbe6411367f36b981ceace8dd5d2",
+      "size": 2172
+    },
+    {
+      "package": "ansi-color-stripper",
+      "version": "1.0.0-1",
+      "artifact": "ansi-color-stripper_1.0.0-1_aarch64.deb",
+      "sha256": "43b6254c83da5193ee6b77aa7d706e37b3d836ae228fe9aa755194ee115505db",
+      "size": 2168
+    },
+    {
+      "package": "ansi-art-renderer",
+      "version": "1.0.0-1",
+      "artifact": "ansi-art-renderer_1.0.0-1_aarch64.deb",
+      "sha256": "c7f9b15e35b9ba4e4ff13e5ba955c5f83323cfebf03349bcf9a76d8b97288e7b",
+      "size": 2148
+    },
+    {
+      "package": "ascii-box-drawing",
+      "version": "1.0.0-1",
+      "artifact": "ascii-box-drawing_1.0.0-1_aarch64.deb",
+      "sha256": "387abb348b9c159a396b42710cc05b29aebe88abc1c490f9ccc17702b986cba5",
+      "size": 2144
+    },
+    {
+      "package": "slugify-text-cli",
+      "version": "1.0.0-1",
+      "artifact": "slugify-text-cli_1.0.0-1_aarch64.deb",
+      "sha256": "0cd14065432308900c601f2544273196783fc4a76aac7a935ae99121f4629631",
+      "size": 2152
+    },
+    {
+      "package": "case-camel-snake-kebab",
+      "version": "1.0.0-1",
+      "artifact": "case-camel-snake-kebab_1.0.0-1_aarch64.deb",
+      "sha256": "e64beebe5819f6fc87cbb93f75b19f2dc63e6f18ccbd220bd2abc5d696bed803",
+      "size": 2164
+    },
+    {
+      "package": "rot47-cipher-tool",
+      "version": "1.0.0-1",
+      "artifact": "rot47-cipher-tool_1.0.0-1_aarch64.deb",
+      "sha256": "11528c2c44cddb4a8624e3409eb88863a87c7d85f195333aa1d15bd02717e6cc",
+      "size": 2160
+    },
+    {
+      "package": "bidi-text-reverser",
+      "version": "1.0.0-1",
+      "artifact": "bidi-text-reverser_1.0.0-1_aarch64.deb",
+      "sha256": "c022fb2af08fdf90b8531e1c2799f79e6f1ade16252aae86cd8e8ec43423488f",
+      "size": 2152
+    },
+    {
+      "package": "zero-width-char-chk",
+      "version": "1.0.0-1",
+      "artifact": "zero-width-char-chk_1.0.0-1_aarch64.deb",
+      "sha256": "4f0cf78fc61b59ae41f90d2317dfe8b314a15204fb688934ea7db8267ab00b5e",
+      "size": 2160
+    },
+    {
+      "package": "line-ending-dos2unix",
+      "version": "1.0.0-1",
+      "artifact": "line-ending-dos2unix_1.0.0-1_aarch64.deb",
+      "sha256": "8904e1f013fa8140e24d00557b8e1ee713253ec1897574b75e5cf379dff55b0b",
+      "size": 2156
+    },
+    {
+      "package": "tab-space-converter",
+      "version": "1.0.0-1",
+      "artifact": "tab-space-converter_1.0.0-1_aarch64.deb",
+      "sha256": "f446d57f89227bc27acb7cf5526bf7166a0bad987d1cd40d6a8b71e0bba42c34",
+      "size": 2144
+    }
+  ]
+}

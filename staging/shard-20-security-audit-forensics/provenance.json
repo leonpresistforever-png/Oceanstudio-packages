@@ -1,0 +1,361 @@
+{
+  "schemaVersion": 1,
+  "shard": "shard-20-security-audit-forensics",
+  "section": "admin",
+  "category": "Security Forensics & Incident Response",
+  "target": "aarch64-linux-android28",
+  "prefix": "/data/data/studio.ocean.app/files/usr",
+  "packageCount": 50,
+  "packages": [
+    {
+      "package": "pcap-dns-query-extract",
+      "version": "1.0.0-1",
+      "artifact": "pcap-dns-query-extract_1.0.0-1_aarch64.deb",
+      "sha256": "1e50b7f6e6d80b4d17c7b51359ebc2260c77c20510cafa2527acc166305cba4d",
+      "size": 2160
+    },
+    {
+      "package": "pcap-http-uri-extract",
+      "version": "1.0.0-1",
+      "artifact": "pcap-http-uri-extract_1.0.0-1_aarch64.deb",
+      "sha256": "7d3877bbcb7474892350d8e7d60776fbb25a675307b7fbf7fb9c3e6a137d639e",
+      "size": 2164
+    },
+    {
+      "package": "pcap-tls-client-hello",
+      "version": "1.0.0-1",
+      "artifact": "pcap-tls-client-hello_1.0.0-1_aarch64.deb",
+      "sha256": "e302d545a24dbad321a6f53ebbb0433a9da7a0d2fe1595cc1a8866f1405ba9bd",
+      "size": 2164
+    },
+    {
+      "package": "pcap-credential-finder",
+      "version": "1.0.0-1",
+      "artifact": "pcap-credential-finder_1.0.0-1_aarch64.deb",
+      "sha256": "5801f8e3674f34371767c33e65cfdb4cb499d918cad4b728404f568ae08299ab",
+      "size": 2160
+    },
+    {
+      "package": "pcap-icmp-tunnel-chk",
+      "version": "1.0.0-1",
+      "artifact": "pcap-icmp-tunnel-chk_1.0.0-1_aarch64.deb",
+      "sha256": "9a0647941c27f9d74727877aa0cc750b566bddf8bc2895882d7f82c566409c87",
+      "size": 2176
+    },
+    {
+      "package": "raw-memory-string-dump",
+      "version": "1.0.0-1",
+      "artifact": "raw-memory-string-dump_1.0.0-1_aarch64.deb",
+      "sha256": "acf796db9721a28f8c11c2b97755b77e313b769d834a60954dd973cab528f61f",
+      "size": 2168
+    },
+    {
+      "package": "volatility-profile-chk",
+      "version": "1.0.0-1",
+      "artifact": "volatility-profile-chk_1.0.0-1_aarch64.deb",
+      "sha256": "d0889538d3ca26b687d9b1fbc10f9bd955a723a6107683d624cbd4b0cc98ff43",
+      "size": 2156
+    },
+    {
+      "package": "page-table-walk-tool",
+      "version": "1.0.0-1",
+      "artifact": "page-table-walk-tool_1.0.0-1_aarch64.deb",
+      "sha256": "d3ac4a385a6f09415ae6a4f35f817cd0dca587a8f896c4251b78f53dc831d5ed",
+      "size": 2156
+    },
+    {
+      "package": "kernel-module-sig-chk",
+      "version": "1.0.0-1",
+      "artifact": "kernel-module-sig-chk_1.0.0-1_aarch64.deb",
+      "sha256": "4445c4c3a51caa15f0c99b0c4715fe2453db4385d809ff88feaa9b7a87b7b295",
+      "size": 2172
+    },
+    {
+      "package": "rootkit-symbol-search",
+      "version": "1.0.0-1",
+      "artifact": "rootkit-symbol-search_1.0.0-1_aarch64.deb",
+      "sha256": "a0d90ffc90ebc2c4e9057a7d2dc436cb617e9a2ad939157904f01b9e6b856f93",
+      "size": 2168
+    },
+    {
+      "package": "hidden-process-finder",
+      "version": "1.0.0-1",
+      "artifact": "hidden-process-finder_1.0.0-1_aarch64.deb",
+      "sha256": "88c26a1f19ae1db60b05238f471ce6d36e60f06da907deae6d124c33d2a53847",
+      "size": 2176
+    },
+    {
+      "package": "proc-maps-anomaly-chk",
+      "version": "1.0.0-1",
+      "artifact": "proc-maps-anomaly-chk_1.0.0-1_aarch64.deb",
+      "sha256": "98b549f422f58c887f4182b0003b79a80dab9a1080e68bed5798fdf3fcee8a3c",
+      "size": 2164
+    },
+    {
+      "package": "mem-injection-scanner",
+      "version": "1.0.0-1",
+      "artifact": "mem-injection-scanner_1.0.0-1_aarch64.deb",
+      "sha256": "a1036d5019da3e0ba0b4b98bc518d99cce19ea95d87df59a665d8d951735c773",
+      "size": 2156
+    },
+    {
+      "package": "code-cave-finder-elf",
+      "version": "1.0.0-1",
+      "artifact": "code-cave-finder-elf_1.0.0-1_aarch64.deb",
+      "sha256": "fa0e17995248a4fa0e57e8349e075ae280e83ecf8234174ed71d3a8b663b0d1d",
+      "size": 2160
+    },
+    {
+      "package": "elf-got-overwrite-chk",
+      "version": "1.0.0-1",
+      "artifact": "elf-got-overwrite-chk_1.0.0-1_aarch64.deb",
+      "sha256": "feab84e8addd99d476e887587d77072e57e23a42d6d65f18c63a3ea0552354a8",
+      "size": 2172
+    },
+    {
+      "package": "elf-plt-hook-detector",
+      "version": "1.0.0-1",
+      "artifact": "elf-plt-hook-detector_1.0.0-1_aarch64.deb",
+      "sha256": "dea3779cffa05997a30ed6c45bff5b71d54869b81e256a25c792e6643dfb600c",
+      "size": 2156
+    },
+    {
+      "package": "ptrace-anti-debug-chk",
+      "version": "1.0.0-1",
+      "artifact": "ptrace-anti-debug-chk_1.0.0-1_aarch64.deb",
+      "sha256": "56297101f2669c9f8cced8d4633322b83f4ecfdf1e59c9f0e2421538bcec2286",
+      "size": 2160
+    },
+    {
+      "package": "process-environment-diff",
+      "version": "1.0.0-1",
+      "artifact": "process-environment-diff_1.0.0-1_aarch64.deb",
+      "sha256": "b3dc52e553b246238e3057cb5241cbc81c44ed0cb7365eefbc4536e9af7c15bf",
+      "size": 2132
+    },
+    {
+      "package": "ld-preload-auditor",
+      "version": "1.0.0-1",
+      "artifact": "ld-preload-auditor_1.0.0-1_aarch64.deb",
+      "sha256": "4d5bac4de2df3d3e9b839758ebcc90fc0100f18b1bdd35e8730ac52292d30387",
+      "size": 2160
+    },
+    {
+      "package": "ld-so-preload-clean",
+      "version": "1.0.0-1",
+      "artifact": "ld-so-preload-clean_1.0.0-1_aarch64.deb",
+      "sha256": "e2f523f42d82779d2cde1490b4bccca46f9069ce2aa49980ade0b92ad17ddfbf",
+      "size": 2168
+    },
+    {
+      "package": "binary-entropy-graph",
+      "version": "1.0.0-1",
+      "artifact": "binary-entropy-graph_1.0.0-1_aarch64.deb",
+      "sha256": "da95582b8277f0c1b741b655981e995287ceafa05ac5a2f6627ab8adc3747901",
+      "size": 2148
+    },
+    {
+      "package": "packed-executable-chk",
+      "version": "1.0.0-1",
+      "artifact": "packed-executable-chk_1.0.0-1_aarch64.deb",
+      "sha256": "1bd5c98637119d549f80ff97502831a75db1691062bfb31ddeacb74eeb936b36",
+      "size": 2164
+    },
+    {
+      "package": "upx-header-unpacker",
+      "version": "1.0.0-1",
+      "artifact": "upx-header-unpacker_1.0.0-1_aarch64.deb",
+      "sha256": "c3a5a8c483834ef8aa16f50328e096473e1be52be1ed114745d11a256582a35e",
+      "size": 2164
+    },
+    {
+      "package": "pe-rich-header-hasher",
+      "version": "1.0.0-1",
+      "artifact": "pe-rich-header-hasher_1.0.0-1_aarch64.deb",
+      "sha256": "186ba69eda70d971751c43647f36f581069f54e702dbfef5b8ddb9f1ff11baa4",
+      "size": 2160
+    },
+    {
+      "package": "imphash-calculator",
+      "version": "1.0.0-1",
+      "artifact": "imphash-calculator_1.0.0-1_aarch64.deb",
+      "sha256": "9b87dce998ac6a53a7d0d6d5ee48c15d20209589b2c2fd5ade6e61e5a6a539ca",
+      "size": 2156
+    },
+    {
+      "package": "fuzzy-ssdeep-hasher",
+      "version": "1.0.0-1",
+      "artifact": "fuzzy-ssdeep-hasher_1.0.0-1_aarch64.deb",
+      "sha256": "d3d9ccea97a4356275f660aafe51603ac2b2af9c6e40046e97b397593d0a8314",
+      "size": 2168
+    },
+    {
+      "package": "fuzzy-tlsh-calculator",
+      "version": "1.0.0-1",
+      "artifact": "fuzzy-tlsh-calculator_1.0.0-1_aarch64.deb",
+      "sha256": "c3b0607924d65aefaa4857c6368dda21c45da7ee066a9f3c7cbfea7fb5b97284",
+      "size": 2180
+    },
+    {
+      "package": "anti-vm-artifact-chk",
+      "version": "1.0.0-1",
+      "artifact": "anti-vm-artifact-chk_1.0.0-1_aarch64.deb",
+      "sha256": "63ae75ff2b047e8320cb4a7ea0fc62473c9bb6b9c9b550fb8be32a3fda30cd1d",
+      "size": 2160
+    },
+    {
+      "package": "sandbox-detection-chk",
+      "version": "1.0.0-1",
+      "artifact": "sandbox-detection-chk_1.0.0-1_aarch64.deb",
+      "sha256": "11e49ff39bb231e4dcdacdde64d5c977835eba724b755126a40cdcb30e9a0dae",
+      "size": 2152
+    },
+    {
+      "package": "threat-intel-ip-parser",
+      "version": "1.0.0-1",
+      "artifact": "threat-intel-ip-parser_1.0.0-1_aarch64.deb",
+      "sha256": "8fc6f75526449e34412c55871698cf28bdc3ff7efdea3e9cf7e445102c1564c7",
+      "size": 2156
+    },
+    {
+      "package": "ioc-stix-json-parser",
+      "version": "1.0.0-1",
+      "artifact": "ioc-stix-json-parser_1.0.0-1_aarch64.deb",
+      "sha256": "c87e211ba3a30e10c7fb2adc05a7c69b4b9ace1318e5a2f021de6237b79f655a",
+      "size": 2160
+    },
+    {
+      "package": "snort-rule-validator",
+      "version": "1.0.0-1",
+      "artifact": "snort-rule-validator_1.0.0-1_aarch64.deb",
+      "sha256": "5693bf325fe03631afd01fd30ee56c682ec3839e9baca3c84417d6e5f7337853",
+      "size": 2168
+    },
+    {
+      "package": "suricata-rule-tester",
+      "version": "1.0.0-1",
+      "artifact": "suricata-rule-tester_1.0.0-1_aarch64.deb",
+      "sha256": "a54c37050d3f3d67756df9956df6b0126d5df1522ce4a1d2d6449fc3e9f37ff3",
+      "size": 2160
+    },
+    {
+      "package": "sigma-rule-converter",
+      "version": "1.0.0-1",
+      "artifact": "sigma-rule-converter_1.0.0-1_aarch64.deb",
+      "sha256": "8ec3f5442eb014f5a57aa5af3b917413e07033bdee5a42d677efbdfe306c9b44",
+      "size": 2160
+    },
+    {
+      "package": "windows-event-evtx-chk",
+      "version": "1.0.0-1",
+      "artifact": "windows-event-evtx-chk_1.0.0-1_aarch64.deb",
+      "sha256": "5016a8787dc2aba29c1cf71e1cb1fcea2dbf0bfec558b66cfb4705ddac781963",
+      "size": 2168
+    },
+    {
+      "package": "syslog-auth-failure",
+      "version": "1.0.0-1",
+      "artifact": "syslog-auth-failure_1.0.0-1_aarch64.deb",
+      "sha256": "549ed58077e8679a5291a6f6bf139fe1178cee29cdf59acc4719f7e6aa1e84f7",
+      "size": 2148
+    },
+    {
+      "package": "pam-auth-audit-trail",
+      "version": "1.0.0-1",
+      "artifact": "pam-auth-audit-trail_1.0.0-1_aarch64.deb",
+      "sha256": "b2ba5b7f9eee8aafec7473e3892944dcada768c984480373f18b31d4de87eb6a",
+      "size": 2156
+    },
+    {
+      "package": "sudoers-file-validator",
+      "version": "1.0.0-1",
+      "artifact": "sudoers-file-validator_1.0.0-1_aarch64.deb",
+      "sha256": "54631dbf083d03b22cd26eb8c80629dbc1da124cbba0c52ac02d5930715c1f6d",
+      "size": 2148
+    },
+    {
+      "package": "suid-binary-matrix",
+      "version": "1.0.0-1",
+      "artifact": "suid-binary-matrix_1.0.0-1_aarch64.deb",
+      "sha256": "4183585cd51e311b64bdb32678aa247a61283bd8db61ea3fe4a73847e87d935e",
+      "size": 2148
+    },
+    {
+      "package": "shadow-password-audit",
+      "version": "1.0.0-1",
+      "artifact": "shadow-password-audit_1.0.0-1_aarch64.deb",
+      "sha256": "e4edac7e76c226d6b22b342ac4be287113cc521229a9644893f20d39911e66e1",
+      "size": 2156
+    },
+    {
+      "package": "ssh-authorized-keys-chk",
+      "version": "1.0.0-1",
+      "artifact": "ssh-authorized-keys-chk_1.0.0-1_aarch64.deb",
+      "sha256": "da1c4c02408103f9963d9c643c3f416775021c2c59f4e8934dc319fd17dd343a",
+      "size": 2160
+    },
+    {
+      "package": "ssh-known-hosts-hash",
+      "version": "1.0.0-1",
+      "artifact": "ssh-known-hosts-hash_1.0.0-1_aarch64.deb",
+      "sha256": "9b854c5c8ebb478d1caad49b2e24725de02179bea4c45706a9a65583ad2bf4fd",
+      "size": 2156
+    },
+    {
+      "package": "gpg-keyring-auditor",
+      "version": "1.0.0-1",
+      "artifact": "gpg-keyring-auditor_1.0.0-1_aarch64.deb",
+      "sha256": "b63f01b1cc6bedda2c109adf62bd97d9eb09af53e4b572c83385bf40447fd0fb",
+      "size": 2160
+    },
+    {
+      "package": "ssl-tls-poodle-tester",
+      "version": "1.0.0-1",
+      "artifact": "ssl-tls-poodle-tester_1.0.0-1_aarch64.deb",
+      "sha256": "7a3a0856e865ec92436fd209e6dfa415377568c56a93dcfaa0a532fbe305b383",
+      "size": 2180
+    },
+    {
+      "package": "heartbleed-probe-cli",
+      "version": "1.0.0-1",
+      "artifact": "heartbleed-probe-cli_1.0.0-1_aarch64.deb",
+      "sha256": "48960cfdc307ad7ef29215deea63d2a4078daa795b8f9dd74e28866885b01501",
+      "size": 2164
+    },
+    {
+      "package": "shellshock-cve-tester",
+      "version": "1.0.0-1",
+      "artifact": "shellshock-cve-tester_1.0.0-1_aarch64.deb",
+      "sha256": "ba290e8f8d97f9f897d149baaa36ae5226116697c183e9b990ee291af2b5042e",
+      "size": 2156
+    },
+    {
+      "package": "dirty-cow-probe-chk",
+      "version": "1.0.0-1",
+      "artifact": "dirty-cow-probe-chk_1.0.0-1_aarch64.deb",
+      "sha256": "7405e373097fe38fea50539ea00ce87571fd494b9b01f0d56a703c7b2b19cbc1",
+      "size": 2156
+    },
+    {
+      "package": "ebpf-program-verifier",
+      "version": "1.0.0-1",
+      "artifact": "ebpf-program-verifier_1.0.0-1_aarch64.deb",
+      "sha256": "ef161f83c44a3386654f7c694bb83a737cdb42a47bc80d8de4f0468897095395",
+      "size": 2164
+    },
+    {
+      "package": "kernel-kptr-restrict-chk",
+      "version": "1.0.0-1",
+      "artifact": "kernel-kptr-restrict-chk_1.0.0-1_aarch64.deb",
+      "sha256": "0848031b9338d202319f18a29ce390cf866ce3b3076d86f6206d9c2b8b518e18",
+      "size": 2156
+    },
+    {
+      "package": "dmesg-taint-explainer",
+      "version": "1.0.0-1",
+      "artifact": "dmesg-taint-explainer_1.0.0-1_aarch64.deb",
+      "sha256": "a2b47c61fd6ac447e08f12cbed682114cb2a59e0e4def17ed526c8f5f1169b10",
+      "size": 2160
+    }
+  ]
+}

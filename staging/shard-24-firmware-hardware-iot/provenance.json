@@ -1,0 +1,361 @@
+{
+  "schemaVersion": 1,
+  "shard": "shard-24-firmware-hardware-iot",
+  "section": "admin",
+  "category": "Embedded Firmware & Hardware Interfaces",
+  "target": "aarch64-linux-android28",
+  "prefix": "/data/data/studio.ocean.app/files/usr",
+  "packageCount": 50,
+  "packages": [
+    {
+      "package": "device-tree-fdt-dump",
+      "version": "1.0.0-1",
+      "artifact": "device-tree-fdt-dump_1.0.0-1_aarch64.deb",
+      "sha256": "0be09106527659a64e95fa704a5bc663dffc9a3e38cb217af97085a8cd493e30",
+      "size": 2168
+    },
+    {
+      "package": "fdt-property-inspector",
+      "version": "1.0.0-1",
+      "artifact": "fdt-property-inspector_1.0.0-1_aarch64.deb",
+      "sha256": "d88313333af02b8f286ae8d77dd5f83d9aac7ae5c1d5725feac8404690121b22",
+      "size": 2160
+    },
+    {
+      "package": "fdt-node-path-search",
+      "version": "1.0.0-1",
+      "artifact": "fdt-node-path-search_1.0.0-1_aarch64.deb",
+      "sha256": "2c6ba478a6291ca569cb4238e4b0f8037331fcd3904ee3485911d5bc1b814407",
+      "size": 2148
+    },
+    {
+      "package": "u-boot-image-header",
+      "version": "1.0.0-1",
+      "artifact": "u-boot-image-header_1.0.0-1_aarch64.deb",
+      "sha256": "3b79c56825c4877fb12fbe76c9fa8bc457c9c1191c61ceef7b088c5b15cfa0a8",
+      "size": 2152
+    },
+    {
+      "package": "u-boot-env-crc-calc",
+      "version": "1.0.0-1",
+      "artifact": "u-boot-env-crc-calc_1.0.0-1_aarch64.deb",
+      "sha256": "b649e3ec727a44978c16b0c8371d98ec0a324377472fba5588718aaf7e501a21",
+      "size": 2148
+    },
+    {
+      "package": "u-boot-fit-image-view",
+      "version": "1.0.0-1",
+      "artifact": "u-boot-fit-image-view_1.0.0-1_aarch64.deb",
+      "sha256": "d14963ab8d8b3a5311d4f799d3075335649c113719bc8b4f0fc543b777c79ea7",
+      "size": 2164
+    },
+    {
+      "package": "coreboot-cbfs-parser",
+      "version": "1.0.0-1",
+      "artifact": "coreboot-cbfs-parser_1.0.0-1_aarch64.deb",
+      "sha256": "0ece7417c6fb2143afe0876d63a411eb52194197085f23278e4c19427822a44a",
+      "size": 2140
+    },
+    {
+      "package": "edkid-uefi-capsule-chk",
+      "version": "1.0.0-1",
+      "artifact": "edkid-uefi-capsule-chk_1.0.0-1_aarch64.deb",
+      "sha256": "0d5483a72eb7e36e97ab76a0cdf9ae69f42fd8adfe4afa0cad77c62d0d4a7074",
+      "size": 2156
+    },
+    {
+      "package": "uefi-variable-dump",
+      "version": "1.0.0-1",
+      "artifact": "uefi-variable-dump_1.0.0-1_aarch64.deb",
+      "sha256": "550783d99c481e7b834d46b28780e7278428edb99c6f71e2cbf68d85bae00a6a",
+      "size": 2148
+    },
+    {
+      "package": "smbios-dmi-table-view",
+      "version": "1.0.0-1",
+      "artifact": "smbios-dmi-table-view_1.0.0-1_aarch64.deb",
+      "sha256": "b66a03e3fb9a21546a1407c01226f94f7b155b10efbb2c50fb002ea3d20a77d9",
+      "size": 2152
+    },
+    {
+      "package": "acpi-table-parser-dsdt",
+      "version": "1.0.0-1",
+      "artifact": "acpi-table-parser-dsdt_1.0.0-1_aarch64.deb",
+      "sha256": "228e63783d573d97480f2bc8629025c5fc96bd17ef782f40227f303da308d7e1",
+      "size": 2148
+    },
+    {
+      "package": "acpi-fadt-header-dump",
+      "version": "1.0.0-1",
+      "artifact": "acpi-fadt-header-dump_1.0.0-1_aarch64.deb",
+      "sha256": "3d1eea1f13ca01d2d409d9f4638c1df0dce4f17d893f3a1b4da302e891861b65",
+      "size": 2148
+    },
+    {
+      "package": "spdx-sbom-firmware-chk",
+      "version": "1.0.0-1",
+      "artifact": "spdx-sbom-firmware-chk_1.0.0-1_aarch64.deb",
+      "sha256": "fb7f504725952026383015f8e7aeac197ee50a0b1b64460f5a5c66597e043b38",
+      "size": 2148
+    },
+    {
+      "package": "binwalk-entropy-plot",
+      "version": "1.0.0-1",
+      "artifact": "binwalk-entropy-plot_1.0.0-1_aarch64.deb",
+      "sha256": "0c7dddc764f896a181dc6289447082a39b0ff253bb386eccd0a74d35e5e7d2a3",
+      "size": 2144
+    },
+    {
+      "package": "firmware-crc32-verifier",
+      "version": "1.0.0-1",
+      "artifact": "firmware-crc32-verifier_1.0.0-1_aarch64.deb",
+      "sha256": "7efa05ddb144dc37da0b935c9bd254996c05b80da557647dfc2be69c617e9c88",
+      "size": 2140
+    },
+    {
+      "package": "intel-hex-ihex-converter",
+      "version": "1.0.0-1",
+      "artifact": "intel-hex-ihex-converter_1.0.0-1_aarch64.deb",
+      "sha256": "1163bc3fcc652f16af617d7a9e684a204f0418a8d449610cf1d4c695acee3f8e",
+      "size": 2152
+    },
+    {
+      "package": "motorola-srec-parser",
+      "version": "1.0.0-1",
+      "artifact": "motorola-srec-parser_1.0.0-1_aarch64.deb",
+      "sha256": "e7cec010c947a975ae553df8701f2f4ca9b2dfb73b30bb8d60f77de7c8894d44",
+      "size": 2156
+    },
+    {
+      "package": "raw-nand-ecc-calculator",
+      "version": "1.0.0-1",
+      "artifact": "raw-nand-ecc-calculator_1.0.0-1_aarch64.deb",
+      "sha256": "9fd883c7dc4422be1fb18a892e26eabc992d8c7751bd6cb568e4d576dc2c5e95",
+      "size": 2168
+    },
+    {
+      "package": "nor-flash-sector-align",
+      "version": "1.0.0-1",
+      "artifact": "nor-flash-sector-align_1.0.0-1_aarch64.deb",
+      "sha256": "23929d1535ce17b6cc729806f1f184f22f67a754134bc688b8726cea3de2915c",
+      "size": 2152
+    },
+    {
+      "package": "spi-flash-jedec-id-chk",
+      "version": "1.0.0-1",
+      "artifact": "spi-flash-jedec-id-chk_1.0.0-1_aarch64.deb",
+      "sha256": "ed5d20789e54c81aa1d77540d881016890967b0fa4486eaa4e2b624738f66306",
+      "size": 2164
+    },
+    {
+      "package": "i2c-bus-address-probe",
+      "version": "1.0.0-1",
+      "artifact": "i2c-bus-address-probe_1.0.0-1_aarch64.deb",
+      "sha256": "cdb79ac607c9bcb0c8aa5713db140b5bd1fbbe1d5e49a3ca028ef9fc999e416c",
+      "size": 2160
+    },
+    {
+      "package": "i2c-smbus-block-calc",
+      "version": "1.0.0-1",
+      "artifact": "i2c-smbus-block-calc_1.0.0-1_aarch64.deb",
+      "sha256": "44cb4b685cb74f5bcfead2e4e0b9da32b6330adf06136db6201760e2dd45219d",
+      "size": 2168
+    },
+    {
+      "package": "gpio-sysfs-pin-export",
+      "version": "1.0.0-1",
+      "artifact": "gpio-sysfs-pin-export_1.0.0-1_aarch64.deb",
+      "sha256": "2218802d8784f5b219c92ca854f49ea8001c861ef4ed18368106836583330f2d",
+      "size": 2156
+    },
+    {
+      "package": "gpio-cdev-line-event",
+      "version": "1.0.0-1",
+      "artifact": "gpio-cdev-line-event_1.0.0-1_aarch64.deb",
+      "sha256": "199685dc2f1774bc5ea222e629b8c166d3294c9251e3da53d56d2f98d9ffaa13",
+      "size": 2156
+    },
+    {
+      "package": "uart-baud-rate-divisor",
+      "version": "1.0.0-1",
+      "artifact": "uart-baud-rate-divisor_1.0.0-1_aarch64.deb",
+      "sha256": "b9585ae89552466806e3104139706813b5da2d0c8bf5052c1a3c81e233979637",
+      "size": 2152
+    },
+    {
+      "package": "serial-termios-config",
+      "version": "1.0.0-1",
+      "artifact": "serial-termios-config_1.0.0-1_aarch64.deb",
+      "sha256": "8cc9e5ac146ca3be05f56d427a301dd3468ab3cffda787b8cec223d178c07f71",
+      "size": 2160
+    },
+    {
+      "package": "usb-descriptor-parser",
+      "version": "1.0.0-1",
+      "artifact": "usb-descriptor-parser_1.0.0-1_aarch64.deb",
+      "sha256": "31ce34b3fd8a57334b7c7f200d3e7393f8d9879c70dfa70dc53a3941cb5434d8",
+      "size": 2152
+    },
+    {
+      "package": "usb-string-descriptor",
+      "version": "1.0.0-1",
+      "artifact": "usb-string-descriptor_1.0.0-1_aarch64.deb",
+      "sha256": "e6ef8608ca32bef2fd279c2ea9ee5a0959d8d5bfe40f6f5b712f50b6d885caa9",
+      "size": 2140
+    },
+    {
+      "package": "usb-endpoint-analyzer",
+      "version": "1.0.0-1",
+      "artifact": "usb-endpoint-analyzer_1.0.0-1_aarch64.deb",
+      "sha256": "08b109738ff4a0d93b428ded87e0c8090177384e6fb4d52eb3d9808adee87a99",
+      "size": 2164
+    },
+    {
+      "package": "hid-report-descriptor",
+      "version": "1.0.0-1",
+      "artifact": "hid-report-descriptor_1.0.0-1_aarch64.deb",
+      "sha256": "6147a7f90d34a24e2b289a6769662b79f95a48d6a09cca2918b42d45507af05e",
+      "size": 2148
+    },
+    {
+      "package": "can-bus-frame-dumper",
+      "version": "1.0.0-1",
+      "artifact": "can-bus-frame-dumper_1.0.0-1_aarch64.deb",
+      "sha256": "8d36303d881d78ce4df35b47a0e1e8d30cecc2168661d32054318d7838ef1929",
+      "size": 2160
+    },
+    {
+      "package": "can-j1939-pgn-parser",
+      "version": "1.0.0-1",
+      "artifact": "can-j1939-pgn-parser_1.0.0-1_aarch64.deb",
+      "sha256": "340d5f54d7cde1132475e10de63712568e2583e3a1a930696f72e64c4d1cf333",
+      "size": 2160
+    },
+    {
+      "package": "modbus-rtu-crc16-calc",
+      "version": "1.0.0-1",
+      "artifact": "modbus-rtu-crc16-calc_1.0.0-1_aarch64.deb",
+      "sha256": "dc88b32e37e3eda33e399d02c495637c006dcde173bb082fd061ccb463846808",
+      "size": 2160
+    },
+    {
+      "package": "modbus-tcp-header-chk",
+      "version": "1.0.0-1",
+      "artifact": "modbus-tcp-header-chk_1.0.0-1_aarch64.deb",
+      "sha256": "33a698339086d5538fd9c16cc494f218086cf19cfeedebbb652a1ce2d32fff3f",
+      "size": 2156
+    },
+    {
+      "package": "zigbee-zcl-frame-view",
+      "version": "1.0.0-1",
+      "artifact": "zigbee-zcl-frame-view_1.0.0-1_aarch64.deb",
+      "sha256": "af859e72820ac75be81bce0eb108add1cd33402ff471705dd9275f145400a9ea",
+      "size": 2160
+    },
+    {
+      "package": "ble-gatt-uuid-lookup",
+      "version": "1.0.0-1",
+      "artifact": "ble-gatt-uuid-lookup_1.0.0-1_aarch64.deb",
+      "sha256": "fca16ed18252739eac18ad869162656aa8763c76a9d0f6f9eb37bf23db81345d",
+      "size": 2164
+    },
+    {
+      "package": "bluetooth-hci-cmd-dump",
+      "version": "1.0.0-1",
+      "artifact": "bluetooth-hci-cmd-dump_1.0.0-1_aarch64.deb",
+      "sha256": "d7b0c2d36f5ee6f62d49a6aad837a9c2617db21ba7f8f6384bbd60c035ff6b29",
+      "size": 2164
+    },
+    {
+      "package": "rfid-mifare-block-chk",
+      "version": "1.0.0-1",
+      "artifact": "rfid-mifare-block-chk_1.0.0-1_aarch64.deb",
+      "sha256": "b2f61265032177ea8ecb7250681d66e89c887683d3c208df010737a5fc3c29e8",
+      "size": 2168
+    },
+    {
+      "package": "nfc-ndef-record-parser",
+      "version": "1.0.0-1",
+      "artifact": "nfc-ndef-record-parser_1.0.0-1_aarch64.deb",
+      "sha256": "2bb4d210282f3c5f4130fd7ca0145df84f58c535a290dfc814a98a70985f5c42",
+      "size": 2156
+    },
+    {
+      "package": "i2s-audio-clock-calc",
+      "version": "1.0.0-1",
+      "artifact": "i2s-audio-clock-calc_1.0.0-1_aarch64.deb",
+      "sha256": "a3c674a53975a1bdb24668a6bc2ec001bd05f0841799fbb8d428300c0e89ed60",
+      "size": 2160
+    },
+    {
+      "package": "pwm-frequency-duty-calc",
+      "version": "1.0.0-1",
+      "artifact": "pwm-frequency-duty-calc_1.0.0-1_aarch64.deb",
+      "sha256": "4b41db369b7021d6ba38be55bc4f11e1b6585492c447c4110528d973957891cd",
+      "size": 2168
+    },
+    {
+      "package": "thermal-zone-temp-view",
+      "version": "1.0.0-1",
+      "artifact": "thermal-zone-temp-view_1.0.0-1_aarch64.deb",
+      "sha256": "3e98e403685626a4f1d55e4fab83194d59dcd7e98ee39da4084e398f9470cb16",
+      "size": 2164
+    },
+    {
+      "package": "cpufreq-scaling-gov",
+      "version": "1.0.0-1",
+      "artifact": "cpufreq-scaling-gov_1.0.0-1_aarch64.deb",
+      "sha256": "8baf8f9aa5980acc8fe8481f99fc08bf0445bd271a830d825ceaf4b85b880f01",
+      "size": 2156
+    },
+    {
+      "package": "power-supply-status-chk",
+      "version": "1.0.0-1",
+      "artifact": "power-supply-status-chk_1.0.0-1_aarch64.deb",
+      "sha256": "0893f78ad1ab95a978061e0acd001e11bf032845b19f567da4218e79f2b274f2",
+      "size": 2168
+    },
+    {
+      "package": "regulator-voltage-view",
+      "version": "1.0.0-1",
+      "artifact": "regulator-voltage-view_1.0.0-1_aarch64.deb",
+      "sha256": "28165217e474fbba6b6f4c776e390c7fa3a26e09230a089a41a14f9601c15e6b",
+      "size": 2148
+    },
+    {
+      "package": "nvme-smart-log-parser",
+      "version": "1.0.0-1",
+      "artifact": "nvme-smart-log-parser_1.0.0-1_aarch64.deb",
+      "sha256": "dea6f803dcdff70dc620e836d98bc2c9b647ca8413aab8dc4db296bedbf3a3f0",
+      "size": 2144
+    },
+    {
+      "package": "scsi-inquiry-vpd-dump",
+      "version": "1.0.0-1",
+      "artifact": "scsi-inquiry-vpd-dump_1.0.0-1_aarch64.deb",
+      "sha256": "96ec39bab9f10c3c436ba727bac8dcdf567c469b279919f4c804c01bc4160966",
+      "size": 2172
+    },
+    {
+      "package": "pci-config-space-dump",
+      "version": "1.0.0-1",
+      "artifact": "pci-config-space-dump_1.0.0-1_aarch64.deb",
+      "sha256": "5c0816f1dfd651f8f1ed04efe3c2abbce79f0fae52788bc3cf5d78bb3fa6cfaa",
+      "size": 2152
+    },
+    {
+      "package": "pci-express-link-speed",
+      "version": "1.0.0-1",
+      "artifact": "pci-express-link-speed_1.0.0-1_aarch64.deb",
+      "sha256": "921b2f319d2df24163110758474602eb071536747123181a875a2b6d4d51d0a3",
+      "size": 2156
+    },
+    {
+      "package": "edid-monitor-data-parse",
+      "version": "1.0.0-1",
+      "artifact": "edid-monitor-data-parse_1.0.0-1_aarch64.deb",
+      "sha256": "a6975d5d4ca85ad85f202f0fa8e75d6e05535452cccda1d18f724dbc648d730a",
+      "size": 2160
+    }
+  ]
+}

@@ -1,0 +1,361 @@
+{
+  "schemaVersion": 1,
+  "shard": "shard-09-filesystem-storage",
+  "section": "utils",
+  "category": "Filesystem Engineering & Storage Forensics",
+  "target": "aarch64-linux-android28",
+  "prefix": "/data/data/studio.ocean.app/files/usr",
+  "packageCount": 50,
+  "packages": [
+    {
+      "package": "f2fs-status-inspector",
+      "version": "1.0.0-1",
+      "artifact": "f2fs-status-inspector_1.0.0-1_aarch64.deb",
+      "sha256": "fb389f42a9d2147f3a87a8a868eaeddd82f35234d89d77c45de6650b43dec6f0",
+      "size": 2156
+    },
+    {
+      "package": "ext4-super-block-dump",
+      "version": "1.0.0-1",
+      "artifact": "ext4-super-block-dump_1.0.0-1_aarch64.deb",
+      "sha256": "2dd36aecafca6bf95cc4eb2170154d10813b4802144d72f79e9b4e2e7b76dc17",
+      "size": 2148
+    },
+    {
+      "package": "inode-usage-analyzer",
+      "version": "1.0.0-1",
+      "artifact": "inode-usage-analyzer_1.0.0-1_aarch64.deb",
+      "sha256": "11e0701a4535d8d4c890f5592586c7f59a552aa9f6e6ef4767d072108dae697a",
+      "size": 2132
+    },
+    {
+      "package": "sparse-file-creator",
+      "version": "1.0.0-1",
+      "artifact": "sparse-file-creator_1.0.0-1_aarch64.deb",
+      "sha256": "46bcde107affc9133a2f04f7e26b3f7e9d6becbbb9036f6f13350a383f275fce",
+      "size": 2144
+    },
+    {
+      "package": "hole-punch-tester",
+      "version": "1.0.0-1",
+      "artifact": "hole-punch-tester_1.0.0-1_aarch64.deb",
+      "sha256": "d4d599de78275fb3094754f7113d8fa098e526f85091438f1291bca8f9aea5fc",
+      "size": 2148
+    },
+    {
+      "package": "disk-read-benchmark",
+      "version": "1.0.0-1",
+      "artifact": "disk-read-benchmark_1.0.0-1_aarch64.deb",
+      "sha256": "6ee54b38b11f40a09c55beba53625178d10598ee43c42ad28e1d4eb696c32ac4",
+      "size": 2140
+    },
+    {
+      "package": "disk-write-benchmark",
+      "version": "1.0.0-1",
+      "artifact": "disk-write-benchmark_1.0.0-1_aarch64.deb",
+      "sha256": "2ecd733136fbf1e9907c71eaee34f446f3fa143122633346992080a5b7afed7c",
+      "size": 2136
+    },
+    {
+      "package": "sync-latency-timer",
+      "version": "1.0.0-1",
+      "artifact": "sync-latency-timer_1.0.0-1_aarch64.deb",
+      "sha256": "078e3a0cc0e7a24b8a74139f80debb230c44811cf9a4c110438987082b89b659",
+      "size": 2136
+    },
+    {
+      "package": "fdatasync-tester",
+      "version": "1.0.0-1",
+      "artifact": "fdatasync-tester_1.0.0-1_aarch64.deb",
+      "sha256": "73a3cc7624ce321b3958d055d0fb6bd2d4c2a48ad7b8b05062933b96f2856b50",
+      "size": 2128
+    },
+    {
+      "package": "blkdiscard-analyzer",
+      "version": "1.0.0-1",
+      "artifact": "blkdiscard-analyzer_1.0.0-1_aarch64.deb",
+      "sha256": "18328be8a54a80dafa0c1b9069a53c26689233722a553ceee352314237c01a17",
+      "size": 2140
+    },
+    {
+      "package": "blockdev-geometry",
+      "version": "1.0.0-1",
+      "artifact": "blockdev-geometry_1.0.0-1_aarch64.deb",
+      "sha256": "14834334d736885e7b9df86b627d458912991e84e97fc5187b2da8fdc11e02e5",
+      "size": 2140
+    },
+    {
+      "package": "partition-table-view",
+      "version": "1.0.0-1",
+      "artifact": "partition-table-view_1.0.0-1_aarch64.deb",
+      "sha256": "5e0795e1f309c4a9c02be389888f74e7dac602cd32a2b9afb336dd81197cfefe",
+      "size": 2148
+    },
+    {
+      "package": "gpt-header-inspector",
+      "version": "1.0.0-1",
+      "artifact": "gpt-header-inspector_1.0.0-1_aarch64.deb",
+      "sha256": "50627a6e926bf4644a13bdfa8468041f6bb1d6f8518a05479d8f39ad0a593d18",
+      "size": 2160
+    },
+    {
+      "package": "mbr-sector-dump",
+      "version": "1.0.0-1",
+      "artifact": "mbr-sector-dump_1.0.0-1_aarch64.deb",
+      "sha256": "88bf281b1c5699ca04e51b563bd4d644bc356104248d14230c96a78e3539beff",
+      "size": 2144
+    },
+    {
+      "package": "vfat-boot-sector-chk",
+      "version": "1.0.0-1",
+      "artifact": "vfat-boot-sector-chk_1.0.0-1_aarch64.deb",
+      "sha256": "8b6d589dbc3a1fca8ed311f4c6db7689472c6432ecaefdb8a6ddfd40c88bb0d0",
+      "size": 2156
+    },
+    {
+      "package": "fat32-cluster-calc",
+      "version": "1.0.0-1",
+      "artifact": "fat32-cluster-calc_1.0.0-1_aarch64.deb",
+      "sha256": "6cfe6feeb8ba55f6fcf39d1a395a8c4b095d79a0bc34e02ce1bd86eab0bacf0b",
+      "size": 2148
+    },
+    {
+      "package": "exfat-header-parser",
+      "version": "1.0.0-1",
+      "artifact": "exfat-header-parser_1.0.0-1_aarch64.deb",
+      "sha256": "61c2efe36740b2ddd1f88c40515439760b0162b0f6c87375861020c5d00ec8d1",
+      "size": 2156
+    },
+    {
+      "package": "iso9660-browser",
+      "version": "1.0.0-1",
+      "artifact": "iso9660-browser_1.0.0-1_aarch64.deb",
+      "sha256": "b7aa444cb4352125cf9c8a246c7a603454acb5f751e136bba2339b579e49c18c",
+      "size": 2132
+    },
+    {
+      "package": "squashfs-super-view",
+      "version": "1.0.0-1",
+      "artifact": "squashfs-super-view_1.0.0-1_aarch64.deb",
+      "sha256": "894a95234f9cdce9b62c63d4e191bb2e96da58a392f5882ba77580e7bb699eab",
+      "size": 2144
+    },
+    {
+      "package": "ramdisk-builder-cli",
+      "version": "1.0.0-1",
+      "artifact": "ramdisk-builder-cli_1.0.0-1_aarch64.deb",
+      "sha256": "8eaa138b5e1d43d1dad259c0a8ad26cdae16ffc43f5010edcb52abfa146be49e",
+      "size": 2140
+    },
+    {
+      "package": "tmpfs-usage-tracker",
+      "version": "1.0.0-1",
+      "artifact": "tmpfs-usage-tracker_1.0.0-1_aarch64.deb",
+      "sha256": "b4492bf6cd40f869e9c16a7b0d9b67da5679d98a6fe06160a01844ebfe810571",
+      "size": 2144
+    },
+    {
+      "package": "bind-mount-auditor",
+      "version": "1.0.0-1",
+      "artifact": "bind-mount-auditor_1.0.0-1_aarch64.deb",
+      "sha256": "055d58ef3c5e25d2c3a795961b2b76b361c8c0ed4aaa692861ddf99d3e5896f2",
+      "size": 2136
+    },
+    {
+      "package": "mount-options-checker",
+      "version": "1.0.0-1",
+      "artifact": "mount-options-checker_1.0.0-1_aarch64.deb",
+      "sha256": "3b5c32f009ca622ceeb83758c5fb6363486b3f1fad8afc8aea0b7872bfffe76a",
+      "size": 2132
+    },
+    {
+      "package": "statvfs-free-calc",
+      "version": "1.0.0-1",
+      "artifact": "statvfs-free-calc_1.0.0-1_aarch64.deb",
+      "sha256": "bc3b3450efc868e6a864a58f79ef9c6cc6d2130a341a0cd0e96b5f7233c6b2c9",
+      "size": 2156
+    },
+    {
+      "package": "df-human-sorter",
+      "version": "1.0.0-1",
+      "artifact": "df-human-sorter_1.0.0-1_aarch64.deb",
+      "sha256": "e04e931ca6149f68a99697ec4a3975c6122381937ffb65537b08c6a774f54642",
+      "size": 2124
+    },
+    {
+      "package": "du-depth-limiter",
+      "version": "1.0.0-1",
+      "artifact": "du-depth-limiter_1.0.0-1_aarch64.deb",
+      "sha256": "1a96cac4910e0abc998f6e4be052ad5fb048b1816e64989c77e11f4ebf8d5320",
+      "size": 2148
+    },
+    {
+      "package": "hardlink-counter",
+      "version": "1.0.0-1",
+      "artifact": "hardlink-counter_1.0.0-1_aarch64.deb",
+      "sha256": "12257213281a9d6e8f8649aea5bee082f46a85dba6799b9bb293ec802aa0f11d",
+      "size": 2140
+    },
+    {
+      "package": "broken-symlink-clean",
+      "version": "1.0.0-1",
+      "artifact": "broken-symlink-clean_1.0.0-1_aarch64.deb",
+      "sha256": "ff4b518c93a7f5d589f563e8bfec6a923c4b371ae6bf7dc49c07798048d792a0",
+      "size": 2132
+    },
+    {
+      "package": "file-timestamp-sync",
+      "version": "1.0.0-1",
+      "artifact": "file-timestamp-sync_1.0.0-1_aarch64.deb",
+      "sha256": "02c717876d1088b82359b62a4e5944b2019111275eb2386a2ece4efd07c254d8",
+      "size": 2132
+    },
+    {
+      "package": "touch-date-setter",
+      "version": "1.0.0-1",
+      "artifact": "touch-date-setter_1.0.0-1_aarch64.deb",
+      "sha256": "4b10e79215e637bef2e35738aad8337eec21db3cedd25685ff979c46fef985c2",
+      "size": 2132
+    },
+    {
+      "package": "truncate-file-tool",
+      "version": "1.0.0-1",
+      "artifact": "truncate-file-tool_1.0.0-1_aarch64.deb",
+      "sha256": "5f0fef83b93ff3de2f619fb64313b8c891ef898bfc03d38b3e850eeb77e6bc3c",
+      "size": 2128
+    },
+    {
+      "package": "shred-secure-delete",
+      "version": "1.0.0-1",
+      "artifact": "shred-secure-delete_1.0.0-1_aarch64.deb",
+      "sha256": "c167b6d9d020a771fd6adaf3e9b84f477536fcb87188786d717d9209608b40b3",
+      "size": 2144
+    },
+    {
+      "package": "wipefs-magic-scanner",
+      "version": "1.0.0-1",
+      "artifact": "wipefs-magic-scanner_1.0.0-1_aarch64.deb",
+      "sha256": "c054fa140c1df8a9e3a5b182252f2e53f21a2490f8377c6b6d5ee62403d4f089",
+      "size": 2128
+    },
+    {
+      "package": "file-allocation-chk",
+      "version": "1.0.0-1",
+      "artifact": "file-allocation-chk_1.0.0-1_aarch64.deb",
+      "sha256": "4ad0f683452cfeb364ddd753ffedaaf3903ab814afa5af54aa124f6c34e77fcf",
+      "size": 2132
+    },
+    {
+      "package": "direct-io-benchmark",
+      "version": "1.0.0-1",
+      "artifact": "direct-io-benchmark_1.0.0-1_aarch64.deb",
+      "sha256": "1816c61fe24c7598e2d2e64233670514bf83cce1aefb215b7faf641f03c3ce6e",
+      "size": 2136
+    },
+    {
+      "package": "fallocate-prealloc",
+      "version": "1.0.0-1",
+      "artifact": "fallocate-prealloc_1.0.0-1_aarch64.deb",
+      "sha256": "c3162c74cf26b5d445b33196bf70743c1f0b9901e2ed21573ad1c11f9ba943e6",
+      "size": 2140
+    },
+    {
+      "package": "flock-file-mutex",
+      "version": "1.0.0-1",
+      "artifact": "flock-file-mutex_1.0.0-1_aarch64.deb",
+      "sha256": "89b242314988ee1bf0a9280c4b15c42222aecd2d9e38f572114b61f166245181",
+      "size": 2140
+    },
+    {
+      "package": "lockfile-manager",
+      "version": "1.0.0-1",
+      "artifact": "lockfile-manager_1.0.0-1_aarch64.deb",
+      "sha256": "9b0c7b8ca7b9ee09f683f719515427b95220738715e37f0fdd24cf60679eaeec",
+      "size": 2128
+    },
+    {
+      "package": "faccessat-tester",
+      "version": "1.0.0-1",
+      "artifact": "faccessat-tester_1.0.0-1_aarch64.deb",
+      "sha256": "324d8be8413512a5aca0e4605704a39046151562eee3eff3106b1f81269bac41",
+      "size": 2128
+    },
+    {
+      "package": "chattr-attribute-view",
+      "version": "1.0.0-1",
+      "artifact": "chattr-attribute-view_1.0.0-1_aarch64.deb",
+      "sha256": "2c5f8201091308c2b4a714adf6aee7264a24db19d2f8787cfabafcfc4d2eaa70",
+      "size": 2144
+    },
+    {
+      "package": "lsattr-ocean",
+      "version": "1.0.0-1",
+      "artifact": "lsattr-ocean_1.0.0-1_aarch64.deb",
+      "sha256": "59de1be9a4759668ffa65f7b7b38ef7a0570ac33b1f13b3c34759e8bae99cec7",
+      "size": 2136
+    },
+    {
+      "package": "file-descriptor-duper",
+      "version": "1.0.0-1",
+      "artifact": "file-descriptor-duper_1.0.0-1_aarch64.deb",
+      "sha256": "0f1d4dac94760f34449e83b2d3e2361ad5bd19942762e225c3b0d332750702c8",
+      "size": 2120
+    },
+    {
+      "package": "fifo-pipe-tester",
+      "version": "1.0.0-1",
+      "artifact": "fifo-pipe-tester_1.0.0-1_aarch64.deb",
+      "sha256": "562088f5fd0c752a7c6c20acd98aeee782828c47626afea97f568e378d4777ce",
+      "size": 2136
+    },
+    {
+      "package": "mknod-device-parser",
+      "version": "1.0.0-1",
+      "artifact": "mknod-device-parser_1.0.0-1_aarch64.deb",
+      "sha256": "5a9314c5c1204ab73417468673551741caf2652b14ec3455dbb69663c96fcf6e",
+      "size": 2144
+    },
+    {
+      "package": "socket-file-creator",
+      "version": "1.0.0-1",
+      "artifact": "socket-file-creator_1.0.0-1_aarch64.deb",
+      "sha256": "ec7439f987c6861550ad480db50770570c04beec72c4a1d233d73c802c68e70c",
+      "size": 2136
+    },
+    {
+      "package": "directory-depth-calc",
+      "version": "1.0.0-1",
+      "artifact": "directory-depth-calc_1.0.0-1_aarch64.deb",
+      "sha256": "95d1546c1c3aedeb102c265760e5af03644328e6e91469544315e4f535928f7d",
+      "size": 2140
+    },
+    {
+      "package": "empty-dir-pruner",
+      "version": "1.0.0-1",
+      "artifact": "empty-dir-pruner_1.0.0-1_aarch64.deb",
+      "sha256": "5259ac3f6602ee17a0e50ff8b564869e38c6fc8b338d1ddc5bc03b3d396af5e0",
+      "size": 2140
+    },
+    {
+      "package": "xattr-metadata-viewer",
+      "version": "1.0.0-1",
+      "artifact": "xattr-metadata-viewer_1.0.0-1_aarch64.deb",
+      "sha256": "c0733de8d2b02cd8d58547056e97ec7f96c657aa43caf056a50b17df7b4ccd78",
+      "size": 2156
+    },
+    {
+      "package": "file-checksum-tree",
+      "version": "1.0.0-1",
+      "artifact": "file-checksum-tree_1.0.0-1_aarch64.deb",
+      "sha256": "d74b4f7922cc7350989230e2402d3997ec3ea822540eebd6da88184cedf61369",
+      "size": 2148
+    },
+    {
+      "package": "storage-tree-graph",
+      "version": "1.0.0-1",
+      "artifact": "storage-tree-graph_1.0.0-1_aarch64.deb",
+      "sha256": "284dbd410a095e0ba81dee666034e1d9420658dbfa3001614ee38cdb7a16fac5",
+      "size": 2136
+    }
+  ]
+}

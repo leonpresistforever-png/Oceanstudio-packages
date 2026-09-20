@@ -1,0 +1,361 @@
+{
+  "schemaVersion": 1,
+  "shard": "shard-25-api-contract-validation",
+  "section": "devel",
+  "category": "API Contracts & HTTP Specification Linter",
+  "target": "aarch64-linux-android28",
+  "prefix": "/data/data/studio.ocean.app/files/usr",
+  "packageCount": 50,
+  "packages": [
+    {
+      "package": "openapi-v3-spec-linter",
+      "version": "1.0.0-1",
+      "artifact": "openapi-v3-spec-linter_1.0.0-1_aarch64.deb",
+      "sha256": "463741c82189088f74424dd9ee7af6bdb389f369403d317c8010e8a5ca804091",
+      "size": 2160
+    },
+    {
+      "package": "openapi-path-param-chk",
+      "version": "1.0.0-1",
+      "artifact": "openapi-path-param-chk_1.0.0-1_aarch64.deb",
+      "sha256": "423085110ffa376453aed792afccd599ce7363a5d77e6f29ef6365320ae9086b",
+      "size": 2156
+    },
+    {
+      "package": "openapi-schema-resolver",
+      "version": "1.0.0-1",
+      "artifact": "openapi-schema-resolver_1.0.0-1_aarch64.deb",
+      "sha256": "88e39c8b13829f928b7fff791b8d4c97661095b57df943c67a4ecd9e3458a7a3",
+      "size": 2152
+    },
+    {
+      "package": "swagger-v2-converter",
+      "version": "1.0.0-1",
+      "artifact": "swagger-v2-converter_1.0.0-1_aarch64.deb",
+      "sha256": "388299926b08b19d92d58f158130775575a5ad821feadc52915f3eca3a73b050",
+      "size": 2172
+    },
+    {
+      "package": "asyncapi-spec-validator",
+      "version": "1.0.0-1",
+      "artifact": "asyncapi-spec-validator_1.0.0-1_aarch64.deb",
+      "sha256": "cb0d9ab4f6afaaa6a3809de573b53c775b41482f5ab1d559f063e9ed102700a3",
+      "size": 2140
+    },
+    {
+      "package": "graphql-schema-parser",
+      "version": "1.0.0-1",
+      "artifact": "graphql-schema-parser_1.0.0-1_aarch64.deb",
+      "sha256": "49a0ab537ea178027a3b41c3703e203cea8389a624044daf2a3cb38a7ddddafb",
+      "size": 2160
+    },
+    {
+      "package": "graphql-query-linter",
+      "version": "1.0.0-1",
+      "artifact": "graphql-query-linter_1.0.0-1_aarch64.deb",
+      "sha256": "84670619064120fa9d4de9668deff6fdce2382c2db1ea7beb880362e29d6cc55",
+      "size": 2156
+    },
+    {
+      "package": "graphql-introspection-chk",
+      "version": "1.0.0-1",
+      "artifact": "graphql-introspection-chk_1.0.0-1_aarch64.deb",
+      "sha256": "1f2eea28d3be35b108197f1c117de682f92fe441be8269932028915ac0e88a08",
+      "size": 2164
+    },
+    {
+      "package": "protobuf-proto3-linter",
+      "version": "1.0.0-1",
+      "artifact": "protobuf-proto3-linter_1.0.0-1_aarch64.deb",
+      "sha256": "c546cb289f2c0a33cd3d565d0b1a49a2890a4c9aa7ee6e6a111c3653528d8954",
+      "size": 2156
+    },
+    {
+      "package": "protobuf-field-number-chk",
+      "version": "1.0.0-1",
+      "artifact": "protobuf-field-number-chk_1.0.0-1_aarch64.deb",
+      "sha256": "b8aa5438d6fe661125dabe2e0d42ab600417a8d9d26ef5f8a2c5d0e2bdce006e",
+      "size": 2160
+    },
+    {
+      "package": "protobuf-reserved-ranges",
+      "version": "1.0.0-1",
+      "artifact": "protobuf-reserved-ranges_1.0.0-1_aarch64.deb",
+      "sha256": "3e78a1200f1be5ddd6ecff294d2143f3a93596c406e12fce12ac875416d6038c",
+      "size": 2156
+    },
+    {
+      "package": "protobuf-deprecated-tag",
+      "version": "1.0.0-1",
+      "artifact": "protobuf-deprecated-tag_1.0.0-1_aarch64.deb",
+      "sha256": "9bac8713ce674599ea27695bbba2f3462969c73e29792a62c1772092c7e35bfe",
+      "size": 2152
+    },
+    {
+      "package": "grpc-reflection-client",
+      "version": "1.0.0-1",
+      "artifact": "grpc-reflection-client_1.0.0-1_aarch64.deb",
+      "sha256": "4ce61fa5a1e5a3e94c857bcab08d0af3105d247c6e4c120ac0e9cf00fc8efc89",
+      "size": 2160
+    },
+    {
+      "package": "json-schema-draft7-val",
+      "version": "1.0.0-1",
+      "artifact": "json-schema-draft7-val_1.0.0-1_aarch64.deb",
+      "sha256": "3394cf5d301b44458953e6a3f08101e5f8d8edc2bc9843d683a418b42058ee5c",
+      "size": 2152
+    },
+    {
+      "package": "json-schema-draft2020",
+      "version": "1.0.0-1",
+      "artifact": "json-schema-draft2020_1.0.0-1_aarch64.deb",
+      "sha256": "e3569f2a3fad290040589413d7452d0a441d36db237a4dd1f279583dee47ff9a",
+      "size": 2144
+    },
+    {
+      "package": "json-patch-rfc6902-run",
+      "version": "1.0.0-1",
+      "artifact": "json-patch-rfc6902-run_1.0.0-1_aarch64.deb",
+      "sha256": "0c86de950c71d924fba890e5f2d33db54f6da2671830ff60cc97e239445fc467",
+      "size": 2168
+    },
+    {
+      "package": "json-merge-patch-rfc7386",
+      "version": "1.0.0-1",
+      "artifact": "json-merge-patch-rfc7386_1.0.0-1_aarch64.deb",
+      "sha256": "e936a08ae1b580674d940987449515e70164f3695461a56a566a5bb7993a4cf2",
+      "size": 2168
+    },
+    {
+      "package": "json-pointer-rfc6901-cli",
+      "version": "1.0.0-1",
+      "artifact": "json-pointer-rfc6901-cli_1.0.0-1_aarch64.deb",
+      "sha256": "96f5d49c615a110516c4923d9e7dafaa31b7fba78519bb289cdd1ab2aac0cf22",
+      "size": 2176
+    },
+    {
+      "package": "http-status-code-lookup",
+      "version": "1.0.0-1",
+      "artifact": "http-status-code-lookup_1.0.0-1_aarch64.deb",
+      "sha256": "3cdc6af3d49a67815bbf135fb9042826859e4c59cf5fb8a1fe55e175c12fa187",
+      "size": 2168
+    },
+    {
+      "package": "http-auth-bearer-token",
+      "version": "1.0.0-1",
+      "artifact": "http-auth-bearer-token_1.0.0-1_aarch64.deb",
+      "sha256": "47fdf92cd9b5cf8b584d9a6bcc298470207293c5c86048b273dd3cb4acb91426",
+      "size": 2164
+    },
+    {
+      "package": "http-basic-auth-encoder",
+      "version": "1.0.0-1",
+      "artifact": "http-basic-auth-encoder_1.0.0-1_aarch64.deb",
+      "sha256": "b0867d83f118392adf571e75417f2b0c765ced2dd9b945e917e06fa80f3d34c3",
+      "size": 2164
+    },
+    {
+      "package": "oauth2-token-exchange",
+      "version": "1.0.0-1",
+      "artifact": "oauth2-token-exchange_1.0.0-1_aarch64.deb",
+      "sha256": "5433c4fe2b16d9de4e6868575efc422d9fdc07922ca8206938ac438a7ec4de82",
+      "size": 2160
+    },
+    {
+      "package": "oauth2-pkce-challenge",
+      "version": "1.0.0-1",
+      "artifact": "oauth2-pkce-challenge_1.0.0-1_aarch64.deb",
+      "sha256": "89b3e9c1f865d5d8beafc2ec5e64847aa4f2182ad3b78fa011c957f48a996eb3",
+      "size": 2172
+    },
+    {
+      "package": "oidc-discovery-parser",
+      "version": "1.0.0-1",
+      "artifact": "oidc-discovery-parser_1.0.0-1_aarch64.deb",
+      "sha256": "3733fe851f656f0524c2352b3727618be022783e5527044626c5f3066e3d4c12",
+      "size": 2172
+    },
+    {
+      "package": "saml-assertion-xml-chk",
+      "version": "1.0.0-1",
+      "artifact": "saml-assertion-xml-chk_1.0.0-1_aarch64.deb",
+      "sha256": "24fdc0d3d3f7329af842a34bf38508dcc7a87e099f52263cfee1ee01dea80339",
+      "size": 2164
+    },
+    {
+      "package": "soap-envelope-parser",
+      "version": "1.0.0-1",
+      "artifact": "soap-envelope-parser_1.0.0-1_aarch64.deb",
+      "sha256": "3c2e0a2883b333134ce71b4f2b1526b6b11b9921b5b4f71e18eed8a1c1207ec0",
+      "size": 2168
+    },
+    {
+      "package": "wsdl-contract-inspector",
+      "version": "1.0.0-1",
+      "artifact": "wsdl-contract-inspector_1.0.0-1_aarch64.deb",
+      "sha256": "454abe49fe741dc88eab5fcf80d9a00f666e0474d3e0670e5b27bfa7322c2dd4",
+      "size": 2152
+    },
+    {
+      "package": "rest-api-response-diff",
+      "version": "1.0.0-1",
+      "artifact": "rest-api-response-diff_1.0.0-1_aarch64.deb",
+      "sha256": "a7c858c77cbb474e05c0f92ca5856770428064a0e2eb68130bc5361bdbccf688",
+      "size": 2156
+    },
+    {
+      "package": "api-curl-command-gen",
+      "version": "1.0.0-1",
+      "artifact": "api-curl-command-gen_1.0.0-1_aarch64.deb",
+      "sha256": "6ef922068d7c2a99558a1d27341daa2638f00bcd78647e7104b0b3887e47afb4",
+      "size": 2160
+    },
+    {
+      "package": "api-fuzz-parameter-gen",
+      "version": "1.0.0-1",
+      "artifact": "api-fuzz-parameter-gen_1.0.0-1_aarch64.deb",
+      "sha256": "283ebbf3f304e6a488d189f6160ca2b4470b339b6986e2c2f46e57fa1be54577",
+      "size": 2156
+    },
+    {
+      "package": "api-rate-limit-header",
+      "version": "1.0.0-1",
+      "artifact": "api-rate-limit-header_1.0.0-1_aarch64.deb",
+      "sha256": "05e7c07d83ded5a5b5c90618c1bdba86ac53d3e2259fa2f1c008d6587eef39d0",
+      "size": 2152
+    },
+    {
+      "package": "etag-if-none-match-chk",
+      "version": "1.0.0-1",
+      "artifact": "etag-if-none-match-chk_1.0.0-1_aarch64.deb",
+      "sha256": "e91cf518b623caf03cb65888b0a924f375215177d96de807b98142386ad80c5b",
+      "size": 2180
+    },
+    {
+      "package": "cache-control-validator",
+      "version": "1.0.0-1",
+      "artifact": "cache-control-validator_1.0.0-1_aarch64.deb",
+      "sha256": "d46c81f59140a9a9b14808fe25e544cc6a5b6bfe8c2b48b62ba7e921803e151c",
+      "size": 2160
+    },
+    {
+      "package": "content-security-policy",
+      "version": "1.0.0-1",
+      "artifact": "content-security-policy_1.0.0-1_aarch64.deb",
+      "sha256": "f6f77c5044c804e8a3c5af064d832cb9cf14fe91ecaf3d3337148ae189efc98b",
+      "size": 2160
+    },
+    {
+      "package": "cross-origin-embedder",
+      "version": "1.0.0-1",
+      "artifact": "cross-origin-embedder_1.0.0-1_aarch64.deb",
+      "sha256": "45274b4086ac83b780f3cf60fe4898eabdfcbc6746fb4e2be46e920a206f9199",
+      "size": 2152
+    },
+    {
+      "package": "cross-origin-resource",
+      "version": "1.0.0-1",
+      "artifact": "cross-origin-resource_1.0.0-1_aarch64.deb",
+      "sha256": "5d371086d043fe7b3712676d9e7045b6b72e0402cc46b6a35873bbad3f4b6441",
+      "size": 2152
+    },
+    {
+      "package": "referrer-policy-checker",
+      "version": "1.0.0-1",
+      "artifact": "referrer-policy-checker_1.0.0-1_aarch64.deb",
+      "sha256": "55a0ae6ab336ee58f5e1c19b36c500e47b56de13719b739a9a0299b695242806",
+      "size": 2152
+    },
+    {
+      "package": "hsts-preload-eligibility",
+      "version": "1.0.0-1",
+      "artifact": "hsts-preload-eligibility_1.0.0-1_aarch64.deb",
+      "sha256": "264060b1900479c29e645fa6cade84de084e0a0933251c4d5faffd7ec19a7cc8",
+      "size": 2180
+    },
+    {
+      "package": "expect-ct-header-chk",
+      "version": "1.0.0-1",
+      "artifact": "expect-ct-header-chk_1.0.0-1_aarch64.deb",
+      "sha256": "8f4c22236d078bad4e85bbc3ff44cbbab2f06e1c98668516c8612ac7ba00185d",
+      "size": 2172
+    },
+    {
+      "package": "feature-policy-analyzer",
+      "version": "1.0.0-1",
+      "artifact": "feature-policy-analyzer_1.0.0-1_aarch64.deb",
+      "sha256": "d3468d31d6d560af63bd339e582526541571ab6ae1b3f7a66ac0b94e08fdd6a7",
+      "size": 2156
+    },
+    {
+      "package": "permissions-policy-fmt",
+      "version": "1.0.0-1",
+      "artifact": "permissions-policy-fmt_1.0.0-1_aarch64.deb",
+      "sha256": "10b12937b1c56b9c90bfdd3070ada51d1fac50aa4d3c30ecf6a203283c7934bd",
+      "size": 2164
+    },
+    {
+      "package": "webhook-delivery-retry",
+      "version": "1.0.0-1",
+      "artifact": "webhook-delivery-retry_1.0.0-1_aarch64.deb",
+      "sha256": "6066213866a5d5013568555abf91220f99e04774bdab879267d459828596721f",
+      "size": 2148
+    },
+    {
+      "package": "hmac-webhook-verifier",
+      "version": "1.0.0-1",
+      "artifact": "hmac-webhook-verifier_1.0.0-1_aarch64.deb",
+      "sha256": "0dbe6d1ef05e95b47da50d462a4776e45d52710fbf62dc6077298ea0f801ceeb",
+      "size": 2164
+    },
+    {
+      "package": "api-deprecation-sunset",
+      "version": "1.0.0-1",
+      "artifact": "api-deprecation-sunset_1.0.0-1_aarch64.deb",
+      "sha256": "11097b6d200533df45940cd482efeef1975070a2997b06e8ea54d735e809af51",
+      "size": 2156
+    },
+    {
+      "package": "pagination-link-header",
+      "version": "1.0.0-1",
+      "artifact": "pagination-link-header_1.0.0-1_aarch64.deb",
+      "sha256": "9eb808ae07845f6bcbca25668f32171f40fea5511ceec44b6a288626f6ef4cfa",
+      "size": 2160
+    },
+    {
+      "package": "cursor-based-pager-cli",
+      "version": "1.0.0-1",
+      "artifact": "cursor-based-pager-cli_1.0.0-1_aarch64.deb",
+      "sha256": "4aaecec67421a4431835d3bd33278664ec045d6d53c3ccd010367b87b612a92b",
+      "size": 2152
+    },
+    {
+      "package": "json-feed-validator-cli",
+      "version": "1.0.0-1",
+      "artifact": "json-feed-validator-cli_1.0.0-1_aarch64.deb",
+      "sha256": "9b48d52732935db6e6ac8275d2578f57408e65c8f842d2ab03e513c5e07d2576",
+      "size": 2144
+    },
+    {
+      "package": "rss2-feed-xml-checker",
+      "version": "1.0.0-1",
+      "artifact": "rss2-feed-xml-checker_1.0.0-1_aarch64.deb",
+      "sha256": "42a24224aab3f04bff7bec50e2a44476c67c2d391d46ab8c18c3359fe7de6b30",
+      "size": 2152
+    },
+    {
+      "package": "atom-feed-xml-validator",
+      "version": "1.0.0-1",
+      "artifact": "atom-feed-xml-validator_1.0.0-1_aarch64.deb",
+      "sha256": "ab8ae86734bc0766ce4ed3c8b85b85ec6fb316fd4835435b61e579a83afb92bb",
+      "size": 2160
+    },
+    {
+      "package": "sitemap-xml-inspector",
+      "version": "1.0.0-1",
+      "artifact": "sitemap-xml-inspector_1.0.0-1_aarch64.deb",
+      "sha256": "07960c574f1e007d666f7eca5bba6486e2a2c349be6a7b3f3aa7ffeaf6c67530",
+      "size": 2148
+    }
+  ]
+}

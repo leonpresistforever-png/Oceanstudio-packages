@@ -1,0 +1,361 @@
+{
+  "schemaVersion": 1,
+  "shard": "shard-06-system-diagnostics-proc",
+  "section": "admin",
+  "category": "System Diagnostics & Process Auditing",
+  "target": "aarch64-linux-android28",
+  "prefix": "/data/data/studio.ocean.app/files/usr",
+  "packageCount": 50,
+  "packages": [
+    {
+      "package": "proc-uptime-monitor",
+      "version": "1.0.0-1",
+      "artifact": "proc-uptime-monitor_1.0.0-1_aarch64.deb",
+      "sha256": "8172cc820bc41051370a4030187a47c47231b6323831779f78c5c4292450f7b5",
+      "size": 2132
+    },
+    {
+      "package": "meminfo-analyzer",
+      "version": "1.0.0-1",
+      "artifact": "meminfo-analyzer_1.0.0-1_aarch64.deb",
+      "sha256": "bda5c4da6599cdc1146b6386d505f967a8c4819a87d02ea27a3db9cc2ed2d504",
+      "size": 2136
+    },
+    {
+      "package": "loadavg-tracker",
+      "version": "1.0.0-1",
+      "artifact": "loadavg-tracker_1.0.0-1_aarch64.deb",
+      "sha256": "08e92df2ba7510718994fb3a97b9f3101a733b500e780460daec1b3c2f1d5d54",
+      "size": 2132
+    },
+    {
+      "package": "vmstat-summarizer",
+      "version": "1.0.0-1",
+      "artifact": "vmstat-summarizer_1.0.0-1_aarch64.deb",
+      "sha256": "5ee7f4cd65f4bd214f9fd96e11cb216c9ee0a0ca1ca452b0c7418e3f3d03543e",
+      "size": 2144
+    },
+    {
+      "package": "iostat-collector",
+      "version": "1.0.0-1",
+      "artifact": "iostat-collector_1.0.0-1_aarch64.deb",
+      "sha256": "8d18fe53529ce1c60611b3b7c870f62effe922f2c0049db30bb44fd4db5e7ae4",
+      "size": 2156
+    },
+    {
+      "package": "pidstat-inspector",
+      "version": "1.0.0-1",
+      "artifact": "pidstat-inspector_1.0.0-1_aarch64.deb",
+      "sha256": "e4a78335aa7b4b5182a64dec61ba255a1f10db6020c868da00e8ff6a78d99494",
+      "size": 2136
+    },
+    {
+      "package": "cgroup-tree-viewer",
+      "version": "1.0.0-1",
+      "artifact": "cgroup-tree-viewer_1.0.0-1_aarch64.deb",
+      "sha256": "37eba8047d0801d5e3421b93a99336a3fa5c01ec4581f8eb5cfcf92ffb8808d7",
+      "size": 2128
+    },
+    {
+      "package": "cgroup-memory-limiter",
+      "version": "1.0.0-1",
+      "artifact": "cgroup-memory-limiter_1.0.0-1_aarch64.deb",
+      "sha256": "eccd833c6d842f33380af58b7c29d5fc4e7cad6157dc1827e1a2baef8aee42fe",
+      "size": 2132
+    },
+    {
+      "package": "cgroup-cpu-quota",
+      "version": "1.0.0-1",
+      "artifact": "cgroup-cpu-quota_1.0.0-1_aarch64.deb",
+      "sha256": "009b9880bb75019db8a0e7415112cba46b75c3f258e371c1579a7cdbca3582d6",
+      "size": 2124
+    },
+    {
+      "package": "limits-conf-checker",
+      "version": "1.0.0-1",
+      "artifact": "limits-conf-checker_1.0.0-1_aarch64.deb",
+      "sha256": "a6f973b6966b58d44e71161c66eca05f7bad44be12dae70d8ca2226190384fde",
+      "size": 2140
+    },
+    {
+      "package": "ulimit-inspector",
+      "version": "1.0.0-1",
+      "artifact": "ulimit-inspector_1.0.0-1_aarch64.deb",
+      "sha256": "9c33246e804855e2b1c635ac8e8a6c2af2a4701db2f9d2bdb42b081b32194338",
+      "size": 2120
+    },
+    {
+      "package": "smaps-rollup-calc",
+      "version": "1.0.0-1",
+      "artifact": "smaps-rollup-calc_1.0.0-1_aarch64.deb",
+      "sha256": "5c9d595bf2b1caaca6442af68e5eb7d2fba1fbdbfac6ba769b9b9a584ed642da",
+      "size": 2144
+    },
+    {
+      "package": "pmap-memory-mapper",
+      "version": "1.0.0-1",
+      "artifact": "pmap-memory-mapper_1.0.0-1_aarch64.deb",
+      "sha256": "19b268f19775f866efeb5fa3b26b680c7403ce9606a3111da4591dd81066cda7",
+      "size": 2144
+    },
+    {
+      "package": "maps-segment-auditor",
+      "version": "1.0.0-1",
+      "artifact": "maps-segment-auditor_1.0.0-1_aarch64.deb",
+      "sha256": "54cc45587a686d0eca2997c1df80c7e500dc603cbb47f1ecdd47e21b7d41bc7d",
+      "size": 2144
+    },
+    {
+      "package": "fd-leak-detector",
+      "version": "1.0.0-1",
+      "artifact": "fd-leak-detector_1.0.0-1_aarch64.deb",
+      "sha256": "1f7c5f9791d93ebc6ad2a4f8980cf3aac3faafd7e75a188b23ab78155df0a376",
+      "size": 2132
+    },
+    {
+      "package": "open-files-summarizer",
+      "version": "1.0.0-1",
+      "artifact": "open-files-summarizer_1.0.0-1_aarch64.deb",
+      "sha256": "1bc9b71b3c3b9d386d3d26267ef217e0e660ea75ec7014484a1758cc8d46d2b0",
+      "size": 2132
+    },
+    {
+      "package": "tcp-socket-counter",
+      "version": "1.0.0-1",
+      "artifact": "tcp-socket-counter_1.0.0-1_aarch64.deb",
+      "sha256": "a0d2c0066ecd80591808f92fab1fd5e82f1be4302f8f7a662814d901f697c019",
+      "size": 2140
+    },
+    {
+      "package": "udp-socket-inspector",
+      "version": "1.0.0-1",
+      "artifact": "udp-socket-inspector_1.0.0-1_aarch64.deb",
+      "sha256": "492993f3dc8d3547cba29af90b776380f7892f2d84fc4eb9b8028dd81f06f977",
+      "size": 2144
+    },
+    {
+      "package": "unix-domain-lister",
+      "version": "1.0.0-1",
+      "artifact": "unix-domain-lister_1.0.0-1_aarch64.deb",
+      "sha256": "7ec7c6cdb7566be3e50ddd55163ba6aa953570b8bdc31e3b18dcb7b25dd96863",
+      "size": 2136
+    },
+    {
+      "package": "sockstat-analyzer",
+      "version": "1.0.0-1",
+      "artifact": "sockstat-analyzer_1.0.0-1_aarch64.deb",
+      "sha256": "f15603720e2e897fa551ddbfb51701bf869dd28679bb08a966f8eed40878dbe7",
+      "size": 2128
+    },
+    {
+      "package": "netstat-nat-viewer",
+      "version": "1.0.0-1",
+      "artifact": "netstat-nat-viewer_1.0.0-1_aarch64.deb",
+      "sha256": "b2a6906fda132c65c4f73f06fd80ddf43d961a53b7671a83ffbc6f501a9c830c",
+      "size": 2136
+    },
+    {
+      "package": "interrupts-counter",
+      "version": "1.0.0-1",
+      "artifact": "interrupts-counter_1.0.0-1_aarch64.deb",
+      "sha256": "d22872362866f3ee6e4f1cc73cdb37b8dc2dfd5f7501ceed8cc3d64dc28e3bac",
+      "size": 2152
+    },
+    {
+      "package": "softirqs-profiler",
+      "version": "1.0.0-1",
+      "artifact": "softirqs-profiler_1.0.0-1_aarch64.deb",
+      "sha256": "9e21829f929a6da07d3a224371014d7dc950bfb9e778f01ef246c5760d76678c",
+      "size": 2124
+    },
+    {
+      "package": "sched-debug-parser",
+      "version": "1.0.0-1",
+      "artifact": "sched-debug-parser_1.0.0-1_aarch64.deb",
+      "sha256": "34424d0b0230e90c738235f5a68e17b86ddd3e022b4ca3ebc6d8a4b110441721",
+      "size": 2136
+    },
+    {
+      "package": "buddyinfo-analyzer",
+      "version": "1.0.0-1",
+      "artifact": "buddyinfo-analyzer_1.0.0-1_aarch64.deb",
+      "sha256": "96aba5d8dfcb5744274eddc903f33da275e718f90dbc2844d5eb47eadfe3d052",
+      "size": 2136
+    },
+    {
+      "package": "slabinfo-inspector",
+      "version": "1.0.0-1",
+      "artifact": "slabinfo-inspector_1.0.0-1_aarch64.deb",
+      "sha256": "11bfc163037b338f1a30556e1eb7129f275adf06ad98edf788b5a768317cb8d0",
+      "size": 2144
+    },
+    {
+      "package": "pagetype-fragmentation",
+      "version": "1.0.0-1",
+      "artifact": "pagetype-fragmentation_1.0.0-1_aarch64.deb",
+      "sha256": "ebade5f15d382f2f964f81caea616f2f5df77d1d0eb517d006310c8527637924",
+      "size": 2140
+    },
+    {
+      "package": "zoneinfo-auditor",
+      "version": "1.0.0-1",
+      "artifact": "zoneinfo-auditor_1.0.0-1_aarch64.deb",
+      "sha256": "2fdf83d590566e3a22d9102062be66e8b3cb6a2a8bb32cf991a99a6ae4332ab7",
+      "size": 2136
+    },
+    {
+      "package": "dmesg-boot-filter",
+      "version": "1.0.0-1",
+      "artifact": "dmesg-boot-filter_1.0.0-1_aarch64.deb",
+      "sha256": "979880867ef7c070836f12d0140eacbcd5ac1c143d532307225324dfc76b93d5",
+      "size": 2144
+    },
+    {
+      "package": "kallsyms-resolver",
+      "version": "1.0.0-1",
+      "artifact": "kallsyms-resolver_1.0.0-1_aarch64.deb",
+      "sha256": "a302362ec94f77608f0148f8b7e8c8f3b239a76f50cdefd6a6cc4ec0c1c3bc44",
+      "size": 2140
+    },
+    {
+      "package": "kernel-cmdline-parser",
+      "version": "1.0.0-1",
+      "artifact": "kernel-cmdline-parser_1.0.0-1_aarch64.deb",
+      "sha256": "ec7a46cedb9417e4301d6a09910edb9b6ae029036b7fc2cc830e01a3100c337b",
+      "size": 2144
+    },
+    {
+      "package": "sysctl-rule-validator",
+      "version": "1.0.0-1",
+      "artifact": "sysctl-rule-validator_1.0.0-1_aarch64.deb",
+      "sha256": "a404386cbedafebb39e910eb7395daa806ab59f0603cff09729a283fa2e6a5bb",
+      "size": 2148
+    },
+    {
+      "package": "mountinfo-inspector",
+      "version": "1.0.0-1",
+      "artifact": "mountinfo-inspector_1.0.0-1_aarch64.deb",
+      "sha256": "ca253b36878ebce2e6793bae51cd9d445cd9b431e40ad86f638c187fa351ed43",
+      "size": 2128
+    },
+    {
+      "package": "diskstats-parser",
+      "version": "1.0.0-1",
+      "artifact": "diskstats-parser_1.0.0-1_aarch64.deb",
+      "sha256": "0b7fb087cd34b21e7b0c21e6f27cad06d238be96a8610c0e3c33021d19e3f4b4",
+      "size": 2136
+    },
+    {
+      "package": "stat-context-switches",
+      "version": "1.0.0-1",
+      "artifact": "stat-context-switches_1.0.0-1_aarch64.deb",
+      "sha256": "53c4d6b449d510fe69efc54d4262968e2a1d394782d774d75077502b9a0da205",
+      "size": 2136
+    },
+    {
+      "package": "task-thread-counter",
+      "version": "1.0.0-1",
+      "artifact": "task-thread-counter_1.0.0-1_aarch64.deb",
+      "sha256": "a52b74d037bdc0dcccf7671e0cc30924f7c5825132c9166ad82d24c25244b2a1",
+      "size": 2132
+    },
+    {
+      "package": "zombie-process-killer",
+      "version": "1.0.0-1",
+      "artifact": "zombie-process-killer_1.0.0-1_aarch64.deb",
+      "sha256": "82095b3ad0f59776a4d7f29222aae21951b1561be33bb791d171825c0da95392",
+      "size": 2128
+    },
+    {
+      "package": "pstree-ocean",
+      "version": "1.0.0-1",
+      "artifact": "pstree-ocean_1.0.0-1_aarch64.deb",
+      "sha256": "130eaeca4a484a93a5b2021c61b9785cef6772af571287c98ecfbb49e632b305",
+      "size": 2116
+    },
+    {
+      "package": "sched-latency-tracker",
+      "version": "1.0.0-1",
+      "artifact": "sched-latency-tracker_1.0.0-1_aarch64.deb",
+      "sha256": "9da6d942a89abfa3bcc113d9a5b6aed44b292d39b4b8ab41737926319c8faa7f",
+      "size": 2140
+    },
+    {
+      "package": "futex-wait-detector",
+      "version": "1.0.0-1",
+      "artifact": "futex-wait-detector_1.0.0-1_aarch64.deb",
+      "sha256": "e11801ce7e6b3755e66a8f4a7e113d813bc733b5def0d2374c1be01f886a5832",
+      "size": 2140
+    },
+    {
+      "package": "oom-score-inspector",
+      "version": "1.0.0-1",
+      "artifact": "oom-score-inspector_1.0.0-1_aarch64.deb",
+      "sha256": "0f6ffcd7a17f429ce7e27073315e83c0626936f0573fafb8a1dff4b922f903b6",
+      "size": 2144
+    },
+    {
+      "package": "oom-killer-analyzer",
+      "version": "1.0.0-1",
+      "artifact": "oom-killer-analyzer_1.0.0-1_aarch64.deb",
+      "sha256": "64713f747208e4e273b99d896a083e5be8e0ae12013fe194e34d37f41212212b",
+      "size": 2140
+    },
+    {
+      "package": "capsh-capability-view",
+      "version": "1.0.0-1",
+      "artifact": "capsh-capability-view_1.0.0-1_aarch64.deb",
+      "sha256": "cd4c020976a95dde48112afe1ee05c60ebad51a3ebf0ca2443e170bbf9cead25",
+      "size": 2136
+    },
+    {
+      "package": "prctl-dump-status",
+      "version": "1.0.0-1",
+      "artifact": "prctl-dump-status_1.0.0-1_aarch64.deb",
+      "sha256": "c6d5263484211ed0bae1ffd68dd3aa3ea035e9e8ea9ac05be958621f03fd675d",
+      "size": 2128
+    },
+    {
+      "package": "seccomp-filter-audit",
+      "version": "1.0.0-1",
+      "artifact": "seccomp-filter-audit_1.0.0-1_aarch64.deb",
+      "sha256": "94d92268e22b86177620a9502e0abe5f3992e878cb9f711c9ebcce9658c77693",
+      "size": 2152
+    },
+    {
+      "package": "auxv-vector-inspector",
+      "version": "1.0.0-1",
+      "artifact": "auxv-vector-inspector_1.0.0-1_aarch64.deb",
+      "sha256": "63b354f574a0c0a1f4e51d55f4e377566691a88325fb4b89f925042bc5a8f5ee",
+      "size": 2152
+    },
+    {
+      "package": "environ-auditor",
+      "version": "1.0.0-1",
+      "artifact": "environ-auditor_1.0.0-1_aarch64.deb",
+      "sha256": "67e143e68d3299eacd6780f5d1a98021d7f916877c4ba10dddd7ed2c4983cc3a",
+      "size": 2120
+    },
+    {
+      "package": "cmdline-sanitizer",
+      "version": "1.0.0-1",
+      "artifact": "cmdline-sanitizer_1.0.0-1_aarch64.deb",
+      "sha256": "b8abaea88c0d03127e978c12d6e98a7dfadf627b471cf522347f1525f69de09e",
+      "size": 2136
+    },
+    {
+      "package": "statm-resident-calc",
+      "version": "1.0.0-1",
+      "artifact": "statm-resident-calc_1.0.0-1_aarch64.deb",
+      "sha256": "81a67a069edf9dca38461350cde02075f6a3749ac5681d25e5479199fafc58e1",
+      "size": 2148
+    },
+    {
+      "package": "wchan-kernel-tracer",
+      "version": "1.0.0-1",
+      "artifact": "wchan-kernel-tracer_1.0.0-1_aarch64.deb",
+      "sha256": "3d869f23374141f30c34b518963d6a80aeffa081dbf1e78c76cff0333d159627",
+      "size": 2140
+    }
+  ]
+}

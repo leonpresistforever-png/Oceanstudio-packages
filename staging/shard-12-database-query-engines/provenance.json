@@ -1,0 +1,361 @@
+{
+  "schemaVersion": 1,
+  "shard": "shard-12-database-query-engines",
+  "section": "database",
+  "category": "Database Engines & Query Processing",
+  "target": "aarch64-linux-android28",
+  "prefix": "/data/data/studio.ocean.app/files/usr",
+  "packageCount": 50,
+  "packages": [
+    {
+      "package": "duckdb-query-runner",
+      "version": "1.0.0-1",
+      "artifact": "duckdb-query-runner_1.0.0-1_aarch64.deb",
+      "sha256": "11c12de2b6e3d5c0143b1a63dc5510a0e9f8aab0f48fd8604648613521a7310c",
+      "size": 2132
+    },
+    {
+      "package": "sqlite-fts5-tokenizer",
+      "version": "1.0.0-1",
+      "artifact": "sqlite-fts5-tokenizer_1.0.0-1_aarch64.deb",
+      "sha256": "55e2002ebb31b75689207eba5c802070a93c93a10a12685269dd5aff9f39611c",
+      "size": 2156
+    },
+    {
+      "package": "sqlite-json-query-cli",
+      "version": "1.0.0-1",
+      "artifact": "sqlite-json-query-cli_1.0.0-1_aarch64.deb",
+      "sha256": "218819cc53d5a5e4f26de40cd053b2c9b30dc7e0378ea1ed60a4cd2b0025d3da",
+      "size": 2144
+    },
+    {
+      "package": "sqlite-rbtree-visualizer",
+      "version": "1.0.0-1",
+      "artifact": "sqlite-rbtree-visualizer_1.0.0-1_aarch64.deb",
+      "sha256": "381647cf9d65131d0abdc17a2a876735982716e4e91222add446b146913e3729",
+      "size": 2144
+    },
+    {
+      "package": "sqlite-b-tree-inspector",
+      "version": "1.0.0-1",
+      "artifact": "sqlite-b-tree-inspector_1.0.0-1_aarch64.deb",
+      "sha256": "2acebc6a0ca75763bf90e18c11765605afa6924e3d08760fe9c6a71be717b52f",
+      "size": 2144
+    },
+    {
+      "package": "sqlite-page-analyzer",
+      "version": "1.0.0-1",
+      "artifact": "sqlite-page-analyzer_1.0.0-1_aarch64.deb",
+      "sha256": "184af6637410d8154483a82b9672aba3475cfa41c85df3179605f316b072614d",
+      "size": 2152
+    },
+    {
+      "package": "sqlite-vacuum-analyze",
+      "version": "1.0.0-1",
+      "artifact": "sqlite-vacuum-analyze_1.0.0-1_aarch64.deb",
+      "sha256": "31ac0f57d50eb171f5816896d5d5b4d9d77aa7e49ade9cb08ced14bdce78fde9",
+      "size": 2156
+    },
+    {
+      "package": "sqlite-pragma-dump",
+      "version": "1.0.0-1",
+      "artifact": "sqlite-pragma-dump_1.0.0-1_aarch64.deb",
+      "sha256": "0edea215581fe53cc0222c5b5ae58bd5b8bb0cf2a2f72836397eb4e68541fcdb",
+      "size": 2136
+    },
+    {
+      "package": "sqlite-table-sizes",
+      "version": "1.0.0-1",
+      "artifact": "sqlite-table-sizes_1.0.0-1_aarch64.deb",
+      "sha256": "31bb772f854eb6dd3bf5475e88e3d3f7cabb15905ae039ef13e923c2f5f6ba7b",
+      "size": 2140
+    },
+    {
+      "package": "sqlite-index-recommend",
+      "version": "1.0.0-1",
+      "artifact": "sqlite-index-recommend_1.0.0-1_aarch64.deb",
+      "sha256": "2171a7a20e46e74bede9fe0a940985457f0d73b4c58a474df04951eed1692330",
+      "size": 2148
+    },
+    {
+      "package": "sqlite-transaction-log",
+      "version": "1.0.0-1",
+      "artifact": "sqlite-transaction-log_1.0.0-1_aarch64.deb",
+      "sha256": "5fee15bf0103c042c80d0694eb606fb08f586249cb3ee0cc0cb37f8f787e5bfc",
+      "size": 2156
+    },
+    {
+      "package": "sqlite-blob-extractor",
+      "version": "1.0.0-1",
+      "artifact": "sqlite-blob-extractor_1.0.0-1_aarch64.deb",
+      "sha256": "a630ce8a473afa42469a20f34b108cb731c0975dd38260cbac80208015eedff1",
+      "size": 2160
+    },
+    {
+      "package": "sqlite-repair-corrupt",
+      "version": "1.0.0-1",
+      "artifact": "sqlite-repair-corrupt_1.0.0-1_aarch64.deb",
+      "sha256": "8ecfa5f737bd25cce80db1106702c589c56efbdeb0c38ce0e91a725c1052c68b",
+      "size": 2144
+    },
+    {
+      "package": "rocksdb-sst-dump",
+      "version": "1.0.0-1",
+      "artifact": "rocksdb-sst-dump_1.0.0-1_aarch64.deb",
+      "sha256": "293d0f3fb258c0f6abd3fb3fe5b7168474f4b3c729f240174848676f71ae87d4",
+      "size": 2136
+    },
+    {
+      "package": "leveldb-log-inspector",
+      "version": "1.0.0-1",
+      "artifact": "leveldb-log-inspector_1.0.0-1_aarch64.deb",
+      "sha256": "ea5b1f70f4b54674ba588a2a06081d56964c690ee8c851c1ea8a4845b40beb0e",
+      "size": 2164
+    },
+    {
+      "package": "lmdb-stat-analyzer",
+      "version": "1.0.0-1",
+      "artifact": "lmdb-stat-analyzer_1.0.0-1_aarch64.deb",
+      "sha256": "7628040fe8ac41896ef74942314e1f247caef2105e03661e2743a5eec80b2fe9",
+      "size": 2148
+    },
+    {
+      "package": "berkeleydb-hash-chk",
+      "version": "1.0.0-1",
+      "artifact": "berkeleydb-hash-chk_1.0.0-1_aarch64.deb",
+      "sha256": "0bee12bbd31873019e9c110cf48e24e0668ae5963e571aa6c032fbb53d5b46c4",
+      "size": 2144
+    },
+    {
+      "package": "redis-rdb-parser",
+      "version": "1.0.0-1",
+      "artifact": "redis-rdb-parser_1.0.0-1_aarch64.deb",
+      "sha256": "1df37b37a61a6c5d2ab90bcd829725c7b2f86d485ab91f8000ad2b6e6ae0cc3e",
+      "size": 2144
+    },
+    {
+      "package": "redis-aof-rewriter",
+      "version": "1.0.0-1",
+      "artifact": "redis-aof-rewriter_1.0.0-1_aarch64.deb",
+      "sha256": "b5f2d44a0f7c8acfdd1f11c9178876dbcfed14f4eefdb278ba65661c06ef1be9",
+      "size": 2148
+    },
+    {
+      "package": "redis-resp-encoder",
+      "version": "1.0.0-1",
+      "artifact": "redis-resp-encoder_1.0.0-1_aarch64.deb",
+      "sha256": "71cc639495c327db2757b35a441d09bf8adcfc93d43e6cce3b8010bbfcbe0bc3",
+      "size": 2152
+    },
+    {
+      "package": "redis-resp-decoder",
+      "version": "1.0.0-1",
+      "artifact": "redis-resp-decoder_1.0.0-1_aarch64.deb",
+      "sha256": "67a107e102799abd008b44a3885204dbf1d2a701b1e0bd5ec714c85c02822450",
+      "size": 2148
+    },
+    {
+      "package": "memcached-text-proto",
+      "version": "1.0.0-1",
+      "artifact": "memcached-text-proto_1.0.0-1_aarch64.deb",
+      "sha256": "dde401021ca473510ac8498b374ddf987da23f9d7214312c8cdc9966505f0a5f",
+      "size": 2144
+    },
+    {
+      "package": "cassandra-cql-parser",
+      "version": "1.0.0-1",
+      "artifact": "cassandra-cql-parser_1.0.0-1_aarch64.deb",
+      "sha256": "6328d59537cdbefb954df78b28a645e690e61b68eed9caa1189a4859f971f23c",
+      "size": 2152
+    },
+    {
+      "package": "mongodb-extended-json",
+      "version": "1.0.0-1",
+      "artifact": "mongodb-extended-json_1.0.0-1_aarch64.deb",
+      "sha256": "3645a2c51377c5297943451369fa3c03b17be3f8ac46ac687d235e886f54968a",
+      "size": 2144
+    },
+    {
+      "package": "postgresql-copy-stream",
+      "version": "1.0.0-1",
+      "artifact": "postgresql-copy-stream_1.0.0-1_aarch64.deb",
+      "sha256": "a6e7ae7354cfbadaa27cd5b777b2fad0892fcfad4034f0d5dcc5bf8351c88b39",
+      "size": 2156
+    },
+    {
+      "package": "mysql-binlog-event-chk",
+      "version": "1.0.0-1",
+      "artifact": "mysql-binlog-event-chk_1.0.0-1_aarch64.deb",
+      "sha256": "80d446efd8d5f0bfdb45bda7f60b3a84a5107db9dbf4d201a49f83240d0d28c4",
+      "size": 2156
+    },
+    {
+      "package": "sql-dialect-converter",
+      "version": "1.0.0-1",
+      "artifact": "sql-dialect-converter_1.0.0-1_aarch64.deb",
+      "sha256": "8f06524969ff0c90eb266c108c8b8903925165a48f22d7313e9b655d6583fd85",
+      "size": 2156
+    },
+    {
+      "package": "sql-syntax-formatter",
+      "version": "1.0.0-1",
+      "artifact": "sql-syntax-formatter_1.0.0-1_aarch64.deb",
+      "sha256": "f954bf892210edcd6db12e5ae21b0ac97e27228019136502e0d3a1cf644e8023",
+      "size": 2128
+    },
+    {
+      "package": "sql-ast-visualizer",
+      "version": "1.0.0-1",
+      "artifact": "sql-ast-visualizer_1.0.0-1_aarch64.deb",
+      "sha256": "0a3a939899b635ba89274a4b53fa71bd981846c2925c4fdc784c82fedd4a91ec",
+      "size": 2148
+    },
+    {
+      "package": "sql-injection-tester",
+      "version": "1.0.0-1",
+      "artifact": "sql-injection-tester_1.0.0-1_aarch64.deb",
+      "sha256": "23ac5a5a16581de501f634bbc310211f21285d72cdb5e9803ec216076fb3c26d",
+      "size": 2156
+    },
+    {
+      "package": "db-migration-history",
+      "version": "1.0.0-1",
+      "artifact": "db-migration-history_1.0.0-1_aarch64.deb",
+      "sha256": "26e52de2a5ef0760aca03f5a4205da4a7c168353e642d6188e316de56855cc37",
+      "size": 2128
+    },
+    {
+      "package": "db-schema-snapshot",
+      "version": "1.0.0-1",
+      "artifact": "db-schema-snapshot_1.0.0-1_aarch64.deb",
+      "sha256": "623cda379075edb1b39e62d53a93461bf23c94ec0f6fd17d65b8c3999fb2f183",
+      "size": 2136
+    },
+    {
+      "package": "db-foreign-key-chk",
+      "version": "1.0.0-1",
+      "artifact": "db-foreign-key-chk_1.0.0-1_aarch64.deb",
+      "sha256": "b52e8246f35096f90da07ecbc96cde434bc76b618d5a0e1f3e65bcde1607305d",
+      "size": 2144
+    },
+    {
+      "package": "db-orphan-records-chk",
+      "version": "1.0.0-1",
+      "artifact": "db-orphan-records-chk_1.0.0-1_aarch64.deb",
+      "sha256": "d53f1ba0600ca91e7d52a3662bdb51c1e818e0434a33a036120f2bceaa135c56",
+      "size": 2156
+    },
+    {
+      "package": "db-constraint-audit",
+      "version": "1.0.0-1",
+      "artifact": "db-constraint-audit_1.0.0-1_aarch64.deb",
+      "sha256": "ab87f6b3acbafd192071ee323f9e06f08a2195a6f0cdaa4582e81868bb78de47",
+      "size": 2148
+    },
+    {
+      "package": "db-seed-data-gen",
+      "version": "1.0.0-1",
+      "artifact": "db-seed-data-gen_1.0.0-1_aarch64.deb",
+      "sha256": "115ea0786942abd34fee99dbc91118729eed3da7f1b3fa40edf1760b44adcb6f",
+      "size": 2144
+    },
+    {
+      "package": "parquet-schema-viewer",
+      "version": "1.0.0-1",
+      "artifact": "parquet-schema-viewer_1.0.0-1_aarch64.deb",
+      "sha256": "8cf40e6ad0be7c5fd3ca6380d0b4c2c345d4ad153e03b6d3b39cfbb38173e87f",
+      "size": 2144
+    },
+    {
+      "package": "parquet-metadata-dump",
+      "version": "1.0.0-1",
+      "artifact": "parquet-metadata-dump_1.0.0-1_aarch64.deb",
+      "sha256": "f6dfb215809f0f49722a9916d5b2ce055315c3e441b38127d55ed01481df7cb5",
+      "size": 2156
+    },
+    {
+      "package": "orc-file-footer-parser",
+      "version": "1.0.0-1",
+      "artifact": "orc-file-footer-parser_1.0.0-1_aarch64.deb",
+      "sha256": "783aecb47bb271762c8be0475eadc7ae0871c079b058fc70f076a2459244030d",
+      "size": 2144
+    },
+    {
+      "package": "arrow-ipc-validator",
+      "version": "1.0.0-1",
+      "artifact": "arrow-ipc-validator_1.0.0-1_aarch64.deb",
+      "sha256": "5a1dfef8f83c3e0cd9547edc4677610368de647c26a38d02590c4b3f16cc9290",
+      "size": 2148
+    },
+    {
+      "package": "feather-file-inspect",
+      "version": "1.0.0-1",
+      "artifact": "feather-file-inspect_1.0.0-1_aarch64.deb",
+      "sha256": "282ef9d71d176a3e48cf0ba5304b69aa7a3df377a2f21d6a72c07f1a2513ffa0",
+      "size": 2140
+    },
+    {
+      "package": "dbf-xbase-reader",
+      "version": "1.0.0-1",
+      "artifact": "dbf-xbase-reader_1.0.0-1_aarch64.deb",
+      "sha256": "3977bb792ced4c9f43850ab9f1e55f68be19be31130bb5de16d21b9f788f8933",
+      "size": 2148
+    },
+    {
+      "package": "h2-database-export",
+      "version": "1.0.0-1",
+      "artifact": "h2-database-export_1.0.0-1_aarch64.deb",
+      "sha256": "4ec94aaca8f766a8a2e2d3ac973cb192b2bec56d15088f26cab53e7fa7d5fc4a",
+      "size": 2120
+    },
+    {
+      "package": "derby-log-analyzer",
+      "version": "1.0.0-1",
+      "artifact": "derby-log-analyzer_1.0.0-1_aarch64.deb",
+      "sha256": "8a2d515f2b78e6c919c99e0a22cc66c4e1e7668035ef131ae243bbf276bc1983",
+      "size": 2132
+    },
+    {
+      "package": "timescaledb-hypertable",
+      "version": "1.0.0-1",
+      "artifact": "timescaledb-hypertable_1.0.0-1_aarch64.deb",
+      "sha256": "932c4c40300c0909fb0888bfef27ef73206b3642f2272c7e77a5d31c7475ac97",
+      "size": 2148
+    },
+    {
+      "package": "influxdb-line-protocol",
+      "version": "1.0.0-1",
+      "artifact": "influxdb-line-protocol_1.0.0-1_aarch64.deb",
+      "sha256": "fff53d7086c5bea443530596b166f00f410df54b74c2a1d46155fc19f4d80546",
+      "size": 2156
+    },
+    {
+      "package": "prometheus-tsdb-block",
+      "version": "1.0.0-1",
+      "artifact": "prometheus-tsdb-block_1.0.0-1_aarch64.deb",
+      "sha256": "f112aa13de08f2445ec78acb0632642f0a9b5073eb5417e20a60ebcaa68e295c",
+      "size": 2148
+    },
+    {
+      "package": "vector-embedding-index",
+      "version": "1.0.0-1",
+      "artifact": "vector-embedding-index_1.0.0-1_aarch64.deb",
+      "sha256": "b8921ce817de52c33f16fd2642e68fe24ba605826bb9e689d144981a8e8f59be",
+      "size": 2152
+    },
+    {
+      "package": "hnsw-distance-calc",
+      "version": "1.0.0-1",
+      "artifact": "hnsw-distance-calc_1.0.0-1_aarch64.deb",
+      "sha256": "584cb19ba5eb3d66b2bf972188fe39da957d1fc1faf6a586767d3929156bd6f8",
+      "size": 2168
+    },
+    {
+      "package": "faiss-index-header",
+      "version": "1.0.0-1",
+      "artifact": "faiss-index-header_1.0.0-1_aarch64.deb",
+      "sha256": "096997d914b1655cd53c85005f6e82ba67b4da14ea36c158132da38f793d1eb3",
+      "size": 2152
+    }
+  ]
+}

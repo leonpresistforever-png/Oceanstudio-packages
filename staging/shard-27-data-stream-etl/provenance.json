@@ -1,0 +1,361 @@
+{
+  "schemaVersion": 1,
+  "shard": "shard-27-data-stream-etl",
+  "section": "utils",
+  "category": "Data Streaming & ETL Pipelines",
+  "target": "aarch64-linux-android28",
+  "prefix": "/data/data/studio.ocean.app/files/usr",
+  "packageCount": 50,
+  "packages": [
+    {
+      "package": "csv-delimiter-detector",
+      "version": "1.0.0-1",
+      "artifact": "csv-delimiter-detector_1.0.0-1_aarch64.deb",
+      "sha256": "517c04710d396599ac2a6865f061b3578da30892e5fda6cfccc0d957f2854d91",
+      "size": 2148
+    },
+    {
+      "package": "csv-quoting-fixer",
+      "version": "1.0.0-1",
+      "artifact": "csv-quoting-fixer_1.0.0-1_aarch64.deb",
+      "sha256": "bb57f58980809caa576396a627d738cdfb6367885732419cb92ce7f4f37545fa",
+      "size": 2152
+    },
+    {
+      "package": "csv-transpose-matrix",
+      "version": "1.0.0-1",
+      "artifact": "csv-transpose-matrix_1.0.0-1_aarch64.deb",
+      "sha256": "c4a841d416e05cba75271bb8e4d95d8be124713de890f64f1749b6ad7c7e3996",
+      "size": 2136
+    },
+    {
+      "package": "csv-diff-table-tool",
+      "version": "1.0.0-1",
+      "artifact": "csv-diff-table-tool_1.0.0-1_aarch64.deb",
+      "sha256": "328617cccf07ad92ef0a5ffb2354b7a0e84b96046e4a5745ee3d7220468c4403",
+      "size": 2156
+    },
+    {
+      "package": "tsv-aggregate-group-by",
+      "version": "1.0.0-1",
+      "artifact": "tsv-aggregate-group-by_1.0.0-1_aarch64.deb",
+      "sha256": "72bb1c1513bec71be3019ac3b7816a54724723c4810bcfe3daf00a02ba53ef02",
+      "size": 2152
+    },
+    {
+      "package": "tsv-sliding-window-avg",
+      "version": "1.0.0-1",
+      "artifact": "tsv-sliding-window-avg_1.0.0-1_aarch64.deb",
+      "sha256": "e0c137b1977b9a7abbaee04e8aa31d517e3cd998ab437c46556f508f11997b36",
+      "size": 2156
+    },
+    {
+      "package": "tsv-cumsum-running-tot",
+      "version": "1.0.0-1",
+      "artifact": "tsv-cumsum-running-tot_1.0.0-1_aarch64.deb",
+      "sha256": "8a21809887d49ebcdf0f8842767bc8c10685649d3b4bd663317029d60bed943c",
+      "size": 2144
+    },
+    {
+      "package": "tsv-quantile-cut-cli",
+      "version": "1.0.0-1",
+      "artifact": "tsv-quantile-cut-cli_1.0.0-1_aarch64.deb",
+      "sha256": "d790f9e835dc14003e3f4abae00b7fb4d97fb4e6903ab9ce18ffab3e50d5ad67",
+      "size": 2152
+    },
+    {
+      "package": "json-lines-flatten-tool",
+      "version": "1.0.0-1",
+      "artifact": "json-lines-flatten-tool_1.0.0-1_aarch64.deb",
+      "sha256": "3cd389c24772e9ab40d2b6c7daead6b32be2c0010e7d8a5928f6a75e93ebc6c7",
+      "size": 2160
+    },
+    {
+      "package": "json-lines-unflatten",
+      "version": "1.0.0-1",
+      "artifact": "json-lines-unflatten_1.0.0-1_aarch64.deb",
+      "sha256": "067f344a4de320b12172b6f416d0fdf6a740564081d5510995948fb5c8031e15",
+      "size": 2148
+    },
+    {
+      "package": "ndjson-filter-jq-lite",
+      "version": "1.0.0-1",
+      "artifact": "ndjson-filter-jq-lite_1.0.0-1_aarch64.deb",
+      "sha256": "e4c685ee6ab26c047ca17fb4a06bc0efc656f1ed0577581bdbd2b09673eeab27",
+      "size": 2156
+    },
+    {
+      "package": "ndjson-sort-by-key",
+      "version": "1.0.0-1",
+      "artifact": "ndjson-sort-by-key_1.0.0-1_aarch64.deb",
+      "sha256": "1729373c1b1cae7c0c41b1cd16607e6b150b3881d7d677f73efc7a4da04d0120",
+      "size": 2156
+    },
+    {
+      "package": "log-regex-named-captures",
+      "version": "1.0.0-1",
+      "artifact": "log-regex-named-captures_1.0.0-1_aarch64.deb",
+      "sha256": "0d9af4d6eec3856a7234068bee193698c89f6821108f08d46d791a454f59be1a",
+      "size": 2168
+    },
+    {
+      "package": "grok-pattern-parser",
+      "version": "1.0.0-1",
+      "artifact": "grok-pattern-parser_1.0.0-1_aarch64.deb",
+      "sha256": "a0b6ef7e71ebd439bff52dc75302f66f2e2f63a0fa449d67dd9fff77637e9a5a",
+      "size": 2144
+    },
+    {
+      "package": "clf-apache-log-parser",
+      "version": "1.0.0-1",
+      "artifact": "clf-apache-log-parser_1.0.0-1_aarch64.deb",
+      "sha256": "7770a2b9dbb3333ba8610bdb09b64aceab55121e56da3a1db1fbd6f9b4a97b23",
+      "size": 2160
+    },
+    {
+      "package": "combined-log-formatter",
+      "version": "1.0.0-1",
+      "artifact": "combined-log-formatter_1.0.0-1_aarch64.deb",
+      "sha256": "72f5187989d925fe08eb851d16bd9630d94821553e51fb2e43ef9728064a7be4",
+      "size": 2156
+    },
+    {
+      "package": "nginx-access-log-parser",
+      "version": "1.0.0-1",
+      "artifact": "nginx-access-log-parser_1.0.0-1_aarch64.deb",
+      "sha256": "6a28050f17635c98a5068966941a8cae665b0a1febb10791ba41018dcb67c74e",
+      "size": 2156
+    },
+    {
+      "package": "auth-log-ip-aggregator",
+      "version": "1.0.0-1",
+      "artifact": "auth-log-ip-aggregator_1.0.0-1_aarch64.deb",
+      "sha256": "d5be77bf8f2a87e01858db4e9910c3a3c732899b3d6e4c244d4ebe8544901d00",
+      "size": 2160
+    },
+    {
+      "package": "fail2ban-regex-tester",
+      "version": "1.0.0-1",
+      "artifact": "fail2ban-regex-tester_1.0.0-1_aarch64.deb",
+      "sha256": "9ccd75007773e51012da1e136bf3f7b17da0eb14e5f71c530aa8e1fbbb7817f0",
+      "size": 2148
+    },
+    {
+      "package": "tsv-pivot-table-gen",
+      "version": "1.0.0-1",
+      "artifact": "tsv-pivot-table-gen_1.0.0-1_aarch64.deb",
+      "sha256": "fe0380a82107f651b6a730fe91597a64728dd3166b0a846af1f58cc497045933",
+      "size": 2144
+    },
+    {
+      "package": "tsv-unpivot-melt-tool",
+      "version": "1.0.0-1",
+      "artifact": "tsv-unpivot-melt-tool_1.0.0-1_aarch64.deb",
+      "sha256": "0d78eafa97b73de0e4513bf1db2e9b2c12f2a1728a00278a75c8d1a20508b85c",
+      "size": 2140
+    },
+    {
+      "package": "stream-sample-reservoir",
+      "version": "1.0.0-1",
+      "artifact": "stream-sample-reservoir_1.0.0-1_aarch64.deb",
+      "sha256": "c754c7879d8b485cb13051af220c9c5adcb2f6dbef74cbcac8c9cce60bd0435d",
+      "size": 2148
+    },
+    {
+      "package": "stream-distinct-hyperlog",
+      "version": "1.0.0-1",
+      "artifact": "stream-distinct-hyperlog_1.0.0-1_aarch64.deb",
+      "sha256": "eb6bb019cb25c367546fd451fbe13d5e040eb054b6f4a1d1a86e60159339db6c",
+      "size": 2148
+    },
+    {
+      "package": "stream-moving-average",
+      "version": "1.0.0-1",
+      "artifact": "stream-moving-average_1.0.0-1_aarch64.deb",
+      "sha256": "70f9c7e0edcc891b33014ebd15c966711a04b6bcf75407f2f45143f882893930",
+      "size": 2132
+    },
+    {
+      "package": "stream-exponential-decay",
+      "version": "1.0.0-1",
+      "artifact": "stream-exponential-decay_1.0.0-1_aarch64.deb",
+      "sha256": "5738c367f8b6d919ec15040d2b5efc63ba47da2898e11d6caca8ff30606bf25d",
+      "size": 2152
+    },
+    {
+      "package": "stream-rate-throttle-cli",
+      "version": "1.0.0-1",
+      "artifact": "stream-rate-throttle-cli_1.0.0-1_aarch64.deb",
+      "sha256": "f938918e512d612ea25c60334def177d7528b0ecfff51cd9ca4cd795fd58396d",
+      "size": 2152
+    },
+    {
+      "package": "stream-chunk-byte-split",
+      "version": "1.0.0-1",
+      "artifact": "stream-chunk-byte-split_1.0.0-1_aarch64.deb",
+      "sha256": "36db2f2ad3bed95ab5c4832bd02b5fc5d0d937b4364a4c0e227fe5a6256e19b8",
+      "size": 2148
+    },
+    {
+      "package": "stream-checksum-hasher",
+      "version": "1.0.0-1",
+      "artifact": "stream-checksum-hasher_1.0.0-1_aarch64.deb",
+      "sha256": "2334bfbdb61dbfac3f67e0081c240c13db72c4e101c3627b7a27e8d5e1399ccd",
+      "size": 2140
+    },
+    {
+      "package": "stream-xor-filter-cli",
+      "version": "1.0.0-1",
+      "artifact": "stream-xor-filter-cli_1.0.0-1_aarch64.deb",
+      "sha256": "00ec0f4b949e873dfa617ccd99fbbd46292d04d94912e7d7b90d35e5f3714e76",
+      "size": 2140
+    },
+    {
+      "package": "byte-frequency-analysis",
+      "version": "1.0.0-1",
+      "artifact": "byte-frequency-analysis_1.0.0-1_aarch64.deb",
+      "sha256": "06ae179d4485883bd82b771b40c64afc0677e403c856b9ba8109b371a558f1d1",
+      "size": 2148
+    },
+    {
+      "package": "file-dedup-block-hasher",
+      "version": "1.0.0-1",
+      "artifact": "file-dedup-block-hasher_1.0.0-1_aarch64.deb",
+      "sha256": "68342825d27c9ff62b9a3be67aa7a2d231b79c24839521544c39bf3ff326f66b",
+      "size": 2156
+    },
+    {
+      "package": "rolling-checksum-fast",
+      "version": "1.0.0-1",
+      "artifact": "rolling-checksum-fast_1.0.0-1_aarch64.deb",
+      "sha256": "db99a78c430f670b0843bd2fba7e89e838211ac506b26b2cd291aefda4255859",
+      "size": 2140
+    },
+    {
+      "package": "run-length-encoder-cli",
+      "version": "1.0.0-1",
+      "artifact": "run-length-encoder-cli_1.0.0-1_aarch64.deb",
+      "sha256": "5e03e0b2cdb718cc406f7ee7a1b276a23f50fd7aba744ff917c69ed48936d72d",
+      "size": 2156
+    },
+    {
+      "package": "run-length-decoder-cli",
+      "version": "1.0.0-1",
+      "artifact": "run-length-decoder-cli_1.0.0-1_aarch64.deb",
+      "sha256": "bd835e7a8f6709948e7887b7b940fea48faf06b0ba0d1fa53ce8824046afe341",
+      "size": 2136
+    },
+    {
+      "package": "delta-encoding-tool",
+      "version": "1.0.0-1",
+      "artifact": "delta-encoding-tool_1.0.0-1_aarch64.deb",
+      "sha256": "7e8278ffdfc161ca9adc122ef3cc630099d3238c5c121dd8af31f53fe4caf5a0",
+      "size": 2152
+    },
+    {
+      "package": "zigzag-encoding-cli",
+      "version": "1.0.0-1",
+      "artifact": "zigzag-encoding-cli_1.0.0-1_aarch64.deb",
+      "sha256": "6eed2a716beff2daa2eeb6a81e63eda031c1b1da59e3ee0cde52559eb9d6885a",
+      "size": 2156
+    },
+    {
+      "package": "variable-byte-encoder",
+      "version": "1.0.0-1",
+      "artifact": "variable-byte-encoder_1.0.0-1_aarch64.deb",
+      "sha256": "cde1939d435b2974996503ad318a410d68160930349a6e88251619c96f00bba3",
+      "size": 2140
+    },
+    {
+      "package": "bit-packing-unpacker",
+      "version": "1.0.0-1",
+      "artifact": "bit-packing-unpacker_1.0.0-1_aarch64.deb",
+      "sha256": "23923c65616e1fc28702105dee02ed9fd50d00486315ec911349b3b9de7a557d",
+      "size": 2132
+    },
+    {
+      "package": "column-to-row-transposer",
+      "version": "1.0.0-1",
+      "artifact": "column-to-row-transposer_1.0.0-1_aarch64.deb",
+      "sha256": "bbdd0aa7268f6a26b2f35f182949d9a71f3eb6e353205101cbcf0bb323074149",
+      "size": 2152
+    },
+    {
+      "package": "row-to-column-pack-cli",
+      "version": "1.0.0-1",
+      "artifact": "row-to-column-pack-cli_1.0.0-1_aarch64.deb",
+      "sha256": "b6abd3f1f684e16127054695eb11fd13e53b49e4068fc77db08683b19c0ba09d",
+      "size": 2160
+    },
+    {
+      "package": "data-masking-pseudonym",
+      "version": "1.0.0-1",
+      "artifact": "data-masking-pseudonym_1.0.0-1_aarch64.deb",
+      "sha256": "b34d63454e9702d09b6c0051945a89a9586d548e121b2a08b0785e7b8ed9ddca",
+      "size": 2152
+    },
+    {
+      "package": "pii-regex-scrubber-cli",
+      "version": "1.0.0-1",
+      "artifact": "pii-regex-scrubber-cli_1.0.0-1_aarch64.deb",
+      "sha256": "e6b9a961f65f5b2f54bc2297d0508baeecfb12e3de00fe44c53b5d79ca8f0014",
+      "size": 2160
+    },
+    {
+      "package": "credit-card-luhn-chk",
+      "version": "1.0.0-1",
+      "artifact": "credit-card-luhn-chk_1.0.0-1_aarch64.deb",
+      "sha256": "0cc9e8923f0a0ca40c805ebff9c4a8f7166fe6e22988f1a6c14353397b50a090",
+      "size": 2152
+    },
+    {
+      "package": "iban-validator-cli-tool",
+      "version": "1.0.0-1",
+      "artifact": "iban-validator-cli-tool_1.0.0-1_aarch64.deb",
+      "sha256": "f57c266980a7b733af374427b722f7ebd2936665636b34854f5a57f20184fc31",
+      "size": 2168
+    },
+    {
+      "package": "uuid-v1-timestamp-view",
+      "version": "1.0.0-1",
+      "artifact": "uuid-v1-timestamp-view_1.0.0-1_aarch64.deb",
+      "sha256": "efb3ced7148ee80141463caf9c32afc0840a576024ee1891c5b4643a519db513",
+      "size": 2156
+    },
+    {
+      "package": "uuid-v4-entropy-tester",
+      "version": "1.0.0-1",
+      "artifact": "uuid-v4-entropy-tester_1.0.0-1_aarch64.deb",
+      "sha256": "d4ba497e10bad81b2dcada55d2ac096ba34051a6d9ef05fb540a2c659c875f54",
+      "size": 2164
+    },
+    {
+      "package": "uuid-v5-name-hasher",
+      "version": "1.0.0-1",
+      "artifact": "uuid-v5-name-hasher_1.0.0-1_aarch64.deb",
+      "sha256": "4d0c5e70262b18a7d04b1327c36550f6d1d98e228f85a1b236ba9b2fced07e0a",
+      "size": 2156
+    },
+    {
+      "package": "uuid-v7-sortable-maker",
+      "version": "1.0.0-1",
+      "artifact": "uuid-v7-sortable-maker_1.0.0-1_aarch64.deb",
+      "sha256": "844f6d34e56c9df0759af37acc352f80898b0110445134923b156a32ff0e099b",
+      "size": 2152
+    },
+    {
+      "package": "ulid-timestamp-extractor",
+      "version": "1.0.0-1",
+      "artifact": "ulid-timestamp-extractor_1.0.0-1_aarch64.deb",
+      "sha256": "5beafdde8790fb947b3edc6d5088dd26a3769d2085fae7c6c7eb14d7c4047989",
+      "size": 2168
+    },
+    {
+      "package": "nanoid-collision-calc",
+      "version": "1.0.0-1",
+      "artifact": "nanoid-collision-calc_1.0.0-1_aarch64.deb",
+      "sha256": "75b88431fa814ff7ec864f3815f8c822cd255c3f9901baa7eb53af59abcb2f80",
+      "size": 2148
+    }
+  ]
+}

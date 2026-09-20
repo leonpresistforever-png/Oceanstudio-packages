@@ -1,0 +1,361 @@
+{
+  "schemaVersion": 1,
+  "shard": "shard-14-image-media-audio",
+  "section": "graphics",
+  "category": "Media Formats & Audio-Visual Processing",
+  "target": "aarch64-linux-android28",
+  "prefix": "/data/data/studio.ocean.app/files/usr",
+  "packageCount": 50,
+  "packages": [
+    {
+      "package": "png-chunk-parser",
+      "version": "1.0.0-1",
+      "artifact": "png-chunk-parser_1.0.0-1_aarch64.deb",
+      "sha256": "9d3de1eb5d4dde1799a112df5572d589c3225047404db21333622f3dd7d6b898",
+      "size": 2168
+    },
+    {
+      "package": "png-ihdr-analyzer",
+      "version": "1.0.0-1",
+      "artifact": "png-ihdr-analyzer_1.0.0-1_aarch64.deb",
+      "sha256": "d5f7d0bc628632b13cd4f1d49ba2a91f0586089f3d83410ecbd5584dfd8cb02a",
+      "size": 2164
+    },
+    {
+      "package": "png-crush-optimizer",
+      "version": "1.0.0-1",
+      "artifact": "png-crush-optimizer_1.0.0-1_aarch64.deb",
+      "sha256": "2351fb298f071c450f2a582bcf3dcb0fb777eca220cf6143add0a86c1286b2f6",
+      "size": 2168
+    },
+    {
+      "package": "jpeg-exif-stripper",
+      "version": "1.0.0-1",
+      "artifact": "jpeg-exif-stripper_1.0.0-1_aarch64.deb",
+      "sha256": "6970cad6ac9e29b73c2b587a7f0fcb9c355a09dc191e0b7146130c8eb99179a4",
+      "size": 2172
+    },
+    {
+      "package": "jpeg-marker-parser",
+      "version": "1.0.0-1",
+      "artifact": "jpeg-marker-parser_1.0.0-1_aarch64.deb",
+      "sha256": "073e5add55e9c5bf8ade25ef15332539bfc3d76e1f5cfc243e01d50079296db5",
+      "size": 2164
+    },
+    {
+      "package": "jpeg-progressive-chk",
+      "version": "1.0.0-1",
+      "artifact": "jpeg-progressive-chk_1.0.0-1_aarch64.deb",
+      "sha256": "73ec5b04f8bdf26b5141146ef696c2a0bd44a24b2e1e26e6eb4af85a2ea01dc3",
+      "size": 2160
+    },
+    {
+      "package": "gif-frame-counter",
+      "version": "1.0.0-1",
+      "artifact": "gif-frame-counter_1.0.0-1_aarch64.deb",
+      "sha256": "21e9e945ea50fbd07071e54c423e108cb99940571afdeb422fa3a53bb3460a5e",
+      "size": 2164
+    },
+    {
+      "package": "gif-palette-extractor",
+      "version": "1.0.0-1",
+      "artifact": "gif-palette-extractor_1.0.0-1_aarch64.deb",
+      "sha256": "d28e60d363c76599e9f827a1533ff540dd72ba480cc2786362da1662010c8c95",
+      "size": 2164
+    },
+    {
+      "package": "webp-vp8-chunk-view",
+      "version": "1.0.0-1",
+      "artifact": "webp-vp8-chunk-view_1.0.0-1_aarch64.deb",
+      "sha256": "a4ba52f761b97badeb402d88f98792c80427c166f03893b7f73ae981c87d56c3",
+      "size": 2168
+    },
+    {
+      "package": "avif-box-inspector",
+      "version": "1.0.0-1",
+      "artifact": "avif-box-inspector_1.0.0-1_aarch64.deb",
+      "sha256": "ff16aedd121905dd83c6d83a9eb9da2e91af727493577fd2bdb3c49f3381f771",
+      "size": 2168
+    },
+    {
+      "package": "heif-item-parser",
+      "version": "1.0.0-1",
+      "artifact": "heif-item-parser_1.0.0-1_aarch64.deb",
+      "sha256": "41be8696c9f1c4a2dae10bf0a3bd1dc19b01397a9cb9705a471146cfa5c2af10",
+      "size": 2164
+    },
+    {
+      "package": "bmp-dib-header-dump",
+      "version": "1.0.0-1",
+      "artifact": "bmp-dib-header-dump_1.0.0-1_aarch64.deb",
+      "sha256": "c5c94f4d6892150cd6a2ed57c3e72b6993fb14907555fc5778498f508f1e8c7a",
+      "size": 2168
+    },
+    {
+      "package": "ico-icon-dir-parser",
+      "version": "1.0.0-1",
+      "artifact": "ico-icon-dir-parser_1.0.0-1_aarch64.deb",
+      "sha256": "902c49f6073925dc580f04ee0a9d87ed3bae75f83d6318d500b76f719278570b",
+      "size": 2160
+    },
+    {
+      "package": "tga-header-analyzer",
+      "version": "1.0.0-1",
+      "artifact": "tga-header-analyzer_1.0.0-1_aarch64.deb",
+      "sha256": "df0de107d19a4a112955778491adf55d4fc326865c9a1c31fc5e06744aa0ab91",
+      "size": 2168
+    },
+    {
+      "package": "tiff-ifd-inspector",
+      "version": "1.0.0-1",
+      "artifact": "tiff-ifd-inspector_1.0.0-1_aarch64.deb",
+      "sha256": "3752f5837100a28ec628fd0a487fd6cff216e4165c638b8b3af5affc702f50c3",
+      "size": 2176
+    },
+    {
+      "package": "svg-path-optimizer",
+      "version": "1.0.0-1",
+      "artifact": "svg-path-optimizer_1.0.0-1_aarch64.deb",
+      "sha256": "e5f21d0a6cb96cc21da4e563032775729851ea92da1954e4523b5143a194bdf8",
+      "size": 2168
+    },
+    {
+      "package": "svg-viewbox-fixer",
+      "version": "1.0.0-1",
+      "artifact": "svg-viewbox-fixer_1.0.0-1_aarch64.deb",
+      "sha256": "377d9d54ec2ff5484c41d1ffbc67f849e16ca67c939900f1fe1ed48de6937d17",
+      "size": 2176
+    },
+    {
+      "package": "svg-xml-sanitizer",
+      "version": "1.0.0-1",
+      "artifact": "svg-xml-sanitizer_1.0.0-1_aarch64.deb",
+      "sha256": "efae727efe666883fde485ba00aa666ce80014bbd7c5d2a9a2cf9ac98c4ac92b",
+      "size": 2172
+    },
+    {
+      "package": "color-hex-rgb-hsl",
+      "version": "1.0.0-1",
+      "artifact": "color-hex-rgb-hsl_1.0.0-1_aarch64.deb",
+      "sha256": "6377447d7026959c4049313d995c54f04d093fe54a612dd3d6b303b59cbb2368",
+      "size": 2160
+    },
+    {
+      "package": "color-palette-generator",
+      "version": "1.0.0-1",
+      "artifact": "color-palette-generator_1.0.0-1_aarch64.deb",
+      "sha256": "bd9f94e91acf16557ac70463acc2fb24e8276f9a57db1c281a4158b809b01570",
+      "size": 2168
+    },
+    {
+      "package": "color-contrast-wcag",
+      "version": "1.0.0-1",
+      "artifact": "color-contrast-wcag_1.0.0-1_aarch64.deb",
+      "sha256": "7cddc87f07682c15dcfa71958bbceb8df3cc73d0cba6abf662b0ecca56d3fa22",
+      "size": 2172
+    },
+    {
+      "package": "lut-color-cube-parser",
+      "version": "1.0.0-1",
+      "artifact": "lut-color-cube-parser_1.0.0-1_aarch64.deb",
+      "sha256": "363399546b7071d14fdd3de752483411e285fdb9c86f1e56f0ecd656b7d95689",
+      "size": 2168
+    },
+    {
+      "package": "histogram-image-cli",
+      "version": "1.0.0-1",
+      "artifact": "histogram-image-cli_1.0.0-1_aarch64.deb",
+      "sha256": "ff26d21d378e3a5e83a24f9f787de94cd0610810382ae4b052e4db0a41a1c3a9",
+      "size": 2156
+    },
+    {
+      "package": "pixel-aspect-ratio",
+      "version": "1.0.0-1",
+      "artifact": "pixel-aspect-ratio_1.0.0-1_aarch64.deb",
+      "sha256": "4fbe18218885c49a64d6fd64354947d290f3568a2a0b7ac4c752445e51f47d1c",
+      "size": 2148
+    },
+    {
+      "package": "image-dimension-probe",
+      "version": "1.0.0-1",
+      "artifact": "image-dimension-probe_1.0.0-1_aarch64.deb",
+      "sha256": "49bdbf9862ee9223db0fa9e601cc57c16d81ac3a1ca57cc87b3a66efab955374",
+      "size": 2152
+    },
+    {
+      "package": "wav-riff-chunk-dump",
+      "version": "1.0.0-1",
+      "artifact": "wav-riff-chunk-dump_1.0.0-1_aarch64.deb",
+      "sha256": "135a718a567961acb28d9180a8877b71f4257442af27d82669d21d1fac2fc40f",
+      "size": 2160
+    },
+    {
+      "package": "wav-fmt-spec-checker",
+      "version": "1.0.0-1",
+      "artifact": "wav-fmt-spec-checker_1.0.0-1_aarch64.deb",
+      "sha256": "d87e7b3c299434966b359d5a28e01f6fb9d29c0651f4e71b849dbd61898d2391",
+      "size": 2188
+    },
+    {
+      "package": "flac-metadata-block",
+      "version": "1.0.0-1",
+      "artifact": "flac-metadata-block_1.0.0-1_aarch64.deb",
+      "sha256": "9888b17fd7eccdf51035c027f82a12533477a034216cf724044cc2e50060bed1",
+      "size": 2188
+    },
+    {
+      "package": "mp3-id3v2-tag-dump",
+      "version": "1.0.0-1",
+      "artifact": "mp3-id3v2-tag-dump_1.0.0-1_aarch64.deb",
+      "sha256": "9c7fb519b1dc7a9e698ba7eceb47010ad691afbac16590d63574e20e2591f70d",
+      "size": 2164
+    },
+    {
+      "package": "mp3-frame-sync-chk",
+      "version": "1.0.0-1",
+      "artifact": "mp3-frame-sync-chk_1.0.0-1_aarch64.deb",
+      "sha256": "0b88ad056e54906ebeb0b7e37d5420a5cc11de7f913207de79d8f689efe19999",
+      "size": 2168
+    },
+    {
+      "package": "ogg-page-header-dump",
+      "version": "1.0.0-1",
+      "artifact": "ogg-page-header-dump_1.0.0-1_aarch64.deb",
+      "sha256": "6784867f0d17462c238dc4ce311b480570d48ed07ce65d93503575a6e60cadae",
+      "size": 2152
+    },
+    {
+      "package": "opus-head-packet-chk",
+      "version": "1.0.0-1",
+      "artifact": "opus-head-packet-chk_1.0.0-1_aarch64.deb",
+      "sha256": "c299a8b97c205b542d7db69d105b452d643e93ded6723a2c5f69da41fac115c7",
+      "size": 2156
+    },
+    {
+      "package": "vorbis-comment-reader",
+      "version": "1.0.0-1",
+      "artifact": "vorbis-comment-reader_1.0.0-1_aarch64.deb",
+      "sha256": "05d44337547e907fadd0834344c2cfce095938e49f56e49a44f5df5dd4e4fcb3",
+      "size": 2172
+    },
+    {
+      "package": "aac-adts-header-dump",
+      "version": "1.0.0-1",
+      "artifact": "aac-adts-header-dump_1.0.0-1_aarch64.deb",
+      "sha256": "ff2b2404ba7c7ccdac834fdeff71ce46ddbb6a900d1d8f5b3049ccfdd14d3aeb",
+      "size": 2164
+    },
+    {
+      "package": "midi-track-event-view",
+      "version": "1.0.0-1",
+      "artifact": "midi-track-event-view_1.0.0-1_aarch64.deb",
+      "sha256": "8bb6447e8aafc583f4ff35ed2ed9f6fac0a0b5a2c5f8fe7556fdd9e24d992dc1",
+      "size": 2180
+    },
+    {
+      "package": "pcm-sample-rate-conv",
+      "version": "1.0.0-1",
+      "artifact": "pcm-sample-rate-conv_1.0.0-1_aarch64.deb",
+      "sha256": "d4eba6bb9b1fb933833ca84847969e7dc083de3aa392211ee68b878021768ab2",
+      "size": 2160
+    },
+    {
+      "package": "audio-duration-calc",
+      "version": "1.0.0-1",
+      "artifact": "audio-duration-calc_1.0.0-1_aarch64.deb",
+      "sha256": "92f8248f33ec349fc7300ad6e20a4647728b30f89941461bd8fe351a76b71609",
+      "size": 2156
+    },
+    {
+      "package": "audio-bitrate-sampler",
+      "version": "1.0.0-1",
+      "artifact": "audio-bitrate-sampler_1.0.0-1_aarch64.deb",
+      "sha256": "47be7a4eba1ac9fb4d2a2f9b8724c8dc59de465e90ca27536f79511abcead4e3",
+      "size": 2168
+    },
+    {
+      "package": "ffmpeg-probe-lite",
+      "version": "1.0.0-1",
+      "artifact": "ffmpeg-probe-lite_1.0.0-1_aarch64.deb",
+      "sha256": "9870895323175a293da80d4904477746b484632f94a1f5ae79f73a42d4b7da7f",
+      "size": 2160
+    },
+    {
+      "package": "mp4-moov-atom-parser",
+      "version": "1.0.0-1",
+      "artifact": "mp4-moov-atom-parser_1.0.0-1_aarch64.deb",
+      "sha256": "29986a8167b7d7512c30a33e7a6d957a843a63a93c11f3a8ae7f169701bc0e66",
+      "size": 2164
+    },
+    {
+      "package": "mkv-ebml-header-dump",
+      "version": "1.0.0-1",
+      "artifact": "mkv-ebml-header-dump_1.0.0-1_aarch64.deb",
+      "sha256": "3112cf0592d49f4bbf3ec9eb37e8efd3ddf58cc7024251874c291307df9f6dc1",
+      "size": 2160
+    },
+    {
+      "package": "avi-riff-list-parser",
+      "version": "1.0.0-1",
+      "artifact": "avi-riff-list-parser_1.0.0-1_aarch64.deb",
+      "sha256": "34be0bbd7af24f9553cf0ba22baa237f866b09dcab2faa4899580ba67bf008ad",
+      "size": 2168
+    },
+    {
+      "package": "subtitle-srt-time-shift",
+      "version": "1.0.0-1",
+      "artifact": "subtitle-srt-time-shift_1.0.0-1_aarch64.deb",
+      "sha256": "b68826fa6eef923d8996908b62f5588f385f39dc8e15f7a36fc2cb4564e9e2a5",
+      "size": 2176
+    },
+    {
+      "package": "subtitle-vtt-validator",
+      "version": "1.0.0-1",
+      "artifact": "subtitle-vtt-validator_1.0.0-1_aarch64.deb",
+      "sha256": "d17d481cdd04b3267aabf5397cd74c9d550bf5c69c3a19898208996367d5f26b",
+      "size": 2164
+    },
+    {
+      "package": "yuv-frame-calculator",
+      "version": "1.0.0-1",
+      "artifact": "yuv-frame-calculator_1.0.0-1_aarch64.deb",
+      "sha256": "9536dfb6a0b076ad974710d91a262b45717c6d1ea0d4936eea4bf863e123f2b6",
+      "size": 2164
+    },
+    {
+      "package": "video-fps-timecode",
+      "version": "1.0.0-1",
+      "artifact": "video-fps-timecode_1.0.0-1_aarch64.deb",
+      "sha256": "2a2e4df8a1d78e7999a7af0ef9b463c92d0821d038aa6708f499549fc1bab359",
+      "size": 2164
+    },
+    {
+      "package": "dpi-calculator-cli",
+      "version": "1.0.0-1",
+      "artifact": "dpi-calculator-cli_1.0.0-1_aarch64.deb",
+      "sha256": "985699c5c09d2c8baf9fc7892118f4b4b7bb96ef2b886f375ec57b3c0bb6d709",
+      "size": 2176
+    },
+    {
+      "package": "aspect-ratio-reducer",
+      "version": "1.0.0-1",
+      "artifact": "aspect-ratio-reducer_1.0.0-1_aarch64.deb",
+      "sha256": "929995e75c06792a5ba76c197ed4581b6543f9e177daf7db6960261ecf0da126",
+      "size": 2156
+    },
+    {
+      "package": "color-temperature-calc",
+      "version": "1.0.0-1",
+      "artifact": "color-temperature-calc_1.0.0-1_aarch64.deb",
+      "sha256": "591a512279d7c9f4dbaac568635bae410d9e532a1cc61a60b57a3932f795450c",
+      "size": 2156
+    },
+    {
+      "package": "bayer-pattern-matrix",
+      "version": "1.0.0-1",
+      "artifact": "bayer-pattern-matrix_1.0.0-1_aarch64.deb",
+      "sha256": "e4d86097d836f8fed6ef44c40579acb4335569211e1b9dc37adca572bf92d1b7",
+      "size": 2172
+    }
+  ]
+}

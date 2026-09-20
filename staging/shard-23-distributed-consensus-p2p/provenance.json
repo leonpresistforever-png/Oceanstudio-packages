@@ -1,0 +1,361 @@
+{
+  "schemaVersion": 1,
+  "shard": "shard-23-distributed-consensus-p2p",
+  "section": "net",
+  "category": "Distributed Consensus & Peer-to-Peer Networks",
+  "target": "aarch64-linux-android28",
+  "prefix": "/data/data/studio.ocean.app/files/usr",
+  "packageCount": 50,
+  "packages": [
+    {
+      "package": "raft-term-log-viewer",
+      "version": "1.0.0-1",
+      "artifact": "raft-term-log-viewer_1.0.0-1_aarch64.deb",
+      "sha256": "595125782f433c06727aa2a33829a0da827aa5bb3aad6c2ff8cc0ff683f0cebf",
+      "size": 2164
+    },
+    {
+      "package": "raft-vote-simulator",
+      "version": "1.0.0-1",
+      "artifact": "raft-vote-simulator_1.0.0-1_aarch64.deb",
+      "sha256": "aa50f57b0fbb5610efa9c4c6f66c475339f37bfe523af01e8fc448018ef31fca",
+      "size": 2156
+    },
+    {
+      "package": "paxos-ballot-calculator",
+      "version": "1.0.0-1",
+      "artifact": "paxos-ballot-calculator_1.0.0-1_aarch64.deb",
+      "sha256": "951b26dfd477f4fdca48b473acd223689aaf92f97706e3476243b1bb24fc0523",
+      "size": 2184
+    },
+    {
+      "package": "gossip-cluster-ping",
+      "version": "1.0.0-1",
+      "artifact": "gossip-cluster-ping_1.0.0-1_aarch64.deb",
+      "sha256": "670964090377f0538f7776e5c613344156b64c1ff5aa1c87cc13e05aa428ae3a",
+      "size": 2156
+    },
+    {
+      "package": "swim-membership-check",
+      "version": "1.0.0-1",
+      "artifact": "swim-membership-check_1.0.0-1_aarch64.deb",
+      "sha256": "0d4423755b867c00a64c8880811aa4930c439edeac11cc2116b55e1956351556",
+      "size": 2168
+    },
+    {
+      "package": "dht-kademlia-routing",
+      "version": "1.0.0-1",
+      "artifact": "dht-kademlia-routing_1.0.0-1_aarch64.deb",
+      "sha256": "6c505b0564650dc0d133aca0f592a0975f52e57f825982146494c7b6fa467f24",
+      "size": 2152
+    },
+    {
+      "package": "kademlia-distance-xor",
+      "version": "1.0.0-1",
+      "artifact": "kademlia-distance-xor_1.0.0-1_aarch64.deb",
+      "sha256": "a332723f9eb19ef141f97cc805c367fc9f757e989cf821ad17bad01b1f94a364",
+      "size": 2160
+    },
+    {
+      "package": "dht-bucket-balancer",
+      "version": "1.0.0-1",
+      "artifact": "dht-bucket-balancer_1.0.0-1_aarch64.deb",
+      "sha256": "733a4120a453e17aa4b4b561a2ab1d0d0fa9fc0423db13b8c7679870b72ce0af",
+      "size": 2172
+    },
+    {
+      "package": "merkle-tree-hasher",
+      "version": "1.0.0-1",
+      "artifact": "merkle-tree-hasher_1.0.0-1_aarch64.deb",
+      "sha256": "7705f02e946643949d053db9822ba88651f4bc06afa5deb7529b730628ed29bf",
+      "size": 2168
+    },
+    {
+      "package": "merkle-proof-generator",
+      "version": "1.0.0-1",
+      "artifact": "merkle-proof-generator_1.0.0-1_aarch64.deb",
+      "sha256": "40d03f5fe8f355b4bc8df48b34cfce20ea108fede274e819635a67ab330ba215",
+      "size": 2160
+    },
+    {
+      "package": "merkle-mountain-range",
+      "version": "1.0.0-1",
+      "artifact": "merkle-mountain-range_1.0.0-1_aarch64.deb",
+      "sha256": "ebcdcd395647812572c473fad3c8713a835a740210655252c305fe5b4066be11",
+      "size": 2164
+    },
+    {
+      "package": "sparse-merkle-tree",
+      "version": "1.0.0-1",
+      "artifact": "sparse-merkle-tree_1.0.0-1_aarch64.deb",
+      "sha256": "5d13a5a28fd5a995bafc0fc8740ee2a2f910662a77108fac26186b8dd2e20907",
+      "size": 2168
+    },
+    {
+      "package": "vector-clock-comparator",
+      "version": "1.0.0-1",
+      "artifact": "vector-clock-comparator_1.0.0-1_aarch64.deb",
+      "sha256": "f00234f99c11880408e2c7856abdec2a0bc294f400a16c6e5a4856a97873e443",
+      "size": 2156
+    },
+    {
+      "package": "lamport-timestamp-calc",
+      "version": "1.0.0-1",
+      "artifact": "lamport-timestamp-calc_1.0.0-1_aarch64.deb",
+      "sha256": "fef8a3fa2c636f620d636b7f2f69d0aafcd82f702eddbfea1d4d4e62cef1eb88",
+      "size": 2168
+    },
+    {
+      "package": "crdt-g-counter-cli",
+      "version": "1.0.0-1",
+      "artifact": "crdt-g-counter-cli_1.0.0-1_aarch64.deb",
+      "sha256": "736f61cd880251a963ca2b254220ab2c86e7fe0ddd6763d01fbf00d93a536e4a",
+      "size": 2172
+    },
+    {
+      "package": "crdt-pn-counter-tool",
+      "version": "1.0.0-1",
+      "artifact": "crdt-pn-counter-tool_1.0.0-1_aarch64.deb",
+      "sha256": "12b5368581e739bddb0dccf04b25d877506ed296552f48cdca14e72eb8edf523",
+      "size": 2164
+    },
+    {
+      "package": "crdt-lww-register",
+      "version": "1.0.0-1",
+      "artifact": "crdt-lww-register_1.0.0-1_aarch64.deb",
+      "sha256": "2e6fb2a9b1f90719c4c3d073b8050f28b2fb8e090e75568483a7aee9804e3efb",
+      "size": 2168
+    },
+    {
+      "package": "crdt-or-set-resolver",
+      "version": "1.0.0-1",
+      "artifact": "crdt-or-set-resolver_1.0.0-1_aarch64.deb",
+      "sha256": "fdd9021cbd75859285221c7af17fedf04349a4f69112c872abb6703c71cdd5dd",
+      "size": 2172
+    },
+    {
+      "package": "bloom-filter-hasher",
+      "version": "1.0.0-1",
+      "artifact": "bloom-filter-hasher_1.0.0-1_aarch64.deb",
+      "sha256": "9d2e9d741c86867155464d14fcd22c656e5a537097ada5368e8a23c64c293881",
+      "size": 2168
+    },
+    {
+      "package": "counting-bloom-filter",
+      "version": "1.0.0-1",
+      "artifact": "counting-bloom-filter_1.0.0-1_aarch64.deb",
+      "sha256": "973ab4c80675989c432dde57375fed8ea72cdddaafd42ca690f3cb3950568b27",
+      "size": 2152
+    },
+    {
+      "package": "cuckoo-filter-cli",
+      "version": "1.0.0-1",
+      "artifact": "cuckoo-filter-cli_1.0.0-1_aarch64.deb",
+      "sha256": "890756005a1cdea986254a39331c4ff5bb31b27dcbb67f2394a4ea664c90fcbf",
+      "size": 2164
+    },
+    {
+      "package": "hyperloglog-cardinality",
+      "version": "1.0.0-1",
+      "artifact": "hyperloglog-cardinality_1.0.0-1_aarch64.deb",
+      "sha256": "c5ec0b17c40d094b92bd51abcd4e78dbaa9290a0905554c2c5ef49ebfb335401",
+      "size": 2164
+    },
+    {
+      "package": "count-min-sketch-calc",
+      "version": "1.0.0-1",
+      "artifact": "count-min-sketch-calc_1.0.0-1_aarch64.deb",
+      "sha256": "ceae29cc796b3681523197a275a51e319470165dfe184946f8d64482922be8c5",
+      "size": 2168
+    },
+    {
+      "package": "consistent-hash-ring",
+      "version": "1.0.0-1",
+      "artifact": "consistent-hash-ring_1.0.0-1_aarch64.deb",
+      "sha256": "e27318a581943797f801a8cc7634a46e7046638227458d351cbdeddf8dd40d09",
+      "size": 2148
+    },
+    {
+      "package": "rendezvous-hash-eval",
+      "version": "1.0.0-1",
+      "artifact": "rendezvous-hash-eval_1.0.0-1_aarch64.deb",
+      "sha256": "190784cf09f18a51c5b7eae99a80c2a7015043d41c7d47ff528dded80fd0f21c",
+      "size": 2156
+    },
+    {
+      "package": "virtual-node-balancer",
+      "version": "1.0.0-1",
+      "artifact": "virtual-node-balancer_1.0.0-1_aarch64.deb",
+      "sha256": "2d3b91c4e37c2fac3a5fb7afbd0f1e720088f3abd70f698671c83e01e9b8e9b9",
+      "size": 2156
+    },
+    {
+      "package": "p2p-bit-torrent-bencode",
+      "version": "1.0.0-1",
+      "artifact": "p2p-bit-torrent-bencode_1.0.0-1_aarch64.deb",
+      "sha256": "31152246ae0da0fa27f107669a04729dcc65b4c06e2694ce69baaff5128f8698",
+      "size": 2164
+    },
+    {
+      "package": "torrent-metainfo-parser",
+      "version": "1.0.0-1",
+      "artifact": "torrent-metainfo-parser_1.0.0-1_aarch64.deb",
+      "sha256": "d9f4a167d1cf4fee7e4e2d1c9189ee09be4e924c709a9de4a594d20362d627c8",
+      "size": 2164
+    },
+    {
+      "package": "torrent-piece-hash-chk",
+      "version": "1.0.0-1",
+      "artifact": "torrent-piece-hash-chk_1.0.0-1_aarch64.deb",
+      "sha256": "2f68bdb71dc611b7341c3a454641ff8a22f6f627f772f909310d959ac27930f3",
+      "size": 2160
+    },
+    {
+      "package": "magnet-link-builder",
+      "version": "1.0.0-1",
+      "artifact": "magnet-link-builder_1.0.0-1_aarch64.deb",
+      "sha256": "733abbef9d365c58579d940070d86ff43c1d3b7fbd1292a5fe3782266c5898ca",
+      "size": 2156
+    },
+    {
+      "package": "ipni-network-indexer",
+      "version": "1.0.0-1",
+      "artifact": "ipni-network-indexer_1.0.0-1_aarch64.deb",
+      "sha256": "c1c22f1c691d3fb8074ecd65caaf33a7708b8cf52b5fef6d16b1b13d0aaf688d",
+      "size": 2160
+    },
+    {
+      "package": "libp2p-multiaddr-parse",
+      "version": "1.0.0-1",
+      "artifact": "libp2p-multiaddr-parse_1.0.0-1_aarch64.deb",
+      "sha256": "b34bf69973ec05f6d709be0e538e5d1c0f37ebfbe2ea925fc39abe9a494ecfb6",
+      "size": 2144
+    },
+    {
+      "package": "libp2p-peer-id-inspect",
+      "version": "1.0.0-1",
+      "artifact": "libp2p-peer-id-inspect_1.0.0-1_aarch64.deb",
+      "sha256": "e2f56369cab2d3fc360a91dfb1f7482e0fda234b8ef004b77a242be90c64f882",
+      "size": 2176
+    },
+    {
+      "package": "noise-protocol-handshake",
+      "version": "1.0.0-1",
+      "artifact": "noise-protocol-handshake_1.0.0-1_aarch64.deb",
+      "sha256": "5eea5b56e70e88bd69bb036b837b46bdcac0d76c4df9e63d48ca3240108c2350",
+      "size": 2164
+    },
+    {
+      "package": "gossipsub-topic-filter",
+      "version": "1.0.0-1",
+      "artifact": "gossipsub-topic-filter_1.0.0-1_aarch64.deb",
+      "sha256": "bf1ae10b3cb526a02bec592065ad4f1ccea1a68f5a9598a9bcaa2f87775225a1",
+      "size": 2176
+    },
+    {
+      "package": "quic-congestion-cubic",
+      "version": "1.0.0-1",
+      "artifact": "quic-congestion-cubic_1.0.0-1_aarch64.deb",
+      "sha256": "28ed9748f1440423691bcd05d4bea0a5e2c731b69c58367e35007cb305f96018",
+      "size": 2168
+    },
+    {
+      "package": "bbr-bandwidth-estimator",
+      "version": "1.0.0-1",
+      "artifact": "bbr-bandwidth-estimator_1.0.0-1_aarch64.deb",
+      "sha256": "c98c6f031c8ed0e4fbd97745d4fecb5b77413940857a3700d2afdc2d222e477a",
+      "size": 2176
+    },
+    {
+      "package": "replicated-state-sync",
+      "version": "1.0.0-1",
+      "artifact": "replicated-state-sync_1.0.0-1_aarch64.deb",
+      "sha256": "64a14d8684c01ff7e06145aac6d33f853fe2d0c4284e1e32b14875633f836dc8",
+      "size": 2152
+    },
+    {
+      "package": "quorum-majority-calc",
+      "version": "1.0.0-1",
+      "artifact": "quorum-majority-calc_1.0.0-1_aarch64.deb",
+      "sha256": "3a60402c39b6dffd9f87912d5fc05b35c04e6a3f72dc7683b7632253c863b68c",
+      "size": 2172
+    },
+    {
+      "package": "split-brain-detector",
+      "version": "1.0.0-1",
+      "artifact": "split-brain-detector_1.0.0-1_aarch64.deb",
+      "sha256": "0d6b1f141e269be05a56b5edd65dd83ea08ed0f1b2688628469481408e07ae5b",
+      "size": 2156
+    },
+    {
+      "package": "byzantine-fault-ratio",
+      "version": "1.0.0-1",
+      "artifact": "byzantine-fault-ratio_1.0.0-1_aarch64.deb",
+      "sha256": "15b3659f083ca22af4fcac4cbc393847a47848cbe5155f3043ea6e1175a5d84e",
+      "size": 2164
+    },
+    {
+      "package": "epoch-watermark-tracker",
+      "version": "1.0.0-1",
+      "artifact": "epoch-watermark-tracker_1.0.0-1_aarch64.deb",
+      "sha256": "bdf60f87b3fff9f4efb988b1ef54eec69e2e2f06f504c1eec1ad85bfab7e123c",
+      "size": 2164
+    },
+    {
+      "package": "distributed-trace-span",
+      "version": "1.0.0-1",
+      "artifact": "distributed-trace-span_1.0.0-1_aarch64.deb",
+      "sha256": "acd4f0cf1f0838bb8635b14fd2374fc933cae3db66ab61522ae174a757585adc",
+      "size": 2152
+    },
+    {
+      "package": "w3c-trace-context-parse",
+      "version": "1.0.0-1",
+      "artifact": "w3c-trace-context-parse_1.0.0-1_aarch64.deb",
+      "sha256": "8177d8935507bb5a8ebe6ad6e89a424d07a211518860089b1ae15c625d13e3b6",
+      "size": 2164
+    },
+    {
+      "package": "b3-trace-header-inject",
+      "version": "1.0.0-1",
+      "artifact": "b3-trace-header-inject_1.0.0-1_aarch64.deb",
+      "sha256": "d7af9a6c21c3fa91efce365fabb653e9aac9d0ec4d3b12297b9d8e90848cb938",
+      "size": 2168
+    },
+    {
+      "package": "jaeger-thrift-exporter",
+      "version": "1.0.0-1",
+      "artifact": "jaeger-thrift-exporter_1.0.0-1_aarch64.deb",
+      "sha256": "06075c542014cd6f24e2cde0702175510f93dc15d9b40c9b06c736d8250e5380",
+      "size": 2168
+    },
+    {
+      "package": "zipkin-span-json-view",
+      "version": "1.0.0-1",
+      "artifact": "zipkin-span-json-view_1.0.0-1_aarch64.deb",
+      "sha256": "aa59cc6a14f2b1f9c8dc43574bb17ee768654129a36a2bd99393121ccffffeb2",
+      "size": 2160
+    },
+    {
+      "package": "opentelemetry-collector",
+      "version": "1.0.0-1",
+      "artifact": "opentelemetry-collector_1.0.0-1_aarch64.deb",
+      "sha256": "4d91fe709fa69b0992fc541eca00a81e2538cfa8c1e328948092ef932e58d0dd",
+      "size": 2152
+    },
+    {
+      "package": "rate-limiter-token-bucket",
+      "version": "1.0.0-1",
+      "artifact": "rate-limiter-token-bucket_1.0.0-1_aarch64.deb",
+      "sha256": "717f2cafe574c9e3a1b55bea24a917abb7a3153185ccfb643ed2b4cf5f81c567",
+      "size": 2164
+    },
+    {
+      "package": "leaky-bucket-algorithm",
+      "version": "1.0.0-1",
+      "artifact": "leaky-bucket-algorithm_1.0.0-1_aarch64.deb",
+      "sha256": "20114177a7a8f906ebdc2360d808bbf3f662dbb55ad68ebe1a3d4f0c312e3807",
+      "size": 2168
+    }
+  ]
+}

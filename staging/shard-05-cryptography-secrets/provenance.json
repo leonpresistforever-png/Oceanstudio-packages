@@ -1,0 +1,361 @@
+{
+  "schemaVersion": 1,
+  "shard": "shard-05-cryptography-secrets",
+  "section": "utils",
+  "category": "Cryptography & Secret Management",
+  "target": "aarch64-linux-android28",
+  "prefix": "/data/data/studio.ocean.app/files/usr",
+  "packageCount": 50,
+  "packages": [
+    {
+      "package": "scrypt-ocean",
+      "version": "1.3.2-1",
+      "artifact": "scrypt-ocean_1.3.2-1_aarch64.deb",
+      "sha256": "02d453891146b7d863285408918c6506e95e51884357431ced434b3f88976d23",
+      "size": 2124
+    },
+    {
+      "package": "argon2-hasher",
+      "version": "20190702-1",
+      "artifact": "argon2-hasher_20190702-1_aarch64.deb",
+      "sha256": "0288e4bc49cab43b6df04d18471b6aa2694e55169d34816a3f480c203c727990",
+      "size": 2128
+    },
+    {
+      "package": "minisign-signer",
+      "version": "0.11-1",
+      "artifact": "minisign-signer_0.11-1_aarch64.deb",
+      "sha256": "defff550bb826212b40a60d728e2e1ca2d3142e8f5856475d69de98d2984ac6f",
+      "size": 2116
+    },
+    {
+      "package": "age-encryption-tool",
+      "version": "1.2.0-1",
+      "artifact": "age-encryption-tool_1.2.0-1_aarch64.deb",
+      "sha256": "833edde5c6a1f2f15f1da09c3afc45d92ee38c38658d97204cf11c006981a786",
+      "size": 2132
+    },
+    {
+      "package": "shamir-secret-sharer",
+      "version": "1.0.0-1",
+      "artifact": "shamir-secret-sharer_1.0.0-1_aarch64.deb",
+      "sha256": "ab9730dbdd22ea1015abc9728e2fb9f4167bfc5f0b43b4fd8f7e7451fd0f767d",
+      "size": 2140
+    },
+    {
+      "package": "totp-authenticator-cli",
+      "version": "1.0.0-1",
+      "artifact": "totp-authenticator-cli_1.0.0-1_aarch64.deb",
+      "sha256": "426b721e0a4a5b7cfce5d57f696f8a8a572a9fc4c72a2a71e1b3f53ac7c40eb6",
+      "size": 2160
+    },
+    {
+      "package": "hotp-generator",
+      "version": "1.0.0-1",
+      "artifact": "hotp-generator_1.0.0-1_aarch64.deb",
+      "sha256": "e077eab7a82bb5bdc3082fdd3234bb30461c7fdbd961ec8e6cd9a4537def3356",
+      "size": 2124
+    },
+    {
+      "package": "bcrypt-verifier",
+      "version": "1.0.0-1",
+      "artifact": "bcrypt-verifier_1.0.0-1_aarch64.deb",
+      "sha256": "a025e8a16ce2d6c894a2e23678bd848d7ea2443d319095ac7f087ea353d64152",
+      "size": 2136
+    },
+    {
+      "package": "pbkdf2-keygen",
+      "version": "1.0.0-1",
+      "artifact": "pbkdf2-keygen_1.0.0-1_aarch64.deb",
+      "sha256": "a3f8b3412ed01d0a9c046e4edc52c1a7a6d52e825970f6505531aaad14ff87f6",
+      "size": 2140
+    },
+    {
+      "package": "ed25519-tool",
+      "version": "1.0.0-1",
+      "artifact": "ed25519-tool_1.0.0-1_aarch64.deb",
+      "sha256": "1927736496aa615e33bc0718e6b7e80c2183d6673d1f4ccac216c47dc295144a",
+      "size": 2132
+    },
+    {
+      "package": "curve25519-keygen",
+      "version": "1.0.0-1",
+      "artifact": "curve25519-keygen_1.0.0-1_aarch64.deb",
+      "sha256": "6dddd8fa981f4cf33819a1e4a47bf6f42c41179bef3d01873a829e5f8366c9f7",
+      "size": 2140
+    },
+    {
+      "package": "blake3-sum",
+      "version": "1.5.0-1",
+      "artifact": "blake3-sum_1.5.0-1_aarch64.deb",
+      "sha256": "c94166835ef8318c0aa89adc047a66bebe264df34910b9b7cf0eb285ab2520a6",
+      "size": 2132
+    },
+    {
+      "package": "blake2b-tool",
+      "version": "1.0.0-1",
+      "artifact": "blake2b-tool_1.0.0-1_aarch64.deb",
+      "sha256": "ace030c05a01bd6e2ed9e447987a0eed4ecd43f0cfbe021a88d1729c7b633a44",
+      "size": 2124
+    },
+    {
+      "package": "siphash-calc",
+      "version": "1.0.0-1",
+      "artifact": "siphash-calc_1.0.0-1_aarch64.deb",
+      "sha256": "c4680aca953509b50796f074adde022c8d043843948ffb50659f2d84d25944e3",
+      "size": 2144
+    },
+    {
+      "package": "xxh3-checksum-fast",
+      "version": "0.8.2-1",
+      "artifact": "xxh3-checksum-fast_0.8.2-1_aarch64.deb",
+      "sha256": "b2b2f8a449155bd0a29e2b2161a9942452925c9b3ea41bb677434f011f25613a",
+      "size": 2152
+    },
+    {
+      "package": "keccak-digest",
+      "version": "1.0.0-1",
+      "artifact": "keccak-digest_1.0.0-1_aarch64.deb",
+      "sha256": "60b8eaa467971bdb9386800272fb56fb3f79838a37f8d9a0c55b4a7e8ea994a7",
+      "size": 2124
+    },
+    {
+      "package": "ripemd320-hasher",
+      "version": "1.0.0-1",
+      "artifact": "ripemd320-hasher_1.0.0-1_aarch64.deb",
+      "sha256": "67a55fd01c3bff170899223b4eb7a1d769af6b13d7a2119bb00cbe6308faa0c6",
+      "size": 2168
+    },
+    {
+      "package": "poly1305-auth",
+      "version": "1.0.0-1",
+      "artifact": "poly1305-auth_1.0.0-1_aarch64.deb",
+      "sha256": "5210cd851f04578ec7c0f10df2d0620f4360ff2eabf70201c45260f34bcb3ab9",
+      "size": 2116
+    },
+    {
+      "package": "chacha20-stream",
+      "version": "1.0.0-1",
+      "artifact": "chacha20-stream_1.0.0-1_aarch64.deb",
+      "sha256": "3d62023973e6a9c07fdc51cb51775e12088e2360226a59bdc86c04ece9bb343d",
+      "size": 2124
+    },
+    {
+      "package": "aes-gcm-tool",
+      "version": "1.0.0-1",
+      "artifact": "aes-gcm-tool_1.0.0-1_aarch64.deb",
+      "sha256": "f3d902d19be7c632c984793f0d64e25d77567a3ef12400d897f42b6f4754e4c0",
+      "size": 2140
+    },
+    {
+      "package": "rsa-key-parser",
+      "version": "1.0.0-1",
+      "artifact": "rsa-key-parser_1.0.0-1_aarch64.deb",
+      "sha256": "7542dbaa97cf4b139d3b04320fb3fb74b64e5e2a6662efbedca35b4d139e0031",
+      "size": 2144
+    },
+    {
+      "package": "dsa-key-auditor",
+      "version": "1.0.0-1",
+      "artifact": "dsa-key-auditor_1.0.0-1_aarch64.deb",
+      "sha256": "50fe008f5ef4bc5a148f4d220198030b0c4028c9000615a35802eb9eb61d290f",
+      "size": 2140
+    },
+    {
+      "package": "ecc-point-calc",
+      "version": "1.0.0-1",
+      "artifact": "ecc-point-calc_1.0.0-1_aarch64.deb",
+      "sha256": "341365fd5bef4b6ada8dd845a641edc022e84e7510bd02ddca99f3523bc1a0a8",
+      "size": 2144
+    },
+    {
+      "package": "tls-cipher-scanner",
+      "version": "1.0.0-1",
+      "artifact": "tls-cipher-scanner_1.0.0-1_aarch64.deb",
+      "sha256": "f5828ba3a1ddae9d32d31dca66f4e44112e5cb671d3988289d396dbbe45f41e0",
+      "size": 2156
+    },
+    {
+      "package": "x509-csr-builder",
+      "version": "1.0.0-1",
+      "artifact": "x509-csr-builder_1.0.0-1_aarch64.deb",
+      "sha256": "216dc53fa4a37bdbb5e2bd11a464f28d1435c69cb978ce316cdfa710a66de93d",
+      "size": 2148
+    },
+    {
+      "package": "ssl-san-inspector",
+      "version": "1.0.0-1",
+      "artifact": "ssl-san-inspector_1.0.0-1_aarch64.deb",
+      "sha256": "4fd4b2878ca8b3ffae2d07a4314d1c4a900a00d23d67e9f9f798d006e5b57798",
+      "size": 2156
+    },
+    {
+      "package": "ssh-key-fingerprinter",
+      "version": "1.0.0-1",
+      "artifact": "ssh-key-fingerprinter_1.0.0-1_aarch64.deb",
+      "sha256": "a18af1caa8e58cde8ca96779b4c77bf378c7160f2bbe34597b8da4ced4895f83",
+      "size": 2156
+    },
+    {
+      "package": "ssh-cert-checker",
+      "version": "1.0.0-1",
+      "artifact": "ssh-cert-checker_1.0.0-1_aarch64.deb",
+      "sha256": "57f8e4accae5b2980cf5c5914b4c1b3c7f2831ed31c9906da2d86749156ead1d",
+      "size": 2136
+    },
+    {
+      "package": "pgp-packet-dump",
+      "version": "1.0.0-1",
+      "artifact": "pgp-packet-dump_1.0.0-1_aarch64.deb",
+      "sha256": "7413e5f7551d20e5ff03068674ad321f06550fdd85f2d09e69debcb41d396522",
+      "size": 2144
+    },
+    {
+      "package": "wireguard-key-gen",
+      "version": "1.0.0-1",
+      "artifact": "wireguard-key-gen_1.0.0-1_aarch64.deb",
+      "sha256": "4b01486c46772f329b1f35fdaf87b4c7714bf527d2885daa888f2e2c9ff2b8a7",
+      "size": 2128
+    },
+    {
+      "package": "jwt-decoder-cli",
+      "version": "1.0.0-1",
+      "artifact": "jwt-decoder-cli_1.0.0-1_aarch64.deb",
+      "sha256": "a8b74e341de9db40b2eb96731154fbc1e2b3507efb8957f3ed3822c017b55f7b",
+      "size": 2152
+    },
+    {
+      "package": "jwt-signer-tool",
+      "version": "1.0.0-1",
+      "artifact": "jwt-signer-tool_1.0.0-1_aarch64.deb",
+      "sha256": "db23546a4c298fa0160c80fce6a603dca0ab71d829c02f49315e120a09010538",
+      "size": 2152
+    },
+    {
+      "package": "paseto-token-tool",
+      "version": "1.0.0-1",
+      "artifact": "paseto-token-tool_1.0.0-1_aarch64.deb",
+      "sha256": "e10f77e469047e41523257556ca9b56c4243edafc15ff3846e4815f57b20a9ad",
+      "size": 2152
+    },
+    {
+      "package": "macaroon-token-cli",
+      "version": "1.0.0-1",
+      "artifact": "macaroon-token-cli_1.0.0-1_aarch64.deb",
+      "sha256": "1ed29af3ee42412454a91b1f3dad5d1d1b2e00750cb39260a8567bd8641b93c7",
+      "size": 2152
+    },
+    {
+      "package": "vault-kv-fetcher",
+      "version": "1.0.0-1",
+      "artifact": "vault-kv-fetcher_1.0.0-1_aarch64.deb",
+      "sha256": "51af1ccff65a03f15dad36ecdd4e02624c3574cdad8d38d9937297db15c103d9",
+      "size": 2152
+    },
+    {
+      "package": "sops-config-decrypt",
+      "version": "1.0.0-1",
+      "artifact": "sops-config-decrypt_1.0.0-1_aarch64.deb",
+      "sha256": "b27d545f76ef111e95f954444344700049323c2764bff9a0b07d2b8bb8d545ed",
+      "size": 2148
+    },
+    {
+      "package": "cert-expiration-watcher",
+      "version": "1.0.0-1",
+      "artifact": "cert-expiration-watcher_1.0.0-1_aarch64.deb",
+      "sha256": "8fecceafb8245f30bbc4ab6747bf39dec68add6f1f2e8e8f56f8656a8a87f7e1",
+      "size": 2156
+    },
+    {
+      "package": "pkcs12-exporter",
+      "version": "1.0.0-1",
+      "artifact": "pkcs12-exporter_1.0.0-1_aarch64.deb",
+      "sha256": "6c665220173e383bd1146ffe84497f9d4310e61959f9913b2e281cf3dae18b0d",
+      "size": 2148
+    },
+    {
+      "package": "pkcs8-converter",
+      "version": "1.0.0-1",
+      "artifact": "pkcs8-converter_1.0.0-1_aarch64.deb",
+      "sha256": "be32aced7f28c924c2a2893d6b0d3b3fd614d12e41da01f813ccbe683d0781db",
+      "size": 2132
+    },
+    {
+      "package": "der-asn1-dump",
+      "version": "1.0.0-1",
+      "artifact": "der-asn1-dump_1.0.0-1_aarch64.deb",
+      "sha256": "540cefd68c03d0f9de9b4beeb0417d2bfe3077977fadb1f3eb158cf3ace8da65",
+      "size": 2144
+    },
+    {
+      "package": "random-seed-collector",
+      "version": "1.0.0-1",
+      "artifact": "random-seed-collector_1.0.0-1_aarch64.deb",
+      "sha256": "fac273a4139dd258d2725f49017908240bacbf398807417852f8f0837623ba6e",
+      "size": 2148
+    },
+    {
+      "package": "urandom-tester",
+      "version": "1.0.0-1",
+      "artifact": "urandom-tester_1.0.0-1_aarch64.deb",
+      "sha256": "de8c0158c893bb6a2e062624ad219f5aba09420eab230984e36b62c0454e32de",
+      "size": 2132
+    },
+    {
+      "package": "dice-entropy-calc",
+      "version": "1.0.0-1",
+      "artifact": "dice-entropy-calc_1.0.0-1_aarch64.deb",
+      "sha256": "3124cf0ab2a6343675f2f593b5a6659a77c97c75956fa8af30d92b9e40df20aa",
+      "size": 2148
+    },
+    {
+      "package": "steganography-tool",
+      "version": "1.0.0-1",
+      "artifact": "steganography-tool_1.0.0-1_aarch64.deb",
+      "sha256": "22df493bd208146fb0dc52212bc79bff71243bc2f8c0f8dc06dcfdea0b6959bc",
+      "size": 2148
+    },
+    {
+      "package": "xor-cipher-cli",
+      "version": "1.0.0-1",
+      "artifact": "xor-cipher-cli_1.0.0-1_aarch64.deb",
+      "sha256": "82e1fc2b134e02c01357bb6c87b5bd3c71e249a67d129b59875e5c349dc30093",
+      "size": 2140
+    },
+    {
+      "package": "rot13-encoder",
+      "version": "1.0.0-1",
+      "artifact": "rot13-encoder_1.0.0-1_aarch64.deb",
+      "sha256": "792da8995e55bc1641bc08d5857c19cfa1ae9477112a2dd5a466f53cba561286",
+      "size": 2132
+    },
+    {
+      "package": "caesar-cipher-tool",
+      "version": "1.0.0-1",
+      "artifact": "caesar-cipher-tool_1.0.0-1_aarch64.deb",
+      "sha256": "ec2a374406cffa4e534e164652ccef698d9954e2b054739b081e219a04c9e949",
+      "size": 2148
+    },
+    {
+      "package": "vigenere-analyzer",
+      "version": "1.0.0-1",
+      "artifact": "vigenere-analyzer_1.0.0-1_aarch64.deb",
+      "sha256": "8f3eca4b89ea4ee571f7b4d16824a52e594a9ade1c11aeddc9142ee08bd33b4c",
+      "size": 2140
+    },
+    {
+      "package": "base45-qr-decoder",
+      "version": "1.0.0-1",
+      "artifact": "base45-qr-decoder_1.0.0-1_aarch64.deb",
+      "sha256": "823b4006b115c03a2f98b8181d0d06c119db5723d5b55a8280340317e71533c7",
+      "size": 2136
+    },
+    {
+      "package": "base91-encoder-tool",
+      "version": "1.0.0-1",
+      "artifact": "base91-encoder-tool_1.0.0-1_aarch64.deb",
+      "sha256": "5b0f3c0895b809ede38a9e58853b4686ce9ec912efd6c27d9003f408c4b77940",
+      "size": 2156
+    }
+  ]
+}

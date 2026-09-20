@@ -1,0 +1,361 @@
+{
+  "schemaVersion": 1,
+  "shard": "shard-21-cloud-container-runtime",
+  "section": "admin",
+  "category": "Cloud Containers & Linux Namespaces",
+  "target": "aarch64-linux-android28",
+  "prefix": "/data/data/studio.ocean.app/files/usr",
+  "packageCount": 50,
+  "packages": [
+    {
+      "package": "unshare-namespace-run",
+      "version": "1.0.0-1",
+      "artifact": "unshare-namespace-run_1.0.0-1_aarch64.deb",
+      "sha256": "b0422c46eafb29b2c8eac18dbf4f951d71cf253f9bc5100bae713634abb5c437",
+      "size": 2128
+    },
+    {
+      "package": "nsenter-exec-helper",
+      "version": "1.0.0-1",
+      "artifact": "nsenter-exec-helper_1.0.0-1_aarch64.deb",
+      "sha256": "8ff6ae11dbe6f2d81123c098f862d7cf076013a0aec03f175ccbedb852419233",
+      "size": 2144
+    },
+    {
+      "package": "pivot-root-chroot-cli",
+      "version": "1.0.0-1",
+      "artifact": "pivot-root-chroot-cli_1.0.0-1_aarch64.deb",
+      "sha256": "02aa69850bfa39656392e516513f7a19baf56c322d3a9ec51fa75d4a2cd4b284",
+      "size": 2152
+    },
+    {
+      "package": "mount-namespace-view",
+      "version": "1.0.0-1",
+      "artifact": "mount-namespace-view_1.0.0-1_aarch64.deb",
+      "sha256": "50b704afbf8ccaf18745eb04cc231e59d8e132acb8914af7c3f1f70cb2b95c9a",
+      "size": 2136
+    },
+    {
+      "package": "pid-namespace-tester",
+      "version": "1.0.0-1",
+      "artifact": "pid-namespace-tester_1.0.0-1_aarch64.deb",
+      "sha256": "aa001a6cee229cb849becea934b6f9e28c1b89d982e88d74d0c980a96ae36b06",
+      "size": 2152
+    },
+    {
+      "package": "net-namespace-bridge",
+      "version": "1.0.0-1",
+      "artifact": "net-namespace-bridge_1.0.0-1_aarch64.deb",
+      "sha256": "2ab7cafea7ebdb1d517f849c1cc23f6937b095630929166254791599cb498c92",
+      "size": 2148
+    },
+    {
+      "package": "ipc-namespace-shm-chk",
+      "version": "1.0.0-1",
+      "artifact": "ipc-namespace-shm-chk_1.0.0-1_aarch64.deb",
+      "sha256": "2847d4c98114bfef6b4630587fd1f08a8457b2dd4b525745adf23a275fb7b16f",
+      "size": 2160
+    },
+    {
+      "package": "uts-namespace-hostname",
+      "version": "1.0.0-1",
+      "artifact": "uts-namespace-hostname_1.0.0-1_aarch64.deb",
+      "sha256": "2da9c52ddc487199fab4168627f1738c4d4c4b2e3e0221a0a61b8410e4ff0fb4",
+      "size": 2136
+    },
+    {
+      "package": "user-namespace-map-uid",
+      "version": "1.0.0-1",
+      "artifact": "user-namespace-map-uid_1.0.0-1_aarch64.deb",
+      "sha256": "a5062525ac6b9de7c796c899a67713817069f8412e33b4bd32beeb0a8b007f9a",
+      "size": 2148
+    },
+    {
+      "package": "cgroup-v2-unified-tree",
+      "version": "1.0.0-1",
+      "artifact": "cgroup-v2-unified-tree_1.0.0-1_aarch64.deb",
+      "sha256": "bf241cbcda876e41d3842de2069dfd4fb2b7cb569927c9c7b052b7eebdb14fd6",
+      "size": 2156
+    },
+    {
+      "package": "cgroup-v2-freeze-state",
+      "version": "1.0.0-1",
+      "artifact": "cgroup-v2-freeze-state_1.0.0-1_aarch64.deb",
+      "sha256": "eefd15ab8c2415a4d1142fc25241067e0d8819f90a3625802424536217d39843",
+      "size": 2148
+    },
+    {
+      "package": "cgroup-v2-io-weight",
+      "version": "1.0.0-1",
+      "artifact": "cgroup-v2-io-weight_1.0.0-1_aarch64.deb",
+      "sha256": "5332017ebc3d30ed7ebace94be217e0fc40f1a836f0e2b5dfa88febbb709e390",
+      "size": 2156
+    },
+    {
+      "package": "cgroup-v2-rdma-limit",
+      "version": "1.0.0-1",
+      "artifact": "cgroup-v2-rdma-limit_1.0.0-1_aarch64.deb",
+      "sha256": "351c17834f4377e738dcce0466976c9867e6259e410b607eac3bc727e41322e1",
+      "size": 2168
+    },
+    {
+      "package": "cgroup-v2-pids-max",
+      "version": "1.0.0-1",
+      "artifact": "cgroup-v2-pids-max_1.0.0-1_aarch64.deb",
+      "sha256": "0501dd08cb8a4ac26d1021f4a31d88f83981509da69ed1c68344ac47e7b79208",
+      "size": 2160
+    },
+    {
+      "package": "runc-config-generator",
+      "version": "1.0.0-1",
+      "artifact": "runc-config-generator_1.0.0-1_aarch64.deb",
+      "sha256": "5cdcf3d9adde49544c58ffe6953afe20d186367ceb0aea295f47788f3da837f4",
+      "size": 2148
+    },
+    {
+      "package": "runc-bundle-validator",
+      "version": "1.0.0-1",
+      "artifact": "runc-bundle-validator_1.0.0-1_aarch64.deb",
+      "sha256": "7c7dd7be189fb1cc33fa46aa902b5207e382d503222648471e5a2fb3f7c7a1df",
+      "size": 2148
+    },
+    {
+      "package": "crun-lightweight-exec",
+      "version": "1.0.0-1",
+      "artifact": "crun-lightweight-exec_1.0.0-1_aarch64.deb",
+      "sha256": "b843f8002fae8082613c4b4caf5407a33a5700d8b5be79a6b9ecc532f711a39c",
+      "size": 2132
+    },
+    {
+      "package": "libcontainer-spec-chk",
+      "version": "1.0.0-1",
+      "artifact": "libcontainer-spec-chk_1.0.0-1_aarch64.deb",
+      "sha256": "6dbe2cbf4565833e22d18100de386bcd9321edfc8cf682b34dab20175c155c33",
+      "size": 2144
+    },
+    {
+      "package": "oci-hooks-config-tool",
+      "version": "1.0.0-1",
+      "artifact": "oci-hooks-config-tool_1.0.0-1_aarch64.deb",
+      "sha256": "2646af3fd19b631034d28497f45326e375907a1b3bee72480bc1898bb7cca09f",
+      "size": 2172
+    },
+    {
+      "package": "oci-runtime-metrics",
+      "version": "1.0.0-1",
+      "artifact": "oci-runtime-metrics_1.0.0-1_aarch64.deb",
+      "sha256": "5538a5374b709e6e497e56e30fb230b6f628d903a7bdbf90ba74adc1f8051567",
+      "size": 2136
+    },
+    {
+      "package": "containerd-shim-ping",
+      "version": "1.0.0-1",
+      "artifact": "containerd-shim-ping_1.0.0-1_aarch64.deb",
+      "sha256": "6a916ab70f5680037a546201da10406622c9cf24b4364b9a6fd607b03785f6dd",
+      "size": 2140
+    },
+    {
+      "package": "cri-status-inspector",
+      "version": "1.0.0-1",
+      "artifact": "cri-status-inspector_1.0.0-1_aarch64.deb",
+      "sha256": "bd12311f069588aab29b45e080344c836c6aaa82e6ddd350a1d2efec1345de66",
+      "size": 2152
+    },
+    {
+      "package": "overlayfs-workdir-chk",
+      "version": "1.0.0-1",
+      "artifact": "overlayfs-workdir-chk_1.0.0-1_aarch64.deb",
+      "sha256": "e250734a55adc1ca650b6e7af660c4d77aa4784764ebedcbcbd51d14458a18e1",
+      "size": 2156
+    },
+    {
+      "package": "overlayfs-lower-upper",
+      "version": "1.0.0-1",
+      "artifact": "overlayfs-lower-upper_1.0.0-1_aarch64.deb",
+      "sha256": "df72ae1e066bef9fb402ca915db955035cba846a36f1539a04f81eebb90c0707",
+      "size": 2164
+    },
+    {
+      "package": "fuse-overlayfs-helper",
+      "version": "1.0.0-1",
+      "artifact": "fuse-overlayfs-helper_1.0.0-1_aarch64.deb",
+      "sha256": "db05f8a6c71c37a3ad74bc65f86566d6f34731e37e02066a8de85a8da87a08ad",
+      "size": 2160
+    },
+    {
+      "package": "devicemapper-thin-pool",
+      "version": "1.0.0-1",
+      "artifact": "devicemapper-thin-pool_1.0.0-1_aarch64.deb",
+      "sha256": "e327761dec74637cca603fd522f25b00cf2996e5c72559c3116e83cc38687a26",
+      "size": 2164
+    },
+    {
+      "package": "veth-pair-creator-cli",
+      "version": "1.0.0-1",
+      "artifact": "veth-pair-creator-cli_1.0.0-1_aarch64.deb",
+      "sha256": "1b9016d545c309fbb43f1b1058882dbcaa1de994aa2b0c8b26643479b196d08d",
+      "size": 2164
+    },
+    {
+      "package": "macvlan-mode-switcher",
+      "version": "1.0.0-1",
+      "artifact": "macvlan-mode-switcher_1.0.0-1_aarch64.deb",
+      "sha256": "e0a1c6fdd9190b2976dfb9610869fa7090a6f613d70ed468e73b8f2f2199490a",
+      "size": 2172
+    },
+    {
+      "package": "ipvlan-l2-l3-checker",
+      "version": "1.0.0-1",
+      "artifact": "ipvlan-l2-l3-checker_1.0.0-1_aarch64.deb",
+      "sha256": "3c21a3ba8c980667c290ab23251fe94525982daceebef2942b52c10ab430a638",
+      "size": 2164
+    },
+    {
+      "package": "iptables-rule-builder",
+      "version": "1.0.0-1",
+      "artifact": "iptables-rule-builder_1.0.0-1_aarch64.deb",
+      "sha256": "c104c1bd3f3f2978e6b3c56e6dfea59e84b7befe0e86f25eccb180dbdc216aa3",
+      "size": 2144
+    },
+    {
+      "package": "nftables-rule-codegen",
+      "version": "1.0.0-1",
+      "artifact": "nftables-rule-codegen_1.0.0-1_aarch64.deb",
+      "sha256": "b531379e91bfc53bc8634c69cc4c98d99228bc6c8ecf3c516e520a769ce03534",
+      "size": 2156
+    },
+    {
+      "package": "ebtables-bridge-rule",
+      "version": "1.0.0-1",
+      "artifact": "ebtables-bridge-rule_1.0.0-1_aarch64.deb",
+      "sha256": "b8bfaf2518e30662ae4bc020910b17eabce6c7e63d555490b06133ce6f8fa53b",
+      "size": 2160
+    },
+    {
+      "package": "tc-qdisc-netem-delay",
+      "version": "1.0.0-1",
+      "artifact": "tc-qdisc-netem-delay_1.0.0-1_aarch64.deb",
+      "sha256": "213b214990ad22e9afdd4af2f13652616d53870651fc80e2e6f35b7ddfb764ab",
+      "size": 2168
+    },
+    {
+      "package": "tc-filter-bpf-loader",
+      "version": "1.0.0-1",
+      "artifact": "tc-filter-bpf-loader_1.0.0-1_aarch64.deb",
+      "sha256": "4f37d45a95a409480852aaf532dd04910a1c8bb7323feaa6199182ad073ae88f",
+      "size": 2168
+    },
+    {
+      "package": "container-env-sanitizer",
+      "version": "1.0.0-1",
+      "artifact": "container-env-sanitizer_1.0.0-1_aarch64.deb",
+      "sha256": "ae5dbc365e3862252ccf8463ec99d077b18f51644250dbf204581cbb90064e5d",
+      "size": 2148
+    },
+    {
+      "package": "rootless-id-allocator",
+      "version": "1.0.0-1",
+      "artifact": "rootless-id-allocator_1.0.0-1_aarch64.deb",
+      "sha256": "753c97e085b952626e20fe35fcead7d980b628e8def6154c02419c76cb788c24",
+      "size": 2140
+    },
+    {
+      "package": "subuid-subgid-parser",
+      "version": "1.0.0-1",
+      "artifact": "subuid-subgid-parser_1.0.0-1_aarch64.deb",
+      "sha256": "2ef767542a6a1a88c99ef3f5e0bcf19926ed167d98efa7b517bb3291986309c6",
+      "size": 2152
+    },
+    {
+      "package": "chroot-jail-builder",
+      "version": "1.0.0-1",
+      "artifact": "chroot-jail-builder_1.0.0-1_aarch64.deb",
+      "sha256": "7b1f2da6c7e7f2e1109166585b754ac887c54dc9725cef87b923ada85fb4123c",
+      "size": 2168
+    },
+    {
+      "package": "proot-ocean-binding",
+      "version": "1.0.0-1",
+      "artifact": "proot-ocean-binding_1.0.0-1_aarch64.deb",
+      "sha256": "440f23b54295a16f8b6b53b5866a8933b2f3096ac21a2805509eb41a6acd11e3",
+      "size": 2160
+    },
+    {
+      "package": "fakechroot-config-chk",
+      "version": "1.0.0-1",
+      "artifact": "fakechroot-config-chk_1.0.0-1_aarch64.deb",
+      "sha256": "0f5b1a1c4ed1319f40b5ca0a55097ed00e4e1397396a233227cabcbbf53a6965",
+      "size": 2156
+    },
+    {
+      "package": "cap-sys-admin-check",
+      "version": "1.0.0-1",
+      "artifact": "cap-sys-admin-check_1.0.0-1_aarch64.deb",
+      "sha256": "87403b4e26f963edf95679c9297f1eca8ccbfd0890867f38321a2061b89e0f77",
+      "size": 2168
+    },
+    {
+      "package": "cap-net-raw-verifier",
+      "version": "1.0.0-1",
+      "artifact": "cap-net-raw-verifier_1.0.0-1_aarch64.deb",
+      "sha256": "f4266c3494c01484e143d08f4fc68447e9c81c3a4c3d3d189fa9e17028c6bf3e",
+      "size": 2172
+    },
+    {
+      "package": "cap-dac-override-chk",
+      "version": "1.0.0-1",
+      "artifact": "cap-dac-override-chk_1.0.0-1_aarch64.deb",
+      "sha256": "24ffa74f37682e8d258cf690a7640106e5c139922cdcc63069edac55ba8da4a7",
+      "size": 2172
+    },
+    {
+      "package": "seccomp-bpf-generator",
+      "version": "1.0.0-1",
+      "artifact": "seccomp-bpf-generator_1.0.0-1_aarch64.deb",
+      "sha256": "c65f677ddba957f132399eb680587b906e768ef10b1aff88d7bc4801b33edfc6",
+      "size": 2156
+    },
+    {
+      "package": "seccomp-syscall-dump",
+      "version": "1.0.0-1",
+      "artifact": "seccomp-syscall-dump_1.0.0-1_aarch64.deb",
+      "sha256": "b09aeeb5353f11564e37a419eaf819e05f4b2757b366f409d0d97b1470f698c9",
+      "size": 2152
+    },
+    {
+      "package": "apparmor-profile-lint",
+      "version": "1.0.0-1",
+      "artifact": "apparmor-profile-lint_1.0.0-1_aarch64.deb",
+      "sha256": "553df0df2cade7a8c3abaffa6965db6c98cf29ddfab6fe728eeca4bf04c17aba",
+      "size": 2160
+    },
+    {
+      "package": "selinux-mls-level-chk",
+      "version": "1.0.0-1",
+      "artifact": "selinux-mls-level-chk_1.0.0-1_aarch64.deb",
+      "sha256": "a0392dae8a7427bb14488133ddb00724c8e49fc393c300b35101bc25e57c5c56",
+      "size": 2172
+    },
+    {
+      "package": "container-port-forward",
+      "version": "1.0.0-1",
+      "artifact": "container-port-forward_1.0.0-1_aarch64.deb",
+      "sha256": "fabf442d6464019c075e9fc1efe0ea4ae97ffc08ecb1e7f499327a2d9d2c802a",
+      "size": 2148
+    },
+    {
+      "package": "container-ipam-alloc",
+      "version": "1.0.0-1",
+      "artifact": "container-ipam-alloc_1.0.0-1_aarch64.deb",
+      "sha256": "7b7c74ec1826c6d849f0171853db550c46d2f113f2557b75c130816714c4552e",
+      "size": 2148
+    },
+    {
+      "package": "docker-tar-layer-extract",
+      "version": "1.0.0-1",
+      "artifact": "docker-tar-layer-extract_1.0.0-1_aarch64.deb",
+      "sha256": "68336fbf1ae00132014706ee5f4584268de7b842dd828e277434eebd5adb942b",
+      "size": 2180
+    }
+  ]
+}

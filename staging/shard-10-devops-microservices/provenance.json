@@ -1,0 +1,361 @@
+{
+  "schemaVersion": 1,
+  "shard": "shard-10-devops-microservices",
+  "section": "devel",
+  "category": "DevOps & Cloud Microservices",
+  "target": "aarch64-linux-android28",
+  "prefix": "/data/data/studio.ocean.app/files/usr",
+  "packageCount": 50,
+  "packages": [
+    {
+      "package": "consul-health-checker",
+      "version": "1.0.0-1",
+      "artifact": "consul-health-checker_1.0.0-1_aarch64.deb",
+      "sha256": "9e0e045d9b811a6066f3ca39b3c020b8368398bd7a5d5573fd8d873eb6afe4e5",
+      "size": 2164
+    },
+    {
+      "package": "etcd-kv-parser",
+      "version": "1.0.0-1",
+      "artifact": "etcd-kv-parser_1.0.0-1_aarch64.deb",
+      "sha256": "f7e30697d28060689d2e898a3b3c5563bf3f59e16f3c075b68111d03006b502b",
+      "size": 2140
+    },
+    {
+      "package": "service-liveness-probe",
+      "version": "1.0.0-1",
+      "artifact": "service-liveness-probe_1.0.0-1_aarch64.deb",
+      "sha256": "33491621f774e165c7c66409961e23f5382c9b7b3d1678631097ae83a47aed26",
+      "size": 2152
+    },
+    {
+      "package": "service-readiness-chk",
+      "version": "1.0.0-1",
+      "artifact": "service-readiness-chk_1.0.0-1_aarch64.deb",
+      "sha256": "489c8fdaf8604699725f9f2ce8322a34f9fa982dfe3a17d15a14b9ee2c67bcd9",
+      "size": 2156
+    },
+    {
+      "package": "prometheus-metric-fmt",
+      "version": "1.0.0-1",
+      "artifact": "prometheus-metric-fmt_1.0.0-1_aarch64.deb",
+      "sha256": "04c522ad03f517312944aca17434723e102de19fb7a3f0069b5d270b76e82541",
+      "size": 2160
+    },
+    {
+      "package": "openmetrics-validator",
+      "version": "1.0.0-1",
+      "artifact": "openmetrics-validator_1.0.0-1_aarch64.deb",
+      "sha256": "476dbd660a19e724ea63209fbfbbb004c4ef263237cac50a0c4a543f4aaa417c",
+      "size": 2160
+    },
+    {
+      "package": "statsd-packet-sender",
+      "version": "1.0.0-1",
+      "artifact": "statsd-packet-sender_1.0.0-1_aarch64.deb",
+      "sha256": "00739f46dbcedda76bf00408f2f30c26feaee946c597a0d142b8bd61e0e097c2",
+      "size": 2156
+    },
+    {
+      "package": "logfmt-parser-cli",
+      "version": "1.0.0-1",
+      "artifact": "logfmt-parser-cli_1.0.0-1_aarch64.deb",
+      "sha256": "d18e956e530fef8d988009e6159000d9666ad64ebd8229b7199f9a45ef02b2a4",
+      "size": 2160
+    },
+    {
+      "package": "fluentd-event-builder",
+      "version": "1.0.0-1",
+      "artifact": "fluentd-event-builder_1.0.0-1_aarch64.deb",
+      "sha256": "eca3b0a5377c3de05bba672c53a341edc62b2f9d1cc146f90d02be9f9f339a2f",
+      "size": 2144
+    },
+    {
+      "package": "syslog-rfc5424-gen",
+      "version": "1.0.0-1",
+      "artifact": "syslog-rfc5424-gen_1.0.0-1_aarch64.deb",
+      "sha256": "c9f1d9763ff797d950dd0f3cb8eb74326a23dd52d731f58d66df592504aef655",
+      "size": 2152
+    },
+    {
+      "package": "envsubst-lite",
+      "version": "1.0.0-1",
+      "artifact": "envsubst-lite_1.0.0-1_aarch64.deb",
+      "sha256": "9a9758dacf0d4c4b6f267db54173ac73180ab67bc70b349a16c45d83d86853cf",
+      "size": 2140
+    },
+    {
+      "package": "mustache-templater",
+      "version": "1.0.0-1",
+      "artifact": "mustache-templater_1.0.0-1_aarch64.deb",
+      "sha256": "a07799db412ae1483443e6ffddce57b29814e88eb73e28dffc969e83e6b7fcd4",
+      "size": 2156
+    },
+    {
+      "package": "gomplate-substitute",
+      "version": "1.0.0-1",
+      "artifact": "gomplate-substitute_1.0.0-1_aarch64.deb",
+      "sha256": "28561d9f3f1cefc7b9c75a7aae93097f6d1a2520d5e9ee089ce1573a4e247f89",
+      "size": 2156
+    },
+    {
+      "package": "dockerfile-linter",
+      "version": "1.0.0-1",
+      "artifact": "dockerfile-linter_1.0.0-1_aarch64.deb",
+      "sha256": "087525b43170d65ceea306482ed40417c7a1ef8d349113072d4fd80e43ef6d8c",
+      "size": 2152
+    },
+    {
+      "package": "containerfile-parser",
+      "version": "1.0.0-1",
+      "artifact": "containerfile-parser_1.0.0-1_aarch64.deb",
+      "sha256": "44f08271c38c5143e86000e9978539c48aff23693ee6a64f55e5eab1d82da99a",
+      "size": 2160
+    },
+    {
+      "package": "oci-spec-validator",
+      "version": "1.0.0-1",
+      "artifact": "oci-spec-validator_1.0.0-1_aarch64.deb",
+      "sha256": "87e54e899e6e2b266d2b49630bdbf610300bc1bab6ab754f01d298888945fb69",
+      "size": 2168
+    },
+    {
+      "package": "rootfs-manifest-diff",
+      "version": "1.0.0-1",
+      "artifact": "rootfs-manifest-diff_1.0.0-1_aarch64.deb",
+      "sha256": "33957661d7cde4f68669fc0f0952972394fa41db5f9ce8f7f30270d9dd30fbd8",
+      "size": 2156
+    },
+    {
+      "package": "overlayfs-layer-view",
+      "version": "1.0.0-1",
+      "artifact": "overlayfs-layer-view_1.0.0-1_aarch64.deb",
+      "sha256": "c5675d472ac98362aff6f71e0fa07c26de7a0a14d08edfbaf4aecee1ac48f428",
+      "size": 2176
+    },
+    {
+      "package": "compose-file-validator",
+      "version": "1.0.0-1",
+      "artifact": "compose-file-validator_1.0.0-1_aarch64.deb",
+      "sha256": "b186e50d748134a0ab3b5c3d07819aab994b132a11a9b9ac25cf914c31d37d5e",
+      "size": 2164
+    },
+    {
+      "package": "k8s-pod-yaml-linter",
+      "version": "1.0.0-1",
+      "artifact": "k8s-pod-yaml-linter_1.0.0-1_aarch64.deb",
+      "sha256": "72627208c987973c965aa234a9856961326b2e8d6b63ab29db94d29bb4cab3af",
+      "size": 2176
+    },
+    {
+      "package": "helm-values-differ",
+      "version": "1.0.0-1",
+      "artifact": "helm-values-differ_1.0.0-1_aarch64.deb",
+      "sha256": "9355ac90d2c1d0daf25a553c085165cd9305c04f7c7526974e3f64dd852e797c",
+      "size": 2164
+    },
+    {
+      "package": "crd-schema-validator",
+      "version": "1.0.0-1",
+      "artifact": "crd-schema-validator_1.0.0-1_aarch64.deb",
+      "sha256": "4e8b9729a118ec78087e8ddec119fe55de9f8ffb3ab5001e3b1758f7e8c74ae5",
+      "size": 2168
+    },
+    {
+      "package": "ingress-route-checker",
+      "version": "1.0.0-1",
+      "artifact": "ingress-route-checker_1.0.0-1_aarch64.deb",
+      "sha256": "e3ca703884c375c6a84a3d3504945c87487bc3532fb584fefa49793f940c2303",
+      "size": 2160
+    },
+    {
+      "package": "service-mesh-probe",
+      "version": "1.0.0-1",
+      "artifact": "service-mesh-probe_1.0.0-1_aarch64.deb",
+      "sha256": "e4ffbe9879c5f754eb36ebe99c2320bfd377020c33b4b1aa770f118d141bffc1",
+      "size": 2148
+    },
+    {
+      "package": "circuit-breaker-tester",
+      "version": "1.0.0-1",
+      "artifact": "circuit-breaker-tester_1.0.0-1_aarch64.deb",
+      "sha256": "ffc6c66aaecfae75f1f798d1e5815e1d9f7f4f11df76d407b3b52d275d4dc6b6",
+      "size": 2160
+    },
+    {
+      "package": "rate-limit-simulator",
+      "version": "1.0.0-1",
+      "artifact": "rate-limit-simulator_1.0.0-1_aarch64.deb",
+      "sha256": "3d4b9dbf3df6a3835abd741fcb30277c66bbadd6e0bd46c2607b4328e705f4d5",
+      "size": 2156
+    },
+    {
+      "package": "retry-backoff-calc",
+      "version": "1.0.0-1",
+      "artifact": "retry-backoff-calc_1.0.0-1_aarch64.deb",
+      "sha256": "58587dd0bbaec8b206461e7edb20abf70c3686fad56d691fe1c2dd5d9119a33a",
+      "size": 2156
+    },
+    {
+      "package": "grpc-channelz-monitor",
+      "version": "1.0.0-1",
+      "artifact": "grpc-channelz-monitor_1.0.0-1_aarch64.deb",
+      "sha256": "dc262a19b4d88ca0124aae81d40c79931383ffed35d7cade80456971f2806b09",
+      "size": 2172
+    },
+    {
+      "package": "protobuf-field-mask",
+      "version": "1.0.0-1",
+      "artifact": "protobuf-field-mask_1.0.0-1_aarch64.deb",
+      "sha256": "4461888656f0a91a5d7bae3a782b32189ebf8adeaf321b5aea594b4355a0d7e7",
+      "size": 2152
+    },
+    {
+      "package": "avro-schema-diff",
+      "version": "1.0.0-1",
+      "artifact": "avro-schema-diff_1.0.0-1_aarch64.deb",
+      "sha256": "691066b5e84c4fbad9cbc06b08e2508ba12598fad21c19a29b2fa152baa03439",
+      "size": 2160
+    },
+    {
+      "package": "thrift-idl-linter",
+      "version": "1.0.0-1",
+      "artifact": "thrift-idl-linter_1.0.0-1_aarch64.deb",
+      "sha256": "7b8cd41891579c2b2c81f3ec48c427fdff5e9d2ed801012a041734d241494d18",
+      "size": 2160
+    },
+    {
+      "package": "capnp-schema-viewer",
+      "version": "1.0.0-1",
+      "artifact": "capnp-schema-viewer_1.0.0-1_aarch64.deb",
+      "sha256": "b12e3047cf3dca537d9cbb3fbd320d03320c8dbe328edc3c16665292edcfcc81",
+      "size": 2168
+    },
+    {
+      "package": "json-rpc-request-gen",
+      "version": "1.0.0-1",
+      "artifact": "json-rpc-request-gen_1.0.0-1_aarch64.deb",
+      "sha256": "3ddc5169bed12623c4400d630cbd2560f24922374f2b0acb2f6668970c94efc3",
+      "size": 2164
+    },
+    {
+      "package": "webhook-signature-chk",
+      "version": "1.0.0-1",
+      "artifact": "webhook-signature-chk_1.0.0-1_aarch64.deb",
+      "sha256": "0c60366aabf28e224ddec21f37d5c55b0b4e8723c03303104b65302402c9c356",
+      "size": 2164
+    },
+    {
+      "package": "sse-event-streamer",
+      "version": "1.0.0-1",
+      "artifact": "sse-event-streamer_1.0.0-1_aarch64.deb",
+      "sha256": "d7e0d32f66ab0153882e2150954369548216cd744d99a1846ebb50d988d16df8",
+      "size": 2156
+    },
+    {
+      "package": "pubsub-topic-tester",
+      "version": "1.0.0-1",
+      "artifact": "pubsub-topic-tester_1.0.0-1_aarch64.deb",
+      "sha256": "4ae0acd6ab8f313feb66a78ab459d8d3c98241d52a4f12266e4f9efb76ca3ce5",
+      "size": 2168
+    },
+    {
+      "package": "kafka-offset-calc",
+      "version": "1.0.0-1",
+      "artifact": "kafka-offset-calc_1.0.0-1_aarch64.deb",
+      "sha256": "e82d02bae9f38bdbbd866cddd11d0d659cdda8bdf7dc4af4098535eece865f7a",
+      "size": 2164
+    },
+    {
+      "package": "nats-message-pub",
+      "version": "1.0.0-1",
+      "artifact": "nats-message-pub_1.0.0-1_aarch64.deb",
+      "sha256": "19a332c6cfde0e9fc47d6b102b03077f587c1415de08b920b4c42cd441e1b172",
+      "size": 2148
+    },
+    {
+      "package": "mqtt-packet-decoder",
+      "version": "1.0.0-1",
+      "artifact": "mqtt-packet-decoder_1.0.0-1_aarch64.deb",
+      "sha256": "a2559bd4af00e3e1936b312791b1d3069fea801300f66a11518e3a6961a41790",
+      "size": 2164
+    },
+    {
+      "package": "amqp-frame-inspector",
+      "version": "1.0.0-1",
+      "artifact": "amqp-frame-inspector_1.0.0-1_aarch64.deb",
+      "sha256": "b4a10d97c112a9bed1a8420ed822e2b0fecb34091fe1442659a0a4b9409472d6",
+      "size": 2164
+    },
+    {
+      "package": "zero-mq-socket-test",
+      "version": "1.0.0-1",
+      "artifact": "zero-mq-socket-test_1.0.0-1_aarch64.deb",
+      "sha256": "7bf120c739229f1e247d0a64bdde9019a766486bdbcb2b441f2a8afa66372b5e",
+      "size": 2172
+    },
+    {
+      "package": "cron-expression-next",
+      "version": "1.0.0-1",
+      "artifact": "cron-expression-next_1.0.0-1_aarch64.deb",
+      "sha256": "db900ccfb102512f4055a749ee6bfc87ba8831a7ad0a6a8647fc07822527f04c",
+      "size": 2148
+    },
+    {
+      "package": "systemd-unit-linter",
+      "version": "1.0.0-1",
+      "artifact": "systemd-unit-linter_1.0.0-1_aarch64.deb",
+      "sha256": "72030f904473f50f19f117b7373e6fe70816798ecca25575124f4b290a624a23",
+      "size": 2156
+    },
+    {
+      "package": "init-script-validator",
+      "version": "1.0.0-1",
+      "artifact": "init-script-validator_1.0.0-1_aarch64.deb",
+      "sha256": "bdbda413abf6638896a54f580e366479edca8ad988e1444d58458a588e82625f",
+      "size": 2152
+    },
+    {
+      "package": "dotenv-loader-cli",
+      "version": "1.0.0-1",
+      "artifact": "dotenv-loader-cli_1.0.0-1_aarch64.deb",
+      "sha256": "534657441865eaaaaa895753320493b15629faa248fa72501ac306aa97939110",
+      "size": 2136
+    },
+    {
+      "package": "dotenv-encryption-chk",
+      "version": "1.0.0-1",
+      "artifact": "dotenv-encryption-chk_1.0.0-1_aarch64.deb",
+      "sha256": "f057c2ebc8fc5d8a8f29a14115b8d29097420a356ef101db7cf0dda10e1f9ee3",
+      "size": 2156
+    },
+    {
+      "package": "feature-flag-eval",
+      "version": "1.0.0-1",
+      "artifact": "feature-flag-eval_1.0.0-1_aarch64.deb",
+      "sha256": "058bca2f9c0cd238e6df68a3f25b647612f78f0683f5d7505be7deea861d3bc5",
+      "size": 2148
+    },
+    {
+      "package": "chaos-kill-selector",
+      "version": "1.0.0-1",
+      "artifact": "chaos-kill-selector_1.0.0-1_aarch64.deb",
+      "sha256": "6e979bc25cd59aa658ac44fa20b93d8715df110882952c0868d5094150bc04ea",
+      "size": 2148
+    },
+    {
+      "package": "load-balancer-round",
+      "version": "1.0.0-1",
+      "artifact": "load-balancer-round_1.0.0-1_aarch64.deb",
+      "sha256": "aadcfbf0cd3dedbfa6b868cba6a764eb303e42bbaaf4e7d8e138f926cb69e895",
+      "size": 2172
+    },
+    {
+      "package": "canary-traffic-calc",
+      "version": "1.0.0-1",
+      "artifact": "canary-traffic-calc_1.0.0-1_aarch64.deb",
+      "sha256": "fd7d4d163d7401e2d64191157b02cb93a5e33bfd1bba36d6515fb072acadbfc7",
+      "size": 2160
+    }
+  ]
+}
