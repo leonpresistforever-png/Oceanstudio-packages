@@ -492,7 +492,7 @@ def expect_ct_header_chk(args):
     out({"valid":not errs,"errors":errs,"directives":d,"note":"Expect-CT is obsolete in modern browsers; parser retained for legacy diagnostics"})
 def feature_policy_analyzer(args):
     s=" ".join(args);features={}
-    for part in s.split(";"):
+    for part in re.split(r"[;,]",s):
         p=part.strip()
         if not p:continue
         if "=" in p:k,v=p.split("=",1)
