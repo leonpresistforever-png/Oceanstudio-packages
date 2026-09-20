@@ -271,7 +271,7 @@ def julian(t):
     return t.timestamp()/86400+2440587.5
 def bool_eval(expr,vals):
     tree=ast.parse(expr,mode="eval")
-    ok=(ast.Expression,ast.Name,ast.Constant,ast.BoolOp,ast.UnaryOp,ast.And,ast.Or,ast.Not,ast.BinOp,ast.BitAnd,ast.BitOr,ast.BitXor)
+    ok=(ast.Expression,ast.Name,ast.Load,ast.Constant,ast.BoolOp,ast.UnaryOp,ast.And,ast.Or,ast.Not,ast.BinOp,ast.BitAnd,ast.BitOr,ast.BitXor)
     for n in ast.walk(tree):
         if not isinstance(n,ok):raise ValueError("boolean operators only")
         if isinstance(n,ast.Name) and n.id not in vals:raise ValueError("unknown variable")
