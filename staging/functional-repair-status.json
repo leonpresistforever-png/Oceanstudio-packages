@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "targetExpansionPackages": 1000,
+  "stagedFunctionalRepairs": 200,
+  "livePromotedRepairs": 0,
+  "remainingPlaceholderPackages": 800,
+  "repairVersion": "1.0.0-2",
+  "signingBlockedBy": "OCEAN_REPOSITORY_SIGNING_KEY unavailable to GitHub Actions",
+  "shards": [
+    {
+      "name": "shard-24-firmware-hardware-iot",
+      "packages": 50,
+      "testsPassed": 50,
+      "status": "staged-functional"
+    },
+    {
+      "name": "shard-25-api-contract-validation",
+      "packages": 50,
+      "testsPassed": 50,
+      "status": "staged-functional"
+    },
+    {
+      "name": "shard-26-performance-profiling",
+      "packages": 50,
+      "testsPassed": 50,
+      "status": "staged-functional"
+    },
+    {
+      "name": "shard-27-data-stream-etl",
+      "packages": 50,
+      "testsPassed": 50,
+      "status": "staged-functional"
+    }
+  ]
+}
