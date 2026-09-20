@@ -78,8 +78,14 @@ def main():
     section=shards[ns.shard].get("section",ns.section)
     names=[x[0] for x in packages]
     if len(names)!=50 or len(set(names))!=50: raise SystemExit(f"{ns.shard}: expected 50 unique names, got {len(names)}/{len(set(names))}")
-    if set(names)!=set(runtime.COMMANDS):
-        raise SystemExit(f"runtime mismatch missing={sorted(set(names)-set(runtime.COMMANDS))} extra={sorted(set(runtime.COMMANDS)-set(names))}")
+    if hasattr(runtime,"COMMANDS"):
+        if set(names)!=set(runtime.COMMANDS):
+            raise SystemExit(f"runtime mismatch missing={sorted(set(names)-set(runtime.COMMANDS))} extra={sorted(set(runtime.COMMANDS)-set(names))}")
+    elif hasattr(runtime,"supports"):
+        unsupported=[n for n in names if not runtime.supports(n)]
+        if unsupported: raise SystemExit(f"runtime does not support: {unsupported}")
+    else:
+        raise SystemExit("runtime must expose COMMANDS or supports(name)")
 
     live_text=live.read_text(encoding="utf-8",errors="replace")
     missing=[n for n in names if f"Package: {n}\n" not in live_text]
