@@ -519,6 +519,8 @@ def main():
         elif not a or a[0] in ("-h","--help"):
             print("Ocean DevKit: 200 package suite");print("\n".join(COMMANDS));return
         else:die("unknown command")
+    if a and a[0] in ("-h","--help"):
+        print(cmd+" — Ocean DevKit functional utility");return
     if cmd=="ocean-devkit-runtime":
         emit({"suite":"ocean-devkit","version":VERSION,"commands":200,"groups":{"apk":len(APK),"web":len(WEB),"git":len(GIT),"text":len(TEXT),"data":len(DATA),"fs":len(FS),"net":len(NET),"crypto":len(CRYPTO),"build":len(BUILD),"archive":len(ARCHIVE)}});return
     if cmd in APK:handle_apk(cmd,a)
