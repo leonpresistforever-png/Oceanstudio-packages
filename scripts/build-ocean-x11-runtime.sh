@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
-ROOTFS="\${1:?rootfs directory required}"
-OUT="\${2:-staging/ocean-device-suite}"
+ROOTFS="${1:?rootfs directory required}"
+OUT="${2:-staging/ocean-device-suite}"
 PREFIX="/data/data/studio.ocean.app/files/usr"
 VERSION="1.0.0-1"
 
@@ -14,13 +14,13 @@ test -e "$ROOTFS/lib/ld-linux-aarch64.so.1" -o -e "$ROOTFS/lib/aarch64-linux-gnu
 WORK="$(mktemp -d)"
 trap 'rm -rf "$WORK"' EXIT
 PKG="$WORK/pkg"
-DEST="$PKG\${PREFIX}/var/lib/ocean-x11/rootfs"
-mkdir -p "$PKG/DEBIAN" "$PKG\${PREFIX}/bin" "$DEST"
+DEST="$PKG${PREFIX}/var/lib/ocean-x11/rootfs"
+mkdir -p "$PKG/DEBIAN" "$PKG${PREFIX}/bin" "$DEST"
 cp -a "$ROOTFS/." "$DEST/"
 
 cat > "$PKG/DEBIAN/control" <<EOF
 Package: ocean-x11-runtime
-Version: \${VERSION}
+Version: ${VERSION}
 Architecture: aarch64
 Maintainer: OceanStudio <packages@ocean.studio>
 Section: x11
@@ -32,17 +32,17 @@ Description: OceanStudio independent X11 display backend
  and feeds the native Ocean X11 renderer over localhost RFB.
 EOF
 
-cat > "$PKG\${PREFIX}/bin/ocean-x11-runtime" <<'EOF'
+cat > "$PKG${PREFIX}/bin/ocean-x11-runtime" <<'EOF'
 #!/system/bin/sh
 if [ -z "$PREFIX" ]; then PREFIX="/data/data/studio.ocean.app/files/usr"; fi
 exec "$PREFIX/bin/python" "$PREFIX/lib/ocean-device/ocean_device.py" ocean-x11-runtime "$@"
 EOF
-chmod 755 "$PKG\${PREFIX}/bin/ocean-x11-runtime"
+chmod 755 "$PKG${PREFIX}/bin/ocean-x11-runtime"
 
-rm -f "$OUT/pool/main/ocean-x11-runtime_\${VERSION}_all.deb" "$OUT/pool/main/ocean-x11-runtime_\${VERSION}_aarch64.deb"
-dpkg-deb -Zxz -z9 --root-owner-group --build "$PKG" "$OUT/pool/main/ocean-x11-runtime_\${VERSION}_aarch64.deb" >/dev/null
+rm -f "$OUT/pool/main/ocean-x11-runtime_${VERSION}_all.deb" "$OUT/pool/main/ocean-x11-runtime_${VERSION}_aarch64.deb"
+dpkg-deb -Zxz -z9 --root-owner-group --build "$PKG" "$OUT/pool/main/ocean-x11-runtime_${VERSION}_aarch64.deb" >/dev/null
 
-SIZE="$(stat -c%s "$OUT/pool/main/ocean-x11-runtime_\${VERSION}_aarch64.deb")"
+SIZE="$(stat -c%s "$OUT/pool/main/ocean-x11-runtime_${VERSION}_aarch64.deb")"
 if [ "$SIZE" -ge 99000000 ]; then
   echo "X11 runtime package is too large for ordinary GitHub storage: $SIZE" >&2
   exit 1
