@@ -1,0 +1,99 @@
+name: Repair 150 functional packages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'sources/functional-shards/shards17_19_21_runtime.py'
+      - 'scripts/repair-functional-shard.py'
+      - 'tests/test-shards17-19-21-functional.py'
+      - '.github/workflows/repair-150-shards17-19-21.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ocean-repair-150
+  cancel-in-progress: true
+
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /sources/functional-shards/shards17_19_21_runtime.py
+            /scripts/repair-functional-shard.py
+            /scripts/expansion/shard_batch3.py
+            /tests/test-shards17-19-21-functional.py
+            /staging/shard-17-android-bionic-platform/
+            /staging/shard-19-archive-backup-sync/
+            /staging/shard-21-cloud-container-runtime/
+            /staging/functional-repair-status.json
+            /apt/dists/stable/main/binary-aarch64/Packages
+
+      - name: Install build tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y dpkg-dev
+
+      - name: Exercise all 150 commands
+        run: |
+          set -euo pipefail
+          python3 -m py_compile sources/functional-shards/shards17_19_21_runtime.py scripts/repair-functional-shard.py tests/test-shards17-19-21-functional.py
+          python3 tests/test-shards17-19-21-functional.py sources/functional-shards/shards17_19_21_runtime.py scripts/expansion/shard_batch3.py
+
+      - name: Rebuild three 50-package shards
+        run: |
+          set -euo pipefail
+          for shard in shard-17-android-bionic-platform shard-19-archive-backup-sync shard-21-cloud-container-runtime; do
+            python3 scripts/repair-functional-shard.py \
+              --runtime sources/functional-shards/shards17_19_21_runtime.py \
+              --batch scripts/expansion/shard_batch3.py --batch-symbol BATCH3_SHARDS \
+              --shard "$shard" --output "staging/$shard" \
+              --live-packages apt/dists/stable/main/binary-aarch64/Packages --version 1.0.0-2
+            test "$(find "staging/$shard/pool/main" -name '*.deb' -type f | wc -l)" -eq 50
+            test "$(grep -c '^Package:' "staging/$shard/Packages.repaired")" -eq 50
+          done
+          test "$(find staging/shard-17-android-bionic-platform/pool/main staging/shard-19-archive-backup-sync/pool/main staging/shard-21-cloud-container-runtime/pool/main -name '*.deb' -type f | wc -l)" -eq 150
+          ! grep -R -a -E '/data/(data|user/0)/com\.termux|packages\.termux\.dev|TERMUX_PREFIX' \
+            staging/shard-17-android-bionic-platform staging/shard-19-archive-backup-sync staging/shard-21-cloud-container-runtime
+
+      - name: Update repair status after validation
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path("staging/functional-repair-status.json"); j=json.loads(p.read_text())
+          add=["shard-17-android-bionic-platform","shard-19-archive-backup-sync","shard-21-cloud-container-runtime"]
+          known={x["name"] for x in j["shards"]}
+          for s in add:
+              if s not in known:j["shards"].append({"name":s,"packages":50,"testsPassed":50,"status":"staged-functional"})
+          j["stagedFunctionalRepairs"]=sum(x["packages"] for x in j["shards"] if x["status"]=="staged-functional")
+          j["remainingPlaceholderPackages"]=j["targetExpansionPackages"]-j["stagedFunctionalRepairs"]
+          p.write_text(json.dumps(j,indent=2)+"\n")
+          assert j["stagedFunctionalRepairs"]>=500 and j["remainingPlaceholderPackages"]<=500
+          PY
+
+      - name: Commit validated 150-package repair
+        run: |
+          set -euo pipefail
+          git config user.name "Ocean Package Repair"
+          git config user.email "packages@ocean.studio"
+          git add staging/shard-17-android-bionic-platform staging/shard-19-archive-backup-sync staging/shard-21-cloud-container-runtime staging/functional-repair-status.json
+          git diff --cached --quiet && exit 0
+          git commit -m "fix(packages): replace 150 placeholders across shards 17 19 21 [skip ci]"
+          git pull --rebase origin main
+          git push origin HEAD:main
+
+      - name: Report
+        run: |
+          echo "Functional command tests: 150/150"
+          echo "Rebuilt packages: 150"
+          cat staging/functional-repair-status.json
