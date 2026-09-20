@@ -1,0 +1,221 @@
+name: Repair final 200 functional packages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'sources/functional-shards/shard12_database.py'
+      - 'sources/functional-shards/shard14_media.py'
+      - 'sources/functional-shards/shard20_forensics.py'
+      - 'sources/functional-shards/shard23_distributed.py'
+      - 'tests/test-final200-functional.py'
+      - '.github/workflows/repair-final-200.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ocean-repair-final-200
+  cancel-in-progress: true
+
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    timeout-minutes: 75
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /.github/workflows/repair-final-200.yml
+            /sources/functional-shards/shard12_database.py
+            /sources/functional-shards/shard14_media.py
+            /sources/functional-shards/shard20_forensics.py
+            /sources/functional-shards/shard23_distributed.py
+            /tests/test-final200-functional.py
+            /scripts/repair-functional-shard.py
+            /scripts/expansion/shard_batch2.py
+            /scripts/expansion/shard_batch3.py
+            /scripts/expansion/shard_batch4.py
+            /staging/functional-repair-status.json
+            /staging/shard-12-database-query-engines/
+            /staging/shard-14-image-media-audio/
+            /staging/shard-20-security-audit-forensics/
+            /staging/shard-23-distributed-consensus-p2p/
+            /apt/dists/stable/main/binary-aarch64/Packages
+
+      - name: Install packaging tools
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          sudo apt-get install -y dpkg-dev git
+
+      - name: Compile all final repair code
+        run: |
+          set -euo pipefail
+          python3 -m py_compile \
+            sources/functional-shards/shard12_database.py \
+            sources/functional-shards/shard14_media.py \
+            sources/functional-shards/shard20_forensics.py \
+            sources/functional-shards/shard23_distributed.py \
+            tests/test-final200-functional.py \
+            scripts/repair-functional-shard.py
+
+      - name: Validate exact 200 identities and functional fixtures
+        run: |
+          set -euo pipefail
+          python3 tests/test-final200-functional.py \
+            sources/functional-shards/shard12_database.py \
+            sources/functional-shards/shard14_media.py \
+            sources/functional-shards/shard20_forensics.py \
+            sources/functional-shards/shard23_distributed.py \
+            scripts/expansion/shard_batch2.py \
+            scripts/expansion/shard_batch3.py \
+            scripts/expansion/shard_batch4.py
+
+      - name: Rebuild shard 12 database
+        run: |
+          set -euo pipefail
+          python3 scripts/repair-functional-shard.py \
+            --runtime sources/functional-shards/shard12_database.py \
+            --batch scripts/expansion/shard_batch2.py \
+            --batch-symbol BATCH2_SHARDS \
+            --shard shard-12-database-query-engines \
+            --output staging/shard-12-database-query-engines \
+            --live-packages apt/dists/stable/main/binary-aarch64/Packages \
+            --version 1.0.0-2
+
+      - name: Rebuild shard 14 media
+        run: |
+          set -euo pipefail
+          python3 scripts/repair-functional-shard.py \
+            --runtime sources/functional-shards/shard14_media.py \
+            --batch scripts/expansion/shard_batch2.py \
+            --batch-symbol BATCH2_SHARDS \
+            --shard shard-14-image-media-audio \
+            --output staging/shard-14-image-media-audio \
+            --live-packages apt/dists/stable/main/binary-aarch64/Packages \
+            --version 1.0.0-2
+
+      - name: Rebuild shard 20 forensics
+        run: |
+          set -euo pipefail
+          python3 scripts/repair-functional-shard.py \
+            --runtime sources/functional-shards/shard20_forensics.py \
+            --batch scripts/expansion/shard_batch3.py \
+            --batch-symbol BATCH3_SHARDS \
+            --shard shard-20-security-audit-forensics \
+            --output staging/shard-20-security-audit-forensics \
+            --live-packages apt/dists/stable/main/binary-aarch64/Packages \
+            --version 1.0.0-2
+
+      - name: Rebuild shard 23 distributed
+        run: |
+          set -euo pipefail
+          python3 scripts/repair-functional-shard.py \
+            --runtime sources/functional-shards/shard23_distributed.py \
+            --batch scripts/expansion/shard_batch4.py \
+            --batch-symbol BATCH4_SHARDS \
+            --shard shard-23-distributed-consensus-p2p \
+            --output staging/shard-23-distributed-consensus-p2p \
+            --live-packages apt/dists/stable/main/binary-aarch64/Packages \
+            --version 1.0.0-2
+
+      - name: Audit 200 generated packages
+        run: |
+          set -euo pipefail
+          total=0
+          for shard in \
+            shard-12-database-query-engines \
+            shard-14-image-media-audio \
+            shard-20-security-audit-forensics \
+            shard-23-distributed-consensus-p2p
+          do
+            debs="$(find "staging/$shard/pool/main" -type f -name '*.deb' | wc -l)"
+            stanzas="$(grep -c '^Package:' "staging/$shard/Packages.repaired")"
+            test "$debs" -eq 50
+            test "$stanzas" -eq 50
+            grep -q '"repair": "placeholder-to-functional"' "staging/$shard/provenance.json"
+            unique="$(python3 - "$shard" <<'PY'
+          import json,sys
+          from pathlib import Path
+          d=json.loads((Path("staging")/sys.argv[1]/"provenance.json").read_text())
+          assert d["packageCount"]==50 and d["uniquePackageCount"]==50
+          print(len({x["package"] for x in d["packages"]}))
+          PY
+          )"
+            test "$unique" -eq 50
+            while IFS= read -r deb; do dpkg-deb --info "$deb" >/dev/null; done < <(find "staging/$shard/pool/main" -type f -name '*.deb' | sort)
+            total=$((total+debs))
+          done
+          test "$total" -eq 200
+          ! grep -R -a -E '/data/(data|user/0)/com\.termux|packages\.termux\.dev|TERMUX_PREFIX' \
+            staging/shard-12-database-query-engines \
+            staging/shard-14-image-media-audio \
+            staging/shard-20-security-audit-forensics \
+            staging/shard-23-distributed-consensus-p2p \
+            sources/functional-shards/shard12_database.py \
+            sources/functional-shards/shard14_media.py \
+            sources/functional-shards/shard20_forensics.py \
+            sources/functional-shards/shard23_distributed.py
+
+      - name: Mark all 1000 expansion packages repaired
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path("staging/functional-repair-status.json")
+          d=json.loads(p.read_text())
+          add=[
+            "shard-12-database-query-engines",
+            "shard-14-image-media-audio",
+            "shard-20-security-audit-forensics",
+            "shard-23-distributed-consensus-p2p",
+          ]
+          by={x["name"]:x for x in d["shards"]}
+          for name in add:
+              by[name]={"name":name,"packages":50,"testsPassed":50,"status":"staged-functional"}
+          d["shards"]=sorted(by.values(),key=lambda x:x["name"])
+          repaired=sum(x["packages"] for x in d["shards"] if x["status"] in ("staged-functional","live-functional"))
+          d["stagedFunctionalRepairs"]=repaired
+          d["remainingPlaceholderPackages"]=max(0,d["targetExpansionPackages"]-repaired)
+          if repaired != 1000 or d["remainingPlaceholderPackages"] != 0:
+              raise SystemExit(f"final repair invariant failed: repaired={repaired} remaining={d['remainingPlaceholderPackages']}")
+          p.write_text(json.dumps(d,indent=2)+"\n")
+          print("FINAL PLACEHOLDER REPAIR: 1000/1000 functional, 0 remaining")
+          PY
+
+      - name: Commit final 200 generated repairs
+        run: |
+          set -euo pipefail
+          git config user.name "Ocean Package Repair"
+          git config user.email "packages@ocean.studio"
+          git add \
+            staging/shard-12-database-query-engines \
+            staging/shard-14-image-media-audio \
+            staging/shard-20-security-audit-forensics \
+            staging/shard-23-distributed-consensus-p2p \
+            staging/functional-repair-status.json
+          if git diff --cached --quiet; then
+            echo "No generated changes to commit."
+            exit 0
+          fi
+          git commit -m "fix(packages): repair final 200 placeholders [skip ci]"
+          for attempt in 1 2 3 4 5; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then exit 0; fi
+            echo "Concurrent push detected; retry $attempt/5"
+            sleep $((attempt * 2))
+          done
+          echo "Failed to push generated final repairs" >&2
+          exit 1
+
+      - name: Report
+        run: |
+          echo "Final batch built: 200 packages"
+          echo "Expansion repair target: 1000/1000"
+          cat staging/functional-repair-status.json
