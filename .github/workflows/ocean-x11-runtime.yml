@@ -1,0 +1,127 @@
+name: Build independent Ocean X11 runtime
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/build-ocean-x11-runtime.sh'
+      - '.github/workflows/ocean-x11-runtime.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ocean-x11-runtime
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /scripts/build-ocean-x11-runtime.sh
+            /staging/ocean-device-suite/
+            /.github/workflows/ocean-x11-runtime.yml
+
+      - uses: docker/setup-qemu-action@v3
+        with:
+          platforms: arm64
+
+      - name: Assemble minimal AArch64 X11 rootfs from official Debian packages
+        run: |
+          set -euo pipefail
+          rm -rf build/x11-rootfs
+          mkdir -p build/x11-rootfs
+          docker run --rm --platform linux/arm64 \
+            -v "$PWD/build/x11-rootfs:/out" \
+            arm64v8/debian:bookworm-slim bash -euxo pipefail -c '
+              export DEBIAN_FRONTEND=noninteractive
+              apt-get update
+              apt-get install -y --no-install-recommends \
+                xvfb x11vnc openbox xterm dbus-x11 x11-xkb-utils xkb-data \
+                xfonts-base fonts-dejavu-core mesa-utils libgl1-mesa-dri libglx-mesa0 \
+                ca-certificates
+              mkdir -p /out/usr/bin /out/lib /out/usr/lib /out/etc /out/usr/share /out/tmp
+              chmod 1777 /out/tmp
+
+              copy_exec() {
+                b="$(command -v "$1")"
+                [ -n "$b" ]
+                mkdir -p "/out$(dirname "$b")"
+                cp -L "$b" "/out$b"
+                ldd "$b" | awk '"'"'/=> \// {print $3} /^\// {print $1}'"'"' | sort -u | while read -r l; do
+                  [ -f "$l" ] || continue
+                  mkdir -p "/out$(dirname "$l")"
+                  cp -L "$l" "/out$l"
+                done
+              }
+
+              for b in Xvfb x11vnc openbox xterm xkbcomp dbus-launch xdpyinfo glxinfo glxgears bash dash env; do
+                command -v "$b" >/dev/null 2>&1 && copy_exec "$b"
+              done
+              mkdir -p /out/bin
+              cp -L "$(command -v dash)" /out/bin/sh
+              cp -L "$(command -v bash)" /out/bin/bash
+
+              loader="$(find /lib /usr/lib -name "ld-linux-aarch64.so.1" -print -quit)"
+              [ -n "$loader" ]
+              mkdir -p "/out$(dirname "$loader")"
+              cp -L "$loader" "/out$loader"
+
+              for d in /usr/share/X11/xkb /usr/share/fonts/X11 /usr/share/fonts/truetype/dejavu /usr/share/openbox /etc/fonts /etc/X11/openbox; do
+                [ -e "$d" ] || continue
+                mkdir -p "/out$(dirname "$d")"
+                cp -a "$d" "/out$(dirname "$d")/"
+              done
+              cp -a /etc/passwd /etc/group /etc/nsswitch.conf /out/etc/ || true
+
+              if [ -f /usr/lib/aarch64-linux-gnu/dri/swrast_dri.so ]; then
+                mkdir -p /out/usr/lib/aarch64-linux-gnu/dri
+                cp -L /usr/lib/aarch64-linux-gnu/dri/swrast_dri.so /out/usr/lib/aarch64-linux-gnu/dri/
+                ldd /usr/lib/aarch64-linux-gnu/dri/swrast_dri.so | awk '"'"'/=> \// {print $3} /^\// {print $1}'"'"' | sort -u | while read -r l; do
+                  [ -f "$l" ] || continue
+                  mkdir -p "/out$(dirname "$l")"; cp -L "$l" "/out$l"
+                done
+              fi
+              du -sh /out
+            '
+
+      - name: Package X11 rootfs into ocean-x11-runtime
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          sudo apt-get install -y dpkg-dev
+          bash scripts/build-ocean-x11-runtime.sh build/x11-rootfs staging/ocean-device-suite
+          dpkg-deb --info staging/ocean-device-suite/pool/main/ocean-x11-runtime_1.0.0-1_aarch64.deb >/dev/null
+          test "$(grep -c '^Package:' staging/ocean-device-suite/Packages.repaired)" -eq 200
+          python3 - <<'PY'
+          import json
+          d=json.load(open("staging/ocean-device-suite/provenance.json"))
+          assert d["packageCount"]==200 and d["uniquePackageCount"]==200
+          x=next(p for p in d["packages"] if p["package"]=="ocean-x11-runtime")
+          assert x["artifact"].endswith("_aarch64.deb")
+          assert d["x11Runtime"]["transport"]=="localhost RFB"
+          print(x["artifact"],x["bytes"])
+          PY
+
+      - name: Commit real X11 backend
+        run: |
+          set -euo pipefail
+          git config user.name "Ocean X11 Builder"
+          git config user.email "packages@ocean.studio"
+          git add staging/ocean-device-suite
+          git diff --cached --quiet && exit 0
+          git commit -m "feat(x11): package independent AArch64 X11 renderer backend [skip ci]"
+          for attempt in 1 2 3; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then exit 0; fi
+            sleep $((attempt*3))
+          done
+          exit 1
