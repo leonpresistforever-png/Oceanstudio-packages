@@ -844,10 +844,12 @@
     },
     {
       "package": "ocean-x11-runtime",
-      "artifact": "ocean-x11-runtime_1.0.0-1_all.deb",
-      "bytes": 846,
-      "sha256": "7934581a0e676cec6d5c416a3cd33294400a3509c755c7d75e93fe1baffa2b22",
-      "depends": "ocean-api (= 1.0.0-1), proot, proot-distro"
+      "artifact": "ocean-x11-runtime_1.0.0-1_aarch64.deb",
+      "bytes": 69264804,
+      "sha256": "5307ca3cf92106ca63c388d1f695b3c10fc952f577d5af23c6552ece4f3ea7dc",
+      "depends": "ocean-api (= 1.0.0-1), proot",
+      "backend": "Xvfb+x11vnc+Openbox+xterm+Mesa llvmpipe",
+      "backendSource": "official Debian arm64 packages"
     },
     {
       "package": "ocean-3d",
@@ -1410,5 +1412,13 @@
       "depends": "ocean-api (= 1.0.0-1)"
     }
   ],
-  "promotion": "staging-only until repository signing identity is available"
+  "promotion": "staging-only until repository signing identity is available",
+  "x11Runtime": {
+    "architecture": "aarch64",
+    "transport": "localhost RFB",
+    "display": ":1",
+    "rfbPort": 5901,
+    "rootfs": "/data/data/studio.ocean.app/files/usr/var/lib/ocean-x11/rootfs",
+    "sourcePolicy": "official Debian packages; no Termux:X11 application or Termux binary source"
+  }
 }
