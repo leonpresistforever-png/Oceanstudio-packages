@@ -17881,10 +17881,6 @@ Priority: optional
 Homepage: https://landley.net/toybox/
 Description: Namespaced Toybox zcat applet for OceanStudio (command: tb-zcat)
 
-dpkg-scanpackages: warning: Packages in archive but missing from override file:
-dpkg-scanpackages: warning:   ocean-toybox ocean-toybox-acpi ocean-toybox-base64 ocean-toybox-basename ocean-toybox-blkid ocean-toybox-cal ocean-toybox-cat ocean-toybox-chattr ocean-toybox-chgrp ocean-toybox-chmod ocean-toybox-chown ocean-toybox-chrt ocean-toybox-cksum ocean-toybox-clear ocean-toybox-cmp ocean-toybox-comm ocean-toybox-cp ocean-toybox-cpio ocean-toybox-cut ocean-toybox-date ocean-toybox-dd ocean-toybox-df ocean-toybox-diff ocean-toybox-dirname ocean-toybox-dmesg ocean-toybox-dos2unix ocean-toybox-du ocean-toybox-echo ocean-toybox-env ocean-toybox-expand ocean-toybox-expr ocean-toybox-fallocate ocean-toybox-false ocean-toybox-file ocean-toybox-find ocean-toybox-flock ocean-toybox-fmt ocean-toybox-free ocean-toybox-fsync ocean-toybox-getconf ocean-toybox-getfattr ocean-toybox-getopt ocean-toybox-grep ocean-toybox-groups ocean-toybox-gunzip ocean-toybox-gzip ocean-toybox-head ocean-toybox-help ocean-toybox-hostname ocean-toybox-iconv ocean-toybox-id ocean-toybox-ifconfig ocean-toybox-inotifyd ocean-toybox-install ocean-toybox-ionice ocean-toybox-iorenice ocean-toybox-iotop ocean-toybox-kill ocean-toybox-killall ocean-toybox-ln ocean-toybox-logname ocean-toybox-ls ocean-toybox-lsattr ocean-toybox-lsof ocean-toybox-lspci ocean-toybox-lsusb ocean-toybox-md5sum ocean-toybox-microcom ocean-toybox-mkdir ocean-toybox-mkfifo ocean-toybox-mktemp ocean-toybox-more ocean-toybox-mountpoint ocean-toybox-mv ocean-toybox-netcat ocean-toybox-netstat ocean-toybox-nice ocean-toybox-nl ocean-toybox-nohup ocean-toybox-nproc ocean-toybox-od ocean-toybox-paste ocean-toybox-patch ocean-toybox-pgrep ocean-toybox-pidof ocean-toybox-ping ocean-toybox-pkill ocean-toybox-pmap ocean-toybox-printenv ocean-toybox-printf ocean-toybox-ps ocean-toybox-pwd ocean-toybox-pwdx ocean-toybox-readelf ocean-toybox-readlink ocean-toybox-realpath ocean-toybox-renice ocean-toybox-rev ocean-toybox-rm ocean-toybox-rmdir ocean-toybox-rtcwake ocean-toybox-sed ocean-toybox-seq ocean-toybox-setfattr ocean-toybox-setsid ocean-toybox-sha1sum ocean-toybox-sha224sum ocean-toybox-sha256sum ocean-toybox-sha384sum ocean-toybox-sha512sum ocean-toybox-sleep ocean-toybox-sort ocean-toybox-split ocean-toybox-stat ocean-toybox-strings ocean-toybox-stty ocean-toybox-sync ocean-toybox-sysctl ocean-toybox-tac ocean-toybox-tail ocean-toybox-tar ocean-toybox-taskset ocean-toybox-tee ocean-toybox-test ocean-toybox-time ocean-toybox-timeout ocean-toybox-top ocean-toybox-touch ocean-toybox-tr ocean-toybox-traceroute ocean-toybox-true ocean-toybox-truncate ocean-toybox-tty ocean-toybox-ulimit ocean-toybox-uname ocean-toybox-uniq ocean-toybox-unix2dos ocean-toybox-unlink ocean-toybox-uptime ocean-toybox-usleep ocean-toybox-uudecode ocean-toybox-uuencode ocean-toybox-uuidgen ocean-toybox-vi ocean-toybox-vmstat ocean-toybox-watch ocean-toybox-wc ocean-toybox-which ocean-toybox-whoami ocean-toybox-xargs ocean-toybox-xxd ocean-toybox-yes ocean-toybox-zcat
-dpkg-scanpackages: info: Wrote 153 entries to output Packages file.
-
 Package: ocean-glibc
 Version: 2.44-1
 Architecture: aarch64
@@ -17983,10 +17979,6 @@ Section: utils
 Priority: optional
 Description: Namespaced GNU libc utilities for OceanStudio glibc compatibility
 
-dpkg-scanpackages: warning: Packages in archive but missing from override file:
-dpkg-scanpackages: warning:   ocean-glibc ocean-glibc-devel ocean-glibc-locale-data ocean-glibc-patchelf ocean-glibc-runner ocean-glibc-suite ocean-glibc-utils
-dpkg-scanpackages: info: Wrote 7 entries to output Packages file.
-
 Package: nix-ocean
 Version: 2.34.8-1
 Architecture: aarch64
@@ -18067,10 +18059,6 @@ SHA256: dfebe24bac8ff2dfce8eb16f4a1b10b407157efccba022d58e03499acc8f16d9
 Section: utils
 Priority: optional
 Description: suckless ubase Linux utility multicall binary compiled for Ocean Android/AArch64
-
-dpkg-scanpackages: warning: Packages in archive but missing from override file:
-dpkg-scanpackages: warning:   buildroot busybox sbase sinit ubase
-dpkg-scanpackages: info: Wrote 5 entries to output Packages file.
 
 Package: moreutils-sponge
 Version: 0.69-1
