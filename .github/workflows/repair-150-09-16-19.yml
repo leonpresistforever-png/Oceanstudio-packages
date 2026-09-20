@@ -1,4 +1,4 @@
-name: Repair 150 functional packages (09 16 19)
+name: Repair 150 functional packages (09 13 16)
 
 on:
   push:
@@ -6,10 +6,10 @@ on:
     paths:
       - 'sources/functional-shards/shard09_storage.py'
       - 'sources/functional-shards/shard16_math.py'
-      - 'sources/functional-shards/shard19_archive.py'
+      - 'sources/functional-shards/shard13_text.py'
       - 'tests/test-shard09-functional.py'
       - 'tests/test-shard16-functional.py'
-      - 'tests/test-shard19-functional.py'
+      - 'tests/test-shard13-functional.py'
       - '.github/workflows/repair-150-09-16-19.yml'
   workflow_dispatch:
 
@@ -35,18 +35,18 @@ jobs:
             /.github/workflows/repair-150-09-16-19.yml
             /sources/functional-shards/shard09_storage.py
             /sources/functional-shards/shard16_math.py
-            /sources/functional-shards/shard19_archive.py
+            /sources/functional-shards/shard13_text.py
             /scripts/repair-functional-shard.py
             /scripts/expansion/shard_batch1.py
             /scripts/expansion/shard_batch2.py
-            /scripts/expansion/shard_batch3.py
+            /scripts/expansion/shard_batch2.py
             /tests/test-shard09-functional.py
             /tests/test-shard16-functional.py
-            /tests/test-shard19-functional.py
+            /tests/test-shard13-functional.py
             /staging/functional-repair-status.json
             /staging/shard-09-filesystem-storage/
             /staging/shard-16-math-scientific-computing/
-            /staging/shard-19-archive-backup-sync/
+            /staging/shard-13-text-nlp-corpora/
             /apt/dists/stable/main/binary-aarch64/Packages
 
       - name: Install packaging tools
@@ -61,18 +61,18 @@ jobs:
           python3 -m py_compile \
             sources/functional-shards/shard09_storage.py \
             sources/functional-shards/shard16_math.py \
-            sources/functional-shards/shard19_archive.py \
+            sources/functional-shards/shard13_text.py \
             scripts/repair-functional-shard.py \
             tests/test-shard09-functional.py \
             tests/test-shard16-functional.py \
-            tests/test-shard19-functional.py
+            tests/test-shard13-functional.py
 
       - name: Exercise all 150 commands
         run: |
           set -euo pipefail
           python3 tests/test-shard09-functional.py sources/functional-shards/shard09_storage.py
           python3 tests/test-shard16-functional.py sources/functional-shards/shard16_math.py
-          python3 tests/test-shard19-functional.py sources/functional-shards/shard19_archive.py
+          python3 tests/test-shard13-functional.py sources/functional-shards/shard13_text.py
 
       - name: Rebuild shard 09
         run: |
@@ -102,18 +102,18 @@ jobs:
         run: |
           set -euo pipefail
           python3 scripts/repair-functional-shard.py \
-            --runtime sources/functional-shards/shard19_archive.py \
-            --batch scripts/expansion/shard_batch3.py \
-            --batch-symbol BATCH3_SHARDS \
-            --shard shard-19-archive-backup-sync \
-            --output staging/shard-19-archive-backup-sync \
+            --runtime sources/functional-shards/shard13_text.py \
+            --batch scripts/expansion/shard_batch2.py \
+            --batch-symbol BATCH2_SHARDS \
+            --shard shard-13-text-nlp-corpora \
+            --output staging/shard-13-text-nlp-corpora \
             --live-packages apt/dists/stable/main/binary-aarch64/Packages \
             --version 1.0.0-2
 
       - name: Audit all 150 packages
         run: |
           set -euo pipefail
-          for shard in shard-09-filesystem-storage shard-16-math-scientific-computing shard-19-archive-backup-sync; do
+          for shard in shard-09-filesystem-storage shard-16-math-scientific-computing shard-13-text-nlp-corpora; do
             test "$(find "staging/$shard/pool/main" -type f -name '*.deb' | wc -l)" -eq 50
             test "$(grep -c '^Package:' "staging/$shard/Packages.repaired")" -eq 50
             grep -q '"repair": "placeholder-to-functional"' "staging/$shard/provenance.json"
@@ -128,10 +128,10 @@ jobs:
           ! grep -R -a -E '/data/(data|user/0)/com\.termux|packages\.termux\.dev|TERMUX_PREFIX' \
             staging/shard-09-filesystem-storage \
             staging/shard-16-math-scientific-computing \
-            staging/shard-19-archive-backup-sync \
+            staging/shard-13-text-nlp-corpora \
             sources/functional-shards/shard09_storage.py \
             sources/functional-shards/shard16_math.py \
-            sources/functional-shards/shard19_archive.py
+            sources/functional-shards/shard13_text.py
 
       - name: Update functional repair status
         run: |
@@ -144,7 +144,7 @@ jobs:
           add=[
             ("shard-09-filesystem-storage",50),
             ("shard-16-math-scientific-computing",50),
-            ("shard-19-archive-backup-sync",50),
+            ("shard-13-text-nlp-corpora",50),
           ]
           by={x["name"]:x for x in d["shards"]}
           for name,count in add:
@@ -167,13 +167,13 @@ jobs:
           git add \
             staging/shard-09-filesystem-storage \
             staging/shard-16-math-scientific-computing \
-            staging/shard-19-archive-backup-sync \
+            staging/shard-13-text-nlp-corpora \
             staging/functional-repair-status.json
           if git diff --cached --quiet; then
             echo "No generated changes to commit."
             exit 0
           fi
-          git commit -m "fix(packages): replace 150 placeholders in shards 09 16 19 [skip ci]"
+          git commit -m "fix(packages): replace 150 placeholders in shards 09 13 16 [skip ci]"
           git pull --rebase origin main
           git push origin HEAD:main
 
@@ -181,7 +181,7 @@ jobs:
         run: |
           echo "Functional commands exercised: 150/150"
           echo "Functional packages rebuilt: 150"
-          echo "Shards repaired: 09 filesystem/storage, 16 math/scientific, 19 archive/backup"
+          echo "Shards repaired: 09 filesystem/storage, 16 math/scientific, 13 text/NLP"
           python3 - <<'PY'
           import json
           d=json.load(open("staging/functional-repair-status.json"))
