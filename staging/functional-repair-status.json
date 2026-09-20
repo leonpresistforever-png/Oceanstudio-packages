@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "targetExpansionPackages": 1000,
-  "stagedFunctionalRepairs": 350,
+  "stagedFunctionalRepairs": 500,
   "livePromotedRepairs": 0,
-  "remainingPlaceholderPackages": 650,
+  "remainingPlaceholderPackages": 500,
   "repairVersion": "1.0.0-2",
   "signingBlockedBy": "OCEAN_REPOSITORY_SIGNING_KEY unavailable to GitHub Actions",
   "shards": [
@@ -45,6 +45,24 @@
     },
     {
       "name": "shard-27-data-stream-etl",
+      "packages": 50,
+      "testsPassed": 50,
+      "status": "staged-functional"
+    },
+    {
+      "name": "shard-17-android-bionic-platform",
+      "packages": 50,
+      "testsPassed": 50,
+      "status": "staged-functional"
+    },
+    {
+      "name": "shard-19-archive-backup-sync",
+      "packages": 50,
+      "testsPassed": 50,
+      "status": "staged-functional"
+    },
+    {
+      "name": "shard-21-cloud-container-runtime",
       "packages": 50,
       "testsPassed": 50,
       "status": "staged-functional"

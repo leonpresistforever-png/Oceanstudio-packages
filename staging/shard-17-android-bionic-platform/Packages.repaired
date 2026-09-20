@@ -1,0 +1,749 @@
+Package: android-property-parser
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/android-property-parser_1.0.0-2_aarch64.deb
+Size: 4316
+MD5sum: cfbf029dd5553bf407bc36c22ccc5526
+SHA1: cf4cf0e18a8549598541b9e8bf0de94c8439ef20
+SHA256: a9ca34470f713327cf1f33c33cfdac4cd999437cc7793dd4d11ca012a6a37603
+Section: admin
+Priority: optional
+Description: Android __system_property_get memory structure parser
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: getprop-filter-tool
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/getprop-filter-tool_1.0.0-2_aarch64.deb
+Size: 4328
+MD5sum: 4750f05c827f8d859815ef4a40b774de
+SHA1: 9a3bec35e88ab9b5366f7b819640ed88bb0a8abd
+SHA256: b932638ca21f27d91dc9dbfe3a74808799e8123a18b03e633e90ca71043cbce0
+Section: admin
+Priority: optional
+Description: Android system properties key filtering and JSON dump
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: setprop-format-checker
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/setprop-format-checker_1.0.0-2_aarch64.deb
+Size: 4336
+MD5sum: ba4cb2bc2369a7fa7030b6ba9988d522
+SHA1: da5b20793228fbf3d5454a3e081577ec561e2505
+SHA256: ca67a00a22f8974f0aae3f1dd75b66d30e2c60702042137e3b53645f02d6bd5b
+Section: admin
+Priority: optional
+Description: Android system property key name and value syntax linter
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: logcat-tag-filter
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/logcat-tag-filter_1.0.0-2_aarch64.deb
+Size: 4308
+MD5sum: 409da6af8bf14f01f46cd6e550486641
+SHA1: 4d55522c762183ffd888869e01c27d57114bebff
+SHA256: 261bb4acc937a2e62036c31763714d5ba9d67469662de65ab15af3f82c96b823
+Section: admin
+Priority: optional
+Description: Android logcat binary logger buffer tag priority filter
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: logcat-json-formatter
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/logcat-json-formatter_1.0.0-2_aarch64.deb
+Size: 4320
+MD5sum: 9dd50fa6a6f07b348e7b49337ad55f7d
+SHA1: fc8684fa63ced68c6a1aa78f16ab65c3ed340cce
+SHA256: 3cb68c402c3af79e509aee62d1f1ef2aef684b0ba0f6c675a670cbc1a0ea39bc
+Section: admin
+Priority: optional
+Description: Android logcat stream to NDJSON event converter
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: logcat-timestamp-align
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/logcat-timestamp-align_1.0.0-2_aarch64.deb
+Size: 4316
+MD5sum: 8aee02e5c3c1c542237857902e909426
+SHA1: ef9588334713b64ee34f30301a21fd02b20313e1
+SHA256: 66663d2e70dff641a5c8367b9bf9fa93a8d73c9c89f805bd62d0ed9699d9d80a
+Section: admin
+Priority: optional
+Description: Android logcat epoch millisecond timestamp aligner
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: binder-transact-tracer
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/binder-transact-tracer_1.0.0-2_aarch64.deb
+Size: 4324
+MD5sum: 85ed66aeef1b4c3fa310dcfb49eed00a
+SHA1: da94c65ebb9aab8fde85ab2acbf449ef2ea91778
+SHA256: d349c964fe80e2b8ba528736c1bcc6bff755a9e3b3e79c659e754a6ca050a94f
+Section: admin
+Priority: optional
+Description: Android Binder IPC transaction code and interface view
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: ashmem-region-auditor
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/ashmem-region-auditor_1.0.0-2_aarch64.deb
+Size: 4328
+MD5sum: 8adea0d9dfc0d2a9f93c5f6363453354
+SHA1: f9fc026fd9be90aacc3a82ecc1e2425a503657ac
+SHA256: a5786f00b069fbecb50f83c420f3592e599d9842b32903d6eaf7117ada9b576b
+Section: admin
+Priority: optional
+Description: Android Anonymous Shared Memory ashmem size inspector
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: ion-memory-alloc-view
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/ion-memory-alloc-view_1.0.0-2_aarch64.deb
+Size: 4328
+MD5sum: 087bbc11527ffdbb8f798df1b8fc5251
+SHA1: 5ca89d35712f5255a70d3f06c1ae5436a7fa8cdc
+SHA256: aedba090ba7057f56f30f47ce85a0a251d79d432ce8416d3c98f749f3611a105
+Section: admin
+Priority: optional
+Description: Android ION memory allocator client heap status view
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: dmabuf-heap-inspector
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/dmabuf-heap-inspector_1.0.0-2_aarch64.deb
+Size: 4328
+MD5sum: 7b19ca22cc19af33b9d7d24814818eee
+SHA1: 052eee0fb348b9c8ed328fd441972b1b2f61f4c0
+SHA256: 5469926d09a9da574c1792c1b9311ac77aed47433d71144911e0fefbbf9ae2de
+Section: admin
+Priority: optional
+Description: Linux dma-buf heap allocations and buffer sharing tool
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: selinux-context-check
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/selinux-context-check_1.0.0-2_aarch64.deb
+Size: 4328
+MD5sum: 625fbe040c107f7707e8c1b5f4527c68
+SHA1: ff42352d9c6ed7a1cb28485f502af903a95d6835
+SHA256: 442659baef6f27099217f749b8d000b20d88c29e613482f5ccc5521e670c9914
+Section: admin
+Priority: optional
+Description: SELinux file security context u:r:s0 syntax checker
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: selinux-avc-denial-log
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/selinux-avc-denial-log_1.0.0-2_aarch64.deb
+Size: 4320
+MD5sum: b1dfa95357a10d396372cd83f0b1483d
+SHA1: 2aeb0e2294b9d8e534a070a3b3e78d7d103d9031
+SHA256: 3c3543cdca745366623f2a14064bad3be04df0a7f439e69e2cf8260d1aae99d0
+Section: admin
+Priority: optional
+Description: SELinux Access Vector Cache denial audit parser
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: sepolicy-rule-search
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/sepolicy-rule-search_1.0.0-2_aarch64.deb
+Size: 4324
+MD5sum: 771cdb645d62215474c9c284fe1eed1b
+SHA1: 9aa6d5f9527d75f1f4d726dee2005b9e32f3eb8b
+SHA256: 4cd74e5a861c3c0caebd3033ff5956cbd338f9fc5c65bf4368bb1b851bdaa7ec
+Section: admin
+Priority: optional
+Description: Android compiled sepolicy TE allow rule search engine
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: service-list-auditor
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/service-list-auditor_1.0.0-2_aarch64.deb
+Size: 4324
+MD5sum: 09b5d6647c8480d20c64d191bca866f5
+SHA1: 85879fa1569ec25674e5f0eba60ae1ace8e79b3f
+SHA256: 2a108bddc2595293b97ac53d8a88b7efd83f55c530a81aea7956ed7bf796c33d
+Section: admin
+Priority: optional
+Description: Android ServiceManager registered IBinder service audit
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: package-setting-parser
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/package-setting-parser_1.0.0-2_aarch64.deb
+Size: 4300
+MD5sum: 453216e0317dc597a8faec44ef8a7568
+SHA1: 3b8756935bf1c18e2834ec79e62b61ead1fc7361
+SHA256: 161b70cd931e6c35f3e7a572d64db10bf7f7047ca968923856e378f16b818cf4
+Section: admin
+Priority: optional
+Description: Android packages.xml permission and package parser
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: package-signing-v1-chk
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/package-signing-v1-chk_1.0.0-2_aarch64.deb
+Size: 4324
+MD5sum: 5c22741bee8036e97b93e51d300a4b59
+SHA1: 9bfcf956b0308abec549d7e7d78223141d3241fc
+SHA256: cefdaadf75e8b204d95fbc34e64143d718c58703f2da3ab921652fe0396936b2
+Section: admin
+Priority: optional
+Description: Android APK Signature Scheme v1 JAR manifest check
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: package-signing-v2-chk
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/package-signing-v2-chk_1.0.0-2_aarch64.deb
+Size: 4336
+MD5sum: 4f14e9f5d6d792ba3390c4fe2a251f35
+SHA1: 13e2d0816d5ccd22d99b80488bbd815b65cc2632
+SHA256: 3e45cf1d719ad5f8e84a3fd19576f703b80ba96d01a0c831aa890475f4f52018
+Section: admin
+Priority: optional
+Description: Android APK Signature Scheme v2 block 0x7109871a check
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: package-signing-v3-chk
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/package-signing-v3-chk_1.0.0-2_aarch64.deb
+Size: 4324
+MD5sum: 10b6b949143e89e1176f1aee19eec7d8
+SHA1: 90010b8cfaabccf89820ec465c7b4f289c070282
+SHA256: 95366627f9dc3888aa644034b605e0ae6a96b775e936ea9c162a3a74d1b8ec1a
+Section: admin
+Priority: optional
+Description: Android APK Signature Scheme v3 key rotation checker
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: package-signing-v4-chk
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/package-signing-v4-chk_1.0.0-2_aarch64.deb
+Size: 4328
+MD5sum: 39fcc480ecf53b378e4873593547368b
+SHA1: 674d890d847c487b9dde3eed5ecee45d9be2d534
+SHA256: af101980681ccdbd36baf3e54193b43b1c16b21889489bab99a12a1c8603b113
+Section: admin
+Priority: optional
+Description: Android APK Signature Scheme v4 Merkle tree file check
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: dex-header-inspector
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/dex-header-inspector_1.0.0-2_aarch64.deb
+Size: 4340
+MD5sum: 1efa5741a5144070105c07c8f2d25d89
+SHA1: 25e787642ccb8d318732fd334252105e3f5e6167
+SHA256: c75361a3891859a42ae07f90b847946cc391016084eb39d0056120760af67b22
+Section: admin
+Priority: optional
+Description: Dalvik Executable format 035-039 header magic analyzer
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: dex-map-list-parser
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/dex-map-list-parser_1.0.0-2_aarch64.deb
+Size: 4324
+MD5sum: ae70ada394efb4bb551c5d17f90dc941
+SHA1: 5c6d967d2d11128a3c7dab1f0ef0528e0a23c8b5
+SHA256: 1ef6a0d85afaec09a2ad42c610a286fe69069386ba12157159e19009464a0ed8
+Section: admin
+Priority: optional
+Description: DEX file map_list item offset and section size tool
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: dex-string-id-dump
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/dex-string-id-dump_1.0.0-2_aarch64.deb
+Size: 4328
+MD5sum: a963fd627a4f0812949b62be021f9558
+SHA1: 3712f81db63814616dc99955878807a7b29d0029
+SHA256: aefb6b95c14538e974c249f56bd32ccfdcd4894409e3ea3bf98a021ba13e01c2
+Section: admin
+Priority: optional
+Description: DEX string_ids and string_data_item MUTF-8 extractor
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: dex-type-id-parser
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/dex-type-id-parser_1.0.0-2_aarch64.deb
+Size: 4320
+MD5sum: 36eebce8b3106cf59daf4f17b1947538
+SHA1: 36c353bc8a47bd091aea4b5436590a5a994faada
+SHA256: ecc3394319730b2e4b2b03d758ede363bce31b72e04a61e2db84aa9927f7e4c9
+Section: admin
+Priority: optional
+Description: DEX type_ids type descriptor table decompiler
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: dex-proto-id-view
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/dex-proto-id-view_1.0.0-2_aarch64.deb
+Size: 4324
+MD5sum: 1fb19a05aa8704f7a454d49fa20512f2
+SHA1: 410b791a3880379268fb21980fa23bcfc7b5864f
+SHA256: f880b75d75698b085e39b8648f660eb5beb060c01237199be3e225fbbacfe400
+Section: admin
+Priority: optional
+Description: DEX proto_ids method prototype parameter list viewer
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: dex-field-id-dump
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/dex-field-id-dump_1.0.0-2_aarch64.deb
+Size: 4316
+MD5sum: 9988cf91f7cf38f2c28b5483672fcbc7
+SHA1: 61a8548c0380397db586f099ae4eaaba6d85d2d2
+SHA256: f888e5da4abe05bd156a1719eed9adb5c1f903e4e4c573004a5590012d70247c
+Section: admin
+Priority: optional
+Description: DEX field_ids class field definition list viewer
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: dex-method-id-dump
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/dex-method-id-dump_1.0.0-2_aarch64.deb
+Size: 4316
+MD5sum: 2d4287733187ae71bb1138bbfa3a1011
+SHA1: c6f036ed8b8e6ba23d55dd4bb09344d1ae32c261
+SHA256: 8a4f42e19079b171d9f098ae4cb8f38d74012562b2826d8714402d01603004b4
+Section: admin
+Priority: optional
+Description: DEX method_ids method table and signature inspector
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: dex-class-def-viewer
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/dex-class-def-viewer_1.0.0-2_aarch64.deb
+Size: 4328
+MD5sum: 3f39bba28679f5c66ca56423ea0d7867
+SHA1: 601e66e3a1b96034715a703f25b2e12f5438df64
+SHA256: 4d6a3fe95de2cd8d2835cd226b14b66946fffc69fadb2499ab2e21e45c5e8fe6
+Section: admin
+Priority: optional
+Description: DEX class_def access flags and superclass inspector
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: cdex-compact-header
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/cdex-compact-header_1.0.0-2_aarch64.deb
+Size: 4320
+MD5sum: 08c8002ab007e09afb96c6e97f0b48b7
+SHA1: 3f09de7e018b9d0da872d00b3fb01d4d2e4cbdfc
+SHA256: f2345c867748dbe83d5812b56e38f6140cd0eef18b9881f9f8ab5a026b3403a7
+Section: admin
+Priority: optional
+Description: Compact DEX CDEX header and shared data section view
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: vdex-verifier-header
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/vdex-verifier-header_1.0.0-2_aarch64.deb
+Size: 4312
+MD5sum: 130e4e1d49514e346ca70081779adf90
+SHA1: 64a212df6ea7902142a1b36511738f7dbd73772b
+SHA256: afd15595f3fa2fbd361204ffcb983356a1bb4ed265e0d2e88e31e3affcbd3319
+Section: admin
+Priority: optional
+Description: Android VDEX verified DEX container header inspector
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: oat-runtime-header
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/oat-runtime-header_1.0.0-2_aarch64.deb
+Size: 4328
+MD5sum: 051b90a09e7cabf0e926e9967c6abe83
+SHA1: fbe021564cfe30e276e558b61a49340abd54ca3f
+SHA256: f2d36ae4c8fb75772e127e70e0fc19be4af6a130e131673a28408ac937e7d08f
+Section: admin
+Priority: optional
+Description: Android OAT ahead-of-time compiled ELF header parser
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: art-image-header-dump
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/art-image-header-dump_1.0.0-2_aarch64.deb
+Size: 4328
+MD5sum: 8c3875d7a5f3a94ce2b90ee38be3b27a
+SHA1: 339cbd22f3c259e478b8cd48d313f779c7c1f2db
+SHA256: 99f6afeb20f7a42c40306818de711f412f80b40d119f982cbccda311e3955494
+Section: admin
+Priority: optional
+Description: Android ART boot.art image header and object space view
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: apex-manifest-parser
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/apex-manifest-parser_1.0.0-2_aarch64.deb
+Size: 4320
+MD5sum: e7266554fabc307bd0b1219b8b8f8f36
+SHA1: 0d4b280c5800a9bee77828057a11a04b13688e7d
+SHA256: 61b41cb76b3d1e7ed2713bb84156a4d600ac7f28b3a0554e8bf0c8b3e4ccc1f9
+Section: admin
+Priority: optional
+Description: Android APEX container apex_manifest.json/pb parser
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: apex-payload-inspector
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/apex-payload-inspector_1.0.0-2_aarch64.deb
+Size: 4324
+MD5sum: cef6324fb8475c1db2b3527712405485
+SHA1: 66bb424aa642fa3f68d63804e2e82a7efa67286d
+SHA256: c7bd037d76097a706b554a5afa673d0e5375daf1b5743c8767d91ff959540d3e
+Section: admin
+Priority: optional
+Description: Android APEX ext4/erofs loopback payload inspector
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: dalvik-bytecode-check
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/dalvik-bytecode-check_1.0.0-2_aarch64.deb
+Size: 4316
+MD5sum: 41a689b0ff993d8e31806bc865b6ce0e
+SHA1: 5674d7e54816d5946362a3e8e8091e88d5f2ef71
+SHA256: 5de6387239a35e27af5414847b6b38f5059d7f0ff3dbe97e207427eed6e6b188
+Section: admin
+Priority: optional
+Description: Dalvik bytecode opcode table and register count linter
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: bionic-pthread-key-chk
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/bionic-pthread-key-chk_1.0.0-2_aarch64.deb
+Size: 4328
+MD5sum: 3b216f5a99a0da5bc5e5ffcd0c5e31bc
+SHA1: 286b305a968670b3dda757069894636e78d6df05
+SHA256: 53824f7304fd6fd9505325878aee3f60cc10133ae4bcab7e01e8a5c659871a66
+Section: admin
+Priority: optional
+Description: Bionic C library pthread_key_create limit analyzer
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: bionic-futex-flags
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/bionic-futex-flags_1.0.0-2_aarch64.deb
+Size: 4320
+MD5sum: 1fe650ac74e00244c0fa5cdd35957e78
+SHA1: 6bfbfc7a31da18e9d5db08af8a1b870e8be12b10
+SHA256: 5661e42a613d6b4a8fd6dcee74c223f603b93d0c165769bbe1a3f94c3f971429
+Section: admin
+Priority: optional
+Description: Bionic private futex operation flags decode helper
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: android-cmd-caller
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/android-cmd-caller_1.0.0-2_aarch64.deb
+Size: 4316
+MD5sum: 0c03d162e12af3336fade66d94279caf
+SHA1: 92b0bbff8d9ddce81e44a17f418353bc01b4f48b
+SHA256: 5ef7e3be3e116f621b6e9c7192a33851444668de1e11ef75c03f7982b46a113e
+Section: admin
+Priority: optional
+Description: Android framework cmd interactive command line wrapper
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: am-intent-uri-builder
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/am-intent-uri-builder_1.0.0-2_aarch64.deb
+Size: 4336
+MD5sum: dbe32143841a467b1c61c6f6cc4b1049
+SHA1: 9dcd40e04889802d55ee093ff26f76fb20eb20c3
+SHA256: 4981c0c57ab28c343e15ab16539d5d92c4d252a354c512229be0d4c2149c3071
+Section: admin
+Priority: optional
+Description: Android ActivityManager intent URI syntax generator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: pm-dump-permissions
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/pm-dump-permissions_1.0.0-2_aarch64.deb
+Size: 4320
+MD5sum: ed2ce2fbd143ff6ac252f415f9b7d227
+SHA1: 9d56f57d86386ad7ff23e06960640b15e249813d
+SHA256: 87e5f9216709cbdbc16f904044078a474e804ba84256286ff905e0c009b95394
+Section: admin
+Priority: optional
+Description: Android PackageManager permission tree and group dump
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: dumpsys-battery-parse
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/dumpsys-battery-parse_1.0.0-2_aarch64.deb
+Size: 4320
+MD5sum: 9d1308ef847129dba963b4d6a0ad3fb5
+SHA1: f427730ab506cf32e352c78b44bdc034c189f859
+SHA256: a15b784a7bb657cbb32569063e13d7d1a2f67fa9f7a69abbc6c5c50f89fb4b02
+Section: admin
+Priority: optional
+Description: Android dumpsys battery level voltage and temp parser
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: dumpsys-meminfo-parse
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/dumpsys-meminfo-parse_1.0.0-2_aarch64.deb
+Size: 4320
+MD5sum: 7c872428e170c35cab43c1cc2026fc1b
+SHA1: 60370fff4acb156f1db6f0d4de5b3e4090aa0782
+SHA256: 227527be158aeeac8d5e63fad8e438c2c5a310899fd1769c1417031fc8716bab
+Section: admin
+Priority: optional
+Description: dumpsys meminfo native dalvik graphics heap analyzer
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: dumpsys-cpuinfo-parse
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/dumpsys-cpuinfo-parse_1.0.0-2_aarch64.deb
+Size: 4324
+MD5sum: b68aba502343ca6336ae28c814c02d8e
+SHA1: 9b7aa7fb5699863146ee72638995f39d12b569e2
+SHA256: f5d3f2a62fbffe9c2e8247dbd5898d4ef741e565ccdac2107b4dc3bdc595a0cb
+Section: admin
+Priority: optional
+Description: dumpsys cpuinfo user system iowait distribution tool
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: dumpsys-window-parser
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/dumpsys-window-parser_1.0.0-2_aarch64.deb
+Size: 4308
+MD5sum: 98c09fff1b89daee3ffce1c2c69d9ec5
+SHA1: 9fdcfa7fe55914f8e7df1e3c3bda04c331a0ab50
+SHA256: 600a672df4640d964da5672f30da8faade7ce7b5b5cbb40d5684d97ab3bacf37
+Section: admin
+Priority: optional
+Description: dumpsys window display orientation and bounds parser
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: settings-db-query-cli
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/settings-db-query-cli_1.0.0-2_aarch64.deb
+Size: 4320
+MD5sum: be85c1086dc68349a29c5861edceccc4
+SHA1: 124ef30476ca78363880453927c5aa8792060325
+SHA256: 20cfb7e1a73df97af6fc84dfc4bd7f8616f3a3c8fba9da622a7413ef97dcc7f0
+Section: admin
+Priority: optional
+Description: Android settings system secure global table parser
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: keystore-key-alias-chk
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/keystore-key-alias-chk_1.0.0-2_aarch64.deb
+Size: 4328
+MD5sum: e71b45851fa6e4d9b66865fdecc40904
+SHA1: b9fdf4d1ccf31400bde08475233a4021bccb4e7a
+SHA256: bee47651d661f176ddddf5e83f989d8195a127bd06fefdf210cf4e20044c7e3d
+Section: admin
+Priority: optional
+Description: Android KeyStore hardware-backed key alias checker
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: keymaster-tag-parser
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/keymaster-tag-parser_1.0.0-2_aarch64.deb
+Size: 4332
+MD5sum: 45f7385c4d7143c734689126824d8c9e
+SHA1: f256b6d4d6792ba7ad4dcfd7e325e44feb6e035e
+SHA256: ad48c799566bdfe3b6e3e27322ef279ed6b543345e982f65e5edb46553b819dc
+Section: admin
+Priority: optional
+Description: Android KeyMaster/KeyMint authorization tag decoder
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: input-event-code-view
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/input-event-code-view_1.0.0-2_aarch64.deb
+Size: 4324
+MD5sum: 69cc73c140d81bcb5bedead5ff9446c5
+SHA1: 9e132b409af0072e3454cafeb3708c8874a380f9
+SHA256: 2df65fff9ab11f0f9d18617236b4b06ede2d5bbf30f73aecca12608c6f83d8c9
+Section: admin
+Priority: optional
+Description: Linux /dev/input/event EV_KEY EV_ABS event code parser
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: vold-mount-inspector
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/vold-mount-inspector_1.0.0-2_aarch64.deb
+Size: 4324
+MD5sum: 0c2e8165ad2465d3b57ce5daf79d6bf8
+SHA1: c3d0d37dad86c3758ce3bffb55d4c0ccc2fde20c
+SHA256: 9cd9d9da771ffea2d97c06a81567bed0656986f49ef9c4f87a0e266e31399e12
+Section: admin
+Priority: optional
+Description: Android Volume Daemon storage mount state inspector
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: recovery-fstab-parser
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/recovery-fstab-parser_1.0.0-2_aarch64.deb
+Size: 4328
+MD5sum: 14d2473c0f343f89010fb802611b572d
+SHA1: ae96da6a777a72d06a6e3fb4eaa41248a0f6a1b7
+SHA256: 7daf786e6c79902187140df4cd74d1db6d7213c0a83ddee3eb0c7758ca16c034
+Section: admin
+Priority: optional
+Description: Android recovery.fstab block device mount points view
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: boot-image-v4-header
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/boot-image-v4-header_1.0.0-2_aarch64.deb
+Size: 4316
+MD5sum: 13c07e98d96fb00aafacc4cf0749a3ae
+SHA1: 80a9f510eb42d0a0318f1a301a5336441276c881
+SHA256: f454e41e6634cc0b36260a7328fa1a57b4607ea602aa2a2a6334c31fde04bf73
+Section: admin
+Priority: optional
+Description: Android boot image v3/v4 kernel ramdisk header parser
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
