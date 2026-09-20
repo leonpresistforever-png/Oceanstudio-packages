@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
     paths:
-      - 'sources/functional-shards/shard25_profiling.py'
+      - 'sources/functional-shards/shard25_api.py'
       - 'scripts/repair-functional-shard.py'
       - 'scripts/expansion/shard_batch4.py'
       - 'tests/test-shard25-functional.py'
@@ -31,7 +31,7 @@ jobs:
           sparse-checkout-cone-mode: false
           sparse-checkout: |
             /.github/workflows/repair-shard25.yml
-            /sources/functional-shards/shard25_profiling.py
+            /sources/functional-shards/shard25_api.py
             /scripts/repair-functional-shard.py
             /scripts/expansion/shard_batch4.py
             /tests/test-shard25-functional.py
@@ -48,14 +48,14 @@ jobs:
       - name: Compile and exercise all 50 API contract commands
         run: |
           set -euo pipefail
-          python3 -m py_compile sources/functional-shards/shard25_profiling.py scripts/repair-functional-shard.py tests/test-shard25-functional.py
-          python3 tests/test-shard25-functional.py sources/functional-shards/shard25_profiling.py
+          python3 -m py_compile sources/functional-shards/shard25_api.py scripts/repair-functional-shard.py tests/test-shard25-functional.py
+          python3 tests/test-shard25-functional.py sources/functional-shards/shard25_api.py
 
       - name: Rebuild all 50 shard packages
         run: |
           set -euo pipefail
           python3 scripts/repair-functional-shard.py \
-            --runtime sources/functional-shards/shard25_profiling.py \
+            --runtime sources/functional-shards/shard25_api.py \
             --batch scripts/expansion/shard_batch4.py \
             --shard shard-25-api-contract-validation \
             --output staging/shard-25-api-contract-validation \
@@ -64,7 +64,7 @@ jobs:
           test "$(find staging/shard-25-api-contract-validation/pool/main -type f -name '*.deb' | wc -l)" -eq 50
           test "$(grep -c '^Package:' staging/shard-25-api-contract-validation/Packages.repaired)" -eq 50
           grep -q '"repair": "placeholder-to-functional"' staging/shard-25-api-contract-validation/provenance.json
-          ! grep -R -a -E '/data/(data|user/0)/com\.termux|packages\.termux\.dev|TERMUX_PREFIX' staging/shard-25-api-contract-validation sources/functional-shards/shard25_profiling.py
+          ! grep -R -a -E '/data/(data|user/0)/com\.termux|packages\.termux\.dev|TERMUX_PREFIX' staging/shard-25-api-contract-validation sources/functional-shards/shard25_api.py
 
       - name: Promote only with trusted signing key
         id: promote
