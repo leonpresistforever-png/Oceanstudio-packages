@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import importlib.util,json,os,subprocess,sys,tempfile,zipfile,tarfile,hashlib
 from pathlib import Path
-R=Path(sys.argv[1])
+R=Path(sys.argv[1]).resolve()
 spec=importlib.util.spec_from_file_location("devkit",R);m=importlib.util.module_from_spec(spec);spec.loader.exec_module(m)
 assert len(m.COMMANDS)==200
 assert len(set(m.COMMANDS))==200
