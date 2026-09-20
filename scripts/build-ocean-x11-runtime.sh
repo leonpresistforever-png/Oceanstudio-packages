@@ -11,18 +11,19 @@ test -x "$ROOTFS/usr/bin/openbox"
 test -x "$ROOTFS/usr/bin/xterm"
 LOADER="$(find "$ROOTFS/lib" "$ROOTFS/usr/lib" -name 'ld-linux-aarch64.so.1' -print -quit 2>/dev/null || true)"
 test -n "$LOADER"
-mkdir -p "$ROOTFS/lib"
-if [ ! -e "$ROOTFS/lib/ld-linux-aarch64.so.1" ]; then
-  cp -L "$LOADER" "$ROOTFS/lib/ld-linux-aarch64.so.1"
-fi
-test -x "$ROOTFS/lib/ld-linux-aarch64.so.1"
 
 WORK="$(mktemp -d)"
 trap 'rm -rf "$WORK"' EXIT
 PKG="$WORK/pkg"
 DEST="$PKG${PREFIX}/var/lib/ocean-x11/rootfs"
 mkdir -p "$PKG/DEBIAN" "$PKG${PREFIX}/bin" "$DEST"
-cp -a "$ROOTFS/." "$DEST/"
+cp -a --no-preserve=ownership "$ROOTFS/." "$DEST/"
+mkdir -p "$DEST/lib"
+if [ ! -e "$DEST/lib/ld-linux-aarch64.so.1" ]; then
+  cp -L "$LOADER" "$DEST/lib/ld-linux-aarch64.so.1"
+fi
+chmod 755 "$DEST/lib/ld-linux-aarch64.so.1"
+test -x "$DEST/lib/ld-linux-aarch64.so.1"
 
 cat > "$PKG/DEBIAN/control" <<EOF
 Package: ocean-x11-runtime
