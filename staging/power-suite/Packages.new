@@ -1,0 +1,3749 @@
+Package: ocean-power-core
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/ocean-power-core_1.0.0-1_all.deb
+Size: 8592
+MD5sum: efe9c08ea6f9f42a2ba1e834f7cb4796
+SHA1: e8f3e43cfd90bf6c41a8cc0c438ba1254ad1825b
+SHA256: 0c34abdb9a7bce39c8a853eb94da6ecac2e3923c0c9ae6835c279ba9b9f98b05
+Section: utils
+Priority: optional
+Description: Shared runtime for 249 Ocean Power utilities
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-hash-md5
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-hash-md5_1.0.0-1_all.deb
+Size: 948
+MD5sum: dded7100acf1740af2a049a2a9bb197d
+SHA1: 3727ba9454d080f3ef05af06892f3161963fb521
+SHA256: 0f87c75901d7d820940f0b2607f6ead15de3f3abccb4cb48d4457e9b2b8f03bd
+Section: utils
+Priority: optional
+Description: streaming cryptographic digest utility: md5
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-hash-sha1
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-hash-sha1_1.0.0-1_all.deb
+Size: 948
+MD5sum: 4ac120245d393fce20befac7ac328447
+SHA1: fc7304cd096a736241c9c7cb8634dc76c09be2ef
+SHA256: 6924372f0801a5c13b89c3f5b9238a55388cacb06ba9421158dd72cab68b6ae0
+Section: utils
+Priority: optional
+Description: streaming cryptographic digest utility: sha1
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-hash-sha224
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-hash-sha224_1.0.0-1_all.deb
+Size: 956
+MD5sum: 6f99ecb23136efa6dfc4c50a9d632f68
+SHA1: 317f8c23fd53849162265a8c34fd48c976d15b5c
+SHA256: 080a1d4a4f726bfd30ac9f32479a5f212626dbfb9a3a61f7b3f3c6353f2707b4
+Section: utils
+Priority: optional
+Description: streaming cryptographic digest utility: sha224
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-hash-sha256
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-hash-sha256_1.0.0-1_all.deb
+Size: 956
+MD5sum: 6f2f0129c386d8405743c23da81cc432
+SHA1: b3e86c13cc882c11955706933f0f374c3d5d790b
+SHA256: e361cf83a366d1143e5d3592d61ac982360619b85c8bfc856a469c2561ecd034
+Section: utils
+Priority: optional
+Description: streaming cryptographic digest utility: sha256
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-hash-sha384
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-hash-sha384_1.0.0-1_all.deb
+Size: 956
+MD5sum: 172eb51b5373806ba377ddf52116099d
+SHA1: ecf94656a0da62a41c48405fe126e6adb6e88186
+SHA256: eb437161c8ec2d7276ae3163846147569371409385ffcdcdd3d052935dab5ae6
+Section: utils
+Priority: optional
+Description: streaming cryptographic digest utility: sha384
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-hash-sha512
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-hash-sha512_1.0.0-1_all.deb
+Size: 956
+MD5sum: 1f4daa00b6e4dcab7aed1bb8a3d1122e
+SHA1: 04a71e0ae9f868a4bb7f1b047e37b18471df4d2f
+SHA256: ceba7016ea1513f14e18088ed07fbbb9733221d4cc5e26c27b9be77350d78abc
+Section: utils
+Priority: optional
+Description: streaming cryptographic digest utility: sha512
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-hash-sha3-224
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-hash-sha3-224_1.0.0-1_all.deb
+Size: 960
+MD5sum: 78a1b020c904b1706be41354b502921a
+SHA1: e97eb9a8d8365196809529ced144ff8d93f9fc26
+SHA256: 5923cd5cc8dc1bb5f35107b7bc850c78c9bd260b838d9202a9cc9941382ed4aa
+Section: utils
+Priority: optional
+Description: streaming cryptographic digest utility: sha3 224
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-hash-sha3-256
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-hash-sha3-256_1.0.0-1_all.deb
+Size: 960
+MD5sum: 2920c126c3b2f59089c254d6deb79aa9
+SHA1: 24a903c00ebea2094a0cb341d9b3c96a27aafd50
+SHA256: d2dab6c89641dbff5544eabd74c212a7d61c70e803868bff47ee61fb7f1bccfb
+Section: utils
+Priority: optional
+Description: streaming cryptographic digest utility: sha3 256
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-hash-sha3-384
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-hash-sha3-384_1.0.0-1_all.deb
+Size: 960
+MD5sum: 23c7d6a90e0c40ec96616f8c1e6a9eb3
+SHA1: d55e17d55e767e4f25f78839728498d17369a68f
+SHA256: 464faed85712a6aa4c95f4e0c9f87fd14ab30e8d04f3edad25ed411eb01d452b
+Section: utils
+Priority: optional
+Description: streaming cryptographic digest utility: sha3 384
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-hash-sha3-512
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-hash-sha3-512_1.0.0-1_all.deb
+Size: 960
+MD5sum: 22f793848ed09b99b1599afffbeead33
+SHA1: 22720be86ff1fbae00dd20554956b0bd71b90035
+SHA256: 3c6a3fb6a19af18c13fc46842c65c31649226c9bedeeffec2c33304c5c2955c4
+Section: utils
+Priority: optional
+Description: streaming cryptographic digest utility: sha3 512
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-hash-blake2b
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-hash-blake2b_1.0.0-1_all.deb
+Size: 956
+MD5sum: 3da234cbd6c120fcd1dadb9db82824c7
+SHA1: a235ded6bc41f143ed4f2dd1eeba1dd574059b17
+SHA256: 8f5ae84eaa48d49887cd39b3e94679520f763e7bb997a9f32a016c1067defbd7
+Section: utils
+Priority: optional
+Description: streaming cryptographic digest utility: blake2b
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-hash-blake2s
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-hash-blake2s_1.0.0-1_all.deb
+Size: 956
+MD5sum: 3b7f96c28a2b57be50fa32390752e98c
+SHA1: f132feee3690d7d29d2ac10a1bb2e73bf045c939
+SHA256: bdd9a3c0f29a7a93fc1843ba9aaaf24ca78b32882e00e4a7af20c6e8561f36e6
+Section: utils
+Priority: optional
+Description: streaming cryptographic digest utility: blake2s
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-hmac-md5
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-hmac-md5_1.0.0-1_all.deb
+Size: 944
+MD5sum: c0387e5d6020e69cc9615fd2a9338364
+SHA1: e17b973f877d2161bb390443367c51a6c3fabb41
+SHA256: c6c4f6b1ffb4390bb0f4aec7c079f81d09db75d29dd1c7eb251b9f100587cdb5
+Section: utils
+Priority: optional
+Description: keyed HMAC digest utility: md5
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-hmac-sha1
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-hmac-sha1_1.0.0-1_all.deb
+Size: 940
+MD5sum: e3ce17e552ae80bbe5dc9fcad3c7dce4
+SHA1: 090bbc3c79a35b4235cf2d66a95bd592931436fb
+SHA256: 9c237e8b4917d4dbd33a6ce37f51ca88c851cec929d34aa37b1110e126604214
+Section: utils
+Priority: optional
+Description: keyed HMAC digest utility: sha1
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-hmac-sha224
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-hmac-sha224_1.0.0-1_all.deb
+Size: 948
+MD5sum: 146f35f1199de1c4ce958cf84923db79
+SHA1: 02f44a8d2db8f239032e1dccd960715a63b86f0d
+SHA256: f4bedd0d31d9afd04e2e7a2104ec3e19a21cc55b11509ad48a141ba79e0a6b1a
+Section: utils
+Priority: optional
+Description: keyed HMAC digest utility: sha224
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-hmac-sha256
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-hmac-sha256_1.0.0-1_all.deb
+Size: 948
+MD5sum: b4788274449cec976f57fdca18fd1ab0
+SHA1: 325bd99854d17196c4367a0f7fb9811c2b4e16d6
+SHA256: c14281921fee33bd481e67d3b3724430e602116118062941395173b5372b46a9
+Section: utils
+Priority: optional
+Description: keyed HMAC digest utility: sha256
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-hmac-sha384
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-hmac-sha384_1.0.0-1_all.deb
+Size: 948
+MD5sum: 556e5765212a8d1c144343b927685863
+SHA1: 3e290a004286ac0f7cdba5468c4e0298f50e0721
+SHA256: be039e72f7f490d037ff2b13e044f92beed9ec0d7e4545261242626fd2b07c97
+Section: utils
+Priority: optional
+Description: keyed HMAC digest utility: sha384
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-hmac-sha512
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-hmac-sha512_1.0.0-1_all.deb
+Size: 948
+MD5sum: cb64bf9f8456f7f7279c5ca1fe782b87
+SHA1: 548d4692e14970d89b9e3048527b8a35ea96679b
+SHA256: 1174d178b560d3d6c263711427a20dfa0d943251e8b78f0465edb862d68ae445
+Section: utils
+Priority: optional
+Description: keyed HMAC digest utility: sha512
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-hmac-sha3-256
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-hmac-sha3-256_1.0.0-1_all.deb
+Size: 952
+MD5sum: 372d087cff9222c6ac3ffa14ffa9a1f0
+SHA1: 52eb83e9c50e161e84e9e9fb1a0ef4eab4063d3b
+SHA256: c3aeffdce92ca78909bd1676cbacba55b594b21c8410f993bd287a3464b15559
+Section: utils
+Priority: optional
+Description: keyed HMAC digest utility: sha3 256
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-hmac-sha3-512
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-hmac-sha3-512_1.0.0-1_all.deb
+Size: 952
+MD5sum: 410b9670ac02c8f7ca73b5e0fd450d02
+SHA1: 4b5552eb4a4b33442609ba17fce78ad6b488f47e
+SHA256: c6f6d7a935bf2692e39c148c70f8bc88d94564cb1c1954c74c85aaa8610e092b
+Section: utils
+Priority: optional
+Description: keyed HMAC digest utility: sha3 512
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-hmac-blake2b
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-hmac-blake2b_1.0.0-1_all.deb
+Size: 948
+MD5sum: dc6d653df147e09837b10228e02cc5be
+SHA1: 0ee5efc2bdb3e555097e4a1df108011cc67312a3
+SHA256: eb9308ac2b5cc03cbe35b8c2ec8d0c18945197d20e1efaed4df8852dd4d2dbd8
+Section: utils
+Priority: optional
+Description: keyed HMAC digest utility: blake2b
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-hmac-blake2s
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-hmac-blake2s_1.0.0-1_all.deb
+Size: 944
+MD5sum: 415787b014a0db447360500a4f5f57dc
+SHA1: 889e59a339125ac75cd4d38895e3a327da1f4e97
+SHA256: e1930a9e89090d69fa035039eec94f6e18fb372d2a458263e59412b56929a2fa
+Section: utils
+Priority: optional
+Description: keyed HMAC digest utility: blake2s
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-encode-base64
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-encode-base64_1.0.0-1_all.deb
+Size: 940
+MD5sum: 628e745531e80f30ef2633441743a176
+SHA1: dcc72915b37655d52b4e2e80aac62bad57914c97
+SHA256: feae2c039a4422d27753a1127d48413faa02034fe1467e50ef3791218d68a2ae
+Section: utils
+Priority: optional
+Description: data encoding utility: base64
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-encode-base32
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-encode-base32_1.0.0-1_all.deb
+Size: 940
+MD5sum: 274c1653cf68d032318416b6b51f622e
+SHA1: 8a49b05241fa583f97029bb836932da18d5c6d7b
+SHA256: fc63a25055a0ef2079d45c572bd3b55286a5d5e35cba479c880d25f84adbdd78
+Section: utils
+Priority: optional
+Description: data encoding utility: base32
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-encode-base16
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-encode-base16_1.0.0-1_all.deb
+Size: 940
+MD5sum: 1302385bf3fd14af91f890255d8031e9
+SHA1: 3232958ebf479c5ee3e2fe1d4ded3446b224207b
+SHA256: de65fc0f821c50ed7fbdfdb1bab5e633e5e98dad1ece98132ed8eedc1b635173
+Section: utils
+Priority: optional
+Description: data encoding utility: base16
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-encode-base85
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-encode-base85_1.0.0-1_all.deb
+Size: 940
+MD5sum: f53900b88ac5f2bc672edfeebef21f0c
+SHA1: 572eb8645ae1fe6677e38f1e691ce26c956a9aad
+SHA256: 141baa22db009a748929b2c95a6bbf66c989bf0a3afb8645124322a0b4a93ff4
+Section: utils
+Priority: optional
+Description: data encoding utility: base85
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-encode-ascii85
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-encode-ascii85_1.0.0-1_all.deb
+Size: 940
+MD5sum: 7d9badb10cef41b2e1add3f35f375624
+SHA1: 90d858acb66aaa3ca7e69e4a5158afdd66d49869
+SHA256: 41eef09c600090f7016e9a01ac55213c173b2239984a29a2cb7b565e297989ed
+Section: utils
+Priority: optional
+Description: data encoding utility: ascii85
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-encode-hex
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-encode-hex_1.0.0-1_all.deb
+Size: 936
+MD5sum: 18623e3d6d595b72e271942f0bfbc86d
+SHA1: e5c7ac7f561c9ed7fbda3d8852b14c858568e4c0
+SHA256: f65b234a9c6f25a29d48a55f1c06b1a762ce2652e66c075a45dd879e58e6490b
+Section: utils
+Priority: optional
+Description: data encoding utility: hex
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-encode-url
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-encode-url_1.0.0-1_all.deb
+Size: 936
+MD5sum: e7cc046ceb63738fa2d68062148b3a21
+SHA1: 6732fcb3d9b85c414ee44eb99d16318d520528ff
+SHA256: bbf0c82599edc3ea6cfd192af760874fe0c1b95c2011a4aca0722d651fab82aa
+Section: utils
+Priority: optional
+Description: data encoding utility: url
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-encode-html
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-encode-html_1.0.0-1_all.deb
+Size: 936
+MD5sum: 6e5fd4d13d1d503ac44ad227902e2898
+SHA1: 50c4618bd81f96a609026964b7b72faeb8676df2
+SHA256: bad7047993aa6517f1d1a1cefb053d81c9f89ac9860b953f9f6af2e11a131c55
+Section: utils
+Priority: optional
+Description: data encoding utility: html
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-encode-json
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-encode-json_1.0.0-1_all.deb
+Size: 936
+MD5sum: 15bb36b944d61a4bbb7fc0cca0f433d8
+SHA1: c8ebb45746dc7d963f4196a2d102386f8ad0fd66
+SHA256: 1fe928471a92ede3f3c4b7d3d33a11d25f7576c1d2b5a5a7ccb4198b0469c385
+Section: utils
+Priority: optional
+Description: data encoding utility: json
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-encode-rot13
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-encode-rot13_1.0.0-1_all.deb
+Size: 936
+MD5sum: 3454fb2cf4fabe9d24424c0264f00e27
+SHA1: 0eb554bd23f2d62053c138968108fe29d455cee4
+SHA256: 73e5d9f3017d54b5aa837aa8331324f956cdf89064693afd138b8ca09c70354d
+Section: utils
+Priority: optional
+Description: data encoding utility: rot13
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-encode-gzip
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-encode-gzip_1.0.0-1_all.deb
+Size: 936
+MD5sum: f198fa3f924542044fb77eb69dc3c252
+SHA1: 5df6d214de2935bab56172494952034718472fab
+SHA256: 42c96dcd3e14f7aef93c603602eb0976942be142ee42bf193e7fe6511fe9bd72
+Section: utils
+Priority: optional
+Description: data encoding utility: gzip
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-encode-zlib
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-encode-zlib_1.0.0-1_all.deb
+Size: 936
+MD5sum: 06aa78d9c20cd62e1c67ad504af428b0
+SHA1: ac79ea0f7095f2d5db22829d181ceabbadff5c38
+SHA256: 86d5cb8405a64eb2e009d7fafc7cd60c2a73d340ef7523ce574051770c46ef84
+Section: utils
+Priority: optional
+Description: data encoding utility: zlib
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-encode-bz2
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-encode-bz2_1.0.0-1_all.deb
+Size: 936
+MD5sum: af796deb3c02c0c5a8feaaac22bb947b
+SHA1: 34c83add91fbf364f1ac3d0e9e220f3109bed9c9
+SHA256: 76a2a176a62ee351680a112b2e89e18974657e62592583c3fe05250c7ab44897
+Section: utils
+Priority: optional
+Description: data encoding utility: bz2
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-encode-lzma
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-encode-lzma_1.0.0-1_all.deb
+Size: 936
+MD5sum: 101ea966cd395d7744d687c6f8b95fa0
+SHA1: 7aa9b6734c475e051baec5e61b4d9759d840e2d1
+SHA256: 75d2e530eb22bdc2bb96a51b4586b78305112b6b6f8f4cbf7e069ad7fba77d2a
+Section: utils
+Priority: optional
+Description: data encoding utility: lzma
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-encode-utf8
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-encode-utf8_1.0.0-1_all.deb
+Size: 936
+MD5sum: af7f6636feedbb615fc4da36d624cb9b
+SHA1: e432153cf03a2f815c4177f57ca9aa7d9d37d73c
+SHA256: db7c7def5c7d62c027304407520077b7d9c7d1063c33261c435d9c412bf20f1c
+Section: utils
+Priority: optional
+Description: data encoding utility: utf8
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-encode-repr
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-encode-repr_1.0.0-1_all.deb
+Size: 936
+MD5sum: 93a72bd8a0e28f234c070a8c3b27fa00
+SHA1: 06f4a335b30a30b8775811225763e3a5c1d27dd6
+SHA256: 38e524c61b9a07beb7c9cb35257985f7b7c059de5b0be62e70cf99350c1a9e7b
+Section: utils
+Priority: optional
+Description: data encoding utility: repr
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-decode-base64
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-decode-base64_1.0.0-1_all.deb
+Size: 940
+MD5sum: b41a278c81f447e7906c42e33f5a4e8c
+SHA1: 606553930c49e5604a5cd8d502da34a398bc7b39
+SHA256: e19f5cd3c8ac10cb6bf38bcbd19c50cd21be1c350366a5b6672eeac41894009c
+Section: utils
+Priority: optional
+Description: data decoding utility: base64
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-decode-base32
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-decode-base32_1.0.0-1_all.deb
+Size: 940
+MD5sum: a0db8d3303cb4350b3f7118109ce6e09
+SHA1: 486f4051bb2a0843f903209730dad4a8426d633c
+SHA256: c38de86144825b8a857731db5d66bfb6a847a5bace54597569d1c583bf721bd8
+Section: utils
+Priority: optional
+Description: data decoding utility: base32
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-decode-base16
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-decode-base16_1.0.0-1_all.deb
+Size: 940
+MD5sum: bacb5e26b73c217a9459410848349f1a
+SHA1: 64b4dc8800d902fd7390d27cacc5f52b9f847f1d
+SHA256: d9e00f905be08365d2a4b174a3198eeb781445ecb0b92c1a7e68b6d7b39b2424
+Section: utils
+Priority: optional
+Description: data decoding utility: base16
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-decode-base85
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-decode-base85_1.0.0-1_all.deb
+Size: 940
+MD5sum: 08a70047d240abf693bd2b15b991ebec
+SHA1: 377d12f62c5788d4281eeb0f29bc8883e89eae09
+SHA256: 132dfdd1672c7654069160f1ed922600628fee1cc230c06e2aa875f5efe1fda9
+Section: utils
+Priority: optional
+Description: data decoding utility: base85
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-decode-ascii85
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-decode-ascii85_1.0.0-1_all.deb
+Size: 944
+MD5sum: 068d22d70d78321ae2b8eabe2ba68348
+SHA1: fd967e08483f842c5a5658e13920cf49c42a2f31
+SHA256: d390b48bb187d63de2f05d7dd9e1f2157105011858a51b152fe702526d9f936f
+Section: utils
+Priority: optional
+Description: data decoding utility: ascii85
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-decode-hex
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-decode-hex_1.0.0-1_all.deb
+Size: 936
+MD5sum: eb24bbd3d19990f17988026f82eaf01e
+SHA1: 5fee453cd970c4de0381488d28c738b79d45c2fe
+SHA256: 8fce130ffad13d67ce76e98af90821b8ec1b201b7b3ad2de22430493ddf484bf
+Section: utils
+Priority: optional
+Description: data decoding utility: hex
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-decode-url
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-decode-url_1.0.0-1_all.deb
+Size: 936
+MD5sum: c34d99777158faca2031b7c6e6aac381
+SHA1: 905470bac6aac955efc1170ed38edc4074641d74
+SHA256: f66eb8682c42468c795cf3bbb1d6a2e43df889d70394cd799405da7d755767af
+Section: utils
+Priority: optional
+Description: data decoding utility: url
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-decode-html
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-decode-html_1.0.0-1_all.deb
+Size: 936
+MD5sum: 85e4671b47f9f1e55b0fe97052b2807a
+SHA1: 826bbea8fd3cf91230c1583cff06d8c295eeb8bd
+SHA256: 8f6ff0051ef2fd8f5e49770f60623bf4dad9f0cc5294a3c297b5e5b49df524f9
+Section: utils
+Priority: optional
+Description: data decoding utility: html
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-decode-json
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-decode-json_1.0.0-1_all.deb
+Size: 936
+MD5sum: 24bb0489608c928845a298e8f94b98dc
+SHA1: dc170f10eab0ae692b6cf58d98ccdc27a69ca48a
+SHA256: 271f9bfa770f059925343a83a932dce5ba0b9890966548407122baa5f930d818
+Section: utils
+Priority: optional
+Description: data decoding utility: json
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-decode-rot13
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-decode-rot13_1.0.0-1_all.deb
+Size: 936
+MD5sum: 6fca5c156af216d19aeeaeadde0d3092
+SHA1: 7e3c0836c52f64e6efe218052b979fdcad570f51
+SHA256: 5351573d81bb28e1039bf8e21df4ac721244f187ace1a80f959c185b38534b81
+Section: utils
+Priority: optional
+Description: data decoding utility: rot13
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-decode-gzip
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-decode-gzip_1.0.0-1_all.deb
+Size: 936
+MD5sum: 4140e7d5c7689015cdf965d39cffe534
+SHA1: 3232546bfa5a5f65c3c6d929cc88209f9699e4b5
+SHA256: 859ee1783fa1f89728616d8a2dc63a112f52bdcc1da68cf462769078554f2fd1
+Section: utils
+Priority: optional
+Description: data decoding utility: gzip
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-decode-zlib
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-decode-zlib_1.0.0-1_all.deb
+Size: 936
+MD5sum: 3534253263609b8a564271d971158842
+SHA1: ec5d24bd79ac1c4dfd198eba13cfb13affdc32e4
+SHA256: 2c47f9d674f466060fcc58e223e2eedc21aed66f92e868de8e128c56ec699ee3
+Section: utils
+Priority: optional
+Description: data decoding utility: zlib
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-decode-bz2
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-decode-bz2_1.0.0-1_all.deb
+Size: 936
+MD5sum: 7c97a6510c8f51d7ac5ead2b9d73c817
+SHA1: 23440315878322fdbb0f987b1335935790666149
+SHA256: e31abb3eed12a1b5683e3089322335967635ecc52fb16af27d164b62b19947fd
+Section: utils
+Priority: optional
+Description: data decoding utility: bz2
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-decode-lzma
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-decode-lzma_1.0.0-1_all.deb
+Size: 936
+MD5sum: 16f622126d5409cc11adf6618cbb110e
+SHA1: dc8ee7531e4d7fe8f576b6386afb4f074a94a3ee
+SHA256: ba59e61c08b935097e48e842a488dfee2bdb4706f5fe0ea57d2eb134c5cd97ff
+Section: utils
+Priority: optional
+Description: data decoding utility: lzma
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-decode-utf8
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-decode-utf8_1.0.0-1_all.deb
+Size: 936
+MD5sum: bf948cf70e5a19db949e6a990a4b04ec
+SHA1: f763903b736808db1ae73bec644f422ecea879f3
+SHA256: 6adb15a3b25439afc8f88b4f5a5541055f961b22aba28a9390713c5ad54e9138
+Section: utils
+Priority: optional
+Description: data decoding utility: utf8
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-decode-repr
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-decode-repr_1.0.0-1_all.deb
+Size: 936
+MD5sum: 32a71e3ec5a4c3419c006b1ecf691c88
+SHA1: 8c04273349785e8320e71bdf03af87f29eac6be9
+SHA256: f871ff882bef7294e12dedd369c97ec2a9b6347387a30737ed8769012ae56f92
+Section: utils
+Priority: optional
+Description: data decoding utility: repr
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-text-lines
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-text-lines_1.0.0-1_all.deb
+Size: 940
+MD5sum: 542a465d3ea2604a36a68a43645f35b1
+SHA1: 4d8ae286955f42d1a62d22e4bd67943428e848ce
+SHA256: 09424341f245d51189889b61dbf2031bd4eb039a3b7014e091f047df8ceef671
+Section: utils
+Priority: optional
+Description: text processing utility: lines
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-text-words
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-text-words_1.0.0-1_all.deb
+Size: 936
+MD5sum: 11c6562693993e15fd27ea7ac928a3d4
+SHA1: db3be5c0c89c9f09efc15067ebb66e8ad7a1c65c
+SHA256: 6c3ba3aad89ce25091611d3ed98999eed3e1f3251cd878198778ab13ef9b65d7
+Section: utils
+Priority: optional
+Description: text processing utility: words
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-text-chars
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-text-chars_1.0.0-1_all.deb
+Size: 940
+MD5sum: bdbfc84a4998481d2733e7bc7ad7b55f
+SHA1: a6d9aa4d8d710421a84c87c1695bb521ef948006
+SHA256: 26efcabab793d59e55892b5c15f29bd3bcdce12979e03a103928378960c537be
+Section: utils
+Priority: optional
+Description: text processing utility: chars
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-text-bytes
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-text-bytes_1.0.0-1_all.deb
+Size: 940
+MD5sum: ec33976d1cac71d3a6d3d711aabcc4f1
+SHA1: 7cad855d1a14de6ac0ea4890e8136d2616615257
+SHA256: 00928718a6489188868b400d5bdd0b249a27b07210e4e455112b5480820c4464
+Section: utils
+Priority: optional
+Description: text processing utility: bytes
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-text-reverse
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-text-reverse_1.0.0-1_all.deb
+Size: 940
+MD5sum: ac0e98d6aee8fceea420136aea022786
+SHA1: 7266ca95a974cd548d67ae4318be6285d3eff712
+SHA256: 1b263501319852c1a430a96a96f2040baba6e88ea0dcd21ccfafefc13dcc974c
+Section: utils
+Priority: optional
+Description: text processing utility: reverse
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-text-reverse-lines
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-text-reverse-lines_1.0.0-1_all.deb
+Size: 952
+MD5sum: 5dfd3583d3f0b12c7fbc2af66e209d0d
+SHA1: 52b71ce73a34dea44c27134b7cb33c58f7a768d5
+SHA256: 22c122f81ccec4d41da3c58ddd7e38b8186fc782a4d271512462da71116dab83
+Section: utils
+Priority: optional
+Description: text processing utility: reverse lines
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-text-sort
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-text-sort_1.0.0-1_all.deb
+Size: 936
+MD5sum: 7d283f171d719b94c1b5ad34b0ab1c5a
+SHA1: a80c2ae8f77bd35972ec46089aaee585c1ce9760
+SHA256: 0b266e8a671683b138f2d1d9c56d57b27a2b0fceffd7b533f7f45e611122f72f
+Section: utils
+Priority: optional
+Description: text processing utility: sort
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-text-sort-num
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-text-sort-num_1.0.0-1_all.deb
+Size: 944
+MD5sum: 6bd3fa11c6fe3f3e56c26f5ca0edca86
+SHA1: da412dba5c3d4ba3c6e025d0a14144e46733a84e
+SHA256: 12e91bce10ff0411235cc8890a37776f88049388c992d5b312c7a9e842c1caaf
+Section: utils
+Priority: optional
+Description: text processing utility: sort num
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-text-unique
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-text-unique_1.0.0-1_all.deb
+Size: 936
+MD5sum: deeb8b6974afc8866934ee746dfd1a9f
+SHA1: 9b5f2d981b8b4bcef01f121a318b5767e4404231
+SHA256: 2076be4bd557db2686bd8c0f87823694448c8ac0262c21307167cf77602a6561
+Section: utils
+Priority: optional
+Description: text processing utility: unique
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-text-uniq-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-text-uniq-count_1.0.0-1_all.deb
+Size: 948
+MD5sum: c6dbd3e2a9e9e2aafda3cd84e5f82e0b
+SHA1: 40728ad184ec3fe1c36b91ca4924530d3f0331cd
+SHA256: 463522e33516050650cf1b390e0a8f6a05d4fe2084634547f13ba3dae6ed6a4a
+Section: utils
+Priority: optional
+Description: text processing utility: uniq count
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-text-freq-words
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-text-freq-words_1.0.0-1_all.deb
+Size: 948
+MD5sum: 523a36874064ffb9465e6e869eb25c80
+SHA1: d1490494c6f6adaaea9b7a0ef792ff9b912885f2
+SHA256: de79d777b5926a6735f9956fe3c7fc148220824275d7a708b0c400523ae086fe
+Section: utils
+Priority: optional
+Description: text processing utility: freq words
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-text-freq-lines
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-text-freq-lines_1.0.0-1_all.deb
+Size: 948
+MD5sum: 0120ffe18119d38f2b339c7dc07a7e9a
+SHA1: 0be82c6b57d9fb31436e38c0989c966e0e034554
+SHA256: 1ff3ca91e11d547c7a6b5d9c5e68bff7bdbe0ce30c5eb48a3015f117c9ec6f56
+Section: utils
+Priority: optional
+Description: text processing utility: freq lines
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-text-lower
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-text-lower_1.0.0-1_all.deb
+Size: 936
+MD5sum: 253748b4e706a35cd63198ca7b4231b4
+SHA1: 6ec112dd7d6f3557f85d57e143ea59973734f35a
+SHA256: be17fd13e091148a729e41d950ec4a7bf3a71091a598c048ed54cd8386ae9260
+Section: utils
+Priority: optional
+Description: text processing utility: lower
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-text-upper
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-text-upper_1.0.0-1_all.deb
+Size: 940
+MD5sum: 293de8126a186ede3c996dd0289b3a75
+SHA1: 76b3bfbd80181205858805cd6d3306c506cf0bf5
+SHA256: 0f3ad3f01e92b444c779102d4e82d7c40856f661e7778d6d895d574f41b1beeb
+Section: utils
+Priority: optional
+Description: text processing utility: upper
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-text-title
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-text-title_1.0.0-1_all.deb
+Size: 936
+MD5sum: 09b6697c6723ba9eb5883e7422285961
+SHA1: fb906c7b8b3530123c8acfaa2c941e0503f481ca
+SHA256: b007f1dfca4ec264df1a35eeb5c7254ce4c109d71c45ec296ec60782780556ed
+Section: utils
+Priority: optional
+Description: text processing utility: title
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-text-strip
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-text-strip_1.0.0-1_all.deb
+Size: 940
+MD5sum: ec7095fc57d35fab35f1d1d1a7e62cdf
+SHA1: d1b48b4c3c4b44a373ed36d398e26c74db9fc6f9
+SHA256: 90a63d7ce36a14a6ebb964fa59857d0b7aa8fea8099c61089f00f0310f433768
+Section: utils
+Priority: optional
+Description: text processing utility: strip
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-text-squeeze-space
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-text-squeeze-space_1.0.0-1_all.deb
+Size: 948
+MD5sum: 4473aff09b8198048607b1350165d4d9
+SHA1: e42aebdc16bdecad8ca209380df25aed69790a2c
+SHA256: 8fad472e17211b611dcb353c91b835ad99859385f6d23abb623ce135982b4f10
+Section: utils
+Priority: optional
+Description: text processing utility: squeeze space
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-text-tabs-to-spaces
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-text-tabs-to-spaces_1.0.0-1_all.deb
+Size: 952
+MD5sum: ef939b03aac50ff7037ce6ff68578c12
+SHA1: 4b8923519d988c496dfbb83678c97bebb9365e0d
+SHA256: d04b8bc2eaf7c843ae0db2fd4f698d66d8d672c82b9dda651d783ad2b9e07ce5
+Section: utils
+Priority: optional
+Description: text processing utility: tabs to spaces
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-text-spaces-to-tabs
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-text-spaces-to-tabs_1.0.0-1_all.deb
+Size: 956
+MD5sum: 1b814936442a735275d5c045ec53b7da
+SHA1: 83800fca6db141cb2c32794fb61110bf1155d74f
+SHA256: 179f25d570e26a3d38bfa6437e0b72c65a322f7c2011504cb07201e7f7987606
+Section: utils
+Priority: optional
+Description: text processing utility: spaces to tabs
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-text-head
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-text-head_1.0.0-1_all.deb
+Size: 936
+MD5sum: e88814728f6e4b4c5d2edea2c3d7f157
+SHA1: 8259fa2e28093bb1b9b7bc2100692df4b5b28ebb
+SHA256: dad16e798ffd55ba4389e015c27b5152d2dd809314ccff357d681f44f7671879
+Section: utils
+Priority: optional
+Description: text processing utility: head
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-text-tail
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-text-tail_1.0.0-1_all.deb
+Size: 936
+MD5sum: 5204f5ad8a40d9820c34f9d5240c36b0
+SHA1: 5dadec78535c7ec3fee478730de561f24e8a1fbc
+SHA256: 26621e5088885d47c328b584005bbd61ee48af9f47640c5c0c6481bba41aef6c
+Section: utils
+Priority: optional
+Description: text processing utility: tail
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-text-grep
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-text-grep_1.0.0-1_all.deb
+Size: 936
+MD5sum: de110bc9a22fea517ff573a5f8264bf9
+SHA1: 02d7176d685569197e34c3f098278226013726be
+SHA256: 786d3dcecf81289b49d30c6c6fb84f306d4774948879a4009c4897f8077f34d3
+Section: utils
+Priority: optional
+Description: text processing utility: grep
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-text-grep-v
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-text-grep-v_1.0.0-1_all.deb
+Size: 940
+MD5sum: d4889795c7555238b938fe2f7ab79f17
+SHA1: 306d924d98ce4bc08453516c315d26dbe5a262ec
+SHA256: 3a42385adc32df04847422cb61bb6049ad1d57bdd7b7c05f059cc51123d28983
+Section: utils
+Priority: optional
+Description: text processing utility: grep v
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-text-regex-replace
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-text-regex-replace_1.0.0-1_all.deb
+Size: 952
+MD5sum: 4d3578148597d8459e949cffb706de9c
+SHA1: f393b509ac48338960482c52ffb3a03d5cb39318
+SHA256: feef58cfa2a6ad073a93b465553dc88cb3a791d6c040d726b482144e1d60ece2
+Section: utils
+Priority: optional
+Description: text processing utility: regex replace
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-text-number-lines
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-text-number-lines_1.0.0-1_all.deb
+Size: 948
+MD5sum: 435079bebf76d2fa5b20ceaa0032f35f
+SHA1: f16407e3042ff8d36578ced0ec8b631af380fa4d
+SHA256: 7b3d5e212f9047441e47393685f7896b16234d45bc2c268a96dfca874cc32d8c
+Section: utils
+Priority: optional
+Description: text processing utility: number lines
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-json-pretty
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-json-pretty_1.0.0-1_all.deb
+Size: 952
+MD5sum: aef88532fd544e9054c40e6529a19011
+SHA1: 8c21c49a4630df42e525b8f8273c1798a3fc1d8a
+SHA256: cedb16d27bb412cde968b5be9b50a3d229ca5fc8c277f55c65cd444be1eccd4e
+Section: utils
+Priority: optional
+Description: JSON transformation and inspection utility: pretty
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-json-minify
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-json-minify_1.0.0-1_all.deb
+Size: 952
+MD5sum: 13b6610a4c033499324cc68ae4565478
+SHA1: 1b465b991ba19704ff0397643cf3f1d58a2c492b
+SHA256: 22ebd51c47892b185b263f14afb4ce710d1dbcf52ba46cc6c1339c2915fbd7b6
+Section: utils
+Priority: optional
+Description: JSON transformation and inspection utility: minify
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-json-validate
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-json-validate_1.0.0-1_all.deb
+Size: 952
+MD5sum: 10bed82d28561f438433291b1cdbfe9c
+SHA1: 3cdf038d32575dde357786e2c4544bfd57a59d38
+SHA256: 1cbe65e7755f7412e6aaf2cdcef1606a684e993dd4096eb0783916427296d608
+Section: utils
+Priority: optional
+Description: JSON transformation and inspection utility: validate
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-json-keys
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-json-keys_1.0.0-1_all.deb
+Size: 952
+MD5sum: c2af9d273a248b08ad5974d6b6af7a9e
+SHA1: cdda8378b9e6897490538d82a8b282bf9e0cde11
+SHA256: ae53416af91ef96d37e3160ef82f5f0fe123eaec80a5a63c60b65376f5a52dfc
+Section: utils
+Priority: optional
+Description: JSON transformation and inspection utility: keys
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-json-values
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-json-values_1.0.0-1_all.deb
+Size: 952
+MD5sum: ffae48b944aea6f11b2aba40b9f5de2f
+SHA1: fc42e1be2c557eb4849776da88ec1261fa8cd490
+SHA256: ec762cd8dbce815f996e7ee5fa1a9cfb139e09fcbb52d59c64aabec11a68ac17
+Section: utils
+Priority: optional
+Description: JSON transformation and inspection utility: values
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-json-get
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-json-get_1.0.0-1_all.deb
+Size: 948
+MD5sum: 2289c1b640a65f2774534afba293ba7e
+SHA1: bbf36e1428caadebc51d7ee70c9c611c7006f493
+SHA256: 9becdcdb82b4ebad11af59d9742c356c68faea7ef4ecbdc64692982778aa7903
+Section: utils
+Priority: optional
+Description: JSON transformation and inspection utility: get
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-json-set
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-json-set_1.0.0-1_all.deb
+Size: 948
+MD5sum: eb64aaa0d0cffe7cb19a28e502c2c61f
+SHA1: 2ec80e1a13c6e233cce06b80a4ba9b74e4cc69d5
+SHA256: 4c8a9a8300b8f73fd437a644aaf238a666e13de9ba2d300c6cdf473a16065230
+Section: utils
+Priority: optional
+Description: JSON transformation and inspection utility: set
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-json-delete
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-json-delete_1.0.0-1_all.deb
+Size: 952
+MD5sum: ad6260488e8e501acbef6fd783bdc39e
+SHA1: 1bab431fae7825bd6c135c6bc27dae24b18ff0c2
+SHA256: aabe0d16ffa992bd402271189523622cc3107be29df648d1ac3186e22fcc7766
+Section: utils
+Priority: optional
+Description: JSON transformation and inspection utility: delete
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-json-merge
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-json-merge_1.0.0-1_all.deb
+Size: 952
+MD5sum: 0028d58d8f96419adfbdd61671fbbcc0
+SHA1: 0d1d1a418d483b8a3824cf71fd452f4e44746928
+SHA256: 8484064076895e74bde6c7c31642d8d6f4307695e668263f7adce4500f9978af
+Section: utils
+Priority: optional
+Description: JSON transformation and inspection utility: merge
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-json-diff
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-json-diff_1.0.0-1_all.deb
+Size: 948
+MD5sum: aacc4fe21044c1b7e7cfc2d8364ebd7d
+SHA1: c75833fb4ceb7c72afab87b3ddefc6d7d330bfbe
+SHA256: 12c0ffb9fd86deaf31f8410c62dd17b535856b0f9dc462c0ec69dccd12b35f93
+Section: utils
+Priority: optional
+Description: JSON transformation and inspection utility: diff
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-json-flatten
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-json-flatten_1.0.0-1_all.deb
+Size: 952
+MD5sum: 3fcabd57faf6054df94b14b9fd1305f0
+SHA1: fe06a912966f28d649452b55249dbb9f4950ba9e
+SHA256: 9234777b555181e1b61e1accac5c201b2f08f4e5a55071324fb1d01ef521cb39
+Section: utils
+Priority: optional
+Description: JSON transformation and inspection utility: flatten
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-json-unflatten
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-json-unflatten_1.0.0-1_all.deb
+Size: 956
+MD5sum: 6eb2fffd3cc59d9b7ee6e84691108616
+SHA1: 4c3ef085775bac48270f1885c8ef3aa10e8f7986
+SHA256: 912d02326f84956c4bf777f047a3d7ce8a9afc131639ec41cd8cb68c8a932264
+Section: utils
+Priority: optional
+Description: JSON transformation and inspection utility: unflatten
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-json-sort-keys
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-json-sort-keys_1.0.0-1_all.deb
+Size: 960
+MD5sum: a3bc11b405ade90e8b36f24d3fbb3d95
+SHA1: f53c1570d4b709bdab3a2b949a55dee1c18a49ab
+SHA256: 3259f8647b0c3fcd73ae1efcc52405e0ab1895e8856f8242cf8556a86f7f2dc2
+Section: utils
+Priority: optional
+Description: JSON transformation and inspection utility: sort keys
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-json-array-length
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-json-array-length_1.0.0-1_all.deb
+Size: 964
+MD5sum: db212596b0f8a99b6be5711c8cea1122
+SHA1: 6dbd435f43e7c3ed34af44f7b09487555a6411a2
+SHA256: e44f0a75bf872b217f87b508a5a736d406bc594f4d5dc9a16015448d159ca26a
+Section: utils
+Priority: optional
+Description: JSON transformation and inspection utility: array length
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-json-object-size
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-json-object-size_1.0.0-1_all.deb
+Size: 964
+MD5sum: b62b62edf84e6d2cc652a30a160f346e
+SHA1: 61100589cf848c1219cbb7e6154cde8ed92e2c81
+SHA256: 8bc55793995f752dc6519a4969f48a988069d3a6541b929c0bf9ace21ae9d72a
+Section: utils
+Priority: optional
+Description: JSON transformation and inspection utility: object size
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-json-type
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-json-type_1.0.0-1_all.deb
+Size: 952
+MD5sum: 145b314769137365f53ba2d62fbc9439
+SHA1: 95cd63339d5924d92a98060afc98060afa4218ae
+SHA256: 8aea6790acb9a24979b422ba9fcb2c0fcfa4b682156172f814e71383b93335b4
+Section: utils
+Priority: optional
+Description: JSON transformation and inspection utility: type
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-json-path-list
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-json-path-list_1.0.0-1_all.deb
+Size: 960
+MD5sum: ae56d88a3ba6851a6bbc78c4d7044211
+SHA1: 4a603e77a97ff5a2a743677012fb3a32b3d58b58
+SHA256: 262de6bb181766a6d83aa08d43081ce70910889673e08521625c417c46f31a82
+Section: utils
+Priority: optional
+Description: JSON transformation and inspection utility: path list
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-json-ndjson-to-array
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-json-ndjson-to-array_1.0.0-1_all.deb
+Size: 964
+MD5sum: b4d91eadb22acbda1c0c9cc032bbb9dd
+SHA1: 89f4474e60454017bece064ae2ee58f9d7c4f3e1
+SHA256: 20fa3f290d52b7bfec238c5340d7155b01534562288b4fc7b5aa8c51a58b10af
+Section: utils
+Priority: optional
+Description: JSON transformation and inspection utility: ndjson to array
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-json-array-to-ndjson
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-json-array-to-ndjson_1.0.0-1_all.deb
+Size: 972
+MD5sum: a261bd597eb269906427caaeb4a3f3b1
+SHA1: 9af132509d165cc8e24cc3853a872d573963a407
+SHA256: ecaf5d2d5132e94d4f33309c82dac97cc8609bdc3b1e79619a9ac85b9f8efecc
+Section: utils
+Priority: optional
+Description: JSON transformation and inspection utility: array to ndjson
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-json-canonical
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-json-canonical_1.0.0-1_all.deb
+Size: 952
+MD5sum: 31ad3e105dd6bd106c1a513752cff04f
+SHA1: 13eaf3d8b75eb7fb6b93fa612079e2bd15e34684
+SHA256: e8810b3decd26b45d6958e60145eaec3268b99e9da7339989ad37cba95e9c6d3
+Section: utils
+Priority: optional
+Description: JSON transformation and inspection utility: canonical
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-csv-rows
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-csv-rows_1.0.0-1_all.deb
+Size: 944
+MD5sum: e77f08dbbfb9408caa614f5754c03151
+SHA1: 725fb177d6040f893b980b29801e82530e9cde63
+SHA256: 40d4a69bc695f1ab4d91766fa0f3352ac7a21739b176884e81367e64551a65c2
+Section: utils
+Priority: optional
+Description: CSV analysis and transformation utility: rows
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-csv-columns
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-csv-columns_1.0.0-1_all.deb
+Size: 948
+MD5sum: a33bd08561f3a6d07ad04bcb0dc79b6e
+SHA1: c1cc553b10c175a4b47370981249bd1f69c541e9
+SHA256: 090276bee588509b7be225c4ef6c397d13de3f22d4377d46da1697a1a1f521ad
+Section: utils
+Priority: optional
+Description: CSV analysis and transformation utility: columns
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-csv-header
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-csv-header_1.0.0-1_all.deb
+Size: 948
+MD5sum: c601a069d1dd03d3988f623489b30ce6
+SHA1: a7c48daa635b53f1f9689bfd97ed21606caa0a95
+SHA256: c1605a6fa87e86e6afa2bb0998847bd558c80ec77eb092fe1211f1051880671b
+Section: utils
+Priority: optional
+Description: CSV analysis and transformation utility: header
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-csv-head
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-csv-head_1.0.0-1_all.deb
+Size: 944
+MD5sum: 24a84a1c38e0fa08c737354073b58e62
+SHA1: 5fb83b2b704b0f8e1e1ed7713ad6ef5e149de2bc
+SHA256: a0cffe24c0d0625ec1c728aa1c8fd00f4f2091e1555c4237288c920730c00cd0
+Section: utils
+Priority: optional
+Description: CSV analysis and transformation utility: head
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-csv-tail
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-csv-tail_1.0.0-1_all.deb
+Size: 944
+MD5sum: a42ede710c971bae62de2dd249ffb939
+SHA1: 4d280a49547b1eec26e6bcb4577b1e1a6f3cd854
+SHA256: 241b147504582bf32b99eb2bcbe34ea5efb97e3bb8b8e2a7bc9a39b62b135808
+Section: utils
+Priority: optional
+Description: CSV analysis and transformation utility: tail
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-csv-select
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-csv-select_1.0.0-1_all.deb
+Size: 948
+MD5sum: 7dc2ec3821b6f3b606b2f013c81e2e91
+SHA1: 585669813c550000a97f8c38c3659ff9a6920e69
+SHA256: 75b09695ef2c45f69b1c9530d85efb86ea43aa756e4ed2463d2e1f74877cd6f2
+Section: utils
+Priority: optional
+Description: CSV analysis and transformation utility: select
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-csv-drop
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-csv-drop_1.0.0-1_all.deb
+Size: 944
+MD5sum: bdbd0a539ea0900fad5cbe8f102bb4f6
+SHA1: 6e758ed883741b5e849b8d25379df01257100906
+SHA256: 3e5587c8967bc3de83b7515e42f67fbc6089dc13c9cea9708efaa8dc0c4f7010
+Section: utils
+Priority: optional
+Description: CSV analysis and transformation utility: drop
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-csv-sort
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-csv-sort_1.0.0-1_all.deb
+Size: 944
+MD5sum: 9de345efc6a5ee610276e0917d9563bd
+SHA1: fc78b09a906e43eb577c9370e30efae22b62ba3e
+SHA256: 79aa8b70e05e0292600529dbdd1958f3b28d67e25581b2e919bec3ce110886de
+Section: utils
+Priority: optional
+Description: CSV analysis and transformation utility: sort
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-csv-unique
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-csv-unique_1.0.0-1_all.deb
+Size: 948
+MD5sum: 8dccb85c77b79aade4f27b889d80f1ff
+SHA1: 50333a57165823b5c788191db0a44f1c6518cb12
+SHA256: 3d9dddf8150ad2411556453f49ac272d108351fdbf244c273fba56a18b4f067a
+Section: utils
+Priority: optional
+Description: CSV analysis and transformation utility: unique
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-csv-filter-eq
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-csv-filter-eq_1.0.0-1_all.deb
+Size: 952
+MD5sum: 20f2d3cfc0f9383c609a32e68f42b775
+SHA1: 3591c5b2ac787014c5027e3f14777b09104839f0
+SHA256: a437f290bd7a322ba75820581dab8c60d63ff15d10fad28c358c92ca89634ea2
+Section: utils
+Priority: optional
+Description: CSV analysis and transformation utility: filter eq
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-csv-filter-regex
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-csv-filter-regex_1.0.0-1_all.deb
+Size: 960
+MD5sum: f6ec2a00d762bc73a6232568e5519d43
+SHA1: fa24022e146b360867d14e1c5aa0c196d3895df8
+SHA256: 47b78a380c78d317fe83beb036808f1b34f9937db15dd1df6663e47ba6670088
+Section: utils
+Priority: optional
+Description: CSV analysis and transformation utility: filter regex
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-csv-stats
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-csv-stats_1.0.0-1_all.deb
+Size: 944
+MD5sum: 55b1ab75d0aa246d5d87dd7195c17dc0
+SHA1: 4f31acebd905eff6ea80a61f4f7c66b4af19ec60
+SHA256: 1641c013448679019220e80f9588297c129956ee92e6d8ab6d436ad40e52e062
+Section: utils
+Priority: optional
+Description: CSV analysis and transformation utility: stats
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-csv-sum
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-csv-sum_1.0.0-1_all.deb
+Size: 944
+MD5sum: 183045ac9e13ef2ecd69afab920dc255
+SHA1: 002f11674253f5ddc85a0019992f6c11b4e78045
+SHA256: 5d2f905eaa809bfe3cfe2ae9c9a5035a6cca49d986158dca6e5d51ef9b9ce9d8
+Section: utils
+Priority: optional
+Description: CSV analysis and transformation utility: sum
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-csv-mean
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-csv-mean_1.0.0-1_all.deb
+Size: 944
+MD5sum: 81dc9846db0f1ca7826d2af3bcea3d10
+SHA1: b033453f227c62aef0ec628acecbcfe0ba8201ee
+SHA256: 081ca83a75f1b2f5b1ef1c1fd30d75779137d6a49f93a88f1640c97fe5b03f0b
+Section: utils
+Priority: optional
+Description: CSV analysis and transformation utility: mean
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-csv-min
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-csv-min_1.0.0-1_all.deb
+Size: 944
+MD5sum: faa715fb6e136b996e09cec1be62e1c8
+SHA1: f3d31b8d01335a6d305a4d3f2100b300a35835bc
+SHA256: 74df93db6c10330b469953f67dee141634cc6b8aa73d4b542cf8dfb5d222b9a7
+Section: utils
+Priority: optional
+Description: CSV analysis and transformation utility: min
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-csv-max
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-csv-max_1.0.0-1_all.deb
+Size: 944
+MD5sum: f9846a7f4514b079e21ddbb55895743e
+SHA1: 7a450c2d86b48c447d2a00e6c7ce135324e4bc30
+SHA256: f32bd4d44aa94af6f6b665067f8f2607533b3efa42e6fd517375ddc253f50e1e
+Section: utils
+Priority: optional
+Description: CSV analysis and transformation utility: max
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-csv-transpose
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-csv-transpose_1.0.0-1_all.deb
+Size: 952
+MD5sum: 6327228548fc2129c47e3ceb69881889
+SHA1: ad4eb02617d08ac3c6519dd3c08f08284ddd5fff
+SHA256: e14ef84f71a8642fce1fe842e51f1f416dfccc1331705a22e89325fc707ef7e7
+Section: utils
+Priority: optional
+Description: CSV analysis and transformation utility: transpose
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-csv-to-json
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-csv-to-json_1.0.0-1_all.deb
+Size: 952
+MD5sum: e03f26d1460ff410abb9ac9d8f333966
+SHA1: 0ead55259c4b0cc7811a697d1d73a4d49e31dfa8
+SHA256: eb56cec4ca85b1b62add615b392077d8b8b2d19550dfef32c966c6c96c70457b
+Section: utils
+Priority: optional
+Description: CSV analysis and transformation utility: to json
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-csv-from-json
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-csv-from-json_1.0.0-1_all.deb
+Size: 952
+MD5sum: ac64d2ea15129483e0a318efce291def
+SHA1: 9aeffbaefdbc2bd9feb7304a9513fe62e648d07c
+SHA256: 96c8bd374aedfeb93c190d6e88c772362ff3dd815b7c85c82c3b3624e83d4715
+Section: utils
+Priority: optional
+Description: CSV analysis and transformation utility: from json
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-csv-dialect
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-csv-dialect_1.0.0-1_all.deb
+Size: 948
+MD5sum: 9a03d76ec8a9062d85518cef36750978
+SHA1: c1f129f9936dc1a9995edcd77af032c056fddbd4
+SHA256: 175a039dbc358e4bd7b2b15aee5b0e9a77963ae55ed745979b8dedf557b17310
+Section: utils
+Priority: optional
+Description: CSV analysis and transformation utility: dialect
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-file-size
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-file-size_1.0.0-1_all.deb
+Size: 936
+MD5sum: ef8aba45f9fda93a7042e1065490b17f
+SHA1: bac4c445d2f1e64807b0223d46b5fb330724e691
+SHA256: b858a00cff31680cbe3fc48989b00c415e15169a4ef7381c5ffd6a55fb67ebba
+Section: utils
+Priority: optional
+Description: filesystem analysis utility: size
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-file-entropy
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-file-entropy_1.0.0-1_all.deb
+Size: 940
+MD5sum: f9ac7fe04bb856db267333e66dfca010
+SHA1: 42efc8395924a7e42722bfe1e5e72303818f4878
+SHA256: b3afe896333ac4c48f6166f7acfc6bbbc85d8865e88bab399ad51cb15514289b
+Section: utils
+Priority: optional
+Description: filesystem analysis utility: entropy
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-file-strings
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-file-strings_1.0.0-1_all.deb
+Size: 936
+MD5sum: 62f9b2c404266f537fd9d6fdbc94fffe
+SHA1: 5fb56d0a10773506d7e7050d0e1acb5053b77b89
+SHA256: e8a8eaacbaea61ea8d150e622a5874ce5a3bd9f04d9ddeecfb0592f588e6e6fb
+Section: utils
+Priority: optional
+Description: filesystem analysis utility: strings
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-file-hexdump
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-file-hexdump_1.0.0-1_all.deb
+Size: 944
+MD5sum: 8c5a4cb4a7c8686012c3d8a57fd7c128
+SHA1: 960a294d832906188a4ad7ac3b8b93dc70ef5ab1
+SHA256: f8723ad072efa80252d29d451ec79e93d0ae8243412be5befa3139782db24ac7
+Section: utils
+Priority: optional
+Description: filesystem analysis utility: hexdump
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-file-magic
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-file-magic_1.0.0-1_all.deb
+Size: 940
+MD5sum: 61847d2d8df1f812441d91a8558d0075
+SHA1: fc89dd199bedcd27b2f69b6351cdd90e12a5c5ea
+SHA256: cf27cf9881e096f9d7f95cb944da8dfe6833d182c02132b86cdf0813ed4ec078
+Section: utils
+Priority: optional
+Description: filesystem analysis utility: magic
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-file-lines
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-file-lines_1.0.0-1_all.deb
+Size: 940
+MD5sum: 940b0ecedcafabb2e086b49f337511a8
+SHA1: a38af5712ddd27259fb07b34f480ab5b375930a9
+SHA256: b28c019d9fd89872a6c3935a8cb03060459714155dbca235aac542fb833b9523
+Section: utils
+Priority: optional
+Description: filesystem analysis utility: lines
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-file-words
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-file-words_1.0.0-1_all.deb
+Size: 940
+MD5sum: 904f02ecfdaf7c0354028543f8f335f4
+SHA1: ecb6cdd71cac792fb28dd1ab630413b70dc97dec
+SHA256: 1ba5796ecdaed02dec2a2eb1aa4ae91374e3562e7ee09d75f858e87a8fd19667
+Section: utils
+Priority: optional
+Description: filesystem analysis utility: words
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-file-duplicates
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-file-duplicates_1.0.0-1_all.deb
+Size: 944
+MD5sum: 2054303582d380c7101d15d446a34ee9
+SHA1: c6a2583c1cb9c2bd64d01ada3f7b3f9977672a57
+SHA256: 69eade44c36830e5df7e822e3c61328fc21cbdc2ae91edef43fada5c92d5bf09
+Section: utils
+Priority: optional
+Description: filesystem analysis utility: duplicates
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-file-find-name
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-file-find-name_1.0.0-1_all.deb
+Size: 944
+MD5sum: 29c9d6bbfacda942bed459646128634b
+SHA1: 50e8875962e3697015f6b55fe1ededbb40072997
+SHA256: 3233ef0f117771678fbefe1749bc6c0a0ecc6abb066e5a40d4ac831540febbf6
+Section: utils
+Priority: optional
+Description: filesystem analysis utility: find name
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-file-find-size
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-file-find-size_1.0.0-1_all.deb
+Size: 948
+MD5sum: 5e739160a66693f53d49c2b4ff05dab4
+SHA1: 1bd4364516660d4ff642a0fd11907c2c86c4c478
+SHA256: 2b4c75e1fd221f0b9c5db4a375b348a0a1b8d4f2eeed31dca85a9793d0da4aa2
+Section: utils
+Priority: optional
+Description: filesystem analysis utility: find size
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-file-tree
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-file-tree_1.0.0-1_all.deb
+Size: 936
+MD5sum: 4054a40f1e41a112f42421fa5073f9a8
+SHA1: 5e2de44107d038d35fa9b9e4e88f7f1e1a9e191e
+SHA256: c63b5d6e5beebfcebcc3b6e61afbc23699aceb2889bb69d05cf110a86e7824df
+Section: utils
+Priority: optional
+Description: filesystem analysis utility: tree
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-file-largest
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-file-largest_1.0.0-1_all.deb
+Size: 940
+MD5sum: f1974f80a2c9824208962def2033f61b
+SHA1: fde17e6391318b547e51692eafc33a5f3997ea93
+SHA256: 4834fd9bdd73ad35c37b6379097aeea67e3d41b282e7bf92ae2efb1ae5eda319
+Section: utils
+Priority: optional
+Description: filesystem analysis utility: largest
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-file-newest
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-file-newest_1.0.0-1_all.deb
+Size: 940
+MD5sum: e9f9669246d8a6f6943a6a070669a397
+SHA1: f9331f61f2bf1ebeda53b825c98eb7abc81dd5f1
+SHA256: 5061dc488ee473c4ebba7d608346eecb821934eddfe93277348febe10e410d12
+Section: utils
+Priority: optional
+Description: filesystem analysis utility: newest
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-file-oldest
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-file-oldest_1.0.0-1_all.deb
+Size: 940
+MD5sum: 2cd29fce22643b6de23a016e808e7639
+SHA1: 20ed4d0346455ac3933cec99d7c6d0a01aa33beb
+SHA256: ab7c952ffb2e5d4866e2badc4363ae84bcda07de5fc460864b3aefafededf730
+Section: utils
+Priority: optional
+Description: filesystem analysis utility: oldest
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-file-empty
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-file-empty_1.0.0-1_all.deb
+Size: 940
+MD5sum: 19cf01a1c50edc4d04e408910dcd01f8
+SHA1: c9cad09a1eda879ed1bc3f89a5d5384bc6e50cc8
+SHA256: 1209018dda128f98c8fbbaf47ee364d9cdce718d6d46af284a77f24d5fe71499
+Section: utils
+Priority: optional
+Description: filesystem analysis utility: empty
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-file-permissions
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-file-permissions_1.0.0-1_all.deb
+Size: 944
+MD5sum: 7891b902906db53fdc8cc1c8ac4f3e06
+SHA1: b31a51a9a52f7fb63c3ac3280201b018dab3af57
+SHA256: e0136a4df0a56c63c7ed66e9d7cff8e794a84a6087042fb1ca80340a60ac7713
+Section: utils
+Priority: optional
+Description: filesystem analysis utility: permissions
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-file-mtime
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-file-mtime_1.0.0-1_all.deb
+Size: 940
+MD5sum: 38ddd6eed0e8f74936c3ca0b51c9e7a7
+SHA1: 7328177ace4bf5970d34a2b96a4e4e98380e5ff0
+SHA256: 93d2dbd38ae1598be1ab54114d288cdd7d5b7e8aca38c5d5a1a9e9ab3f5135c3
+Section: utils
+Priority: optional
+Description: filesystem analysis utility: mtime
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-file-crc32
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-file-crc32_1.0.0-1_all.deb
+Size: 940
+MD5sum: 2a3fe48b5b44d9ed2de201f08cd489f3
+SHA1: ac9cf46a11e1fb6b674f278b7caeb82714a4995c
+SHA256: 83afcc06a580c8f99e8568dbbbf1358b2f4d9f0e390d510cf0877d42549b82c8
+Section: utils
+Priority: optional
+Description: filesystem analysis utility: crc32
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-file-gzip
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-file-gzip_1.0.0-1_all.deb
+Size: 936
+MD5sum: 896e8fb187c5ce4c2ad38b4d3bb7c63f
+SHA1: f988293f0881c8139fa1668e8f11e423f9b7a32a
+SHA256: 03eec74219a55a2329ca78b2570e8e27de29ac35497e21da631b22ee722cfeb2
+Section: utils
+Priority: optional
+Description: filesystem analysis utility: gzip
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-file-gunzip
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-file-gunzip_1.0.0-1_all.deb
+Size: 940
+MD5sum: a774aa655eeec9a181bfdda8453289b7
+SHA1: 41d49a0b24b00c83353d12bc1bda5f96af8a07ea
+SHA256: fe86001f34c883d6986008e059c2f69bd279b0a40b73d94e6a347726f4893ae8
+Section: utils
+Priority: optional
+Description: filesystem analysis utility: gunzip
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-file-compare
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-file-compare_1.0.0-1_all.deb
+Size: 940
+MD5sum: 6bd4a3f7c86927813bb4d0a8b996e7a7
+SHA1: a54c35a99c228e0c86236016a3dc7416242fdc2b
+SHA256: 191e9783c7c366f118e494ac007679dc527fe65411ef945d98e991f719550697
+Section: utils
+Priority: optional
+Description: filesystem analysis utility: compare
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-file-basename
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-file-basename_1.0.0-1_all.deb
+Size: 944
+MD5sum: 0cc7c685030f68b05b2be82f0aeb4cd9
+SHA1: 1d8dc89075e4b7ec0e0c59e932d64ba7e061ae11
+SHA256: 57527986cfd6eb79ce3c2655eae7a4377e9a163534959b94edffe9df983d6f33
+Section: utils
+Priority: optional
+Description: filesystem analysis utility: basename
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-file-dirname
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-file-dirname_1.0.0-1_all.deb
+Size: 940
+MD5sum: 92721265db9dec6e75ccf2a0db283f74
+SHA1: f0320b9991f9546e6b855395bb925199a82b19e3
+SHA256: 3c92be650213a34a8ada0c66a8d3d077c057207a5565913953a8aae88cfb9b55
+Section: utils
+Priority: optional
+Description: filesystem analysis utility: dirname
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-file-extension
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-file-extension_1.0.0-1_all.deb
+Size: 944
+MD5sum: 1b917a4a77855b97442fb461656d6946
+SHA1: 0fe3574a5f43108b8093e690a2a8ea3ddcaf4f2b
+SHA256: 6a14beb70835ffdb4fa53ac41764156e0c4c5a19418c05d2bf11948a390687fa
+Section: utils
+Priority: optional
+Description: filesystem analysis utility: extension
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-file-realpath
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-file-realpath_1.0.0-1_all.deb
+Size: 944
+MD5sum: baa021353bb7a4aa0111b92cc2122f4b
+SHA1: 97867c1c41667a717bf535abe024f13519f86fdc
+SHA256: 275f329fa9d43eeea73918c2bd71e9795b75759ee65f1cd0762613f900f8cd71
+Section: utils
+Priority: optional
+Description: filesystem analysis utility: realpath
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-net-ip-info
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-net-ip-info_1.0.0-1_all.deb
+Size: 952
+MD5sum: 7f31bda543bd9908ee43d59be0cd2152
+SHA1: bc9ef34f5a656fa2664edcaa7081b3a7211f1bcb
+SHA256: 1b583dd900b59d1034ad87806e6ec15ee8b10182780f23c343556ec35e997329
+Section: net
+Priority: optional
+Description: network and protocol diagnostic utility: ip info
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-net-cidr-info
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-net-cidr-info_1.0.0-1_all.deb
+Size: 956
+MD5sum: 79971156b1bc10826c884283bdf9e19d
+SHA1: 71984cdf9dae57a2d694928838e04e1c2f570174
+SHA256: f90ddaaf253fd6dbea677fb1540bc6840807a0f8cc813340fc91e2eaf6bd1c0e
+Section: net
+Priority: optional
+Description: network and protocol diagnostic utility: cidr info
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-net-cidr-contains
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-net-cidr-contains_1.0.0-1_all.deb
+Size: 960
+MD5sum: 2ba27f1a701c92a29bde764e334cbdab
+SHA1: cad81db0470bdcd3dcdb49261b6c832bd8788485
+SHA256: 029d814a3839db3cf49fc7b230a1ec4c990f3e28ecfe47c4a66091af2e92477b
+Section: net
+Priority: optional
+Description: network and protocol diagnostic utility: cidr contains
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-net-cidr-hosts
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-net-cidr-hosts_1.0.0-1_all.deb
+Size: 952
+MD5sum: 9573c8fe74d9788e1a7486383db4e11f
+SHA1: bf36c5098dbed40a873e6bd2b8ccbea366510d9e
+SHA256: 60451ac7eaffe51095d1aed248dcbaa2d96cc44aa5332b42c2ec48ee45a9ca4f
+Section: net
+Priority: optional
+Description: network and protocol diagnostic utility: cidr hosts
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-net-url-parse
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-net-url-parse_1.0.0-1_all.deb
+Size: 956
+MD5sum: 410b6d27df5aea1d4f153a2929a2ed3f
+SHA1: df51689fc8f69e7cf2fe9169dbc6b2657ffc77fb
+SHA256: 3aaf3fb219d58d1a570f643162a9c35fdcc0320acbe8dffe267b993f75342b4f
+Section: net
+Priority: optional
+Description: network and protocol diagnostic utility: url parse
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-net-url-normalize
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-net-url-normalize_1.0.0-1_all.deb
+Size: 960
+MD5sum: da195860251218e14443fbad32b61aa1
+SHA1: 0880a64e521bd74b97d832b0809904980bcdd5d0
+SHA256: 475e14f6c3f8123301f4b9ea22b3df3dade36c72ea4a71edfb6296bb8770426a
+Section: net
+Priority: optional
+Description: network and protocol diagnostic utility: url normalize
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-net-dns-a
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-net-dns-a_1.0.0-1_all.deb
+Size: 952
+MD5sum: b26f580640958bcf76cea3b42f1acbc7
+SHA1: f03bf7b7ce7e22cd82e5fbb5712b192710330954
+SHA256: fc4ca6ca7afeb3f7c6b9804aa416d35a3dda41d73d5bfb561c8f07d1f0b1e28e
+Section: net
+Priority: optional
+Description: network and protocol diagnostic utility: dns a
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-net-dns-aaaa
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-net-dns-aaaa_1.0.0-1_all.deb
+Size: 952
+MD5sum: 682699413297ae6ba3b8e1d7499a320a
+SHA1: d2f6c082faff349a536b5d0911aae5dc74ca0a7c
+SHA256: dd39f5bdf051a5b9936ad82d8e8b36b415e44498d24b068175270dd345b768a1
+Section: net
+Priority: optional
+Description: network and protocol diagnostic utility: dns aaaa
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-net-dns-reverse
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-net-dns-reverse_1.0.0-1_all.deb
+Size: 956
+MD5sum: 843d2afa842a9563218cf1780f9969d8
+SHA1: dd152baa459b146c061da738845bb0c06ce6d0d1
+SHA256: 45a5242ee8df4c261bf1585b6fe6a7a1e72f1d1a99adf81ba698558553851906
+Section: net
+Priority: optional
+Description: network and protocol diagnostic utility: dns reverse
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-net-resolve
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-net-resolve_1.0.0-1_all.deb
+Size: 952
+MD5sum: d9376586aac8bdbdf9e94ebe20af0428
+SHA1: 3eaa1d2bd34d5914fb861ccd297ef5e138d1b102
+SHA256: bbb79617106e7a7342a8d7cf9378a27441a0ef905f145ffa94f331163032b913
+Section: net
+Priority: optional
+Description: network and protocol diagnostic utility: resolve
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-net-port-check
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-net-port-check_1.0.0-1_all.deb
+Size: 952
+MD5sum: 00feb1dd19aac08d82f6730cfef75eab
+SHA1: d1eda014b21f67afd76b83aad77a2cfb67e6b31f
+SHA256: 214aa2f3cac83045b2c9728e55db6b97d28a6d34717a45fdc622a97ffe8c06b5
+Section: net
+Priority: optional
+Description: network and protocol diagnostic utility: port check
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-net-tcp-ping
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-net-tcp-ping_1.0.0-1_all.deb
+Size: 952
+MD5sum: 985b51ec6f20ab852f127f072c6db891
+SHA1: 517642a0dd352fb1904991f4eb252c6ff2a7ee5e
+SHA256: 0cdb0b46670b37b8633d1d62c4ad98831c88da6367a7846edbf8a6dd99c30a5b
+Section: net
+Priority: optional
+Description: network and protocol diagnostic utility: tcp ping
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-net-http-head
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-net-http-head_1.0.0-1_all.deb
+Size: 956
+MD5sum: db8416d534eb8ed75a9cc07087893e0f
+SHA1: eb0c99d7a95968efa46146d8c96c63fd160a2a6f
+SHA256: 6756cebd76f58b64ba796d66460eb731cf8d33ef36be890b7a1de3d7bb4faea0
+Section: net
+Priority: optional
+Description: network and protocol diagnostic utility: http head
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-net-http-get
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-net-http-get_1.0.0-1_all.deb
+Size: 952
+MD5sum: 297e902b0724beda9bf5fbd359e37249
+SHA1: ee96d7e9d5ccd4337b9e89537a15a7257e4e464b
+SHA256: a6f9fe94dbddc039cc4e013d9484ac0ccb5ab51e430a8d2238d178e0896a729a
+Section: net
+Priority: optional
+Description: network and protocol diagnostic utility: http get
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-net-http-status
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-net-http-status_1.0.0-1_all.deb
+Size: 960
+MD5sum: 6d92c7480c490cc264a7f13208e62ed0
+SHA1: d82190d7ce2b6b59543021b365eb90574145c52a
+SHA256: 05f0e4bed49b0d22e566498f5600a4c13bbfbc035c6cecd82d24320113754667
+Section: net
+Priority: optional
+Description: network and protocol diagnostic utility: http status
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-net-http-headers
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-net-http-headers_1.0.0-1_all.deb
+Size: 956
+MD5sum: 234d4e78cef797dce59b4f9621fbb25e
+SHA1: 40df84e484de080b09467008769d5112a4e8019d
+SHA256: 321ffe01c1ebe7a4b1f5b82a0c2f306e0a1ebe5d09f3159dfe00c6f6a5c13763
+Section: net
+Priority: optional
+Description: network and protocol diagnostic utility: http headers
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-net-tls-cert
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-net-tls-cert_1.0.0-1_all.deb
+Size: 952
+MD5sum: b8ea059d81c17f7ed133802edaa6b3cf
+SHA1: 5bb6fc3d44bbb94e7c9f3546cddaa974c22cb050
+SHA256: 607add5311ec7ddff09d35f1a137d284c8fc0210bcae6d0f6577663deb2d608b
+Section: net
+Priority: optional
+Description: network and protocol diagnostic utility: tls cert
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-net-tls-expiry
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-net-tls-expiry_1.0.0-1_all.deb
+Size: 952
+MD5sum: 06deb974d12a5d8829617f30808478cc
+SHA1: 6457925e955bc0d93b92c610fe6757273eaffc41
+SHA256: 60f5583e09d76ed3eae7562ebc486664b2ec6328aa51f1f28933a3b4e227cbae
+Section: net
+Priority: optional
+Description: network and protocol diagnostic utility: tls expiry
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-net-host-port-parse
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-net-host-port-parse_1.0.0-1_all.deb
+Size: 964
+MD5sum: 8309f477cf9a2c035fe9469d36aeb537
+SHA1: 77746cc67a50f056ef5d4f97a7918f10cc36c121
+SHA256: 215323117cf4690204861fe1cf508286a0a505573b92c4cc34181970d409d7f6
+Section: net
+Priority: optional
+Description: network and protocol diagnostic utility: host port parse
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-net-ipv4-to-int
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-net-ipv4-to-int_1.0.0-1_all.deb
+Size: 964
+MD5sum: fa47d638fe448301966b7ccf5ecc53aa
+SHA1: 2e04b89184c96fc10d52c680b68387fa529ce003
+SHA256: b43e078974fbaed34ff53fcad55dad584c0963cbb8f348bd4ff93a71709432d9
+Section: net
+Priority: optional
+Description: network and protocol diagnostic utility: ipv4 to int
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-net-int-to-ipv4
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-net-int-to-ipv4_1.0.0-1_all.deb
+Size: 964
+MD5sum: 14001ba1c44d8618519f18e251b7943f
+SHA1: 9e93c09d1988ba9e7668f2383508d1248b2a31fe
+SHA256: 5ec9a130929d42d1063224386ad27a42f0135821855e8e9e5d978fa76cd8c24a
+Section: net
+Priority: optional
+Description: network and protocol diagnostic utility: int to ipv4
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-net-mac-normalize
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-net-mac-normalize_1.0.0-1_all.deb
+Size: 960
+MD5sum: d914121ae12b34548045568e4931c86a
+SHA1: 7fd0c97e9443840d8942fbab0212530ad1929156
+SHA256: 67c4f693e4ed7cc1a7d0badc36e40724a320ea69753939dbf1b22d0a51634c5e
+Section: net
+Priority: optional
+Description: network and protocol diagnostic utility: mac normalize
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-net-user-agent
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-net-user-agent_1.0.0-1_all.deb
+Size: 952
+MD5sum: cd8a86bb92caced795f8ca9ef41a78c7
+SHA1: 3f616de4cc04a5af475275966c0405945cae0175
+SHA256: daad515cf33dc59c7e8efc669b4afc8f829622c98a66959d58a3b0de3c4376d6
+Section: net
+Priority: optional
+Description: network and protocol diagnostic utility: user agent
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-net-query-encode
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-net-query-encode_1.0.0-1_all.deb
+Size: 960
+MD5sum: 7530011421b06ce144e006965a9420f5
+SHA1: b03f5e04302852096f7c9446c6c18b7f3c4b5c02
+SHA256: 16d7919cb996263bf52ed0dbebef94b3020389605e3d897066a81f4dbbdd08e1
+Section: net
+Priority: optional
+Description: network and protocol diagnostic utility: query encode
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-net-query-decode
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-net-query-decode_1.0.0-1_all.deb
+Size: 960
+MD5sum: 12c1d2332a4e0b60986280f82139ed20
+SHA1: d099dae715fb684418133348c9eb88f4266391bf
+SHA256: 95de9dc8515e10048aad19d52800eb5fd552d6ad5e9f8d25783fc30bd091f3fe
+Section: net
+Priority: optional
+Description: network and protocol diagnostic utility: query decode
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-time-now-utc
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-time-now-utc_1.0.0-1_all.deb
+Size: 948
+MD5sum: 589e712379e7c1bb63e40ec147e60e27
+SHA1: b1ee97e4ca2c13f7025ad4522b49765b1cbb3806
+SHA256: 754f452576d1c77467d04d33820e575f8fb5a6b58a8eb1de993d63ff1610835f
+Section: utils
+Priority: optional
+Description: time and date conversion utility: now utc
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-time-now-local
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-time-now-local_1.0.0-1_all.deb
+Size: 948
+MD5sum: 0095aafb7cddda8c917cf089af83c59d
+SHA1: 0ceed8d57b8be92b9df6ad9ed448650a7666b34d
+SHA256: 6ab2abc897ea3626cf149d20f91c54a30437460c5917302824dbd249ca30b2e3
+Section: utils
+Priority: optional
+Description: time and date conversion utility: now local
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-time-epoch-now
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-time-epoch-now_1.0.0-1_all.deb
+Size: 948
+MD5sum: d55ed6796bb25681c38095e35513e4a0
+SHA1: 4e25aacb9d871e7f8ea7d075e12e6b0163ceddb2
+SHA256: 0fad38a259b1fd60f99da03889bbf0ae38e164f25a53a6a934c989eb379312b2
+Section: utils
+Priority: optional
+Description: time and date conversion utility: epoch now
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-time-epoch-to-iso
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-time-epoch-to-iso_1.0.0-1_all.deb
+Size: 956
+MD5sum: a750f2c93f247c3467f732c580f95bfd
+SHA1: 11a665db631aae4cc8dedea36cb60157031a41ac
+SHA256: 0de84c649780de667559207a7e37474e64ffc1bf5ab7f6710f579aa210250088
+Section: utils
+Priority: optional
+Description: time and date conversion utility: epoch to iso
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-time-iso-to-epoch
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-time-iso-to-epoch_1.0.0-1_all.deb
+Size: 956
+MD5sum: 7e9f6be4725ee45767a8e07946055943
+SHA1: 65465ab93aa5de642a0d1c94413b4fcfccd2a26e
+SHA256: e90ce41674d72c47c38cdaa1b25ce03669d0e7c195169d545dc59e1b0b23846d
+Section: utils
+Priority: optional
+Description: time and date conversion utility: iso to epoch
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-time-rfc3339-normalize
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-time-rfc3339-normalize_1.0.0-1_all.deb
+Size: 964
+MD5sum: 9bcf2b7fedceba7517f7505fe180fd5d
+SHA1: bddda4c412f5ebc8a3955096db36a18c17c1e666
+SHA256: 4e851c95726ed3cc4fb8efe947d81c49edb5e2df30c8f51b775f77b7a1385772
+Section: utils
+Priority: optional
+Description: time and date conversion utility: rfc3339 normalize
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-time-duration-seconds
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-time-duration-seconds_1.0.0-1_all.deb
+Size: 956
+MD5sum: e6b061d730c51f83e029197369a9e62b
+SHA1: d0d23b1d9ef67f0475f621f21c589294c01558dd
+SHA256: fd28f127842a80df7d24c683fd31972cc38cc8b8e7262df86734abacea25aaf0
+Section: utils
+Priority: optional
+Description: time and date conversion utility: duration seconds
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-time-seconds-human
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-time-seconds-human_1.0.0-1_all.deb
+Size: 956
+MD5sum: 47be4efecc47c3f327c544b5bac444f3
+SHA1: f156b937c3d0a29085a000361f5d5d081d54210f
+SHA256: 895f7f47d4c93bc7f75ef145f0ce2f1e4075b0ba4f8f9202fbbf2a22212b33cd
+Section: utils
+Priority: optional
+Description: time and date conversion utility: seconds human
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-time-date-add-days
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-time-date-add-days_1.0.0-1_all.deb
+Size: 956
+MD5sum: 91ed26cfe2e8f935354061f40c4f2b6a
+SHA1: 8f12acdd4c4d3be2eb23a1aefdbe56a4293d3bff
+SHA256: 15a7d9a5dec6c4510f82e4ac9dbb5a487a2f45c1fc0336beb44265caaa3ce447
+Section: utils
+Priority: optional
+Description: time and date conversion utility: date add days
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-time-date-diff
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-time-date-diff_1.0.0-1_all.deb
+Size: 948
+MD5sum: 4b0cb161e24fbca3f7b8deefc0bf79f1
+SHA1: 555e80909133666cb1f025eb62f4dd31926a3202
+SHA256: c6e282a4271273e73c084907155b3114e65b3b367b42aab23b4cf3ac5616cdd1
+Section: utils
+Priority: optional
+Description: time and date conversion utility: date diff
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-time-weekday
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-time-weekday_1.0.0-1_all.deb
+Size: 944
+MD5sum: 2a2919eb8e75af0705c570a6b2cbc792
+SHA1: 037539e0a4a6a16f5ce55d45b1e440f614250a84
+SHA256: 55d17eb33d6ccb726ecd907c0871d57fe10ebe6003a13b896740c75c364005ba
+Section: utils
+Priority: optional
+Description: time and date conversion utility: weekday
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-time-month-days
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-time-month-days_1.0.0-1_all.deb
+Size: 948
+MD5sum: 3a21e93f2338fc9c3ce091e0d63fe739
+SHA1: bf3072e2773bccedaad6cc85bfa8c178ff4f8019
+SHA256: 5509ee44a55cdbc77c9d8ebf51e52f0b444be1a420c79fee6fab9021c7604389
+Section: utils
+Priority: optional
+Description: time and date conversion utility: month days
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-time-leap-year
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-time-leap-year_1.0.0-1_all.deb
+Size: 952
+MD5sum: 27ec1fa3a55af87ac44738090f06e19d
+SHA1: f820c92e568b2bcd890027d29961421ee403ee82
+SHA256: 956d7a01ca5c8fed678d4f9abb199e7e8342f7d010fadb3569991e1bd20f383e
+Section: utils
+Priority: optional
+Description: time and date conversion utility: leap year
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-time-timezone-list
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-time-timezone-list_1.0.0-1_all.deb
+Size: 952
+MD5sum: 441e1720a259a90d0fd0da02580c0a24
+SHA1: 620328df1aab3be8d0330062e3f1ed338af0e9e8
+SHA256: 5ca1e0e5033b2af2309b4999ff73fbb0ab2dbba654fb065b8e8c8f853eeb6b36
+Section: utils
+Priority: optional
+Description: time and date conversion utility: timezone list
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-time-timezone-convert
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-time-timezone-convert_1.0.0-1_all.deb
+Size: 952
+MD5sum: 30f50ae5cd8682a4621d03ea9eb2bdef
+SHA1: 2c75bd4c4f62e8de5b1b58a7617439948898af1f
+SHA256: 9c3b16e4ea7432f7fd5fa346249d21a0abe35ccfcf855d0dd66af33954791b3f
+Section: utils
+Priority: optional
+Description: time and date conversion utility: timezone convert
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-time-unix-ms-now
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-time-unix-ms-now_1.0.0-1_all.deb
+Size: 956
+MD5sum: 940fcd05a3b97d82646aee97a74b02c5
+SHA1: 2230c1fac1ea435ae5db36230428b5a9a6e36877
+SHA256: 69d69beb847d04bee12f69ff6651c68962569480caf058a819ea5c6fb9e72c2d
+Section: utils
+Priority: optional
+Description: time and date conversion utility: unix ms now
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-time-unix-ms-to-iso
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-time-unix-ms-to-iso_1.0.0-1_all.deb
+Size: 964
+MD5sum: 88cee7176ede9f1c1a9acbd762fb5664
+SHA1: 2ef527f94a9389cfcb3701498244c046138d8755
+SHA256: be1863ddc59918a856d34b64f2f0f0bed6a966c4d202ef80f12956b3936275f1
+Section: utils
+Priority: optional
+Description: time and date conversion utility: unix ms to iso
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-time-iso-to-unix-ms
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-time-iso-to-unix-ms_1.0.0-1_all.deb
+Size: 960
+MD5sum: 45ece287b9081f6686e6758deae963af
+SHA1: bad5695b3bd7f98ee83c913779ce62287d3811c3
+SHA256: 7a46d28a6bf44ee4625f639774cb88d448e67d2f130be41e1eb4fd2904ce58e4
+Section: utils
+Priority: optional
+Description: time and date conversion utility: iso to unix ms
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-time-relative-age
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-time-relative-age_1.0.0-1_all.deb
+Size: 952
+MD5sum: 4dca3d8d3a521965e65f3689e926e78d
+SHA1: f489ad23f44c3ef31afff03b2cf75de84edcac38
+SHA256: 8e4e60842c185fe56776cfb48b4737bd914d39f7e519279d56bfae233702a4d3
+Section: utils
+Priority: optional
+Description: time and date conversion utility: relative age
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-time-sleep-until
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-time-sleep-until_1.0.0-1_all.deb
+Size: 952
+MD5sum: 79d1438bb93247e1ef9d4b76f46a4ed8
+SHA1: f6cdb888de45b5dabf3a8daaf049106aec01d0d2
+SHA256: a41697d102dc627631b9c09b8f854e81aee9e8d8dbbcee7f46e5715e5ff6136b
+Section: utils
+Priority: optional
+Description: time and date conversion utility: sleep until
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-id-uuid4
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-id-uuid4_1.0.0-1_all.deb
+Size: 948
+MD5sum: 6cb8de66f3a1ab6890c6f110252ef866
+SHA1: 6e364e5bc86f7f0a836f54eb92b14b1dde6930d5
+SHA256: afbf3dcd9b6e6b43d46548aba9d724da5aaf3cf851985726fab039426351109c
+Section: utils
+Priority: optional
+Description: identifier and secure token generation utility: uuid4
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-id-uuid1
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-id-uuid1_1.0.0-1_all.deb
+Size: 948
+MD5sum: 23bef3c6b48adac0090052e2a3b4b89c
+SHA1: 65672f5a01a748c73ef2b96394a80b3fcac2bea8
+SHA256: 69e4a5947dec8adead2712322813da7bab4d7e06a191ddfd0ecb631ead26cb29
+Section: utils
+Priority: optional
+Description: identifier and secure token generation utility: uuid1
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-id-uuid3-dns
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-id-uuid3-dns_1.0.0-1_all.deb
+Size: 956
+MD5sum: 3ba401991558126d884948d9fe6a943b
+SHA1: 75cf5877e896598f06183d413033cbb3bd1d9c05
+SHA256: 3cee0bd837483a42e6332028c34ee861f9182bbb6ef814c35b67e58bf90ca203
+Section: utils
+Priority: optional
+Description: identifier and secure token generation utility: uuid3 dns
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-id-uuid5-dns
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-id-uuid5-dns_1.0.0-1_all.deb
+Size: 956
+MD5sum: 1b2f806cc45ccae966af5bc056741ed1
+SHA1: a937c867a826da09947d08ffb9457d4c10a70bb6
+SHA256: be6e621a2f69fd3df6a31239fb84d017494a4220b8c3fe51233191624a3e5d70
+Section: utils
+Priority: optional
+Description: identifier and secure token generation utility: uuid5 dns
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-id-token-hex
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-id-token-hex_1.0.0-1_all.deb
+Size: 956
+MD5sum: 84f4edaa5ccabd9a85b31285764280a5
+SHA1: c6fce468ec2cc741993debc67096b09a26fb568b
+SHA256: d1363edc28feff212e04a4cbb912e0aaf836c58dfebf198fa7c394e63db7d87f
+Section: utils
+Priority: optional
+Description: identifier and secure token generation utility: token hex
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-id-token-url
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-id-token-url_1.0.0-1_all.deb
+Size: 956
+MD5sum: 25991517d3ed3373aebdab76d1178e7a
+SHA1: 37b492a153b4f8fb5387c3ddc479e0a52b173557
+SHA256: 008850754fefbcc3885875285ba03e0e77245e71ad6f083380b4e0ba90857e78
+Section: utils
+Priority: optional
+Description: identifier and secure token generation utility: token url
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-id-token-base64
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-id-token-base64_1.0.0-1_all.deb
+Size: 964
+MD5sum: 1d5b7a56832cd6a96c0912d0877e9c0b
+SHA1: 3d6a2391119b9c0925c526408881f2601da85311
+SHA256: 5098555909d9932ec80a27a4800bd30bcbdd6ac4e010fa81b1885c6aad5fc0d9
+Section: utils
+Priority: optional
+Description: identifier and secure token generation utility: token base64
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-id-nanoid-like
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-id-nanoid-like_1.0.0-1_all.deb
+Size: 956
+MD5sum: f94822baa2aa626de21a59803e21f9e2
+SHA1: 4a34562f2f0d36020724cf02c6e3ec385e4623e3
+SHA256: a10da18f578ff502ed62afa222d79b3d1c8d26af78a49d1f884a0ead52f452de
+Section: utils
+Priority: optional
+Description: identifier and secure token generation utility: nanoid like
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-id-random-int
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-id-random-int_1.0.0-1_all.deb
+Size: 960
+MD5sum: 4746fe32c57bb549fdd8f3ee8504d5f8
+SHA1: 444c2ae08c33973219829a8a8b765082f936c589
+SHA256: 3d151a52ab2f36b9e6e7fbf4f1ccb526502259168e69a4d6ae8e14f83389c142
+Section: utils
+Priority: optional
+Description: identifier and secure token generation utility: random int
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-id-random-choice
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-id-random-choice_1.0.0-1_all.deb
+Size: 964
+MD5sum: c65f1c7d2aa322e767af0661013a4d8b
+SHA1: 2bd2764c3070dbac2c43ca2635c3970618e112d1
+SHA256: 295e1a32755ea438c80308c2ef041fd69810e20c2f949178886a801e43c0daf1
+Section: utils
+Priority: optional
+Description: identifier and secure token generation utility: random choice
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-id-random-bytes
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-id-random-bytes_1.0.0-1_all.deb
+Size: 960
+MD5sum: eb09550aca6f6fbd2168620ad1037f3b
+SHA1: 81db05e799d17b2af7085df7bf8783d3b0d776fe
+SHA256: e8729fe6baa08163901846fb60cf2000a2d647bd9ff44c00ab25b3ae8a4c9790
+Section: utils
+Priority: optional
+Description: identifier and secure token generation utility: random bytes
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-id-ulid-like
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-id-ulid-like_1.0.0-1_all.deb
+Size: 960
+MD5sum: 96f6fc485fbb7ad94de13d8bb0065782
+SHA1: 402a3e68223e36f0f0560bfd44c872be6c6f3c77
+SHA256: 9f3c2302cbd36599f61f79107b3c08ab490ad671f60ed75f0cf0fcfd62c76841
+Section: utils
+Priority: optional
+Description: identifier and secure token generation utility: ulid like
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-id-snowflake-like
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-id-snowflake-like_1.0.0-1_all.deb
+Size: 968
+MD5sum: f71d50ed63bd7d67a40e5915ab40b228
+SHA1: a42ccaeb42717e29b43af04c3258c6f56ceeda40
+SHA256: 3f9685c4ac24e4f3cad14d2ebaaad2906588465e5aab8a983dcdc25142771dd6
+Section: utils
+Priority: optional
+Description: identifier and secure token generation utility: snowflake like
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-id-hash-id
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-id-hash-id_1.0.0-1_all.deb
+Size: 956
+MD5sum: 54ed67c48bfd8623de01d7f669a442a1
+SHA1: d2d52b4d79147fda996bc2f30e09b8417edbccbd
+SHA256: 31624444fbfdeb545a51ccb78baf6f231b87e35110e5e6314674d02314897207
+Section: utils
+Priority: optional
+Description: identifier and secure token generation utility: hash id
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-id-slug-id
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-id-slug-id_1.0.0-1_all.deb
+Size: 956
+MD5sum: 6255bb34f2bcf7919f17e1867ed8f725
+SHA1: 3fd72294129286a107a327894a577a020d30c933
+SHA256: ccf02c332d3f4d6c2b5d976f8826a35a5e80539f498a935cea1364dfd9b51fbe
+Section: utils
+Priority: optional
+Description: identifier and secure token generation utility: slug id
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-binary-zip-list
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-binary-zip-list_1.0.0-1_all.deb
+Size: 956
+MD5sum: ab494e4a57483aac727b101b9dc9ddee
+SHA1: 7bba47c3831ddbd76fda031c6b2c6c78b947f523
+SHA256: 03566bb99b8e78b6ff23dc8a4b8c31d2ab596dbff163ce0a02bced3122408363
+Section: devel
+Priority: optional
+Description: binary/archive/Android inspection utility: zip list
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-binary-zip-extract
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-binary-zip-extract_1.0.0-1_all.deb
+Size: 964
+MD5sum: 75812d86e17c88a9e5512bbf72fe1b0a
+SHA1: 28b1e3d9dae902e335145f6e7fd6543cfaf335c7
+SHA256: 10f6ec16058477189291744e58ab2519580fd451014b7bc814840aabcb0d9700
+Section: devel
+Priority: optional
+Description: binary/archive/Android inspection utility: zip extract
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-binary-zip-test
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-binary-zip-test_1.0.0-1_all.deb
+Size: 956
+MD5sum: c0405a657d8fc531aae7a225af738184
+SHA1: da6a16f52f204db1a1370b7f54068a47f0c3006d
+SHA256: 89a840302c360a8a815ee8e93bc04d7f2fe4a29b9b6425f7f46b025f4afefb18
+Section: devel
+Priority: optional
+Description: binary/archive/Android inspection utility: zip test
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-binary-tar-list
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-binary-tar-list_1.0.0-1_all.deb
+Size: 956
+MD5sum: f1fd46fe329fc6a7d371991eefe83ca4
+SHA1: 305f9a96aac3a53f15b379c64fabe39aebe8ae33
+SHA256: e62a77389ac58a8d8015c5092c3a349ff351804f8ea7cd6aa059d74a5a2dd10e
+Section: devel
+Priority: optional
+Description: binary/archive/Android inspection utility: tar list
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-binary-gzip-info
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-binary-gzip-info_1.0.0-1_all.deb
+Size: 960
+MD5sum: 9f9d35fe2c2ecf0e9b29993b4ff42c8f
+SHA1: b58b5db4d7aed6595fd9032bb613c812f55c879d
+SHA256: 8c5e67150faa351b0c13a39500b64b03ab9798e9c249cde3c471b9d7149b9691
+Section: devel
+Priority: optional
+Description: binary/archive/Android inspection utility: gzip info
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-binary-elf-header
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-binary-elf-header_1.0.0-1_all.deb
+Size: 960
+MD5sum: f11f49b43d91def5b542d2b878f60990
+SHA1: 84795b93365da202e409cc26d569321b9ce6b717
+SHA256: 9bab5d9dfe96b7060f0ee8173a124d92784fc7f6a7c930dd2280e550c5db2d41
+Section: devel
+Priority: optional
+Description: binary/archive/Android inspection utility: elf header
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-binary-png-info
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-binary-png-info_1.0.0-1_all.deb
+Size: 956
+MD5sum: ae0464669792af8670cf7f0c25c0e759
+SHA1: 320a297ff781c70bee34fdcf9959228f7bffaed0
+SHA256: 5c6ca69fe94b1f8de0e28e35a4168a4bdf6153ca2707d946999d8bf1c5d93341
+Section: devel
+Priority: optional
+Description: binary/archive/Android inspection utility: png info
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-binary-jpeg-info
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-binary-jpeg-info_1.0.0-1_all.deb
+Size: 960
+MD5sum: ce8f53ca086bde703382ed165ccc51ca
+SHA1: 176d18c79406c086cd56aa81223638b0f247dcd8
+SHA256: 0378f6c542d9ad1fc81cac78d917a7a97739492decedf9608c1809652e5ebd8b
+Section: devel
+Priority: optional
+Description: binary/archive/Android inspection utility: jpeg info
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-binary-pdf-info
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-binary-pdf-info_1.0.0-1_all.deb
+Size: 956
+MD5sum: 230e3c5dbbc2a9545fd7144621344b06
+SHA1: d59bc5b69178b79ffd3a1acc1185df1f36982e33
+SHA256: 1f6653c96ede410a664202ca1cfceee93dc990043226e00a4bf7b27b7856742d
+Section: devel
+Priority: optional
+Description: binary/archive/Android inspection utility: pdf info
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-binary-sqlite-tables
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-binary-sqlite-tables_1.0.0-1_all.deb
+Size: 964
+MD5sum: 20c36b7d6928a4f40ea6bc5a2eb63c60
+SHA1: 8476128c8a234d2b1f8d3974d8157d31e2c7c881
+SHA256: 46a7a8327c5a41ea013814b1d0933d9aaa3d5ea1a87079662c5655b1d25ac579
+Section: devel
+Priority: optional
+Description: binary/archive/Android inspection utility: sqlite tables
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-binary-sqlite-schema
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-binary-sqlite-schema_1.0.0-1_all.deb
+Size: 964
+MD5sum: 472fa6fef32b5724ee18d4d610f55d2a
+SHA1: 88b84a4a7a7e9d5c4be44fe6cd592b302837508f
+SHA256: 3820f583b2187ee1e7469722d7c925c90d9efa2c3dd8c49e82403aec1091b9f9
+Section: devel
+Priority: optional
+Description: binary/archive/Android inspection utility: sqlite schema
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-binary-strings
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-binary-strings_1.0.0-1_all.deb
+Size: 952
+MD5sum: a1cb5d6b20b0924acfff7c02f640d8e7
+SHA1: 3899a0f3049ed6a59ac6d839b5aee301a06b05e1
+SHA256: 0938012912c594b812f7b6d7f40ee888d0d8982ff6a0581c18c271b7f7648d02
+Section: devel
+Priority: optional
+Description: binary/archive/Android inspection utility: strings
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-binary-hex
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-binary-hex_1.0.0-1_all.deb
+Size: 948
+MD5sum: 397d68a020e642a470cdbe097932bb09
+SHA1: 0c1458074df2b479cbc05f9aad3211845dca36f8
+SHA256: 4c9d064bd2e85d70f56c44907a4d52d049c929766c6d2789a6a9b55af8e588b0
+Section: devel
+Priority: optional
+Description: binary/archive/Android inspection utility: hex
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-binary-base64
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-binary-base64_1.0.0-1_all.deb
+Size: 952
+MD5sum: c1304d1fd53f9d22d873633e0c0f90ec
+SHA1: 3988bbe17755b2ff6a451032e3368999377cb493
+SHA256: b8a7d9af269a4fae55642795343b5fd5ee6b163506f31b86a2ba8a510cc05ec6
+Section: devel
+Priority: optional
+Description: binary/archive/Android inspection utility: base64
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-binary-apk-list
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-binary-apk-list_1.0.0-1_all.deb
+Size: 956
+MD5sum: eccb035a2f192062daaa25108b84a904
+SHA1: 2110b34f8d737f9601e6cc7ae6ecd5d0c4323d0b
+SHA256: 7fcc53713a9fb69cd604a3016b86d03f9a9d0ce4702df31c7fafe7fea188840f
+Section: devel
+Priority: optional
+Description: binary/archive/Android inspection utility: apk list
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-binary-apk-native-libs
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-binary-apk-native-libs_1.0.0-1_all.deb
+Size: 968
+MD5sum: 8094da2622f7c31b36b5c5a8ff5c7de9
+SHA1: 80cc50b1d7738c7473926b31b42610a5bc7b4345
+SHA256: d69623f873f642fd93a6c892dd7c7d0f614543b1a391b961242de3366ed06224
+Section: devel
+Priority: optional
+Description: binary/archive/Android inspection utility: apk native libs
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-binary-apk-dex-list
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-binary-apk-dex-list_1.0.0-1_all.deb
+Size: 964
+MD5sum: 3d5d837d9bc097092e94d76193be66f9
+SHA1: 32803d980ede2da9cac56eb13a0e72d893d39f01
+SHA256: c4b5931b45347df2b249cde1163ebea35ecb2bdc1bcc7d910d3a80f7a374bb7c
+Section: devel
+Priority: optional
+Description: binary/archive/Android inspection utility: apk dex list
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-binary-apk-assets
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-binary-apk-assets_1.0.0-1_all.deb
+Size: 956
+MD5sum: 1e9305b2df4a9f0c93e11c94b963d746
+SHA1: edcf38a8ab962ac8e238b290abb99e2e53326663
+SHA256: d1be8a9733c364d26cb1f452bb1d98feea503b1e4ec77165e0b482049f1fe86e
+Section: devel
+Priority: optional
+Description: binary/archive/Android inspection utility: apk assets
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-binary-apk-signature-files
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-binary-apk-signature-files_1.0.0-1_all.deb
+Size: 972
+MD5sum: 700414dee5338ff480b56be06845cefe
+SHA1: ade3b10d9f0780aca27f2681ab737c56eca3d8ec
+SHA256: 0ca5f0d6af6ee56546ff7e68e4fd0f556df301b6203efcaec60546f4f2f82fda
+Section: devel
+Priority: optional
+Description: binary/archive/Android inspection utility: apk signature files
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-binary-zip-ratio
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-binary-zip-ratio_1.0.0-1_all.deb
+Size: 956
+MD5sum: 20d4c1d177196ae133ba42e0b71db170
+SHA1: 6e16b3a5e325bba6de41cb90cdac7d6ea00cb7ac
+SHA256: 6ad0750c57fd5ead6260e6ad4abaa87ff5af27c64892a2a28ea8625701de7aed
+Section: devel
+Priority: optional
+Description: binary/archive/Android inspection utility: zip ratio
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-system-platform
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-system-platform_1.0.0-1_all.deb
+Size: 956
+MD5sum: 7d9b33ce0b4ad4e51593eeba0070140c
+SHA1: ff40327e09991881f0b3177c5614a3da4071acb5
+SHA256: c8f9d864f98c3d1896f3487fd001ea23716c276adf6a1da6abee07df3cd2f8f0
+Section: admin
+Priority: optional
+Description: system and process diagnostics utility: platform
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-system-cpu-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-system-cpu-count_1.0.0-1_all.deb
+Size: 960
+MD5sum: 1fde0525a3b65075ac44da89878fa07a
+SHA1: 4abdd26dba2caedb4d8ec3f5d0e0474903c68024
+SHA256: c796b73e8cf79e11b92f0db7693baa6b145b5da28b9c1707ccfcfd2abea2949d
+Section: admin
+Priority: optional
+Description: system and process diagnostics utility: cpu count
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-system-loadavg
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-system-loadavg_1.0.0-1_all.deb
+Size: 956
+MD5sum: 7b8a44de9ea5c6e3d4844ae36b6b9998
+SHA1: e2edd5010c34ee6f0fb305b3ea810062e2c4dd6a
+SHA256: 79a1ed19211c5968fbc0dd5c5ce69a1504ad4d440f2841306f6a9e5cfc7f2fc5
+Section: admin
+Priority: optional
+Description: system and process diagnostics utility: loadavg
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-system-meminfo
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-system-meminfo_1.0.0-1_all.deb
+Size: 956
+MD5sum: d21244d84927f2291521d9966c30c8b8
+SHA1: 592e9948cd61dc7476d64d4b0f204b28bd15cf4a
+SHA256: 35da450059bc0174611dca4054c3bb8018cf8515d87ceddf21d258ff20da0c6e
+Section: admin
+Priority: optional
+Description: system and process diagnostics utility: meminfo
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-system-cpuinfo
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-system-cpuinfo_1.0.0-1_all.deb
+Size: 956
+MD5sum: 921c5125b717400df5c1558ed8b0e98b
+SHA1: 5d12067d12442ac2d17eecf906df6ccc56ff297f
+SHA256: b2cf40306da67ba0f88e8cb70d72ac5f964c189bee2e6ef22eef3bf2de1ce667
+Section: admin
+Priority: optional
+Description: system and process diagnostics utility: cpuinfo
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-system-disk-usage
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-system-disk-usage_1.0.0-1_all.deb
+Size: 964
+MD5sum: 80549c672b262b5c1ab7bd2c6bbd8d33
+SHA1: 7c2030de916351ded3a413548c44ab471645191b
+SHA256: a6ad9d003653d65aa0423f6ca85f11a0608599180607bb0bde15f11c29d32e5b
+Section: admin
+Priority: optional
+Description: system and process diagnostics utility: disk usage
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-system-env
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-system-env_1.0.0-1_all.deb
+Size: 952
+MD5sum: 6eda4283ce9d9cb4dabf3128eb49b545
+SHA1: ffdc450e5face29a0b6c78961e72307f86435833
+SHA256: fa46ad6060e29563fe830dbf002ab1aee917b7dd7a583d484f9efd8b9da1f0f6
+Section: admin
+Priority: optional
+Description: system and process diagnostics utility: env
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-system-env-json
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-system-env-json_1.0.0-1_all.deb
+Size: 960
+MD5sum: ca5c094ee0a5b36f1b8bada9a13af9b5
+SHA1: 3705f816286e2b0187d8606d383ef8a4ea4c2242
+SHA256: 3c3fe4c38d2ab86f8fbfe691dd4bb818526e99dee524b7a47623e8ae792e5a1b
+Section: admin
+Priority: optional
+Description: system and process diagnostics utility: env json
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-system-path
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-system-path_1.0.0-1_all.deb
+Size: 952
+MD5sum: 8267b2143e36ed810be34f61558941fd
+SHA1: e1527a64e4cf9d1b49bee0c1c7cc34f31403d25f
+SHA256: 07102b376ebb45c0a5efc5b8b56321fbe3902235170a85cac7665e793d9ccb03
+Section: admin
+Priority: optional
+Description: system and process diagnostics utility: path
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-system-which
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-system-which_1.0.0-1_all.deb
+Size: 956
+MD5sum: 5487abfd15623bd2aea24861f8580cc4
+SHA1: 12d2c6d871db186d93cba1c3a0aabcac21e52865
+SHA256: 60086dd173eac47a75ed36ac65025de918bc51105cf7181b85b5425e1165a5dd
+Section: admin
+Priority: optional
+Description: system and process diagnostics utility: which
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-system-processes
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-system-processes_1.0.0-1_all.deb
+Size: 956
+MD5sum: 01f63d689ab4c263fede34f79c29b737
+SHA1: 03b5bd17870c748cdf7e67a8413fb9907a8da792
+SHA256: f7875fcae19b282c1479672ec567e918ac963fa81a41445759b847484d05949d
+Section: admin
+Priority: optional
+Description: system and process diagnostics utility: processes
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-system-uptime
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-system-uptime_1.0.0-1_all.deb
+Size: 956
+MD5sum: 4dee658d25db88f3959f5b455d9b3945
+SHA1: 1214c6a57afc0cacb544473e5935c6b103d1439c
+SHA256: dd92e96a24d623ff41b2181510c4610ecee9d878f3edbaff362cfeb58f0ab26d
+Section: admin
+Priority: optional
+Description: system and process diagnostics utility: uptime
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-system-kernel
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-system-kernel_1.0.0-1_all.deb
+Size: 956
+MD5sum: 36d0d7f9dc82d1e8332861be67cc37f0
+SHA1: 6428943462c94e3287d042537e0341caf4652de9
+SHA256: 034b0d08a229251da8561d1b924f0a28a4bca2ad3ae91007bd6a6e1721f038ba
+Section: admin
+Priority: optional
+Description: system and process diagnostics utility: kernel
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-system-hostname
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-system-hostname_1.0.0-1_all.deb
+Size: 956
+MD5sum: 4ddb3362f74be3a1f45f61fd5a10852e
+SHA1: e54c30e196860bea0ba1873664dc0460e3f5db36
+SHA256: 7670150ee0758124b10345ba5a29210ad04916190d71eed44a505d361069ac43
+Section: admin
+Priority: optional
+Description: system and process diagnostics utility: hostname
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-system-cwd
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-system-cwd_1.0.0-1_all.deb
+Size: 952
+MD5sum: 1b5463558608be22a1ed82406a08f7fc
+SHA1: 3e9f905c4ade202b25a22c0109cf57bd32d88faa
+SHA256: 6df58623d62a0b3d7f9f08f1e647e4022780bb9ebc786826806dfa1406f6906e
+Section: admin
+Priority: optional
+Description: system and process diagnostics utility: cwd
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-dev-semver-compare
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-dev-semver-compare_1.0.0-1_all.deb
+Size: 964
+MD5sum: 13bdfd1bfd5facdc284a9f711c454c59
+SHA1: 674b9d802333a1b3829600581f3b5f840f792eaa
+SHA256: 15e62cbbc48519e66fdd33fecdf6e17698bd080b49b824a3a86869450facc395
+Section: devel
+Priority: optional
+Description: developer conversion and debugging utility: semver compare
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-dev-semver-sort
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-dev-semver-sort_1.0.0-1_all.deb
+Size: 960
+MD5sum: 9e711bacb42e1de8e0f114289456714f
+SHA1: 84720655203aa396b37f0bd775b64c8b14a5f005
+SHA256: 16b6c1c0a1229e3405e2fcca5aaa3cb63f85b6f55bacdff8c27f0140d75fe5ec
+Section: devel
+Priority: optional
+Description: developer conversion and debugging utility: semver sort
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-dev-regex-test
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-dev-regex-test_1.0.0-1_all.deb
+Size: 956
+MD5sum: 79a659cc0bc14d864b78db6b4134f97f
+SHA1: 51a8b2ee9aeaa0231211ad08ffdb78ad8def4e07
+SHA256: 4083d96f802004d589795eab6ca063c915eb2b2eabd6b6c94af35cf3a106c190
+Section: devel
+Priority: optional
+Description: developer conversion and debugging utility: regex test
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-dev-regex-groups
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-dev-regex-groups_1.0.0-1_all.deb
+Size: 964
+MD5sum: eda0ff053f407c36c5f38827421f32e0
+SHA1: 22dec6830ca9729a593e253984b960c9f39ff177
+SHA256: 9dae24e379b928ba0359511f4e3e76ed7498a77fc8b93cd5de132f1674bba60f
+Section: devel
+Priority: optional
+Description: developer conversion and debugging utility: regex groups
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-dev-diff-unified
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-dev-diff-unified_1.0.0-1_all.deb
+Size: 960
+MD5sum: ab295290321279f30be96abd8f6c6bee
+SHA1: e7ee5f744bd60627b2c08bcff4c1851ef480fcbb
+SHA256: 82496b41fb9c1a9be950446e40fe29a2515337a194628bba723bd7a9a45ae185
+Section: devel
+Priority: optional
+Description: developer conversion and debugging utility: diff unified
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-dev-json-escape
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-dev-json-escape_1.0.0-1_all.deb
+Size: 960
+MD5sum: 3e4a7f75c30a8f423653ea6e3a6fff54
+SHA1: d030329aecd339a20b98dfc421820c513d89465b
+SHA256: 5e20b513228f999a11f1904c5f38380c6c62de4c1fc90a7ef0d0341316bcb7d0
+Section: devel
+Priority: optional
+Description: developer conversion and debugging utility: json escape
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-dev-shell-quote
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-dev-shell-quote_1.0.0-1_all.deb
+Size: 960
+MD5sum: a24e5c4fd84fd8858533dfcb171f3603
+SHA1: 85cb114a506fa40ebfcbe14be0fa86dfa8cdae63
+SHA256: 6fb4aa5c8f7dd9caa67a62d70f7709a6a35538dea5c19d19b6c32395c1e8b5df
+Section: devel
+Priority: optional
+Description: developer conversion and debugging utility: shell quote
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-dev-int-base
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-dev-int-base_1.0.0-1_all.deb
+Size: 956
+MD5sum: eed5bce138c77be43f4c7271828e39a2
+SHA1: b7db3db1e6d65b9b8539eb17d240d65d3cd58697
+SHA256: 43fbbf0c11f9b93f25e1018859dba4f43d2989ecbe2239c60df1a284ab9f5114
+Section: devel
+Priority: optional
+Description: developer conversion and debugging utility: int base
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-dev-bytes-human
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-dev-bytes-human_1.0.0-1_all.deb
+Size: 960
+MD5sum: e1cac0a7ad84e448e89ef7242c45deed
+SHA1: a82737b545eacaa3d8fa21b842139ecdaa2628aa
+SHA256: bc3d2ce9d49c941db6b0501fcc94800483ccd79fe941e6a920c7608aa0412ca3
+Section: devel
+Priority: optional
+Description: developer conversion and debugging utility: bytes human
+ Ocean-native utility for the OceanStudio Android terminal.
+
+Package: ocean-pwr-dev-bytes-parse
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-power-core, python
+Filename: pool/main/ocean-pwr-dev-bytes-parse_1.0.0-1_all.deb
+Size: 960
+MD5sum: 14d4acd266e0968bce7bf1ec1c17ad9d
+SHA1: 4f9638e7c99b89e3dab39dea789e62af4d5e146a
+SHA256: 6c1965a21dfaadfade82d86aa8ca8efd73d659c095777e9c543470f955962967
+Section: devel
+Priority: optional
+Description: developer conversion and debugging utility: bytes parse
+ Ocean-native utility for the OceanStudio Android terminal.

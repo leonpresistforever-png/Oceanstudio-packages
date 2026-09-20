@@ -1,0 +1,2011 @@
+{
+  "schemaVersion": 1,
+  "suite": "power-suite",
+  "sourceType": "Ocean-native original source",
+  "target": "OceanStudio Android terminal",
+  "prefix": "/data/data/studio.ocean.app/files/usr",
+  "packageCount": 250,
+  "uniquePackageCount": 250,
+  "corePackage": "ocean-power-core",
+  "packages": [
+    {
+      "package": "ocean-power-core",
+      "family": "core",
+      "artifact": "ocean-power-core_1.0.0-1_all.deb",
+      "sha256": "0c34abdb9a7bce39c8a853eb94da6ecac2e3923c0c9ae6835c279ba9b9f98b05",
+      "size": 8592
+    },
+    {
+      "package": "ocean-pwr-hash-md5",
+      "family": "hash",
+      "mode": "md5",
+      "artifact": "ocean-pwr-hash-md5_1.0.0-1_all.deb",
+      "sha256": "0f87c75901d7d820940f0b2607f6ead15de3f3abccb4cb48d4457e9b2b8f03bd",
+      "size": 948
+    },
+    {
+      "package": "ocean-pwr-hash-sha1",
+      "family": "hash",
+      "mode": "sha1",
+      "artifact": "ocean-pwr-hash-sha1_1.0.0-1_all.deb",
+      "sha256": "6924372f0801a5c13b89c3f5b9238a55388cacb06ba9421158dd72cab68b6ae0",
+      "size": 948
+    },
+    {
+      "package": "ocean-pwr-hash-sha224",
+      "family": "hash",
+      "mode": "sha224",
+      "artifact": "ocean-pwr-hash-sha224_1.0.0-1_all.deb",
+      "sha256": "080a1d4a4f726bfd30ac9f32479a5f212626dbfb9a3a61f7b3f3c6353f2707b4",
+      "size": 956
+    },
+    {
+      "package": "ocean-pwr-hash-sha256",
+      "family": "hash",
+      "mode": "sha256",
+      "artifact": "ocean-pwr-hash-sha256_1.0.0-1_all.deb",
+      "sha256": "e361cf83a366d1143e5d3592d61ac982360619b85c8bfc856a469c2561ecd034",
+      "size": 956
+    },
+    {
+      "package": "ocean-pwr-hash-sha384",
+      "family": "hash",
+      "mode": "sha384",
+      "artifact": "ocean-pwr-hash-sha384_1.0.0-1_all.deb",
+      "sha256": "eb437161c8ec2d7276ae3163846147569371409385ffcdcdd3d052935dab5ae6",
+      "size": 956
+    },
+    {
+      "package": "ocean-pwr-hash-sha512",
+      "family": "hash",
+      "mode": "sha512",
+      "artifact": "ocean-pwr-hash-sha512_1.0.0-1_all.deb",
+      "sha256": "ceba7016ea1513f14e18088ed07fbbb9733221d4cc5e26c27b9be77350d78abc",
+      "size": 956
+    },
+    {
+      "package": "ocean-pwr-hash-sha3-224",
+      "family": "hash",
+      "mode": "sha3-224",
+      "artifact": "ocean-pwr-hash-sha3-224_1.0.0-1_all.deb",
+      "sha256": "5923cd5cc8dc1bb5f35107b7bc850c78c9bd260b838d9202a9cc9941382ed4aa",
+      "size": 960
+    },
+    {
+      "package": "ocean-pwr-hash-sha3-256",
+      "family": "hash",
+      "mode": "sha3-256",
+      "artifact": "ocean-pwr-hash-sha3-256_1.0.0-1_all.deb",
+      "sha256": "d2dab6c89641dbff5544eabd74c212a7d61c70e803868bff47ee61fb7f1bccfb",
+      "size": 960
+    },
+    {
+      "package": "ocean-pwr-hash-sha3-384",
+      "family": "hash",
+      "mode": "sha3-384",
+      "artifact": "ocean-pwr-hash-sha3-384_1.0.0-1_all.deb",
+      "sha256": "464faed85712a6aa4c95f4e0c9f87fd14ab30e8d04f3edad25ed411eb01d452b",
+      "size": 960
+    },
+    {
+      "package": "ocean-pwr-hash-sha3-512",
+      "family": "hash",
+      "mode": "sha3-512",
+      "artifact": "ocean-pwr-hash-sha3-512_1.0.0-1_all.deb",
+      "sha256": "3c6a3fb6a19af18c13fc46842c65c31649226c9bedeeffec2c33304c5c2955c4",
+      "size": 960
+    },
+    {
+      "package": "ocean-pwr-hash-blake2b",
+      "family": "hash",
+      "mode": "blake2b",
+      "artifact": "ocean-pwr-hash-blake2b_1.0.0-1_all.deb",
+      "sha256": "8f5ae84eaa48d49887cd39b3e94679520f763e7bb997a9f32a016c1067defbd7",
+      "size": 956
+    },
+    {
+      "package": "ocean-pwr-hash-blake2s",
+      "family": "hash",
+      "mode": "blake2s",
+      "artifact": "ocean-pwr-hash-blake2s_1.0.0-1_all.deb",
+      "sha256": "bdd9a3c0f29a7a93fc1843ba9aaaf24ca78b32882e00e4a7af20c6e8561f36e6",
+      "size": 956
+    },
+    {
+      "package": "ocean-pwr-hmac-md5",
+      "family": "hmac",
+      "mode": "md5",
+      "artifact": "ocean-pwr-hmac-md5_1.0.0-1_all.deb",
+      "sha256": "c6c4f6b1ffb4390bb0f4aec7c079f81d09db75d29dd1c7eb251b9f100587cdb5",
+      "size": 944
+    },
+    {
+      "package": "ocean-pwr-hmac-sha1",
+      "family": "hmac",
+      "mode": "sha1",
+      "artifact": "ocean-pwr-hmac-sha1_1.0.0-1_all.deb",
+      "sha256": "9c237e8b4917d4dbd33a6ce37f51ca88c851cec929d34aa37b1110e126604214",
+      "size": 940
+    },
+    {
+      "package": "ocean-pwr-hmac-sha224",
+      "family": "hmac",
+      "mode": "sha224",
+      "artifact": "ocean-pwr-hmac-sha224_1.0.0-1_all.deb",
+      "sha256": "f4bedd0d31d9afd04e2e7a2104ec3e19a21cc55b11509ad48a141ba79e0a6b1a",
+      "size": 948
+    },
+    {
+      "package": "ocean-pwr-hmac-sha256",
+      "family": "hmac",
+      "mode": "sha256",
+      "artifact": "ocean-pwr-hmac-sha256_1.0.0-1_all.deb",
+      "sha256": "c14281921fee33bd481e67d3b3724430e602116118062941395173b5372b46a9",
+      "size": 948
+    },
+    {
+      "package": "ocean-pwr-hmac-sha384",
+      "family": "hmac",
+      "mode": "sha384",
+      "artifact": "ocean-pwr-hmac-sha384_1.0.0-1_all.deb",
+      "sha256": "be039e72f7f490d037ff2b13e044f92beed9ec0d7e4545261242626fd2b07c97",
+      "size": 948
+    },
+    {
+      "package": "ocean-pwr-hmac-sha512",
+      "family": "hmac",
+      "mode": "sha512",
+      "artifact": "ocean-pwr-hmac-sha512_1.0.0-1_all.deb",
+      "sha256": "1174d178b560d3d6c263711427a20dfa0d943251e8b78f0465edb862d68ae445",
+      "size": 948
+    },
+    {
+      "package": "ocean-pwr-hmac-sha3-256",
+      "family": "hmac",
+      "mode": "sha3-256",
+      "artifact": "ocean-pwr-hmac-sha3-256_1.0.0-1_all.deb",
+      "sha256": "c3aeffdce92ca78909bd1676cbacba55b594b21c8410f993bd287a3464b15559",
+      "size": 952
+    },
+    {
+      "package": "ocean-pwr-hmac-sha3-512",
+      "family": "hmac",
+      "mode": "sha3-512",
+      "artifact": "ocean-pwr-hmac-sha3-512_1.0.0-1_all.deb",
+      "sha256": "c6f6d7a935bf2692e39c148c70f8bc88d94564cb1c1954c74c85aaa8610e092b",
+      "size": 952
+    },
+    {
+      "package": "ocean-pwr-hmac-blake2b",
+      "family": "hmac",
+      "mode": "blake2b",
+      "artifact": "ocean-pwr-hmac-blake2b_1.0.0-1_all.deb",
+      "sha256": "eb9308ac2b5cc03cbe35b8c2ec8d0c18945197d20e1efaed4df8852dd4d2dbd8",
+      "size": 948
+    },
+    {
+      "package": "ocean-pwr-hmac-blake2s",
+      "family": "hmac",
+      "mode": "blake2s",
+      "artifact": "ocean-pwr-hmac-blake2s_1.0.0-1_all.deb",
+      "sha256": "e1930a9e89090d69fa035039eec94f6e18fb372d2a458263e59412b56929a2fa",
+      "size": 944
+    },
+    {
+      "package": "ocean-pwr-encode-base64",
+      "family": "encode",
+      "mode": "base64",
+      "artifact": "ocean-pwr-encode-base64_1.0.0-1_all.deb",
+      "sha256": "feae2c039a4422d27753a1127d48413faa02034fe1467e50ef3791218d68a2ae",
+      "size": 940
+    },
+    {
+      "package": "ocean-pwr-encode-base32",
+      "family": "encode",
+      "mode": "base32",
+      "artifact": "ocean-pwr-encode-base32_1.0.0-1_all.deb",
+      "sha256": "fc63a25055a0ef2079d45c572bd3b55286a5d5e35cba479c880d25f84adbdd78",
+      "size": 940
+    },
+    {
+      "package": "ocean-pwr-encode-base16",
+      "family": "encode",
+      "mode": "base16",
+      "artifact": "ocean-pwr-encode-base16_1.0.0-1_all.deb",
+      "sha256": "de65fc0f821c50ed7fbdfdb1bab5e633e5e98dad1ece98132ed8eedc1b635173",
+      "size": 940
+    },
+    {
+      "package": "ocean-pwr-encode-base85",
+      "family": "encode",
+      "mode": "base85",
+      "artifact": "ocean-pwr-encode-base85_1.0.0-1_all.deb",
+      "sha256": "141baa22db009a748929b2c95a6bbf66c989bf0a3afb8645124322a0b4a93ff4",
+      "size": 940
+    },
+    {
+      "package": "ocean-pwr-encode-ascii85",
+      "family": "encode",
+      "mode": "ascii85",
+      "artifact": "ocean-pwr-encode-ascii85_1.0.0-1_all.deb",
+      "sha256": "41eef09c600090f7016e9a01ac55213c173b2239984a29a2cb7b565e297989ed",
+      "size": 940
+    },
+    {
+      "package": "ocean-pwr-encode-hex",
+      "family": "encode",
+      "mode": "hex",
+      "artifact": "ocean-pwr-encode-hex_1.0.0-1_all.deb",
+      "sha256": "f65b234a9c6f25a29d48a55f1c06b1a762ce2652e66c075a45dd879e58e6490b",
+      "size": 936
+    },
+    {
+      "package": "ocean-pwr-encode-url",
+      "family": "encode",
+      "mode": "url",
+      "artifact": "ocean-pwr-encode-url_1.0.0-1_all.deb",
+      "sha256": "bbf0c82599edc3ea6cfd192af760874fe0c1b95c2011a4aca0722d651fab82aa",
+      "size": 936
+    },
+    {
+      "package": "ocean-pwr-encode-html",
+      "family": "encode",
+      "mode": "html",
+      "artifact": "ocean-pwr-encode-html_1.0.0-1_all.deb",
+      "sha256": "bad7047993aa6517f1d1a1cefb053d81c9f89ac9860b953f9f6af2e11a131c55",
+      "size": 936
+    },
+    {
+      "package": "ocean-pwr-encode-json",
+      "family": "encode",
+      "mode": "json",
+      "artifact": "ocean-pwr-encode-json_1.0.0-1_all.deb",
+      "sha256": "1fe928471a92ede3f3c4b7d3d33a11d25f7576c1d2b5a5a7ccb4198b0469c385",
+      "size": 936
+    },
+    {
+      "package": "ocean-pwr-encode-rot13",
+      "family": "encode",
+      "mode": "rot13",
+      "artifact": "ocean-pwr-encode-rot13_1.0.0-1_all.deb",
+      "sha256": "73e5d9f3017d54b5aa837aa8331324f956cdf89064693afd138b8ca09c70354d",
+      "size": 936
+    },
+    {
+      "package": "ocean-pwr-encode-gzip",
+      "family": "encode",
+      "mode": "gzip",
+      "artifact": "ocean-pwr-encode-gzip_1.0.0-1_all.deb",
+      "sha256": "42c96dcd3e14f7aef93c603602eb0976942be142ee42bf193e7fe6511fe9bd72",
+      "size": 936
+    },
+    {
+      "package": "ocean-pwr-encode-zlib",
+      "family": "encode",
+      "mode": "zlib",
+      "artifact": "ocean-pwr-encode-zlib_1.0.0-1_all.deb",
+      "sha256": "86d5cb8405a64eb2e009d7fafc7cd60c2a73d340ef7523ce574051770c46ef84",
+      "size": 936
+    },
+    {
+      "package": "ocean-pwr-encode-bz2",
+      "family": "encode",
+      "mode": "bz2",
+      "artifact": "ocean-pwr-encode-bz2_1.0.0-1_all.deb",
+      "sha256": "76a2a176a62ee351680a112b2e89e18974657e62592583c3fe05250c7ab44897",
+      "size": 936
+    },
+    {
+      "package": "ocean-pwr-encode-lzma",
+      "family": "encode",
+      "mode": "lzma",
+      "artifact": "ocean-pwr-encode-lzma_1.0.0-1_all.deb",
+      "sha256": "75d2e530eb22bdc2bb96a51b4586b78305112b6b6f8f4cbf7e069ad7fba77d2a",
+      "size": 936
+    },
+    {
+      "package": "ocean-pwr-encode-utf8",
+      "family": "encode",
+      "mode": "utf8",
+      "artifact": "ocean-pwr-encode-utf8_1.0.0-1_all.deb",
+      "sha256": "db7c7def5c7d62c027304407520077b7d9c7d1063c33261c435d9c412bf20f1c",
+      "size": 936
+    },
+    {
+      "package": "ocean-pwr-encode-repr",
+      "family": "encode",
+      "mode": "repr",
+      "artifact": "ocean-pwr-encode-repr_1.0.0-1_all.deb",
+      "sha256": "38e524c61b9a07beb7c9cb35257985f7b7c059de5b0be62e70cf99350c1a9e7b",
+      "size": 936
+    },
+    {
+      "package": "ocean-pwr-decode-base64",
+      "family": "decode",
+      "mode": "base64",
+      "artifact": "ocean-pwr-decode-base64_1.0.0-1_all.deb",
+      "sha256": "e19f5cd3c8ac10cb6bf38bcbd19c50cd21be1c350366a5b6672eeac41894009c",
+      "size": 940
+    },
+    {
+      "package": "ocean-pwr-decode-base32",
+      "family": "decode",
+      "mode": "base32",
+      "artifact": "ocean-pwr-decode-base32_1.0.0-1_all.deb",
+      "sha256": "c38de86144825b8a857731db5d66bfb6a847a5bace54597569d1c583bf721bd8",
+      "size": 940
+    },
+    {
+      "package": "ocean-pwr-decode-base16",
+      "family": "decode",
+      "mode": "base16",
+      "artifact": "ocean-pwr-decode-base16_1.0.0-1_all.deb",
+      "sha256": "d9e00f905be08365d2a4b174a3198eeb781445ecb0b92c1a7e68b6d7b39b2424",
+      "size": 940
+    },
+    {
+      "package": "ocean-pwr-decode-base85",
+      "family": "decode",
+      "mode": "base85",
+      "artifact": "ocean-pwr-decode-base85_1.0.0-1_all.deb",
+      "sha256": "132dfdd1672c7654069160f1ed922600628fee1cc230c06e2aa875f5efe1fda9",
+      "size": 940
+    },
+    {
+      "package": "ocean-pwr-decode-ascii85",
+      "family": "decode",
+      "mode": "ascii85",
+      "artifact": "ocean-pwr-decode-ascii85_1.0.0-1_all.deb",
+      "sha256": "d390b48bb187d63de2f05d7dd9e1f2157105011858a51b152fe702526d9f936f",
+      "size": 944
+    },
+    {
+      "package": "ocean-pwr-decode-hex",
+      "family": "decode",
+      "mode": "hex",
+      "artifact": "ocean-pwr-decode-hex_1.0.0-1_all.deb",
+      "sha256": "8fce130ffad13d67ce76e98af90821b8ec1b201b7b3ad2de22430493ddf484bf",
+      "size": 936
+    },
+    {
+      "package": "ocean-pwr-decode-url",
+      "family": "decode",
+      "mode": "url",
+      "artifact": "ocean-pwr-decode-url_1.0.0-1_all.deb",
+      "sha256": "f66eb8682c42468c795cf3bbb1d6a2e43df889d70394cd799405da7d755767af",
+      "size": 936
+    },
+    {
+      "package": "ocean-pwr-decode-html",
+      "family": "decode",
+      "mode": "html",
+      "artifact": "ocean-pwr-decode-html_1.0.0-1_all.deb",
+      "sha256": "8f6ff0051ef2fd8f5e49770f60623bf4dad9f0cc5294a3c297b5e5b49df524f9",
+      "size": 936
+    },
+    {
+      "package": "ocean-pwr-decode-json",
+      "family": "decode",
+      "mode": "json",
+      "artifact": "ocean-pwr-decode-json_1.0.0-1_all.deb",
+      "sha256": "271f9bfa770f059925343a83a932dce5ba0b9890966548407122baa5f930d818",
+      "size": 936
+    },
+    {
+      "package": "ocean-pwr-decode-rot13",
+      "family": "decode",
+      "mode": "rot13",
+      "artifact": "ocean-pwr-decode-rot13_1.0.0-1_all.deb",
+      "sha256": "5351573d81bb28e1039bf8e21df4ac721244f187ace1a80f959c185b38534b81",
+      "size": 936
+    },
+    {
+      "package": "ocean-pwr-decode-gzip",
+      "family": "decode",
+      "mode": "gzip",
+      "artifact": "ocean-pwr-decode-gzip_1.0.0-1_all.deb",
+      "sha256": "859ee1783fa1f89728616d8a2dc63a112f52bdcc1da68cf462769078554f2fd1",
+      "size": 936
+    },
+    {
+      "package": "ocean-pwr-decode-zlib",
+      "family": "decode",
+      "mode": "zlib",
+      "artifact": "ocean-pwr-decode-zlib_1.0.0-1_all.deb",
+      "sha256": "2c47f9d674f466060fcc58e223e2eedc21aed66f92e868de8e128c56ec699ee3",
+      "size": 936
+    },
+    {
+      "package": "ocean-pwr-decode-bz2",
+      "family": "decode",
+      "mode": "bz2",
+      "artifact": "ocean-pwr-decode-bz2_1.0.0-1_all.deb",
+      "sha256": "e31abb3eed12a1b5683e3089322335967635ecc52fb16af27d164b62b19947fd",
+      "size": 936
+    },
+    {
+      "package": "ocean-pwr-decode-lzma",
+      "family": "decode",
+      "mode": "lzma",
+      "artifact": "ocean-pwr-decode-lzma_1.0.0-1_all.deb",
+      "sha256": "ba59e61c08b935097e48e842a488dfee2bdb4706f5fe0ea57d2eb134c5cd97ff",
+      "size": 936
+    },
+    {
+      "package": "ocean-pwr-decode-utf8",
+      "family": "decode",
+      "mode": "utf8",
+      "artifact": "ocean-pwr-decode-utf8_1.0.0-1_all.deb",
+      "sha256": "6adb15a3b25439afc8f88b4f5a5541055f961b22aba28a9390713c5ad54e9138",
+      "size": 936
+    },
+    {
+      "package": "ocean-pwr-decode-repr",
+      "family": "decode",
+      "mode": "repr",
+      "artifact": "ocean-pwr-decode-repr_1.0.0-1_all.deb",
+      "sha256": "f871ff882bef7294e12dedd369c97ec2a9b6347387a30737ed8769012ae56f92",
+      "size": 936
+    },
+    {
+      "package": "ocean-pwr-text-lines",
+      "family": "text",
+      "mode": "lines",
+      "artifact": "ocean-pwr-text-lines_1.0.0-1_all.deb",
+      "sha256": "09424341f245d51189889b61dbf2031bd4eb039a3b7014e091f047df8ceef671",
+      "size": 940
+    },
+    {
+      "package": "ocean-pwr-text-words",
+      "family": "text",
+      "mode": "words",
+      "artifact": "ocean-pwr-text-words_1.0.0-1_all.deb",
+      "sha256": "6c3ba3aad89ce25091611d3ed98999eed3e1f3251cd878198778ab13ef9b65d7",
+      "size": 936
+    },
+    {
+      "package": "ocean-pwr-text-chars",
+      "family": "text",
+      "mode": "chars",
+      "artifact": "ocean-pwr-text-chars_1.0.0-1_all.deb",
+      "sha256": "26efcabab793d59e55892b5c15f29bd3bcdce12979e03a103928378960c537be",
+      "size": 940
+    },
+    {
+      "package": "ocean-pwr-text-bytes",
+      "family": "text",
+      "mode": "bytes",
+      "artifact": "ocean-pwr-text-bytes_1.0.0-1_all.deb",
+      "sha256": "00928718a6489188868b400d5bdd0b249a27b07210e4e455112b5480820c4464",
+      "size": 940
+    },
+    {
+      "package": "ocean-pwr-text-reverse",
+      "family": "text",
+      "mode": "reverse",
+      "artifact": "ocean-pwr-text-reverse_1.0.0-1_all.deb",
+      "sha256": "1b263501319852c1a430a96a96f2040baba6e88ea0dcd21ccfafefc13dcc974c",
+      "size": 940
+    },
+    {
+      "package": "ocean-pwr-text-reverse-lines",
+      "family": "text",
+      "mode": "reverse-lines",
+      "artifact": "ocean-pwr-text-reverse-lines_1.0.0-1_all.deb",
+      "sha256": "22c122f81ccec4d41da3c58ddd7e38b8186fc782a4d271512462da71116dab83",
+      "size": 952
+    },
+    {
+      "package": "ocean-pwr-text-sort",
+      "family": "text",
+      "mode": "sort",
+      "artifact": "ocean-pwr-text-sort_1.0.0-1_all.deb",
+      "sha256": "0b266e8a671683b138f2d1d9c56d57b27a2b0fceffd7b533f7f45e611122f72f",
+      "size": 936
+    },
+    {
+      "package": "ocean-pwr-text-sort-num",
+      "family": "text",
+      "mode": "sort-num",
+      "artifact": "ocean-pwr-text-sort-num_1.0.0-1_all.deb",
+      "sha256": "12e91bce10ff0411235cc8890a37776f88049388c992d5b312c7a9e842c1caaf",
+      "size": 944
+    },
+    {
+      "package": "ocean-pwr-text-unique",
+      "family": "text",
+      "mode": "unique",
+      "artifact": "ocean-pwr-text-unique_1.0.0-1_all.deb",
+      "sha256": "2076be4bd557db2686bd8c0f87823694448c8ac0262c21307167cf77602a6561",
+      "size": 936
+    },
+    {
+      "package": "ocean-pwr-text-uniq-count",
+      "family": "text",
+      "mode": "uniq-count",
+      "artifact": "ocean-pwr-text-uniq-count_1.0.0-1_all.deb",
+      "sha256": "463522e33516050650cf1b390e0a8f6a05d4fe2084634547f13ba3dae6ed6a4a",
+      "size": 948
+    },
+    {
+      "package": "ocean-pwr-text-freq-words",
+      "family": "text",
+      "mode": "freq-words",
+      "artifact": "ocean-pwr-text-freq-words_1.0.0-1_all.deb",
+      "sha256": "de79d777b5926a6735f9956fe3c7fc148220824275d7a708b0c400523ae086fe",
+      "size": 948
+    },
+    {
+      "package": "ocean-pwr-text-freq-lines",
+      "family": "text",
+      "mode": "freq-lines",
+      "artifact": "ocean-pwr-text-freq-lines_1.0.0-1_all.deb",
+      "sha256": "1ff3ca91e11d547c7a6b5d9c5e68bff7bdbe0ce30c5eb48a3015f117c9ec6f56",
+      "size": 948
+    },
+    {
+      "package": "ocean-pwr-text-lower",
+      "family": "text",
+      "mode": "lower",
+      "artifact": "ocean-pwr-text-lower_1.0.0-1_all.deb",
+      "sha256": "be17fd13e091148a729e41d950ec4a7bf3a71091a598c048ed54cd8386ae9260",
+      "size": 936
+    },
+    {
+      "package": "ocean-pwr-text-upper",
+      "family": "text",
+      "mode": "upper",
+      "artifact": "ocean-pwr-text-upper_1.0.0-1_all.deb",
+      "sha256": "0f3ad3f01e92b444c779102d4e82d7c40856f661e7778d6d895d574f41b1beeb",
+      "size": 940
+    },
+    {
+      "package": "ocean-pwr-text-title",
+      "family": "text",
+      "mode": "title",
+      "artifact": "ocean-pwr-text-title_1.0.0-1_all.deb",
+      "sha256": "b007f1dfca4ec264df1a35eeb5c7254ce4c109d71c45ec296ec60782780556ed",
+      "size": 936
+    },
+    {
+      "package": "ocean-pwr-text-strip",
+      "family": "text",
+      "mode": "strip",
+      "artifact": "ocean-pwr-text-strip_1.0.0-1_all.deb",
+      "sha256": "90a63d7ce36a14a6ebb964fa59857d0b7aa8fea8099c61089f00f0310f433768",
+      "size": 940
+    },
+    {
+      "package": "ocean-pwr-text-squeeze-space",
+      "family": "text",
+      "mode": "squeeze-space",
+      "artifact": "ocean-pwr-text-squeeze-space_1.0.0-1_all.deb",
+      "sha256": "8fad472e17211b611dcb353c91b835ad99859385f6d23abb623ce135982b4f10",
+      "size": 948
+    },
+    {
+      "package": "ocean-pwr-text-tabs-to-spaces",
+      "family": "text",
+      "mode": "tabs-to-spaces",
+      "artifact": "ocean-pwr-text-tabs-to-spaces_1.0.0-1_all.deb",
+      "sha256": "d04b8bc2eaf7c843ae0db2fd4f698d66d8d672c82b9dda651d783ad2b9e07ce5",
+      "size": 952
+    },
+    {
+      "package": "ocean-pwr-text-spaces-to-tabs",
+      "family": "text",
+      "mode": "spaces-to-tabs",
+      "artifact": "ocean-pwr-text-spaces-to-tabs_1.0.0-1_all.deb",
+      "sha256": "179f25d570e26a3d38bfa6437e0b72c65a322f7c2011504cb07201e7f7987606",
+      "size": 956
+    },
+    {
+      "package": "ocean-pwr-text-head",
+      "family": "text",
+      "mode": "head",
+      "artifact": "ocean-pwr-text-head_1.0.0-1_all.deb",
+      "sha256": "dad16e798ffd55ba4389e015c27b5152d2dd809314ccff357d681f44f7671879",
+      "size": 936
+    },
+    {
+      "package": "ocean-pwr-text-tail",
+      "family": "text",
+      "mode": "tail",
+      "artifact": "ocean-pwr-text-tail_1.0.0-1_all.deb",
+      "sha256": "26621e5088885d47c328b584005bbd61ee48af9f47640c5c0c6481bba41aef6c",
+      "size": 936
+    },
+    {
+      "package": "ocean-pwr-text-grep",
+      "family": "text",
+      "mode": "grep",
+      "artifact": "ocean-pwr-text-grep_1.0.0-1_all.deb",
+      "sha256": "786d3dcecf81289b49d30c6c6fb84f306d4774948879a4009c4897f8077f34d3",
+      "size": 936
+    },
+    {
+      "package": "ocean-pwr-text-grep-v",
+      "family": "text",
+      "mode": "grep-v",
+      "artifact": "ocean-pwr-text-grep-v_1.0.0-1_all.deb",
+      "sha256": "3a42385adc32df04847422cb61bb6049ad1d57bdd7b7c05f059cc51123d28983",
+      "size": 940
+    },
+    {
+      "package": "ocean-pwr-text-regex-replace",
+      "family": "text",
+      "mode": "regex-replace",
+      "artifact": "ocean-pwr-text-regex-replace_1.0.0-1_all.deb",
+      "sha256": "feef58cfa2a6ad073a93b465553dc88cb3a791d6c040d726b482144e1d60ece2",
+      "size": 952
+    },
+    {
+      "package": "ocean-pwr-text-number-lines",
+      "family": "text",
+      "mode": "number-lines",
+      "artifact": "ocean-pwr-text-number-lines_1.0.0-1_all.deb",
+      "sha256": "7b3d5e212f9047441e47393685f7896b16234d45bc2c268a96dfca874cc32d8c",
+      "size": 948
+    },
+    {
+      "package": "ocean-pwr-json-pretty",
+      "family": "json",
+      "mode": "pretty",
+      "artifact": "ocean-pwr-json-pretty_1.0.0-1_all.deb",
+      "sha256": "cedb16d27bb412cde968b5be9b50a3d229ca5fc8c277f55c65cd444be1eccd4e",
+      "size": 952
+    },
+    {
+      "package": "ocean-pwr-json-minify",
+      "family": "json",
+      "mode": "minify",
+      "artifact": "ocean-pwr-json-minify_1.0.0-1_all.deb",
+      "sha256": "22ebd51c47892b185b263f14afb4ce710d1dbcf52ba46cc6c1339c2915fbd7b6",
+      "size": 952
+    },
+    {
+      "package": "ocean-pwr-json-validate",
+      "family": "json",
+      "mode": "validate",
+      "artifact": "ocean-pwr-json-validate_1.0.0-1_all.deb",
+      "sha256": "1cbe65e7755f7412e6aaf2cdcef1606a684e993dd4096eb0783916427296d608",
+      "size": 952
+    },
+    {
+      "package": "ocean-pwr-json-keys",
+      "family": "json",
+      "mode": "keys",
+      "artifact": "ocean-pwr-json-keys_1.0.0-1_all.deb",
+      "sha256": "ae53416af91ef96d37e3160ef82f5f0fe123eaec80a5a63c60b65376f5a52dfc",
+      "size": 952
+    },
+    {
+      "package": "ocean-pwr-json-values",
+      "family": "json",
+      "mode": "values",
+      "artifact": "ocean-pwr-json-values_1.0.0-1_all.deb",
+      "sha256": "ec762cd8dbce815f996e7ee5fa1a9cfb139e09fcbb52d59c64aabec11a68ac17",
+      "size": 952
+    },
+    {
+      "package": "ocean-pwr-json-get",
+      "family": "json",
+      "mode": "get",
+      "artifact": "ocean-pwr-json-get_1.0.0-1_all.deb",
+      "sha256": "9becdcdb82b4ebad11af59d9742c356c68faea7ef4ecbdc64692982778aa7903",
+      "size": 948
+    },
+    {
+      "package": "ocean-pwr-json-set",
+      "family": "json",
+      "mode": "set",
+      "artifact": "ocean-pwr-json-set_1.0.0-1_all.deb",
+      "sha256": "4c8a9a8300b8f73fd437a644aaf238a666e13de9ba2d300c6cdf473a16065230",
+      "size": 948
+    },
+    {
+      "package": "ocean-pwr-json-delete",
+      "family": "json",
+      "mode": "delete",
+      "artifact": "ocean-pwr-json-delete_1.0.0-1_all.deb",
+      "sha256": "aabe0d16ffa992bd402271189523622cc3107be29df648d1ac3186e22fcc7766",
+      "size": 952
+    },
+    {
+      "package": "ocean-pwr-json-merge",
+      "family": "json",
+      "mode": "merge",
+      "artifact": "ocean-pwr-json-merge_1.0.0-1_all.deb",
+      "sha256": "8484064076895e74bde6c7c31642d8d6f4307695e668263f7adce4500f9978af",
+      "size": 952
+    },
+    {
+      "package": "ocean-pwr-json-diff",
+      "family": "json",
+      "mode": "diff",
+      "artifact": "ocean-pwr-json-diff_1.0.0-1_all.deb",
+      "sha256": "12c0ffb9fd86deaf31f8410c62dd17b535856b0f9dc462c0ec69dccd12b35f93",
+      "size": 948
+    },
+    {
+      "package": "ocean-pwr-json-flatten",
+      "family": "json",
+      "mode": "flatten",
+      "artifact": "ocean-pwr-json-flatten_1.0.0-1_all.deb",
+      "sha256": "9234777b555181e1b61e1accac5c201b2f08f4e5a55071324fb1d01ef521cb39",
+      "size": 952
+    },
+    {
+      "package": "ocean-pwr-json-unflatten",
+      "family": "json",
+      "mode": "unflatten",
+      "artifact": "ocean-pwr-json-unflatten_1.0.0-1_all.deb",
+      "sha256": "912d02326f84956c4bf777f047a3d7ce8a9afc131639ec41cd8cb68c8a932264",
+      "size": 956
+    },
+    {
+      "package": "ocean-pwr-json-sort-keys",
+      "family": "json",
+      "mode": "sort-keys",
+      "artifact": "ocean-pwr-json-sort-keys_1.0.0-1_all.deb",
+      "sha256": "3259f8647b0c3fcd73ae1efcc52405e0ab1895e8856f8242cf8556a86f7f2dc2",
+      "size": 960
+    },
+    {
+      "package": "ocean-pwr-json-array-length",
+      "family": "json",
+      "mode": "array-length",
+      "artifact": "ocean-pwr-json-array-length_1.0.0-1_all.deb",
+      "sha256": "e44f0a75bf872b217f87b508a5a736d406bc594f4d5dc9a16015448d159ca26a",
+      "size": 964
+    },
+    {
+      "package": "ocean-pwr-json-object-size",
+      "family": "json",
+      "mode": "object-size",
+      "artifact": "ocean-pwr-json-object-size_1.0.0-1_all.deb",
+      "sha256": "8bc55793995f752dc6519a4969f48a988069d3a6541b929c0bf9ace21ae9d72a",
+      "size": 964
+    },
+    {
+      "package": "ocean-pwr-json-type",
+      "family": "json",
+      "mode": "type",
+      "artifact": "ocean-pwr-json-type_1.0.0-1_all.deb",
+      "sha256": "8aea6790acb9a24979b422ba9fcb2c0fcfa4b682156172f814e71383b93335b4",
+      "size": 952
+    },
+    {
+      "package": "ocean-pwr-json-path-list",
+      "family": "json",
+      "mode": "path-list",
+      "artifact": "ocean-pwr-json-path-list_1.0.0-1_all.deb",
+      "sha256": "262de6bb181766a6d83aa08d43081ce70910889673e08521625c417c46f31a82",
+      "size": 960
+    },
+    {
+      "package": "ocean-pwr-json-ndjson-to-array",
+      "family": "json",
+      "mode": "ndjson-to-array",
+      "artifact": "ocean-pwr-json-ndjson-to-array_1.0.0-1_all.deb",
+      "sha256": "20fa3f290d52b7bfec238c5340d7155b01534562288b4fc7b5aa8c51a58b10af",
+      "size": 964
+    },
+    {
+      "package": "ocean-pwr-json-array-to-ndjson",
+      "family": "json",
+      "mode": "array-to-ndjson",
+      "artifact": "ocean-pwr-json-array-to-ndjson_1.0.0-1_all.deb",
+      "sha256": "ecaf5d2d5132e94d4f33309c82dac97cc8609bdc3b1e79619a9ac85b9f8efecc",
+      "size": 972
+    },
+    {
+      "package": "ocean-pwr-json-canonical",
+      "family": "json",
+      "mode": "canonical",
+      "artifact": "ocean-pwr-json-canonical_1.0.0-1_all.deb",
+      "sha256": "e8810b3decd26b45d6958e60145eaec3268b99e9da7339989ad37cba95e9c6d3",
+      "size": 952
+    },
+    {
+      "package": "ocean-pwr-csv-rows",
+      "family": "csv",
+      "mode": "rows",
+      "artifact": "ocean-pwr-csv-rows_1.0.0-1_all.deb",
+      "sha256": "40d4a69bc695f1ab4d91766fa0f3352ac7a21739b176884e81367e64551a65c2",
+      "size": 944
+    },
+    {
+      "package": "ocean-pwr-csv-columns",
+      "family": "csv",
+      "mode": "columns",
+      "artifact": "ocean-pwr-csv-columns_1.0.0-1_all.deb",
+      "sha256": "090276bee588509b7be225c4ef6c397d13de3f22d4377d46da1697a1a1f521ad",
+      "size": 948
+    },
+    {
+      "package": "ocean-pwr-csv-header",
+      "family": "csv",
+      "mode": "header",
+      "artifact": "ocean-pwr-csv-header_1.0.0-1_all.deb",
+      "sha256": "c1605a6fa87e86e6afa2bb0998847bd558c80ec77eb092fe1211f1051880671b",
+      "size": 948
+    },
+    {
+      "package": "ocean-pwr-csv-head",
+      "family": "csv",
+      "mode": "head",
+      "artifact": "ocean-pwr-csv-head_1.0.0-1_all.deb",
+      "sha256": "a0cffe24c0d0625ec1c728aa1c8fd00f4f2091e1555c4237288c920730c00cd0",
+      "size": 944
+    },
+    {
+      "package": "ocean-pwr-csv-tail",
+      "family": "csv",
+      "mode": "tail",
+      "artifact": "ocean-pwr-csv-tail_1.0.0-1_all.deb",
+      "sha256": "241b147504582bf32b99eb2bcbe34ea5efb97e3bb8b8e2a7bc9a39b62b135808",
+      "size": 944
+    },
+    {
+      "package": "ocean-pwr-csv-select",
+      "family": "csv",
+      "mode": "select",
+      "artifact": "ocean-pwr-csv-select_1.0.0-1_all.deb",
+      "sha256": "75b09695ef2c45f69b1c9530d85efb86ea43aa756e4ed2463d2e1f74877cd6f2",
+      "size": 948
+    },
+    {
+      "package": "ocean-pwr-csv-drop",
+      "family": "csv",
+      "mode": "drop",
+      "artifact": "ocean-pwr-csv-drop_1.0.0-1_all.deb",
+      "sha256": "3e5587c8967bc3de83b7515e42f67fbc6089dc13c9cea9708efaa8dc0c4f7010",
+      "size": 944
+    },
+    {
+      "package": "ocean-pwr-csv-sort",
+      "family": "csv",
+      "mode": "sort",
+      "artifact": "ocean-pwr-csv-sort_1.0.0-1_all.deb",
+      "sha256": "79aa8b70e05e0292600529dbdd1958f3b28d67e25581b2e919bec3ce110886de",
+      "size": 944
+    },
+    {
+      "package": "ocean-pwr-csv-unique",
+      "family": "csv",
+      "mode": "unique",
+      "artifact": "ocean-pwr-csv-unique_1.0.0-1_all.deb",
+      "sha256": "3d9dddf8150ad2411556453f49ac272d108351fdbf244c273fba56a18b4f067a",
+      "size": 948
+    },
+    {
+      "package": "ocean-pwr-csv-filter-eq",
+      "family": "csv",
+      "mode": "filter-eq",
+      "artifact": "ocean-pwr-csv-filter-eq_1.0.0-1_all.deb",
+      "sha256": "a437f290bd7a322ba75820581dab8c60d63ff15d10fad28c358c92ca89634ea2",
+      "size": 952
+    },
+    {
+      "package": "ocean-pwr-csv-filter-regex",
+      "family": "csv",
+      "mode": "filter-regex",
+      "artifact": "ocean-pwr-csv-filter-regex_1.0.0-1_all.deb",
+      "sha256": "47b78a380c78d317fe83beb036808f1b34f9937db15dd1df6663e47ba6670088",
+      "size": 960
+    },
+    {
+      "package": "ocean-pwr-csv-stats",
+      "family": "csv",
+      "mode": "stats",
+      "artifact": "ocean-pwr-csv-stats_1.0.0-1_all.deb",
+      "sha256": "1641c013448679019220e80f9588297c129956ee92e6d8ab6d436ad40e52e062",
+      "size": 944
+    },
+    {
+      "package": "ocean-pwr-csv-sum",
+      "family": "csv",
+      "mode": "sum",
+      "artifact": "ocean-pwr-csv-sum_1.0.0-1_all.deb",
+      "sha256": "5d2f905eaa809bfe3cfe2ae9c9a5035a6cca49d986158dca6e5d51ef9b9ce9d8",
+      "size": 944
+    },
+    {
+      "package": "ocean-pwr-csv-mean",
+      "family": "csv",
+      "mode": "mean",
+      "artifact": "ocean-pwr-csv-mean_1.0.0-1_all.deb",
+      "sha256": "081ca83a75f1b2f5b1ef1c1fd30d75779137d6a49f93a88f1640c97fe5b03f0b",
+      "size": 944
+    },
+    {
+      "package": "ocean-pwr-csv-min",
+      "family": "csv",
+      "mode": "min",
+      "artifact": "ocean-pwr-csv-min_1.0.0-1_all.deb",
+      "sha256": "74df93db6c10330b469953f67dee141634cc6b8aa73d4b542cf8dfb5d222b9a7",
+      "size": 944
+    },
+    {
+      "package": "ocean-pwr-csv-max",
+      "family": "csv",
+      "mode": "max",
+      "artifact": "ocean-pwr-csv-max_1.0.0-1_all.deb",
+      "sha256": "f32bd4d44aa94af6f6b665067f8f2607533b3efa42e6fd517375ddc253f50e1e",
+      "size": 944
+    },
+    {
+      "package": "ocean-pwr-csv-transpose",
+      "family": "csv",
+      "mode": "transpose",
+      "artifact": "ocean-pwr-csv-transpose_1.0.0-1_all.deb",
+      "sha256": "e14ef84f71a8642fce1fe842e51f1f416dfccc1331705a22e89325fc707ef7e7",
+      "size": 952
+    },
+    {
+      "package": "ocean-pwr-csv-to-json",
+      "family": "csv",
+      "mode": "to-json",
+      "artifact": "ocean-pwr-csv-to-json_1.0.0-1_all.deb",
+      "sha256": "eb56cec4ca85b1b62add615b392077d8b8b2d19550dfef32c966c6c96c70457b",
+      "size": 952
+    },
+    {
+      "package": "ocean-pwr-csv-from-json",
+      "family": "csv",
+      "mode": "from-json",
+      "artifact": "ocean-pwr-csv-from-json_1.0.0-1_all.deb",
+      "sha256": "96c8bd374aedfeb93c190d6e88c772362ff3dd815b7c85c82c3b3624e83d4715",
+      "size": 952
+    },
+    {
+      "package": "ocean-pwr-csv-dialect",
+      "family": "csv",
+      "mode": "dialect",
+      "artifact": "ocean-pwr-csv-dialect_1.0.0-1_all.deb",
+      "sha256": "175a039dbc358e4bd7b2b15aee5b0e9a77963ae55ed745979b8dedf557b17310",
+      "size": 948
+    },
+    {
+      "package": "ocean-pwr-file-size",
+      "family": "file",
+      "mode": "size",
+      "artifact": "ocean-pwr-file-size_1.0.0-1_all.deb",
+      "sha256": "b858a00cff31680cbe3fc48989b00c415e15169a4ef7381c5ffd6a55fb67ebba",
+      "size": 936
+    },
+    {
+      "package": "ocean-pwr-file-entropy",
+      "family": "file",
+      "mode": "entropy",
+      "artifact": "ocean-pwr-file-entropy_1.0.0-1_all.deb",
+      "sha256": "b3afe896333ac4c48f6166f7acfc6bbbc85d8865e88bab399ad51cb15514289b",
+      "size": 940
+    },
+    {
+      "package": "ocean-pwr-file-strings",
+      "family": "file",
+      "mode": "strings",
+      "artifact": "ocean-pwr-file-strings_1.0.0-1_all.deb",
+      "sha256": "e8a8eaacbaea61ea8d150e622a5874ce5a3bd9f04d9ddeecfb0592f588e6e6fb",
+      "size": 936
+    },
+    {
+      "package": "ocean-pwr-file-hexdump",
+      "family": "file",
+      "mode": "hexdump",
+      "artifact": "ocean-pwr-file-hexdump_1.0.0-1_all.deb",
+      "sha256": "f8723ad072efa80252d29d451ec79e93d0ae8243412be5befa3139782db24ac7",
+      "size": 944
+    },
+    {
+      "package": "ocean-pwr-file-magic",
+      "family": "file",
+      "mode": "magic",
+      "artifact": "ocean-pwr-file-magic_1.0.0-1_all.deb",
+      "sha256": "cf27cf9881e096f9d7f95cb944da8dfe6833d182c02132b86cdf0813ed4ec078",
+      "size": 940
+    },
+    {
+      "package": "ocean-pwr-file-lines",
+      "family": "file",
+      "mode": "lines",
+      "artifact": "ocean-pwr-file-lines_1.0.0-1_all.deb",
+      "sha256": "b28c019d9fd89872a6c3935a8cb03060459714155dbca235aac542fb833b9523",
+      "size": 940
+    },
+    {
+      "package": "ocean-pwr-file-words",
+      "family": "file",
+      "mode": "words",
+      "artifact": "ocean-pwr-file-words_1.0.0-1_all.deb",
+      "sha256": "1ba5796ecdaed02dec2a2eb1aa4ae91374e3562e7ee09d75f858e87a8fd19667",
+      "size": 940
+    },
+    {
+      "package": "ocean-pwr-file-duplicates",
+      "family": "file",
+      "mode": "duplicates",
+      "artifact": "ocean-pwr-file-duplicates_1.0.0-1_all.deb",
+      "sha256": "69eade44c36830e5df7e822e3c61328fc21cbdc2ae91edef43fada5c92d5bf09",
+      "size": 944
+    },
+    {
+      "package": "ocean-pwr-file-find-name",
+      "family": "file",
+      "mode": "find-name",
+      "artifact": "ocean-pwr-file-find-name_1.0.0-1_all.deb",
+      "sha256": "3233ef0f117771678fbefe1749bc6c0a0ecc6abb066e5a40d4ac831540febbf6",
+      "size": 944
+    },
+    {
+      "package": "ocean-pwr-file-find-size",
+      "family": "file",
+      "mode": "find-size",
+      "artifact": "ocean-pwr-file-find-size_1.0.0-1_all.deb",
+      "sha256": "2b4c75e1fd221f0b9c5db4a375b348a0a1b8d4f2eeed31dca85a9793d0da4aa2",
+      "size": 948
+    },
+    {
+      "package": "ocean-pwr-file-tree",
+      "family": "file",
+      "mode": "tree",
+      "artifact": "ocean-pwr-file-tree_1.0.0-1_all.deb",
+      "sha256": "c63b5d6e5beebfcebcc3b6e61afbc23699aceb2889bb69d05cf110a86e7824df",
+      "size": 936
+    },
+    {
+      "package": "ocean-pwr-file-largest",
+      "family": "file",
+      "mode": "largest",
+      "artifact": "ocean-pwr-file-largest_1.0.0-1_all.deb",
+      "sha256": "4834fd9bdd73ad35c37b6379097aeea67e3d41b282e7bf92ae2efb1ae5eda319",
+      "size": 940
+    },
+    {
+      "package": "ocean-pwr-file-newest",
+      "family": "file",
+      "mode": "newest",
+      "artifact": "ocean-pwr-file-newest_1.0.0-1_all.deb",
+      "sha256": "5061dc488ee473c4ebba7d608346eecb821934eddfe93277348febe10e410d12",
+      "size": 940
+    },
+    {
+      "package": "ocean-pwr-file-oldest",
+      "family": "file",
+      "mode": "oldest",
+      "artifact": "ocean-pwr-file-oldest_1.0.0-1_all.deb",
+      "sha256": "ab7c952ffb2e5d4866e2badc4363ae84bcda07de5fc460864b3aefafededf730",
+      "size": 940
+    },
+    {
+      "package": "ocean-pwr-file-empty",
+      "family": "file",
+      "mode": "empty",
+      "artifact": "ocean-pwr-file-empty_1.0.0-1_all.deb",
+      "sha256": "1209018dda128f98c8fbbaf47ee364d9cdce718d6d46af284a77f24d5fe71499",
+      "size": 940
+    },
+    {
+      "package": "ocean-pwr-file-permissions",
+      "family": "file",
+      "mode": "permissions",
+      "artifact": "ocean-pwr-file-permissions_1.0.0-1_all.deb",
+      "sha256": "e0136a4df0a56c63c7ed66e9d7cff8e794a84a6087042fb1ca80340a60ac7713",
+      "size": 944
+    },
+    {
+      "package": "ocean-pwr-file-mtime",
+      "family": "file",
+      "mode": "mtime",
+      "artifact": "ocean-pwr-file-mtime_1.0.0-1_all.deb",
+      "sha256": "93d2dbd38ae1598be1ab54114d288cdd7d5b7e8aca38c5d5a1a9e9ab3f5135c3",
+      "size": 940
+    },
+    {
+      "package": "ocean-pwr-file-crc32",
+      "family": "file",
+      "mode": "crc32",
+      "artifact": "ocean-pwr-file-crc32_1.0.0-1_all.deb",
+      "sha256": "83afcc06a580c8f99e8568dbbbf1358b2f4d9f0e390d510cf0877d42549b82c8",
+      "size": 940
+    },
+    {
+      "package": "ocean-pwr-file-gzip",
+      "family": "file",
+      "mode": "gzip",
+      "artifact": "ocean-pwr-file-gzip_1.0.0-1_all.deb",
+      "sha256": "03eec74219a55a2329ca78b2570e8e27de29ac35497e21da631b22ee722cfeb2",
+      "size": 936
+    },
+    {
+      "package": "ocean-pwr-file-gunzip",
+      "family": "file",
+      "mode": "gunzip",
+      "artifact": "ocean-pwr-file-gunzip_1.0.0-1_all.deb",
+      "sha256": "fe86001f34c883d6986008e059c2f69bd279b0a40b73d94e6a347726f4893ae8",
+      "size": 940
+    },
+    {
+      "package": "ocean-pwr-file-compare",
+      "family": "file",
+      "mode": "compare",
+      "artifact": "ocean-pwr-file-compare_1.0.0-1_all.deb",
+      "sha256": "191e9783c7c366f118e494ac007679dc527fe65411ef945d98e991f719550697",
+      "size": 940
+    },
+    {
+      "package": "ocean-pwr-file-basename",
+      "family": "file",
+      "mode": "basename",
+      "artifact": "ocean-pwr-file-basename_1.0.0-1_all.deb",
+      "sha256": "57527986cfd6eb79ce3c2655eae7a4377e9a163534959b94edffe9df983d6f33",
+      "size": 944
+    },
+    {
+      "package": "ocean-pwr-file-dirname",
+      "family": "file",
+      "mode": "dirname",
+      "artifact": "ocean-pwr-file-dirname_1.0.0-1_all.deb",
+      "sha256": "3c92be650213a34a8ada0c66a8d3d077c057207a5565913953a8aae88cfb9b55",
+      "size": 940
+    },
+    {
+      "package": "ocean-pwr-file-extension",
+      "family": "file",
+      "mode": "extension",
+      "artifact": "ocean-pwr-file-extension_1.0.0-1_all.deb",
+      "sha256": "6a14beb70835ffdb4fa53ac41764156e0c4c5a19418c05d2bf11948a390687fa",
+      "size": 944
+    },
+    {
+      "package": "ocean-pwr-file-realpath",
+      "family": "file",
+      "mode": "realpath",
+      "artifact": "ocean-pwr-file-realpath_1.0.0-1_all.deb",
+      "sha256": "275f329fa9d43eeea73918c2bd71e9795b75759ee65f1cd0762613f900f8cd71",
+      "size": 944
+    },
+    {
+      "package": "ocean-pwr-net-ip-info",
+      "family": "net",
+      "mode": "ip-info",
+      "artifact": "ocean-pwr-net-ip-info_1.0.0-1_all.deb",
+      "sha256": "1b583dd900b59d1034ad87806e6ec15ee8b10182780f23c343556ec35e997329",
+      "size": 952
+    },
+    {
+      "package": "ocean-pwr-net-cidr-info",
+      "family": "net",
+      "mode": "cidr-info",
+      "artifact": "ocean-pwr-net-cidr-info_1.0.0-1_all.deb",
+      "sha256": "f90ddaaf253fd6dbea677fb1540bc6840807a0f8cc813340fc91e2eaf6bd1c0e",
+      "size": 956
+    },
+    {
+      "package": "ocean-pwr-net-cidr-contains",
+      "family": "net",
+      "mode": "cidr-contains",
+      "artifact": "ocean-pwr-net-cidr-contains_1.0.0-1_all.deb",
+      "sha256": "029d814a3839db3cf49fc7b230a1ec4c990f3e28ecfe47c4a66091af2e92477b",
+      "size": 960
+    },
+    {
+      "package": "ocean-pwr-net-cidr-hosts",
+      "family": "net",
+      "mode": "cidr-hosts",
+      "artifact": "ocean-pwr-net-cidr-hosts_1.0.0-1_all.deb",
+      "sha256": "60451ac7eaffe51095d1aed248dcbaa2d96cc44aa5332b42c2ec48ee45a9ca4f",
+      "size": 952
+    },
+    {
+      "package": "ocean-pwr-net-url-parse",
+      "family": "net",
+      "mode": "url-parse",
+      "artifact": "ocean-pwr-net-url-parse_1.0.0-1_all.deb",
+      "sha256": "3aaf3fb219d58d1a570f643162a9c35fdcc0320acbe8dffe267b993f75342b4f",
+      "size": 956
+    },
+    {
+      "package": "ocean-pwr-net-url-normalize",
+      "family": "net",
+      "mode": "url-normalize",
+      "artifact": "ocean-pwr-net-url-normalize_1.0.0-1_all.deb",
+      "sha256": "475e14f6c3f8123301f4b9ea22b3df3dade36c72ea4a71edfb6296bb8770426a",
+      "size": 960
+    },
+    {
+      "package": "ocean-pwr-net-dns-a",
+      "family": "net",
+      "mode": "dns-a",
+      "artifact": "ocean-pwr-net-dns-a_1.0.0-1_all.deb",
+      "sha256": "fc4ca6ca7afeb3f7c6b9804aa416d35a3dda41d73d5bfb561c8f07d1f0b1e28e",
+      "size": 952
+    },
+    {
+      "package": "ocean-pwr-net-dns-aaaa",
+      "family": "net",
+      "mode": "dns-aaaa",
+      "artifact": "ocean-pwr-net-dns-aaaa_1.0.0-1_all.deb",
+      "sha256": "dd39f5bdf051a5b9936ad82d8e8b36b415e44498d24b068175270dd345b768a1",
+      "size": 952
+    },
+    {
+      "package": "ocean-pwr-net-dns-reverse",
+      "family": "net",
+      "mode": "dns-reverse",
+      "artifact": "ocean-pwr-net-dns-reverse_1.0.0-1_all.deb",
+      "sha256": "45a5242ee8df4c261bf1585b6fe6a7a1e72f1d1a99adf81ba698558553851906",
+      "size": 956
+    },
+    {
+      "package": "ocean-pwr-net-resolve",
+      "family": "net",
+      "mode": "resolve",
+      "artifact": "ocean-pwr-net-resolve_1.0.0-1_all.deb",
+      "sha256": "bbb79617106e7a7342a8d7cf9378a27441a0ef905f145ffa94f331163032b913",
+      "size": 952
+    },
+    {
+      "package": "ocean-pwr-net-port-check",
+      "family": "net",
+      "mode": "port-check",
+      "artifact": "ocean-pwr-net-port-check_1.0.0-1_all.deb",
+      "sha256": "214aa2f3cac83045b2c9728e55db6b97d28a6d34717a45fdc622a97ffe8c06b5",
+      "size": 952
+    },
+    {
+      "package": "ocean-pwr-net-tcp-ping",
+      "family": "net",
+      "mode": "tcp-ping",
+      "artifact": "ocean-pwr-net-tcp-ping_1.0.0-1_all.deb",
+      "sha256": "0cdb0b46670b37b8633d1d62c4ad98831c88da6367a7846edbf8a6dd99c30a5b",
+      "size": 952
+    },
+    {
+      "package": "ocean-pwr-net-http-head",
+      "family": "net",
+      "mode": "http-head",
+      "artifact": "ocean-pwr-net-http-head_1.0.0-1_all.deb",
+      "sha256": "6756cebd76f58b64ba796d66460eb731cf8d33ef36be890b7a1de3d7bb4faea0",
+      "size": 956
+    },
+    {
+      "package": "ocean-pwr-net-http-get",
+      "family": "net",
+      "mode": "http-get",
+      "artifact": "ocean-pwr-net-http-get_1.0.0-1_all.deb",
+      "sha256": "a6f9fe94dbddc039cc4e013d9484ac0ccb5ab51e430a8d2238d178e0896a729a",
+      "size": 952
+    },
+    {
+      "package": "ocean-pwr-net-http-status",
+      "family": "net",
+      "mode": "http-status",
+      "artifact": "ocean-pwr-net-http-status_1.0.0-1_all.deb",
+      "sha256": "05f0e4bed49b0d22e566498f5600a4c13bbfbc035c6cecd82d24320113754667",
+      "size": 960
+    },
+    {
+      "package": "ocean-pwr-net-http-headers",
+      "family": "net",
+      "mode": "http-headers",
+      "artifact": "ocean-pwr-net-http-headers_1.0.0-1_all.deb",
+      "sha256": "321ffe01c1ebe7a4b1f5b82a0c2f306e0a1ebe5d09f3159dfe00c6f6a5c13763",
+      "size": 956
+    },
+    {
+      "package": "ocean-pwr-net-tls-cert",
+      "family": "net",
+      "mode": "tls-cert",
+      "artifact": "ocean-pwr-net-tls-cert_1.0.0-1_all.deb",
+      "sha256": "607add5311ec7ddff09d35f1a137d284c8fc0210bcae6d0f6577663deb2d608b",
+      "size": 952
+    },
+    {
+      "package": "ocean-pwr-net-tls-expiry",
+      "family": "net",
+      "mode": "tls-expiry",
+      "artifact": "ocean-pwr-net-tls-expiry_1.0.0-1_all.deb",
+      "sha256": "60f5583e09d76ed3eae7562ebc486664b2ec6328aa51f1f28933a3b4e227cbae",
+      "size": 952
+    },
+    {
+      "package": "ocean-pwr-net-host-port-parse",
+      "family": "net",
+      "mode": "host-port-parse",
+      "artifact": "ocean-pwr-net-host-port-parse_1.0.0-1_all.deb",
+      "sha256": "215323117cf4690204861fe1cf508286a0a505573b92c4cc34181970d409d7f6",
+      "size": 964
+    },
+    {
+      "package": "ocean-pwr-net-ipv4-to-int",
+      "family": "net",
+      "mode": "ipv4-to-int",
+      "artifact": "ocean-pwr-net-ipv4-to-int_1.0.0-1_all.deb",
+      "sha256": "b43e078974fbaed34ff53fcad55dad584c0963cbb8f348bd4ff93a71709432d9",
+      "size": 964
+    },
+    {
+      "package": "ocean-pwr-net-int-to-ipv4",
+      "family": "net",
+      "mode": "int-to-ipv4",
+      "artifact": "ocean-pwr-net-int-to-ipv4_1.0.0-1_all.deb",
+      "sha256": "5ec9a130929d42d1063224386ad27a42f0135821855e8e9e5d978fa76cd8c24a",
+      "size": 964
+    },
+    {
+      "package": "ocean-pwr-net-mac-normalize",
+      "family": "net",
+      "mode": "mac-normalize",
+      "artifact": "ocean-pwr-net-mac-normalize_1.0.0-1_all.deb",
+      "sha256": "67c4f693e4ed7cc1a7d0badc36e40724a320ea69753939dbf1b22d0a51634c5e",
+      "size": 960
+    },
+    {
+      "package": "ocean-pwr-net-user-agent",
+      "family": "net",
+      "mode": "user-agent",
+      "artifact": "ocean-pwr-net-user-agent_1.0.0-1_all.deb",
+      "sha256": "daad515cf33dc59c7e8efc669b4afc8f829622c98a66959d58a3b0de3c4376d6",
+      "size": 952
+    },
+    {
+      "package": "ocean-pwr-net-query-encode",
+      "family": "net",
+      "mode": "query-encode",
+      "artifact": "ocean-pwr-net-query-encode_1.0.0-1_all.deb",
+      "sha256": "16d7919cb996263bf52ed0dbebef94b3020389605e3d897066a81f4dbbdd08e1",
+      "size": 960
+    },
+    {
+      "package": "ocean-pwr-net-query-decode",
+      "family": "net",
+      "mode": "query-decode",
+      "artifact": "ocean-pwr-net-query-decode_1.0.0-1_all.deb",
+      "sha256": "95de9dc8515e10048aad19d52800eb5fd552d6ad5e9f8d25783fc30bd091f3fe",
+      "size": 960
+    },
+    {
+      "package": "ocean-pwr-time-now-utc",
+      "family": "time",
+      "mode": "now-utc",
+      "artifact": "ocean-pwr-time-now-utc_1.0.0-1_all.deb",
+      "sha256": "754f452576d1c77467d04d33820e575f8fb5a6b58a8eb1de993d63ff1610835f",
+      "size": 948
+    },
+    {
+      "package": "ocean-pwr-time-now-local",
+      "family": "time",
+      "mode": "now-local",
+      "artifact": "ocean-pwr-time-now-local_1.0.0-1_all.deb",
+      "sha256": "6ab2abc897ea3626cf149d20f91c54a30437460c5917302824dbd249ca30b2e3",
+      "size": 948
+    },
+    {
+      "package": "ocean-pwr-time-epoch-now",
+      "family": "time",
+      "mode": "epoch-now",
+      "artifact": "ocean-pwr-time-epoch-now_1.0.0-1_all.deb",
+      "sha256": "0fad38a259b1fd60f99da03889bbf0ae38e164f25a53a6a934c989eb379312b2",
+      "size": 948
+    },
+    {
+      "package": "ocean-pwr-time-epoch-to-iso",
+      "family": "time",
+      "mode": "epoch-to-iso",
+      "artifact": "ocean-pwr-time-epoch-to-iso_1.0.0-1_all.deb",
+      "sha256": "0de84c649780de667559207a7e37474e64ffc1bf5ab7f6710f579aa210250088",
+      "size": 956
+    },
+    {
+      "package": "ocean-pwr-time-iso-to-epoch",
+      "family": "time",
+      "mode": "iso-to-epoch",
+      "artifact": "ocean-pwr-time-iso-to-epoch_1.0.0-1_all.deb",
+      "sha256": "e90ce41674d72c47c38cdaa1b25ce03669d0e7c195169d545dc59e1b0b23846d",
+      "size": 956
+    },
+    {
+      "package": "ocean-pwr-time-rfc3339-normalize",
+      "family": "time",
+      "mode": "rfc3339-normalize",
+      "artifact": "ocean-pwr-time-rfc3339-normalize_1.0.0-1_all.deb",
+      "sha256": "4e851c95726ed3cc4fb8efe947d81c49edb5e2df30c8f51b775f77b7a1385772",
+      "size": 964
+    },
+    {
+      "package": "ocean-pwr-time-duration-seconds",
+      "family": "time",
+      "mode": "duration-seconds",
+      "artifact": "ocean-pwr-time-duration-seconds_1.0.0-1_all.deb",
+      "sha256": "fd28f127842a80df7d24c683fd31972cc38cc8b8e7262df86734abacea25aaf0",
+      "size": 956
+    },
+    {
+      "package": "ocean-pwr-time-seconds-human",
+      "family": "time",
+      "mode": "seconds-human",
+      "artifact": "ocean-pwr-time-seconds-human_1.0.0-1_all.deb",
+      "sha256": "895f7f47d4c93bc7f75ef145f0ce2f1e4075b0ba4f8f9202fbbf2a22212b33cd",
+      "size": 956
+    },
+    {
+      "package": "ocean-pwr-time-date-add-days",
+      "family": "time",
+      "mode": "date-add-days",
+      "artifact": "ocean-pwr-time-date-add-days_1.0.0-1_all.deb",
+      "sha256": "15a7d9a5dec6c4510f82e4ac9dbb5a487a2f45c1fc0336beb44265caaa3ce447",
+      "size": 956
+    },
+    {
+      "package": "ocean-pwr-time-date-diff",
+      "family": "time",
+      "mode": "date-diff",
+      "artifact": "ocean-pwr-time-date-diff_1.0.0-1_all.deb",
+      "sha256": "c6e282a4271273e73c084907155b3114e65b3b367b42aab23b4cf3ac5616cdd1",
+      "size": 948
+    },
+    {
+      "package": "ocean-pwr-time-weekday",
+      "family": "time",
+      "mode": "weekday",
+      "artifact": "ocean-pwr-time-weekday_1.0.0-1_all.deb",
+      "sha256": "55d17eb33d6ccb726ecd907c0871d57fe10ebe6003a13b896740c75c364005ba",
+      "size": 944
+    },
+    {
+      "package": "ocean-pwr-time-month-days",
+      "family": "time",
+      "mode": "month-days",
+      "artifact": "ocean-pwr-time-month-days_1.0.0-1_all.deb",
+      "sha256": "5509ee44a55cdbc77c9d8ebf51e52f0b444be1a420c79fee6fab9021c7604389",
+      "size": 948
+    },
+    {
+      "package": "ocean-pwr-time-leap-year",
+      "family": "time",
+      "mode": "leap-year",
+      "artifact": "ocean-pwr-time-leap-year_1.0.0-1_all.deb",
+      "sha256": "956d7a01ca5c8fed678d4f9abb199e7e8342f7d010fadb3569991e1bd20f383e",
+      "size": 952
+    },
+    {
+      "package": "ocean-pwr-time-timezone-list",
+      "family": "time",
+      "mode": "timezone-list",
+      "artifact": "ocean-pwr-time-timezone-list_1.0.0-1_all.deb",
+      "sha256": "5ca1e0e5033b2af2309b4999ff73fbb0ab2dbba654fb065b8e8c8f853eeb6b36",
+      "size": 952
+    },
+    {
+      "package": "ocean-pwr-time-timezone-convert",
+      "family": "time",
+      "mode": "timezone-convert",
+      "artifact": "ocean-pwr-time-timezone-convert_1.0.0-1_all.deb",
+      "sha256": "9c3b16e4ea7432f7fd5fa346249d21a0abe35ccfcf855d0dd66af33954791b3f",
+      "size": 952
+    },
+    {
+      "package": "ocean-pwr-time-unix-ms-now",
+      "family": "time",
+      "mode": "unix-ms-now",
+      "artifact": "ocean-pwr-time-unix-ms-now_1.0.0-1_all.deb",
+      "sha256": "69d69beb847d04bee12f69ff6651c68962569480caf058a819ea5c6fb9e72c2d",
+      "size": 956
+    },
+    {
+      "package": "ocean-pwr-time-unix-ms-to-iso",
+      "family": "time",
+      "mode": "unix-ms-to-iso",
+      "artifact": "ocean-pwr-time-unix-ms-to-iso_1.0.0-1_all.deb",
+      "sha256": "be1863ddc59918a856d34b64f2f0f0bed6a966c4d202ef80f12956b3936275f1",
+      "size": 964
+    },
+    {
+      "package": "ocean-pwr-time-iso-to-unix-ms",
+      "family": "time",
+      "mode": "iso-to-unix-ms",
+      "artifact": "ocean-pwr-time-iso-to-unix-ms_1.0.0-1_all.deb",
+      "sha256": "7a46d28a6bf44ee4625f639774cb88d448e67d2f130be41e1eb4fd2904ce58e4",
+      "size": 960
+    },
+    {
+      "package": "ocean-pwr-time-relative-age",
+      "family": "time",
+      "mode": "relative-age",
+      "artifact": "ocean-pwr-time-relative-age_1.0.0-1_all.deb",
+      "sha256": "8e4e60842c185fe56776cfb48b4737bd914d39f7e519279d56bfae233702a4d3",
+      "size": 952
+    },
+    {
+      "package": "ocean-pwr-time-sleep-until",
+      "family": "time",
+      "mode": "sleep-until",
+      "artifact": "ocean-pwr-time-sleep-until_1.0.0-1_all.deb",
+      "sha256": "a41697d102dc627631b9c09b8f854e81aee9e8d8dbbcee7f46e5715e5ff6136b",
+      "size": 952
+    },
+    {
+      "package": "ocean-pwr-id-uuid4",
+      "family": "id",
+      "mode": "uuid4",
+      "artifact": "ocean-pwr-id-uuid4_1.0.0-1_all.deb",
+      "sha256": "afbf3dcd9b6e6b43d46548aba9d724da5aaf3cf851985726fab039426351109c",
+      "size": 948
+    },
+    {
+      "package": "ocean-pwr-id-uuid1",
+      "family": "id",
+      "mode": "uuid1",
+      "artifact": "ocean-pwr-id-uuid1_1.0.0-1_all.deb",
+      "sha256": "69e4a5947dec8adead2712322813da7bab4d7e06a191ddfd0ecb631ead26cb29",
+      "size": 948
+    },
+    {
+      "package": "ocean-pwr-id-uuid3-dns",
+      "family": "id",
+      "mode": "uuid3-dns",
+      "artifact": "ocean-pwr-id-uuid3-dns_1.0.0-1_all.deb",
+      "sha256": "3cee0bd837483a42e6332028c34ee861f9182bbb6ef814c35b67e58bf90ca203",
+      "size": 956
+    },
+    {
+      "package": "ocean-pwr-id-uuid5-dns",
+      "family": "id",
+      "mode": "uuid5-dns",
+      "artifact": "ocean-pwr-id-uuid5-dns_1.0.0-1_all.deb",
+      "sha256": "be6e621a2f69fd3df6a31239fb84d017494a4220b8c3fe51233191624a3e5d70",
+      "size": 956
+    },
+    {
+      "package": "ocean-pwr-id-token-hex",
+      "family": "id",
+      "mode": "token-hex",
+      "artifact": "ocean-pwr-id-token-hex_1.0.0-1_all.deb",
+      "sha256": "d1363edc28feff212e04a4cbb912e0aaf836c58dfebf198fa7c394e63db7d87f",
+      "size": 956
+    },
+    {
+      "package": "ocean-pwr-id-token-url",
+      "family": "id",
+      "mode": "token-url",
+      "artifact": "ocean-pwr-id-token-url_1.0.0-1_all.deb",
+      "sha256": "008850754fefbcc3885875285ba03e0e77245e71ad6f083380b4e0ba90857e78",
+      "size": 956
+    },
+    {
+      "package": "ocean-pwr-id-token-base64",
+      "family": "id",
+      "mode": "token-base64",
+      "artifact": "ocean-pwr-id-token-base64_1.0.0-1_all.deb",
+      "sha256": "5098555909d9932ec80a27a4800bd30bcbdd6ac4e010fa81b1885c6aad5fc0d9",
+      "size": 964
+    },
+    {
+      "package": "ocean-pwr-id-nanoid-like",
+      "family": "id",
+      "mode": "nanoid-like",
+      "artifact": "ocean-pwr-id-nanoid-like_1.0.0-1_all.deb",
+      "sha256": "a10da18f578ff502ed62afa222d79b3d1c8d26af78a49d1f884a0ead52f452de",
+      "size": 956
+    },
+    {
+      "package": "ocean-pwr-id-random-int",
+      "family": "id",
+      "mode": "random-int",
+      "artifact": "ocean-pwr-id-random-int_1.0.0-1_all.deb",
+      "sha256": "3d151a52ab2f36b9e6e7fbf4f1ccb526502259168e69a4d6ae8e14f83389c142",
+      "size": 960
+    },
+    {
+      "package": "ocean-pwr-id-random-choice",
+      "family": "id",
+      "mode": "random-choice",
+      "artifact": "ocean-pwr-id-random-choice_1.0.0-1_all.deb",
+      "sha256": "295e1a32755ea438c80308c2ef041fd69810e20c2f949178886a801e43c0daf1",
+      "size": 964
+    },
+    {
+      "package": "ocean-pwr-id-random-bytes",
+      "family": "id",
+      "mode": "random-bytes",
+      "artifact": "ocean-pwr-id-random-bytes_1.0.0-1_all.deb",
+      "sha256": "e8729fe6baa08163901846fb60cf2000a2d647bd9ff44c00ab25b3ae8a4c9790",
+      "size": 960
+    },
+    {
+      "package": "ocean-pwr-id-ulid-like",
+      "family": "id",
+      "mode": "ulid-like",
+      "artifact": "ocean-pwr-id-ulid-like_1.0.0-1_all.deb",
+      "sha256": "9f3c2302cbd36599f61f79107b3c08ab490ad671f60ed75f0cf0fcfd62c76841",
+      "size": 960
+    },
+    {
+      "package": "ocean-pwr-id-snowflake-like",
+      "family": "id",
+      "mode": "snowflake-like",
+      "artifact": "ocean-pwr-id-snowflake-like_1.0.0-1_all.deb",
+      "sha256": "3f9685c4ac24e4f3cad14d2ebaaad2906588465e5aab8a983dcdc25142771dd6",
+      "size": 968
+    },
+    {
+      "package": "ocean-pwr-id-hash-id",
+      "family": "id",
+      "mode": "hash-id",
+      "artifact": "ocean-pwr-id-hash-id_1.0.0-1_all.deb",
+      "sha256": "31624444fbfdeb545a51ccb78baf6f231b87e35110e5e6314674d02314897207",
+      "size": 956
+    },
+    {
+      "package": "ocean-pwr-id-slug-id",
+      "family": "id",
+      "mode": "slug-id",
+      "artifact": "ocean-pwr-id-slug-id_1.0.0-1_all.deb",
+      "sha256": "ccf02c332d3f4d6c2b5d976f8826a35a5e80539f498a935cea1364dfd9b51fbe",
+      "size": 956
+    },
+    {
+      "package": "ocean-pwr-binary-zip-list",
+      "family": "binary",
+      "mode": "zip-list",
+      "artifact": "ocean-pwr-binary-zip-list_1.0.0-1_all.deb",
+      "sha256": "03566bb99b8e78b6ff23dc8a4b8c31d2ab596dbff163ce0a02bced3122408363",
+      "size": 956
+    },
+    {
+      "package": "ocean-pwr-binary-zip-extract",
+      "family": "binary",
+      "mode": "zip-extract",
+      "artifact": "ocean-pwr-binary-zip-extract_1.0.0-1_all.deb",
+      "sha256": "10f6ec16058477189291744e58ab2519580fd451014b7bc814840aabcb0d9700",
+      "size": 964
+    },
+    {
+      "package": "ocean-pwr-binary-zip-test",
+      "family": "binary",
+      "mode": "zip-test",
+      "artifact": "ocean-pwr-binary-zip-test_1.0.0-1_all.deb",
+      "sha256": "89a840302c360a8a815ee8e93bc04d7f2fe4a29b9b6425f7f46b025f4afefb18",
+      "size": 956
+    },
+    {
+      "package": "ocean-pwr-binary-tar-list",
+      "family": "binary",
+      "mode": "tar-list",
+      "artifact": "ocean-pwr-binary-tar-list_1.0.0-1_all.deb",
+      "sha256": "e62a77389ac58a8d8015c5092c3a349ff351804f8ea7cd6aa059d74a5a2dd10e",
+      "size": 956
+    },
+    {
+      "package": "ocean-pwr-binary-gzip-info",
+      "family": "binary",
+      "mode": "gzip-info",
+      "artifact": "ocean-pwr-binary-gzip-info_1.0.0-1_all.deb",
+      "sha256": "8c5e67150faa351b0c13a39500b64b03ab9798e9c249cde3c471b9d7149b9691",
+      "size": 960
+    },
+    {
+      "package": "ocean-pwr-binary-elf-header",
+      "family": "binary",
+      "mode": "elf-header",
+      "artifact": "ocean-pwr-binary-elf-header_1.0.0-1_all.deb",
+      "sha256": "9bab5d9dfe96b7060f0ee8173a124d92784fc7f6a7c930dd2280e550c5db2d41",
+      "size": 960
+    },
+    {
+      "package": "ocean-pwr-binary-png-info",
+      "family": "binary",
+      "mode": "png-info",
+      "artifact": "ocean-pwr-binary-png-info_1.0.0-1_all.deb",
+      "sha256": "5c6ca69fe94b1f8de0e28e35a4168a4bdf6153ca2707d946999d8bf1c5d93341",
+      "size": 956
+    },
+    {
+      "package": "ocean-pwr-binary-jpeg-info",
+      "family": "binary",
+      "mode": "jpeg-info",
+      "artifact": "ocean-pwr-binary-jpeg-info_1.0.0-1_all.deb",
+      "sha256": "0378f6c542d9ad1fc81cac78d917a7a97739492decedf9608c1809652e5ebd8b",
+      "size": 960
+    },
+    {
+      "package": "ocean-pwr-binary-pdf-info",
+      "family": "binary",
+      "mode": "pdf-info",
+      "artifact": "ocean-pwr-binary-pdf-info_1.0.0-1_all.deb",
+      "sha256": "1f6653c96ede410a664202ca1cfceee93dc990043226e00a4bf7b27b7856742d",
+      "size": 956
+    },
+    {
+      "package": "ocean-pwr-binary-sqlite-tables",
+      "family": "binary",
+      "mode": "sqlite-tables",
+      "artifact": "ocean-pwr-binary-sqlite-tables_1.0.0-1_all.deb",
+      "sha256": "46a7a8327c5a41ea013814b1d0933d9aaa3d5ea1a87079662c5655b1d25ac579",
+      "size": 964
+    },
+    {
+      "package": "ocean-pwr-binary-sqlite-schema",
+      "family": "binary",
+      "mode": "sqlite-schema",
+      "artifact": "ocean-pwr-binary-sqlite-schema_1.0.0-1_all.deb",
+      "sha256": "3820f583b2187ee1e7469722d7c925c90d9efa2c3dd8c49e82403aec1091b9f9",
+      "size": 964
+    },
+    {
+      "package": "ocean-pwr-binary-strings",
+      "family": "binary",
+      "mode": "strings",
+      "artifact": "ocean-pwr-binary-strings_1.0.0-1_all.deb",
+      "sha256": "0938012912c594b812f7b6d7f40ee888d0d8982ff6a0581c18c271b7f7648d02",
+      "size": 952
+    },
+    {
+      "package": "ocean-pwr-binary-hex",
+      "family": "binary",
+      "mode": "hex",
+      "artifact": "ocean-pwr-binary-hex_1.0.0-1_all.deb",
+      "sha256": "4c9d064bd2e85d70f56c44907a4d52d049c929766c6d2789a6a9b55af8e588b0",
+      "size": 948
+    },
+    {
+      "package": "ocean-pwr-binary-base64",
+      "family": "binary",
+      "mode": "base64",
+      "artifact": "ocean-pwr-binary-base64_1.0.0-1_all.deb",
+      "sha256": "b8a7d9af269a4fae55642795343b5fd5ee6b163506f31b86a2ba8a510cc05ec6",
+      "size": 952
+    },
+    {
+      "package": "ocean-pwr-binary-apk-list",
+      "family": "binary",
+      "mode": "apk-list",
+      "artifact": "ocean-pwr-binary-apk-list_1.0.0-1_all.deb",
+      "sha256": "7fcc53713a9fb69cd604a3016b86d03f9a9d0ce4702df31c7fafe7fea188840f",
+      "size": 956
+    },
+    {
+      "package": "ocean-pwr-binary-apk-native-libs",
+      "family": "binary",
+      "mode": "apk-native-libs",
+      "artifact": "ocean-pwr-binary-apk-native-libs_1.0.0-1_all.deb",
+      "sha256": "d69623f873f642fd93a6c892dd7c7d0f614543b1a391b961242de3366ed06224",
+      "size": 968
+    },
+    {
+      "package": "ocean-pwr-binary-apk-dex-list",
+      "family": "binary",
+      "mode": "apk-dex-list",
+      "artifact": "ocean-pwr-binary-apk-dex-list_1.0.0-1_all.deb",
+      "sha256": "c4b5931b45347df2b249cde1163ebea35ecb2bdc1bcc7d910d3a80f7a374bb7c",
+      "size": 964
+    },
+    {
+      "package": "ocean-pwr-binary-apk-assets",
+      "family": "binary",
+      "mode": "apk-assets",
+      "artifact": "ocean-pwr-binary-apk-assets_1.0.0-1_all.deb",
+      "sha256": "d1be8a9733c364d26cb1f452bb1d98feea503b1e4ec77165e0b482049f1fe86e",
+      "size": 956
+    },
+    {
+      "package": "ocean-pwr-binary-apk-signature-files",
+      "family": "binary",
+      "mode": "apk-signature-files",
+      "artifact": "ocean-pwr-binary-apk-signature-files_1.0.0-1_all.deb",
+      "sha256": "0ca5f0d6af6ee56546ff7e68e4fd0f556df301b6203efcaec60546f4f2f82fda",
+      "size": 972
+    },
+    {
+      "package": "ocean-pwr-binary-zip-ratio",
+      "family": "binary",
+      "mode": "zip-ratio",
+      "artifact": "ocean-pwr-binary-zip-ratio_1.0.0-1_all.deb",
+      "sha256": "6ad0750c57fd5ead6260e6ad4abaa87ff5af27c64892a2a28ea8625701de7aed",
+      "size": 956
+    },
+    {
+      "package": "ocean-pwr-system-platform",
+      "family": "system",
+      "mode": "platform",
+      "artifact": "ocean-pwr-system-platform_1.0.0-1_all.deb",
+      "sha256": "c8f9d864f98c3d1896f3487fd001ea23716c276adf6a1da6abee07df3cd2f8f0",
+      "size": 956
+    },
+    {
+      "package": "ocean-pwr-system-cpu-count",
+      "family": "system",
+      "mode": "cpu-count",
+      "artifact": "ocean-pwr-system-cpu-count_1.0.0-1_all.deb",
+      "sha256": "c796b73e8cf79e11b92f0db7693baa6b145b5da28b9c1707ccfcfd2abea2949d",
+      "size": 960
+    },
+    {
+      "package": "ocean-pwr-system-loadavg",
+      "family": "system",
+      "mode": "loadavg",
+      "artifact": "ocean-pwr-system-loadavg_1.0.0-1_all.deb",
+      "sha256": "79a1ed19211c5968fbc0dd5c5ce69a1504ad4d440f2841306f6a9e5cfc7f2fc5",
+      "size": 956
+    },
+    {
+      "package": "ocean-pwr-system-meminfo",
+      "family": "system",
+      "mode": "meminfo",
+      "artifact": "ocean-pwr-system-meminfo_1.0.0-1_all.deb",
+      "sha256": "35da450059bc0174611dca4054c3bb8018cf8515d87ceddf21d258ff20da0c6e",
+      "size": 956
+    },
+    {
+      "package": "ocean-pwr-system-cpuinfo",
+      "family": "system",
+      "mode": "cpuinfo",
+      "artifact": "ocean-pwr-system-cpuinfo_1.0.0-1_all.deb",
+      "sha256": "b2cf40306da67ba0f88e8cb70d72ac5f964c189bee2e6ef22eef3bf2de1ce667",
+      "size": 956
+    },
+    {
+      "package": "ocean-pwr-system-disk-usage",
+      "family": "system",
+      "mode": "disk-usage",
+      "artifact": "ocean-pwr-system-disk-usage_1.0.0-1_all.deb",
+      "sha256": "a6ad9d003653d65aa0423f6ca85f11a0608599180607bb0bde15f11c29d32e5b",
+      "size": 964
+    },
+    {
+      "package": "ocean-pwr-system-env",
+      "family": "system",
+      "mode": "env",
+      "artifact": "ocean-pwr-system-env_1.0.0-1_all.deb",
+      "sha256": "fa46ad6060e29563fe830dbf002ab1aee917b7dd7a583d484f9efd8b9da1f0f6",
+      "size": 952
+    },
+    {
+      "package": "ocean-pwr-system-env-json",
+      "family": "system",
+      "mode": "env-json",
+      "artifact": "ocean-pwr-system-env-json_1.0.0-1_all.deb",
+      "sha256": "3c3fe4c38d2ab86f8fbfe691dd4bb818526e99dee524b7a47623e8ae792e5a1b",
+      "size": 960
+    },
+    {
+      "package": "ocean-pwr-system-path",
+      "family": "system",
+      "mode": "path",
+      "artifact": "ocean-pwr-system-path_1.0.0-1_all.deb",
+      "sha256": "07102b376ebb45c0a5efc5b8b56321fbe3902235170a85cac7665e793d9ccb03",
+      "size": 952
+    },
+    {
+      "package": "ocean-pwr-system-which",
+      "family": "system",
+      "mode": "which",
+      "artifact": "ocean-pwr-system-which_1.0.0-1_all.deb",
+      "sha256": "60086dd173eac47a75ed36ac65025de918bc51105cf7181b85b5425e1165a5dd",
+      "size": 956
+    },
+    {
+      "package": "ocean-pwr-system-processes",
+      "family": "system",
+      "mode": "processes",
+      "artifact": "ocean-pwr-system-processes_1.0.0-1_all.deb",
+      "sha256": "f7875fcae19b282c1479672ec567e918ac963fa81a41445759b847484d05949d",
+      "size": 956
+    },
+    {
+      "package": "ocean-pwr-system-uptime",
+      "family": "system",
+      "mode": "uptime",
+      "artifact": "ocean-pwr-system-uptime_1.0.0-1_all.deb",
+      "sha256": "dd92e96a24d623ff41b2181510c4610ecee9d878f3edbaff362cfeb58f0ab26d",
+      "size": 956
+    },
+    {
+      "package": "ocean-pwr-system-kernel",
+      "family": "system",
+      "mode": "kernel",
+      "artifact": "ocean-pwr-system-kernel_1.0.0-1_all.deb",
+      "sha256": "034b0d08a229251da8561d1b924f0a28a4bca2ad3ae91007bd6a6e1721f038ba",
+      "size": 956
+    },
+    {
+      "package": "ocean-pwr-system-hostname",
+      "family": "system",
+      "mode": "hostname",
+      "artifact": "ocean-pwr-system-hostname_1.0.0-1_all.deb",
+      "sha256": "7670150ee0758124b10345ba5a29210ad04916190d71eed44a505d361069ac43",
+      "size": 956
+    },
+    {
+      "package": "ocean-pwr-system-cwd",
+      "family": "system",
+      "mode": "cwd",
+      "artifact": "ocean-pwr-system-cwd_1.0.0-1_all.deb",
+      "sha256": "6df58623d62a0b3d7f9f08f1e647e4022780bb9ebc786826806dfa1406f6906e",
+      "size": 952
+    },
+    {
+      "package": "ocean-pwr-dev-semver-compare",
+      "family": "dev",
+      "mode": "semver-compare",
+      "artifact": "ocean-pwr-dev-semver-compare_1.0.0-1_all.deb",
+      "sha256": "15e62cbbc48519e66fdd33fecdf6e17698bd080b49b824a3a86869450facc395",
+      "size": 964
+    },
+    {
+      "package": "ocean-pwr-dev-semver-sort",
+      "family": "dev",
+      "mode": "semver-sort",
+      "artifact": "ocean-pwr-dev-semver-sort_1.0.0-1_all.deb",
+      "sha256": "16b6c1c0a1229e3405e2fcca5aaa3cb63f85b6f55bacdff8c27f0140d75fe5ec",
+      "size": 960
+    },
+    {
+      "package": "ocean-pwr-dev-regex-test",
+      "family": "dev",
+      "mode": "regex-test",
+      "artifact": "ocean-pwr-dev-regex-test_1.0.0-1_all.deb",
+      "sha256": "4083d96f802004d589795eab6ca063c915eb2b2eabd6b6c94af35cf3a106c190",
+      "size": 956
+    },
+    {
+      "package": "ocean-pwr-dev-regex-groups",
+      "family": "dev",
+      "mode": "regex-groups",
+      "artifact": "ocean-pwr-dev-regex-groups_1.0.0-1_all.deb",
+      "sha256": "9dae24e379b928ba0359511f4e3e76ed7498a77fc8b93cd5de132f1674bba60f",
+      "size": 964
+    },
+    {
+      "package": "ocean-pwr-dev-diff-unified",
+      "family": "dev",
+      "mode": "diff-unified",
+      "artifact": "ocean-pwr-dev-diff-unified_1.0.0-1_all.deb",
+      "sha256": "82496b41fb9c1a9be950446e40fe29a2515337a194628bba723bd7a9a45ae185",
+      "size": 960
+    },
+    {
+      "package": "ocean-pwr-dev-json-escape",
+      "family": "dev",
+      "mode": "json-escape",
+      "artifact": "ocean-pwr-dev-json-escape_1.0.0-1_all.deb",
+      "sha256": "5e20b513228f999a11f1904c5f38380c6c62de4c1fc90a7ef0d0341316bcb7d0",
+      "size": 960
+    },
+    {
+      "package": "ocean-pwr-dev-shell-quote",
+      "family": "dev",
+      "mode": "shell-quote",
+      "artifact": "ocean-pwr-dev-shell-quote_1.0.0-1_all.deb",
+      "sha256": "6fb4aa5c8f7dd9caa67a62d70f7709a6a35538dea5c19d19b6c32395c1e8b5df",
+      "size": 960
+    },
+    {
+      "package": "ocean-pwr-dev-int-base",
+      "family": "dev",
+      "mode": "int-base",
+      "artifact": "ocean-pwr-dev-int-base_1.0.0-1_all.deb",
+      "sha256": "43fbbf0c11f9b93f25e1018859dba4f43d2989ecbe2239c60df1a284ab9f5114",
+      "size": 956
+    },
+    {
+      "package": "ocean-pwr-dev-bytes-human",
+      "family": "dev",
+      "mode": "bytes-human",
+      "artifact": "ocean-pwr-dev-bytes-human_1.0.0-1_all.deb",
+      "sha256": "bc3d2ce9d49c941db6b0501fcc94800483ccd79fe941e6a920c7608aa0412ca3",
+      "size": 960
+    },
+    {
+      "package": "ocean-pwr-dev-bytes-parse",
+      "family": "dev",
+      "mode": "bytes-parse",
+      "artifact": "ocean-pwr-dev-bytes-parse_1.0.0-1_all.deb",
+      "sha256": "6c1965a21dfaadfade82d86aa8ca8efd73d659c095777e9c543470f955962967",
+      "size": 960
+    }
+  ]
+}
