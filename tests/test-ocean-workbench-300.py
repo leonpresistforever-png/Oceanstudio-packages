@@ -52,7 +52,7 @@ with tempfile.TemporaryDirectory() as td:
     env=d/"a.env";env.write_text("A=1\nB=two\n")
     assert json.loads(run("ocean-wb-config-dotenv-to-json",env))["B"]=="two"
     toml=d/"a.toml";toml.write_text('[tool]\nname="ocean"\n')
-    assert json.loads(run("ocean-wb-config-toml-get",toml,"tool.name"))=="ocean"
+    assert run("ocean-wb-config-toml-get",toml,"tool.name").strip()=="ocean"
 
     # Markdown
     md=d/"a.md";md.write_text("# Ocean\n\n[Link](https://example.com)\n\n- [x] done\n- [ ] open\n")
