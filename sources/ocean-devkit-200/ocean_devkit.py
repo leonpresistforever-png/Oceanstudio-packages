@@ -118,7 +118,8 @@ def handle_web(cmd,a):
             else:emit({"status":r.status,"headers":dict(r.headers.items())})
         return
     if cmd=="ocean-webx-http-download":
-        if len(a)<2:die("URL OUTPUT");urllib.request.urlretrieve(a[0],a[1]);emit({"path":a[1],"bytes":P(a[1]).stat().st_size});return
+        if len(a)<2:die("URL OUTPUT")
+        urllib.request.urlretrieve(a[0],a[1]);emit({"path":a[1],"bytes":P(a[1]).stat().st_size});return
     if cmd in ("ocean-webx-http-get","ocean-webx-http-json"):
         with req(a[0]) as r:raw=r.read()
         if cmd.endswith("json"):emit(json.loads(raw))
@@ -337,18 +338,22 @@ def handle_crypto(cmd,a):
             print(h.hexdigest());return
         algo="sha256" if "sha256" in cmd or "fingerprint" in cmd else "sha512" if "sha512" in cmd else "blake2b" if "blake2b" in cmd else "md5";print(filehash(a[0],algo));return
     if cmd in ("ocean-cryptox-hmac-sha256","ocean-cryptox-hmac-sha512"):
-        if len(a)<2:die("KEY DATA");print(hmac.new(a[0].encode()," ".join(a[1:]).encode(),getattr(hashlib,"sha256" if cmd.endswith("sha256") else "sha512")).hexdigest());return
+        if len(a)<2:die("KEY DATA")
+        print(hmac.new(a[0].encode()," ".join(a[1:]).encode(),getattr(hashlib,"sha256" if cmd.endswith("sha256") else "sha512")).hexdigest());return
     if cmd=="ocean-cryptox-random-hex":print(secrets.token_hex(int(a[0]) if a else 32));return
     if cmd=="ocean-cryptox-random-base64":print(base64.b64encode(secrets.token_bytes(int(a[0]) if a else 32)).decode());return
     if cmd=="ocean-cryptox-token-url":print(secrets.token_urlsafe(int(a[0]) if a else 32));return
     if cmd=="ocean-cryptox-uuid4":print(uuid.uuid4());return
     if cmd=="ocean-cryptox-uuid5":print(uuid.uuid5(uuid.NAMESPACE_URL," ".join(a)));return
     if cmd=="ocean-cryptox-pbkdf2":
-        if len(a)<2:die("PASSWORD SALT [ITERATIONS]");print(hashlib.pbkdf2_hmac("sha256",a[0].encode(),a[1].encode(),int(a[2]) if len(a)>2 else 200000).hex());return
+        if len(a)<2:die("PASSWORD SALT [ITERATIONS]")
+        print(hashlib.pbkdf2_hmac("sha256",a[0].encode(),a[1].encode(),int(a[2]) if len(a)>2 else 200000).hex());return
     if cmd=="ocean-cryptox-scrypt":
-        if len(a)<2:die("PASSWORD SALT");print(hashlib.scrypt(a[0].encode(),salt=a[1].encode(),n=2**14,r=8,p=1).hex());return
+        if len(a)<2:die("PASSWORD SALT")
+        print(hashlib.scrypt(a[0].encode(),salt=a[1].encode(),n=2**14,r=8,p=1).hex());return
     if cmd=="ocean-cryptox-compare":
-        if len(a)<2:die("A B");print(str(hmac.compare_digest(a[0],a[1])).lower());return
+        if len(a)<2:die("A B")
+        print(str(hmac.compare_digest(a[0],a[1])).lower());return
     data=(" ".join(a)).encode()
     if cmd=="ocean-cryptox-base64-encode":print(base64.b64encode(data).decode());return
     if cmd=="ocean-cryptox-base64-decode":sys.stdout.buffer.write(base64.b64decode(a[0]));return
@@ -457,7 +462,8 @@ def handle_archive(cmd,a):
             if cmd=="ocean-archivex-zip-list":emit([i.filename for i in infos])
             elif cmd=="ocean-archivex-zip-test":emit({"valid":z.testzip() is None,"bad":z.testzip()})
             elif cmd=="ocean-archivex-zip-extract-one":
-                if len(a)<3:die("ZIP ENTRY OUTPUT_DIR");i=z.getinfo(a[1]);dst=safe_join(a[2],i.filename);dst.parent.mkdir(parents=True,exist_ok=True);dst.write_bytes(z.read(i));emit({"path":str(dst)})
+                if len(a)<3:die("ZIP ENTRY OUTPUT_DIR")
+                i=z.getinfo(a[1]);dst=safe_join(a[2],i.filename);dst.parent.mkdir(parents=True,exist_ok=True);dst.write_bytes(z.read(i));emit({"path":str(dst)})
             elif cmd=="ocean-archivex-zip-top":emit(sorted([{"name":i.filename,"bytes":i.file_size} for i in infos],key=lambda x:x["bytes"],reverse=True)[:20])
             elif cmd=="ocean-archivex-zip-ratio":
                 raw=sum(i.file_size for i in infos);comp=sum(i.compress_size for i in infos);emit({"raw":raw,"compressed":comp,"ratio":comp/raw if raw else 0})
@@ -474,7 +480,8 @@ def handle_archive(cmd,a):
                             while f.read(1024*1024):pass
                 emit({"valid":True,"members":len(mem)})
             elif cmd=="ocean-archivex-tar-extract-one":
-                if len(a)<3:die("TAR ENTRY OUTPUT_DIR");i=t.getmember(a[1]);dst=safe_join(a[2],i.name);dst.parent.mkdir(parents=True,exist_ok=True);f=t.extractfile(i);dst.write_bytes(f.read() if f else b"");emit({"path":str(dst)})
+                if len(a)<3:die("TAR ENTRY OUTPUT_DIR")
+                i=t.getmember(a[1]);dst=safe_join(a[2],i.name);dst.parent.mkdir(parents=True,exist_ok=True);f=t.extractfile(i);dst.write_bytes(f.read() if f else b"");emit({"path":str(dst)})
         return
     if cmd=="ocean-archivex-gzip-info":
         with gzip.open(p,"rb") as f:data=f.read()
