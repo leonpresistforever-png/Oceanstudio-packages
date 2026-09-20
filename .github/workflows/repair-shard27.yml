@@ -1,0 +1,200 @@
+name: Repair functional shard 27
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'sources/functional-shards/shard27_etl.py'
+      - 'scripts/repair-shard27.py'
+      - 'scripts/expansion/shard_batch4.py'
+      - 'tests/test-shard27-functional.py'
+      - '.github/workflows/repair-shard27.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ocean-repair-shard27
+  cancel-in-progress: true
+
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Checkout repair inputs
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /.github/workflows/repair-shard27.yml
+            /sources/functional-shards/shard27_etl.py
+            /scripts/repair-shard27.py
+            /scripts/expansion/shard_batch4.py
+            /tests/test-shard27-functional.py
+            /staging/shard-27-data-stream-etl/
+            /apt/dists/stable/
+            /apt/ocean.gpg
+
+      - name: Install build tools
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          sudo apt-get install -y dpkg-dev gnupg gzip git
+
+      - name: Compile and exercise every repaired command
+        run: |
+          set -euo pipefail
+          python3 -m py_compile \
+            sources/functional-shards/shard27_etl.py \
+            scripts/repair-shard27.py \
+            tests/test-shard27-functional.py
+          python3 tests/test-shard27-functional.py sources/functional-shards/shard27_etl.py
+
+      - name: Rebuild all 50 shard packages
+        run: |
+          set -euo pipefail
+          python3 scripts/repair-shard27.py \
+            --runtime sources/functional-shards/shard27_etl.py \
+            --batch scripts/expansion/shard_batch4.py \
+            --output staging/shard-27-data-stream-etl \
+            --live-packages apt/dists/stable/main/binary-aarch64/Packages
+
+          test "$(find staging/shard-27-data-stream-etl/pool/main -type f -name '*.deb' | wc -l)" -eq 50
+          test "$(grep -c '^Package:' staging/shard-27-data-stream-etl/Packages.repaired)" -eq 50
+          grep -q '"repair": "placeholder-to-functional"' staging/shard-27-data-stream-etl/provenance.json
+          grep -q '"packageCount": 50' staging/shard-27-data-stream-etl/provenance.json
+          ! grep -R -a -E '/data/(data|user/0)/com\.termux|packages\.termux\.dev|TERMUX_PREFIX' \
+            staging/shard-27-data-stream-etl sources/functional-shards/shard27_etl.py
+
+      - name: Promote repaired packages only with trusted signing key
+        id: promote
+        env:
+          OCEAN_REPOSITORY_SIGNING_KEY: ${{ secrets.OCEAN_REPOSITORY_SIGNING_KEY }}
+        run: |
+          set -euo pipefail
+          if [ -z "$OCEAN_REPOSITORY_SIGNING_KEY" ]; then
+            echo "No trusted signing key available; repaired shard stays staged."
+            echo "promoted=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          EXPECTED=$(gpg --batch --show-keys --with-colons apt/ocean.gpg 2>/dev/null | awk -F: '$1=="fpr"{print $10;exit}')
+          test -n "$EXPECTED"
+          printf '%s\n' "$OCEAN_REPOSITORY_SIGNING_KEY" | gpg --batch --import
+          ACTUAL=$(gpg --batch --list-secret-keys --with-colons 2>/dev/null | awk -F: '$1=="fpr"{print $10;exit}')
+          [ "$ACTUAL" = "$EXPECTED" ] || { echo "Signing fingerprint mismatch" >&2; exit 1; }
+
+          mkdir -p apt/pool/main
+          cp staging/shard-27-data-stream-etl/pool/main/*.deb apt/pool/main/
+
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+
+          live = Path("apt/dists/stable/main/binary-aarch64/Packages")
+          repaired = Path("staging/shard-27-data-stream-etl/Packages.repaired")
+          text = live.read_text(encoding="utf-8")
+          new = repaired.read_text(encoding="utf-8")
+          names = set(re.findall(r"^Package:\s*(\S+)", new, re.M))
+          stanzas = [s for s in re.split(r"\n\s*\n", text.strip()) if s.strip()]
+          kept = []
+          removed = 0
+          for stanza in stanzas:
+              m = re.search(r"^Package:\s*(\S+)", stanza, re.M)
+              if m and m.group(1) in names:
+                  removed += 1
+              else:
+                  kept.append(stanza)
+          if removed != 50:
+              raise SystemExit(f"expected to replace 50 live stanzas, removed {removed}")
+          out = "\n\n".join(kept) + "\n\n" + new.strip() + "\n"
+          live.write_text(out, encoding="utf-8")
+          final_names = re.findall(r"^Package:\s*(\S+)", out, re.M)
+          if len(final_names) != len(set(final_names)) + 10:
+              # Repository already has ten intentional historical duplicate-name versions.
+              raise SystemExit("unexpected duplicate-name count after shard repair")
+          PY
+
+          gzip -n -9 -c apt/dists/stable/main/binary-aarch64/Packages \
+            > apt/dists/stable/main/binary-aarch64/Packages.gz
+
+          RELEASE=apt/dists/stable/Release
+          PKG=apt/dists/stable/main/binary-aarch64/Packages
+          PKG_GZ=apt/dists/stable/main/binary-aarch64/Packages.gz
+          DATE=$(date -u -R)
+          VALID=$(date -u -R -d '+30 days')
+          {
+            echo "Origin: OceanStudio"
+            echo "Label: Ocean Packages"
+            echo "Suite: stable"
+            echo "Codename: stable"
+            echo "Architectures: aarch64 all"
+            echo "Components: main"
+            echo "Description: Official Ocean APT Repository"
+            echo "Date: $DATE"
+            echo "Valid-Until: $VALID"
+            echo "MD5Sum:"
+            printf ' %s %s main/binary-aarch64/Packages\n' "$(md5sum "$PKG" | awk '{print $1}')" "$(stat -c %s "$PKG")"
+            printf ' %s %s main/binary-aarch64/Packages.gz\n' "$(md5sum "$PKG_GZ" | awk '{print $1}')" "$(stat -c %s "$PKG_GZ")"
+            echo "SHA1:"
+            printf ' %s %s main/binary-aarch64/Packages\n' "$(sha1sum "$PKG" | awk '{print $1}')" "$(stat -c %s "$PKG")"
+            printf ' %s %s main/binary-aarch64/Packages.gz\n' "$(sha1sum "$PKG_GZ" | awk '{print $1}')" "$(stat -c %s "$PKG_GZ")"
+            echo "SHA256:"
+            printf ' %s %s main/binary-aarch64/Packages\n' "$(sha256sum "$PKG" | awk '{print $1}')" "$(stat -c %s "$PKG")"
+            printf ' %s %s main/binary-aarch64/Packages.gz\n' "$(sha256sum "$PKG_GZ" | awk '{print $1}')" "$(stat -c %s "$PKG_GZ")"
+          } > "$RELEASE"
+
+          gpg --batch --yes --local-user "$EXPECTED" --digest-algo SHA256 --clearsign \
+            --output apt/dists/stable/InRelease "$RELEASE"
+          gpg --batch --yes --local-user "$EXPECTED" --digest-algo SHA256 --detach-sign \
+            --output apt/dists/stable/Release.gpg "$RELEASE"
+          gpgv --keyring apt/ocean.gpg apt/dists/stable/InRelease
+          gpgv --keyring apt/ocean.gpg apt/dists/stable/Release.gpg "$RELEASE"
+
+          echo "promoted=true" >> "$GITHUB_OUTPUT"
+
+      - name: Commit validated repair
+        run: |
+          set -euo pipefail
+          git config user.name "Ocean Package Repair"
+          git config user.email "packages@ocean.studio"
+
+          git add staging/shard-27-data-stream-etl
+
+          if [ "${{ steps.promote.outputs.promoted }}" = "true" ]; then
+            # Remove the old placeholder artifacts from Git's index without downloading them.
+            python3 - <<'PY' > "$RUNNER_TEMP/old-shard27-paths"
+          import importlib.util
+          from pathlib import Path
+          spec=importlib.util.spec_from_file_location("b","scripts/expansion/shard_batch4.py")
+          m=importlib.util.module_from_spec(spec); spec.loader.exec_module(m)
+          for name,version,_ in m.BATCH4_SHARDS["shard-27-data-stream-etl"]["packages"]:
+              print(f"apt/pool/main/{name}_{version}_aarch64.deb")
+          PY
+            while IFS= read -r p; do
+              git rm --cached --sparse --ignore-unmatch "$p" || true
+            done < "$RUNNER_TEMP/old-shard27-paths"
+
+            git add --sparse apt/pool/main/*.deb
+            git add apt/dists/stable
+          fi
+
+          if git diff --cached --quiet; then
+            echo "No repair changes to commit."
+            exit 0
+          fi
+
+          git commit -m "fix(shard27): replace 50 placeholder packages with functional tools [skip ci]"
+          git pull --rebase origin main
+          git push origin HEAD:main
+
+      - name: Report
+        run: |
+          echo "Shard: shard-27-data-stream-etl"
+          echo "Functional packages rebuilt: 50"
+          echo "Functional command tests: 50/50"
+          echo "Live signed promotion: ${{ steps.promote.outputs.promoted }}"
