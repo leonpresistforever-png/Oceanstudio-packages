@@ -1,0 +1,749 @@
+Package: device-tree-fdt-dump
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/device-tree-fdt-dump_1.0.0-2_aarch64.deb
+Size: 12500
+MD5sum: 1356228a7e01f9028638e3c260462fcf
+SHA1: 13d01d1dd66245e929d396f0eb4e62a504be0832
+SHA256: 706ed953e7892fe105f123f3b1996134abaeef5f4342702fe94db2306333f50a
+Section: admin
+Priority: optional
+Description: Flattened Device Tree FDT binary header and nodes parser
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: fdt-property-inspector
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/fdt-property-inspector_1.0.0-2_aarch64.deb
+Size: 12504
+MD5sum: fdf4065cbbd2a2be181e32d9f8b49894
+SHA1: f1cc47bbfd03ce77c000b266d709435d1912fc43
+SHA256: 5a5b7b641b6628ee4102881b4637e7f1c9ac00992da57827c4460c17ec15425f
+Section: admin
+Priority: optional
+Description: Device Tree blob DTB compatible model reg inspector
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: fdt-node-path-search
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/fdt-node-path-search_1.0.0-2_aarch64.deb
+Size: 12492
+MD5sum: a81d7b99772b5fbe5f50c5bad1e13468
+SHA1: c4d5d83dba9307a19341834cbd7dda20cb0e61dd
+SHA256: 2c9bfe597dc1a8eb5141c1f8d184fd70e88cfa9a70c7c5ecd230fc744d2ada60
+Section: admin
+Priority: optional
+Description: Device Tree node search by phandle and alias path
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: u-boot-image-header
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/u-boot-image-header_1.0.0-2_aarch64.deb
+Size: 12480
+MD5sum: cf2be4533afe547e5c962a7be6d930fa
+SHA1: 05559100309b08026725be96065320813d102e76
+SHA256: 347860914ae56aa8e259bbd302c3d3d05b8dc3ea2f07d11265e4d1029d95d5b9
+Section: admin
+Priority: optional
+Description: Das U-Boot legacy image mkimage header verifier
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: u-boot-env-crc-calc
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/u-boot-env-crc-calc_1.0.0-2_aarch64.deb
+Size: 12504
+MD5sum: 151877031c8dc2c72ceb5eafa9dc65a3
+SHA1: 360d463f20bde02e35b64ba92c11289cbb39f814
+SHA256: 857145eef87d5f249be8e2e5004332da6628689f0b00e3426a18856f4fc2ae1a
+Section: admin
+Priority: optional
+Description: U-Boot environment variables CRC32 checksum tool
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: u-boot-fit-image-view
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/u-boot-fit-image-view_1.0.0-2_aarch64.deb
+Size: 12500
+MD5sum: 5a14a71f27f0a8fd6d6c3d1a64a595ee
+SHA1: f7d99a07bc7ee5dadacead6d315ac96051ba08eb
+SHA256: 095ddd176e370c5e94baa05c08c9f2fa15f7189c6130ed4be64779124126a355
+Section: admin
+Priority: optional
+Description: Flattened Image Tree FIT image configurations parser
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: coreboot-cbfs-parser
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/coreboot-cbfs-parser_1.0.0-2_aarch64.deb
+Size: 12496
+MD5sum: dcffa7be67335206eab860e6958724d6
+SHA1: 57fde292a17af0bda38ca074e051cd6c3e5b1060
+SHA256: dca72df630d773f62879bb14c6c7c4a9999c0ef9bc3c29ba80a071e2cea18d3b
+Section: admin
+Priority: optional
+Description: coreboot CBFS filesystem file header and offset tool
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: edkid-uefi-capsule-chk
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/edkid-uefi-capsule-chk_1.0.0-2_aarch64.deb
+Size: 12508
+MD5sum: 7df90f7dc3f8924be7b53ffa545194c2
+SHA1: 984b8d0f4c99512adbbbb5af3791e59bfaa25fe1
+SHA256: d6d34513e6318d1965464daebb14e8ffb7e037cdbac23748b6781b937721f173
+Section: admin
+Priority: optional
+Description: UEFI capsule update header and GUID authenticator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: uefi-variable-dump
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/uefi-variable-dump_1.0.0-2_aarch64.deb
+Size: 12492
+MD5sum: 575d46a8c6ab6144e4829bc8d95155ea
+SHA1: 3230628ffaeaaf7621772dde774f068c1852792d
+SHA256: de998a677f242156ad169ea319da762ac8223bd0d81d01639debcf986d454250
+Section: admin
+Priority: optional
+Description: UEFI NVRAM non-volatile variable data parser
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: smbios-dmi-table-view
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/smbios-dmi-table-view_1.0.0-2_aarch64.deb
+Size: 12496
+MD5sum: ca1242a30d54224aecb5dfa8039e3dd0
+SHA1: 487a574be3936770cd4417812dc03055bccbfb18
+SHA256: 4ee5580d2d061c638ce8410eeeb3b54bd74c37f700a751cf97dd8702a6933202
+Section: admin
+Priority: optional
+Description: SMBIOS/DMI system bios baseboard chassis parser
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: acpi-table-parser-dsdt
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/acpi-table-parser-dsdt_1.0.0-2_aarch64.deb
+Size: 12496
+MD5sum: a44ca6f6d028bd435e48f53a7793bd22
+SHA1: 1fd40f348bcf53d81302de87df4a9562dfcdd6a0
+SHA256: 562af32b0478321cd951b6219e98ba27dda6997cdfc3b0d354d137e4fec993df
+Section: admin
+Priority: optional
+Description: ACPI Differentiated System Description Table parser
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: acpi-fadt-header-dump
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/acpi-fadt-header-dump_1.0.0-2_aarch64.deb
+Size: 12492
+MD5sum: b6ea5aadb9b73cb8e9b97ef9c743cd37
+SHA1: 9c7e1f6c71c0b4940f3160975b6733549621dc6e
+SHA256: 7dd20ff420c4b9b21bf84099e61904878d84e953e6d452a961ad1bfbfad4e85e
+Section: admin
+Priority: optional
+Description: ACPI Fixed ACPI Description Table FADT header tool
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: spdx-sbom-firmware-chk
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/spdx-sbom-firmware-chk_1.0.0-2_aarch64.deb
+Size: 12492
+MD5sum: eead71011add7f41d198774e1461b481
+SHA1: 5133743ef87f3f513ac38ad5d054e453ed507fc3
+SHA256: 88410039c65595806abeffba307733375ed299401d78faad4a7fa3110e4434a7
+Section: admin
+Priority: optional
+Description: firmware Software Bill of Materials SBOM checker
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: binwalk-entropy-plot
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/binwalk-entropy-plot_1.0.0-2_aarch64.deb
+Size: 12488
+MD5sum: d4d4b1fe60ea69b5f575e418ecc1e958
+SHA1: f7ba6f6c173851c6f8aacf628912f0646220ee55
+SHA256: 42c425241d69ae58ca5ac9cac7fded447572b05236e67b94420c9cd2e2346dad
+Section: admin
+Priority: optional
+Description: firmware flash ROM image block entropy grapher
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: firmware-crc32-verifier
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/firmware-crc32-verifier_1.0.0-2_aarch64.deb
+Size: 12496
+MD5sum: baf1b20456d66e89bb8e645a99f3740d
+SHA1: 49f56fca2845e9accd05e225e6528e082ca510d6
+SHA256: 18cfd2d820038b84f26d7dac9041958d09e5df37d5b3d35d5758c2334bdda0a8
+Section: admin
+Priority: optional
+Description: embedded microcontroller firmware image CRC32 tool
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: intel-hex-ihex-converter
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/intel-hex-ihex-converter_1.0.0-2_aarch64.deb
+Size: 12484
+MD5sum: a6faa51abe52739b69b42ae71ececc56
+SHA1: 458bcf544b44a1852a7f44e5068cc7d2ae93c061
+SHA256: 2eb12a3d11b1e7259907854b644bb77701e0fd33a704f1a2af69b76dbeff81e7
+Section: admin
+Priority: optional
+Description: Intel HEX format record parser and binary converter
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: motorola-srec-parser
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/motorola-srec-parser_1.0.0-2_aarch64.deb
+Size: 12492
+MD5sum: 58e783fec54b6fa1c150651186a19165
+SHA1: 207002c8ded9bbd5ebf23ddb32a2aea57a635a01
+SHA256: 89a04edc147433cc5a458308ec7aa2b420a283846bdd72c836012d58eb284c05
+Section: admin
+Priority: optional
+Description: Motorola S-Record S0 S1 S2 S3 S7 S8 S9 decompiler
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: raw-nand-ecc-calculator
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/raw-nand-ecc-calculator_1.0.0-2_aarch64.deb
+Size: 12500
+MD5sum: c39a0bde49c8ed63349c378e60a4c844
+SHA1: 9923a248c008e11ff10a151f2321eb46257718e8
+SHA256: bce81adbc7bf6a4c19ecce1c78e6a5b2c3c39afad00791df618b8f83d788590d
+Section: admin
+Priority: optional
+Description: NAND flash spare OOB area BCH ECC parity calculator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: nor-flash-sector-align
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/nor-flash-sector-align_1.0.0-2_aarch64.deb
+Size: 12484
+MD5sum: 731e991f3d66c4d43c38f4805e9bf727
+SHA1: 09f0b7cc6354831e511aaec31559355aa0d66923
+SHA256: c9cbd7d85653e59b800fe9d6a727e40bee16407856826ab95b80d04969dfea9c
+Section: admin
+Priority: optional
+Description: NOR flash sector erase boundary alignment validator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: spi-flash-jedec-id-chk
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/spi-flash-jedec-id-chk_1.0.0-2_aarch64.deb
+Size: 12508
+MD5sum: 2a940f8c1b8b61419bd1c6d58571407c
+SHA1: f1baa31063b83dfd09dff8e2c5b8df02ded105a8
+SHA256: 7a1492a2f74e0563fb3f8ea42c72f762ef32b78e275a7fffe852c7ef455febef
+Section: admin
+Priority: optional
+Description: SPI NOR flash JEDEC RDID manufacturer ID lookup
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: i2c-bus-address-probe
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/i2c-bus-address-probe_1.0.0-2_aarch64.deb
+Size: 12480
+MD5sum: 6f99bfc888785c85678b0e543c6139a1
+SHA1: 5d36e0819cefbd47f8f2e6ba34fccfe3ffe9c488
+SHA256: 8e49fe64964ebfd2d99ea31b18cb304a5e51b9a239a2912b4396775240c84852
+Section: admin
+Priority: optional
+Description: I2C 7-bit bus address collision and reserved checker
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: i2c-smbus-block-calc
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/i2c-smbus-block-calc_1.0.0-2_aarch64.deb
+Size: 12504
+MD5sum: 11dd410efafdca3c42bc1906afa6c4ca
+SHA1: c22a8137ab7bf96ebe2bbf0514a9eadab43051ba
+SHA256: 82ee67641a1a62a8ef1cbba4979d43493d5dbe1b4d0014fee0ae8ab54f42f590
+Section: admin
+Priority: optional
+Description: SMBus Packet Error Checking PEC CRC-8 calculator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: gpio-sysfs-pin-export
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/gpio-sysfs-pin-export_1.0.0-2_aarch64.deb
+Size: 12488
+MD5sum: ff80c57b4e60384b9418fd735b2db7bb
+SHA1: fbad1e438015946631f523dd3d73fc69cd977010
+SHA256: a298014999ddc513081b0649d0d0cbcb28ea2d35b2160823b3eb40d0615faa9b
+Section: admin
+Priority: optional
+Description: Linux legacy GPIO sysfs pin direction value helper
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: gpio-cdev-line-event
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/gpio-cdev-line-event_1.0.0-2_aarch64.deb
+Size: 12492
+MD5sum: 253536696250ca2775d82f3b91074e58
+SHA1: 15d8231305970a517346795dc037ac5f0daced2a
+SHA256: 0c83e3714d2b427df2fb69234a2d226786dfb1dcad11132e9fa9af5ee34d847a
+Section: admin
+Priority: optional
+Description: Linux GPIO character device v2 line event decoder
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: uart-baud-rate-divisor
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/uart-baud-rate-divisor_1.0.0-2_aarch64.deb
+Size: 12500
+MD5sum: f9ddf62917f03fe168a0be895133ca0f
+SHA1: 8066299f5df78759a5225e63d85756f607b913ed
+SHA256: d369602440b3652ee5077f75158eb837d826f76a863c9beefcf663df579c41e0
+Section: admin
+Priority: optional
+Description: UART clock prescaler and baud rate error calculator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: serial-termios-config
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/serial-termios-config_1.0.0-2_aarch64.deb
+Size: 12484
+MD5sum: d7513b7b8e74e07b677c134cbd110130
+SHA1: 0de09dd067322f0dc86d42a629356aac68effd31
+SHA256: b2ed4bff18e0e73516430d2d652d483ec8294a773816c38c5438c22b229054fc
+Section: admin
+Priority: optional
+Description: Linux termios serial port c_cflag parity visualizer
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: usb-descriptor-parser
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/usb-descriptor-parser_1.0.0-2_aarch64.deb
+Size: 12476
+MD5sum: fb280d4a4643515cab8a9cf87daadac6
+SHA1: e1ceb526c219b94233de5fc58a567ebc62f23ced
+SHA256: 9fb1793b94e8a34ed87d754f5a892bad1c6e758c87f89bb9f1b059e01bec0061
+Section: admin
+Priority: optional
+Description: USB 2.0/3.0 device configuration interface descriptor
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: usb-string-descriptor
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/usb-string-descriptor_1.0.0-2_aarch64.deb
+Size: 12476
+MD5sum: b498edee6a5db02b52d1f72409397ae0
+SHA1: e06cfc0194da5aaabf32337bfb287e09b0802846
+SHA256: c670736983f9bf789a70aae5459185913cf382f01894dcd230385e32f457fe57
+Section: admin
+Priority: optional
+Description: USB string descriptor UNICODE UTF-16LE extractor
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: usb-endpoint-analyzer
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/usb-endpoint-analyzer_1.0.0-2_aarch64.deb
+Size: 12484
+MD5sum: f6a310b4f75aff1d74b46c477b4d6a8d
+SHA1: d288323a22f61813878120e31203a3af8f4a0ab5
+SHA256: 455f69ad2e2c91428e36073e440797a8c0e99638af2d19b8b7d2d29a182855fb
+Section: admin
+Priority: optional
+Description: USB bulk interrupt isochronous endpoint packet size
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: hid-report-descriptor
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/hid-report-descriptor_1.0.0-2_aarch64.deb
+Size: 12472
+MD5sum: 9ac7eedb0f88ed90123c4fe3bbffb0a0
+SHA1: 3d0cddd78aa957443d694746e06b024408515a7e
+SHA256: 919df5ef76c4f3d3104e30b4557477a5bb177e7c0ccf73e4a2e56aa562412103
+Section: admin
+Priority: optional
+Description: USB Human Interface Device HID report parser
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: can-bus-frame-dumper
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/can-bus-frame-dumper_1.0.0-2_aarch64.deb
+Size: 12508
+MD5sum: 748c77a31d439c28ad48bdbc423c7095
+SHA1: 940d29a86c2f17ad3f148a30cec83476878ce8d0
+SHA256: eda03a804e9c1db64f862903489ead7860592523b7c931ea73412b617d3a23d7
+Section: admin
+Priority: optional
+Description: Controller Area Network CAN 2.0A/B standard frame dump
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: can-j1939-pgn-parser
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/can-j1939-pgn-parser_1.0.0-2_aarch64.deb
+Size: 12500
+MD5sum: 7e1b840f17dce5706e2f70731501c4b1
+SHA1: d0eeb64fa3ff7115c01b1ecdf46b9831cc70f5a4
+SHA256: e91b615b625f85bec315701045120997423d00fb45a482515f2da055d206abb8
+Section: admin
+Priority: optional
+Description: SAE J1939 Parameter Group Number PGN ID decoder
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: modbus-rtu-crc16-calc
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/modbus-rtu-crc16-calc_1.0.0-2_aarch64.deb
+Size: 12496
+MD5sum: 14df8cdd975b5fafe53fca297d37757b
+SHA1: b5c04387398a482ca247294cdfd8237a2678ff7d
+SHA256: 3971907cba9022826dfb956fc03427e0334bb29b76c85d90eb3d901ac2a33335
+Section: admin
+Priority: optional
+Description: Modbus RTU transmission mode CRC-16 calculator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: modbus-tcp-header-chk
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/modbus-tcp-header-chk_1.0.0-2_aarch64.deb
+Size: 12492
+MD5sum: c9ed115e58a83a69c12b4620eda4bca1
+SHA1: 4893c439574f7f3708d0acbd7a0c60a35ffdd5d1
+SHA256: 262c74cdf4694ed021dbe2444c33d034c0ba2f183fcde8403f809aea6c594546
+Section: admin
+Priority: optional
+Description: Modbus TCP MBAP header unit ID and function check
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: zigbee-zcl-frame-view
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/zigbee-zcl-frame-view_1.0.0-2_aarch64.deb
+Size: 12488
+MD5sum: f4e5d80047f1cf47c13441bcb3b1f23a
+SHA1: f2ecb4e94205f9957f399fca8608a729d2d9c4ac
+SHA256: 678e15bd4db9f7381a0ece678ec9762ee17667268ec89e215dc6f41dc9be68bd
+Section: admin
+Priority: optional
+Description: Zigbee Cluster Library ZCL frame control byte view
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: ble-gatt-uuid-lookup
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/ble-gatt-uuid-lookup_1.0.0-2_aarch64.deb
+Size: 12504
+MD5sum: 8dc1d861e0c404e29f09fcf1f0beef4f
+SHA1: d3ce051f6a4630bf8b8bfba0558af844513f2ece
+SHA256: e4f66d11941d258d6bb7eae1aa1eb8c40d90130fcf130e83930c3fc06a11e6bb
+Section: admin
+Priority: optional
+Description: Bluetooth Low Energy 16-bit and 128-bit UUID database
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: bluetooth-hci-cmd-dump
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/bluetooth-hci-cmd-dump_1.0.0-2_aarch64.deb
+Size: 12504
+MD5sum: 1588f0bbc921c50deff0aa821887d325
+SHA1: 5237072b6ed77d3ffe7d7becbfde06e489b29f24
+SHA256: a559e42dc983c19325e9ccd9610c5b8fcc29ba18a128ae8978b5cc787ce8eb23
+Section: admin
+Priority: optional
+Description: Bluetooth Host Controller Interface HCI packet parser
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: rfid-mifare-block-chk
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/rfid-mifare-block-chk_1.0.0-2_aarch64.deb
+Size: 12504
+MD5sum: 0c226721eeb9a16c0d6deb4d14a1203e
+SHA1: 05ece143e5ad89b1470abde7cc0c7005c5c1ffbe
+SHA256: b6585226a3948c35fc59accd5123fab7faf891e2539b01a2e7a615d6502a5354
+Section: admin
+Priority: optional
+Description: MIFARE Classic 1K sector trailer access bits decoder
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: nfc-ndef-record-parser
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/nfc-ndef-record-parser_1.0.0-2_aarch64.deb
+Size: 12500
+MD5sum: f7bc0d6b091b89b3b9dd1fe98361bce5
+SHA1: c1369cd7e204a28f62891380ad94ab0d2188feb8
+SHA256: 61eb6b38e8bba2ca1e9f43c80e84b9c587efee82555da16c19cbc212717b767b
+Section: admin
+Priority: optional
+Description: NFC Data Exchange Format NDEF record TNF parser
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: i2s-audio-clock-calc
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/i2s-audio-clock-calc_1.0.0-2_aarch64.deb
+Size: 12488
+MD5sum: 9f238a2b4e1a4998ac1b535f47249eff
+SHA1: bdb3b169d3f62aac1d509dac716907f042942573
+SHA256: 31f62f81d59ca761d38e5a896f9d65412210cfd69001263c36b639f8bbf3d27d
+Section: admin
+Priority: optional
+Description: I2S digital audio bit clock BCLK word select calc
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: pwm-frequency-duty-calc
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/pwm-frequency-duty-calc_1.0.0-2_aarch64.deb
+Size: 12504
+MD5sum: 62c320cd2f50a994b603459583b75825
+SHA1: bd6314371ba9737c99efd38994ba2cd496cef884
+SHA256: e023fb1e12789fd9ac3e6213a2f4b947f3609f4da78e13c6fb4f7d59b5788884
+Section: admin
+Priority: optional
+Description: Pulse Width Modulation duty cycle nanosecond helper
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: thermal-zone-temp-view
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/thermal-zone-temp-view_1.0.0-2_aarch64.deb
+Size: 12484
+MD5sum: d82caf3f463e38e13c91f94adb30da55
+SHA1: ec1cf002f88069b30b16eb29cd696f2a0e77c591
+SHA256: ffff4b54df8b13c5493e092d4b0b6f238547c3cfbad0d787def8d88815b1eb56
+Section: admin
+Priority: optional
+Description: Linux /sys/class/thermal temperature trip points view
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: cpufreq-scaling-gov
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/cpufreq-scaling-gov_1.0.0-2_aarch64.deb
+Size: 12480
+MD5sum: d486a0d3b2c04c2b0985aae202b6bf6b
+SHA1: eaa254c931bd0712dede27a8e30fae391478d6ab
+SHA256: 9e26ea98cbd5af9a46b7f6c08cb9d4357fe5570d77b9ae8ef8042883bc1a23af
+Section: admin
+Priority: optional
+Description: CPU frequency scaling governors and transition table
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: power-supply-status-chk
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/power-supply-status-chk_1.0.0-2_aarch64.deb
+Size: 12480
+MD5sum: 501c407b3cc33080367fb24de179915e
+SHA1: bb1efa344c34996266146424431fc12b63d9ec95
+SHA256: c96da45cfacff9a8c4135e7e09197cf4563d59e15b97fe2a851b1d1d0bbd3dde
+Section: admin
+Priority: optional
+Description: Linux /sys/class/power_supply battery charge health
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: regulator-voltage-view
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/regulator-voltage-view_1.0.0-2_aarch64.deb
+Size: 12480
+MD5sum: 96ecef32c9a5428d4e7c09b238249a15
+SHA1: 6a400385abadf90b1bbf0fd538e44ff240b3a74d
+SHA256: a7ee1f799cd04f987452dc23a729ae004dd9f538313d913af1807b5e5d18643b
+Section: admin
+Priority: optional
+Description: Linux voltage regulator microvolt constraints viewer
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: nvme-smart-log-parser
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/nvme-smart-log-parser_1.0.0-2_aarch64.deb
+Size: 12488
+MD5sum: 1eaa5eb195f35248dfa710ce93b117ba
+SHA1: 2d77ceac20c95ad75b59311eca3532f94226305b
+SHA256: 6551499752f9aed868a8a361d8a7bb19cc6a681e10dadbf6085e0a41e821ddde
+Section: admin
+Priority: optional
+Description: NVMe SMART health information log page parser
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: scsi-inquiry-vpd-dump
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/scsi-inquiry-vpd-dump_1.0.0-2_aarch64.deb
+Size: 12504
+MD5sum: 68d0fb3d57eb8fd50288b5e7c38640ab
+SHA1: ad40d43f6ea7fca048d07a350fe4c8d12cb190bc
+SHA256: 9d93e3bd3fcc36e7ac0d75e7cda32ebd3f6c0a58a73452192b10da2fb8b46732
+Section: admin
+Priority: optional
+Description: SCSI Vital Product Data VPD unit serial number reader
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: pci-config-space-dump
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/pci-config-space-dump_1.0.0-2_aarch64.deb
+Size: 12488
+MD5sum: 823370d11113438962ccbeead66414d1
+SHA1: 7e72046e1490b90a862fea6cabc96cb2be347f51
+SHA256: bdc4154d95042778d1826860bf7e99d110ae3605890834e98bae5e55970e549f
+Section: admin
+Priority: optional
+Description: PCI Express 256-byte configuration space parser
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: pci-express-link-speed
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/pci-express-link-speed_1.0.0-2_aarch64.deb
+Size: 12492
+MD5sum: d693ed9a142000786c70dad053b4afb6
+SHA1: baa184b028373467e2bf1e9b8c27efda3f37d7c3
+SHA256: 605f3647e900aa9b4e4814ba20a3ca6d39d4353f45d0e70ad1645313b6ea5b77
+Section: admin
+Priority: optional
+Description: PCIe link capability speed GT/s and width reader
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: edid-monitor-data-parse
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/edid-monitor-data-parse_1.0.0-2_aarch64.deb
+Size: 12508
+MD5sum: 61f9bc21d8b66c51d2a494b9e91377d4
+SHA1: 39fb03ab3af4686868919bc282b4ebcebcb05ce5
+SHA256: 0fdaab3a34b17561649eaa24d3878f719f75800926d9c63a2dcaefe0bfde65f7
+Section: admin
+Priority: optional
+Description: VESA Extended Display Identification Data EDID tool
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
