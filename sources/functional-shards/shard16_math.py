@@ -57,7 +57,7 @@ def safe_expr(expr,**vals):
     allowed={k:getattr(math,k) for k in ("sin","cos","tan","sqrt","exp","log","log10","fabs","pi","e")}
     allowed.update(vals)
     tree=ast.parse(expr,mode="eval")
-    ok=(ast.Expression,ast.BinOp,ast.UnaryOp,ast.Constant,ast.Name,ast.Call,ast.Add,ast.Sub,ast.Mult,ast.Div,ast.Pow,ast.Mod,ast.USub,ast.UAdd)
+    ok=(ast.Expression,ast.BinOp,ast.UnaryOp,ast.Constant,ast.Name,ast.Load,ast.Call,ast.Add,ast.Sub,ast.Mult,ast.Div,ast.Pow,ast.Mod,ast.USub,ast.UAdd)
     for n in ast.walk(tree):
         if not isinstance(n,ok): raise ValueError("unsupported expression")
         if isinstance(n,ast.Name) and n.id not in allowed: raise ValueError("unknown name")
