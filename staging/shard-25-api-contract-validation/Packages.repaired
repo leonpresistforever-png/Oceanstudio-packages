@@ -1,0 +1,749 @@
+Package: openapi-v3-spec-linter
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/openapi-v3-spec-linter_1.0.0-2_aarch64.deb
+Size: 12112
+MD5sum: cd58ceffe91cc7a89479a8667cf8ad0b
+SHA1: 20dabecb5fb946c83a781970a69122163e8bc2e2
+SHA256: f010ab8a6cc5781ec78e95f7b04ca59613c370d72f8179830a400ca123e786a8
+Section: devel
+Priority: optional
+Description: OpenAPI Specification 3.0/3.1 document structure linter
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: openapi-path-param-chk
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/openapi-path-param-chk_1.0.0-2_aarch64.deb
+Size: 12112
+MD5sum: ddfd1e0fa12df302bd2b7502475a8268
+SHA1: 6f0bfa75212f6037aef8f2904da3ee1a1f23f207
+SHA256: 4b2ee879150ad373db6bdff6d9667ef850a5004f55b2d499399694ef057b0eef
+Section: devel
+Priority: optional
+Description: OpenAPI path template parameter definition matching
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: openapi-schema-resolver
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/openapi-schema-resolver_1.0.0-2_aarch64.deb
+Size: 12108
+MD5sum: 0cfa3da932222791c4316931019570af
+SHA1: e56fb4c3f02b128ef3f188b4ca16133b018e7925
+SHA256: fab21b8af85ced072661da3f13e7f466018238333a2a30485f85b9e0f5df6083
+Section: devel
+Priority: optional
+Description: OpenAPI $ref JSON pointer component schema resolver
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: swagger-v2-converter
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/swagger-v2-converter_1.0.0-2_aarch64.deb
+Size: 12120
+MD5sum: 813a0beab6528bbe1864313c9cbeded4
+SHA1: 86f582034e51e3d80d689ddddf185274a9e376ef
+SHA256: c7f35c665106cadd91b0fd453a916e4b6798edfd2f321a9ab267c539ba89598d
+Section: devel
+Priority: optional
+Description: Swagger 2.0 to OpenAPI 3.0 upgrade compatibility checker
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: asyncapi-spec-validator
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/asyncapi-spec-validator_1.0.0-2_aarch64.deb
+Size: 12116
+MD5sum: 8c4a5b5f21b832d463db870af5cdd2cd
+SHA1: bd62db9a6d31530e6a8e1e33e823f85d3ff51366
+SHA256: 6289e18cc8fa662b3b7ce84e692c91c1776ad325a611032e706bb953ab574143
+Section: devel
+Priority: optional
+Description: AsyncAPI 2.x event-driven API specification validator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: graphql-schema-parser
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/graphql-schema-parser_1.0.0-2_aarch64.deb
+Size: 12108
+MD5sum: 252b63b6117bbcd18e1b44291bea95fe
+SHA1: ceaeece7f3af69eab910f3a65aa3aa5868cce679
+SHA256: 4aee9c3d0a09b22d685995db1e7bf8305f214c15df095dd4e274fa99f57787bc
+Section: devel
+Priority: optional
+Description: GraphQL Schema Definition Language SDL type parser
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: graphql-query-linter
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/graphql-query-linter_1.0.0-2_aarch64.deb
+Size: 12112
+MD5sum: fec99cc1cc1ac54884d282c63fd5feb0
+SHA1: 57f47280b6c84e6ad8592151a2d7065fe3166b21
+SHA256: 15dc7d57f2d72bd0d03d16b14de142fbd63c4d7e701d8a53204b755f0351c2d0
+Section: devel
+Priority: optional
+Description: GraphQL query operation field selection and depth linter
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: graphql-introspection-chk
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/graphql-introspection-chk_1.0.0-2_aarch64.deb
+Size: 12112
+MD5sum: 07061d60464af1831058a624a34f9c45
+SHA1: e500ad2e2e9e9e679d01ecc960c15f512c8af41e
+SHA256: 8418f949b4bea83590d4d65160947fbdde9ab2a3f5555a50d87d251a18e95861
+Section: devel
+Priority: optional
+Description: GraphQL __schema introspection query response analyzer
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: protobuf-proto3-linter
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/protobuf-proto3-linter_1.0.0-2_aarch64.deb
+Size: 12104
+MD5sum: 41d0a33a54ee9817af2048233c093a58
+SHA1: e28f042c2649cfb467820ec1e1cb98b7e83502af
+SHA256: c3ff88bd32a9a3fc1ae409236a5a99ddeb018f4757eb774f0dd466908200c5f9
+Section: devel
+Priority: optional
+Description: Protocol Buffers proto3 syntax and conventions linter
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: protobuf-field-number-chk
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/protobuf-field-number-chk_1.0.0-2_aarch64.deb
+Size: 12116
+MD5sum: 7758cf06d2494061c4b16d6b3b4f657c
+SHA1: d72a235720b651dae8b4d8ab484b26b0b0cb4c79
+SHA256: b3bae6a92de5cdd8fe7e024d736539ff8632658df03da61ddf184b0168086fe7
+Section: devel
+Priority: optional
+Description: Protobuf field tag numbers 1 to 536870911 validator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: protobuf-reserved-ranges
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/protobuf-reserved-ranges_1.0.0-2_aarch64.deb
+Size: 12116
+MD5sum: 4f70f85ff3250a78b2a3920382bb4d9c
+SHA1: 1c77d6855c2bb2fe69792522c0b2b2052ba5895b
+SHA256: d77ad28619b5641ecc1454505287bf29c014e53201eb414daec1fde198e99b3e
+Section: devel
+Priority: optional
+Description: Protobuf reserved tag numbers and names conflict audit
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: protobuf-deprecated-tag
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/protobuf-deprecated-tag_1.0.0-2_aarch64.deb
+Size: 12112
+MD5sum: 1eec3fca521c273c55765b6e31dc17c2
+SHA1: 80b68a98d9bd46a89d3d7e27c4122d318ac040b9
+SHA256: 7a7c294659a36d99ca0fdcdaa454cd6683641d01c3b0d8a17968ac708516aaea
+Section: devel
+Priority: optional
+Description: Protobuf [deprecated = true] field usage detector
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: grpc-reflection-client
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/grpc-reflection-client_1.0.0-2_aarch64.deb
+Size: 12108
+MD5sum: dd6cc6162e82cc41dc6429a30ff592fe
+SHA1: 9aefc40beedf78d50483ce0ce2c76de960d16708
+SHA256: 5c41ec6747277c17c5ef7aba3297d9a429549db959e7778a3e6b4b997564e638
+Section: devel
+Priority: optional
+Description: gRPC Server Reflection Protocol v1 service lister
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: json-schema-draft7-val
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/json-schema-draft7-val_1.0.0-2_aarch64.deb
+Size: 12120
+MD5sum: be95870080cfdbedcb957c01bc49b0c9
+SHA1: e073b70617d236184b384343cad1108d45d246bc
+SHA256: ede9884b5d36cfb2c4f4c11a1619f1adfe595e9d16549f475f2502a0f03b82ab
+Section: devel
+Priority: optional
+Description: JSON Schema draft-07 specification compatibility check
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: json-schema-draft2020
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/json-schema-draft2020_1.0.0-2_aarch64.deb
+Size: 12108
+MD5sum: bdc18de2c770ea343f17c10aa5e42259
+SHA1: e4cc695f51b765ffcdf7c739da0a18a0db0cdc57
+SHA256: 8c6e503694630c0b5036585ed1e1d01d800d423bc97ce3095151821772c4ee64
+Section: devel
+Priority: optional
+Description: JSON Schema Draft 2020-12 dialect validator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: json-patch-rfc6902-run
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/json-patch-rfc6902-run_1.0.0-2_aarch64.deb
+Size: 12128
+MD5sum: 05cdb10ba059700b752766bc62127be7
+SHA1: 78128dfb40d5fc841f6b5711118d8ff75dfb3414
+SHA256: eaa63f6b8f027521ce3b7135c53eb9fb8250eca1c25e00850be4ecfbdedb0392
+Section: devel
+Priority: optional
+Description: RFC 6902 JavaScript Object Notation Patch evaluator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: json-merge-patch-rfc7386
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/json-merge-patch-rfc7386_1.0.0-2_aarch64.deb
+Size: 12120
+MD5sum: 65c3a1e0dd93430ab2604d037b1e6ae9
+SHA1: 6a29dcce07b5c2f25dfdb077e2b22c6a864b9cb6
+SHA256: d518a08eb9fe7ae8b5fc95c77d6ead39becd016b339e8594653e1b1afe28b405
+Section: devel
+Priority: optional
+Description: RFC 7386 JSON Merge Patch document reconciler
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: json-pointer-rfc6901-cli
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/json-pointer-rfc6901-cli_1.0.0-2_aarch64.deb
+Size: 12128
+MD5sum: 5e5687f20df90eb2fe27d6f02c7b4436
+SHA1: b4026bbcd10ee2c2ea33ca8a5bb1cf4d065344f9
+SHA256: 2614cd0a435c3ecf938c51b77bf2a87ecce09ab7d0a93d51d366c7769743914c
+Section: devel
+Priority: optional
+Description: RFC 6901 JSON Pointer path evaluation and lookup tool
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: http-status-code-lookup
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/http-status-code-lookup_1.0.0-2_aarch64.deb
+Size: 12128
+MD5sum: 5c6568cdc06368d1070a9dee4a1c8f6c
+SHA1: f25404fc2d6e99775f7af4a87a77cf4e5a574326
+SHA256: 7444a93caa0d99def5a3ed82e1ccd6b0fe8effc65c6bfed43529563985a0e313
+Section: devel
+Priority: optional
+Description: IANA HTTP status code registry reference and semantics
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: http-auth-bearer-token
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/http-auth-bearer-token_1.0.0-2_aarch64.deb
+Size: 12128
+MD5sum: 04d23b41444ac17330f3e73d119e89d4
+SHA1: 1d0f02f0eb3ed5b5c45d14b81be3313820014d60
+SHA256: bc9efc5e0814f5ee2ad89010d35fd33128e6a81001d7430b0b0d95986d28501d
+Section: devel
+Priority: optional
+Description: RFC 6750 OAuth 2.0 Bearer Token authorization validator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: http-basic-auth-encoder
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/http-basic-auth-encoder_1.0.0-2_aarch64.deb
+Size: 12120
+MD5sum: 8ca8c1a57ee31eb9240cd63e61161f31
+SHA1: 6d67126b0df2fdc4b97c5614ad0e207d4c6174a5
+SHA256: f80158fce135e1b858450ba78364df6484f6154709dd80813bbb212fd3c11ddb
+Section: devel
+Priority: optional
+Description: RFC 7617 HTTP Basic authentication header generator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: oauth2-token-exchange
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/oauth2-token-exchange_1.0.0-2_aarch64.deb
+Size: 12116
+MD5sum: 559f78fd05e915987475cbfae89c41c9
+SHA1: b6f971035806e734a9ecc96de5b6bb0f57dc27d1
+SHA256: 6c6a9a7c388630ce01b3a14f33d0e38ff91c6a426f1ecce07b0e1bd4967f2937
+Section: devel
+Priority: optional
+Description: RFC 8693 OAuth 2.0 Token Exchange request validator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: oauth2-pkce-challenge
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/oauth2-pkce-challenge_1.0.0-2_aarch64.deb
+Size: 12136
+MD5sum: f303696f13c934ae227cff66f9c43f92
+SHA1: 1d90e2c4b7b6a7c1d253f3f819613181b5eab228
+SHA256: e7fc86ca8848feba11bd2910ff921727a2b22fbaa4b7cb898832298c056cd169
+Section: devel
+Priority: optional
+Description: RFC 7636 Proof Key for Code Exchange SHA256 builder
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: oidc-discovery-parser
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/oidc-discovery-parser_1.0.0-2_aarch64.deb
+Size: 12128
+MD5sum: ec4d0cffd61b74f8768745174a1db89c
+SHA1: a37a6d3edfcdce0efe613cefc11474352b7408de
+SHA256: 2229b14418a920981fefa5cab87429f104b3ce6bf30cdf11151c91c4f05b4c93
+Section: devel
+Priority: optional
+Description: OpenID Connect .well-known/openid-configuration tool
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: saml-assertion-xml-chk
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/saml-assertion-xml-chk_1.0.0-2_aarch64.deb
+Size: 12120
+MD5sum: 5e2e4ce56dfc63373ecbed6e2238b493
+SHA1: 5f7ab8a48249ca71369bf8870dc2dc9e791d63ee
+SHA256: 5db8942916b8bae97d9397e5d6c27a2c5a78ff0ab497dfc2675625c97c07014b
+Section: devel
+Priority: optional
+Description: Security Assertion Markup Language SAML 2.0 validator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: soap-envelope-parser
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/soap-envelope-parser_1.0.0-2_aarch64.deb
+Size: 12120
+MD5sum: 5aa581c4fb2960aa833afa18a605feee
+SHA1: 46a3818055e69589693df708cc7b65c457576681
+SHA256: d65bbde4a635fd8e0fc176f9bee3bee8f821b3c3b26bf91d501ab159fb263b62
+Section: devel
+Priority: optional
+Description: Simple Object Access Protocol SOAP 1.1/1.2 XML parser
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: wsdl-contract-inspector
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/wsdl-contract-inspector_1.0.0-2_aarch64.deb
+Size: 12108
+MD5sum: a22a43d58c4285cad0774d0dd5c28801
+SHA1: 0609cf2b772e1e95dba235828a4d0bec43920478
+SHA256: 8b95432230fc216ddf5e90e4ded2d1cd0a379993edd245c71ca19d0104e277c6
+Section: devel
+Priority: optional
+Description: Web Services Description Language WSDL 1.1 inspector
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: rest-api-response-diff
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/rest-api-response-diff_1.0.0-2_aarch64.deb
+Size: 12112
+MD5sum: 415b20fbdc59a41d5077022b32423f56
+SHA1: 22e2aa6b77a9228ca70f9bc54f43701ad9511883
+SHA256: 094ad18671fe771e5952f1eb27db0c34da6a500a5d6fc977478e6ce76f63637b
+Section: devel
+Priority: optional
+Description: REST API response payload breaking change detector
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: api-curl-command-gen
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/api-curl-command-gen_1.0.0-2_aarch64.deb
+Size: 12124
+MD5sum: 665229fa127626d896cc85db2bd372b0
+SHA1: eac04c833017983555c283c972838feca870e2fd
+SHA256: ccbe007f1e15940c89df2b448e6bafe8d9eef250f366117e1530af5ecf8a221f
+Section: devel
+Priority: optional
+Description: OpenAPI endpoint operation to executable cURL command
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: api-fuzz-parameter-gen
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/api-fuzz-parameter-gen_1.0.0-2_aarch64.deb
+Size: 12116
+MD5sum: 536e2316b183586dc435b2aa88d5e2b3
+SHA1: aecc26bb7b907082318bb6d21552863570ee8c93
+SHA256: 3a238642a29aadbeed3d06044b27c05bebaf74fdabf5169649f1b4d36e2b7046
+Section: devel
+Priority: optional
+Description: API schema parameter boundary edge-case test generator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: api-rate-limit-header
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/api-rate-limit-header_1.0.0-2_aarch64.deb
+Size: 12104
+MD5sum: 9fc856d6aa6a89ae615234cf4589a94c
+SHA1: 8a76ce81cca6f1ac07fbcb510f00dd38628ee018
+SHA256: 2faea6b6b97427fe57733ef30cbb5f1e800bc18080c417d7d6c3dd0455f2bc05
+Section: devel
+Priority: optional
+Description: IETF RateLimit-Limit and RateLimit-Remaining parser
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: etag-if-none-match-chk
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/etag-if-none-match-chk_1.0.0-2_aarch64.deb
+Size: 12124
+MD5sum: 135214b0a97a05489de06a6255751397
+SHA1: e6bb9dddc5c5ec3ab3f2dd7d0115c97c5aafe1e4
+SHA256: 929668071d5216b1a780c1e10496ad22d4b6a353509acd49ffdde3553b053eea
+Section: devel
+Priority: optional
+Description: HTTP conditional requests ETag and 304 response logic
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: cache-control-validator
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/cache-control-validator_1.0.0-2_aarch64.deb
+Size: 12108
+MD5sum: 12bb05f88d2d645603c4d6e7a931a499
+SHA1: d44ba7e6e4c517518812ec48394b1685069af5de
+SHA256: 64631b7e8a3924a23e0a890cfe0c8d25dbd15fd8222764215113f0670d9d91ca
+Section: devel
+Priority: optional
+Description: HTTP Cache-Control max-age must-revalidate analyzer
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: content-security-policy
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/content-security-policy_1.0.0-2_aarch64.deb
+Size: 12096
+MD5sum: 79a6abf8183db20ee4b67447e8b2769e
+SHA1: 1a33bddb724bf61385df6ebc1bffdddc81906ccb
+SHA256: fecf01c4563145f8317face8c9036fc5431578b445bde630eaf8b90e17b497da
+Section: devel
+Priority: optional
+Description: W3C Content Security Policy CSP directive linter
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: cross-origin-embedder
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/cross-origin-embedder_1.0.0-2_aarch64.deb
+Size: 12112
+MD5sum: b96f57cfc13d6fe86797f81a1ff50fb2
+SHA1: 1e9f89d219514e4daea3d86a90a5314c2fd29300
+SHA256: d18116851282c4efbbc7a755c4636982433f939106c64161d3a04e07b9698bca
+Section: devel
+Priority: optional
+Description: Cross-Origin Embedder Policy COEP header validator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: cross-origin-resource
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/cross-origin-resource_1.0.0-2_aarch64.deb
+Size: 12112
+MD5sum: fca48a725cab793d1b3adfd5a91010ab
+SHA1: aeefc55d7b639a4dcfa9a29b75032e16ca02c02d
+SHA256: 53a16ecafc621394706fee33ee302e5b1b6e4a6b0c881fafc719f16f8caa2869
+Section: devel
+Priority: optional
+Description: Cross-Origin Resource Policy CORP header validator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: referrer-policy-checker
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/referrer-policy-checker_1.0.0-2_aarch64.deb
+Size: 12108
+MD5sum: 38429862a2a4162a181ae5eacb3f6a72
+SHA1: a30f94ab76a1b7c00f2e058235b30cdb12c2831d
+SHA256: 5c1d4170e21bb9f5fd6974c5f0f8756bc4e23282369295acca8e962ad9be9b80
+Section: devel
+Priority: optional
+Description: Referrer-Policy header origin and privacy validator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: hsts-preload-eligibility
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/hsts-preload-eligibility_1.0.0-2_aarch64.deb
+Size: 12128
+MD5sum: 94f315da91a00904df2876f1e3847077
+SHA1: 3c3c5e2e2a2f80e3a124dfc7ad4b7609e3fd3588
+SHA256: a60d194ff2ea3366a3b89ecf5e7376c3243eda85fcfe0968f92c6ce60a262584
+Section: devel
+Priority: optional
+Description: HTTP Strict Transport Security HSTS preload criteria
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: expect-ct-header-chk
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/expect-ct-header-chk_1.0.0-2_aarch64.deb
+Size: 12128
+MD5sum: b532f5f0ae25fe955bf226894a62d616
+SHA1: fdbf4024243aaa27cf35d6437f5eec554740e062
+SHA256: 5c23f6e073baab457cb13d0c0032e47b8e87da707830f9ed3aaaaa167572cf46
+Section: devel
+Priority: optional
+Description: Expect-CT Certificate Transparency enforcement checker
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: feature-policy-analyzer
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/feature-policy-analyzer_1.0.0-2_aarch64.deb
+Size: 12104
+MD5sum: d73b4377acfd073113d31f5c2882be9e
+SHA1: 51adc610b098d9ddbd173f0086ca443ce9b531ce
+SHA256: 5876bf1f9486c85a8c36a1b9e24fd2bdd3f96733421d75af5a122b8e3ae590ac
+Section: devel
+Priority: optional
+Description: W3C Feature Policy and Permissions Policy validator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: permissions-policy-fmt
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/permissions-policy-fmt_1.0.0-2_aarch64.deb
+Size: 12108
+MD5sum: 67e1df4b570b5b823e6b723a47214f57
+SHA1: 47769c17061381ff244da359a603fafea7f018b2
+SHA256: 27dfa6736c70b0b59ec2d60b2ae607f5c918320d71dfd46b28e1c3bf27609081
+Section: devel
+Priority: optional
+Description: Permissions-Policy structured header syntax formatter
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: webhook-delivery-retry
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/webhook-delivery-retry_1.0.0-2_aarch64.deb
+Size: 12108
+MD5sum: 501f34755213d9ea5c3a6da7bc299ac3
+SHA1: 51ca96f8f5371e3f61403ed26f0ca1931b2a8393
+SHA256: 225e46cfcf3695a71c02d9c2553b0973206fc550259c3abaa857d95c241d8104
+Section: devel
+Priority: optional
+Description: webhook delivery retry schedule and timestamp calculator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: hmac-webhook-verifier
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/hmac-webhook-verifier_1.0.0-2_aarch64.deb
+Size: 12124
+MD5sum: 1bf17fbc5a1bf08c70a283b3150f15fb
+SHA1: eeab4cf5a3f5408e4336b40dbcad37b447a36eab
+SHA256: a738b9dc919e2db43b4e8e14dabe58c7d5601fea7208fd6cae3d4f2bcf7d0a5d
+Section: devel
+Priority: optional
+Description: webhook request payload SHA256 HMAC verification cli
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: api-deprecation-sunset
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/api-deprecation-sunset_1.0.0-2_aarch64.deb
+Size: 12112
+MD5sum: 8d69fb6a934c8fce5976ff7f14115cfb
+SHA1: 7423b2918926eea65066bcef07b476a7b2c881c1
+SHA256: eaa6f4cfde3d82862bb3e85fc14f769fb252463264a1246d7033561674c758b4
+Section: devel
+Priority: optional
+Description: RFC 8594 Sunset and Deprecation HTTP header validator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: pagination-link-header
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/pagination-link-header_1.0.0-2_aarch64.deb
+Size: 12108
+MD5sum: ffb4bd0c5832f8b94bb83c205a92c5f9
+SHA1: 55bd44ad634768d2977c3298ed8a2e5fbead06e7
+SHA256: fbecec328e5e814c426a8b452876f9c1894939b77f532b9ca7d09a52a88a537e
+Section: devel
+Priority: optional
+Description: RFC 8288 Link header rel=next rel=prev parser
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: cursor-based-pager-cli
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/cursor-based-pager-cli_1.0.0-2_aarch64.deb
+Size: 12108
+MD5sum: 91437dd8394253667ba06ba6b887289a
+SHA1: 02a00fde56cbbb239dcc20597c7c15e1e193a021
+SHA256: eb18db962f8c97413203901f0d56d28594302e7549d1e393869aa064233d91a3
+Section: devel
+Priority: optional
+Description: opaque base64 cursor pagination token generator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: json-feed-validator-cli
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/json-feed-validator-cli_1.0.0-2_aarch64.deb
+Size: 12104
+MD5sum: dbe63a078a3bd667e6a3e48a332189c2
+SHA1: ba71ded2f22fdfa51d0b47336f56af1d8937c18c
+SHA256: 89a72786aea552f4ebaf3fe8cbe1281881e94e1472e15e9de49dc7016435b05e
+Section: devel
+Priority: optional
+Description: JSON Feed Version 1.1 schema and item validator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: rss2-feed-xml-checker
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/rss2-feed-xml-checker_1.0.0-2_aarch64.deb
+Size: 12116
+MD5sum: 7b638df40eb577ed24bcbba7fa31a5c3
+SHA1: 8a1c49e87ff0889168d7a700e3b4b3f77e5bfb95
+SHA256: c6af504c85946c8074ff5fbe9973b8e31b4a2fb1a0fe3424b3899daad44e9af1
+Section: devel
+Priority: optional
+Description: RSS 2.0 XML specification feed validator and linter
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: atom-feed-xml-validator
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/atom-feed-xml-validator_1.0.0-2_aarch64.deb
+Size: 12128
+MD5sum: ce3fb042e6077c8541e6dd12bc14dd22
+SHA1: 102cc16703eabf9b40400870435438b0468717e2
+SHA256: a596d3fa0e8e68397f562ab7f9a7f106f4e65c0ecdbb8007c5b081e19c17aea5
+Section: devel
+Priority: optional
+Description: RFC 4287 Atom Syndication Format XML feed validator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: sitemap-xml-inspector
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/sitemap-xml-inspector_1.0.0-2_aarch64.deb
+Size: 12116
+MD5sum: c1e2654ef5106a4da58b29f21ad1588d
+SHA1: 059d185ae53fa2f4786fec827e2307d38831bd4c
+SHA256: db93a5329ed87c9b2f8ed659b8370a47eef49d16adc5cb3375c2be1c88c21de2
+Section: devel
+Priority: optional
+Description: XML Sitemap 0.9 urlset and sitemapindex validator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
