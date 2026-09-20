@@ -1,0 +1,749 @@
+Package: png-chunk-parser
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/png-chunk-parser_1.0.0-2_aarch64.deb
+Size: 6868
+MD5sum: 5d5b4c1aa8fb91cd1a4be8e009f98c6e
+SHA1: 0ec287fd41ce786c5dded4c5368341f8279d5c84
+SHA256: 67d9b34a9ada889ddd866fc7d2a68a303a06f73ca9536bb6c5d37f4949163976
+Section: graphics
+Priority: optional
+Description: Portable Network Graphics chunk structure and CRC validator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: png-ihdr-analyzer
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/png-ihdr-analyzer_1.0.0-2_aarch64.deb
+Size: 6864
+MD5sum: 7f7ded516e35ae00d5b77b57d492d9c5
+SHA1: d44a9725888975b5497e216ac16cb58cbd2d113b
+SHA256: 912239fadea2f2b403e190fadd2f0ce0d9c6c59d7b5170664ba030b3a5f72ca4
+Section: graphics
+Priority: optional
+Description: PNG IHDR dimensions bit-depth and color type reader
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: png-crush-optimizer
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/png-crush-optimizer_1.0.0-2_aarch64.deb
+Size: 6864
+MD5sum: abcb81c452cfc8f19a9563a2d89d93c2
+SHA1: 9df945b5f414c9c679425b94072b6fcfa39db837
+SHA256: 122d304e678cd97b75be73f3b920256745f70c61cffbd4d7471c1e023e365efc
+Section: graphics
+Priority: optional
+Description: lossless PNG deflation filter strategy evaluator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: jpeg-exif-stripper
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/jpeg-exif-stripper_1.0.0-2_aarch64.deb
+Size: 6860
+MD5sum: aa519b7cce0fd191b5c6eda55e68e674
+SHA1: 539ff1cee8d3f89feb312b38418bdce9639af7d8
+SHA256: e4ba29cd411743641bc8782829b7e39fcf8ad2e85204a5e2c0f2f81b44952a94
+Section: graphics
+Priority: optional
+Description: JPEG Exchangeable Image File metadata remover
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: jpeg-marker-parser
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/jpeg-marker-parser_1.0.0-2_aarch64.deb
+Size: 6860
+MD5sum: 97b712b9a2a68f0feaef1c2553d95c32
+SHA1: 756582cc2ac8c32ceee01bc95ec406994aefd8c5
+SHA256: cd356ce9f6b01b6c36f6c8064e73afbe1b43197cc49dc56eb6b8060dea185bc1
+Section: graphics
+Priority: optional
+Description: JPEG SOF0 SOI EOI APP0 marker segment inspector
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: jpeg-progressive-chk
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/jpeg-progressive-chk_1.0.0-2_aarch64.deb
+Size: 6856
+MD5sum: d0fce0d6890f4503511a30de7b5ba338
+SHA1: 0a07cbc0a8d7ed07bfcabdf6457766fd01c59c2b
+SHA256: fb956c5f7d831bc023c69572f9ba9a65c0d50efac1a7af41be253f61e8453e6f
+Section: graphics
+Priority: optional
+Description: progressive vs baseline JPEG scan order detector
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: gif-frame-counter
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/gif-frame-counter_1.0.0-2_aarch64.deb
+Size: 6852
+MD5sum: d54350c0104aa7d3524a2e92fcf5ab1b
+SHA1: f0cc9d11cff9468a3b0ab15ade605e6ffd25618c
+SHA256: b1d4e95b029cc55c18ab58e8cea874ea1d927e95527113ef8c2f273ebcf839a3
+Section: graphics
+Priority: optional
+Description: GIF89a graphics control extension animated frame counter
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: gif-palette-extractor
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/gif-palette-extractor_1.0.0-2_aarch64.deb
+Size: 6864
+MD5sum: 0dffa097b46ce120d7b8eb9956e4b7b6
+SHA1: 10628cf32c8607358f270b9fbb9d727c2f35d3b2
+SHA256: a95f31aa6142d1185a5245810420f47d5e114282b6567dd14753891f03cc774e
+Section: graphics
+Priority: optional
+Description: GIF global and local color table palette viewer
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: webp-vp8-chunk-view
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/webp-vp8-chunk-view_1.0.0-2_aarch64.deb
+Size: 6856
+MD5sum: e5e1ac50bad22106607c54ade77844cf
+SHA1: a2efb1dc3c31e8a3a163be2451b390c21878d599
+SHA256: 40b203e09b4ce612ad6ed9aa26e91cb1ab2485f27572d0ded1d2e497d95359ed
+Section: graphics
+Priority: optional
+Description: WebP RIFF container VP8 VP8L VP8X chunk reader
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: avif-box-inspector
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/avif-box-inspector_1.0.0-2_aarch64.deb
+Size: 6864
+MD5sum: dde120ff6feb921bdd0272bd9110a984
+SHA1: 7922d8e124739622017a5a3415796fba3328cb1d
+SHA256: b8d15b0a046d885b9db02030fea96ee5aaea5eb699a897007321026a263a0dd7
+Section: graphics
+Priority: optional
+Description: AV1 Image File Format ISOBMFF box item parser
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: heif-item-parser
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/heif-item-parser_1.0.0-2_aarch64.deb
+Size: 6872
+MD5sum: 2292e704ec67c3071a151f2012c38a75
+SHA1: 454fc15bafbcd4db8202f8016c6e649a6f742260
+SHA256: 60b7a8d4658b1ad6bce99261ef44d01dfffc396285ffefcf48d400ae0d016756
+Section: graphics
+Priority: optional
+Description: High Efficiency Image File meta iref iprp box reader
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: bmp-dib-header-dump
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/bmp-dib-header-dump_1.0.0-2_aarch64.deb
+Size: 6872
+MD5sum: 8f9c48aa548c1af8f2f5818bff2fefa2
+SHA1: 71ed81dd963fcc48f507469b0007ea877a1c9cb4
+SHA256: c32157873e496a981514ca9e13baccf155eee915ac5c1de4d9ae911c144d0433
+Section: graphics
+Priority: optional
+Description: Windows Bitmap BITMAPINFOHEADER DIB header parser
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: ico-icon-dir-parser
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/ico-icon-dir-parser_1.0.0-2_aarch64.deb
+Size: 6852
+MD5sum: 51246e2fff650d8425f58aeab934c051
+SHA1: c27abf50ec9ce509cfa558f37c063655ce9592a6
+SHA256: 0e8e08cb8951e66bf4929c6a0b35ce6eb61a7cbec90234c77d129c3325cfac96
+Section: graphics
+Priority: optional
+Description: Windows Icon ICONDIR and ICONDIRENTRY image parser
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: tga-header-analyzer
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/tga-header-analyzer_1.0.0-2_aarch64.deb
+Size: 6868
+MD5sum: 0b9ac60e1be372e6af6ea6673788b5ff
+SHA1: 8063270cbe8a1940dc650e906d97dac48e4b2262
+SHA256: f00275a53d87dad731e7d78ad41daa5c9cda2419a93881799f66a8214f280d94
+Section: graphics
+Priority: optional
+Description: Truevision TGA header color map and pixel depth tool
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: tiff-ifd-inspector
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/tiff-ifd-inspector_1.0.0-2_aarch64.deb
+Size: 6872
+MD5sum: 0b955b3b09d1b76ba5924783fd23f0b1
+SHA1: 0c4314d6ffeb83af5e03fa0673e73f08ad89aaa1
+SHA256: 293c24e5f683ae74e61704e5ec33479a551857f0eb1d670431c94f913bc3ed1f
+Section: graphics
+Priority: optional
+Description: TIFF Image File Directory tag count and offset reader
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: svg-path-optimizer
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/svg-path-optimizer_1.0.0-2_aarch64.deb
+Size: 6856
+MD5sum: 3a806d267328976eb4c4857dc8dea770
+SHA1: 705bf5b451a9e63f1ed71da926af6aa9950a0363
+SHA256: e2e32b184f69ed1fc16eee5700a5158782dc118c434e25b9134c0c329b463b69
+Section: graphics
+Priority: optional
+Description: SVG path data decimal precision reducer and cleaner
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: svg-viewbox-fixer
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/svg-viewbox-fixer_1.0.0-2_aarch64.deb
+Size: 6860
+MD5sum: 6cf1ea097693f18c596c419451e8c7c6
+SHA1: 899732461ee124b9d0d48eed7ba91a8b0c418a0f
+SHA256: 123d2cae55ba6219e81f79f9bcb508f290f88b2d4c50e2b9a0b210a31ac4f5da
+Section: graphics
+Priority: optional
+Description: SVG viewBox width height coordinate space normalizer
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: svg-xml-sanitizer
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/svg-xml-sanitizer_1.0.0-2_aarch64.deb
+Size: 6864
+MD5sum: efc2b8afc1a53bdf679b6894c53c864e
+SHA1: efa6ca177ee3936c3188ceb7351a5d543f0d48a3
+SHA256: 0aab76243d73c0bc89990f2841092e287080d088700b234f51456e607869b73c
+Section: graphics
+Priority: optional
+Description: SVG XML malicious script and entity reference cleaner
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: color-hex-rgb-hsl
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/color-hex-rgb-hsl_1.0.0-2_aarch64.deb
+Size: 6860
+MD5sum: 6310c8123114c7104fe86a6227f563e1
+SHA1: 57b616141cfea9cd817e025988359cbf6829315e
+SHA256: 05739e4dad557080c36401a9556f4bca457afe709a0d7175ec3fdce6ef948bef
+Section: graphics
+Priority: optional
+Description: color format converter HEX RGB HSL HSV CMYK
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: color-palette-generator
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/color-palette-generator_1.0.0-2_aarch64.deb
+Size: 6852
+MD5sum: f560dd09987b24145f36ba1009b05dfd
+SHA1: 38729d11ed75832ac433e933ffa5d1206e2519ab
+SHA256: c6846e8d91869307424085703616e6d564d783f39d4239a523852dc4d380f895
+Section: graphics
+Priority: optional
+Description: complementary and triadic harmonic color palette tool
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: color-contrast-wcag
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/color-contrast-wcag_1.0.0-2_aarch64.deb
+Size: 6864
+MD5sum: fecb0f672ab0dd80d38a56e5e725b0bd
+SHA1: fae1b3659e8cf0abd07e7ad9c324ced6f6da04ae
+SHA256: f84d8cb8d0d145e0f0f9f0b71275bcd82b558c4538b889a8a19206fde451a92b
+Section: graphics
+Priority: optional
+Description: WCAG 2.1 accessible color luminance contrast ratio calc
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: lut-color-cube-parser
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/lut-color-cube-parser_1.0.0-2_aarch64.deb
+Size: 6864
+MD5sum: d33582006b8cbada191647eb28f73499
+SHA1: 7d2d4684882d3eff4ef4c81b0add49ab5b280254
+SHA256: c3e4a590cf4b2d1971ddac4c8ab4f80d5cbb22475039dd1e83659c482dc527bb
+Section: graphics
+Priority: optional
+Description: 3D Look-Up Table .cube file format validator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: histogram-image-cli
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/histogram-image-cli_1.0.0-2_aarch64.deb
+Size: 6844
+MD5sum: d53fc85f7778682bce746c358e118a5b
+SHA1: ca989054780d62d00c7cd5e4a181eff7d0f1890f
+SHA256: 7c1647f3ef7eea16aaefcfd0a19d0ea5a1efbd1e798455be4944cf1bc8d10766
+Section: graphics
+Priority: optional
+Description: image red green blue channel luminance histogram
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: pixel-aspect-ratio
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/pixel-aspect-ratio_1.0.0-2_aarch64.deb
+Size: 6848
+MD5sum: 7a7b3b1417d4699e88cb637c200d8332
+SHA1: f922940f58a34403474894604ad17f1ffa1d5644
+SHA256: f3c9191af63c6c64e3d76a8ed63cacfc366024f5b7f5c21b06e000399c9c65c4
+Section: graphics
+Priority: optional
+Description: digital video pixel aspect ratio to display aspect ratio
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: image-dimension-probe
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/image-dimension-probe_1.0.0-2_aarch64.deb
+Size: 6856
+MD5sum: 386c174fd5565aea9b2f009eb49f351b
+SHA1: 337f8578fefe3c1267ca052c1540555da2e80862
+SHA256: 5efc9036b561a1f49a7137f353506e41b4838255875bb5a15dae16e6a45a898e
+Section: graphics
+Priority: optional
+Description: fast zero-decode image dimension and format detector
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: wav-riff-chunk-dump
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/wav-riff-chunk-dump_1.0.0-2_aarch64.deb
+Size: 6852
+MD5sum: 7aef5186a19864cc8ed8168e5b9ffe73
+SHA1: 794ad5f39b67d19a47550789db1ee507a5483767
+SHA256: 530a68876be100b5a28c6400ff4986c3c67f71571d76ce16548fcad4e06083a6
+Section: graphics
+Priority: optional
+Description: WAV RIFF fmt data chunk structure analyzer
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: wav-fmt-spec-checker
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/wav-fmt-spec-checker_1.0.0-2_aarch64.deb
+Size: 6872
+MD5sum: 28e34166ba804ff94913ef5ff45747b6
+SHA1: d4c3bff1243bbc251279a5fc71a5b4eb7a7211f2
+SHA256: ad5acd618de3952830ae42e3b3ec53e9d9b6ad486dfb5400032cb5e93b43c8b5
+Section: graphics
+Priority: optional
+Description: WAV audio sample rate bit depth channel count inspector
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: flac-metadata-block
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/flac-metadata-block_1.0.0-2_aarch64.deb
+Size: 6888
+MD5sum: a1759e36de0b0ad6cc5f108f376f77dc
+SHA1: b8536c81fb1061c56be3ac4f2bbc5edda35f85f0
+SHA256: 2e0a29813dcd1ecfbd4e771ca6a09dbf60e5c9cbd83cbd24452a96eb27e53c77
+Section: graphics
+Priority: optional
+Description: Free Lossless Audio Codec METADATA_BLOCK_STREAMINFO view
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: mp3-id3v2-tag-dump
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/mp3-id3v2-tag-dump_1.0.0-2_aarch64.deb
+Size: 6864
+MD5sum: 363c1aedd83a99a4e3a5903edecf2e66
+SHA1: a2951f0f517025b9ec01e11f215df86b9192afb6
+SHA256: ed9ebfb7f1cedae93fdf969b88a7ae272f6ee39d9749e4399e969fdaae78a268
+Section: graphics
+Priority: optional
+Description: MP3 ID3v2.3/ID3v2.4 frame header and text tag parser
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: mp3-frame-sync-chk
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/mp3-frame-sync-chk_1.0.0-2_aarch64.deb
+Size: 6872
+MD5sum: 6d51b3f27c0df78afd877c56be3625f6
+SHA1: 4d25954f4473f4a3254bf192e67613b53375f1c1
+SHA256: ee134efdfaf3041b704688945ed85d9bc95335388d7b70f8256f4019ebb42091
+Section: graphics
+Priority: optional
+Description: MPEG audio frame synchronization word and bitrate tool
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: ogg-page-header-dump
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/ogg-page-header-dump_1.0.0-2_aarch64.deb
+Size: 6860
+MD5sum: 8be167db5cb1984e4c1247a3b72e7c73
+SHA1: 0238d402cc2d6074bd6018e553f4e1ee51b2960e
+SHA256: 78b9c446871e9cc384428c323a50bcb3855583cf67330846a7afb2f6b488e54d
+Section: graphics
+Priority: optional
+Description: Ogg bitstream transport framing page header reader
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: opus-head-packet-chk
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/opus-head-packet-chk_1.0.0-2_aarch64.deb
+Size: 6864
+MD5sum: 597c246d1e000c4363758a28d521ebda
+SHA1: d8325367cf595829516735c7c423e207c64b8b08
+SHA256: fc1a6b03868e1eaea9b1d984eae14f05b4bb44780e7cf60f7d7bd3bec2413749
+Section: graphics
+Priority: optional
+Description: OpusHead identification header and preskip calculator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: vorbis-comment-reader
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/vorbis-comment-reader_1.0.0-2_aarch64.deb
+Size: 6864
+MD5sum: 1ec4d5af33780a61418f5cc2992c8aab
+SHA1: ec7384a8e1abe32df30a01321bbc7b7d01aa46bc
+SHA256: 32db1877b1d1dc94ac854a84e606e6af7e0c7ecb1d14186aac3b3e4717c35d52
+Section: graphics
+Priority: optional
+Description: Ogg Vorbis user comment vendor string field extractor
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: aac-adts-header-dump
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/aac-adts-header-dump_1.0.0-2_aarch64.deb
+Size: 6860
+MD5sum: 53f6bd872cd079f9f1d6fc79a5133acd
+SHA1: b8f293a89813656f0b321e6b81b47d60e76b63cb
+SHA256: 8bb740d57d89349d938640b3b87caf76c0386c2d7f2ffc450ad5c794ebb66c1c
+Section: graphics
+Priority: optional
+Description: Advanced Audio Coding ADTS synchronization header dump
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: midi-track-event-view
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/midi-track-event-view_1.0.0-2_aarch64.deb
+Size: 6868
+MD5sum: 56d582423b520e54f51b51388c83f349
+SHA1: 5d9f67d5e552aa8eb23a61b15567a558552dbdfd
+SHA256: c4231eda655ee601036f2863c9273f8be615c00c4822d147b5cff72d4b752afc
+Section: graphics
+Priority: optional
+Description: Standard MIDI File MThd MTrk delta time event parser
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: pcm-sample-rate-conv
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/pcm-sample-rate-conv_1.0.0-2_aarch64.deb
+Size: 6860
+MD5sum: d07840e020b694be86b8ff800afe4c07
+SHA1: e47b67509650a73328619c13947638a2b3f89ad4
+SHA256: 7c949cb35b5edb6c2943483f82d5978b05199ecb16c2e2a8909c15fa5e6f5977
+Section: graphics
+Priority: optional
+Description: PCM raw audio sample rate and bit depth calculator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: audio-duration-calc
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/audio-duration-calc_1.0.0-2_aarch64.deb
+Size: 6852
+MD5sum: 131a7502c27c965db65826099b068a5d
+SHA1: bb124b2af81b2da81c43a1c18dfd4fab2ebc7bf4
+SHA256: cf4fbe557dce37b2024f7448b6858717d50d534bddc7fbe1f07399105229f52d
+Section: graphics
+Priority: optional
+Description: uncompressed audio file duration from byte length calc
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: audio-bitrate-sampler
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/audio-bitrate-sampler_1.0.0-2_aarch64.deb
+Size: 6864
+MD5sum: df3111fac847be8010a3aee97c5454f7
+SHA1: d865bfd01c89f3f86c95621eaaf1afeb5e28f559
+SHA256: f355533314db46abee05a832bd708a53ba62a50df6eecfb37b82b069a0532862
+Section: graphics
+Priority: optional
+Description: constant vs variable bitrate distribution analyzer
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: ffmpeg-probe-lite
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/ffmpeg-probe-lite_1.0.0-2_aarch64.deb
+Size: 6856
+MD5sum: 342187f0302de83b2dd6a36296efaf79
+SHA1: 2cf0094c72fad789856889f630658fc9b051d353
+SHA256: c5bc264d125c6ef1f75f36bc78174fe033157284b7e124ccdf22221e80fb5d7f
+Section: graphics
+Priority: optional
+Description: multimedia container stream audio/video track prober
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: mp4-moov-atom-parser
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/mp4-moov-atom-parser_1.0.0-2_aarch64.deb
+Size: 6856
+MD5sum: 9c6636f88b866559345cd37212ec3bdb
+SHA1: 004db5d6ff6f5af93eb21a9e8da2537b5ea33272
+SHA256: 7b3603a2aef62cb073a585d2a3dc4f53939fed2d48eb2f7f2fae10602554afba
+Section: graphics
+Priority: optional
+Description: MPEG-4 Part 14 ftyp moov mvhd trak atom parser
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: mkv-ebml-header-dump
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/mkv-ebml-header-dump_1.0.0-2_aarch64.deb
+Size: 6872
+MD5sum: c58f8bf2c307ccbce407b6f19fe7c6bb
+SHA1: 7ca4821743663321455514c2090a80e64fbbe62e
+SHA256: 3034d5f1d25c2edd9863928f9a082cf0498616606a80841cebcc7387afaf5e8f
+Section: graphics
+Priority: optional
+Description: Matroska EBML document header and track UID reader
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: avi-riff-list-parser
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/avi-riff-list-parser_1.0.0-2_aarch64.deb
+Size: 6860
+MD5sum: 35f3cb5d2f3e24d9119ca59819792dd6
+SHA1: db8a4d4294f923cc53309ee4d19f1bd46bc8b418
+SHA256: b6b7e391b8c23145833c25d5e41382f47c2f03705e68850b5839cc82c453c096
+Section: graphics
+Priority: optional
+Description: Audio Video Interleave RIFF LIST hdrl movi parser
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: subtitle-srt-time-shift
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/subtitle-srt-time-shift_1.0.0-2_aarch64.deb
+Size: 6860
+MD5sum: 76254654a67eb10ef06f406b8cbcc18f
+SHA1: f876bc928c86d59cb6349c6ec66979e2783e30cf
+SHA256: 39359bb0a4ce42668ea57a0de88e822437e4c79917c5f31ee0bb7e004d40492f
+Section: graphics
+Priority: optional
+Description: SubRip SRT subtitle timestamp offset shifting tool
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: subtitle-vtt-validator
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/subtitle-vtt-validator_1.0.0-2_aarch64.deb
+Size: 6856
+MD5sum: a50ce263ccd39fefb95ae783611ca255
+SHA1: 256553dbe9144cbd4a211ddd3773eab6ccca7808
+SHA256: f1bbde06830f1de1e16224d4fc3dfcde4807551df44cd1bd21520b7f9378b6d0
+Section: graphics
+Priority: optional
+Description: WebVTT cue timing and caption structure validator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: yuv-frame-calculator
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/yuv-frame-calculator_1.0.0-2_aarch64.deb
+Size: 6856
+MD5sum: 1401485dd5729f86f471936b26f1e6f7
+SHA1: 45f3db41acbcf664c12c94d4feb447ea44cc565c
+SHA256: c5af1985af69b2166cb9df691e4bcd9c04ef9a81bb94cb0acbb23cecb71efd7f
+Section: graphics
+Priority: optional
+Description: raw YUV 4:2:0 planar frame buffer size calculator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: video-fps-timecode
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/video-fps-timecode_1.0.0-2_aarch64.deb
+Size: 6856
+MD5sum: 7466715301242a24dc6e0396bc48ba5b
+SHA1: 1cece6f0f698b27600bed52dcabbccb6dde65bfc
+SHA256: 64f79f0a05ed5bd220072315c276f4c59c4dfe6934ff8b551e88d2d60e34965e
+Section: graphics
+Priority: optional
+Description: video frame rate SMPTE drop-frame timecode converter
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: dpi-calculator-cli
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/dpi-calculator-cli_1.0.0-2_aarch64.deb
+Size: 6872
+MD5sum: c2713308baa37cad402dd88a639afebf
+SHA1: e5b3057b701818d0c087285ef5a076233e370635
+SHA256: 1d13e19c3b32f0312ae30876e82858d563e4e8049aff1aafd33ba5b856a42162
+Section: graphics
+Priority: optional
+Description: display dots-per-inch and physical screen dimension calc
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: aspect-ratio-reducer
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/aspect-ratio-reducer_1.0.0-2_aarch64.deb
+Size: 6852
+MD5sum: 1cb2bf26c60b531cad663ce9b539b88d
+SHA1: 56a2e820a407d5ccb4d369a7ac8493d419b53761
+SHA256: 71f059c540be39f82ab14192eb7ffd7b955988a50f5491c69f158974a4492648
+Section: graphics
+Priority: optional
+Description: screen resolution to simplified aspect ratio reducer
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: color-temperature-calc
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/color-temperature-calc_1.0.0-2_aarch64.deb
+Size: 6848
+MD5sum: 4907bb7b797644c273a4d6fecb646046
+SHA1: ca9ca8e98bda5f043a6293be163230c8e01bb179
+SHA256: f7c4a4a92659401ba224a7a53f015a1e02b8b98c6d729c261e7df601c2c13653
+Section: graphics
+Priority: optional
+Description: Kelvin color temperature to approximate RGB calc
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: bayer-pattern-matrix
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/bayer-pattern-matrix_1.0.0-2_aarch64.deb
+Size: 6860
+MD5sum: 2f9f5d135360a2e9db64569b2c6bf846
+SHA1: 1a5b8e448f5050e5013edc12db1c456b8c52a02a
+SHA256: 515b7d070277585b6b7d707ad7b9b544688ee1ba02f068776c0da4127ed26a01
+Section: graphics
+Priority: optional
+Description: camera raw Bayer color filter array pattern inspector
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.

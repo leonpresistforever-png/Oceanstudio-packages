@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "targetExpansionPackages": 1000,
-  "stagedFunctionalRepairs": 800,
+  "stagedFunctionalRepairs": 1000,
   "livePromotedRepairs": 0,
-  "remainingPlaceholderPackages": 200,
+  "remainingPlaceholderPackages": 0,
   "repairVersion": "1.0.0-2",
   "signingBlockedBy": "OCEAN_REPOSITORY_SIGNING_KEY unavailable to GitHub Actions",
   "shards": [
@@ -44,7 +44,19 @@
       "status": "staged-functional"
     },
     {
+      "name": "shard-12-database-query-engines",
+      "packages": 50,
+      "testsPassed": 50,
+      "status": "staged-functional"
+    },
+    {
       "name": "shard-13-text-nlp-corpora",
+      "packages": 50,
+      "testsPassed": 50,
+      "status": "staged-functional"
+    },
+    {
+      "name": "shard-14-image-media-audio",
       "packages": 50,
       "testsPassed": 50,
       "status": "staged-functional"
@@ -74,7 +86,19 @@
       "status": "staged-functional"
     },
     {
+      "name": "shard-20-security-audit-forensics",
+      "packages": 50,
+      "testsPassed": 50,
+      "status": "staged-functional"
+    },
+    {
       "name": "shard-21-cloud-container-runtime",
+      "packages": 50,
+      "testsPassed": 50,
+      "status": "staged-functional"
+    },
+    {
+      "name": "shard-23-distributed-consensus-p2p",
       "packages": 50,
       "testsPassed": 50,
       "status": "staged-functional"

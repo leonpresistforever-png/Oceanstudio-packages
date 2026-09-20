@@ -1,0 +1,749 @@
+Package: duckdb-query-runner
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/duckdb-query-runner_1.0.0-2_aarch64.deb
+Size: 6188
+MD5sum: a0438619b7706e972681e59ba93aee3f
+SHA1: 030c683f897fb2375e5e03835c7d676014077fb6
+SHA256: 87f2ade5d8bf1dea92480ff211f958f85c0603053e3887055e9e64d55ec645e7
+Section: database
+Priority: optional
+Description: analytical columnar SQL database CLI runner
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: sqlite-fts5-tokenizer
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/sqlite-fts5-tokenizer_1.0.0-2_aarch64.deb
+Size: 6196
+MD5sum: 2258dbd49f4d34ea4cf037dfe296d946
+SHA1: 1b16a5c3709a5b931e65fa878eab46bac74b0330
+SHA256: 5beba68916d9b5c7ec4a86dead0a894467b749732da73615da1c0c87195a9665
+Section: database
+Priority: optional
+Description: SQLite Full Text Search 5 tokenizer query tool
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: sqlite-json-query-cli
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/sqlite-json-query-cli_1.0.0-2_aarch64.deb
+Size: 6196
+MD5sum: 69af45081032e52f26388aae90e3df17
+SHA1: 691c45006d80e9bb273ca59f9d8ced4f647fba3a
+SHA256: 12ec4769223e72f7b74b048c76387d094fa864492f90384d6b0d73a4c53b8335
+Section: database
+Priority: optional
+Description: SQLite json_extract and json_each CLI processor
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: sqlite-rbtree-visualizer
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/sqlite-rbtree-visualizer_1.0.0-2_aarch64.deb
+Size: 6184
+MD5sum: 80af1dce1eb8e9306a19773cdcaa651a
+SHA1: a4a78cdd406ea5b3ad8fb32f48eb8b8da64815bd
+SHA256: 9b51b4bde95a159b1d866a3f02def889f63bc4423b1f908c0cf0e9bb97084dd3
+Section: database
+Priority: optional
+Description: SQLite index B-tree balancing visualizer
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: sqlite-b-tree-inspector
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/sqlite-b-tree-inspector_1.0.0-2_aarch64.deb
+Size: 6196
+MD5sum: d0f9f593743bea24f2f244a1e129a483
+SHA1: aee0b9add353552e7175f5a1961410f0f0eb3740
+SHA256: 1836e13dee2b00253131ede868884610d4e9e2c78cbc9c8387f2730ecd9a262b
+Section: database
+Priority: optional
+Description: SQLite database file page header and cell parser
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: sqlite-page-analyzer
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/sqlite-page-analyzer_1.0.0-2_aarch64.deb
+Size: 6196
+MD5sum: 8b2d23e09d0c3b7f88e77ce378883c4d
+SHA1: 66b7d1fcf6205d1c7bb3c29a5c6faa9790a3528e
+SHA256: 9e4550576eece8945a2f9d1fe1693fd5c9374a4747dc99ddcbc8a16cf0196efc
+Section: database
+Priority: optional
+Description: SQLite page type freelist and overflow page auditor
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: sqlite-vacuum-analyze
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/sqlite-vacuum-analyze_1.0.0-2_aarch64.deb
+Size: 6196
+MD5sum: 9bd92188ae22f3125db3583b8c25c30e
+SHA1: 25bcb1df41ff1b68eca8422b60707cb296e2e329
+SHA256: ad76c43d4b44e00654a6a7be4f6c9e6b1b79b7895167efc0c4fb959bc964a4fd
+Section: database
+Priority: optional
+Description: SQLite fragmented free page percentage calculator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: sqlite-pragma-dump
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/sqlite-pragma-dump_1.0.0-2_aarch64.deb
+Size: 6188
+MD5sum: 375000f56cb89e4761b6524a34de97a7
+SHA1: 13868493c56b1fe1d2e473608433ff88102417f6
+SHA256: 06a913c5b23ad68f98d7255ff94e8f68578098857891e80806cdf53291298a73
+Section: database
+Priority: optional
+Description: SQLite database PRAGMA configuration reporter
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: sqlite-table-sizes
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/sqlite-table-sizes_1.0.0-2_aarch64.deb
+Size: 6188
+MD5sum: b126d0ac7296439452f4ff5da545d22a
+SHA1: e3539cc7056df4c3e9200fe6d41c0ec963cf4c6b
+SHA256: 0dd521ab59d19940ff30b25c432e0b5b47debc87cd5a7f5775d5860746370008
+Section: database
+Priority: optional
+Description: SQLite database per-table disk space usage analyzer
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: sqlite-index-recommend
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/sqlite-index-recommend_1.0.0-2_aarch64.deb
+Size: 6180
+MD5sum: c15693f0e68f5f33c9c08b3f016990f7
+SHA1: 29451203d21d6cb5904a1d6c719f75b8e7411feb
+SHA256: 53358025d716580038723ea0c3d8bab71eaabea6afb3a1401bb7480337626dcd
+Section: database
+Priority: optional
+Description: SQLite query execution plan index recommender
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: sqlite-transaction-log
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/sqlite-transaction-log_1.0.0-2_aarch64.deb
+Size: 6196
+MD5sum: ac793de4e9627ada9e6abd3e6f2141af
+SHA1: db14300045adc743e8aaa9cd7fdf7b62536497d8
+SHA256: f4343edf7a37bc4701f70f1d1a4c62fb02432864fd938fc2d0c9db64514b4ae8
+Section: database
+Priority: optional
+Description: SQLite rollback journal header and change parser
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: sqlite-blob-extractor
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/sqlite-blob-extractor_1.0.0-2_aarch64.deb
+Size: 6196
+MD5sum: d1d915b22db95671fc910f56882b3d35
+SHA1: f00bffaad05d3dafb56b07e1e1632e9c310af5f5
+SHA256: 1caca5812d3dacff004ed22f9a7703602123cfbfffe315232921022ccf4d6bee
+Section: database
+Priority: optional
+Description: SQLite table BLOB column raw binary stream extractor
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: sqlite-repair-corrupt
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/sqlite-repair-corrupt_1.0.0-2_aarch64.deb
+Size: 6188
+MD5sum: 3cfe715eb180aeba9c2400ee1c3a2b7f
+SHA1: 047a920b926e70583b2a4b3c5d83a054c3ad9fd6
+SHA256: 3256f8eabbcfdf9050201c449a0b8b3029a079a06e0b7edb7d70004ce80b4aea
+Section: database
+Priority: optional
+Description: corrupt SQLite database raw text and row recovery
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: rocksdb-sst-dump
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/rocksdb-sst-dump_1.0.0-2_aarch64.deb
+Size: 6188
+MD5sum: e920fd4afefed6a36a7c5f29382ca1e3
+SHA1: c799a5124bc600e4603295d870774ee32c22f097
+SHA256: b68b33ef52cfa4e743a4a5fb266e5781a2c34b81a207dd9b8e7fb22fd50c6c9a
+Section: database
+Priority: optional
+Description: RocksDB SSTable block format and index reader
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: leveldb-log-inspector
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/leveldb-log-inspector_1.0.0-2_aarch64.deb
+Size: 6196
+MD5sum: 5cebdd3741b1291794bd451c369203d7
+SHA1: 0fb460e7a3ef612654959a5dfc8c15d6fd246057
+SHA256: 61ac913658e814dffcb29e2a33f6eaff1c03feac5c32f0457f73d944bcf1d036
+Section: database
+Priority: optional
+Description: LevelDB write-ahead log record and CRC checker
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: lmdb-stat-analyzer
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/lmdb-stat-analyzer_1.0.0-2_aarch64.deb
+Size: 6204
+MD5sum: b2055000c408ed4415d409bc72765e56
+SHA1: 1fbc520786b14102719ee50655e8d0a9707b8d3d
+SHA256: b0444fbe2da08eb6de26984f564414f21a61d947da1e5b294b7641dde844b84d
+Section: database
+Priority: optional
+Description: Lightning Memory-Mapped Database stat and page tool
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: berkeleydb-hash-chk
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/berkeleydb-hash-chk_1.0.0-2_aarch64.deb
+Size: 6200
+MD5sum: 780de328c755eeb8e28446ebeb99b485
+SHA1: 4a86e0c0663e029994dc71ac50f5c5e244163e61
+SHA256: be91025c93e0269c1d625dff78a0966687984ea51af601a4da64c0f9947b053b
+Section: database
+Priority: optional
+Description: Berkeley DB Hash and Btree file header parser
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: redis-rdb-parser
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/redis-rdb-parser_1.0.0-2_aarch64.deb
+Size: 6200
+MD5sum: 117fc730b02a7ad3fa0ad94a3fa2b734
+SHA1: ec46852a6dbf3ef1b961f812fecaddbdadc9732d
+SHA256: 262a69d5e0d6fb27a79bd46056d38f0fc803258eef43c0dd9914ad22f231b3c6
+Section: database
+Priority: optional
+Description: Redis RDB snapshot file opcode and key-value parser
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: redis-aof-rewriter
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/redis-aof-rewriter_1.0.0-2_aarch64.deb
+Size: 6196
+MD5sum: 8d81bd0b449d120f5a85a426efcb2850
+SHA1: 3699e1868dab67321bb253fc603e77ff078d768b
+SHA256: f091d4b8b8fb053ccbd42ae0d94d24bc5cd78e1439ff463d46b86c160fadc864
+Section: database
+Priority: optional
+Description: Redis Append-Only File RESP command parser
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: redis-resp-encoder
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/redis-resp-encoder_1.0.0-2_aarch64.deb
+Size: 6204
+MD5sum: 45a5ec5064946a7780f4dfb414af9bff
+SHA1: 4176f0438162cee14a36f3c69d045e9955101e2f
+SHA256: c6b93d9420d6559fe7ef020406d2b2fb803d69a3313bead4959b96c5ef886a1e
+Section: database
+Priority: optional
+Description: Redis REdis Serialization Protocol RESP2/RESP3 encoder
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: redis-resp-decoder
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/redis-resp-decoder_1.0.0-2_aarch64.deb
+Size: 6200
+MD5sum: 7d988887acdf70bcfe4e508863aa6445
+SHA1: 5ebb23e3c7fb5c1f0dede6a5179151fd0e2ac51e
+SHA256: 5c306bcccddc45be677ac74598bb1dafd8135ce605ce176266162fe3b269a661
+Section: database
+Priority: optional
+Description: Redis RESP protocol parser and JSON translator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: memcached-text-proto
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/memcached-text-proto_1.0.0-2_aarch64.deb
+Size: 6188
+MD5sum: 0a4084ea9ea5b20b298e42f7052ae711
+SHA1: 3a9782895741066054abb4c698665503d568a724
+SHA256: e4316f2c705a499c857187085f2934d6e9caa2103f578721556ebaffa6a77a98
+Section: database
+Priority: optional
+Description: Memcached ASCII and binary protocol command tester
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: cassandra-cql-parser
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/cassandra-cql-parser_1.0.0-2_aarch64.deb
+Size: 6188
+MD5sum: f0b29efca87c946594343f04b478ca09
+SHA1: ba57e92ca067019f5fd0f24102294324440447ed
+SHA256: e7ada0077f3ea27eadf97ca8242e6ff35596e2704c0a7646d35dc1004fa0c313
+Section: database
+Priority: optional
+Description: Cassandra CQL schema and keyspace syntax validator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: mongodb-extended-json
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/mongodb-extended-json_1.0.0-2_aarch64.deb
+Size: 6196
+MD5sum: 06f3844b17d106343a9e5e324df21746
+SHA1: 48d89a27ba157927cefd3dbcc66a00b22057627e
+SHA256: a2f124a30b6504e6bd6ec54a3d11b969431d5eb3fee561cf06d66414d9e25a3b
+Section: database
+Priority: optional
+Description: MongoDB Extended JSON v2 format to standard JSON tool
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: postgresql-copy-stream
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/postgresql-copy-stream_1.0.0-2_aarch64.deb
+Size: 6208
+MD5sum: 3b42b40a4665158ebbe0522e1ac8ce33
+SHA1: 052b9b623cfbc0c3d90c987c51c3395cffc9deb9
+SHA256: 3934862d5a99fe9c77d8e46930d4e7956a239a6cf357e986c9b058353735ba25
+Section: database
+Priority: optional
+Description: PostgreSQL COPY protocol text/binary stream formatter
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: mysql-binlog-event-chk
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/mysql-binlog-event-chk_1.0.0-2_aarch64.deb
+Size: 6200
+MD5sum: 7951431de00da3564da3c8bd1d64ac7e
+SHA1: 137ad84d5e09df2ed21fac7bb4befa439ec8187e
+SHA256: 9d17b1bc0299816f22a557694eb9558c404599f461a4598c0e65617795f1bca1
+Section: database
+Priority: optional
+Description: MySQL binary log replication event header parser
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: sql-dialect-converter
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/sql-dialect-converter_1.0.0-2_aarch64.deb
+Size: 6200
+MD5sum: df73996f8013c1090db2be5f239d846b
+SHA1: d9f323242fd5702259de0d4c084928c3ec6a9d97
+SHA256: 9cbedd1347a8a78030fdaaa38fc7f2a8ea55313966d7937dc1a605104a62cd82
+Section: database
+Priority: optional
+Description: SQL dialect transpile helper Postgres SQLite MySQL
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: sql-syntax-formatter
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/sql-syntax-formatter_1.0.0-2_aarch64.deb
+Size: 6188
+MD5sum: 7befa5508ddfe8c5718bcb03ace53877
+SHA1: 72a5da6f69061133f1e1ae58e49e6a6beb59d868
+SHA256: d23009a1f811d411633c3f6dc9a272cd8f6bfbdd80bc73d35492827213cdfa6e
+Section: database
+Priority: optional
+Description: SQL query prettifier and indentation formatter
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: sql-ast-visualizer
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/sql-ast-visualizer_1.0.0-2_aarch64.deb
+Size: 6200
+MD5sum: 5ade0df8196e9017a6a4f159b54782b1
+SHA1: fee899fb2f62ca0b975680f7c234f37b452582c1
+SHA256: 93a9f613f61be4ba9c43e2fcad792ec9870cbba9b5d07b87091729f26a29f4b2
+Section: database
+Priority: optional
+Description: SQL query abstract syntax tree treeview generator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: sql-injection-tester
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/sql-injection-tester_1.0.0-2_aarch64.deb
+Size: 6200
+MD5sum: 63e52ee33f85a7949334058b9e76855d
+SHA1: 912363931ee02880f67b7654bd9c930f732d61f7
+SHA256: 2eda883e0ccdb658902fab88359149527fe9af3158bc6d9590f67ae75b36381b
+Section: database
+Priority: optional
+Description: SQL query literal parameterization security checker
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: db-migration-history
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/db-migration-history_1.0.0-2_aarch64.deb
+Size: 6184
+MD5sum: 62bbea9a921f6786a97c019f249927c6
+SHA1: 352eb406c8f6fd285e5a4206b8b122f31d705a99
+SHA256: d5d590964634340e9335ec90218bdcc444d477e05a3c0d5c6c4d5d4931d2f00a
+Section: database
+Priority: optional
+Description: database migration version sequence gap detector
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: db-schema-snapshot
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/db-schema-snapshot_1.0.0-2_aarch64.deb
+Size: 6188
+MD5sum: edf8d83424059321e20648509754aa9a
+SHA1: bbe3792c64a5001a2076f5152a31e2b658e8b9c6
+SHA256: af03ec304f6487f7ee7eac7565c73d9eafd281f89173eb39eef9ed168b6dbd04
+Section: database
+Priority: optional
+Description: database schema DDL snapshot differential generator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: db-foreign-key-chk
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/db-foreign-key-chk_1.0.0-2_aarch64.deb
+Size: 6188
+MD5sum: a51d268f63e3bbca4b6acd19173888f0
+SHA1: e0afd15a407b6b01c347dfc3ef08e3e8e6682c6f
+SHA256: b170a14a5e8f902e99bd629eea9c77ecf5f712363650308cd43620ee7ed2f2f6
+Section: database
+Priority: optional
+Description: relational database foreign key constraint auditor
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: db-orphan-records-chk
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/db-orphan-records-chk_1.0.0-2_aarch64.deb
+Size: 6192
+MD5sum: 7d45ff092d73e623744def8b0cf20e35
+SHA1: fdfe8169e4424d2feee11308b154df0dd6142f58
+SHA256: 7000e1d13af1e616270c60857cfd85bb930850ffe399d6de1ae34464feaffb54
+Section: database
+Priority: optional
+Description: database orphaned child row consistency detector
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: db-constraint-audit
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/db-constraint-audit_1.0.0-2_aarch64.deb
+Size: 6192
+MD5sum: c25993d4a4bb2c5718f9ee7b8b3ed2d6
+SHA1: c8ca5d18661268e5095d0ce4ae1cdc5e8faaf7b5
+SHA256: e4207fe3ce426a1037cc0067e247e47bbe6faf35f317d8899739147b10919942
+Section: database
+Priority: optional
+Description: database NOT NULL UNIQUE and CHECK constraint linter
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: db-seed-data-gen
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/db-seed-data-gen_1.0.0-2_aarch64.deb
+Size: 6188
+MD5sum: abfcb0b9817d932a86619a358fddd89c
+SHA1: 7c574dd4ca83d31614f4babea8e8d4d1225cdaab
+SHA256: 15ce42f19dfb15178163b946c0457ef9bac8130d5152930ff1a6e2cf43233974
+Section: database
+Priority: optional
+Description: relational database deterministic mock row generator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: parquet-schema-viewer
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/parquet-schema-viewer_1.0.0-2_aarch64.deb
+Size: 6188
+MD5sum: 12483135d979ce71e6b85a7faf15689b
+SHA1: 02d12dbe72948c0a89c1961539a87500c0cc36a7
+SHA256: 649e43f62c49992319597dbd76124d5cd6a659fae653df19c5fea19624ae47d4
+Section: database
+Priority: optional
+Description: Apache Parquet thrift file metadata schema viewer
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: parquet-metadata-dump
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/parquet-metadata-dump_1.0.0-2_aarch64.deb
+Size: 6192
+MD5sum: 8e3041a8ed5892afe49a09fd5e769425
+SHA1: 689f6dce9e108e63f4145f25dabe1c97ec520510
+SHA256: cf62b558a16ffef543f116bbfbfd29dd81e45af0898d5ef834b995118d4f4013
+Section: database
+Priority: optional
+Description: Parquet row group and column chunk stats analyzer
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: orc-file-footer-parser
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/orc-file-footer-parser_1.0.0-2_aarch64.deb
+Size: 6192
+MD5sum: 8e7e1d37c0d6e5b33ba47827c2a8ac1a
+SHA1: f8f7a6bc44d81ca314a1cda73b3e54cb27e7080a
+SHA256: 331c524c07411558aa2c6f9a01956ff8f7a7db1bcda20b489602652dac1bd2a5
+Section: database
+Priority: optional
+Description: Apache ORC file footer and stripe metadata parser
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: arrow-ipc-validator
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/arrow-ipc-validator_1.0.0-2_aarch64.deb
+Size: 6192
+MD5sum: ae68996d3b0bfde85fc41a4da363d844
+SHA1: 7a9362d022b53a7643f23a8cbf021492112aab80
+SHA256: af8914a3bcc969f05cddeb956db01b5b5c27b34023a07b23b9bc07f38d3fd64f
+Section: database
+Priority: optional
+Description: Apache Arrow IPC stream and record batch validator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: feather-file-inspect
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/feather-file-inspect_1.0.0-2_aarch64.deb
+Size: 6188
+MD5sum: 13c1ecd461cd80d9010c8561de796760
+SHA1: f04dbf50e6c7fe0d00f0b3eebd17e1566c69370a
+SHA256: 3c5029f4b77045a0c992484640457b9e3dbf6b5a25ce323ae1fdcef6f984fe73
+Section: database
+Priority: optional
+Description: Feather V1/V2 binary dataframe format inspector
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: dbf-xbase-reader
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/dbf-xbase-reader_1.0.0-2_aarch64.deb
+Size: 6200
+MD5sum: 667670e33054e9a4cfd9e78036346b7e
+SHA1: dc68f4cffa229ffa4e86164ba22d56314bfc4feb
+SHA256: cb488b3fc8c32ea16a244a2b29e7de5a57ac0078a610fea76ce4d95e5d49a225
+Section: database
+Priority: optional
+Description: dBase III/IV DBF table header and record extractor
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: h2-database-export
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/h2-database-export_1.0.0-2_aarch64.deb
+Size: 6188
+MD5sum: e75aa136371dca55859d8c4c7f217a0a
+SHA1: 9d9930f5b90faa2499c7f4f03c987103e347b9be
+SHA256: c2efb1eea5b8ae484a47fcbd10b4182a52a151982ce990133dedc0e6eaf93d41
+Section: database
+Priority: optional
+Description: H2 embedded SQL database script backup reader
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: derby-log-analyzer
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/derby-log-analyzer_1.0.0-2_aarch64.deb
+Size: 6184
+MD5sum: 5fcf89de35bca490d545df7c24852f0b
+SHA1: dac382db526b17726caa77a0bdd5df1a59cb5c71
+SHA256: 3005283e46eecf5353de33f499476bf607284610ebc956f1ca4f07746684427f
+Section: database
+Priority: optional
+Description: Apache Derby database transaction log analyzer
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: timescaledb-hypertable
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/timescaledb-hypertable_1.0.0-2_aarch64.deb
+Size: 6196
+MD5sum: 7392890b1913530002eccd5be40bf705
+SHA1: 27799dec571a52a92faa9fe9cfd1837dc941d7f9
+SHA256: 86d3f4866315ab6f8ecd72078573b3c8f94dad7a34c306808a72d9f18046986c
+Section: database
+Priority: optional
+Description: time-series database hypertable chunk size calculator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: influxdb-line-protocol
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/influxdb-line-protocol_1.0.0-2_aarch64.deb
+Size: 6192
+MD5sum: e18be16f1867b03af3e94c62443e6b34
+SHA1: 1692cdcf75c595538f1ad98b4b61569fe9348aa9
+SHA256: f72e9bdb237ede56e14e2f47090462e87b486dbfddf6eb73e35baa500948fff9
+Section: database
+Priority: optional
+Description: InfluxDB Line Protocol point measurement validator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: prometheus-tsdb-block
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/prometheus-tsdb-block_1.0.0-2_aarch64.deb
+Size: 6188
+MD5sum: 4ca037f703936eb18a991448cff4e1dd
+SHA1: b69e722285489601a4a11e46747c5badcc719b7b
+SHA256: 58a40c11fb0d2209d6c62c9c9bc3b0704d01e3640f144f043b3d910c9873e2e1
+Section: database
+Priority: optional
+Description: Prometheus TSDB 2-hour block meta.json inspector
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: vector-embedding-index
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/vector-embedding-index_1.0.0-2_aarch64.deb
+Size: 6192
+MD5sum: 1b39cfd620e64612afd9c0534c0c3a9c
+SHA1: 55396b5dc284b6a312bf798e995ed72b3fc5c44a
+SHA256: 0406a088b75ac32a69fb38e4e891af3c14c8a7ded7a2fa6cec4faea0a326810a
+Section: database
+Priority: optional
+Description: high-dimensional vector cosine similarity indexer
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: hnsw-distance-calc
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/hnsw-distance-calc_1.0.0-2_aarch64.deb
+Size: 6212
+MD5sum: fa71e9b9398b07694ee3a5d646776825
+SHA1: 593831822b8c2163a34d2d5c75eee00fad703080
+SHA256: 35a846fc481a921cb88b9be245c4def1c5e47f4e7a834d7dcedd055b96d46d5d
+Section: database
+Priority: optional
+Description: Hierarchical Navigable Small World vector search tool
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: faiss-index-header
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/faiss-index-header_1.0.0-2_aarch64.deb
+Size: 6200
+MD5sum: 81526b232488c647f5aedcd535690433
+SHA1: 5e1c5e28a55acbf91ef56af2fad56ccd6c74948a
+SHA256: 57d88775b28443e45ba493291f01d65cd0aaa6f2f7ed5ee96b4823abf37854cb
+Section: database
+Priority: optional
+Description: FAISS vector index file header and dimensionality viewer
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.

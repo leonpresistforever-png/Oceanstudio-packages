@@ -1,0 +1,749 @@
+Package: raft-term-log-viewer
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/raft-term-log-viewer_1.0.0-2_aarch64.deb
+Size: 6652
+MD5sum: b78f95f00dcc8c3807ed475a6ecd0fd7
+SHA1: 0c3b54095439136350d9f52119b431156e5b4479
+SHA256: b777331c54543012df36ff7f037fbca8b040183f5d61481286d7f618dedfdd9a
+Section: net
+Priority: optional
+Description: Raft consensus protocol state machine log entry reader
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: raft-vote-simulator
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/raft-vote-simulator_1.0.0-2_aarch64.deb
+Size: 6632
+MD5sum: b6524f1f53e40dc646f179f63836681b
+SHA1: 2e6792f7a7adedd19e51ce675853ca72948e990f
+SHA256: 4107de9652f925cc37e5540f2ff3a0ce4835dfe9ba31464ffe4b82e5c74d8c88
+Section: net
+Priority: optional
+Description: Raft leader election ballot and term simulator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: paxos-ballot-calculator
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/paxos-ballot-calculator_1.0.0-2_aarch64.deb
+Size: 6648
+MD5sum: c6193b0fcd7f810f8a45474ec2b4369c
+SHA1: b66406db053563e2c6c58a4c0f955c5437ba911c
+SHA256: 8421f7624d1e7a7f6ea0e6cc0a0be3c343339b079cc7f6c70fbe2e0a92e2e4c7
+Section: net
+Priority: optional
+Description: Multi-Paxos proposal number and promise phase engine
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: gossip-cluster-ping
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/gossip-cluster-ping_1.0.0-2_aarch64.deb
+Size: 6644
+MD5sum: 8456cec006d8608d809dfb2e3c0038eb
+SHA1: 873c18027f02243f490e7157e24f4e16eeca37a8
+SHA256: ee480e31ebd27321c708db80da996b8600f1acb0262c31f5048fdd3bdc98c23c
+Section: net
+Priority: optional
+Description: epidemic gossip protocol peer heartbeat emulator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: swim-membership-check
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/swim-membership-check_1.0.0-2_aarch64.deb
+Size: 6644
+MD5sum: c81059c72b8f1951dd53f75782a39d73
+SHA1: e7fbe017ee674b0b411ade89a2dc2124e5c8ca8b
+SHA256: 7179d1bd347ec95d9e5078100d4ca0c4ce576c670353de18d7fe1b0b252f6c3e
+Section: net
+Priority: optional
+Description: SWIM failure detection and suspicion timeout tool
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: dht-kademlia-routing
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/dht-kademlia-routing_1.0.0-2_aarch64.deb
+Size: 6640
+MD5sum: d6d5e92ff79b675045e8530e6cbb3529
+SHA1: 2850b26d0d7529b26e1043b231da872d382d543a
+SHA256: 10b8ae7a0249ffeb3932d9abea138e984de2dfff753211df93b11d8749c1b5c0
+Section: net
+Priority: optional
+Description: Kademlia Distributed Hash Table k-bucket router
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: kademlia-distance-xor
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/kademlia-distance-xor_1.0.0-2_aarch64.deb
+Size: 6636
+MD5sum: b8e2de22bdebd4198ec6154ef3e4e950
+SHA1: 608af8ea8a8442f9d2e84bcc6add09a05ada703c
+SHA256: 5c5f54e9c7fba68820952fd2dbcddc87e2d2bfd04878837c0a984f5f372acc4e
+Section: net
+Priority: optional
+Description: Kademlia 160-bit XOR metric distance calculator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: dht-bucket-balancer
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/dht-bucket-balancer_1.0.0-2_aarch64.deb
+Size: 6640
+MD5sum: a17a5d1238a6203907b287febc21d914
+SHA1: f321ade57e7f704a377735e6b8b96ffe8442c7cc
+SHA256: 4e3664ec7d3fdd7b84cce6f86a0ce22faf89dc8222d3c43aaac4e651562bbf6b
+Section: net
+Priority: optional
+Description: DHT routing table peer refresh and replacement tool
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: merkle-tree-hasher
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/merkle-tree-hasher_1.0.0-2_aarch64.deb
+Size: 6640
+MD5sum: 018da01420fcefcb6eaf24c16cb69b33
+SHA1: 57752fbe8410676136fa4c3011f3002489ddf171
+SHA256: 9d00cbeaf3bf447ed9d87452fa01c394b8320f8bcfc62c132286fd8f8751eda9
+Section: net
+Priority: optional
+Description: cryptographic Merkle binary tree root calculator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: merkle-proof-generator
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/merkle-proof-generator_1.0.0-2_aarch64.deb
+Size: 6644
+MD5sum: 9063f5e667b81957b9592a225c002db1
+SHA1: 907c06da0ba83d8bab9d3cd0750cbd85f17ca90b
+SHA256: de7c65125a639d2579d01ed185e444dd2cce6eb7f90e22543f5036c67f7434e0
+Section: net
+Priority: optional
+Description: Merkle inclusion proof path generator and verifier
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: merkle-mountain-range
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/merkle-mountain-range_1.0.0-2_aarch64.deb
+Size: 6640
+MD5sum: 9587e7e6925add8aabe1632de3eaf6a7
+SHA1: 66f72f6a6ff171bb56a874a09ebe2acbfc618122
+SHA256: 2f9bc0707fe3e8b084c2216699c3e0c1a6ffa4baf4e553cbdbbca4e47863e917
+Section: net
+Priority: optional
+Description: append-only Merkle Mountain Range peak calculator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: sparse-merkle-tree
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/sparse-merkle-tree_1.0.0-2_aarch64.deb
+Size: 6652
+MD5sum: c9a3b7e76a053a0b9f510fbfe5cd81da
+SHA1: 64cebcc21b32fa1c5bcac54c140f13b546bce7f6
+SHA256: 5141fa5c56d22aaffaec83f0ac8188ada91a1dfc865046f3b4c914cc3494941c
+Section: net
+Priority: optional
+Description: 256-bit Sparse Merkle Tree non-inclusion proof tool
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: vector-clock-comparator
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/vector-clock-comparator_1.0.0-2_aarch64.deb
+Size: 6640
+MD5sum: 265691ef04f7c2e8e5a2074e1747ced0
+SHA1: 85228530338eb0bb65e7f5d507712e464b7687db
+SHA256: f6d1771bea02ceba7485d79ef0058fc58546e7b70573e7b8e8dce597adc5d200
+Section: net
+Priority: optional
+Description: distributed causality vector clock ordering tool
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: lamport-timestamp-calc
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/lamport-timestamp-calc_1.0.0-2_aarch64.deb
+Size: 6640
+MD5sum: 117c5ffd89f672788903f33ee09b9ecd
+SHA1: 8a75d89e392becec27adc3e4d8e45fc8ab641d8d
+SHA256: 2214f2844a5c39cba188510f12e12196fe4263a9acdeb30df966b042a8f6295b
+Section: net
+Priority: optional
+Description: Lamport logical clock partial ordering generator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: crdt-g-counter-cli
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/crdt-g-counter-cli_1.0.0-2_aarch64.deb
+Size: 6660
+MD5sum: 6baf2d672bec0229b8b24e05a9925e73
+SHA1: 0f0906bf9eeb8115bb35439a0eb250e91716160e
+SHA256: 43316b1328eb710f6dc7e7f1567e76bde33ed9cce76f0cca53f60b266f4a5231
+Section: net
+Priority: optional
+Description: Conflict-Free Replicated Data Type Grow-Only Counter
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: crdt-pn-counter-tool
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/crdt-pn-counter-tool_1.0.0-2_aarch64.deb
+Size: 6656
+MD5sum: d3a521323614c03d508ad93c23ccba51
+SHA1: ef7972f409fb972e4ccfefbd029478f8760e596f
+SHA256: 20671a1e94889d561956823886b2e122f54c8a13c7ea7d5626ce43158560c844
+Section: net
+Priority: optional
+Description: Positive-Negative CRDT Counter state reconciler
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: crdt-lww-register
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/crdt-lww-register_1.0.0-2_aarch64.deb
+Size: 6644
+MD5sum: 5d6b3471b3f0fa8a3ddcf291dbbdf1ab
+SHA1: 88e76c93dd68343c8bb70cbc98ea59ecce8fb3e9
+SHA256: 7eb9100c6ce8831e8907cf0bec7673d17e94fafc3515d110c63dc5b3f2b0fd71
+Section: net
+Priority: optional
+Description: Last-Write-Wins CRDT Register timestamp reconciler
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: crdt-or-set-resolver
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/crdt-or-set-resolver_1.0.0-2_aarch64.deb
+Size: 6660
+MD5sum: 4d492e72970fe31323ce838aaef567b4
+SHA1: f3464e7e6c0cc70696af50df9aa1d0153b87a6a9
+SHA256: 122095a2e6872e91ad2ee8e8398cb440823b125fe77981cad2a1eab86971a4ef
+Section: net
+Priority: optional
+Description: Observed-Remove Set CRDT element convergence tool
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: bloom-filter-hasher
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/bloom-filter-hasher_1.0.0-2_aarch64.deb
+Size: 6656
+MD5sum: 5f4164a1c967c8fa5c01b078a5ef45a7
+SHA1: f40a9f28c223eec01a3519a880e372af5a4da122
+SHA256: 30bb54110e8d9a99af7c23bebfb283e19b78db4778311442bcdbd6f2d1fc242f
+Section: net
+Priority: optional
+Description: probabilistic Bloom filter false positive rate calc
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: counting-bloom-filter
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/counting-bloom-filter_1.0.0-2_aarch64.deb
+Size: 6640
+MD5sum: 734081f45ebf0b0fb2890270e8299f25
+SHA1: a926bebd574298da85c4f14fdc013266046c08e0
+SHA256: 37afa32b286dfdab89ac7989314ecb1927114dd950b09039ff6fb86b84de9c19
+Section: net
+Priority: optional
+Description: counting Bloom filter with element deletion support
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: cuckoo-filter-cli
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/cuckoo-filter-cli_1.0.0-2_aarch64.deb
+Size: 6652
+MD5sum: ec066c958fd3495205c12ea5169f7411
+SHA1: 93e3d3634a6293e7ab86613580363ecb05845ab6
+SHA256: f4ce1174ecdd24fa79c9142c578f1cfb7775d03487976ba84cadb363ede5e05d
+Section: net
+Priority: optional
+Description: Cuckoo hashing probabilistic set membership tool
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: hyperloglog-cardinality
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/hyperloglog-cardinality_1.0.0-2_aarch64.deb
+Size: 6644
+MD5sum: f08101a36d25d8178265abcf0f3bc31d
+SHA1: 220f758f98b47d9ffa5b44593ebb9cb97aec829c
+SHA256: b9624388885d22eb265c200699ee0dc8d99343ccf7a2950f97c5cca366b1ee67
+Section: net
+Priority: optional
+Description: HyperLogLog approximate distinct cardinality tool
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: count-min-sketch-calc
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/count-min-sketch-calc_1.0.0-2_aarch64.deb
+Size: 6648
+MD5sum: f9b778942ebe9f4873ffcde9846d194d
+SHA1: 08659160c79957ce0daa7889337face491815153
+SHA256: d80442a3c6bc20f6cc7ff8dbc644a678994169b41e7bf654f5b5e044095566e8
+Section: net
+Priority: optional
+Description: Count-Min Sketch frequency estimation data structure
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: consistent-hash-ring
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/consistent-hash-ring_1.0.0-2_aarch64.deb
+Size: 6636
+MD5sum: 79b4abb0df55996ba87491e0ec05acc7
+SHA1: 3b6cb07bed0eafddd790a63e97ed992f468b36ca
+SHA256: dfe744cf40501a1fb17e0663315de50725ecec3c0e77495f494189c31091ce9e
+Section: net
+Priority: optional
+Description: consistent hashing ring token assignment simulator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: rendezvous-hash-eval
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/rendezvous-hash-eval_1.0.0-2_aarch64.deb
+Size: 6628
+MD5sum: bec6691052bf5c92fa681dcb5b64b5bc
+SHA1: 0c4bedf244a5fd309c1d4a9a7adc7a638a9ee204
+SHA256: bbc40880178fdb9cc31dcf1bc9de362136af75d9e7f2629f74e8094b6ffa0241
+Section: net
+Priority: optional
+Description: Highest Random Weight rendezvous hashing tool
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: virtual-node-balancer
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/virtual-node-balancer_1.0.0-2_aarch64.deb
+Size: 6636
+MD5sum: 37c8d26750218e9dfb8ce477294e73b6
+SHA1: 0836ce934699e365e5b470f570271a902b7c0fb8
+SHA256: 62e0fee8e99187325ba46b228c706f41348abdf879771b55e25c3d02dd3e71b3
+Section: net
+Priority: optional
+Description: consistent hashing virtual node distribution grader
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: p2p-bit-torrent-bencode
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/p2p-bit-torrent-bencode_1.0.0-2_aarch64.deb
+Size: 6640
+MD5sum: a86f93aec195b1868a1b484a19e8c242
+SHA1: d71101ee8b31ba2193d6b5ac742cdf6d4ec6c899
+SHA256: 197b4518b68af47c08a8e3ca49a20d42b58af768aa5bd095fbef3857bd9ba836
+Section: net
+Priority: optional
+Description: BitTorrent Bencode dictionary and list decoder
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: torrent-metainfo-parser
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/torrent-metainfo-parser_1.0.0-2_aarch64.deb
+Size: 6636
+MD5sum: cb252db599722b563f840064c1908992
+SHA1: 445713c532f2a8cfbfd0d4a09ccae01d9b2970a8
+SHA256: 3557feec63334ecaccb24facfc4148cf52d8ffbef1eab4cdfdbf0956cb3446e2
+Section: net
+Priority: optional
+Description: .torrent file announce URL piece length parser
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: torrent-piece-hash-chk
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/torrent-piece-hash-chk_1.0.0-2_aarch64.deb
+Size: 6652
+MD5sum: 9daba966b0b94919d79fdd12d32a117f
+SHA1: 76fca2095eb8aabf94244cb79b007a199d80307b
+SHA256: 42719b39ea337cd5e2a5426c6481670bfbd1cbee9bc15a37e0ea108a41e483e5
+Section: net
+Priority: optional
+Description: BitTorrent 20-byte SHA-1 piece hash validator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: magnet-link-builder
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/magnet-link-builder_1.0.0-2_aarch64.deb
+Size: 6640
+MD5sum: 5ce024f6eb9555b4af4ede02540b2f03
+SHA1: d768fc0d85db5b7acb0d373d3633dd7b854656b5
+SHA256: ccc7dbe96c5b5a994fbc5322c7b9c795a17aa3958defad6be708858ee39ba848
+Section: net
+Priority: optional
+Description: BTIH magnet URI builder with tracker parameters
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: ipni-network-indexer
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/ipni-network-indexer_1.0.0-2_aarch64.deb
+Size: 6644
+MD5sum: a45d360e1ee0c9f9947d8d03542c4158
+SHA1: bf212020274f8b33dbc393078d0cf40e01928ba6
+SHA256: 27658d4e94713c9d84e6bfebfbe4a92c6892f74cb9009c713bccfbb82a84a7b3
+Section: net
+Priority: optional
+Description: InterPlanetary Network Indexer advertisement tool
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: libp2p-multiaddr-parse
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/libp2p-multiaddr-parse_1.0.0-2_aarch64.deb
+Size: 6624
+MD5sum: 6f263d7fee117dbf7ed5a48f87fc61c8
+SHA1: 47f8f7b1806993fca6779722a2979e09f14221e2
+SHA256: 09b5c58fc4b969a2aba5a91ffc9defdaf1567382bc4ad0d61228d95c265573d4
+Section: net
+Priority: optional
+Description: libp2p multiaddr protocol stack string parser
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: libp2p-peer-id-inspect
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/libp2p-peer-id-inspect_1.0.0-2_aarch64.deb
+Size: 6652
+MD5sum: 6749ca5113a3a255131321085f7e388c
+SHA1: 2f2065f336a80947328fedd15649fc2e7fa6caf6
+SHA256: fd10f36af7cdbb5e162a79275e75e9f7eecee18f4fbb6d81a90190b9ce40a513
+Section: net
+Priority: optional
+Description: libp2p multihash PeerID base58btc string decoder
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: noise-protocol-handshake
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/noise-protocol-handshake_1.0.0-2_aarch64.deb
+Size: 6644
+MD5sum: 4662fd308d902a5068efa2e84af6fc05
+SHA1: 8ee7d73a4f6b950529ea00a0cf650051c3af9f1b
+SHA256: 0f145bb4f21964ca3d7612866d5180a176c1a47b5043a50ddc4f3d7ddc83f357
+Section: net
+Priority: optional
+Description: Noise Protocol Framework handshake pattern evaluator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: gossipsub-topic-filter
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/gossipsub-topic-filter_1.0.0-2_aarch64.deb
+Size: 6652
+MD5sum: 161bbda679c7786d793ff5bf64b73a24
+SHA1: 7e192fa4bb13bcbeafba987ece38d010b6caa9c0
+SHA256: 51ac1f7983428c5e09b0e4f34ac488733984dfb7209daf15a55dbeac02c335b0
+Section: net
+Priority: optional
+Description: libp2p GossipSub v1.1 mesh topic scoring analyzer
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: quic-congestion-cubic
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/quic-congestion-cubic_1.0.0-2_aarch64.deb
+Size: 6648
+MD5sum: 43ba286b6203cb5a3a03843597d6f638
+SHA1: 6699f491faaff7730ff20551a0a114d439b6399c
+SHA256: 0a0e81c94341fa7dc0a45cb5d6fdc9ae034c421e2cd0636f6c771a6d6dda023a
+Section: net
+Priority: optional
+Description: TCP/QUIC CUBIC congestion window growth simulator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: bbr-bandwidth-estimator
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/bbr-bandwidth-estimator_1.0.0-2_aarch64.deb
+Size: 6644
+MD5sum: 21f91b8df194163892eaa312b00ae158
+SHA1: dc7e868a5595ad0637757c44ab9774f4f907862d
+SHA256: 4453a2db8307e963dfefe0da707518fa2e58fb70a51dd04f78c6cbfb1fd5d57f
+Section: net
+Priority: optional
+Description: Bottleneck Bandwidth and RTT BBR model evaluator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: replicated-state-sync
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/replicated-state-sync_1.0.0-2_aarch64.deb
+Size: 6640
+MD5sum: 6dc4e82b56d22bf062e16f3913439eba
+SHA1: 12ca8106fd843716add94c1f805e1aa0af20fb36
+SHA256: b2356da6280e485b03a2b1fde57ebc407cb13a931b9832a17c8ac8aaee7e2f4f
+Section: net
+Priority: optional
+Description: replicated state machine commit log index diff
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: quorum-majority-calc
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/quorum-majority-calc_1.0.0-2_aarch64.deb
+Size: 6640
+MD5sum: 8a57991a334b664a73c93d45847d5f95
+SHA1: 774bb6ebee2bfb53d599f7448db2713b244257c5
+SHA256: 2e80022a118e36a9c3337375642330c8c18e3eba5c9a81497a63447e1402e738
+Section: net
+Priority: optional
+Description: N-node cluster Byzantine and crash fault quorums
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: split-brain-detector
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/split-brain-detector_1.0.0-2_aarch64.deb
+Size: 6620
+MD5sum: 814dfe7af53e32cf75d910c3942a181c
+SHA1: b17701ad0e8b00eb290a6c0de6bed80e4da1fd2a
+SHA256: 338be099b6211c9302034d95ffe90f050ad2245c15e5871860ea5a78adb299a9
+Section: net
+Priority: optional
+Description: cluster network partition split-brain risk detector
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: byzantine-fault-ratio
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/byzantine-fault-ratio_1.0.0-2_aarch64.deb
+Size: 6644
+MD5sum: 66cc1546e45a1b3ef9b5c5e76a7b6bd8
+SHA1: 8b186650e9b5be858e59670ed61457d2eebb0561
+SHA256: 63dfbdc2eaeafd463d068eb635e3405b107660309c116dcc966c30da24927780
+Section: net
+Priority: optional
+Description: 3f+1 Byzantine fault tolerance threshold calculator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: epoch-watermark-tracker
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/epoch-watermark-tracker_1.0.0-2_aarch64.deb
+Size: 6640
+MD5sum: 1ed99583a67e2667d60d7b656ec3bf31
+SHA1: 607a107290ed5c40b6c24eba5cbf1c1463c79995
+SHA256: a192c221c6d764e7cb60568fc4baff32ec97732d73c76a874732e0bc36c00555
+Section: net
+Priority: optional
+Description: stream processing low watermark progress evaluator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: distributed-trace-span
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/distributed-trace-span_1.0.0-2_aarch64.deb
+Size: 6632
+MD5sum: 25ae4e0465a540c6445f8cb7498e5fd3
+SHA1: 19987c66f454b2b9e1b526f75775c9b486f505b7
+SHA256: f615f73924a57ed9f482c8e303883d21ab2e4ff3539254a72f154ad2d61f69fe
+Section: net
+Priority: optional
+Description: OpenTelemetry distributed trace span ID validator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: w3c-trace-context-parse
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/w3c-trace-context-parse_1.0.0-2_aarch64.deb
+Size: 6636
+MD5sum: 9962952847114e921d7eb69c0652bb94
+SHA1: d95dd70af090d5a8dd961cdf5c65a2faae156f4a
+SHA256: eee07fe71ed297089994323cb12a36e08ed513c6ecd47d426c36c519d946a4a8
+Section: net
+Priority: optional
+Description: W3C traceparent and tracestate header parser
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: b3-trace-header-inject
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/b3-trace-header-inject_1.0.0-2_aarch64.deb
+Size: 6644
+MD5sum: 861ea4d47645a447b7fcb350472c38e8
+SHA1: deb181337e4e820c9b1ba1d5c82f667f358787f1
+SHA256: 57f7834c0fe37f9a0d8554ae2471f04abe75a9e49021be53b30a6ba03f510084
+Section: net
+Priority: optional
+Description: Zipkin B3 propagation traceId spanId injector
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: jaeger-thrift-exporter
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/jaeger-thrift-exporter_1.0.0-2_aarch64.deb
+Size: 6648
+MD5sum: 840aa5cac518b24f410c6f3b96f2b0c8
+SHA1: d38e80e9e6f23a8e00adca5fa6489221641a52aa
+SHA256: c4cb04878fe1fbd63d84a9c02d41e88fc566c51fcbe43c2f7198056d229a5e25
+Section: net
+Priority: optional
+Description: Jaeger span JSON to compact model serializer
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: zipkin-span-json-view
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/zipkin-span-json-view_1.0.0-2_aarch64.deb
+Size: 6640
+MD5sum: daffe514c63c89c70b6647d9ba1d4aad
+SHA1: 608156203875683f168d455ada2695c6333b45a4
+SHA256: 112ce2be6f5d2e4d1d26b0a7b2a131d2c1d1833f390b3b2b9364d9749af09650
+Section: net
+Priority: optional
+Description: Zipkin v2 HTTP span duration and annotation reader
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: opentelemetry-collector
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/opentelemetry-collector_1.0.0-2_aarch64.deb
+Size: 6644
+MD5sum: c1875753c0565aa86b99e273938bcbee
+SHA1: e27ba5cdd64f197a94596661c8e585f70b34d63f
+SHA256: d2425963de2dc8db9308228361651094c7c0d06e2af9f88bd90bfed35a5e572d
+Section: net
+Priority: optional
+Description: OTLP protocol protobuf message envelope validator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: rate-limiter-token-bucket
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/rate-limiter-token-bucket_1.0.0-2_aarch64.deb
+Size: 6628
+MD5sum: a87a8bdf1584277f27471e4e5de93a3d
+SHA1: 61c3c5f4ceeb80d63627b2561cb0d8a8595a6356
+SHA256: 9210fe893dbfcad7b7965efdfdbf61e7a76528bf02167d96d58c393947a51869
+Section: net
+Priority: optional
+Description: token bucket rate limiting refill rate simulator
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
+
+Package: leaky-bucket-algorithm
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/leaky-bucket-algorithm_1.0.0-2_aarch64.deb
+Size: 6648
+MD5sum: e5ee6edb91097f86b349c79476494142
+SHA1: f2ae8d2202b1127e209f76b55655860128612072
+SHA256: 8cf4da330efcc83ee63dc4b1de0041e9db90de7d49209385ac5f8d013cfeef99
+Section: net
+Priority: optional
+Description: leaky bucket constant-rate egress traffic smoother
+ Functional OceanStudio implementation replacing the earlier generic passthrough placeholder.
