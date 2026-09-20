@@ -228,4 +228,79 @@ def main(cmd,a):
         emit(hits[:500]);return
     if cmd=="iso-joliet-ext-parser":
         need(a,1);out=[]
-        for typ,b in i
+        for typ,b in iso_desc(a[0]):
+            if typ==2 and b[88:91] in (b"%/@",b"%/C",b"%/E"):out.append({"type":typ,"escape":b[88:91].decode("ascii","replace"),"volume_id_utf16":b[40:72].decode("utf-16-be","replace").rstrip("\0 ")})
+        emit(out);return
+    if cmd=="wim-header-inspector":need(a,1);emit(wim(a[0]));return
+    if cmd=="squashfs-inode-table":need(a,1);emit(squash(a[0]));return
+    if cmd=="ext4-dump-restore-chk":
+        need(a,1);b=read(a[0])[:1024];vals=[]
+        for off in range(0,max(0,len(b)-4),4):
+            v=struct.unpack_from("<I",b,off)[0]
+            if v in (60011,60012):vals.append({"offset":off,"magic":v})
+        emit({"possible_dump_headers":vals,"valid":bool(vals)});return
+    if cmd=="rdiff-delta-generator":
+        need(a,3);old=read(a[0]);new=read(a[1]);bs=int(a[3]) if len(a)>3 else 4096;changes=[]
+        for off in range(0,len(new),bs):
+            nb=new[off:off+bs];ob=old[off:off+bs]
+            if nb!=ob:changes.append({"offset":off,"data":base64.b64encode(nb).decode()})
+        doc={"format":"ocean-rdiff-v1","block_size":bs,"new_size":len(new),"old_sha256":hashlib.sha256(old).hexdigest(),"new_sha256":hashlib.sha256(new).hexdigest(),"changes":changes};Path(a[2]).write_text(json.dumps(doc));emit({"changes":len(changes),"delta":a[2]});return
+    if cmd=="rdiff-patch-applier":
+        need(a,3);base=bytearray(read(a[0]));doc=json.loads(Path(a[1]).read_text())
+        if hashlib.sha256(base).hexdigest()!=doc["old_sha256"]:raise SystemExit("base checksum mismatch")
+        if len(base)<doc["new_size"]:base.extend(b"\0"*(doc["new_size"]-len(base)))
+        for c in doc["changes"]:d=base64.b64decode(c["data"]);base[c["offset"]:c["offset"]+len(d)]=d
+        base=base[:doc["new_size"]];Path(a[2]).write_bytes(base);got=hashlib.sha256(base).hexdigest();emit({"output":a[2],"sha256":got,"matches":got==doc["new_sha256"]});return
+    if cmd=="rsync-checksum-block":need(a,1);bs=int(a[1]) if len(a)>1 else 4096;b=read(a[0]);emit([{"offset":o,"length":len(x),"weak":hex(rollsum(x)),"md5":hashlib.md5(x).hexdigest()} for o in range(0,len(b),bs) for x in [b[o:o+bs]]]);return
+    if cmd=="rsync-rolling-hash":need(a,1);b=read(a[0]);w=int(a[1]) if len(a)>1 else 16;emit([{"offset":i,"weak":hex(rollsum(b[i:i+w]))} for i in range(max(0,len(b)-w+1))][:10000]);return
+    if cmd=="adler32-rolling-calc":need(a,1);b=read(a[0]);emit({"adler32":hex(zlib.adler32(b)&0xffffffff),"bytes":len(b)});return
+    if cmd=="rabin-karp-chunker":need(a,1);b=read(a[0]);emit([{"offset":o,"length":n,"hash":hex(h)} for o,n,h in chunks_rabin(b,int(a[1]) if len(a)>1 else 256,int(a[2]) if len(a)>2 else 1024,int(a[3]) if len(a)>3 else 4096)]);return
+    if cmd=="content-defined-chunk":need(a,1);b=read(a[0]);emit([{"offset":o,"length":n,"sha256":hashlib.sha256(b[o:o+n]).hexdigest()} for o,n,h in chunks_rabin(b)]);return
+    if cmd=="fastcdc-chunker-cli":need(a,1);b=read(a[0]);emit([{"offset":o,"length":n,"gear_hash":hex(h)} for o,n,h in chunks_fast(b)]);return
+    if cmd=="backup-catalog-verify":
+        need(a,2);root=Path(a[0]);cat=json.loads(Path(a[1]).read_text());bad=[];entries=cat.get("entries",cat)
+        for rel,meta in entries.items():
+            p=root/rel
+            if not p.is_file():bad.append({"path":rel,"error":"missing"});continue
+            got=sha(p)
+            if meta.get("sha256") and got!=meta["sha256"]:bad.append({"path":rel,"error":"sha256","expected":meta["sha256"],"actual":got})
+        emit({"valid":not bad,"problems":bad});return
+    if cmd=="backup-retention-calc":
+        count=int(a[0]) if a else 30;now=dt.datetime.fromisoformat(a[1].replace("Z","+00:00")) if len(a)>1 else dt.datetime.now(dt.timezone.utc);days=[now-dt.timedelta(days=i) for i in range(count)];keep=[]
+        for x in days:
+            tier="daily" if (now-x).days<7 else "weekly" if x.weekday()==0 and (now-x).days<35 else "monthly" if x.day==1 else None
+            if tier:keep.append({"timestamp":x.isoformat(),"tier":tier})
+        emit(keep);return
+    if cmd=="snapshot-differential":need(a,2);A=snapshot(a[0]);B=snapshot(a[1]);ka=set(A);kb=set(B);emit({"added":sorted(kb-ka),"deleted":sorted(ka-kb),"modified":sorted(k for k in ka&kb if A[k]["sha256"]!=B[k]["sha256"])});return
+    if cmd=="dir-tree-hasher-fast":need(a,1);emit(merkle(a[0]));return
+    if cmd=="mtree-specification-gen":need(a,1);rows=mtree(a[0]);Path(a[1]).write_text("\n".join(rows)+"\n") if len(a)>1 else None;emit(rows);return
+    if cmd=="mtree-validator-tool":
+        need(a,2);root=Path(a[0]);spec=Path(a[1]).read_text().splitlines();bad=[]
+        for line in spec:
+            if not line or line.startswith("#"):continue
+            parts=line.split();rel=parts[0][2:] if parts[0].startswith("./") else parts[0];kv=dict(x.split("=",1) for x in parts[1:] if "=" in x);p=root/rel
+            if not p.exists() and not p.is_symlink():bad.append({"path":rel,"error":"missing"});continue
+            if kv.get("type")=="file":
+                if "size" in kv and p.stat().st_size!=int(kv["size"]):bad.append({"path":rel,"error":"size"})
+                if "sha256digest" in kv and sha(p)!=kv["sha256digest"]:bad.append({"path":rel,"error":"sha256"})
+        emit({"valid":not bad,"problems":bad});return
+    if cmd=="dar-disk-archiver-chk":need(a,1);b=read(a[0])[:64];emit({"bytes":len(read(a[0])),"starts_with_dar":b.startswith((b"DAR",b"\0DAR")),"header_hex":b.hex()});return
+    if cmd=="afio-archive-linter":need(a,1);n=cpio_newc(a[0]);o=cpio_odc(a[0]);emit({"newc_entries":n,"odc_entries":o,"recognized":bool(n or o)});return
+    if cmd=="pax-archive-validator":
+        need(a,1)
+        try:
+            with tarfile.open(a[0],"r:*") as t:members=t.getmembers();emit({"valid":True,"members":len(members),"names":[m.name for m in members[:200]]})
+        except tarfile.TarError as e:emit({"valid":False,"error":str(e)})
+        return
+    if cmd=="xar-xml-toc-extractor":
+        need(a,1);b=read(a[0])
+        if len(b)<28 or b[:4]!=b"xar!":emit({"valid":False});return
+        hdrsz,ver=struct.unpack_from(">HH",b,4);clen,ulen=struct.unpack_from(">QQ",b,8);alg=struct.unpack_from(">I",b,24)[0];comp=b[hdrsz:hdrsz+clen]
+        try:xml=zlib.decompress(comp).decode("utf-8","replace")
+        except Exception:xml=""
+        emit({"valid":True,"header_size":hdrsz,"version":ver,"compressed_toc":clen,"uncompressed_toc":ulen,"checksum_alg":alg,"xml":xml});return
+    if cmd=="chm-archive-header-chk":need(a,1);b=read(a[0])[:96];emit({"valid":b[:4]==b"ITSF","version":struct.unpack_from("<I",b,4)[0] if len(b)>=8 else None,"header_length":struct.unpack_from("<I",b,8)[0] if len(b)>=12 else None,"language_id":hex(struct.unpack_from("<I",b,20)[0]) if len(b)>=24 else None});return
+    if cmd=="deb-ar-data-splitter":
+        need(a,1);dest=Path(a[1]) if len(a)>1 else None
+        if dest:dest.mkdir(parents=True,exist_ok=True)
+        ents=ar_entries(a[0],dest);emit({"valid_deb":any(x["name"]=="debian-binary" for x in ents) and any(x["name"].startswith("control.tar") for x i
