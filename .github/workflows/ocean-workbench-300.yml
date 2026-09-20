@@ -1,0 +1,154 @@
+name: Build Ocean Workbench 300 package suite
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'sources/ocean-workbench-300/ocean_workbench.py'
+      - 'scripts/build-ocean-workbench-300.py'
+      - 'tests/test-ocean-workbench-300.py'
+      - '.github/workflows/ocean-workbench-300.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ocean-workbench-300
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /sources/ocean-workbench-300/ocean_workbench.py
+            /scripts/build-ocean-workbench-300.py
+            /tests/test-ocean-workbench-300.py
+            /staging/ocean-workbench-300/
+            /apt/dists/stable/main/binary-aarch64/Packages
+            /.github/workflows/ocean-workbench-300.yml
+
+      - name: Install packaging tools
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          sudo apt-get install -y dpkg-dev
+
+      - name: Compile and test all workbench domains
+        run: |
+          set -euo pipefail
+          python3 -m py_compile \
+            sources/ocean-workbench-300/ocean_workbench.py \
+            scripts/build-ocean-workbench-300.py \
+            tests/test-ocean-workbench-300.py
+          python3 tests/test-ocean-workbench-300.py \
+            sources/ocean-workbench-300/ocean_workbench.py
+
+      - name: Prove all 300 package names are new repo-wide
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import importlib.util,subprocess
+          from pathlib import Path
+          src=Path("sources/ocean-workbench-300/ocean_workbench.py")
+          spec=importlib.util.spec_from_file_location("wb",src)
+          m=importlib.util.module_from_spec(spec);spec.loader.exec_module(m)
+          tree=subprocess.check_output(["git","ls-tree","-r","--name-only","HEAD"],text=True).splitlines()
+          existing=set()
+          for path in tree:
+              if path.endswith(".deb") and not path.startswith("staging/ocean-workbench-300/"):
+                  existing.add(Path(path).name.split("_",1)[0])
+          collisions=sorted(set(m.COMMANDS)&existing)
+          if collisions:
+              raise SystemExit("repo-wide package collisions: "+", ".join(collisions))
+          assert len(m.COMMANDS)==300 and len(set(m.COMMANDS))==300
+          assert len(m.GROUPS)==15 and all(len(v)==20 for v in m.GROUPS.values())
+          print("PASS: 300/300 names are new and split across 15 x 20 domains")
+          PY
+
+      - name: Build exactly 300 packages
+        run: |
+          set -euo pipefail
+          python3 scripts/build-ocean-workbench-300.py \
+            --runtime sources/ocean-workbench-300/ocean_workbench.py \
+            --output staging/ocean-workbench-300 \
+            --live-packages apt/dists/stable/main/binary-aarch64/Packages
+
+      - name: Audit all generated debs
+        run: |
+          set -euo pipefail
+          test "$(find staging/ocean-workbench-300/pool/main -type f -name '*.deb' | wc -l)" -eq 300
+          test "$(grep -c '^Package:' staging/ocean-workbench-300/Packages.repaired)" -eq 300
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          d=json.loads(Path("staging/ocean-workbench-300/provenance.json").read_text())
+          assert d["packageCount"]==300
+          assert d["uniquePackageCount"]==300
+          assert len(d["groups"])==15
+          assert all(v==20 for v in d["groups"].values())
+          names={x["package"] for x in d["packages"]}
+          assert len(names)==300
+          required={
+            "ocean-wb-date-now",
+            "ocean-wb-math-prime-factors",
+            "ocean-wb-unit-base-convert",
+            "ocean-wb-enc-unicode-codepoints",
+            "ocean-wb-xml-to-json",
+            "ocean-wb-config-toml-to-json",
+            "ocean-wb-md-toc",
+            "ocean-wb-regex-extract-emails",
+            "ocean-wb-diff-text-unified",
+            "ocean-wb-proc-pid-info",
+            "ocean-wb-perm-access-matrix",
+            "ocean-wb-semver-compare",
+            "ocean-wb-log-summary",
+            "ocean-wb-stream-hash-lines",
+            "ocean-wb-shell-command-type",
+          }
+          assert required <= names
+          print("PASS: provenance has 300 unique packages and all 15 domains")
+          PY
+          while IFS= read -r deb; do
+            dpkg-deb --info "$deb" >/dev/null
+            test "$(dpkg-deb -f "$deb" Depends)" = "python"
+          done < <(find staging/ocean-workbench-300/pool/main -type f -name '*.deb' | sort)
+          ! grep -R -a -E '/data/(data|user/0)/com\.termux|packages\.termux\.dev|TERMUX_PREFIX' \
+            staging/ocean-workbench-300 \
+            sources/ocean-workbench-300/ocean_workbench.py
+
+      - name: Commit staged Workbench 300
+        run: |
+          set -euo pipefail
+          git config user.name "Ocean Workbench Builder"
+          git config user.email "packages@ocean.studio"
+          git add staging/ocean-workbench-300
+          if git diff --cached --quiet; then
+            echo "No staged changes."
+            exit 0
+          fi
+          git commit -m "feat(workbench): stage 300 unique functional packages [skip ci]"
+          for attempt in 1 2 3 4 5; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then exit 0; fi
+            echo "Concurrent push detected; retry $attempt/5"
+            sleep $((attempt*2))
+          done
+          exit 1
+
+      - name: Report
+        run: |
+          python3 - <<'PY'
+          import json
+          d=json.load(open("staging/ocean-workbench-300/provenance.json"))
+          print("Ocean Workbench staged:",d["packageCount"])
+          print("Unique:",d["uniquePackageCount"])
+          print("Groups:",d["groups"])
+          PY
