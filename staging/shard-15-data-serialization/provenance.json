@@ -1,0 +1,265 @@
+{
+  "schemaVersion": 1,
+  "shard": "shard-15-data-serialization",
+  "section": "database",
+  "target": "aarch64-linux-android28",
+  "prefix": "/data/data/studio.ocean.app/files/usr",
+  "packageCount": 51,
+  "packages": [
+    {
+      "package": "jansson-json-tools",
+      "version": "2.14-1",
+      "artifact": "jansson-json-tools_2.14-1_aarch64.deb"
+    },
+    {
+      "package": "cjson-validator",
+      "version": "1.7.18-1",
+      "artifact": "cjson-validator_1.7.18-1_aarch64.deb"
+    },
+    {
+      "package": "libyaml-parser-cli",
+      "version": "0.2.5-1",
+      "artifact": "libyaml-parser-cli_0.2.5-1_aarch64.deb"
+    },
+    {
+      "package": "inih-config-parser",
+      "version": "58-1",
+      "artifact": "inih-config-parser_58-1_aarch64.deb"
+    },
+    {
+      "package": "csvkit-cleaner",
+      "version": "1.5.0-1",
+      "artifact": "csvkit-cleaner_1.5.0-1_aarch64.deb"
+    },
+    {
+      "package": "tsv-utils-filter",
+      "version": "2.2.3-1",
+      "artifact": "tsv-utils-filter_2.2.3-1_aarch64.deb"
+    },
+    {
+      "package": "sqlite3-schema-diff",
+      "version": "3.46.1-1",
+      "artifact": "sqlite3-schema-diff_3.46.1-1_aarch64.deb"
+    },
+    {
+      "package": "sqlite3-index-analyzer",
+      "version": "3.46.1-1",
+      "artifact": "sqlite3-index-analyzer_3.46.1-1_aarch64.deb"
+    },
+    {
+      "package": "units-converter-gnu",
+      "version": "2.23-1",
+      "artifact": "units-converter-gnu_2.23-1_aarch64.deb"
+    },
+    {
+      "package": "bc-calculator-gnu",
+      "version": "1.07.1-1",
+      "artifact": "bc-calculator-gnu_1.07.1-1_aarch64.deb"
+    },
+    {
+      "package": "dc-reverse-polish",
+      "version": "1.07.1-1",
+      "artifact": "dc-reverse-polish_1.07.1-1_aarch64.deb"
+    },
+    {
+      "package": "calc-precision-cli",
+      "version": "2.15.1.0-1",
+      "artifact": "calc-precision-cli_2.15.1.0-1_aarch64.deb"
+    },
+    {
+      "package": "xmlstarlet-processor",
+      "version": "1.6.1-1",
+      "artifact": "xmlstarlet-processor_1.6.1-1_aarch64.deb"
+    },
+    {
+      "package": "html2text-formatter",
+      "version": "1.3.2a-1",
+      "artifact": "html2text-formatter_1.3.2a-1_aarch64.deb"
+    },
+    {
+      "package": "yq-yaml-processor",
+      "version": "4.44.3-1",
+      "artifact": "yq-yaml-processor_4.44.3-1_aarch64.deb"
+    },
+    {
+      "package": "toml-cli-parser",
+      "version": "1.0.0-1",
+      "artifact": "toml-cli-parser_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "bson-json-converter",
+      "version": "1.0.0-1",
+      "artifact": "bson-json-converter_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "plist-xml-converter",
+      "version": "1.0.0-1",
+      "artifact": "plist-xml-converter_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "json5-validator",
+      "version": "1.0.0-1",
+      "artifact": "json5-validator_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "ndjson-to-json",
+      "version": "1.0.0-1",
+      "artifact": "ndjson-to-json_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "json-to-ndjson",
+      "version": "1.0.0-1",
+      "artifact": "json-to-ndjson_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "csv-to-sqlite",
+      "version": "1.0.0-1",
+      "artifact": "csv-to-sqlite_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "sqlite-to-csv",
+      "version": "1.0.0-1",
+      "artifact": "sqlite-to-csv_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "sqlite-to-json",
+      "version": "1.0.0-1",
+      "artifact": "sqlite-to-json_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "json-schema-validator",
+      "version": "1.0.0-1",
+      "artifact": "json-schema-validator_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "yaml-schema-validator",
+      "version": "1.0.0-1",
+      "artifact": "yaml-schema-validator_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "csv-column-picker",
+      "version": "1.0.0-1",
+      "artifact": "csv-column-picker_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "csv-row-filter",
+      "version": "1.0.0-1",
+      "artifact": "csv-row-filter_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "csv-stat-analyzer",
+      "version": "1.0.0-1",
+      "artifact": "csv-stat-analyzer_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "tsv-sorter-fast",
+      "version": "1.0.0-1",
+      "artifact": "tsv-sorter-fast_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "tsv-joiner-tool",
+      "version": "1.0.0-1",
+      "artifact": "tsv-joiner-tool_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "hex-dump-formatter",
+      "version": "1.0.0-1",
+      "artifact": "hex-dump-formatter_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "base32-encoder-tool",
+      "version": "1.0.0-1",
+      "artifact": "base32-encoder-tool_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "base58-encoder-tool",
+      "version": "1.0.0-1",
+      "artifact": "base58-encoder-tool_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "base62-encoder-tool",
+      "version": "1.0.0-1",
+      "artifact": "base62-encoder-tool_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "base85-encoder-tool",
+      "version": "1.0.0-1",
+      "artifact": "base85-encoder-tool_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "hex-to-binary-tool",
+      "version": "1.0.0-1",
+      "artifact": "hex-to-binary-tool_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "binary-to-hex-tool",
+      "version": "1.0.0-1",
+      "artifact": "binary-to-hex-tool_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "endian-swapper",
+      "version": "1.0.0-1",
+      "artifact": "endian-swapper_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "bit-manipulator-cli",
+      "version": "1.0.0-1",
+      "artifact": "bit-manipulator-cli_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "math-evaluator-cli",
+      "version": "1.0.0-1",
+      "artifact": "math-evaluator-cli_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "prime-factorizer",
+      "version": "1.0.0-1",
+      "artifact": "prime-factorizer_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "gcd-lcm-calculator",
+      "version": "1.0.0-1",
+      "artifact": "gcd-lcm-calculator_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "matrix-multiplier-cli",
+      "version": "1.0.0-1",
+      "artifact": "matrix-multiplier-cli_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "statistics-cli-tool",
+      "version": "1.0.0-1",
+      "artifact": "statistics-cli-tool_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "percentile-calc",
+      "version": "1.0.0-1",
+      "artifact": "percentile-calc_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "histogram-plotter-cli",
+      "version": "1.0.0-1",
+      "artifact": "histogram-plotter-cli_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "sparkline-generator",
+      "version": "1.0.0-1",
+      "artifact": "sparkline-generator_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "tsv-unique-counter",
+      "version": "1.0.0-1",
+      "artifact": "tsv-unique-counter_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "sqlite-vacuum-tool",
+      "version": "1.0.0-1",
+      "artifact": "sqlite-vacuum-tool_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "sqlite-wal-checkpoint",
+      "version": "1.0.0-1",
+      "artifact": "sqlite-wal-checkpoint_1.0.0-1_aarch64.deb"
+    }
+  ]
+}

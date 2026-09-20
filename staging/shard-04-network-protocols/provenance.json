@@ -1,0 +1,265 @@
+{
+  "schemaVersion": 1,
+  "shard": "shard-04-network-protocols",
+  "section": "net",
+  "target": "aarch64-linux-android28",
+  "prefix": "/data/data/studio.ocean.app/files/usr",
+  "packageCount": 51,
+  "packages": [
+    {
+      "package": "fping-multi",
+      "version": "5.3-1",
+      "artifact": "fping-multi_5.3-1_aarch64.deb"
+    },
+    {
+      "package": "hping3-packet",
+      "version": "3.0.0-1",
+      "artifact": "hping3-packet_3.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "mtr-traceroute",
+      "version": "0.95-1",
+      "artifact": "mtr-traceroute_0.95-1_aarch64.deb"
+    },
+    {
+      "package": "nethogs-bandwidth",
+      "version": "0.8.7-1",
+      "artifact": "nethogs-bandwidth_0.8.7-1_aarch64.deb"
+    },
+    {
+      "package": "iftop-monitor",
+      "version": "1.0-1",
+      "artifact": "iftop-monitor_1.0-1_aarch64.deb"
+    },
+    {
+      "package": "nload-traffic",
+      "version": "0.7.4-1",
+      "artifact": "nload-traffic_0.7.4-1_aarch64.deb"
+    },
+    {
+      "package": "bmon-interface",
+      "version": "4.0-1",
+      "artifact": "bmon-interface_4.0-1_aarch64.deb"
+    },
+    {
+      "package": "tcpflow-demux",
+      "version": "1.6.1-1",
+      "artifact": "tcpflow-demux_1.6.1-1_aarch64.deb"
+    },
+    {
+      "package": "tcptraceroute-syn",
+      "version": "1.5-1",
+      "artifact": "tcptraceroute-syn_1.5-1_aarch64.deb"
+    },
+    {
+      "package": "whois-client-rfc",
+      "version": "5.5.23-1",
+      "artifact": "whois-client-rfc_5.5.23-1_aarch64.deb"
+    },
+    {
+      "package": "httping-latency",
+      "version": "2.9-1",
+      "artifact": "httping-latency_2.9-1_aarch64.deb"
+    },
+    {
+      "package": "bind-dig-dns",
+      "version": "9.20.1-1",
+      "artifact": "bind-dig-dns_9.20.1-1_aarch64.deb"
+    },
+    {
+      "package": "bind-host-dns",
+      "version": "9.20.1-1",
+      "artifact": "bind-host-dns_9.20.1-1_aarch64.deb"
+    },
+    {
+      "package": "bind-nslookup-dns",
+      "version": "9.20.1-1",
+      "artifact": "bind-nslookup-dns_9.20.1-1_aarch64.deb"
+    },
+    {
+      "package": "dnstracer-path",
+      "version": "1.9-1",
+      "artifact": "dnstracer-path_1.9-1_aarch64.deb"
+    },
+    {
+      "package": "wakeonlan-magic",
+      "version": "0.4.0-1",
+      "artifact": "wakeonlan-magic_0.4.0-1_aarch64.deb"
+    },
+    {
+      "package": "sftp-automation",
+      "version": "1.0.0-1",
+      "artifact": "sftp-automation_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "tftp-hpa-client",
+      "version": "5.2-1",
+      "artifact": "tftp-hpa-client_5.2-1_aarch64.deb"
+    },
+    {
+      "package": "axel-accelerator",
+      "version": "2.17.14-1",
+      "artifact": "axel-accelerator_2.17.14-1_aarch64.deb"
+    },
+    {
+      "package": "trickle-shaper",
+      "version": "1.07-1",
+      "artifact": "trickle-shaper_1.07-1_aarch64.deb"
+    },
+    {
+      "package": "netcat-traditional",
+      "version": "1.10-1",
+      "artifact": "netcat-traditional_1.10-1_aarch64.deb"
+    },
+    {
+      "package": "socat-multipurpose",
+      "version": "1.8.0.1-1",
+      "artifact": "socat-multipurpose_1.8.0.1-1_aarch64.deb"
+    },
+    {
+      "package": "ngrep-packet",
+      "version": "1.47-1",
+      "artifact": "ngrep-packet_1.47-1_aarch64.deb"
+    },
+    {
+      "package": "iptraf-ng-monitor",
+      "version": "1.2.1-1",
+      "artifact": "iptraf-ng-monitor_1.2.1-1_aarch64.deb"
+    },
+    {
+      "package": "speedtest-cli-lite",
+      "version": "2.1.3-1",
+      "artifact": "speedtest-cli-lite_2.1.3-1_aarch64.deb"
+    },
+    {
+      "package": "iperf2-speed",
+      "version": "2.2.0-1",
+      "artifact": "iperf2-speed_2.2.0-1_aarch64.deb"
+    },
+    {
+      "package": "ssl-cert-checker",
+      "version": "1.0.0-1",
+      "artifact": "ssl-cert-checker_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "tls-cipher-scan",
+      "version": "1.0.0-1",
+      "artifact": "tls-cipher-scan_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "http-header-dump",
+      "version": "1.0.0-1",
+      "artifact": "http-header-dump_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "http-bench-fast",
+      "version": "1.0.0-1",
+      "artifact": "http-bench-fast_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "websocket-client-cli",
+      "version": "1.0.0-1",
+      "artifact": "websocket-client-cli_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "dns-propagation-chk",
+      "version": "1.0.0-1",
+      "artifact": "dns-propagation-chk_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "rdns-resolver",
+      "version": "1.0.0-1",
+      "artifact": "rdns-resolver_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "ip-subnet-calc",
+      "version": "1.0.0-1",
+      "artifact": "ip-subnet-calc_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "mac-vendor-lookup",
+      "version": "1.0.0-1",
+      "artifact": "mac-vendor-lookup_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "port-probe-tcp",
+      "version": "1.0.0-1",
+      "artifact": "port-probe-tcp_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "udp-echo-client",
+      "version": "1.0.0-1",
+      "artifact": "udp-echo-client_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "icmp-timestamp-chk",
+      "version": "1.0.0-1",
+      "artifact": "icmp-timestamp-chk_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "arp-scanner-lite",
+      "version": "1.0.0-1",
+      "artifact": "arp-scanner-lite_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "url-encode-decode",
+      "version": "1.0.0-1",
+      "artifact": "url-encode-decode_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "punycode-converter",
+      "version": "1.0.0-1",
+      "artifact": "punycode-converter_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "curl-timing-analyzer",
+      "version": "1.0.0-1",
+      "artifact": "curl-timing-analyzer_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "http-cache-validator",
+      "version": "1.0.0-1",
+      "artifact": "http-cache-validator_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "cors-header-checker",
+      "version": "1.0.0-1",
+      "artifact": "cors-header-checker_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "oauth-token-decoder",
+      "version": "1.0.0-1",
+      "artifact": "oauth-token-decoder_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "grpc-health-probe",
+      "version": "1.0.0-1",
+      "artifact": "grpc-health-probe_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "mqtt-pubsub-lite",
+      "version": "1.0.0-1",
+      "artifact": "mqtt-pubsub-lite_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "ntp-drift-checker",
+      "version": "1.0.0-1",
+      "artifact": "ntp-drift-checker_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "whois-asn-lookup",
+      "version": "1.0.0-1",
+      "artifact": "whois-asn-lookup_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "traceroute-asn",
+      "version": "1.0.0-1",
+      "artifact": "traceroute-asn_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "packet-hex-dumper",
+      "version": "1.0.0-1",
+      "artifact": "packet-hex-dumper_1.0.0-1_aarch64.deb"
+    }
+  ]
+}

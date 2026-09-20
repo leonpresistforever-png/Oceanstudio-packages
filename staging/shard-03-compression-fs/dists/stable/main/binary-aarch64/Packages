@@ -1,0 +1,866 @@
+Package: zopfli-png
+Version: 1.0.3-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: utils
+Priority: optional
+Filename: pool/main/zopfli-png_1.0.3-1_aarch64.deb
+Size: 1936
+MD5sum: 8a2c9bdc5cba5a421115e2e18a372227
+SHA1: 7068fa937ee673f5863c36d0be28f52316524e12
+SHA256: 6098c445198fdb5e6fe3ec84c39185dabe96cf0379c0309c3c3ab92fcd648d62
+Description: Zopfli PNG optimizer and deflater
+ Compression and archive filesystem utility providing Zopfli PNG optimizer and deflater for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: zopfli-zlib
+Version: 1.0.3-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: utils
+Priority: optional
+Filename: pool/main/zopfli-zlib_1.0.3-1_aarch64.deb
+Size: 1936
+MD5sum: 8dd2be13c5223fb011d8c677cc49824d
+SHA1: e57074804e1fd6bdd362f2556cf129ba1fbae18b
+SHA256: a0cfea6a4d37bad9b717ae3fef6129ec08efb8d289308d888de41e33c03436a5
+Description: Zopfli deflate algorithm compressor
+ Compression and archive filesystem utility providing Zopfli deflate algorithm compressor for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: lzip-decompressor
+Version: 1.24-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: utils
+Priority: optional
+Filename: pool/main/lzip-decompressor_1.24-1_aarch64.deb
+Size: 1960
+MD5sum: d69fd19661f8f200f039039e9fa21fb6
+SHA1: c29ddb11d15dcaf87c70ebcedd2445970cac66f4
+SHA256: 2f13006c8c5763df35a7bb2619674e56dc3f6a9eeb4fd9f676da03c294660009
+Description: lossless data decompressor using LZMA algorithm
+ Compression and archive filesystem utility providing lossless data decompressor using LZMA algorithm for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: lzop-fast
+Version: 1.04-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: utils
+Priority: optional
+Filename: pool/main/lzop-fast_1.04-1_aarch64.deb
+Size: 1928
+MD5sum: a5ccd54fa08ac3457ffb8e1fb5816780
+SHA1: ba6341a071a31e009fe335805fb764d71195fbf5
+SHA256: d61a14976f4ff42883a00477dc4364a81e2a3ae923bb5c6c541bf00c636bb562
+Description: extremely fast LZO compression utility
+ Compression and archive filesystem utility providing extremely fast LZO compression utility for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: rzip-large
+Version: 2.1-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: utils
+Priority: optional
+Filename: pool/main/rzip-large_2.1-1_aarch64.deb
+Size: 1924
+MD5sum: 4aca4653df155460eb52adec4fb61e26
+SHA1: 92065b32fd569ab5b7526af75a04a2368c7acd98
+SHA256: 11833783bf42366d062fb836626370c81f5936ac6123a74dd6cc758084004ee4
+Description: compression program for very large files
+ Compression and archive filesystem utility providing compression program for very large files for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: zbackup-dedup
+Version: 1.5-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: utils
+Priority: optional
+Filename: pool/main/zbackup-dedup_1.5-1_aarch64.deb
+Size: 1956
+MD5sum: 21d0e207ed6de9d0de2c260a5965fa9c
+SHA1: f0d63505062efb1524c7ad46c8a5383e5531038e
+SHA256: 54a4a88e83e705bdfd1ecdd5487bc537abb148e56b2ad6acc979d3147ef98e85
+Description: deduplicating backup tool using rsync rolling hash
+ Compression and archive filesystem utility providing deduplicating backup tool using rsync rolling hash for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: squashfs-tools-ng
+Version: 1.3.1-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: utils
+Priority: optional
+Filename: pool/main/squashfs-tools-ng_1.3.1-1_aarch64.deb
+Size: 1960
+MD5sum: 8d8389d8b4e85e3a25cb5a383841da74
+SHA1: 5b0e44322cfa730029168ccc1f97f09177919d1e
+SHA256: 57efb3bbdf1d95c66285a282a5a00e41c72b0bf3b1210616b800bc5cfa14a1af
+Description: new generation tools for working with SquashFS
+ Compression and archive filesystem utility providing new generation tools for working with SquashFS for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: sparse-img-tools
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: utils
+Priority: optional
+Filename: pool/main/sparse-img-tools_1.0.0-1_aarch64.deb
+Size: 1944
+MD5sum: d9955ae1012482069e37d86e99cd4491
+SHA1: 9b2d6fad4b4151c4e6e696bbd071314fc5220791
+SHA256: 58108cb95ae562b0743b356bcf5484197f3dad98e022a21da7e17024c574b499
+Description: Android sparse image inspect and unsparse tool
+ Compression and archive filesystem utility providing Android sparse image inspect and unsparse tool for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: cpio-portable
+Version: 2.15-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: utils
+Priority: optional
+Filename: pool/main/cpio-portable_2.15-1_aarch64.deb
+Size: 1936
+MD5sum: 412dd014f6b610744185526f1a01ed82
+SHA1: 1a5bb629a676e11b80a4770d72ac19a675af89db
+SHA256: d067960e6415aea0a89050fcafe2ecdd2c72065e7027561e161f8f351e893648
+Description: GNU cpio archive manipulation utility
+ Compression and archive filesystem utility providing GNU cpio archive manipulation utility for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: sharutils-unshar
+Version: 4.15.2-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: utils
+Priority: optional
+Filename: pool/main/sharutils-unshar_4.15.2-1_aarch64.deb
+Size: 1952
+MD5sum: ddc245b357b65892118fd5921016ac03
+SHA1: 8ef70393e8936557859677da25723f4bfa3eb123
+SHA256: 814761365433e09c713c657c16a2186edb49cc936083034026f28284ee4c7d0a
+Description: unpack shell archives created with shar
+ Compression and archive filesystem utility providing unpack shell archives created with shar for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: par2cmdline-lite
+Version: 0.8.1-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: utils
+Priority: optional
+Filename: pool/main/par2cmdline-lite_0.8.1-1_aarch64.deb
+Size: 1968
+MD5sum: 37fba8b767c56e68e4e7673bb0255d7e
+SHA1: c0f74369dadf80a120f4f3c637e98e82c76a8c36
+SHA256: 4729938f81bd116a5195cb28f5ef21a28f715ae7cfa3c944d173a1d6c6eb58a2
+Description: PAR 2.0 parity archive generator and repair tool
+ Compression and archive filesystem utility providing PAR 2.0 parity archive generator and repair tool for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: bzip3-fast
+Version: 1.4.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: utils
+Priority: optional
+Filename: pool/main/bzip3-fast_1.4.0-1_aarch64.deb
+Size: 1928
+MD5sum: 3b7c1963fb603ac14768365f1f2cd34f
+SHA1: 6c2ae7710e86913fe96b6ab7157a2f93a4d2dc2e
+SHA256: 66c1b7d5e2ef7a5e0babd49c0be2dda16c3667bced85bae451c7723e9e505884
+Description: better and faster alternative to bzip2
+ Compression and archive filesystem utility providing better and faster alternative to bzip2 for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: snappy-tools-cli
+Version: 1.2.1-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: utils
+Priority: optional
+Filename: pool/main/snappy-tools-cli_1.2.1-1_aarch64.deb
+Size: 1952
+MD5sum: 6f60a417b5651b65a4037e41ddfc322f
+SHA1: 9d1bbb5cd130f92249e4519bee73731accac21f4
+SHA256: c490b01fdcf4f4c839a36f75e34bc3b759021168c00fde05cc85e1489fadde63
+Description: Google snappy fast compression framing tool
+ Compression and archive filesystem utility providing Google snappy fast compression framing tool for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: brotli-tools-cli
+Version: 1.1.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: utils
+Priority: optional
+Filename: pool/main/brotli-tools-cli_1.1.0-1_aarch64.deb
+Size: 1944
+MD5sum: 128529a0ed5e326de446db88210a7a10
+SHA1: 407d1ff50b2a42527dac807a2e3a8a7010671b02
+SHA256: c2cf294d8244c8309f8e9ed704243fb46660e800cbe8453db20ba7a3fe74627c
+Description: Brotli general purpose compression tool
+ Compression and archive filesystem utility providing Brotli general purpose compression tool for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: lz4-extreme
+Version: 1.10.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: utils
+Priority: optional
+Filename: pool/main/lz4-extreme_1.10.0-1_aarch64.deb
+Size: 1928
+MD5sum: f091742f33eb56263a02fda6c2d933c8
+SHA1: 33a23ad9469e72154bf3557511bb15683e0c8877
+SHA256: 123a2808eca01f181199c4a042e8ee4b3c3a713176e4ef660d0cf2a71fc35294
+Description: LZ4 extreme compression level utility
+ Compression and archive filesystem utility providing LZ4 extreme compression level utility for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: zip-repair-tool
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: utils
+Priority: optional
+Filename: pool/main/zip-repair-tool_1.0.0-1_aarch64.deb
+Size: 1952
+MD5sum: a4eb74cbbb943067d425d2bf801f85b5
+SHA1: f73d4b93ac51ab817b34a21202c24b67dad0f148
+SHA256: 82f7eeb820135525c53f4e0dfa335cf596c86b5b55aa14bd3687045a5fbf6c8d
+Description: diagnose and repair damaged ZIP archives
+ Compression and archive filesystem utility providing diagnose and repair damaged ZIP archives for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: cabextract-lite
+Version: 1.11-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: utils
+Priority: optional
+Filename: pool/main/cabextract-lite_1.11-1_aarch64.deb
+Size: 1944
+MD5sum: 40677d34b1a162b0b4f9f8a0a6ba1ae8
+SHA1: 70abebdc46f8b9c5ee84e16632c5828de10da461
+SHA256: 6aa213efc7966a4e0692da458ffec4613b2cb1163a8a3f3b0bab2dcdaaee9cac
+Description: extract Microsoft Cabinet archives
+ Compression and archive filesystem utility providing extract Microsoft Cabinet archives for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: undmg-tools
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: utils
+Priority: optional
+Filename: pool/main/undmg-tools_1.0.0-1_aarch64.deb
+Size: 1936
+MD5sum: 85d8a2aa541e6d5477d140e9e38abb5e
+SHA1: c595658506987c4e960b1564ceb761a30b67f0a7
+SHA256: 2cf3cb6f539e38ee97ec8de34718b4a31c3ecba25584b5659c7bb52179f75533
+Description: extract Apple DMG disk images
+ Compression and archive filesystem utility providing extract Apple DMG disk images for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: genisoimage-lite
+Version: 1.1.11-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: utils
+Priority: optional
+Filename: pool/main/genisoimage-lite_1.1.11-1_aarch64.deb
+Size: 1956
+MD5sum: 4695db18048c54c08e1ba68006763b75
+SHA1: 1a35771119f5b6b93f4da019e9ac382ed6f5da7c
+SHA256: b19b8822df6af52103d8ae9f26b4341f50a38bead36ae1a1401da969bc3ac976
+Description: generate ISO9660 CD-ROM filesystem images
+ Compression and archive filesystem utility providing generate ISO9660 CD-ROM filesystem images for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: isoinfo-tools
+Version: 1.1.11-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: utils
+Priority: optional
+Filename: pool/main/isoinfo-tools_1.1.11-1_aarch64.deb
+Size: 1948
+MD5sum: 75d645e08fa6596eff9d65003d433557
+SHA1: 9360039079584af5b2e6680f0d23f4d45b03617f
+SHA256: db42f5114e5d30548e298b639d2fa51c3ab5e458ab5c8130bf448264297a1e35
+Description: inspect and extract files from ISO images
+ Compression and archive filesystem utility providing inspect and extract files from ISO images for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: tar-indexer
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: utils
+Priority: optional
+Filename: pool/main/tar-indexer_1.0.0-1_aarch64.deb
+Size: 1944
+MD5sum: 006e1f452219c482e0405cf9d0c2e8d3
+SHA1: f8f78e61a4768db37b684a30346bb14500ba510c
+SHA256: 93ce72df8d781b022b392c72cbf3742d50114a3d9d39cc05c4945f98ca870fd3
+Description: generate fast seekable index for tar archives
+ Compression and archive filesystem utility providing generate fast seekable index for tar archives for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: tar-diff
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: utils
+Priority: optional
+Filename: pool/main/tar-diff_1.0.0-1_aarch64.deb
+Size: 1952
+MD5sum: 9ffbb64b28aa181d4c4ee869c38b1000
+SHA1: e4f25719333f2a1fe36d4be20dae73e417679ed8
+SHA256: bdb119dfc5ab5a3846110615c99e12ff524de07df5ad14e1275d7d99337bd9a4
+Description: compare contents of two tar archives without extracting
+ Compression and archive filesystem utility providing compare contents of two tar archives without extracting for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: gz-indexer
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: utils
+Priority: optional
+Filename: pool/main/gz-indexer_1.0.0-1_aarch64.deb
+Size: 1944
+MD5sum: d897cfb537591939f6dffe8d2748a63b
+SHA1: 062414638490d36a79c72d9dd6fca023041b26e9
+SHA256: b360dca08e11a73c4b88fa0365563873f9bc2793eaca3de03e1e165001b2ef4d
+Description: index gzip streams for random access decompression
+ Compression and archive filesystem utility providing index gzip streams for random access decompression for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: archive-inspector
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: utils
+Priority: optional
+Filename: pool/main/archive-inspector_1.0.0-1_aarch64.deb
+Size: 1960
+MD5sum: 9dceaf8d78ab80e18c77848cc68b622e
+SHA1: 239691a1bb36f37f7454bff4045d1e1751d8a5c2
+SHA256: 69c68025824791cc6969e49616601e1c4e82e81e40d670c873b0e22a4e439ce4
+Description: detect archive types and inspect contents safely
+ Compression and archive filesystem utility providing detect archive types and inspect contents safely for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: hash-verifier
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: utils
+Priority: optional
+Filename: pool/main/hash-verifier_1.0.0-1_aarch64.deb
+Size: 1968
+MD5sum: ef4daa12bf562de41fcefb0bc63a8f86
+SHA1: d09efc7da8b5d11d06337e198ff4befe4b6c0d2c
+SHA256: 13af1291f0fa97c1a841dbb53b7c4c20a565a5644776c1d4ac8c89bb9343caaf
+Description: verify MD5/SHA1/SHA256 checksum manifests in bulk
+ Compression and archive filesystem utility providing verify MD5/SHA1/SHA256 checksum manifests in bulk for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: split-merger
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: utils
+Priority: optional
+Filename: pool/main/split-merger_1.0.0-1_aarch64.deb
+Size: 1948
+MD5sum: c15acc8d6b81bc26ba363565044a70fb
+SHA1: 20a54f8accd30eba1994e4983c4c508938377f72
+SHA256: 8907619704136e74add1f3382d871551d5132bd3cb4fd26462c6e5c2028a69c0
+Description: split and merge large files with checksum integrity
+ Compression and archive filesystem utility providing split and merge large files with checksum integrity for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: chunk-deduplicator
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: utils
+Priority: optional
+Filename: pool/main/chunk-deduplicator_1.0.0-1_aarch64.deb
+Size: 1972
+MD5sum: eec3164cade46a0979068649414ad964
+SHA1: 88037f100eb8b715ab1c3ac7148d62f78a4eee35
+SHA256: f3acd675a0b67af77297c0d3ab5864054f47659528f8b17a87984e2befe42f19
+Description: detect identical blocks and deduplicate storage
+ Compression and archive filesystem utility providing detect identical blocks and deduplicate storage for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: crc32-fast
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: utils
+Priority: optional
+Filename: pool/main/crc32-fast_1.0.0-1_aarch64.deb
+Size: 1944
+MD5sum: 17645056ca908ce731ea5a576fe3ec80
+SHA1: b0293a378377b8724c4649b8eb9625849cd2aa82
+SHA256: f0cba7125e798cf1d700a98162242118bce345846346201521b261479a54fb1b
+Description: hardware-accelerated CRC32 calculation tool
+ Compression and archive filesystem utility providing hardware-accelerated CRC32 calculation tool for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: adler32-tool
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: utils
+Priority: optional
+Filename: pool/main/adler32-tool_1.0.0-1_aarch64.deb
+Size: 1952
+MD5sum: 4449b156680c0946d48bffe6fd3e68dd
+SHA1: ad761c16f00c82d0f64179880ef3c1b7e2e50089
+SHA256: 648a91156fc83b1b1724660ebbd0a5192e2483b97e22312f5f29c95dcd820ae0
+Description: calculate Adler32 checksums for zlib validation
+ Compression and archive filesystem utility providing calculate Adler32 checksums for zlib validation for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: xxhash-cli
+Version: 0.8.3-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: utils
+Priority: optional
+Filename: pool/main/xxhash-cli_0.8.3-1_aarch64.deb
+Size: 1972
+MD5sum: e2da4e173f126b85575e8c3975b64ee6
+SHA1: ae238aa99b3ccc07022bf0c20c38e0622da784fa
+SHA256: a068a8d1ec7dc133830a6479966b4f60db431c9b42b23da808be768904265689
+Description: extremely fast non-cryptographic hash algorithm CLI
+ Compression and archive filesystem utility providing extremely fast non-cryptographic hash algorithm CLI for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: blake3-cli
+Version: 1.5.4-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: utils
+Priority: optional
+Filename: pool/main/blake3-cli_1.5.4-1_aarch64.deb
+Size: 1940
+MD5sum: a317868bbdd3707d17a1b53ff8698cf0
+SHA1: 49642fe4b22e086493988d90aec9107845f962f7
+SHA256: 261541df6bbf034f16e2de510a7082828f3cefa0e9e56a93f54a1d73e63c14fd
+Description: official BLAKE3 cryptographic hash tool
+ Compression and archive filesystem utility providing official BLAKE3 cryptographic hash tool for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: b2sum-lite
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: utils
+Priority: optional
+Filename: pool/main/b2sum-lite_1.0.0-1_aarch64.deb
+Size: 1952
+MD5sum: 7bc3991fa8ae1a276c364e3033dad13f
+SHA1: fb9e79c2d786d36777251300db4fce9169e492da
+SHA256: 26a62e79fe7c5f55630c4aef91f56def6b96ee75ed1d741ad18f8731219f760d
+Description: calculate and check BLAKE2b/BLAKE2s hashes
+ Compression and archive filesystem utility providing calculate and check BLAKE2b/BLAKE2s hashes for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: sha3-sum
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: utils
+Priority: optional
+Filename: pool/main/sha3-sum_1.0.0-1_aarch64.deb
+Size: 1936
+MD5sum: 2c34abda0dceb2bec6ccaa55ba9e5e67
+SHA1: 5f8fe16277d2bdc12b8dfbb9b582eb452554d76c
+SHA256: 035de0a1fc545466107982ebecf7dd5b2aee3b725ab7b09199258cb7c6d7d863
+Description: calculate SHA3-256 and SHA3-512 hashes
+ Compression and archive filesystem utility providing calculate SHA3-256 and SHA3-512 hashes for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: shake256-tool
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: utils
+Priority: optional
+Filename: pool/main/shake256-tool_1.0.0-1_aarch64.deb
+Size: 1952
+MD5sum: 34da369129a8d258e7e44f73a91252c9
+SHA1: 23a084da8628a3f8fb980bb30306c5cee78dbe91
+SHA256: c1fb9981bde943762a024f5a365d61fa8a3029922404558537749a329a91ec06
+Description: extendable-output function SHAKE256 hasher
+ Compression and archive filesystem utility providing extendable-output function SHAKE256 hasher for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: ripemd160-tool
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: utils
+Priority: optional
+Filename: pool/main/ripemd160-tool_1.0.0-1_aarch64.deb
+Size: 1944
+MD5sum: 906a4166d734f6ad1bbd18aaaabf425c
+SHA1: 913e4d9cbb5ea70736c92549d9cc91f4156c9b9a
+SHA256: f50f07f51a4997c66f452a911eeb4c01db738c1675c0e11f1bb68853b7e59768
+Description: RIPEMD-160 cryptographic hash tool
+ Compression and archive filesystem utility providing RIPEMD-160 cryptographic hash tool for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: whirlpool-tool
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: utils
+Priority: optional
+Filename: pool/main/whirlpool-tool_1.0.0-1_aarch64.deb
+Size: 1948
+MD5sum: 6fb5bc91dd6a01f4d3a5f4ce1b78854d
+SHA1: 52dc48e677eb130dbf835acc469087a4fe545c4d
+SHA256: 95cd05a0fdcc9dd0ddf04499802431bb011e5613fbe18ab9ec0c822aab1f29d5
+Description: Whirlpool cryptographic hash calculator
+ Compression and archive filesystem utility providing Whirlpool cryptographic hash calculator for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: dir-checksum
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: utils
+Priority: optional
+Filename: pool/main/dir-checksum_1.0.0-1_aarch64.deb
+Size: 1960
+MD5sum: d98a817ef128ee6f23575290c0bd08bb
+SHA1: 21730eaed419ec64b4bc6f2e8102e608d0cb879e
+SHA256: 49a8518dae33ad89836714b6610dfa888b4a7f8af04a9ac8215c4aea82df589b
+Description: recursive directory tree content hash generator
+ Compression and archive filesystem utility providing recursive directory tree content hash generator for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: file-entropy
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: utils
+Priority: optional
+Filename: pool/main/file-entropy_1.0.0-1_aarch64.deb
+Size: 1948
+MD5sum: f08bfbb50de3a5f738c199a21319cb65
+SHA1: a438f2bd3ce1eff1b934405c94d2c5f412f1cd11
+SHA256: 7a690d287692b22d8b9fd8f8a11f29b2ec1a502849c9cb4de57e998596f9306f
+Description: calculate Shannon entropy of file contents
+ Compression and archive filesystem utility providing calculate Shannon entropy of file contents for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: zero-detector
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: utils
+Priority: optional
+Filename: pool/main/zero-detector_1.0.0-1_aarch64.deb
+Size: 1952
+MD5sum: d7ca0d319d10b4bef42e1447c440b0b0
+SHA1: 3568901bea1509e3527681baafaed400fc1dfa12
+SHA256: 966187aa5b6e6c711c4a07b2efda62a60bb6345b76f63abd5d9854879b8f39ce
+Description: detect runs of zero bytes and sparse file candidate
+ Compression and archive filesystem utility providing detect runs of zero bytes and sparse file candidate for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: sparse-maker
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: utils
+Priority: optional
+Filename: pool/main/sparse-maker_1.0.0-1_aarch64.deb
+Size: 1936
+MD5sum: f2cdf505ec5fb2b3f860707f6e3c852b
+SHA1: d491f1dd6521278f3a91c89154c16858995c93bd
+SHA256: c139f5488ecd9177671c90724d761d72e638729525faabee53efbe26ccacc0f6
+Description: convert files with zero runs to sparse files
+ Compression and archive filesystem utility providing convert files with zero runs to sparse files for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: du-visualizer
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: utils
+Priority: optional
+Filename: pool/main/du-visualizer_1.0.0-1_aarch64.deb
+Size: 1952
+MD5sum: d292f2af0cc1c42f4b8fcee84992ce04
+SHA1: dafbc3c629ed5ed182495808521dca3ab6aad211
+SHA256: e739fb8b0c8d0e992289d8dfedacc3e301ee48f492417f12a6395566f47eab53
+Description: visualize disk usage bar charts in terminal
+ Compression and archive filesystem utility providing visualize disk usage bar charts in terminal for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: df-analyzer
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: utils
+Priority: optional
+Filename: pool/main/df-analyzer_1.0.0-1_aarch64.deb
+Size: 1936
+MD5sum: 1994eac9bff021c5d6c878b54df53f2b
+SHA1: f64c0a80d6ffa9f16385f63cf3fdca2a9a78a850
+SHA256: 14974eabc7d3f923a3debff5bf5f80bb6c05f86644f258906fb622a0774b5ead
+Description: filesystem mount and free space analyzer
+ Compression and archive filesystem utility providing filesystem mount and free space analyzer for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: symlink-auditor
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: utils
+Priority: optional
+Filename: pool/main/symlink-auditor_1.0.0-1_aarch64.deb
+Size: 1960
+MD5sum: fc364eb2b982ef0351f8567c1391e0bf
+SHA1: 3f57ea16403a3fb76f345f2a64f1db93acec05c7
+SHA256: e40fc307e389f8234b8547a2e706e346af1b3e7f6b931ba09cae46475ce70a15
+Description: audit broken or escaping symbolic links in path
+ Compression and archive filesystem utility providing audit broken or escaping symbolic links in path for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: hardlink-finder
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: utils
+Priority: optional
+Filename: pool/main/hardlink-finder_1.0.0-1_aarch64.deb
+Size: 1956
+MD5sum: 8e9d807d23e2531eb7ddf0542e1a1b67
+SHA1: 297017677eb48c68340301bfe4fcd7ac30d74550
+SHA256: 1ebcebb50803ee0845b335f53262b9fb4d0c634339577022420d14722dac1dc6
+Description: find and group identical files by inode hardlinks
+ Compression and archive filesystem utility providing find and group identical files by inode hardlinks for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: perm-auditor
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: utils
+Priority: optional
+Filename: pool/main/perm-auditor_1.0.0-1_aarch64.deb
+Size: 1936
+MD5sum: 64ca01c55c21fa78b4c4603ce3d42cd8
+SHA1: 82771c44562a21d10da294cfa1c55fb06b864c53
+SHA256: 1cf7c183e4255beb259503936e7485c424d11997178ebd0786947f4a4f41ffe1
+Description: audit file permission anomalies in Ocean prefix
+ Compression and archive filesystem utility providing audit file permission anomalies in Ocean prefix for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: timestamp-toucher
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: utils
+Priority: optional
+Filename: pool/main/timestamp-toucher_1.0.0-1_aarch64.deb
+Size: 1948
+MD5sum: dac359377cf475bb37afe8a03601b278
+SHA1: e0c7a3c4dd9197aba2af7ee5765c18b6e5761484
+SHA256: fff8b406a7ab882f7ac58de38b194da6ec8275a8b47ea8a4cbe8a39b2b511678
+Description: batch update or sync file timestamps
+ Compression and archive filesystem utility providing batch update or sync file timestamps for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: archive-stripper
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: utils
+Priority: optional
+Filename: pool/main/archive-stripper_1.0.0-1_aarch64.deb
+Size: 1960
+MD5sum: 8c821cb28614279a0c45ee76905438c4
+SHA1: 8dbb813320a59c2d64ac650f10bb1cf6ce75e057
+SHA256: aae82823c003601d79f78ff9dadc75610fedf38936030b91af9572b648cab373
+Description: strip non-essential files from archives before storage
+ Compression and archive filesystem utility providing strip non-essential files from archives before storage for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: gz-normalizer
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: utils
+Priority: optional
+Filename: pool/main/gz-normalizer_1.0.0-1_aarch64.deb
+Size: 1980
+MD5sum: 887eb2620e83df5fd1a25e43825d01ba
+SHA1: fafd09aa2bd8a906143290fcbc9109bf69b4e876
+SHA256: 5c30ad54ef4e6c9ce9e2729d51f3646fdaa7a0aef4d8c715d7d0c5220e201bde
+Description: recompress gzip files with zero timestamp for reproducible builds
+ Compression and archive filesystem utility providing recompress gzip files with zero timestamp for reproducible builds for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: tar-normalizer
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: utils
+Priority: optional
+Filename: pool/main/tar-normalizer_1.0.0-1_aarch64.deb
+Size: 1968
+MD5sum: a2774598dd52be59a2dcf6f65fc41cf1
+SHA1: 23d2949939345696319c79b6c5cdf4ee4baf2361
+SHA256: fef52d1285d8e9d0564c7e3871a0d598dde6509641dca710f94d90f3e56bf2b7
+Description: repack tar archives with root ownership and 1970 mtime
+ Compression and archive filesystem utility providing repack tar archives with root ownership and 1970 mtime for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: zip-normalizer
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: utils
+Priority: optional
+Filename: pool/main/zip-normalizer_1.0.0-1_aarch64.deb
+Size: 1956
+MD5sum: 330f7beb3f7b2188c5dfd543a1d0391a
+SHA1: a5cc9111d0c7f76d3de229dcb011663415b9da24
+SHA256: 10b1514e9ed7f66120cbb686c750e250b27c8a3d5b55a05d6f4990e3e1f799e1
+Description: repack zip files with deterministic timestamps
+ Compression and archive filesystem utility providing repack zip files with deterministic timestamps for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: deb-normalizer
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: utils
+Priority: optional
+Filename: pool/main/deb-normalizer_1.0.0-1_aarch64.deb
+Size: 1936
+MD5sum: 57b34e5c76ed0b22519550205748300b
+SHA1: 2effe4303bdbc131ce8f28fc6a944997b746aa01
+SHA256: 743b712862224a5cafc75af1aa40f1d862b67a696be694d9f24b156e83bed0e4
+Description: repack debian packages with normalized mtimes
+ Compression and archive filesystem utility providing repack debian packages with normalized mtimes for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.

@@ -1,0 +1,265 @@
+{
+  "schemaVersion": 1,
+  "shard": "shard-02-gnu-text",
+  "section": "text",
+  "target": "aarch64-linux-android28",
+  "prefix": "/data/data/studio.ocean.app/files/usr",
+  "packageCount": 51,
+  "packages": [
+    {
+      "package": "moreutils-sponge",
+      "version": "0.69-1",
+      "artifact": "moreutils-sponge_0.69-1_aarch64.deb"
+    },
+    {
+      "package": "moreutils-vipe",
+      "version": "0.69-1",
+      "artifact": "moreutils-vipe_0.69-1_aarch64.deb"
+    },
+    {
+      "package": "moreutils-ts",
+      "version": "0.69-1",
+      "artifact": "moreutils-ts_0.69-1_aarch64.deb"
+    },
+    {
+      "package": "moreutils-combine",
+      "version": "0.69-1",
+      "artifact": "moreutils-combine_0.69-1_aarch64.deb"
+    },
+    {
+      "package": "moreutils-ifne",
+      "version": "0.69-1",
+      "artifact": "moreutils-ifne_0.69-1_aarch64.deb"
+    },
+    {
+      "package": "moreutils-pee",
+      "version": "0.69-1",
+      "artifact": "moreutils-pee_0.69-1_aarch64.deb"
+    },
+    {
+      "package": "moreutils-zrun",
+      "version": "0.69-1",
+      "artifact": "moreutils-zrun_0.69-1_aarch64.deb"
+    },
+    {
+      "package": "moreutils-isutf8",
+      "version": "0.69-1",
+      "artifact": "moreutils-isutf8_0.69-1_aarch64.deb"
+    },
+    {
+      "package": "moreutils-lckdo",
+      "version": "0.69-1",
+      "artifact": "moreutils-lckdo_0.69-1_aarch64.deb"
+    },
+    {
+      "package": "moreutils-mispipe",
+      "version": "0.69-1",
+      "artifact": "moreutils-mispipe_0.69-1_aarch64.deb"
+    },
+    {
+      "package": "diffstat-lite",
+      "version": "1.66-1",
+      "artifact": "diffstat-lite_1.66-1_aarch64.deb"
+    },
+    {
+      "package": "patchutils-lite",
+      "version": "0.4.2-1",
+      "artifact": "patchutils-lite_0.4.2-1_aarch64.deb"
+    },
+    {
+      "package": "wdiff-word",
+      "version": "1.2.2-1",
+      "artifact": "wdiff-word_1.2.2-1_aarch64.deb"
+    },
+    {
+      "package": "colordiff-fast",
+      "version": "1.0.21-1",
+      "artifact": "colordiff-fast_1.0.21-1_aarch64.deb"
+    },
+    {
+      "package": "recode-tools",
+      "version": "3.7.14-1",
+      "artifact": "recode-tools_3.7.14-1_aarch64.deb"
+    },
+    {
+      "package": "convmv-cli",
+      "version": "2.05-1",
+      "artifact": "convmv-cli_2.05-1_aarch64.deb"
+    },
+    {
+      "package": "enca-analyzer",
+      "version": "1.19-1",
+      "artifact": "enca-analyzer_1.19-1_aarch64.deb"
+    },
+    {
+      "package": "uchardet-cli",
+      "version": "0.0.8-1",
+      "artifact": "uchardet-cli_0.0.8-1_aarch64.deb"
+    },
+    {
+      "package": "par-formatter",
+      "version": "1.53.0-1",
+      "artifact": "par-formatter_1.53.0-1_aarch64.deb"
+    },
+    {
+      "package": "bsd-column",
+      "version": "2.40.2-1",
+      "artifact": "bsd-column_2.40.2-1_aarch64.deb"
+    },
+    {
+      "package": "bsd-col",
+      "version": "2.40.2-1",
+      "artifact": "bsd-col_2.40.2-1_aarch64.deb"
+    },
+    {
+      "package": "bsd-colrm",
+      "version": "2.40.2-1",
+      "artifact": "bsd-colrm_2.40.2-1_aarch64.deb"
+    },
+    {
+      "package": "bsd-look",
+      "version": "2.40.2-1",
+      "artifact": "bsd-look_2.40.2-1_aarch64.deb"
+    },
+    {
+      "package": "bsd-rev",
+      "version": "2.40.2-1",
+      "artifact": "bsd-rev_2.40.2-1_aarch64.deb"
+    },
+    {
+      "package": "bsd-ul",
+      "version": "2.40.2-1",
+      "artifact": "bsd-ul_2.40.2-1_aarch64.deb"
+    },
+    {
+      "package": "ascii-banner",
+      "version": "1.3.4-1",
+      "artifact": "ascii-banner_1.3.4-1_aarch64.deb"
+    },
+    {
+      "package": "figlet-extra",
+      "version": "2.2.5-1",
+      "artifact": "figlet-extra_2.2.5-1_aarch64.deb"
+    },
+    {
+      "package": "toilet-color",
+      "version": "0.3-1",
+      "artifact": "toilet-color_0.3-1_aarch64.deb"
+    },
+    {
+      "package": "cowsay-collection",
+      "version": "3.7.0-1",
+      "artifact": "cowsay-collection_3.7.0-1_aarch64.deb"
+    },
+    {
+      "package": "fortune-ocean",
+      "version": "1.99.1-1",
+      "artifact": "fortune-ocean_1.99.1-1_aarch64.deb"
+    },
+    {
+      "package": "sl-locomotive",
+      "version": "5.02-1",
+      "artifact": "sl-locomotive_5.02-1_aarch64.deb"
+    },
+    {
+      "package": "cmatrix-rain",
+      "version": "2.0-1",
+      "artifact": "cmatrix-rain_2.0-1_aarch64.deb"
+    },
+    {
+      "package": "boxes-boxer",
+      "version": "2.2.1-1",
+      "artifact": "boxes-boxer_2.2.1-1_aarch64.deb"
+    },
+    {
+      "package": "text-center",
+      "version": "1.0.0-1",
+      "artifact": "text-center_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "text-justify",
+      "version": "1.0.0-1",
+      "artifact": "text-justify_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "text-trim",
+      "version": "1.0.0-1",
+      "artifact": "text-trim_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "text-dedup",
+      "version": "1.0.0-1",
+      "artifact": "text-dedup_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "text-frequency",
+      "version": "1.0.0-1",
+      "artifact": "text-frequency_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "text-wrap",
+      "version": "1.0.0-1",
+      "artifact": "text-wrap_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "line-numberer",
+      "version": "1.0.0-1",
+      "artifact": "line-numberer_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "line-prefixer",
+      "version": "1.0.0-1",
+      "artifact": "line-prefixer_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "case-converter",
+      "version": "1.0.0-1",
+      "artifact": "case-converter_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "slug-generator",
+      "version": "1.0.0-1",
+      "artifact": "slug-generator_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "markdown-table-fmt",
+      "version": "1.0.0-1",
+      "artifact": "markdown-table-fmt_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "csv-to-markdown",
+      "version": "1.0.0-1",
+      "artifact": "csv-to-markdown_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "tsv-to-markdown",
+      "version": "1.0.0-1",
+      "artifact": "tsv-to-markdown_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "json-to-markdown",
+      "version": "1.0.0-1",
+      "artifact": "json-to-markdown_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "diff-highlighter",
+      "version": "1.0.0-1",
+      "artifact": "diff-highlighter_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "word-counter",
+      "version": "1.0.0-1",
+      "artifact": "word-counter_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "regex-filter",
+      "version": "1.0.0-1",
+      "artifact": "regex-filter_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "stream-sample",
+      "version": "1.0.0-1",
+      "artifact": "stream-sample_1.0.0-1_aarch64.deb"
+    }
+  ]
+}

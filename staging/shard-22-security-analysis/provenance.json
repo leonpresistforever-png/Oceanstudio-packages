@@ -1,0 +1,265 @@
+{
+  "schemaVersion": 1,
+  "shard": "shard-22-security-analysis",
+  "section": "admin",
+  "target": "aarch64-linux-android28",
+  "prefix": "/data/data/studio.ocean.app/files/usr",
+  "packageCount": 51,
+  "packages": [
+    {
+      "package": "hashid-analyzer",
+      "version": "3.1.4-1",
+      "artifact": "hashid-analyzer_3.1.4-1_aarch64.deb"
+    },
+    {
+      "package": "yara-rule-runner",
+      "version": "4.5.1-1",
+      "artifact": "yara-rule-runner_4.5.1-1_aarch64.deb"
+    },
+    {
+      "package": "binwalk-extractor",
+      "version": "2.3.4-1",
+      "artifact": "binwalk-extractor_2.3.4-1_aarch64.deb"
+    },
+    {
+      "package": "checksec-hardening",
+      "version": "2.6.0-1",
+      "artifact": "checksec-hardening_2.6.0-1_aarch64.deb"
+    },
+    {
+      "package": "ropgadget-scanner",
+      "version": "7.5-1",
+      "artifact": "ropgadget-scanner_7.5-1_aarch64.deb"
+    },
+    {
+      "package": "elfutils-readelf-ng",
+      "version": "0.191-1",
+      "artifact": "elfutils-readelf-ng_0.191-1_aarch64.deb"
+    },
+    {
+      "package": "strace-frequency-analyzer",
+      "version": "1.0.0-1",
+      "artifact": "strace-frequency-analyzer_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "ltrace-library-tracer",
+      "version": "0.7.91-1",
+      "artifact": "ltrace-library-tracer_0.7.91-1_aarch64.deb"
+    },
+    {
+      "package": "check-pie-aslr",
+      "version": "1.0.0-1",
+      "artifact": "check-pie-aslr_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "check-stack-protector",
+      "version": "1.0.0-1",
+      "artifact": "check-stack-protector_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "check-relro-bindings",
+      "version": "1.0.0-1",
+      "artifact": "check-relro-bindings_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "check-nx-stack",
+      "version": "1.0.0-1",
+      "artifact": "check-nx-stack_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "check-rpath-security",
+      "version": "1.0.0-1",
+      "artifact": "check-rpath-security_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "file-signature-audit",
+      "version": "1.0.0-1",
+      "artifact": "file-signature-audit_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "pe-header-checker",
+      "version": "1.0.0-1",
+      "artifact": "pe-header-checker_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "macho-header-checker",
+      "version": "1.0.0-1",
+      "artifact": "macho-header-checker_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "apk-manifest-parser",
+      "version": "1.0.0-1",
+      "artifact": "apk-manifest-parser_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "apk-dex-lister",
+      "version": "1.0.0-1",
+      "artifact": "apk-dex-lister_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "apk-cert-verifier",
+      "version": "1.0.0-1",
+      "artifact": "apk-cert-verifier_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "apk-align-tester",
+      "version": "1.0.0-1",
+      "artifact": "apk-align-tester_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "apk-asset-auditor",
+      "version": "1.0.0-1",
+      "artifact": "apk-asset-auditor_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "ssl-weak-ciphers",
+      "version": "1.0.0-1",
+      "artifact": "ssl-weak-ciphers_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "ssl-cert-pinning-chk",
+      "version": "1.0.0-1",
+      "artifact": "ssl-cert-pinning-chk_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "entropy-scanner",
+      "version": "1.0.0-1",
+      "artifact": "entropy-scanner_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "secret-token-scanner",
+      "version": "1.0.0-1",
+      "artifact": "secret-token-scanner_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "git-secrets-auditor",
+      "version": "1.0.0-1",
+      "artifact": "git-secrets-auditor_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "ip-reputation-checker",
+      "version": "1.0.0-1",
+      "artifact": "ip-reputation-checker_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "asn-threat-lookup",
+      "version": "1.0.0-1",
+      "artifact": "asn-threat-lookup_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "dns-zone-transfer-chk",
+      "version": "1.0.0-1",
+      "artifact": "dns-zone-transfer-chk_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "cors-misconfig-chk",
+      "version": "1.0.0-1",
+      "artifact": "cors-misconfig-chk_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "cookie-security-chk",
+      "version": "1.0.0-1",
+      "artifact": "cookie-security-chk_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "hsts-header-verifier",
+      "version": "1.0.0-1",
+      "artifact": "hsts-header-verifier_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "csp-header-analyzer",
+      "version": "1.0.0-1",
+      "artifact": "csp-header-analyzer_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "subdomain-takeover-chk",
+      "version": "1.0.0-1",
+      "artifact": "subdomain-takeover-chk_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "email-spf-verifier",
+      "version": "1.0.0-1",
+      "artifact": "email-spf-verifier_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "email-dkim-verifier",
+      "version": "1.0.0-1",
+      "artifact": "email-dkim-verifier_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "email-dmarc-verifier",
+      "version": "1.0.0-1",
+      "artifact": "email-dmarc-verifier_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "suid-sgid-auditor",
+      "version": "1.0.0-1",
+      "artifact": "suid-sgid-auditor_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "world-writable-auditor",
+      "version": "1.0.0-1",
+      "artifact": "world-writable-auditor_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "symlink-target-auditor",
+      "version": "1.0.0-1",
+      "artifact": "symlink-target-auditor_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "env-sanitizer-cli",
+      "version": "1.0.0-1",
+      "artifact": "env-sanitizer-cli_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "command-jail-runner",
+      "version": "1.0.0-1",
+      "artifact": "command-jail-runner_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "process-fd-auditor",
+      "version": "1.0.0-1",
+      "artifact": "process-fd-auditor_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "network-listening-ports",
+      "version": "1.0.0-1",
+      "artifact": "network-listening-ports_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "sha256-integrity-signer",
+      "version": "1.0.0-1",
+      "artifact": "sha256-integrity-signer_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "sha256-integrity-verify",
+      "version": "1.0.0-1",
+      "artifact": "sha256-integrity-verify_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "key-pair-generator-cli",
+      "version": "1.0.0-1",
+      "artifact": "key-pair-generator-cli_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "csr-request-builder",
+      "version": "1.0.0-1",
+      "artifact": "csr-request-builder_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "x509-cert-inspector",
+      "version": "1.0.0-1",
+      "artifact": "x509-cert-inspector_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "crl-revocation-checker",
+      "version": "1.0.0-1",
+      "artifact": "crl-revocation-checker_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "ocsp-response-checker",
+      "version": "1.0.0-1",
+      "artifact": "ocsp-response-checker_1.0.0-1_aarch64.deb"
+    }
+  ]
+}

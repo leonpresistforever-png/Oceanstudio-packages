@@ -1,0 +1,265 @@
+{
+  "schemaVersion": 1,
+  "shard": "shard-07-build-codegen",
+  "section": "devel",
+  "target": "aarch64-linux-android28",
+  "prefix": "/data/data/studio.ocean.app/files/usr",
+  "packageCount": 51,
+  "packages": [
+    {
+      "package": "ragel-state-machine",
+      "version": "7.0.4-1",
+      "artifact": "ragel-state-machine_7.0.4-1_aarch64.deb"
+    },
+    {
+      "package": "re2c-lexer",
+      "version": "3.1-1",
+      "artifact": "re2c-lexer_3.1-1_aarch64.deb"
+    },
+    {
+      "package": "byacc-berkeley",
+      "version": "20240109-1",
+      "artifact": "byacc-berkeley_20240109-1_aarch64.deb"
+    },
+    {
+      "package": "m4-macro-gnu",
+      "version": "1.4.19-1",
+      "artifact": "m4-macro-gnu_1.4.19-1_aarch64.deb"
+    },
+    {
+      "package": "flex-fast-lexer",
+      "version": "2.6.4-1",
+      "artifact": "flex-fast-lexer_2.6.4-1_aarch64.deb"
+    },
+    {
+      "package": "bison-parser-gnu",
+      "version": "3.8.2-1",
+      "artifact": "bison-parser-gnu_3.8.2-1_aarch64.deb"
+    },
+    {
+      "package": "pkgconf-lite",
+      "version": "2.2.0-1",
+      "artifact": "pkgconf-lite_2.2.0-1_aarch64.deb"
+    },
+    {
+      "package": "gengetopt-cli",
+      "version": "2.23-1",
+      "artifact": "gengetopt-cli_2.23-1_aarch64.deb"
+    },
+    {
+      "package": "ctags-universal-idx",
+      "version": "6.1.0-1",
+      "artifact": "ctags-universal-idx_6.1.0-1_aarch64.deb"
+    },
+    {
+      "package": "cscope-code-browser",
+      "version": "15.9-1",
+      "artifact": "cscope-code-browser_15.9-1_aarch64.deb"
+    },
+    {
+      "package": "global-gtags-browser",
+      "version": "6.6.11-1",
+      "artifact": "global-gtags-browser_6.6.11-1_aarch64.deb"
+    },
+    {
+      "package": "automake-helpers",
+      "version": "1.16.5-1",
+      "artifact": "automake-helpers_1.16.5-1_aarch64.deb"
+    },
+    {
+      "package": "autoconf-archive-macros",
+      "version": "2023.02.20-1",
+      "artifact": "autoconf-archive-macros_2023.02.20-1_aarch64.deb"
+    },
+    {
+      "package": "libtool-bin-helpers",
+      "version": "2.4.7-1",
+      "artifact": "libtool-bin-helpers_2.4.7-1_aarch64.deb"
+    },
+    {
+      "package": "ninja-subtools",
+      "version": "1.12.1-1",
+      "artifact": "ninja-subtools_1.12.1-1_aarch64.deb"
+    },
+    {
+      "package": "cmake-extras-modules",
+      "version": "3.30.3-1",
+      "artifact": "cmake-extras-modules_3.30.3-1_aarch64.deb"
+    },
+    {
+      "package": "meson-wrap-tools",
+      "version": "1.5.1-1",
+      "artifact": "meson-wrap-tools_1.5.1-1_aarch64.deb"
+    },
+    {
+      "package": "swig-codegen",
+      "version": "4.2.1-1",
+      "artifact": "swig-codegen_4.2.1-1_aarch64.deb"
+    },
+    {
+      "package": "gperf-hash-gen",
+      "version": "3.1-1",
+      "artifact": "gperf-hash-gen_3.1-1_aarch64.deb"
+    },
+    {
+      "package": "uncrustify-formatter",
+      "version": "0.78.1-1",
+      "artifact": "uncrustify-formatter_0.78.1-1_aarch64.deb"
+    },
+    {
+      "package": "indent-gnu",
+      "version": "2.2.13-1",
+      "artifact": "indent-gnu_2.2.13-1_aarch64.deb"
+    },
+    {
+      "package": "astyle-formatter",
+      "version": "3.4.10-1",
+      "artifact": "astyle-formatter_3.4.10-1_aarch64.deb"
+    },
+    {
+      "package": "shfmt-shell-formatter",
+      "version": "3.8.0-1",
+      "artifact": "shfmt-shell-formatter_3.8.0-1_aarch64.deb"
+    },
+    {
+      "package": "shellcheck-runner",
+      "version": "0.10.0-1",
+      "artifact": "shellcheck-runner_0.10.0-1_aarch64.deb"
+    },
+    {
+      "package": "cloc-counter",
+      "version": "2.02-1",
+      "artifact": "cloc-counter_2.02-1_aarch64.deb"
+    },
+    {
+      "package": "tokei-counter",
+      "version": "12.1.2-1",
+      "artifact": "tokei-counter_12.1.2-1_aarch64.deb"
+    },
+    {
+      "package": "scc-code-counter",
+      "version": "3.3.4-1",
+      "artifact": "scc-code-counter_3.3.4-1_aarch64.deb"
+    },
+    {
+      "package": "makefile-grapher",
+      "version": "1.0.0-1",
+      "artifact": "makefile-grapher_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "cmake-target-lister",
+      "version": "1.0.0-1",
+      "artifact": "cmake-target-lister_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "c-header-guard-gen",
+      "version": "1.0.0-1",
+      "artifact": "c-header-guard-gen_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "cpp-include-cleaner",
+      "version": "1.0.0-1",
+      "artifact": "cpp-include-cleaner_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "symbol-demangler",
+      "version": "1.0.0-1",
+      "artifact": "symbol-demangler_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "elf-section-stripper",
+      "version": "1.0.0-1",
+      "artifact": "elf-section-stripper_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "shared-lib-checker",
+      "version": "1.0.0-1",
+      "artifact": "shared-lib-checker_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "rpath-inspector",
+      "version": "1.0.0-1",
+      "artifact": "rpath-inspector_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "license-header-checker",
+      "version": "1.0.0-1",
+      "artifact": "license-header-checker_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "git-changelog-gen",
+      "version": "1.0.0-1",
+      "artifact": "git-changelog-gen_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "semver-tool",
+      "version": "1.0.0-1",
+      "artifact": "semver-tool_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "git-ignore-builder",
+      "version": "1.0.0-1",
+      "artifact": "git-ignore-builder_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "patch-inliner",
+      "version": "1.0.0-1",
+      "artifact": "patch-inliner_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "source-tarball-gen",
+      "version": "1.0.0-1",
+      "artifact": "source-tarball-gen_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "c-amalgamation-tool",
+      "version": "1.0.0-1",
+      "artifact": "c-amalgamation-tool_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "bindgen-helper",
+      "version": "1.0.0-1",
+      "artifact": "bindgen-helper_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "protobuf-validator",
+      "version": "1.0.0-1",
+      "artifact": "protobuf-validator_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "flatbuffers-validator",
+      "version": "1.0.0-1",
+      "artifact": "flatbuffers-validator_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "capnproto-validator",
+      "version": "1.0.0-1",
+      "artifact": "capnproto-validator_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "bison-graph-viewer",
+      "version": "1.0.0-1",
+      "artifact": "bison-graph-viewer_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "flex-nfa-analyzer",
+      "version": "1.0.0-1",
+      "artifact": "flex-nfa-analyzer_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "header-amalgamator",
+      "version": "1.0.0-1",
+      "artifact": "header-amalgamator_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "build-time-tracker",
+      "version": "1.0.0-1",
+      "artifact": "build-time-tracker_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "ninja-log-analyzer",
+      "version": "1.0.0-1",
+      "artifact": "ninja-log-analyzer_1.0.0-1_aarch64.deb"
+    }
+  ]
+}

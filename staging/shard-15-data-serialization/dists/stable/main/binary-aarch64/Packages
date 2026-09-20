@@ -1,0 +1,866 @@
+Package: jansson-json-tools
+Version: 2.14-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: database
+Priority: optional
+Filename: pool/main/jansson-json-tools_2.14-1_aarch64.deb
+Size: 1976
+MD5sum: 9c27d0c975baa814f5880f186ce7243e
+SHA1: a3dbb944cc7ee5adfff965932b06489b113de06e
+SHA256: 93a990755f853e126c1e81f65b6f3c4a4f43f1943984c744f2ef5360c12ceeb9
+Description: C JSON library encoding and validation CLI
+ Data serialization and database formatting utility providing C JSON library encoding and validation CLI for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: cjson-validator
+Version: 1.7.18-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: database
+Priority: optional
+Filename: pool/main/cjson-validator_1.7.18-1_aarch64.deb
+Size: 1976
+MD5sum: 6e339cb59d696eaf0d0b5402000d6b3a
+SHA1: aa7f7d26dfaf018a543e6e03e6766d1948e519ac
+SHA256: 47f98bf28865a46ba9fda5a3086cab1a0ea3e89b65f1ace33fa359117fb9de91
+Description: ultralightweight JSON parser and syntax validator
+ Data serialization and database formatting utility providing ultralightweight JSON parser and syntax validator for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: libyaml-parser-cli
+Version: 0.2.5-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: database
+Priority: optional
+Filename: pool/main/libyaml-parser-cli_0.2.5-1_aarch64.deb
+Size: 1976
+MD5sum: 08820bfabfefc7d11727c6fd74833bcd
+SHA1: 36c9ced58ed50a8ba5c0fd49fd0f17ad46fcd315
+SHA256: 206e4f10a6ec35c1aa0c2260b8772262ba93e0c17e266d0475b981d599f6e918
+Description: YAML 1.1 parser and emitter inspection tools
+ Data serialization and database formatting utility providing YAML 1.1 parser and emitter inspection tools for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: inih-config-parser
+Version: 58-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: database
+Priority: optional
+Filename: pool/main/inih-config-parser_58-1_aarch64.deb
+Size: 1984
+MD5sum: 45f3a001bfa67090009e0dbc7ab787a8
+SHA1: 7d7d5395f4d79931b0ac18923934fc8be18a68e8
+SHA256: 528147878c3c54ac9d25b71b52ceedbbf19694ccb64e0b3f757e74515b1c46a7
+Description: simple INI configuration file reader and validator
+ Data serialization and database formatting utility providing simple INI configuration file reader and validator for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: csvkit-cleaner
+Version: 1.5.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: database
+Priority: optional
+Filename: pool/main/csvkit-cleaner_1.5.0-1_aarch64.deb
+Size: 1964
+MD5sum: aecc0abf7e55bd5ab4f2685335941736
+SHA1: 80a7753e3d91536f3abdd8d7164743b06fbf5d86
+SHA256: bf419614d26c247a91eecb4f492bdf0dc75bd98cd1e2f9efa0cb3edc789575c9
+Description: clean and standardize malformed CSV data files
+ Data serialization and database formatting utility providing clean and standardize malformed CSV data files for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: tsv-utils-filter
+Version: 2.2.3-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: database
+Priority: optional
+Filename: pool/main/tsv-utils-filter_2.2.3-1_aarch64.deb
+Size: 1980
+MD5sum: ec2c37b4f2b8114c163943fa8ea23a19
+SHA1: 01b4e34bd25d261a69191e4df59022f1502c08b0
+SHA256: 8f29d6bfff28cde415b53d1a96203208eace44e5e554d3c03af85e3420818bd8
+Description: fast command line tools for tab-separated data
+ Data serialization and database formatting utility providing fast command line tools for tab-separated data for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: sqlite3-schema-diff
+Version: 3.46.1-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: database
+Priority: optional
+Filename: pool/main/sqlite3-schema-diff_3.46.1-1_aarch64.deb
+Size: 1972
+MD5sum: 9433954d456a386ecc9cda3b3e416e03
+SHA1: 53f939074234217a3a822f333a0cd22f3cb6e73b
+SHA256: ad44b60ce8d1247d8975dcd652d1e23304276aa8a29c1ff9e78fd9c0c83b8e4d
+Description: compare database schemas of two SQLite databases
+ Data serialization and database formatting utility providing compare database schemas of two SQLite databases for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: sqlite3-index-analyzer
+Version: 3.46.1-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: database
+Priority: optional
+Filename: pool/main/sqlite3-index-analyzer_3.46.1-1_aarch64.deb
+Size: 1988
+MD5sum: 94ce81aba063b9d144b48687d5b91012
+SHA1: be39df807c6765c0f2984c7a5013f5e4c8cab8b8
+SHA256: 22046501c949e5082d55e39d0d17628b9a0de6626de7805f5d41fca43bbbb3d5
+Description: analyze index coverage and query plan performance
+ Data serialization and database formatting utility providing analyze index coverage and query plan performance for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: units-converter-gnu
+Version: 2.23-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: database
+Priority: optional
+Filename: pool/main/units-converter-gnu_2.23-1_aarch64.deb
+Size: 1972
+MD5sum: d12ee60d7ce07c16555b0575825f5fc1
+SHA1: 31b00002a7bfd39455a3071e57fae8cc1b7eaa7d
+SHA256: ff98eb370eb0e74f7e4b6ac1ce3be842066fb4e3983f12a3a2bcc8aab097c527
+Description: GNU program for units of measurement conversion
+ Data serialization and database formatting utility providing GNU program for units of measurement conversion for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: bc-calculator-gnu
+Version: 1.07.1-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: database
+Priority: optional
+Filename: pool/main/bc-calculator-gnu_1.07.1-1_aarch64.deb
+Size: 1968
+MD5sum: 43d350883bc1ff77f1ea8e7e3881fb99
+SHA1: c43527b94b2e48392d5e4871b34899d9a3dc12a1
+SHA256: cfe0953e4a4485269196c9f650410cf40d607c3d3cb1e7dc11f7efab862c7c95
+Description: GNU arbitrary precision calculator language
+ Data serialization and database formatting utility providing GNU arbitrary precision calculator language for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: dc-reverse-polish
+Version: 1.07.1-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: database
+Priority: optional
+Filename: pool/main/dc-reverse-polish_1.07.1-1_aarch64.deb
+Size: 1972
+MD5sum: 4f500319839ddf87c71b74fcf6ec9bfe
+SHA1: 0eab58b74014c7e19f1c4d7a330481518e57970a
+SHA256: 9d33f4b8a3aa98ca0bb180767273d5d384f5e39d4157152694810f46944933ce
+Description: GNU reverse-polish arbitrary precision calculator
+ Data serialization and database formatting utility providing GNU reverse-polish arbitrary precision calculator for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: calc-precision-cli
+Version: 2.15.1.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: database
+Priority: optional
+Filename: pool/main/calc-precision-cli_2.15.1.0-1_aarch64.deb
+Size: 1980
+MD5sum: 5cca8fc457d02e207ae2397f028e61ab
+SHA1: f26c6f51c125817d7c6263e67957b92ccbc9b7cc
+SHA256: b9e37b250572bb00805fcbfc4f5c8d5a7d3f37bfbbb3943f968fe1f2d759c034
+Description: arbitrary precision C-like calculator utility
+ Data serialization and database formatting utility providing arbitrary precision C-like calculator utility for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: xmlstarlet-processor
+Version: 1.6.1-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: database
+Priority: optional
+Filename: pool/main/xmlstarlet-processor_1.6.1-1_aarch64.deb
+Size: 1988
+MD5sum: 98ea0f4bb5814eb41c6897ac99c2a955
+SHA1: e2317f2dea58dc728e23eba012637d445391f3ca
+SHA256: 65ad9035c4acaa44b8f08baefbe9d8511fc685f2248657ea2769c3f2057cad37
+Description: command line XML toolkit for query and transform
+ Data serialization and database formatting utility providing command line XML toolkit for query and transform for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: html2text-formatter
+Version: 1.3.2a-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: database
+Priority: optional
+Filename: pool/main/html2text-formatter_1.3.2a-1_aarch64.deb
+Size: 1984
+MD5sum: c1cf803039e3cdba2bc1fd03e3496d6d
+SHA1: f6e028e66bcc84868fc11c0afb5bf49eaa87b3e5
+SHA256: edc430f89b298d5297b10706c904216fdb2ec114ad86aa05a285c9de5b6e2d9e
+Description: advanced HTML to formatted plain text converter
+ Data serialization and database formatting utility providing advanced HTML to formatted plain text converter for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: yq-yaml-processor
+Version: 4.44.3-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: database
+Priority: optional
+Filename: pool/main/yq-yaml-processor_4.44.3-1_aarch64.deb
+Size: 1976
+MD5sum: de2eacc4b672a8f46dd46eb6af2897e4
+SHA1: b921981ac7f28dab584201d25b0c2ff39f99d972
+SHA256: 1c412759ba748d8fcaf648f1024613e6cb1cfc0eadea4a2d4dafaf1d57f109ac
+Description: portable command-line YAML/JSON/XML processor
+ Data serialization and database formatting utility providing portable command-line YAML/JSON/XML processor for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: toml-cli-parser
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: database
+Priority: optional
+Filename: pool/main/toml-cli-parser_1.0.0-1_aarch64.deb
+Size: 1972
+MD5sum: 10e6998115b3890ad9714d2b3f1d8c75
+SHA1: 7993ce12c3b0d3d0206c6dd99eb97a3716a33c2f
+SHA256: 7947f586715c649339832989bdce50f177a0de6b8a53351148665f20be412b14
+Description: parse, query and validate TOML configuration files
+ Data serialization and database formatting utility providing parse, query and validate TOML configuration files for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: bson-json-converter
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: database
+Priority: optional
+Filename: pool/main/bson-json-converter_1.0.0-1_aarch64.deb
+Size: 1976
+MD5sum: 6570d0227f0f98095398ef0b8fdc0b95
+SHA1: c0d89b80eff848bb854c4c660d6418b205cee6fb
+SHA256: fc5cebf38b02106402d29624f35122ab0e03a8e7fc1a4636abd50132f0a8739c
+Description: convert between MongoDB BSON and JSON format
+ Data serialization and database formatting utility providing convert between MongoDB BSON and JSON format for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: plist-xml-converter
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: database
+Priority: optional
+Filename: pool/main/plist-xml-converter_1.0.0-1_aarch64.deb
+Size: 2000
+MD5sum: 786c0f818e451afb02e9a699bae1a398
+SHA1: 2f1752f9c32eca1cc258d7fe18d0a50620c0e0ab
+SHA256: c5a31deae541654d2de15621b078edf7162ff60bb18dde7a70b73b77218c2baa
+Description: convert Apple Property List files between binary and XML
+ Data serialization and database formatting utility providing convert Apple Property List files between binary and XML for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: json5-validator
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: database
+Priority: optional
+Filename: pool/main/json5-validator_1.0.0-1_aarch64.deb
+Size: 1956
+MD5sum: e0d85aa9d9f32a3f5b704d909b14dc1c
+SHA1: a8bed100c5036e03efe599d673a60e46cb55b1f4
+SHA256: 98bb4d8fd18715dfc877b13e6fe888a690440d52803b0ff47caf31cfdf27d281
+Description: validate and parse JSON5 extensible format
+ Data serialization and database formatting utility providing validate and parse JSON5 extensible format for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: ndjson-to-json
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: database
+Priority: optional
+Filename: pool/main/ndjson-to-json_1.0.0-1_aarch64.deb
+Size: 1976
+MD5sum: 6a1b2ea93946c525d10b1b693cc66898
+SHA1: c172c7ec450686d43baa1a9b8f1bab31b6eec100
+SHA256: 84f7cf74a437489a79e5f0143ef6137dc8b5d783071117661333d7e640d6a501
+Description: convert newline-delimited JSON stream into JSON array
+ Data serialization and database formatting utility providing convert newline-delimited JSON stream into JSON array for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: json-to-ndjson
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: database
+Priority: optional
+Filename: pool/main/json-to-ndjson_1.0.0-1_aarch64.deb
+Size: 1972
+MD5sum: 6614f98825c78f420c4b875d032504e5
+SHA1: f569f4a1833e8b48c392f604b6a624954abd208b
+SHA256: ef23eaa010b15f525434e999422370a423d80b43e0d841e0c7612ae2a240da3d
+Description: convert JSON array into newline-delimited JSON stream
+ Data serialization and database formatting utility providing convert JSON array into newline-delimited JSON stream for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: csv-to-sqlite
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: database
+Priority: optional
+Filename: pool/main/csv-to-sqlite_1.0.0-1_aarch64.deb
+Size: 1976
+MD5sum: db353bd5a73b3472e1501eaaa111539f
+SHA1: fff09ef48d254f81b0663f41d62f144db58f153f
+SHA256: a4da1a009be3f4323ed125b686c09214f2df77855ff127592e3314515cda6ba1
+Description: import CSV and TSV tables directly into SQLite database
+ Data serialization and database formatting utility providing import CSV and TSV tables directly into SQLite database for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: sqlite-to-csv
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: database
+Priority: optional
+Filename: pool/main/sqlite-to-csv_1.0.0-1_aarch64.deb
+Size: 1976
+MD5sum: fff5578280b97f0fb78e35335ce4a7e4
+SHA1: 27706f0c828fd9f4f3f4b73cfe4fe54396b06fef
+SHA256: b1a81877eee8157bc8131bd5a37422790487e9df71313f5c5de9d4b2812cfea4
+Description: export SQLite query results directly to CSV format
+ Data serialization and database formatting utility providing export SQLite query results directly to CSV format for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: sqlite-to-json
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: database
+Priority: optional
+Filename: pool/main/sqlite-to-json_1.0.0-1_aarch64.deb
+Size: 1988
+MD5sum: eb41eed3dcde3fd7857db69413ab2c48
+SHA1: 7b862cd51550eedffdbb7ee638f8906d9a40df86
+SHA256: 4ffdee1e96ba4c0706a38b822cd673ad1bfffa8b8e4e5d54bfe6bc7a128723b4
+Description: export SQLite query results as structured JSON objects
+ Data serialization and database formatting utility providing export SQLite query results as structured JSON objects for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: json-schema-validator
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: database
+Priority: optional
+Filename: pool/main/json-schema-validator_1.0.0-1_aarch64.deb
+Size: 2000
+MD5sum: 2b12056cd264ef4251fb61e989d6de0a
+SHA1: 5e9021342304babefe297e6ceda84f388867e11c
+SHA256: f8dd49b63ec7fcbf46ae9e19f7a064e16ee22bce2e562ba7e022553026088d74
+Description: validate JSON instances against JSON Schema Draft 7/2020-12
+ Data serialization and database formatting utility providing validate JSON instances against JSON Schema Draft 7/2020-12 for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: yaml-schema-validator
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: database
+Priority: optional
+Filename: pool/main/yaml-schema-validator_1.0.0-1_aarch64.deb
+Size: 1988
+MD5sum: dd6edfb6d8bc92bb5278479be105c010
+SHA1: 256c75f08ba394878fca9434e6008c4dba51b9a0
+SHA256: b2dbe8627f613117e02aae44907f6a36ab6ed736b12581e340b18c329048aa4e
+Description: validate YAML documents against defined schemas
+ Data serialization and database formatting utility providing validate YAML documents against defined schemas for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: csv-column-picker
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: database
+Priority: optional
+Filename: pool/main/csv-column-picker_1.0.0-1_aarch64.deb
+Size: 1976
+MD5sum: 5f05ebaf75245cde3869918d329ec573
+SHA1: 4bc8c7f265df2a035e780caf6b2317c74df69962
+SHA256: bc43e3645d641b66b32d5e02cb42bfed4cdafec866559075766dffc247c2d430
+Description: fast column selection and reordering filter for CSV
+ Data serialization and database formatting utility providing fast column selection and reordering filter for CSV for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: csv-row-filter
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: database
+Priority: optional
+Filename: pool/main/csv-row-filter_1.0.0-1_aarch64.deb
+Size: 1980
+MD5sum: cdb4b2916dccacde6b7decb309595ca8
+SHA1: 683efc04cbae441911c8335ce212a3ae15d35cab
+SHA256: 7cd56f5dae9524029b069082148fb0c2e4fbffdc2e1cb191dbef2535c3707d80
+Description: filter CSV rows based on numeric and string predicates
+ Data serialization and database formatting utility providing filter CSV rows based on numeric and string predicates for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: csv-stat-analyzer
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: database
+Priority: optional
+Filename: pool/main/csv-stat-analyzer_1.0.0-1_aarch64.deb
+Size: 1988
+MD5sum: 4e68dc196ed547715a8fefda822e4276
+SHA1: 04cb8c29a6c68ca705f6d4084a3723efefd51c70
+SHA256: f20fc8abef6821eeb56a4ba52ac31e7be69000a4664463da283f49ded9103b36
+Description: compute min, max, mean and quantiles for CSV columns
+ Data serialization and database formatting utility providing compute min, max, mean and quantiles for CSV columns for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: tsv-sorter-fast
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: database
+Priority: optional
+Filename: pool/main/tsv-sorter-fast_1.0.0-1_aarch64.deb
+Size: 1972
+MD5sum: b2b3b98651a6e3d9ac49d921f114b27e
+SHA1: 84022d029ff55d5bb3faf56cb8a0480081bc4ae6
+SHA256: fc4c10ee7b3f5ee8e4d7b53c9c94c8a47488c7be01648efd312d10b3016b818f
+Description: sort tab-separated data files by column indices
+ Data serialization and database formatting utility providing sort tab-separated data files by column indices for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: tsv-joiner-tool
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: database
+Priority: optional
+Filename: pool/main/tsv-joiner-tool_1.0.0-1_aarch64.deb
+Size: 1972
+MD5sum: 21f33b89ac7a30cc123a9c36725d4ef1
+SHA1: 1d7e8ae1b5715872a434592fd18565411ca750a1
+SHA256: a4f5f7d66e08fdd82f0ba99099efa20cbb29910dbd999cef0b3caa81ddb990f9
+Description: relational inner and outer joins on TSV tables
+ Data serialization and database formatting utility providing relational inner and outer joins on TSV tables for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: hex-dump-formatter
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: database
+Priority: optional
+Filename: pool/main/hex-dump-formatter_1.0.0-1_aarch64.deb
+Size: 1984
+MD5sum: b638dd04f16627be39370cf626d971be
+SHA1: b2893716e55fd08bf51bfb1d3d8834e14476bc45
+SHA256: c79c71a1216cddd943d3f6e2602ea17e2fd2bcd146195a1ca5b7a0bfa145db42
+Description: format binary files into canonical hex dump representation
+ Data serialization and database formatting utility providing format binary files into canonical hex dump representation for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: base32-encoder-tool
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: database
+Priority: optional
+Filename: pool/main/base32-encoder-tool_1.0.0-1_aarch64.deb
+Size: 1968
+MD5sum: 5e79e7b1fb0828b0d83ed18c0edda4d8
+SHA1: 71a3b1f9be76db7f36e73bd685c35092a97c8bc5
+SHA256: 6d7b315c68bbc5eb359820f5f60fb78e7c108d9e1e6d600671770f5980ebedf3
+Description: RFC 4648 Base32 encoding and decoding CLI
+ Data serialization and database formatting utility providing RFC 4648 Base32 encoding and decoding CLI for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: base58-encoder-tool
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: database
+Priority: optional
+Filename: pool/main/base58-encoder-tool_1.0.0-1_aarch64.deb
+Size: 1968
+MD5sum: 9066ccdd298aea855cf97450305d8e1c
+SHA1: 7b66b42c896cbb130a3d0be362e0923201e94783
+SHA256: 778800af839181e68aa37ff080f8ad3c96e44586406620aa29173015d1d779db
+Description: Bitcoin/IPFS Base58 encoding and decoding CLI
+ Data serialization and database formatting utility providing Bitcoin/IPFS Base58 encoding and decoding CLI for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: base62-encoder-tool
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: database
+Priority: optional
+Filename: pool/main/base62-encoder-tool_1.0.0-1_aarch64.deb
+Size: 1968
+MD5sum: ee728bab6033a98aaadfac29f7c7367b
+SHA1: 472f252dabcb69172bbd5280bdd1549ba9e5bf0e
+SHA256: 71c4aa7c3a10c87e0962969121fc93911c4609d2e37ac7b295b4bae9ae99bbec
+Description: Base62 alphanumeric encoding and decoding CLI
+ Data serialization and database formatting utility providing Base62 alphanumeric encoding and decoding CLI for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: base85-encoder-tool
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: database
+Priority: optional
+Filename: pool/main/base85-encoder-tool_1.0.0-1_aarch64.deb
+Size: 1980
+MD5sum: 4fa78215328717cfec739aecd410c6e5
+SHA1: 8a7d899f92f2c210a03524757a73370c14a5f6fa
+SHA256: a814b532ccb95e8619b9077ba9c03dc6e16af3eee8fc1a60bb1f7e2b48f2cb47
+Description: Adobe/Ascii85 and RFC 1924 Base85 encoding tool
+ Data serialization and database formatting utility providing Adobe/Ascii85 and RFC 1924 Base85 encoding tool for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: hex-to-binary-tool
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: database
+Priority: optional
+Filename: pool/main/hex-to-binary-tool_1.0.0-1_aarch64.deb
+Size: 1988
+MD5sum: e1fabef54f67e265c3f3ae7b13e8ab5a
+SHA1: 5bcbdbc697d22daf9b1c53cbd780c4012eff2241
+SHA256: 65687f7fc0308673460adebbae0264377078b60abd61822d896b647e2d341386
+Description: convert raw hex string input into binary bytes
+ Data serialization and database formatting utility providing convert raw hex string input into binary bytes for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: binary-to-hex-tool
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: database
+Priority: optional
+Filename: pool/main/binary-to-hex-tool_1.0.0-1_aarch64.deb
+Size: 1984
+MD5sum: 2c86810a4944330b73dc91648fc6ef5c
+SHA1: 513b024a4d36ce61208c6a61bb51a9d95c64c5fa
+SHA256: cbe6589051ffb50507fa6e1ca3ca062470bc17b212cfd2480d97850a0e431985
+Description: convert binary byte stream into formatted hex string
+ Data serialization and database formatting utility providing convert binary byte stream into formatted hex string for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: endian-swapper
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: database
+Priority: optional
+Filename: pool/main/endian-swapper_1.0.0-1_aarch64.deb
+Size: 1968
+MD5sum: 622c6c0f0e43a8be3a25c96e62744797
+SHA1: b736fa510d14a10da73404b7fdceb64584ef5fc9
+SHA256: 8117e33dcf448afa2353042b70975af10205e3bfe5aa9ce78af8460d00a8849c
+Description: swap endianness of 16-bit, 32-bit and 64-bit words
+ Data serialization and database formatting utility providing swap endianness of 16-bit, 32-bit and 64-bit words for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: bit-manipulator-cli
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: database
+Priority: optional
+Filename: pool/main/bit-manipulator-cli_1.0.0-1_aarch64.deb
+Size: 2008
+MD5sum: d182a78f4f0b05db490d144bdf7b5560
+SHA1: 695d1b8b97d4b52333f033f63e409c582ef1c5ea
+SHA256: 207b2a3ff2b6656bd9e6c063a972e080c75d99b41066e9b431293f695c911ffe
+Description: perform bitwise AND, OR, XOR and NOT operations on streams
+ Data serialization and database formatting utility providing perform bitwise AND, OR, XOR and NOT operations on streams for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: math-evaluator-cli
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: database
+Priority: optional
+Filename: pool/main/math-evaluator-cli_1.0.0-1_aarch64.deb
+Size: 1984
+MD5sum: 7167b1fb37e0d91ac8d72dcd78e3d8e8
+SHA1: 66c48e526b7a53aa399de098345c0365ba28cded
+SHA256: eab47fb080a27615a3c0c8bb14f3bd8f77bf873da6bba1b9bbb1c495e0f272ed
+Description: evaluate complex mathematical expressions from stdin
+ Data serialization and database formatting utility providing evaluate complex mathematical expressions from stdin for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: prime-factorizer
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: database
+Priority: optional
+Filename: pool/main/prime-factorizer_1.0.0-1_aarch64.deb
+Size: 1960
+MD5sum: 70d05d0fa7712227a111e2344c6e42e7
+SHA1: 76df62cb516b3671e37a82dc502ad14915f3b50a
+SHA256: fd951ce97f91d1d9f5ca6f2567ee618e1ea38b865e9b23b2598016ce4268e4d0
+Description: compute prime factorization of arbitrary integers
+ Data serialization and database formatting utility providing compute prime factorization of arbitrary integers for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: gcd-lcm-calculator
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: database
+Priority: optional
+Filename: pool/main/gcd-lcm-calculator_1.0.0-1_aarch64.deb
+Size: 2000
+MD5sum: dec083280942d742e71473fa77b6ac0b
+SHA1: 7848d51a02d431b1dd51dc54b76d04608adda2b5
+SHA256: 9cea75af95f1ad21d9f606770a0abd7b142d44cb4ba72d62749e1f96b0175325
+Description: compute Greatest Common Divisor and Least Common Multiple
+ Data serialization and database formatting utility providing compute Greatest Common Divisor and Least Common Multiple for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: matrix-multiplier-cli
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: database
+Priority: optional
+Filename: pool/main/matrix-multiplier-cli_1.0.0-1_aarch64.deb
+Size: 1996
+MD5sum: e298281d8f4ef0f6203bd85c58e19f44
+SHA1: ed049637a343e53572956fbf8a165b6c9e706c03
+SHA256: 375c4cb8048751d0e17dee76c8fc0fc4258e61954a19b10d11453fcf1d878b26
+Description: multiply and invert small numeric matrices from stdin
+ Data serialization and database formatting utility providing multiply and invert small numeric matrices from stdin for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: statistics-cli-tool
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: database
+Priority: optional
+Filename: pool/main/statistics-cli-tool_1.0.0-1_aarch64.deb
+Size: 2004
+MD5sum: a7be7867556011fee9bf7c16a64319ad
+SHA1: 33eb626a2877c98d5daee3ed3e896dcbf13be5c3
+SHA256: 014a61f8778ae691854fa16d0f2aebd344bbe65646d23d227fac5838fd8c0dde
+Description: calculate standard deviation, variance and median of numbers
+ Data serialization and database formatting utility providing calculate standard deviation, variance and median of numbers for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: percentile-calc
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: database
+Priority: optional
+Filename: pool/main/percentile-calc_1.0.0-1_aarch64.deb
+Size: 1968
+MD5sum: 6fb256e80e7efc0875dea9e0f48721de
+SHA1: f9263ba7c07f0d13ac30ec73f2f7ae3faaf087de
+SHA256: 7111c29fcdc291bb945b78118e35f8104c6bab318b9e1ccf6cc658bb54de6227
+Description: calculate p50, p90, p99 percentiles from stream of values
+ Data serialization and database formatting utility providing calculate p50, p90, p99 percentiles from stream of values for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: histogram-plotter-cli
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: database
+Priority: optional
+Filename: pool/main/histogram-plotter-cli_1.0.0-1_aarch64.deb
+Size: 2000
+MD5sum: a882f4b845528dac87e8db93d05edfa0
+SHA1: f07e260515a985e0c63499418d6d3b0879502276
+SHA256: 144ca059bdc2e360d3686e3ce3415e7b074dc94f87c379caf05fd210be6d0794
+Description: generate ASCII histogram plots in terminal for numeric streams
+ Data serialization and database formatting utility providing generate ASCII histogram plots in terminal for numeric streams for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: sparkline-generator
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: database
+Priority: optional
+Filename: pool/main/sparkline-generator_1.0.0-1_aarch64.deb
+Size: 1980
+MD5sum: b6f1fa80391ebd75e7c884f970d0ed2d
+SHA1: 26070d1374a4c9f5ea54204366e8c26ce91a3cee
+SHA256: 30e8ab378884596ba11fb452e7e2ce9a28e93a4a2f38664fd0eaac38851e5b28
+Description: generate unicode sparkline graphs for terminal logs
+ Data serialization and database formatting utility providing generate unicode sparkline graphs for terminal logs for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: tsv-unique-counter
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: database
+Priority: optional
+Filename: pool/main/tsv-unique-counter_1.0.0-1_aarch64.deb
+Size: 1992
+MD5sum: c73e81c98e6301e88e278191290ca313
+SHA1: 67181b7f3b6030061244af9693f0d76b75ecd46e
+SHA256: 587f0b3e0a856262f063e65e3e1b6641d45501fd56c3744dc4108980b570fbd3
+Description: count unique values per column in tab-separated data
+ Data serialization and database formatting utility providing count unique values per column in tab-separated data for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: sqlite-vacuum-tool
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: database
+Priority: optional
+Filename: pool/main/sqlite-vacuum-tool_1.0.0-1_aarch64.deb
+Size: 1984
+MD5sum: 67ec9dc7971c158d47caa235d6d9035e
+SHA1: 472f35b263f255d9fe41aacbe1aec387dc6f3293
+SHA256: 6c39207aa7d93af69d5faaed998d312368329323529c74af2b306e525feff6b3
+Description: vacuum, optimize and defragment SQLite database files
+ Data serialization and database formatting utility providing vacuum, optimize and defragment SQLite database files for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: sqlite-wal-checkpoint
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: database
+Priority: optional
+Filename: pool/main/sqlite-wal-checkpoint_1.0.0-1_aarch64.deb
+Size: 1988
+MD5sum: 092d7e80c983b5a42be42734fe1b103c
+SHA1: fd32ee78a91505d92ab634ec930f08d57d1ab39a
+SHA256: 5a57c24e89243107774452a72530f2b36a8f360328ad12efab38a1ad52d933b9
+Description: force checkpoint and truncate WAL logs in SQLite database
+ Data serialization and database formatting utility providing force checkpoint and truncate WAL logs in SQLite database for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.

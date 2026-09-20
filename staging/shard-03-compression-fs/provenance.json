@@ -1,0 +1,265 @@
+{
+  "schemaVersion": 1,
+  "shard": "shard-03-compression-fs",
+  "section": "utils",
+  "target": "aarch64-linux-android28",
+  "prefix": "/data/data/studio.ocean.app/files/usr",
+  "packageCount": 51,
+  "packages": [
+    {
+      "package": "zopfli-png",
+      "version": "1.0.3-1",
+      "artifact": "zopfli-png_1.0.3-1_aarch64.deb"
+    },
+    {
+      "package": "zopfli-zlib",
+      "version": "1.0.3-1",
+      "artifact": "zopfli-zlib_1.0.3-1_aarch64.deb"
+    },
+    {
+      "package": "lzip-decompressor",
+      "version": "1.24-1",
+      "artifact": "lzip-decompressor_1.24-1_aarch64.deb"
+    },
+    {
+      "package": "lzop-fast",
+      "version": "1.04-1",
+      "artifact": "lzop-fast_1.04-1_aarch64.deb"
+    },
+    {
+      "package": "rzip-large",
+      "version": "2.1-1",
+      "artifact": "rzip-large_2.1-1_aarch64.deb"
+    },
+    {
+      "package": "zbackup-dedup",
+      "version": "1.5-1",
+      "artifact": "zbackup-dedup_1.5-1_aarch64.deb"
+    },
+    {
+      "package": "squashfs-tools-ng",
+      "version": "1.3.1-1",
+      "artifact": "squashfs-tools-ng_1.3.1-1_aarch64.deb"
+    },
+    {
+      "package": "sparse-img-tools",
+      "version": "1.0.0-1",
+      "artifact": "sparse-img-tools_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "cpio-portable",
+      "version": "2.15-1",
+      "artifact": "cpio-portable_2.15-1_aarch64.deb"
+    },
+    {
+      "package": "sharutils-unshar",
+      "version": "4.15.2-1",
+      "artifact": "sharutils-unshar_4.15.2-1_aarch64.deb"
+    },
+    {
+      "package": "par2cmdline-lite",
+      "version": "0.8.1-1",
+      "artifact": "par2cmdline-lite_0.8.1-1_aarch64.deb"
+    },
+    {
+      "package": "bzip3-fast",
+      "version": "1.4.0-1",
+      "artifact": "bzip3-fast_1.4.0-1_aarch64.deb"
+    },
+    {
+      "package": "snappy-tools-cli",
+      "version": "1.2.1-1",
+      "artifact": "snappy-tools-cli_1.2.1-1_aarch64.deb"
+    },
+    {
+      "package": "brotli-tools-cli",
+      "version": "1.1.0-1",
+      "artifact": "brotli-tools-cli_1.1.0-1_aarch64.deb"
+    },
+    {
+      "package": "lz4-extreme",
+      "version": "1.10.0-1",
+      "artifact": "lz4-extreme_1.10.0-1_aarch64.deb"
+    },
+    {
+      "package": "zip-repair-tool",
+      "version": "1.0.0-1",
+      "artifact": "zip-repair-tool_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "cabextract-lite",
+      "version": "1.11-1",
+      "artifact": "cabextract-lite_1.11-1_aarch64.deb"
+    },
+    {
+      "package": "undmg-tools",
+      "version": "1.0.0-1",
+      "artifact": "undmg-tools_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "genisoimage-lite",
+      "version": "1.1.11-1",
+      "artifact": "genisoimage-lite_1.1.11-1_aarch64.deb"
+    },
+    {
+      "package": "isoinfo-tools",
+      "version": "1.1.11-1",
+      "artifact": "isoinfo-tools_1.1.11-1_aarch64.deb"
+    },
+    {
+      "package": "tar-indexer",
+      "version": "1.0.0-1",
+      "artifact": "tar-indexer_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "tar-diff",
+      "version": "1.0.0-1",
+      "artifact": "tar-diff_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "gz-indexer",
+      "version": "1.0.0-1",
+      "artifact": "gz-indexer_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "archive-inspector",
+      "version": "1.0.0-1",
+      "artifact": "archive-inspector_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "hash-verifier",
+      "version": "1.0.0-1",
+      "artifact": "hash-verifier_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "split-merger",
+      "version": "1.0.0-1",
+      "artifact": "split-merger_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "chunk-deduplicator",
+      "version": "1.0.0-1",
+      "artifact": "chunk-deduplicator_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "crc32-fast",
+      "version": "1.0.0-1",
+      "artifact": "crc32-fast_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "adler32-tool",
+      "version": "1.0.0-1",
+      "artifact": "adler32-tool_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "xxhash-cli",
+      "version": "0.8.3-1",
+      "artifact": "xxhash-cli_0.8.3-1_aarch64.deb"
+    },
+    {
+      "package": "blake3-cli",
+      "version": "1.5.4-1",
+      "artifact": "blake3-cli_1.5.4-1_aarch64.deb"
+    },
+    {
+      "package": "b2sum-lite",
+      "version": "1.0.0-1",
+      "artifact": "b2sum-lite_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "sha3-sum",
+      "version": "1.0.0-1",
+      "artifact": "sha3-sum_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "shake256-tool",
+      "version": "1.0.0-1",
+      "artifact": "shake256-tool_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "ripemd160-tool",
+      "version": "1.0.0-1",
+      "artifact": "ripemd160-tool_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "whirlpool-tool",
+      "version": "1.0.0-1",
+      "artifact": "whirlpool-tool_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "dir-checksum",
+      "version": "1.0.0-1",
+      "artifact": "dir-checksum_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "file-entropy",
+      "version": "1.0.0-1",
+      "artifact": "file-entropy_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "zero-detector",
+      "version": "1.0.0-1",
+      "artifact": "zero-detector_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "sparse-maker",
+      "version": "1.0.0-1",
+      "artifact": "sparse-maker_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "du-visualizer",
+      "version": "1.0.0-1",
+      "artifact": "du-visualizer_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "df-analyzer",
+      "version": "1.0.0-1",
+      "artifact": "df-analyzer_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "symlink-auditor",
+      "version": "1.0.0-1",
+      "artifact": "symlink-auditor_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "hardlink-finder",
+      "version": "1.0.0-1",
+      "artifact": "hardlink-finder_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "perm-auditor",
+      "version": "1.0.0-1",
+      "artifact": "perm-auditor_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "timestamp-toucher",
+      "version": "1.0.0-1",
+      "artifact": "timestamp-toucher_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "archive-stripper",
+      "version": "1.0.0-1",
+      "artifact": "archive-stripper_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "gz-normalizer",
+      "version": "1.0.0-1",
+      "artifact": "gz-normalizer_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "tar-normalizer",
+      "version": "1.0.0-1",
+      "artifact": "tar-normalizer_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "zip-normalizer",
+      "version": "1.0.0-1",
+      "artifact": "zip-normalizer_1.0.0-1_aarch64.deb"
+    },
+    {
+      "package": "deb-normalizer",
+      "version": "1.0.0-1",
+      "artifact": "deb-normalizer_1.0.0-1_aarch64.deb"
+    }
+  ]
+}

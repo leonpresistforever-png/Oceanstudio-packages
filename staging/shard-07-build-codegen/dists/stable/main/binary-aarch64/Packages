@@ -1,0 +1,866 @@
+Package: ragel-state-machine
+Version: 7.0.4-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: devel
+Priority: optional
+Filename: pool/main/ragel-state-machine_7.0.4-1_aarch64.deb
+Size: 1964
+MD5sum: a62dcf6c1c8e7f1d247e7cd83ad214b6
+SHA1: 99565897f375eedb7a92bb548a004c67265bae5b
+SHA256: 6a23ae961e54ea32bd646545a37447b26abcc3cd28796de010febaff53a225f7
+Description: finite state machine compiler and code generator
+ Build system generator and codegen utility providing finite state machine compiler and code generator for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: re2c-lexer
+Version: 3.1-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: devel
+Priority: optional
+Filename: pool/main/re2c-lexer_3.1-1_aarch64.deb
+Size: 1952
+MD5sum: 88abded5d142ea37d0cbd5d543ba348f
+SHA1: c605ddede0504eae10c485ea7af680158a5e7106
+SHA256: 113dea5535acc1f0b8d95e99e91e9b2834076e54cd25a7a4a9dfa71cb8c11688
+Description: fast lexical analyzer generator for C/C++
+ Build system generator and codegen utility providing fast lexical analyzer generator for C/C++ for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: byacc-berkeley
+Version: 20240109-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: devel
+Priority: optional
+Filename: pool/main/byacc-berkeley_20240109-1_aarch64.deb
+Size: 1948
+MD5sum: 27c315440fe994960c542f79402557a7
+SHA1: 27cd81d35117fc0ecf1ccaf71f2f22dd1919d185
+SHA256: e5091686a53b36baa6738864168d53851fd679e18ba94f8aa80ea18e36bbda40
+Description: Berkeley Yacc LALR(1) parser generator
+ Build system generator and codegen utility providing Berkeley Yacc LALR(1) parser generator for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: m4-macro-gnu
+Version: 1.4.19-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: devel
+Priority: optional
+Filename: pool/main/m4-macro-gnu_1.4.19-1_aarch64.deb
+Size: 1940
+MD5sum: 812f2e3003aec7462530b81b0af682b1
+SHA1: 9e001343353e12bcd6844b442be0fe434cdb8f92
+SHA256: 37d062e628825ec543b551e68d3d4dbe07e6fe7c6d19f96f651e444dd02b546d
+Description: GNU traditional macro processor
+ Build system generator and codegen utility providing GNU traditional macro processor for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: flex-fast-lexer
+Version: 2.6.4-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: devel
+Priority: optional
+Filename: pool/main/flex-fast-lexer_2.6.4-1_aarch64.deb
+Size: 1944
+MD5sum: ce790d1c38202c25eb23fcfc8215a6e8
+SHA1: 177e6229e9f90d51d74640860f38db1469ebe3a9
+SHA256: 14b9ffd73b53294dd4ad261d8dda490f47622abc0fac07b04e5032cca4059580
+Description: fast lexical analyzer generator
+ Build system generator and codegen utility providing fast lexical analyzer generator for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: bison-parser-gnu
+Version: 3.8.2-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: devel
+Priority: optional
+Filename: pool/main/bison-parser-gnu_3.8.2-1_aarch64.deb
+Size: 1952
+MD5sum: abe2942edec88e59ee4ab319456f6fa8
+SHA1: 9df4fccc42729e0019f658eb232dd611921ed77e
+SHA256: f2b19cd2740f6e78b63440fb66a32c07642b8af645d70ce1ccb49471a95b78d4
+Description: general-purpose parser generator from GNU
+ Build system generator and codegen utility providing general-purpose parser generator from GNU for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: pkgconf-lite
+Version: 2.2.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: devel
+Priority: optional
+Filename: pool/main/pkgconf-lite_2.2.0-1_aarch64.deb
+Size: 1952
+MD5sum: 557d8be94b07e64e2d7d34d21568ead7
+SHA1: 1747e05ca520867fae42352eee5fee3b23039c84
+SHA256: 4def7d2ff7460ce583b03949c76d6e99280900bcd556ad710de88b7ce7889058
+Description: package compiler and linker metadata query tool
+ Build system generator and codegen utility providing package compiler and linker metadata query tool for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: gengetopt-cli
+Version: 2.23-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: devel
+Priority: optional
+Filename: pool/main/gengetopt-cli_2.23-1_aarch64.deb
+Size: 1948
+MD5sum: f70fbf02a6c8d246f6f7b0644636f20d
+SHA1: 915b2390443df86617b6a8355fac4ada2597be46
+SHA256: 2476317b99d37eb0ca0f6010b401a163025c1d6f8e0ad1d22d70292f97544b1d
+Description: command line option parser generator for C
+ Build system generator and codegen utility providing command line option parser generator for C for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: ctags-universal-idx
+Version: 6.1.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: devel
+Priority: optional
+Filename: pool/main/ctags-universal-idx_6.1.0-1_aarch64.deb
+Size: 1960
+MD5sum: 0a353c7fd710022f4c6356565c5583a0
+SHA1: 24e68a6d71cd66ec470492b9f635abd00eda7d5d
+SHA256: b14ce07c32c3b758e93e8161f6250d139f62949a21ff4a693d3d66f30de9c3c5
+Description: multilanguage source code tag generator
+ Build system generator and codegen utility providing multilanguage source code tag generator for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: cscope-code-browser
+Version: 15.9-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: devel
+Priority: optional
+Filename: pool/main/cscope-code-browser_15.9-1_aarch64.deb
+Size: 1956
+MD5sum: d0a90710a5160235993eea65401d04b6
+SHA1: 502da809bf23c049276e1b80d9c9c090c11c4b10
+SHA256: 7019a814c02e7f52a6de414194c4d196f178f1119b3ce13b8ac60b84a1c2875e
+Description: interactive source code browsing system
+ Build system generator and codegen utility providing interactive source code browsing system for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: global-gtags-browser
+Version: 6.6.11-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: devel
+Priority: optional
+Filename: pool/main/global-gtags-browser_6.6.11-1_aarch64.deb
+Size: 1976
+MD5sum: e58e0715506a56f590ca941c7c88ae7a
+SHA1: d7d1dc6e8f454d53d23a6a4e0329303f0f692e53
+SHA256: a83745d58a3acf8e4f450de4291783f1383b38d773208f7e3ef2441ac1bb43f9
+Description: GNU source code tag system for large projects
+ Build system generator and codegen utility providing GNU source code tag system for large projects for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: automake-helpers
+Version: 1.16.5-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: devel
+Priority: optional
+Filename: pool/main/automake-helpers_1.16.5-1_aarch64.deb
+Size: 1944
+MD5sum: 04dfd3954659435a957736f546c3f244
+SHA1: e94b92b5ded4c437e5dfd3c1118094b5592e8679
+SHA256: a2ea4280af142648da2b553b84c7e5ea914284ec624497a18ef8b714accba8e6
+Description: helper scripts and macros for Automake
+ Build system generator and codegen utility providing helper scripts and macros for Automake for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: autoconf-archive-macros
+Version: 2023.02.20-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: devel
+Priority: optional
+Filename: pool/main/autoconf-archive-macros_2023.02.20-1_aarch64.deb
+Size: 1980
+MD5sum: 7ca678f87489cd4fe8113f59252c0a29
+SHA1: ae1da559146a62c79f1467a04ebcd879c78ac8c4
+SHA256: 45230deb773412ff829c1b1af58348ad46071cd999f6c552b066b5ab10da37a0
+Description: reusable M4 macros for GNU Autoconf
+ Build system generator and codegen utility providing reusable M4 macros for GNU Autoconf for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: libtool-bin-helpers
+Version: 2.4.7-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: devel
+Priority: optional
+Filename: pool/main/libtool-bin-helpers_2.4.7-1_aarch64.deb
+Size: 1952
+MD5sum: 5f1291b86c13d8ac7b4a652157aa5f0a
+SHA1: a58e8a44d99924e0afcad3edde8bae575bfa7bdc
+SHA256: c34dcaeb6f2b3405404b68deabfe230ec3256a1af2ed1f4a3fe8715f9942a1c8
+Description: generic library support script helpers
+ Build system generator and codegen utility providing generic library support script helpers for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: ninja-subtools
+Version: 1.12.1-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: devel
+Priority: optional
+Filename: pool/main/ninja-subtools_1.12.1-1_aarch64.deb
+Size: 1956
+MD5sum: e4a0026d31f4cfe8575e82296f30d241
+SHA1: b1f9ab923bce6f8a217f84656312590255b3ac38
+SHA256: ab291609794cc83df767dc96367cdb14a90514853fd501f8e25720f2e9545a21
+Description: helper utilities for Ninja build graph inspection
+ Build system generator and codegen utility providing helper utilities for Ninja build graph inspection for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: cmake-extras-modules
+Version: 3.30.3-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: devel
+Priority: optional
+Filename: pool/main/cmake-extras-modules_3.30.3-1_aarch64.deb
+Size: 1976
+MD5sum: 44bbfd17d85a637a32fabe87117dc2b8
+SHA1: a8e0da637339a7d4340ec29ea1c05670d3bd022b
+SHA256: b2217d82ab156d85e4fed86349c99731a796cadbd1317a78b20cfc95498124b6
+Description: additional CMake find modules and toolchains
+ Build system generator and codegen utility providing additional CMake find modules and toolchains for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: meson-wrap-tools
+Version: 1.5.1-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: devel
+Priority: optional
+Filename: pool/main/meson-wrap-tools_1.5.1-1_aarch64.deb
+Size: 1968
+MD5sum: 9301afed0a5d5cca5f9ffb94c410c86b
+SHA1: ef7130625a13cd136e69f062fb8fee7e215d2e8e
+SHA256: 4c9ff2b94e9c7d36c14c257bc65ea0345ffadae8d1077fe319a3eea4abd8144d
+Description: tools for managing Meson wrap dependency subprojects
+ Build system generator and codegen utility providing tools for managing Meson wrap dependency subprojects for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: swig-codegen
+Version: 4.2.1-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: devel
+Priority: optional
+Filename: pool/main/swig-codegen_4.2.1-1_aarch64.deb
+Size: 1952
+MD5sum: 2859dae53d9be48b362c38c937888c39
+SHA1: e589b80473d1ac18f18ce3e4607cedf083a45ae2
+SHA256: 41909d0da8b0c8fb4bbb003c331e5ae18a878ba4b8a4c780d159b74ff18dac90
+Description: Simplified Wrapper and Interface Generator
+ Build system generator and codegen utility providing Simplified Wrapper and Interface Generator for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: gperf-hash-gen
+Version: 3.1-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: devel
+Priority: optional
+Filename: pool/main/gperf-hash-gen_3.1-1_aarch64.deb
+Size: 1952
+MD5sum: 840ed249c0a509187eb9ebc54feec47f
+SHA1: ac84192fc6c9dd36c5f2a1fc0ca7672b29b595ed
+SHA256: d26fd5059468c37540452b0a7edc81a029aaf6633a995d77c90354706989db0e
+Description: perfect hash function generator for key sets
+ Build system generator and codegen utility providing perfect hash function generator for key sets for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: uncrustify-formatter
+Version: 0.78.1-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: devel
+Priority: optional
+Filename: pool/main/uncrustify-formatter_0.78.1-1_aarch64.deb
+Size: 1980
+MD5sum: 66c0ac369b88b742845d4d6640ed9f5d
+SHA1: 69ebcceacc1a8ad758d6aede48c5a0ee1c6a020c
+SHA256: 239775e386a894db53b6019f0846679311c15e343735897167e1f2e10ec7bc18
+Description: highly configurable source code beautifier
+ Build system generator and codegen utility providing highly configurable source code beautifier for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: indent-gnu
+Version: 2.2.13-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: devel
+Priority: optional
+Filename: pool/main/indent-gnu_2.2.13-1_aarch64.deb
+Size: 1928
+MD5sum: 07c62724ce3a4b044b25d14cbf858e49
+SHA1: 7015960b83ed35c02f9ac2284d7fe99ce4e94a56
+SHA256: 51758f0c225417268659f73a8b01ad67a518d125bbef0a5bccf3770fbb353239
+Description: GNU C program source code formatter
+ Build system generator and codegen utility providing GNU C program source code formatter for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: astyle-formatter
+Version: 3.4.10-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: devel
+Priority: optional
+Filename: pool/main/astyle-formatter_3.4.10-1_aarch64.deb
+Size: 1968
+MD5sum: 9903fc09498e70f64063ddaf6a682437
+SHA1: d6c7dd78a35cc1bcaf9bcb9822fb7da35134e9a4
+SHA256: 9b2a94140f593200bd4e7cf35f66a07fa96d4859a7059ea22bfe878c1bd4567e
+Description: Artistic Style code formatter for C/C++/Java/C#
+ Build system generator and codegen utility providing Artistic Style code formatter for C/C++/Java/C# for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: shfmt-shell-formatter
+Version: 3.8.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: devel
+Priority: optional
+Filename: pool/main/shfmt-shell-formatter_3.8.0-1_aarch64.deb
+Size: 1964
+MD5sum: c9a825a0c1b6c04a47799b1e82278dee
+SHA1: f4e9c78d6837071350a49c8ae734270f57134cf0
+SHA256: af3d735e88c3088036a0820d59f11700d252d8c2703bebea61c3677a5881d956
+Description: format shell script programs consistently
+ Build system generator and codegen utility providing format shell script programs consistently for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: shellcheck-runner
+Version: 0.10.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: devel
+Priority: optional
+Filename: pool/main/shellcheck-runner_0.10.0-1_aarch64.deb
+Size: 1972
+MD5sum: 3ad919b9545fd4fa7f4e0c092824b68c
+SHA1: a66ea37eecea445a9a695d48960147b93848cf9c
+SHA256: 06588abaaf67ebb29cbad2beb04c437204fa18ba7fc57ec5dfbbe601e684f45c
+Description: shell script linter and static analysis launcher
+ Build system generator and codegen utility providing shell script linter and static analysis launcher for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: cloc-counter
+Version: 2.02-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: devel
+Priority: optional
+Filename: pool/main/cloc-counter_2.02-1_aarch64.deb
+Size: 1948
+MD5sum: 1ced11ce170558ead007644b52f5a159
+SHA1: bc74782aa46098d6057cd457e8bf7d1a23ee671a
+SHA256: b342d7e0afb7c54d11fdcaf182f2643a9ce0d88831d5c3623944d5f712e8293f
+Description: count lines of code in hundreds of languages
+ Build system generator and codegen utility providing count lines of code in hundreds of languages for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: tokei-counter
+Version: 12.1.2-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: devel
+Priority: optional
+Filename: pool/main/tokei-counter_12.1.2-1_aarch64.deb
+Size: 1952
+MD5sum: efbefc354d75c27d52b3137901da30c0
+SHA1: 5201656307e56eb6b903a9d6d30070c1a363e165
+SHA256: 4b2179075fa9744f8f200bbf2050282c739c80dc06fd64a120620223e388199d
+Description: fast code analysis and line counting tool
+ Build system generator and codegen utility providing fast code analysis and line counting tool for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: scc-code-counter
+Version: 3.3.4-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: devel
+Priority: optional
+Filename: pool/main/scc-code-counter_3.3.4-1_aarch64.deb
+Size: 1956
+MD5sum: 0544f0642fb7f22158da615261afbe41
+SHA1: 183f40ab0ef6fd51506747cbe9addb79c7ca82a5
+SHA256: d56c84f19f07c6020af7b18432539a6479d8599a355017b70897452f5c49202f
+Description: succinct code counter with complexity estimates
+ Build system generator and codegen utility providing succinct code counter with complexity estimates for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: makefile-grapher
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: devel
+Priority: optional
+Filename: pool/main/makefile-grapher_1.0.0-1_aarch64.deb
+Size: 1976
+MD5sum: 3c2cbe8ab643e22932f112d08bef16c6
+SHA1: c96ab858c11dd141cb87da39d0aa25d32217ba4d
+SHA256: 145e9777fc93f743b654babb869621967984fe4795d16b45dec1bfb6d50bc170
+Description: visualize Makefile dependency targets as DAG graph
+ Build system generator and codegen utility providing visualize Makefile dependency targets as DAG graph for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: cmake-target-lister
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: devel
+Priority: optional
+Filename: pool/main/cmake-target-lister_1.0.0-1_aarch64.deb
+Size: 1980
+MD5sum: 795a414fdbbdf1c35f906eec4dd78b1e
+SHA1: f94a13f07b6770185da1ad47c80d0580bc145cbb
+SHA256: 3cf82e754c9acf675627e1f1335e786c38fc98d6bb57694b8bc9a3e455b0e37f
+Description: list and query CMake build targets and dependencies
+ Build system generator and codegen utility providing list and query CMake build targets and dependencies for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: c-header-guard-gen
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: devel
+Priority: optional
+Filename: pool/main/c-header-guard-gen_1.0.0-1_aarch64.deb
+Size: 1984
+MD5sum: 9f981946486cc4c6a10b620f135febf3
+SHA1: 4ac5874fe2ba092ecfc810875a736b642872b990
+SHA256: dfd88b58a5fdb26cc5f5977d79a20157382cf6766bb7519a424e51f2164fecd6
+Description: generate unique UUID-based C/C++ header guards
+ Build system generator and codegen utility providing generate unique UUID-based C/C++ header guards for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: cpp-include-cleaner
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: devel
+Priority: optional
+Filename: pool/main/cpp-include-cleaner_1.0.0-1_aarch64.deb
+Size: 1976
+MD5sum: 80db7304389897ad62c3132e1bf15ea1
+SHA1: 71849923fad189d734a08a46d8fc081f86dc1472
+SHA256: 5f39d7d0ea4ac02e2c8096b8033b38da83fbbaa775bd47f17f6ed22f131de3eb
+Description: audit unused C/C++ include directives in source
+ Build system generator and codegen utility providing audit unused C/C++ include directives in source for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: symbol-demangler
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: devel
+Priority: optional
+Filename: pool/main/symbol-demangler_1.0.0-1_aarch64.deb
+Size: 1952
+MD5sum: 1c24c4a0b0099bd81106f92cce8571bf
+SHA1: 54c029f130e685e681b28b274aa5e92cabf3c83a
+SHA256: a8ebeb8851992c7218169b1adce133f31e013fe183d2b81a849c4d6b0f9d6d3f
+Description: demangle C++ and Rust mangled symbol names
+ Build system generator and codegen utility providing demangle C++ and Rust mangled symbol names for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: elf-section-stripper
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: devel
+Priority: optional
+Filename: pool/main/elf-section-stripper_1.0.0-1_aarch64.deb
+Size: 1984
+MD5sum: fd7c2a2934ab2aa7d5802defbd33c494
+SHA1: dfd6993ffb86e2ce1ea14e7b29994d935cf725cb
+SHA256: 694ffbad2b47004b3dd09a7da07c9df2bfe3c779be56911d30c65475476ae191
+Description: strip debug symbols and comments from ELF binaries
+ Build system generator and codegen utility providing strip debug symbols and comments from ELF binaries for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: shared-lib-checker
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: devel
+Priority: optional
+Filename: pool/main/shared-lib-checker_1.0.0-1_aarch64.deb
+Size: 1980
+MD5sum: 9a27996506c5ef48806e33c4991d8c97
+SHA1: 345f22b843d33944c50fa95e769f33509bcb9284
+SHA256: dcf78789c948faf6f4461ecc60961c9f957a76de61eb4011efd95fb4e21bad0e
+Description: verify NEEDED libraries and soname consistency
+ Build system generator and codegen utility providing verify NEEDED libraries and soname consistency for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: rpath-inspector
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: devel
+Priority: optional
+Filename: pool/main/rpath-inspector_1.0.0-1_aarch64.deb
+Size: 1956
+MD5sum: f6e1a0b203e7becc3b42d76abdc697f8
+SHA1: 5b0e70fa9684c2a85a06a779398e6bf7eb1613b6
+SHA256: f26be6f6a1bf9aff1de0d6e70ca50343a72060ba0e0d89854d57d97d40d49004
+Description: inspect and audit RUNPATH/RPATH in ELF binaries
+ Build system generator and codegen utility providing inspect and audit RUNPATH/RPATH in ELF binaries for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: license-header-checker
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: devel
+Priority: optional
+Filename: pool/main/license-header-checker_1.0.0-1_aarch64.deb
+Size: 1972
+MD5sum: 009a64ba6bd504e050be9ca3c35fdceb
+SHA1: 5bbefef563a28e16b36dd83bddcc1892cdfc518d
+SHA256: b301d61aa4ac06e2d2ef437aa237490a4acafe8861da0b7a83b960868dbeee5a
+Description: audit open source license headers across codebase
+ Build system generator and codegen utility providing audit open source license headers across codebase for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: git-changelog-gen
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: devel
+Priority: optional
+Filename: pool/main/git-changelog-gen_1.0.0-1_aarch64.deb
+Size: 1960
+MD5sum: 85bff7954676bb1c7a396187c93bc23a
+SHA1: b7a0aa0dab0a4dadaf610c9d28b288ac75fc7acf
+SHA256: cbe26c2d10d91fb3ab22f8b5be780774558ffff8930855827aecc835c0e9aee0
+Description: generate changelog from conventional git commits
+ Build system generator and codegen utility providing generate changelog from conventional git commits for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: semver-tool
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: devel
+Priority: optional
+Filename: pool/main/semver-tool_1.0.0-1_aarch64.deb
+Size: 1956
+MD5sum: 43aa0d62a377779cfbe24f3a82a51efc
+SHA1: ba88274260852254dededc3404dc056836b3b546
+SHA256: 62fefc8e2ebbfb892691af4a2853eed5e223b124a498e1679aa0061e3d5e96dc
+Description: semantic version string comparison and bumper CLI
+ Build system generator and codegen utility providing semantic version string comparison and bumper CLI for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: git-ignore-builder
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: devel
+Priority: optional
+Filename: pool/main/git-ignore-builder_1.0.0-1_aarch64.deb
+Size: 1964
+MD5sum: 8b696995e831ea3b425bb7019ceba01d
+SHA1: 775b0538b326f09165b7914b5505b8e3c30190b8
+SHA256: faf5e640af3a81d1920e172ad3a9c5149f6b60e12700a4c1bc4997f394c86464
+Description: generate language-specific .gitignore rules
+ Build system generator and codegen utility providing generate language-specific .gitignore rules for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: patch-inliner
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: devel
+Priority: optional
+Filename: pool/main/patch-inliner_1.0.0-1_aarch64.deb
+Size: 1964
+MD5sum: 599d1f11cd718aa1ae1028bf34d1e3e1
+SHA1: 7fc23b3091996659be39d0049877d3ead4709fe8
+SHA256: ade1e51c20d0d26ef6267571c33d2293084e8e3a99c401416aaee8be2ec8f8db
+Description: inline multi-file patches into unified distribution diff
+ Build system generator and codegen utility providing inline multi-file patches into unified distribution diff for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: source-tarball-gen
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: devel
+Priority: optional
+Filename: pool/main/source-tarball-gen_1.0.0-1_aarch64.deb
+Size: 1976
+MD5sum: 7634f36d8e5acd56bf52dc03d8eebc88
+SHA1: f9afa4eb3d764fa1178b4c361358458b6b11674b
+SHA256: 4a3f3376ff4af68a428920be5d6871b61fe4160fd61a7751daf0c4bffe58f78a
+Description: generate clean source tarballs without VCS metadata
+ Build system generator and codegen utility providing generate clean source tarballs without VCS metadata for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: c-amalgamation-tool
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: devel
+Priority: optional
+Filename: pool/main/c-amalgamation-tool_1.0.0-1_aarch64.deb
+Size: 1996
+MD5sum: cf9c66baa4570c4337bf30a5699c4564
+SHA1: d6d924866b56bcae12ce768da54a0fae67c27566
+SHA256: 1477e3dde201ef54a44db1f89ca5d00c9d29997edd394c661f743a41e70be9b8
+Description: bundle multi-file C library into single amalgamated C file
+ Build system generator and codegen utility providing bundle multi-file C library into single amalgamated C file for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: bindgen-helper
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: devel
+Priority: optional
+Filename: pool/main/bindgen-helper_1.0.0-1_aarch64.deb
+Size: 1948
+MD5sum: c037747fd392a5b8159cb3e3f1324dff
+SHA1: b2c057ab329403f274b75bc2476ae782981a2895
+SHA256: 6c4770b73c3b577d16dd2337c78c244e961ac49de732e9d809bd5f886fe0b6a2
+Description: helper utilities for C header binding generation
+ Build system generator and codegen utility providing helper utilities for C header binding generation for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: protobuf-validator
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: devel
+Priority: optional
+Filename: pool/main/protobuf-validator_1.0.0-1_aarch64.deb
+Size: 1976
+MD5sum: f9c80aa684cf0b1054e22ab7d43c4a5f
+SHA1: 051b85b2e72a8ed4b3647ada6edfcf21ef48e2d9
+SHA256: 9a1bdef1b755c71f17bd68e0a9889bcd8097ac540be37c1543fb904fdaac6f38
+Description: validate syntax of Protocol Buffer definition files
+ Build system generator and codegen utility providing validate syntax of Protocol Buffer definition files for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: flatbuffers-validator
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: devel
+Priority: optional
+Filename: pool/main/flatbuffers-validator_1.0.0-1_aarch64.deb
+Size: 1972
+MD5sum: d2177b4bec3f70d76378f8b15693cc4c
+SHA1: 23f60098a76c16e7c8c62605c1f89c449f990695
+SHA256: f64c0625b2eba0d9f4b1cdcef6a30e0673b1a2d07059f2ee1c6662ea5774516c
+Description: validate FlatBuffers schema definition files
+ Build system generator and codegen utility providing validate FlatBuffers schema definition files for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: capnproto-validator
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: devel
+Priority: optional
+Filename: pool/main/capnproto-validator_1.0.0-1_aarch64.deb
+Size: 1976
+MD5sum: 4c161e103a8f44a053613b29aecc6175
+SHA1: e44c3124a093af712c009226d241215f6040f9a4
+SHA256: 2d7b455ff61dac9c4134733605d96f7942d9cc9dc37cc5448ef753cdcb552bdb
+Description: validate Cap'n Proto schema definition files
+ Build system generator and codegen utility providing validate Cap'n Proto schema definition files for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: bison-graph-viewer
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: devel
+Priority: optional
+Filename: pool/main/bison-graph-viewer_1.0.0-1_aarch64.deb
+Size: 1980
+MD5sum: d050e8bbb91cf1d2afceb2583ae24312
+SHA1: eabb7544dead2ac2288c74d3ad8aae3286e0057c
+SHA256: 59907a812af6b305eed3b8bb302e5ffcafe79ea041078992bf8b5399e641e5ce
+Description: generate DOT visualization of Bison parser states
+ Build system generator and codegen utility providing generate DOT visualization of Bison parser states for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: flex-nfa-analyzer
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: devel
+Priority: optional
+Filename: pool/main/flex-nfa-analyzer_1.0.0-1_aarch64.deb
+Size: 1976
+MD5sum: cd5daa91bab36f46edd36ce7e4e85bb3
+SHA1: 4a60303a17ecb1671671e0a02242198671df7074
+SHA256: dd4162cebb8a51848c6c7039c54af511bc79375485272df5fef5c4ca4c346329
+Description: analyze NFA/DFA transition tables from Flex lexer
+ Build system generator and codegen utility providing analyze NFA/DFA transition tables from Flex lexer for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: header-amalgamator
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: devel
+Priority: optional
+Filename: pool/main/header-amalgamator_1.0.0-1_aarch64.deb
+Size: 1984
+MD5sum: 433602cdc984152afe11c9a310147e8a
+SHA1: af615e9a739b2e63b70106c7818da206b4a3d01f
+SHA256: ee1503c2d93980957ea364b3d37d37238748b04040f22e00188fc16fb3f7a984
+Description: combine internal header files into public API header
+ Build system generator and codegen utility providing combine internal header files into public API header for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: build-time-tracker
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: devel
+Priority: optional
+Filename: pool/main/build-time-tracker_1.0.0-1_aarch64.deb
+Size: 1976
+MD5sum: 582217ae7664199968357802c299ebb5
+SHA1: 2c3ed1df573c2b3bbe17fab39aaa41902094014d
+SHA256: 21ed35802d432dd0a14c6bc0f09fcbf066796fde1e07dba61b62f51841fa2992
+Description: track and record execution time of compilation stages
+ Build system generator and codegen utility providing track and record execution time of compilation stages for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: ninja-log-analyzer
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: devel
+Priority: optional
+Filename: pool/main/ninja-log-analyzer_1.0.0-1_aarch64.deb
+Size: 1992
+MD5sum: 15580c5cfd37c5074cec5877c8658e67
+SHA1: e4d6bfa1900040e27699549cf0fca3dd1bab576b
+SHA256: 7d0f3acbeb2a6f5135a43bcf43f7cb93dd505938511b3ca7d41f37a812b20f1c
+Description: parse .ninja_log to identify build time bottlenecks
+ Build system generator and codegen utility providing parse .ninja_log to identify build time bottlenecks for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.

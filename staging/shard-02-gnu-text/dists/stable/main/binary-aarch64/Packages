@@ -1,0 +1,866 @@
+Package: moreutils-sponge
+Version: 0.69-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: text
+Priority: optional
+Filename: pool/main/moreutils-sponge_0.69-1_aarch64.deb
+Size: 1948
+MD5sum: b615dc03a8484771bd177248ffaa5660
+SHA1: d21071c87e35e3a5b40b1491d36da6d62399787a
+SHA256: bbb8602017e9cdf47b16c791a5b3ab22235807c768858408de94c7a635a70378
+Description: soak up standard input and write to a file
+ GNU and text processing utility providing soak up standard input and write to a file for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: moreutils-vipe
+Version: 0.69-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: text
+Priority: optional
+Filename: pool/main/moreutils-vipe_0.69-1_aarch64.deb
+Size: 1940
+MD5sum: 907e2dd24645dbb2943b0be42981fb20
+SHA1: ca573e86c8a03646daa4f58c63b3567302bc5e5b
+SHA256: 9f4c676bfa805e93b12ee0ff1ce8cd797e005351e7d22b8092f4a6d72500a3e4
+Description: edit pipeline in editor between stages
+ GNU and text processing utility providing edit pipeline in editor between stages for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: moreutils-ts
+Version: 0.69-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: text
+Priority: optional
+Filename: pool/main/moreutils-ts_0.69-1_aarch64.deb
+Size: 1952
+MD5sum: 49f717932d02713976c9a9223e54ee44
+SHA1: b1b9479e073e77d4373cc7b805612577bb438b91
+SHA256: 8fe186208402e4c666e01f2154a478ea1e99bff581a942ee34f2a177aefe9499
+Description: timestamp standard input lines with microsecond precision
+ GNU and text processing utility providing timestamp standard input lines with microsecond precision for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: moreutils-combine
+Version: 0.69-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: text
+Priority: optional
+Filename: pool/main/moreutils-combine_0.69-1_aarch64.deb
+Size: 1968
+MD5sum: f27d82e208d09b9e9daee53871dbb8e9
+SHA1: 3bf745bfb9094f8e3ecc418ef1f9ee420e0341cb
+SHA256: 511ba3190a4b0fc9822a08c0e2491b467c34e552636f56b867e0050467c0f74b
+Description: combine sets of lines from two files using boolean operations
+ GNU and text processing utility providing combine sets of lines from two files using boolean operations for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: moreutils-ifne
+Version: 0.69-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: text
+Priority: optional
+Filename: pool/main/moreutils-ifne_0.69-1_aarch64.deb
+Size: 1960
+MD5sum: 39c6a69ead74bbd44ed8d18ec0086ff5
+SHA1: 7043f40cfaa206e8ead51cecffecf7b3b79f3e7e
+SHA256: e3056fa2c518da4f849eae2c51737e4afde15c575558cdf61e242133701da205
+Description: run command only if standard input is not empty
+ GNU and text processing utility providing run command only if standard input is not empty for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: moreutils-pee
+Version: 0.69-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: text
+Priority: optional
+Filename: pool/main/moreutils-pee_0.69-1_aarch64.deb
+Size: 1944
+MD5sum: 9f131cf00e99e3ca363bba7dd5928384
+SHA1: 12b52d53be18406e2c9912ef21411aecf177c6a6
+SHA256: 372b648d2f1d7ae5be6c9cf263348d15b07643215f14af6fcee6fafd8c65b8b4
+Description: tee standard input to multiple pipeline processes
+ GNU and text processing utility providing tee standard input to multiple pipeline processes for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: moreutils-zrun
+Version: 0.69-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: text
+Priority: optional
+Filename: pool/main/moreutils-zrun_0.69-1_aarch64.deb
+Size: 1944
+MD5sum: c5e005ae5314c7454514652472807c78
+SHA1: cc33d7833b0cd25a0ba78ceb7dadf5095aa1faaa
+SHA256: 09f7729cedba130c35f03b8cd7ea2795fd371ecd303eb08ed5855c58d0ffa31f
+Description: automatically decompress arguments to command
+ GNU and text processing utility providing automatically decompress arguments to command for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: moreutils-isutf8
+Version: 0.69-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: text
+Priority: optional
+Filename: pool/main/moreutils-isutf8_0.69-1_aarch64.deb
+Size: 1960
+MD5sum: cecf257f469d39f3d885dc5f438d1b76
+SHA1: 72221535cd874db4ffcbeb1235771a380afc7376
+SHA256: 49bcef9248c90c1e9886798e2e858c3c8e319ae29b9ebfedd966e34d6e3e4cab
+Description: check whether files or stdin are valid UTF-8
+ GNU and text processing utility providing check whether files or stdin are valid UTF-8 for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: moreutils-lckdo
+Version: 0.69-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: text
+Priority: optional
+Filename: pool/main/moreutils-lckdo_0.69-1_aarch64.deb
+Size: 1944
+MD5sum: 5f37e19e9bac2a1edf84965752843590
+SHA1: 102d3cd812f6b802e3b17c9a5e3e422fe6076636
+SHA256: 7dd652b0c4e929708a81a98ffa5d920e7af4ba7d6868f6531ce68ced8a4fb2db
+Description: execute a program with a lock held on file
+ GNU and text processing utility providing execute a program with a lock held on file for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: moreutils-mispipe
+Version: 0.69-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: text
+Priority: optional
+Filename: pool/main/moreutils-mispipe_0.69-1_aarch64.deb
+Size: 1964
+MD5sum: 4fe78be5db2d07d3105cd373c05d2dd0
+SHA1: b6874d9c7d4efdb377ff2f0d19daa61ec65bddb9
+SHA256: 20448d78be7f2b0d72700343178de2525d4fa596d492c8e49ed184281912c0fa
+Description: pipe two commands together returning exit code of first
+ GNU and text processing utility providing pipe two commands together returning exit code of first for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: diffstat-lite
+Version: 1.66-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: text
+Priority: optional
+Filename: pool/main/diffstat-lite_1.66-1_aarch64.deb
+Size: 1944
+MD5sum: 0aa96e89666cfa225acc866215fee70a
+SHA1: a36187c9e5ff66c8e56c8158bfcc73e07dd1b7fe
+SHA256: 73b7e65e1b7003af8779cc1863702c28648c24a85b2987d55b307fe82f11e62c
+Description: generate histogram statistics from diff output
+ GNU and text processing utility providing generate histogram statistics from diff output for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: patchutils-lite
+Version: 0.4.2-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: text
+Priority: optional
+Filename: pool/main/patchutils-lite_0.4.2-1_aarch64.deb
+Size: 1940
+MD5sum: daf8553cd5d0f235019cf053538f20e3
+SHA1: ed51217737ee4d3bd8f7cfab9468d114d7f6a1fb
+SHA256: 823d5cf212b86e3e8885a490e07f0b6d00a7d8a634aca424ae11f41b669298f0
+Description: utilities to work with diff and patch files
+ GNU and text processing utility providing utilities to work with diff and patch files for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: wdiff-word
+Version: 1.2.2-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: text
+Priority: optional
+Filename: pool/main/wdiff-word_1.2.2-1_aarch64.deb
+Size: 1928
+MD5sum: 4f79493cae69f133362e61c58e0d70fc
+SHA1: cf7ed65d3e32c05120a776f1fc2be7c6a4f744e2
+SHA256: e941ca39cd69fef196154eac2c0a01bbab9976f8cb45cdfe3f74b6a4fee5a4ca
+Description: word-by-word difference comparison tool
+ GNU and text processing utility providing word-by-word difference comparison tool for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: colordiff-fast
+Version: 1.0.21-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: text
+Priority: optional
+Filename: pool/main/colordiff-fast_1.0.21-1_aarch64.deb
+Size: 1936
+MD5sum: 153479935291fd0abd8fdcf807a7d9d1
+SHA1: a283a32d2b24b455618dcd4a5c669a031a44b68f
+SHA256: 3f3a762186322b3b2bce9852d7d99fb63d29210c20c759816c82198958174e64
+Description: color-highlighted diff display for terminal
+ GNU and text processing utility providing color-highlighted diff display for terminal for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: recode-tools
+Version: 3.7.14-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: text
+Priority: optional
+Filename: pool/main/recode-tools_3.7.14-1_aarch64.deb
+Size: 1956
+MD5sum: 76c631ac75e0accb175de0218159da25
+SHA1: 386147c9607e65df86f58e8ac373930d902cc399
+SHA256: 310b4dc7c9591d2e9fe625b1c8ffba730bb39b2391cdab98c35e72f4c3c03ee1
+Description: character set conversion and transformation library CLI
+ GNU and text processing utility providing character set conversion and transformation library CLI for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: convmv-cli
+Version: 2.05-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: text
+Priority: optional
+Filename: pool/main/convmv-cli_2.05-1_aarch64.deb
+Size: 1952
+MD5sum: cc8a328115865b582e3bd15c2058615c
+SHA1: 96b107fa4e62b033fe6f7f61273243a43a710ede
+SHA256: f6e4eb8a54c9ba793b05a9e5c469d362c5e35b63fb9b96312b31621dc018f6d1
+Description: convert filenames between diverse character encodings
+ GNU and text processing utility providing convert filenames between diverse character encodings for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: enca-analyzer
+Version: 1.19-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: text
+Priority: optional
+Filename: pool/main/enca-analyzer_1.19-1_aarch64.deb
+Size: 1928
+MD5sum: 6178b6792f4773f7da1842b5bac6648d
+SHA1: 219aa8ca589baab3de8c6a8e1c9e88c2f1933089
+SHA256: d0b9ba09ed0f2080885511965ad75bf186168dd5ec81d4c704fa80f9b8aa5d0a
+Description: charset analyzer and language detector
+ GNU and text processing utility providing charset analyzer and language detector for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: uchardet-cli
+Version: 0.0.8-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: text
+Priority: optional
+Filename: pool/main/uchardet-cli_0.0.8-1_aarch64.deb
+Size: 1924
+MD5sum: 8ab645e53681f13aafef80ecf0def023
+SHA1: 4b7fd92d4c35834a683167ec01582517cfaff0e3
+SHA256: 9f1e018ec22d09aeca9db79cba0f53d2a0abb8d4ec952f49e1d3cc29158ad448
+Description: universal charset detection utility
+ GNU and text processing utility providing universal charset detection utility for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: par-formatter
+Version: 1.53.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: text
+Priority: optional
+Filename: pool/main/par-formatter_1.53.0-1_aarch64.deb
+Size: 1936
+MD5sum: 0ab12fca2a4cf33e3f335daa5f110bd5
+SHA1: b9d87500e626a289e0361d3b9944287853d5163d
+SHA256: 63752100f0eee9c6ea7a8941e487e1b5cc88d55ca26da9e11806b5b7dcb29bc4
+Description: paragraph formatting filter with reflowing
+ GNU and text processing utility providing paragraph formatting filter with reflowing for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: bsd-column
+Version: 2.40.2-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: text
+Priority: optional
+Filename: pool/main/bsd-column_2.40.2-1_aarch64.deb
+Size: 1944
+MD5sum: 55d990ca96fa51dba98eec5d3adc6f5f
+SHA1: 978176ca319bd7865d0439cb53c3b2b8ad17a2e0
+SHA256: 893ccdeee424ec8973427882e5db5b124b188afda82779573593cdec9193d584
+Description: columnate lists into formatted terminal tables
+ GNU and text processing utility providing columnate lists into formatted terminal tables for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: bsd-col
+Version: 2.40.2-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: text
+Priority: optional
+Filename: pool/main/bsd-col_2.40.2-1_aarch64.deb
+Size: 1924
+MD5sum: 85d68026d087bf8addf6bc7d21bf9db8
+SHA1: 222d34503d80bfc10ab07ea232f23d0e3c007068
+SHA256: 5d57511307e5b0cc148be6f3e3dff1fe41facf8a822017691f745ea348f1bb04
+Description: filter reverse line feeds and form feeds
+ GNU and text processing utility providing filter reverse line feeds and form feeds for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: bsd-colrm
+Version: 2.40.2-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: text
+Priority: optional
+Filename: pool/main/bsd-colrm_2.40.2-1_aarch64.deb
+Size: 1932
+MD5sum: 8eaef99f30daec1fc1e2004ab4114e71
+SHA1: f9bcc822f707031235a1b17d79c7b0b69e885b4d
+SHA256: 6c9db937df157588a580637df0cb71e6ff70f097c88fb9139929bf6c18bd7d0c
+Description: remove selected columns from input stream
+ GNU and text processing utility providing remove selected columns from input stream for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: bsd-look
+Version: 2.40.2-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: text
+Priority: optional
+Filename: pool/main/bsd-look_2.40.2-1_aarch64.deb
+Size: 1928
+MD5sum: ec5ded4f6938ca8372c2a0e533fa43bf
+SHA1: ecad744f0c1bff16c4ad3777fc5c05d86af2d6c3
+SHA256: f54087a236b3cecfaac08924b15a2d4f8fdb37dbd1f1049cc6466f541c0f7e9c
+Description: display lines beginning with a given prefix
+ GNU and text processing utility providing display lines beginning with a given prefix for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: bsd-rev
+Version: 2.40.2-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: text
+Priority: optional
+Filename: pool/main/bsd-rev_2.40.2-1_aarch64.deb
+Size: 1932
+MD5sum: a2c0254072b5c7970a7fda7ecb013584
+SHA1: cc49319963f6c8450dbbeabceabb9bfceea9c1cb
+SHA256: b8788c65af39debf5f4d2f93fd06fd5264a6b0b5de08ff7ea65c847f38c22c40
+Description: reverse the order of characters in every line
+ GNU and text processing utility providing reverse the order of characters in every line for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: bsd-ul
+Version: 2.40.2-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: text
+Priority: optional
+Filename: pool/main/bsd-ul_2.40.2-1_aarch64.deb
+Size: 1928
+MD5sum: 626a69d5b20763a6f754dbcc0be5c820
+SHA1: 196faf72dd95e2ec304c3cdd90613679ded7beed
+SHA256: 1325792066d0ab7b4d13e866efb51ab409edf7994570de14e1cbb78a29e5cff3
+Description: do underline highlighting on CRT displays
+ GNU and text processing utility providing do underline highlighting on CRT displays for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: ascii-banner
+Version: 1.3.4-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: text
+Priority: optional
+Filename: pool/main/ascii-banner_1.3.4-1_aarch64.deb
+Size: 1936
+MD5sum: 526cbf1e27bf63184d104fd82a0edc4b
+SHA1: 8ac5769c9f54226089ae7f4968788f275a964c69
+SHA256: 48c024c603a0184bf897793501a33ee7baca28d9bde83f718b36ab150c81a958
+Description: display large banner headlines on stdout
+ GNU and text processing utility providing display large banner headlines on stdout for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: figlet-extra
+Version: 2.2.5-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: text
+Priority: optional
+Filename: pool/main/figlet-extra_2.2.5-1_aarch64.deb
+Size: 1944
+MD5sum: 00dfa362594606b1d3f466c814d53915
+SHA1: 39620a0ac0bfe7c12a762ed8f853d087b6fc8aef
+SHA256: aabf8ba68de1e9f0b0e1c3c9139472d3eb23438d2a7ec182d136495c7c892af4
+Description: extended ASCII font banner generator
+ GNU and text processing utility providing extended ASCII font banner generator for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: toilet-color
+Version: 0.3-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: text
+Priority: optional
+Filename: pool/main/toilet-color_0.3-1_aarch64.deb
+Size: 1940
+MD5sum: 797d59eb90aad777760997d758c79a59
+SHA1: 3644e9112ab4aca7b8b81f655c225f7cc33f1738
+SHA256: 5dbbdcb962aa33ab5262256431e27b1205cbea505904a13008e2843675747803
+Description: colourful text banner generator using libcaca
+ GNU and text processing utility providing colourful text banner generator using libcaca for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: cowsay-collection
+Version: 3.7.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: text
+Priority: optional
+Filename: pool/main/cowsay-collection_3.7.0-1_aarch64.deb
+Size: 1964
+MD5sum: 331c42a626f59c006157ad46220d8648
+SHA1: 6bc6a66c5b4455e4cb2e0fc0e30250d40f32bdd0
+SHA256: 1d5129639af071445817db16e662fa36992a5d474ce14d29114b648724b7a7b9
+Description: configurable ASCII speaking character generator
+ GNU and text processing utility providing configurable ASCII speaking character generator for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: fortune-ocean
+Version: 1.99.1-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: text
+Priority: optional
+Filename: pool/main/fortune-ocean_1.99.1-1_aarch64.deb
+Size: 1932
+MD5sum: fb86bf58b187f2805a6cc487071d9c07
+SHA1: b793b4ba00aa00af0bcc793238a2ba441605fa69
+SHA256: ae34552f859b4bba74120781aa847b28186f8f737d51a592ea8fba5f39ea9902
+Description: fortune cookie quotes database and reader
+ GNU and text processing utility providing fortune cookie quotes database and reader for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: sl-locomotive
+Version: 5.02-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: text
+Priority: optional
+Filename: pool/main/sl-locomotive_5.02-1_aarch64.deb
+Size: 1940
+MD5sum: 15b8acbcdaecbef11196d7e638dad05f
+SHA1: 38ec26c6048a5da04edf0e40cdfe5d064896f8d0
+SHA256: 84d4186c2e3276091f1572dd241c958f42cb47ea18d6559b387d67d18a779c69
+Description: steam locomotive terminal animation for ls typos
+ GNU and text processing utility providing steam locomotive terminal animation for ls typos for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: cmatrix-rain
+Version: 2.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: text
+Priority: optional
+Filename: pool/main/cmatrix-rain_2.0-1_aarch64.deb
+Size: 1936
+MD5sum: 6c330ea2b9092377b7f20e1fd2d0d458
+SHA1: 97faf6b7f2df4622afac193641d3404f90e38102
+SHA256: 2ce6032ad904c1f4c94a55a6baa90db66272d7eab603bd37d7fb6504855fa67b
+Description: matrix digital rain screen simulation in terminal
+ GNU and text processing utility providing matrix digital rain screen simulation in terminal for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: boxes-boxer
+Version: 2.2.1-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: text
+Priority: optional
+Filename: pool/main/boxes-boxer_2.2.1-1_aarch64.deb
+Size: 1924
+MD5sum: a26e825a0a25556ad919d5598c07abfa
+SHA1: 9065a798201fedeca2c84307cb9d251ee3096b1e
+SHA256: 23eec74978e5f532c0fdd412b1b164f8e859902ed420445a39696842c616ba97
+Description: draw ASCII art boxes around text messages
+ GNU and text processing utility providing draw ASCII art boxes around text messages for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: text-center
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: text
+Priority: optional
+Filename: pool/main/text-center_1.0.0-1_aarch64.deb
+Size: 1936
+MD5sum: df6e06c5a5e716c2c673f40b0f4b33f8
+SHA1: 2dbca7c7ae9d3b784a82516dd4ac54b94c010b31
+SHA256: 0502c30d165171f212bfd0ac520522ddcef3a25da6f19d383bfc6d3487984c39
+Description: center text lines horizontally in terminal
+ GNU and text processing utility providing center text lines horizontally in terminal for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: text-justify
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: text
+Priority: optional
+Filename: pool/main/text-justify_1.0.0-1_aarch64.deb
+Size: 1936
+MD5sum: 250b279cb5145dac7d589d08b6e4b212
+SHA1: 9ffd355cabe79150788a0029399b5f1d3fdd5b1b
+SHA256: 01738f6986d7147c0439444174174d33b0efddcedf96d20e665d900bd3ca4453
+Description: justify text lines to specified terminal width
+ GNU and text processing utility providing justify text lines to specified terminal width for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: text-trim
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: text
+Priority: optional
+Filename: pool/main/text-trim_1.0.0-1_aarch64.deb
+Size: 1940
+MD5sum: 01fc417af8fb688948b63bd70cc08fbe
+SHA1: 545219440c77ca91fcc3c6f501dcb98a750e8ebb
+SHA256: fae0b13d4a01919bb965bae29774c3b0c9964bdd555f075cefa8b441f4b68835
+Description: strip leading and trailing whitespace from lines
+ GNU and text processing utility providing strip leading and trailing whitespace from lines for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: text-dedup
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: text
+Priority: optional
+Filename: pool/main/text-dedup_1.0.0-1_aarch64.deb
+Size: 1948
+MD5sum: 993dd658d1ad1c2245a5071585f8da0f
+SHA1: d64e0b5860c364aef129ac12920964e4300412c8
+SHA256: 2e147beabae5fac18a4727c677c57adb8f9c84aeb73ee29917d879bf76b165b8
+Description: fast stream deduplicator preserving first occurrence
+ GNU and text processing utility providing fast stream deduplicator preserving first occurrence for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: text-frequency
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: text
+Priority: optional
+Filename: pool/main/text-frequency_1.0.0-1_aarch64.deb
+Size: 1948
+MD5sum: 002198cc8d57bea1c2c70ce6c192bb91
+SHA1: f88fcb43db6adcc917d9e34308d7b9296c9d018a
+SHA256: 046f63fa8a113105e33c1535a103aa14cf37a29e76d0171eada901b3bba0cb35
+Description: calculate n-gram and word frequency in text stream
+ GNU and text processing utility providing calculate n-gram and word frequency in text stream for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: text-wrap
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: text
+Priority: optional
+Filename: pool/main/text-wrap_1.0.0-1_aarch64.deb
+Size: 1936
+MD5sum: 5cc1b7707057c255297157a076817ce7
+SHA1: 86285f97fe49a1f543734ed03e6969f6a062500f
+SHA256: c326369aa62ed1b4d922fe1374dac8d39f8a0ea5b948f0d4d998d50043262713
+Description: word wrapping filter with hyphenation support
+ GNU and text processing utility providing word wrapping filter with hyphenation support for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: line-numberer
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: text
+Priority: optional
+Filename: pool/main/line-numberer_1.0.0-1_aarch64.deb
+Size: 1944
+MD5sum: e9bc9f4a5282b16cf8d9622b7f4c734a
+SHA1: d97bfe1dc66949186ff4812750b46fe5cea00a95
+SHA256: a843d02f80b3704f479381bdc86e0cddeffe485c3e858d78f6c0f20d4ebf1fe3
+Description: line numbering filter with configurable format
+ GNU and text processing utility providing line numbering filter with configurable format for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: line-prefixer
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: text
+Priority: optional
+Filename: pool/main/line-prefixer_1.0.0-1_aarch64.deb
+Size: 1932
+MD5sum: 7cf975ceb38c70fe80dbcb269db6bd8e
+SHA1: 1b48390997eff1765feda689441fc2a6bf6564d9
+SHA256: 64f8c11550484c0f77195ac9659102d196c9856d56ae89edbbe9d843049223a1
+Description: prepend or append text strings to stream lines
+ GNU and text processing utility providing prepend or append text strings to stream lines for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: case-converter
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: text
+Priority: optional
+Filename: pool/main/case-converter_1.0.0-1_aarch64.deb
+Size: 1932
+MD5sum: 3af02990d5de0f2bc1526f64b8f7b838
+SHA1: d07ce115007b0198b33fc053ed75867918aa0ad1
+SHA256: 8869cacfd4397567e9f8c764baaca99858a96901006993b87adee4206930ee00
+Description: convert text streams between case formats
+ GNU and text processing utility providing convert text streams between case formats for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: slug-generator
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: text
+Priority: optional
+Filename: pool/main/slug-generator_1.0.0-1_aarch64.deb
+Size: 1948
+MD5sum: 5da5453c19be7b084a3abd0fa7c185f7
+SHA1: 2986eb4262ea59ba649bab09807453054d9b29ed
+SHA256: 3c17f1af93757990c4f100025cc8b0932aaf10e19df0d99b5c5853ce869a854f
+Description: convert text strings into URL-safe slugs
+ GNU and text processing utility providing convert text strings into URL-safe slugs for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: markdown-table-fmt
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: text
+Priority: optional
+Filename: pool/main/markdown-table-fmt_1.0.0-1_aarch64.deb
+Size: 1956
+MD5sum: aa4be2f12c344b720984ee31f33f87ff
+SHA1: dccd343b51d001453424f8fe2952b6304ce728dd
+SHA256: 09841e2b63e43c9684b40e5d552a37c5f6ccd830ca4a558faa5a61859d2b4196
+Description: format and align Markdown tables in stream
+ GNU and text processing utility providing format and align Markdown tables in stream for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: csv-to-markdown
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: text
+Priority: optional
+Filename: pool/main/csv-to-markdown_1.0.0-1_aarch64.deb
+Size: 1956
+MD5sum: f0fba015904ec445ab14aa94fd77d18f
+SHA1: 8b55230ff8d408493e87362c5a269781c4135bca
+SHA256: 4227cd25e1ebe600b87147f989c4529becc9980cbbef1756fca29f14ebcc8cf0
+Description: convert CSV input into readable Markdown table
+ GNU and text processing utility providing convert CSV input into readable Markdown table for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: tsv-to-markdown
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: text
+Priority: optional
+Filename: pool/main/tsv-to-markdown_1.0.0-1_aarch64.deb
+Size: 1956
+MD5sum: e433d61ce62418d386c79c09e441a3fa
+SHA1: 99eed2040fa72ecfb8f16fefe5f6a1cc7245e54b
+SHA256: 378e09a558ee829cb8d67a79665ab9e5ccd24bcda68cdce272ffad64f19626c6
+Description: convert TSV input into readable Markdown table
+ GNU and text processing utility providing convert TSV input into readable Markdown table for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: json-to-markdown
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: text
+Priority: optional
+Filename: pool/main/json-to-markdown_1.0.0-1_aarch64.deb
+Size: 1960
+MD5sum: b2ef1630c9324e5548013da4e8e21050
+SHA1: f8430379433d7280a24dab6197220eaa1aacc155
+SHA256: ee507b04391fd95a23b8b75f65b89ab2c4e55a3f16bfcaa50f9a8951d2f44a3a
+Description: convert JSON arrays of objects into Markdown tables
+ GNU and text processing utility providing convert JSON arrays of objects into Markdown tables for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: diff-highlighter
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: text
+Priority: optional
+Filename: pool/main/diff-highlighter_1.0.0-1_aarch64.deb
+Size: 1936
+MD5sum: de2a1466f1d55200de776b3cc625dee0
+SHA1: b70591653632469a4478e45555b7c978aaba5ee3
+SHA256: 60ef1362a96a3ae2b769e9117d12b5e6e1f37bfeefb4ea13be506ef16f8c3ef4
+Description: syntax highlighter for unified diff streams
+ GNU and text processing utility providing syntax highlighter for unified diff streams for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: word-counter
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: text
+Priority: optional
+Filename: pool/main/word-counter_1.0.0-1_aarch64.deb
+Size: 1936
+MD5sum: e85a7501e078fd0f06998480064bad15
+SHA1: 8af59899265c78a1d0d1d77a6fa12aa4d9706d70
+SHA256: b225bb768ebc34d59aad9b881701a59ab5349d943a58c6218218cdce555aea61
+Description: fast stream word character and syllable counter
+ GNU and text processing utility providing fast stream word character and syllable counter for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: regex-filter
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: text
+Priority: optional
+Filename: pool/main/regex-filter_1.0.0-1_aarch64.deb
+Size: 1940
+MD5sum: 8db3f1d7f13e5ccaf4c66a084b7517d1
+SHA1: a014abd262c87060c96f9cf563813d6b9d94b099
+SHA256: 46a71e1b3974ae8ae452c28813f621b890be693d80364fae8cd114fcb6ca977d
+Description: regular expression filter with capture replacement
+ GNU and text processing utility providing regular expression filter with capture replacement for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: stream-sample
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: text
+Priority: optional
+Filename: pool/main/stream-sample_1.0.0-1_aarch64.deb
+Size: 1936
+MD5sum: d46fc76133f829e4db140fb6d9325e58
+SHA1: 6e697ec7074d904aea3e87b4be31dbadbfa6fe2f
+SHA256: 75f4372a72c87899a04f134d4a91aa68769d4fbf54c16b2801f950b67ae2ee2c
+Description: reservoir sampling filter for stream pipelines
+ GNU and text processing utility providing reservoir sampling filter for stream pipelines for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.

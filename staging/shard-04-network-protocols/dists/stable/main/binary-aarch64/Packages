@@ -1,0 +1,866 @@
+Package: fping-multi
+Version: 5.3-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: net
+Priority: optional
+Filename: pool/main/fping-multi_5.3-1_aarch64.deb
+Size: 1952
+MD5sum: 96b110084319e083542030e9e38b690d
+SHA1: e9f8f0f272fd2760a390ebd37cf29c2477938152
+SHA256: 8a1f9f1d1bab326c3dfd8e65ad8bce6235ea335fcd4ce5df833640715c4714ec
+Description: high-performance multi-target parallel ping tool
+ Network protocol and diagnostic utility providing high-performance multi-target parallel ping tool for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: hping3-packet
+Version: 3.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: net
+Priority: optional
+Filename: pool/main/hping3-packet_3.0.0-1_aarch64.deb
+Size: 1964
+MD5sum: 4323063565ded8c1f1f28d27aaebab59
+SHA1: 9f031c5f3b06e1daa2528f3f65b074fd7cce39d7
+SHA256: e4b6f9fffa4e68124c66bb2ebfa700e93ee94a03d36a3811fc7a697b52196936
+Description: custom TCP/IP packet assembler and analyzer
+ Network protocol and diagnostic utility providing custom TCP/IP packet assembler and analyzer for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: mtr-traceroute
+Version: 0.95-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: net
+Priority: optional
+Filename: pool/main/mtr-traceroute_0.95-1_aarch64.deb
+Size: 1952
+MD5sum: 07045fc8481bfbbbfaf86e92fbd2f19c
+SHA1: b4f18ae86af60374c489d3ca1ffeea0bf3ac16f7
+SHA256: 5c8a93de1349221015424b6ae234b91c9ebcbf57c942470d25986e14be9f0a21
+Description: traceroute and ping combined in single CLI
+ Network protocol and diagnostic utility providing traceroute and ping combined in single CLI for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: nethogs-bandwidth
+Version: 0.8.7-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: net
+Priority: optional
+Filename: pool/main/nethogs-bandwidth_0.8.7-1_aarch64.deb
+Size: 1964
+MD5sum: a7c69cd4268631e08c7637d48840552a
+SHA1: d09910e4f9de411cb2becc3835fb6cad046b9768
+SHA256: 6be0b4cd61ff423584853a6636ffc06993d26a395b0911fab441dbba37fae6ba
+Description: group bandwidth by process on local interface
+ Network protocol and diagnostic utility providing group bandwidth by process on local interface for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: iftop-monitor
+Version: 1.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: net
+Priority: optional
+Filename: pool/main/iftop-monitor_1.0-1_aarch64.deb
+Size: 1960
+MD5sum: db90979d5c4fb76a23616d4a11288692
+SHA1: 0efb7b9f4d23d4994a211268c2b072deb561b865
+SHA256: 4e46a368d8fcb5fb3da40e9dccfeded1d6e9b330e927153b992df1fe4e42a688
+Description: display bandwidth usage by host on network interface
+ Network protocol and diagnostic utility providing display bandwidth usage by host on network interface for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: nload-traffic
+Version: 0.7.4-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: net
+Priority: optional
+Filename: pool/main/nload-traffic_0.7.4-1_aarch64.deb
+Size: 1952
+MD5sum: 21558fd65d16340c20108d7f22d6f1b5
+SHA1: b1dad4603474c08ed8b8d0832c1e8003c9bc1cef
+SHA256: 93907a1763a52527d982f35fac8a9672b02706163dee401c5c0d02bb4ad36ee3
+Description: real-time network traffic and bandwidth monitor
+ Network protocol and diagnostic utility providing real-time network traffic and bandwidth monitor for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: bmon-interface
+Version: 4.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: net
+Priority: optional
+Filename: pool/main/bmon-interface_4.0-1_aarch64.deb
+Size: 1960
+MD5sum: fc35117faa17ee9d9dbc24bfa581b7bf
+SHA1: afe8982a30d0a1a4f328d1466f334ec55368adde
+SHA256: 17500ae2665cc094b07e2e536475d92c66acb53938efc79933ae17d57a167b8b
+Description: bandwidth monitor and rate estimator for interfaces
+ Network protocol and diagnostic utility providing bandwidth monitor and rate estimator for interfaces for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: tcpflow-demux
+Version: 1.6.1-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: net
+Priority: optional
+Filename: pool/main/tcpflow-demux_1.6.1-1_aarch64.deb
+Size: 1948
+MD5sum: 19561269cfab5c818bd8fbdf2932ad41
+SHA1: d10c4918fbc2851fe47818229387b6f4b3de05fa
+SHA256: 9030a4bbdd500f22099da279d1f9f020ed1efd415486ad6402778e08b5f9561f
+Description: TCP stream capture and reassembly tool
+ Network protocol and diagnostic utility providing TCP stream capture and reassembly tool for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: tcptraceroute-syn
+Version: 1.5-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: net
+Priority: optional
+Filename: pool/main/tcptraceroute-syn_1.5-1_aarch64.deb
+Size: 1980
+MD5sum: bb79488dcb3804fd05b8327bf8c8148c
+SHA1: 4a70f99dbf6a4d6cb94281a67ba3be48a3ea191e
+SHA256: f5e39a21faef23c2999b3fdf1758518e93ef2b47b8b25d33adf61fb1aa3f7fe8
+Description: traceroute using TCP SYN packets to bypass firewalls
+ Network protocol and diagnostic utility providing traceroute using TCP SYN packets to bypass firewalls for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: whois-client-rfc
+Version: 5.5.23-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: net
+Priority: optional
+Filename: pool/main/whois-client-rfc_5.5.23-1_aarch64.deb
+Size: 1976
+MD5sum: d7deca9610a5f6b8ccbcd59c7c9a8bfe
+SHA1: 21fb91faf4bc3a1c0109a08734c067719d7e4ea2
+SHA256: ef63b654b2a45ef05ae573128e137c10b07713ded3d1c89ace6c85e8f257c74b
+Description: RFC-compliant WHOIS client with referral following
+ Network protocol and diagnostic utility providing RFC-compliant WHOIS client with referral following for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: httping-latency
+Version: 2.9-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: net
+Priority: optional
+Filename: pool/main/httping-latency_2.9-1_aarch64.deb
+Size: 1956
+MD5sum: ddfe3d0078f04501a0136b8d7e908fec
+SHA1: 63bce75561bb98bd57267793f8efc5ac6745369a
+SHA256: a1bc8222f15d138ff047d575bb2c5d5535acf5de3266bf23b1b87fb6d53e7cc2
+Description: measure latency and throughput of HTTP requests
+ Network protocol and diagnostic utility providing measure latency and throughput of HTTP requests for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: bind-dig-dns
+Version: 9.20.1-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: net
+Priority: optional
+Filename: pool/main/bind-dig-dns_9.20.1-1_aarch64.deb
+Size: 1956
+MD5sum: b5db19ee9b2a6aa1745310ca7eb74e17
+SHA1: ed5a2e544284cb43a418d785cb38bb92a616e953
+SHA256: 67cbc3bbf445c18d04b0624f919acdb8baf6b80f0c58f28e41e03e5c6c8ab892
+Description: flexible DNS query lookup tool from BIND
+ Network protocol and diagnostic utility providing flexible DNS query lookup tool from BIND for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: bind-host-dns
+Version: 9.20.1-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: net
+Priority: optional
+Filename: pool/main/bind-host-dns_9.20.1-1_aarch64.deb
+Size: 1944
+MD5sum: 2223fa8bb4216392a16db0a3db46dddc
+SHA1: 59b672c8fdd6bf9718891362732cc61ef3345ef1
+SHA256: 8999946955380875917e280c3e8eac42d63139b445c0c85d58acaf2a5b8d4dfa
+Description: simple and fast DNS lookup utility
+ Network protocol and diagnostic utility providing simple and fast DNS lookup utility for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: bind-nslookup-dns
+Version: 9.20.1-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: net
+Priority: optional
+Filename: pool/main/bind-nslookup-dns_9.20.1-1_aarch64.deb
+Size: 1984
+MD5sum: ccf66a5ceedfc5e3a4c3724193a0dd74
+SHA1: 5ee4a845d877e60d77152d95cae6cc17a47bf141
+SHA256: 94fb09c95bf279c759e0b649e49e058b7684a68346c8b4b9cbf540e2a9a6c78a
+Description: query Internet domain name servers interactively
+ Network protocol and diagnostic utility providing query Internet domain name servers interactively for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: dnstracer-path
+Version: 1.9-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: net
+Priority: optional
+Filename: pool/main/dnstracer-path_1.9-1_aarch64.deb
+Size: 1968
+MD5sum: 024306accfbf290ac479789c663f68e6
+SHA1: 670711f894923fc307f973cb78dc6416d5d11969
+SHA256: 5b43db7b4507f3788ca162c865e2a413fc0a1ea4c88ab615d4c2705dee9b7cf5
+Description: trace DNS queries to authoritative root nameservers
+ Network protocol and diagnostic utility providing trace DNS queries to authoritative root nameservers for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: wakeonlan-magic
+Version: 0.4.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: net
+Priority: optional
+Filename: pool/main/wakeonlan-magic_0.4.0-1_aarch64.deb
+Size: 1964
+MD5sum: 5e2041cc538f459abe0994a5d10aa85f
+SHA1: a1f464380c870a86c80b1506b21ee5729965cbcc
+SHA256: dc6ace33efa0564607212c90fa64b7695e3657ac6c764100af82d4101cf5951a
+Description: send magic packets to Wake-on-LAN enabled NICs
+ Network protocol and diagnostic utility providing send magic packets to Wake-on-LAN enabled NICs for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: sftp-automation
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: net
+Priority: optional
+Filename: pool/main/sftp-automation_1.0.0-1_aarch64.deb
+Size: 1952
+MD5sum: 4038f6b0a2459653d20ead2fff123407
+SHA1: b5da0e6dd42badeee677cdebc7b6348fc1ae376a
+SHA256: 2e916e65cf079841ca1cebd3a5fb744f4a86adbf28a1dbc124957158dc8ec4a5
+Description: scriptable SFTP automation client with batch retry
+ Network protocol and diagnostic utility providing scriptable SFTP automation client with batch retry for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: tftp-hpa-client
+Version: 5.2-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: net
+Priority: optional
+Filename: pool/main/tftp-hpa-client_5.2-1_aarch64.deb
+Size: 1944
+MD5sum: 63f8cf7b3950dbf3fcfce54b83d38b02
+SHA1: 5b89ac4871cd2910c2888f526e1b598cb3c22535
+SHA256: 5074ad26dab6f23419e12c7048eeba6a0ecf012c1bf1c59ba7d367a0ae4838cc
+Description: Trivial File Transfer Protocol client
+ Network protocol and diagnostic utility providing Trivial File Transfer Protocol client for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: axel-accelerator
+Version: 2.17.14-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: net
+Priority: optional
+Filename: pool/main/axel-accelerator_2.17.14-1_aarch64.deb
+Size: 1972
+MD5sum: f50782286a5bacf41b86f7d1d87247fe
+SHA1: 2c74bf69e1a10f2962f656eb7e045d0a255a9fdd
+SHA256: 25794602fcd7b7cbfb251ce4327c4b92df195e36b3e4bc7c6c459b6ff651adc4
+Description: lightweight multiple-connection download accelerator
+ Network protocol and diagnostic utility providing lightweight multiple-connection download accelerator for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: trickle-shaper
+Version: 1.07-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: net
+Priority: optional
+Filename: pool/main/trickle-shaper_1.07-1_aarch64.deb
+Size: 1960
+MD5sum: 844b00678836dd48b7cc4f0759f9f0ea
+SHA1: 70d3a0a9a495acde41a878649798a36bf4cd4b60
+SHA256: eaf634bf3a0b75f8e402adc304558bddc539df9ccc1398e9a721ddf1d9de3aa0
+Description: portable lightweight userspace bandwidth shaper
+ Network protocol and diagnostic utility providing portable lightweight userspace bandwidth shaper for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: netcat-traditional
+Version: 1.10-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: net
+Priority: optional
+Filename: pool/main/netcat-traditional_1.10-1_aarch64.deb
+Size: 1960
+MD5sum: db12bd96f65eaff2bb6ae40184b6cb51
+SHA1: 0895f5d0bfb4c5264cd3d2407abcb4a865955c7f
+SHA256: 7d4c90f9acf75f37641a1f344160f8c0966b9978d6192c5703fc486f111f5ff1
+Description: classic TCP/IP swiss army knife
+ Network protocol and diagnostic utility providing classic TCP/IP swiss army knife for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: socat-multipurpose
+Version: 1.8.0.1-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: net
+Priority: optional
+Filename: pool/main/socat-multipurpose_1.8.0.1-1_aarch64.deb
+Size: 1948
+MD5sum: 6501488698f31883216423db63d0579a
+SHA1: f16831ead297a9a78f83c2c6eddfd55b3abd39e3
+SHA256: 65493c468144c1f9233666e65adcbd20c61b560f49e5ea212143b45c95c97f9a
+Description: multipurpose bidirectional data relay
+ Network protocol and diagnostic utility providing multipurpose bidirectional data relay for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: ngrep-packet
+Version: 1.47-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: net
+Priority: optional
+Filename: pool/main/ngrep-packet_1.47-1_aarch64.deb
+Size: 1948
+MD5sum: 36d4f768d505199d4528bea069fee16c
+SHA1: b1973e9d1d711d963d89d21c84f8ffd954fdbb27
+SHA256: 66ef5899dd4e8d75985cf5241ce06659e6197121823b21a4700d13c3134f4c37
+Description: grep network packets for regular expression patterns
+ Network protocol and diagnostic utility providing grep network packets for regular expression patterns for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: iptraf-ng-monitor
+Version: 1.2.1-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: net
+Priority: optional
+Filename: pool/main/iptraf-ng-monitor_1.2.1-1_aarch64.deb
+Size: 1964
+MD5sum: 58b788f6df16075b7d553067ecc0bc47
+SHA1: 278667689f9f167056f60f9bad9067f452ba78ae
+SHA256: 762eb9c9c19043528f5209b599316af488ed0c2611de79519b72c632aec9bb3b
+Description: IP network monitor and traffic statistics CLI
+ Network protocol and diagnostic utility providing IP network monitor and traffic statistics CLI for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: speedtest-cli-lite
+Version: 2.1.3-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: net
+Priority: optional
+Filename: pool/main/speedtest-cli-lite_2.1.3-1_aarch64.deb
+Size: 1980
+MD5sum: 02083e181e1f913c2bbee740743c35f2
+SHA1: 219b6c51e99dae7f127cbb61e061b74a80f33dab
+SHA256: e5953660471a72be4c1e2ef74e9cc1b97f2b83285d8bbc950b1d5a33ee7e77ab
+Description: command line interface for testing internet bandwidth
+ Network protocol and diagnostic utility providing command line interface for testing internet bandwidth for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: iperf2-speed
+Version: 2.2.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: net
+Priority: optional
+Filename: pool/main/iperf2-speed_2.2.0-1_aarch64.deb
+Size: 1968
+MD5sum: 3d540ac5710d6c277508d7ba2b283342
+SHA1: 7da4faf00fd21748b9efce867243c6dda84cef30
+SHA256: fa88743c84e49ff2e0136c0882883e4d861dd0a302f720d28101372625aa1684
+Description: maximum TCP/UDP bandwidth performance tester
+ Network protocol and diagnostic utility providing maximum TCP/UDP bandwidth performance tester for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: ssl-cert-checker
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: net
+Priority: optional
+Filename: pool/main/ssl-cert-checker_1.0.0-1_aarch64.deb
+Size: 1976
+MD5sum: a14bfe2da92318b9123236bad6037bec
+SHA1: 5745568161d81525631c0b7352f353cc90f59cf8
+SHA256: e9d0ae9248039ab4254a8b42475e789edbb9caa88391d6cec5caaf1bf741e850
+Description: verify remote TLS certificate validity and expiry dates
+ Network protocol and diagnostic utility providing verify remote TLS certificate validity and expiry dates for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: tls-cipher-scan
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: net
+Priority: optional
+Filename: pool/main/tls-cipher-scan_1.0.0-1_aarch64.deb
+Size: 1984
+MD5sum: 9707387b58bba7e49b700c45e89d9dd5
+SHA1: 2456b4d23b404c9a82a649428b07b5bcc2227991
+SHA256: c1a6250d3d88e1dc913b631faff174629224666bc861127a93fb51f7271b5a77
+Description: enumerate supported TLS cipher suites on target endpoint
+ Network protocol and diagnostic utility providing enumerate supported TLS cipher suites on target endpoint for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: http-header-dump
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: net
+Priority: optional
+Filename: pool/main/http-header-dump_1.0.0-1_aarch64.deb
+Size: 1968
+MD5sum: 1a98b346bc688757ec0b415f66d9d8c4
+SHA1: 5ef1315fefc0fb13e9fe45f9188037ef5593adc0
+SHA256: da39a7e5bb22ea75926c66acae3a73d8eff07ba96fa964efde4bb92c63c93d3c
+Description: dump and inspect all HTTP/HTTPS response headers
+ Network protocol and diagnostic utility providing dump and inspect all HTTP/HTTPS response headers for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: http-bench-fast
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: net
+Priority: optional
+Filename: pool/main/http-bench-fast_1.0.0-1_aarch64.deb
+Size: 1980
+MD5sum: 5dea1235df4d2b2b7b9fe8a1e57d1ed5
+SHA1: 1958ecbfe8b471f66f7effe24d501c8e5e4c16f9
+SHA256: f956c46d487cbcd9b6e493e7b820c058d17cbf5a7910aca0f0c0ec1071bbdd88
+Description: lightweight HTTP benchmark and throughput measuring tool
+ Network protocol and diagnostic utility providing lightweight HTTP benchmark and throughput measuring tool for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: websocket-client-cli
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: net
+Priority: optional
+Filename: pool/main/websocket-client-cli_1.0.0-1_aarch64.deb
+Size: 1988
+MD5sum: 70cb3a7703c9a9a46d4e6d96929c0098
+SHA1: 43b21c1fcbc7889aa72b8846d04055d670364e40
+SHA256: 1f0d172937815c94fb6f6bd619d3000df6512145a224b950acde2d0842493dbc
+Description: interactive WebSocket client for sending and receiving frames
+ Network protocol and diagnostic utility providing interactive WebSocket client for sending and receiving frames for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: dns-propagation-chk
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: net
+Priority: optional
+Filename: pool/main/dns-propagation-chk_1.0.0-1_aarch64.deb
+Size: 1984
+MD5sum: a75192baafb5ec38315cb5b44fb56612
+SHA1: 710bedad09b7b7897395f3b5817dcd06f1aa2dcc
+SHA256: d96f36eeb2b20154a055e3e4ea0d5eb512e1d0fd1b195f8924faab1463698e66
+Description: query multiple global DNS resolvers for propagation checks
+ Network protocol and diagnostic utility providing query multiple global DNS resolvers for propagation checks for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: rdns-resolver
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: net
+Priority: optional
+Filename: pool/main/rdns-resolver_1.0.0-1_aarch64.deb
+Size: 1960
+MD5sum: eb21a42cdf30e3dbcbc1a882d36d39a4
+SHA1: 19f51392352957119dc710c074f6edd145f4192d
+SHA256: 6d79ea22b1fee0592f9d3275c3cad3e3fd702af5230fee1aedf7265ee2cb51b9
+Description: fast batch reverse DNS IP-to-hostname resolver
+ Network protocol and diagnostic utility providing fast batch reverse DNS IP-to-hostname resolver for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: ip-subnet-calc
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: net
+Priority: optional
+Filename: pool/main/ip-subnet-calc_1.0.0-1_aarch64.deb
+Size: 1960
+MD5sum: 7e00b69ac47b7afa67be76ef430ef4b5
+SHA1: 9df968ce86eb39d4fc57de0e6d3297bb9a0e7b60
+SHA256: c0613c94febc7ee513c4f429ec2b129f00dc06e091847f1e1b45c6c45e251804
+Description: IPv4 and IPv6 subnet mask and CIDR calculator
+ Network protocol and diagnostic utility providing IPv4 and IPv6 subnet mask and CIDR calculator for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: mac-vendor-lookup
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: net
+Priority: optional
+Filename: pool/main/mac-vendor-lookup_1.0.0-1_aarch64.deb
+Size: 1972
+MD5sum: 0d1a175f190b3ae308ff2fb72950f85a
+SHA1: ec2461dad97cbe6cb0be5c6f7616304e66038883
+SHA256: 4aa91039aa5429ed6b7e7b42c55bee1f06f7dbcda2583d89e17a3688eb05ff42
+Description: lookup hardware manufacturer OUI from MAC address
+ Network protocol and diagnostic utility providing lookup hardware manufacturer OUI from MAC address for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: port-probe-tcp
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: net
+Priority: optional
+Filename: pool/main/port-probe-tcp_1.0.0-1_aarch64.deb
+Size: 1964
+MD5sum: 62b33614cad75e3802a49b95b9c60004
+SHA1: 35b04657764674dc10d54ecbbcf9db51097979f4
+SHA256: 12adbc91eeae1d8096eaf500a2cba6966faab10f2bb56b07bd8c1668f69e32a8
+Description: fast non-intrusive TCP connect port scanner
+ Network protocol and diagnostic utility providing fast non-intrusive TCP connect port scanner for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: udp-echo-client
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: net
+Priority: optional
+Filename: pool/main/udp-echo-client_1.0.0-1_aarch64.deb
+Size: 1972
+MD5sum: 94a37f8490156e76531ef5e8e52fbaaa
+SHA1: 345e64d1a5eea56d6bec08be958a831d6a5d1f1e
+SHA256: 52e87ea62c028b589beea7199bda606ebda1ed11cdeeb73087f2e34a8da726c4
+Description: send and receive UDP echo datagrams for latency tests
+ Network protocol and diagnostic utility providing send and receive UDP echo datagrams for latency tests for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: icmp-timestamp-chk
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: net
+Priority: optional
+Filename: pool/main/icmp-timestamp-chk_1.0.0-1_aarch64.deb
+Size: 1980
+MD5sum: 7b92cd09c2af4b2e17be264442d4e935
+SHA1: be2ec1e95e45b34fc476c0cdaf47b69318993b3e
+SHA256: 264800fc56440c1125640483936ae740f21f8d3bfb0eab476db44e3fcb4576ba
+Description: query ICMP timestamp requests for time synchronization
+ Network protocol and diagnostic utility providing query ICMP timestamp requests for time synchronization for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: arp-scanner-lite
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: net
+Priority: optional
+Filename: pool/main/arp-scanner-lite_1.0.0-1_aarch64.deb
+Size: 1976
+MD5sum: a1ea4bdd39dafcefa18edc7aa3ddff7e
+SHA1: a1265897ed2b405767bbcb14a1470e3fedce1cf6
+SHA256: d816a6b1fcd3c2d7ec219a888233cb19ce04a39b3630c543b88b25e834608939
+Description: discover hosts on local Ethernet broadcast domain
+ Network protocol and diagnostic utility providing discover hosts on local Ethernet broadcast domain for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: url-encode-decode
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: net
+Priority: optional
+Filename: pool/main/url-encode-decode_1.0.0-1_aarch64.deb
+Size: 1964
+MD5sum: 70ed8cc1ce5d8fe9236095b54e644409
+SHA1: 80c62c9e0e699902a93d8300a372e8fae8287252
+SHA256: fa066ded895c992f8c98f0aaab8e3b68979ac2c7915695e5d5456cd7c609bcd8
+Description: command line URL and percent encoding/decoding tool
+ Network protocol and diagnostic utility providing command line URL and percent encoding/decoding tool for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: punycode-converter
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: net
+Priority: optional
+Filename: pool/main/punycode-converter_1.0.0-1_aarch64.deb
+Size: 1968
+MD5sum: fe5de6fc3a54248d9b5cddd062ce30fc
+SHA1: a7c39ee153eaf09772e86b9d0e6ab9a5a203aeb3
+SHA256: f7c40df729c42ff6e7a4b44c842ef3927fd08e4e0c7cc46f070201b7a204edb5
+Description: convert international domain names to/from Punycode
+ Network protocol and diagnostic utility providing convert international domain names to/from Punycode for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: curl-timing-analyzer
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: net
+Priority: optional
+Filename: pool/main/curl-timing-analyzer_1.0.0-1_aarch64.deb
+Size: 1980
+MD5sum: 485f79783299c9598a7bb52cc4e19c4f
+SHA1: 006a30431c39e27fa61d1bd907be4f5ece6f3ba1
+SHA256: fedcb7235d0ec296bfb59ac3681487d78d47f5e862a5ee1e67ae779131fecad2
+Description: extract detailed connection and DNS timing from curl
+ Network protocol and diagnostic utility providing extract detailed connection and DNS timing from curl for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: http-cache-validator
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: net
+Priority: optional
+Filename: pool/main/http-cache-validator_1.0.0-1_aarch64.deb
+Size: 1980
+MD5sum: 77fb1235db0bcd6b74aef84cef5f0aa6
+SHA1: 32e10a0984876fe99a4c3424e747ad6f2e5f4e2e
+SHA256: 912fc38cf661bef04f8cb47cf20fcbefba729044e96b62d0bb94e07eade6e659
+Description: validate Cache-Control, ETag and 304 responses
+ Network protocol and diagnostic utility providing validate Cache-Control, ETag and 304 responses for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: cors-header-checker
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: net
+Priority: optional
+Filename: pool/main/cors-header-checker_1.0.0-1_aarch64.deb
+Size: 1984
+MD5sum: 0152613d4e1c534e1fc652d722164a72
+SHA1: 3f64f20e27e1766a545b88823995eeb19213b589
+SHA256: fd17cf0280a85d007c4b34d8f38d6ba628e51698b4b22f5cda911c1f99113f0d
+Description: test CORS preflight and access-control headers on API
+ Network protocol and diagnostic utility providing test CORS preflight and access-control headers on API for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: oauth-token-decoder
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: net
+Priority: optional
+Filename: pool/main/oauth-token-decoder_1.0.0-1_aarch64.deb
+Size: 1976
+MD5sum: ba234ef023793d52d3bd6bfadad6718a
+SHA1: 49f259c24686c2cbb7e263774b5c518c5295b4e5
+SHA256: b7aee39eaf4fd8f48aa809ecaf81140a6fbddad84eae6ef4973338771ec18b44
+Description: decode and validate JWT OAuth tokens without verification
+ Network protocol and diagnostic utility providing decode and validate JWT OAuth tokens without verification for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: grpc-health-probe
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: net
+Priority: optional
+Filename: pool/main/grpc-health-probe_1.0.0-1_aarch64.deb
+Size: 1972
+MD5sum: 9b18e9044b6bfe2638d2ecaa4a81749b
+SHA1: 78b841480794d590224f279af7860331ecfb3b13
+SHA256: e1003b06d0f25fa079f4e871ec3b4d1cb04cc3e9723051977c4fe026d76116cb
+Description: command line tool to probe health of gRPC services
+ Network protocol and diagnostic utility providing command line tool to probe health of gRPC services for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: mqtt-pubsub-lite
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: net
+Priority: optional
+Filename: pool/main/mqtt-pubsub-lite_1.0.0-1_aarch64.deb
+Size: 1964
+MD5sum: 4a7adfe02bbfe21a37f2804b991c95ba
+SHA1: 77ceac9ba071c4cd038cf4fade03755e8698281f
+SHA256: 4c8ebe9944eb96c753ad2909b66fcc5220793f96e55160b48a85e1cffa73e498
+Description: publish and subscribe to MQTT broker topics
+ Network protocol and diagnostic utility providing publish and subscribe to MQTT broker topics for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: ntp-drift-checker
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: net
+Priority: optional
+Filename: pool/main/ntp-drift-checker_1.0.0-1_aarch64.deb
+Size: 1980
+MD5sum: 082558f7d17a460700fe7bf6d026569f
+SHA1: ec9de9715c642ec84ad305246ce3829e6a205217
+SHA256: 6c1c1cca7ba8dbf041fcaa5d8fc63de39d3996e4ef90b20295be6b16195d5522
+Description: query NTP servers to calculate local clock offset
+ Network protocol and diagnostic utility providing query NTP servers to calculate local clock offset for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: whois-asn-lookup
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: net
+Priority: optional
+Filename: pool/main/whois-asn-lookup_1.0.0-1_aarch64.deb
+Size: 1956
+MD5sum: f0f0400d54e8949bd8068f70bfc9ee2e
+SHA1: c45aafeac4638a8d083ca39f665a67f3986d3dcd
+SHA256: 253c60bc1b07e13a209d4b142579a8af0733926a9d87d58282a1628c9d9d5307
+Description: query BGP ASN and routing prefix information
+ Network protocol and diagnostic utility providing query BGP ASN and routing prefix information for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: traceroute-asn
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: net
+Priority: optional
+Filename: pool/main/traceroute-asn_1.0.0-1_aarch64.deb
+Size: 1968
+MD5sum: 674220680da1873f6bd1a4c26bc67cfb
+SHA1: dc827db8c894fd48c2a09663ba2db0c33ea0cc01
+SHA256: e9b001ac694e1b37f3c4e1f167081ff1f1882dd3deec30f0aae2a45add3a9875
+Description: display Autonomous System numbers along traceroute path
+ Network protocol and diagnostic utility providing display Autonomous System numbers along traceroute path for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: packet-hex-dumper
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: net
+Priority: optional
+Filename: pool/main/packet-hex-dumper_1.0.0-1_aarch64.deb
+Size: 1976
+MD5sum: 03957384076b6c33b5cc023e4fd63060
+SHA1: cdea1eec4de0a90cf223724cc63b976a93cce070
+SHA256: c95b0edaa494e64b64b2898ad6e71e71c5722f23434cce9e69d8f82900b4315f
+Description: format binary network captures into hex/ASCII layout
+ Network protocol and diagnostic utility providing format binary network captures into hex/ASCII layout for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.

@@ -1,0 +1,866 @@
+Package: hashid-analyzer
+Version: 3.1.4-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: admin
+Priority: optional
+Filename: pool/main/hashid-analyzer_3.1.4-1_aarch64.deb
+Size: 1976
+MD5sum: a731f9cee5880defd4a3b90e67f47524
+SHA1: d864029ebc7821ad2d489899cc56ef89e31e3e5e
+SHA256: 85edb4b794aefc3b7a9dcd4e29ee4a12940e6d46dd7cf28678e2748c62ff52a7
+Description: identify cryptographic hash types from hash strings
+ Defensive security analysis and hardening utility providing identify cryptographic hash types from hash strings for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: yara-rule-runner
+Version: 4.5.1-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: admin
+Priority: optional
+Filename: pool/main/yara-rule-runner_4.5.1-1_aarch64.deb
+Size: 1980
+MD5sum: 0a2468cb24a6df6146a5dd202e10b3dd
+SHA1: a3989fa4bffaee7095c6e2b516843976e350f74b
+SHA256: d15dcfbf9056bfe54a50d859fd6835da03bd71cd390088da791ae1fc4c615e1a
+Description: pattern matching engine for defensive malware analysis
+ Defensive security analysis and hardening utility providing pattern matching engine for defensive malware analysis for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: binwalk-extractor
+Version: 2.3.4-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: admin
+Priority: optional
+Filename: pool/main/binwalk-extractor_2.3.4-1_aarch64.deb
+Size: 1964
+MD5sum: c02d6e59e4efe45a5a88f501517ef4c5
+SHA1: df0568f099ae86646c6f38a8819eea4a62e08f2b
+SHA256: 20325be670c56710a9778ceb5f4640dcb4b952e423d50888022875df10858ff8
+Description: firmware analysis and signature extraction CLI
+ Defensive security analysis and hardening utility providing firmware analysis and signature extraction CLI for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: checksec-hardening
+Version: 2.6.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: admin
+Priority: optional
+Filename: pool/main/checksec-hardening_2.6.0-1_aarch64.deb
+Size: 2000
+MD5sum: e4e6bba29ceafda85c04856e1c24463b
+SHA1: 2a02716f501776e11da851fdd6553e14f89cf467
+SHA256: a8fd58bb47438c7fcf41ce6659f953d29c3c0dd8a93be9013b1d10feabc578de
+Description: audit binary hardening properties: RELRO, Canary, NX, PIE
+ Defensive security analysis and hardening utility providing audit binary hardening properties: RELRO, Canary, NX, PIE for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: ropgadget-scanner
+Version: 7.5-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: admin
+Priority: optional
+Filename: pool/main/ropgadget-scanner_7.5-1_aarch64.deb
+Size: 1972
+MD5sum: ea00052a0a52c3b2186b4e29baa4ed57
+SHA1: 20670131cfe479e5b1100936d6610c23225949bd
+SHA256: b824a868e0fbfdfefdd827bc84f9b3ae03afa81967f87b0b423416d8ebdcff4f
+Description: find ROP gadgets in AArch64 and ARM binaries
+ Defensive security analysis and hardening utility providing find ROP gadgets in AArch64 and ARM binaries for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: elfutils-readelf-ng
+Version: 0.191-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: admin
+Priority: optional
+Filename: pool/main/elfutils-readelf-ng_0.191-1_aarch64.deb
+Size: 1984
+MD5sum: 7cffed68cd9587ac9d0231539a523cf2
+SHA1: ee434d6b2fd44c2923bdeb568ff5160673e296dc
+SHA256: ce8356d51209efda1dceec50fb020fa18de3a9612d1dc39fb3b7e1891a7088b6
+Description: enhanced ELF binary section and symbol analyzer
+ Defensive security analysis and hardening utility providing enhanced ELF binary section and symbol analyzer for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: strace-frequency-analyzer
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: admin
+Priority: optional
+Filename: pool/main/strace-frequency-analyzer_1.0.0-1_aarch64.deb
+Size: 1992
+MD5sum: fc1d36cb224b5340816846fed4d68679
+SHA1: 4bc81e21b8091f1005b5e076801115740b88ba2d
+SHA256: 794dc85c8a22b70edca731384e446eefee82b915c10d8fb1e4dc2ed963913275
+Description: analyze system call frequency distributions from strace
+ Defensive security analysis and hardening utility providing analyze system call frequency distributions from strace for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: ltrace-library-tracer
+Version: 0.7.91-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: admin
+Priority: optional
+Filename: pool/main/ltrace-library-tracer_0.7.91-1_aarch64.deb
+Size: 1996
+MD5sum: 5a71e37967b9481a9fed560ab7ca2e95
+SHA1: c46afcbcd420d12b8371fc332282ea8bcc2b4684
+SHA256: 4a67e0144b17799d0c8ab631e6dfe104cb89b4a15a70802d6068d92a93265fde
+Description: intercept and record dynamic library calls in processes
+ Defensive security analysis and hardening utility providing intercept and record dynamic library calls in processes for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: check-pie-aslr
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: admin
+Priority: optional
+Filename: pool/main/check-pie-aslr_1.0.0-1_aarch64.deb
+Size: 1992
+MD5sum: 8569b2463ebd7cdd5ab48eba95feb096
+SHA1: 9996e6dec45430fabeea7daeee57d9c6394d7085
+SHA256: 4c1f68cffa882ca2b3e58c39f83f8f20cf4acef1a6660ec690f8dc36fb893e05
+Description: verify Position Independent Executable status on binaries
+ Defensive security analysis and hardening utility providing verify Position Independent Executable status on binaries for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: check-stack-protector
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: admin
+Priority: optional
+Filename: pool/main/check-stack-protector_1.0.0-1_aarch64.deb
+Size: 1992
+MD5sum: a87458817c4106ba621c4a920ac27bf5
+SHA1: e38323c41f1770883e1730950e652826129beaf5
+SHA256: e89f21743511a32a492432f314ed910411e9cebe589ed81878726fbe676de1db
+Description: detect stack canary protection in compiled ELF objects
+ Defensive security analysis and hardening utility providing detect stack canary protection in compiled ELF objects for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: check-relro-bindings
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: admin
+Priority: optional
+Filename: pool/main/check-relro-bindings_1.0.0-1_aarch64.deb
+Size: 1988
+MD5sum: 55d98211163a020e90477fb055fa0660
+SHA1: eb265da160764dc485757ab7bd45a058a559bf93
+SHA256: eab11c866bfeb1311ffc4c4c1b83dfa835633dca1b2a79bf9a0f3f161478fd27
+Description: verify Full RELRO vs Partial RELRO in ELF headers
+ Defensive security analysis and hardening utility providing verify Full RELRO vs Partial RELRO in ELF headers for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: check-nx-stack
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: admin
+Priority: optional
+Filename: pool/main/check-nx-stack_1.0.0-1_aarch64.deb
+Size: 1992
+MD5sum: eb34bf205edffba557b1e8be1dd2d93f
+SHA1: 1776a6ee2ddf8e1ab3da8bb036be1f57e081fc43
+SHA256: 0e0a48fd73912465569b96c0a9b5431d5b777eb09d8690451dc7fa151011817b
+Description: verify non-executable stack GNU_STACK segment in ELF
+ Defensive security analysis and hardening utility providing verify non-executable stack GNU_STACK segment in ELF for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: check-rpath-security
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: admin
+Priority: optional
+Filename: pool/main/check-rpath-security_1.0.0-1_aarch64.deb
+Size: 2000
+MD5sum: e620042384fe239e7b8b4a3af84aea74
+SHA1: ef271799059bf1a00300dbdb0351113d10cc424b
+SHA256: 4c3c5492d8a193db897cf2d555485395a1e26338e894e185fee2aa01de97b7c9
+Description: audit insecure RPATH definitions like /tmp or writable dirs
+ Defensive security analysis and hardening utility providing audit insecure RPATH definitions like /tmp or writable dirs for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: file-signature-audit
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: admin
+Priority: optional
+Filename: pool/main/file-signature-audit_1.0.0-1_aarch64.deb
+Size: 1988
+MD5sum: 1b7ce307bfdd881a80d99791fba55add
+SHA1: 448c5125b8fbb17ebe910f1b9f8278b134ac6801
+SHA256: d8f79d4ee45d26833ee52f58389312fa4b8c1bf70e5322f394005d46607a3a32
+Description: detect file type by magic byte signatures without extension
+ Defensive security analysis and hardening utility providing detect file type by magic byte signatures without extension for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: pe-header-checker
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: admin
+Priority: optional
+Filename: pool/main/pe-header-checker_1.0.0-1_aarch64.deb
+Size: 2000
+MD5sum: 9f5eb07cbeb6b7f77234b989b1d363fc
+SHA1: 756aad469d8d7c54fab2cd7ebc9ce9580836ff35
+SHA256: 4dcc3c42effa36eb2b34b0ad60ac5a2e91d17a8c168edeb473b7739d0e747510
+Description: parse and inspect Portable Executable Windows binaries safely
+ Defensive security analysis and hardening utility providing parse and inspect Portable Executable Windows binaries safely for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: macho-header-checker
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: admin
+Priority: optional
+Filename: pool/main/macho-header-checker_1.0.0-1_aarch64.deb
+Size: 1996
+MD5sum: 1a24d8dbb7985eaf3fa3df053c79317d
+SHA1: 04c9fe91395c7cd22a9cc7b99088197302f5e4e2
+SHA256: 13492ca32c5de4a810114c65a095babf980be8a9cb44a0ff7ac4c4bace28c062
+Description: parse and inspect Mach-O macOS/iOS binaries safely
+ Defensive security analysis and hardening utility providing parse and inspect Mach-O macOS/iOS binaries safely for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: apk-manifest-parser
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: admin
+Priority: optional
+Filename: pool/main/apk-manifest-parser_1.0.0-1_aarch64.deb
+Size: 1992
+MD5sum: 728bc8ee95e5ac8b7e457f2752bf9b5e
+SHA1: 97789b10cff05bac55881b8b89866a4e78e313cd
+SHA256: b38ac62a0ac718b6c57c5ff12a1716396474bbc6802efb06e65a5c0d69651a6e
+Description: decode binary AndroidManifest.xml from Android APK files
+ Defensive security analysis and hardening utility providing decode binary AndroidManifest.xml from Android APK files for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: apk-dex-lister
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: admin
+Priority: optional
+Filename: pool/main/apk-dex-lister_1.0.0-1_aarch64.deb
+Size: 1988
+MD5sum: f35ba68c8b5c9c0a9892e50e07eaa412
+SHA1: 2d8b965246dcfcbe7eaf4912e686337762e8f1ef
+SHA256: dd4ce045b504bcb53c76f9e985ac358aa4ff4747cd3a7944461d4f347c3637c2
+Description: inspect classes and method signatures in Dalvik DEX files
+ Defensive security analysis and hardening utility providing inspect classes and method signatures in Dalvik DEX files for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: apk-cert-verifier
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: admin
+Priority: optional
+Filename: pool/main/apk-cert-verifier_1.0.0-1_aarch64.deb
+Size: 1984
+MD5sum: efd1d9c4f11cc10d44572711d7bd3c68
+SHA1: 99807d4ba7d8f25ee646962e7a9783a0c6e6c564
+SHA256: c0032f079fd71245c272760369303334577b5b6c2d50a03b3d6278c8749c739c
+Description: verify APK Signature Scheme v1, v2 and v3 signatures
+ Defensive security analysis and hardening utility providing verify APK Signature Scheme v1, v2 and v3 signatures for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: apk-align-tester
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: admin
+Priority: optional
+Filename: pool/main/apk-align-tester_1.0.0-1_aarch64.deb
+Size: 1988
+MD5sum: 52b6944efa5ff0dd92bd15cd5eeab639
+SHA1: 05a629c276618a17ef844d80286d8c2c28f72b5d
+SHA256: 09da5fd9310fd9063cd25f811267c28d8ab96481816ed3e5975314ef5032f303
+Description: verify 4-byte and 4KB zip alignment in Android APK archives
+ Defensive security analysis and hardening utility providing verify 4-byte and 4KB zip alignment in Android APK archives for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: apk-asset-auditor
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: admin
+Priority: optional
+Filename: pool/main/apk-asset-auditor_1.0.0-1_aarch64.deb
+Size: 1976
+MD5sum: 0c13edfe78522fac08bc6d3a6f9a3493
+SHA1: 229e4a624192ee06ffa85e7245a52ec4e1b4d595
+SHA256: 33c82e5f0721a020ecacb6ab3a8fab7c5a11c2b3b984af50a41968dc99ab8346
+Description: audit uncompressed vs compressed assets in Android packages
+ Defensive security analysis and hardening utility providing audit uncompressed vs compressed assets in Android packages for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: ssl-weak-ciphers
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: admin
+Priority: optional
+Filename: pool/main/ssl-weak-ciphers_1.0.0-1_aarch64.deb
+Size: 1988
+MD5sum: b9895e703410fc961dfba6f5dc98b75e
+SHA1: bd27c257897023073af0eeb07fe4d69331c0f76f
+SHA256: 4a94c96d8edc0e9956a270e890d38f8d7eda84aa2f98b600d9841ea47615c19a
+Description: detect weak SSL/TLS ciphers like RC4, DES and export ciphers
+ Defensive security analysis and hardening utility providing detect weak SSL/TLS ciphers like RC4, DES and export ciphers for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: ssl-cert-pinning-chk
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: admin
+Priority: optional
+Filename: pool/main/ssl-cert-pinning-chk_1.0.0-1_aarch64.deb
+Size: 2008
+MD5sum: 2766cabe774a7affe62ea000a7b9bab5
+SHA1: e5ac87af13cba60820d12a8df1e77dc579444260
+SHA256: 56c05a790e6bbc7762156964e612fa1468c550dfc74e416597fb7dd7a249cd08
+Description: calculate SPKI SHA-256 fingerprint for certificate pinning
+ Defensive security analysis and hardening utility providing calculate SPKI SHA-256 fingerprint for certificate pinning for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: entropy-scanner
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: admin
+Priority: optional
+Filename: pool/main/entropy-scanner_1.0.0-1_aarch64.deb
+Size: 1988
+MD5sum: 8e22f75aaf721d79c2b5e90bdc5997f6
+SHA1: eabf4b894e76d4626c7f133c7d2a0afff9404224
+SHA256: 27f10b96e2548d87c71ce6dbb0eea63ed28cef98e6ac215893e8504d8a292a5f
+Description: scan files for high-entropy regions indicating keys or encryption
+ Defensive security analysis and hardening utility providing scan files for high-entropy regions indicating keys or encryption for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: secret-token-scanner
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: admin
+Priority: optional
+Filename: pool/main/secret-token-scanner_1.0.0-1_aarch64.deb
+Size: 2012
+MD5sum: 3c6126efb37c588cd62b28c2e96a019c
+SHA1: 402f7349b43baf73676469a4e8587f772f71529a
+SHA256: 3e73c01134ef266ee2be85e17db8e659d477fe550f3ecea41d0e5a439896fba9
+Description: detect exposed API keys and OAuth tokens with regex heuristics
+ Defensive security analysis and hardening utility providing detect exposed API keys and OAuth tokens with regex heuristics for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: git-secrets-auditor
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: admin
+Priority: optional
+Filename: pool/main/git-secrets-auditor_1.0.0-1_aarch64.deb
+Size: 1992
+MD5sum: ac7df906eead238890ff2a029499dcc6
+SHA1: 96bc573dd3efcd677df8f1a38bbbf5007067baed
+SHA256: 923bd08607d637c4124bc086852f317d36fa3790375db0bb71b7c6ef2fcad593
+Description: audit git commit history for accidental credential commits
+ Defensive security analysis and hardening utility providing audit git commit history for accidental credential commits for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: ip-reputation-checker
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: admin
+Priority: optional
+Filename: pool/main/ip-reputation-checker_1.0.0-1_aarch64.deb
+Size: 2008
+MD5sum: 01bc0d335d630eee74a8455e7f41f8d4
+SHA1: 45c1194727feda2a9a2829356f7234753521a850
+SHA256: bf59b25845e7e150a4fc5828f5b42eaec557a500873d9bb78b35de8c1ab554c4
+Description: query IP addresses against known DNSBL reputation blacklists
+ Defensive security analysis and hardening utility providing query IP addresses against known DNSBL reputation blacklists for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: asn-threat-lookup
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: admin
+Priority: optional
+Filename: pool/main/asn-threat-lookup_1.0.0-1_aarch64.deb
+Size: 2000
+MD5sum: 8c3f745e53b29ce97165b3f14ba077c8
+SHA1: 9788f759f796c946413cdc492a9c91021ae5f8de
+SHA256: 8376bd7759161229d842e155c076c7bde7837e5c813c6fd7a770d4ded36573ad
+Description: inspect autonomous system number network risk scores
+ Defensive security analysis and hardening utility providing inspect autonomous system number network risk scores for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: dns-zone-transfer-chk
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: admin
+Priority: optional
+Filename: pool/main/dns-zone-transfer-chk_1.0.0-1_aarch64.deb
+Size: 2000
+MD5sum: 87ff33da19e1c85547c9894353cbc373
+SHA1: 97c975963a7a43d1cb9a496b97018ab70c962469
+SHA256: 95c1cd645083e2a523cf710379ba368ac9c19959c337b6262677091066b0697b
+Description: test DNS servers for insecure AXFR zone transfer allowance
+ Defensive security analysis and hardening utility providing test DNS servers for insecure AXFR zone transfer allowance for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: cors-misconfig-chk
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: admin
+Priority: optional
+Filename: pool/main/cors-misconfig-chk_1.0.0-1_aarch64.deb
+Size: 1988
+MD5sum: 56c2d4eec822cd12a27271c6c5eb7064
+SHA1: 0238355325633e4fa4f4b3d90d423fe7646332b3
+SHA256: 6b857d2d4fdbd616b26736932e538eafc2b2b024f1c8ea8c58db512513208af9
+Description: detect insecure CORS wildcard origin reflections
+ Defensive security analysis and hardening utility providing detect insecure CORS wildcard origin reflections for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: cookie-security-chk
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: admin
+Priority: optional
+Filename: pool/main/cookie-security-chk_1.0.0-1_aarch64.deb
+Size: 2000
+MD5sum: 88bc5e8bfd43635524b0243b8efc94da
+SHA1: 4310c118a66cb5c0e515a823f71a9e441d3c1eb9
+SHA256: d315345c976bf92cdd586deda673846a7ead29e297bf5cb9f4fec9ee25e15f89
+Description: verify Secure, HttpOnly, and SameSite flags on HTTP cookies
+ Defensive security analysis and hardening utility providing verify Secure, HttpOnly, and SameSite flags on HTTP cookies for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: hsts-header-verifier
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: admin
+Priority: optional
+Filename: pool/main/hsts-header-verifier_1.0.0-1_aarch64.deb
+Size: 2016
+MD5sum: db6853e6bdb1cdc14c9bc5a15750eddb
+SHA1: a39bfffc5a8263c298f516010b385feea8913410
+SHA256: e5d831dd01ef3acff0b2822d68392833458e6bc9ea3a0f5bcc8f7eb473f888b5
+Description: verify Strict-Transport-Security preload and max-age settings
+ Defensive security analysis and hardening utility providing verify Strict-Transport-Security preload and max-age settings for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: csp-header-analyzer
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: admin
+Priority: optional
+Filename: pool/main/csp-header-analyzer_1.0.0-1_aarch64.deb
+Size: 2008
+MD5sum: d2ba02a76eb60e2c5760438d11d7e014
+SHA1: 59eec241918893934d5a04e467d3d98c74cf2a6d
+SHA256: 3abaa6c121342605f4fca33ff393cf0ad4603b8ec7b0893415737b9c73db7350
+Description: analyze Content-Security-Policy rules for unsafe-inline or wildcards
+ Defensive security analysis and hardening utility providing analyze Content-Security-Policy rules for unsafe-inline or wildcards for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: subdomain-takeover-chk
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: admin
+Priority: optional
+Filename: pool/main/subdomain-takeover-chk_1.0.0-1_aarch64.deb
+Size: 2008
+MD5sum: b127d90bd6ff60cf319a35263a383ccc
+SHA1: 7a1d6c0c38ffca79712767457928522e43e41c47
+SHA256: f787d9e52f0064d980df641ade3232cf618aa52f33960c9d94b225d90d85243c
+Description: detect dangling CNAME pointers to decommissioned services
+ Defensive security analysis and hardening utility providing detect dangling CNAME pointers to decommissioned services for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: email-spf-verifier
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: admin
+Priority: optional
+Filename: pool/main/email-spf-verifier_1.0.0-1_aarch64.deb
+Size: 2004
+MD5sum: 26ac483b6038766f023a391124d8e40f
+SHA1: f2b21e6bef0af18a598a9b753f532bc384d2a792
+SHA256: 3cd24c0d5e6ec500825b222a8b35a5a26a0fd55479e4bca0cf098e1c397bafb2
+Description: query and validate Sender Policy Framework DNS records
+ Defensive security analysis and hardening utility providing query and validate Sender Policy Framework DNS records for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: email-dkim-verifier
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: admin
+Priority: optional
+Filename: pool/main/email-dkim-verifier_1.0.0-1_aarch64.deb
+Size: 2008
+MD5sum: f2ac2ac9d078668a301110061283bd54
+SHA1: 19dab849baad98e26774c6ff04da07db9676b28b
+SHA256: 494ff8dc98d809143c27e821389feb3b289575b529d32e7cc20014d1e5a15249
+Description: query DomainKeys Identified Mail DNS records for selectors
+ Defensive security analysis and hardening utility providing query DomainKeys Identified Mail DNS records for selectors for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: email-dmarc-verifier
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: admin
+Priority: optional
+Filename: pool/main/email-dmarc-verifier_1.0.0-1_aarch64.deb
+Size: 1996
+MD5sum: 2139b390dc79ed4fa0cb75e21e48a4f0
+SHA1: ae7995e88169920ceaac46828aa300d0e8283b11
+SHA256: 572896258bd39a06bf5d423b6c4afe7788b7064a4648000b6cfa271a4b0a05d9
+Description: query and validate DMARC rejection policy records
+ Defensive security analysis and hardening utility providing query and validate DMARC rejection policy records for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: suid-sgid-auditor
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: admin
+Priority: optional
+Filename: pool/main/suid-sgid-auditor_1.0.0-1_aarch64.deb
+Size: 2008
+MD5sum: 774265446d5154cdcce1ccfeb08b88bd
+SHA1: a71b8e4ca151446a0ac4a79b7e758bf7be7460c8
+SHA256: 298c01eac16a5af50ed1802d47aaabb4c48ed19f6fb804b2d993d85bd2a189c9
+Description: scan directory paths for insecure SUID/SGID executable bits
+ Defensive security analysis and hardening utility providing scan directory paths for insecure SUID/SGID executable bits for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: world-writable-auditor
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: admin
+Priority: optional
+Filename: pool/main/world-writable-auditor_1.0.0-1_aarch64.deb
+Size: 1988
+MD5sum: 90777bf48257f135f015ee6a3b986279
+SHA1: 52810d71bc317d5aa62ce6c083e897dbd6421729
+SHA256: 51524b901a6b461006a3a47331e60348e26963c46d635ef570d521d1cf8f4d64
+Description: scan directory paths for world-writable files and directories
+ Defensive security analysis and hardening utility providing scan directory paths for world-writable files and directories for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: symlink-target-auditor
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: admin
+Priority: optional
+Filename: pool/main/symlink-target-auditor_1.0.0-1_aarch64.deb
+Size: 2012
+MD5sum: 28ece7e3323943c26d505dc77577a1e7
+SHA1: a46b5a37f3eec0a3566241fe2b85f2a54bacb9ad
+SHA256: b7dacb5b32abcab07cc3a27d600198b4b1e99ce5370b6a455512cc0b93dc0c3b
+Description: audit symbolic links for dangling or relative escape targets
+ Defensive security analysis and hardening utility providing audit symbolic links for dangling or relative escape targets for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: env-sanitizer-cli
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: admin
+Priority: optional
+Filename: pool/main/env-sanitizer-cli_1.0.0-1_aarch64.deb
+Size: 2000
+MD5sum: ac33e3634cb9e3b75b6a97f30f047a91
+SHA1: c577ca55231413e4e0d2708e82b9c876889db75b
+SHA256: 186a876d8441b591ddd3d9a92bfe9c61dbb06d9219525221c21653568b328687
+Description: sanitize environment variables before spawning untrusted processes
+ Defensive security analysis and hardening utility providing sanitize environment variables before spawning untrusted processes for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: command-jail-runner
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: admin
+Priority: optional
+Filename: pool/main/command-jail-runner_1.0.0-1_aarch64.deb
+Size: 2000
+MD5sum: 509c6132869b9340ba87c058397a468a
+SHA1: a13d863a788ddde02495ecd03497fbdf56128ab5
+SHA256: 51316552d50edf4dc97bc3bbfad7946a502e0ae0bc2414a13253d6032e87b24a
+Description: execute subprocesses with restricted environment and file limits
+ Defensive security analysis and hardening utility providing execute subprocesses with restricted environment and file limits for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: process-fd-auditor
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: admin
+Priority: optional
+Filename: pool/main/process-fd-auditor_1.0.0-1_aarch64.deb
+Size: 1996
+MD5sum: 371eca6e6a375f37b819e33a2c118b43
+SHA1: 16a94d2f9afb0d3cf23eaef171ab35b4d5fda2b5
+SHA256: cd7ecaf1fd8a39e10e43ec8ffcebde141e1b5fa31743f1072a4744078d40dd78
+Description: audit open file descriptors and socket handles for local processes
+ Defensive security analysis and hardening utility providing audit open file descriptors and socket handles for local processes for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: network-listening-ports
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: admin
+Priority: optional
+Filename: pool/main/network-listening-ports_1.0.0-1_aarch64.deb
+Size: 2008
+MD5sum: 6484f01c90ac3f0eaa0ae29e18197a30
+SHA1: 15b3817b421eb6b01896855fe668d39ef055a2c7
+SHA256: 4011e8a46280fb9165099a42710941424e54d3572103ffab04e3233df36a71e1
+Description: audit active TCP and UDP listening sockets in Android sandbox
+ Defensive security analysis and hardening utility providing audit active TCP and UDP listening sockets in Android sandbox for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: sha256-integrity-signer
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: admin
+Priority: optional
+Filename: pool/main/sha256-integrity-signer_1.0.0-1_aarch64.deb
+Size: 2004
+MD5sum: cc05e8371fda6b0e6711cd03b6901bca
+SHA1: e1c164890109d15d8489d1e5622a83e0c7166ed3
+SHA256: 5cee8caaa328a21a8fa0dcbb9f09ef49a279e59a6930ffb6980db7fa264f4c47
+Description: create cryptographically signed SHA-256 integrity manifests
+ Defensive security analysis and hardening utility providing create cryptographically signed SHA-256 integrity manifests for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: sha256-integrity-verify
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: admin
+Priority: optional
+Filename: pool/main/sha256-integrity-verify_1.0.0-1_aarch64.deb
+Size: 2004
+MD5sum: 94351a22e0599b7fa27aa96ff016a154
+SHA1: 77f5524fb1cbbc8fa9925b0f034473d1c70534ff
+SHA256: 0b312d0f043fc1a8d621b3d4d016a9351d7dcd27a48a3c84793fc770f816a126
+Description: verify cryptographically signed SHA-256 integrity manifests
+ Defensive security analysis and hardening utility providing verify cryptographically signed SHA-256 integrity manifests for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: key-pair-generator-cli
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: admin
+Priority: optional
+Filename: pool/main/key-pair-generator-cli_1.0.0-1_aarch64.deb
+Size: 2004
+MD5sum: acf4b2eb1d6b6fda77b1cdb4487988c0
+SHA1: 9dd2cea952dc9d5ee74a2dbeb1e480fb5c2830be
+SHA256: 5b55a5bafbc342cb557a949ac797f9198e700571afe85366ea9f64c1cd40bfce
+Description: generate RSA and Ed25519 key pairs for application signing
+ Defensive security analysis and hardening utility providing generate RSA and Ed25519 key pairs for application signing for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: csr-request-builder
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: admin
+Priority: optional
+Filename: pool/main/csr-request-builder_1.0.0-1_aarch64.deb
+Size: 2012
+MD5sum: 316bb607b010d6e9aacd682fd6a5c204
+SHA1: 17e67f91bd7f0b45118a1f2cf7ca4f9f0d90193f
+SHA256: 0335c342d7d7f95cbce7f595b124fb1e9593097e6bae5908983bb3157664c42a
+Description: generate Certificate Signing Requests with custom SAN extensions
+ Defensive security analysis and hardening utility providing generate Certificate Signing Requests with custom SAN extensions for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: x509-cert-inspector
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: admin
+Priority: optional
+Filename: pool/main/x509-cert-inspector_1.0.0-1_aarch64.deb
+Size: 1992
+MD5sum: 560ccdd854ad0bbdc8224c23320f59c2
+SHA1: 413e4f359ceb75dd98dbefcf17acfe5669ee387c
+SHA256: a5502da1fee7b80f8b8adbaa6c010bdc973224618c572c13a2a4068a1e10169d
+Description: decode and inspect X.509 certificate fields and extensions
+ Defensive security analysis and hardening utility providing decode and inspect X.509 certificate fields and extensions for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: crl-revocation-checker
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: admin
+Priority: optional
+Filename: pool/main/crl-revocation-checker_1.0.0-1_aarch64.deb
+Size: 2012
+MD5sum: 3deb929377529f3a8f9088b00df0f80e
+SHA1: 4cbcc1f1648008abbf80a4c347129bacc774b666
+SHA256: 48beb8c413ab26b0f3f6ebb2adce8d4101b487a885f8f4c8a106a0db04e4fa13
+Description: download and check Certificate Revocation Lists for revoked serials
+ Defensive security analysis and hardening utility providing download and check Certificate Revocation Lists for revoked serials for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
+
+Package: ocsp-response-checker
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Installed-Size: 4
+Section: admin
+Priority: optional
+Filename: pool/main/ocsp-response-checker_1.0.0-1_aarch64.deb
+Size: 2016
+MD5sum: b6717353afa350144134e4e3411729c5
+SHA1: c800df73edef41d00aa3166d43e5c566586557b9
+SHA256: 080683e4ed2456e084f3668cef9ce1a4b8dcc545be00b56e73011969687e3bd9
+Description: query Online Certificate Status Protocol servers for certificate status
+ Defensive security analysis and hardening utility providing query Online Certificate Status Protocol servers for certificate status for the OceanStudio
+ environment on Android AArch64. Built from official upstream source and
+ packaged with full compliance to Ocean prefix specifications.
