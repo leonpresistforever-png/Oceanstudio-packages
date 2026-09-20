@@ -1,361 +1,513 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "shard": "shard-18-code-lint-analysis",
-  "section": "devel",
   "category": "Code Quality & Static Analysis",
+  "repair": "placeholder-to-functional",
   "target": "aarch64-linux-android28",
   "prefix": "/data/data/studio.ocean.app/files/usr",
   "packageCount": 50,
+  "uniquePackageCount": 50,
+  "version": "1.0.0-2",
   "packages": [
     {
       "package": "cyclomatic-complexity",
-      "version": "1.0.0-1",
-      "artifact": "cyclomatic-complexity_1.0.0-1_aarch64.deb",
-      "sha256": "9febea46de5df66d4d74b5685557d4a7247dfa89e937e27b65e98690f20a7926",
-      "size": 2132
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "cyclomatic-complexity_1.0.0-2_aarch64.deb",
+      "sha256": "d5050259a193315ba3841b1fc091ac33dcbcdb901fa72e2d271a876849d3d506",
+      "size": 6188,
+      "implementation": "sources/functional-shards/shard18_analysis.py",
+      "status": "functional-repair"
     },
     {
       "package": "halstead-metric-calc",
-      "version": "1.0.0-1",
-      "artifact": "halstead-metric-calc_1.0.0-1_aarch64.deb",
-      "sha256": "22e2ecab45ee8a1f01696bfc2f43a4e4bf7102f46143724ed2bea48ed656f7e8",
-      "size": 2156
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "halstead-metric-calc_1.0.0-2_aarch64.deb",
+      "sha256": "3401f2fa5b5c82eebfd1045885f264085b7d596ff52272f669ad34cf0c68b2be",
+      "size": 6196,
+      "implementation": "sources/functional-shards/shard18_analysis.py",
+      "status": "functional-repair"
     },
     {
       "package": "lines-of-code-counter",
-      "version": "1.0.0-1",
-      "artifact": "lines-of-code-counter_1.0.0-1_aarch64.deb",
-      "sha256": "67162c99f6897d96acfffc98be8872748726c2a6cdfff5461dfd1bbfbb355d5c",
-      "size": 2136
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "lines-of-code-counter_1.0.0-2_aarch64.deb",
+      "sha256": "1adbd81832d9e17f288ed8c9718456d1dd63779a68c9f53177d8c92b73bb244c",
+      "size": 6188,
+      "implementation": "sources/functional-shards/shard18_analysis.py",
+      "status": "functional-repair"
     },
     {
       "package": "sloccount-lightweight",
-      "version": "1.0.0-1",
-      "artifact": "sloccount-lightweight_1.0.0-1_aarch64.deb",
-      "sha256": "2a00a2f666325ac86a30e0ef1f2e6ca061cb8b8fe946e2a11b748963063d7da8",
-      "size": 2144
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "sloccount-lightweight_1.0.0-2_aarch64.deb",
+      "sha256": "a11fe23a97a51565385367cbd4e89eb0f12bf2308b43363993bc58bb78e39ec5",
+      "size": 6200,
+      "implementation": "sources/functional-shards/shard18_analysis.py",
+      "status": "functional-repair"
     },
     {
       "package": "maintainability-index",
-      "version": "1.0.0-1",
-      "artifact": "maintainability-index_1.0.0-1_aarch64.deb",
-      "sha256": "88a2f5431d19eaf8de5cf14c8250bf14d96a171ca95029390cbd8e9163749ef1",
-      "size": 2144
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "maintainability-index_1.0.0-2_aarch64.deb",
+      "sha256": "bb5c9f49091c542b6a9c586e1c44819f70022321a3ecc79d0a3224cbbae6b208",
+      "size": 6188,
+      "implementation": "sources/functional-shards/shard18_analysis.py",
+      "status": "functional-repair"
     },
     {
       "package": "cognitive-complexity",
-      "version": "1.0.0-1",
-      "artifact": "cognitive-complexity_1.0.0-1_aarch64.deb",
-      "sha256": "f42b054dce19ae14ebbf389e2e52e2a753230352b48498c0e3b84dcb1b1e638b",
-      "size": 2136
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "cognitive-complexity_1.0.0-2_aarch64.deb",
+      "sha256": "40c055bdc996bd3c1e7fdd4607940e4af16d267a93f8a8f2a7113f6127b947b5",
+      "size": 6196,
+      "implementation": "sources/functional-shards/shard18_analysis.py",
+      "status": "functional-repair"
     },
     {
       "package": "dead-code-finder",
-      "version": "1.0.0-1",
-      "artifact": "dead-code-finder_1.0.0-1_aarch64.deb",
-      "sha256": "030639687a91d7ee935abd743a7e168c3e3f1aaf56fe8daa2ebf04e0375ee34d",
-      "size": 2120
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "dead-code-finder_1.0.0-2_aarch64.deb",
+      "sha256": "80a6b1f76d4709b501db02cc1e0d302c16263ea0d248de5f33e8b3d04e98a3cf",
+      "size": 6188,
+      "implementation": "sources/functional-shards/shard18_analysis.py",
+      "status": "functional-repair"
     },
     {
       "package": "unreachable-code-chk",
-      "version": "1.0.0-1",
-      "artifact": "unreachable-code-chk_1.0.0-1_aarch64.deb",
-      "sha256": "e2712af4ff40a16b4ea4ae787c1b00b2ce72d8300ffecba0f73590ff342b6bbd",
-      "size": 2156
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "unreachable-code-chk_1.0.0-2_aarch64.deb",
+      "sha256": "cd6dca0ca1ac1ce5b3fce4ea78bf6b4b76336d4b8a9a851f7081fed01b4e3a50",
+      "size": 6200,
+      "implementation": "sources/functional-shards/shard18_analysis.py",
+      "status": "functional-repair"
     },
     {
       "package": "cyclomatic-depth-tree",
-      "version": "1.0.0-1",
-      "artifact": "cyclomatic-depth-tree_1.0.0-1_aarch64.deb",
-      "sha256": "88bdb9c3e6c53545849c5012c1c7628a0ce90977a72fc45b08209f7de0756782",
-      "size": 2144
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "cyclomatic-depth-tree_1.0.0-2_aarch64.deb",
+      "sha256": "1490255aa68e719c8fad7fec0897cafb14ac04c3e6ef1e46047f1b403ac3f047",
+      "size": 6184,
+      "implementation": "sources/functional-shards/shard18_analysis.py",
+      "status": "functional-repair"
     },
     {
       "package": "switch-fallthrough-chk",
-      "version": "1.0.0-1",
-      "artifact": "switch-fallthrough-chk_1.0.0-1_aarch64.deb",
-      "sha256": "4c25f4ff45faa12e49024fbf844be913da22d69ba1d8f0e10e3572d7e3381b2d",
-      "size": 2144
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "switch-fallthrough-chk_1.0.0-2_aarch64.deb",
+      "sha256": "81373391b7ce310271d1cfa5ac66f657b115462ba7d7fb4c609972bb1366ec53",
+      "size": 6180,
+      "implementation": "sources/functional-shards/shard18_analysis.py",
+      "status": "functional-repair"
     },
     {
       "package": "null-pointer-deref-chk",
-      "version": "1.0.0-1",
-      "artifact": "null-pointer-deref-chk_1.0.0-1_aarch64.deb",
-      "sha256": "4083c2a52d58e2271589cce00f6b6e3bc54fb49a388262e06b27fcf2cd2cbd8d",
-      "size": 2156
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "null-pointer-deref-chk_1.0.0-2_aarch64.deb",
+      "sha256": "1a00c86d06d99cc1617c2071bc38b69727768767db34ec0385770eb6066a309f",
+      "size": 6192,
+      "implementation": "sources/functional-shards/shard18_analysis.py",
+      "status": "functional-repair"
     },
     {
       "package": "buffer-overflow-pattern",
-      "version": "1.0.0-1",
-      "artifact": "buffer-overflow-pattern_1.0.0-1_aarch64.deb",
-      "sha256": "9bb9d102f7a56201f78db2320bef40008d25024a1b305b629ac58832e1c26489",
-      "size": 2164
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "buffer-overflow-pattern_1.0.0-2_aarch64.deb",
+      "sha256": "64341ae80d7b9ce1081ecbaf87586175f0cda2381789cfbe6fc04cff713db0e0",
+      "size": 6196,
+      "implementation": "sources/functional-shards/shard18_analysis.py",
+      "status": "functional-repair"
     },
     {
       "package": "format-string-vuln-chk",
-      "version": "1.0.0-1",
-      "artifact": "format-string-vuln-chk_1.0.0-1_aarch64.deb",
-      "sha256": "454154e90656d53c4e377ea1e9e03f6e92dcca1cd7ed324b767460636c39f18e",
-      "size": 2140
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "format-string-vuln-chk_1.0.0-2_aarch64.deb",
+      "sha256": "175dda8ea586b8b3362af789c164971997edbbd2392790c10faf8476614392be",
+      "size": 6192,
+      "implementation": "sources/functional-shards/shard18_analysis.py",
+      "status": "functional-repair"
     },
     {
       "package": "integer-overflow-chk",
-      "version": "1.0.0-1",
-      "artifact": "integer-overflow-chk_1.0.0-1_aarch64.deb",
-      "sha256": "ec8963ef93a6906088506ec960c96cd4c0088ca1b0a71d172c4c234b688b9488",
-      "size": 2148
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "integer-overflow-chk_1.0.0-2_aarch64.deb",
+      "sha256": "66038a12b97787147b74492daa3b83a422bf2f630945c88a89296823f81974b9",
+      "size": 6192,
+      "implementation": "sources/functional-shards/shard18_analysis.py",
+      "status": "functional-repair"
     },
     {
       "package": "uninitialized-var-chk",
-      "version": "1.0.0-1",
-      "artifact": "uninitialized-var-chk_1.0.0-1_aarch64.deb",
-      "sha256": "cb867db536f89a98a24f20d0ce0470dd4ab7e0b0c002db9679584ff9bd2e851c",
-      "size": 2152
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "uninitialized-var-chk_1.0.0-2_aarch64.deb",
+      "sha256": "e7b252ff5a00190dbb89675edf2a159c05b4eb3d17b599f4a81e14a7422de196",
+      "size": 6184,
+      "implementation": "sources/functional-shards/shard18_analysis.py",
+      "status": "functional-repair"
     },
     {
       "package": "memory-leak-pattern",
-      "version": "1.0.0-1",
-      "artifact": "memory-leak-pattern_1.0.0-1_aarch64.deb",
-      "sha256": "1ee0b7102d9c022d1c640c6ec07a129724964ea21e1473523db305f86e447d07",
-      "size": 2152
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "memory-leak-pattern_1.0.0-2_aarch64.deb",
+      "sha256": "2dcbb459d6e885a060dcfbbf1f37bc9954883c48e5be3c3e51109465c2c8e124",
+      "size": 6192,
+      "implementation": "sources/functional-shards/shard18_analysis.py",
+      "status": "functional-repair"
     },
     {
       "package": "resource-leak-detector",
-      "version": "1.0.0-1",
-      "artifact": "resource-leak-detector_1.0.0-1_aarch64.deb",
-      "sha256": "36d5bce5af03584caeaf2e166d59f33a56c3db5abc77e5018a8046a5a42d7ee3",
-      "size": 2156
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "resource-leak-detector_1.0.0-2_aarch64.deb",
+      "sha256": "67ef1ac2715d12191ef9e0b379574e2c656be9022519435b644d39becab0415b",
+      "size": 6196,
+      "implementation": "sources/functional-shards/shard18_analysis.py",
+      "status": "functional-repair"
     },
     {
       "package": "race-condition-pattern",
-      "version": "1.0.0-1",
-      "artifact": "race-condition-pattern_1.0.0-1_aarch64.deb",
-      "sha256": "a0c6d032ae8ea73f946987af48eb010a2c14cbb927a85aacf31c845dd1f63f89",
-      "size": 2160
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "race-condition-pattern_1.0.0-2_aarch64.deb",
+      "sha256": "cddc128e6631d991e50900e0f70c1845feecef33b0ada3c9cc170f54b90cfb00",
+      "size": 6204,
+      "implementation": "sources/functional-shards/shard18_analysis.py",
+      "status": "functional-repair"
     },
     {
       "package": "lock-inversion-finder",
-      "version": "1.0.0-1",
-      "artifact": "lock-inversion-finder_1.0.0-1_aarch64.deb",
-      "sha256": "ef9fe8c66c24cc8c22348d946c965d8464bd436ab7243f818c489cc77fec32e6",
-      "size": 2140
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "lock-inversion-finder_1.0.0-2_aarch64.deb",
+      "sha256": "a0c608472e5c02cd9aa54b1226fbb0b067f901fb8de7962b0aba4b8fe8923572",
+      "size": 6188,
+      "implementation": "sources/functional-shards/shard18_analysis.py",
+      "status": "functional-repair"
     },
     {
       "package": "deadlock-cycle-checker",
-      "version": "1.0.0-1",
-      "artifact": "deadlock-cycle-checker_1.0.0-1_aarch64.deb",
-      "sha256": "23e35130deef9b8b5bd23fc915cddb0f6be7d7ca40f4c8e0c056d3d925229677",
-      "size": 2144
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "deadlock-cycle-checker_1.0.0-2_aarch64.deb",
+      "sha256": "94c24123130529913bdc5aeead98fe74b88ee4b1c97c0dc6f84638d151ce935e",
+      "size": 6188,
+      "implementation": "sources/functional-shards/shard18_analysis.py",
+      "status": "functional-repair"
     },
     {
       "package": "dep-graph-generator",
-      "version": "1.0.0-1",
-      "artifact": "dep-graph-generator_1.0.0-1_aarch64.deb",
-      "sha256": "a668cdbeba6456309edada810bfb2f68a7892f8a86f73a7d1d64696642f162b3",
-      "size": 2152
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "dep-graph-generator_1.0.0-2_aarch64.deb",
+      "sha256": "3816bf6ab8055076d7c1ca6df6fb3ba07b9dadd545ee8d880fe36853a91a8167",
+      "size": 6196,
+      "implementation": "sources/functional-shards/shard18_analysis.py",
+      "status": "functional-repair"
     },
     {
       "package": "circular-dep-detector",
-      "version": "1.0.0-1",
-      "artifact": "circular-dep-detector_1.0.0-1_aarch64.deb",
-      "sha256": "acfa30ed4bfff4e4647426b9483d210964357a1f77e0980f16d2a4998dd51077",
-      "size": 2140
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "circular-dep-detector_1.0.0-2_aarch64.deb",
+      "sha256": "67d6220956d3878f336c67a818545efc23925d5ab051888afbfbe1f02748ca49",
+      "size": 6180,
+      "implementation": "sources/functional-shards/shard18_analysis.py",
+      "status": "functional-repair"
     },
     {
       "package": "unused-include-finder",
-      "version": "1.0.0-1",
-      "artifact": "unused-include-finder_1.0.0-1_aarch64.deb",
-      "sha256": "4a225b09c7692613f2c9d6b6386b347addf507a4ac0120a68d5848e7b0c86d63",
-      "size": 2156
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "unused-include-finder_1.0.0-2_aarch64.deb",
+      "sha256": "5858f462bf2057c8e07d7959fcccd4db2f86ce72233e335a499c259c19f19cd1",
+      "size": 6196,
+      "implementation": "sources/functional-shards/shard18_analysis.py",
+      "status": "functional-repair"
     },
     {
       "package": "header-dependency-tree",
-      "version": "1.0.0-1",
-      "artifact": "header-dependency-tree_1.0.0-1_aarch64.deb",
-      "sha256": "392e8c33b799929cd38e6c1d303175caecec7ae7e65dd28969ef2e2e4ff1ecc7",
-      "size": 2148
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "header-dependency-tree_1.0.0-2_aarch64.deb",
+      "sha256": "ae5d2fd3109bb9313fa2454ce0e4aaaca8e786c336b25ba3330d0acf60809af4",
+      "size": 6192,
+      "implementation": "sources/functional-shards/shard18_analysis.py",
+      "status": "functional-repair"
     },
     {
       "package": "c-symbol-coverage",
-      "version": "1.0.0-1",
-      "artifact": "c-symbol-coverage_1.0.0-1_aarch64.deb",
-      "sha256": "0f6a40b448fa7a6b58912a35400bdb2036f81f1599562901b691b518da0645b9",
-      "size": 2148
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "c-symbol-coverage_1.0.0-2_aarch64.deb",
+      "sha256": "f672663cad3754c6e9630993461eef2d6b759571fa31fc187057c5c43afeb3a1",
+      "size": 6184,
+      "implementation": "sources/functional-shards/shard18_analysis.py",
+      "status": "functional-repair"
     },
     {
       "package": "py-ast-linter-lite",
-      "version": "1.0.0-1",
-      "artifact": "py-ast-linter-lite_1.0.0-1_aarch64.deb",
-      "sha256": "2e1ab20e951253f793f81aa86a7abbafef455772210789c1e7be66db4459467d",
-      "size": 2156
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "py-ast-linter-lite_1.0.0-2_aarch64.deb",
+      "sha256": "bd92f9aa226eb67a0a29ac6fdcc5944feb9990554db26196729ec8dd5f270ced",
+      "size": 6196,
+      "implementation": "sources/functional-shards/shard18_analysis.py",
+      "status": "functional-repair"
     },
     {
       "package": "js-ast-syntax-checker",
-      "version": "1.0.0-1",
-      "artifact": "js-ast-syntax-checker_1.0.0-1_aarch64.deb",
-      "sha256": "d106c6ca339cd265249bf62b1df059270afcabe6d63cf2c52bb26cf644a42c6b",
-      "size": 2156
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "js-ast-syntax-checker_1.0.0-2_aarch64.deb",
+      "sha256": "39c6dfde30437d7a6576ffcf4006cef9a4efd966200be4deef6e58bedb28aa84",
+      "size": 6200,
+      "implementation": "sources/functional-shards/shard18_analysis.py",
+      "status": "functional-repair"
     },
     {
       "package": "rust-syntax-validator",
-      "version": "1.0.0-1",
-      "artifact": "rust-syntax-validator_1.0.0-1_aarch64.deb",
-      "sha256": "70a549601242bbb8ed70a4abb47db51c32e378542d8bd5d7ca42bd852a4fad67",
-      "size": 2168
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "rust-syntax-validator_1.0.0-2_aarch64.deb",
+      "sha256": "7424e7809737e14ca34372a652a05f46d9dbacd0497d6e22e22af767761b5a6c",
+      "size": 6208,
+      "implementation": "sources/functional-shards/shard18_analysis.py",
+      "status": "functional-repair"
     },
     {
       "package": "go-ast-token-scanner",
-      "version": "1.0.0-1",
-      "artifact": "go-ast-token-scanner_1.0.0-1_aarch64.deb",
-      "sha256": "86a37de540463b46ded30b0d32ff2b1df0d9e7a8598b3e4e9c5b065b206d29d5",
-      "size": 2152
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "go-ast-token-scanner_1.0.0-2_aarch64.deb",
+      "sha256": "b8c4a8cd20afd97663ce514c13b69411a318edff9dfa1a4862a3491aa5915a50",
+      "size": 6200,
+      "implementation": "sources/functional-shards/shard18_analysis.py",
+      "status": "functional-repair"
     },
     {
       "package": "shell-posix-validator",
-      "version": "1.0.0-1",
-      "artifact": "shell-posix-validator_1.0.0-1_aarch64.deb",
-      "sha256": "1b27d2f1c6cfa70d6a6a78d8054e7f7786c1ef85038504de72256ad8d2c462aa",
-      "size": 2152
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "shell-posix-validator_1.0.0-2_aarch64.deb",
+      "sha256": "b22fb2f5b79a1dcde6e98108d5de2e86487fbc21d4b5149dcc2cc901ef8616a3",
+      "size": 6212,
+      "implementation": "sources/functional-shards/shard18_analysis.py",
+      "status": "functional-repair"
     },
     {
       "package": "makefile-syntax-linter",
-      "version": "1.0.0-1",
-      "artifact": "makefile-syntax-linter_1.0.0-1_aarch64.deb",
-      "sha256": "0741ebfee1b385db553525eb0f70429637709f0dc63283a5688302951cd97936",
-      "size": 2156
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "makefile-syntax-linter_1.0.0-2_aarch64.deb",
+      "sha256": "90b4cc284bb5e7c69efce29815f156b00838ca5539bd6caf2b67b3453976c620",
+      "size": 6204,
+      "implementation": "sources/functional-shards/shard18_analysis.py",
+      "status": "functional-repair"
     },
     {
       "package": "cmake-syntax-checker",
-      "version": "1.0.0-1",
-      "artifact": "cmake-syntax-checker_1.0.0-1_aarch64.deb",
-      "sha256": "0fb5f343304f509578f78fc5c1449c10cc94cf6971e2203c85f3169eb9a7b2ab",
-      "size": 2164
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "cmake-syntax-checker_1.0.0-2_aarch64.deb",
+      "sha256": "2f0fd6d24091a5584cd891ed6f629acbcc18fbe7ea7f9394132d44211122c20c",
+      "size": 6208,
+      "implementation": "sources/functional-shards/shard18_analysis.py",
+      "status": "functional-repair"
     },
     {
       "package": "meson-build-validator",
-      "version": "1.0.0-1",
-      "artifact": "meson-build-validator_1.0.0-1_aarch64.deb",
-      "sha256": "2b85e8b61e0f647abdbbac55d648b055604cb8a3b245b899847903940fc6cca0",
-      "size": 2148
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "meson-build-validator_1.0.0-2_aarch64.deb",
+      "sha256": "59d8e8c65c5ea237f6f43334de3a878c1b16fd32c6fc69b5ccc3c064e6e267a8",
+      "size": 6192,
+      "implementation": "sources/functional-shards/shard18_analysis.py",
+      "status": "functional-repair"
     },
     {
       "package": "ninja-graph-visualize",
-      "version": "1.0.0-1",
-      "artifact": "ninja-graph-visualize_1.0.0-1_aarch64.deb",
-      "sha256": "83cf2234d90eab6d8b4ac1b36a4baff20a33c73f99ead9de499721bcea7ed23e",
-      "size": 2156
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "ninja-graph-visualize_1.0.0-2_aarch64.deb",
+      "sha256": "67cd159dfb39fb3ebfad3a7ac86b765549b26481d495a876b8e03dadee2afa6d",
+      "size": 6192,
+      "implementation": "sources/functional-shards/shard18_analysis.py",
+      "status": "functional-repair"
     },
     {
       "package": "pkgconfig-file-linter",
-      "version": "1.0.0-1",
-      "artifact": "pkgconfig-file-linter_1.0.0-1_aarch64.deb",
-      "sha256": "269ccb88a9da699a30ac012657efdaecae159a0550a31b8f6b3416ce3e6c8cc7",
-      "size": 2152
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "pkgconfig-file-linter_1.0.0-2_aarch64.deb",
+      "sha256": "6ff4b6d114bbe252efed79a83b48ca66a9604e88c6147650b8e03f8107596f9c",
+      "size": 6192,
+      "implementation": "sources/functional-shards/shard18_analysis.py",
+      "status": "functional-repair"
     },
     {
       "package": "api-version-diff-tool",
-      "version": "1.0.0-1",
-      "artifact": "api-version-diff-tool_1.0.0-1_aarch64.deb",
-      "sha256": "047036a9f7972efd6d55eb7d860aa2c1ce65e5c99f4d6ac93756f11bcebb3165",
-      "size": 2144
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "api-version-diff-tool_1.0.0-2_aarch64.deb",
+      "sha256": "981b96f960cddb8c8e531f475146fe99ae34495fd2b44caa7fcef9f13c4b2baf",
+      "size": 6196,
+      "implementation": "sources/functional-shards/shard18_analysis.py",
+      "status": "functional-repair"
     },
     {
       "package": "semver-bump-calculator",
-      "version": "1.0.0-1",
-      "artifact": "semver-bump-calculator_1.0.0-1_aarch64.deb",
-      "sha256": "8b00cb831127f1badab1c8601ac3356960448488c266e6c8793ec8659ecab3a0",
-      "size": 2168
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "semver-bump-calculator_1.0.0-2_aarch64.deb",
+      "sha256": "c1abf291905932a147217fc6b216bc9ff215d4ac0cee479c913631a4b9b0dce8",
+      "size": 6208,
+      "implementation": "sources/functional-shards/shard18_analysis.py",
+      "status": "functional-repair"
     },
     {
       "package": "changelog-linter-tool",
-      "version": "1.0.0-1",
-      "artifact": "changelog-linter-tool_1.0.0-1_aarch64.deb",
-      "sha256": "f230efcc87d51bf38544d475fd680e6710f000d0d56dc67b64c58919fec25b34",
-      "size": 2140
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "changelog-linter-tool_1.0.0-2_aarch64.deb",
+      "sha256": "c6b64c4ee86be0d0fddbac162900f4d919abb8c509f28f1416d5d5e1a8a2434d",
+      "size": 6188,
+      "implementation": "sources/functional-shards/shard18_analysis.py",
+      "status": "functional-repair"
     },
     {
       "package": "license-spdx-checker",
-      "version": "1.0.0-1",
-      "artifact": "license-spdx-checker_1.0.0-1_aarch64.deb",
-      "sha256": "ac7008cdb4ed5b33cc1c35ad6995f4179f875dab9a80135e81fc9f16ac9b09d1",
-      "size": 2152
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "license-spdx-checker_1.0.0-2_aarch64.deb",
+      "sha256": "c72fe7654d18d099b00ff4da060f2b6e874040e02572038bb1ed870c294cd912",
+      "size": 6196,
+      "implementation": "sources/functional-shards/shard18_analysis.py",
+      "status": "functional-repair"
     },
     {
       "package": "license-compatibility",
-      "version": "1.0.0-1",
-      "artifact": "license-compatibility_1.0.0-1_aarch64.deb",
-      "sha256": "18795b2409b1eec53d650725ce49f986a65f58e28f5ac3f6c489e9452cdd8099",
-      "size": 2124
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "license-compatibility_1.0.0-2_aarch64.deb",
+      "sha256": "e19352d4adac6a5056aa4162f551943f5383663005337a45d86c04b892340665",
+      "size": 6192,
+      "implementation": "sources/functional-shards/shard18_analysis.py",
+      "status": "functional-repair"
     },
     {
       "package": "author-attribution-chk",
-      "version": "1.0.0-1",
-      "artifact": "author-attribution-chk_1.0.0-1_aarch64.deb",
-      "sha256": "e6f2a918054daa5a8a9da596b4e541c3a8e1b58399508b4779ff9a074b2a2833",
-      "size": 2148
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "author-attribution-chk_1.0.0-2_aarch64.deb",
+      "sha256": "3bc160cfd642ce815849415ec456c52e2d7e15182a7d5ed48f7983eaf2ccdb32",
+      "size": 6196,
+      "implementation": "sources/functional-shards/shard18_analysis.py",
+      "status": "functional-repair"
     },
     {
       "package": "copyright-year-updater",
-      "version": "1.0.0-1",
-      "artifact": "copyright-year-updater_1.0.0-1_aarch64.deb",
-      "sha256": "51523ae088ec5f3b0c6f69cd4f2d56b11d31c8de1f888bf81f0708b4d0c1daaf",
-      "size": 2148
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "copyright-year-updater_1.0.0-2_aarch64.deb",
+      "sha256": "aea9e2a7b13bec9e37caf005ca56b59f1d39517c9714482c4cf4d6d4e908723a",
+      "size": 6188,
+      "implementation": "sources/functional-shards/shard18_analysis.py",
+      "status": "functional-repair"
     },
     {
       "package": "comment-ratio-metric",
-      "version": "1.0.0-1",
-      "artifact": "comment-ratio-metric_1.0.0-1_aarch64.deb",
-      "sha256": "e6de3e4ffeecaebf0711688d050814ec869868658e124729f781b3d262a70b63",
-      "size": 2136
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "comment-ratio-metric_1.0.0-2_aarch64.deb",
+      "sha256": "50f0473ec6052435bb03e76ea06bbb797186a2c516de8d1cd33ae58e7c242a68",
+      "size": 6196,
+      "implementation": "sources/functional-shards/shard18_analysis.py",
+      "status": "functional-repair"
     },
     {
       "package": "todo-fixme-collector",
-      "version": "1.0.0-1",
-      "artifact": "todo-fixme-collector_1.0.0-1_aarch64.deb",
-      "sha256": "ff9728e4f38564ac05156f964789c46d7460a7ea2efedf62296abc886d1ecc23",
-      "size": 2156
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "todo-fixme-collector_1.0.0-2_aarch64.deb",
+      "sha256": "00ba8592b0eb06a2d2c2be7594ec6c0ccae79ee3c910e6297f9aa14f1792344a",
+      "size": 6200,
+      "implementation": "sources/functional-shards/shard18_analysis.py",
+      "status": "functional-repair"
     },
     {
       "package": "magic-number-detector",
-      "version": "1.0.0-1",
-      "artifact": "magic-number-detector_1.0.0-1_aarch64.deb",
-      "sha256": "064395f121b6553c000ab9e428bb0bc2c12e9e909a3dd1bbf210fa163d506c1a",
-      "size": 2136
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "magic-number-detector_1.0.0-2_aarch64.deb",
+      "sha256": "2c68b448e9f0b778df284d158239d0868b419cac180271453d63190eb0c2bc92",
+      "size": 6180,
+      "implementation": "sources/functional-shards/shard18_analysis.py",
+      "status": "functional-repair"
     },
     {
       "package": "variable-naming-linter",
-      "version": "1.0.0-1",
-      "artifact": "variable-naming-linter_1.0.0-1_aarch64.deb",
-      "sha256": "ca494c949cd5a50ce1e101a01fc7cac2b465cfa164c51c8989b9c5c2bbe74c01",
-      "size": 2152
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "variable-naming-linter_1.0.0-2_aarch64.deb",
+      "sha256": "98dfa0dfb61093a4f817e0c05698addc09a3c25063c1f45a04bc8a5b6f5de6a5",
+      "size": 6192,
+      "implementation": "sources/functional-shards/shard18_analysis.py",
+      "status": "functional-repair"
     },
     {
       "package": "function-length-linter",
-      "version": "1.0.0-1",
-      "artifact": "function-length-linter_1.0.0-1_aarch64.deb",
-      "sha256": "efd68a6a7eaef8d1e29e1a5e5f2dd675117a974d7c64867a030b1740f4dd9fe9",
-      "size": 2140
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "function-length-linter_1.0.0-2_aarch64.deb",
+      "sha256": "c9d20ac741bb93089ee99c8a27d6aa425e316995441234ce031ff57d743221fc",
+      "size": 6192,
+      "implementation": "sources/functional-shards/shard18_analysis.py",
+      "status": "functional-repair"
     },
     {
       "package": "nesting-depth-limiter",
-      "version": "1.0.0-1",
-      "artifact": "nesting-depth-limiter_1.0.0-1_aarch64.deb",
-      "sha256": "5867ac80a304dcc0e1b0c29dd6f81b03d577fa2a2208670db69f1463d9436000",
-      "size": 2148
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "nesting-depth-limiter_1.0.0-2_aarch64.deb",
+      "sha256": "3724c39c11801ee9ffc2a644d70923d0faa78294acc800c624f426c4ca692676",
+      "size": 6196,
+      "implementation": "sources/functional-shards/shard18_analysis.py",
+      "status": "functional-repair"
     },
     {
       "package": "duplicate-code-clone",
-      "version": "1.0.0-1",
-      "artifact": "duplicate-code-clone_1.0.0-1_aarch64.deb",
-      "sha256": "57557592ef7afc869c9a2f12212e479a9b617a69fb2b8e0fd25b6f26e8afa570",
-      "size": 2128
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "duplicate-code-clone_1.0.0-2_aarch64.deb",
+      "sha256": "0a7a1a07635d73e55bf52bfde43576bb3f82760e68014704230edd733a38c0b6",
+      "size": 6176,
+      "implementation": "sources/functional-shards/shard18_analysis.py",
+      "status": "functional-repair"
     },
     {
       "package": "refactoring-advisor",
-      "version": "1.0.0-1",
-      "artifact": "refactoring-advisor_1.0.0-1_aarch64.deb",
-      "sha256": "7a42ffc507b4b13bf4f739ff40bd84743cd73cc3ba7965b69976452da1dd1141",
-      "size": 2132
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "refactoring-advisor_1.0.0-2_aarch64.deb",
+      "sha256": "1d8f855f5587f2fc0653e69914a94913611b6a3635e4fe38f020faa6a1cd21ab",
+      "size": 6184,
+      "implementation": "sources/functional-shards/shard18_analysis.py",
+      "status": "functional-repair"
     }
   ]
 }
