@@ -1,0 +1,240 @@
+name: Promote validated functional repairs
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ocean-functional-repair-promotion
+  cancel-in-progress: false
+
+jobs:
+  promote:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Checkout signed index and repaired shards
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /.github/workflows/promote-functional-repairs.yml
+            /apt/dists/stable/
+            /apt/ocean.gpg
+            /staging/functional-repair-status.json
+            /staging/shard-24-firmware-hardware-iot/
+            /staging/shard-25-api-contract-validation/
+            /staging/shard-26-performance-profiling/
+            /staging/shard-27-data-stream-etl/
+
+      - name: Install signing and packaging tools
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          sudo apt-get install -y gnupg gzip git
+
+      - name: Verify the 200-package repair set
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          from pathlib import Path
+          import json, re
+
+          shards = [
+              "shard-24-firmware-hardware-iot",
+              "shard-25-api-contract-validation",
+              "shard-26-performance-profiling",
+              "shard-27-data-stream-etl",
+          ]
+          names = []
+          for shard in shards:
+              root = Path("staging") / shard
+              prov = json.loads((root / "provenance.json").read_text())
+              if prov.get("repair") != "placeholder-to-functional":
+                  raise SystemExit(f"{shard}: not marked as functional repair")
+              if prov.get("packageCount") != 50 or prov.get("uniquePackageCount") != 50:
+                  raise SystemExit(f"{shard}: package count mismatch")
+              if prov.get("version") != "1.0.0-2":
+                  raise SystemExit(f"{shard}: unexpected repair version")
+              debs = list((root / "pool/main").glob("*.deb"))
+              if len(debs) != 50:
+                  raise SystemExit(f"{shard}: expected 50 .deb files, got {len(debs)}")
+              idx = (root / "Packages.repaired").read_text()
+              shard_names = re.findall(r"^Package:\s*(\S+)", idx, re.M)
+              if len(shard_names) != 50 or len(set(shard_names)) != 50:
+                  raise SystemExit(f"{shard}: repaired index mismatch")
+              names.extend(shard_names)
+
+          if len(names) != 200 or len(set(names)) != 200:
+              raise SystemExit("repair set must contain exactly 200 unique package names")
+
+          live = Path("apt/dists/stable/main/binary-aarch64/Packages").read_text()
+          live_names = re.findall(r"^Package:\s*(\S+)", live, re.M)
+          missing = sorted(set(names) - set(live_names))
+          if missing:
+              raise SystemExit(f"live placeholders missing: {missing[:20]}")
+          print("Verified 200 unique staged functional repairs.")
+          PY
+
+      - name: Require the trusted Ocean signing key
+        env:
+          OCEAN_REPOSITORY_SIGNING_KEY: ${{ secrets.OCEAN_REPOSITORY_SIGNING_KEY }}
+        run: |
+          set -euo pipefail
+          if [ -z "$OCEAN_REPOSITORY_SIGNING_KEY" ]; then
+            echo "OCEAN_REPOSITORY_SIGNING_KEY is unavailable. Refusing unsigned live promotion." >&2
+            exit 1
+          fi
+          EXPECTED=$(gpg --batch --show-keys --with-colons apt/ocean.gpg 2>/dev/null | awk -F: '$1=="fpr"{print $10;exit}')
+          test -n "$EXPECTED"
+          printf '%s\n' "$OCEAN_REPOSITORY_SIGNING_KEY" | gpg --batch --import
+          ACTUAL=$(gpg --batch --list-secret-keys --with-colons 2>/dev/null | awk -F: '$1=="fpr"{print $10;exit}')
+          [ "$ACTUAL" = "$EXPECTED" ] || { echo "Signing fingerprint mismatch" >&2; exit 1; }
+          echo "OCEAN_SIGNING_FINGERPRINT=$EXPECTED" >> "$GITHUB_ENV"
+
+      - name: Replace 200 live package stanzas and stage new artifacts
+        run: |
+          set -euo pipefail
+          mkdir -p apt/pool/main
+          cp staging/shard-24-firmware-hardware-iot/pool/main/*.deb apt/pool/main/
+          cp staging/shard-25-api-contract-validation/pool/main/*.deb apt/pool/main/
+          cp staging/shard-26-performance-profiling/pool/main/*.deb apt/pool/main/
+          cp staging/shard-27-data-stream-etl/pool/main/*.deb apt/pool/main/
+
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+
+          shards = [
+              "shard-24-firmware-hardware-iot",
+              "shard-25-api-contract-validation",
+              "shard-26-performance-profiling",
+              "shard-27-data-stream-etl",
+          ]
+          new_parts = []
+          names = set()
+          for shard in shards:
+              text = (Path("staging") / shard / "Packages.repaired").read_text().strip()
+              new_parts.append(text)
+              names.update(re.findall(r"^Package:\s*(\S+)", text, re.M))
+
+          live_path = Path("apt/dists/stable/main/binary-aarch64/Packages")
+          live_text = live_path.read_text()
+          old_stanzas = [s for s in re.split(r"\n\s*\n", live_text.strip()) if s.strip()]
+          before_count = len(old_stanzas)
+          before_names = [re.search(r"^Package:\s*(\S+)", s, re.M).group(1) for s in old_stanzas if re.search(r"^Package:\s*(\S+)", s, re.M)]
+
+          kept = []
+          removed = []
+          for stanza in old_stanzas:
+              m = re.search(r"^Package:\s*(\S+)", stanza, re.M)
+              if m and m.group(1) in names:
+                  fm = re.search(r"^Filename:\s*(\S+)", stanza, re.M)
+                  removed.append((m.group(1), fm.group(1) if fm else None))
+              else:
+                  kept.append(stanza)
+
+          if len(removed) != 200:
+              raise SystemExit(f"expected exactly 200 live placeholder stanzas, found {len(removed)}")
+
+          result = "\n\n".join(kept + new_parts) + "\n"
+          live_path.write_text(result)
+
+          final_stanzas = [s for s in re.split(r"\n\s*\n", result.strip()) if s.strip()]
+          if len(final_stanzas) != before_count:
+              raise SystemExit("live package stanza count changed during replacement")
+
+          final_names = [re.search(r"^Package:\s*(\S+)", s, re.M).group(1) for s in final_stanzas if re.search(r"^Package:\s*(\S+)", s, re.M)]
+          if len(set(final_names)) != len(set(before_names)):
+              raise SystemExit("unique package-name count changed during replacement")
+
+          for target in names:
+              matches = [s for s in final_stanzas if re.search(rf"^Package:\s*{re.escape(target)}\s*$", s, re.M)]
+              if len(matches) != 1:
+                  raise SystemExit(f"{target}: expected exactly one live stanza after repair")
+              if not re.search(r"^Version:\s*1\.0\.0-2\s*$", matches[0], re.M):
+                  raise SystemExit(f"{target}: repaired version not live")
+
+          with open("/tmp/old-functional-placeholder-paths", "w") as f:
+              for name, filename in removed:
+                  if filename:
+                      f.write("apt/" + filename + "\n")
+
+          print(f"Replaced {len(removed)} live package stanzas without changing repository package counts.")
+          PY
+
+          gzip -n -9 -c apt/dists/stable/main/binary-aarch64/Packages > apt/dists/stable/main/binary-aarch64/Packages.gz
+
+      - name: Rebuild and verify signed Release metadata
+        run: |
+          set -euo pipefail
+          RELEASE=apt/dists/stable/Release
+          PKG=apt/dists/stable/main/binary-aarch64/Packages
+          PKG_GZ=apt/dists/stable/main/binary-aarch64/Packages.gz
+          DATE=$(date -u -R)
+          VALID=$(date -u -R -d '+30 days')
+          {
+            echo "Origin: OceanStudio"
+            echo "Label: Ocean Packages"
+            echo "Suite: stable"
+            echo "Codename: stable"
+            echo "Architectures: aarch64 all"
+            echo "Components: main"
+            echo "Description: Official Ocean APT Repository"
+            echo "Date: $DATE"
+            echo "Valid-Until: $VALID"
+            echo "MD5Sum:"
+            printf ' %s %s main/binary-aarch64/Packages\n' "$(md5sum "$PKG" | awk '{print $1}')" "$(stat -c %s "$PKG")"
+            printf ' %s %s main/binary-aarch64/Packages.gz\n' "$(md5sum "$PKG_GZ" | awk '{print $1}')" "$(stat -c %s "$PKG_GZ")"
+            echo "SHA1:"
+            printf ' %s %s main/binary-aarch64/Packages\n' "$(sha1sum "$PKG" | awk '{print $1}')" "$(stat -c %s "$PKG")"
+            printf ' %s %s main/binary-aarch64/Packages.gz\n' "$(sha1sum "$PKG_GZ" | awk '{print $1}')" "$(stat -c %s "$PKG_GZ")"
+            echo "SHA256:"
+            printf ' %s %s main/binary-aarch64/Packages\n' "$(sha256sum "$PKG" | awk '{print $1}')" "$(stat -c %s "$PKG")"
+            printf ' %s %s main/binary-aarch64/Packages.gz\n' "$(sha256sum "$PKG_GZ" | awk '{print $1}')" "$(stat -c %s "$PKG_GZ")"
+          } > "$RELEASE"
+
+          gpg --batch --yes --local-user "$OCEAN_SIGNING_FINGERPRINT" --digest-algo SHA256 --clearsign --output apt/dists/stable/InRelease "$RELEASE"
+          gpg --batch --yes --local-user "$OCEAN_SIGNING_FINGERPRINT" --digest-algo SHA256 --detach-sign --output apt/dists/stable/Release.gpg "$RELEASE"
+          gpgv --keyring apt/ocean.gpg apt/dists/stable/InRelease
+          gpgv --keyring apt/ocean.gpg apt/dists/stable/Release.gpg "$RELEASE"
+
+      - name: Commit atomic 200-package promotion
+        run: |
+          set -euo pipefail
+          git config user.name "Ocean Package Repair"
+          git config user.email "packages@ocean.studio"
+
+          while IFS= read -r p; do
+            git rm --cached --sparse --ignore-unmatch "$p" || true
+          done < /tmp/old-functional-placeholder-paths
+
+          git add --sparse apt/pool/main/*.deb
+          git add apt/dists/stable
+
+          python3 - <<'PY'
+          from pathlib import Path
+          import json
+          p=Path("staging/functional-repair-status.json")
+          d=json.loads(p.read_text())
+          d["livePromotedRepairs"]=200
+          d["signingBlockedBy"]=None
+          for s in d["shards"]:
+              s["status"]="live-functional"
+          p.write_text(json.dumps(d,indent=2)+"\n")
+          PY
+          git add staging/functional-repair-status.json
+
+          git commit -m "release: atomically promote 200 validated functional package repairs [skip ci]"
+          git pull --rebase origin main
+          git push origin HEAD:main
+
+      - name: Promotion report
+        run: |
+          echo "Promoted functional repairs: 200"
+          echo "Shards: 24, 25, 26, 27"
+          echo "Signed index verified with apt/ocean.gpg"
