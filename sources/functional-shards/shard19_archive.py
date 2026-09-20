@@ -303,4 +303,30 @@ def main(cmd,a):
     if cmd=="deb-ar-data-splitter":
         need(a,1);dest=Path(a[1]) if len(a)>1 else None
         if dest:dest.mkdir(parents=True,exist_ok=True)
-        ents=ar_entries(a[0],dest);emit({"valid_deb":any(x["name"]=="debian-binary" for x in ents) and any(x["name"].startswith("control.tar") for x i
+        ents=ar_entries(a[0],dest);emit({"valid_deb":any(x["name"]=="debian-binary" for x in ents) and any(x["name"].startswith("control.tar") for x in ents) and any(x["name"].startswith("data.tar") for x in ents),"entries":ents,"extracted_to":str(dest) if dest else None});return
+    if cmd=="rpm-lead-header-parser":need(a,1);b=read(a[0])[:96];valid=b[:4]==b"\xed\xab\xee\xdb";emit({"valid":valid,"major":b[4] if len(b)>4 else None,"minor":b[5] if len(b)>5 else None,"type":struct.unpack_from(">H",b,6)[0] if len(b)>=8 else None,"arch":struct.unpack_from(">H",b,8)[0] if len(b)>=10 else None,"name":b[10:76].split(b"\0",1)[0].decode("utf-8","replace") if len(b)>=76 else ""});return
+    if cmd=="apk-zip-comment-tool":
+        need(a,1)
+        with zipfile.ZipFile(a[0]) as z:emit({"comment":z.comment.decode("utf-8","replace"),"comment_hex":z.comment.hex(),"entries":len(z.infolist())})
+        return
+    if cmd=="vhd-footer-inspector":
+        need(a,1);b=read(a[0])[-512:]
+        if len(b)<512 or b[:8]!=b"conectix":emit({"valid":False});return
+        emit({"valid":True,"features":hex(struct.unpack_from(">I",b,8)[0]),"version":hex(struct.unpack_from(">I",b,12)[0]),"data_offset":struct.unpack_from(">Q",b,16)[0],"timestamp":struct.unpack_from(">I",b,24)[0],"creator":b[28:32].decode("ascii","replace"),"original_size":struct.unpack_from(">Q",b,40)[0],"current_size":struct.unpack_from(">Q",b,48)[0],"disk_type":struct.unpack_from(">I",b,60)[0],"checksum":hex(struct.unpack_from(">I",b,64)[0])});return
+    if cmd=="qcow2-header-parser":
+        need(a,1);b=read(a[0])[:104]
+        if len(b)<72 or b[:4]!=b"QFI\xfb":emit({"valid":False});return
+        emit({"valid":True,"version":struct.unpack_from(">I",b,4)[0],"backing_file_offset":struct.unpack_from(">Q",b,8)[0],"backing_file_size":struct.unpack_from(">I",b,16)[0],"cluster_bits":struct.unpack_from(">I",b,20)[0],"virtual_size":struct.unpack_from(">Q",b,24)[0],"crypt_method":struct.unpack_from(">I",b,32)[0],"l1_size":struct.unpack_from(">I",b,36)[0],"l1_table_offset":struct.unpack_from(">Q",b,40)[0]});return
+    if cmd=="vmdk-descriptor-view":
+        need(a,1);txt=read(a[0])[:65536].decode("utf-8","replace");kv={}
+        for line in txt.splitlines():
+            if "=" in line and not line.lstrip().startswith("#"):k,v=line.split("=",1);kv[k.strip()]=v.strip().strip('"')
+        emit({"descriptor":kv,"extents":[x.strip() for x in txt.splitlines() if re.match(r"^(RW|RDONLY|NOACCESS)\s+",x.strip())]});return
+    if cmd=="raw-disk-image-resizer":need(a,2);sector=int(a[2]) if len(a)>2 else 512;os.truncate(a[0],int(a[1])*sector);emit({"path":a[0],"sectors":int(a[1]),"sector_size":sector,"bytes":os.path.getsize(a[0])});return
+    if cmd in ("sparse-image-converter","simg2img-ocean-cli"):need(a,2);emit(parse_sparse(a[0],a[1]));return
+    raise SystemExit("implementation missing")
+
+if __name__=="__main__":
+    if len(sys.argv)<2:raise SystemExit("usage: runtime COMMAND [args...]")
+    try:main(sys.argv[1],sys.argv[2:])
+    except (ValueError,OSError,struct.error,zipfile.BadZipFile,tarfile.TarError) as e:raise SystemExit(str(e))
