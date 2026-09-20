@@ -1,0 +1,3899 @@
+Package: ocean-wb-date-now
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio date now workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-date-now_1.0.0-1_all.deb
+Size: 12438
+SHA256: 52441c5284f8eed5fca56b51b3b33ddf308cc0a1313575b7e562e203b022dec6
+
+Package: ocean-wb-date-epoch
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio date epoch workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-date-epoch_1.0.0-1_all.deb
+Size: 12438
+SHA256: d21c1410384f120c8ee600cbf7a7c98ab5460b113d0d3a8c711cfc8997c088af
+
+Package: ocean-wb-date-from-epoch
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio date from epoch workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-date-from-epoch_1.0.0-1_all.deb
+Size: 12438
+SHA256: a4d901adf9db631fef0155ba00807f0b6f2e4da9283309c6f3d13225f624c2b1
+
+Package: ocean-wb-date-iso-normalize
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio date iso normalize workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-date-iso-normalize_1.0.0-1_all.deb
+Size: 12438
+SHA256: 531f17d6f13d3bd402b277a1f6c53ad95b76f2019364af5ce2600bb305bc377b
+
+Package: ocean-wb-date-add-days
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio date add days workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-date-add-days_1.0.0-1_all.deb
+Size: 12436
+SHA256: df8534f4b8f676c665bd04e7270aea820754438e922b45c007eda5682aba2571
+
+Package: ocean-wb-date-add-seconds
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio date add seconds workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-date-add-seconds_1.0.0-1_all.deb
+Size: 12446
+SHA256: 78753c62bd8997d45f959d71cbb5bab65d735974dfa6a1c39cb574878bf3a2e3
+
+Package: ocean-wb-date-diff-seconds
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio date diff seconds workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-date-diff-seconds_1.0.0-1_all.deb
+Size: 12450
+SHA256: c8cfd83d5ca372b0d8617ead625469b92444730dea3b74eecc9a32fbc20dc3d9
+
+Package: ocean-wb-date-weekday
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio date weekday workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-date-weekday_1.0.0-1_all.deb
+Size: 12436
+SHA256: 03ccd10b761825cf649e0eb095abd548da2d537031e78f5a2aa935893e4c0640
+
+Package: ocean-wb-date-month-days
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio date month days workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-date-month-days_1.0.0-1_all.deb
+Size: 12442
+SHA256: 9af5e6ce6960a4b11c2129ceaf3baddbd39dc07be250fe15cc442d754232dd00
+
+Package: ocean-wb-date-leap-year
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio date leap year workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-date-leap-year_1.0.0-1_all.deb
+Size: 12442
+SHA256: 1f82d9d228d6bfaef6350c3241b58f20c2b7da566a1d74cdc0a1897d73c38083
+
+Package: ocean-wb-date-week-number
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio date week number workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-date-week-number_1.0.0-1_all.deb
+Size: 12446
+SHA256: ee6a5b7d9cca196765b58f42f9f7a3ca7079c6ffb552ef124edea74a7b6f9ab6
+
+Package: ocean-wb-date-day-of-year
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio date day of year workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-date-day-of-year_1.0.0-1_all.deb
+Size: 12448
+SHA256: a5e45bbb7e082663832f101d96a80687fc164314a28df3bad7fec075582a95e7
+
+Package: ocean-wb-date-start-of-day
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio date start of day workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-date-start-of-day_1.0.0-1_all.deb
+Size: 12444
+SHA256: 1d8c525ef8078909959cdc4b2dd9ea5c6d6bdf872f0e08d2d08d784964982661
+
+Package: ocean-wb-date-end-of-day
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio date end of day workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-date-end-of-day_1.0.0-1_all.deb
+Size: 12444
+SHA256: 8aa177abe01eaab1f9c9ab607eeceb790ac8ec560c10c8e82814991e3939181d
+
+Package: ocean-wb-date-parse-rfc2822
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio date parse rfc2822 workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-date-parse-rfc2822_1.0.0-1_all.deb
+Size: 12444
+SHA256: 5e36a36281f8edd08710fb9e04374f43a40e620b90aa665c71e7ce7f235e1f82
+
+Package: ocean-wb-date-format
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio date format workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-date-format_1.0.0-1_all.deb
+Size: 12430
+SHA256: fa5b2741bf2c18f0080895bfeb1fbf3482d899e9d50b444b934446578c2de8f3
+
+Package: ocean-wb-date-tz-offset
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio date tz offset workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-date-tz-offset_1.0.0-1_all.deb
+Size: 12452
+SHA256: c3e2cd5a3768599886a52623467d1da75ec517577dfff61e471a3cf5a17ea44b
+
+Package: ocean-wb-date-duration-parse
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio date duration parse workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-date-duration-parse_1.0.0-1_all.deb
+Size: 12452
+SHA256: 829485c16be28c6c75a5dcab18482cafabfe41fc3374828a54c19419a76339a9
+
+Package: ocean-wb-date-duration-format
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio date duration format workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-date-duration-format_1.0.0-1_all.deb
+Size: 12446
+SHA256: 7145b4534ae63cf5c6eb3975cc2e447b505fd838cc13f4d8e4522049cae9e661
+
+Package: ocean-wb-date-range-days
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio date range days workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-date-range-days_1.0.0-1_all.deb
+Size: 12444
+SHA256: 8b1b56ad0620f2f7100af689ff4648a33d939c96e06332c57895b1b69f505cd7
+
+Package: ocean-wb-math-sum
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio math sum workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-math-sum_1.0.0-1_all.deb
+Size: 12432
+SHA256: c7cdf9dd3ce2d07b27fcb87153b8f5388a9a268e36b0acc4a0143247aa35c446
+
+Package: ocean-wb-math-mean
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio math mean workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-math-mean_1.0.0-1_all.deb
+Size: 12428
+SHA256: 86febb94b389225dc6112f25e73e78e289dca620dc282bf6893aad0a880c59b5
+
+Package: ocean-wb-math-median
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio math median workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-math-median_1.0.0-1_all.deb
+Size: 12434
+SHA256: 56e52f6fb7f81696e3e7af6985f222b095820d19b2ca87c6cb98fbb48f64017a
+
+Package: ocean-wb-math-mode
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio math mode workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-math-mode_1.0.0-1_all.deb
+Size: 12432
+SHA256: 7df54e29f339e5868a785909465e7aee5b418c7b48e75f6f2ab7cfc830d5752c
+
+Package: ocean-wb-math-min
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio math min workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-math-min_1.0.0-1_all.deb
+Size: 12438
+SHA256: 1ec6cc6dcf30d352d3a64c64e83d190b504f212d5c707e68214dcfbb63ab0f41
+
+Package: ocean-wb-math-max
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio math max workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-math-max_1.0.0-1_all.deb
+Size: 12440
+SHA256: a2b10a049ae15993476c71e371da1098eef327cf0389666339d6e39d6d86d431
+
+Package: ocean-wb-math-range
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio math range workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-math-range_1.0.0-1_all.deb
+Size: 12436
+SHA256: 09447b0f2f4bb004da3c1e10b33d72f5db89649a9d1944fafec8a977157dd430
+
+Package: ocean-wb-math-variance
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio math variance workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-math-variance_1.0.0-1_all.deb
+Size: 12438
+SHA256: 76ac2626ea9662b203862aeac074a5e21bed9edd1511c87d1e5e9cd6efa411b4
+
+Package: ocean-wb-math-stdev
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio math stdev workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-math-stdev_1.0.0-1_all.deb
+Size: 12434
+SHA256: c03e3d1b443fb5e3efae7dd60e0150a888653c7195a8a7983b3c3ba30a25136b
+
+Package: ocean-wb-math-percentile
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio math percentile workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-math-percentile_1.0.0-1_all.deb
+Size: 12432
+SHA256: 9259e80c3a44ed58b48ade478136ccf4dafdd4e82d31588a5fe8d5e286fa6cc4
+
+Package: ocean-wb-math-gcd
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio math gcd workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-math-gcd_1.0.0-1_all.deb
+Size: 12450
+SHA256: ad18b5d67bf3ca21c07b6a970f9871d6fb95863bbd448606eef5bdc986a68669
+
+Package: ocean-wb-math-lcm
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio math lcm workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-math-lcm_1.0.0-1_all.deb
+Size: 12438
+SHA256: ed16104d0e24bb1578671b998d0adb65e14d19d850995e0f2704ffa13f34770a
+
+Package: ocean-wb-math-factorial
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio math factorial workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-math-factorial_1.0.0-1_all.deb
+Size: 12446
+SHA256: 26129ae186d7fa726aef971207d07fc9077f1cd3cc6bbc9b5fa5d1594f6a7bfb
+
+Package: ocean-wb-math-prime-check
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio math prime check workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-math-prime-check_1.0.0-1_all.deb
+Size: 12448
+SHA256: e06a4a3a35cd7058cf23f94c4a329a549e397d5b4f36605a3ac0d79d0543691d
+
+Package: ocean-wb-math-prime-factors
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio math prime factors workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-math-prime-factors_1.0.0-1_all.deb
+Size: 12450
+SHA256: 04f4b1bba51915676c8cc17ea5958fbccca324623b772f86d84f02126c861da5
+
+Package: ocean-wb-math-fibonacci
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio math fibonacci workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-math-fibonacci_1.0.0-1_all.deb
+Size: 12442
+SHA256: 30e8d091cde09c084ebc0fc896696ab57161d64060c0a4b33b5a640b6dd80787
+
+Package: ocean-wb-math-clamp
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio math clamp workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-math-clamp_1.0.0-1_all.deb
+Size: 12436
+SHA256: b8104dc410871b1213c0f8ab7f1e1066536660152560f61bcc163e650e980e5b
+
+Package: ocean-wb-math-lerp
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio math lerp workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-math-lerp_1.0.0-1_all.deb
+Size: 12438
+SHA256: 470861045f186d82f3c168238054bd64f1bddaaebde430acbc339181103f1085
+
+Package: ocean-wb-math-distance-2d
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio math distance 2d workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-math-distance-2d_1.0.0-1_all.deb
+Size: 12446
+SHA256: 98360e9d5987047fd070128e1242105aea02c5cac9b7fbfeff72654f3ebc06d8
+
+Package: ocean-wb-math-quadratic
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio math quadratic workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-math-quadratic_1.0.0-1_all.deb
+Size: 12444
+SHA256: 788796be855fb1da7693b908ea4a6136b656922c0a5730779a28d4941c49f955
+
+Package: ocean-wb-unit-bytes-human
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio unit bytes human workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-unit-bytes-human_1.0.0-1_all.deb
+Size: 12438
+SHA256: 06f3539469b99a7b4bd98186c7523e27d1b8eee3eb75d906d65d88e1c4cd0c5a
+
+Package: ocean-wb-unit-human-bytes
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio unit human bytes workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-unit-human-bytes_1.0.0-1_all.deb
+Size: 12440
+SHA256: ad039481212b41b4653e223810c5baa3074cca0b5a6e3f6d356355ac83c57eec
+
+Package: ocean-wb-unit-c-to-f
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio unit c to f workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-unit-c-to-f_1.0.0-1_all.deb
+Size: 12448
+SHA256: 42dbff66b66e4b38bb5b85b0ed31399c94acc2343d719305e17d7e803061ef71
+
+Package: ocean-wb-unit-f-to-c
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio unit f to c workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-unit-f-to-c_1.0.0-1_all.deb
+Size: 12446
+SHA256: c198643890e24ddcf6d2fc110695ad740ec5abea9606fdd3c438984548f55198
+
+Package: ocean-wb-unit-c-to-k
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio unit c to k workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-unit-c-to-k_1.0.0-1_all.deb
+Size: 12448
+SHA256: 68941d5f67f4f2c8ccd9591ec051f89a5309bb6a8e445c78fdf36d69241c398b
+
+Package: ocean-wb-unit-km-mi
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio unit km mi workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-unit-km-mi_1.0.0-1_all.deb
+Size: 12438
+SHA256: e2b67c1c71ee47a4f03f13e9ccfc13d4bcbc8e1c6005e2e73699dc92e31f8aa6
+
+Package: ocean-wb-unit-mi-km
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio unit mi km workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-unit-mi-km_1.0.0-1_all.deb
+Size: 12438
+SHA256: 86abeff86852ffb8163c3d7d066f3e449623414da6b374a31108860fb30a29cc
+
+Package: ocean-wb-unit-m-ft
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio unit m ft workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-unit-m-ft_1.0.0-1_all.deb
+Size: 12438
+SHA256: 56e693b35aa7a01bf3a5212c29e7ec3c5ae71c76962f7151d4495acca4670560
+
+Package: ocean-wb-unit-ft-m
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio unit ft m workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-unit-ft-m_1.0.0-1_all.deb
+Size: 12438
+SHA256: 8dac1557461c2cea777ec157d688bbb78a1da8458611c430df34acca18769fc6
+
+Package: ocean-wb-unit-kg-lb
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio unit kg lb workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-unit-kg-lb_1.0.0-1_all.deb
+Size: 12442
+SHA256: c25e534757a2349a4980358075dd576fb67c1e64ed12cbe8bd01774b47fa9e50
+
+Package: ocean-wb-unit-lb-kg
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio unit lb kg workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-unit-lb-kg_1.0.0-1_all.deb
+Size: 12440
+SHA256: 97258e67d784d2e6bfbf19d60ca367edddfad6dbfc73e0f39b86d7a0da2be13a
+
+Package: ocean-wb-unit-l-ml
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio unit l ml workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-unit-l-ml_1.0.0-1_all.deb
+Size: 12436
+SHA256: 6fdcc28ee455043b01fc03f12a638e6a2355e4d3e5fa165c7b96783619bb3cbd
+
+Package: ocean-wb-unit-ml-l
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio unit ml l workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-unit-ml-l_1.0.0-1_all.deb
+Size: 12436
+SHA256: 2cd5c1a9e43c0e998596729a38247b77e04d114b3a89d8eb00250e7b34190690
+
+Package: ocean-wb-unit-deg-rad
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio unit deg rad workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-unit-deg-rad_1.0.0-1_all.deb
+Size: 12438
+SHA256: 03619b84b83b0f409ae76a354ce317c38f2c0ed62f6fed2569fed50eaecff44a
+
+Package: ocean-wb-unit-rad-deg
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio unit rad deg workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-unit-rad-deg_1.0.0-1_all.deb
+Size: 12442
+SHA256: f002b42879cd0b646a3a7bb9ac28cb11ba4370eb2d208fc4c020ea81d9e1d54b
+
+Package: ocean-wb-unit-percent
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio unit percent workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-unit-percent_1.0.0-1_all.deb
+Size: 12436
+SHA256: 78063164a070e38f0843f88801569d210b175773c240634d20d53a16699f865f
+
+Package: ocean-wb-unit-ratio
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio unit ratio workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-unit-ratio_1.0.0-1_all.deb
+Size: 12436
+SHA256: eca613b96417a0d9ea934ec6e7313d4c6c488f978a5cd557251dadbc1066ccb2
+
+Package: ocean-wb-unit-base-convert
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio unit base convert workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-unit-base-convert_1.0.0-1_all.deb
+Size: 12440
+SHA256: 39f72895c755dcd418da629735a997785b5acb10609b98dc75cfa0a2d37837f6
+
+Package: ocean-wb-unit-bits-bytes
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio unit bits bytes workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-unit-bits-bytes_1.0.0-1_all.deb
+Size: 12456
+SHA256: f64de1941d0e637d7ecc542c91e57eb0262a2c5efaf702d971e7faf9da4edfba
+
+Package: ocean-wb-unit-speed-kmh-ms
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio unit speed kmh ms workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-unit-speed-kmh-ms_1.0.0-1_all.deb
+Size: 12450
+SHA256: 5bdb8eb86b3b746b3a31a34f833dcc71601af448d4c9ccebefd20137c7535984
+
+Package: ocean-wb-enc-url-quote
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio enc url quote workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-enc-url-quote_1.0.0-1_all.deb
+Size: 12448
+SHA256: 54355018e30cfc834391ea1cfd94af900953109c4046a2461aea95a52857551f
+
+Package: ocean-wb-enc-url-unquote
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio enc url unquote workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-enc-url-unquote_1.0.0-1_all.deb
+Size: 12454
+SHA256: 3f5c9857b484fa08c3245357d2fdb3704bd90e7a92b9132cd3e9f29ebb449865
+
+Package: ocean-wb-enc-html-escape
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio enc html escape workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-enc-html-escape_1.0.0-1_all.deb
+Size: 12448
+SHA256: 264b57f9c644856435fd3341fd5e8bb48da7f8be2dadad76ca280ff631b38add
+
+Package: ocean-wb-enc-html-unescape
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio enc html unescape workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-enc-html-unescape_1.0.0-1_all.deb
+Size: 12458
+SHA256: d8e97444b71ac5fdd4d9bc200ab0b19376c7aeb8f2e58cfd4e1b2c9bb0260100
+
+Package: ocean-wb-enc-json-string
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio enc json string workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-enc-json-string_1.0.0-1_all.deb
+Size: 12452
+SHA256: e58f054d98fd8816fdf35c46c529edfcb326d90358d6b933469417f1289a3359
+
+Package: ocean-wb-enc-json-unstring
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio enc json unstring workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-enc-json-unstring_1.0.0-1_all.deb
+Size: 12454
+SHA256: e059a21d758c43785d5185706f9d9817b2e72277a1f15fdbc992bb157ab7fe67
+
+Package: ocean-wb-enc-unicode-codepoints
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio enc unicode codepoints workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-enc-unicode-codepoints_1.0.0-1_all.deb
+Size: 12456
+SHA256: 63fc2870034b55061fc9df8bbae5dcbd3402e7bf7f48a33561cd2265d0f2c047
+
+Package: ocean-wb-enc-unicode-from-codepoints
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio enc unicode from codepoints workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-enc-unicode-from-codepoints_1.0.0-1_all.deb
+Size: 12458
+SHA256: eb26b4eecc285c1fea13145142d766555e9cee99f41755beeee344d4f389a7aa
+
+Package: ocean-wb-enc-utf8-bytes
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio enc utf8 bytes workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-enc-utf8-bytes_1.0.0-1_all.deb
+Size: 12448
+SHA256: d537c8082f39cf46f1f40ae1bbcee930cf5176edb509bc18276372965834b958
+
+Package: ocean-wb-enc-utf8-validate
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio enc utf8 validate workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-enc-utf8-validate_1.0.0-1_all.deb
+Size: 12454
+SHA256: dde8343ba1d850b9adeb6ae53e271566efff1135fa930621a86adf66652a6e83
+
+Package: ocean-wb-enc-ascii-check
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio enc ascii check workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-enc-ascii-check_1.0.0-1_all.deb
+Size: 12440
+SHA256: 4208b1143b19289b10fa242b1246e561dfed2aee56b87c48d4cec1d37c860830
+
+Package: ocean-wb-enc-hex-encode
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio enc hex encode workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-enc-hex-encode_1.0.0-1_all.deb
+Size: 12446
+SHA256: be6d49e5316ffc64e3d9bea78b7e3653101e682cbbc9b5a52686e299c5fd8262
+
+Package: ocean-wb-enc-hex-decode
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio enc hex decode workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-enc-hex-decode_1.0.0-1_all.deb
+Size: 12452
+SHA256: 89bb9c4cfdcd2c6f9ecc260ba9ca11f0ab54b85039baff91eb67bc4a1f159272
+
+Package: ocean-wb-enc-base32-encode
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio enc base32 encode workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-enc-base32-encode_1.0.0-1_all.deb
+Size: 12444
+SHA256: a1bde2f066a16b7f2e67213388a42ea25789811e73e20a1ce5e85ba48c1bf0fa
+
+Package: ocean-wb-enc-base32-decode
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio enc base32 decode workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-enc-base32-decode_1.0.0-1_all.deb
+Size: 12450
+SHA256: 7d4a9d798afcfa94218ebfba39a86d2bd1e10a1fdec2c10bdfc1aa11d771e5e9
+
+Package: ocean-wb-enc-base64url-encode
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio enc base64url encode workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-enc-base64url-encode_1.0.0-1_all.deb
+Size: 12450
+SHA256: dd1feb13cadd04ae9ca22496f50fdf13aed09766a02dac7e4de35800cd6b222b
+
+Package: ocean-wb-enc-base64url-decode
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio enc base64url decode workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-enc-base64url-decode_1.0.0-1_all.deb
+Size: 12452
+SHA256: 4aed6194b3470101b910d8a1c9f8b2873445a5a48cbd91479156596ec2b29894
+
+Package: ocean-wb-enc-rot13
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio enc rot13 workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-enc-rot13_1.0.0-1_all.deb
+Size: 12428
+SHA256: 55006a519c194fee783ed2944e36a1dc9ac57df54625467830b62f767cb103be
+
+Package: ocean-wb-enc-caesar
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio enc caesar workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-enc-caesar_1.0.0-1_all.deb
+Size: 12428
+SHA256: bdb3eef25aec541b2f41a29fe8b4eeb8c9fa7353619fabc6375549b170e7e78b
+
+Package: ocean-wb-enc-punycode
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio enc punycode workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-enc-punycode_1.0.0-1_all.deb
+Size: 12434
+SHA256: 097e43b8ae0e54ef26283a291a840c9bf09dabb62a8e33b1bbe94977f28ddb43
+
+Package: ocean-wb-xml-wellformed
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio xml wellformed workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-xml-wellformed_1.0.0-1_all.deb
+Size: 12442
+SHA256: 7c242bba3b29124f52466009f31659d7136b3027f065adf478bc1bbb33aa076b
+
+Package: ocean-wb-xml-root
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio xml root workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-xml-root_1.0.0-1_all.deb
+Size: 12428
+SHA256: cc2cf3d34214cad756e76936d18d8d115c75c63ae1dcf7f90b58331584a16b66
+
+Package: ocean-wb-xml-elements
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio xml elements workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-xml-elements_1.0.0-1_all.deb
+Size: 12434
+SHA256: 047c2989d21ae1128ddc387bd88203b64aea8faa5f6dd48f41e8620f953725b3
+
+Package: ocean-wb-xml-attrs
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio xml attrs workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-xml-attrs_1.0.0-1_all.deb
+Size: 12426
+SHA256: 89a4738aadc54c6f44c4d8a0495562d11d55e0b3d51842fad01f4625371d34fc
+
+Package: ocean-wb-xml-text
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio xml text workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-xml-text_1.0.0-1_all.deb
+Size: 12434
+SHA256: a1abe0bc79551f1a36b03845bd15804bf381ee938c26d903835ca4e78bf28cea
+
+Package: ocean-wb-xml-find-tag
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio xml find tag workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-xml-find-tag_1.0.0-1_all.deb
+Size: 12434
+SHA256: 94004e58ab90e50c1b5a6ffc45bc88d8e38bd5ef93c7a735eb569cbf06656023
+
+Package: ocean-wb-xml-find-attr
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio xml find attr workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-xml-find-attr_1.0.0-1_all.deb
+Size: 12438
+SHA256: 3f9c1a0ff85cecf7dba94141dd3eb375cfb4a1fe2f0ca943d742a2faff6c2683
+
+Package: ocean-wb-xml-pretty
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio xml pretty workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-xml-pretty_1.0.0-1_all.deb
+Size: 12432
+SHA256: 1d4cba5c920ea54f6d92f44faf97cd84c397ae1bfde10bfa9a956c266ce3f90e
+
+Package: ocean-wb-xml-minify
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio xml minify workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-xml-minify_1.0.0-1_all.deb
+Size: 12436
+SHA256: 3df674752fd87a0c845d32bb315e15e62cbbb49558d642e47578b39099031ef3
+
+Package: ocean-wb-xml-namespaces
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio xml namespaces workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-xml-namespaces_1.0.0-1_all.deb
+Size: 12438
+SHA256: f41e1c24eb12321d694569bc323d1a238db061a8f87574872f8aaf3cd3b8ee54
+
+Package: ocean-wb-xml-paths
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio xml paths workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-xml-paths_1.0.0-1_all.deb
+Size: 12428
+SHA256: 0e5769d8959493d4a785f47d8a584e4b316bfd875608eb7cb52e09f54d7d585c
+
+Package: ocean-wb-xml-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio xml count workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-xml-count_1.0.0-1_all.deb
+Size: 12428
+SHA256: 16a383fa0aaa606e27efc0dc297b666621baa4cf7077666ae5c785af9b49196d
+
+Package: ocean-wb-xml-to-json
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio xml to json workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-xml-to-json_1.0.0-1_all.deb
+Size: 12436
+SHA256: fc366427bd8d41af0eba82d25957f1108408cb2fca5ce42b13aa8baa8eceab6e
+
+Package: ocean-wb-xml-from-json
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio xml from json workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-xml-from-json_1.0.0-1_all.deb
+Size: 12438
+SHA256: c8717475ecb87abcd8f5fda5832e4abdf2f490274b1b96c951aa753bee91776e
+
+Package: ocean-wb-xml-strip-ns
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio xml strip ns workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-xml-strip-ns_1.0.0-1_all.deb
+Size: 12436
+SHA256: b40a1d4eea256d4eb2d21698e4a4ec3415ea2d0eeca5d44fbe1dc18a48b5f082
+
+Package: ocean-wb-xml-remove-tag
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio xml remove tag workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-xml-remove-tag_1.0.0-1_all.deb
+Size: 12440
+SHA256: 2b2fad6d6de7560b3a5260e95a26aa94a4b2f79ed746c52663de3877022fdfb4
+
+Package: ocean-wb-xml-set-attr
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio xml set attr workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-xml-set-attr_1.0.0-1_all.deb
+Size: 12436
+SHA256: 63042525ce31ae3c96a3a3e17153b93cb124a6520221f8cfca6a957fd21beea0
+
+Package: ocean-wb-xml-get-attr
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio xml get attr workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-xml-get-attr_1.0.0-1_all.deb
+Size: 12436
+SHA256: cb27a9073ac7e2db1d4bfad0996a958a1db84d09a52e3d09b6ed9dee6c3dcdd3
+
+Package: ocean-wb-xml-xpath-lite
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio xml xpath lite workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-xml-xpath-lite_1.0.0-1_all.deb
+Size: 12440
+SHA256: 05343b8e43a5914e6b736998fad92abfc7c83c202b41c71175c72466310d766a
+
+Package: ocean-wb-xml-canonical
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio xml canonical workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-xml-canonical_1.0.0-1_all.deb
+Size: 12436
+SHA256: c765f08a89350cd27b551355b5b5193dd5ea6839acb5ac23b047c84899614f24
+
+Package: ocean-wb-config-ini-get
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio config ini get workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-config-ini-get_1.0.0-1_all.deb
+Size: 12442
+SHA256: 4d3c8959acc814866d92bf6a8d272e2e9decc49b613aa2ea615ea0b43233968e
+
+Package: ocean-wb-config-ini-set
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio config ini set workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-config-ini-set_1.0.0-1_all.deb
+Size: 12444
+SHA256: 726baa52481797208b023cd4aa6b6810f7f54c8c1e811fac21bb6f1ce0b9bc99
+
+Package: ocean-wb-config-ini-sections
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio config ini sections workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-config-ini-sections_1.0.0-1_all.deb
+Size: 12452
+SHA256: 1427b30fe1d826e99b572f8f10f4bf78c89eb68a00d73ca4e4def9d8e833c4d5
+
+Package: ocean-wb-config-ini-keys
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio config ini keys workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-config-ini-keys_1.0.0-1_all.deb
+Size: 12448
+SHA256: 79de66e236c6c04c0fdb6f085edc7312547f91f740cb2ef5a72f29c9a6678742
+
+Package: ocean-wb-config-ini-to-json
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio config ini to json workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-config-ini-to-json_1.0.0-1_all.deb
+Size: 12440
+SHA256: 0a3e8d8af25418642a53446127f8c863bcb97829497ab0093db561f36acbac78
+
+Package: ocean-wb-config-json-to-ini
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio config json to ini workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-config-json-to-ini_1.0.0-1_all.deb
+Size: 12440
+SHA256: c48400394549f15c656d05e077822681122639d095d9ab5f1893aacb93548ac6
+
+Package: ocean-wb-config-props-get
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio config props get workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-config-props-get_1.0.0-1_all.deb
+Size: 12446
+SHA256: bbfba0652a991f3f78d07bb55e1b80d3bc99f9e96f88fb2aa04bca8196a3b924
+
+Package: ocean-wb-config-props-set
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio config props set workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-config-props-set_1.0.0-1_all.deb
+Size: 12450
+SHA256: 8d26939baeaca0f51467d9e97a249cf2adebda1254645c0731545006eac1c12b
+
+Package: ocean-wb-config-props-to-json
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio config props to json workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-config-props-to-json_1.0.0-1_all.deb
+Size: 12454
+SHA256: 53363578ebecd3e92ab315c5e1a9524495fd13484341ad763feb915856937c60
+
+Package: ocean-wb-config-json-to-props
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio config json to props workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-config-json-to-props_1.0.0-1_all.deb
+Size: 12454
+SHA256: b5677b5e0a56740ab8252da6c88fe9a6a92a08a98d97982c659e318f50c67081
+
+Package: ocean-wb-config-dotenv-get
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio config dotenv get workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-config-dotenv-get_1.0.0-1_all.deb
+Size: 12444
+SHA256: 3845fdadf2aa429a95247ea97ca8315409a03b622a4cd5e28515893a8ac719d7
+
+Package: ocean-wb-config-dotenv-set
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio config dotenv set workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-config-dotenv-set_1.0.0-1_all.deb
+Size: 12448
+SHA256: 48a4aa6dba8390d2a6f7ce0062fa7a7fb00069ebf65a1c71883de1fcffb10c1b
+
+Package: ocean-wb-config-dotenv-to-json
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio config dotenv to json workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-config-dotenv-to-json_1.0.0-1_all.deb
+Size: 12452
+SHA256: 558dd96982c605886ea4214d9510ec293bdab105c1c972a29366eb44053fece1
+
+Package: ocean-wb-config-json-to-dotenv
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio config json to dotenv workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-config-json-to-dotenv_1.0.0-1_all.deb
+Size: 12454
+SHA256: a78f69d43793523efcabf69dde06ca5192f16fe506c3c14ab1e50e77cc751c66
+
+Package: ocean-wb-config-toml-get
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio config toml get workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-config-toml-get_1.0.0-1_all.deb
+Size: 12448
+SHA256: 876c86e55aa1365ade218f07388d722d7a6f00748b279dc1bddbf7511e56b854
+
+Package: ocean-wb-config-toml-keys
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio config toml keys workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-config-toml-keys_1.0.0-1_all.deb
+Size: 12450
+SHA256: 202d96a63267a205adfd2cb13ffbd271cc4d3e2b46ffa8cc43825a8c1af1d592
+
+Package: ocean-wb-config-toml-to-json
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio config toml to json workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-config-toml-to-json_1.0.0-1_all.deb
+Size: 12450
+SHA256: b2443c51d34738aba66d457909d8ac518041d42a9296060fef3ed714d5764a9c
+
+Package: ocean-wb-config-merge-json
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio config merge json workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-config-merge-json_1.0.0-1_all.deb
+Size: 12452
+SHA256: 3982046cbf2fcc51e0ff2c6b45aeb5437096aed6d1ef067b875d1a476c563891
+
+Package: ocean-wb-config-env-expand
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio config env expand workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-config-env-expand_1.0.0-1_all.deb
+Size: 12444
+SHA256: 00587e43827d1a4339b9f45f4d8ae516dea08bcb3b18324de78aaa0db4ac21e7
+
+Package: ocean-wb-config-config-detect
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio config config detect workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-config-config-detect_1.0.0-1_all.deb
+Size: 12434
+SHA256: 25256f8c6700b1738afd9d22e5aa58a2d374c9a14c23d73cc7ddfb512724ea93
+
+Package: ocean-wb-md-headings
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio md headings workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-md-headings_1.0.0-1_all.deb
+Size: 12436
+SHA256: 73f02184866eb9d5117ab99090fd4881dce30209a4881843bbea7d6e7a51c050
+
+Package: ocean-wb-md-links
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio md links workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-md-links_1.0.0-1_all.deb
+Size: 12436
+SHA256: 2f1c3d7c3c3571e43d7b0aaff19bf4ade20609504031c2a626e1840c41b10424
+
+Package: ocean-wb-md-images
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio md images workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-md-images_1.0.0-1_all.deb
+Size: 12434
+SHA256: 7b231ce7653f5907a22148c4c79af3c5392d0c1aae48704e43c295dc57173be1
+
+Package: ocean-wb-md-codeblocks
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio md codeblocks workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-md-codeblocks_1.0.0-1_all.deb
+Size: 12436
+SHA256: 1236b8780d5d7b869cbc37a9928aa43b2bdcffabbb88abef48aa84f775277c87
+
+Package: ocean-wb-md-tables
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio md tables workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-md-tables_1.0.0-1_all.deb
+Size: 12428
+SHA256: 26b4741438b517ecfe12ca5e0f5f1e8bbe7d606ca2b1c98728a2304f8c202e3b
+
+Package: ocean-wb-md-task-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio md task count workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-md-task-count_1.0.0-1_all.deb
+Size: 12444
+SHA256: f1b2c3c2fc3b44558294648ee79d5cfd2ce56a1ef689b6196cf6e4e7ad072b1a
+
+Package: ocean-wb-md-word-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio md word count workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-md-word-count_1.0.0-1_all.deb
+Size: 12442
+SHA256: 59257c4a74a873f51eea6537c4b9d009f4e4fb994328e0381d30a1c6cbb36c91
+
+Package: ocean-wb-md-toc
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio md toc workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-md-toc_1.0.0-1_all.deb
+Size: 12432
+SHA256: e802e28e8303d17da347a1b62f16d96cf9bf5bd81e10eab1702a3b4f897687ff
+
+Package: ocean-wb-md-strip
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio md strip workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-md-strip_1.0.0-1_all.deb
+Size: 12434
+SHA256: 2ba96319c1fb6b8a500495f1704d8a77c31189f76291a121039888830e9ee036
+
+Package: ocean-wb-md-escape
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio md escape workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-md-escape_1.0.0-1_all.deb
+Size: 12430
+SHA256: 081f76f553571720cb44349b3ba9609f9396afa27d7b7896391aaf04bb3ec7a4
+
+Package: ocean-wb-md-unescape
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio md unescape workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-md-unescape_1.0.0-1_all.deb
+Size: 12436
+SHA256: 42bb04b2a780339114a1f99e4d1c8f964c29d1d609f573f616c23a4bb012c20a
+
+Package: ocean-wb-md-frontmatter
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio md frontmatter workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-md-frontmatter_1.0.0-1_all.deb
+Size: 12438
+SHA256: 19146dd3cabb7e3c0aec65270921fc3d92a75395e897ee23771c783ad264bb3d
+
+Package: ocean-wb-md-frontmatter-get
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio md frontmatter get workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-md-frontmatter-get_1.0.0-1_all.deb
+Size: 12438
+SHA256: b75895c156a4a27d2ceb6e6130133a64c7afdbd9c718e8ef4f63dd87c544a868
+
+Package: ocean-wb-md-frontmatter-set
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio md frontmatter set workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-md-frontmatter-set_1.0.0-1_all.deb
+Size: 12440
+SHA256: ca36e1284ab8a4824b13ca2270c30ce42062d4a10ef588f58d736857a2274f9c
+
+Package: ocean-wb-md-normalize-headings
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio md normalize headings workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-md-normalize-headings_1.0.0-1_all.deb
+Size: 12452
+SHA256: 0d5a84df954d22556419ee787ca4138fedbf4fc3d3600df54518ddaa39d06ca5
+
+Package: ocean-wb-md-check-links
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio md check links workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-md-check-links_1.0.0-1_all.deb
+Size: 12454
+SHA256: 02b2479f8734796dcd5cbd49b21f10594a46087003c68f6a9f3ac3bdaa19d03e
+
+Package: ocean-wb-md-code-languages
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio md code languages workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-md-code-languages_1.0.0-1_all.deb
+Size: 12438
+SHA256: bb5589d46eff510491b3d9247ae1c0b7259db669d433020459e97addfbb3f81f
+
+Package: ocean-wb-md-stats
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio md stats workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-md-stats_1.0.0-1_all.deb
+Size: 12432
+SHA256: 720bd261296e4482518a42d7641c1f0a50f5ea583b0f681ed73368352e422fb2
+
+Package: ocean-wb-md-anchor
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio md anchor workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-md-anchor_1.0.0-1_all.deb
+Size: 12434
+SHA256: d90a38707db0eedf421dd796d5d1179f4f4b9a0128f8746e80c540019b39971a
+
+Package: ocean-wb-md-wrap-paragraphs
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio md wrap paragraphs workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-md-wrap-paragraphs_1.0.0-1_all.deb
+Size: 12444
+SHA256: 6b15018a685d938785e7367a69a368f8d35c4f5f1f08a8f9447ded15438252fb
+
+Package: ocean-wb-regex-test
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio regex test workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-regex-test_1.0.0-1_all.deb
+Size: 12432
+SHA256: 521c2af9301123b38494c5032164c28a47cc9d114c30ee73b8864a2453b081bc
+
+Package: ocean-wb-regex-find
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio regex find workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-regex-find_1.0.0-1_all.deb
+Size: 12436
+SHA256: f8cb604666bc0d219dcf9f211133b6fa1042e405a40fb0af6104b6ad6f1b36ee
+
+Package: ocean-wb-regex-findall
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio regex findall workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-regex-findall_1.0.0-1_all.deb
+Size: 12438
+SHA256: a6fcac075b0870a6a27949c200bc6c3a8d2524210b489ed3ed1d9ef0f88470db
+
+Package: ocean-wb-regex-replace
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio regex replace workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-regex-replace_1.0.0-1_all.deb
+Size: 12440
+SHA256: fa6608cef102517897f6813193a4c1cc459ba313dce41f244e9cb116554bfaa2
+
+Package: ocean-wb-regex-split
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio regex split workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-regex-split_1.0.0-1_all.deb
+Size: 12436
+SHA256: fe7e6e938cb37a0d3d28fe5a5f81dede44f2194fc698ee15cd343f0ad65b01f6
+
+Package: ocean-wb-regex-escape
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio regex escape workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-regex-escape_1.0.0-1_all.deb
+Size: 12434
+SHA256: f19a4b38cbbed2ac70673562093cd5d118f78ec75fe68182dd8132d696e07d0e
+
+Package: ocean-wb-regex-groups
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio regex groups workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-regex-groups_1.0.0-1_all.deb
+Size: 12434
+SHA256: f71733bdd11b6247e187c7e06d56108eb0f000337aad3528287e92c6ff6f76e1
+
+Package: ocean-wb-regex-named-groups
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio regex named groups workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-regex-named-groups_1.0.0-1_all.deb
+Size: 12448
+SHA256: 6899a794716f3e4d758e13b6dd7d8760f51d298e30226816967831ea5f0cbe68
+
+Package: ocean-wb-regex-flags
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio regex flags workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-regex-flags_1.0.0-1_all.deb
+Size: 12434
+SHA256: 9fb805c0e6fc43fe51bd868b321424451968f304dcab57cb5d52bc62fca575f8
+
+Package: ocean-wb-regex-literal
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio regex literal workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-regex-literal_1.0.0-1_all.deb
+Size: 12438
+SHA256: 53a77712ba8106a8875d20a9a70137c605dc09a4dbda5e119f356f706a1fbe96
+
+Package: ocean-wb-regex-line-filter
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio regex line filter workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-regex-line-filter_1.0.0-1_all.deb
+Size: 12446
+SHA256: c4cad02f85504d931da3c368b467ee8ac55e7373e051d3d7e68c662fdc1a4374
+
+Package: ocean-wb-regex-line-exclude
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio regex line exclude workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-regex-line-exclude_1.0.0-1_all.deb
+Size: 12448
+SHA256: a39a1d08c7668a8bcc73444874a41e4a03366e080a8f9136edbf3423043985d7
+
+Package: ocean-wb-regex-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio regex count workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-regex-count_1.0.0-1_all.deb
+Size: 12434
+SHA256: b00bece2d418f1c2be349a8a0334542d9438edf7f44b57eae989042d28dc1d22
+
+Package: ocean-wb-regex-first
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio regex first workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-regex-first_1.0.0-1_all.deb
+Size: 12432
+SHA256: 5abdabbfad6c2be354434110329889663d1ee3100c2bf3f8eca03af7db6af979
+
+Package: ocean-wb-regex-last
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio regex last workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-regex-last_1.0.0-1_all.deb
+Size: 12434
+SHA256: 999e56216b85e79d4d8bf44d5110c5f00788cbdf05f698533fb3bf6fd3ef9b67
+
+Package: ocean-wb-regex-extract-numbers
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio regex extract numbers workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-regex-extract-numbers_1.0.0-1_all.deb
+Size: 12454
+SHA256: 67d048ba6e739730bd58eb69c974fc47b22ccdbe354de8043717b8e60e83e84b
+
+Package: ocean-wb-regex-extract-emails
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio regex extract emails workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-regex-extract-emails_1.0.0-1_all.deb
+Size: 12452
+SHA256: fe759e6787761e8ce33ffeac19de14e48cd15ea1f4cfcb1693d0023622f78a4e
+
+Package: ocean-wb-regex-extract-urls
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio regex extract urls workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-regex-extract-urls_1.0.0-1_all.deb
+Size: 12442
+SHA256: a9b96758da5f1b28e01e0039da8252a6900d7a5332b643736b4ff7e73f174a3e
+
+Package: ocean-wb-regex-extract-ips
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio regex extract ips workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-regex-extract-ips_1.0.0-1_all.deb
+Size: 12452
+SHA256: a2a18b7e4a3c2c1fd60c92efcf1d7b4992c7567d83cbe95fee3bd566ad001ddc
+
+Package: ocean-wb-regex-validate
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio regex validate workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-regex-validate_1.0.0-1_all.deb
+Size: 12440
+SHA256: 7382b99a9131934978c3768ac408a1c460ed20780ffc3834541e0f222cc9bc8a
+
+Package: ocean-wb-diff-text-unified
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio diff text unified workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-diff-text-unified_1.0.0-1_all.deb
+Size: 12448
+SHA256: 9569440c95f69f97708e1229efb75462bd2c293a1a1497a47d9879924be7092d
+
+Package: ocean-wb-diff-text-context
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio diff text context workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-diff-text-context_1.0.0-1_all.deb
+Size: 12440
+SHA256: dab264451721bb01c358a38e130c9f4b183a15b801a6f6fff7a942e7f933c870
+
+Package: ocean-wb-diff-text-html
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio diff text html workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-diff-text-html_1.0.0-1_all.deb
+Size: 12448
+SHA256: 1c8c28029a51243b53640a6de51861afa3420b4357c9251c4cb8caae4e44879e
+
+Package: ocean-wb-diff-lines-added
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio diff lines added workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-diff-lines-added_1.0.0-1_all.deb
+Size: 12448
+SHA256: 88ce161c3201d9dd44714476f63d25d8fb123034b288d70a12a8531f331c6589
+
+Package: ocean-wb-diff-lines-removed
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio diff lines removed workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-diff-lines-removed_1.0.0-1_all.deb
+Size: 12448
+SHA256: 8bd7aa16da322d9573a15d9fe9f7a5a0bf0bc05f8461637242eaf69d6a8f41b4
+
+Package: ocean-wb-diff-lines-changed
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio diff lines changed workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-diff-lines-changed_1.0.0-1_all.deb
+Size: 12452
+SHA256: 96ae40af19273029805154c5117195292b2dbd341ba2cc8f1479c478ff970f8c
+
+Package: ocean-wb-diff-json
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio diff json workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-diff-json_1.0.0-1_all.deb
+Size: 12432
+SHA256: 7a0a93650b3c94f07162faa7274a7c458cf4959306a840454415f7025e7adb9f
+
+Package: ocean-wb-diff-json-keys
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio diff json keys workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-diff-json-keys_1.0.0-1_all.deb
+Size: 12448
+SHA256: c90ec71f5c52e293df1831e83d56f797c9f8d05bd1660364221ccc9556afe00e
+
+Package: ocean-wb-diff-dir-names
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio diff dir names workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-diff-dir-names_1.0.0-1_all.deb
+Size: 12446
+SHA256: e4593cc568bc776f8f3883911dfbe8f499e1bf60a5cc5192e521494a0b726e7f
+
+Package: ocean-wb-diff-dir-size
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio diff dir size workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-diff-dir-size_1.0.0-1_all.deb
+Size: 12446
+SHA256: e1b7dc50399f437e8c72a404469021205b0844b620070dc55636f029440c6939
+
+Package: ocean-wb-diff-file-hash
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio diff file hash workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-diff-file-hash_1.0.0-1_all.deb
+Size: 12442
+SHA256: 1fbd4da1516c1ca2e8d3809ac7d7b4faa1e8e6951a53434f613246ccf6a7b051
+
+Package: ocean-wb-diff-file-size
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio diff file size workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-diff-file-size_1.0.0-1_all.deb
+Size: 12446
+SHA256: ab0119b9b1e13ba1e7044538b8bf2808a1909ef2d0a283bbeb1a6201d123d2f4
+
+Package: ocean-wb-diff-same-file
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio diff same file workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-diff-same-file_1.0.0-1_all.deb
+Size: 12442
+SHA256: 8cc60b653df33110cd90305ea5e1ec50a6245bd4a2f4eb93fa42eaa0e9698fca
+
+Package: ocean-wb-diff-common-lines
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio diff common lines workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-diff-common-lines_1.0.0-1_all.deb
+Size: 12440
+SHA256: cfe8d8953f7c46ef8b3883fe35727a9049cc890995a0d6b8bd0c78abde0adc17
+
+Package: ocean-wb-diff-unique-left
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio diff unique left workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-diff-unique-left_1.0.0-1_all.deb
+Size: 12450
+SHA256: 061d903ec314b81708368116f6bb186a6931d83b5bbe21d602d5c5f0e4117c53
+
+Package: ocean-wb-diff-unique-right
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio diff unique right workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-diff-unique-right_1.0.0-1_all.deb
+Size: 12454
+SHA256: 5408641d5ddf71d739fbe8783977247af5a1bcb45894dfe79f32240c82e255c3
+
+Package: ocean-wb-diff-sequence-ratio
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio diff sequence ratio workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-diff-sequence-ratio_1.0.0-1_all.deb
+Size: 12454
+SHA256: 3aca21ce2229832f060157c5a75cd6fba3e00af06517ffb5a62793d7210fe6f0
+
+Package: ocean-wb-diff-prefix-common
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio diff prefix common workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-diff-prefix-common_1.0.0-1_all.deb
+Size: 12444
+SHA256: 7eff1b0540223f0f1119ce0d1ac996e034da54ed3e35de35dda864fad187962a
+
+Package: ocean-wb-diff-suffix-common
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio diff suffix common workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-diff-suffix-common_1.0.0-1_all.deb
+Size: 12448
+SHA256: d6dce8ad9d338e7eaff880d38a8d4b3cf86a66211d783c9fa7c95f953a962594
+
+Package: ocean-wb-diff-hexdiff
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio diff hexdiff workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-diff-hexdiff_1.0.0-1_all.deb
+Size: 12438
+SHA256: 71dd64dbe08bb121cbffec6ec0dbc1f88acbb7804492814daa91191fbc98d5c1
+
+Package: ocean-wb-proc-self
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio proc self workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-proc-self_1.0.0-1_all.deb
+Size: 12430
+SHA256: 9b9c097f9e710a21d926c544b310762075744c5927c8c30371896ee9ed43af3b
+
+Package: ocean-wb-proc-pid-info
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio proc pid info workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-proc-pid-info_1.0.0-1_all.deb
+Size: 12440
+SHA256: c7ada29ac0536b51f57e27f6d0b3c1895733cd53af34c3d647aaf40a2336bfd2
+
+Package: ocean-wb-proc-pid-cmdline
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio proc pid cmdline workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-proc-pid-cmdline_1.0.0-1_all.deb
+Size: 12450
+SHA256: 6c03e7cc3017c4ced67cc25148346f492d1f03456ee5fb894788fc629fd9b204
+
+Package: ocean-wb-proc-pid-status
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio proc pid status workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-proc-pid-status_1.0.0-1_all.deb
+Size: 12450
+SHA256: 1bf4c0cfdf8616ffb2ab62082b28c606fd61d0cbf6a3eaac8d69a2ce137f4c3a
+
+Package: ocean-wb-proc-pid-env
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio proc pid env workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-proc-pid-env_1.0.0-1_all.deb
+Size: 12440
+SHA256: c4856fd5653dcb8e1f27bb5078cd48f653be63823b8363ebc743c02ab67d0775
+
+Package: ocean-wb-proc-pid-fds
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio proc pid fds workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-proc-pid-fds_1.0.0-1_all.deb
+Size: 12440
+SHA256: 3785b040300690629f6fcc58f6f5cfbc7ffed6e9f97409563d5d462a0686dfd2
+
+Package: ocean-wb-proc-pid-threads
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio proc pid threads workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-proc-pid-threads_1.0.0-1_all.deb
+Size: 12450
+SHA256: 79fd8423eb8ce7ad7c06814231f6f1b1ef902910574f31c5f7d7aac5d66c9b93
+
+Package: ocean-wb-proc-pid-maps
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio proc pid maps workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-proc-pid-maps_1.0.0-1_all.deb
+Size: 12444
+SHA256: 3dec0e5229d4c37110f65e9efba99da179d97d2e03595a8a9306e3a8935840b0
+
+Package: ocean-wb-proc-pid-cwd
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio proc pid cwd workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-proc-pid-cwd_1.0.0-1_all.deb
+Size: 12442
+SHA256: f1ed4bca0500165b1e4e8274bc90edc6071c1dd7491ae34a66b4ec1df4c7d991
+
+Package: ocean-wb-proc-pid-exe
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio proc pid exe workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-proc-pid-exe_1.0.0-1_all.deb
+Size: 12440
+SHA256: d1a0e5f17aafdb948d4e04963dcc362deb6ee3e918642b1f6326165e956ce2ac
+
+Package: ocean-wb-proc-list
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio proc list workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-proc-list_1.0.0-1_all.deb
+Size: 12432
+SHA256: f144ef771dc4e4e24f8a31dab21d97a320eaa0af67b1b7d5f2ae6efbad4ad251
+
+Package: ocean-wb-proc-search
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio proc search workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-proc-search_1.0.0-1_all.deb
+Size: 12434
+SHA256: 22b0df2cf0c51905fb023599a7abbe9cd1540ee3d9ee49c8587ac3afe4b75034
+
+Package: ocean-wb-proc-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio proc count workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-proc-count_1.0.0-1_all.deb
+Size: 12432
+SHA256: ef3dd475ec666f52b3f9539d4fbd9203b68f7b22be9aee7db787b3252ab7ebc3
+
+Package: ocean-wb-proc-uptime
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio proc uptime workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-proc-uptime_1.0.0-1_all.deb
+Size: 12434
+SHA256: 3823d1631204939997e3add00a0342e132a91f08dbd8e5f28b86f000f42cf9d6
+
+Package: ocean-wb-proc-loadavg
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio proc loadavg workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-proc-loadavg_1.0.0-1_all.deb
+Size: 12436
+SHA256: 07e49cfe29786661d7303e6497da26c158c1a71ee32bd57e3965f97b975c3fd1
+
+Package: ocean-wb-proc-meminfo
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio proc meminfo workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-proc-meminfo_1.0.0-1_all.deb
+Size: 12438
+SHA256: 19a5a3f420b848bed68f1cbaa2a0cd95298d6d3204c3eb82d1e074a5a580cbf9
+
+Package: ocean-wb-proc-cpu-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio proc cpu count workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-proc-cpu-count_1.0.0-1_all.deb
+Size: 12446
+SHA256: 7e0b51251b7b7ee8b2307720b3387fd2dad3744a91f828da129f971fad77d8f7
+
+Package: ocean-wb-proc-kernel
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio proc kernel workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-proc-kernel_1.0.0-1_all.deb
+Size: 12432
+SHA256: f8d37b6c14ae648da4bd48650889da7b32c96a2f76da9e2de08eaa5c7afbd88d
+
+Package: ocean-wb-proc-limits
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio proc limits workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-proc-limits_1.0.0-1_all.deb
+Size: 12436
+SHA256: 2cc485213bb5c04b0e1e8b86946671a978d7b5e84ece7c62e0db817f1292df62
+
+Package: ocean-wb-proc-open-fds
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio proc open fds workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-proc-open-fds_1.0.0-1_all.deb
+Size: 12440
+SHA256: d642c8458b8f983a8e9ab7139b93e9ed103d0ca24b79a87112f8d088626f3f45
+
+Package: ocean-wb-perm-mode
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio perm mode workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-perm-mode_1.0.0-1_all.deb
+Size: 12430
+SHA256: e055597f5e7fe0c2f7e6479c6fec8ef9e064ecc0611c2f52cbaaed4a3ee193a0
+
+Package: ocean-wb-perm-octal-to-symbolic
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio perm octal to symbolic workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-perm-octal-to-symbolic_1.0.0-1_all.deb
+Size: 12460
+SHA256: a6347161eceb83e33f33a36c08e46daef528b9c9a058c7af4b93036f8d4b13d5
+
+Package: ocean-wb-perm-symbolic-to-octal
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio perm symbolic to octal workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-perm-symbolic-to-octal_1.0.0-1_all.deb
+Size: 12454
+SHA256: 0e4350e87e49fb75f269cfaa9fdb5b22e534d86460cbe65f2a937c056e6b9034
+
+Package: ocean-wb-perm-is-readable
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio perm is readable workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-perm-is-readable_1.0.0-1_all.deb
+Size: 12448
+SHA256: 8a776367cb3cb8c3dd06ee9ad1872112f89f0d8b4db80b89586d7d8dd7d7f8ad
+
+Package: ocean-wb-perm-is-writable
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio perm is writable workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-perm-is-writable_1.0.0-1_all.deb
+Size: 12450
+SHA256: 6d5c8b84f4653be5c860b96714c20e3560167d39b6508ccd713708132b1132d1
+
+Package: ocean-wb-perm-is-executable
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio perm is executable workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-perm-is-executable_1.0.0-1_all.deb
+Size: 12448
+SHA256: d9914960bb4f78c65e6eb738a728c4ecf07d15b898235050a449cd8c1bb523c7
+
+Package: ocean-wb-perm-is-owner
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio perm is owner workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-perm-is-owner_1.0.0-1_all.deb
+Size: 12444
+SHA256: 02fbb7c78cc1b53cbca307ff95dad9659b0cbe5ffa3194095946895ab521b37a
+
+Package: ocean-wb-perm-chmod
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio perm chmod workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-perm-chmod_1.0.0-1_all.deb
+Size: 12432
+SHA256: 4e5ba6b6c3d82fefddcf2db653a9454e66e17655a5cfb045f842de7ff94fba24
+
+Package: ocean-wb-perm-add-exec
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio perm add exec workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-perm-add-exec_1.0.0-1_all.deb
+Size: 12438
+SHA256: 1dde7e527ac11a3810309cd1e15266df3f50e2d6bc6ac57c3098bcc5b636dc91
+
+Package: ocean-wb-perm-remove-exec
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio perm remove exec workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-perm-remove-exec_1.0.0-1_all.deb
+Size: 12438
+SHA256: fc2c1484772b8b8c6b942b144e0fb67f429005de6a95f97bb67d4c1131d4e69d
+
+Package: ocean-wb-perm-umask
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio perm umask workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-perm-umask_1.0.0-1_all.deb
+Size: 12432
+SHA256: b757c5525726f55f5e5d9c2270145af93ae56b10831af2580d11a7c91339cada
+
+Package: ocean-wb-perm-stat
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio perm stat workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-perm-stat_1.0.0-1_all.deb
+Size: 12428
+SHA256: 57f87b8b05de8969a8424a8a2793c9a0d9d92cca5c6f21e299865bd5b5077b9f
+
+Package: ocean-wb-perm-inode
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio perm inode workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-perm-inode_1.0.0-1_all.deb
+Size: 12432
+SHA256: 97b6c1117d14410263d83462419bda254565fbf676378814e3bfd0163cbf077c
+
+Package: ocean-wb-perm-links
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio perm links workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-perm-links_1.0.0-1_all.deb
+Size: 12432
+SHA256: 974421b3e293ef5e9f0ea3b5060dc1f7dffc0279cb48c1c5493b69d29b0a0399
+
+Package: ocean-wb-perm-owner
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio perm owner workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-perm-owner_1.0.0-1_all.deb
+Size: 12432
+SHA256: ad37e6b8e785170f2055176a19fb7ba2f1fdd8f586288ba92d1895b744c156a7
+
+Package: ocean-wb-perm-group
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio perm group workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-perm-group_1.0.0-1_all.deb
+Size: 12430
+SHA256: 0fce387ffba6d4d4cfd34df4d72537e3ae2de5b7260299553cfd256dfc3e8f6d
+
+Package: ocean-wb-perm-same-device
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio perm same device workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-perm-same-device_1.0.0-1_all.deb
+Size: 12446
+SHA256: e833bd01e9f8530fc4cdd0b886405ee7388a0ce9a7af4eb25231f121273f97b8
+
+Package: ocean-wb-perm-is-symlink
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio perm is symlink workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-perm-is-symlink_1.0.0-1_all.deb
+Size: 12450
+SHA256: 1e5fd6012bba14cf21d3936ccebec43f1eba6eb28a3bb86169276371a4a476a8
+
+Package: ocean-wb-perm-resolve-symlink
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio perm resolve symlink workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-perm-resolve-symlink_1.0.0-1_all.deb
+Size: 12452
+SHA256: 48a6cefbbdda694b3209df5459218a94c35bbcdaafd3e0b234bb875039843dce
+
+Package: ocean-wb-perm-access-matrix
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio perm access matrix workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-perm-access-matrix_1.0.0-1_all.deb
+Size: 12446
+SHA256: 3168b80f1da31c1b0dcf0b1042230cdcc804ef2fbd33696c4dc495525fad58e7
+
+Package: ocean-wb-semver-parse
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio semver parse workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-semver-parse_1.0.0-1_all.deb
+Size: 12434
+SHA256: ad707986689ce137d29560726e6b5b9debc86509d8567354159a6378884f6a7a
+
+Package: ocean-wb-semver-compare
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio semver compare workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-semver-compare_1.0.0-1_all.deb
+Size: 12438
+SHA256: e81e6245f5d217eaf9dabbf58c553d0237b381ca89ec4ce9afd2bf270f74e4ed
+
+Package: ocean-wb-semver-sort
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio semver sort workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-semver-sort_1.0.0-1_all.deb
+Size: 12432
+SHA256: de95dabd8cca00467e2bf6c403061409609be13e88f52ef262e3e5cbf52c34d3
+
+Package: ocean-wb-semver-bump-major
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio semver bump major workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-semver-bump-major_1.0.0-1_all.deb
+Size: 12442
+SHA256: 0788c53736d04bf1863c53a893170e740ad2a25d7bbeabdc0a8592aca6443608
+
+Package: ocean-wb-semver-bump-minor
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio semver bump minor workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-semver-bump-minor_1.0.0-1_all.deb
+Size: 12446
+SHA256: 9db57ef98eface0f90994c79ec1ed84c27aa225a0a49145e1217d15a85247ead
+
+Package: ocean-wb-semver-bump-patch
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio semver bump patch workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-semver-bump-patch_1.0.0-1_all.deb
+Size: 12446
+SHA256: f03dc031cf59365cb3bee8ce6b3a76668779a7c09e55ace22dcf54693a51179b
+
+Package: ocean-wb-semver-is-prerelease
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio semver is prerelease workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-semver-is-prerelease_1.0.0-1_all.deb
+Size: 12446
+SHA256: 21794bd840543deb36bed578f8dadd697e1729c3c3d70145f66b6e7923951632
+
+Package: ocean-wb-semver-core
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio semver core workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-semver-core_1.0.0-1_all.deb
+Size: 12432
+SHA256: d742ba2e6cd81749168cfcde4d520fed7d8ac1d32a1bd6679ceb7e518c1ccbf2
+
+Package: ocean-wb-semver-prerelease
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio semver prerelease workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-semver-prerelease_1.0.0-1_all.deb
+Size: 12442
+SHA256: 00d2a9bb63319a685016577b30c6d48bb0ec75785c88db420e6d946451f4e4f4
+
+Package: ocean-wb-semver-build
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio semver build workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-semver-build_1.0.0-1_all.deb
+Size: 12432
+SHA256: f3c6e1f57eb8604418465abffde07ffaab41c7091e401f3d6516a5c7fc764b88
+
+Package: ocean-wb-semver-satisfies-exact
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio semver satisfies exact workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-semver-satisfies-exact_1.0.0-1_all.deb
+Size: 12448
+SHA256: 3cd30b6b8cd93f794bd5d76a33631aa823f0a9c253fd8d46c5e7927cdd4d2d9b
+
+Package: ocean-wb-semver-satisfies-caret
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio semver satisfies caret workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-semver-satisfies-caret_1.0.0-1_all.deb
+Size: 12446
+SHA256: 93da7f58fba6e4b2dcbabf51de83c528c6a0e72602b3f4c231d09a91a61cf592
+
+Package: ocean-wb-semver-satisfies-tilde
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio semver satisfies tilde workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-semver-satisfies-tilde_1.0.0-1_all.deb
+Size: 12456
+SHA256: ccb34ccea5669e835cae10f4d1d69379713e3a7100c7e54b349ae79a777c2a7e
+
+Package: ocean-wb-semver-next-major
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio semver next major workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-semver-next-major_1.0.0-1_all.deb
+Size: 12446
+SHA256: daedf5966bcfbfc95aa4faf4aa499f163e9676534737bcd26e6347152cfaf92a
+
+Package: ocean-wb-semver-next-minor
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio semver next minor workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-semver-next-minor_1.0.0-1_all.deb
+Size: 12450
+SHA256: 02f46af6b176d6345546a573d8f6b0ee609117f23268e9df17085d7436b5ccc8
+
+Package: ocean-wb-semver-next-patch
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio semver next patch workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-semver-next-patch_1.0.0-1_all.deb
+Size: 12450
+SHA256: a16b24385de83237613e4ea1d830e24a48097d8e4423c24cfae604c100a1ec77
+
+Package: ocean-wb-semver-normalize
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio semver normalize workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-semver-normalize_1.0.0-1_all.deb
+Size: 12440
+SHA256: 35dd075e142b709070e15533006878b291ab1132945ed24f6228338213dd836b
+
+Package: ocean-wb-semver-max
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio semver max workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-semver-max_1.0.0-1_all.deb
+Size: 12430
+SHA256: 96b97f9defc25039fa6cb72bea3d5eb2edaae87d6954d583e0f4e4c8693c3dcb
+
+Package: ocean-wb-semver-min
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio semver min workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-semver-min_1.0.0-1_all.deb
+Size: 12432
+SHA256: 0cbe96b99c647ed077a891a7fae8053bc98d4acc64637944f823bd3dd14fc47f
+
+Package: ocean-wb-semver-distance
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio semver distance workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-semver-distance_1.0.0-1_all.deb
+Size: 12432
+SHA256: 64115816666fa463db0b8eb7fc1ec8c193fc20f5091e6b9425284a117b0caa00
+
+Package: ocean-wb-log-levels
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio log levels workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-log-levels_1.0.0-1_all.deb
+Size: 12432
+SHA256: 8b2f1e5364dc9ba8e2a4a0c043fcf91ceb3f10c9f6495d143923051b05e7e9de
+
+Package: ocean-wb-log-count-levels
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio log count levels workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-log-count-levels_1.0.0-1_all.deb
+Size: 12450
+SHA256: d3db8a94044e61efdb67c885c571090a004d22a8a8c17366f9f088c50b5b6c62
+
+Package: ocean-wb-log-errors
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio log errors workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-log-errors_1.0.0-1_all.deb
+Size: 12432
+SHA256: 14197d5e3569f88ad0e66f70d1322d39b3a942f18697ffbeed0a692682efe1e8
+
+Package: ocean-wb-log-warnings
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio log warnings workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-log-warnings_1.0.0-1_all.deb
+Size: 12436
+SHA256: e2e86e74cf08ac393391591154777d0c8e898be479901d525670da79d215cce5
+
+Package: ocean-wb-log-tail-errors
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio log tail errors workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-log-tail-errors_1.0.0-1_all.deb
+Size: 12446
+SHA256: d6312d132307a2e6b8d5760352bda3433344dd2d3c02ac3eb44d4a045df8367c
+
+Package: ocean-wb-log-timestamps
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio log timestamps workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-log-timestamps_1.0.0-1_all.deb
+Size: 12448
+SHA256: 45add1b2b6a220054f21b5409fe3f031bea595c13acf6aea1c24ddfe9bf237a3
+
+Package: ocean-wb-log-time-range
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio log time range workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-log-time-range_1.0.0-1_all.deb
+Size: 12450
+SHA256: 5775f9e920560f05123779460792af79f173d933020fbe8a298e670b9691aaea
+
+Package: ocean-wb-log-grep
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio log grep workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-log-grep_1.0.0-1_all.deb
+Size: 12432
+SHA256: d498ad79ab67a98bb849856bc3764e98a2c337f81f43650526a0b14cefb1a235
+
+Package: ocean-wb-log-json-lines
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio log json lines workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-log-json-lines_1.0.0-1_all.deb
+Size: 12454
+SHA256: 5ee78d8387d58c817e5218f91c6312a2befd890df2c130b2ceb4e0ddea500da8
+
+Package: ocean-wb-log-invalid-json-lines
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio log invalid json lines workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-log-invalid-json-lines_1.0.0-1_all.deb
+Size: 12460
+SHA256: 05707f386327854a669403d30ddaca7a84256e2e2796adbe595d355c3db430fa
+
+Package: ocean-wb-log-dedupe
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio log dedupe workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-log-dedupe_1.0.0-1_all.deb
+Size: 12432
+SHA256: 05d1795866cc88096a5ba58d68dffa89b4aada5fb2d4b74535e3e85f254dce99
+
+Package: ocean-wb-log-top-messages
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio log top messages workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-log-top-messages_1.0.0-1_all.deb
+Size: 12450
+SHA256: 524fe332ff89820151edd4ce93f307a1d9257f7eb1090f165221e7a25b7fa33e
+
+Package: ocean-wb-log-top-words
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio log top words workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-log-top-words_1.0.0-1_all.deb
+Size: 12450
+SHA256: f122570f0c60d8e9abdb5126bde2893065e957b924d3eab2bfe4a2182d6a4d3c
+
+Package: ocean-wb-log-line-rate
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio log line rate workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-log-line-rate_1.0.0-1_all.deb
+Size: 12448
+SHA256: 6f6ae9fe7447563eb1e5cd8fb8f7dec6d4a40fe2621f63cb2229d72f9cfa2999
+
+Package: ocean-wb-log-size
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio log size workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-log-size_1.0.0-1_all.deb
+Size: 12436
+SHA256: b1d72fcdfa92599870b315996ec91c641f2ebc6a433871dc66af2f6ae061b7d7
+
+Package: ocean-wb-log-rotate-name
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio log rotate name workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-log-rotate-name_1.0.0-1_all.deb
+Size: 12448
+SHA256: b7bd0654a19ac4059ce8c721eee2242d37fbfeef470629524f8a010dc68cee75
+
+Package: ocean-wb-log-split-by-level
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio log split by level workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-log-split-by-level_1.0.0-1_all.deb
+Size: 12456
+SHA256: 21dcb21a15a09cff53d4385a232f94bbe97e4867ccb5985c69dcde86224f66a2
+
+Package: ocean-wb-log-extract-ids
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio log extract ids workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-log-extract-ids_1.0.0-1_all.deb
+Size: 12448
+SHA256: 067bd61adca368954522893152b0837ee92362406f88373019f5d8f36df8e434
+
+Package: ocean-wb-log-extract-ips
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio log extract ips workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-log-extract-ips_1.0.0-1_all.deb
+Size: 12448
+SHA256: 11eef56f258f90ee644a8cf05d97d728f2f9f21f2fb8fd21cbd72f7ab0da9df9
+
+Package: ocean-wb-log-summary
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio log summary workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-log-summary_1.0.0-1_all.deb
+Size: 12436
+SHA256: 8c32ea0b65116dddf18d73651e9237e7e9e5a9efb6421d8f2c26548e10c4a5af
+
+Package: ocean-wb-stream-head
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio stream head workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-stream-head_1.0.0-1_all.deb
+Size: 12432
+SHA256: 2a75107d293a5044398f9b6e777dd9d92c35a3af8be4cda65076bd7d1b67527b
+
+Package: ocean-wb-stream-tail
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio stream tail workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-stream-tail_1.0.0-1_all.deb
+Size: 12434
+SHA256: 83f9790ba2b8c78de2ad3a590da12832dcb455588b0fe2b82d230ddb342e66f4
+
+Package: ocean-wb-stream-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio stream count workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-stream-count_1.0.0-1_all.deb
+Size: 12434
+SHA256: 30063ee5332238b0a805ab54ecee8416310f8a6f64f9e362923985fd7b07b481
+
+Package: ocean-wb-stream-nonempty
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio stream nonempty workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-stream-nonempty_1.0.0-1_all.deb
+Size: 12440
+SHA256: 2ab6553148a702f04a4a9eb8f01426649cf6e69b99fedd31bcf38c0185a52687
+
+Package: ocean-wb-stream-blank
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio stream blank workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-stream-blank_1.0.0-1_all.deb
+Size: 12436
+SHA256: 765956dc2bef59e05db3fab311b35e1812ed35962ff591ece789b6bed2a56c66
+
+Package: ocean-wb-stream-number
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio stream number workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-stream-number_1.0.0-1_all.deb
+Size: 12434
+SHA256: e9e81349249b1fb7ab12e69c4ca016c0d2d159c8d5083062c4a7c79f2f7eac0e
+
+Package: ocean-wb-stream-prefix
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio stream prefix workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-stream-prefix_1.0.0-1_all.deb
+Size: 12434
+SHA256: f3825504d7f39d4f899d371eda305352017dc7130dc5f572929feb786bb349b8
+
+Package: ocean-wb-stream-suffix
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio stream suffix workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-stream-suffix_1.0.0-1_all.deb
+Size: 12440
+SHA256: e5958cf3b2928f4724da9c754b8aebd04d77c85f8444d1692b36acbc5286e6d3
+
+Package: ocean-wb-stream-trim
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio stream trim workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-stream-trim_1.0.0-1_all.deb
+Size: 12436
+SHA256: a0842d339e73964751f86b8e016a6808774500b2be6e96ce079b27a15b147636
+
+Package: ocean-wb-stream-unique
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio stream unique workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-stream-unique_1.0.0-1_all.deb
+Size: 12436
+SHA256: a49ad186b0762a890e5f55066ff63d61b4dd2078ea46ca29208d1d7ba793c5b6
+
+Package: ocean-wb-stream-duplicates
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio stream duplicates workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-stream-duplicates_1.0.0-1_all.deb
+Size: 12446
+SHA256: 92c54f063ed0a3132a0039428c260bcff33c2bd3bcaef57d1a4237729490a858
+
+Package: ocean-wb-stream-sample
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio stream sample workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-stream-sample_1.0.0-1_all.deb
+Size: 12436
+SHA256: 6d0de7e9abf4529e148f7aaa8a034ca74d96307330b6e85e019195413538bd4a
+
+Package: ocean-wb-stream-every-n
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio stream every n workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-stream-every-n_1.0.0-1_all.deb
+Size: 12442
+SHA256: f4e0796d20726d7ba416af56991bbe03f1d10f38231fdabd4b88d6a879eb288f
+
+Package: ocean-wb-stream-chunk
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio stream chunk workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-stream-chunk_1.0.0-1_all.deb
+Size: 12436
+SHA256: 6e23b09dff89f6e25ee7b16324b01c5a209389923a639e53fc7e201bfbcf8460
+
+Package: ocean-wb-stream-join
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio stream join workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-stream-join_1.0.0-1_all.deb
+Size: 12434
+SHA256: 26dc44840a11cc131dbd04a0e19f01481c9d876a2b85e1b4a6a4b818bab5c9fd
+
+Package: ocean-wb-stream-split-delim
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio stream split delim workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-stream-split-delim_1.0.0-1_all.deb
+Size: 12448
+SHA256: 15d1d12f0ed7a1f2281b7f9c89e8feb2014066eddd0d4ee4b2082de63ccb6994
+
+Package: ocean-wb-stream-columns
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio stream columns workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-stream-columns_1.0.0-1_all.deb
+Size: 12444
+SHA256: a470fb8a10ac38c97590398fecdb59279423c749445a6e08500960eeb0817c4f
+
+Package: ocean-wb-stream-reverse
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio stream reverse workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-stream-reverse_1.0.0-1_all.deb
+Size: 12436
+SHA256: d4550ad868db436cc1e92dfc019e430c505844dd5b1d8be1f1828880715e8891
+
+Package: ocean-wb-stream-shuffle
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio stream shuffle workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-stream-shuffle_1.0.0-1_all.deb
+Size: 12444
+SHA256: fc9e301708166ec4cfca734bc63d13823e9d6081757d8af6c2d28fee04c95e15
+
+Package: ocean-wb-stream-hash-lines
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio stream hash lines workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-stream-hash-lines_1.0.0-1_all.deb
+Size: 12450
+SHA256: 9b6cc8a3380ac2a9605fa0352f772b38a414d9edefdc63763d0b067c7db87cef
+
+Package: ocean-wb-shell-quote
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio shell quote workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-shell-quote_1.0.0-1_all.deb
+Size: 12434
+SHA256: b50d9ab3e8a4383246e2b7f83f4ce25a849e73cfabdb2ed423a6677a204b9f87
+
+Package: ocean-wb-shell-join
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio shell join workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-shell-join_1.0.0-1_all.deb
+Size: 12434
+SHA256: 5704dc67723c8a26d9e556b36982b4f11d51189fe092a925f3e523adb7a5c10d
+
+Package: ocean-wb-shell-split
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio shell split workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-shell-split_1.0.0-1_all.deb
+Size: 12438
+SHA256: 6b954f13dfc29e6f7472489a0214560de6fac828dd188e7f22b5cbd60d6fcf3a
+
+Package: ocean-wb-shell-which
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio shell which workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-shell-which_1.0.0-1_all.deb
+Size: 12436
+SHA256: 2363c2781e16ed2a6caea2b07cacc71e5db3dec59782999dd0241c3fd7182055
+
+Package: ocean-wb-shell-path-list
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio shell path list workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-shell-path-list_1.0.0-1_all.deb
+Size: 12448
+SHA256: 2ecb594c99ca8f7e1b5df1b6b75ac82416ce8c4baa3f37b2d0f5494b90b970ed
+
+Package: ocean-wb-shell-path-dedupe
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio shell path dedupe workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-shell-path-dedupe_1.0.0-1_all.deb
+Size: 12448
+SHA256: 779fd18ff5565347d2611ffc36fbca20ae9385f9c115d3fa3c2b655986352847
+
+Package: ocean-wb-shell-path-missing
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio shell path missing workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-shell-path-missing_1.0.0-1_all.deb
+Size: 12448
+SHA256: 92d2b8becd2d284d9a7a36135b2cf30d8e669769a942db4a1ff7ee8c14492699
+
+Package: ocean-wb-shell-env-get
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio shell env get workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-shell-env-get_1.0.0-1_all.deb
+Size: 12442
+SHA256: 8638bb7a7a54b78a9ecd8a32e8a84732ec3bef9866b00e30564652e5226177dc
+
+Package: ocean-wb-shell-env-has
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio shell env has workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-shell-env-has_1.0.0-1_all.deb
+Size: 12442
+SHA256: 98838a0f62ef3c1fe5fe5cb44155235a258ade8d3666540d430e82553e448c4c
+
+Package: ocean-wb-shell-env-list
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio shell env list workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-shell-env-list_1.0.0-1_all.deb
+Size: 12446
+SHA256: 95240500fc14b5213188bdaed779496ec875b562ad932546afe980544e083b66
+
+Package: ocean-wb-shell-env-prefix
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio shell env prefix workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-shell-env-prefix_1.0.0-1_all.deb
+Size: 12448
+SHA256: f9d3df51218e65c70551e9e1d04439752b032d4921d00040eb782f0848be765b
+
+Package: ocean-wb-shell-shebang
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio shell shebang workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-shell-shebang_1.0.0-1_all.deb
+Size: 12436
+SHA256: 6b65ece511f1359623a58cb5a45af4a9e345715ae9377b2b79ee1c562dab7f9f
+
+Package: ocean-wb-shell-command-exists
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio shell command exists workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-shell-command-exists_1.0.0-1_all.deb
+Size: 12444
+SHA256: c2b63e9295de2d07b07cf3318a5ae4f30925a9dc389cd26f48b84304ee8b0594
+
+Package: ocean-wb-shell-command-type
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio shell command type workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-shell-command-type_1.0.0-1_all.deb
+Size: 12440
+SHA256: 81e7992c3adbf3d8a0656ec3089b0b578983c3cba77fe6466960c4084cb57f92
+
+Package: ocean-wb-shell-cwd
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio shell cwd workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-shell-cwd_1.0.0-1_all.deb
+Size: 12430
+SHA256: 8a4eab895623d22bc6f3f8069c2700d87e6fdf540c4bfe78e43ac084325afe64
+
+Package: ocean-wb-shell-home
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio shell home workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-shell-home_1.0.0-1_all.deb
+Size: 12432
+SHA256: bfad81a345352ec9073039c7f8cd2acda3f31103ac9a12bccf45a0f49418fb79
+
+Package: ocean-wb-shell-tempdir
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio shell tempdir workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-shell-tempdir_1.0.0-1_all.deb
+Size: 12432
+SHA256: 14757d0532105c6b5c95ea26747294739b0ce3f311699009ddb5eba0171eb3c4
+
+Package: ocean-wb-shell-shell
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio shell shell workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-shell-shell_1.0.0-1_all.deb
+Size: 12430
+SHA256: 320640ae0c7f68d7bc456fc53663635bc98262255aae3d143c125539f646b74f
+
+Package: ocean-wb-shell-argv-json
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio shell argv json workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-shell-argv-json_1.0.0-1_all.deb
+Size: 12440
+SHA256: 6373ed4132125b23b59e60313bffae4a95cbe2380c2c782c0aae6f636fe9b141
+
+Package: ocean-wb-shell-export-line
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio shell export line workbench utility
+ Functional Ocean-native command from the Workbench 300 suite.
+Filename: staging/ocean-workbench-300/pool/main/ocean-wb-shell-export-line_1.0.0-1_all.deb
+Size: 12448
+SHA256: ccf716be4fb1f984ce72a69db9eacb7e173d2a8d5d2ef19c0ca3b548011aec4a
