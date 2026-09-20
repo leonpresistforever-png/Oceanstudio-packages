@@ -1,361 +1,513 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "shard": "shard-08-network-traffic-sockets",
-  "section": "net",
   "category": "Network Traffic & Socket Engineering",
+  "repair": "placeholder-to-functional",
   "target": "aarch64-linux-android28",
   "prefix": "/data/data/studio.ocean.app/files/usr",
   "packageCount": 50,
+  "uniquePackageCount": 50,
+  "version": "1.0.0-2",
   "packages": [
     {
       "package": "pcap-header-analyzer",
-      "version": "1.0.0-1",
-      "artifact": "pcap-header-analyzer_1.0.0-1_aarch64.deb",
-      "sha256": "040dfcf2dd87d6f34f0e9b2578bd4f7ddaa01cc1442e8a39037bb9195695fb3e",
-      "size": 2164
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "pcap-header-analyzer_1.0.0-2_aarch64.deb",
+      "sha256": "18f627e2f9ef34acace7f0a356d0d3072b3fdac1adab772bfa1384107a754fa8",
+      "size": 6364,
+      "implementation": "sources/functional-shards/shard08_network.py",
+      "status": "functional-repair"
     },
     {
       "package": "packet-payload-dissector",
-      "version": "1.0.0-1",
-      "artifact": "packet-payload-dissector_1.0.0-1_aarch64.deb",
-      "sha256": "2e4c1c32a4933f490f3bcf2301c88fa447e4c3cdf7fff99646f4e0a204b9ba36",
-      "size": 2156
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "packet-payload-dissector_1.0.0-2_aarch64.deb",
+      "sha256": "53f0a6818a532b49918d4f61e3d0afaad251e9cd0dd012fadc4e2fdbb1fc49a4",
+      "size": 6360,
+      "implementation": "sources/functional-shards/shard08_network.py",
+      "status": "functional-repair"
     },
     {
       "package": "ethernet-frame-parser",
-      "version": "1.0.0-1",
-      "artifact": "ethernet-frame-parser_1.0.0-1_aarch64.deb",
-      "sha256": "1f7cde3b69d822e500ea0b2eae076c0fb93c69859bbba01a3a868c46792a76cf",
-      "size": 2168
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "ethernet-frame-parser_1.0.0-2_aarch64.deb",
+      "sha256": "94ca9196a8d63e0427a65591518605ff6928a4774861ea8c1e3a15fe65d85118",
+      "size": 6364,
+      "implementation": "sources/functional-shards/shard08_network.py",
+      "status": "functional-repair"
     },
     {
       "package": "ipv4-header-checker",
-      "version": "1.0.0-1",
-      "artifact": "ipv4-header-checker_1.0.0-1_aarch64.deb",
-      "sha256": "5149da3dda6245ee1b2552b8e6626645c6222fdee23fa801b8877bb8a9035787",
-      "size": 2164
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "ipv4-header-checker_1.0.0-2_aarch64.deb",
+      "sha256": "7a6ce505207fb9f33cde5ae52961cbe166800fcf00bdc5385bc0613ea38bbd6f",
+      "size": 6364,
+      "implementation": "sources/functional-shards/shard08_network.py",
+      "status": "functional-repair"
     },
     {
       "package": "ipv6-extension-parser",
-      "version": "1.0.0-1",
-      "artifact": "ipv6-extension-parser_1.0.0-1_aarch64.deb",
-      "sha256": "c45eaccf1a90c6ab74d6972ee9f4eb4d309875c092c1c298d575c693cf464bd5",
-      "size": 2172
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "ipv6-extension-parser_1.0.0-2_aarch64.deb",
+      "sha256": "2bbc3d5273d73060eea6178ce6f34b75ead83ffb3410df17827a734650b33fc5",
+      "size": 6368,
+      "implementation": "sources/functional-shards/shard08_network.py",
+      "status": "functional-repair"
     },
     {
       "package": "tcp-flags-analyzer",
-      "version": "1.0.0-1",
-      "artifact": "tcp-flags-analyzer_1.0.0-1_aarch64.deb",
-      "sha256": "4b17c343c56634ec0c0882482e00697d456dafd0ee50a01147ed6fab493f1838",
-      "size": 2180
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "tcp-flags-analyzer_1.0.0-2_aarch64.deb",
+      "sha256": "de7bbbc521d7f1c1e1241494a4132502a9bb3d439bb98a183df63c5e42c53b1b",
+      "size": 6384,
+      "implementation": "sources/functional-shards/shard08_network.py",
+      "status": "functional-repair"
     },
     {
       "package": "udp-packet-builder",
-      "version": "1.0.0-1",
-      "artifact": "udp-packet-builder_1.0.0-1_aarch64.deb",
-      "sha256": "78b6d0a5a29d6712a3eafea98fc7a011dd5617dd1b7cb88f83b2ce22b6fa3b61",
-      "size": 2164
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "udp-packet-builder_1.0.0-2_aarch64.deb",
+      "sha256": "0f07a975c3c4923a232d8feb89ca81b4e578f66d87cf37880263ca6aa45f7cb0",
+      "size": 6372,
+      "implementation": "sources/functional-shards/shard08_network.py",
+      "status": "functional-repair"
     },
     {
       "package": "icmp-latency-sampler",
-      "version": "1.0.0-1",
-      "artifact": "icmp-latency-sampler_1.0.0-1_aarch64.deb",
-      "sha256": "6b46310915d130b1aa27b040747206548aea4d89a3c50ce32f176859e5c3b5bb",
-      "size": 2156
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "icmp-latency-sampler_1.0.0-2_aarch64.deb",
+      "sha256": "3573ce9afe0502edfc78f3233cba73ed4f829190bc60d7eb86248f65cac8d68b",
+      "size": 6356,
+      "implementation": "sources/functional-shards/shard08_network.py",
+      "status": "functional-repair"
     },
     {
       "package": "arp-table-auditor",
-      "version": "1.0.0-1",
-      "artifact": "arp-table-auditor_1.0.0-1_aarch64.deb",
-      "sha256": "acfe561253f2d1c2cbe7f0442daa7f2049413801ddbcf3930d39ea3306e153df",
-      "size": 2164
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "arp-table-auditor_1.0.0-2_aarch64.deb",
+      "sha256": "4281905707e3a3f0fa3a7a68d4993ae246d9785e36df04f55a359cd58d00df83",
+      "size": 6360,
+      "implementation": "sources/functional-shards/shard08_network.py",
+      "status": "functional-repair"
     },
     {
       "package": "ndp-neighbor-scanner",
-      "version": "1.0.0-1",
-      "artifact": "ndp-neighbor-scanner_1.0.0-1_aarch64.deb",
-      "sha256": "803733dbff93447a0b10c93317f287bab8b94fe37db460bea0e0e598c93ec7be",
-      "size": 2172
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "ndp-neighbor-scanner_1.0.0-2_aarch64.deb",
+      "sha256": "a81fb667fc0408a81d182678410d6045fd347f0e3826eeefa4c0248062f158f9",
+      "size": 6368,
+      "implementation": "sources/functional-shards/shard08_network.py",
+      "status": "functional-repair"
     },
     {
       "package": "route-table-inspector",
-      "version": "1.0.0-1",
-      "artifact": "route-table-inspector_1.0.0-1_aarch64.deb",
-      "sha256": "070c4f66488d9c421ca84ebd8c52696ccc2a84aee02604d1a63d7b4df835a19e",
-      "size": 2184
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "route-table-inspector_1.0.0-2_aarch64.deb",
+      "sha256": "c274c98ec6980dae744dab3fdd90cf2180810affa93951982c87c0895e9c34f3",
+      "size": 6380,
+      "implementation": "sources/functional-shards/shard08_network.py",
+      "status": "functional-repair"
     },
     {
       "package": "ip-rule-viewer",
-      "version": "1.0.0-1",
-      "artifact": "ip-rule-viewer_1.0.0-1_aarch64.deb",
-      "sha256": "d2465d5bfdb070c969a94367d10180fc3436aeee73db9fa3f7d1ee53e1cb52de",
-      "size": 2160
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "ip-rule-viewer_1.0.0-2_aarch64.deb",
+      "sha256": "86e0bcd31fe722da641f6ecf1e85955933f8f621d82401a136f11b1d261926d3",
+      "size": 6360,
+      "implementation": "sources/functional-shards/shard08_network.py",
+      "status": "functional-repair"
     },
     {
       "package": "dns-record-lookup",
-      "version": "1.0.0-1",
-      "artifact": "dns-record-lookup_1.0.0-1_aarch64.deb",
-      "sha256": "32a69d5e8616a258a967933a6b9d3c704662672fc5275142c305fc39231fc30c",
-      "size": 2156
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "dns-record-lookup_1.0.0-2_aarch64.deb",
+      "sha256": "0fb8e85b36d6b298f0e011cce05e8b906009b710f9d68d1ca261fd811efa46f9",
+      "size": 6364,
+      "implementation": "sources/functional-shards/shard08_network.py",
+      "status": "functional-repair"
     },
     {
       "package": "dns-soa-serial-checker",
-      "version": "1.0.0-1",
-      "artifact": "dns-soa-serial-checker_1.0.0-1_aarch64.deb",
-      "sha256": "fe2bd03b3f732c17b035236052cfcb127a89efc7b605da89910e7cfe1d04e34f",
-      "size": 2168
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "dns-soa-serial-checker_1.0.0-2_aarch64.deb",
+      "sha256": "61e1d4ab160e2c0e1f8f6ef4919993f1258aaa119cdb67279eba907dabe8ead9",
+      "size": 6396,
+      "implementation": "sources/functional-shards/shard08_network.py",
+      "status": "functional-repair"
     },
     {
       "package": "dns-mx-priority-sorter",
-      "version": "1.0.0-1",
-      "artifact": "dns-mx-priority-sorter_1.0.0-1_aarch64.deb",
-      "sha256": "fcebfecc98330140709b1a7c3d5c3cff521e7d36afc278bd0aad890f104a6c46",
-      "size": 2176
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "dns-mx-priority-sorter_1.0.0-2_aarch64.deb",
+      "sha256": "7440c8788cbc121b9e33dbdf84b5507e46fc3cf6ee656ae22b821eb4a8def1b7",
+      "size": 6372,
+      "implementation": "sources/functional-shards/shard08_network.py",
+      "status": "functional-repair"
     },
     {
       "package": "dns-txt-record-fetcher",
-      "version": "1.0.0-1",
-      "artifact": "dns-txt-record-fetcher_1.0.0-1_aarch64.deb",
-      "sha256": "142e8d402fdafe1b3461dbdc65f13ff4536592cb84c22a2576258da9c6f972bd",
-      "size": 2172
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "dns-txt-record-fetcher_1.0.0-2_aarch64.deb",
+      "sha256": "382b0ffe1a4426a6365dd443a4350489cb29480517959f4fdc76b26cfc266213",
+      "size": 6368,
+      "implementation": "sources/functional-shards/shard08_network.py",
+      "status": "functional-repair"
     },
     {
       "package": "dns-ptr-reverse-resolver",
-      "version": "1.0.0-1",
-      "artifact": "dns-ptr-reverse-resolver_1.0.0-1_aarch64.deb",
-      "sha256": "cb400c54eb121b73ab4f053bd34908bd9b900aa3e50f6bf512789f7b6f021d11",
-      "size": 2172
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "dns-ptr-reverse-resolver_1.0.0-2_aarch64.deb",
+      "sha256": "66354ea245531277108efb045fbcc4cc38aba34d8285dd0b53cc28cd04ce96e8",
+      "size": 6364,
+      "implementation": "sources/functional-shards/shard08_network.py",
+      "status": "functional-repair"
     },
     {
       "package": "dns-srv-balancer",
-      "version": "1.0.0-1",
-      "artifact": "dns-srv-balancer_1.0.0-1_aarch64.deb",
-      "sha256": "bdf18da6e3fabec0461302c30b0345e83d93638a224dc0ef13f023cb861fff49",
-      "size": 2160
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "dns-srv-balancer_1.0.0-2_aarch64.deb",
+      "sha256": "4d3323ef7235c06f8d7b3355a57ebdf9ce398bf101dce8d6fbfd507bf14b22d9",
+      "size": 6368,
+      "implementation": "sources/functional-shards/shard08_network.py",
+      "status": "functional-repair"
     },
     {
       "package": "dns-caa-checker",
-      "version": "1.0.0-1",
-      "artifact": "dns-caa-checker_1.0.0-1_aarch64.deb",
-      "sha256": "12a51434cdec776b65084b48508fb06895d2392120be904eee834a35034b7776",
-      "size": 2156
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "dns-caa-checker_1.0.0-2_aarch64.deb",
+      "sha256": "6815a98e6ec5bdb850c1d1ac6767bb4ddbd4e5943da5df1a852e10572b4075ad",
+      "size": 6384,
+      "implementation": "sources/functional-shards/shard08_network.py",
+      "status": "functional-repair"
     },
     {
       "package": "dns-nsec3-walker",
-      "version": "1.0.0-1",
-      "artifact": "dns-nsec3-walker_1.0.0-1_aarch64.deb",
-      "sha256": "903e520d96720b33374d59b5a2acea2a9dd56aee6e0e1754711b2987cf2073ad",
-      "size": 2168
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "dns-nsec3-walker_1.0.0-2_aarch64.deb",
+      "sha256": "5958b42798defc95ba892afec162c4324a97303c29cfb66fae629227ce27c784",
+      "size": 6400,
+      "implementation": "sources/functional-shards/shard08_network.py",
+      "status": "functional-repair"
     },
     {
       "package": "whois-rdap-client",
-      "version": "1.0.0-1",
-      "artifact": "whois-rdap-client_1.0.0-1_aarch64.deb",
-      "sha256": "f645303193a8f760ef53073a77eec186b1c17852e8b5edf6b69440ca8c31d765",
-      "size": 2164
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "whois-rdap-client_1.0.0-2_aarch64.deb",
+      "sha256": "c86579916b912a5ad6517b487bcbed1e3d86d2358ed4036a6aa20edd60b04bd1",
+      "size": 6368,
+      "implementation": "sources/functional-shards/shard08_network.py",
+      "status": "functional-repair"
     },
     {
       "package": "bgp-asn-lookup",
-      "version": "1.0.0-1",
-      "artifact": "bgp-asn-lookup_1.0.0-1_aarch64.deb",
-      "sha256": "a947a3fa2a7ca8cf222bdf431055cc96425134706dbf09a449db6841b042a191",
-      "size": 2152
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "bgp-asn-lookup_1.0.0-2_aarch64.deb",
+      "sha256": "7d6c88a3b1a2587f1622673bfcf5b9e8aed2668c3f8f0f7e17fe38e8838c967f",
+      "size": 6364,
+      "implementation": "sources/functional-shards/shard08_network.py",
+      "status": "functional-repair"
     },
     {
       "package": "traceroute-geo-mapper",
-      "version": "1.0.0-1",
-      "artifact": "traceroute-geo-mapper_1.0.0-1_aarch64.deb",
-      "sha256": "80d1e9ec25d1fdec6e462b49d8adcd6781052daecf3d7d90e1f9d41a0d782c65",
-      "size": 2148
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "traceroute-geo-mapper_1.0.0-2_aarch64.deb",
+      "sha256": "5bdd7082e5dc70ab5a290d638d8142f41f95ea757f8b26a93ab066cce8f7dbb0",
+      "size": 6372,
+      "implementation": "sources/functional-shards/shard08_network.py",
+      "status": "functional-repair"
     },
     {
       "package": "ping-jitter-analyzer",
-      "version": "1.0.0-1",
-      "artifact": "ping-jitter-analyzer_1.0.0-1_aarch64.deb",
-      "sha256": "745b7a1a7588defd656b85aba57f131e6cc565079c4ed478a1aefa61f03b0921",
-      "size": 2160
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "ping-jitter-analyzer_1.0.0-2_aarch64.deb",
+      "sha256": "b9b9a1d47d151b8f5ffe8ae163b9e5431067861c600d19976d8761f5e7309f3b",
+      "size": 6364,
+      "implementation": "sources/functional-shards/shard08_network.py",
+      "status": "functional-repair"
     },
     {
       "package": "iperf-bandwidth-tester",
-      "version": "1.0.0-1",
-      "artifact": "iperf-bandwidth-tester_1.0.0-1_aarch64.deb",
-      "sha256": "c3f80e0712cab0d9a61ef0bf4d6a647ecfca22e40b90b52446484dea2abc390f",
-      "size": 2176
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "iperf-bandwidth-tester_1.0.0-2_aarch64.deb",
+      "sha256": "fc48f2c079ed7fb402299678e82345e8334bd8ca85ab516d7f89be78baeced33",
+      "size": 6364,
+      "implementation": "sources/functional-shards/shard08_network.py",
+      "status": "functional-repair"
     },
     {
       "package": "http-ping-bench",
-      "version": "1.0.0-1",
-      "artifact": "http-ping-bench_1.0.0-1_aarch64.deb",
-      "sha256": "8dd0bb919734590e5cb10fd60f0a4e505926e28a6096d41d8ce8a07f4784f8ca",
-      "size": 2156
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "http-ping-bench_1.0.0-2_aarch64.deb",
+      "sha256": "29a6a157cc35473df08704858ccb8fbadcfd94a9c45ea6213382f643efea9a3c",
+      "size": 6368,
+      "implementation": "sources/functional-shards/shard08_network.py",
+      "status": "functional-repair"
     },
     {
       "package": "http-headers-security-audit",
-      "version": "1.0.0-1",
-      "artifact": "http-headers-security-audit_1.0.0-1_aarch64.deb",
-      "sha256": "eae30312e5f22ccb460b1299edabe1a1c72cfce47b90792aae7a071f70fe4164",
-      "size": 2184
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "http-headers-security-audit_1.0.0-2_aarch64.deb",
+      "sha256": "6582366cd2371661d7a6710168117b20de308c6f46a1640f5d529fac1a921ceb",
+      "size": 6396,
+      "implementation": "sources/functional-shards/shard08_network.py",
+      "status": "functional-repair"
     },
     {
       "package": "http2-frame-inspector",
-      "version": "1.0.0-1",
-      "artifact": "http2-frame-inspector_1.0.0-1_aarch64.deb",
-      "sha256": "97b66e50f70067d24987b0d0ce31d3c721c269256176000e4352f445423cfbca",
-      "size": 2180
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "http2-frame-inspector_1.0.0-2_aarch64.deb",
+      "sha256": "97a7cdbe58a139329e1dcc236cfd491b20d938eea337dbde0e99763a9abfef73",
+      "size": 6380,
+      "implementation": "sources/functional-shards/shard08_network.py",
+      "status": "functional-repair"
     },
     {
       "package": "http3-quic-probe",
-      "version": "1.0.0-1",
-      "artifact": "http3-quic-probe_1.0.0-1_aarch64.deb",
-      "sha256": "49da6ce9c6eb95d8d9ba50b46fd61977aa4ebdf22b70cc32c2c43df8c47de673",
-      "size": 2164
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "http3-quic-probe_1.0.0-2_aarch64.deb",
+      "sha256": "fc1ad19d89ffc0775d4f0cccdfee8235c09e1f010630a7450a8a54d46d107cdc",
+      "size": 6368,
+      "implementation": "sources/functional-shards/shard08_network.py",
+      "status": "functional-repair"
     },
     {
       "package": "websocket-cat",
-      "version": "1.0.0-1",
-      "artifact": "websocket-cat_1.0.0-1_aarch64.deb",
-      "sha256": "0fc5cdebcc95b8cd991803631b94ed03174923a5db247a72717728cb40220470",
-      "size": 2152
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "websocket-cat_1.0.0-2_aarch64.deb",
+      "sha256": "d6d8e7b6fdc226db52699decb41dff165f5cb69c18f8989782bde52c90fe4749",
+      "size": 6368,
+      "implementation": "sources/functional-shards/shard08_network.py",
+      "status": "functional-repair"
     },
     {
       "package": "tcp-syn-prober",
-      "version": "1.0.0-1",
-      "artifact": "tcp-syn-prober_1.0.0-1_aarch64.deb",
-      "sha256": "a5ddb1beae6fd4d3b7aca7e23a957d28a6d2c11968f1d1280ef4d8c7631a6b90",
-      "size": 2144
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "tcp-syn-prober_1.0.0-2_aarch64.deb",
+      "sha256": "b0fc5a9be9e45986f5e2535fb1d22b44c8557921892b6f12ad1fd40978e8fd08",
+      "size": 6364,
+      "implementation": "sources/functional-shards/shard08_network.py",
+      "status": "functional-repair"
     },
     {
       "package": "tcp-port-sweeper",
-      "version": "1.0.0-1",
-      "artifact": "tcp-port-sweeper_1.0.0-1_aarch64.deb",
-      "sha256": "c4f7b5847788ed53a15980841dabad9b083d1b113f96632da5bb497991798ab8",
-      "size": 2164
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "tcp-port-sweeper_1.0.0-2_aarch64.deb",
+      "sha256": "6c8a3fdb2e23da8896e9fa6d4865fed06935ae7262d78e9fd1563aaad4c2739a",
+      "size": 6380,
+      "implementation": "sources/functional-shards/shard08_network.py",
+      "status": "functional-repair"
     },
     {
       "package": "udp-port-tester",
-      "version": "1.0.0-1",
-      "artifact": "udp-port-tester_1.0.0-1_aarch64.deb",
-      "sha256": "e37af5bbfe9722f215c114198f55cdf9eae9e1e5d4405b4f3daf3eb263ab8333",
-      "size": 2164
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "udp-port-tester_1.0.0-2_aarch64.deb",
+      "sha256": "6b4397d757d1ea9a9cfc65ed63bb8705eeb74d612fcf505248538ab388219f14",
+      "size": 6376,
+      "implementation": "sources/functional-shards/shard08_network.py",
+      "status": "functional-repair"
     },
     {
       "package": "socks5-proxy-client",
-      "version": "1.0.0-1",
-      "artifact": "socks5-proxy-client_1.0.0-1_aarch64.deb",
-      "sha256": "024f2a3bc061995b9c08a3131b6bf7794ec06b1fd8d1422f992258b9c82eff1a",
-      "size": 2160
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "socks5-proxy-client_1.0.0-2_aarch64.deb",
+      "sha256": "dd44ec38910da11e163ff86c4624e9c3e369b911e5f97196fef9c044c2535079",
+      "size": 6376,
+      "implementation": "sources/functional-shards/shard08_network.py",
+      "status": "functional-repair"
     },
     {
       "package": "http-proxy-tunnel",
-      "version": "1.0.0-1",
-      "artifact": "http-proxy-tunnel_1.0.0-1_aarch64.deb",
-      "sha256": "d583258a8f76ecf75e7f599df3c3368bace81b1da2b42c7920ec8588716ea6ba",
-      "size": 2144
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "http-proxy-tunnel_1.0.0-2_aarch64.deb",
+      "sha256": "6101dd5723fd75521ba6694aee541cf08ce2406d3e6d3705973737451fde100e",
+      "size": 6360,
+      "implementation": "sources/functional-shards/shard08_network.py",
+      "status": "functional-repair"
     },
     {
       "package": "ssl-sni-detector",
-      "version": "1.0.0-1",
-      "artifact": "ssl-sni-detector_1.0.0-1_aarch64.deb",
-      "sha256": "aea41b6db47520fbef35e82d2fb4b2eedcbf80188eb6cf9b4087c71e9b5433ec",
-      "size": 2164
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "ssl-sni-detector_1.0.0-2_aarch64.deb",
+      "sha256": "281b1bea07c2eeba868939bd2ac87ff6b2f41f31ce244e9f09960983b1d2ef54",
+      "size": 6368,
+      "implementation": "sources/functional-shards/shard08_network.py",
+      "status": "functional-repair"
     },
     {
       "package": "tls-handshake-timer",
-      "version": "1.0.0-1",
-      "artifact": "tls-handshake-timer_1.0.0-1_aarch64.deb",
-      "sha256": "9d7758454ea8210548f3f067df65c0f80c88ce800cf31e8af00719e3eb2a27ce",
-      "size": 2160
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "tls-handshake-timer_1.0.0-2_aarch64.deb",
+      "sha256": "dadf9d84cc1adb734c60363e267312668d6eb944b2b749529d1ad55e9235bc15",
+      "size": 6360,
+      "implementation": "sources/functional-shards/shard08_network.py",
+      "status": "functional-repair"
     },
     {
       "package": "mtu-path-discovery",
-      "version": "1.0.0-1",
-      "artifact": "mtu-path-discovery_1.0.0-1_aarch64.deb",
-      "sha256": "c3e19d72bb1e23f5df0308900a556df853679a9c5853f697622de51fa83be9be",
-      "size": 2160
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "mtu-path-discovery_1.0.0-2_aarch64.deb",
+      "sha256": "2825b72e2613de979ec17cfe7a71bd9c70ef23c7a3a25fd087a99878556f8455",
+      "size": 6360,
+      "implementation": "sources/functional-shards/shard08_network.py",
+      "status": "functional-repair"
     },
     {
       "package": "bandwidth-rate-calc",
-      "version": "1.0.0-1",
-      "artifact": "bandwidth-rate-calc_1.0.0-1_aarch64.deb",
-      "sha256": "e70604ea9d9e60d9bd12f6fc9530a05eb9d33b4a7ddf89861eab78f9a2ec9b9b",
-      "size": 2160
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "bandwidth-rate-calc_1.0.0-2_aarch64.deb",
+      "sha256": "adae112bb99e769c5226cd9f191be2f7ae09ad9f288f4ee65d2f145783c151c6",
+      "size": 6356,
+      "implementation": "sources/functional-shards/shard08_network.py",
+      "status": "functional-repair"
     },
     {
       "package": "packet-loss-estimator",
-      "version": "1.0.0-1",
-      "artifact": "packet-loss-estimator_1.0.0-1_aarch64.deb",
-      "sha256": "e0696f0083a2197a14d8c1f1d04139ce39ef01d6e64d1830f6372c51dadf7c9d",
-      "size": 2148
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "packet-loss-estimator_1.0.0-2_aarch64.deb",
+      "sha256": "442114666dfeffb9dc839fc02059d29c8752b51fd7972a2ab9e411b4f2441fdd",
+      "size": 6360,
+      "implementation": "sources/functional-shards/shard08_network.py",
+      "status": "functional-repair"
     },
     {
       "package": "curl-time-formatter",
-      "version": "1.0.0-1",
-      "artifact": "curl-time-formatter_1.0.0-1_aarch64.deb",
-      "sha256": "17c04847a61576bd15e9fde7e492f5babd3e9944299e2025481239e1365c7a5a",
-      "size": 2184
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "curl-time-formatter_1.0.0-2_aarch64.deb",
+      "sha256": "9604d082c9ee14d1080b321abc5680b159b190aff2a6967b773f112870b357cc",
+      "size": 6388,
+      "implementation": "sources/functional-shards/shard08_network.py",
+      "status": "functional-repair"
     },
     {
       "package": "wget-recursive-lister",
-      "version": "1.0.0-1",
-      "artifact": "wget-recursive-lister_1.0.0-1_aarch64.deb",
-      "sha256": "ad5d694602ebd9d650c56b514313edeca2a20b7dc994dacca8eccae96eb3ba4c",
-      "size": 2176
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "wget-recursive-lister_1.0.0-2_aarch64.deb",
+      "sha256": "3c9fdb74207dbe592f70713b0079340f6ae0662b52ea7c8282a8c10e2e125a69",
+      "size": 6368,
+      "implementation": "sources/functional-shards/shard08_network.py",
+      "status": "functional-repair"
     },
     {
       "package": "url-encode-decode-cli",
-      "version": "1.0.0-1",
-      "artifact": "url-encode-decode-cli_1.0.0-1_aarch64.deb",
-      "sha256": "868f65f75d62299ba64caf3a045fa71c62991d1d5c799ae393394493c2b2735c",
-      "size": 2168
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "url-encode-decode-cli_1.0.0-2_aarch64.deb",
+      "sha256": "c46c292b908e427732d71d436605297a89d0c75295fba9f63066a620944f0669",
+      "size": 6368,
+      "implementation": "sources/functional-shards/shard08_network.py",
+      "status": "functional-repair"
     },
     {
       "package": "punycode-domain-codec",
-      "version": "1.0.0-1",
-      "artifact": "punycode-domain-codec_1.0.0-1_aarch64.deb",
-      "sha256": "5b57db8fab68bd466dfb5ea13337fb0e8ab19e9c652a729d25d2737e600aba36",
-      "size": 2176
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "punycode-domain-codec_1.0.0-2_aarch64.deb",
+      "sha256": "5c5cb230eb3fd6a1213ff0e41463f886d8d1f2a70de551b10476db1c2c7ac9c3",
+      "size": 6380,
+      "implementation": "sources/functional-shards/shard08_network.py",
+      "status": "functional-repair"
     },
     {
       "package": "mac-address-lookup",
-      "version": "1.0.0-1",
-      "artifact": "mac-address-lookup_1.0.0-1_aarch64.deb",
-      "sha256": "08f07c62fcb862b017ab64e4c1fe5fa3b1fab652e8a7879e2828bdf057f5f8d5",
-      "size": 2160
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "mac-address-lookup_1.0.0-2_aarch64.deb",
+      "sha256": "a1a98af7d2e83b9c1f93aa7378e35c80a3b52b75b0327a56c3ddb7ded7e64a4b",
+      "size": 6364,
+      "implementation": "sources/functional-shards/shard08_network.py",
+      "status": "functional-repair"
     },
     {
       "package": "subnet-mask-calc",
-      "version": "1.0.0-1",
-      "artifact": "subnet-mask-calc_1.0.0-1_aarch64.deb",
-      "sha256": "2e3eb7eb9f8a455d585fe32ceaff28c633b29d640dd4aa48657caab137acadc8",
-      "size": 2140
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "subnet-mask-calc_1.0.0-2_aarch64.deb",
+      "sha256": "a440cb1579988c180ea2474c825c6370f0f9cf88cbc42dd257e4acb5e9a6e0c2",
+      "size": 6356,
+      "implementation": "sources/functional-shards/shard08_network.py",
+      "status": "functional-repair"
     },
     {
       "package": "cidr-overlap-checker",
-      "version": "1.0.0-1",
-      "artifact": "cidr-overlap-checker_1.0.0-1_aarch64.deb",
-      "sha256": "67d6c1b42a26b8827e2f2ee5bdcaf8de559a35796cbf7773578e4d4712073aed",
-      "size": 2168
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "cidr-overlap-checker_1.0.0-2_aarch64.deb",
+      "sha256": "9378def79e94eefffef281accd07b9543be968bfc5a31494b63476d02bcf5eb0",
+      "size": 6372,
+      "implementation": "sources/functional-shards/shard08_network.py",
+      "status": "functional-repair"
     },
     {
       "package": "ip-range-expander",
-      "version": "1.0.0-1",
-      "artifact": "ip-range-expander_1.0.0-1_aarch64.deb",
-      "sha256": "0f28cc5bd42e48d2a592cd1bc5e30fca241df8a8c506d656e2e32bae50ecd2b3",
-      "size": 2172
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "ip-range-expander_1.0.0-2_aarch64.deb",
+      "sha256": "c46e10027ba655c31b65f98f059cfd4b0a4b94fdbe7a5ff7dc572e16c52e0449",
+      "size": 6364,
+      "implementation": "sources/functional-shards/shard08_network.py",
+      "status": "functional-repair"
     },
     {
       "package": "ipv6-compressor",
-      "version": "1.0.0-1",
-      "artifact": "ipv6-compressor_1.0.0-1_aarch64.deb",
-      "sha256": "c876c1f0fa7bee3cba23d00530b34ca96d57bb5f9b5f101e07d5a2c3a21825b5",
-      "size": 2160
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "ipv6-compressor_1.0.0-2_aarch64.deb",
+      "sha256": "6b0479ce3b04eb0626f267619862db5d46a3d9fbde119bdee7904740fc684b5b",
+      "size": 6372,
+      "implementation": "sources/functional-shards/shard08_network.py",
+      "status": "functional-repair"
     },
     {
       "package": "network-interface-stat",
-      "version": "1.0.0-1",
-      "artifact": "network-interface-stat_1.0.0-1_aarch64.deb",
-      "sha256": "006a10e147b17e71dba3d65df1f5ae1b93bfae8cf449c428d2a1843da7535fee",
-      "size": 2148
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "network-interface-stat_1.0.0-2_aarch64.deb",
+      "sha256": "4aef575b19aba3ccdab86f4041bb14a23da6e140aba39e1d28e4d0f2c0098f25",
+      "size": 6356,
+      "implementation": "sources/functional-shards/shard08_network.py",
+      "status": "functional-repair"
     }
   ]
 }

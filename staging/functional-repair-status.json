@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "targetExpansionPackages": 1000,
-  "stagedFunctionalRepairs": 650,
+  "stagedFunctionalRepairs": 800,
   "livePromotedRepairs": 0,
-  "remainingPlaceholderPackages": 350,
+  "remainingPlaceholderPackages": 200,
   "repairVersion": "1.0.0-2",
   "signingBlockedBy": "OCEAN_REPOSITORY_SIGNING_KEY unavailable to GitHub Actions",
   "shards": [
@@ -20,7 +20,25 @@
       "status": "staged-functional"
     },
     {
+      "name": "shard-08-network-traffic-sockets",
+      "packages": 50,
+      "testsPassed": 50,
+      "status": "staged-functional"
+    },
+    {
       "name": "shard-09-filesystem-storage",
+      "packages": 50,
+      "testsPassed": 50,
+      "status": "staged-functional"
+    },
+    {
+      "name": "shard-10-devops-microservices",
+      "packages": 50,
+      "testsPassed": 50,
+      "status": "staged-functional"
+    },
+    {
+      "name": "shard-11-compiler-toolchain-helpers",
       "packages": 50,
       "testsPassed": 50,
       "status": "staged-functional"
