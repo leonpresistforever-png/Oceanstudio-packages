@@ -1,14 +1,20 @@
 {
   "schemaVersion": 1,
   "targetExpansionPackages": 1000,
-  "stagedFunctionalRepairs": 300,
+  "stagedFunctionalRepairs": 350,
   "livePromotedRepairs": 0,
-  "remainingPlaceholderPackages": 700,
+  "remainingPlaceholderPackages": 650,
   "repairVersion": "1.0.0-2",
   "signingBlockedBy": "OCEAN_REPOSITORY_SIGNING_KEY unavailable to GitHub Actions",
   "shards": [
     {
       "name": "shard-05-cryptography-secrets",
+      "packages": 50,
+      "testsPassed": 50,
+      "status": "staged-functional"
+    },
+    {
+      "name": "shard-06-system-diagnostics-proc",
       "packages": 50,
       "testsPassed": 50,
       "status": "staged-functional"

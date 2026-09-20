@@ -1,361 +1,513 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "shard": "shard-06-system-diagnostics-proc",
-  "section": "admin",
   "category": "System Diagnostics & Process Auditing",
+  "repair": "placeholder-to-functional",
   "target": "aarch64-linux-android28",
   "prefix": "/data/data/studio.ocean.app/files/usr",
   "packageCount": 50,
+  "uniquePackageCount": 50,
+  "version": "1.0.0-2",
   "packages": [
     {
       "package": "proc-uptime-monitor",
-      "version": "1.0.0-1",
-      "artifact": "proc-uptime-monitor_1.0.0-1_aarch64.deb",
-      "sha256": "8172cc820bc41051370a4030187a47c47231b6323831779f78c5c4292450f7b5",
-      "size": 2132
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "proc-uptime-monitor_1.0.0-2_aarch64.deb",
+      "sha256": "ce687ffda997edd6919fb768517ed98a024ff2a95ecd8c10d8d313338dcf3b0a",
+      "size": 10064,
+      "implementation": "sources/functional-shards/shard06_proc.py",
+      "status": "functional-repair"
     },
     {
       "package": "meminfo-analyzer",
-      "version": "1.0.0-1",
-      "artifact": "meminfo-analyzer_1.0.0-1_aarch64.deb",
-      "sha256": "bda5c4da6599cdc1146b6386d505f967a8c4819a87d02ea27a3db9cc2ed2d504",
-      "size": 2136
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "meminfo-analyzer_1.0.0-2_aarch64.deb",
+      "sha256": "392c15ec8842cb0593f72c90c481e04cbd2afc9ce9f74d67079a35b2cb07bcb0",
+      "size": 10060,
+      "implementation": "sources/functional-shards/shard06_proc.py",
+      "status": "functional-repair"
     },
     {
       "package": "loadavg-tracker",
-      "version": "1.0.0-1",
-      "artifact": "loadavg-tracker_1.0.0-1_aarch64.deb",
-      "sha256": "08e92df2ba7510718994fb3a97b9f3101a733b500e780460daec1b3c2f1d5d54",
-      "size": 2132
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "loadavg-tracker_1.0.0-2_aarch64.deb",
+      "sha256": "8214eccd3750aede240d96184995854835fe243e3779378ec12290e9e29cab6b",
+      "size": 10060,
+      "implementation": "sources/functional-shards/shard06_proc.py",
+      "status": "functional-repair"
     },
     {
       "package": "vmstat-summarizer",
-      "version": "1.0.0-1",
-      "artifact": "vmstat-summarizer_1.0.0-1_aarch64.deb",
-      "sha256": "5ee7f4cd65f4bd214f9fd96e11cb216c9ee0a0ca1ca452b0c7418e3f3d03543e",
-      "size": 2144
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "vmstat-summarizer_1.0.0-2_aarch64.deb",
+      "sha256": "3d81c2d589e09a366f566168b842a5979c7a658421bc438919cf0f9575d21169",
+      "size": 10068,
+      "implementation": "sources/functional-shards/shard06_proc.py",
+      "status": "functional-repair"
     },
     {
       "package": "iostat-collector",
-      "version": "1.0.0-1",
-      "artifact": "iostat-collector_1.0.0-1_aarch64.deb",
-      "sha256": "8d18fe53529ce1c60611b3b7c870f62effe922f2c0049db30bb44fd4db5e7ae4",
-      "size": 2156
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "iostat-collector_1.0.0-2_aarch64.deb",
+      "sha256": "97719a2c6be77bf2dd52d6726f992c86db6a0c4b66d567c8174be31323153dce",
+      "size": 10080,
+      "implementation": "sources/functional-shards/shard06_proc.py",
+      "status": "functional-repair"
     },
     {
       "package": "pidstat-inspector",
-      "version": "1.0.0-1",
-      "artifact": "pidstat-inspector_1.0.0-1_aarch64.deb",
-      "sha256": "e4a78335aa7b4b5182a64dec61ba255a1f10db6020c868da00e8ff6a78d99494",
-      "size": 2136
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "pidstat-inspector_1.0.0-2_aarch64.deb",
+      "sha256": "941327683bd70bc58a9e52195b2b38736fac8d5c8af4f21a2c6aae282931521e",
+      "size": 10064,
+      "implementation": "sources/functional-shards/shard06_proc.py",
+      "status": "functional-repair"
     },
     {
       "package": "cgroup-tree-viewer",
-      "version": "1.0.0-1",
-      "artifact": "cgroup-tree-viewer_1.0.0-1_aarch64.deb",
-      "sha256": "37eba8047d0801d5e3421b93a99336a3fa5c01ec4581f8eb5cfcf92ffb8808d7",
-      "size": 2128
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "cgroup-tree-viewer_1.0.0-2_aarch64.deb",
+      "sha256": "47afa26dd4f8234a7842428cc5085c09b717d63cca746f1be704aa0001bddfe0",
+      "size": 10052,
+      "implementation": "sources/functional-shards/shard06_proc.py",
+      "status": "functional-repair"
     },
     {
       "package": "cgroup-memory-limiter",
-      "version": "1.0.0-1",
-      "artifact": "cgroup-memory-limiter_1.0.0-1_aarch64.deb",
-      "sha256": "eccd833c6d842f33380af58b7c29d5fc4e7cad6157dc1827e1a2baef8aee42fe",
-      "size": 2132
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "cgroup-memory-limiter_1.0.0-2_aarch64.deb",
+      "sha256": "63d047e8303816f1724cd60d777f4dae9dc9fc922b943f79ab64a84722553cbb",
+      "size": 10052,
+      "implementation": "sources/functional-shards/shard06_proc.py",
+      "status": "functional-repair"
     },
     {
       "package": "cgroup-cpu-quota",
-      "version": "1.0.0-1",
-      "artifact": "cgroup-cpu-quota_1.0.0-1_aarch64.deb",
-      "sha256": "009b9880bb75019db8a0e7415112cba46b75c3f258e371c1579a7cdbca3582d6",
-      "size": 2124
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "cgroup-cpu-quota_1.0.0-2_aarch64.deb",
+      "sha256": "d917003d6dec6b9d767e0f0ec031b4afed7c9ece2f9169769157610e9ce3fc76",
+      "size": 10052,
+      "implementation": "sources/functional-shards/shard06_proc.py",
+      "status": "functional-repair"
     },
     {
       "package": "limits-conf-checker",
-      "version": "1.0.0-1",
-      "artifact": "limits-conf-checker_1.0.0-1_aarch64.deb",
-      "sha256": "a6f973b6966b58d44e71161c66eca05f7bad44be12dae70d8ca2226190384fde",
-      "size": 2140
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "limits-conf-checker_1.0.0-2_aarch64.deb",
+      "sha256": "30ef83df99cc42f2ababac91354df1be8bd977299e7d8e34b176ebe2233547b7",
+      "size": 10052,
+      "implementation": "sources/functional-shards/shard06_proc.py",
+      "status": "functional-repair"
     },
     {
       "package": "ulimit-inspector",
-      "version": "1.0.0-1",
-      "artifact": "ulimit-inspector_1.0.0-1_aarch64.deb",
-      "sha256": "9c33246e804855e2b1c635ac8e8a6c2af2a4701db2f9d2bdb42b081b32194338",
-      "size": 2120
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "ulimit-inspector_1.0.0-2_aarch64.deb",
+      "sha256": "73a9e8cae4b3e0727fec88fc4c55000c3b1f07d79fc4eee1807c6cebdee59b50",
+      "size": 10060,
+      "implementation": "sources/functional-shards/shard06_proc.py",
+      "status": "functional-repair"
     },
     {
       "package": "smaps-rollup-calc",
-      "version": "1.0.0-1",
-      "artifact": "smaps-rollup-calc_1.0.0-1_aarch64.deb",
-      "sha256": "5c9d595bf2b1caaca6442af68e5eb7d2fba1fbdbfac6ba769b9b9a584ed642da",
-      "size": 2144
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "smaps-rollup-calc_1.0.0-2_aarch64.deb",
+      "sha256": "c73d2a74dbd027946d06ecf28c86e95d7abefbef9e68fdf17a1a3f0a126c9076",
+      "size": 10064,
+      "implementation": "sources/functional-shards/shard06_proc.py",
+      "status": "functional-repair"
     },
     {
       "package": "pmap-memory-mapper",
-      "version": "1.0.0-1",
-      "artifact": "pmap-memory-mapper_1.0.0-1_aarch64.deb",
-      "sha256": "19b268f19775f866efeb5fa3b26b680c7403ce9606a3111da4591dd81066cda7",
-      "size": 2144
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "pmap-memory-mapper_1.0.0-2_aarch64.deb",
+      "sha256": "5fdc41ad78d11a2763a172e2b4f80ed8353c6715dfa51cdda7df57ceba65ce2b",
+      "size": 10056,
+      "implementation": "sources/functional-shards/shard06_proc.py",
+      "status": "functional-repair"
     },
     {
       "package": "maps-segment-auditor",
-      "version": "1.0.0-1",
-      "artifact": "maps-segment-auditor_1.0.0-1_aarch64.deb",
-      "sha256": "54cc45587a686d0eca2997c1df80c7e500dc603cbb47f1ecdd47e21b7d41bc7d",
-      "size": 2144
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "maps-segment-auditor_1.0.0-2_aarch64.deb",
+      "sha256": "33a7af999e68fdfcef5299b98a23bc37419b1eba355b39865b8e3316a0daec05",
+      "size": 10064,
+      "implementation": "sources/functional-shards/shard06_proc.py",
+      "status": "functional-repair"
     },
     {
       "package": "fd-leak-detector",
-      "version": "1.0.0-1",
-      "artifact": "fd-leak-detector_1.0.0-1_aarch64.deb",
-      "sha256": "1f7c5f9791d93ebc6ad2a4f8980cf3aac3faafd7e75a188b23ab78155df0a376",
-      "size": 2132
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "fd-leak-detector_1.0.0-2_aarch64.deb",
+      "sha256": "3fc7ac3aa6d01d1987099040b7bc0da7681125b49e9d45ede43dc13852bc5a26",
+      "size": 10068,
+      "implementation": "sources/functional-shards/shard06_proc.py",
+      "status": "functional-repair"
     },
     {
       "package": "open-files-summarizer",
-      "version": "1.0.0-1",
-      "artifact": "open-files-summarizer_1.0.0-1_aarch64.deb",
-      "sha256": "1bc9b71b3c3b9d386d3d26267ef217e0e660ea75ec7014484a1758cc8d46d2b0",
-      "size": 2132
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "open-files-summarizer_1.0.0-2_aarch64.deb",
+      "sha256": "4696c71bcf17f228a22ec6d4873a0371b2e4a8d0e6f9eb6e6982a6bde9851018",
+      "size": 10060,
+      "implementation": "sources/functional-shards/shard06_proc.py",
+      "status": "functional-repair"
     },
     {
       "package": "tcp-socket-counter",
-      "version": "1.0.0-1",
-      "artifact": "tcp-socket-counter_1.0.0-1_aarch64.deb",
-      "sha256": "a0d2c0066ecd80591808f92fab1fd5e82f1be4302f8f7a662814d901f697c019",
-      "size": 2140
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "tcp-socket-counter_1.0.0-2_aarch64.deb",
+      "sha256": "a2603eed257bfb16f45d936782577cc07337e34485404529452beffef27b8252",
+      "size": 10056,
+      "implementation": "sources/functional-shards/shard06_proc.py",
+      "status": "functional-repair"
     },
     {
       "package": "udp-socket-inspector",
-      "version": "1.0.0-1",
-      "artifact": "udp-socket-inspector_1.0.0-1_aarch64.deb",
-      "sha256": "492993f3dc8d3547cba29af90b776380f7892f2d84fc4eb9b8028dd81f06f977",
-      "size": 2144
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "udp-socket-inspector_1.0.0-2_aarch64.deb",
+      "sha256": "decbcc8383c12eb9b801fa40cd6c8059dbe1bd52bfdf8c971179c698db2c302c",
+      "size": 10068,
+      "implementation": "sources/functional-shards/shard06_proc.py",
+      "status": "functional-repair"
     },
     {
       "package": "unix-domain-lister",
-      "version": "1.0.0-1",
-      "artifact": "unix-domain-lister_1.0.0-1_aarch64.deb",
-      "sha256": "7ec7c6cdb7566be3e50ddd55163ba6aa953570b8bdc31e3b18dcb7b25dd96863",
-      "size": 2136
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "unix-domain-lister_1.0.0-2_aarch64.deb",
+      "sha256": "c81c8140beebe0e4a918e5c64b0fa903515411bf8d74850a59669a9c20c7af4b",
+      "size": 10064,
+      "implementation": "sources/functional-shards/shard06_proc.py",
+      "status": "functional-repair"
     },
     {
       "package": "sockstat-analyzer",
-      "version": "1.0.0-1",
-      "artifact": "sockstat-analyzer_1.0.0-1_aarch64.deb",
-      "sha256": "f15603720e2e897fa551ddbfb51701bf869dd28679bb08a966f8eed40878dbe7",
-      "size": 2128
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "sockstat-analyzer_1.0.0-2_aarch64.deb",
+      "sha256": "b3c7a814e26b41cde01c04d79b11e98be6350d7a5bcf1421a6c8204a05ab6c7b",
+      "size": 10048,
+      "implementation": "sources/functional-shards/shard06_proc.py",
+      "status": "functional-repair"
     },
     {
       "package": "netstat-nat-viewer",
-      "version": "1.0.0-1",
-      "artifact": "netstat-nat-viewer_1.0.0-1_aarch64.deb",
-      "sha256": "b2a6906fda132c65c4f73f06fd80ddf43d961a53b7671a83ffbc6f501a9c830c",
-      "size": 2136
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "netstat-nat-viewer_1.0.0-2_aarch64.deb",
+      "sha256": "ad9d1645d8e6cd8dd80c3c43611cf2f56e0a2bd3b7029fb02f818e8488444fe2",
+      "size": 10056,
+      "implementation": "sources/functional-shards/shard06_proc.py",
+      "status": "functional-repair"
     },
     {
       "package": "interrupts-counter",
-      "version": "1.0.0-1",
-      "artifact": "interrupts-counter_1.0.0-1_aarch64.deb",
-      "sha256": "d22872362866f3ee6e4f1cc73cdb37b8dc2dfd5f7501ceed8cc3d64dc28e3bac",
-      "size": 2152
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "interrupts-counter_1.0.0-2_aarch64.deb",
+      "sha256": "702c10bc5a88de9fcfbc60cd169c54f6391892c2a9ad06938d9d1d73489a86f8",
+      "size": 10072,
+      "implementation": "sources/functional-shards/shard06_proc.py",
+      "status": "functional-repair"
     },
     {
       "package": "softirqs-profiler",
-      "version": "1.0.0-1",
-      "artifact": "softirqs-profiler_1.0.0-1_aarch64.deb",
-      "sha256": "9e21829f929a6da07d3a224371014d7dc950bfb9e778f01ef246c5760d76678c",
-      "size": 2124
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "softirqs-profiler_1.0.0-2_aarch64.deb",
+      "sha256": "db6613841ac2fbd31fbdd9ba7cfc97dd61e425660556d56fd7a6fc144ce132ca",
+      "size": 10048,
+      "implementation": "sources/functional-shards/shard06_proc.py",
+      "status": "functional-repair"
     },
     {
       "package": "sched-debug-parser",
-      "version": "1.0.0-1",
-      "artifact": "sched-debug-parser_1.0.0-1_aarch64.deb",
-      "sha256": "34424d0b0230e90c738235f5a68e17b86ddd3e022b4ca3ebc6d8a4b110441721",
-      "size": 2136
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "sched-debug-parser_1.0.0-2_aarch64.deb",
+      "sha256": "f40e481a6ac973a44d6079fcaf4c10cb867bc4aa6c52dc697273079f54763d81",
+      "size": 10052,
+      "implementation": "sources/functional-shards/shard06_proc.py",
+      "status": "functional-repair"
     },
     {
       "package": "buddyinfo-analyzer",
-      "version": "1.0.0-1",
-      "artifact": "buddyinfo-analyzer_1.0.0-1_aarch64.deb",
-      "sha256": "96aba5d8dfcb5744274eddc903f33da275e718f90dbc2844d5eb47eadfe3d052",
-      "size": 2136
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "buddyinfo-analyzer_1.0.0-2_aarch64.deb",
+      "sha256": "c061bb27d75d337a99feea676008d8352993e016dbb253830be67ad885df66aa",
+      "size": 10048,
+      "implementation": "sources/functional-shards/shard06_proc.py",
+      "status": "functional-repair"
     },
     {
       "package": "slabinfo-inspector",
-      "version": "1.0.0-1",
-      "artifact": "slabinfo-inspector_1.0.0-1_aarch64.deb",
-      "sha256": "11bfc163037b338f1a30556e1eb7129f275adf06ad98edf788b5a768317cb8d0",
-      "size": 2144
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "slabinfo-inspector_1.0.0-2_aarch64.deb",
+      "sha256": "d65f7d1b6305fae61e73c9e5838ebe49c4436736bbfac80210fcb45dc781d80b",
+      "size": 10060,
+      "implementation": "sources/functional-shards/shard06_proc.py",
+      "status": "functional-repair"
     },
     {
       "package": "pagetype-fragmentation",
-      "version": "1.0.0-1",
-      "artifact": "pagetype-fragmentation_1.0.0-1_aarch64.deb",
-      "sha256": "ebade5f15d382f2f964f81caea616f2f5df77d1d0eb517d006310c8527637924",
-      "size": 2140
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "pagetype-fragmentation_1.0.0-2_aarch64.deb",
+      "sha256": "14e0b3e45d5547631802ac87372aa9045e15487546cb5f558c8489e37ab3ceb6",
+      "size": 10052,
+      "implementation": "sources/functional-shards/shard06_proc.py",
+      "status": "functional-repair"
     },
     {
       "package": "zoneinfo-auditor",
-      "version": "1.0.0-1",
-      "artifact": "zoneinfo-auditor_1.0.0-1_aarch64.deb",
-      "sha256": "2fdf83d590566e3a22d9102062be66e8b3cb6a2a8bb32cf991a99a6ae4332ab7",
-      "size": 2136
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "zoneinfo-auditor_1.0.0-2_aarch64.deb",
+      "sha256": "51107e822382d5a26dd870f4bef346dd83719f7611225131f7171070d545766c",
+      "size": 10064,
+      "implementation": "sources/functional-shards/shard06_proc.py",
+      "status": "functional-repair"
     },
     {
       "package": "dmesg-boot-filter",
-      "version": "1.0.0-1",
-      "artifact": "dmesg-boot-filter_1.0.0-1_aarch64.deb",
-      "sha256": "979880867ef7c070836f12d0140eacbcd5ac1c143d532307225324dfc76b93d5",
-      "size": 2144
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "dmesg-boot-filter_1.0.0-2_aarch64.deb",
+      "sha256": "6b4201b82de38e37ae3c88a7a99d1cb54805522ebc2a6742f397a39e7de92690",
+      "size": 10068,
+      "implementation": "sources/functional-shards/shard06_proc.py",
+      "status": "functional-repair"
     },
     {
       "package": "kallsyms-resolver",
-      "version": "1.0.0-1",
-      "artifact": "kallsyms-resolver_1.0.0-1_aarch64.deb",
-      "sha256": "a302362ec94f77608f0148f8b7e8c8f3b239a76f50cdefd6a6cc4ec0c1c3bc44",
-      "size": 2140
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "kallsyms-resolver_1.0.0-2_aarch64.deb",
+      "sha256": "e06e70316f3e2fccff2fcac08c44e37ea699a3032cebbe82768c9e8b492f6ff3",
+      "size": 10056,
+      "implementation": "sources/functional-shards/shard06_proc.py",
+      "status": "functional-repair"
     },
     {
       "package": "kernel-cmdline-parser",
-      "version": "1.0.0-1",
-      "artifact": "kernel-cmdline-parser_1.0.0-1_aarch64.deb",
-      "sha256": "ec7a46cedb9417e4301d6a09910edb9b6ae029036b7fc2cc830e01a3100c337b",
-      "size": 2144
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "kernel-cmdline-parser_1.0.0-2_aarch64.deb",
+      "sha256": "577500c1228f164dbe6d3df47dbca9abb3053dbb31114855351785541704b428",
+      "size": 10060,
+      "implementation": "sources/functional-shards/shard06_proc.py",
+      "status": "functional-repair"
     },
     {
       "package": "sysctl-rule-validator",
-      "version": "1.0.0-1",
-      "artifact": "sysctl-rule-validator_1.0.0-1_aarch64.deb",
-      "sha256": "a404386cbedafebb39e910eb7395daa806ab59f0603cff09729a283fa2e6a5bb",
-      "size": 2148
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "sysctl-rule-validator_1.0.0-2_aarch64.deb",
+      "sha256": "b8191cd57e5b27b0b42b370bfdbcb1d271ca56e87f405f4915039023600d2492",
+      "size": 10064,
+      "implementation": "sources/functional-shards/shard06_proc.py",
+      "status": "functional-repair"
     },
     {
       "package": "mountinfo-inspector",
-      "version": "1.0.0-1",
-      "artifact": "mountinfo-inspector_1.0.0-1_aarch64.deb",
-      "sha256": "ca253b36878ebce2e6793bae51cd9d445cd9b431e40ad86f638c187fa351ed43",
-      "size": 2128
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "mountinfo-inspector_1.0.0-2_aarch64.deb",
+      "sha256": "2ece1d27089f92bf993734a774d641740de61491952e510ed44b83277aeea853",
+      "size": 10060,
+      "implementation": "sources/functional-shards/shard06_proc.py",
+      "status": "functional-repair"
     },
     {
       "package": "diskstats-parser",
-      "version": "1.0.0-1",
-      "artifact": "diskstats-parser_1.0.0-1_aarch64.deb",
-      "sha256": "0b7fb087cd34b21e7b0c21e6f27cad06d238be96a8610c0e3c33021d19e3f4b4",
-      "size": 2136
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "diskstats-parser_1.0.0-2_aarch64.deb",
+      "sha256": "31f8e084a899e8bf61134ccbebcd98f8b7305f27af6b1bbf86378b53f2e0db63",
+      "size": 10060,
+      "implementation": "sources/functional-shards/shard06_proc.py",
+      "status": "functional-repair"
     },
     {
       "package": "stat-context-switches",
-      "version": "1.0.0-1",
-      "artifact": "stat-context-switches_1.0.0-1_aarch64.deb",
-      "sha256": "53c4d6b449d510fe69efc54d4262968e2a1d394782d774d75077502b9a0da205",
-      "size": 2136
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "stat-context-switches_1.0.0-2_aarch64.deb",
+      "sha256": "c2e5c4b5af1b12c81184812caa2d3445c9dd591a576f3571c2707f5976dacc21",
+      "size": 10056,
+      "implementation": "sources/functional-shards/shard06_proc.py",
+      "status": "functional-repair"
     },
     {
       "package": "task-thread-counter",
-      "version": "1.0.0-1",
-      "artifact": "task-thread-counter_1.0.0-1_aarch64.deb",
-      "sha256": "a52b74d037bdc0dcccf7671e0cc30924f7c5825132c9166ad82d24c25244b2a1",
-      "size": 2132
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "task-thread-counter_1.0.0-2_aarch64.deb",
+      "sha256": "4700257e5f803f9d9aa815f7057a86ed2481c78fa82764adef71d10b2fb41e36",
+      "size": 10060,
+      "implementation": "sources/functional-shards/shard06_proc.py",
+      "status": "functional-repair"
     },
     {
       "package": "zombie-process-killer",
-      "version": "1.0.0-1",
-      "artifact": "zombie-process-killer_1.0.0-1_aarch64.deb",
-      "sha256": "82095b3ad0f59776a4d7f29222aae21951b1561be33bb791d171825c0da95392",
-      "size": 2128
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "zombie-process-killer_1.0.0-2_aarch64.deb",
+      "sha256": "6bdac924ab9a26ede5a5d5e5355e047b1eed9e828c92959f5f5b95e35214fb9e",
+      "size": 10048,
+      "implementation": "sources/functional-shards/shard06_proc.py",
+      "status": "functional-repair"
     },
     {
       "package": "pstree-ocean",
-      "version": "1.0.0-1",
-      "artifact": "pstree-ocean_1.0.0-1_aarch64.deb",
-      "sha256": "130eaeca4a484a93a5b2021c61b9785cef6772af571287c98ecfbb49e632b305",
-      "size": 2116
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "pstree-ocean_1.0.0-2_aarch64.deb",
+      "sha256": "0cdc8366044f281613260b38767d32e8770ed1395f821c940a9c304975fdef89",
+      "size": 10048,
+      "implementation": "sources/functional-shards/shard06_proc.py",
+      "status": "functional-repair"
     },
     {
       "package": "sched-latency-tracker",
-      "version": "1.0.0-1",
-      "artifact": "sched-latency-tracker_1.0.0-1_aarch64.deb",
-      "sha256": "9da6d942a89abfa3bcc113d9a5b6aed44b292d39b4b8ab41737926319c8faa7f",
-      "size": 2140
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "sched-latency-tracker_1.0.0-2_aarch64.deb",
+      "sha256": "2519fbce7aec509ee3bbc6dd3f8ee87d1da5045e2e9f46575d3ede8c91e2a1ff",
+      "size": 10064,
+      "implementation": "sources/functional-shards/shard06_proc.py",
+      "status": "functional-repair"
     },
     {
       "package": "futex-wait-detector",
-      "version": "1.0.0-1",
-      "artifact": "futex-wait-detector_1.0.0-1_aarch64.deb",
-      "sha256": "e11801ce7e6b3755e66a8f4a7e113d813bc733b5def0d2374c1be01f886a5832",
-      "size": 2140
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "futex-wait-detector_1.0.0-2_aarch64.deb",
+      "sha256": "647e69762b43287f037e4b44302e5420bfcc8420f9b7b0565d7d502c5026dfae",
+      "size": 10064,
+      "implementation": "sources/functional-shards/shard06_proc.py",
+      "status": "functional-repair"
     },
     {
       "package": "oom-score-inspector",
-      "version": "1.0.0-1",
-      "artifact": "oom-score-inspector_1.0.0-1_aarch64.deb",
-      "sha256": "0f6ffcd7a17f429ce7e27073315e83c0626936f0573fafb8a1dff4b922f903b6",
-      "size": 2144
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "oom-score-inspector_1.0.0-2_aarch64.deb",
+      "sha256": "a1980645a1385a4d72cdb6a893b74bd04d727266ab2b5bd7c27dafd188deec3b",
+      "size": 10068,
+      "implementation": "sources/functional-shards/shard06_proc.py",
+      "status": "functional-repair"
     },
     {
       "package": "oom-killer-analyzer",
-      "version": "1.0.0-1",
-      "artifact": "oom-killer-analyzer_1.0.0-1_aarch64.deb",
-      "sha256": "64713f747208e4e273b99d896a083e5be8e0ae12013fe194e34d37f41212212b",
-      "size": 2140
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "oom-killer-analyzer_1.0.0-2_aarch64.deb",
+      "sha256": "e35b5525543ca5897de9d7b47333e3694935003a81fd69a52aee82f4c6bb49fc",
+      "size": 10060,
+      "implementation": "sources/functional-shards/shard06_proc.py",
+      "status": "functional-repair"
     },
     {
       "package": "capsh-capability-view",
-      "version": "1.0.0-1",
-      "artifact": "capsh-capability-view_1.0.0-1_aarch64.deb",
-      "sha256": "cd4c020976a95dde48112afe1ee05c60ebad51a3ebf0ca2443e170bbf9cead25",
-      "size": 2136
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "capsh-capability-view_1.0.0-2_aarch64.deb",
+      "sha256": "609df890964d0d3897980f6bfbb9aecc9f68f7d3e84debe20de078a208eafed8",
+      "size": 10068,
+      "implementation": "sources/functional-shards/shard06_proc.py",
+      "status": "functional-repair"
     },
     {
       "package": "prctl-dump-status",
-      "version": "1.0.0-1",
-      "artifact": "prctl-dump-status_1.0.0-1_aarch64.deb",
-      "sha256": "c6d5263484211ed0bae1ffd68dd3aa3ea035e9e8ea9ac05be958621f03fd675d",
-      "size": 2128
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "prctl-dump-status_1.0.0-2_aarch64.deb",
+      "sha256": "bfacdc8d1d46da1c9e765e426b30464f8c996701012a4833058a53bd8b59e864",
+      "size": 10056,
+      "implementation": "sources/functional-shards/shard06_proc.py",
+      "status": "functional-repair"
     },
     {
       "package": "seccomp-filter-audit",
-      "version": "1.0.0-1",
-      "artifact": "seccomp-filter-audit_1.0.0-1_aarch64.deb",
-      "sha256": "94d92268e22b86177620a9502e0abe5f3992e878cb9f711c9ebcce9658c77693",
-      "size": 2152
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "seccomp-filter-audit_1.0.0-2_aarch64.deb",
+      "sha256": "d0101aec83f3b30f813b003c815380c5001ee01d70452626d06851d9a785d07c",
+      "size": 10072,
+      "implementation": "sources/functional-shards/shard06_proc.py",
+      "status": "functional-repair"
     },
     {
       "package": "auxv-vector-inspector",
-      "version": "1.0.0-1",
-      "artifact": "auxv-vector-inspector_1.0.0-1_aarch64.deb",
-      "sha256": "63b354f574a0c0a1f4e51d55f4e377566691a88325fb4b89f925042bc5a8f5ee",
-      "size": 2152
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "auxv-vector-inspector_1.0.0-2_aarch64.deb",
+      "sha256": "1c8d6e9a0bb5382d0c2629f405b9cc371734b61e63f629cf67a5f574f7d78b94",
+      "size": 10072,
+      "implementation": "sources/functional-shards/shard06_proc.py",
+      "status": "functional-repair"
     },
     {
       "package": "environ-auditor",
-      "version": "1.0.0-1",
-      "artifact": "environ-auditor_1.0.0-1_aarch64.deb",
-      "sha256": "67e143e68d3299eacd6780f5d1a98021d7f916877c4ba10dddd7ed2c4983cc3a",
-      "size": 2120
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "environ-auditor_1.0.0-2_aarch64.deb",
+      "sha256": "347c4e92d8dd7c3077761fbec527607f21cbeb296581d437387cd59b44fc38bd",
+      "size": 10068,
+      "implementation": "sources/functional-shards/shard06_proc.py",
+      "status": "functional-repair"
     },
     {
       "package": "cmdline-sanitizer",
-      "version": "1.0.0-1",
-      "artifact": "cmdline-sanitizer_1.0.0-1_aarch64.deb",
-      "sha256": "b8abaea88c0d03127e978c12d6e98a7dfadf627b471cf522347f1525f69de09e",
-      "size": 2136
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "cmdline-sanitizer_1.0.0-2_aarch64.deb",
+      "sha256": "92795a0d68804b1814a99feb8862cf6c9c4d59c87be7595a7e146ac73bbae98d",
+      "size": 10052,
+      "implementation": "sources/functional-shards/shard06_proc.py",
+      "status": "functional-repair"
     },
     {
       "package": "statm-resident-calc",
-      "version": "1.0.0-1",
-      "artifact": "statm-resident-calc_1.0.0-1_aarch64.deb",
-      "sha256": "81a67a069edf9dca38461350cde02075f6a3749ac5681d25e5479199fafc58e1",
-      "size": 2148
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "statm-resident-calc_1.0.0-2_aarch64.deb",
+      "sha256": "01c3afd65778ec25a7ab61e86adba83d9f8fac5fd76faddbbeb670948e645fd9",
+      "size": 10064,
+      "implementation": "sources/functional-shards/shard06_proc.py",
+      "status": "functional-repair"
     },
     {
       "package": "wchan-kernel-tracer",
-      "version": "1.0.0-1",
-      "artifact": "wchan-kernel-tracer_1.0.0-1_aarch64.deb",
-      "sha256": "3d869f23374141f30c34b518963d6a80aeffa081dbf1e78c76cff0333d159627",
-      "size": 2140
+      "replacesVersion": "1.0.0-1",
+      "version": "1.0.0-2",
+      "artifact": "wchan-kernel-tracer_1.0.0-2_aarch64.deb",
+      "sha256": "3e695a9f49a6a1ecb7718fea3b8cc4ac8cf85b1e94c535dfc74d0fa7b777d2a1",
+      "size": 10064,
+      "implementation": "sources/functional-shards/shard06_proc.py",
+      "status": "functional-repair"
     }
   ]
 }
