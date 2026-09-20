@@ -89,8 +89,14 @@ jobs:
           git add staging/shard-17-android-bionic-platform staging/shard-19-archive-backup-sync staging/shard-21-cloud-container-runtime staging/functional-repair-status.json
           git diff --cached --quiet && exit 0
           git commit -m "fix(packages): replace 150 placeholders across shards 17 19 21 [skip ci]"
-          git pull --rebase origin main
-          git push origin HEAD:main
+          for attempt in 1 2 3 4 5; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then exit 0; fi
+            echo "Concurrent push detected; retry $attempt/5"
+            sleep $((attempt * 2))
+          done
+          echo "Failed to push after 5 synchronized retries" >&2
+          exit 1
 
       - name: Report
         run: |
