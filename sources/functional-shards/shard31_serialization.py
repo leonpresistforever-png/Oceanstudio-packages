@@ -164,10 +164,12 @@ class CborReader:
         if major==5:
             out={}
             if n is None:
-                while self.b[self.p]!=0xff:out[self.item()]=self.item()
+                while self.b[self.p]!=0xff:
+                    k=self.item();v=self.item();out[k]=v
                 self.p+=1
             else:
-                for _ in range(n):out[self.item()]=self.item()
+                for _ in range(n):
+                    k=self.item();v=self.item();out[k]=v
             return out
         if major==6:
             self.tags.append(n);return {"tag":n,"value":self.item()}
