@@ -32,9 +32,19 @@ def load(path,name):
     m=importlib.util.module_from_spec(spec);spec.loader.exec_module(m);return m
 
 def wrap_field(name,items):
-    value=", ".join(items)
-    lines=textwrap.wrap(value,width=100,break_long_words=False,break_on_hyphens=False)
-    if not lines:return f"{name}:\n"
+    # Debian continuation lines are allowed, but never split a dependency atom
+    # such as "pkg (= version)" across lines.
+    atoms=list(items)
+    if not atoms:return f"{name}:\n"
+    lines=[];cur=""
+    for atom in atoms:
+        piece=atom if not cur else ", "+atom
+        if cur and len(name)+2+len(cur)+len(piece)>100:
+            lines.append(cur+",")
+            cur=atom
+        else:
+            cur+=piece
+    if cur:lines.append(cur)
     return f"{name}: {lines[0]}\n"+"".join(" "+x+"\n" for x in lines[1:])
 
 def command_control(pkg,provider,topic):
