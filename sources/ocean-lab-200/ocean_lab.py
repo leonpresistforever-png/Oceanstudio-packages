@@ -206,7 +206,9 @@ def mail(cmd,a):
                 except: out.append((x.get_payload(decode=True) or b"").decode(errors="replace"))
         print("\n".join(out)); return
     if op=="domains":
-        addrs=email.utils.getaddresses([m.get(k,"") for k in ("From","To","Cc","Reply-To")]); emit(sorted({x.split("@",1)[1].lower() for _,x in addrs if "@" in x})); return
+        header_text="\n".join(str(m.get(k,"")) for k in ("From","To","Cc","Reply-To"))
+        domains=sorted({x.lower().rstrip(".") for x in re.findall(r"@([A-Za-z0-9.-]+\\.[A-Za-z]{2,})",header_text)})
+        emit(domains); return
     if op=="addresses": emit([addr for _,addr in email.utils.getaddresses([m.get(k,"") for k in ("From","To","Cc","Reply-To")]) if addr]); return
     if op=="received-hops": emit(m.get_all("Received",[])); return
     if op=="content-types": emit([x.get_content_type() for x in parts]); return
