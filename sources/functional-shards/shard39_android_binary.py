@@ -170,7 +170,10 @@ def string_pool(b,row):
     return {"count":count,"utf8":utf8,"strings":vals}
 
 def axml_data(b):
-    cs=chunks(b);sp=next((x for x in cs if x["type"]==0x0001 and x["valid"]),None)
+    cs=chunks(b)
+    if cs and cs[0].get("valid") and cs[0]["type"]==0x0003 and cs[0]["headerSize"]<cs[0]["size"]:
+        cs=[cs[0]]+chunks(b,cs[0]["offset"]+cs[0]["headerSize"],cs[0]["end"],False)
+    sp=next((x for x in cs if x["type"]==0x0001 and x["valid"]),None)
     pool=string_pool(b,sp) if sp else {"count":0,"utf8":False,"strings":[]}
     return cs,pool
 def axml(cmd,a):
