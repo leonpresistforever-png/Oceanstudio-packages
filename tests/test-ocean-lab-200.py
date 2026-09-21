@@ -108,7 +108,7 @@ with tempfile.TemporaryDirectory() as td:
 
     assert run("ocean-lab-string-camel","hello ocean studio").strip()=="helloOceanStudio"
     assert run("ocean-lab-string-snake","Hello Ocean Studio").strip()=="hello_ocean_studio"
-    assert run("ocean-lab-string-map-subst","Hi \${name}",'{"name":"Ocean"}').strip()=="Hi Ocean"
+    assert run("ocean-lab-string-map-subst","Hi ${name}",'{"name":"Ocean"}').strip()=="Hi Ocean"
     assert run("ocean-lab-string-mustache-lite","Hi {{name}}",'{"name":"Ocean"}').strip()=="Hi Ocean"
 
     aab=d/"app.aab"
