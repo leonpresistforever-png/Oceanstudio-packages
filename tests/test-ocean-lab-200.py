@@ -80,7 +80,7 @@ with tempfile.TemporaryDirectory() as td:
 
     proj=d/"proj";proj.mkdir()
     (proj/"package.json").write_text('{"name":"ocean-app","version":"1.2.3","dependencies":{"x":"1"},"scripts":{"test":"x"}}')
-    assert json.loads(run("ocean-lab-project-npm-name",proj))=="ocean-app"
+    assert run("ocean-lab-project-npm-name",proj).strip()=="ocean-app"
     (proj/"Cargo.toml").write_text('[package]\nname="ocean"\nversion="0.1.0"\n[dependencies]\nserde="1"\n')
     assert json.loads(run("ocean-lab-project-cargo-package",proj))["name"]=="ocean"
     (proj/"pyproject.toml").write_text('[project]\nname="oceanpy"\ndependencies=["requests"]\n[project.scripts]\nocean="x:y"\n')
