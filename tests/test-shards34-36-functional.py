@@ -82,7 +82,7 @@ with tempfile.TemporaryDirectory() as td:
     assert "libc.so.6" in json.loads(run("box64-elf-needed-hints",elf))
     rc=d/"box64rc";rc.write_text("[*]\nBOX64_DYNAREC=1\nBOX64_LOG=1\n")
     assert "*" in json.loads(run("box64-rc-sections",rc))
-    assert json.loads(run("box64-rc-get",rc,"*","BOX64_DYNAREC"))=="1"
+    assert run("box64-rc-get",rc,"*","BOX64_DYNAREC").strip()=="1"
     assert json.loads(run("box64-compat-summary",elf))["target"]=="x86_64"
 
     # ---------------- shard 34: X11/libX ----------------
