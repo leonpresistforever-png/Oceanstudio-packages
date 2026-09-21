@@ -1,0 +1,181 @@
+name: Clean wrapper aliases and broken duplicity from live APT
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/clean-live-wrapper-aliases.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ocean-live-index-cleanup
+  cancel-in-progress: false
+
+jobs:
+  clean:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout signed repository metadata
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /.github/workflows/clean-live-wrapper-aliases.yml
+            /apt/dists/stable/
+            /apt/ocean.gpg
+
+      - name: Install signing tools
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          sudo apt-get install -y gnupg gzip
+
+      - name: Audit and remove alias-only packages
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+
+          path=Path("apt/dists/stable/main/binary-aarch64/Packages")
+          stanzas=[s for s in re.split(r"\n\s*\n",path.read_text().strip()) if s.strip()]
+          def field(s,name):
+              m=re.search(rf"^{re.escape(name)}:\s*(.+)$",s,re.M)
+              return m.group(1).strip() if m else ""
+
+          rows=[(field(s,"Package"),field(s,"Filename"),s) for s in stanzas]
+          targets={name for name,_,_ in rows if name.startswith(("forge-","ecosys-","envhub-"))}
+          targets.add("ocean-foundation-superpack")
+          targets.add("duplicity")
+
+          found={name for name,_,_ in rows if name in targets}
+          wrappers={x for x in found if x!="duplicity"}
+          if len(wrappers)!=304:
+              raise SystemExit(f"expected 304 foundation aliases/meta packages, found {len(wrappers)}")
+          if "duplicity" not in found:
+              raise SystemExit("duplicity was expected in the live index")
+
+          def dep_groups(value):
+              groups=[]
+              for group in value.split(","):
+                  alts=[]
+                  for alt in group.split("|"):
+                      atom=re.sub(r"\s*\(.*?\)\s*","",alt).strip()
+                      atom=re.sub(r":[A-Za-z0-9_-]+$","",atom)
+                      if atom:alts.append(atom)
+                  if alts:groups.append(alts)
+              return groups
+
+          external=[]
+          for name,_,s in rows:
+              if name in found:continue
+              for key in ("Depends","Pre-Depends"):
+                  for alts in dep_groups(field(s,key)):
+                      bad=sorted(set(alts)&found)
+                      if bad and all(x in found for x in alts):
+                          external.append((name,key,bad))
+          if external:
+              raise SystemExit("remaining packages depend only on cleanup targets: "+repr(external[:20]))
+
+          kept=[];removed=[]
+          for name,filename,s in rows:
+              if name in found:removed.append((name,filename))
+              else:kept.append(s)
+          if len(removed)!=305:
+              raise SystemExit(f"expected to remove 305 stanzas, got {len(removed)}")
+
+          result="\n\n".join(kept)+"\n"
+          path.write_text(result)
+          Path("/tmp/removed-live-artifacts").write_text("".join("apt/"+f+"\n" for _,f in removed if f))
+
+          final=[s for s in re.split(r"\n\s*\n",result.strip()) if s.strip()]
+          names={field(s,"Package") for s in final}
+          unresolved=[]
+          for s in final:
+              pkg=field(s,"Package")
+              for key in ("Depends","Pre-Depends"):
+                  for alts in dep_groups(field(s,key)):
+                      if not any(x in names for x in alts):
+                          unresolved.append((pkg,key," | ".join(alts)))
+          if unresolved:
+              raise SystemExit("unresolved live dependencies remain: "+repr(unresolved[:30]))
+          if len(final)!=4657 or len(names)!=4657:
+              raise SystemExit(f"expected 4657 clean unique packages, got stanzas={len(final)} names={len(names)}")
+          print("PASS: removed 304 alias/meta packages + broken duplicity")
+          print("PASS: 4657 unique live package names remain with dependency closure")
+          PY
+          gzip -n -9 -c apt/dists/stable/main/binary-aarch64/Packages > apt/dists/stable/main/binary-aarch64/Packages.gz
+
+      - name: Require trusted Ocean signing key
+        env:
+          OCEAN_REPOSITORY_SIGNING_KEY: ${{ secrets.OCEAN_REPOSITORY_SIGNING_KEY }}
+        run: |
+          set -euo pipefail
+          test -n "$OCEAN_REPOSITORY_SIGNING_KEY" || { echo "OCEAN_REPOSITORY_SIGNING_KEY missing; refusing unsigned cleanup" >&2; exit 1; }
+          EXPECTED=$(gpg --batch --show-keys --with-colons apt/ocean.gpg 2>/dev/null | awk -F: '$1=="fpr"{print $10;exit}')
+          test -n "$EXPECTED"
+          printf '%s\n' "$OCEAN_REPOSITORY_SIGNING_KEY" | gpg --batch --import
+          ACTUAL=$(gpg --batch --list-secret-keys --with-colons 2>/dev/null | awk -F: '$1=="fpr"{print $10;exit}')
+          [ "$ACTUAL" = "$EXPECTED" ] || { echo "Signing fingerprint mismatch" >&2; exit 1; }
+          echo "OCEAN_SIGNING_FINGERPRINT=$EXPECTED" >> "$GITHUB_ENV"
+
+      - name: Rebuild and verify signed Release metadata
+        run: |
+          set -euo pipefail
+          RELEASE=apt/dists/stable/Release
+          PKG=apt/dists/stable/main/binary-aarch64/Packages
+          PKG_GZ=apt/dists/stable/main/binary-aarch64/Packages.gz
+          DATE=$(date -u -R)
+          VALID=$(date -u -R -d '+365 days')
+          {
+            echo "Origin: OceanStudio"
+            echo "Label: Ocean Packages"
+            echo "Suite: stable"
+            echo "Codename: stable"
+            echo "Architectures: aarch64 all"
+            echo "Components: main"
+            echo "Description: Official Ocean APT Repository"
+            echo "Date: $DATE"
+            echo "Valid-Until: $VALID"
+            echo "MD5Sum:"
+            printf ' %s %s main/binary-aarch64/Packages\n' "$(md5sum "$PKG" | awk '{print $1}')" "$(stat -c %s "$PKG")"
+            printf ' %s %s main/binary-aarch64/Packages.gz\n' "$(md5sum "$PKG_GZ" | awk '{print $1}')" "$(stat -c %s "$PKG_GZ")"
+            echo "SHA1:"
+            printf ' %s %s main/binary-aarch64/Packages\n' "$(sha1sum "$PKG" | awk '{print $1}')" "$(stat -c %s "$PKG")"
+            printf ' %s %s main/binary-aarch64/Packages.gz\n' "$(sha1sum "$PKG_GZ" | awk '{print $1}')" "$(stat -c %s "$PKG_GZ")"
+            echo "SHA256:"
+            printf ' %s %s main/binary-aarch64/Packages\n' "$(sha256sum "$PKG" | awk '{print $1}')" "$(stat -c %s "$PKG")"
+            printf ' %s %s main/binary-aarch64/Packages.gz\n' "$(sha256sum "$PKG_GZ" | awk '{print $1}')" "$(stat -c %s "$PKG_GZ")"
+          } > "$RELEASE"
+
+          rm -f apt/dists/stable/InRelease apt/dists/stable/Release.gpg
+          gpg --batch --yes --local-user "$OCEAN_SIGNING_FINGERPRINT" --digest-algo SHA256 --clearsign --output apt/dists/stable/InRelease "$RELEASE"
+          gpg --batch --yes --local-user "$OCEAN_SIGNING_FINGERPRINT" --digest-algo SHA256 --detach-sign --output apt/dists/stable/Release.gpg "$RELEASE"
+          gpgv --keyring apt/ocean.gpg apt/dists/stable/InRelease
+          gpgv --keyring apt/ocean.gpg apt/dists/stable/Release.gpg "$RELEASE"
+
+      - name: Remove alias artifacts and commit
+        run: |
+          set -euo pipefail
+          git config user.name "Ocean Package Audit"
+          git config user.email "packages@ocean.studio"
+          while IFS= read -r p; do
+            git rm --cached --sparse --ignore-unmatch "$p" || true
+          done < /tmp/removed-live-artifacts
+          git add apt/dists/stable
+          git commit -m "fix(repo): remove alias-only foundation wrappers and broken duplicity [skip ci]"
+          git pull --rebase origin main
+          git push origin HEAD:main
+
+      - name: Report
+        run: |
+          echo "Live package names: 4657"
+          echo "Removed: 304 foundation routing aliases/meta packages + broken duplicity"
+          echo "Dependency closure: PASS"
+          echo "Signed Release: PASS"
