@@ -186,7 +186,7 @@ export function App(){ const [n,setN]=useState(0); return <Route path="/home" el
     # ---------------- shard 36: HTTP ----------------
     rq=d/"req.json";rq.write_text(json.dumps({"url":"https://example.com/api?q=1","method":"POST","headers":{"Accept":"application/json"}}))
     assert run("httpx-request-line",rq).strip()=="POST /api?q=1 HTTP/1.1"
-    assert json.loads(run("httpx-header-get",rq,"accept"))=="application/json"
+    assert run("httpx-header-get",rq,"accept").strip()=="application/json"
     changed=json.loads(run("httpx-query-set",rq,"q","2"));assert "q=2" in changed["url"]
     assert "curl" in run("httpx-curl",rq)
     assert "fetch(" in run("httpx-node-fetch",rq)
