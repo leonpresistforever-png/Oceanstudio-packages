@@ -1,0 +1,1461 @@
+Package: ecosys-cargo-install
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, rust-cargo, mise
+Description: Ocean foundation command for cargo
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-cargo-install_1.0.0-1_all.deb
+Size: 3056
+SHA256: 0482c577cfa23598e4f934729d2d633b2dfc6d07b8abdfdf82ff3438194fcb70
+
+Package: ecosys-cargo-uninstall
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, rust-cargo, mise
+Description: Ocean foundation command for cargo
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-cargo-uninstall_1.0.0-1_all.deb
+Size: 3060
+SHA256: aa64366343a4eb22ae9a3b0bd685193bb616221b808aeff2c91560c6b25e55e9
+
+Package: ecosys-cargo-search
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, rust-cargo, mise
+Description: Ocean foundation command for cargo
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-cargo-search_1.0.0-1_all.deb
+Size: 3054
+SHA256: 991cfa594e49bec5d475f3bb8516a91bc0cebf4450d32b043ca3e8eb6aab86a9
+
+Package: ecosys-cargo-list
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, rust-cargo, mise
+Description: Ocean foundation command for cargo
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-cargo-list_1.0.0-1_all.deb
+Size: 3052
+SHA256: 2f62b2345fab708273d5eab4620b20b15efc4c439b0b23ecb0a137466b5c1ea8
+
+Package: ecosys-cargo-update
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, rust-cargo, mise
+Description: Ocean foundation command for cargo
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-cargo-update_1.0.0-1_all.deb
+Size: 3050
+SHA256: 2c7f8fe91ace9fb5fc6b905d0fdf3fb4b476c3fb505dad2a070494b77a0db9bb
+
+Package: ecosys-cargo-tree
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, rust-cargo, mise
+Description: Ocean foundation command for cargo
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-cargo-tree_1.0.0-1_all.deb
+Size: 3052
+SHA256: 7564650ef1e6da4fc9a7fab8e2f1962c09220b917b1af40383804334608a6561
+
+Package: ecosys-cargo-metadata
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, rust-cargo, mise
+Description: Ocean foundation command for cargo
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-cargo-metadata_1.0.0-1_all.deb
+Size: 3050
+SHA256: 72f2d577a4702ba9bd3bd543745aa8658e2191e9d6dea4764f28cd90bff6c05f
+
+Package: ecosys-cargo-vendor
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, rust-cargo, mise
+Description: Ocean foundation command for cargo
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-cargo-vendor_1.0.0-1_all.deb
+Size: 3054
+SHA256: e200f09d296324b1a475089b27832827b2506d91c81ef5b9f38595cbc695b99e
+
+Package: ecosys-cargo-package
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, rust-cargo, mise
+Description: Ocean foundation command for cargo
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-cargo-package_1.0.0-1_all.deb
+Size: 3054
+SHA256: b0e85c7f78326befef7e3307f2cc40966c11cd81655455c30b1a546ff56a4b85
+
+Package: ecosys-cargo-publish-dryrun
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, rust-cargo, mise
+Description: Ocean foundation command for cargo
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-cargo-publish-dryrun_1.0.0-1_all.deb
+Size: 3062
+SHA256: b7359a4a99055dbe204da6ad732825f578e6c246c1a682ade3052f558d04759a
+
+Package: ecosys-rust-toolchain-install
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for rust-toolchain
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-rust-toolchain-install_1.0.0-1_all.deb
+Size: 3052
+SHA256: ae8780221b1c9f97fe93f8b49c242910c1f94b58f7ba9d3ce3a6d283c7948f28
+
+Package: ecosys-rust-toolchain-uninstall
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for rust-toolchain
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-rust-toolchain-uninstall_1.0.0-1_all.deb
+Size: 3098
+SHA256: d20fc5f1ccb6675b2cd39d78833a23e269fdf8b49d09567a31f0e9e0bbc44f7f
+
+Package: ecosys-rust-toolchain-list
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for rust-toolchain
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-rust-toolchain-list_1.0.0-1_all.deb
+Size: 3050
+SHA256: cb90673b5363b8faeaf3ac4772078db2c8cced69921c2d2d1e6e049d9bf2b1ce
+
+Package: ecosys-rust-toolchain-use
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for rust-toolchain
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-rust-toolchain-use_1.0.0-1_all.deb
+Size: 3050
+SHA256: 82c379be70131621df8717ea99706a4e024111e917ea675cb545052f5f0081c2
+
+Package: ecosys-rust-toolchain-latest
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for rust-toolchain
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-rust-toolchain-latest_1.0.0-1_all.deb
+Size: 3058
+SHA256: 8608e5bea031cd545f0b22ec4cef755d26973770b9f58b15bb5025464a47769a
+
+Package: ecosys-rust-toolchain-which
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for rust-toolchain
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-rust-toolchain-which_1.0.0-1_all.deb
+Size: 3054
+SHA256: a2e87834c626e7a3c0c7ea15009a8dd456e1cf0d71cf8638acf248d2561d8595
+
+Package: ecosys-rust-toolchain-current
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for rust-toolchain
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-rust-toolchain-current_1.0.0-1_all.deb
+Size: 3052
+SHA256: 8e55409b912883a463863c0d778fed4c987124debe9be6e33af6c0dc23ce8958
+
+Package: ecosys-rust-toolchain-outdated
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for rust-toolchain
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-rust-toolchain-outdated_1.0.0-1_all.deb
+Size: 3098
+SHA256: d04b31804985b03e6412d3f480f9cdd6ee94c599bb6833a9109c6ab8b4b9969b
+
+Package: ecosys-rust-toolchain-upgrade
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for rust-toolchain
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-rust-toolchain-upgrade_1.0.0-1_all.deb
+Size: 3058
+SHA256: 0cfc8cfdf8b9b32ad27ccbf357fc295ac4357ca0ec6930d72306655dc9fddb81
+
+Package: ecosys-rust-toolchain-doctor
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for rust-toolchain
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-rust-toolchain-doctor_1.0.0-1_all.deb
+Size: 3060
+SHA256: 5cf7f6f2b1969aa1bbdd1a0a68d6d80906a0482607b9bfe77e9bd958286aabf0
+
+Package: ecosys-go-install
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, go, mise
+Description: Ocean foundation command for go
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-go-install_1.0.0-1_all.deb
+Size: 3044
+SHA256: 5552b7fdea60e74240398a9e34e81ff2bb93c29fee8247c8fae7168eb8e0169f
+
+Package: ecosys-go-get
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, go, mise
+Description: Ocean foundation command for go
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-go-get_1.0.0-1_all.deb
+Size: 3038
+SHA256: 5741222d245d81f04b1380605ea4825e250ed921c7d915444e084881d5a733a0
+
+Package: ecosys-go-list
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, go, mise
+Description: Ocean foundation command for go
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-go-list_1.0.0-1_all.deb
+Size: 3052
+SHA256: e31525c0eb5f37fcc6c89a865f62009d8baa47e8b46de4c352842d486a20db69
+
+Package: ecosys-go-env
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, go, mise
+Description: Ocean foundation command for go
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-go-env_1.0.0-1_all.deb
+Size: 3040
+SHA256: 662d787f0ac905a63889fb5d5d941ffae427fed63a50c5c31b65f79c01f4bb4f
+
+Package: ecosys-go-mod-download
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, go, mise
+Description: Ocean foundation command for go
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-go-mod-download_1.0.0-1_all.deb
+Size: 3056
+SHA256: ef53d3ef2cc11be1bea0cd6e9a06b9125c1ecb0b60ebd378ccbde896671d5555
+
+Package: ecosys-go-mod-tidy
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, go, mise
+Description: Ocean foundation command for go
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-go-mod-tidy_1.0.0-1_all.deb
+Size: 3050
+SHA256: 23679a4e84fd288f40ab56fb3583054c337a71c751fe268a6f957cab084cb450
+
+Package: ecosys-go-mod-graph
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, go, mise
+Description: Ocean foundation command for go
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-go-mod-graph_1.0.0-1_all.deb
+Size: 3052
+SHA256: 1852f5f9e35e9160276bba4406c6030fea05b164c591a1d63f02ed93429bfa31
+
+Package: ecosys-go-work-sync
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, go, mise
+Description: Ocean foundation command for go
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-go-work-sync_1.0.0-1_all.deb
+Size: 3050
+SHA256: 1ebbe81423d436483f6297bb69ae241b6fd0a2c9a669961730e3311dc6836d84
+
+Package: ecosys-go-clean-cache
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, go, mise
+Description: Ocean foundation command for go
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-go-clean-cache_1.0.0-1_all.deb
+Size: 3054
+SHA256: 6e7fe04ecbd2567b9aaa08e595b098cdb3719bbe07d4fab75ea335e5b13d726e
+
+Package: ecosys-go-version
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, go, mise
+Description: Ocean foundation command for go
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-go-version_1.0.0-1_all.deb
+Size: 3048
+SHA256: 6d923077d59f528866e3f04f0d0b18e9fcf1b8a9a0d210195422f494f2f29763
+
+Package: ecosys-gem-install
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, ruby-rubygems, mise
+Description: Ocean foundation command for gem
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-gem-install_1.0.0-1_all.deb
+Size: 3054
+SHA256: f547f35379fb764de31e82644e1fd023fc0d41a16484a35df74030aae8ac0243
+
+Package: ecosys-gem-uninstall
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, ruby-rubygems, mise
+Description: Ocean foundation command for gem
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-gem-uninstall_1.0.0-1_all.deb
+Size: 3062
+SHA256: f288ad6cc79cac5d33d92196a8734191a37ef6839de79e1f50ee6201dde333e7
+
+Package: ecosys-gem-list
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, ruby-rubygems, mise
+Description: Ocean foundation command for gem
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-gem-list_1.0.0-1_all.deb
+Size: 3060
+SHA256: d93902019dd60052d936c18ae4d1b492beaa7b09c681d91713cff3d6343438cf
+
+Package: ecosys-gem-search
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, ruby-rubygems, mise
+Description: Ocean foundation command for gem
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-gem-search_1.0.0-1_all.deb
+Size: 3048
+SHA256: 273610c0e52167e018f49b6330cc96e919ab194b3df07caf0d7a0d3b8796d48a
+
+Package: ecosys-gem-update
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, ruby-rubygems, mise
+Description: Ocean foundation command for gem
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-gem-update_1.0.0-1_all.deb
+Size: 3054
+SHA256: a24b98d6fc64b72f818e8102468ba98b6e5dd9cd693baeb33ac554a29fe0a1c3
+
+Package: ecosys-gem-outdated
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, ruby-rubygems, mise
+Description: Ocean foundation command for gem
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-gem-outdated_1.0.0-1_all.deb
+Size: 3066
+SHA256: 88644fc313c3a53ae0ac8a88dafee761084516cd997b7787904061a7a23b735f
+
+Package: ecosys-gem-which
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, ruby-rubygems, mise
+Description: Ocean foundation command for gem
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-gem-which_1.0.0-1_all.deb
+Size: 3054
+SHA256: 1970533f61483b8ee29e27105e4b56d11dff5c055db8d80b0ca54a1a92fb971d
+
+Package: ecosys-gem-contents
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, ruby-rubygems, mise
+Description: Ocean foundation command for gem
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-gem-contents_1.0.0-1_all.deb
+Size: 3056
+SHA256: 9f4623f0d4fe33a7544860fb8803723e4ceca2d09dd4e9d21910668e7cb31d54
+
+Package: ecosys-gem-environment
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, ruby-rubygems, mise
+Description: Ocean foundation command for gem
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-gem-environment_1.0.0-1_all.deb
+Size: 3062
+SHA256: fd074921feb904b7e6c5f0ebcd9290ccfc54531224f51d157688cc17071a5fdc
+
+Package: ecosys-gem-cleanup
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, ruby-rubygems, mise
+Description: Ocean foundation command for gem
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-gem-cleanup_1.0.0-1_all.deb
+Size: 3062
+SHA256: 22fcd182b0c676c46366bf251c41c0cb7ca1a9971a68514715d7ba5eb657decb
+
+Package: ecosys-bundler-install
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, ruby-rubygems, mise
+Description: Ocean foundation command for bundler
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-bundler-install_1.0.0-1_all.deb
+Size: 3058
+SHA256: e6e14f957d4e46241843e5c416a1a98bec6f38cc4da91d6d4c355bb8f3865f3c
+
+Package: ecosys-bundler-update
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, ruby-rubygems, mise
+Description: Ocean foundation command for bundler
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-bundler-update_1.0.0-1_all.deb
+Size: 3064
+SHA256: 9b7385469e111b56d0198102e656fd72ce297b2c88cdb0e973707660a0a8cfb7
+
+Package: ecosys-bundler-exec
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, ruby-rubygems, mise
+Description: Ocean foundation command for bundler
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-bundler-exec_1.0.0-1_all.deb
+Size: 3054
+SHA256: 40465ebdf63c2b11d06b19a1b53c57980fbb46b637da72718220085a3a300a61
+
+Package: ecosys-bundler-check
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, ruby-rubygems, mise
+Description: Ocean foundation command for bundler
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-bundler-check_1.0.0-1_all.deb
+Size: 3066
+SHA256: cb2a6badfe9edbd9c7b1711c3f12b716b416435f1d7f52e613ffa8c806d2b339
+
+Package: ecosys-bundler-list
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, ruby-rubygems, mise
+Description: Ocean foundation command for bundler
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-bundler-list_1.0.0-1_all.deb
+Size: 3062
+SHA256: 45b856b3409e782ce9e90367d4f43d73a5dd0b0e2e50c0a99acbbf08497d23cc
+
+Package: ecosys-bundler-show
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, ruby-rubygems, mise
+Description: Ocean foundation command for bundler
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-bundler-show_1.0.0-1_all.deb
+Size: 3066
+SHA256: fc898dd5ad352d5096f8246201e4c0ee0f3b834321af194af5b311524b47c2f3
+
+Package: ecosys-bundler-lock
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, ruby-rubygems, mise
+Description: Ocean foundation command for bundler
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-bundler-lock_1.0.0-1_all.deb
+Size: 3064
+SHA256: 7a0a8f660336f0bb288478a9bfcc9648f59bc570b30c6b9d594733ce2463830c
+
+Package: ecosys-bundler-config
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, ruby-rubygems, mise
+Description: Ocean foundation command for bundler
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-bundler-config_1.0.0-1_all.deb
+Size: 3066
+SHA256: 64cc63335d704f1579cd741b2c0956f83ef6873f3fe3d5a7e9071fa576471123
+
+Package: ecosys-bundler-cache
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, ruby-rubygems, mise
+Description: Ocean foundation command for bundler
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-bundler-cache_1.0.0-1_all.deb
+Size: 3058
+SHA256: 41985bd27f2e4aa2551b8cbbb6d5b60e73239e936e2ad491c63a886d1887b432
+
+Package: ecosys-bundler-doctor
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, ruby-rubygems, mise
+Description: Ocean foundation command for bundler
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-bundler-doctor_1.0.0-1_all.deb
+Size: 3066
+SHA256: d553f16d9e0fe99b74a90d6de383cb27c38eccc9d1861dab45c8865830ee168c
+
+Package: ecosys-composer-require
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, composer, mise
+Description: Ocean foundation command for composer
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-composer-require_1.0.0-1_all.deb
+Size: 3056
+SHA256: 9c624969d6f728cbce7c2b55996356f02b1c79331d02eb8313b03f4292cd682c
+
+Package: ecosys-composer-remove
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, composer, mise
+Description: Ocean foundation command for composer
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-composer-remove_1.0.0-1_all.deb
+Size: 3050
+SHA256: 42dbcab3a58bc37e54a896f8a0cf964d3079c42fcdd3f1d5154d9926c93e91d1
+
+Package: ecosys-composer-install
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, composer, mise
+Description: Ocean foundation command for composer
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-composer-install_1.0.0-1_all.deb
+Size: 3060
+SHA256: ddb50e773422c330c819dd27a7832b690ae2946f0da8695b751a72b0d2bc083a
+
+Package: ecosys-composer-update
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, composer, mise
+Description: Ocean foundation command for composer
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-composer-update_1.0.0-1_all.deb
+Size: 3050
+SHA256: 83604db948b624eba59da4edec2caf951f81732a9fcbc99fabcaa5aa517c1def
+
+Package: ecosys-composer-show
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, composer, mise
+Description: Ocean foundation command for composer
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-composer-show_1.0.0-1_all.deb
+Size: 3052
+SHA256: 7422a0baecd428f26615167750f1cde9253260caea4a19bdd5e8a432199d5452
+
+Package: ecosys-composer-search
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, composer, mise
+Description: Ocean foundation command for composer
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-composer-search_1.0.0-1_all.deb
+Size: 3054
+SHA256: 95a4a67d60755a4598a7a3be6bd56a64812354ae71aa6f99ecf5b7a1763c83d9
+
+Package: ecosys-composer-outdated
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, composer, mise
+Description: Ocean foundation command for composer
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-composer-outdated_1.0.0-1_all.deb
+Size: 3056
+SHA256: 8f86614e5905ff9205db75247742becd0a5c067f2f29350316610458fa90e4ef
+
+Package: ecosys-composer-exec
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, composer, mise
+Description: Ocean foundation command for composer
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-composer-exec_1.0.0-1_all.deb
+Size: 3046
+SHA256: da93bf07ca13298af34c3967f2fa614af4aa653220c1f3d961172f7b2f0b9ff8
+
+Package: ecosys-composer-audit
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, composer, mise
+Description: Ocean foundation command for composer
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-composer-audit_1.0.0-1_all.deb
+Size: 3052
+SHA256: d5540a106a6fc4742d0eb20b0b3f6984a1b113da86e98bb67c2ecddc2d6faa07
+
+Package: ecosys-composer-diagnose
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, composer, mise
+Description: Ocean foundation command for composer
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-composer-diagnose_1.0.0-1_all.deb
+Size: 3056
+SHA256: 57cd5b449bee5cd284868c019abc35bdb6f7d9035b634d03e9a8992f17e271a9
+
+Package: ecosys-luarocks-install
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, luarocks, mise
+Description: Ocean foundation command for luarocks
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-luarocks-install_1.0.0-1_all.deb
+Size: 3056
+SHA256: a9c8a13dbda7352d77a77667746b508d22b05ed9b75b525085d5feae49213dc0
+
+Package: ecosys-luarocks-remove
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, luarocks, mise
+Description: Ocean foundation command for luarocks
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-luarocks-remove_1.0.0-1_all.deb
+Size: 3054
+SHA256: d45aea41e939c051fe12a830650c79e8974d85141d9ffc7184eaa8d170dad9d7
+
+Package: ecosys-luarocks-list
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, luarocks, mise
+Description: Ocean foundation command for luarocks
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-luarocks-list_1.0.0-1_all.deb
+Size: 3056
+SHA256: 80d0f19184082bdc9b826a77c1fec2f273194657d4aab8edc7e18834b783c9be
+
+Package: ecosys-luarocks-search
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, luarocks, mise
+Description: Ocean foundation command for luarocks
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-luarocks-search_1.0.0-1_all.deb
+Size: 3052
+SHA256: b2b0b3451b49a5bf6b78a671fa00cca4311d7d5451effe17dc0306e53def0333
+
+Package: ecosys-luarocks-show
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, luarocks, mise
+Description: Ocean foundation command for luarocks
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-luarocks-show_1.0.0-1_all.deb
+Size: 3054
+SHA256: c6a5e802d5c2c92e2d177191a52ecc38c7cabe4282c539721fd599067d396459
+
+Package: ecosys-luarocks-make
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, luarocks, mise
+Description: Ocean foundation command for luarocks
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-luarocks-make_1.0.0-1_all.deb
+Size: 3058
+SHA256: ae49e3360259a4f8cd80caa0329f1de4f58d12b56766e3e0ef7c01edbdd04ade
+
+Package: ecosys-luarocks-build
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, luarocks, mise
+Description: Ocean foundation command for luarocks
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-luarocks-build_1.0.0-1_all.deb
+Size: 3058
+SHA256: 8a1e23b668f4d4f2eccb15e84fa654ae5e776cd6a53011b3b9c1d7d03bae3dd6
+
+Package: ecosys-luarocks-pack
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, luarocks, mise
+Description: Ocean foundation command for luarocks
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-luarocks-pack_1.0.0-1_all.deb
+Size: 3054
+SHA256: 140a4f8452f46726a107821aa96d2e3ad29365735782575013031d0c8efd9b0b
+
+Package: ecosys-luarocks-purge
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, luarocks, mise
+Description: Ocean foundation command for luarocks
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-luarocks-purge_1.0.0-1_all.deb
+Size: 3056
+SHA256: da6432afe33c4507e93b5f9ddd63bfcdea4b412021d3163b7314f354a93fd097
+
+Package: ecosys-luarocks-config
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, luarocks, mise
+Description: Ocean foundation command for luarocks
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-luarocks-config_1.0.0-1_all.deb
+Size: 3058
+SHA256: 68b12590251633faec0f5e76a7e370af35cd69135798ade75a2bacf0d5843704
+
+Package: ecosys-dotnet-tool-install
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for dotnet
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-dotnet-tool-install_1.0.0-1_all.deb
+Size: 3052
+SHA256: 72a911709df66a55cb7361c33d2f9da9286327522a2539484f61fcc5e38f7189
+
+Package: ecosys-dotnet-tool-uninstall
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for dotnet
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-dotnet-tool-uninstall_1.0.0-1_all.deb
+Size: 3054
+SHA256: 00e0116b69069bd994e9426d9fec0fcb6072781efcd9d3dd67930d3eaf64b262
+
+Package: ecosys-dotnet-tool-list
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for dotnet
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-dotnet-tool-list_1.0.0-1_all.deb
+Size: 3060
+SHA256: 53e936c65c7ed426d22085d16cd9518deb8bd2b3986e0087d116fa5fee9ed191
+
+Package: ecosys-dotnet-tool-update
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for dotnet
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-dotnet-tool-update_1.0.0-1_all.deb
+Size: 3056
+SHA256: 3bab88f138def90888e4173f713f0acb7d7eecaf12004b4c11816633ba84f1d9
+
+Package: ecosys-dotnet-add-package
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for dotnet
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-dotnet-add-package_1.0.0-1_all.deb
+Size: 3052
+SHA256: b7d4a02095ca86a48b187bd4c3f84b71f56703b3365632be0b6918699c575268
+
+Package: ecosys-dotnet-remove-package
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for dotnet
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-dotnet-remove-package_1.0.0-1_all.deb
+Size: 3052
+SHA256: faf6f4789d15a0cf842869bfa4a8fd45de0bb8aa3b4c9759aa4496535f581df6
+
+Package: ecosys-dotnet-list-package
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for dotnet
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-dotnet-list-package_1.0.0-1_all.deb
+Size: 3060
+SHA256: 323566899143bb40034b43568772ad0f094c7fa6efb5350ff920ec639b6bac5d
+
+Package: ecosys-dotnet-restore
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for dotnet
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-dotnet-restore_1.0.0-1_all.deb
+Size: 3050
+SHA256: 19c939313038aed4d6bb19ae8df3911160c90a821d95a934530adefad2b2af80
+
+Package: ecosys-dotnet-build
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for dotnet
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-dotnet-build_1.0.0-1_all.deb
+Size: 3048
+SHA256: 29b4197b45c875419ad0f937f0945c3e55b7ff482557a050bd5946476052fd60
+
+Package: ecosys-dotnet-run
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for dotnet
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-dotnet-run_1.0.0-1_all.deb
+Size: 3046
+SHA256: 396afc8e892a2c9925b0348ff2cdc1ff782d4f988de2ee72c7e10b3f5a9921c0
+
+Package: ecosys-nuget-add-source
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for nuget
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-nuget-add-source_1.0.0-1_all.deb
+Size: 3058
+SHA256: 73b8072bfc65b1283e19de384d0f8ae09430e90a451388747659020148ccf5b5
+
+Package: ecosys-nuget-remove-source
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for nuget
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-nuget-remove-source_1.0.0-1_all.deb
+Size: 3060
+SHA256: 4c7eceb36d63eba6e65ee692a6753db508fcf0d885d4fb03861fcefe6984b657
+
+Package: ecosys-nuget-update-source
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for nuget
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-nuget-update-source_1.0.0-1_all.deb
+Size: 3062
+SHA256: 0672a200e15b758c5dce6905fc3dcbf01642e74a14477c0fa8e0ed475a46aff1
+
+Package: ecosys-nuget-enable-source
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for nuget
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-nuget-enable-source_1.0.0-1_all.deb
+Size: 3056
+SHA256: 6ca5b3199e8c3645f4e0958f871b17b113e64811e630c1fecbd68453c8eb1e7a
+
+Package: ecosys-nuget-disable-source
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for nuget
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-nuget-disable-source_1.0.0-1_all.deb
+Size: 3066
+SHA256: 2ffd2c2ca9d16b8903b54bd59c8cdd94cc6926abd10a8561d7d9bfea13cc9c9a
+
+Package: ecosys-nuget-list-source
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for nuget
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-nuget-list-source_1.0.0-1_all.deb
+Size: 3062
+SHA256: b1f09efb61bef896138438097d66da8f70fb86dfbe8f49a59f4385d9a368779e
+
+Package: ecosys-nuget-locals
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for nuget
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-nuget-locals_1.0.0-1_all.deb
+Size: 3054
+SHA256: 324ea8f7dba55dc2422637c931ac27ed7e3a983c5c8cdd94d19e1c0823e51042
+
+Package: ecosys-nuget-push
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for nuget
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-nuget-push_1.0.0-1_all.deb
+Size: 3048
+SHA256: 9c157f2ad8c16d082b0d29c82128ba9710a92065057e358c79dd9581b771506c
+
+Package: ecosys-nuget-verify
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for nuget
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-nuget-verify_1.0.0-1_all.deb
+Size: 3044
+SHA256: 6ddb25000dd8791c9676db4618378c0601de9a6769c0c607d390866d02319175
+
+Package: ecosys-nuget-sign
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for nuget
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-nuget-sign_1.0.0-1_all.deb
+Size: 3044
+SHA256: 6073834c08e78346ab237ddc8f514709fc8842f2585ac761abd0768f12d7b68b
+
+Package: ecosys-swiftpm-resolve
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for swiftpm
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-swiftpm-resolve_1.0.0-1_all.deb
+Size: 3056
+SHA256: 75a9a24be192c634b7043324bc1768ca2fe620a8e9cd1233d435bbb827695f1c
+
+Package: ecosys-swiftpm-update
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for swiftpm
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-swiftpm-update_1.0.0-1_all.deb
+Size: 3046
+SHA256: 4bfd00622f939be37dc8d52bdc6a77e53c713410a588660c411b7e60c0aedc40
+
+Package: ecosys-swiftpm-show-dependencies
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for swiftpm
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-swiftpm-show-dependencies_1.0.0-1_all.deb
+Size: 3104
+SHA256: a996f37d5ac501b8c3841617114dec64f14c0ed2fc1a397aaf5fd5e379257b1d
+
+Package: ecosys-swiftpm-describe
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for swiftpm
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-swiftpm-describe_1.0.0-1_all.deb
+Size: 3060
+SHA256: ba32dc5e05c1c14b0d3eb806148be1dc3152a053e6f2144ab2f79ca962eb5ffd
+
+Package: ecosys-swiftpm-dump-package
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for swiftpm
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-swiftpm-dump-package_1.0.0-1_all.deb
+Size: 3062
+SHA256: e6d6e3d8a940a7e7e0064e8d4dd14481989137b6942c90813f91bd443da061de
+
+Package: ecosys-swiftpm-clean
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for swiftpm
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-swiftpm-clean_1.0.0-1_all.deb
+Size: 3054
+SHA256: 77186dc3af2014422f21774ccc0ae98f9174bf87c2c7b242d2268184bcf9e060
+
+Package: ecosys-swiftpm-reset
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for swiftpm
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-swiftpm-reset_1.0.0-1_all.deb
+Size: 3052
+SHA256: 80b854f41265590de1e1810edd39eb59d7018d8d965b1dabdb897d05f664f19d
+
+Package: ecosys-swiftpm-edit
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for swiftpm
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-swiftpm-edit_1.0.0-1_all.deb
+Size: 3048
+SHA256: b778695fcfb81456cbcfaa92951e6f0d3a04c4bcf0ec916c997451eef4f5a02e
+
+Package: ecosys-swiftpm-unedit
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for swiftpm
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-swiftpm-unedit_1.0.0-1_all.deb
+Size: 3050
+SHA256: f9938f91493707251fe379a27da51b25e53fe9765209d43c9e16c6daefc2566c
+
+Package: ecosys-swiftpm-compute-checksum
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for swiftpm
+ User-space compiled/language package ecosystems command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-41/pool/main/ecosys-swiftpm-compute-checksum_1.0.0-1_all.deb
+Size: 3100
+SHA256: 03db85312d579260f4ff253d38d5cbdd70d80fdce4a5dae3bf5b94ee8b8ed042
+
+Package: ecosys-foundation-suite
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: ecosys-cargo-install (= 1.0.0-1), ecosys-cargo-uninstall (= 1.0.0-1),
+ ecosys-cargo-search (= 1.0.0-1), ecosys-cargo-list (= 1.0.0-1),
+ ecosys-cargo-update (= 1.0.0-1), ecosys-cargo-tree (= 1.0.0-1),
+ ecosys-cargo-metadata (= 1.0.0-1), ecosys-cargo-vendor (= 1.0.0-1),
+ ecosys-cargo-package (= 1.0.0-1), ecosys-cargo-publish-dryrun (= 1.0.0-1),
+ ecosys-rust-toolchain-install (= 1.0.0-1), ecosys-rust-toolchain-uninstall (= 1.0.0-1),
+ ecosys-rust-toolchain-list (= 1.0.0-1), ecosys-rust-toolchain-use (= 1.0.0-1),
+ ecosys-rust-toolchain-latest (= 1.0.0-1), ecosys-rust-toolchain-which (= 1.0.0-1),
+ ecosys-rust-toolchain-current (= 1.0.0-1), ecosys-rust-toolchain-outdated (= 1.0.0-1),
+ ecosys-rust-toolchain-upgrade (= 1.0.0-1), ecosys-rust-toolchain-doctor (= 1.0.0-1),
+ ecosys-go-install (= 1.0.0-1), ecosys-go-get (= 1.0.0-1), ecosys-go-list (= 1.0.0-1),
+ ecosys-go-env (= 1.0.0-1), ecosys-go-mod-download (= 1.0.0-1),
+ ecosys-go-mod-tidy (= 1.0.0-1), ecosys-go-mod-graph (= 1.0.0-1),
+ ecosys-go-work-sync (= 1.0.0-1), ecosys-go-clean-cache (= 1.0.0-1),
+ ecosys-go-version (= 1.0.0-1), ecosys-gem-install (= 1.0.0-1),
+ ecosys-gem-uninstall (= 1.0.0-1), ecosys-gem-list (= 1.0.0-1),
+ ecosys-gem-search (= 1.0.0-1), ecosys-gem-update (= 1.0.0-1),
+ ecosys-gem-outdated (= 1.0.0-1), ecosys-gem-which (= 1.0.0-1),
+ ecosys-gem-contents (= 1.0.0-1), ecosys-gem-environment (= 1.0.0-1),
+ ecosys-gem-cleanup (= 1.0.0-1), ecosys-bundler-install (= 1.0.0-1),
+ ecosys-bundler-update (= 1.0.0-1), ecosys-bundler-exec (= 1.0.0-1),
+ ecosys-bundler-check (= 1.0.0-1), ecosys-bundler-list (= 1.0.0-1),
+ ecosys-bundler-show (= 1.0.0-1), ecosys-bundler-lock (= 1.0.0-1),
+ ecosys-bundler-config (= 1.0.0-1), ecosys-bundler-cache (= 1.0.0-1),
+ ecosys-bundler-doctor (= 1.0.0-1), ecosys-composer-require (= 1.0.0-1),
+ ecosys-composer-remove (= 1.0.0-1), ecosys-composer-install (= 1.0.0-1),
+ ecosys-composer-update (= 1.0.0-1), ecosys-composer-show (= 1.0.0-1),
+ ecosys-composer-search (= 1.0.0-1), ecosys-composer-outdated (= 1.0.0-1),
+ ecosys-composer-exec (= 1.0.0-1), ecosys-composer-audit (= 1.0.0-1),
+ ecosys-composer-diagnose (= 1.0.0-1), ecosys-luarocks-install (= 1.0.0-1),
+ ecosys-luarocks-remove (= 1.0.0-1), ecosys-luarocks-list (= 1.0.0-1),
+ ecosys-luarocks-search (= 1.0.0-1), ecosys-luarocks-show (= 1.0.0-1),
+ ecosys-luarocks-make (= 1.0.0-1), ecosys-luarocks-build (= 1.0.0-1),
+ ecosys-luarocks-pack (= 1.0.0-1), ecosys-luarocks-purge (= 1.0.0-1),
+ ecosys-luarocks-config (= 1.0.0-1), ecosys-dotnet-tool-install (= 1.0.0-1),
+ ecosys-dotnet-tool-uninstall (= 1.0.0-1), ecosys-dotnet-tool-list (= 1.0.0-1),
+ ecosys-dotnet-tool-update (= 1.0.0-1), ecosys-dotnet-add-package (= 1.0.0-1),
+ ecosys-dotnet-remove-package (= 1.0.0-1), ecosys-dotnet-list-package (= 1.0.0-1),
+ ecosys-dotnet-restore (= 1.0.0-1), ecosys-dotnet-build (= 1.0.0-1),
+ ecosys-dotnet-run (= 1.0.0-1), ecosys-nuget-add-source (= 1.0.0-1),
+ ecosys-nuget-remove-source (= 1.0.0-1), ecosys-nuget-update-source (= 1.0.0-1),
+ ecosys-nuget-enable-source (= 1.0.0-1), ecosys-nuget-disable-source (= 1.0.0-1),
+ ecosys-nuget-list-source (= 1.0.0-1), ecosys-nuget-locals (= 1.0.0-1),
+ ecosys-nuget-push (= 1.0.0-1), ecosys-nuget-verify (= 1.0.0-1),
+ ecosys-nuget-sign (= 1.0.0-1), ecosys-swiftpm-resolve (= 1.0.0-1),
+ ecosys-swiftpm-update (= 1.0.0-1), ecosys-swiftpm-show-dependencies (= 1.0.0-1),
+ ecosys-swiftpm-describe (= 1.0.0-1), ecosys-swiftpm-dump-package (= 1.0.0-1),
+ ecosys-swiftpm-clean (= 1.0.0-1), ecosys-swiftpm-reset (= 1.0.0-1),
+ ecosys-swiftpm-edit (= 1.0.0-1), ecosys-swiftpm-unedit (= 1.0.0-1),
+ ecosys-swiftpm-compute-checksum (= 1.0.0-1)
+Description: Ocean compiled/language package ecosystems foundation suite
+ Meta-package only; installs the complete Ocean foundation capability set.
+Filename: staging/shard-41/pool/main/ecosys-foundation-suite_1.0.0-1_all.deb
+Size: 1164
+SHA256: 9944f7f99c4e94eacaa6f38b7bf3b35ad84345626ff80c5b95ba87150fa7aa1b

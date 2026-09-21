@@ -1,0 +1,725 @@
+{
+  "schemaVersion": 1,
+  "suite": "shard-42",
+  "version": "1.0.0-1",
+  "sourceType": "Ocean-native original source",
+  "prefix": "/data/data/studio.ocean.app/files/usr",
+  "commandPackageCount": 100,
+  "metaPackageCount": 1,
+  "packageCount": 101,
+  "uniquePackageCount": 101,
+  "topic": "JVM/Dart/universal environment managers",
+  "networkAtAptInstall": false,
+  "rootRequired": false,
+  "fallbackManager": "mise",
+  "packages": [
+    {
+      "package": "envhub-maven-dependency-get",
+      "artifact": "envhub-maven-dependency-get_1.0.0-1_all.deb",
+      "bytes": 2946,
+      "sha256": "2be71c585d6f55d503cde89d51d949d1739353de636491bef4901bb30b0f272a",
+      "provider": "maven"
+    },
+    {
+      "package": "envhub-maven-dependency-copy",
+      "artifact": "envhub-maven-dependency-copy_1.0.0-1_all.deb",
+      "bytes": 2952,
+      "sha256": "1b20564cb1a8ab56d4e3d94484b409671b837041bb412cee5c3b0c8120881370",
+      "provider": "maven"
+    },
+    {
+      "package": "envhub-maven-dependency-tree",
+      "artifact": "envhub-maven-dependency-tree_1.0.0-1_all.deb",
+      "bytes": 2950,
+      "sha256": "ffb784c8712519f1f959157230580aade2358b71746d008f7f6825b43f656fff",
+      "provider": "maven"
+    },
+    {
+      "package": "envhub-maven-dependency-list",
+      "artifact": "envhub-maven-dependency-list_1.0.0-1_all.deb",
+      "bytes": 2952,
+      "sha256": "87f1f098aea387b23d2bbfdf58aeb858b84b9697ab6f4d009564472bd958d779",
+      "provider": "maven"
+    },
+    {
+      "package": "envhub-maven-versions-display",
+      "artifact": "envhub-maven-versions-display_1.0.0-1_all.deb",
+      "bytes": 2952,
+      "sha256": "60cd74577f2aa5ae82239b233b3bf4ca0009a3cc825b39c5066c6ee81ed3788d",
+      "provider": "maven"
+    },
+    {
+      "package": "envhub-maven-versions-update",
+      "artifact": "envhub-maven-versions-update_1.0.0-1_all.deb",
+      "bytes": 2952,
+      "sha256": "8b452f32e3ebb76e2bebd607d6edf7033055635011f54e1f82a882c13264244f",
+      "provider": "maven"
+    },
+    {
+      "package": "envhub-maven-wrapper",
+      "artifact": "envhub-maven-wrapper_1.0.0-1_all.deb",
+      "bytes": 2946,
+      "sha256": "e7418c358989effa137de0119b6b8d4f3f259dd9d9ec2b0f9a52e79854196d97",
+      "provider": "maven"
+    },
+    {
+      "package": "envhub-maven-package",
+      "artifact": "envhub-maven-package_1.0.0-1_all.deb",
+      "bytes": 2938,
+      "sha256": "f05753e62d6dfdd7a201e7aaf90c95307998cc6d85721d4bde3e94a50df92abe",
+      "provider": "maven"
+    },
+    {
+      "package": "envhub-maven-test",
+      "artifact": "envhub-maven-test_1.0.0-1_all.deb",
+      "bytes": 2936,
+      "sha256": "d1c3c450e264c753dc42360e561abbf489c4fc4f3986334b66f49f3f7a4bcd3f",
+      "provider": "maven"
+    },
+    {
+      "package": "envhub-maven-exec",
+      "artifact": "envhub-maven-exec_1.0.0-1_all.deb",
+      "bytes": 2936,
+      "sha256": "4ba2095e4953dad3943199c9561223282ee6032a4c0c4b1e1c80581c46f83f2d",
+      "provider": "maven"
+    },
+    {
+      "package": "envhub-gradle-dependencies",
+      "artifact": "envhub-gradle-dependencies_1.0.0-1_all.deb",
+      "bytes": 2944,
+      "sha256": "9de84dce88acca9341cfb211b2988e1858a2a55d40dd1e154b155095b362b17c",
+      "provider": "gradle"
+    },
+    {
+      "package": "envhub-gradle-dependency-insight",
+      "artifact": "envhub-gradle-dependency-insight_1.0.0-1_all.deb",
+      "bytes": 2996,
+      "sha256": "577ec410c95ecd97455c4b7aaa0c4c769a671c523452652eba434aec2c1d4105",
+      "provider": "gradle"
+    },
+    {
+      "package": "envhub-gradle-build",
+      "artifact": "envhub-gradle-build_1.0.0-1_all.deb",
+      "bytes": 2936,
+      "sha256": "54cf0481debf068bdb4acc7b8e67cdac86f068eb5a640e237cfb8e152e5ab49b",
+      "provider": "gradle"
+    },
+    {
+      "package": "envhub-gradle-test",
+      "artifact": "envhub-gradle-test_1.0.0-1_all.deb",
+      "bytes": 2938,
+      "sha256": "297a1359891b1df0305409f3b44557c8fe004652b5c4c9aee7ddc3d1db9c560e",
+      "provider": "gradle"
+    },
+    {
+      "package": "envhub-gradle-tasks",
+      "artifact": "envhub-gradle-tasks_1.0.0-1_all.deb",
+      "bytes": 2936,
+      "sha256": "404afca59e5c7bee6285f497fa276897824e0d1ae1b00c1d9ab53134e86287e3",
+      "provider": "gradle"
+    },
+    {
+      "package": "envhub-gradle-properties",
+      "artifact": "envhub-gradle-properties_1.0.0-1_all.deb",
+      "bytes": 2946,
+      "sha256": "0b2888a62e8fc9d5ef634003291e6cef47438e4d99480f20c8e5bb80be7131ee",
+      "provider": "gradle"
+    },
+    {
+      "package": "envhub-gradle-wrapper",
+      "artifact": "envhub-gradle-wrapper_1.0.0-1_all.deb",
+      "bytes": 2940,
+      "sha256": "68357bac2e41a264ab4bfa93bb72009f7f09e5026dcf54663846eab07d8ddc23",
+      "provider": "gradle"
+    },
+    {
+      "package": "envhub-gradle-projects",
+      "artifact": "envhub-gradle-projects_1.0.0-1_all.deb",
+      "bytes": 2944,
+      "sha256": "db2a90637f1e80cf592902996e1ed072472f48642ccfcc6e00542a4d9988e8e9",
+      "provider": "gradle"
+    },
+    {
+      "package": "envhub-gradle-components",
+      "artifact": "envhub-gradle-components_1.0.0-1_all.deb",
+      "bytes": 2946,
+      "sha256": "ee7900c63a85660a1eadeb1e586d297e875752d1307d5a7b198ba7ade42ce376",
+      "provider": "gradle"
+    },
+    {
+      "package": "envhub-gradle-build-environment",
+      "artifact": "envhub-gradle-build-environment_1.0.0-1_all.deb",
+      "bytes": 2992,
+      "sha256": "8f9bf9ce36ad8bb612cb6469f1cf4f2ca16fec13d2b3ec63aab37cc41e58f7d3",
+      "provider": "gradle"
+    },
+    {
+      "package": "envhub-jbang-run",
+      "artifact": "envhub-jbang-run_1.0.0-1_all.deb",
+      "bytes": 2932,
+      "sha256": "7ff42fe0b2634d1ddce2babc1643c1a8790957929cca7f28054d29ff3ea4dd10",
+      "provider": "jbang"
+    },
+    {
+      "package": "envhub-jbang-app-install",
+      "artifact": "envhub-jbang-app-install_1.0.0-1_all.deb",
+      "bytes": 2948,
+      "sha256": "561da7805f5884e0198843fa0c5c90f1e25b3667313964c6176800ff354c2025",
+      "provider": "jbang"
+    },
+    {
+      "package": "envhub-jbang-app-uninstall",
+      "artifact": "envhub-jbang-app-uninstall_1.0.0-1_all.deb",
+      "bytes": 2948,
+      "sha256": "dff91463a5ee07360ee6e737568b123ad96afb2eff6c8326869c754ba0dfa3c1",
+      "provider": "jbang"
+    },
+    {
+      "package": "envhub-jbang-app-list",
+      "artifact": "envhub-jbang-app-list_1.0.0-1_all.deb",
+      "bytes": 2942,
+      "sha256": "f5a8973d7758d885edd7ec9842b690e4bab17e92a3a46f4b22100b9cd7356f43",
+      "provider": "jbang"
+    },
+    {
+      "package": "envhub-jbang-catalog-list",
+      "artifact": "envhub-jbang-catalog-list_1.0.0-1_all.deb",
+      "bytes": 2950,
+      "sha256": "aec54663483404aaf43a27c5b365b5a11c6e62bc68e08720a5d6f80c936096e0",
+      "provider": "jbang"
+    },
+    {
+      "package": "envhub-jbang-catalog-add",
+      "artifact": "envhub-jbang-catalog-add_1.0.0-1_all.deb",
+      "bytes": 2948,
+      "sha256": "b0829171ba9b64a8c67ae88b5b93fd92ffaad16b09e727edcde9714565597fc4",
+      "provider": "jbang"
+    },
+    {
+      "package": "envhub-jbang-cache-clear",
+      "artifact": "envhub-jbang-cache-clear_1.0.0-1_all.deb",
+      "bytes": 2944,
+      "sha256": "4f55298da4880698ffda9fb5485f1e3eaa0ec11797b17ceef89509f0ceca16eb",
+      "provider": "jbang"
+    },
+    {
+      "package": "envhub-jbang-jdk-list",
+      "artifact": "envhub-jbang-jdk-list_1.0.0-1_all.deb",
+      "bytes": 2940,
+      "sha256": "e103097e8b101ba9dc69c5a203ee51d56e8e3d647cae301fb237aa5ed3a1bae8",
+      "provider": "jbang"
+    },
+    {
+      "package": "envhub-jbang-jdk-install",
+      "artifact": "envhub-jbang-jdk-install_1.0.0-1_all.deb",
+      "bytes": 2948,
+      "sha256": "da5786a28e2d6857ebf31c2e7bdffe8dcee8ed93ef5e25b18358a57a24ad2b79",
+      "provider": "jbang"
+    },
+    {
+      "package": "envhub-jbang-version-update",
+      "artifact": "envhub-jbang-version-update_1.0.0-1_all.deb",
+      "bytes": 2950,
+      "sha256": "82c1e4b46d526d908ef7e5422b605298932e5fb66c12396c4a3abf4399b0940c",
+      "provider": "jbang"
+    },
+    {
+      "package": "envhub-coursier-install",
+      "artifact": "envhub-coursier-install_1.0.0-1_all.deb",
+      "bytes": 2942,
+      "sha256": "597c9b6157a8b21d5282059ddbb6ef3e1bd562a9d15de3df8c2781b550842045",
+      "provider": "coursier"
+    },
+    {
+      "package": "envhub-coursier-uninstall",
+      "artifact": "envhub-coursier-uninstall_1.0.0-1_all.deb",
+      "bytes": 2942,
+      "sha256": "fb17b3759b85ba0aaf0e03f8e09c6a9efdd1706a7db5aeb8a9862f2633705ceb",
+      "provider": "coursier"
+    },
+    {
+      "package": "envhub-coursier-list",
+      "artifact": "envhub-coursier-list_1.0.0-1_all.deb",
+      "bytes": 2936,
+      "sha256": "43a78875a27f465897b3d31f52af052061ebdf4bf1ba51f8c7e25baa45a0a478",
+      "provider": "coursier"
+    },
+    {
+      "package": "envhub-coursier-launch",
+      "artifact": "envhub-coursier-launch_1.0.0-1_all.deb",
+      "bytes": 2940,
+      "sha256": "5ea5c2ff91d91f296f93d7671555bb670b98dd4fae406570b25200a606f0e2d4",
+      "provider": "coursier"
+    },
+    {
+      "package": "envhub-coursier-resolve",
+      "artifact": "envhub-coursier-resolve_1.0.0-1_all.deb",
+      "bytes": 2942,
+      "sha256": "bd1668c8129e2fe04ecb7df832f06a397b168465ad43c6e2263a2255d19c8adc",
+      "provider": "coursier"
+    },
+    {
+      "package": "envhub-coursier-fetch",
+      "artifact": "envhub-coursier-fetch_1.0.0-1_all.deb",
+      "bytes": 2936,
+      "sha256": "5401666f5a9fa9d3c59bc3f31bc17d3cb5c12ea47549855e48ccd276fdf27315",
+      "provider": "coursier"
+    },
+    {
+      "package": "envhub-coursier-search",
+      "artifact": "envhub-coursier-search_1.0.0-1_all.deb",
+      "bytes": 2946,
+      "sha256": "51c9322a457ac7834ea0be056f2dd301549af2f8b345f7ab4dccee532bfc693c",
+      "provider": "coursier"
+    },
+    {
+      "package": "envhub-coursier-java",
+      "artifact": "envhub-coursier-java_1.0.0-1_all.deb",
+      "bytes": 2940,
+      "sha256": "a8ab17a57a0e7aaea5ceeda8c725b4b127d6f804244d80bbd20010105cec5252",
+      "provider": "coursier"
+    },
+    {
+      "package": "envhub-coursier-java-home",
+      "artifact": "envhub-coursier-java-home_1.0.0-1_all.deb",
+      "bytes": 2944,
+      "sha256": "41aea81a18b31853546a4256c7519f9bb59ae81c05f020fe5630a3957d5a55a0",
+      "provider": "coursier"
+    },
+    {
+      "package": "envhub-coursier-setup",
+      "artifact": "envhub-coursier-setup_1.0.0-1_all.deb",
+      "bytes": 2938,
+      "sha256": "0274a4314ae114f8e5cfd1359dccc25432f71fa6b91788c932c52040f7d8cf9c",
+      "provider": "coursier"
+    },
+    {
+      "package": "envhub-dart-pub-add",
+      "artifact": "envhub-dart-pub-add_1.0.0-1_all.deb",
+      "bytes": 2938,
+      "sha256": "e986a7721d4119fd3ef453a51f3b887c59d2e90103dbf26ed1ea3ee725dd7f74",
+      "provider": "dart"
+    },
+    {
+      "package": "envhub-dart-pub-remove",
+      "artifact": "envhub-dart-pub-remove_1.0.0-1_all.deb",
+      "bytes": 2942,
+      "sha256": "38d0f77369574696761f2d3ef5f8fca477088dd06c7bb2611b64c26c2209356e",
+      "provider": "dart"
+    },
+    {
+      "package": "envhub-dart-pub-get",
+      "artifact": "envhub-dart-pub-get_1.0.0-1_all.deb",
+      "bytes": 2938,
+      "sha256": "2963dae43b1cf4362c3441eb78cec1dcac4482c5a962f86b9e82d6e5ebf1dd26",
+      "provider": "dart"
+    },
+    {
+      "package": "envhub-dart-pub-upgrade",
+      "artifact": "envhub-dart-pub-upgrade_1.0.0-1_all.deb",
+      "bytes": 2948,
+      "sha256": "44f18f9e932318156e6cde1e77fc818388236631c22212174c09d8899994ba7d",
+      "provider": "dart"
+    },
+    {
+      "package": "envhub-dart-pub-outdated",
+      "artifact": "envhub-dart-pub-outdated_1.0.0-1_all.deb",
+      "bytes": 2946,
+      "sha256": "c668256b9df8349117c8346f0ca71352716eccd8a5c58f107743ade98699b4ee",
+      "provider": "dart"
+    },
+    {
+      "package": "envhub-dart-pub-cache",
+      "artifact": "envhub-dart-pub-cache_1.0.0-1_all.deb",
+      "bytes": 2940,
+      "sha256": "d399204acce374e70ad59f6beabc71682736201e06fc916fea1b583ad128a7f7",
+      "provider": "dart"
+    },
+    {
+      "package": "envhub-dart-pub-global-activate",
+      "artifact": "envhub-dart-pub-global-activate_1.0.0-1_all.deb",
+      "bytes": 2994,
+      "sha256": "3f7860b3a3740b41686b33e90d30d5dc1557267bf2c6e071d8a8f903365014d2",
+      "provider": "dart"
+    },
+    {
+      "package": "envhub-dart-pub-global-deactivate",
+      "artifact": "envhub-dart-pub-global-deactivate_1.0.0-1_all.deb",
+      "bytes": 2996,
+      "sha256": "93cc59aec4dc82d0c59376d4dd6ca03d7767b5a3da352b1031dee04b92b14d10",
+      "provider": "dart"
+    },
+    {
+      "package": "envhub-dart-run",
+      "artifact": "envhub-dart-run_1.0.0-1_all.deb",
+      "bytes": 2930,
+      "sha256": "2f9d79da9fb046000b5b6feab210b126ccb4e6b5f6fb1088a87bd41abe183077",
+      "provider": "dart"
+    },
+    {
+      "package": "envhub-dart-compile",
+      "artifact": "envhub-dart-compile_1.0.0-1_all.deb",
+      "bytes": 2936,
+      "sha256": "4a04ce7f212c03ee78ad63b38c4f081052623c88998560c762bfbc8570ea1161",
+      "provider": "dart"
+    },
+    {
+      "package": "envhub-pixi-add",
+      "artifact": "envhub-pixi-add_1.0.0-1_all.deb",
+      "bytes": 2928,
+      "sha256": "54aaf3b365b7daff35aee69f4be7103cf0af29c1418f5590ae30a5f8dedee182",
+      "provider": "pixi"
+    },
+    {
+      "package": "envhub-pixi-remove",
+      "artifact": "envhub-pixi-remove_1.0.0-1_all.deb",
+      "bytes": 2930,
+      "sha256": "09cf700e6e060bd424f4c6cd3f458882bf18fad84b1253795d6d81211a768b82",
+      "provider": "pixi"
+    },
+    {
+      "package": "envhub-pixi-install",
+      "artifact": "envhub-pixi-install_1.0.0-1_all.deb",
+      "bytes": 2936,
+      "sha256": "bb4576e293dd89b008f34d47c55d58350afd961c6651edaccfc2987e2581fba4",
+      "provider": "pixi"
+    },
+    {
+      "package": "envhub-pixi-update",
+      "artifact": "envhub-pixi-update_1.0.0-1_all.deb",
+      "bytes": 2934,
+      "sha256": "39d006574654c5d91de6605168a09a581a92f5a13c539a2120922e385b674998",
+      "provider": "pixi"
+    },
+    {
+      "package": "envhub-pixi-list",
+      "artifact": "envhub-pixi-list_1.0.0-1_all.deb",
+      "bytes": 2930,
+      "sha256": "a65fc1719641808fdfb318e100671cc768b78a2a413debc9a5d8023622c547e2",
+      "provider": "pixi"
+    },
+    {
+      "package": "envhub-pixi-run",
+      "artifact": "envhub-pixi-run_1.0.0-1_all.deb",
+      "bytes": 2922,
+      "sha256": "80475ecdac8baf1b83857acfd7f3f5157f8e75eec5f87a9737dcfa82b7edca0b",
+      "provider": "pixi"
+    },
+    {
+      "package": "envhub-pixi-global-install",
+      "artifact": "envhub-pixi-global-install_1.0.0-1_all.deb",
+      "bytes": 2940,
+      "sha256": "b8ca2b28aeaab4982c29252aef75d0ea31c70fd12e7b1cee92187607b61d11f9",
+      "provider": "pixi"
+    },
+    {
+      "package": "envhub-pixi-global-remove",
+      "artifact": "envhub-pixi-global-remove_1.0.0-1_all.deb",
+      "bytes": 2946,
+      "sha256": "25cb17725d69a9fe35cf1062fc1378557486623f39ccaee9dab8a6586c8e4186",
+      "provider": "pixi"
+    },
+    {
+      "package": "envhub-pixi-global-list",
+      "artifact": "envhub-pixi-global-list_1.0.0-1_all.deb",
+      "bytes": 2948,
+      "sha256": "836828b7940d5bddac97aed8b55ddbbaab883a31e7a798153e9d913b98ea61f2",
+      "provider": "pixi"
+    },
+    {
+      "package": "envhub-pixi-search",
+      "artifact": "envhub-pixi-search_1.0.0-1_all.deb",
+      "bytes": 2936,
+      "sha256": "f29e0c7bdb4b2a88746716cd9e8b73c5e48f5037cd35f6655a6f043452141eb5",
+      "provider": "pixi"
+    },
+    {
+      "package": "envhub-nix-profile-install",
+      "artifact": "envhub-nix-profile-install_1.0.0-1_all.deb",
+      "bytes": 2944,
+      "sha256": "67d9c4cb11293b32f6959f669927bfa7c8d6d0c733c8b9cf35c442f553a79eb2",
+      "provider": "nix"
+    },
+    {
+      "package": "envhub-nix-profile-remove",
+      "artifact": "envhub-nix-profile-remove_1.0.0-1_all.deb",
+      "bytes": 2948,
+      "sha256": "5b404874f303d10c3d1e9fbbb5aad0f6d3d36ad42b7e86d5741e66392bfef532",
+      "provider": "nix"
+    },
+    {
+      "package": "envhub-nix-profile-list",
+      "artifact": "envhub-nix-profile-list_1.0.0-1_all.deb",
+      "bytes": 2940,
+      "sha256": "f4a838f0f69d2046da17af1c88f467eead0fd73d46ffa3b8c83ca42c33b1c8cb",
+      "provider": "nix"
+    },
+    {
+      "package": "envhub-nix-search",
+      "artifact": "envhub-nix-search_1.0.0-1_all.deb",
+      "bytes": 2936,
+      "sha256": "279c396bd7797f761153a3f42146c6b5f7b5920ab32e8b0b3c14bc7aced8be11",
+      "provider": "nix"
+    },
+    {
+      "package": "envhub-nix-run",
+      "artifact": "envhub-nix-run_1.0.0-1_all.deb",
+      "bytes": 2932,
+      "sha256": "fb5b813efe42c3beb7e6a09e734e2f9adbcb5435f650249aff8675c3060a0532",
+      "provider": "nix"
+    },
+    {
+      "package": "envhub-nix-shell",
+      "artifact": "envhub-nix-shell_1.0.0-1_all.deb",
+      "bytes": 2936,
+      "sha256": "932a03308ac9cada1ae9bb5e52ec1a0d8e0081463394fac43fb9ba5a42526b2e",
+      "provider": "nix"
+    },
+    {
+      "package": "envhub-nix-develop",
+      "artifact": "envhub-nix-develop_1.0.0-1_all.deb",
+      "bytes": 2940,
+      "sha256": "eb152dce8980e92a03a37c150805f2113af231f6c1cdcc4fe7d001a02ef4826e",
+      "provider": "nix"
+    },
+    {
+      "package": "envhub-nix-flake-show",
+      "artifact": "envhub-nix-flake-show_1.0.0-1_all.deb",
+      "bytes": 2942,
+      "sha256": "f4eaf4371fdf8049fa76abb144297889813562429d0231b9af6193b340be49fd",
+      "provider": "nix"
+    },
+    {
+      "package": "envhub-nix-flake-update",
+      "artifact": "envhub-nix-flake-update_1.0.0-1_all.deb",
+      "bytes": 2944,
+      "sha256": "cbde65a05f6933b1b255217bb1cc84162ad96e9e7033590a86a04ea1987a5dd8",
+      "provider": "nix"
+    },
+    {
+      "package": "envhub-nix-store-gc",
+      "artifact": "envhub-nix-store-gc_1.0.0-1_all.deb",
+      "bytes": 2936,
+      "sha256": "a6abce1b117d62f0f34147aa93b38ecb8f66d5f195659d37e6ab3691fddd2080",
+      "provider": "nix"
+    },
+    {
+      "package": "envhub-aqua-init",
+      "artifact": "envhub-aqua-init_1.0.0-1_all.deb",
+      "bytes": 2928,
+      "sha256": "b8f50b5960fd910b2a67477ccc7c0259d5f416a799d1cdcb3ffc1ca57d274aa7",
+      "provider": "aqua"
+    },
+    {
+      "package": "envhub-aqua-install",
+      "artifact": "envhub-aqua-install_1.0.0-1_all.deb",
+      "bytes": 2932,
+      "sha256": "46776f696df975cb7a262cfbf7b13d18ca6525b8bca1a4252f98b068d8659e33",
+      "provider": "aqua"
+    },
+    {
+      "package": "envhub-aqua-generate",
+      "artifact": "envhub-aqua-generate_1.0.0-1_all.deb",
+      "bytes": 2942,
+      "sha256": "a60ef81bdddb9645306238c3ea5df1f57d975ae9faaee8934df9899d16d0d824",
+      "provider": "aqua"
+    },
+    {
+      "package": "envhub-aqua-update",
+      "artifact": "envhub-aqua-update_1.0.0-1_all.deb",
+      "bytes": 2936,
+      "sha256": "1c6bc845d84cca2c1f1f00cea6903936f9a9ff7041b8ef354dca25d721d74638",
+      "provider": "aqua"
+    },
+    {
+      "package": "envhub-aqua-remove",
+      "artifact": "envhub-aqua-remove_1.0.0-1_all.deb",
+      "bytes": 2936,
+      "sha256": "4d77e90b830a0993cef204f7e58419234eae1c1bd4316b7ba8bc8b8120575637",
+      "provider": "aqua"
+    },
+    {
+      "package": "envhub-aqua-which",
+      "artifact": "envhub-aqua-which_1.0.0-1_all.deb",
+      "bytes": 2930,
+      "sha256": "c8a9738759877760c8bb464bad058db7086b045929c7b2fbaecba692bf408b9d",
+      "provider": "aqua"
+    },
+    {
+      "package": "envhub-aqua-info",
+      "artifact": "envhub-aqua-info_1.0.0-1_all.deb",
+      "bytes": 2928,
+      "sha256": "cfe8fd4e3ad5852a6982b605040355f0f410c577df63030d3dc12d8b043b1ddc",
+      "provider": "aqua"
+    },
+    {
+      "package": "envhub-aqua-vacuum",
+      "artifact": "envhub-aqua-vacuum_1.0.0-1_all.deb",
+      "bytes": 2936,
+      "sha256": "17cba742a492961272af1ff2c8436a5acffe4d4a8bfae775c66567d1205b6a24",
+      "provider": "aqua"
+    },
+    {
+      "package": "envhub-aqua-update-checksum",
+      "artifact": "envhub-aqua-update-checksum_1.0.0-1_all.deb",
+      "bytes": 2942,
+      "sha256": "05d5a6bb14d9a61c1fdd2125bca7a90d7e7c30127b15766a6d6a6ff085a67d06",
+      "provider": "aqua"
+    },
+    {
+      "package": "envhub-aqua-update-aqua",
+      "artifact": "envhub-aqua-update-aqua_1.0.0-1_all.deb",
+      "bytes": 2940,
+      "sha256": "af19bd8b2293ddce51e6e7a6202e6f4b0184cee49a2cbe00443bda78879ea7f4",
+      "provider": "aqua"
+    },
+    {
+      "package": "envhub-mise-install",
+      "artifact": "envhub-mise-install_1.0.0-1_all.deb",
+      "bytes": 2926,
+      "sha256": "d2224fe5de5c910999576f5bfc0e6dc07b863895fcdf53594efbf9a975e1c312",
+      "provider": "mise"
+    },
+    {
+      "package": "envhub-mise-use",
+      "artifact": "envhub-mise-use_1.0.0-1_all.deb",
+      "bytes": 2920,
+      "sha256": "943a71b916a67db257656c523e65113e46763074cacc17eccc7aabc16fe4212c",
+      "provider": "mise"
+    },
+    {
+      "package": "envhub-mise-exec",
+      "artifact": "envhub-mise-exec_1.0.0-1_all.deb",
+      "bytes": 2924,
+      "sha256": "a4aed3696b98ce6039a0784b9e323818bf2cc7fdb65ffb7a7bd5d7b5ea3efde8",
+      "provider": "mise"
+    },
+    {
+      "package": "envhub-mise-list",
+      "artifact": "envhub-mise-list_1.0.0-1_all.deb",
+      "bytes": 2922,
+      "sha256": "dae61e222683805093f7bd15df08067c6abcff76531e32087873fdbb6b474125",
+      "provider": "mise"
+    },
+    {
+      "package": "envhub-mise-latest",
+      "artifact": "envhub-mise-latest_1.0.0-1_all.deb",
+      "bytes": 2930,
+      "sha256": "a78d4cfcf39101087d9b4643fb7358e1844a1f935652fd751f6f57b7e59e9cf4",
+      "provider": "mise"
+    },
+    {
+      "package": "envhub-mise-outdated",
+      "artifact": "envhub-mise-outdated_1.0.0-1_all.deb",
+      "bytes": 2932,
+      "sha256": "3e61904d3bf015ee823716b4761d2e51cc7b24979cb557d090d31f29f726ad19",
+      "provider": "mise"
+    },
+    {
+      "package": "envhub-mise-upgrade",
+      "artifact": "envhub-mise-upgrade_1.0.0-1_all.deb",
+      "bytes": 2932,
+      "sha256": "a2c9f4183d0d9319641ddafac0be14495ebf0ef0de69dc7eced17249f03ab793",
+      "provider": "mise"
+    },
+    {
+      "package": "envhub-mise-uninstall",
+      "artifact": "envhub-mise-uninstall_1.0.0-1_all.deb",
+      "bytes": 2928,
+      "sha256": "11f5a1e091fefcc9617f826d9c40c9da532029ec1f2306ed6b6124ad5eb73167",
+      "provider": "mise"
+    },
+    {
+      "package": "envhub-mise-which",
+      "artifact": "envhub-mise-which_1.0.0-1_all.deb",
+      "bytes": 2932,
+      "sha256": "ba655eb7899602e46d65fe7a4201bd7d5eb2192a718c222d3a90e45550500dab",
+      "provider": "mise"
+    },
+    {
+      "package": "envhub-mise-doctor",
+      "artifact": "envhub-mise-doctor_1.0.0-1_all.deb",
+      "bytes": 2930,
+      "sha256": "24e0dcba31a6a8f2afb8878b4152df49eed53b521158b8cb59702faf860601e3",
+      "provider": "mise"
+    },
+    {
+      "package": "envhub-asdf-plugin-add",
+      "artifact": "envhub-asdf-plugin-add_1.0.0-1_all.deb",
+      "bytes": 2944,
+      "sha256": "3c8a8df152c43c1a278ee966573e86bed668f632718aa7d29e4157d6be2a759a",
+      "provider": "asdf"
+    },
+    {
+      "package": "envhub-asdf-plugin-list",
+      "artifact": "envhub-asdf-plugin-list_1.0.0-1_all.deb",
+      "bytes": 2944,
+      "sha256": "086941205b4ab386c636d60aed658a2db6175739f31417fe7481ded50b434d0a",
+      "provider": "asdf"
+    },
+    {
+      "package": "envhub-asdf-plugin-update",
+      "artifact": "envhub-asdf-plugin-update_1.0.0-1_all.deb",
+      "bytes": 2942,
+      "sha256": "36c426a488e3e9c1dc5286fa643910846ccec2458da5063aac15885ed8d8e66c",
+      "provider": "asdf"
+    },
+    {
+      "package": "envhub-asdf-install",
+      "artifact": "envhub-asdf-install_1.0.0-1_all.deb",
+      "bytes": 2932,
+      "sha256": "a715ee21be891e594915f2d3dab83a7d77e678eeebd48c7cbf04c4517884ea33",
+      "provider": "asdf"
+    },
+    {
+      "package": "envhub-asdf-uninstall",
+      "artifact": "envhub-asdf-uninstall_1.0.0-1_all.deb",
+      "bytes": 2938,
+      "sha256": "bd995748c96c5c57c87ba90f49d52d904c31816e8a913a07b2cdd45be5630449",
+      "provider": "asdf"
+    },
+    {
+      "package": "envhub-asdf-set",
+      "artifact": "envhub-asdf-set_1.0.0-1_all.deb",
+      "bytes": 2932,
+      "sha256": "49e1e175ec57c94f1a9dca9cbf01092c0f697aa3d4f548cb5b03504c8b82eb38",
+      "provider": "asdf"
+    },
+    {
+      "package": "envhub-asdf-current",
+      "artifact": "envhub-asdf-current_1.0.0-1_all.deb",
+      "bytes": 2938,
+      "sha256": "1145efd32695a96077479eb36e4b3d298e3c8677e25ae8d7a12377514cfc7c36",
+      "provider": "asdf"
+    },
+    {
+      "package": "envhub-asdf-list",
+      "artifact": "envhub-asdf-list_1.0.0-1_all.deb",
+      "bytes": 2932,
+      "sha256": "1e821523aad1d56d309affd0db6f65cf02b8fa42ccc62cf01a4f30c810970faa",
+      "provider": "asdf"
+    },
+    {
+      "package": "envhub-asdf-latest",
+      "artifact": "envhub-asdf-latest_1.0.0-1_all.deb",
+      "bytes": 2938,
+      "sha256": "24f08386db7cc31120738138d057c3be9a133cdc54ced6bcc325362845849736",
+      "provider": "asdf"
+    },
+    {
+      "package": "envhub-asdf-exec",
+      "artifact": "envhub-asdf-exec_1.0.0-1_all.deb",
+      "bytes": 2932,
+      "sha256": "8fce4edfb5ab7bdc746f92e403398205a90451af1dd63d81f22f6b6ef7038388",
+      "provider": "asdf"
+    },
+    {
+      "package": "envhub-foundation-suite",
+      "artifact": "envhub-foundation-suite_1.0.0-1_all.deb",
+      "bytes": 1174,
+      "sha256": "4d83c0a75821dd2d3752da23aeac7239be236410366d3b3d77317fe7cfb6d91f",
+      "provider": "meta"
+    }
+  ],
+  "promotion": "staging-only until APT promotion/signing"
+}

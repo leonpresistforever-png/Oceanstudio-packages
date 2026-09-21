@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "suite": "foundation-superpack",
+  "version": "1.0.0-1",
+  "sourceType": "Ocean-native meta-package",
+  "prefix": "/data/data/studio.ocean.app/files/usr",
+  "packageCount": 1,
+  "uniquePackageCount": 1,
+  "dependsOnSuites": [
+    "forge-foundation-suite",
+    "ecosys-foundation-suite",
+    "envhub-foundation-suite"
+  ],
+  "totalFoundationCommands": 300,
+  "totalNewPackages": 304,
+  "networkAtAptInstall": false,
+  "rootRequired": false,
+  "packages": [
+    {
+      "package": "ocean-foundation-superpack",
+      "artifact": "ocean-foundation-superpack_1.0.0-1_all.deb",
+      "bytes": 600,
+      "sha256": "48bdd9f95373619683ad11ab019fd68e1a93db2a446a139b995122bc68ca38c5",
+      "provider": "meta"
+    }
+  ],
+  "promotion": "staging-only until APT promotion/signing"
+}

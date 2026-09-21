@@ -1,0 +1,725 @@
+{
+  "schemaVersion": 1,
+  "suite": "shard-40",
+  "version": "1.0.0-1",
+  "sourceType": "Ocean-native original source",
+  "prefix": "/data/data/studio.ocean.app/files/usr",
+  "commandPackageCount": 100,
+  "metaPackageCount": 1,
+  "packageCount": 101,
+  "uniquePackageCount": 101,
+  "topic": "Python/JavaScript package ecosystems",
+  "networkAtAptInstall": false,
+  "rootRequired": false,
+  "fallbackManager": "mise",
+  "packages": [
+    {
+      "package": "forge-pip-install",
+      "artifact": "forge-pip-install_1.0.0-1_all.deb",
+      "bytes": 2694,
+      "sha256": "6b1ee1b503b6eb9649b100205c4ec4463214da07dd1cf27db91da2e4bc724091",
+      "provider": "pip"
+    },
+    {
+      "package": "forge-pip-uninstall",
+      "artifact": "forge-pip-uninstall_1.0.0-1_all.deb",
+      "bytes": 2696,
+      "sha256": "19f831fbd36a216bd77e6fd10775792b033dc6f211d1c9aea97e3fa8e3096417",
+      "provider": "pip"
+    },
+    {
+      "package": "forge-pip-list",
+      "artifact": "forge-pip-list_1.0.0-1_all.deb",
+      "bytes": 2698,
+      "sha256": "85f0383096a9ca439965849acc7ad27dd8a3b2d47ff62956107c915e7567a5e0",
+      "provider": "pip"
+    },
+    {
+      "package": "forge-pip-show",
+      "artifact": "forge-pip-show_1.0.0-1_all.deb",
+      "bytes": 2696,
+      "sha256": "179a5ccdc414cd4530267ff03e4f2cba12a46bfa15dab81845466c089b0a7275",
+      "provider": "pip"
+    },
+    {
+      "package": "forge-pip-index-versions",
+      "artifact": "forge-pip-index-versions_1.0.0-1_all.deb",
+      "bytes": 2704,
+      "sha256": "cb360b71614429642c07051322a0002191fea19c1fac46cbff5a23a2cb2d7abe",
+      "provider": "pip"
+    },
+    {
+      "package": "forge-pip-freeze",
+      "artifact": "forge-pip-freeze_1.0.0-1_all.deb",
+      "bytes": 2696,
+      "sha256": "5c2154be3948748f9f39d30086727a9cc969c40931c756c96c735faacf38c701",
+      "provider": "pip"
+    },
+    {
+      "package": "forge-pip-check",
+      "artifact": "forge-pip-check_1.0.0-1_all.deb",
+      "bytes": 2696,
+      "sha256": "a2e187b9083cc96b769e4eaba34a95a4cef75a144720a2f7476afe693f5be42f",
+      "provider": "pip"
+    },
+    {
+      "package": "forge-pip-download",
+      "artifact": "forge-pip-download_1.0.0-1_all.deb",
+      "bytes": 2700,
+      "sha256": "0aa93dc7aed3e5b534236f5f0c00b8d3f75f400b43acada89961d80c494cf404",
+      "provider": "pip"
+    },
+    {
+      "package": "forge-pip-wheel",
+      "artifact": "forge-pip-wheel_1.0.0-1_all.deb",
+      "bytes": 2694,
+      "sha256": "a42a90c3cb7218deee12ba3ced92f41bd5dc96a8d1e4a080c62e83e6eb5116b3",
+      "provider": "pip"
+    },
+    {
+      "package": "forge-pip-cache",
+      "artifact": "forge-pip-cache_1.0.0-1_all.deb",
+      "bytes": 2696,
+      "sha256": "6f03cf28f4529397aff0e75a379789d3853fa786164a37810e6cb4abec64fb1c",
+      "provider": "pip"
+    },
+    {
+      "package": "forge-uv-tool-install",
+      "artifact": "forge-uv-tool-install_1.0.0-1_all.deb",
+      "bytes": 2694,
+      "sha256": "5c4d049a148e50644f658e11c8be8cf060505b5e5ee7436e8a7e059ef4f53a85",
+      "provider": "uv"
+    },
+    {
+      "package": "forge-uv-tool-uninstall",
+      "artifact": "forge-uv-tool-uninstall_1.0.0-1_all.deb",
+      "bytes": 2700,
+      "sha256": "e0453b944ee1fc0a7bf7988253620d6aa896829903a48b2c22da69ed40a01362",
+      "provider": "uv"
+    },
+    {
+      "package": "forge-uv-tool-list",
+      "artifact": "forge-uv-tool-list_1.0.0-1_all.deb",
+      "bytes": 2696,
+      "sha256": "bb97873100213a3152498eb7dd5d1c58e2de54dd63562626d77e85c771f3d3df",
+      "provider": "uv"
+    },
+    {
+      "package": "forge-uv-python-install",
+      "artifact": "forge-uv-python-install_1.0.0-1_all.deb",
+      "bytes": 2698,
+      "sha256": "bfd92346a78a5fc9bfdad7f883bf90e597dce744e64439a14bcd0366b091078e",
+      "provider": "uv"
+    },
+    {
+      "package": "forge-uv-python-list",
+      "artifact": "forge-uv-python-list_1.0.0-1_all.deb",
+      "bytes": 2696,
+      "sha256": "3bff362f00392e2ab143cb9b692b85f2dc5ff201700b09afdc8ae37a8df6f206",
+      "provider": "uv"
+    },
+    {
+      "package": "forge-uv-pip-install",
+      "artifact": "forge-uv-pip-install_1.0.0-1_all.deb",
+      "bytes": 2696,
+      "sha256": "8b7926a36214ea1f66b329f79f700e888b729db5a3db8856f0d1c44d8097b88b",
+      "provider": "uv"
+    },
+    {
+      "package": "forge-uv-pip-list",
+      "artifact": "forge-uv-pip-list_1.0.0-1_all.deb",
+      "bytes": 2692,
+      "sha256": "0aa3366cb21a0c4e2645a803554a1d759562ff9e53e308c361d732a38c4e7908",
+      "provider": "uv"
+    },
+    {
+      "package": "forge-uv-run",
+      "artifact": "forge-uv-run_1.0.0-1_all.deb",
+      "bytes": 2688,
+      "sha256": "d89dc014276a16756869bc7d6a52ac1ab7eae52ea5b2618e08926fc61c9c2ddb",
+      "provider": "uv"
+    },
+    {
+      "package": "forge-uv-sync",
+      "artifact": "forge-uv-sync_1.0.0-1_all.deb",
+      "bytes": 2686,
+      "sha256": "284efbb733f11643dda823979f25c11d9d046e16f508d6c36bcbf73b275b6e91",
+      "provider": "uv"
+    },
+    {
+      "package": "forge-uv-cache",
+      "artifact": "forge-uv-cache_1.0.0-1_all.deb",
+      "bytes": 2686,
+      "sha256": "b4a27aeb1b458b895e2dcd590a964944908cc9280c2af89d2d1e35ccbfabe24e",
+      "provider": "uv"
+    },
+    {
+      "package": "forge-pipx-install",
+      "artifact": "forge-pipx-install_1.0.0-1_all.deb",
+      "bytes": 2698,
+      "sha256": "0f8177a44d9fb1835679d6ed1218e8f63ed3595daa0735c315d9f2181908e57b",
+      "provider": "pipx"
+    },
+    {
+      "package": "forge-pipx-uninstall",
+      "artifact": "forge-pipx-uninstall_1.0.0-1_all.deb",
+      "bytes": 2700,
+      "sha256": "0583bca08f6d289e4051286bc347c25f80d5bbd2378209799a3ee87ce74db893",
+      "provider": "pipx"
+    },
+    {
+      "package": "forge-pipx-list",
+      "artifact": "forge-pipx-list_1.0.0-1_all.deb",
+      "bytes": 2696,
+      "sha256": "bc534b6dc6f47647246284a5f70027606a20744d055f1b84965c8180ba9d0b17",
+      "provider": "pipx"
+    },
+    {
+      "package": "forge-pipx-run",
+      "artifact": "forge-pipx-run_1.0.0-1_all.deb",
+      "bytes": 2694,
+      "sha256": "c530652a067e074b57cbbe08b72bf6910c5dad8eeb44c73824ac7f8e1d656afb",
+      "provider": "pipx"
+    },
+    {
+      "package": "forge-pipx-upgrade",
+      "artifact": "forge-pipx-upgrade_1.0.0-1_all.deb",
+      "bytes": 2700,
+      "sha256": "67388d0fc17b86c6263480e867bddb3bdff92213a331d93e33392cd897f5d4d8",
+      "provider": "pipx"
+    },
+    {
+      "package": "forge-pipx-upgrade-all",
+      "artifact": "forge-pipx-upgrade-all_1.0.0-1_all.deb",
+      "bytes": 2708,
+      "sha256": "1f0b5d4789c0f88b7ac74997fd63aa4e7c0181631b5f953e642174a5f521bb65",
+      "provider": "pipx"
+    },
+    {
+      "package": "forge-pipx-inject",
+      "artifact": "forge-pipx-inject_1.0.0-1_all.deb",
+      "bytes": 2694,
+      "sha256": "da95c720e97694f8f4bbb0ecd8cb8e1fd37a2a5c9278ecbf97fe201b0e2e9e9b",
+      "provider": "pipx"
+    },
+    {
+      "package": "forge-pipx-uninject",
+      "artifact": "forge-pipx-uninject_1.0.0-1_all.deb",
+      "bytes": 2702,
+      "sha256": "1ad1a8877b26e03385ebf7a8d0603007a5895f317525d2ad96af1f538f4016e6",
+      "provider": "pipx"
+    },
+    {
+      "package": "forge-pipx-reinstall",
+      "artifact": "forge-pipx-reinstall_1.0.0-1_all.deb",
+      "bytes": 2700,
+      "sha256": "191dd2cb1d29b4b8baf951b749c7240618eb968db700357332b698a0d75ed932",
+      "provider": "pipx"
+    },
+    {
+      "package": "forge-pipx-ensurepath",
+      "artifact": "forge-pipx-ensurepath_1.0.0-1_all.deb",
+      "bytes": 2698,
+      "sha256": "87e6f8fab3e98200c73f6447ed45d44452145d8a1a9de5bf01b63939dc037659",
+      "provider": "pipx"
+    },
+    {
+      "package": "forge-poetry-add",
+      "artifact": "forge-poetry-add_1.0.0-1_all.deb",
+      "bytes": 2698,
+      "sha256": "f339bc507b2f75fb57dcbe936a4f8dc051a3978ea6bab0d9c68c65f277afc7b8",
+      "provider": "poetry"
+    },
+    {
+      "package": "forge-poetry-remove",
+      "artifact": "forge-poetry-remove_1.0.0-1_all.deb",
+      "bytes": 2702,
+      "sha256": "65ad5e742b151ef34c07d4158fa4fe6246b086538b5fc6ca4d5372f8ef96a9cd",
+      "provider": "poetry"
+    },
+    {
+      "package": "forge-poetry-install",
+      "artifact": "forge-poetry-install_1.0.0-1_all.deb",
+      "bytes": 2698,
+      "sha256": "a945725836d411d1326000c79b91afaa20a82fb1e43e7349111ed3390db182f8",
+      "provider": "poetry"
+    },
+    {
+      "package": "forge-poetry-update",
+      "artifact": "forge-poetry-update_1.0.0-1_all.deb",
+      "bytes": 2702,
+      "sha256": "40bf503b30c61205b285cf2a5a82853dcc84de709a64a23aa76c11a28f03786e",
+      "provider": "poetry"
+    },
+    {
+      "package": "forge-poetry-show",
+      "artifact": "forge-poetry-show_1.0.0-1_all.deb",
+      "bytes": 2700,
+      "sha256": "d521bdb0071e7cb0ea6b5f048ed3651be254c1aa309aba5a3adc8309a45fd131",
+      "provider": "poetry"
+    },
+    {
+      "package": "forge-poetry-run",
+      "artifact": "forge-poetry-run_1.0.0-1_all.deb",
+      "bytes": 2692,
+      "sha256": "e8564cc29bd16c514397b78c0def6c10613690e7ab805156842267da7a878963",
+      "provider": "poetry"
+    },
+    {
+      "package": "forge-poetry-env-info",
+      "artifact": "forge-poetry-env-info_1.0.0-1_all.deb",
+      "bytes": 2700,
+      "sha256": "661003d5e490680b1752b03b735f3e4e125885b3decefcf81000b0700e41004a",
+      "provider": "poetry"
+    },
+    {
+      "package": "forge-poetry-lock",
+      "artifact": "forge-poetry-lock_1.0.0-1_all.deb",
+      "bytes": 2698,
+      "sha256": "5a267b89015823c6e2b87913b39dc32b1aa9d1a7af55ebeab9d2c37eee5be511",
+      "provider": "poetry"
+    },
+    {
+      "package": "forge-poetry-build",
+      "artifact": "forge-poetry-build_1.0.0-1_all.deb",
+      "bytes": 2702,
+      "sha256": "9ddda4eb7f76f493e71ce0782ee8297d3eb41f58aff6edc3f3a87adb72399827",
+      "provider": "poetry"
+    },
+    {
+      "package": "forge-poetry-check",
+      "artifact": "forge-poetry-check_1.0.0-1_all.deb",
+      "bytes": 2700,
+      "sha256": "60873d8d1507bf92d0b3168c4d5f48050a0f2c102327fa285dfcb5db0c9678ad",
+      "provider": "poetry"
+    },
+    {
+      "package": "forge-pdm-add",
+      "artifact": "forge-pdm-add_1.0.0-1_all.deb",
+      "bytes": 2694,
+      "sha256": "64c84dfaa8f70683ee2b024bfcfd9620ad54d053bc9f113b0de79b860fce8fc9",
+      "provider": "pdm"
+    },
+    {
+      "package": "forge-pdm-remove",
+      "artifact": "forge-pdm-remove_1.0.0-1_all.deb",
+      "bytes": 2700,
+      "sha256": "95a18921f010c264d357caddd59517f2eb95113173fdb515db36b6c0c42db67e",
+      "provider": "pdm"
+    },
+    {
+      "package": "forge-pdm-install",
+      "artifact": "forge-pdm-install_1.0.0-1_all.deb",
+      "bytes": 2698,
+      "sha256": "be2a4aa74ee5ef3daa46a9fdd7198b3cf2310406dd2a8081619b109c51efd10f",
+      "provider": "pdm"
+    },
+    {
+      "package": "forge-pdm-update",
+      "artifact": "forge-pdm-update_1.0.0-1_all.deb",
+      "bytes": 2696,
+      "sha256": "55037423bd0a569c9cb71057cafd18bb49a4c32361a93d8f29d5db1d71bed541",
+      "provider": "pdm"
+    },
+    {
+      "package": "forge-pdm-list",
+      "artifact": "forge-pdm-list_1.0.0-1_all.deb",
+      "bytes": 2696,
+      "sha256": "3d49e4b1f69a26e3589deddd0882fc50a12f6af55463b7f2bebe7e17a4fe417a",
+      "provider": "pdm"
+    },
+    {
+      "package": "forge-pdm-run",
+      "artifact": "forge-pdm-run_1.0.0-1_all.deb",
+      "bytes": 2694,
+      "sha256": "bf88bcb51a8d23c2967389fdb2579fe02f65d0cef42ea47b0b14ee43455ab1fb",
+      "provider": "pdm"
+    },
+    {
+      "package": "forge-pdm-lock",
+      "artifact": "forge-pdm-lock_1.0.0-1_all.deb",
+      "bytes": 2700,
+      "sha256": "cad12115d0f29848abbdc4bc7b8b0c1684e346b2dc89a6e69294b7aa9158d33e",
+      "provider": "pdm"
+    },
+    {
+      "package": "forge-pdm-sync",
+      "artifact": "forge-pdm-sync_1.0.0-1_all.deb",
+      "bytes": 2696,
+      "sha256": "510cc75ed3a5748891e070cd578f0f95942b53e1efa080b3cd7e4fef63137ec1",
+      "provider": "pdm"
+    },
+    {
+      "package": "forge-pdm-build",
+      "artifact": "forge-pdm-build_1.0.0-1_all.deb",
+      "bytes": 2702,
+      "sha256": "d29599b16d1d1f3fdbd03ca1274641f66142a8050b559d58bfd66c7fb3720d62",
+      "provider": "pdm"
+    },
+    {
+      "package": "forge-pdm-info",
+      "artifact": "forge-pdm-info_1.0.0-1_all.deb",
+      "bytes": 2692,
+      "sha256": "d1091b2ed00dcde34e838861a6648e366cf4507f78fbfbbe23e3a5eb2f68595c",
+      "provider": "pdm"
+    },
+    {
+      "package": "forge-npm-install",
+      "artifact": "forge-npm-install_1.0.0-1_all.deb",
+      "bytes": 2692,
+      "sha256": "ae3bc89cc3c7ce67e8ee38c19c09366e7c1f5deff81d3377d0db8503d4a337a4",
+      "provider": "npm"
+    },
+    {
+      "package": "forge-npm-uninstall",
+      "artifact": "forge-npm-uninstall_1.0.0-1_all.deb",
+      "bytes": 2696,
+      "sha256": "a778e8fda830837cde9ba95ad80348e4dae3d35981ef9343c53d9c0feedf2037",
+      "provider": "npm"
+    },
+    {
+      "package": "forge-npm-list",
+      "artifact": "forge-npm-list_1.0.0-1_all.deb",
+      "bytes": 2692,
+      "sha256": "140ce2adbcba32a0d28cd364eb594b313ec52ee9b47475287e0d48319ec9c15e",
+      "provider": "npm"
+    },
+    {
+      "package": "forge-npm-search",
+      "artifact": "forge-npm-search_1.0.0-1_all.deb",
+      "bytes": 2694,
+      "sha256": "1d240022e9ba939a4963595cdae90dbf76652a1eff4ec8c7afe2bf260cd623df",
+      "provider": "npm"
+    },
+    {
+      "package": "forge-npm-outdated",
+      "artifact": "forge-npm-outdated_1.0.0-1_all.deb",
+      "bytes": 2698,
+      "sha256": "9f123997a4bf5b7da1d5ecf10e99bbfe9be27734ba5b5f928c91beac3a6053a6",
+      "provider": "npm"
+    },
+    {
+      "package": "forge-npm-update",
+      "artifact": "forge-npm-update_1.0.0-1_all.deb",
+      "bytes": 2694,
+      "sha256": "344859cc1753002537970f898195a076ab8ff947d6c3111626360505428c04f6",
+      "provider": "npm"
+    },
+    {
+      "package": "forge-npm-exec",
+      "artifact": "forge-npm-exec_1.0.0-1_all.deb",
+      "bytes": 2696,
+      "sha256": "b5e092f9010bddfba03ca90c57c06cf53d338cc90e8ed0e6e1bfcf388cda484d",
+      "provider": "npm"
+    },
+    {
+      "package": "forge-npm-view",
+      "artifact": "forge-npm-view_1.0.0-1_all.deb",
+      "bytes": 2690,
+      "sha256": "c20193025cf6abf2c182997d559810548b27e15658b375d4ab71437ff0795183",
+      "provider": "npm"
+    },
+    {
+      "package": "forge-npm-cache",
+      "artifact": "forge-npm-cache_1.0.0-1_all.deb",
+      "bytes": 2694,
+      "sha256": "30a2204ea3e600266dfd947fce34bebdd965a3daade85c3b1ebc6c89fd0d1db9",
+      "provider": "npm"
+    },
+    {
+      "package": "forge-npm-doctor",
+      "artifact": "forge-npm-doctor_1.0.0-1_all.deb",
+      "bytes": 2696,
+      "sha256": "90fca1b559c6bec07945016598268dd3d595bab2513ed20e989d4ef9ae434a2b",
+      "provider": "npm"
+    },
+    {
+      "package": "forge-pnpm-add",
+      "artifact": "forge-pnpm-add_1.0.0-1_all.deb",
+      "bytes": 2698,
+      "sha256": "c42c48f1c81b513e259a072235717f1a3b6d8ca885229bb1c22c99918b96ba6f",
+      "provider": "pnpm"
+    },
+    {
+      "package": "forge-pnpm-remove",
+      "artifact": "forge-pnpm-remove_1.0.0-1_all.deb",
+      "bytes": 2698,
+      "sha256": "5c5733b4a68ad75fe6177548c159b3f8c8f4b888f363ee24dac5c431f5eb7f8e",
+      "provider": "pnpm"
+    },
+    {
+      "package": "forge-pnpm-list",
+      "artifact": "forge-pnpm-list_1.0.0-1_all.deb",
+      "bytes": 2694,
+      "sha256": "b7e3c5d4d648a2f6c6ac191714e9aeb23907e6e809b7f8b78654d3cb02caf065",
+      "provider": "pnpm"
+    },
+    {
+      "package": "forge-pnpm-search",
+      "artifact": "forge-pnpm-search_1.0.0-1_all.deb",
+      "bytes": 2698,
+      "sha256": "106421a871bda7a755143bad9a3a49ca8ee2c0d01f1aa0cea19503bc9077e4f5",
+      "provider": "pnpm"
+    },
+    {
+      "package": "forge-pnpm-outdated",
+      "artifact": "forge-pnpm-outdated_1.0.0-1_all.deb",
+      "bytes": 2698,
+      "sha256": "81259e663b3df89447e0afd149fc62bb80717f481aa538fa88ff8fe1f214da12",
+      "provider": "pnpm"
+    },
+    {
+      "package": "forge-pnpm-update",
+      "artifact": "forge-pnpm-update_1.0.0-1_all.deb",
+      "bytes": 2696,
+      "sha256": "1f175c3cd5b6a60c2bbaca523af46dce8f92f2f6dd3d4c7748dd578f591d3c18",
+      "provider": "pnpm"
+    },
+    {
+      "package": "forge-pnpm-exec",
+      "artifact": "forge-pnpm-exec_1.0.0-1_all.deb",
+      "bytes": 2690,
+      "sha256": "f67c7f765ecc42223d8bb89c3a346595ec31da9d6245b6ffd855b7781f55af39",
+      "provider": "pnpm"
+    },
+    {
+      "package": "forge-pnpm-dlx",
+      "artifact": "forge-pnpm-dlx_1.0.0-1_all.deb",
+      "bytes": 2692,
+      "sha256": "8ffeb7596a6619b473f8989223e5eaab7204b5b0de0ec0bb1ea8516db545a040",
+      "provider": "pnpm"
+    },
+    {
+      "package": "forge-pnpm-store",
+      "artifact": "forge-pnpm-store_1.0.0-1_all.deb",
+      "bytes": 2694,
+      "sha256": "92398fb24dd72a8b7da184918022b46449761b19d61dfef46f9c1fe71f444e0e",
+      "provider": "pnpm"
+    },
+    {
+      "package": "forge-pnpm-why",
+      "artifact": "forge-pnpm-why_1.0.0-1_all.deb",
+      "bytes": 2690,
+      "sha256": "e3122a2de2ac7cd94edc4b9dd42a4194da7cf791abf7e05db39447e1b2106117",
+      "provider": "pnpm"
+    },
+    {
+      "package": "forge-yarn-add",
+      "artifact": "forge-yarn-add_1.0.0-1_all.deb",
+      "bytes": 2688,
+      "sha256": "8bba5123f67474223b9ad8b01053b9c655958e647f212c6d88abda09647ec3db",
+      "provider": "yarn"
+    },
+    {
+      "package": "forge-yarn-remove",
+      "artifact": "forge-yarn-remove_1.0.0-1_all.deb",
+      "bytes": 2696,
+      "sha256": "fecd16c689d82af595615f5725e46530d2eef6642b22b893c4321029b7e9f7fe",
+      "provider": "yarn"
+    },
+    {
+      "package": "forge-yarn-up",
+      "artifact": "forge-yarn-up_1.0.0-1_all.deb",
+      "bytes": 2686,
+      "sha256": "8c0cd750f882a25ff8332fddadeff4f8272957e5415836a4f3336fc38fb430f1",
+      "provider": "yarn"
+    },
+    {
+      "package": "forge-yarn-why",
+      "artifact": "forge-yarn-why_1.0.0-1_all.deb",
+      "bytes": 2692,
+      "sha256": "9b18c58d58a1b84176907d435153d105dd1e53958e003602114117abe25fdbe9",
+      "provider": "yarn"
+    },
+    {
+      "package": "forge-yarn-dlx",
+      "artifact": "forge-yarn-dlx_1.0.0-1_all.deb",
+      "bytes": 2688,
+      "sha256": "88535004ebbb266c6ffc291fa72de3b7424f8bc7500b8745532c2778e54815f6",
+      "provider": "yarn"
+    },
+    {
+      "package": "forge-yarn-exec",
+      "artifact": "forge-yarn-exec_1.0.0-1_all.deb",
+      "bytes": 2692,
+      "sha256": "c3c034946e7fa9d26a91be294935ba77ca5f17fbc738574e3b647426617b1202",
+      "provider": "yarn"
+    },
+    {
+      "package": "forge-yarn-info",
+      "artifact": "forge-yarn-info_1.0.0-1_all.deb",
+      "bytes": 2692,
+      "sha256": "9680d744c3d74795e5660ee70487dd00190e526e736d9e10a8af3995cff659c8",
+      "provider": "yarn"
+    },
+    {
+      "package": "forge-yarn-config",
+      "artifact": "forge-yarn-config_1.0.0-1_all.deb",
+      "bytes": 2698,
+      "sha256": "731c6ac7efb6aa5a76971c279055120d1b52fc4d8a350dde493d48be6f12d619",
+      "provider": "yarn"
+    },
+    {
+      "package": "forge-yarn-workspaces",
+      "artifact": "forge-yarn-workspaces_1.0.0-1_all.deb",
+      "bytes": 2698,
+      "sha256": "c353ea6ac6b2dfb1e10927b8b514d3406e77e47e2c1b77e3c35decf3126cdcb6",
+      "provider": "yarn"
+    },
+    {
+      "package": "forge-yarn-cache-clean",
+      "artifact": "forge-yarn-cache-clean_1.0.0-1_all.deb",
+      "bytes": 2700,
+      "sha256": "5e9457de1bd1e12abf07cee2a4c417e945e5e8e30842e8cf2884fb35614e3c02",
+      "provider": "yarn"
+    },
+    {
+      "package": "forge-bun-add",
+      "artifact": "forge-bun-add_1.0.0-1_all.deb",
+      "bytes": 2682,
+      "sha256": "d83eaebf6c7c7451797c2aa3d76ece824ce3a4c253d76b0e5423247da3f58bb6",
+      "provider": "bun"
+    },
+    {
+      "package": "forge-bun-remove",
+      "artifact": "forge-bun-remove_1.0.0-1_all.deb",
+      "bytes": 2692,
+      "sha256": "f0efe2df3ec25017f3edc3792ecc70bc6c2bc4761b4d9967bba7b829cfce6288",
+      "provider": "bun"
+    },
+    {
+      "package": "forge-bun-install",
+      "artifact": "forge-bun-install_1.0.0-1_all.deb",
+      "bytes": 2690,
+      "sha256": "0cc43ec5ff8931ff551e104a57c33c88b73b81ab001e6e31e2b1b12013aec707",
+      "provider": "bun"
+    },
+    {
+      "package": "forge-bun-update",
+      "artifact": "forge-bun-update_1.0.0-1_all.deb",
+      "bytes": 2692,
+      "sha256": "2dd8d0015e5aeccc5ca2be0f883332635bb0fd2b6e74e44258db640420327724",
+      "provider": "bun"
+    },
+    {
+      "package": "forge-bun-outdated",
+      "artifact": "forge-bun-outdated_1.0.0-1_all.deb",
+      "bytes": 2694,
+      "sha256": "46b53249ddf03152d30695f5e879c76dd1d47557063fa67907aed4d929b060d2",
+      "provider": "bun"
+    },
+    {
+      "package": "forge-bun-x",
+      "artifact": "forge-bun-x_1.0.0-1_all.deb",
+      "bytes": 2692,
+      "sha256": "092ccc8ce28dd26e2beb863594e0e9523c4851346bbb617818a26169ff9b14fc",
+      "provider": "bun"
+    },
+    {
+      "package": "forge-bun-run",
+      "artifact": "forge-bun-run_1.0.0-1_all.deb",
+      "bytes": 2686,
+      "sha256": "496ecba87636f73055e06a6223045d7e229e230b25bb80e7c69cf17b83eebaba",
+      "provider": "bun"
+    },
+    {
+      "package": "forge-bun-pm",
+      "artifact": "forge-bun-pm_1.0.0-1_all.deb",
+      "bytes": 2688,
+      "sha256": "b44a01f7dda16ac993f8db9f91233474191999a43ccea0887576b518e742eafa",
+      "provider": "bun"
+    },
+    {
+      "package": "forge-bun-link",
+      "artifact": "forge-bun-link_1.0.0-1_all.deb",
+      "bytes": 2688,
+      "sha256": "2670c8ddbd0157cd319c4f3606c8e1f0a552b1bf6f1939fda550bab5a546cf1b",
+      "provider": "bun"
+    },
+    {
+      "package": "forge-bun-unlink",
+      "artifact": "forge-bun-unlink_1.0.0-1_all.deb",
+      "bytes": 2694,
+      "sha256": "5eefc5fe86298acbeccc4629212d11dbd3a170647a7e88acae05d4f5c67492bc",
+      "provider": "bun"
+    },
+    {
+      "package": "forge-deno-install",
+      "artifact": "forge-deno-install_1.0.0-1_all.deb",
+      "bytes": 2688,
+      "sha256": "640f413826f997a616206505382c58abca6451d24dbd377b6e905614855d2fe9",
+      "provider": "deno"
+    },
+    {
+      "package": "forge-deno-uninstall",
+      "artifact": "forge-deno-uninstall_1.0.0-1_all.deb",
+      "bytes": 2694,
+      "sha256": "06e00bdb5c91d2b9670656633807a6178906c8750f4b45cf1823218697a57c3a",
+      "provider": "deno"
+    },
+    {
+      "package": "forge-deno-add",
+      "artifact": "forge-deno-add_1.0.0-1_all.deb",
+      "bytes": 2684,
+      "sha256": "c33119ab3aba5cf28b4aabab0830005a6489c2c3474ab6574a67042ab8f1638a",
+      "provider": "deno"
+    },
+    {
+      "package": "forge-deno-remove",
+      "artifact": "forge-deno-remove_1.0.0-1_all.deb",
+      "bytes": 2688,
+      "sha256": "c341281a8abc51c8d74534ba35d0591a098df6aa5e523fc402ac09d6da278c85",
+      "provider": "deno"
+    },
+    {
+      "package": "forge-deno-run",
+      "artifact": "forge-deno-run_1.0.0-1_all.deb",
+      "bytes": 2686,
+      "sha256": "f018acf3bcdf2540047d56a8bb514b42df6553678320d50d55d000b922c5a948",
+      "provider": "deno"
+    },
+    {
+      "package": "forge-deno-task",
+      "artifact": "forge-deno-task_1.0.0-1_all.deb",
+      "bytes": 2684,
+      "sha256": "c59ffa9ca1c47cec892417994f559d990f5b6c7b08696ea4c7766030af65d6fd",
+      "provider": "deno"
+    },
+    {
+      "package": "forge-deno-cache",
+      "artifact": "forge-deno-cache_1.0.0-1_all.deb",
+      "bytes": 2692,
+      "sha256": "fb6c02c9f1cd88ce0b07a60fe9295882f48e9776ff07defd6c21a12f9aa8f620",
+      "provider": "deno"
+    },
+    {
+      "package": "forge-deno-info",
+      "artifact": "forge-deno-info_1.0.0-1_all.deb",
+      "bytes": 2688,
+      "sha256": "0e0a4cd4264d389081618d7db74be982f6d91673ecc7f3982be9891bf7973d69",
+      "provider": "deno"
+    },
+    {
+      "package": "forge-deno-compile",
+      "artifact": "forge-deno-compile_1.0.0-1_all.deb",
+      "bytes": 2694,
+      "sha256": "b54ac6d2a454473ff13e65463638dfe0770aaadc97ae6da3d0ba13233cee0067",
+      "provider": "deno"
+    },
+    {
+      "package": "forge-deno-fmt",
+      "artifact": "forge-deno-fmt_1.0.0-1_all.deb",
+      "bytes": 2688,
+      "sha256": "c1d61d35a0a443249bfc58d655a91308bc8153559bbd8524c34e39c6d2fa1c51",
+      "provider": "deno"
+    },
+    {
+      "package": "forge-foundation-suite",
+      "artifact": "forge-foundation-suite_1.0.0-1_all.deb",
+      "bytes": 1068,
+      "sha256": "8af1a1390b0295dbe455a74d1c9b9ccd8945fb1b437b55064c6527869e5716c9",
+      "provider": "meta"
+    }
+  ],
+  "promotion": "staging-only until APT promotion/signing"
+}

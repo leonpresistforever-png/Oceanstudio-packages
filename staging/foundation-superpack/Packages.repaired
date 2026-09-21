@@ -1,0 +1,13 @@
+Package: ocean-foundation-superpack
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: forge-foundation-suite (= 1.0.0-1), ecosys-foundation-suite (= 1.0.0-1),
+ envhub-foundation-suite (= 1.0.0-1)
+Description: Ocean universal foundation superpack
+ Meta-package only; installs the complete Ocean foundation capability set.
+Filename: staging/foundation-superpack/pool/main/ocean-foundation-superpack_1.0.0-1_all.deb
+Size: 600
+SHA256: 48bdd9f95373619683ad11ab019fd68e1a93db2a446a139b995122bc68ca38c5

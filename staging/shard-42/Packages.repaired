@@ -1,0 +1,1458 @@
+Package: envhub-maven-dependency-get
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, maven, mise
+Description: Ocean foundation command for maven
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-maven-dependency-get_1.0.0-1_all.deb
+Size: 2946
+SHA256: 2be71c585d6f55d503cde89d51d949d1739353de636491bef4901bb30b0f272a
+
+Package: envhub-maven-dependency-copy
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, maven, mise
+Description: Ocean foundation command for maven
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-maven-dependency-copy_1.0.0-1_all.deb
+Size: 2952
+SHA256: 1b20564cb1a8ab56d4e3d94484b409671b837041bb412cee5c3b0c8120881370
+
+Package: envhub-maven-dependency-tree
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, maven, mise
+Description: Ocean foundation command for maven
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-maven-dependency-tree_1.0.0-1_all.deb
+Size: 2950
+SHA256: ffb784c8712519f1f959157230580aade2358b71746d008f7f6825b43f656fff
+
+Package: envhub-maven-dependency-list
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, maven, mise
+Description: Ocean foundation command for maven
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-maven-dependency-list_1.0.0-1_all.deb
+Size: 2952
+SHA256: 87f1f098aea387b23d2bbfdf58aeb858b84b9697ab6f4d009564472bd958d779
+
+Package: envhub-maven-versions-display
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, maven, mise
+Description: Ocean foundation command for maven
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-maven-versions-display_1.0.0-1_all.deb
+Size: 2952
+SHA256: 60cd74577f2aa5ae82239b233b3bf4ca0009a3cc825b39c5066c6ee81ed3788d
+
+Package: envhub-maven-versions-update
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, maven, mise
+Description: Ocean foundation command for maven
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-maven-versions-update_1.0.0-1_all.deb
+Size: 2952
+SHA256: 8b452f32e3ebb76e2bebd607d6edf7033055635011f54e1f82a882c13264244f
+
+Package: envhub-maven-wrapper
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, maven, mise
+Description: Ocean foundation command for maven
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-maven-wrapper_1.0.0-1_all.deb
+Size: 2946
+SHA256: e7418c358989effa137de0119b6b8d4f3f259dd9d9ec2b0f9a52e79854196d97
+
+Package: envhub-maven-package
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, maven, mise
+Description: Ocean foundation command for maven
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-maven-package_1.0.0-1_all.deb
+Size: 2938
+SHA256: f05753e62d6dfdd7a201e7aaf90c95307998cc6d85721d4bde3e94a50df92abe
+
+Package: envhub-maven-test
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, maven, mise
+Description: Ocean foundation command for maven
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-maven-test_1.0.0-1_all.deb
+Size: 2936
+SHA256: d1c3c450e264c753dc42360e561abbf489c4fc4f3986334b66f49f3f7a4bcd3f
+
+Package: envhub-maven-exec
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, maven, mise
+Description: Ocean foundation command for maven
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-maven-exec_1.0.0-1_all.deb
+Size: 2936
+SHA256: 4ba2095e4953dad3943199c9561223282ee6032a4c0c4b1e1c80581c46f83f2d
+
+Package: envhub-gradle-dependencies
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, gradle, mise
+Description: Ocean foundation command for gradle
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-gradle-dependencies_1.0.0-1_all.deb
+Size: 2944
+SHA256: 9de84dce88acca9341cfb211b2988e1858a2a55d40dd1e154b155095b362b17c
+
+Package: envhub-gradle-dependency-insight
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, gradle, mise
+Description: Ocean foundation command for gradle
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-gradle-dependency-insight_1.0.0-1_all.deb
+Size: 2996
+SHA256: 577ec410c95ecd97455c4b7aaa0c4c769a671c523452652eba434aec2c1d4105
+
+Package: envhub-gradle-build
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, gradle, mise
+Description: Ocean foundation command for gradle
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-gradle-build_1.0.0-1_all.deb
+Size: 2936
+SHA256: 54cf0481debf068bdb4acc7b8e67cdac86f068eb5a640e237cfb8e152e5ab49b
+
+Package: envhub-gradle-test
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, gradle, mise
+Description: Ocean foundation command for gradle
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-gradle-test_1.0.0-1_all.deb
+Size: 2938
+SHA256: 297a1359891b1df0305409f3b44557c8fe004652b5c4c9aee7ddc3d1db9c560e
+
+Package: envhub-gradle-tasks
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, gradle, mise
+Description: Ocean foundation command for gradle
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-gradle-tasks_1.0.0-1_all.deb
+Size: 2936
+SHA256: 404afca59e5c7bee6285f497fa276897824e0d1ae1b00c1d9ab53134e86287e3
+
+Package: envhub-gradle-properties
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, gradle, mise
+Description: Ocean foundation command for gradle
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-gradle-properties_1.0.0-1_all.deb
+Size: 2946
+SHA256: 0b2888a62e8fc9d5ef634003291e6cef47438e4d99480f20c8e5bb80be7131ee
+
+Package: envhub-gradle-wrapper
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, gradle, mise
+Description: Ocean foundation command for gradle
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-gradle-wrapper_1.0.0-1_all.deb
+Size: 2940
+SHA256: 68357bac2e41a264ab4bfa93bb72009f7f09e5026dcf54663846eab07d8ddc23
+
+Package: envhub-gradle-projects
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, gradle, mise
+Description: Ocean foundation command for gradle
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-gradle-projects_1.0.0-1_all.deb
+Size: 2944
+SHA256: db2a90637f1e80cf592902996e1ed072472f48642ccfcc6e00542a4d9988e8e9
+
+Package: envhub-gradle-components
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, gradle, mise
+Description: Ocean foundation command for gradle
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-gradle-components_1.0.0-1_all.deb
+Size: 2946
+SHA256: ee7900c63a85660a1eadeb1e586d297e875752d1307d5a7b198ba7ade42ce376
+
+Package: envhub-gradle-build-environment
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, gradle, mise
+Description: Ocean foundation command for gradle
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-gradle-build-environment_1.0.0-1_all.deb
+Size: 2992
+SHA256: 8f9bf9ce36ad8bb612cb6469f1cf4f2ca16fec13d2b3ec63aab37cc41e58f7d3
+
+Package: envhub-jbang-run
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for jbang
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-jbang-run_1.0.0-1_all.deb
+Size: 2932
+SHA256: 7ff42fe0b2634d1ddce2babc1643c1a8790957929cca7f28054d29ff3ea4dd10
+
+Package: envhub-jbang-app-install
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for jbang
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-jbang-app-install_1.0.0-1_all.deb
+Size: 2948
+SHA256: 561da7805f5884e0198843fa0c5c90f1e25b3667313964c6176800ff354c2025
+
+Package: envhub-jbang-app-uninstall
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for jbang
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-jbang-app-uninstall_1.0.0-1_all.deb
+Size: 2948
+SHA256: dff91463a5ee07360ee6e737568b123ad96afb2eff6c8326869c754ba0dfa3c1
+
+Package: envhub-jbang-app-list
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for jbang
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-jbang-app-list_1.0.0-1_all.deb
+Size: 2942
+SHA256: f5a8973d7758d885edd7ec9842b690e4bab17e92a3a46f4b22100b9cd7356f43
+
+Package: envhub-jbang-catalog-list
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for jbang
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-jbang-catalog-list_1.0.0-1_all.deb
+Size: 2950
+SHA256: aec54663483404aaf43a27c5b365b5a11c6e62bc68e08720a5d6f80c936096e0
+
+Package: envhub-jbang-catalog-add
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for jbang
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-jbang-catalog-add_1.0.0-1_all.deb
+Size: 2948
+SHA256: b0829171ba9b64a8c67ae88b5b93fd92ffaad16b09e727edcde9714565597fc4
+
+Package: envhub-jbang-cache-clear
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for jbang
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-jbang-cache-clear_1.0.0-1_all.deb
+Size: 2944
+SHA256: 4f55298da4880698ffda9fb5485f1e3eaa0ec11797b17ceef89509f0ceca16eb
+
+Package: envhub-jbang-jdk-list
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for jbang
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-jbang-jdk-list_1.0.0-1_all.deb
+Size: 2940
+SHA256: e103097e8b101ba9dc69c5a203ee51d56e8e3d647cae301fb237aa5ed3a1bae8
+
+Package: envhub-jbang-jdk-install
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for jbang
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-jbang-jdk-install_1.0.0-1_all.deb
+Size: 2948
+SHA256: da5786a28e2d6857ebf31c2e7bdffe8dcee8ed93ef5e25b18358a57a24ad2b79
+
+Package: envhub-jbang-version-update
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for jbang
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-jbang-version-update_1.0.0-1_all.deb
+Size: 2950
+SHA256: 82c1e4b46d526d908ef7e5422b605298932e5fb66c12396c4a3abf4399b0940c
+
+Package: envhub-coursier-install
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for coursier
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-coursier-install_1.0.0-1_all.deb
+Size: 2942
+SHA256: 597c9b6157a8b21d5282059ddbb6ef3e1bd562a9d15de3df8c2781b550842045
+
+Package: envhub-coursier-uninstall
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for coursier
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-coursier-uninstall_1.0.0-1_all.deb
+Size: 2942
+SHA256: fb17b3759b85ba0aaf0e03f8e09c6a9efdd1706a7db5aeb8a9862f2633705ceb
+
+Package: envhub-coursier-list
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for coursier
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-coursier-list_1.0.0-1_all.deb
+Size: 2936
+SHA256: 43a78875a27f465897b3d31f52af052061ebdf4bf1ba51f8c7e25baa45a0a478
+
+Package: envhub-coursier-launch
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for coursier
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-coursier-launch_1.0.0-1_all.deb
+Size: 2940
+SHA256: 5ea5c2ff91d91f296f93d7671555bb670b98dd4fae406570b25200a606f0e2d4
+
+Package: envhub-coursier-resolve
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for coursier
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-coursier-resolve_1.0.0-1_all.deb
+Size: 2942
+SHA256: bd1668c8129e2fe04ecb7df832f06a397b168465ad43c6e2263a2255d19c8adc
+
+Package: envhub-coursier-fetch
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for coursier
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-coursier-fetch_1.0.0-1_all.deb
+Size: 2936
+SHA256: 5401666f5a9fa9d3c59bc3f31bc17d3cb5c12ea47549855e48ccd276fdf27315
+
+Package: envhub-coursier-search
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for coursier
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-coursier-search_1.0.0-1_all.deb
+Size: 2946
+SHA256: 51c9322a457ac7834ea0be056f2dd301549af2f8b345f7ab4dccee532bfc693c
+
+Package: envhub-coursier-java
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for coursier
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-coursier-java_1.0.0-1_all.deb
+Size: 2940
+SHA256: a8ab17a57a0e7aaea5ceeda8c725b4b127d6f804244d80bbd20010105cec5252
+
+Package: envhub-coursier-java-home
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for coursier
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-coursier-java-home_1.0.0-1_all.deb
+Size: 2944
+SHA256: 41aea81a18b31853546a4256c7519f9bb59ae81c05f020fe5630a3957d5a55a0
+
+Package: envhub-coursier-setup
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for coursier
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-coursier-setup_1.0.0-1_all.deb
+Size: 2938
+SHA256: 0274a4314ae114f8e5cfd1359dccc25432f71fa6b91788c932c52040f7d8cf9c
+
+Package: envhub-dart-pub-add
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for dart
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-dart-pub-add_1.0.0-1_all.deb
+Size: 2938
+SHA256: e986a7721d4119fd3ef453a51f3b887c59d2e90103dbf26ed1ea3ee725dd7f74
+
+Package: envhub-dart-pub-remove
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for dart
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-dart-pub-remove_1.0.0-1_all.deb
+Size: 2942
+SHA256: 38d0f77369574696761f2d3ef5f8fca477088dd06c7bb2611b64c26c2209356e
+
+Package: envhub-dart-pub-get
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for dart
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-dart-pub-get_1.0.0-1_all.deb
+Size: 2938
+SHA256: 2963dae43b1cf4362c3441eb78cec1dcac4482c5a962f86b9e82d6e5ebf1dd26
+
+Package: envhub-dart-pub-upgrade
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for dart
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-dart-pub-upgrade_1.0.0-1_all.deb
+Size: 2948
+SHA256: 44f18f9e932318156e6cde1e77fc818388236631c22212174c09d8899994ba7d
+
+Package: envhub-dart-pub-outdated
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for dart
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-dart-pub-outdated_1.0.0-1_all.deb
+Size: 2946
+SHA256: c668256b9df8349117c8346f0ca71352716eccd8a5c58f107743ade98699b4ee
+
+Package: envhub-dart-pub-cache
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for dart
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-dart-pub-cache_1.0.0-1_all.deb
+Size: 2940
+SHA256: d399204acce374e70ad59f6beabc71682736201e06fc916fea1b583ad128a7f7
+
+Package: envhub-dart-pub-global-activate
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for dart
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-dart-pub-global-activate_1.0.0-1_all.deb
+Size: 2994
+SHA256: 3f7860b3a3740b41686b33e90d30d5dc1557267bf2c6e071d8a8f903365014d2
+
+Package: envhub-dart-pub-global-deactivate
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for dart
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-dart-pub-global-deactivate_1.0.0-1_all.deb
+Size: 2996
+SHA256: 93cc59aec4dc82d0c59376d4dd6ca03d7767b5a3da352b1031dee04b92b14d10
+
+Package: envhub-dart-run
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for dart
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-dart-run_1.0.0-1_all.deb
+Size: 2930
+SHA256: 2f9d79da9fb046000b5b6feab210b126ccb4e6b5f6fb1088a87bd41abe183077
+
+Package: envhub-dart-compile
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for dart
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-dart-compile_1.0.0-1_all.deb
+Size: 2936
+SHA256: 4a04ce7f212c03ee78ad63b38c4f081052623c88998560c762bfbc8570ea1161
+
+Package: envhub-pixi-add
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for pixi
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-pixi-add_1.0.0-1_all.deb
+Size: 2928
+SHA256: 54aaf3b365b7daff35aee69f4be7103cf0af29c1418f5590ae30a5f8dedee182
+
+Package: envhub-pixi-remove
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for pixi
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-pixi-remove_1.0.0-1_all.deb
+Size: 2930
+SHA256: 09cf700e6e060bd424f4c6cd3f458882bf18fad84b1253795d6d81211a768b82
+
+Package: envhub-pixi-install
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for pixi
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-pixi-install_1.0.0-1_all.deb
+Size: 2936
+SHA256: bb4576e293dd89b008f34d47c55d58350afd961c6651edaccfc2987e2581fba4
+
+Package: envhub-pixi-update
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for pixi
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-pixi-update_1.0.0-1_all.deb
+Size: 2934
+SHA256: 39d006574654c5d91de6605168a09a581a92f5a13c539a2120922e385b674998
+
+Package: envhub-pixi-list
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for pixi
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-pixi-list_1.0.0-1_all.deb
+Size: 2930
+SHA256: a65fc1719641808fdfb318e100671cc768b78a2a413debc9a5d8023622c547e2
+
+Package: envhub-pixi-run
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for pixi
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-pixi-run_1.0.0-1_all.deb
+Size: 2922
+SHA256: 80475ecdac8baf1b83857acfd7f3f5157f8e75eec5f87a9737dcfa82b7edca0b
+
+Package: envhub-pixi-global-install
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for pixi
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-pixi-global-install_1.0.0-1_all.deb
+Size: 2940
+SHA256: b8ca2b28aeaab4982c29252aef75d0ea31c70fd12e7b1cee92187607b61d11f9
+
+Package: envhub-pixi-global-remove
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for pixi
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-pixi-global-remove_1.0.0-1_all.deb
+Size: 2946
+SHA256: 25cb17725d69a9fe35cf1062fc1378557486623f39ccaee9dab8a6586c8e4186
+
+Package: envhub-pixi-global-list
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for pixi
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-pixi-global-list_1.0.0-1_all.deb
+Size: 2948
+SHA256: 836828b7940d5bddac97aed8b55ddbbaab883a31e7a798153e9d913b98ea61f2
+
+Package: envhub-pixi-search
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for pixi
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-pixi-search_1.0.0-1_all.deb
+Size: 2936
+SHA256: f29e0c7bdb4b2a88746716cd9e8b73c5e48f5037cd35f6655a6f043452141eb5
+
+Package: envhub-nix-profile-install
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, nix-ocean, mise
+Description: Ocean foundation command for nix
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-nix-profile-install_1.0.0-1_all.deb
+Size: 2944
+SHA256: 67d9c4cb11293b32f6959f669927bfa7c8d6d0c733c8b9cf35c442f553a79eb2
+
+Package: envhub-nix-profile-remove
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, nix-ocean, mise
+Description: Ocean foundation command for nix
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-nix-profile-remove_1.0.0-1_all.deb
+Size: 2948
+SHA256: 5b404874f303d10c3d1e9fbbb5aad0f6d3d36ad42b7e86d5741e66392bfef532
+
+Package: envhub-nix-profile-list
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, nix-ocean, mise
+Description: Ocean foundation command for nix
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-nix-profile-list_1.0.0-1_all.deb
+Size: 2940
+SHA256: f4a838f0f69d2046da17af1c88f467eead0fd73d46ffa3b8c83ca42c33b1c8cb
+
+Package: envhub-nix-search
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, nix-ocean, mise
+Description: Ocean foundation command for nix
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-nix-search_1.0.0-1_all.deb
+Size: 2936
+SHA256: 279c396bd7797f761153a3f42146c6b5f7b5920ab32e8b0b3c14bc7aced8be11
+
+Package: envhub-nix-run
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, nix-ocean, mise
+Description: Ocean foundation command for nix
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-nix-run_1.0.0-1_all.deb
+Size: 2932
+SHA256: fb5b813efe42c3beb7e6a09e734e2f9adbcb5435f650249aff8675c3060a0532
+
+Package: envhub-nix-shell
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, nix-ocean, mise
+Description: Ocean foundation command for nix
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-nix-shell_1.0.0-1_all.deb
+Size: 2936
+SHA256: 932a03308ac9cada1ae9bb5e52ec1a0d8e0081463394fac43fb9ba5a42526b2e
+
+Package: envhub-nix-develop
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, nix-ocean, mise
+Description: Ocean foundation command for nix
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-nix-develop_1.0.0-1_all.deb
+Size: 2940
+SHA256: eb152dce8980e92a03a37c150805f2113af231f6c1cdcc4fe7d001a02ef4826e
+
+Package: envhub-nix-flake-show
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, nix-ocean, mise
+Description: Ocean foundation command for nix
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-nix-flake-show_1.0.0-1_all.deb
+Size: 2942
+SHA256: f4eaf4371fdf8049fa76abb144297889813562429d0231b9af6193b340be49fd
+
+Package: envhub-nix-flake-update
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, nix-ocean, mise
+Description: Ocean foundation command for nix
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-nix-flake-update_1.0.0-1_all.deb
+Size: 2944
+SHA256: cbde65a05f6933b1b255217bb1cc84162ad96e9e7033590a86a04ea1987a5dd8
+
+Package: envhub-nix-store-gc
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, nix-ocean, mise
+Description: Ocean foundation command for nix
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-nix-store-gc_1.0.0-1_all.deb
+Size: 2936
+SHA256: a6abce1b117d62f0f34147aa93b38ecb8f66d5f195659d37e6ab3691fddd2080
+
+Package: envhub-aqua-init
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, aqua, mise
+Description: Ocean foundation command for aqua
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-aqua-init_1.0.0-1_all.deb
+Size: 2928
+SHA256: b8f50b5960fd910b2a67477ccc7c0259d5f416a799d1cdcb3ffc1ca57d274aa7
+
+Package: envhub-aqua-install
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, aqua, mise
+Description: Ocean foundation command for aqua
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-aqua-install_1.0.0-1_all.deb
+Size: 2932
+SHA256: 46776f696df975cb7a262cfbf7b13d18ca6525b8bca1a4252f98b068d8659e33
+
+Package: envhub-aqua-generate
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, aqua, mise
+Description: Ocean foundation command for aqua
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-aqua-generate_1.0.0-1_all.deb
+Size: 2942
+SHA256: a60ef81bdddb9645306238c3ea5df1f57d975ae9faaee8934df9899d16d0d824
+
+Package: envhub-aqua-update
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, aqua, mise
+Description: Ocean foundation command for aqua
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-aqua-update_1.0.0-1_all.deb
+Size: 2936
+SHA256: 1c6bc845d84cca2c1f1f00cea6903936f9a9ff7041b8ef354dca25d721d74638
+
+Package: envhub-aqua-remove
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, aqua, mise
+Description: Ocean foundation command for aqua
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-aqua-remove_1.0.0-1_all.deb
+Size: 2936
+SHA256: 4d77e90b830a0993cef204f7e58419234eae1c1bd4316b7ba8bc8b8120575637
+
+Package: envhub-aqua-which
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, aqua, mise
+Description: Ocean foundation command for aqua
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-aqua-which_1.0.0-1_all.deb
+Size: 2930
+SHA256: c8a9738759877760c8bb464bad058db7086b045929c7b2fbaecba692bf408b9d
+
+Package: envhub-aqua-info
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, aqua, mise
+Description: Ocean foundation command for aqua
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-aqua-info_1.0.0-1_all.deb
+Size: 2928
+SHA256: cfe8fd4e3ad5852a6982b605040355f0f410c577df63030d3dc12d8b043b1ddc
+
+Package: envhub-aqua-vacuum
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, aqua, mise
+Description: Ocean foundation command for aqua
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-aqua-vacuum_1.0.0-1_all.deb
+Size: 2936
+SHA256: 17cba742a492961272af1ff2c8436a5acffe4d4a8bfae775c66567d1205b6a24
+
+Package: envhub-aqua-update-checksum
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, aqua, mise
+Description: Ocean foundation command for aqua
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-aqua-update-checksum_1.0.0-1_all.deb
+Size: 2942
+SHA256: 05d5a6bb14d9a61c1fdd2125bca7a90d7e7c30127b15766a6d6a6ff085a67d06
+
+Package: envhub-aqua-update-aqua
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, aqua, mise
+Description: Ocean foundation command for aqua
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-aqua-update-aqua_1.0.0-1_all.deb
+Size: 2940
+SHA256: af19bd8b2293ddce51e6e7a6202e6f4b0184cee49a2cbe00443bda78879ea7f4
+
+Package: envhub-mise-install
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for mise
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-mise-install_1.0.0-1_all.deb
+Size: 2926
+SHA256: d2224fe5de5c910999576f5bfc0e6dc07b863895fcdf53594efbf9a975e1c312
+
+Package: envhub-mise-use
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for mise
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-mise-use_1.0.0-1_all.deb
+Size: 2920
+SHA256: 943a71b916a67db257656c523e65113e46763074cacc17eccc7aabc16fe4212c
+
+Package: envhub-mise-exec
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for mise
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-mise-exec_1.0.0-1_all.deb
+Size: 2924
+SHA256: a4aed3696b98ce6039a0784b9e323818bf2cc7fdb65ffb7a7bd5d7b5ea3efde8
+
+Package: envhub-mise-list
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for mise
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-mise-list_1.0.0-1_all.deb
+Size: 2922
+SHA256: dae61e222683805093f7bd15df08067c6abcff76531e32087873fdbb6b474125
+
+Package: envhub-mise-latest
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for mise
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-mise-latest_1.0.0-1_all.deb
+Size: 2930
+SHA256: a78d4cfcf39101087d9b4643fb7358e1844a1f935652fd751f6f57b7e59e9cf4
+
+Package: envhub-mise-outdated
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for mise
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-mise-outdated_1.0.0-1_all.deb
+Size: 2932
+SHA256: 3e61904d3bf015ee823716b4761d2e51cc7b24979cb557d090d31f29f726ad19
+
+Package: envhub-mise-upgrade
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for mise
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-mise-upgrade_1.0.0-1_all.deb
+Size: 2932
+SHA256: a2c9f4183d0d9319641ddafac0be14495ebf0ef0de69dc7eced17249f03ab793
+
+Package: envhub-mise-uninstall
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for mise
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-mise-uninstall_1.0.0-1_all.deb
+Size: 2928
+SHA256: 11f5a1e091fefcc9617f826d9c40c9da532029ec1f2306ed6b6124ad5eb73167
+
+Package: envhub-mise-which
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for mise
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-mise-which_1.0.0-1_all.deb
+Size: 2932
+SHA256: ba655eb7899602e46d65fe7a4201bd7d5eb2192a718c222d3a90e45550500dab
+
+Package: envhub-mise-doctor
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, mise
+Description: Ocean foundation command for mise
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-mise-doctor_1.0.0-1_all.deb
+Size: 2930
+SHA256: 24e0dcba31a6a8f2afb8878b4152df49eed53b521158b8cb59702faf860601e3
+
+Package: envhub-asdf-plugin-add
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, asdf-vm, mise
+Description: Ocean foundation command for asdf
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-asdf-plugin-add_1.0.0-1_all.deb
+Size: 2944
+SHA256: 3c8a8df152c43c1a278ee966573e86bed668f632718aa7d29e4157d6be2a759a
+
+Package: envhub-asdf-plugin-list
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, asdf-vm, mise
+Description: Ocean foundation command for asdf
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-asdf-plugin-list_1.0.0-1_all.deb
+Size: 2944
+SHA256: 086941205b4ab386c636d60aed658a2db6175739f31417fe7481ded50b434d0a
+
+Package: envhub-asdf-plugin-update
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, asdf-vm, mise
+Description: Ocean foundation command for asdf
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-asdf-plugin-update_1.0.0-1_all.deb
+Size: 2942
+SHA256: 36c426a488e3e9c1dc5286fa643910846ccec2458da5063aac15885ed8d8e66c
+
+Package: envhub-asdf-install
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, asdf-vm, mise
+Description: Ocean foundation command for asdf
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-asdf-install_1.0.0-1_all.deb
+Size: 2932
+SHA256: a715ee21be891e594915f2d3dab83a7d77e678eeebd48c7cbf04c4517884ea33
+
+Package: envhub-asdf-uninstall
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, asdf-vm, mise
+Description: Ocean foundation command for asdf
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-asdf-uninstall_1.0.0-1_all.deb
+Size: 2938
+SHA256: bd995748c96c5c57c87ba90f49d52d904c31816e8a913a07b2cdd45be5630449
+
+Package: envhub-asdf-set
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, asdf-vm, mise
+Description: Ocean foundation command for asdf
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-asdf-set_1.0.0-1_all.deb
+Size: 2932
+SHA256: 49e1e175ec57c94f1a9dca9cbf01092c0f697aa3d4f548cb5b03504c8b82eb38
+
+Package: envhub-asdf-current
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, asdf-vm, mise
+Description: Ocean foundation command for asdf
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-asdf-current_1.0.0-1_all.deb
+Size: 2938
+SHA256: 1145efd32695a96077479eb36e4b3d298e3c8677e25ae8d7a12377514cfc7c36
+
+Package: envhub-asdf-list
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, asdf-vm, mise
+Description: Ocean foundation command for asdf
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-asdf-list_1.0.0-1_all.deb
+Size: 2932
+SHA256: 1e821523aad1d56d309affd0db6f65cf02b8fa42ccc62cf01a4f30c810970faa
+
+Package: envhub-asdf-latest
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, asdf-vm, mise
+Description: Ocean foundation command for asdf
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-asdf-latest_1.0.0-1_all.deb
+Size: 2938
+SHA256: 24f08386db7cc31120738138d057c3be9a133cdc54ced6bcc325362845849736
+
+Package: envhub-asdf-exec
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: python, asdf-vm, mise
+Description: Ocean foundation command for asdf
+ User-space JVM/Dart/universal environment managers command. It uses an installed native manager where available
+ and can fall back to Ocean's mise runtime without changing the Ocean prefix.
+Filename: staging/shard-42/pool/main/envhub-asdf-exec_1.0.0-1_all.deb
+Size: 2932
+SHA256: 8fce4edfb5ab7bdc746f92e403398205a90451af1dd63d81f22f6b6ef7038388
+
+Package: envhub-foundation-suite
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: envhub-maven-dependency-get (= 1.0.0-1), envhub-maven-dependency-copy (= 1.0.0-1),
+ envhub-maven-dependency-tree (= 1.0.0-1), envhub-maven-dependency-list (= 1.0.0-1),
+ envhub-maven-versions-display (= 1.0.0-1), envhub-maven-versions-update (= 1.0.0-1),
+ envhub-maven-wrapper (= 1.0.0-1), envhub-maven-package (= 1.0.0-1),
+ envhub-maven-test (= 1.0.0-1), envhub-maven-exec (= 1.0.0-1),
+ envhub-gradle-dependencies (= 1.0.0-1), envhub-gradle-dependency-insight (= 1.0.0-1),
+ envhub-gradle-build (= 1.0.0-1), envhub-gradle-test (= 1.0.0-1),
+ envhub-gradle-tasks (= 1.0.0-1), envhub-gradle-properties (= 1.0.0-1),
+ envhub-gradle-wrapper (= 1.0.0-1), envhub-gradle-projects (= 1.0.0-1),
+ envhub-gradle-components (= 1.0.0-1), envhub-gradle-build-environment (= 1.0.0-1),
+ envhub-jbang-run (= 1.0.0-1), envhub-jbang-app-install (= 1.0.0-1),
+ envhub-jbang-app-uninstall (= 1.0.0-1), envhub-jbang-app-list (= 1.0.0-1),
+ envhub-jbang-catalog-list (= 1.0.0-1), envhub-jbang-catalog-add (= 1.0.0-1),
+ envhub-jbang-cache-clear (= 1.0.0-1), envhub-jbang-jdk-list (= 1.0.0-1),
+ envhub-jbang-jdk-install (= 1.0.0-1), envhub-jbang-version-update (= 1.0.0-1),
+ envhub-coursier-install (= 1.0.0-1), envhub-coursier-uninstall (= 1.0.0-1),
+ envhub-coursier-list (= 1.0.0-1), envhub-coursier-launch (= 1.0.0-1),
+ envhub-coursier-resolve (= 1.0.0-1), envhub-coursier-fetch (= 1.0.0-1),
+ envhub-coursier-search (= 1.0.0-1), envhub-coursier-java (= 1.0.0-1),
+ envhub-coursier-java-home (= 1.0.0-1), envhub-coursier-setup (= 1.0.0-1),
+ envhub-dart-pub-add (= 1.0.0-1), envhub-dart-pub-remove (= 1.0.0-1),
+ envhub-dart-pub-get (= 1.0.0-1), envhub-dart-pub-upgrade (= 1.0.0-1),
+ envhub-dart-pub-outdated (= 1.0.0-1), envhub-dart-pub-cache (= 1.0.0-1),
+ envhub-dart-pub-global-activate (= 1.0.0-1), envhub-dart-pub-global-deactivate (= 1.0.0-1),
+ envhub-dart-run (= 1.0.0-1), envhub-dart-compile (= 1.0.0-1), envhub-pixi-add (= 1.0.0-1),
+ envhub-pixi-remove (= 1.0.0-1), envhub-pixi-install (= 1.0.0-1),
+ envhub-pixi-update (= 1.0.0-1), envhub-pixi-list (= 1.0.0-1), envhub-pixi-run (= 1.0.0-1),
+ envhub-pixi-global-install (= 1.0.0-1), envhub-pixi-global-remove (= 1.0.0-1),
+ envhub-pixi-global-list (= 1.0.0-1), envhub-pixi-search (= 1.0.0-1),
+ envhub-nix-profile-install (= 1.0.0-1), envhub-nix-profile-remove (= 1.0.0-1),
+ envhub-nix-profile-list (= 1.0.0-1), envhub-nix-search (= 1.0.0-1),
+ envhub-nix-run (= 1.0.0-1), envhub-nix-shell (= 1.0.0-1), envhub-nix-develop (= 1.0.0-1),
+ envhub-nix-flake-show (= 1.0.0-1), envhub-nix-flake-update (= 1.0.0-1),
+ envhub-nix-store-gc (= 1.0.0-1), envhub-aqua-init (= 1.0.0-1),
+ envhub-aqua-install (= 1.0.0-1), envhub-aqua-generate (= 1.0.0-1),
+ envhub-aqua-update (= 1.0.0-1), envhub-aqua-remove (= 1.0.0-1),
+ envhub-aqua-which (= 1.0.0-1), envhub-aqua-info (= 1.0.0-1), envhub-aqua-vacuum (= 1.0.0-1),
+ envhub-aqua-update-checksum (= 1.0.0-1), envhub-aqua-update-aqua (= 1.0.0-1),
+ envhub-mise-install (= 1.0.0-1), envhub-mise-use (= 1.0.0-1), envhub-mise-exec (= 1.0.0-1),
+ envhub-mise-list (= 1.0.0-1), envhub-mise-latest (= 1.0.0-1),
+ envhub-mise-outdated (= 1.0.0-1), envhub-mise-upgrade (= 1.0.0-1),
+ envhub-mise-uninstall (= 1.0.0-1), envhub-mise-which (= 1.0.0-1),
+ envhub-mise-doctor (= 1.0.0-1), envhub-asdf-plugin-add (= 1.0.0-1),
+ envhub-asdf-plugin-list (= 1.0.0-1), envhub-asdf-plugin-update (= 1.0.0-1),
+ envhub-asdf-install (= 1.0.0-1), envhub-asdf-uninstall (= 1.0.0-1),
+ envhub-asdf-set (= 1.0.0-1), envhub-asdf-current (= 1.0.0-1), envhub-asdf-list (= 1.0.0-1),
+ envhub-asdf-latest (= 1.0.0-1), envhub-asdf-exec (= 1.0.0-1)
+Description: Ocean JVM/Dart/universal environment managers foundation suite
+ Meta-package only; installs the complete Ocean foundation capability set.
+Filename: staging/shard-42/pool/main/envhub-foundation-suite_1.0.0-1_all.deb
+Size: 1174
+SHA256: 4d83c0a75821dd2d3752da23aeac7239be236410366d3b3d77317fe7cfb6d91f
