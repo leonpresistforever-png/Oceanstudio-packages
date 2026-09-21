@@ -1,0 +1,289 @@
+name: Build shards 43 44 45 real multipliers
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'sources/multiplier-shards/shards43_45_runtime.py'
+      - 'scripts/build-shards43-45.py'
+      - '.github/workflows/build-shards43-45.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ocean-shards43-45
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Checkout multiplier sources and APT metadata
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /sources/multiplier-shards/shards43_45_runtime.py
+            /scripts/build-shards43-45.py
+            /.github/workflows/build-shards43-45.yml
+            /apt/dists/stable/
+            /apt/ocean.gpg
+            /staging/shard-43/
+            /staging/shard-44/
+            /staging/shard-45/
+            /staging/multiplier-superpack/
+
+      - name: Install build tools
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          sudo apt-get install -y dpkg-dev gnupg gzip
+
+      - name: Compile and validate source model
+        run: |
+          set -euo pipefail
+          python3 -m py_compile sources/multiplier-shards/shards43_45_runtime.py scripts/build-shards43-45.py
+          python3 - <<'PY'
+          import importlib.util
+          from pathlib import Path
+          p=Path("sources/multiplier-shards/shards43_45_runtime.py")
+          s=importlib.util.spec_from_file_location("m",p)
+          m=importlib.util.module_from_spec(s);s.loader.exec_module(m)
+          assert len(m.FAMILIES)==30
+          assert all(len(v)==10 for v in m.FAMILIES.values())
+          assert len(m.COMMANDS)==300 and len(set(m.COMMANDS))==300
+          assert len(m.GATEWAYS)==15
+          assert {"uv","uvx","npx","fastmcp","apm","claude-code","codex-cli","claude-mcp-add","codex-mcp-add"} <= set(m.GATEWAYS)
+          print("PASS: 300 standalone commands + 15 multiplier gateways defined")
+          PY
+
+      - name: Build all new packages
+        run: |
+          set -euo pipefail
+          python3 scripts/build-shards43-45.py
+
+      - name: Audit package counts and identities
+        run: |
+          set -euo pipefail
+          test "$(find staging/shard-43/pool/main -name '*.deb' -type f | wc -l)" -eq 116
+          test "$(find staging/shard-44/pool/main -name '*.deb' -type f | wc -l)" -eq 101
+          test "$(find staging/shard-45/pool/main -name '*.deb' -type f | wc -l)" -eq 101
+          test "$(find staging/multiplier-superpack/pool/main -name '*.deb' -type f | wc -l)" -eq 1
+          test "$(find staging/shard-43 staging/shard-44 staging/shard-45 staging/multiplier-superpack -name '*.deb' -type f | wc -l)" -eq 319
+
+          python3 - <<'PY'
+          import json,re,subprocess
+          from pathlib import Path
+          live=Path("apt/dists/stable/main/binary-aarch64/Packages").read_text(errors="replace")
+          live_names=set(re.findall(r"^Package:\s*(\S+)",live,re.M))
+          new=[]
+          for folder in ("shard-43","shard-44","shard-45","multiplier-superpack"):
+              p=Path("staging")/folder/"provenance.json"
+              d=json.loads(p.read_text())
+              assert d["packageCount"]==d["uniquePackageCount"]
+              new += [x["package"] for x in d["packages"]]
+          assert len(new)==319 and len(set(new))==319
+          collision=sorted(set(new)&live_names)
+          assert not collision, collision
+          assert {"uv","uvx","npx","fastmcp","apm","claude-code","codex-cli","claude-mcp-add","claude-mcp-list","claude-mcp-remove","codex-mcp-add","codex-mcp-list","codex-mcp-remove","apm-mcp-install","apm-mcp-list"} <= set(new)
+          print("PASS: 319 unique repo-new package names")
+          PY
+
+      - name: Smoke-test all 300 standalone utility runtimes
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json,subprocess,tempfile
+          from pathlib import Path
+          checked=0
+          for folder in ("shard-43","shard-44","shard-45"):
+              d=json.loads((Path("staging")/folder/"provenance.json").read_text())
+              for row in d["packages"]:
+                  if row["kind"]!="standalone-utility":
+                      continue
+                  deb=Path("staging")/folder/"pool/main"/row["artifact"]
+                  with tempfile.TemporaryDirectory() as td:
+                      subprocess.run(["dpkg-deb","-x",str(deb),td],check=True,stdout=subprocess.DEVNULL)
+                      py=next(Path(td).rglob(row["package"]+".py"))
+                      r=subprocess.run(["python3",str(py),row["package"],"--self-test"],text=True,capture_output=True)
+                      if r.returncode!=0 or '"ok": true' not in r.stdout.lower():
+                          raise SystemExit(row["package"]+" self-test failed: "+r.stdout+r.stderr)
+                  checked+=1
+          assert checked==300, checked
+          print("PASS:",checked,"standalone package self-tests")
+          PY
+
+      - name: Audit gateways, controls and dependency closure
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json,re,subprocess,tempfile
+          from pathlib import Path
+
+          live=Path("apt/dists/stable/main/binary-aarch64/Packages").read_text(errors="replace")
+          available=set(re.findall(r"^Package:\s*(\S+)",live,re.M))
+          rows=[]
+          for folder in ("shard-43","shard-44","shard-45","multiplier-superpack"):
+              d=json.loads((Path("staging")/folder/"provenance.json").read_text())
+              for row in d["packages"]:
+                  row=dict(row);row["folder"]=folder;rows.append(row)
+          available.update(r["package"] for r in rows)
+
+          def atoms(value):
+              for group in value.split(","):
+                  alts=[]
+                  for alt in group.split("|"):
+                      x=re.sub(r"\s*\(.*?\)\s*","",alt).strip()
+                      if x: alts.append(x)
+                  if alts: yield alts
+
+          gateways=0
+          for row in rows:
+              deb=Path("staging")/row["folder"]/"pool/main"/row["artifact"]
+              subprocess.run(["dpkg-deb","--info",str(deb)],check=True,stdout=subprocess.DEVNULL)
+              fields=subprocess.check_output(["dpkg-deb","-f",str(deb)],text=True)
+              dep=""
+              for line in fields.splitlines():
+                  if line.startswith("Depends:"): dep=line.split(":",1)[1].strip()
+              for group in atoms(dep):
+                  if not any(x in available for x in group):
+                      raise SystemExit("%s unresolved dependency: %s"%(row["package"]," | ".join(group)))
+              with tempfile.TemporaryDirectory() as td:
+                  subprocess.run(["dpkg-deb","-x",str(deb),td],check=True,stdout=subprocess.DEVNULL)
+                  bins=list((Path(td)/"data/data/studio.ocean.app/files/usr/bin").glob("*"))
+                  for b in bins:
+                      if b.is_file() and not b.is_symlink():
+                          subprocess.run(["sh","-n",str(b)],check=True)
+              if row["kind"]=="upstream-gateway": gateways+=1
+
+          assert gateways==15
+          print("PASS: controls, shell syntax and dependencies; gateways=",gateways)
+          PY
+
+      - name: Commit verified staged packages
+        run: |
+          set -euo pipefail
+          git config user.name "Ocean Multiplier Builder"
+          git config user.email "packages@ocean.studio"
+          git add staging/shard-43 staging/shard-44 staging/shard-45 staging/multiplier-superpack
+          if ! git diff --cached --quiet; then
+            git commit -m "feat(shards43-45): stage 319 real utility and multiplier packages [skip ci]"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+
+      - name: Check whether signed live promotion is available
+        id: signing
+        env:
+          OCEAN_REPOSITORY_SIGNING_KEY: ${{ secrets.OCEAN_REPOSITORY_SIGNING_KEY }}
+        run: |
+          if [ -n "${OCEAN_REPOSITORY_SIGNING_KEY:-}" ]; then
+            echo "available=true" >> "$GITHUB_OUTPUT"
+            echo "Signing key available: live promotion enabled"
+          else
+            echo "available=false" >> "$GITHUB_OUTPUT"
+            echo "Signing key absent: packages remain verified/staged; live APT left untouched"
+          fi
+
+      - name: Promote all 319 packages into live APT
+        if: steps.signing.outputs.available == 'true'
+        run: |
+          set -euo pipefail
+          git pull --rebase origin main
+          mkdir -p apt/pool/main
+
+          find staging/shard-43 staging/shard-44 staging/shard-45 staging/multiplier-superpack -path '*/pool/main/*.deb' -type f -print0 |
+            while IFS= read -r -d '' f; do cp "$f" apt/pool/main/; done
+
+          python3 - <<'PY'
+          import hashlib,re,subprocess
+          from pathlib import Path
+          index=Path("apt/dists/stable/main/binary-aarch64/Packages")
+          text=index.read_text(errors="replace")
+          stanzas=[s for s in re.split(r"\n\s*\n",text.strip()) if s.strip()]
+          def name(s):
+              m=re.search(r"^Package:\s*(\S+)",s,re.M);return m.group(1) if m else ""
+          pkgmap={name(s):s for s in stanzas if name(s)}
+          before=len(pkgmap)
+          debs=[]
+          for folder in ("shard-43","shard-44","shard-45","multiplier-superpack"):
+              debs += list((Path("staging")/folder/"pool/main").glob("*.deb"))
+          assert len(debs)==319
+          for deb in debs:
+              fields=subprocess.check_output(["dpkg-deb","-f",str(deb)],text=True).strip()
+              pkg=re.search(r"^Package:\s*(\S+)",fields,re.M).group(1)
+              if pkg in pkgmap:
+                  raise SystemExit("live collision during promotion: "+pkg)
+              raw=deb.read_bytes()
+              stanza=fields+"\nFilename: pool/main/%s\nSize: %d\nMD5sum: %s\nSHA1: %s\nSHA256: %s"%(
+                  deb.name,len(raw),hashlib.md5(raw).hexdigest(),hashlib.sha1(raw).hexdigest(),hashlib.sha256(raw).hexdigest())
+              pkgmap[pkg]=stanza
+          assert len(pkgmap)==before+319
+          index.write_text("\n\n".join(pkgmap[k] for k in sorted(pkgmap))+"\n")
+          print("Live index:",before,"->",len(pkgmap))
+          PY
+
+          gzip -n -9 -c apt/dists/stable/main/binary-aarch64/Packages > apt/dists/stable/main/binary-aarch64/Packages.gz
+
+      - name: Sign and verify updated live APT
+        if: steps.signing.outputs.available == 'true'
+        env:
+          OCEAN_REPOSITORY_SIGNING_KEY: ${{ secrets.OCEAN_REPOSITORY_SIGNING_KEY }}
+        run: |
+          set -euo pipefail
+          EXPECTED=$(gpg --batch --show-keys --with-colons apt/ocean.gpg 2>/dev/null | awk -F: '$1=="fpr"{print $10;exit}')
+          test -n "$EXPECTED"
+          printf '%s\n' "$OCEAN_REPOSITORY_SIGNING_KEY" | gpg --batch --import
+          ACTUAL=$(gpg --batch --list-secret-keys --with-colons 2>/dev/null | awk -F: '$1=="fpr"{print $10;exit}')
+          [ "$ACTUAL" = "$EXPECTED" ] || { echo "Signing fingerprint mismatch" >&2; exit 1; }
+
+          PKG=apt/dists/stable/main/binary-aarch64/Packages
+          PKG_GZ=apt/dists/stable/main/binary-aarch64/Packages.gz
+          RELEASE=apt/dists/stable/Release
+          DATE=$(date -u -R)
+          VALID=$(date -u -R -d '+365 days')
+          {
+            echo "Origin: OceanStudio"
+            echo "Label: Ocean Packages"
+            echo "Suite: stable"
+            echo "Codename: stable"
+            echo "Architectures: aarch64 all"
+            echo "Components: main"
+            echo "Description: Official Ocean APT Repository"
+            echo "Date: $DATE"
+            echo "Valid-Until: $VALID"
+            echo "MD5Sum:"
+            printf ' %s %s main/binary-aarch64/Packages\n' "$(md5sum "$PKG" | awk '{print $1}')" "$(stat -c %s "$PKG")"
+            printf ' %s %s main/binary-aarch64/Packages.gz\n' "$(md5sum "$PKG_GZ" | awk '{print $1}')" "$(stat -c %s "$PKG_GZ")"
+            echo "SHA1:"
+            printf ' %s %s main/binary-aarch64/Packages\n' "$(sha1sum "$PKG" | awk '{print $1}')" "$(stat -c %s "$PKG")"
+            printf ' %s %s main/binary-aarch64/Packages.gz\n' "$(sha1sum "$PKG_GZ" | awk '{print $1}')" "$(stat -c %s "$PKG_GZ")"
+            echo "SHA256:"
+            printf ' %s %s main/binary-aarch64/Packages\n' "$(sha256sum "$PKG" | awk '{print $1}')" "$(stat -c %s "$PKG")"
+            printf ' %s %s main/binary-aarch64/Packages.gz\n' "$(sha256sum "$PKG_GZ" | awk '{print $1}')" "$(stat -c %s "$PKG_GZ")"
+          } > "$RELEASE"
+
+          rm -f apt/dists/stable/InRelease apt/dists/stable/Release.gpg
+          gpg --batch --yes --local-user "$EXPECTED" --digest-algo SHA256 --clearsign --output apt/dists/stable/InRelease "$RELEASE"
+          gpg --batch --yes --local-user "$EXPECTED" --digest-algo SHA256 --detach-sign --output apt/dists/stable/Release.gpg "$RELEASE"
+          gpgv --keyring apt/ocean.gpg apt/dists/stable/InRelease
+          gpgv --keyring apt/ocean.gpg apt/dists/stable/Release.gpg "$RELEASE"
+
+          git add apt/dists/stable
+          git add --sparse apt/pool/main/*.deb
+          git commit -m "feat(repo): promote 319 shards43-45 packages into signed live APT [skip ci]"
+          git pull --rebase origin main
+          git push origin HEAD:main
+
+      - name: Report
+        run: |
+          echo "Standalone utilities: 300"
+          echo "Multiplier gateways: 15"
+          echo "Meta packages: 4"
+          echo "Total new package names: 319"
+          echo "Signed live promotion available: ${{ steps.signing.outputs.available }}"
