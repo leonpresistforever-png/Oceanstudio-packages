@@ -32,7 +32,8 @@ def vnc(cmd,a):
         if not a:die("vnc://host:port required")
         u=urllib.parse.urlsplit(a[0]);emit({"scheme":u.scheme,"host":u.hostname,"port":u.port or 5900,"display":((u.port or 5900)-5900) if (u.port or 5900)>=5900 else None,"query":dict(urllib.parse.parse_qsl(u.query))});return
     if op=="vnc-endpoint":
-        if not a:die("HOST[:PORT]");s=a[0]
+        if not a:die("HOST[:PORT]")
+        s=a[0]
         host,port=(s.rsplit(":",1) if ":" in s else (s,"5900"));emit({"host":host,"port":int(port)});return
     if op=="vnc-default-port":print(5900);return
     if op=="vnc-port-check":
@@ -61,14 +62,18 @@ def vnc(cmd,a):
         if len(b)<12:die("need 12 bytes")
         x,y,w,h,enc=struct.unpack(">HHHHi",b[:12]);emit({"x":x,"y":y,"width":w,"height":h,"encoding":enc,"encoding_name":RFB_ENCODINGS.get(enc)});return
     if op=="vnc-rfb-key-event":
-        if len(a)<2:die("DOWN KEYCODE");down=int(a[0])!=0;key=int(a[1],0);print((bytes([4,1 if down else 0,0,0])+struct.pack(">I",key)).hex());return
+        if len(a)<2:die("DOWN KEYCODE")
+        down=int(a[0])!=0;key=int(a[1],0);print((bytes([4,1 if down else 0,0,0])+struct.pack(">I",key)).hex());return
     if op=="vnc-rfb-pointer-event":
-        if len(a)<3:die("MASK X Y");print((bytes([5,int(a[0],0)&255])+struct.pack(">HH",int(a[1]),int(a[2]))).hex());return
+        if len(a)<3:die("MASK X Y")
+        print((bytes([5,int(a[0],0)&255])+struct.pack(">HH",int(a[1]),int(a[2]))).hex());return
     if op=="vnc-rfb-cuttext-size":
         b=bytes.fromhex(a[0]) if a else sys.stdin.buffer.read()
-        if len(b)<8:die("need ServerCutText header");print(struct.unpack(">I",b[4:8])[0]);return
+        if len(b)<8:die("need ServerCutText header")
+        print(struct.unpack(">I",b[4:8])[0]);return
     if op=="vnc-rfb-framebuffer-request":
-        if len(a)<4:die("X Y W H [incremental]");x,y,w,h=map(int,a[:4]);inc=int(a[4]) if len(a)>4 else 1;print((bytes([3,inc])+struct.pack(">HHHH",x,y,w,h)).hex());return
+        if len(a)<4:die("X Y W H [incremental]")
+        x,y,w,h=map(int,a[:4]);inc=int(a[4]) if len(a)>4 else 1;print((bytes([3,inc])+struct.pack(">HHHH",x,y,w,h)).hex());return
     if op=="vnc-password-length-check":emit({"length":len(a[0]) if a else 0,"classic_vnc_uses_first_8":len(a[0])>8 if a else False});return
     if op=="vnc-session-env":emit({k:v for k,v in os.environ.items() if any(x in k.upper() for x in ("VNC","DISPLAY","XAUTH"))});return
     if op=="vnc-display-port":print(5900+int(a[0]));return
