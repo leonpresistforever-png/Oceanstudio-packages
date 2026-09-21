@@ -1,0 +1,483 @@
+{
+  "schemaVersion": 1,
+  "suite": "shard-28",
+  "version": "1.0.0-1",
+  "sourceType": "Ocean-native original source",
+  "prefix": "/data/data/studio.ocean.app/files/usr",
+  "packageCount": 67,
+  "uniquePackageCount": 67,
+  "termuxRuntimeDependency": false,
+  "topic": "WASM/WASI 0.3/Component Model",
+  "packages": [
+    {
+      "package": "wasm-magic-check",
+      "artifact": "wasm-magic-check_1.0.0-1_all.deb",
+      "bytes": 4490,
+      "sha256": "b1236dba92ffb26c722cec9105a1a774f464aff0636d831e7fbb35384d06c313",
+      "depends": "python"
+    },
+    {
+      "package": "wasm-version",
+      "artifact": "wasm-version_1.0.0-1_all.deb",
+      "bytes": 4488,
+      "sha256": "1c3177ecda3b924640152b760df4b4ae1ba05c880bafd9e55f68a4ddcb232b0f",
+      "depends": "python"
+    },
+    {
+      "package": "wasm-section-list",
+      "artifact": "wasm-section-list_1.0.0-1_all.deb",
+      "bytes": 4494,
+      "sha256": "74f25f915576255c4287b15309b0227cd123d13205d2180c4dadf67a20fe830b",
+      "depends": "python"
+    },
+    {
+      "package": "wasm-section-sizes",
+      "artifact": "wasm-section-sizes_1.0.0-1_all.deb",
+      "bytes": 4498,
+      "sha256": "da2e6210e244b1dcca988c2a161df8896b1d78bd6b7251a2ced0e6ea9a1c3437",
+      "depends": "python"
+    },
+    {
+      "package": "wasm-custom-sections",
+      "artifact": "wasm-custom-sections_1.0.0-1_all.deb",
+      "bytes": 4498,
+      "sha256": "f7a1e33a210ecfb619a6549d1ceb667a336622b7a6c946fff33286a8dc6b699c",
+      "depends": "python"
+    },
+    {
+      "package": "wasm-type-count",
+      "artifact": "wasm-type-count_1.0.0-1_all.deb",
+      "bytes": 4490,
+      "sha256": "d7419aafe3276c4bdac182fc12ce7e11e09333443158aa96e0378ebca2d12410",
+      "depends": "python"
+    },
+    {
+      "package": "wasm-import-count",
+      "artifact": "wasm-import-count_1.0.0-1_all.deb",
+      "bytes": 4500,
+      "sha256": "ec445b16fae14d541a7eaa7df782f22d855617586ab366157961efc28fadaf3b",
+      "depends": "python"
+    },
+    {
+      "package": "wasm-export-count",
+      "artifact": "wasm-export-count_1.0.0-1_all.deb",
+      "bytes": 4500,
+      "sha256": "11b599ed05532aff8e31c605bc98a16dc4618be8dd0dadc1de17fe890ef082d5",
+      "depends": "python"
+    },
+    {
+      "package": "wasm-function-count",
+      "artifact": "wasm-function-count_1.0.0-1_all.deb",
+      "bytes": 4498,
+      "sha256": "06b38bdc4cc5123f956d920b252df786d6eee66c45756a8544d9a70fdebfe9ac",
+      "depends": "python"
+    },
+    {
+      "package": "wasm-table-count",
+      "artifact": "wasm-table-count_1.0.0-1_all.deb",
+      "bytes": 4498,
+      "sha256": "f547413b2773c2e6528e428927aea3b43d0de7fba969d14f39083b75d2323e71",
+      "depends": "python"
+    },
+    {
+      "package": "wasm-memory-count",
+      "artifact": "wasm-memory-count_1.0.0-1_all.deb",
+      "bytes": 4498,
+      "sha256": "7146139d874146ad6c02e0dbfc7029e2b5a6f972a0c2618b776265f235d30f04",
+      "depends": "python"
+    },
+    {
+      "package": "wasm-global-count",
+      "artifact": "wasm-global-count_1.0.0-1_all.deb",
+      "bytes": 4498,
+      "sha256": "a30b8a0bf0c8a27e05bbc3ce9686bad99db40209cee6575c03bf2b27c88b69ec",
+      "depends": "python"
+    },
+    {
+      "package": "wasm-code-count",
+      "artifact": "wasm-code-count_1.0.0-1_all.deb",
+      "bytes": 4494,
+      "sha256": "069b4f22a6aa096b5dd18551ad50157dbc833cba41565a38bc6c9274b079c6c1",
+      "depends": "python"
+    },
+    {
+      "package": "wasm-data-count",
+      "artifact": "wasm-data-count_1.0.0-1_all.deb",
+      "bytes": 4496,
+      "sha256": "2d8a395055e3a5298bd33d2f2c0a1c3448fe8e614d98c9bdd5c70d911bbb3afa",
+      "depends": "python"
+    },
+    {
+      "package": "wasm-start-function",
+      "artifact": "wasm-start-function_1.0.0-1_all.deb",
+      "bytes": 4498,
+      "sha256": "734e6b9ae0a237127c80f660f4e0a628072797cbd584ee1dd9d411c80d863ba5",
+      "depends": "python"
+    },
+    {
+      "package": "wasm-name-section",
+      "artifact": "wasm-name-section_1.0.0-1_all.deb",
+      "bytes": 4494,
+      "sha256": "7c518601d9db626f553ac621c7428fdcf045fe2e39032c41c8d616e8f2a2fd27",
+      "depends": "python"
+    },
+    {
+      "package": "wasm-producers-section",
+      "artifact": "wasm-producers-section_1.0.0-1_all.deb",
+      "bytes": 4502,
+      "sha256": "00fd67057c7ace122827d00b45837fc574069e4a84bc23f24916bc7045da998d",
+      "depends": "python"
+    },
+    {
+      "package": "wasm-target-features",
+      "artifact": "wasm-target-features_1.0.0-1_all.deb",
+      "bytes": 4496,
+      "sha256": "805523427aa65a41fa3274fa3d9c50169c85d64013ea06916b8ba7c242c88d8d",
+      "depends": "python"
+    },
+    {
+      "package": "wasm-import-modules",
+      "artifact": "wasm-import-modules_1.0.0-1_all.deb",
+      "bytes": 4500,
+      "sha256": "4097356223cefadaf98eb4add5605c1b0a3e0f76ceee52ef8bd00ae98337743a",
+      "depends": "python"
+    },
+    {
+      "package": "wasm-export-names",
+      "artifact": "wasm-export-names_1.0.0-1_all.deb",
+      "bytes": 4492,
+      "sha256": "1dca3ab68c89197a0086418731a958340810fbcc1c5f10cb141738172b2aa946",
+      "depends": "python"
+    },
+    {
+      "package": "wasm-memory-limits",
+      "artifact": "wasm-memory-limits_1.0.0-1_all.deb",
+      "bytes": 4494,
+      "sha256": "a732e1e60ee826873c7394a218a241cc715413f85198bb7c8baa2fa97fb42bc2",
+      "depends": "python"
+    },
+    {
+      "package": "wasm-table-limits",
+      "artifact": "wasm-table-limits_1.0.0-1_all.deb",
+      "bytes": 4498,
+      "sha256": "c3b28ca15fb3a8b161f83338e4a8405c6c13a2dc89df6acaf1b1da0c5b94aeaa",
+      "depends": "python"
+    },
+    {
+      "package": "wasm-data-bytes",
+      "artifact": "wasm-data-bytes_1.0.0-1_all.deb",
+      "bytes": 4494,
+      "sha256": "f3c6a8fcf35341836ad2a277aa436b7e188cd4fe4f2652f021ec6e23629b3258",
+      "depends": "python"
+    },
+    {
+      "package": "wasm-code-bytes",
+      "artifact": "wasm-code-bytes_1.0.0-1_all.deb",
+      "bytes": 4494,
+      "sha256": "fa3a271b78146c2e4204f9224e20e05292c2f1f94acb4f280095ce3589fb935b",
+      "depends": "python"
+    },
+    {
+      "package": "wasm-custom-names",
+      "artifact": "wasm-custom-names_1.0.0-1_all.deb",
+      "bytes": 4494,
+      "sha256": "30ff2dcc0389815341422733c7c09f421e819b4dd63f401c19da06221d0bb9c0",
+      "depends": "python"
+    },
+    {
+      "package": "wasm-section-order",
+      "artifact": "wasm-section-order_1.0.0-1_all.deb",
+      "bytes": 4496,
+      "sha256": "c8535471f84ac7358b076a893a659c4abd9d2f930c102600cab921f2fa3164c1",
+      "depends": "python"
+    },
+    {
+      "package": "wasm-section-duplicates",
+      "artifact": "wasm-section-duplicates_1.0.0-1_all.deb",
+      "bytes": 4502,
+      "sha256": "cc8e9977a71149d2135a27f3537139267a8365516eee64cc62babacc36a0b706",
+      "depends": "python"
+    },
+    {
+      "package": "wasm-size-summary",
+      "artifact": "wasm-size-summary_1.0.0-1_all.deb",
+      "bytes": 4492,
+      "sha256": "9b205d43904f5b2133f9cb89211884c57aa8823a7b24fec4651cdf9b368448a4",
+      "depends": "python"
+    },
+    {
+      "package": "wasm-sha256",
+      "artifact": "wasm-sha256_1.0.0-1_all.deb",
+      "bytes": 4488,
+      "sha256": "f5e76d353520ea512780deb7926416a3b1846df7531c47f7cdebb692a875ba4c",
+      "depends": "python"
+    },
+    {
+      "package": "wasm-entropy",
+      "artifact": "wasm-entropy_1.0.0-1_all.deb",
+      "bytes": 4486,
+      "sha256": "44ddfbff89af24322c58d5b40785e83a2fa2002aa6f9283cc001df8eec619d8a",
+      "depends": "python"
+    },
+    {
+      "package": "wasm-hexdump",
+      "artifact": "wasm-hexdump_1.0.0-1_all.deb",
+      "bytes": 4490,
+      "sha256": "c3052f2b1c2f0b4654f39db201c93829179aaa2943609ba76bf6dda5720116ca",
+      "depends": "python"
+    },
+    {
+      "package": "wasm-leb128-u32",
+      "artifact": "wasm-leb128-u32_1.0.0-1_all.deb",
+      "bytes": 4492,
+      "sha256": "6f9400f45a367514865ee7bb31212bb1b3f95b1b8f8bb85fde02d226e39d2319",
+      "depends": "python"
+    },
+    {
+      "package": "wasm-leb128-i32",
+      "artifact": "wasm-leb128-i32_1.0.0-1_all.deb",
+      "bytes": 4496,
+      "sha256": "79488e7b2aed104b045afe1004de25a4fa9f7b5a2945c8389e9a6bcbd3940ab4",
+      "depends": "python"
+    },
+    {
+      "package": "wasm-validate-basic",
+      "artifact": "wasm-validate-basic_1.0.0-1_all.deb",
+      "bytes": 4498,
+      "sha256": "50786357497005dc15ccff0a83e8e28d28bcaad12bb5e4c52f392f3167d5c6cb",
+      "depends": "python"
+    },
+    {
+      "package": "wasm-component-detect",
+      "artifact": "wasm-component-detect_1.0.0-1_all.deb",
+      "bytes": 4490,
+      "sha256": "2c685a672312c84e971dfc73c3c89dbf1626f3ea2df255ec3cb603ebaade8487",
+      "depends": "python"
+    },
+    {
+      "package": "wit-package-name",
+      "artifact": "wit-package-name_1.0.0-1_all.deb",
+      "bytes": 4482,
+      "sha256": "e11b3e608fd0ab4a92801d900919efa11651d5d2fb5c5ffad160a848ca827031",
+      "depends": "python"
+    },
+    {
+      "package": "wit-worlds",
+      "artifact": "wit-worlds_1.0.0-1_all.deb",
+      "bytes": 4484,
+      "sha256": "57f8beb0d719cfa6f81f0d72ddb2332f8bdc174f210116e4a79b71c6ebfdb0c5",
+      "depends": "python"
+    },
+    {
+      "package": "wit-interfaces",
+      "artifact": "wit-interfaces_1.0.0-1_all.deb",
+      "bytes": 4490,
+      "sha256": "95aafb419aa72f6e15dcb9ade05baa88d4e8241850b27ccacc61f22d981ce423",
+      "depends": "python"
+    },
+    {
+      "package": "wit-functions",
+      "artifact": "wit-functions_1.0.0-1_all.deb",
+      "bytes": 4486,
+      "sha256": "87f4a91aa2210e2e97407c8d77de6f3fb8c10a5e6f81921b64c10bb4a9483556",
+      "depends": "python"
+    },
+    {
+      "package": "wit-records",
+      "artifact": "wit-records_1.0.0-1_all.deb",
+      "bytes": 4492,
+      "sha256": "918fd2a26fbd0515d74806cd1f53268c334ac73d2462a465072f1cd01a0a4d5b",
+      "depends": "python"
+    },
+    {
+      "package": "wit-variants",
+      "artifact": "wit-variants_1.0.0-1_all.deb",
+      "bytes": 4490,
+      "sha256": "df5774036eac730985aa8885b4684c2ff87781e55bd495ffab21f9fedd428157",
+      "depends": "python"
+    },
+    {
+      "package": "wit-resources",
+      "artifact": "wit-resources_1.0.0-1_all.deb",
+      "bytes": 4494,
+      "sha256": "eec44d57cd295ea9206d0aa8327093015afe7f4cd1f9909a47c3957c51efc0f9",
+      "depends": "python"
+    },
+    {
+      "package": "wit-enums",
+      "artifact": "wit-enums_1.0.0-1_all.deb",
+      "bytes": 4490,
+      "sha256": "c917561e3ab25e8b3d5d261861a385400ad3c4ab2c108c78692c9ae8e8e7391e",
+      "depends": "python"
+    },
+    {
+      "package": "wit-flags",
+      "artifact": "wit-flags_1.0.0-1_all.deb",
+      "bytes": 4490,
+      "sha256": "5eeff6fbea4421ab6d707bc59019555760bb9953c84a3d8da1c07216089f478a",
+      "depends": "python"
+    },
+    {
+      "package": "wit-types",
+      "artifact": "wit-types_1.0.0-1_all.deb",
+      "bytes": 4488,
+      "sha256": "17d467520285061cf7e6578e847d0e668883de72b5f58ba97796c56c148506e4",
+      "depends": "python"
+    },
+    {
+      "package": "wit-use-count",
+      "artifact": "wit-use-count_1.0.0-1_all.deb",
+      "bytes": 4492,
+      "sha256": "fb64bbd6c1291613bbaa4b4cd463376c7888bb593f38fbf12b1e88ff590980c6",
+      "depends": "python"
+    },
+    {
+      "package": "wit-include-count",
+      "artifact": "wit-include-count_1.0.0-1_all.deb",
+      "bytes": 4494,
+      "sha256": "ad651bfeb8bab12c51e1c9febc374e1edfb0efcb317c11fd4c81a14691e0a767",
+      "depends": "python"
+    },
+    {
+      "package": "wit-async-functions",
+      "artifact": "wit-async-functions_1.0.0-1_all.deb",
+      "bytes": 4496,
+      "sha256": "4970efe8db560c27cae71b9f7f5a54bd8a14ef6cd4b748f72e8c8c2b770dc1a0",
+      "depends": "python"
+    },
+    {
+      "package": "wit-stream-types",
+      "artifact": "wit-stream-types_1.0.0-1_all.deb",
+      "bytes": 4490,
+      "sha256": "48a462c73da9e9bd9fbb999e82882c225d0129dc628b0e3e5370e482ac6920e7",
+      "depends": "python"
+    },
+    {
+      "package": "wit-future-types",
+      "artifact": "wit-future-types_1.0.0-1_all.deb",
+      "bytes": 4488,
+      "sha256": "b61bc82e02649884b41548d073f499c9f9f325f7e9340b150756da65bb414ca4",
+      "depends": "python"
+    },
+    {
+      "package": "wasi-version-hints",
+      "artifact": "wasi-version-hints_1.0.0-1_all.deb",
+      "bytes": 4492,
+      "sha256": "7847e9ccebe4605ae2f92826290b00146a8ff2c86d6b910918db3da83bc15d4a",
+      "depends": "python"
+    },
+    {
+      "package": "wasi-imports",
+      "artifact": "wasi-imports_1.0.0-1_all.deb",
+      "bytes": 4490,
+      "sha256": "750fef9d6d06007699f71c24d4e57a73269a5d3634177e7e16d97a5c648249f4",
+      "depends": "python"
+    },
+    {
+      "package": "wasi-preview1-detect",
+      "artifact": "wasi-preview1-detect_1.0.0-1_all.deb",
+      "bytes": 4494,
+      "sha256": "37c34755fbdb9eb373794d509c60d5e0a78b8ccd8a3c8ef813374c082c23cef8",
+      "depends": "python"
+    },
+    {
+      "package": "wasi-preview2-detect",
+      "artifact": "wasi-preview2-detect_1.0.0-1_all.deb",
+      "bytes": 4496,
+      "sha256": "c0d23e4dc0121b0d1a0cdf6367f87730f8a6b811cbe0199b5920ea66731245ed",
+      "depends": "python"
+    },
+    {
+      "package": "wasi-preview3-hints",
+      "artifact": "wasi-preview3-hints_1.0.0-1_all.deb",
+      "bytes": 4500,
+      "sha256": "bf70920eea079613ac9e6eb3ab96c1b22a420739ab3e70c38867458e431d1d07",
+      "depends": "python"
+    },
+    {
+      "package": "wasi-http-hints",
+      "artifact": "wasi-http-hints_1.0.0-1_all.deb",
+      "bytes": 4494,
+      "sha256": "a02fd90be3651a1c59df248c56ab7c7427e27b23da8e4f684e3cfa79dbd28e07",
+      "depends": "python"
+    },
+    {
+      "package": "wasi-cli-hints",
+      "artifact": "wasi-cli-hints_1.0.0-1_all.deb",
+      "bytes": 4492,
+      "sha256": "88a9a18dbfe00f4eaa41f5786ab18defe764e8c5ed6404ce619cdfc51b71ba53",
+      "depends": "python"
+    },
+    {
+      "package": "wasi-filesystem-hints",
+      "artifact": "wasi-filesystem-hints_1.0.0-1_all.deb",
+      "bytes": 4492,
+      "sha256": "3fe296fcc152a1b2350ffaa6c697a6df3e58e8efe29b0eea495bf03bfb6d522c",
+      "depends": "python"
+    },
+    {
+      "package": "wasi-sockets-hints",
+      "artifact": "wasi-sockets-hints_1.0.0-1_all.deb",
+      "bytes": 4496,
+      "sha256": "da84c33eff44aa6e8d0835c32ef4fcbd13aa473afa2e01514240ca4807fdb527",
+      "depends": "python"
+    },
+    {
+      "package": "wasi-random-hints",
+      "artifact": "wasi-random-hints_1.0.0-1_all.deb",
+      "bytes": 4498,
+      "sha256": "4e6b742e799665de1e3e3687dcd029adfd1e1ec33e1661763adfd7e085b2e730",
+      "depends": "python"
+    },
+    {
+      "package": "wasi-clocks-hints",
+      "artifact": "wasi-clocks-hints_1.0.0-1_all.deb",
+      "bytes": 4498,
+      "sha256": "13d239840a8d7a06e2ad586a343ecebe4a213640551769080f04cde55a4bf817",
+      "depends": "python"
+    },
+    {
+      "package": "wasi-io-hints",
+      "artifact": "wasi-io-hints_1.0.0-1_all.deb",
+      "bytes": 4490,
+      "sha256": "e95fb4ec962c40c3e990fe82ed5239d5610cd879e1c495f45d1b1f0798536d4a",
+      "depends": "python"
+    },
+    {
+      "package": "wasi-component-hints",
+      "artifact": "wasi-component-hints_1.0.0-1_all.deb",
+      "bytes": 4496,
+      "sha256": "91319f81de40048787c0a32c572f16f566f11c286f1ac1cf04286f112b9c8172",
+      "depends": "python"
+    },
+    {
+      "package": "component-section-list",
+      "artifact": "component-section-list_1.0.0-1_all.deb",
+      "bytes": 4492,
+      "sha256": "9dcf7bb2cad847d9f754c341404949b9d4d85628f54e011d2d0905408ed647b1",
+      "depends": "python"
+    },
+    {
+      "package": "component-import-hints",
+      "artifact": "component-import-hints_1.0.0-1_all.deb",
+      "bytes": 4492,
+      "sha256": "fed19e4126a065201354708e249371609c5a9d6ec1f8ca6e55ea2e0c08dfb2b3",
+      "depends": "python"
+    },
+    {
+      "package": "component-export-hints",
+      "artifact": "component-export-hints_1.0.0-1_all.deb",
+      "bytes": 4500,
+      "sha256": "4d79255e2d607706d829941d0b1104ff0ff426cd352d7c941ce56b8779f0f56d",
+      "depends": "python"
+    },
+    {
+      "package": "component-async-hints",
+      "artifact": "component-async-hints_1.0.0-1_all.deb",
+      "bytes": 4492,
+      "sha256": "f65def5350a87a33864e7b286e49cbb6921e4a3a23f3a483243f6928ba106366",
+      "depends": "python"
+    }
+  ],
+  "promotion": "staging-only until APT promotion/signing"
+}

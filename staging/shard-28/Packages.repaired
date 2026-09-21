@@ -1,0 +1,937 @@
+Package: wasm-magic-check
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (wasm-magic-check)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/wasm-magic-check_1.0.0-1_all.deb
+Size: 4490
+SHA256: b1236dba92ffb26c722cec9105a1a774f464aff0636d831e7fbb35384d06c313
+
+Package: wasm-version
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (wasm-version)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/wasm-version_1.0.0-1_all.deb
+Size: 4488
+SHA256: 1c3177ecda3b924640152b760df4b4ae1ba05c880bafd9e55f68a4ddcb232b0f
+
+Package: wasm-section-list
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (wasm-section-list)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/wasm-section-list_1.0.0-1_all.deb
+Size: 4494
+SHA256: 74f25f915576255c4287b15309b0227cd123d13205d2180c4dadf67a20fe830b
+
+Package: wasm-section-sizes
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (wasm-section-sizes)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/wasm-section-sizes_1.0.0-1_all.deb
+Size: 4498
+SHA256: da2e6210e244b1dcca988c2a161df8896b1d78bd6b7251a2ced0e6ea9a1c3437
+
+Package: wasm-custom-sections
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (wasm-custom-sections)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/wasm-custom-sections_1.0.0-1_all.deb
+Size: 4498
+SHA256: f7a1e33a210ecfb619a6549d1ceb667a336622b7a6c946fff33286a8dc6b699c
+
+Package: wasm-type-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (wasm-type-count)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/wasm-type-count_1.0.0-1_all.deb
+Size: 4490
+SHA256: d7419aafe3276c4bdac182fc12ce7e11e09333443158aa96e0378ebca2d12410
+
+Package: wasm-import-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (wasm-import-count)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/wasm-import-count_1.0.0-1_all.deb
+Size: 4500
+SHA256: ec445b16fae14d541a7eaa7df782f22d855617586ab366157961efc28fadaf3b
+
+Package: wasm-export-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (wasm-export-count)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/wasm-export-count_1.0.0-1_all.deb
+Size: 4500
+SHA256: 11b599ed05532aff8e31c605bc98a16dc4618be8dd0dadc1de17fe890ef082d5
+
+Package: wasm-function-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (wasm-function-count)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/wasm-function-count_1.0.0-1_all.deb
+Size: 4498
+SHA256: 06b38bdc4cc5123f956d920b252df786d6eee66c45756a8544d9a70fdebfe9ac
+
+Package: wasm-table-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (wasm-table-count)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/wasm-table-count_1.0.0-1_all.deb
+Size: 4498
+SHA256: f547413b2773c2e6528e428927aea3b43d0de7fba969d14f39083b75d2323e71
+
+Package: wasm-memory-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (wasm-memory-count)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/wasm-memory-count_1.0.0-1_all.deb
+Size: 4498
+SHA256: 7146139d874146ad6c02e0dbfc7029e2b5a6f972a0c2618b776265f235d30f04
+
+Package: wasm-global-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (wasm-global-count)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/wasm-global-count_1.0.0-1_all.deb
+Size: 4498
+SHA256: a30b8a0bf0c8a27e05bbc3ce9686bad99db40209cee6575c03bf2b27c88b69ec
+
+Package: wasm-code-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (wasm-code-count)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/wasm-code-count_1.0.0-1_all.deb
+Size: 4494
+SHA256: 069b4f22a6aa096b5dd18551ad50157dbc833cba41565a38bc6c9274b079c6c1
+
+Package: wasm-data-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (wasm-data-count)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/wasm-data-count_1.0.0-1_all.deb
+Size: 4496
+SHA256: 2d8a395055e3a5298bd33d2f2c0a1c3448fe8e614d98c9bdd5c70d911bbb3afa
+
+Package: wasm-start-function
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (wasm-start-function)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/wasm-start-function_1.0.0-1_all.deb
+Size: 4498
+SHA256: 734e6b9ae0a237127c80f660f4e0a628072797cbd584ee1dd9d411c80d863ba5
+
+Package: wasm-name-section
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (wasm-name-section)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/wasm-name-section_1.0.0-1_all.deb
+Size: 4494
+SHA256: 7c518601d9db626f553ac621c7428fdcf045fe2e39032c41c8d616e8f2a2fd27
+
+Package: wasm-producers-section
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (wasm-producers-section)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/wasm-producers-section_1.0.0-1_all.deb
+Size: 4502
+SHA256: 00fd67057c7ace122827d00b45837fc574069e4a84bc23f24916bc7045da998d
+
+Package: wasm-target-features
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (wasm-target-features)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/wasm-target-features_1.0.0-1_all.deb
+Size: 4496
+SHA256: 805523427aa65a41fa3274fa3d9c50169c85d64013ea06916b8ba7c242c88d8d
+
+Package: wasm-import-modules
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (wasm-import-modules)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/wasm-import-modules_1.0.0-1_all.deb
+Size: 4500
+SHA256: 4097356223cefadaf98eb4add5605c1b0a3e0f76ceee52ef8bd00ae98337743a
+
+Package: wasm-export-names
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (wasm-export-names)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/wasm-export-names_1.0.0-1_all.deb
+Size: 4492
+SHA256: 1dca3ab68c89197a0086418731a958340810fbcc1c5f10cb141738172b2aa946
+
+Package: wasm-memory-limits
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (wasm-memory-limits)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/wasm-memory-limits_1.0.0-1_all.deb
+Size: 4494
+SHA256: a732e1e60ee826873c7394a218a241cc715413f85198bb7c8baa2fa97fb42bc2
+
+Package: wasm-table-limits
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (wasm-table-limits)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/wasm-table-limits_1.0.0-1_all.deb
+Size: 4498
+SHA256: c3b28ca15fb3a8b161f83338e4a8405c6c13a2dc89df6acaf1b1da0c5b94aeaa
+
+Package: wasm-data-bytes
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (wasm-data-bytes)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/wasm-data-bytes_1.0.0-1_all.deb
+Size: 4494
+SHA256: f3c6a8fcf35341836ad2a277aa436b7e188cd4fe4f2652f021ec6e23629b3258
+
+Package: wasm-code-bytes
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (wasm-code-bytes)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/wasm-code-bytes_1.0.0-1_all.deb
+Size: 4494
+SHA256: fa3a271b78146c2e4204f9224e20e05292c2f1f94acb4f280095ce3589fb935b
+
+Package: wasm-custom-names
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (wasm-custom-names)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/wasm-custom-names_1.0.0-1_all.deb
+Size: 4494
+SHA256: 30ff2dcc0389815341422733c7c09f421e819b4dd63f401c19da06221d0bb9c0
+
+Package: wasm-section-order
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (wasm-section-order)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/wasm-section-order_1.0.0-1_all.deb
+Size: 4496
+SHA256: c8535471f84ac7358b076a893a659c4abd9d2f930c102600cab921f2fa3164c1
+
+Package: wasm-section-duplicates
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (wasm-section-duplicates)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/wasm-section-duplicates_1.0.0-1_all.deb
+Size: 4502
+SHA256: cc8e9977a71149d2135a27f3537139267a8365516eee64cc62babacc36a0b706
+
+Package: wasm-size-summary
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (wasm-size-summary)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/wasm-size-summary_1.0.0-1_all.deb
+Size: 4492
+SHA256: 9b205d43904f5b2133f9cb89211884c57aa8823a7b24fec4651cdf9b368448a4
+
+Package: wasm-sha256
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (wasm-sha256)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/wasm-sha256_1.0.0-1_all.deb
+Size: 4488
+SHA256: f5e76d353520ea512780deb7926416a3b1846df7531c47f7cdebb692a875ba4c
+
+Package: wasm-entropy
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (wasm-entropy)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/wasm-entropy_1.0.0-1_all.deb
+Size: 4486
+SHA256: 44ddfbff89af24322c58d5b40785e83a2fa2002aa6f9283cc001df8eec619d8a
+
+Package: wasm-hexdump
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (wasm-hexdump)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/wasm-hexdump_1.0.0-1_all.deb
+Size: 4490
+SHA256: c3052f2b1c2f0b4654f39db201c93829179aaa2943609ba76bf6dda5720116ca
+
+Package: wasm-leb128-u32
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (wasm-leb128-u32)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/wasm-leb128-u32_1.0.0-1_all.deb
+Size: 4492
+SHA256: 6f9400f45a367514865ee7bb31212bb1b3f95b1b8f8bb85fde02d226e39d2319
+
+Package: wasm-leb128-i32
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (wasm-leb128-i32)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/wasm-leb128-i32_1.0.0-1_all.deb
+Size: 4496
+SHA256: 79488e7b2aed104b045afe1004de25a4fa9f7b5a2945c8389e9a6bcbd3940ab4
+
+Package: wasm-validate-basic
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (wasm-validate-basic)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/wasm-validate-basic_1.0.0-1_all.deb
+Size: 4498
+SHA256: 50786357497005dc15ccff0a83e8e28d28bcaad12bb5e4c52f392f3167d5c6cb
+
+Package: wasm-component-detect
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (wasm-component-detect)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/wasm-component-detect_1.0.0-1_all.deb
+Size: 4490
+SHA256: 2c685a672312c84e971dfc73c3c89dbf1626f3ea2df255ec3cb603ebaade8487
+
+Package: wit-package-name
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (wit-package-name)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/wit-package-name_1.0.0-1_all.deb
+Size: 4482
+SHA256: e11b3e608fd0ab4a92801d900919efa11651d5d2fb5c5ffad160a848ca827031
+
+Package: wit-worlds
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (wit-worlds)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/wit-worlds_1.0.0-1_all.deb
+Size: 4484
+SHA256: 57f8beb0d719cfa6f81f0d72ddb2332f8bdc174f210116e4a79b71c6ebfdb0c5
+
+Package: wit-interfaces
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (wit-interfaces)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/wit-interfaces_1.0.0-1_all.deb
+Size: 4490
+SHA256: 95aafb419aa72f6e15dcb9ade05baa88d4e8241850b27ccacc61f22d981ce423
+
+Package: wit-functions
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (wit-functions)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/wit-functions_1.0.0-1_all.deb
+Size: 4486
+SHA256: 87f4a91aa2210e2e97407c8d77de6f3fb8c10a5e6f81921b64c10bb4a9483556
+
+Package: wit-records
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (wit-records)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/wit-records_1.0.0-1_all.deb
+Size: 4492
+SHA256: 918fd2a26fbd0515d74806cd1f53268c334ac73d2462a465072f1cd01a0a4d5b
+
+Package: wit-variants
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (wit-variants)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/wit-variants_1.0.0-1_all.deb
+Size: 4490
+SHA256: df5774036eac730985aa8885b4684c2ff87781e55bd495ffab21f9fedd428157
+
+Package: wit-resources
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (wit-resources)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/wit-resources_1.0.0-1_all.deb
+Size: 4494
+SHA256: eec44d57cd295ea9206d0aa8327093015afe7f4cd1f9909a47c3957c51efc0f9
+
+Package: wit-enums
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (wit-enums)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/wit-enums_1.0.0-1_all.deb
+Size: 4490
+SHA256: c917561e3ab25e8b3d5d261861a385400ad3c4ab2c108c78692c9ae8e8e7391e
+
+Package: wit-flags
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (wit-flags)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/wit-flags_1.0.0-1_all.deb
+Size: 4490
+SHA256: 5eeff6fbea4421ab6d707bc59019555760bb9953c84a3d8da1c07216089f478a
+
+Package: wit-types
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (wit-types)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/wit-types_1.0.0-1_all.deb
+Size: 4488
+SHA256: 17d467520285061cf7e6578e847d0e668883de72b5f58ba97796c56c148506e4
+
+Package: wit-use-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (wit-use-count)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/wit-use-count_1.0.0-1_all.deb
+Size: 4492
+SHA256: fb64bbd6c1291613bbaa4b4cd463376c7888bb593f38fbf12b1e88ff590980c6
+
+Package: wit-include-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (wit-include-count)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/wit-include-count_1.0.0-1_all.deb
+Size: 4494
+SHA256: ad651bfeb8bab12c51e1c9febc374e1edfb0efcb317c11fd4c81a14691e0a767
+
+Package: wit-async-functions
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (wit-async-functions)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/wit-async-functions_1.0.0-1_all.deb
+Size: 4496
+SHA256: 4970efe8db560c27cae71b9f7f5a54bd8a14ef6cd4b748f72e8c8c2b770dc1a0
+
+Package: wit-stream-types
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (wit-stream-types)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/wit-stream-types_1.0.0-1_all.deb
+Size: 4490
+SHA256: 48a462c73da9e9bd9fbb999e82882c225d0129dc628b0e3e5370e482ac6920e7
+
+Package: wit-future-types
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (wit-future-types)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/wit-future-types_1.0.0-1_all.deb
+Size: 4488
+SHA256: b61bc82e02649884b41548d073f499c9f9f325f7e9340b150756da65bb414ca4
+
+Package: wasi-version-hints
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (wasi-version-hints)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/wasi-version-hints_1.0.0-1_all.deb
+Size: 4492
+SHA256: 7847e9ccebe4605ae2f92826290b00146a8ff2c86d6b910918db3da83bc15d4a
+
+Package: wasi-imports
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (wasi-imports)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/wasi-imports_1.0.0-1_all.deb
+Size: 4490
+SHA256: 750fef9d6d06007699f71c24d4e57a73269a5d3634177e7e16d97a5c648249f4
+
+Package: wasi-preview1-detect
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (wasi-preview1-detect)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/wasi-preview1-detect_1.0.0-1_all.deb
+Size: 4494
+SHA256: 37c34755fbdb9eb373794d509c60d5e0a78b8ccd8a3c8ef813374c082c23cef8
+
+Package: wasi-preview2-detect
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (wasi-preview2-detect)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/wasi-preview2-detect_1.0.0-1_all.deb
+Size: 4496
+SHA256: c0d23e4dc0121b0d1a0cdf6367f87730f8a6b811cbe0199b5920ea66731245ed
+
+Package: wasi-preview3-hints
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (wasi-preview3-hints)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/wasi-preview3-hints_1.0.0-1_all.deb
+Size: 4500
+SHA256: bf70920eea079613ac9e6eb3ab96c1b22a420739ab3e70c38867458e431d1d07
+
+Package: wasi-http-hints
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (wasi-http-hints)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/wasi-http-hints_1.0.0-1_all.deb
+Size: 4494
+SHA256: a02fd90be3651a1c59df248c56ab7c7427e27b23da8e4f684e3cfa79dbd28e07
+
+Package: wasi-cli-hints
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (wasi-cli-hints)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/wasi-cli-hints_1.0.0-1_all.deb
+Size: 4492
+SHA256: 88a9a18dbfe00f4eaa41f5786ab18defe764e8c5ed6404ce619cdfc51b71ba53
+
+Package: wasi-filesystem-hints
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (wasi-filesystem-hints)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/wasi-filesystem-hints_1.0.0-1_all.deb
+Size: 4492
+SHA256: 3fe296fcc152a1b2350ffaa6c697a6df3e58e8efe29b0eea495bf03bfb6d522c
+
+Package: wasi-sockets-hints
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (wasi-sockets-hints)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/wasi-sockets-hints_1.0.0-1_all.deb
+Size: 4496
+SHA256: da84c33eff44aa6e8d0835c32ef4fcbd13aa473afa2e01514240ca4807fdb527
+
+Package: wasi-random-hints
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (wasi-random-hints)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/wasi-random-hints_1.0.0-1_all.deb
+Size: 4498
+SHA256: 4e6b742e799665de1e3e3687dcd029adfd1e1ec33e1661763adfd7e085b2e730
+
+Package: wasi-clocks-hints
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (wasi-clocks-hints)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/wasi-clocks-hints_1.0.0-1_all.deb
+Size: 4498
+SHA256: 13d239840a8d7a06e2ad586a343ecebe4a213640551769080f04cde55a4bf817
+
+Package: wasi-io-hints
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (wasi-io-hints)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/wasi-io-hints_1.0.0-1_all.deb
+Size: 4490
+SHA256: e95fb4ec962c40c3e990fe82ed5239d5610cd879e1c495f45d1b1f0798536d4a
+
+Package: wasi-component-hints
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (wasi-component-hints)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/wasi-component-hints_1.0.0-1_all.deb
+Size: 4496
+SHA256: 91319f81de40048787c0a32c572f16f566f11c286f1ac1cf04286f112b9c8172
+
+Package: component-section-list
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (component-section-list)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/component-section-list_1.0.0-1_all.deb
+Size: 4492
+SHA256: 9dcf7bb2cad847d9f754c341404949b9d4d85628f54e011d2d0905408ed647b1
+
+Package: component-import-hints
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (component-import-hints)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/component-import-hints_1.0.0-1_all.deb
+Size: 4492
+SHA256: fed19e4126a065201354708e249371609c5a9d6ec1f8ca6e55ea2e0c08dfb2b3
+
+Package: component-export-hints
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (component-export-hints)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/component-export-hints_1.0.0-1_all.deb
+Size: 4500
+SHA256: 4d79255e2d607706d829941d0b1104ff0ff426cd352d7c941ce56b8779f0f56d
+
+Package: component-async-hints
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: WASM/WASI 0.3/Component Model utility (component-async-hints)
+ Functional OceanStudio shard 28 utility. The installation prefix remains
+ /data/data/studio.ocean.app/files/usr; package-name prefixes only identify the tool family.
+Filename: staging/shard-28/pool/main/component-async-hints_1.0.0-1_all.deb
+Size: 4492
+SHA256: f65def5350a87a33864e7b286e49cbb6921e4a3a23f3a483243f6928ba106366

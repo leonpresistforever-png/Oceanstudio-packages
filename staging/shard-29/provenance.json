@@ -1,0 +1,483 @@
+{
+  "schemaVersion": 1,
+  "suite": "shard-29",
+  "version": "1.0.0-1",
+  "sourceType": "Ocean-native original source",
+  "prefix": "/data/data/studio.ocean.app/files/usr",
+  "packageCount": 67,
+  "uniquePackageCount": 67,
+  "termuxRuntimeDependency": false,
+  "topic": "OCI/SBOM/attestation",
+  "packages": [
+    {
+      "package": "oci-layout-check",
+      "artifact": "oci-layout-check_1.0.0-1_all.deb",
+      "bytes": 4526,
+      "sha256": "6d71f26ab7e8281b786e1d66a6abbbfe4bd740f6f43b3ed2abdb5f685cefbf0b",
+      "depends": "python"
+    },
+    {
+      "package": "oci-index-summary",
+      "artifact": "oci-index-summary_1.0.0-1_all.deb",
+      "bytes": 4536,
+      "sha256": "4d30ab4819543181c7261db442782bddce735abcab2557a4f64a7a7168757c01",
+      "depends": "python"
+    },
+    {
+      "package": "oci-index-manifests",
+      "artifact": "oci-index-manifests_1.0.0-1_all.deb",
+      "bytes": 4540,
+      "sha256": "b8e908be42188936ebf2187d6f0bc6c98546f8cbe183f1ebba0bbafb7f0520ab",
+      "depends": "python"
+    },
+    {
+      "package": "oci-index-platforms",
+      "artifact": "oci-index-platforms_1.0.0-1_all.deb",
+      "bytes": 4538,
+      "sha256": "6c3b2a59fcc270e0ab801cc3fe6d62efad70080457a58f40ee91d056bf26b765",
+      "depends": "python"
+    },
+    {
+      "package": "oci-index-digests",
+      "artifact": "oci-index-digests_1.0.0-1_all.deb",
+      "bytes": 4538,
+      "sha256": "277ab1083a05b3bbf84fb1556191eb0a262707fa59a5cb4f85398e767068d083",
+      "depends": "python"
+    },
+    {
+      "package": "oci-manifest-summary",
+      "artifact": "oci-manifest-summary_1.0.0-1_all.deb",
+      "bytes": 4532,
+      "sha256": "7f0161188cb2f004de8b002ea058c97bc6ea0e6f5c1696ecbaf0f74e5379032c",
+      "depends": "python"
+    },
+    {
+      "package": "oci-manifest-config",
+      "artifact": "oci-manifest-config_1.0.0-1_all.deb",
+      "bytes": 4534,
+      "sha256": "5632e076f72b909cee5f0a014e1620859ab8d2dff098755dad565d20a9995e20",
+      "depends": "python"
+    },
+    {
+      "package": "oci-manifest-layers",
+      "artifact": "oci-manifest-layers_1.0.0-1_all.deb",
+      "bytes": 4532,
+      "sha256": "f888abd7b09c8f86f2d24bb5a8122fed46e420986f890d50e4154fe6542d4a68",
+      "depends": "python"
+    },
+    {
+      "package": "oci-manifest-subject",
+      "artifact": "oci-manifest-subject_1.0.0-1_all.deb",
+      "bytes": 4542,
+      "sha256": "37a0b46b71ffbef94491e490b68edeeca4fef63819e28a7429db52f65addb814",
+      "depends": "python"
+    },
+    {
+      "package": "oci-manifest-artifact-type",
+      "artifact": "oci-manifest-artifact-type_1.0.0-1_all.deb",
+      "bytes": 4540,
+      "sha256": "c92cd57e807f483d82e1f80d9d2cee68ab9fed1d281a8a00036b1e5dd45fd4b6",
+      "depends": "python"
+    },
+    {
+      "package": "oci-manifest-annotations",
+      "artifact": "oci-manifest-annotations_1.0.0-1_all.deb",
+      "bytes": 4540,
+      "sha256": "827110eec7c39007e7b2f5c83adfed5783c0babf8c1f6ca4618dac0cdd461f09",
+      "depends": "python"
+    },
+    {
+      "package": "oci-config-architecture",
+      "artifact": "oci-config-architecture_1.0.0-1_all.deb",
+      "bytes": 4534,
+      "sha256": "9246d7c74c999d0f047818e5695d15f22bf0c0c6138cf4bf4f8980f0e7fb0826",
+      "depends": "python"
+    },
+    {
+      "package": "oci-config-os",
+      "artifact": "oci-config-os_1.0.0-1_all.deb",
+      "bytes": 4534,
+      "sha256": "fbca530cc30e58ef6e10d1dc313ffd16dbaf73704ccdea4141d8552be34b3719",
+      "depends": "python"
+    },
+    {
+      "package": "oci-config-env",
+      "artifact": "oci-config-env_1.0.0-1_all.deb",
+      "bytes": 4536,
+      "sha256": "1ca9d99d3ceb9725589d7c3ffc6d60296d6cf200e2b3db3e43a0eed6db2d1392",
+      "depends": "python"
+    },
+    {
+      "package": "oci-config-entrypoint",
+      "artifact": "oci-config-entrypoint_1.0.0-1_all.deb",
+      "bytes": 4536,
+      "sha256": "ade99ec3bf23402bce22bccc4fefea2b5af8a7357c1d2ba9d4e792a336e8e5ea",
+      "depends": "python"
+    },
+    {
+      "package": "oci-config-cmd",
+      "artifact": "oci-config-cmd_1.0.0-1_all.deb",
+      "bytes": 4536,
+      "sha256": "09e684d6b8d4dabcdfd1731bba5c0841a4029290cfa57207dbf1f7386b72e8da",
+      "depends": "python"
+    },
+    {
+      "package": "oci-config-labels",
+      "artifact": "oci-config-labels_1.0.0-1_all.deb",
+      "bytes": 4538,
+      "sha256": "a085a5b0567279f45e7d0af59458af81657c385ddf48abe16eed094d1a0d0b46",
+      "depends": "python"
+    },
+    {
+      "package": "oci-layer-media-types",
+      "artifact": "oci-layer-media-types_1.0.0-1_all.deb",
+      "bytes": 4536,
+      "sha256": "d2ffce311353a26c5cb65e5ff4741f302ec2b121f2fc5d36bbd9339ec0ba3e1c",
+      "depends": "python"
+    },
+    {
+      "package": "oci-layer-sizes",
+      "artifact": "oci-layer-sizes_1.0.0-1_all.deb",
+      "bytes": 4534,
+      "sha256": "167dc561346293337e1e2260189d2b8fbda72a4f35663373f38c4f66837540f1",
+      "depends": "python"
+    },
+    {
+      "package": "oci-digest-check",
+      "artifact": "oci-digest-check_1.0.0-1_all.deb",
+      "bytes": 4532,
+      "sha256": "a7d2fd61d092501bd20a4a4b979aa21e552219c5b55f1c57c17069540100d4dd",
+      "depends": "python"
+    },
+    {
+      "package": "oci-blob-list",
+      "artifact": "oci-blob-list_1.0.0-1_all.deb",
+      "bytes": 4532,
+      "sha256": "d2f3f5a78aba99ea4a8fc6397653690a18c7ba4bc476f2cd33de11516c280a9c",
+      "depends": "python"
+    },
+    {
+      "package": "oci-blob-size",
+      "artifact": "oci-blob-size_1.0.0-1_all.deb",
+      "bytes": 4534,
+      "sha256": "74f155b821ddd3e7bfbf010656c26a61847eef505d371fae13bba9186c923cc3",
+      "depends": "python"
+    },
+    {
+      "package": "oci-missing-blobs",
+      "artifact": "oci-missing-blobs_1.0.0-1_all.deb",
+      "bytes": 4540,
+      "sha256": "36f071647e50e7fa45da37ac023eccc1ea9eae519f173ba68ee59ffb7c55a3d6",
+      "depends": "python"
+    },
+    {
+      "package": "oci-unreferenced-blobs",
+      "artifact": "oci-unreferenced-blobs_1.0.0-1_all.deb",
+      "bytes": 4540,
+      "sha256": "c5c2900bebc9266cf3bff6d13e6ad2c4a664fdfdb91eadfe8504911ab06db170",
+      "depends": "python"
+    },
+    {
+      "package": "oci-referrers-hints",
+      "artifact": "oci-referrers-hints_1.0.0-1_all.deb",
+      "bytes": 4536,
+      "sha256": "64590ee1feb02816c0049cac3f9022d45178318122044cdfaeb69172566e94a5",
+      "depends": "python"
+    },
+    {
+      "package": "oci-media-types",
+      "artifact": "oci-media-types_1.0.0-1_all.deb",
+      "bytes": 4536,
+      "sha256": "0218911a4e2b66c686e1d1c76de2c6152f87e30dbde31fec2213231076b7dac0",
+      "depends": "python"
+    },
+    {
+      "package": "oci-platform-matrix",
+      "artifact": "oci-platform-matrix_1.0.0-1_all.deb",
+      "bytes": 4534,
+      "sha256": "d61a52d20f8100a1a7d9bac1eaf63fa1db0fad89a45380864ea726da8e288c26",
+      "depends": "python"
+    },
+    {
+      "package": "oci-history",
+      "artifact": "oci-history_1.0.0-1_all.deb",
+      "bytes": 4528,
+      "sha256": "a73aeb5a21c21536f5733f76826ee2132eb533481874cfebd305f02bc21ca3ef",
+      "depends": "python"
+    },
+    {
+      "package": "oci-rootfs-diffids",
+      "artifact": "oci-rootfs-diffids_1.0.0-1_all.deb",
+      "bytes": 4534,
+      "sha256": "3e3c78c24e190eb1cf8366d2524eee4d7aec00bd0f7d9a8522c3332bd962777f",
+      "depends": "python"
+    },
+    {
+      "package": "oci-layout-sha256",
+      "artifact": "oci-layout-sha256_1.0.0-1_all.deb",
+      "bytes": 4526,
+      "sha256": "5b1b02170365807bd0070ef96e253728800e3feffad0e67f74869992e48ec68a",
+      "depends": "python"
+    },
+    {
+      "package": "sbom-cdx-version",
+      "artifact": "sbom-cdx-version_1.0.0-1_all.deb",
+      "bytes": 4526,
+      "sha256": "0816435828cab4739fb37c02fe50fcefe9d1c34c0e981565ba5824dfa1176e8b",
+      "depends": "python"
+    },
+    {
+      "package": "sbom-cdx-components",
+      "artifact": "sbom-cdx-components_1.0.0-1_all.deb",
+      "bytes": 4536,
+      "sha256": "f4bce2ecef666e59db5ba8970472c3495c9c43268dc6b96cde07e0563c29a5cd",
+      "depends": "python"
+    },
+    {
+      "package": "sbom-cdx-services",
+      "artifact": "sbom-cdx-services_1.0.0-1_all.deb",
+      "bytes": 4538,
+      "sha256": "5ea8b8b3148174fae9c6eaec7342bd32f3346f64c3833160613ad12fff9539e9",
+      "depends": "python"
+    },
+    {
+      "package": "sbom-cdx-dependencies",
+      "artifact": "sbom-cdx-dependencies_1.0.0-1_all.deb",
+      "bytes": 4536,
+      "sha256": "ad4f665e05ff74c9387b7d241af73ff326f488bc64a9e63bd30db250d5ece72e",
+      "depends": "python"
+    },
+    {
+      "package": "sbom-cdx-licenses",
+      "artifact": "sbom-cdx-licenses_1.0.0-1_all.deb",
+      "bytes": 4538,
+      "sha256": "f1f74e771cd781e4e8fb2c5a9ad7a976a1e66d36453c9f9f26aa82dea86d724b",
+      "depends": "python"
+    },
+    {
+      "package": "sbom-cdx-purls",
+      "artifact": "sbom-cdx-purls_1.0.0-1_all.deb",
+      "bytes": 4532,
+      "sha256": "edbee3b6ab001c638c614d9853fd6c71f49515a57ec0506ebf97e92d739792ab",
+      "depends": "python"
+    },
+    {
+      "package": "sbom-cdx-hashes",
+      "artifact": "sbom-cdx-hashes_1.0.0-1_all.deb",
+      "bytes": 4536,
+      "sha256": "c419417d965b91f10a777e457c97824522c7c558f83ee4edb8d729da1945bead",
+      "depends": "python"
+    },
+    {
+      "package": "sbom-cdx-vulnerabilities",
+      "artifact": "sbom-cdx-vulnerabilities_1.0.0-1_all.deb",
+      "bytes": 4540,
+      "sha256": "994a2e244b70f9346669167d9735bc6d6443ba46a6ae71c9702bd1c62eb8bad9",
+      "depends": "python"
+    },
+    {
+      "package": "sbom-cdx-serial",
+      "artifact": "sbom-cdx-serial_1.0.0-1_all.deb",
+      "bytes": 4532,
+      "sha256": "acb9bc563b3b978b4f12ce5536f766f3111b0e7dd8d8a491f9f03e6de2fce706",
+      "depends": "python"
+    },
+    {
+      "package": "sbom-cdx-metadata",
+      "artifact": "sbom-cdx-metadata_1.0.0-1_all.deb",
+      "bytes": 4534,
+      "sha256": "52bd25a62c2bfdeeaecda4e28288897911843ea2aeb2e5dbca12672000064c52",
+      "depends": "python"
+    },
+    {
+      "package": "sbom-spdx-version",
+      "artifact": "sbom-spdx-version_1.0.0-1_all.deb",
+      "bytes": 4538,
+      "sha256": "0f3ecea89464f2a229772815407f5d01d49a6d85158a6e9cb96a86ec7fd27ac6",
+      "depends": "python"
+    },
+    {
+      "package": "sbom-spdx-packages",
+      "artifact": "sbom-spdx-packages_1.0.0-1_all.deb",
+      "bytes": 4536,
+      "sha256": "7518e3c293b9fcea3c7310df10b387e4827e2f613c1b3e184db48c695dcf77f5",
+      "depends": "python"
+    },
+    {
+      "package": "sbom-spdx-files",
+      "artifact": "sbom-spdx-files_1.0.0-1_all.deb",
+      "bytes": 4534,
+      "sha256": "3bc7cd3628e90e9ccea5582d20ae3c05640c28911b913f729896253c00f34fe4",
+      "depends": "python"
+    },
+    {
+      "package": "sbom-spdx-relationships",
+      "artifact": "sbom-spdx-relationships_1.0.0-1_all.deb",
+      "bytes": 4540,
+      "sha256": "28deca5a15f6401071dbb2005eed9fd367a9d6f164d3391d080fd5a63bfecab8",
+      "depends": "python"
+    },
+    {
+      "package": "sbom-spdx-licenses",
+      "artifact": "sbom-spdx-licenses_1.0.0-1_all.deb",
+      "bytes": 4542,
+      "sha256": "cb135a46720ddf9ca80820d4f5b29dcb6c0201ee891aa825a0ee5c03a520186a",
+      "depends": "python"
+    },
+    {
+      "package": "sbom-spdx-external-refs",
+      "artifact": "sbom-spdx-external-refs_1.0.0-1_all.deb",
+      "bytes": 4546,
+      "sha256": "66bf7a64a457d013c9679eb2239b9fd067c2d8be060faf2cfc03fea6cb3088ec",
+      "depends": "python"
+    },
+    {
+      "package": "sbom-spdx-checksums",
+      "artifact": "sbom-spdx-checksums_1.0.0-1_all.deb",
+      "bytes": 4540,
+      "sha256": "c6ee5d70f2469e3c0933c9ce1769607f9eb4db2c7c35e88e0ceff00f67f11319",
+      "depends": "python"
+    },
+    {
+      "package": "sbom-spdx-creators",
+      "artifact": "sbom-spdx-creators_1.0.0-1_all.deb",
+      "bytes": 4540,
+      "sha256": "8b8e149c2d359957b43e9c4f3787ddba99c1ded3a288c66f0da75da1a2dced2c",
+      "depends": "python"
+    },
+    {
+      "package": "sbom-spdx-document-name",
+      "artifact": "sbom-spdx-document-name_1.0.0-1_all.deb",
+      "bytes": 4542,
+      "sha256": "a2864d018ca60df8668ac6f55b69f9f5a581bc8fc802b38c78dcb583c0207a5a",
+      "depends": "python"
+    },
+    {
+      "package": "sbom-spdx-namespace",
+      "artifact": "sbom-spdx-namespace_1.0.0-1_all.deb",
+      "bytes": 4540,
+      "sha256": "8fe82d538b62f2fb540144a0e9fbd544a48a3b06e40162d8ce07ba9ccef2cdac",
+      "depends": "python"
+    },
+    {
+      "package": "sbom-format-detect",
+      "artifact": "sbom-format-detect_1.0.0-1_all.deb",
+      "bytes": 4532,
+      "sha256": "85cac2ef6ddebee71349e4fe1ec846e3e827e53c9c46d8871fe10170dfb1c0f4",
+      "depends": "python"
+    },
+    {
+      "package": "sbom-component-count",
+      "artifact": "sbom-component-count_1.0.0-1_all.deb",
+      "bytes": 4536,
+      "sha256": "eaab8a64040a35211cc837c3d8a809bd662989d095789aeec079835c5a96ec67",
+      "depends": "python"
+    },
+    {
+      "package": "sbom-license-summary",
+      "artifact": "sbom-license-summary_1.0.0-1_all.deb",
+      "bytes": 4538,
+      "sha256": "672db4248a747953b11a11f9ad2d054116c1b61546c0fe3acff56946762a3496",
+      "depends": "python"
+    },
+    {
+      "package": "sbom-hash-summary",
+      "artifact": "sbom-hash-summary_1.0.0-1_all.deb",
+      "bytes": 4538,
+      "sha256": "86af5840c43b9c77736528217cda0c02012d47b25412d47846c4db24b7b0bccd",
+      "depends": "python"
+    },
+    {
+      "package": "sbom-purl-domains",
+      "artifact": "sbom-purl-domains_1.0.0-1_all.deb",
+      "bytes": 4532,
+      "sha256": "6a28fdd911d3e5cd45215fa5d94cc39cbbc7072379a35cc57cc0e910e937492f",
+      "depends": "python"
+    },
+    {
+      "package": "attest-dsse-envelope",
+      "artifact": "attest-dsse-envelope_1.0.0-1_all.deb",
+      "bytes": 4534,
+      "sha256": "442849df052fc597ff029ca02569888c2380a0262ddfd9cff06745fe763b3563",
+      "depends": "python"
+    },
+    {
+      "package": "attest-dsse-payload-type",
+      "artifact": "attest-dsse-payload-type_1.0.0-1_all.deb",
+      "bytes": 4536,
+      "sha256": "4e8e9b4bab8fda893d865b30439b987807c417d7802e4f949fce51d6a845b1ac",
+      "depends": "python"
+    },
+    {
+      "package": "attest-dsse-signatures",
+      "artifact": "attest-dsse-signatures_1.0.0-1_all.deb",
+      "bytes": 4528,
+      "sha256": "5afd037e29f16a44b8674cbc4a099586481b4b5f738f59a4c12dd0a5eb421601",
+      "depends": "python"
+    },
+    {
+      "package": "attest-intoto-statement",
+      "artifact": "attest-intoto-statement_1.0.0-1_all.deb",
+      "bytes": 4534,
+      "sha256": "2947225e2f6e23ac54f1b5120e6d361c70b37169bb7440415c478d5a207ee262",
+      "depends": "python"
+    },
+    {
+      "package": "attest-intoto-subjects",
+      "artifact": "attest-intoto-subjects_1.0.0-1_all.deb",
+      "bytes": 4540,
+      "sha256": "d7c6ae5cc7bd74561579385d2eafd1cc548a1398d904d305179f17bfadb1c2d4",
+      "depends": "python"
+    },
+    {
+      "package": "attest-intoto-predicate-type",
+      "artifact": "attest-intoto-predicate-type_1.0.0-1_all.deb",
+      "bytes": 4538,
+      "sha256": "ba19054d295ba5d22d6119c367dcd00c3ea02eb1b0714d108e1ddf75f09a8348",
+      "depends": "python"
+    },
+    {
+      "package": "attest-slsa-builder",
+      "artifact": "attest-slsa-builder_1.0.0-1_all.deb",
+      "bytes": 4536,
+      "sha256": "a5b72937b61ca6fb36dd2fe1bba3a629c6298804a1fea8ad8ddf530232ca7a2c",
+      "depends": "python"
+    },
+    {
+      "package": "attest-slsa-build-type",
+      "artifact": "attest-slsa-build-type_1.0.0-1_all.deb",
+      "bytes": 4538,
+      "sha256": "403eba30ae8815e8d8af8f9b12cf79b18dcf78294186e197f72aa545ebca82e5",
+      "depends": "python"
+    },
+    {
+      "package": "attest-slsa-materials",
+      "artifact": "attest-slsa-materials_1.0.0-1_all.deb",
+      "bytes": 4534,
+      "sha256": "22ec5a9ca7ef6ebf2f34f8ba752890654eef8ac839984f8835dea133826bcda1",
+      "depends": "python"
+    },
+    {
+      "package": "attest-slsa-invocation",
+      "artifact": "attest-slsa-invocation_1.0.0-1_all.deb",
+      "bytes": 4536,
+      "sha256": "cbb0afb5a5795f77c50fc54156d1821b9d0a5c9a2ebd100971b42a9068c9fe2c",
+      "depends": "python"
+    },
+    {
+      "package": "attest-subject-digests",
+      "artifact": "attest-subject-digests_1.0.0-1_all.deb",
+      "bytes": 4538,
+      "sha256": "23ad3a70ddd3cf879726b022a4af2a260f767fcfb254a7bbf46240cabaf18720",
+      "depends": "python"
+    },
+    {
+      "package": "attest-summary",
+      "artifact": "attest-summary_1.0.0-1_all.deb",
+      "bytes": 4528,
+      "sha256": "8a9a741f0cff0abba9f6c8d34e1fc1d479d7eaf7f2e7c04cc229d54f0749f504",
+      "depends": "python"
+    }
+  ],
+  "promotion": "staging-only until APT promotion/signing"
+}

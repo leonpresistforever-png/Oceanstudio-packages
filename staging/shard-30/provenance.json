@@ -1,0 +1,476 @@
+{
+  "schemaVersion": 1,
+  "suite": "shard-30",
+  "version": "1.0.0-1",
+  "sourceType": "Ocean-native original source",
+  "prefix": "/data/data/studio.ocean.app/files/usr",
+  "packageCount": 66,
+  "uniquePackageCount": 66,
+  "termuxRuntimeDependency": false,
+  "topic": "MCP 2026/model artifacts",
+  "packages": [
+    {
+      "package": "mcp-jsonrpc-validate",
+      "artifact": "mcp-jsonrpc-validate_1.0.0-1_all.deb",
+      "bytes": 4920,
+      "sha256": "bab349863ba267c27750820edc6beed5e51be6296ed30ac07019b0b9a3086ead",
+      "depends": "python"
+    },
+    {
+      "package": "mcp-jsonrpc-method",
+      "artifact": "mcp-jsonrpc-method_1.0.0-1_all.deb",
+      "bytes": 4926,
+      "sha256": "ea685b8d1eebab056941fd042ce67f3e710521dbc1f3efdfeaa4d23b9b1c5bf6",
+      "depends": "python"
+    },
+    {
+      "package": "mcp-jsonrpc-id",
+      "artifact": "mcp-jsonrpc-id_1.0.0-1_all.deb",
+      "bytes": 4918,
+      "sha256": "d887fa59f272cf984698dd4e317ae04a360d170b5310e6cdd9d205711b193e8a",
+      "depends": "python"
+    },
+    {
+      "package": "mcp-jsonrpc-error",
+      "artifact": "mcp-jsonrpc-error_1.0.0-1_all.deb",
+      "bytes": 4920,
+      "sha256": "ea917c799ee2c23f58b88a9cbdf5665d6d1d4e97e87f0204c83ca004f73b8ccd",
+      "depends": "python"
+    },
+    {
+      "package": "mcp-jsonrpc-result",
+      "artifact": "mcp-jsonrpc-result_1.0.0-1_all.deb",
+      "bytes": 4924,
+      "sha256": "e603fe4aef67ffe2311ac7e68dd4a90b642021d111a408739fb776ff205cce2a",
+      "depends": "python"
+    },
+    {
+      "package": "mcp-initialize-info",
+      "artifact": "mcp-initialize-info_1.0.0-1_all.deb",
+      "bytes": 4920,
+      "sha256": "e4dbb57c72dd5ace57fbb9babdb917bbf695dba52b7da28665d6f04ee7f6b915",
+      "depends": "python"
+    },
+    {
+      "package": "mcp-capabilities",
+      "artifact": "mcp-capabilities_1.0.0-1_all.deb",
+      "bytes": 4910,
+      "sha256": "c3ced107b561c75719dd5df2d972d81ddb7fc387f36c786f243f8cc3a79bec95",
+      "depends": "python"
+    },
+    {
+      "package": "mcp-protocol-version",
+      "artifact": "mcp-protocol-version_1.0.0-1_all.deb",
+      "bytes": 4914,
+      "sha256": "61b85e69032cf2141ed87bfb4e2b0b38f66ef1b8ee168b7218dbe4dde0489ef3",
+      "depends": "python"
+    },
+    {
+      "package": "mcp-tools-list",
+      "artifact": "mcp-tools-list_1.0.0-1_all.deb",
+      "bytes": 4918,
+      "sha256": "897fbc206742e21bbf34f05996fbaf9000b7dbc7ba27e9cbf791afd5ca233225",
+      "depends": "python"
+    },
+    {
+      "package": "mcp-tool-names",
+      "artifact": "mcp-tool-names_1.0.0-1_all.deb",
+      "bytes": 4916,
+      "sha256": "6cfcdae460473256b1cafac1ddc329a85c5ddb720a09fb26ef554d4c9db103ac",
+      "depends": "python"
+    },
+    {
+      "package": "mcp-tool-schema",
+      "artifact": "mcp-tool-schema_1.0.0-1_all.deb",
+      "bytes": 4920,
+      "sha256": "72c1e2583440b180cb95035f91887be1a159ab295654640fc8bfaf7c483ceef1",
+      "depends": "python"
+    },
+    {
+      "package": "mcp-tool-call",
+      "artifact": "mcp-tool-call_1.0.0-1_all.deb",
+      "bytes": 4918,
+      "sha256": "58ea0a779b2c8267edce0fb044949dc16a0acd11cc5b49e13b335e7ae42ad493",
+      "depends": "python"
+    },
+    {
+      "package": "mcp-resources-list",
+      "artifact": "mcp-resources-list_1.0.0-1_all.deb",
+      "bytes": 4922,
+      "sha256": "96203ef9ca19eb291ba42255c6cca1028134b986fae7d2d963f1e32aee8881b8",
+      "depends": "python"
+    },
+    {
+      "package": "mcp-resource-uris",
+      "artifact": "mcp-resource-uris_1.0.0-1_all.deb",
+      "bytes": 4920,
+      "sha256": "170183daf1210af94c4552615c8f90dd2603eed2bf6e540d35a727f7e8cc1f71",
+      "depends": "python"
+    },
+    {
+      "package": "mcp-prompts-list",
+      "artifact": "mcp-prompts-list_1.0.0-1_all.deb",
+      "bytes": 4918,
+      "sha256": "2d5bae28a9e75dda3d5f76a1ccde5ec43140e10031c5986816b4eeba654ef60a",
+      "depends": "python"
+    },
+    {
+      "package": "mcp-prompt-names",
+      "artifact": "mcp-prompt-names_1.0.0-1_all.deb",
+      "bytes": 4920,
+      "sha256": "37c481651e13e60a408f920c2a961959b461317125e29d584f229fbcbc209cc9",
+      "depends": "python"
+    },
+    {
+      "package": "mcp-roots-list",
+      "artifact": "mcp-roots-list_1.0.0-1_all.deb",
+      "bytes": 4918,
+      "sha256": "0cd4296a8bfc89b76d14b7422583155520fdbecc174368a804e00528517bf3a8",
+      "depends": "python"
+    },
+    {
+      "package": "mcp-sampling-request",
+      "artifact": "mcp-sampling-request_1.0.0-1_all.deb",
+      "bytes": 4924,
+      "sha256": "e85906b24852770b8f537d8d5d2613f00e8f38cf3bcaa545860ca51b35a135e5",
+      "depends": "python"
+    },
+    {
+      "package": "mcp-elicitation-request",
+      "artifact": "mcp-elicitation-request_1.0.0-1_all.deb",
+      "bytes": 4930,
+      "sha256": "84e67dc377bd900b19581c8cf7633fa5e85dff21487d799e65cb13a05ae51794",
+      "depends": "python"
+    },
+    {
+      "package": "mcp-logging-message",
+      "artifact": "mcp-logging-message_1.0.0-1_all.deb",
+      "bytes": 4922,
+      "sha256": "1d2e6cf169c3696091f52ac05679b2d2c84881151d9d51eb362299c1c2dca817",
+      "depends": "python"
+    },
+    {
+      "package": "mcp-progress-notification",
+      "artifact": "mcp-progress-notification_1.0.0-1_all.deb",
+      "bytes": 4926,
+      "sha256": "c6cdce9866da373c97a46d27772d46c8aa8e7499bdf3d96586681c10306ecaf6",
+      "depends": "python"
+    },
+    {
+      "package": "mcp-cancel-notification",
+      "artifact": "mcp-cancel-notification_1.0.0-1_all.deb",
+      "bytes": 4932,
+      "sha256": "ffa18401a19e895f3e7f0588c1ea26e28d137721618b763bb2ec6a9c2821793f",
+      "depends": "python"
+    },
+    {
+      "package": "mcp-task-detect",
+      "artifact": "mcp-task-detect_1.0.0-1_all.deb",
+      "bytes": 4918,
+      "sha256": "92e96b0549ebba9effe20fd47d26657b798d9d9acfac7e7f43d1c5e82001a8d4",
+      "depends": "python"
+    },
+    {
+      "package": "mcp-task-status",
+      "artifact": "mcp-task-status_1.0.0-1_all.deb",
+      "bytes": 4920,
+      "sha256": "72838f677e7fd21b1d5ed4dfcf55014ee4f087b1bef4e88a86189ad50394e1b9",
+      "depends": "python"
+    },
+    {
+      "package": "mcp-task-id",
+      "artifact": "mcp-task-id_1.0.0-1_all.deb",
+      "bytes": 4918,
+      "sha256": "bf89170d1a2ea3d4871b5dea618a5cddbb5a31f5d76e72b60c213dc2d5266ef7",
+      "depends": "python"
+    },
+    {
+      "package": "mcp-task-result",
+      "artifact": "mcp-task-result_1.0.0-1_all.deb",
+      "bytes": 4924,
+      "sha256": "7fbd2d5243bd3cbf235caf5e263192bf0e8288a7e3c7600a505ea7011df66dca",
+      "depends": "python"
+    },
+    {
+      "package": "mcp-extension-list",
+      "artifact": "mcp-extension-list_1.0.0-1_all.deb",
+      "bytes": 4922,
+      "sha256": "bf9b1a65137a6f39a1739af496dc1d42a0c432c134f4c6ee16db8d5b93424a68",
+      "depends": "python"
+    },
+    {
+      "package": "mcp-session-header-hints",
+      "artifact": "mcp-session-header-hints_1.0.0-1_all.deb",
+      "bytes": 4922,
+      "sha256": "b502379ff66553f3aa436e3fcac1030280f65c97735457db3c06947868008df3",
+      "depends": "python"
+    },
+    {
+      "package": "mcp-cache-header-hints",
+      "artifact": "mcp-cache-header-hints_1.0.0-1_all.deb",
+      "bytes": 4932,
+      "sha256": "6c3ee4c570720d4dc91e47fac20ce5c1d0d4ccfe878706ee1a77e060d9be2ae6",
+      "depends": "python"
+    },
+    {
+      "package": "mcp-auth-header-hints",
+      "artifact": "mcp-auth-header-hints_1.0.0-1_all.deb",
+      "bytes": 4924,
+      "sha256": "989324f18eda8b7c8e7791771e58c3b96d0d0a7bdff47173fa37f8267d0cf48f",
+      "depends": "python"
+    },
+    {
+      "package": "mcp-batch-count",
+      "artifact": "mcp-batch-count_1.0.0-1_all.deb",
+      "bytes": 4920,
+      "sha256": "214ac30894cd80e776f643f8f853d6c608b625c968b6e8b576a4a46b8609df79",
+      "depends": "python"
+    },
+    {
+      "package": "mcp-message-direction",
+      "artifact": "mcp-message-direction_1.0.0-1_all.deb",
+      "bytes": 4924,
+      "sha256": "647389fbcd2aca465c1e0f5cbdd88d7aada7dca45f255c472f5b2fc24b719af9",
+      "depends": "python"
+    },
+    {
+      "package": "mcp-content-types",
+      "artifact": "mcp-content-types_1.0.0-1_all.deb",
+      "bytes": 4920,
+      "sha256": "93752bc557e9ddd1fd96a24198ba376f43e59777e91580cd7fcc036a7a4de01f",
+      "depends": "python"
+    },
+    {
+      "package": "mcp-text-content",
+      "artifact": "mcp-text-content_1.0.0-1_all.deb",
+      "bytes": 4918,
+      "sha256": "b44433ce64685e7292b92a3b340d3ce3550dda53956fb0c5f6aa38e76b59fbb4",
+      "depends": "python"
+    },
+    {
+      "package": "mcp-image-content",
+      "artifact": "mcp-image-content_1.0.0-1_all.deb",
+      "bytes": 4924,
+      "sha256": "2c4f029c3d46c5d36499796168143d13ed6ae01f2ecf07f9f079dd688477be1e",
+      "depends": "python"
+    },
+    {
+      "package": "mcp-resource-content",
+      "artifact": "mcp-resource-content_1.0.0-1_all.deb",
+      "bytes": 4924,
+      "sha256": "fd5719aeb3dee72eab137420ada2c49d41bef341f78e63f00bf1c2fe7da219c9",
+      "depends": "python"
+    },
+    {
+      "package": "gguf-magic-check",
+      "artifact": "gguf-magic-check_1.0.0-1_all.deb",
+      "bytes": 4916,
+      "sha256": "baffa790072bdd565b4e895a3318a88c7a88fce108510e20f36818bdb7a7769f",
+      "depends": "python"
+    },
+    {
+      "package": "gguf-version",
+      "artifact": "gguf-version_1.0.0-1_all.deb",
+      "bytes": 4912,
+      "sha256": "cab73cb9bfb5e5ed74d7cd928567d9e76ac107aa716e985ddea69cd78829ef67",
+      "depends": "python"
+    },
+    {
+      "package": "gguf-tensor-count",
+      "artifact": "gguf-tensor-count_1.0.0-1_all.deb",
+      "bytes": 4924,
+      "sha256": "cbe1102b401a634141d0f3e3daf323127e80836df2e35ba86114e117d9fa6793",
+      "depends": "python"
+    },
+    {
+      "package": "gguf-kv-count",
+      "artifact": "gguf-kv-count_1.0.0-1_all.deb",
+      "bytes": 4924,
+      "sha256": "1b5a768109dd1f35f0ab94829559e32ed59b8be6f1b06f2bd39b48285c086994",
+      "depends": "python"
+    },
+    {
+      "package": "gguf-metadata-keys",
+      "artifact": "gguf-metadata-keys_1.0.0-1_all.deb",
+      "bytes": 4922,
+      "sha256": "0a7fcc02a6680d2f369b1d5798a642c9a4610d6c4efbf038a4c4ca300550a199",
+      "depends": "python"
+    },
+    {
+      "package": "gguf-metadata-summary",
+      "artifact": "gguf-metadata-summary_1.0.0-1_all.deb",
+      "bytes": 4926,
+      "sha256": "6a037bbf563450617968014aaff5006a7313c3bbec457b1791c7d4b3344778c8",
+      "depends": "python"
+    },
+    {
+      "package": "gguf-architecture",
+      "artifact": "gguf-architecture_1.0.0-1_all.deb",
+      "bytes": 4916,
+      "sha256": "0bbcfa3953c428632fb555113aa0863b06e2baf8cd79c2935f6dc2e0061f0596",
+      "depends": "python"
+    },
+    {
+      "package": "gguf-model-name",
+      "artifact": "gguf-model-name_1.0.0-1_all.deb",
+      "bytes": 4918,
+      "sha256": "5ef7fe0397fc20bd62ca1b999ab7e86e78b21ecd1b55c98c81de020e9f44a625",
+      "depends": "python"
+    },
+    {
+      "package": "gguf-alignment",
+      "artifact": "gguf-alignment_1.0.0-1_all.deb",
+      "bytes": 4924,
+      "sha256": "88d22592a05ff96179e193353ba6dbf04b7980496326dce4b9c27d4686fe0b55",
+      "depends": "python"
+    },
+    {
+      "package": "gguf-tensor-names",
+      "artifact": "gguf-tensor-names_1.0.0-1_all.deb",
+      "bytes": 4918,
+      "sha256": "a0df4baf7fcc3708a54ecc5e76598a51847c7d99a22f551a3fb21e6831cecb7a",
+      "depends": "python"
+    },
+    {
+      "package": "gguf-tensor-dims",
+      "artifact": "gguf-tensor-dims_1.0.0-1_all.deb",
+      "bytes": 4918,
+      "sha256": "858acd73c8e03dc57eebe00f688487a0b5bcbd229569c09d0fe4ffdfcd4dad89",
+      "depends": "python"
+    },
+    {
+      "package": "gguf-tensor-types",
+      "artifact": "gguf-tensor-types_1.0.0-1_all.deb",
+      "bytes": 4920,
+      "sha256": "cdffd3d86575dd9062c5106e2ecefd65cb92fe59d514426573529c7de2ae4a16",
+      "depends": "python"
+    },
+    {
+      "package": "gguf-tensor-offsets",
+      "artifact": "gguf-tensor-offsets_1.0.0-1_all.deb",
+      "bytes": 4922,
+      "sha256": "5b4135086854e32d11ece6858298f9a6b481baf3fbb86193f6d2fdd22aca0765",
+      "depends": "python"
+    },
+    {
+      "package": "gguf-data-offset",
+      "artifact": "gguf-data-offset_1.0.0-1_all.deb",
+      "bytes": 4918,
+      "sha256": "125763cc7deb55117b58f8963515113675d1105518898df110358c444e6b9b50",
+      "depends": "python"
+    },
+    {
+      "package": "gguf-file-sha256",
+      "artifact": "gguf-file-sha256_1.0.0-1_all.deb",
+      "bytes": 4916,
+      "sha256": "897f2b5278c8e84805fe937b6d343d769eb7af3e8cbe3d69d57870a341407cfa",
+      "depends": "python"
+    },
+    {
+      "package": "gguf-header-size",
+      "artifact": "gguf-header-size_1.0.0-1_all.deb",
+      "bytes": 4916,
+      "sha256": "03692de34c8f5d632b599949ea39d3611c14607c96275a2cfdd4272391c31e2e",
+      "depends": "python"
+    },
+    {
+      "package": "safetensors-header-size",
+      "artifact": "safetensors-header-size_1.0.0-1_all.deb",
+      "bytes": 4926,
+      "sha256": "c1d12a4ed79cfeffe422023bfd93034bb5f84fab16689b4e94e35187d1b2186d",
+      "depends": "python"
+    },
+    {
+      "package": "safetensors-header-json",
+      "artifact": "safetensors-header-json_1.0.0-1_all.deb",
+      "bytes": 4928,
+      "sha256": "b60d946a558fb5d585992ea728d3186be89b3bf7b10a599fb309cd74254f92a1",
+      "depends": "python"
+    },
+    {
+      "package": "safetensors-tensor-names",
+      "artifact": "safetensors-tensor-names_1.0.0-1_all.deb",
+      "bytes": 4920,
+      "sha256": "ea9a35daa43b87bcc88f57a8daac073ca5294548c2ae435d24809e6d880792f7",
+      "depends": "python"
+    },
+    {
+      "package": "safetensors-tensor-count",
+      "artifact": "safetensors-tensor-count_1.0.0-1_all.deb",
+      "bytes": 4922,
+      "sha256": "393b320bd0d2a1680962797fd0da3dcb443b8ca0836cb220e922b6f70d11b6ae",
+      "depends": "python"
+    },
+    {
+      "package": "safetensors-dtypes",
+      "artifact": "safetensors-dtypes_1.0.0-1_all.deb",
+      "bytes": 4920,
+      "sha256": "1a6bc355e0f95e973b97fa660c3f022b88c534a977b68a9f730b68e861797013",
+      "depends": "python"
+    },
+    {
+      "package": "safetensors-shapes",
+      "artifact": "safetensors-shapes_1.0.0-1_all.deb",
+      "bytes": 4922,
+      "sha256": "5c36db5da35fff74b006a0b762449127c41480a7923217b5950222324acd369a",
+      "depends": "python"
+    },
+    {
+      "package": "safetensors-offsets",
+      "artifact": "safetensors-offsets_1.0.0-1_all.deb",
+      "bytes": 4918,
+      "sha256": "01e2d8549ffad42bc20d0633d5771980c8893249ad7ed8bb9aba58fbe89621b3",
+      "depends": "python"
+    },
+    {
+      "package": "safetensors-metadata",
+      "artifact": "safetensors-metadata_1.0.0-1_all.deb",
+      "bytes": 4912,
+      "sha256": "3f6427e6e7e7e5d033bd018f23950f97475fad5a6df39a01627e98f8d4c49881",
+      "depends": "python"
+    },
+    {
+      "package": "safetensors-data-size",
+      "artifact": "safetensors-data-size_1.0.0-1_all.deb",
+      "bytes": 4922,
+      "sha256": "2612fc3ffe72c69c03f0092bb6eab177b68f06a8462d7fcf7ace84579af0a093",
+      "depends": "python"
+    },
+    {
+      "package": "safetensors-gap-check",
+      "artifact": "safetensors-gap-check_1.0.0-1_all.deb",
+      "bytes": 4926,
+      "sha256": "7f09def72b6343b78cfb360144a349f8b2b94b6687fcf41d6b05e5d926be2c70",
+      "depends": "python"
+    },
+    {
+      "package": "safetensors-overlap-check",
+      "artifact": "safetensors-overlap-check_1.0.0-1_all.deb",
+      "bytes": 4932,
+      "sha256": "6d28ab283268c6b3a14bbc4f286f6daee9ff291bd0b4acf15ba76aead3092097",
+      "depends": "python"
+    },
+    {
+      "package": "safetensors-range-check",
+      "artifact": "safetensors-range-check_1.0.0-1_all.deb",
+      "bytes": 4932,
+      "sha256": "6c152f3adcf944d473addb1694002bd3129d3ecb4c8b8fce4dd93d394f2ebf89",
+      "depends": "python"
+    },
+    {
+      "package": "safetensors-file-sha256",
+      "artifact": "safetensors-file-sha256_1.0.0-1_all.deb",
+      "bytes": 4926,
+      "sha256": "dabe706224d35bf0575011224b6eacd39d463408de4a22c5bc61bad8d14a382e",
+      "depends": "python"
+    },
+    {
+      "package": "safetensors-summary",
+      "artifact": "safetensors-summary_1.0.0-1_all.deb",
+      "bytes": 4916,
+      "sha256": "583ebfc759a3fe4e43330dca197e97fd583eb665c082b9361e36bc449e0297ec",
+      "depends": "python"
+    }
+  ],
+  "promotion": "staging-only until APT promotion/signing"
+}
