@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0-1",
+  "dependsOn": [
+    "ai-agent-ecosystem-suite",
+    "coding-ecosystem-suite",
+    "ai-pipeline-utility-suite"
+  ],
+  "commandCount": 300,
+  "totalNewPackages": 304
+}

@@ -1,0 +1,1312 @@
+Package: pytest
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - pytest
+ Functional isolated upstream pytest launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/pytest_1.0.0-1_all.deb
+Size: 744
+SHA256: 12535922aa7e9633339a44a018de27ecf79a2c58e58481ec985cefbfeeb5afa2
+
+Package: pytest-help
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - pytest-help
+ Functional isolated upstream pytest launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/pytest-help_1.0.0-1_all.deb
+Size: 760
+SHA256: e276e461c476721b78f795fc127586d6b8b19842b54076fdd3c285a2b5669eb1
+
+Package: pytest-version
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - pytest-version
+ Functional isolated upstream pytest launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/pytest-version_1.0.0-1_all.deb
+Size: 762
+SHA256: d072ad3d403c24db6f5cde782c4a3ff78e2ffb1a95207ab0c757415d87f3f3ed
+
+Package: pytest-install
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - pytest-install
+ Functional isolated upstream pytest launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/pytest-install_1.0.0-1_all.deb
+Size: 748
+SHA256: 2da39f53bbebe306cc92579c3a63fa4590988e3040def25948c914975499b999
+
+Package: pytest-upgrade
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - pytest-upgrade
+ Functional isolated upstream pytest launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/pytest-upgrade_1.0.0-1_all.deb
+Size: 750
+SHA256: a4c2a8d8812ef9590305f076de57ca7aadbb32d9e9d4dd9ac0811a09b51c4197
+
+Package: tox
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - tox
+ Functional isolated upstream tox launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/tox_1.0.0-1_all.deb
+Size: 740
+SHA256: b5dfbaa8b834bb53f318e733f7291ce5df6ffc745ea9a0292ed9932b1effb3bd
+
+Package: tox-help
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - tox-help
+ Functional isolated upstream tox launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/tox-help_1.0.0-1_all.deb
+Size: 752
+SHA256: 2a215dcbcd8a6ad4952496be94a7d7e61feaadaa4faa30ded66e517a29cde7fa
+
+Package: tox-version
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - tox-version
+ Functional isolated upstream tox launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/tox-version_1.0.0-1_all.deb
+Size: 756
+SHA256: 69d4df42dcd10892b862815b504b9d64d31308e40c9543e606e24ab6c3aa1ca3
+
+Package: tox-install
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - tox-install
+ Functional isolated upstream tox launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/tox-install_1.0.0-1_all.deb
+Size: 742
+SHA256: aa2ac224b21d2d282c8753f1941409555fa1c1d4d4705b88dfae065229725002
+
+Package: tox-upgrade
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - tox-upgrade
+ Functional isolated upstream tox launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/tox-upgrade_1.0.0-1_all.deb
+Size: 746
+SHA256: 8d2f5a775a4b96f414e9f0ba22f106e126908f08c5b65f98448c74ab8a3caca0
+
+Package: nox
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - nox
+ Functional isolated upstream nox launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/nox_1.0.0-1_all.deb
+Size: 740
+SHA256: d0269ae709efdd098a2dfdd5051726a6b6ea56f6d8b67803d467dc6af77f4810
+
+Package: nox-help
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - nox-help
+ Functional isolated upstream nox launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/nox-help_1.0.0-1_all.deb
+Size: 754
+SHA256: 39a8db50e1877b27ff84741ccbdbc7d0473540d9e62642643730c75a0dc166ee
+
+Package: nox-version
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - nox-version
+ Functional isolated upstream nox launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/nox-version_1.0.0-1_all.deb
+Size: 756
+SHA256: dcb29329ac8a95284a1913155adc8998ee3dc9b62eb31250b62c79868be93326
+
+Package: nox-install
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - nox-install
+ Functional isolated upstream nox launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/nox-install_1.0.0-1_all.deb
+Size: 742
+SHA256: f3f49d25bda95bd1557c3dece3702262fa913c65e14a165f42963710d9514be2
+
+Package: nox-upgrade
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - nox-upgrade
+ Functional isolated upstream nox launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/nox-upgrade_1.0.0-1_all.deb
+Size: 746
+SHA256: 5e02bcdb72dab9e902bc55af644067a5cef0958c9b9665b16b56e6eae32ac670
+
+Package: pre-commit
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - pre-commit
+ Functional isolated upstream pre-commit launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/pre-commit_1.0.0-1_all.deb
+Size: 752
+SHA256: 578053a6b523c9179fd016ebd8fa7b711e6e143971b4cd7e34d713dd7706c2a6
+
+Package: pre-commit-help
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - pre-commit-help
+ Functional isolated upstream pre-commit launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/pre-commit-help_1.0.0-1_all.deb
+Size: 768
+SHA256: 536efa7802f33675385009effb97653d67829927e2c209ae9ef2bfffbc53bd48
+
+Package: pre-commit-version
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - pre-commit-version
+ Functional isolated upstream pre-commit launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/pre-commit-version_1.0.0-1_all.deb
+Size: 770
+SHA256: c7fd34c3b205d2acc723828917f62994c9987a158ab0f3d4267d3372a74b1fe0
+
+Package: pre-commit-install
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - pre-commit-install
+ Functional isolated upstream pre-commit launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/pre-commit-install_1.0.0-1_all.deb
+Size: 756
+SHA256: 9bdf00f3f03035d160125924e16d993a0dde27df61b357c9b2b5b2551f0fd5e1
+
+Package: pre-commit-upgrade
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - pre-commit-upgrade
+ Functional isolated upstream pre-commit launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/pre-commit-upgrade_1.0.0-1_all.deb
+Size: 758
+SHA256: e9ffa6fcf2f54f71bbdb7cc3d4a159ccccfad0b4820720e744e89c579f5d044e
+
+Package: hatch
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - hatch
+ Functional isolated upstream hatch launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/hatch_1.0.0-1_all.deb
+Size: 744
+SHA256: a49bd0db8cd89f70eacb198f86815ca8112d6e852201751c43b7482cf5b764c0
+
+Package: hatch-help
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - hatch-help
+ Functional isolated upstream hatch launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/hatch-help_1.0.0-1_all.deb
+Size: 756
+SHA256: 53f96b389f61adfa6f43b8bb54dfdf3dbf279718b53153d567a19b2e4f353285
+
+Package: hatch-version
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - hatch-version
+ Functional isolated upstream hatch launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/hatch-version_1.0.0-1_all.deb
+Size: 760
+SHA256: ea7046d720571dc28eafc21398d11c71e3096f1db34328ad508f72b674ef91fe
+
+Package: hatch-install
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - hatch-install
+ Functional isolated upstream hatch launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/hatch-install_1.0.0-1_all.deb
+Size: 746
+SHA256: 4c19de8878e4c17c76e6710a90e407f05b65c22d6c5dedcc6a5dd309c2ccb723
+
+Package: hatch-upgrade
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - hatch-upgrade
+ Functional isolated upstream hatch launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/hatch-upgrade_1.0.0-1_all.deb
+Size: 748
+SHA256: e03eae6454cae554e1fb6dfd4a4cb8e59b9bfb134f48186de2907baacdc12ab9
+
+Package: copier
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - copier
+ Functional isolated upstream copier launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/copier_1.0.0-1_all.deb
+Size: 746
+SHA256: ec45c02d9e955d88358ad3cd43508096599a70d1c8bd61ac5cd13fb80db39f86
+
+Package: copier-help
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - copier-help
+ Functional isolated upstream copier launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/copier-help_1.0.0-1_all.deb
+Size: 760
+SHA256: d7e06f4f68953a42172d56be303d7b019e0a1f0fdac5922069fe242ffd447cd4
+
+Package: copier-version
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - copier-version
+ Functional isolated upstream copier launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/copier-version_1.0.0-1_all.deb
+Size: 762
+SHA256: 8269440ac1fa10ab59a8ecf62fdd65a7f2887b4c5e6c7e9bb5444a6244fd6033
+
+Package: copier-install
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - copier-install
+ Functional isolated upstream copier launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/copier-install_1.0.0-1_all.deb
+Size: 748
+SHA256: a1d74bfe432d6156ae36225e523d7bb50bfc66710f93420cbe1c344e7ab87be4
+
+Package: copier-upgrade
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - copier-upgrade
+ Functional isolated upstream copier launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/copier-upgrade_1.0.0-1_all.deb
+Size: 752
+SHA256: 4c9ee03c01c1d726a8c5c3e6569315bf555d928a4e28b7163784de291bfbb493
+
+Package: mkdocs
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - mkdocs
+ Functional isolated upstream mkdocs launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/mkdocs_1.0.0-1_all.deb
+Size: 748
+SHA256: 713f6bbea07aedcbf848b6dd2b7e638d5a2982cbdef4bdc31ff19e63d6c8aa83
+
+Package: mkdocs-help
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - mkdocs-help
+ Functional isolated upstream mkdocs launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/mkdocs-help_1.0.0-1_all.deb
+Size: 760
+SHA256: f3f4d8e4a541bf3dcc692c6315cc444640a5546ef0771b3f68a5ad9feb902669
+
+Package: mkdocs-version
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - mkdocs-version
+ Functional isolated upstream mkdocs launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/mkdocs-version_1.0.0-1_all.deb
+Size: 766
+SHA256: 8dccb0dcca8d54e95627428f74d599f878b563d83c2af7927feb79bc3fcf614e
+
+Package: mkdocs-install
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - mkdocs-install
+ Functional isolated upstream mkdocs launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/mkdocs-install_1.0.0-1_all.deb
+Size: 752
+SHA256: c929e34f44edfc92cb8a060d2761afaac3045a03279e376ac3e2a116d90ea57a
+
+Package: mkdocs-upgrade
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - mkdocs-upgrade
+ Functional isolated upstream mkdocs launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/mkdocs-upgrade_1.0.0-1_all.deb
+Size: 754
+SHA256: a49d1694c0ececba8b5ffd88e90d95af56142aab3cc6edb04ba8f2c83208f0ca
+
+Package: sphinx
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - sphinx
+ Functional isolated upstream sphinx launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/sphinx_1.0.0-1_all.deb
+Size: 752
+SHA256: d8fc0de74364610e79ed07aed1139233d9a5467013699e2e3cc0e8c2fdc02e76
+
+Package: sphinx-help
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - sphinx-help
+ Functional isolated upstream sphinx launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/sphinx-help_1.0.0-1_all.deb
+Size: 766
+SHA256: 9629df82fd9a4a12d8d77f2202601b0661be5311b79fd4befd35355087e68cc3
+
+Package: sphinx-version
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - sphinx-version
+ Functional isolated upstream sphinx launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/sphinx-version_1.0.0-1_all.deb
+Size: 768
+SHA256: f040222316a149477d079fbfe7780c4fc6ec81421bc08945e6a072efcc4c34e7
+
+Package: sphinx-install
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - sphinx-install
+ Functional isolated upstream sphinx launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/sphinx-install_1.0.0-1_all.deb
+Size: 744
+SHA256: 12eba22180518b690cd9b952bd902d701b32177d6d727ee745d3d0fffcf84933
+
+Package: sphinx-upgrade
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - sphinx-upgrade
+ Functional isolated upstream sphinx launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/sphinx-upgrade_1.0.0-1_all.deb
+Size: 752
+SHA256: 2480e66c96c9eb723d9717ea20b27db5e8d8468ce883570645b1ceffdc81fc1b
+
+Package: httpie
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - httpie
+ Functional isolated upstream httpie launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/httpie_1.0.0-1_all.deb
+Size: 746
+SHA256: 4aac7cc2311bedf05967d33ddc41c2c7c22f4a59c8f7046855cc3c6c595cd0f9
+
+Package: httpie-help
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - httpie-help
+ Functional isolated upstream httpie launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/httpie-help_1.0.0-1_all.deb
+Size: 762
+SHA256: 96d544f930c05c6717fd0218d2f824d34261881bea53ac93ae76955eccb32e36
+
+Package: httpie-version
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - httpie-version
+ Functional isolated upstream httpie launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/httpie-version_1.0.0-1_all.deb
+Size: 762
+SHA256: 6038f6344df22bae7ce8ef566ceb442ca506d8aa3e03fbef5a7bb9157a8774fb
+
+Package: httpie-install
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - httpie-install
+ Functional isolated upstream httpie launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/httpie-install_1.0.0-1_all.deb
+Size: 746
+SHA256: 5a6a02b08ae53acaae69b0bc7ed6da0d4a2de4b57c2d40b565ca99f76311bab2
+
+Package: httpie-upgrade
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - httpie-upgrade
+ Functional isolated upstream httpie launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/httpie-upgrade_1.0.0-1_all.deb
+Size: 752
+SHA256: 363cbf278ca5aab3cc988d71235bcc93e56fd7fa66a32f624d1b28b5612869d2
+
+Package: poetry
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - poetry
+ Functional isolated upstream poetry launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/poetry_1.0.0-1_all.deb
+Size: 746
+SHA256: ce62933e3e0152f624c1e3509340b171b8cc3d2d8cf337aa960ead2542abc97b
+
+Package: poetry-help
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - poetry-help
+ Functional isolated upstream poetry launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/poetry-help_1.0.0-1_all.deb
+Size: 760
+SHA256: 26add8cbd3c7e80443fe346c17d3ddeaec667e149dd227dd4affc3ce1fbc3ef6
+
+Package: poetry-version
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - poetry-version
+ Functional isolated upstream poetry launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/poetry-version_1.0.0-1_all.deb
+Size: 762
+SHA256: 57d47e397aacd0cd0bffc7a570467c58a44998c797bc926afb795f056967121f
+
+Package: poetry-install
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - poetry-install
+ Functional isolated upstream poetry launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/poetry-install_1.0.0-1_all.deb
+Size: 746
+SHA256: 73f6d47e42f22f9d8164b7843b50152de7993386b1c183d8b6c143a749e75f57
+
+Package: poetry-upgrade
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - poetry-upgrade
+ Functional isolated upstream poetry launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/poetry-upgrade_1.0.0-1_all.deb
+Size: 752
+SHA256: d98ffcda1c35434de2f5336be4c591155e9347abe54c1d9cf8e6451ac49a2b41
+
+Package: pdm
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - pdm
+ Functional isolated upstream pdm launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/pdm_1.0.0-1_all.deb
+Size: 742
+SHA256: 183dab409e94cfd5b111b2931086b8a72de266bf150c5c0e1e41e416d300ae41
+
+Package: pdm-help
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - pdm-help
+ Functional isolated upstream pdm launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/pdm-help_1.0.0-1_all.deb
+Size: 752
+SHA256: b4854a64088258bb101dc1087ca4d509bbeb66ecf764dde07c3a708b6f1bb803
+
+Package: pdm-version
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - pdm-version
+ Functional isolated upstream pdm launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/pdm-version_1.0.0-1_all.deb
+Size: 758
+SHA256: 63b4470375c307a330b1793f0db67769fcfd3f957b79d9a333ddfe13bf21a24e
+
+Package: pdm-install
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - pdm-install
+ Functional isolated upstream pdm launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/pdm-install_1.0.0-1_all.deb
+Size: 744
+SHA256: c81944fb5b83603fdc053ef94691a989d9bdc75510f204fbebe97f3f9de3eff5
+
+Package: pdm-upgrade
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - pdm-upgrade
+ Functional isolated upstream pdm launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/pdm-upgrade_1.0.0-1_all.deb
+Size: 746
+SHA256: ffa410c766210f3cbfdee12a83997e704c8f327eea6ba182f76a9c2d1f80471d
+
+Package: typer
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - typer
+ Functional isolated upstream typer launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/typer_1.0.0-1_all.deb
+Size: 748
+SHA256: 2e0c47ccf29465c03639b77fcf42a8da203ecd71edb86da62a7f1774fb9c1822
+
+Package: typer-help
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - typer-help
+ Functional isolated upstream typer launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/typer-help_1.0.0-1_all.deb
+Size: 758
+SHA256: b019a46f4947b719114a3254bf00fd4d9b3f042c1503b4462de8f2c3e15091a5
+
+Package: typer-version
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - typer-version
+ Functional isolated upstream typer launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/typer-version_1.0.0-1_all.deb
+Size: 760
+SHA256: 00b093d723db003101454a7dacf5d77a51d911ca606d7dede028baea01ec117a
+
+Package: typer-install
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - typer-install
+ Functional isolated upstream typer launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/typer-install_1.0.0-1_all.deb
+Size: 744
+SHA256: d515e7c540dcdfff6bb0dcdcee4fe218aea6b535bbed9701b073fa1c7f6d03a4
+
+Package: typer-upgrade
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - typer-upgrade
+ Functional isolated upstream typer launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/typer-upgrade_1.0.0-1_all.deb
+Size: 748
+SHA256: 247d153d22f6f0591e460e2f441bde0488f7a785919ae85f2f8faa1d7eab5c19
+
+Package: invoke
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - invoke
+ Functional isolated upstream invoke launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/invoke_1.0.0-1_all.deb
+Size: 748
+SHA256: faf16712fb959769ed29deb6ac5146ae547247a697d4d4f158b981d1eeabf79d
+
+Package: invoke-help
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - invoke-help
+ Functional isolated upstream invoke launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/invoke-help_1.0.0-1_all.deb
+Size: 762
+SHA256: cdf5a5ab9dba99d4790789125d7c073f1f69976bc7ce71ef301bb6b242d73657
+
+Package: invoke-version
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - invoke-version
+ Functional isolated upstream invoke launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/invoke-version_1.0.0-1_all.deb
+Size: 764
+SHA256: e8a93758ef392af5b27f2a5742acdaadb7e491efde41d2868d19216b499cc00d
+
+Package: invoke-install
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - invoke-install
+ Functional isolated upstream invoke launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/invoke-install_1.0.0-1_all.deb
+Size: 750
+SHA256: 5972d2b605c416c8c61e041e8fcf8ee9290d7e78ee8cb425cd72e382f404dd20
+
+Package: invoke-upgrade
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - invoke-upgrade
+ Functional isolated upstream invoke launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/invoke-upgrade_1.0.0-1_all.deb
+Size: 754
+SHA256: 8c2342a536233d0a2ce2c2dbb40d246899e58183537f70c3fade95bd91b922b9
+
+Package: watchfiles
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - watchfiles
+ Functional isolated upstream watchfiles launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/watchfiles_1.0.0-1_all.deb
+Size: 752
+SHA256: 53acb335d1372b543de0e08bd65d57a92148a494c783a7834032176ff111d1a0
+
+Package: watchfiles-help
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - watchfiles-help
+ Functional isolated upstream watchfiles launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/watchfiles-help_1.0.0-1_all.deb
+Size: 766
+SHA256: 65c9b81734e99877c192a9197cde81a68d6e16dc26432a4ebf08bc78cdeb14e8
+
+Package: watchfiles-version
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - watchfiles-version
+ Functional isolated upstream watchfiles launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/watchfiles-version_1.0.0-1_all.deb
+Size: 768
+SHA256: 22e8f04cdc1f51b537c16f59a03acd4628aa63272b6f8e456139a6e0da886cc3
+
+Package: watchfiles-install
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - watchfiles-install
+ Functional isolated upstream watchfiles launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/watchfiles-install_1.0.0-1_all.deb
+Size: 756
+SHA256: 6307222e274bc7b2bf43bb4c05d3d1ea16c8adb71fa6d99a8adcc5a2f9e98d49
+
+Package: watchfiles-upgrade
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - watchfiles-upgrade
+ Functional isolated upstream watchfiles launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/watchfiles-upgrade_1.0.0-1_all.deb
+Size: 758
+SHA256: e1c27826eed5c0e736553b65a72627e1d9d0821c7aad4791695a4bdd779ba70c
+
+Package: ipython
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - ipython
+ Functional isolated upstream ipython launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/ipython_1.0.0-1_all.deb
+Size: 746
+SHA256: e6f058ce736f6b445e8ae6d9d6d21a6edcb477f5073144cc5465cafb4809fee1
+
+Package: ipython-help
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - ipython-help
+ Functional isolated upstream ipython launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/ipython-help_1.0.0-1_all.deb
+Size: 760
+SHA256: c225964d541eb258d17f529ba20734fd0123286f30c2260d49905837e4fa1175
+
+Package: ipython-version
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - ipython-version
+ Functional isolated upstream ipython launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/ipython-version_1.0.0-1_all.deb
+Size: 766
+SHA256: 68ce8a76d4dfd6b41e38928fc9f2a5cea8295da274e021734698d83d6541288e
+
+Package: ipython-install
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - ipython-install
+ Functional isolated upstream ipython launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/ipython-install_1.0.0-1_all.deb
+Size: 750
+SHA256: 3d0b6c0e6b42bb77ebf2329a5276c7ad36b389060fc2adf047b7ee8bff22753b
+
+Package: ipython-upgrade
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - ipython-upgrade
+ Functional isolated upstream ipython launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/ipython-upgrade_1.0.0-1_all.deb
+Size: 754
+SHA256: f72d07d1cb41d0b0044d2084896f2df8d0fc18e4780725253d95d8df2aaef9f6
+
+Package: jupyterlab
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - jupyterlab
+ Functional isolated upstream jupyterlab launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/jupyterlab_1.0.0-1_all.deb
+Size: 758
+SHA256: 22669d0caacc12e43daaf8a08b9e3d985912ec4793dc571f481db8e59cc94819
+
+Package: jupyterlab-help
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - jupyterlab-help
+ Functional isolated upstream jupyterlab launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/jupyterlab-help_1.0.0-1_all.deb
+Size: 770
+SHA256: 5c99474c233eab17cba7c50b648aeedac31ff1271f6d77c3384711bb0af6a62d
+
+Package: jupyterlab-version
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - jupyterlab-version
+ Functional isolated upstream jupyterlab launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/jupyterlab-version_1.0.0-1_all.deb
+Size: 772
+SHA256: e962cdd231d5034e22c23bc9db3f232e1a7d0baf6a4f0acdb1e237803fe4f10d
+
+Package: jupyterlab-install
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - jupyterlab-install
+ Functional isolated upstream jupyterlab launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/jupyterlab-install_1.0.0-1_all.deb
+Size: 756
+SHA256: 22bad83bc0194c32f294335b4d0fb8499dad7e4a592ad10c00d2eb687c396ec2
+
+Package: jupyterlab-upgrade
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: coding, testing, docs and web-development ecosystem - jupyterlab-upgrade
+ Functional isolated upstream jupyterlab launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/jupyterlab-upgrade_1.0.0-1_all.deb
+Size: 762
+SHA256: 383f72463e1b229d53ed99b616b353f5fde948a7fb97df0305919249b6f0c7af
+
+Package: pyright
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: npm, nodejs
+Description: coding, testing, docs and web-development ecosystem - pyright
+ Functional isolated upstream pyright launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/pyright_1.0.0-1_all.deb
+Size: 756
+SHA256: d46ed7d56cc2011ed2c71d0e45c3d9eaa48e9ce973ee17525b3df2bf1b17e93a
+
+Package: pyright-help
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: npm, nodejs
+Description: coding, testing, docs and web-development ecosystem - pyright-help
+ Functional isolated upstream pyright launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/pyright-help_1.0.0-1_all.deb
+Size: 774
+SHA256: 1d7b1f6831246e13c895e20fa397ea03f3ca5eb7a35a22a34b04e00ead32be7d
+
+Package: pyright-version
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: npm, nodejs
+Description: coding, testing, docs and web-development ecosystem - pyright-version
+ Functional isolated upstream pyright launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/pyright-version_1.0.0-1_all.deb
+Size: 774
+SHA256: db257dc858395e1dbcda1dfd6f24ebcc020aababba2ea196a39f19c205c12e2e
+
+Package: pyright-install
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: npm, nodejs
+Description: coding, testing, docs and web-development ecosystem - pyright-install
+ Functional isolated upstream pyright launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/pyright-install_1.0.0-1_all.deb
+Size: 750
+SHA256: 6bfc0de4430786a45511ded7289121aa00a6058c573c4fddc6395bf178334de3
+
+Package: pyright-upgrade
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: npm, nodejs
+Description: coding, testing, docs and web-development ecosystem - pyright-upgrade
+ Functional isolated upstream pyright launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/pyright-upgrade_1.0.0-1_all.deb
+Size: 762
+SHA256: fdf83cf77fb24d088872c9a900714ac08c51947c2d04ce4c72543350378dbc3e
+
+Package: eslint
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: npm, nodejs
+Description: coding, testing, docs and web-development ecosystem - eslint
+ Functional isolated upstream eslint launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/eslint_1.0.0-1_all.deb
+Size: 754
+SHA256: 32b151dc192d0e7f5ddb777a844c7b96a07aea7e4e8bb5041505da66908f3d28
+
+Package: eslint-help
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: npm, nodejs
+Description: coding, testing, docs and web-development ecosystem - eslint-help
+ Functional isolated upstream eslint launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/eslint-help_1.0.0-1_all.deb
+Size: 768
+SHA256: 1732044e20a18ba7ddf63d315738cb7a6e44c96f11a55962552f0862cd4ba599
+
+Package: eslint-version
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: npm, nodejs
+Description: coding, testing, docs and web-development ecosystem - eslint-version
+ Functional isolated upstream eslint launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/eslint-version_1.0.0-1_all.deb
+Size: 770
+SHA256: de7124835705f2a75b2ea9d2d6ae8945f4501effcd65122f08fb1e4d4323cbda
+
+Package: eslint-install
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: npm, nodejs
+Description: coding, testing, docs and web-development ecosystem - eslint-install
+ Functional isolated upstream eslint launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/eslint-install_1.0.0-1_all.deb
+Size: 748
+SHA256: d6f4c7b3a5ad91350684729251e1020ddc20b92bd9ee993c0d8691a460cf91dd
+
+Package: eslint-upgrade
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: npm, nodejs
+Description: coding, testing, docs and web-development ecosystem - eslint-upgrade
+ Functional isolated upstream eslint launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/eslint-upgrade_1.0.0-1_all.deb
+Size: 758
+SHA256: 75800e23842b5ad0a97d3528decc3126ade26eb867e3f208965a44ad15ca37b5
+
+Package: prettier
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: npm, nodejs
+Description: coding, testing, docs and web-development ecosystem - prettier
+ Functional isolated upstream prettier launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/prettier_1.0.0-1_all.deb
+Size: 756
+SHA256: 347c66f82f302d10234309ee92f6373e86647f6184dff3aef344dcd39c954226
+
+Package: prettier-help
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: npm, nodejs
+Description: coding, testing, docs and web-development ecosystem - prettier-help
+ Functional isolated upstream prettier launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/prettier-help_1.0.0-1_all.deb
+Size: 770
+SHA256: 335149db9e1479a457aa780863af72e7f33a4b0f82c2a156fabb82084bb8575a
+
+Package: prettier-version
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: npm, nodejs
+Description: coding, testing, docs and web-development ecosystem - prettier-version
+ Functional isolated upstream prettier launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/prettier-version_1.0.0-1_all.deb
+Size: 774
+SHA256: c4fb3f45a128ac5209707a68327a2e0ab4f8b8f926bf0bf4b0442df09649469f
+
+Package: prettier-install
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: npm, nodejs
+Description: coding, testing, docs and web-development ecosystem - prettier-install
+ Functional isolated upstream prettier launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/prettier-install_1.0.0-1_all.deb
+Size: 752
+SHA256: d0feff338184e3cb5870a93e8d384b3927c6b7045b6920ebd3cb9eb58131da7d
+
+Package: prettier-upgrade
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: npm, nodejs
+Description: coding, testing, docs and web-development ecosystem - prettier-upgrade
+ Functional isolated upstream prettier launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/prettier-upgrade_1.0.0-1_all.deb
+Size: 770
+SHA256: 40b068956f4e417f75cbb269c4b4a75b386bd388323ca3306b1ee7cd6eff3c31
+
+Package: vite
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: npm, nodejs
+Description: coding, testing, docs and web-development ecosystem - vite
+ Functional isolated upstream vite launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/vite_1.0.0-1_all.deb
+Size: 754
+SHA256: 585a77bca7b8ee3b6b32aa533a8bff008e800c274ede640dcdc2212e06023d02
+
+Package: vite-help
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: npm, nodejs
+Description: coding, testing, docs and web-development ecosystem - vite-help
+ Functional isolated upstream vite launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/vite-help_1.0.0-1_all.deb
+Size: 766
+SHA256: b438bf0e9b4418214a4dcad7307e18903c36133fc5162a6c25fde52abfe101ea
+
+Package: vite-version
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: npm, nodejs
+Description: coding, testing, docs and web-development ecosystem - vite-version
+ Functional isolated upstream vite launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/vite-version_1.0.0-1_all.deb
+Size: 768
+SHA256: a773921af61796e73a884435ccc5a6e0e8ab7f82491ecdc3b0893383149db156
+
+Package: vite-install
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: npm, nodejs
+Description: coding, testing, docs and web-development ecosystem - vite-install
+ Functional isolated upstream vite launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/vite-install_1.0.0-1_all.deb
+Size: 746
+SHA256: a9816928f5b818aeef530bbb9a7775346b9dced55ad86f9e7f13fd55a0ed5a51
+
+Package: vite-upgrade
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: npm, nodejs
+Description: coding, testing, docs and web-development ecosystem - vite-upgrade
+ Functional isolated upstream vite launcher. APT installation itself performs no network access.
+Filename: staging/shard-47/pool/main/vite-upgrade_1.0.0-1_all.deb
+Size: 756
+SHA256: de3ea2da2b22f5862e543c70e7595c21a08aabb2a53df77706ca02df9c565920
+
+Package: coding-ecosystem-suite
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: metapackages
+Priority: optional
+Depends: pytest (= 1.0.0-1), pytest-help (= 1.0.0-1), pytest-version (= 1.0.0-1), pytest-install (= 1.0.0-1), pytest-upgrade (= 1.0.0-1), tox (= 1.0.0-1), tox-help (= 1.0.0-1), tox-version (= 1.0.0-1), tox-install (= 1.0.0-1), tox-upgrade (= 1.0.0-1), nox (= 1.0.0-1), nox-help (= 1.0.0-1), nox-version (= 1.0.0-1), nox-install (= 1.0.0-1), nox-upgrade (= 1.0.0-1), pre-commit (= 1.0.0-1), pre-commit-help (= 1.0.0-1), pre-commit-version (= 1.0.0-1), pre-commit-install (= 1.0.0-1), pre-commit-upgrade (= 1.0.0-1), hatch (= 1.0.0-1), hatch-help (= 1.0.0-1), hatch-version (= 1.0.0-1), hatch-install (= 1.0.0-1), hatch-upgrade (= 1.0.0-1), copier (= 1.0.0-1), copier-help (= 1.0.0-1), copier-version (= 1.0.0-1), copier-install (= 1.0.0-1), copier-upgrade (= 1.0.0-1), mkdocs (= 1.0.0-1), mkdocs-help (= 1.0.0-1), mkdocs-version (= 1.0.0-1), mkdocs-install (= 1.0.0-1), mkdocs-upgrade (= 1.0.0-1), sphinx (= 1.0.0-1), sphinx-help (= 1.0.0-1), sphinx-version (= 1.0.0-1), sphinx-install (= 1.0.0-1), sphinx-upgrade (= 1.0.0-1), httpie (= 1.0.0-1), httpie-help (= 1.0.0-1), httpie-version (= 1.0.0-1), httpie-install (= 1.0.0-1), httpie-upgrade (= 1.0.0-1), poetry (= 1.0.0-1), poetry-help (= 1.0.0-1), poetry-version (= 1.0.0-1), poetry-install (= 1.0.0-1), poetry-upgrade (= 1.0.0-1), pdm (= 1.0.0-1), pdm-help (= 1.0.0-1), pdm-version (= 1.0.0-1), pdm-install (= 1.0.0-1), pdm-upgrade (= 1.0.0-1), typer (= 1.0.0-1), typer-help (= 1.0.0-1), typer-version (= 1.0.0-1), typer-install (= 1.0.0-1), typer-upgrade (= 1.0.0-1), invoke (= 1.0.0-1), invoke-help (= 1.0.0-1), invoke-version (= 1.0.0-1), invoke-install (= 1.0.0-1), invoke-upgrade (= 1.0.0-1), watchfiles (= 1.0.0-1), watchfiles-help (= 1.0.0-1), watchfiles-version (= 1.0.0-1), watchfiles-install (= 1.0.0-1), watchfiles-upgrade (= 1.0.0-1), ipython (= 1.0.0-1), ipython-help (= 1.0.0-1), ipython-version (= 1.0.0-1), ipython-install (= 1.0.0-1), ipython-upgrade (= 1.0.0-1), jupyterlab (= 1.0.0-1), jupyterlab-help (= 1.0.0-1), jupyterlab-version (= 1.0.0-1), jupyterlab-install (= 1.0.0-1), jupyterlab-upgrade (= 1.0.0-1), pyright (= 1.0.0-1), pyright-help (= 1.0.0-1), pyright-version (= 1.0.0-1), pyright-install (= 1.0.0-1), pyright-upgrade (= 1.0.0-1), eslint (= 1.0.0-1), eslint-help (= 1.0.0-1), eslint-version (= 1.0.0-1), eslint-install (= 1.0.0-1), eslint-upgrade (= 1.0.0-1), prettier (= 1.0.0-1), prettier-help (= 1.0.0-1), prettier-version (= 1.0.0-1), prettier-install (= 1.0.0-1), prettier-upgrade (= 1.0.0-1), vite (= 1.0.0-1), vite-help (= 1.0.0-1), vite-version (= 1.0.0-1), vite-install (= 1.0.0-1), vite-upgrade (= 1.0.0-1)
+Description: Ocean coding, testing, docs and web-development ecosystem suite
+ Installs the complete Ocean capability shard.
+Filename: staging/shard-47/pool/main/coding-ecosystem-suite_1.0.0-1_all.deb
+Size: 914
+SHA256: 690bd1912c2ba7b223d207c29c8fa7067f35712a5790cc3cd24a54dd43681c67

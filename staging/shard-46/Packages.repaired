@@ -1,0 +1,1312 @@
+Package: crewai
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - crewai
+ Functional isolated upstream crewai launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/crewai_1.0.0-1_all.deb
+Size: 746
+SHA256: bbc746ca23a9cde0afa58b0b72fff7f6d264017ad8daf11af1ff62eb72bf2070
+
+Package: crewai-help
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - crewai-help
+ Functional isolated upstream crewai launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/crewai-help_1.0.0-1_all.deb
+Size: 758
+SHA256: 39eaedb49e2bb8ea4d448a56033254ca3ce8144f432021c418ea039f1e12add9
+
+Package: crewai-version
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - crewai-version
+ Functional isolated upstream crewai launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/crewai-version_1.0.0-1_all.deb
+Size: 760
+SHA256: 7eb0e1a25f4b4e6d272a2fbf71de3bfe4b0d75632bbb7f649824b82db79e313a
+
+Package: crewai-install
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - crewai-install
+ Functional isolated upstream crewai launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/crewai-install_1.0.0-1_all.deb
+Size: 750
+SHA256: 5bcecbb061d9c6d29e2342f2219e174512b9a582ee7eb042d4dae3ec0fef2eb8
+
+Package: crewai-upgrade
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - crewai-upgrade
+ Functional isolated upstream crewai launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/crewai-upgrade_1.0.0-1_all.deb
+Size: 752
+SHA256: 3675891ac0c59e99643bb3e76dd2a34aeba41627bd9e42dcc489bac4e592cd8d
+
+Package: langgraph
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - langgraph
+ Functional isolated upstream langgraph-cli launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/langgraph_1.0.0-1_all.deb
+Size: 758
+SHA256: 581316d82d96813e4de876f3fbc82815ab452e04cda005ef3f3aea91d1b7b336
+
+Package: langgraph-help
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - langgraph-help
+ Functional isolated upstream langgraph-cli launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/langgraph-help_1.0.0-1_all.deb
+Size: 768
+SHA256: 5d180e5ef8a2db0eb48ee3f8b91e7ba079e599b37e84c7d907a0bbf2e9f873b3
+
+Package: langgraph-version
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - langgraph-version
+ Functional isolated upstream langgraph-cli launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/langgraph-version_1.0.0-1_all.deb
+Size: 772
+SHA256: 3bc7ca2c208d46c0d52cac9a9cab5f9f64c00f59c27ea0bc51949fca851c99fe
+
+Package: langgraph-install
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - langgraph-install
+ Functional isolated upstream langgraph-cli launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/langgraph-install_1.0.0-1_all.deb
+Size: 758
+SHA256: 467c96c0f00a8b30b44b9b1d8d9a15ac509965ca27a8f3e7e72d54e8ce7357d1
+
+Package: langgraph-upgrade
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - langgraph-upgrade
+ Functional isolated upstream langgraph-cli launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/langgraph-upgrade_1.0.0-1_all.deb
+Size: 764
+SHA256: d21310a0b234633cc70ec93329229e3a7696abdcb67eb1e71f109b926a7665ef
+
+Package: chromadb
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - chromadb
+ Functional isolated upstream chromadb launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/chromadb_1.0.0-1_all.deb
+Size: 750
+SHA256: 9495ea69e9d51fc2abf954ea83a9e7d80a7fabdd765046810e46f38a25c84de2
+
+Package: chromadb-help
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - chromadb-help
+ Functional isolated upstream chromadb launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/chromadb-help_1.0.0-1_all.deb
+Size: 766
+SHA256: 2d594088eb271101238fedeb91aea1f0b8bf004c139f4e0fafe60f7748db9cab
+
+Package: chromadb-version
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - chromadb-version
+ Functional isolated upstream chromadb launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/chromadb-version_1.0.0-1_all.deb
+Size: 770
+SHA256: cc774ae9c0d3e5c47c62ae0889695cd0d43076de1329efc35e969868caa66c88
+
+Package: chromadb-install
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - chromadb-install
+ Functional isolated upstream chromadb launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/chromadb-install_1.0.0-1_all.deb
+Size: 752
+SHA256: ad206448f4fd7cc88f3f6fc7afda101b1b44a702c3667858635d9cac3872ad05
+
+Package: chromadb-upgrade
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - chromadb-upgrade
+ Functional isolated upstream chromadb launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/chromadb-upgrade_1.0.0-1_all.deb
+Size: 756
+SHA256: cefd638ea99361badde96e3a0e7700da1dcb71dc7eff22944d4dc0b6f7d96607
+
+Package: rich-cli
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - rich-cli
+ Functional isolated upstream rich-cli launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/rich-cli_1.0.0-1_all.deb
+Size: 750
+SHA256: 779e3f9fc16c2f528ff7fad1773c5574bb0006712e2ceb8fef0b6c07799b5d0b
+
+Package: rich-cli-help
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - rich-cli-help
+ Functional isolated upstream rich-cli launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/rich-cli-help_1.0.0-1_all.deb
+Size: 760
+SHA256: 301b826de676371a4d6865430ca0977b2dd94e27dea89ec271a4f1f9e2c2177c
+
+Package: rich-cli-version
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - rich-cli-version
+ Functional isolated upstream rich-cli launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/rich-cli-version_1.0.0-1_all.deb
+Size: 768
+SHA256: 78d64113fdac901f06b0dd78708c7a9583f561d037f8ff0ff9b28e0bfa7ec6e0
+
+Package: rich-cli-install
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - rich-cli-install
+ Functional isolated upstream rich-cli launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/rich-cli-install_1.0.0-1_all.deb
+Size: 752
+SHA256: c71340ad66924700fd8273d52d2a59fc18e0eaab4aa6b00136123025aef366d9
+
+Package: rich-cli-upgrade
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - rich-cli-upgrade
+ Functional isolated upstream rich-cli launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/rich-cli-upgrade_1.0.0-1_all.deb
+Size: 758
+SHA256: c9f186332f4080b5bfcf7fa0cab040b2574150f4e4a4f3bda1a836b6f54e915c
+
+Package: aider
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - aider
+ Functional isolated upstream aider-chat launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/aider_1.0.0-1_all.deb
+Size: 754
+SHA256: b1d2c42d2c1e08e97533daeb0434d8e48c0ca8be333f5aa0299fba00c90d7294
+
+Package: aider-help
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - aider-help
+ Functional isolated upstream aider-chat launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/aider-help_1.0.0-1_all.deb
+Size: 762
+SHA256: e473fe37b48cfe811f98ebf2929762c4d62dee47b024e3736940311cd8905e2a
+
+Package: aider-version
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - aider-version
+ Functional isolated upstream aider-chat launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/aider-version_1.0.0-1_all.deb
+Size: 766
+SHA256: e10daa0d8005bfa8200fb2e7600fafdfd1c2e3f6e741ca8596e32e859cd786a5
+
+Package: aider-install
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - aider-install
+ Functional isolated upstream aider-chat launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/aider-install_1.0.0-1_all.deb
+Size: 752
+SHA256: b03e5e8537f9bba7db2151284fd93bff061f8642d7b2ccf4532b0bfef2071494
+
+Package: aider-upgrade
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - aider-upgrade
+ Functional isolated upstream aider-chat launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/aider-upgrade_1.0.0-1_all.deb
+Size: 754
+SHA256: d9773925be2dc82639028959950e55c72081207419b469a13e8f0ae93c8869fb
+
+Package: open-interpreter
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - open-interpreter
+ Functional isolated upstream open-interpreter launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/open-interpreter_1.0.0-1_all.deb
+Size: 764
+SHA256: 4fd67d46a294f18adee3abe102ceaa3d8a88cb9301ed6cb28e0fd6d8ef298f76
+
+Package: open-interpreter-help
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - open-interpreter-help
+ Functional isolated upstream open-interpreter launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/open-interpreter-help_1.0.0-1_all.deb
+Size: 776
+SHA256: 6440cf894c4bbfaae9ba9096a0cd16b108f2cc45d7244843efb8363f7ff30b87
+
+Package: open-interpreter-version
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - open-interpreter-version
+ Functional isolated upstream open-interpreter launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/open-interpreter-version_1.0.0-1_all.deb
+Size: 776
+SHA256: ee46018e41eb0bb009a77d847db38e9111ac12b37fdce7b3bcbd87c4b17c7c18
+
+Package: open-interpreter-install
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - open-interpreter-install
+ Functional isolated upstream open-interpreter launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/open-interpreter-install_1.0.0-1_all.deb
+Size: 764
+SHA256: 3b7bd0922e71ef14e71bc080b492548218e3c611917d40c8ebf7c14541936755
+
+Package: open-interpreter-upgrade
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - open-interpreter-upgrade
+ Functional isolated upstream open-interpreter launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/open-interpreter-upgrade_1.0.0-1_all.deb
+Size: 768
+SHA256: 2b8829c70c7bf288ea074eb46cadb7fff091ceb9f9a46b02c4ca1e42c48c3aa3
+
+Package: huggingface-cli
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - huggingface-cli
+ Functional isolated upstream huggingface-hub launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/huggingface-cli_1.0.0-1_all.deb
+Size: 768
+SHA256: 89a122e59adb80554c25d8ff73b86268b76c1f0d3e287a456619a20cd36b2767
+
+Package: huggingface-cli-help
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - huggingface-cli-help
+ Functional isolated upstream huggingface-hub launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/huggingface-cli-help_1.0.0-1_all.deb
+Size: 782
+SHA256: f8da59cd138bda23f87bbcce2683e0b62bfcde73629b689420cd20158946d77d
+
+Package: huggingface-cli-version
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - huggingface-cli-version
+ Functional isolated upstream huggingface-hub launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/huggingface-cli-version_1.0.0-1_all.deb
+Size: 782
+SHA256: 8b66e463a9e728cdd0ef97c9f55f31e2d263d7a195a9cb589e8a1dd182d570b1
+
+Package: huggingface-cli-install
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - huggingface-cli-install
+ Functional isolated upstream huggingface-hub launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/huggingface-cli-install_1.0.0-1_all.deb
+Size: 768
+SHA256: acb451fcb543d259d7969ec978f882ae1808aa1fbf582baeae9c85657027574c
+
+Package: huggingface-cli-upgrade
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - huggingface-cli-upgrade
+ Functional isolated upstream huggingface-hub launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/huggingface-cli-upgrade_1.0.0-1_all.deb
+Size: 770
+SHA256: 6a95cd548ed1e39f5cf168718d92ff3195f5289bb774e4cdac201c6e46734eb7
+
+Package: gradio
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - gradio
+ Functional isolated upstream gradio launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/gradio_1.0.0-1_all.deb
+Size: 748
+SHA256: f66cda7c0d861c344f95bca1e7796afc39779355d731b122303c1a8bbae8694b
+
+Package: gradio-help
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - gradio-help
+ Functional isolated upstream gradio launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/gradio-help_1.0.0-1_all.deb
+Size: 762
+SHA256: a5b9444d290f206320611769eef666eeb46513cecf066e3ca638027d5609ee2d
+
+Package: gradio-version
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - gradio-version
+ Functional isolated upstream gradio launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/gradio-version_1.0.0-1_all.deb
+Size: 766
+SHA256: ab09464fbd8ab321eeedc366456d4e3f5b208f4bf03c6788f2dc309ccfd24720
+
+Package: gradio-install
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - gradio-install
+ Functional isolated upstream gradio launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/gradio-install_1.0.0-1_all.deb
+Size: 750
+SHA256: 319e52a7976e32c426b99ddbdf9f2c9fc30d1752e2392c51f620800d9e3ef088
+
+Package: gradio-upgrade
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - gradio-upgrade
+ Functional isolated upstream gradio launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/gradio-upgrade_1.0.0-1_all.deb
+Size: 752
+SHA256: 7d75668f0753a6fb81a780fd501d203a43ea02b043e298445e1ec368a1385a28
+
+Package: streamlit
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - streamlit
+ Functional isolated upstream streamlit launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/streamlit_1.0.0-1_all.deb
+Size: 746
+SHA256: 9fcab65e27615d71073bd8fe33c895d3690eb6159b787ea40d519a41083b1e41
+
+Package: streamlit-help
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - streamlit-help
+ Functional isolated upstream streamlit launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/streamlit-help_1.0.0-1_all.deb
+Size: 756
+SHA256: e09f0a7644fd63cb796db397725fe5c5995d628103d3ba4241ef4642ce46ed47
+
+Package: streamlit-version
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - streamlit-version
+ Functional isolated upstream streamlit launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/streamlit-version_1.0.0-1_all.deb
+Size: 764
+SHA256: 97022ad094a017d6e8c673df7a98bf6361323ded68ff6be058d08c7968af754e
+
+Package: streamlit-install
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - streamlit-install
+ Functional isolated upstream streamlit launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/streamlit-install_1.0.0-1_all.deb
+Size: 750
+SHA256: 7fbe64c9add41aea0dac63c560394c5780958eaf345e3716399fe4ab4ab37181
+
+Package: streamlit-upgrade
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - streamlit-upgrade
+ Functional isolated upstream streamlit launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/streamlit-upgrade_1.0.0-1_all.deb
+Size: 756
+SHA256: d241f09f822f840a0e3daacb3658e40b4ca861039c68e0bae2f09ed1268f0a81
+
+Package: dvc
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - dvc
+ Functional isolated upstream dvc launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/dvc_1.0.0-1_all.deb
+Size: 742
+SHA256: 87f32383e546c0551d457becef47f374f37ee47ba81459acb102e78ad9c5e8f7
+
+Package: dvc-help
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - dvc-help
+ Functional isolated upstream dvc launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/dvc-help_1.0.0-1_all.deb
+Size: 756
+SHA256: 8b7debda33856e268e504ab578be86b2acbabcaf337a892dcaee96131822405b
+
+Package: dvc-version
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - dvc-version
+ Functional isolated upstream dvc launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/dvc-version_1.0.0-1_all.deb
+Size: 754
+SHA256: 4b3c2b96d67a28058b793eb03de89c356bd3e08b5a9f03551d0815ee138381fc
+
+Package: dvc-install
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - dvc-install
+ Functional isolated upstream dvc launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/dvc-install_1.0.0-1_all.deb
+Size: 744
+SHA256: 9494ffb856d645316045e1e9039492e88fedbced03f4ac290fe67e7accf7e4e9
+
+Package: dvc-upgrade
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - dvc-upgrade
+ Functional isolated upstream dvc launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/dvc-upgrade_1.0.0-1_all.deb
+Size: 748
+SHA256: 34854fd328685c883237e0fc13ae7d2fceabd6737bc4b3023d9b69a4aabcc6cf
+
+Package: mlflow
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - mlflow
+ Functional isolated upstream mlflow launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/mlflow_1.0.0-1_all.deb
+Size: 748
+SHA256: 523b656c90d4dd7552328a689a016f27d55a830887c3e3517facf93bb79aa08f
+
+Package: mlflow-help
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - mlflow-help
+ Functional isolated upstream mlflow launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/mlflow-help_1.0.0-1_all.deb
+Size: 760
+SHA256: 48fc0f1bba5508f937427e00056ab38ec96cf8091e2e5de7694978bed41bf2c3
+
+Package: mlflow-version
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - mlflow-version
+ Functional isolated upstream mlflow launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/mlflow-version_1.0.0-1_all.deb
+Size: 760
+SHA256: 8eaaa7a62fd9fbe6be15c38923a080e67fef5b004f80e17aac3b24365ead4f40
+
+Package: mlflow-install
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - mlflow-install
+ Functional isolated upstream mlflow launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/mlflow-install_1.0.0-1_all.deb
+Size: 748
+SHA256: 06c0442c57db5cf6a2f8d46fafaa28c8590cbf7702b594887854de6d28db7d67
+
+Package: mlflow-upgrade
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - mlflow-upgrade
+ Functional isolated upstream mlflow launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/mlflow-upgrade_1.0.0-1_all.deb
+Size: 752
+SHA256: f1374571ae708d77e6d7978563077a1da6249f2efc2352baa82e42838a186e12
+
+Package: datasette
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - datasette
+ Functional isolated upstream datasette launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/datasette_1.0.0-1_all.deb
+Size: 748
+SHA256: c7a8d086ecdf83e9f5dc9c14dc9f2bd649952f880fc065e1fcd6f7e0280f4c22
+
+Package: datasette-help
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - datasette-help
+ Functional isolated upstream datasette launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/datasette-help_1.0.0-1_all.deb
+Size: 760
+SHA256: cd201215ffe9b5170bab79fe12d32b50a8765c7ea3cdacf25651d23b1f60d14e
+
+Package: datasette-version
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - datasette-version
+ Functional isolated upstream datasette launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/datasette-version_1.0.0-1_all.deb
+Size: 764
+SHA256: 04c4af82beae93884787420e683435d1d8ff60b106fcce36f69eec570f18d063
+
+Package: datasette-install
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - datasette-install
+ Functional isolated upstream datasette launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/datasette-install_1.0.0-1_all.deb
+Size: 752
+SHA256: a791437f3a4aa9bea03353f9c6e7a3050990b0535b65f6f9114861ce5783311a
+
+Package: datasette-upgrade
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - datasette-upgrade
+ Functional isolated upstream datasette launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/datasette-upgrade_1.0.0-1_all.deb
+Size: 758
+SHA256: a76b585587d4999567db78f8c59d06ad761098841267507042e76ac626a5e579
+
+Package: prefect
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - prefect
+ Functional isolated upstream prefect launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/prefect_1.0.0-1_all.deb
+Size: 746
+SHA256: 64633d2e8ce8a907d45521b265b8e8f9fafcc2ce6263cb301d6f9e5694baf7f1
+
+Package: prefect-help
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - prefect-help
+ Functional isolated upstream prefect launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/prefect-help_1.0.0-1_all.deb
+Size: 760
+SHA256: 83f759767612441103555b32a736d5a245354fd57c1724a8aed02d1b6ddbf347
+
+Package: prefect-version
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - prefect-version
+ Functional isolated upstream prefect launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/prefect-version_1.0.0-1_all.deb
+Size: 758
+SHA256: c69139fb920c9615480a05e7194c39ea70aedadec41ff63b9fbb895af8c56f38
+
+Package: prefect-install
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - prefect-install
+ Functional isolated upstream prefect launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/prefect-install_1.0.0-1_all.deb
+Size: 746
+SHA256: 927c85ad96139977d895730ff90b839e65dfce47e4781c84b9d302ce8a1f9a63
+
+Package: prefect-upgrade
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - prefect-upgrade
+ Functional isolated upstream prefect launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/prefect-upgrade_1.0.0-1_all.deb
+Size: 752
+SHA256: f28259f234eff7b35922aa1484e9ddd43a7eb2075176378085fc403930fb2c47
+
+Package: dagster
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - dagster
+ Functional isolated upstream dagster launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/dagster_1.0.0-1_all.deb
+Size: 744
+SHA256: fe5538056bcbd48604ddbac6e3dab1aa027eae37358bf35f657222a4f73fb128
+
+Package: dagster-help
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - dagster-help
+ Functional isolated upstream dagster launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/dagster-help_1.0.0-1_all.deb
+Size: 760
+SHA256: 80f1d5639623e5763689a3890f56ac1aa645646d8fa4ccbcf93a98b3ccf99b23
+
+Package: dagster-version
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - dagster-version
+ Functional isolated upstream dagster launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/dagster-version_1.0.0-1_all.deb
+Size: 760
+SHA256: c3bd28f4a9057f07f7aa04462dbafe418c373ec7919c508413b2e341bccac68f
+
+Package: dagster-install
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - dagster-install
+ Functional isolated upstream dagster launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/dagster-install_1.0.0-1_all.deb
+Size: 748
+SHA256: 04848c3e73c27e36948b2123c5052ddbcffecc55a363af26e719b6861b1e5fe3
+
+Package: dagster-upgrade
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - dagster-upgrade
+ Functional isolated upstream dagster launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/dagster-upgrade_1.0.0-1_all.deb
+Size: 752
+SHA256: 0c128e3680680abd420c6fdc612b65086d052e4ea309bab42c4fd93dcf35e925
+
+Package: bentoml
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - bentoml
+ Functional isolated upstream bentoml launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/bentoml_1.0.0-1_all.deb
+Size: 744
+SHA256: 354582ab3643d76c1c427c218edeac0db935c0e2fd1e7c91be74244dded7a9f4
+
+Package: bentoml-help
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - bentoml-help
+ Functional isolated upstream bentoml launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/bentoml-help_1.0.0-1_all.deb
+Size: 760
+SHA256: 451ae9bec3c407eb6114f2906adc056389741c4ec3fe7d5b50af567ee65c027b
+
+Package: bentoml-version
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - bentoml-version
+ Functional isolated upstream bentoml launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/bentoml-version_1.0.0-1_all.deb
+Size: 762
+SHA256: 5d78fd81133eb1652f88e9d2225edf2259b57bb1cda8f8076b7c3d8e559c122b
+
+Package: bentoml-install
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - bentoml-install
+ Functional isolated upstream bentoml launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/bentoml-install_1.0.0-1_all.deb
+Size: 746
+SHA256: e233b013232ef5ebd9ff532192ee851e6adc92e6cf9789ef5b9fff6fc09c9f94
+
+Package: bentoml-upgrade
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - bentoml-upgrade
+ Functional isolated upstream bentoml launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/bentoml-upgrade_1.0.0-1_all.deb
+Size: 750
+SHA256: e57d3ba1da829fa222ed986135d5bb8215cc819c88586164a35650bd8c9e8c20
+
+Package: modal
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - modal
+ Functional isolated upstream modal launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/modal_1.0.0-1_all.deb
+Size: 746
+SHA256: 4103ee0c58b36b851561edb1b04cc91b71ab76137066ba963ff98c39bc8b46c1
+
+Package: modal-help
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - modal-help
+ Functional isolated upstream modal launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/modal-help_1.0.0-1_all.deb
+Size: 758
+SHA256: 0b74e4160b80a5ab7666a705bdc46e41813bad81f030f813962efecb9a014870
+
+Package: modal-version
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - modal-version
+ Functional isolated upstream modal launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/modal-version_1.0.0-1_all.deb
+Size: 758
+SHA256: f727e5092ac4fe19d5b71822ea3c868d693d2149037f54976518ba75596c50e5
+
+Package: modal-install
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - modal-install
+ Functional isolated upstream modal launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/modal-install_1.0.0-1_all.deb
+Size: 746
+SHA256: 7fc8a05a2f350390c624bf3f828f087a92545e9f6e2b3e8f6dc63f65fca84fda
+
+Package: modal-upgrade
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - modal-upgrade
+ Functional isolated upstream modal launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/modal-upgrade_1.0.0-1_all.deb
+Size: 746
+SHA256: efd8307d44077933062ec4c20e551e579f4b955cdc2f6c16ca878bc870321504
+
+Package: chainlit
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - chainlit
+ Functional isolated upstream chainlit launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/chainlit_1.0.0-1_all.deb
+Size: 748
+SHA256: 37b410ea5269b61bab3df3515e9b51b46f98dcbdfa9318b5333bf2a2845dc1ac
+
+Package: chainlit-help
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - chainlit-help
+ Functional isolated upstream chainlit launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/chainlit-help_1.0.0-1_all.deb
+Size: 760
+SHA256: bf0857b9bc7488fea99c71610468f3ffe000acfcc57d0507ff6182e2161e2e15
+
+Package: chainlit-version
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - chainlit-version
+ Functional isolated upstream chainlit launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/chainlit-version_1.0.0-1_all.deb
+Size: 764
+SHA256: 5400a82a7be44a52fe36068ac2ede0f9d70ce9303bcb2237f731e93a7c536707
+
+Package: chainlit-install
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - chainlit-install
+ Functional isolated upstream chainlit launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/chainlit-install_1.0.0-1_all.deb
+Size: 752
+SHA256: ea0117f6a675d90d7945c366a49d00d29fa0bf82e9a2d38132c6ac41530ded4f
+
+Package: chainlit-upgrade
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - chainlit-upgrade
+ Functional isolated upstream chainlit launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/chainlit-upgrade_1.0.0-1_all.deb
+Size: 754
+SHA256: cadf67e7ca335a8ee83153309bc13916c866e110afed7c9b07dcf446962dc0c4
+
+Package: zenml
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - zenml
+ Functional isolated upstream zenml launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/zenml_1.0.0-1_all.deb
+Size: 744
+SHA256: 4ff315133d3f51827ca909a112c08f5a2585209cc6bd016ee0fe5cf6e3ad0417
+
+Package: zenml-help
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - zenml-help
+ Functional isolated upstream zenml launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/zenml-help_1.0.0-1_all.deb
+Size: 760
+SHA256: f68cef52dd9f1840cc74972f55514a208b96f7618cc7fac897c32b900a64b002
+
+Package: zenml-version
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - zenml-version
+ Functional isolated upstream zenml launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/zenml-version_1.0.0-1_all.deb
+Size: 760
+SHA256: 1e24dd6ea90bc5d9144facb3ad1c4343dd7e170205c287a3dd7d684e8dd61322
+
+Package: zenml-install
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - zenml-install
+ Functional isolated upstream zenml launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/zenml-install_1.0.0-1_all.deb
+Size: 746
+SHA256: 6ea770215adb8e0ef3793233ddcb734ec29247dd39f5d236c1632fcaaf7d5ed5
+
+Package: zenml-upgrade
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - zenml-upgrade
+ Functional isolated upstream zenml launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/zenml-upgrade_1.0.0-1_all.deb
+Size: 750
+SHA256: 2fd2b18517a7ef0274a30eb8d69fb963354a17dddf9da80cc8ee942d91febc94
+
+Package: kedro
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - kedro
+ Functional isolated upstream kedro launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/kedro_1.0.0-1_all.deb
+Size: 744
+SHA256: 2a1a7c095d300f9706942c9407245dd22e932ce18101b3ec9cd37dea74a1f2fd
+
+Package: kedro-help
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - kedro-help
+ Functional isolated upstream kedro launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/kedro-help_1.0.0-1_all.deb
+Size: 758
+SHA256: 3a6e121f47e6c27eaba533d282b2cc637c4ddb2085a239b0cf65abf83d14d6c7
+
+Package: kedro-version
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - kedro-version
+ Functional isolated upstream kedro launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/kedro-version_1.0.0-1_all.deb
+Size: 762
+SHA256: e3f28f9e79b5654d13c9647c8e3ef59a0e6f6ff2bc7579b81e3e852fd411dcee
+
+Package: kedro-install
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - kedro-install
+ Functional isolated upstream kedro launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/kedro-install_1.0.0-1_all.deb
+Size: 744
+SHA256: c96b56e7bcdde297a283337d2788c0773e7f47da84ff55d5af5092e42c7f2d8e
+
+Package: kedro-upgrade
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - kedro-upgrade
+ Functional isolated upstream kedro launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/kedro-upgrade_1.0.0-1_all.deb
+Size: 750
+SHA256: bc11ddaa339ce1092fd48e1085f31cbf8f0c7b0782c741583cb4920286253d86
+
+Package: openai
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - openai
+ Functional isolated upstream openai launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/openai_1.0.0-1_all.deb
+Size: 744
+SHA256: 9eeec51dc5cf3bb7d6c37d5ded456916fe36132c9c9e31e97d1ac89c6673d731
+
+Package: openai-help
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - openai-help
+ Functional isolated upstream openai launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/openai-help_1.0.0-1_all.deb
+Size: 760
+SHA256: e4314a684b31c021a471f7c27c3af63c599b692bf8c38f9570f53eef5fa987dd
+
+Package: openai-version
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - openai-version
+ Functional isolated upstream openai launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/openai-version_1.0.0-1_all.deb
+Size: 762
+SHA256: 177b4483a4a20919eb9b2573a1f7cedd29196dbe5ff1f3bf87004527432a4aa9
+
+Package: openai-install
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - openai-install
+ Functional isolated upstream openai launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/openai-install_1.0.0-1_all.deb
+Size: 746
+SHA256: 998f1be98e6a50987656ae69004ee8dbd371fb6da52719c5cc45ce33de303c39
+
+Package: openai-upgrade
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: devel
+Priority: optional
+Depends: pipx, python
+Description: AI agent, RAG, ML and terminal ecosystem - openai-upgrade
+ Functional isolated upstream openai launcher. APT installation itself performs no network access.
+Filename: staging/shard-46/pool/main/openai-upgrade_1.0.0-1_all.deb
+Size: 752
+SHA256: e06778163c865db3f767a8066e658ce09ae1293a14371ec4dddbfeebf2ce0c3b
+
+Package: ai-agent-ecosystem-suite
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: metapackages
+Priority: optional
+Depends: crewai (= 1.0.0-1), crewai-help (= 1.0.0-1), crewai-version (= 1.0.0-1), crewai-install (= 1.0.0-1), crewai-upgrade (= 1.0.0-1), langgraph (= 1.0.0-1), langgraph-help (= 1.0.0-1), langgraph-version (= 1.0.0-1), langgraph-install (= 1.0.0-1), langgraph-upgrade (= 1.0.0-1), chromadb (= 1.0.0-1), chromadb-help (= 1.0.0-1), chromadb-version (= 1.0.0-1), chromadb-install (= 1.0.0-1), chromadb-upgrade (= 1.0.0-1), rich-cli (= 1.0.0-1), rich-cli-help (= 1.0.0-1), rich-cli-version (= 1.0.0-1), rich-cli-install (= 1.0.0-1), rich-cli-upgrade (= 1.0.0-1), aider (= 1.0.0-1), aider-help (= 1.0.0-1), aider-version (= 1.0.0-1), aider-install (= 1.0.0-1), aider-upgrade (= 1.0.0-1), open-interpreter (= 1.0.0-1), open-interpreter-help (= 1.0.0-1), open-interpreter-version (= 1.0.0-1), open-interpreter-install (= 1.0.0-1), open-interpreter-upgrade (= 1.0.0-1), huggingface-cli (= 1.0.0-1), huggingface-cli-help (= 1.0.0-1), huggingface-cli-version (= 1.0.0-1), huggingface-cli-install (= 1.0.0-1), huggingface-cli-upgrade (= 1.0.0-1), gradio (= 1.0.0-1), gradio-help (= 1.0.0-1), gradio-version (= 1.0.0-1), gradio-install (= 1.0.0-1), gradio-upgrade (= 1.0.0-1), streamlit (= 1.0.0-1), streamlit-help (= 1.0.0-1), streamlit-version (= 1.0.0-1), streamlit-install (= 1.0.0-1), streamlit-upgrade (= 1.0.0-1), dvc (= 1.0.0-1), dvc-help (= 1.0.0-1), dvc-version (= 1.0.0-1), dvc-install (= 1.0.0-1), dvc-upgrade (= 1.0.0-1), mlflow (= 1.0.0-1), mlflow-help (= 1.0.0-1), mlflow-version (= 1.0.0-1), mlflow-install (= 1.0.0-1), mlflow-upgrade (= 1.0.0-1), datasette (= 1.0.0-1), datasette-help (= 1.0.0-1), datasette-version (= 1.0.0-1), datasette-install (= 1.0.0-1), datasette-upgrade (= 1.0.0-1), prefect (= 1.0.0-1), prefect-help (= 1.0.0-1), prefect-version (= 1.0.0-1), prefect-install (= 1.0.0-1), prefect-upgrade (= 1.0.0-1), dagster (= 1.0.0-1), dagster-help (= 1.0.0-1), dagster-version (= 1.0.0-1), dagster-install (= 1.0.0-1), dagster-upgrade (= 1.0.0-1), bentoml (= 1.0.0-1), bentoml-help (= 1.0.0-1), bentoml-version (= 1.0.0-1), bentoml-install (= 1.0.0-1), bentoml-upgrade (= 1.0.0-1), modal (= 1.0.0-1), modal-help (= 1.0.0-1), modal-version (= 1.0.0-1), modal-install (= 1.0.0-1), modal-upgrade (= 1.0.0-1), chainlit (= 1.0.0-1), chainlit-help (= 1.0.0-1), chainlit-version (= 1.0.0-1), chainlit-install (= 1.0.0-1), chainlit-upgrade (= 1.0.0-1), zenml (= 1.0.0-1), zenml-help (= 1.0.0-1), zenml-version (= 1.0.0-1), zenml-install (= 1.0.0-1), zenml-upgrade (= 1.0.0-1), kedro (= 1.0.0-1), kedro-help (= 1.0.0-1), kedro-version (= 1.0.0-1), kedro-install (= 1.0.0-1), kedro-upgrade (= 1.0.0-1), openai (= 1.0.0-1), openai-help (= 1.0.0-1), openai-version (= 1.0.0-1), openai-install (= 1.0.0-1), openai-upgrade (= 1.0.0-1)
+Description: Ocean AI agent, RAG, ML and terminal ecosystem suite
+ Installs the complete Ocean capability shard.
+Filename: staging/shard-46/pool/main/ai-agent-ecosystem-suite_1.0.0-1_all.deb
+Size: 938
+SHA256: 334c0c0e05677f182fac97a6885763432f27e0ed5c990852f4494f0ccc88e075

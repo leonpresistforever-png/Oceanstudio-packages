@@ -1,0 +1,12 @@
+Package: ocean-ai-dev-superpack
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: metapackages
+Priority: optional
+Depends: ai-agent-ecosystem-suite (= 1.0.0-1), coding-ecosystem-suite (= 1.0.0-1), ai-pipeline-utility-suite (= 1.0.0-1)
+Description: Ocean AI and developer ecosystem superpack
+ Installs the complete Ocean capability shard.
+Filename: staging/ai-dev-superpack/pool/main/ocean-ai-dev-superpack_1.0.0-1_all.deb
+Size: 608
+SHA256: 4c04c8c1d4dc3e3d29dcf435ebf6ac64c852ee3c55e0cf388377fdfcce21b053

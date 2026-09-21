@@ -1,0 +1,922 @@
+{
+  "schemaVersion": 1,
+  "shard": "48",
+  "version": "1.0.0-1",
+  "prefix": "/data/data/studio.ocean.app/files/usr",
+  "commandCount": 100,
+  "packageCount": 101,
+  "suite": "ai-pipeline-utility-suite",
+  "networkAtAptInstall": false,
+  "rootRequired": false,
+  "packages": [
+    {
+      "package": "aiutil-text-lower",
+      "artifact": "aiutil-text-lower_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3630,
+      "sha256": "7431e23a3d40d85794271b202f91828957c9621959242da6c068facb0ffcda3e"
+    },
+    {
+      "package": "aiutil-text-upper",
+      "artifact": "aiutil-text-upper_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3632,
+      "sha256": "813c811221ffe35da7ce109f7fb5126cc17afd0dcd957d1ccba02159c9cdf35b"
+    },
+    {
+      "package": "aiutil-text-strip",
+      "artifact": "aiutil-text-strip_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3630,
+      "sha256": "65e1d12f2f92781a4d534de0441ba0c37a4a89a2b533b73bca0481268bf95bb1"
+    },
+    {
+      "package": "aiutil-text-normalize",
+      "artifact": "aiutil-text-normalize_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3634,
+      "sha256": "996a20c3135f46d3771d99d7fb9b5611c4decce5740b4f6355e1875c4f2f702c"
+    },
+    {
+      "package": "aiutil-text-lines",
+      "artifact": "aiutil-text-lines_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3632,
+      "sha256": "9536a5abb7b2860c1071bdf8486cb3f8c9ba036bfd04968d3930b99a60f84c91"
+    },
+    {
+      "package": "aiutil-text-words",
+      "artifact": "aiutil-text-words_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3634,
+      "sha256": "68003ef64a94bb3d5944b6cb776d6a3fb67acefc8a942c208c9c49e1a9c98661"
+    },
+    {
+      "package": "aiutil-text-chars",
+      "artifact": "aiutil-text-chars_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3632,
+      "sha256": "e0cfa6d3aee22172121a9b4526dc3c37cb5a49daf9d2f83564ebbc0e564c89d4"
+    },
+    {
+      "package": "aiutil-text-bytes",
+      "artifact": "aiutil-text-bytes_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3628,
+      "sha256": "8a2a8be04316ed8ac11bd70e7278cb2d7d1fe803db1fd21839e5564f49bb2215"
+    },
+    {
+      "package": "aiutil-text-unique-lines",
+      "artifact": "aiutil-text-unique-lines_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3632,
+      "sha256": "7a4c585f9e4d14b3c6c25d941c2e9c81293562a84b3689886d9591ae57ea24fe"
+    },
+    {
+      "package": "aiutil-text-sort-lines",
+      "artifact": "aiutil-text-sort-lines_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3634,
+      "sha256": "330d8cb092794a6a770f6833f3c72459968b291c33705cb6257558704eab9240"
+    },
+    {
+      "package": "aiutil-text-reverse-lines",
+      "artifact": "aiutil-text-reverse-lines_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3640,
+      "sha256": "2158e17ed2c9316ea14de4333ed371c7f33cb3b393df2e13bc6e860e33afc665"
+    },
+    {
+      "package": "aiutil-text-head",
+      "artifact": "aiutil-text-head_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3632,
+      "sha256": "5be17967dc934b8b6e4c4663186c7c921c0d7e608ea9e793081e7ae0a389bdc9"
+    },
+    {
+      "package": "aiutil-text-tail",
+      "artifact": "aiutil-text-tail_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3630,
+      "sha256": "3c21784caf47bf73df6b61e440ef59579abadf4288702376223c794fdeffaf6d"
+    },
+    {
+      "package": "aiutil-text-sha256",
+      "artifact": "aiutil-text-sha256_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3632,
+      "sha256": "2c2e78257dfc833e3c52d09dd04227db67377af98a6e8fa898b0f82da6cf7e29"
+    },
+    {
+      "package": "aiutil-text-md5",
+      "artifact": "aiutil-text-md5_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3634,
+      "sha256": "7269f1b026f14b84bd122222004c816aaf10f5d1585c9f39d3bd6233c528b7a4"
+    },
+    {
+      "package": "aiutil-text-slug",
+      "artifact": "aiutil-text-slug_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3632,
+      "sha256": "d43d37e3bda5fcb70a55e89694a829c259dc90993587196dd1f5992c2da2acd3"
+    },
+    {
+      "package": "aiutil-text-emails",
+      "artifact": "aiutil-text-emails_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3632,
+      "sha256": "7f900a013ed1443091d6f5007429e5e6fd492cf263787a02c7db36989697598c"
+    },
+    {
+      "package": "aiutil-text-urls",
+      "artifact": "aiutil-text-urls_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3634,
+      "sha256": "07c5db01087a0635c6d26e40567e4efb1e3b16bab9538b08d589597d2aac4c82"
+    },
+    {
+      "package": "aiutil-text-redact-emails",
+      "artifact": "aiutil-text-redact-emails_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3632,
+      "sha256": "b95d082634a484581583d5c21bad936e632400df3a711692029c7b042e1db40e"
+    },
+    {
+      "package": "aiutil-text-json-quote",
+      "artifact": "aiutil-text-json-quote_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3640,
+      "sha256": "386d75d4d292b2720c2c47d18dbfc636388a201a08e61107c72e62094bb15037"
+    },
+    {
+      "package": "aiutil-json-validate",
+      "artifact": "aiutil-json-validate_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3634,
+      "sha256": "bf31d3855ccc6cf850531015e08d3096cc567edb37cf70b9f5cc82b49a447e86"
+    },
+    {
+      "package": "aiutil-json-pretty",
+      "artifact": "aiutil-json-pretty_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3630,
+      "sha256": "c1cfaf8467ae50781c2639bf24422cb376732e207a1074cd7bb840d6908106a9"
+    },
+    {
+      "package": "aiutil-json-compact",
+      "artifact": "aiutil-json-compact_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3632,
+      "sha256": "31c5a101eebf36bb34c7d54915778b5d1dfa0c48612fb13cb1474dfd7a021bcb"
+    },
+    {
+      "package": "aiutil-json-keys",
+      "artifact": "aiutil-json-keys_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3628,
+      "sha256": "87b6d54c76ae9962ef3cc0c14a557195d0a9860e331b9cc39ecab4990f3b247e"
+    },
+    {
+      "package": "aiutil-json-values",
+      "artifact": "aiutil-json-values_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3634,
+      "sha256": "f7c92b51b6cb1d0885d9265bff60bdf54c4e7be2dc432e76459a4a555da7e6b5"
+    },
+    {
+      "package": "aiutil-json-length",
+      "artifact": "aiutil-json-length_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3630,
+      "sha256": "f07ed7be95e76cf8ffe1c46a4de5a4f39ef9a3ec6a3bfcf2afddacabf6fedef0"
+    },
+    {
+      "package": "aiutil-json-type",
+      "artifact": "aiutil-json-type_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3628,
+      "sha256": "c74ae79cc2cc8db44b416a8b41a4ada6036fc320d0083598ac3613d085482d45"
+    },
+    {
+      "package": "aiutil-json-get",
+      "artifact": "aiutil-json-get_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3630,
+      "sha256": "03116f162c6dc6b830ac1f78f79903156847604e9fadca9cb75669727ae40d87"
+    },
+    {
+      "package": "aiutil-json-has",
+      "artifact": "aiutil-json-has_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3632,
+      "sha256": "d0808d86f75156409bb4e81b482f9641e17ac6e99ba35620773733c08f11b482"
+    },
+    {
+      "package": "aiutil-json-sort-keys",
+      "artifact": "aiutil-json-sort-keys_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3634,
+      "sha256": "8f1c0d22bd5d17926b57014c807bfcdb59c36e2c8b40fde1e666e46f0d7b9637"
+    },
+    {
+      "package": "aiutil-json-jsonl-count",
+      "artifact": "aiutil-json-jsonl-count_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3634,
+      "sha256": "04e17a369e46d8edfc544b50c89d0d3afbfc08e62d9775df93689f620605026a"
+    },
+    {
+      "package": "aiutil-json-jsonl-pretty",
+      "artifact": "aiutil-json-jsonl-pretty_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3638,
+      "sha256": "ea7ceb928f2bbbf156eae0399b5aecee3de2d2d2129fa12ca24b7c28baaca5ba"
+    },
+    {
+      "package": "aiutil-json-jsonl-head",
+      "artifact": "aiutil-json-jsonl-head_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3632,
+      "sha256": "f0e8f28af2d527a72c88652490d5c12ed98a67d59a458c0da14065d5afa3fe03"
+    },
+    {
+      "package": "aiutil-json-jsonl-tail",
+      "artifact": "aiutil-json-jsonl-tail_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3636,
+      "sha256": "74fc4b514a730717eeac32145cb84890cfdfee535fb76a8019c02c1965ad0b6d"
+    },
+    {
+      "package": "aiutil-json-jsonl-keys",
+      "artifact": "aiutil-json-jsonl-keys_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3642,
+      "sha256": "f8e17f3faef09c72902be491fb8f0bfcd3e81baafea1de21ed6b76d1eaaeb519"
+    },
+    {
+      "package": "aiutil-json-jsonl-dedupe",
+      "artifact": "aiutil-json-jsonl-dedupe_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3636,
+      "sha256": "b031c19596214c990282494fb8671eed2f97a759237143a42a31f290c94f1d1d"
+    },
+    {
+      "package": "aiutil-json-to-jsonl",
+      "artifact": "aiutil-json-to-jsonl_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3634,
+      "sha256": "f4bd1fbf1ac12651b46f7d4fa5ca3fbcf2c5b79559b79dbc2619ae3c75a3a8c4"
+    },
+    {
+      "package": "aiutil-json-array-first",
+      "artifact": "aiutil-json-array-first_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3630,
+      "sha256": "a443b530d4074adbad1a8aa25da3fb23db04604e97e2e83ccbb9c851d07a556e"
+    },
+    {
+      "package": "aiutil-json-array-last",
+      "artifact": "aiutil-json-array-last_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3634,
+      "sha256": "c82c134b0b6081cbd7b92dd2e8d6ae3735ed6dbe6fcea8b44c2022ba72e06dba"
+    },
+    {
+      "package": "aiutil-json-hash",
+      "artifact": "aiutil-json-hash_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3626,
+      "sha256": "1d1843694f3e13d12e6ab283cc1c145e802c18b24e44e23367abb9260bd82d69"
+    },
+    {
+      "package": "aiutil-file-stat",
+      "artifact": "aiutil-file-stat_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3628,
+      "sha256": "dc7169722f05d797ffcf75222cd4865d1565c65dfd7a815487457914653232b5"
+    },
+    {
+      "package": "aiutil-file-size",
+      "artifact": "aiutil-file-size_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3630,
+      "sha256": "aab01cf13486a09405b01ecee4bd0304dea4a2ca845604f2898bcfc2670102d7"
+    },
+    {
+      "package": "aiutil-file-sha256",
+      "artifact": "aiutil-file-sha256_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3628,
+      "sha256": "8ac531951207350ee8af16352e430077d2b2def9e0fb16de6be48d7082dc1c2f"
+    },
+    {
+      "package": "aiutil-file-md5",
+      "artifact": "aiutil-file-md5_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3628,
+      "sha256": "1761f322f53612b4cafb7c6413d3dfb4db2ccb80449c3ddf8519e895d85ea59b"
+    },
+    {
+      "package": "aiutil-file-lines",
+      "artifact": "aiutil-file-lines_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3626,
+      "sha256": "be75288135a6ed21ebd34808d20b5a930e8de02090f3e68c204bc1af69c9756b"
+    },
+    {
+      "package": "aiutil-file-words",
+      "artifact": "aiutil-file-words_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3630,
+      "sha256": "aea91124181f5240ffbc28a1c589b7c0911532e58b7cefbd8f8958f9a3b98e24"
+    },
+    {
+      "package": "aiutil-file-head",
+      "artifact": "aiutil-file-head_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3628,
+      "sha256": "8792afc3b4f11c37ed5ae41641f09b3458405dd353f9af3c3aa414144a883942"
+    },
+    {
+      "package": "aiutil-file-tail",
+      "artifact": "aiutil-file-tail_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3630,
+      "sha256": "ff92d157a308e64db046a8cae4645ae1f4c15d33390f8231a7b5cc656d397973"
+    },
+    {
+      "package": "aiutil-file-exists",
+      "artifact": "aiutil-file-exists_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3628,
+      "sha256": "2f5aa3f81935d188a0f8b137b4e25d712e08c75a78b5835d56a96d0d8cb70a53"
+    },
+    {
+      "package": "aiutil-file-is-file",
+      "artifact": "aiutil-file-is-file_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3624,
+      "sha256": "cbf240bd9b419d160cb0e97031c6c7a7d1f2a09ac42d6531eb6b3cc76627d087"
+    },
+    {
+      "package": "aiutil-file-is-dir",
+      "artifact": "aiutil-file-is-dir_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3628,
+      "sha256": "ead6e2e3db9264c681a41ac37dab4e5f12a399deb93dec7d53ce32945fb781be"
+    },
+    {
+      "package": "aiutil-file-basename",
+      "artifact": "aiutil-file-basename_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3632,
+      "sha256": "45473950e2956ce3e5071a663f376b27858de701f13cf170b14ffbab6cff34a0"
+    },
+    {
+      "package": "aiutil-file-dirname",
+      "artifact": "aiutil-file-dirname_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3636,
+      "sha256": "9a61dfaf9a4ce8185ab70dad630957b9c1b2380bff22b070c8c89a4749b0338c"
+    },
+    {
+      "package": "aiutil-file-suffix",
+      "artifact": "aiutil-file-suffix_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3632,
+      "sha256": "54f1fede847a10994d519a20eca2338cebba8bd1da092dc9ad7fe3bdbc30f1c6"
+    },
+    {
+      "package": "aiutil-file-stem",
+      "artifact": "aiutil-file-stem_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3626,
+      "sha256": "353ec636572502b73abf70eb10f13333fcb35b74d8099645a9c6af2a49aea3ec"
+    },
+    {
+      "package": "aiutil-file-resolve",
+      "artifact": "aiutil-file-resolve_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3632,
+      "sha256": "b5e3ad339f3e9d8a01596e3ed96249616e54047a72d015bd16f5f40051cf3d87"
+    },
+    {
+      "package": "aiutil-file-permissions",
+      "artifact": "aiutil-file-permissions_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3632,
+      "sha256": "9be5680f8993094271bd3d7f46fd7daca8b6c55ae5204ef81a3a28bd413149b9"
+    },
+    {
+      "package": "aiutil-file-newer",
+      "artifact": "aiutil-file-newer_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3630,
+      "sha256": "daf404057ea4e4fb2f1446ae67e4d74f34c73dd7a6b0e4a6b66da8e1b02c7c90"
+    },
+    {
+      "package": "aiutil-file-copy-plan",
+      "artifact": "aiutil-file-copy-plan_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3632,
+      "sha256": "b72f961773b22f6e7e88185cc804c5907d93a5ae18076f7398044e12b827fb3d"
+    },
+    {
+      "package": "aiutil-file-manifest",
+      "artifact": "aiutil-file-manifest_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3634,
+      "sha256": "b26b6bd1599ac04fb847515aaedb2b05eef0bbd09ee9ff6b2b2761b50d648fa7"
+    },
+    {
+      "package": "aiutil-repo-files",
+      "artifact": "aiutil-repo-files_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3632,
+      "sha256": "001dae803da83e0663da4e20e2984fc727c5cf7ab1e3635ce4b9e7df09fb79d9"
+    },
+    {
+      "package": "aiutil-repo-dirs",
+      "artifact": "aiutil-repo-dirs_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3630,
+      "sha256": "2836adf8c7279fc78495c05ae1bdc79a2ff607b02c0556d34bba196f12e521ed"
+    },
+    {
+      "package": "aiutil-repo-tree",
+      "artifact": "aiutil-repo-tree_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3628,
+      "sha256": "e8ded3692438dbe984de93875d260092463f8c5f7b66a2cbf3d5e1e91a90babe"
+    },
+    {
+      "package": "aiutil-repo-extensions",
+      "artifact": "aiutil-repo-extensions_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3632,
+      "sha256": "32cd7c3af949de98c440e6c61276fd526e83b0cfa1a418c4c4b8105e58c44bef"
+    },
+    {
+      "package": "aiutil-repo-largest",
+      "artifact": "aiutil-repo-largest_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3630,
+      "sha256": "8e225e2ed2556592c8ff6b5cceadef4bdd7901199f4181fdfe81826f15280d18"
+    },
+    {
+      "package": "aiutil-repo-smallest",
+      "artifact": "aiutil-repo-smallest_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3630,
+      "sha256": "072b2b78106ac70777924ee1660dbe655a9421373f9df030a3b0e3ac7a4ac294"
+    },
+    {
+      "package": "aiutil-repo-newest",
+      "artifact": "aiutil-repo-newest_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3630,
+      "sha256": "734eb15a95668f2e1f39c73f001f90e70339290fcb93c669273af9382f9402aa"
+    },
+    {
+      "package": "aiutil-repo-oldest",
+      "artifact": "aiutil-repo-oldest_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3628,
+      "sha256": "e5b9266b4dccbaf37ec84698fa28b330235edb5ce641cfc0da734a036cdec0e7"
+    },
+    {
+      "package": "aiutil-repo-duplicates",
+      "artifact": "aiutil-repo-duplicates_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3638,
+      "sha256": "3c897304a1dc629c522aa19f8b5598f8653a4f79301b1cb7a40433c83a18d1a9"
+    },
+    {
+      "package": "aiutil-repo-readmes",
+      "artifact": "aiutil-repo-readmes_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3636,
+      "sha256": "2733603426384abd1bd1449301a444f3c5a80992594cff5b88f1db5c50f7bf46"
+    },
+    {
+      "package": "aiutil-repo-licenses",
+      "artifact": "aiutil-repo-licenses_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3630,
+      "sha256": "0c7f7343a607d26efba3cd1295e1de177db6b3a473ddb59d370a11f2d172b667"
+    },
+    {
+      "package": "aiutil-repo-todos",
+      "artifact": "aiutil-repo-todos_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3632,
+      "sha256": "a8148e438af1ad24aeb47295490ee3fdc6d71bfdc3abfb98526c89796d9fc849"
+    },
+    {
+      "package": "aiutil-repo-fixmes",
+      "artifact": "aiutil-repo-fixmes_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3630,
+      "sha256": "fdc3b5a62cc89a05855bebe83cf7eaca6772dca2b0605243f0d6392dbfbc9408"
+    },
+    {
+      "package": "aiutil-repo-python-files",
+      "artifact": "aiutil-repo-python-files_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3628,
+      "sha256": "332f26d0fa0c5ceca8f0f8bd76bd7980aea2a9240c26e21247098c46d878cd40"
+    },
+    {
+      "package": "aiutil-repo-js-files",
+      "artifact": "aiutil-repo-js-files_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3636,
+      "sha256": "dd40b9ddbf2dda63289ec5a557eeace2396965c3712f089cd746e11736b0794e"
+    },
+    {
+      "package": "aiutil-repo-json-files",
+      "artifact": "aiutil-repo-json-files_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3636,
+      "sha256": "3ec9ba5d15f845b4c447f77bee0f59f4ce90aaba49639852d3c3d56c4ce7cc46"
+    },
+    {
+      "package": "aiutil-repo-yaml-files",
+      "artifact": "aiutil-repo-yaml-files_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3636,
+      "sha256": "8836cd10709c292f656e582a1d9606d8b6cb686f242b7abf1afa59eba9bf9a75"
+    },
+    {
+      "package": "aiutil-repo-markdown-files",
+      "artifact": "aiutil-repo-markdown-files_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3636,
+      "sha256": "e0d183352c1cf6d3e1266b26ad4f76519644156bcdf49f57997a18b4a78416a2"
+    },
+    {
+      "package": "aiutil-repo-total-bytes",
+      "artifact": "aiutil-repo-total-bytes_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3632,
+      "sha256": "29115882fce6afa9cec9ee2fc561f87456410baaafa752724d770b4095a83bf9"
+    },
+    {
+      "package": "aiutil-repo-manifest",
+      "artifact": "aiutil-repo-manifest_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3632,
+      "sha256": "9883f5518d0f3332fe26c65c636637dbd9754b0b185fb5eec0df92de2826a2c5"
+    },
+    {
+      "package": "aiutil-ai-prompt-stats",
+      "artifact": "aiutil-ai-prompt-stats_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3632,
+      "sha256": "170684b53c77938d9e3adf5a118c44ebe001ef63f960d5ecf8113ad48385c405"
+    },
+    {
+      "package": "aiutil-ai-prompt-hash",
+      "artifact": "aiutil-ai-prompt-hash_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3632,
+      "sha256": "2d5968bcc749d63e64b2e69ddf73e48f99df03ffdb80b20ff97ee5ac6ce7d49a"
+    },
+    {
+      "package": "aiutil-ai-prompt-json",
+      "artifact": "aiutil-ai-prompt-json_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3636,
+      "sha256": "45d16c5ba777602c70e1e46d426f454e4b83fec0c39f6859f3fe38ef241d63c2"
+    },
+    {
+      "package": "aiutil-ai-system-message",
+      "artifact": "aiutil-ai-system-message_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3630,
+      "sha256": "5334a8cb6998da841a8059f55178fe6a38778d14adbefa0986ce095ef277e3f7"
+    },
+    {
+      "package": "aiutil-ai-user-message",
+      "artifact": "aiutil-ai-user-message_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3636,
+      "sha256": "ac9d9bb1959fa3a6c467c87ed6e5b143df99e8329576cf1121d9ac9d352442ae"
+    },
+    {
+      "package": "aiutil-ai-assistant-message",
+      "artifact": "aiutil-ai-assistant-message_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3638,
+      "sha256": "d42e61e221ea99b90cc0257797ca456ecca2aa7bdf0a781f8e48881c536e3dc7"
+    },
+    {
+      "package": "aiutil-ai-template-vars",
+      "artifact": "aiutil-ai-template-vars_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3632,
+      "sha256": "1cb9b6d4b25e267259f3f3b46d9654e542409f80bccbb219cdfa9450c19c7b63"
+    },
+    {
+      "package": "aiutil-ai-fence",
+      "artifact": "aiutil-ai-fence_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3628,
+      "sha256": "7e161e18ca608f9574ff670083adcdbbfae6a5e3323b2b6b9ae870392c1a7f69"
+    },
+    {
+      "package": "aiutil-ai-chunk-chars",
+      "artifact": "aiutil-ai-chunk-chars_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3630,
+      "sha256": "5b2166dd9dd299a3367a67ada3d03c728fe75167974c8f5f055a7fbc3b566b7b"
+    },
+    {
+      "package": "aiutil-ai-chunk-words",
+      "artifact": "aiutil-ai-chunk-words_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3634,
+      "sha256": "da742f25f6b010d74ce5fb8d13a10a06a0c1c74485c5a5dec84e59f52080109e"
+    },
+    {
+      "package": "aiutil-ai-chunk-lines",
+      "artifact": "aiutil-ai-chunk-lines_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3636,
+      "sha256": "bdcc1abc92f16d4cd7dcd0fd21fdca43c15c431999d8a4e8ce13a118c79af545"
+    },
+    {
+      "package": "aiutil-ai-openai-chat-json",
+      "artifact": "aiutil-ai-openai-chat-json_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3640,
+      "sha256": "1a34a3cc6413d127c4242b030038e22bdfe9371d225fe892aabd503d29d892d8"
+    },
+    {
+      "package": "aiutil-ai-openai-response-json",
+      "artifact": "aiutil-ai-openai-response-json_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3642,
+      "sha256": "6ddacf3ee7f0af67fceab475a71417ab1829c019190fb7088584a7e9bb48109b"
+    },
+    {
+      "package": "aiutil-ai-openai-base-url",
+      "artifact": "aiutil-ai-openai-base-url_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3636,
+      "sha256": "92fec997dc9262341030b3830dc91d770f589e1d9c5c65b687874eecd03e4e37"
+    },
+    {
+      "package": "aiutil-ai-openai-auth-check",
+      "artifact": "aiutil-ai-openai-auth-check_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3648,
+      "sha256": "4d35c5227fe5a5b689e0d18feec95bf2e2b234ede251af1613555772519dc7d3"
+    },
+    {
+      "package": "aiutil-ai-openai-curl-models",
+      "artifact": "aiutil-ai-openai-curl-models_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3646,
+      "sha256": "4bd5ab3b2f3909da0da9766c989732544abcc0cef09b5cf41e1b2b11a5c37a2e"
+    },
+    {
+      "package": "aiutil-ai-openai-curl-chat",
+      "artifact": "aiutil-ai-openai-curl-chat_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3640,
+      "sha256": "fd41b2547fef371580ef0ec07c4f704166c4c22021a795276c83c1879e38d9ed"
+    },
+    {
+      "package": "aiutil-ai-mcp-initialize-json",
+      "artifact": "aiutil-ai-mcp-initialize-json_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3644,
+      "sha256": "ad598772b2c710096b78f6e8fb4e9cafed32da466c9e745fb996941af9df87ed"
+    },
+    {
+      "package": "aiutil-ai-mcp-tools-list-json",
+      "artifact": "aiutil-ai-mcp-tools-list-json_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3638,
+      "sha256": "a71ab13499c4d217c885f19dffadd7ad38ba49db346b03a0e6467cae5abc9adf"
+    },
+    {
+      "package": "aiutil-ai-mcp-config-check",
+      "artifact": "aiutil-ai-mcp-config-check_1.0.0-1_all.deb",
+      "runner": "custom",
+      "upstream": null,
+      "command": null,
+      "bytes": 3638,
+      "sha256": "aafdc4470296c03ec1d261e50a4a325959eb0b496fb1864eccfafe09c8998f80"
+    },
+    {
+      "package": "ai-pipeline-utility-suite",
+      "artifact": "ai-pipeline-utility-suite_1.0.0-1_all.deb",
+      "runner": "meta",
+      "upstream": null,
+      "command": null,
+      "bytes": 1136,
+      "sha256": "498d1b0b7ecb0c80bd2b4f2bf0eefb0033b0a5c1a77eaf882a74d0d31e191491"
+    }
+  ]
+}

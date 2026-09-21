@@ -1,0 +1,1312 @@
+Package: aiutil-text-lower
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-text-lower
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-text-lower_1.0.0-1_all.deb
+Size: 3630
+SHA256: 7431e23a3d40d85794271b202f91828957c9621959242da6c068facb0ffcda3e
+
+Package: aiutil-text-upper
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-text-upper
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-text-upper_1.0.0-1_all.deb
+Size: 3632
+SHA256: 813c811221ffe35da7ce109f7fb5126cc17afd0dcd957d1ccba02159c9cdf35b
+
+Package: aiutil-text-strip
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-text-strip
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-text-strip_1.0.0-1_all.deb
+Size: 3630
+SHA256: 65e1d12f2f92781a4d534de0441ba0c37a4a89a2b533b73bca0481268bf95bb1
+
+Package: aiutil-text-normalize
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-text-normalize
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-text-normalize_1.0.0-1_all.deb
+Size: 3634
+SHA256: 996a20c3135f46d3771d99d7fb9b5611c4decce5740b4f6355e1875c4f2f702c
+
+Package: aiutil-text-lines
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-text-lines
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-text-lines_1.0.0-1_all.deb
+Size: 3632
+SHA256: 9536a5abb7b2860c1071bdf8486cb3f8c9ba036bfd04968d3930b99a60f84c91
+
+Package: aiutil-text-words
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-text-words
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-text-words_1.0.0-1_all.deb
+Size: 3634
+SHA256: 68003ef64a94bb3d5944b6cb776d6a3fb67acefc8a942c208c9c49e1a9c98661
+
+Package: aiutil-text-chars
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-text-chars
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-text-chars_1.0.0-1_all.deb
+Size: 3632
+SHA256: e0cfa6d3aee22172121a9b4526dc3c37cb5a49daf9d2f83564ebbc0e564c89d4
+
+Package: aiutil-text-bytes
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-text-bytes
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-text-bytes_1.0.0-1_all.deb
+Size: 3628
+SHA256: 8a2a8be04316ed8ac11bd70e7278cb2d7d1fe803db1fd21839e5564f49bb2215
+
+Package: aiutil-text-unique-lines
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-text-unique-lines
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-text-unique-lines_1.0.0-1_all.deb
+Size: 3632
+SHA256: 7a4c585f9e4d14b3c6c25d941c2e9c81293562a84b3689886d9591ae57ea24fe
+
+Package: aiutil-text-sort-lines
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-text-sort-lines
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-text-sort-lines_1.0.0-1_all.deb
+Size: 3634
+SHA256: 330d8cb092794a6a770f6833f3c72459968b291c33705cb6257558704eab9240
+
+Package: aiutil-text-reverse-lines
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-text-reverse-lines
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-text-reverse-lines_1.0.0-1_all.deb
+Size: 3640
+SHA256: 2158e17ed2c9316ea14de4333ed371c7f33cb3b393df2e13bc6e860e33afc665
+
+Package: aiutil-text-head
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-text-head
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-text-head_1.0.0-1_all.deb
+Size: 3632
+SHA256: 5be17967dc934b8b6e4c4663186c7c921c0d7e608ea9e793081e7ae0a389bdc9
+
+Package: aiutil-text-tail
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-text-tail
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-text-tail_1.0.0-1_all.deb
+Size: 3630
+SHA256: 3c21784caf47bf73df6b61e440ef59579abadf4288702376223c794fdeffaf6d
+
+Package: aiutil-text-sha256
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-text-sha256
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-text-sha256_1.0.0-1_all.deb
+Size: 3632
+SHA256: 2c2e78257dfc833e3c52d09dd04227db67377af98a6e8fa898b0f82da6cf7e29
+
+Package: aiutil-text-md5
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-text-md5
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-text-md5_1.0.0-1_all.deb
+Size: 3634
+SHA256: 7269f1b026f14b84bd122222004c816aaf10f5d1585c9f39d3bd6233c528b7a4
+
+Package: aiutil-text-slug
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-text-slug
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-text-slug_1.0.0-1_all.deb
+Size: 3632
+SHA256: d43d37e3bda5fcb70a55e89694a829c259dc90993587196dd1f5992c2da2acd3
+
+Package: aiutil-text-emails
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-text-emails
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-text-emails_1.0.0-1_all.deb
+Size: 3632
+SHA256: 7f900a013ed1443091d6f5007429e5e6fd492cf263787a02c7db36989697598c
+
+Package: aiutil-text-urls
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-text-urls
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-text-urls_1.0.0-1_all.deb
+Size: 3634
+SHA256: 07c5db01087a0635c6d26e40567e4efb1e3b16bab9538b08d589597d2aac4c82
+
+Package: aiutil-text-redact-emails
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-text-redact-emails
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-text-redact-emails_1.0.0-1_all.deb
+Size: 3632
+SHA256: b95d082634a484581583d5c21bad936e632400df3a711692029c7b042e1db40e
+
+Package: aiutil-text-json-quote
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-text-json-quote
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-text-json-quote_1.0.0-1_all.deb
+Size: 3640
+SHA256: 386d75d4d292b2720c2c47d18dbfc636388a201a08e61107c72e62094bb15037
+
+Package: aiutil-json-validate
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-json-validate
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-json-validate_1.0.0-1_all.deb
+Size: 3634
+SHA256: bf31d3855ccc6cf850531015e08d3096cc567edb37cf70b9f5cc82b49a447e86
+
+Package: aiutil-json-pretty
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-json-pretty
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-json-pretty_1.0.0-1_all.deb
+Size: 3630
+SHA256: c1cfaf8467ae50781c2639bf24422cb376732e207a1074cd7bb840d6908106a9
+
+Package: aiutil-json-compact
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-json-compact
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-json-compact_1.0.0-1_all.deb
+Size: 3632
+SHA256: 31c5a101eebf36bb34c7d54915778b5d1dfa0c48612fb13cb1474dfd7a021bcb
+
+Package: aiutil-json-keys
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-json-keys
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-json-keys_1.0.0-1_all.deb
+Size: 3628
+SHA256: 87b6d54c76ae9962ef3cc0c14a557195d0a9860e331b9cc39ecab4990f3b247e
+
+Package: aiutil-json-values
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-json-values
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-json-values_1.0.0-1_all.deb
+Size: 3634
+SHA256: f7c92b51b6cb1d0885d9265bff60bdf54c4e7be2dc432e76459a4a555da7e6b5
+
+Package: aiutil-json-length
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-json-length
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-json-length_1.0.0-1_all.deb
+Size: 3630
+SHA256: f07ed7be95e76cf8ffe1c46a4de5a4f39ef9a3ec6a3bfcf2afddacabf6fedef0
+
+Package: aiutil-json-type
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-json-type
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-json-type_1.0.0-1_all.deb
+Size: 3628
+SHA256: c74ae79cc2cc8db44b416a8b41a4ada6036fc320d0083598ac3613d085482d45
+
+Package: aiutil-json-get
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-json-get
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-json-get_1.0.0-1_all.deb
+Size: 3630
+SHA256: 03116f162c6dc6b830ac1f78f79903156847604e9fadca9cb75669727ae40d87
+
+Package: aiutil-json-has
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-json-has
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-json-has_1.0.0-1_all.deb
+Size: 3632
+SHA256: d0808d86f75156409bb4e81b482f9641e17ac6e99ba35620773733c08f11b482
+
+Package: aiutil-json-sort-keys
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-json-sort-keys
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-json-sort-keys_1.0.0-1_all.deb
+Size: 3634
+SHA256: 8f1c0d22bd5d17926b57014c807bfcdb59c36e2c8b40fde1e666e46f0d7b9637
+
+Package: aiutil-json-jsonl-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-json-jsonl-count
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-json-jsonl-count_1.0.0-1_all.deb
+Size: 3634
+SHA256: 04e17a369e46d8edfc544b50c89d0d3afbfc08e62d9775df93689f620605026a
+
+Package: aiutil-json-jsonl-pretty
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-json-jsonl-pretty
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-json-jsonl-pretty_1.0.0-1_all.deb
+Size: 3638
+SHA256: ea7ceb928f2bbbf156eae0399b5aecee3de2d2d2129fa12ca24b7c28baaca5ba
+
+Package: aiutil-json-jsonl-head
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-json-jsonl-head
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-json-jsonl-head_1.0.0-1_all.deb
+Size: 3632
+SHA256: f0e8f28af2d527a72c88652490d5c12ed98a67d59a458c0da14065d5afa3fe03
+
+Package: aiutil-json-jsonl-tail
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-json-jsonl-tail
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-json-jsonl-tail_1.0.0-1_all.deb
+Size: 3636
+SHA256: 74fc4b514a730717eeac32145cb84890cfdfee535fb76a8019c02c1965ad0b6d
+
+Package: aiutil-json-jsonl-keys
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-json-jsonl-keys
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-json-jsonl-keys_1.0.0-1_all.deb
+Size: 3642
+SHA256: f8e17f3faef09c72902be491fb8f0bfcd3e81baafea1de21ed6b76d1eaaeb519
+
+Package: aiutil-json-jsonl-dedupe
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-json-jsonl-dedupe
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-json-jsonl-dedupe_1.0.0-1_all.deb
+Size: 3636
+SHA256: b031c19596214c990282494fb8671eed2f97a759237143a42a31f290c94f1d1d
+
+Package: aiutil-json-to-jsonl
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-json-to-jsonl
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-json-to-jsonl_1.0.0-1_all.deb
+Size: 3634
+SHA256: f4bd1fbf1ac12651b46f7d4fa5ca3fbcf2c5b79559b79dbc2619ae3c75a3a8c4
+
+Package: aiutil-json-array-first
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-json-array-first
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-json-array-first_1.0.0-1_all.deb
+Size: 3630
+SHA256: a443b530d4074adbad1a8aa25da3fb23db04604e97e2e83ccbb9c851d07a556e
+
+Package: aiutil-json-array-last
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-json-array-last
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-json-array-last_1.0.0-1_all.deb
+Size: 3634
+SHA256: c82c134b0b6081cbd7b92dd2e8d6ae3735ed6dbe6fcea8b44c2022ba72e06dba
+
+Package: aiutil-json-hash
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-json-hash
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-json-hash_1.0.0-1_all.deb
+Size: 3626
+SHA256: 1d1843694f3e13d12e6ab283cc1c145e802c18b24e44e23367abb9260bd82d69
+
+Package: aiutil-file-stat
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-file-stat
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-file-stat_1.0.0-1_all.deb
+Size: 3628
+SHA256: dc7169722f05d797ffcf75222cd4865d1565c65dfd7a815487457914653232b5
+
+Package: aiutil-file-size
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-file-size
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-file-size_1.0.0-1_all.deb
+Size: 3630
+SHA256: aab01cf13486a09405b01ecee4bd0304dea4a2ca845604f2898bcfc2670102d7
+
+Package: aiutil-file-sha256
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-file-sha256
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-file-sha256_1.0.0-1_all.deb
+Size: 3628
+SHA256: 8ac531951207350ee8af16352e430077d2b2def9e0fb16de6be48d7082dc1c2f
+
+Package: aiutil-file-md5
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-file-md5
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-file-md5_1.0.0-1_all.deb
+Size: 3628
+SHA256: 1761f322f53612b4cafb7c6413d3dfb4db2ccb80449c3ddf8519e895d85ea59b
+
+Package: aiutil-file-lines
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-file-lines
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-file-lines_1.0.0-1_all.deb
+Size: 3626
+SHA256: be75288135a6ed21ebd34808d20b5a930e8de02090f3e68c204bc1af69c9756b
+
+Package: aiutil-file-words
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-file-words
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-file-words_1.0.0-1_all.deb
+Size: 3630
+SHA256: aea91124181f5240ffbc28a1c589b7c0911532e58b7cefbd8f8958f9a3b98e24
+
+Package: aiutil-file-head
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-file-head
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-file-head_1.0.0-1_all.deb
+Size: 3628
+SHA256: 8792afc3b4f11c37ed5ae41641f09b3458405dd353f9af3c3aa414144a883942
+
+Package: aiutil-file-tail
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-file-tail
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-file-tail_1.0.0-1_all.deb
+Size: 3630
+SHA256: ff92d157a308e64db046a8cae4645ae1f4c15d33390f8231a7b5cc656d397973
+
+Package: aiutil-file-exists
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-file-exists
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-file-exists_1.0.0-1_all.deb
+Size: 3628
+SHA256: 2f5aa3f81935d188a0f8b137b4e25d712e08c75a78b5835d56a96d0d8cb70a53
+
+Package: aiutil-file-is-file
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-file-is-file
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-file-is-file_1.0.0-1_all.deb
+Size: 3624
+SHA256: cbf240bd9b419d160cb0e97031c6c7a7d1f2a09ac42d6531eb6b3cc76627d087
+
+Package: aiutil-file-is-dir
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-file-is-dir
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-file-is-dir_1.0.0-1_all.deb
+Size: 3628
+SHA256: ead6e2e3db9264c681a41ac37dab4e5f12a399deb93dec7d53ce32945fb781be
+
+Package: aiutil-file-basename
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-file-basename
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-file-basename_1.0.0-1_all.deb
+Size: 3632
+SHA256: 45473950e2956ce3e5071a663f376b27858de701f13cf170b14ffbab6cff34a0
+
+Package: aiutil-file-dirname
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-file-dirname
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-file-dirname_1.0.0-1_all.deb
+Size: 3636
+SHA256: 9a61dfaf9a4ce8185ab70dad630957b9c1b2380bff22b070c8c89a4749b0338c
+
+Package: aiutil-file-suffix
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-file-suffix
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-file-suffix_1.0.0-1_all.deb
+Size: 3632
+SHA256: 54f1fede847a10994d519a20eca2338cebba8bd1da092dc9ad7fe3bdbc30f1c6
+
+Package: aiutil-file-stem
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-file-stem
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-file-stem_1.0.0-1_all.deb
+Size: 3626
+SHA256: 353ec636572502b73abf70eb10f13333fcb35b74d8099645a9c6af2a49aea3ec
+
+Package: aiutil-file-resolve
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-file-resolve
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-file-resolve_1.0.0-1_all.deb
+Size: 3632
+SHA256: b5e3ad339f3e9d8a01596e3ed96249616e54047a72d015bd16f5f40051cf3d87
+
+Package: aiutil-file-permissions
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-file-permissions
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-file-permissions_1.0.0-1_all.deb
+Size: 3632
+SHA256: 9be5680f8993094271bd3d7f46fd7daca8b6c55ae5204ef81a3a28bd413149b9
+
+Package: aiutil-file-newer
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-file-newer
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-file-newer_1.0.0-1_all.deb
+Size: 3630
+SHA256: daf404057ea4e4fb2f1446ae67e4d74f34c73dd7a6b0e4a6b66da8e1b02c7c90
+
+Package: aiutil-file-copy-plan
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-file-copy-plan
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-file-copy-plan_1.0.0-1_all.deb
+Size: 3632
+SHA256: b72f961773b22f6e7e88185cc804c5907d93a5ae18076f7398044e12b827fb3d
+
+Package: aiutil-file-manifest
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-file-manifest
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-file-manifest_1.0.0-1_all.deb
+Size: 3634
+SHA256: b26b6bd1599ac04fb847515aaedb2b05eef0bbd09ee9ff6b2b2761b50d648fa7
+
+Package: aiutil-repo-files
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-repo-files
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-repo-files_1.0.0-1_all.deb
+Size: 3632
+SHA256: 001dae803da83e0663da4e20e2984fc727c5cf7ab1e3635ce4b9e7df09fb79d9
+
+Package: aiutil-repo-dirs
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-repo-dirs
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-repo-dirs_1.0.0-1_all.deb
+Size: 3630
+SHA256: 2836adf8c7279fc78495c05ae1bdc79a2ff607b02c0556d34bba196f12e521ed
+
+Package: aiutil-repo-tree
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-repo-tree
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-repo-tree_1.0.0-1_all.deb
+Size: 3628
+SHA256: e8ded3692438dbe984de93875d260092463f8c5f7b66a2cbf3d5e1e91a90babe
+
+Package: aiutil-repo-extensions
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-repo-extensions
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-repo-extensions_1.0.0-1_all.deb
+Size: 3632
+SHA256: 32cd7c3af949de98c440e6c61276fd526e83b0cfa1a418c4c4b8105e58c44bef
+
+Package: aiutil-repo-largest
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-repo-largest
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-repo-largest_1.0.0-1_all.deb
+Size: 3630
+SHA256: 8e225e2ed2556592c8ff6b5cceadef4bdd7901199f4181fdfe81826f15280d18
+
+Package: aiutil-repo-smallest
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-repo-smallest
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-repo-smallest_1.0.0-1_all.deb
+Size: 3630
+SHA256: 072b2b78106ac70777924ee1660dbe655a9421373f9df030a3b0e3ac7a4ac294
+
+Package: aiutil-repo-newest
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-repo-newest
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-repo-newest_1.0.0-1_all.deb
+Size: 3630
+SHA256: 734eb15a95668f2e1f39c73f001f90e70339290fcb93c669273af9382f9402aa
+
+Package: aiutil-repo-oldest
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-repo-oldest
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-repo-oldest_1.0.0-1_all.deb
+Size: 3628
+SHA256: e5b9266b4dccbaf37ec84698fa28b330235edb5ce641cfc0da734a036cdec0e7
+
+Package: aiutil-repo-duplicates
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-repo-duplicates
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-repo-duplicates_1.0.0-1_all.deb
+Size: 3638
+SHA256: 3c897304a1dc629c522aa19f8b5598f8653a4f79301b1cb7a40433c83a18d1a9
+
+Package: aiutil-repo-readmes
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-repo-readmes
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-repo-readmes_1.0.0-1_all.deb
+Size: 3636
+SHA256: 2733603426384abd1bd1449301a444f3c5a80992594cff5b88f1db5c50f7bf46
+
+Package: aiutil-repo-licenses
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-repo-licenses
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-repo-licenses_1.0.0-1_all.deb
+Size: 3630
+SHA256: 0c7f7343a607d26efba3cd1295e1de177db6b3a473ddb59d370a11f2d172b667
+
+Package: aiutil-repo-todos
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-repo-todos
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-repo-todos_1.0.0-1_all.deb
+Size: 3632
+SHA256: a8148e438af1ad24aeb47295490ee3fdc6d71bfdc3abfb98526c89796d9fc849
+
+Package: aiutil-repo-fixmes
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-repo-fixmes
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-repo-fixmes_1.0.0-1_all.deb
+Size: 3630
+SHA256: fdc3b5a62cc89a05855bebe83cf7eaca6772dca2b0605243f0d6392dbfbc9408
+
+Package: aiutil-repo-python-files
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-repo-python-files
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-repo-python-files_1.0.0-1_all.deb
+Size: 3628
+SHA256: 332f26d0fa0c5ceca8f0f8bd76bd7980aea2a9240c26e21247098c46d878cd40
+
+Package: aiutil-repo-js-files
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-repo-js-files
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-repo-js-files_1.0.0-1_all.deb
+Size: 3636
+SHA256: dd40b9ddbf2dda63289ec5a557eeace2396965c3712f089cd746e11736b0794e
+
+Package: aiutil-repo-json-files
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-repo-json-files
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-repo-json-files_1.0.0-1_all.deb
+Size: 3636
+SHA256: 3ec9ba5d15f845b4c447f77bee0f59f4ce90aaba49639852d3c3d56c4ce7cc46
+
+Package: aiutil-repo-yaml-files
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-repo-yaml-files
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-repo-yaml-files_1.0.0-1_all.deb
+Size: 3636
+SHA256: 8836cd10709c292f656e582a1d9606d8b6cb686f242b7abf1afa59eba9bf9a75
+
+Package: aiutil-repo-markdown-files
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-repo-markdown-files
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-repo-markdown-files_1.0.0-1_all.deb
+Size: 3636
+SHA256: e0d183352c1cf6d3e1266b26ad4f76519644156bcdf49f57997a18b4a78416a2
+
+Package: aiutil-repo-total-bytes
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-repo-total-bytes
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-repo-total-bytes_1.0.0-1_all.deb
+Size: 3632
+SHA256: 29115882fce6afa9cec9ee2fc561f87456410baaafa752724d770b4095a83bf9
+
+Package: aiutil-repo-manifest
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-repo-manifest
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-repo-manifest_1.0.0-1_all.deb
+Size: 3632
+SHA256: 9883f5518d0f3332fe26c65c636637dbd9754b0b185fb5eec0df92de2826a2c5
+
+Package: aiutil-ai-prompt-stats
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-ai-prompt-stats
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-ai-prompt-stats_1.0.0-1_all.deb
+Size: 3632
+SHA256: 170684b53c77938d9e3adf5a118c44ebe001ef63f960d5ecf8113ad48385c405
+
+Package: aiutil-ai-prompt-hash
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-ai-prompt-hash
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-ai-prompt-hash_1.0.0-1_all.deb
+Size: 3632
+SHA256: 2d5968bcc749d63e64b2e69ddf73e48f99df03ffdb80b20ff97ee5ac6ce7d49a
+
+Package: aiutil-ai-prompt-json
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-ai-prompt-json
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-ai-prompt-json_1.0.0-1_all.deb
+Size: 3636
+SHA256: 45d16c5ba777602c70e1e46d426f454e4b83fec0c39f6859f3fe38ef241d63c2
+
+Package: aiutil-ai-system-message
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-ai-system-message
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-ai-system-message_1.0.0-1_all.deb
+Size: 3630
+SHA256: 5334a8cb6998da841a8059f55178fe6a38778d14adbefa0986ce095ef277e3f7
+
+Package: aiutil-ai-user-message
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-ai-user-message
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-ai-user-message_1.0.0-1_all.deb
+Size: 3636
+SHA256: ac9d9bb1959fa3a6c467c87ed6e5b143df99e8329576cf1121d9ac9d352442ae
+
+Package: aiutil-ai-assistant-message
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-ai-assistant-message
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-ai-assistant-message_1.0.0-1_all.deb
+Size: 3638
+SHA256: d42e61e221ea99b90cc0257797ca456ecca2aa7bdf0a781f8e48881c536e3dc7
+
+Package: aiutil-ai-template-vars
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-ai-template-vars
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-ai-template-vars_1.0.0-1_all.deb
+Size: 3632
+SHA256: 1cb9b6d4b25e267259f3f3b46d9654e542409f80bccbb219cdfa9450c19c7b63
+
+Package: aiutil-ai-fence
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-ai-fence
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-ai-fence_1.0.0-1_all.deb
+Size: 3628
+SHA256: 7e161e18ca608f9574ff670083adcdbbfae6a5e3323b2b6b9ae870392c1a7f69
+
+Package: aiutil-ai-chunk-chars
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-ai-chunk-chars
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-ai-chunk-chars_1.0.0-1_all.deb
+Size: 3630
+SHA256: 5b2166dd9dd299a3367a67ada3d03c728fe75167974c8f5f055a7fbc3b566b7b
+
+Package: aiutil-ai-chunk-words
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-ai-chunk-words
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-ai-chunk-words_1.0.0-1_all.deb
+Size: 3634
+SHA256: da742f25f6b010d74ce5fb8d13a10a06a0c1c74485c5a5dec84e59f52080109e
+
+Package: aiutil-ai-chunk-lines
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-ai-chunk-lines
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-ai-chunk-lines_1.0.0-1_all.deb
+Size: 3636
+SHA256: bdcc1abc92f16d4cd7dcd0fd21fdca43c15c431999d8a4e8ce13a118c79af545
+
+Package: aiutil-ai-openai-chat-json
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-ai-openai-chat-json
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-ai-openai-chat-json_1.0.0-1_all.deb
+Size: 3640
+SHA256: 1a34a3cc6413d127c4242b030038e22bdfe9371d225fe892aabd503d29d892d8
+
+Package: aiutil-ai-openai-response-json
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-ai-openai-response-json
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-ai-openai-response-json_1.0.0-1_all.deb
+Size: 3642
+SHA256: 6ddacf3ee7f0af67fceab475a71417ab1829c019190fb7088584a7e9bb48109b
+
+Package: aiutil-ai-openai-base-url
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-ai-openai-base-url
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-ai-openai-base-url_1.0.0-1_all.deb
+Size: 3636
+SHA256: 92fec997dc9262341030b3830dc91d770f589e1d9c5c65b687874eecd03e4e37
+
+Package: aiutil-ai-openai-auth-check
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-ai-openai-auth-check
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-ai-openai-auth-check_1.0.0-1_all.deb
+Size: 3648
+SHA256: 4d35c5227fe5a5b689e0d18feec95bf2e2b234ede251af1613555772519dc7d3
+
+Package: aiutil-ai-openai-curl-models
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-ai-openai-curl-models
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-ai-openai-curl-models_1.0.0-1_all.deb
+Size: 3646
+SHA256: 4bd5ab3b2f3909da0da9766c989732544abcc0cef09b5cf41e1b2b11a5c37a2e
+
+Package: aiutil-ai-openai-curl-chat
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-ai-openai-curl-chat
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-ai-openai-curl-chat_1.0.0-1_all.deb
+Size: 3640
+SHA256: fd41b2547fef371580ef0ec07c4f704166c4c22021a795276c83c1879e38d9ed
+
+Package: aiutil-ai-mcp-initialize-json
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-ai-mcp-initialize-json
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-ai-mcp-initialize-json_1.0.0-1_all.deb
+Size: 3644
+SHA256: ad598772b2c710096b78f6e8fb4e9cafed32da466c9e745fb996941af9df87ed
+
+Package: aiutil-ai-mcp-tools-list-json
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-ai-mcp-tools-list-json
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-ai-mcp-tools-list-json_1.0.0-1_all.deb
+Size: 3638
+SHA256: a71ab13499c4d217c885f19dffadd7ad38ba49db346b03a0e6467cae5abc9adf
+
+Package: aiutil-ai-mcp-config-check
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: self-contained AI and data pipeline utilities - aiutil-ai-mcp-config-check
+ Functional self-contained Ocean utility. APT installation itself performs no network access.
+Filename: staging/shard-48/pool/main/aiutil-ai-mcp-config-check_1.0.0-1_all.deb
+Size: 3638
+SHA256: aafdc4470296c03ec1d261e50a4a325959eb0b496fb1864eccfafe09c8998f80
+
+Package: ai-pipeline-utility-suite
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: metapackages
+Priority: optional
+Depends: aiutil-text-lower (= 1.0.0-1), aiutil-text-upper (= 1.0.0-1), aiutil-text-strip (= 1.0.0-1), aiutil-text-normalize (= 1.0.0-1), aiutil-text-lines (= 1.0.0-1), aiutil-text-words (= 1.0.0-1), aiutil-text-chars (= 1.0.0-1), aiutil-text-bytes (= 1.0.0-1), aiutil-text-unique-lines (= 1.0.0-1), aiutil-text-sort-lines (= 1.0.0-1), aiutil-text-reverse-lines (= 1.0.0-1), aiutil-text-head (= 1.0.0-1), aiutil-text-tail (= 1.0.0-1), aiutil-text-sha256 (= 1.0.0-1), aiutil-text-md5 (= 1.0.0-1), aiutil-text-slug (= 1.0.0-1), aiutil-text-emails (= 1.0.0-1), aiutil-text-urls (= 1.0.0-1), aiutil-text-redact-emails (= 1.0.0-1), aiutil-text-json-quote (= 1.0.0-1), aiutil-json-validate (= 1.0.0-1), aiutil-json-pretty (= 1.0.0-1), aiutil-json-compact (= 1.0.0-1), aiutil-json-keys (= 1.0.0-1), aiutil-json-values (= 1.0.0-1), aiutil-json-length (= 1.0.0-1), aiutil-json-type (= 1.0.0-1), aiutil-json-get (= 1.0.0-1), aiutil-json-has (= 1.0.0-1), aiutil-json-sort-keys (= 1.0.0-1), aiutil-json-jsonl-count (= 1.0.0-1), aiutil-json-jsonl-pretty (= 1.0.0-1), aiutil-json-jsonl-head (= 1.0.0-1), aiutil-json-jsonl-tail (= 1.0.0-1), aiutil-json-jsonl-keys (= 1.0.0-1), aiutil-json-jsonl-dedupe (= 1.0.0-1), aiutil-json-to-jsonl (= 1.0.0-1), aiutil-json-array-first (= 1.0.0-1), aiutil-json-array-last (= 1.0.0-1), aiutil-json-hash (= 1.0.0-1), aiutil-file-stat (= 1.0.0-1), aiutil-file-size (= 1.0.0-1), aiutil-file-sha256 (= 1.0.0-1), aiutil-file-md5 (= 1.0.0-1), aiutil-file-lines (= 1.0.0-1), aiutil-file-words (= 1.0.0-1), aiutil-file-head (= 1.0.0-1), aiutil-file-tail (= 1.0.0-1), aiutil-file-exists (= 1.0.0-1), aiutil-file-is-file (= 1.0.0-1), aiutil-file-is-dir (= 1.0.0-1), aiutil-file-basename (= 1.0.0-1), aiutil-file-dirname (= 1.0.0-1), aiutil-file-suffix (= 1.0.0-1), aiutil-file-stem (= 1.0.0-1), aiutil-file-resolve (= 1.0.0-1), aiutil-file-permissions (= 1.0.0-1), aiutil-file-newer (= 1.0.0-1), aiutil-file-copy-plan (= 1.0.0-1), aiutil-file-manifest (= 1.0.0-1), aiutil-repo-files (= 1.0.0-1), aiutil-repo-dirs (= 1.0.0-1), aiutil-repo-tree (= 1.0.0-1), aiutil-repo-extensions (= 1.0.0-1), aiutil-repo-largest (= 1.0.0-1), aiutil-repo-smallest (= 1.0.0-1), aiutil-repo-newest (= 1.0.0-1), aiutil-repo-oldest (= 1.0.0-1), aiutil-repo-duplicates (= 1.0.0-1), aiutil-repo-readmes (= 1.0.0-1), aiutil-repo-licenses (= 1.0.0-1), aiutil-repo-todos (= 1.0.0-1), aiutil-repo-fixmes (= 1.0.0-1), aiutil-repo-python-files (= 1.0.0-1), aiutil-repo-js-files (= 1.0.0-1), aiutil-repo-json-files (= 1.0.0-1), aiutil-repo-yaml-files (= 1.0.0-1), aiutil-repo-markdown-files (= 1.0.0-1), aiutil-repo-total-bytes (= 1.0.0-1), aiutil-repo-manifest (= 1.0.0-1), aiutil-ai-prompt-stats (= 1.0.0-1), aiutil-ai-prompt-hash (= 1.0.0-1), aiutil-ai-prompt-json (= 1.0.0-1), aiutil-ai-system-message (= 1.0.0-1), aiutil-ai-user-message (= 1.0.0-1), aiutil-ai-assistant-message (= 1.0.0-1), aiutil-ai-template-vars (= 1.0.0-1), aiutil-ai-fence (= 1.0.0-1), aiutil-ai-chunk-chars (= 1.0.0-1), aiutil-ai-chunk-words (= 1.0.0-1), aiutil-ai-chunk-lines (= 1.0.0-1), aiutil-ai-openai-chat-json (= 1.0.0-1), aiutil-ai-openai-response-json (= 1.0.0-1), aiutil-ai-openai-base-url (= 1.0.0-1), aiutil-ai-openai-auth-check (= 1.0.0-1), aiutil-ai-openai-curl-models (= 1.0.0-1), aiutil-ai-openai-curl-chat (= 1.0.0-1), aiutil-ai-mcp-initialize-json (= 1.0.0-1), aiutil-ai-mcp-tools-list-json (= 1.0.0-1), aiutil-ai-mcp-config-check (= 1.0.0-1)
+Description: Ocean self-contained AI and data pipeline utilities suite
+ Installs the complete Ocean capability shard.
+Filename: staging/shard-48/pool/main/ai-pipeline-utility-suite_1.0.0-1_all.deb
+Size: 1136
+SHA256: 498d1b0b7ecb0c80bd2b4f2bf0eefb0033b0a5c1a77eaf882a74d0d31e191491
