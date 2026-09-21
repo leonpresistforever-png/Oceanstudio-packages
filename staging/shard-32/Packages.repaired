@@ -1,0 +1,937 @@
+Package: dnswire-id
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (dnswire-id)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/dnswire-id_1.0.0-1_all.deb
+Size: 5388
+SHA256: 8538ae5308e70db35ec42acb32c604fadf9a203763335780e5820585148e8d66
+
+Package: dnswire-flags
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (dnswire-flags)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/dnswire-flags_1.0.0-1_all.deb
+Size: 5392
+SHA256: e0d93a8abb397d9db8be0d2202a53f88eb6477e3121f41854b94960bc02abb5f
+
+Package: dnswire-opcode
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (dnswire-opcode)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/dnswire-opcode_1.0.0-1_all.deb
+Size: 5392
+SHA256: 48bec998d6cb141e62d25f787d585f0b27828717a45372f5491a0876816395d2
+
+Package: dnswire-rcode
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (dnswire-rcode)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/dnswire-rcode_1.0.0-1_all.deb
+Size: 5392
+SHA256: 2f8c7ca103761140cf20542191bb52a2bad100f44d3d21496c350d999c9c8987
+
+Package: dnswire-counts
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (dnswire-counts)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/dnswire-counts_1.0.0-1_all.deb
+Size: 5398
+SHA256: 216e2a131580166c2269effd99d14915df37168a992407ca1beb17c87b83fb5f
+
+Package: dnswire-questions
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (dnswire-questions)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/dnswire-questions_1.0.0-1_all.deb
+Size: 5392
+SHA256: c12d90438977e67d7a0a44afd7093c3ee0380b770f33ee95406bc75e6e07f5e4
+
+Package: dnswire-qnames
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (dnswire-qnames)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/dnswire-qnames_1.0.0-1_all.deb
+Size: 5396
+SHA256: 72997e8e97cb3959797c0d0536258517b5c3a29060cd3103730356d9c180a601
+
+Package: dnswire-qtypes
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (dnswire-qtypes)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/dnswire-qtypes_1.0.0-1_all.deb
+Size: 5398
+SHA256: 87d5ae21955f17c64bf157ed72a107d261e12773e88cb11777928ee7570a0350
+
+Package: dnswire-answers
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (dnswire-answers)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/dnswire-answers_1.0.0-1_all.deb
+Size: 5400
+SHA256: 2dd2373fb15491054ff0588881046daf5728fcef6668f309bb32fcc5a8eb9372
+
+Package: dnswire-answer-types
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (dnswire-answer-types)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/dnswire-answer-types_1.0.0-1_all.deb
+Size: 5402
+SHA256: 5bf6d4cd4eab3a19d6537768bf6774f43586987efe3700659ec68359ad426bde
+
+Package: dnswire-answer-ttls
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (dnswire-answer-ttls)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/dnswire-answer-ttls_1.0.0-1_all.deb
+Size: 5402
+SHA256: b4c79d68133d71f0afd8e45b92fd535bd9e46ee28335a66fe6f261a280eb3b09
+
+Package: dnswire-authorities
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (dnswire-authorities)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/dnswire-authorities_1.0.0-1_all.deb
+Size: 5400
+SHA256: 00dabdff142fc0ca52cca631c92f3a808b2236dfbda98c0038160b01ac3fed62
+
+Package: dnswire-additionals
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (dnswire-additionals)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/dnswire-additionals_1.0.0-1_all.deb
+Size: 5402
+SHA256: 964c848e29d4aa0f53d930b5c18cd8928d0e57535d2f7b23341cc5579be4771e
+
+Package: dnswire-nameservers
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (dnswire-nameservers)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/dnswire-nameservers_1.0.0-1_all.deb
+Size: 5402
+SHA256: 6782336611f7d28410d161c876fe127edbcc8c593b0f715a078ede2e3852c4ce
+
+Package: dnswire-cnames
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (dnswire-cnames)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/dnswire-cnames_1.0.0-1_all.deb
+Size: 5392
+SHA256: dcab2055a9a1d548819b00e0bf42c648fdad1e2b010ce11ca25b47df435a4522
+
+Package: dnswire-a-records
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (dnswire-a-records)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/dnswire-a-records_1.0.0-1_all.deb
+Size: 5392
+SHA256: ec108e5bc72e57e1ec21537531d86be356f023b7d4f8165a759ca64a5ab8f176
+
+Package: dnswire-aaaa-records
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (dnswire-aaaa-records)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/dnswire-aaaa-records_1.0.0-1_all.deb
+Size: 5402
+SHA256: 57e4ecc03e29d7ea9bbe00645d1a640b2b0366eea984cf58c8f567a21ab86690
+
+Package: dnswire-mx-records
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (dnswire-mx-records)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/dnswire-mx-records_1.0.0-1_all.deb
+Size: 5400
+SHA256: dd9479c3843851d4315a58d72b0ced5d5981f362577dc0e00508c4a0ff33fa1f
+
+Package: dnswire-txt-records
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (dnswire-txt-records)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/dnswire-txt-records_1.0.0-1_all.deb
+Size: 5400
+SHA256: 4d22e961b5ab936adabc084a02b5e225f3bc39293682ff1c3434e548ae161e75
+
+Package: dnswire-size-summary
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (dnswire-size-summary)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/dnswire-size-summary_1.0.0-1_all.deb
+Size: 5400
+SHA256: 8af93fb012a62510f5eb103ec6e9e57b3a0acbf1a0e1a16015f434c35e88d557
+
+Package: dnswire-validate
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (dnswire-validate)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/dnswire-validate_1.0.0-1_all.deb
+Size: 5394
+SHA256: 36427f87e93d5d2b01731dc0c31a5f70dee96899917ee7f6c4087fcb76f1a8b2
+
+Package: dnswire-sha256
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (dnswire-sha256)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/dnswire-sha256_1.0.0-1_all.deb
+Size: 5394
+SHA256: cf2924ee641162cdf58924eb164c179ecb9ff4a0130ff54f65a9e3a20ebffa8c
+
+Package: http1-start-line
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (http1-start-line)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/http1-start-line_1.0.0-1_all.deb
+Size: 5398
+SHA256: d39ecfb4bd55c7e7487d9adbbc5d0172d2d5540b1a670920656d48d33495fd81
+
+Package: http1-method
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (http1-method)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/http1-method_1.0.0-1_all.deb
+Size: 5390
+SHA256: c450bf8beb5d9a16e1dd13da9e886ca2cf1b7e9768b40fd5f5a7b73befbb0371
+
+Package: http1-target
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (http1-target)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/http1-target_1.0.0-1_all.deb
+Size: 5394
+SHA256: 2a34124c44325473bd29c762caaf24fe44ec4b115a7440f4fcca61705bc8e75a
+
+Package: http1-status
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (http1-status)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/http1-status_1.0.0-1_all.deb
+Size: 5390
+SHA256: 5989d9665c974e6cb52f3be0ff3676589b0e18e7673a2ae45fa530ca5cd80832
+
+Package: http1-version
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (http1-version)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/http1-version_1.0.0-1_all.deb
+Size: 5398
+SHA256: fb19e9ae728991f4ad686e37e394301c14bddabba7a767f83d8e61c8fe00138e
+
+Package: http1-headers
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (http1-headers)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/http1-headers_1.0.0-1_all.deb
+Size: 5394
+SHA256: 0512a7cc637c32232bbdba4e8d683c5c436e16337b43243f3353e5a9fc5ac8bf
+
+Package: http1-header-names
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (http1-header-names)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/http1-header-names_1.0.0-1_all.deb
+Size: 5404
+SHA256: 78b0b2cb3a3f4dcdbcedb2732cda8099d355c3bb89139b590cc5c176364a3ab4
+
+Package: http1-content-type
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (http1-content-type)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/http1-content-type_1.0.0-1_all.deb
+Size: 5404
+SHA256: c73b4beae0ab9fceb36c716b21ce76724b9ee1dd51523965b803a549438f34d6
+
+Package: http1-content-length
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (http1-content-length)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/http1-content-length_1.0.0-1_all.deb
+Size: 5398
+SHA256: 13bf3ebf40f2c33f33f3e7b39dbfcf94ac644a1a5548f10063d04cec7e5d064f
+
+Package: http1-host
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (http1-host)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/http1-host_1.0.0-1_all.deb
+Size: 5396
+SHA256: 5bebe7c111f57317d3ea73ce56e89e08739b912fb41c0e019d4a4ebb572dd226
+
+Package: http1-user-agent
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (http1-user-agent)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/http1-user-agent_1.0.0-1_all.deb
+Size: 5400
+SHA256: ccd92b8cc73e2103f36caabb61c7feb698e115a5805242d087b7dfc764c96e3b
+
+Package: http1-body-size
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (http1-body-size)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/http1-body-size_1.0.0-1_all.deb
+Size: 5396
+SHA256: 0a8123d75d26cb7906adceb4aa75339d0a832744592e1001b241f9f22772c831
+
+Package: http1-cookie-names
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (http1-cookie-names)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/http1-cookie-names_1.0.0-1_all.deb
+Size: 5404
+SHA256: c2bfcf7960ed67354026ff414673845b79b13b162a701a4926a86cba7600be63
+
+Package: http1-query-params
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (http1-query-params)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/http1-query-params_1.0.0-1_all.deb
+Size: 5400
+SHA256: 5bb834f6b4f59a2bb5a6b8d2b2869837bdf0a7cd53d404946dc604835df77cfd
+
+Package: http1-summary
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (http1-summary)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/http1-summary_1.0.0-1_all.deb
+Size: 5400
+SHA256: 25959fb5fbb7e722386d860ede0c90e691d189c022b6dd09d80a821d18aee6d5
+
+Package: h2-frame-list
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (h2-frame-list)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/h2-frame-list_1.0.0-1_all.deb
+Size: 5394
+SHA256: 3b75339bcc2963be6dd4e9f5c4262768bdd1be8a322555a7f6a914936a1ef5eb
+
+Package: h2-frame-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (h2-frame-count)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/h2-frame-count_1.0.0-1_all.deb
+Size: 5398
+SHA256: 5c34b7d93fc4410766141a8e5a7038a116e6b4188abf52f38e62a41a2b9c18cd
+
+Package: h2-frame-types
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (h2-frame-types)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/h2-frame-types_1.0.0-1_all.deb
+Size: 5400
+SHA256: 6cb34e4938d8a198d69b5ce68e633bd52ab5b4446fd7257e6e6722b1b88f92f8
+
+Package: h2-stream-ids
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (h2-stream-ids)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/h2-stream-ids_1.0.0-1_all.deb
+Size: 5392
+SHA256: 3f44c6ccf1297aa7d0ae54a6c52d3ccbdc813ff9ebbb86a71b8ba2b033dab6c9
+
+Package: h2-frame-flags
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (h2-frame-flags)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/h2-frame-flags_1.0.0-1_all.deb
+Size: 5396
+SHA256: 21aab82611da5094b39a8356a07e6d6b5430cb55bbb819a022b91c1ab7359193
+
+Package: h2-payload-sizes
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (h2-payload-sizes)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/h2-payload-sizes_1.0.0-1_all.deb
+Size: 5402
+SHA256: 05c10e483203ecaf1ce143e05b0361c5512d9655b85a439715b0df026109f9b2
+
+Package: h2-settings
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (h2-settings)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/h2-settings_1.0.0-1_all.deb
+Size: 5398
+SHA256: cd070d2671c1866f53e393b6e043ac6a004119d9172deb6355a8630171afe5c5
+
+Package: h2-window-updates
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (h2-window-updates)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/h2-window-updates_1.0.0-1_all.deb
+Size: 5400
+SHA256: 104d2c14b710384da1c2be8646c9a421257dc9d25992b22dde1dc565e93fe8db
+
+Package: h2-ping-values
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (h2-ping-values)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/h2-ping-values_1.0.0-1_all.deb
+Size: 5402
+SHA256: 9c05a86578131a2ee29b88c0a1cfcf8ddb002dadd63b9d07f6fb4feba0ce6cb5
+
+Package: h2-goaway
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (h2-goaway)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/h2-goaway_1.0.0-1_all.deb
+Size: 5398
+SHA256: c9634f5d9c1a0491118490c2da9299c07d1a9ed94d0d320fa997122dae16dab1
+
+Package: h2-rst-stream
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (h2-rst-stream)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/h2-rst-stream_1.0.0-1_all.deb
+Size: 5394
+SHA256: 14e98e36a692390452066122e86ec14ceaa2b72c786d69085c3e4851de446587
+
+Package: h2-priority
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (h2-priority)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/h2-priority_1.0.0-1_all.deb
+Size: 5396
+SHA256: 6882ed659887a026b2f542d744e25ceaf0ca430bc127f7ec033425dfbf192bef
+
+Package: h2-data-bytes
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (h2-data-bytes)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/h2-data-bytes_1.0.0-1_all.deb
+Size: 5400
+SHA256: 6b0447b6ff4bbc1d10ac4a6739f40f0ec83388015539dd56c9ad9ace9eb5acbc
+
+Package: h2-header-block-bytes
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (h2-header-block-bytes)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/h2-header-block-bytes_1.0.0-1_all.deb
+Size: 5410
+SHA256: 41588478c7b70b0e8882821d6a3adc2d103f521acc1e4b3776011e0fa354a2f8
+
+Package: h2-validate
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (h2-validate)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/h2-validate_1.0.0-1_all.deb
+Size: 5396
+SHA256: 3a0ccf84147a4e0c5a6b5d769784c3c93019e154e46c699e18172a5fe9726c66
+
+Package: wsframe-list
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (wsframe-list)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/wsframe-list_1.0.0-1_all.deb
+Size: 5394
+SHA256: 5b4f100bffa80c84666c668f3945779493470b2e70d000fe7572e1d3e060449d
+
+Package: wsframe-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (wsframe-count)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/wsframe-count_1.0.0-1_all.deb
+Size: 5396
+SHA256: 73e364ce87d0b1d5e30300874e32cd98841a16ef56b4e6a21c7258a55efb5a33
+
+Package: wsframe-opcodes
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (wsframe-opcodes)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/wsframe-opcodes_1.0.0-1_all.deb
+Size: 5398
+SHA256: e0ce59e8cd7fafd23e041b01208f447574e2be7aca5181af61a7273f785d1ffc
+
+Package: wsframe-fin-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (wsframe-fin-count)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/wsframe-fin-count_1.0.0-1_all.deb
+Size: 5408
+SHA256: 2970eb4ef31876f0b60f756bcc8ec21aaf6b424a43122b594dc0474b21b5eeeb
+
+Package: wsframe-masked-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (wsframe-masked-count)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/wsframe-masked-count_1.0.0-1_all.deb
+Size: 5408
+SHA256: 3d54e3a4f50101aa3a8f371f1e5dcba9d815b1337903e13a0d8fb5511e9de924
+
+Package: wsframe-payload-sizes
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (wsframe-payload-sizes)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/wsframe-payload-sizes_1.0.0-1_all.deb
+Size: 5408
+SHA256: 7c8ddb4f92b1e5464fe0adcce3b2d2eb466425245ef9412df7e4cd99004bc532
+
+Package: wsframe-text
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (wsframe-text)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/wsframe-text_1.0.0-1_all.deb
+Size: 5398
+SHA256: d7901881742b4e4f5113c15a30bb6028b2f9680215927e5de2543b23d8bebf4c
+
+Package: wsframe-binary-bytes
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (wsframe-binary-bytes)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/wsframe-binary-bytes_1.0.0-1_all.deb
+Size: 5410
+SHA256: 142918f7dc258299a11eef0d8791c3db4622576ee36e08c9ca9780dadb3d973e
+
+Package: wsframe-close-codes
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (wsframe-close-codes)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/wsframe-close-codes_1.0.0-1_all.deb
+Size: 5404
+SHA256: 2932519e554f17169f7b7cb75318ae9aa25afb70bf2b7105509a922caec1030e
+
+Package: wsframe-ping-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (wsframe-ping-count)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/wsframe-ping-count_1.0.0-1_all.deb
+Size: 5406
+SHA256: 13feb31e34e845eef608f8450fe0360713479fdf25b6444475a65aec2f849e61
+
+Package: wsframe-pong-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (wsframe-pong-count)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/wsframe-pong-count_1.0.0-1_all.deb
+Size: 5408
+SHA256: 49d5be13b4fc57834bf6d1e00ac7946c66608ae82dcb166f37a8f5bc9f6e1288
+
+Package: wsframe-fragment-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (wsframe-fragment-count)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/wsframe-fragment-count_1.0.0-1_all.deb
+Size: 5406
+SHA256: 9462e0254d58aee8f8fb5d57a2662933816d25f8d6ef9e2fe87d88b99258b0c3
+
+Package: wsframe-mask-keys
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (wsframe-mask-keys)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/wsframe-mask-keys_1.0.0-1_all.deb
+Size: 5410
+SHA256: cdaea0a2f7034a42bae932a5f2e1afb123ce50472f783d24cbe9f4307ff979f0
+
+Package: wsframe-validate
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (wsframe-validate)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/wsframe-validate_1.0.0-1_all.deb
+Size: 5400
+SHA256: 21f48c23c9c2ddfb99c5307cf2673f6240169cf5fc55a92cba64e866484992e5
+
+Package: wsframe-summary
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: DNS/HTTP1/HTTP2/WebSocket wire formats utility (wsframe-summary)
+ Functional OceanStudio shard 32 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-32/pool/main/wsframe-summary_1.0.0-1_all.deb
+Size: 5400
+SHA256: 01db222cc023659a733b5147215b961d7446aff977f3df7328dc5c8aafb64f1a

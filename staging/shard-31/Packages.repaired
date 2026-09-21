@@ -1,0 +1,937 @@
+Package: protobuf-varint-decode
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (protobuf-varint-decode)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/protobuf-varint-decode_1.0.0-1_all.deb
+Size: 5096
+SHA256: 79ed49187c88b9d99a54f17adcfac7aa9afc3acdb7064c841be5f120d0b2c814
+
+Package: protobuf-varint-encode
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (protobuf-varint-encode)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/protobuf-varint-encode_1.0.0-1_all.deb
+Size: 5094
+SHA256: 4148fbc83cf41eb34bfbad67d7d044f040930587b6af5eb891ac41bb8258224e
+
+Package: protobuf-zigzag-decode
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (protobuf-zigzag-decode)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/protobuf-zigzag-decode_1.0.0-1_all.deb
+Size: 5100
+SHA256: 38808d5cbf05b2a421a496e60df739989d7bfa44069933574ae65f1d0ee5facd
+
+Package: protobuf-zigzag-encode
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (protobuf-zigzag-encode)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/protobuf-zigzag-encode_1.0.0-1_all.deb
+Size: 5102
+SHA256: 1e0f093f5e6a235ead1bb764fd272c0b413c49dbca8716e43c850b3f778c93a1
+
+Package: protobuf-tag-decode
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (protobuf-tag-decode)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/protobuf-tag-decode_1.0.0-1_all.deb
+Size: 5100
+SHA256: bb42444926aface56cdcc174c7da7d7f6ca317431e12e5175d5db3d5a19f724a
+
+Package: protobuf-tag-encode
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (protobuf-tag-encode)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/protobuf-tag-encode_1.0.0-1_all.deb
+Size: 5104
+SHA256: d53d0e3e57d668990b22759e49a06a8b8db4cb9c4c0f21a3e7b4d066ab121d4e
+
+Package: protobuf-field-list
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (protobuf-field-list)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/protobuf-field-list_1.0.0-1_all.deb
+Size: 5096
+SHA256: e64165d837d0479633812999ca8702540be505ef6cc3c2d07c0f176914a7b451
+
+Package: protobuf-field-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (protobuf-field-count)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/protobuf-field-count_1.0.0-1_all.deb
+Size: 5098
+SHA256: 6aaf21733aa20bb3f4c3467ef4282ae0666efe239ed48e64ac653a0d8672f7d9
+
+Package: protobuf-field-numbers
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (protobuf-field-numbers)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/protobuf-field-numbers_1.0.0-1_all.deb
+Size: 5100
+SHA256: 5598271783a17c094b4aea025a36cf6c6f2b845f93e97f11b4516fc3db7315f3
+
+Package: protobuf-wire-types
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (protobuf-wire-types)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/protobuf-wire-types_1.0.0-1_all.deb
+Size: 5098
+SHA256: e656295528a3b7ca1d6afea4e16a8c8cf09ebf35047eedfcecb882ecc12bee04
+
+Package: protobuf-length-fields
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (protobuf-length-fields)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/protobuf-length-fields_1.0.0-1_all.deb
+Size: 5100
+SHA256: a05fd9a00d0660d2bf93ed32df755a25d232f5ace59fd1c72daed28a5483c9d8
+
+Package: protobuf-length-strings
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (protobuf-length-strings)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/protobuf-length-strings_1.0.0-1_all.deb
+Size: 5106
+SHA256: cbb2f0585f9bbccc302212a5d2d125ff7f4718a2c2dd51b1234407f3cca79a7a
+
+Package: protobuf-length-hex
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (protobuf-length-hex)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/protobuf-length-hex_1.0.0-1_all.deb
+Size: 5098
+SHA256: 64b67cbe495b4efb76282e01c1d55ceb44efb4e8b4073a7a3fe3eb6ae859fa7c
+
+Package: protobuf-fixed32-values
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (protobuf-fixed32-values)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/protobuf-fixed32-values_1.0.0-1_all.deb
+Size: 5098
+SHA256: 3650bd2715db8505ebb0b46c4a0258d5c94aebdf376842df26222713e4290989
+
+Package: protobuf-fixed64-values
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (protobuf-fixed64-values)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/protobuf-fixed64-values_1.0.0-1_all.deb
+Size: 5104
+SHA256: dbbd68a4f55688e4b6f0de486a4d48891a87bdcf9fb903323d126f04c45bfee3
+
+Package: protobuf-varint-values
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (protobuf-varint-values)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/protobuf-varint-values_1.0.0-1_all.deb
+Size: 5096
+SHA256: 06e969b861ee0de4fbc19d14c7637f30150321947f7814821dbd309322c65e79
+
+Package: protobuf-size-summary
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (protobuf-size-summary)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/protobuf-size-summary_1.0.0-1_all.deb
+Size: 5098
+SHA256: 12ffc6bcb9ea7e29c7ab09b1d7a20a924399a4fd93b78244970494dd1600d6bb
+
+Package: protobuf-validate
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (protobuf-validate)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/protobuf-validate_1.0.0-1_all.deb
+Size: 5094
+SHA256: c267b678b04d798fe0b61e7eeaf04a870ff8845bb795065674bf9d1743483478
+
+Package: protobuf-depth-lite
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (protobuf-depth-lite)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/protobuf-depth-lite_1.0.0-1_all.deb
+Size: 5104
+SHA256: 63a15eb61ae0b81b25f16c3d96a074d17d3254924994534583376ae92bab7e4d
+
+Package: protobuf-unknown-fields
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (protobuf-unknown-fields)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/protobuf-unknown-fields_1.0.0-1_all.deb
+Size: 5104
+SHA256: 0dd8df33bc63b9f342b513131af25023eaeb983b1b491f496744964f78761ca3
+
+Package: protobuf-field-frequency
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (protobuf-field-frequency)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/protobuf-field-frequency_1.0.0-1_all.deb
+Size: 5096
+SHA256: 745a64e97b353c7c7bbc8cc46c975605bbc8f1de57091b49b2644b83d87b930b
+
+Package: protobuf-first-field
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (protobuf-first-field)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/protobuf-first-field_1.0.0-1_all.deb
+Size: 5100
+SHA256: 8a84d5214c615796b606288a85ad624ac3417f2366caeebeefd6f0f48b2303aa
+
+Package: protobuf-last-field
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (protobuf-last-field)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/protobuf-last-field_1.0.0-1_all.deb
+Size: 5100
+SHA256: ec3262f12383b46f8654aa09725c143ac0341c5eed312c75a768103c58ea4ec8
+
+Package: protobuf-sha256
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (protobuf-sha256)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/protobuf-sha256_1.0.0-1_all.deb
+Size: 5096
+SHA256: d818d899ea2b575a564e8b95b6d246919da442167e6467284f87b6433fd430c6
+
+Package: protobuf-hexdump
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (protobuf-hexdump)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/protobuf-hexdump_1.0.0-1_all.deb
+Size: 5094
+SHA256: 4bd42e9ce9ac19c801426c7b85da292cedffcb3cbd3216db62750a742b89f4ab
+
+Package: cbor-decode
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (cbor-decode)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/cbor-decode_1.0.0-1_all.deb
+Size: 5090
+SHA256: 4c1d497b6c33a14052753556947cfffc6bdc87a87d641565f4658f39e923ab9a
+
+Package: cbor-top-type
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (cbor-top-type)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/cbor-top-type_1.0.0-1_all.deb
+Size: 5094
+SHA256: 1a0e46857cf513c962ad6952278a5552bc108a690dc4e703123a5e1e80b989e1
+
+Package: cbor-map-keys
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (cbor-map-keys)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/cbor-map-keys_1.0.0-1_all.deb
+Size: 5092
+SHA256: c71921b2fefd39cf876d6bec9c630c338560928affe0bc0b5fe9391aea620955
+
+Package: cbor-array-length
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (cbor-array-length)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/cbor-array-length_1.0.0-1_all.deb
+Size: 5096
+SHA256: 206a68de398de0430f43949497b7adef591db9913a1a5aa22dd4f714ca87690b
+
+Package: cbor-item-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (cbor-item-count)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/cbor-item-count_1.0.0-1_all.deb
+Size: 5100
+SHA256: 178539afc78ab01e7b455a342d41dd4bd70ff855284164c3b72b05669ff34372
+
+Package: cbor-depth
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (cbor-depth)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/cbor-depth_1.0.0-1_all.deb
+Size: 5092
+SHA256: 9672c78f77f52fafbb0239d79d3c0875e031f7478516b5cf67312a21a3493e23
+
+Package: cbor-tags
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (cbor-tags)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/cbor-tags_1.0.0-1_all.deb
+Size: 5088
+SHA256: f612885ed7806670d2e06f989513ce62cce15291c49ae088c83e19039761378b
+
+Package: cbor-text-values
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (cbor-text-values)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/cbor-text-values_1.0.0-1_all.deb
+Size: 5096
+SHA256: a26930ee1ec3c828ae4bef22c4c350f2cf3f219a049367064a8cfe842d71d484
+
+Package: cbor-byte-lengths
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (cbor-byte-lengths)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/cbor-byte-lengths_1.0.0-1_all.deb
+Size: 5098
+SHA256: 9b4cbbd543e88846c67baf7f20174b6644aa1295494b56a42a8a65d659a97010
+
+Package: cbor-number-values
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (cbor-number-values)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/cbor-number-values_1.0.0-1_all.deb
+Size: 5100
+SHA256: 60b3239a16dc226988fca74a480717cef9d92d0e74ab6de55ee58112fb7482ae
+
+Package: cbor-validate
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (cbor-validate)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/cbor-validate_1.0.0-1_all.deb
+Size: 5094
+SHA256: fcbafec49e0abad90bd7be460da3799246e74e41c5f65d1dd886d8d7fbe43cfa
+
+Package: cbor-sha256
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (cbor-sha256)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/cbor-sha256_1.0.0-1_all.deb
+Size: 5092
+SHA256: d74a8c6e308c16d1adcd74a256c935e3cc917ddf43f3d56f617fab4008d32780
+
+Package: cbor-hexdump
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (cbor-hexdump)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/cbor-hexdump_1.0.0-1_all.deb
+Size: 5092
+SHA256: 31a953427c5c6a65c490949140e2c0600b1564e5d753c01b26b1c335844d5580
+
+Package: cbor-summary
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (cbor-summary)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/cbor-summary_1.0.0-1_all.deb
+Size: 5094
+SHA256: 1cce5d6052af625127ceeefcc5bc3d865b0965b175aeb633cca7f16e2fff56d9
+
+Package: msgpack-decode
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (msgpack-decode)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/msgpack-decode_1.0.0-1_all.deb
+Size: 5098
+SHA256: ab4cb86831621e58549d3eae027723c8ff37112ad76696a81ea263bc6854be8f
+
+Package: msgpack-top-type
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (msgpack-top-type)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/msgpack-top-type_1.0.0-1_all.deb
+Size: 5102
+SHA256: b6529427b5d85610308ff18a30d53c52d75c10eb46c0c5d70896fa0c210c4997
+
+Package: msgpack-map-keys
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (msgpack-map-keys)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/msgpack-map-keys_1.0.0-1_all.deb
+Size: 5098
+SHA256: 14d0e8e7aba171c0f075e3b1f1b22962827c784afd4e6196216df5b36d43e7ec
+
+Package: msgpack-array-length
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (msgpack-array-length)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/msgpack-array-length_1.0.0-1_all.deb
+Size: 5100
+SHA256: 96d6075e4dfe5f9143b69710fda9feedb17312d7b784e890fb5fd4d495d7f5eb
+
+Package: msgpack-item-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (msgpack-item-count)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/msgpack-item-count_1.0.0-1_all.deb
+Size: 5100
+SHA256: 7fb742f1067c2bd4a3b54dd3c8c2ed3d4b742bf41688fe7382ac5cac74afc62f
+
+Package: msgpack-depth
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (msgpack-depth)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/msgpack-depth_1.0.0-1_all.deb
+Size: 5100
+SHA256: 11518eafa63f72e9394f193a50c0b1d6fde9c30277dd8df9a4f2b685cd36c7eb
+
+Package: msgpack-string-values
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (msgpack-string-values)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/msgpack-string-values_1.0.0-1_all.deb
+Size: 5102
+SHA256: 8a480af427daadf52d0ba92f3b458c4293c5cc4cbe1100bf0a790ca78175f168
+
+Package: msgpack-bin-lengths
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (msgpack-bin-lengths)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/msgpack-bin-lengths_1.0.0-1_all.deb
+Size: 5104
+SHA256: 339f0dbb12abe871bdceb7116df51aa86ea3352c90ef0173c8c8ec7c472cab23
+
+Package: msgpack-number-values
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (msgpack-number-values)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/msgpack-number-values_1.0.0-1_all.deb
+Size: 5106
+SHA256: 53a39c374276cfa03d1026ad5c7f05b2df813e98227660ad34cb3539eb1897a7
+
+Package: msgpack-validate
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (msgpack-validate)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/msgpack-validate_1.0.0-1_all.deb
+Size: 5096
+SHA256: 5da33b81251163352195db57a1f574f7f4018ed5b07e1185b1e2714ba6b1119b
+
+Package: msgpack-sha256
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (msgpack-sha256)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/msgpack-sha256_1.0.0-1_all.deb
+Size: 5094
+SHA256: 6ce710accebb50d16aa2d6bad60824848010ca976e5f46f9c8575312dcd36852
+
+Package: msgpack-hexdump
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (msgpack-hexdump)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/msgpack-hexdump_1.0.0-1_all.deb
+Size: 5102
+SHA256: d26cad10eef408e71e841372aaf4403d6b1f30c32abacad2d3853929a1f3b1fa
+
+Package: msgpack-summary
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (msgpack-summary)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/msgpack-summary_1.0.0-1_all.deb
+Size: 5098
+SHA256: 34c2db555785954c74c98a83d2fde611e630f0c396220c0447fb2d9e4e3040c7
+
+Package: msgpack-type-frequency
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (msgpack-type-frequency)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/msgpack-type-frequency_1.0.0-1_all.deb
+Size: 5100
+SHA256: a203b5eada542fca98e74363e7aae5834fc3e53eed619a0511606d593d2a31f2
+
+Package: avro-magic-check
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (avro-magic-check)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/avro-magic-check_1.0.0-1_all.deb
+Size: 5094
+SHA256: f47ce551fa060fccc209704afb71f070f09c4a68150a5cbda14b4c8a825dd5a6
+
+Package: avro-metadata
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (avro-metadata)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/avro-metadata_1.0.0-1_all.deb
+Size: 5094
+SHA256: 43fed1ffaa87884be7b6874fa403e26bd22c9bfaa40fadc431673df4464cfb25
+
+Package: avro-schema
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (avro-schema)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/avro-schema_1.0.0-1_all.deb
+Size: 5096
+SHA256: de54e94bfe3b8dedf95ca2df00be63e4c94c46dcb29a58bc1c72114069e74cd3
+
+Package: avro-codec
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (avro-codec)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/avro-codec_1.0.0-1_all.deb
+Size: 5090
+SHA256: 6c65c3243bdb67e7b7042bb7dbe3b96fe0ac2ce2d4b9e63c56beb902a5cf7ea4
+
+Package: avro-sync-marker
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (avro-sync-marker)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/avro-sync-marker_1.0.0-1_all.deb
+Size: 5096
+SHA256: 55e37577630c3abc6a839d909f695c8b08e1d8cca781d3788f5708ad7ed8ce5a
+
+Package: avro-block-counts
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (avro-block-counts)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/avro-block-counts_1.0.0-1_all.deb
+Size: 5098
+SHA256: 3502364693cdec377fd6017d1d03e9df37c40011c08822973a7afc2f31ef8659
+
+Package: avro-block-sizes
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (avro-block-sizes)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/avro-block-sizes_1.0.0-1_all.deb
+Size: 5098
+SHA256: bc67dde5ba386453f04f1867fb78945a9f9db8c3f27f60ad114309eee58c71b6
+
+Package: avro-block-offsets
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (avro-block-offsets)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/avro-block-offsets_1.0.0-1_all.deb
+Size: 5106
+SHA256: 10fbe90754b218b8935590b7e6f9eb0200e5b3b1224cbad9fecb3962c9680611
+
+Package: avro-header-size
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (avro-header-size)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/avro-header-size_1.0.0-1_all.deb
+Size: 5096
+SHA256: 9a74a05a98f516c59816d221c25b8a9c79d1333bcc962b1618af159b06feb9bd
+
+Package: avro-validate-basic
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (avro-validate-basic)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/avro-validate-basic_1.0.0-1_all.deb
+Size: 5104
+SHA256: 27b03f3818c4593b76e9a5bc9bb03a6a4e7e865ddb39c416fc16ea0cf12a42a9
+
+Package: avro-sha256
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (avro-sha256)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/avro-sha256_1.0.0-1_all.deb
+Size: 5094
+SHA256: d4b86f1f42c0e9a7da6815b89f7dd3477d1ac9d66882242e59e1a9fdfad8796c
+
+Package: avro-file-size
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (avro-file-size)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/avro-file-size_1.0.0-1_all.deb
+Size: 5100
+SHA256: 0b920810a1199107af9888f9b8f98d85263de966fbec2c110ccde83abc207a80
+
+Package: avro-metadata-keys
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (avro-metadata-keys)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/avro-metadata-keys_1.0.0-1_all.deb
+Size: 5100
+SHA256: fe0bb5cae41841e005131eb74a485a7d27d8c7ad4629354807ddf9fa10558215
+
+Package: avro-summary
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: Protobuf/CBOR/MessagePack/Avro utility (avro-summary)
+ Functional OceanStudio shard 31 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-31/pool/main/avro-summary_1.0.0-1_all.deb
+Size: 5092
+SHA256: 3b8abe93f4a7597c2cac40dd9f3946cac1ed90b80c50a1f2ab4839945dc002dd

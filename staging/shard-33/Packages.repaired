@@ -1,0 +1,923 @@
+Package: fontsfnt-scaler-type
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (fontsfnt-scaler-type)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/fontsfnt-scaler-type_1.0.0-1_all.deb
+Size: 5622
+SHA256: 3bbea1887b76c5f1f7e717cf87f4f3fb88f2a19f2a1c4b3e356f79425620e5aa
+
+Package: fontsfnt-table-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (fontsfnt-table-count)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/fontsfnt-table-count_1.0.0-1_all.deb
+Size: 5622
+SHA256: b747fa967eb7f67c98c904bd1ad1af7bbc8ce19b39e77c5ec6bed2b00f6039a1
+
+Package: fontsfnt-table-tags
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (fontsfnt-table-tags)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/fontsfnt-table-tags_1.0.0-1_all.deb
+Size: 5626
+SHA256: 52b7347b1074c4140eb0836bff485e8fea6f0c6bf9758f0949cce732c0787ca8
+
+Package: fontsfnt-table-offsets
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (fontsfnt-table-offsets)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/fontsfnt-table-offsets_1.0.0-1_all.deb
+Size: 5624
+SHA256: e880ff0244bb51726051a31c9a436e12b74579afc7c96c76249dd9816ab53bda
+
+Package: fontsfnt-table-lengths
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (fontsfnt-table-lengths)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/fontsfnt-table-lengths_1.0.0-1_all.deb
+Size: 5624
+SHA256: cf87b47a91cbd72974687e5a0ac6775cf9d7412d11a84e5f60e7853e0d13c7e7
+
+Package: fontsfnt-table-checksums
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (fontsfnt-table-checksums)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/fontsfnt-table-checksums_1.0.0-1_all.deb
+Size: 5628
+SHA256: af2698b2f4cfb77906b2d1f18149f06e02525fe4a6b44f5f387c812c4b9d9e83
+
+Package: fontsfnt-head-units-per-em
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (fontsfnt-head-units-per-em)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/fontsfnt-head-units-per-em_1.0.0-1_all.deb
+Size: 5624
+SHA256: 9cd16f01e3352ab7c3c378305d54be02d4f8c6cce4bca1006378fedd896cbdcb
+
+Package: fontsfnt-head-bbox
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (fontsfnt-head-bbox)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/fontsfnt-head-bbox_1.0.0-1_all.deb
+Size: 5626
+SHA256: 2b1445fab2bf31733b0e6a4c834ff1a605442e227e95c54bd27bf2480b7cc56d
+
+Package: fontsfnt-head-created
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (fontsfnt-head-created)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/fontsfnt-head-created_1.0.0-1_all.deb
+Size: 5624
+SHA256: a37e043fd27a1cffa8eede69cd4c8bf063710cf530f056ed66a542f3e5ed5b65
+
+Package: fontsfnt-head-modified
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (fontsfnt-head-modified)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/fontsfnt-head-modified_1.0.0-1_all.deb
+Size: 5626
+SHA256: 0a14d7ff220f617d35daa5f744f6007d824610975c6a5a0fea5388bd105217ad
+
+Package: fontsfnt-maxp-glyphs
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (fontsfnt-maxp-glyphs)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/fontsfnt-maxp-glyphs_1.0.0-1_all.deb
+Size: 5620
+SHA256: b3415472704d8f9b182ffacfc72f8b15c4ea584a00d7c9fc07dc6a58f0835569
+
+Package: fontsfnt-name-record-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (fontsfnt-name-record-count)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/fontsfnt-name-record-count_1.0.0-1_all.deb
+Size: 5630
+SHA256: b484c9dbc80451992ecd4e94878dcc9dda4e10a6a55f1592c9439ff27b4b18f5
+
+Package: fontsfnt-name-strings
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (fontsfnt-name-strings)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/fontsfnt-name-strings_1.0.0-1_all.deb
+Size: 5622
+SHA256: fcb6a4d5aa8831df7f350ea66704ce2a5ca051c58d7f6214546d95f99e86b0e2
+
+Package: fontsfnt-name-family
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (fontsfnt-name-family)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/fontsfnt-name-family_1.0.0-1_all.deb
+Size: 5624
+SHA256: 77d667282d8ed03d2acea741a2174e30d5107fdca648693702a6e2780d7b3951
+
+Package: fontsfnt-name-style
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (fontsfnt-name-style)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/fontsfnt-name-style_1.0.0-1_all.deb
+Size: 5626
+SHA256: 8bf7d91c11bcb395ca4810b77ebf55c1ce08e7e7c57b369cebcfc45878ae14f3
+
+Package: fontsfnt-name-full
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (fontsfnt-name-full)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/fontsfnt-name-full_1.0.0-1_all.deb
+Size: 5626
+SHA256: 38214a02bfb196dd811c7d49ecf14aba7a4dc124ddd343b87a1163d70eeafc20
+
+Package: fontsfnt-os2-weight
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (fontsfnt-os2-weight)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/fontsfnt-os2-weight_1.0.0-1_all.deb
+Size: 5624
+SHA256: 8150afed9b965d16b3bb85800c3232a90d58be430e0da91d6ffc815f46092261
+
+Package: fontsfnt-os2-width
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (fontsfnt-os2-width)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/fontsfnt-os2-width_1.0.0-1_all.deb
+Size: 5626
+SHA256: 9e3bcd9680d17d359e15b0d9726d4fa0055dad4999774384653ebec4fc7a9bdd
+
+Package: fontsfnt-post-format
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (fontsfnt-post-format)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/fontsfnt-post-format_1.0.0-1_all.deb
+Size: 5622
+SHA256: 5ec751e8e1b26b28f4c9217688e0efadc7460828683c61add88644938cf651e3
+
+Package: fontsfnt-cmap-subtables
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (fontsfnt-cmap-subtables)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/fontsfnt-cmap-subtables_1.0.0-1_all.deb
+Size: 5622
+SHA256: b6e87dd0f280c6be0e758f2f2c1586652558c5a28b6aa54a6a27652b1f41c543
+
+Package: fontsfnt-sha256
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (fontsfnt-sha256)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/fontsfnt-sha256_1.0.0-1_all.deb
+Size: 5620
+SHA256: 49570029a03071fa5d56eab0569969c46f6ad0bab45f4fb1776dad337402b6b7
+
+Package: fontsfnt-summary
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (fontsfnt-summary)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/fontsfnt-summary_1.0.0-1_all.deb
+Size: 5620
+SHA256: 61da078de6d0e09623514f4bd30e52fcfe840bdd4eaed9df8a5ee3b053396ba4
+
+Package: woff-magic-check
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (woff-magic-check)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/woff-magic-check_1.0.0-1_all.deb
+Size: 5620
+SHA256: f7794c66b6f5d619ce0598fe142a3d494e06300244089ca52bf8e0e5c4232cb8
+
+Package: woff-flavor
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (woff-flavor)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/woff-flavor_1.0.0-1_all.deb
+Size: 5616
+SHA256: 4454e39797d942b7c9e96f31ea307480bf9c78dbeeede865b02ccaf6c7ffb250
+
+Package: woff-length
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (woff-length)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/woff-length_1.0.0-1_all.deb
+Size: 5616
+SHA256: 4f93b21b7178beeb041e4b9ec732e85e374ffe8535cf1b9e2c4bd604ec4334d6
+
+Package: woff-table-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (woff-table-count)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/woff-table-count_1.0.0-1_all.deb
+Size: 5620
+SHA256: f425a6402c450cd7e10e2725d4de354c2b5543999a5729041ed4a075598106da
+
+Package: woff-total-sfnt-size
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (woff-total-sfnt-size)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/woff-total-sfnt-size_1.0.0-1_all.deb
+Size: 5624
+SHA256: a2a0aeddaffce35d8a6bb2d41256513a2209f2a381b63a16153848630f3fef65
+
+Package: woff-version
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (woff-version)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/woff-version_1.0.0-1_all.deb
+Size: 5612
+SHA256: a06933f1d5bbc61ad7df5e6afa3c1b091b2451b62b2afe78108393ec360222e8
+
+Package: woff-meta-size
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (woff-meta-size)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/woff-meta-size_1.0.0-1_all.deb
+Size: 5622
+SHA256: 73f3d9cfd418f5e556edafe7ce815b2e37d030bf3d33b1f9c1f073a673918fd8
+
+Package: woff-private-size
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (woff-private-size)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/woff-private-size_1.0.0-1_all.deb
+Size: 5624
+SHA256: 62cb5d6afeac775c0bbb069a52442e99c9502fbd9737686c57f42983c3e99ce4
+
+Package: woff-table-directory
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (woff-table-directory)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/woff-table-directory_1.0.0-1_all.deb
+Size: 5624
+SHA256: cc972ab56784e9df1c07980e44edde2387c4d3a50503c32156de7f011be37dd6
+
+Package: woff-summary
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (woff-summary)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/woff-summary_1.0.0-1_all.deb
+Size: 5618
+SHA256: 7e0e7c4c333a86fcbfb4416b79f78aa85672baaca5207eb5ac4d640a685ec15d
+
+Package: icc-profile-size
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (icc-profile-size)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/icc-profile-size_1.0.0-1_all.deb
+Size: 5620
+SHA256: e7c6bb1acc5299754595caaeca891cae1e1aaf522cb8be4b4408ba0c7f0eed09
+
+Package: icc-cmm-type
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (icc-cmm-type)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/icc-cmm-type_1.0.0-1_all.deb
+Size: 5614
+SHA256: 993a822166789064d8340b9a7e7e2e38f3f352b7b774f3c8821cd95d959ecbff
+
+Package: icc-version
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (icc-version)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/icc-version_1.0.0-1_all.deb
+Size: 5612
+SHA256: a465f792d8bc6a25670e8cc53d4f9c7e5d3b7f3c72ef8ea255904575b1b3d7d8
+
+Package: icc-device-class
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (icc-device-class)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/icc-device-class_1.0.0-1_all.deb
+Size: 5616
+SHA256: 40351fc048d97a56e2ed6f1e444ad41bf5eb9f24bff3e91a7b97376b1b8b2eb1
+
+Package: icc-color-space
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (icc-color-space)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/icc-color-space_1.0.0-1_all.deb
+Size: 5622
+SHA256: e2733eee065a2fadd6fb377e07e1736dc69452cce74c43816e690af94e6c35ac
+
+Package: icc-pcs
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (icc-pcs)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/icc-pcs_1.0.0-1_all.deb
+Size: 5610
+SHA256: 606f54455f303abb29a77e02b8a2ef4e3d4e393a7283fd07c606152cc53ca3f8
+
+Package: icc-created
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (icc-created)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/icc-created_1.0.0-1_all.deb
+Size: 5610
+SHA256: 4d69ee7a0bb2ba9f9221f1f19bd7c186e5a1a506b64a18616b3025383926fa4a
+
+Package: icc-platform
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (icc-platform)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/icc-platform_1.0.0-1_all.deb
+Size: 5612
+SHA256: f728e91179ec17b6cc72f1fd8f62e89bae449dc0b8def4a6f5508694659024b7
+
+Package: icc-rendering-intent
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (icc-rendering-intent)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/icc-rendering-intent_1.0.0-1_all.deb
+Size: 5616
+SHA256: 9f5f47df74229507c8420bcb69d86320aed106a4fe585714a7a78eba1fee0d41
+
+Package: icc-creator
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (icc-creator)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/icc-creator_1.0.0-1_all.deb
+Size: 5612
+SHA256: 70e6f1a5c9ddb91b10d2c35b2eb51a84d34abc686d8784548da40c4097ed27c7
+
+Package: icc-tag-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (icc-tag-count)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/icc-tag-count_1.0.0-1_all.deb
+Size: 5616
+SHA256: b7e735ba0f5b65269dff79733fb948453c8343ca3ca7c5124f099f2721ff3e55
+
+Package: icc-tag-signatures
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (icc-tag-signatures)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/icc-tag-signatures_1.0.0-1_all.deb
+Size: 5622
+SHA256: 61a4e968d9c046e1f0c5b668d74663d3c0a3841e60d407471aff7ec0a4872e91
+
+Package: xmp-root
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (xmp-root)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/xmp-root_1.0.0-1_all.deb
+Size: 5608
+SHA256: b0b56429b232aeedf84aa8fd0b84d42f9539c9b7800925925f934f07d502f7f9
+
+Package: xmp-namespaces
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (xmp-namespaces)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/xmp-namespaces_1.0.0-1_all.deb
+Size: 5618
+SHA256: e2b5632f79fb95888f30dd767def71a2fb836f8836abd5b406fd4bf76328fbb7
+
+Package: xmp-descriptions
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (xmp-descriptions)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/xmp-descriptions_1.0.0-1_all.deb
+Size: 5616
+SHA256: 4d369c6cc155b1affb1e1a7f7b50a5529bdd66b15b1be326bc652f1bb5e5f18f
+
+Package: xmp-properties
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (xmp-properties)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/xmp-properties_1.0.0-1_all.deb
+Size: 5620
+SHA256: 56835b508682ba6d6270615e5a5acda7cb9a48cdce8eead3b4094c93d83c61b8
+
+Package: xmp-dc-title
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (xmp-dc-title)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/xmp-dc-title_1.0.0-1_all.deb
+Size: 5614
+SHA256: 5bd42c9533d8ec03c92b015ffa8abd3348a2a864d5de2a2df3eb669f9492b11f
+
+Package: xmp-dc-creator
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (xmp-dc-creator)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/xmp-dc-creator_1.0.0-1_all.deb
+Size: 5624
+SHA256: 0148f5ffdf8ca497619fc51f8472a505070459475ea4d14db754682b90c48736
+
+Package: xmp-dc-subject
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (xmp-dc-subject)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/xmp-dc-subject_1.0.0-1_all.deb
+Size: 5624
+SHA256: dfbe0cd8d965e6dbec5d03b810d0f35038ccf031e86181d3eb395f0eb0f45302
+
+Package: xmp-create-date
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (xmp-create-date)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/xmp-create-date_1.0.0-1_all.deb
+Size: 5620
+SHA256: fa413c2bf3664abdf9db533fd4bb5b3acd344e7cd707dce6f57b59e2162b672e
+
+Package: xmp-modify-date
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (xmp-modify-date)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/xmp-modify-date_1.0.0-1_all.deb
+Size: 5624
+SHA256: 7af9b4463b19da6d4bec6eea7f9968bd3380254fdea2b4fcb6a3f449105125c4
+
+Package: xmp-summary
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (xmp-summary)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/xmp-summary_1.0.0-1_all.deb
+Size: 5616
+SHA256: 9ae77263d8db6f4e68587f830fac0d6cd07da3c17635fdbc7bb2a2212956a51c
+
+Package: subtrack-format-detect
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (subtrack-format-detect)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/subtrack-format-detect_1.0.0-1_all.deb
+Size: 5624
+SHA256: b72ed20a2314b7f35211305991af564b12077918918d2ac4a10e237bf35e2ecf
+
+Package: subtrack-cue-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (subtrack-cue-count)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/subtrack-cue-count_1.0.0-1_all.deb
+Size: 5618
+SHA256: 3f1a86711b585c975f2c80ac0b7ae80fb199ddd818b8b7e98c0c49b019d62b7e
+
+Package: subtrack-duration
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (subtrack-duration)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/subtrack-duration_1.0.0-1_all.deb
+Size: 5620
+SHA256: 0982b22844ebcd0c28479764f57a2c847993fab6d1b20067541dfe8c95595a19
+
+Package: subtrack-first-start
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (subtrack-first-start)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/subtrack-first-start_1.0.0-1_all.deb
+Size: 5624
+SHA256: d63c7a90dc366e11337a8ae70ab4ee1c7664d9a2946338dea10d098dce5e172a
+
+Package: subtrack-last-end
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (subtrack-last-end)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/subtrack-last-end_1.0.0-1_all.deb
+Size: 5620
+SHA256: 7c2b901c7257fa91dee295e545890b1b5df2e86bb6942f00ecf4d96b7638795e
+
+Package: subtrack-text-lines
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (subtrack-text-lines)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/subtrack-text-lines_1.0.0-1_all.deb
+Size: 5624
+SHA256: e1bc6108d485de3d5c50aa40635ce2b930379fd2b4ca4a4e2eaaf120622a07fa
+
+Package: subtrack-speakers
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (subtrack-speakers)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/subtrack-speakers_1.0.0-1_all.deb
+Size: 5620
+SHA256: a0b7144d4bea1fddeba74b4176aa23232565b7663187d4749384292676416a0d
+
+Package: subtrack-tags
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (subtrack-tags)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/subtrack-tags_1.0.0-1_all.deb
+Size: 5614
+SHA256: 1ca2f518e166fba171600e5067dd7008a4d89417d6c8fa21f4dec6ede33fbd0b
+
+Package: subtrack-overlaps
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (subtrack-overlaps)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/subtrack-overlaps_1.0.0-1_all.deb
+Size: 5618
+SHA256: 1a6f4cc6a72d8911e6d3c4c07c4a06a4d3b8bdb1a545af431cb4a391ae792195
+
+Package: subtrack-gaps
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (subtrack-gaps)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/subtrack-gaps_1.0.0-1_all.deb
+Size: 5614
+SHA256: ed92728e7142c230089b1ab9853b7bf3e87b5e88b7d6fc5f2d79304105f54d4d
+
+Package: subtrack-word-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (subtrack-word-count)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/subtrack-word-count_1.0.0-1_all.deb
+Size: 5626
+SHA256: 691d9a347c2d645c85f1d5a12386bc752ed2156c1f1905cd6773fa0fbb7aa287
+
+Package: subtrack-summary
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: SFNT/WOFF/ICC/XMP/subtitle metadata utility (subtrack-summary)
+ Functional OceanStudio shard 33 utility. Installs into the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-33/pool/main/subtrack-summary_1.0.0-1_all.deb
+Size: 5618
+SHA256: 64d1fc38cf463c52872467469331187cd6ffeff09e403f40df9ef1a085ef359b
