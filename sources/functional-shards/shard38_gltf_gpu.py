@@ -123,9 +123,9 @@ def glb(cmd,a):
 KTX_MAGIC=b"\xABKTX 20\xBB\r\n\x1A\n"
 def ktxh(b):
     if len(b)<80:die("truncated KTX2")
-    vals=struct.unpack_from("<9I2I2Q",b,12)
-    # 9I: vkFormat,typeSize,width,height,depth,layerCount,faceCount,levelCount,supercompression
-    return {"magic":b[:12],"vkFormat":vals[0],"typeSize":vals[1],"pixelWidth":vals[2],"pixelHeight":vals[3],"pixelDepth":vals[4],"layerCount":vals[5],"faceCount":vals[6],"levelCount":vals[7],"supercompression":vals[8],"dfdOffset":vals[9],"dfdLength":vals[10],"kvdOffset":vals[11]&0xffffffff,"kvdLength":vals[11]>>32 if False else struct.unpack_from("<I",b,60)[0],"sgdOffset":struct.unpack_from("<Q",b,64)[0],"sgdLength":struct.unpack_from("<Q",b,72)[0]}
+    vals=struct.unpack_from("<13I2Q",b,12)
+    # 9 core u32 fields + DFD/KVD offset-length pairs + two u64 SGD fields.
+    return {"magic":b[:12],"vkFormat":vals[0],"typeSize":vals[1],"pixelWidth":vals[2],"pixelHeight":vals[3],"pixelDepth":vals[4],"layerCount":vals[5],"faceCount":vals[6],"levelCount":vals[7],"supercompression":vals[8],"dfdOffset":vals[9],"dfdLength":vals[10],"kvdOffset":vals[11],"kvdLength":vals[12],"sgdOffset":vals[13],"sgdLength":vals[14]}
 def ktx_levels(b,h):
     out=[];p=80
     for i in range(h["levelCount"]):
