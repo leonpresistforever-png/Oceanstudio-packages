@@ -79,9 +79,13 @@ def base(provider):
 
 def plan(cmd,args):
     provider,op=COMMANDS[cmd]
-    prefix,backend=base(provider)
-    argv=prefix+PROVIDERS[provider][op]+list(args)
-    return {"package":cmd,"provider":provider,"operation":op,"backend":backend,"argv":argv,"prefix":PREFIX}
+    return {
+      "package":cmd,"provider":provider,"operation":op,
+      "preferred_binary":DIRECT[provider],
+      "mise_fallback_tool":MISE_TOOL[provider]+"@latest",
+      "operation_argv":PROVIDERS[provider][op]+list(args),
+      "prefix":PREFIX
+    }
 
 def main():
     cmd=P(sys.argv[0]).name
@@ -101,6 +105,9 @@ def main():
     p=plan(cmd,args)
     if dry or os.environ.get("OCEAN_FOUNDATION_PLAN")=="1":
         emit(p);return
-    raise SystemExit(subprocess.run(p["argv"]).returncode)
+    provider,op=COMMANDS[cmd]
+    prefix,_backend=base(provider)
+    argv=prefix+PROVIDERS[provider][op]+list(args)
+    raise SystemExit(subprocess.run(argv).returncode)
 
 if __name__=="__main__":main()
