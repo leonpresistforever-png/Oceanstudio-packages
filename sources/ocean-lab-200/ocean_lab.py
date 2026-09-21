@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 from __future__ import annotations
-import base64,binascii,csv,email,email.header,email.policy,hashlib,json,mailbox,math,os,re,shlex,statistics,struct,sys,time,urllib.parse,uuid,xml.etree.ElementTree as ET,zipfile,zlib,tomllib
+import base64,binascii,csv,email,email.header,email.policy,hashlib,io,json,mailbox,math,os,re,shlex,statistics,struct,sys,time,urllib.parse,uuid,xml.etree.ElementTree as ET,zipfile,zlib,tomllib
 from email import policy
 from email.parser import BytesParser
 from pathlib import Path
@@ -415,10 +415,12 @@ def binary(cmd,a):
             q=b[off:off+width]; print(f"{off:08x}  {' '.join(f'{x:02x}' for x in q):47}  {''.join(chr(x) if 32<=x<127 else '.' for x in q)}")
         return
     if op=="xor":
-        if len(a)<2:die("FILE/TEXT KEYHEX"); key=bytes.fromhex(a[-1]); src=b if P(a[0]).exists() else " ".join(a[:-1]).encode(); sys.stdout.buffer.write(bytes(x^key[i%len(key)] for i,x in enumerate(src)));return
+        if len(a)<2:die("FILE/TEXT KEYHEX")
+        key=bytes.fromhex(a[-1]); src=b if P(a[0]).exists() else " ".join(a[:-1]).encode(); sys.stdout.buffer.write(bytes(x^key[i%len(key)] for i,x in enumerate(src)));return
     if op=="bitcount":print(sum(x.bit_count() for x in b));return
     if op=="swap32":
-        if len(b)<4:die("need 4 bytes");print(b[:4][::-1].hex());return
+        if len(b)<4:die("need 4 bytes")
+        print(b[:4][::-1].hex());return
     if op=="slice":
         start=int(a[1]) if len(a)>1 and P(a[0]).exists() else 0; end=int(a[2]) if len(a)>2 and P(a[0]).exists() else len(b);sys.stdout.buffer.write(b[start:end]);return
     if op=="concat":
@@ -436,9 +438,11 @@ def pascal(s): return "".join(x[:1].upper()+x[1:].lower() for x in words(s))
 def string(cmd,a):
     op=cmd_parts(cmd)[1]
     if op=="map-subst":
-        if len(a)<2:die("TEMPLATE JSON_MAP"); s=a[0]; d=json.loads(P(a[1]).read_text() if P(a[1]).exists() else a[1]); print(re.sub(r"\$\{([^}]+)\}",lambda m:str(d.get(m.group(1),m.group(0))),s));return
+        if len(a)<2:die("TEMPLATE JSON_MAP")
+        s=a[0]; d=json.loads(P(a[1]).read_text() if P(a[1]).exists() else a[1]); print(re.sub(r"\$\{([^}]+)\}",lambda m:str(d.get(m.group(1),m.group(0))),s));return
     if op=="mustache-lite":
-        if len(a)<2:die("TEMPLATE JSON_MAP"); s=a[0];d=json.loads(P(a[1]).read_text() if P(a[1]).exists() else a[1]);print(re.sub(r"\{\{\s*([^}\s]+)\s*\}\}",lambda m:str(d.get(m.group(1),m.group(0))),s));return
+        if len(a)<2:die("TEMPLATE JSON_MAP")
+        s=a[0];d=json.loads(P(a[1]).read_text() if P(a[1]).exists() else a[1]);print(re.sub(r"\{\{\s*([^}\s]+)\s*\}\}",lambda m:str(d.get(m.group(1),m.group(0))),s));return
     s=read_text_arg(a[:1] if a and P(a[0]).exists() else a)
     if op=="env-subst":print(os.path.expandvars(s));return
     if op=="repeat":print(s*int(a[1] if a and P(a[0]).exists() and len(a)>1 else 2),end="");return
