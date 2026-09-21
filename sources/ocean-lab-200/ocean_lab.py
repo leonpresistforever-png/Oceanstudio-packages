@@ -207,7 +207,7 @@ def mail(cmd,a):
         print("\n".join(out)); return
     if op=="domains":
         header_text="\n".join(str(m.get(k,"")) for k in ("From","To","Cc","Reply-To"))
-        domains=sorted({x.lower().rstrip(".") for x in re.findall(r"@([A-Za-z0-9.-]+\\.[A-Za-z]{2,})",header_text)})
+        domains=sorted({x.lower().rstrip(".") for x in re.findall(r"@([A-Za-z0-9.-]+\.[A-Za-z]{2,})",header_text)})
         emit(domains); return
     if op=="addresses": emit([addr for _,addr in email.utils.getaddresses([m.get(k,"") for k in ("From","To","Cc","Reply-To")]) if addr]); return
     if op=="received-hops": emit(m.get_all("Received",[])); return
