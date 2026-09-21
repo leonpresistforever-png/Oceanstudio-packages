@@ -1,0 +1,1399 @@
+Package: openai-env-check
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (openai-env-check)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/openai-env-check_1.0.0-1_all.deb
+Size: 7116
+SHA256: e6c959b3c06a436cce2d54c1337f1aebdeca1294a5a7f78f1d2b0be497b2f111
+
+Package: openai-key-format
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (openai-key-format)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/openai-key-format_1.0.0-1_all.deb
+Size: 7124
+SHA256: 1c8a994d89bf3ebc089d2b972a0a4e560dc0cd9839e37afb768c84abb5e604e8
+
+Package: openai-base-url
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (openai-base-url)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/openai-base-url_1.0.0-1_all.deb
+Size: 7126
+SHA256: 6bf10f1411abc49d4db0c9f360a4f482ab4bea4e0c4ea88ae636379fa306014b
+
+Package: openai-project-header
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (openai-project-header)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/openai-project-header_1.0.0-1_all.deb
+Size: 7134
+SHA256: 353fc5f391ce375d87e7b22124b233914d1d6e02e35dbc94c964d6cb5763177f
+
+Package: openai-org-header
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (openai-org-header)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/openai-org-header_1.0.0-1_all.deb
+Size: 7116
+SHA256: 720d2f4509ce0e3aba4c7ae5d5d179be7d55874073bfbebcf9b88359c7f5c532
+
+Package: openai-request-headers
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (openai-request-headers)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/openai-request-headers_1.0.0-1_all.deb
+Size: 7130
+SHA256: 28d31c2a097f59de80492dcc712a07a764f22897443f9c978239b646935cc1ed
+
+Package: openai-responses-request
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (openai-responses-request)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/openai-responses-request_1.0.0-1_all.deb
+Size: 7128
+SHA256: 02f4ae33eea98ff5584eebb6d870a4ba6f41260b7d130d34c620c4b813ca0ed0
+
+Package: openai-responses-input
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (openai-responses-input)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/openai-responses-input_1.0.0-1_all.deb
+Size: 7130
+SHA256: 5f0fc85328e39c4bcbe4d9aca7d68fdb78c6ae028173f2147600e2adbdb77555
+
+Package: openai-responses-tools
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (openai-responses-tools)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/openai-responses-tools_1.0.0-1_all.deb
+Size: 7128
+SHA256: 283015a0fd076778f926858f6b8d74fbacd749b1d9024eeeaa8fb32944dc3c22
+
+Package: openai-responses-json-schema
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (openai-responses-json-schema)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/openai-responses-json-schema_1.0.0-1_all.deb
+Size: 7134
+SHA256: 28ce4839e577ae1d994ed971cbf464a3cf13a06e68ec1ed44ec84c2e4865f220
+
+Package: openai-responses-stream-events
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (openai-responses-stream-events)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/openai-responses-stream-events_1.0.0-1_all.deb
+Size: 7136
+SHA256: 9569b2fbcabea96c1bd54351f37b782d425a361f37db33bec569cfe442fe85db
+
+Package: openai-responses-output-text
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (openai-responses-output-text)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/openai-responses-output-text_1.0.0-1_all.deb
+Size: 7132
+SHA256: cf7504934f3eee25e06e555da638b2bcfb785dc701fb0fed468f169bda9fb1e8
+
+Package: openai-response-usage
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (openai-response-usage)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/openai-response-usage_1.0.0-1_all.deb
+Size: 7130
+SHA256: d50e9d4fe32af89bc5870479b9ef235bd63fd253836afc72a26cb4c39f51d573
+
+Package: openai-response-status
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (openai-response-status)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/openai-response-status_1.0.0-1_all.deb
+Size: 7128
+SHA256: f2c98d5c573c00e96fd7773bf4982ef2d62a31a4c978851eed88b1f17c371a5e
+
+Package: openai-response-errors
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (openai-response-errors)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/openai-response-errors_1.0.0-1_all.deb
+Size: 7132
+SHA256: 1ae208c30bd631c3df8909c6f9e65bdad6bc1dba078e688daea38782c2731041
+
+Package: openai-files-request
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (openai-files-request)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/openai-files-request_1.0.0-1_all.deb
+Size: 7122
+SHA256: 716696b986118ead2a44ed88ddf8908014fd995c87b5193cd1f9b71f63d54e17
+
+Package: openai-batches-request
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (openai-batches-request)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/openai-batches-request_1.0.0-1_all.deb
+Size: 7134
+SHA256: b4d02fca0131ab88b853a7984484710e7f84ffb964e603050193e9faaf6d5b0a
+
+Package: openai-embeddings-request
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (openai-embeddings-request)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/openai-embeddings-request_1.0.0-1_all.deb
+Size: 7130
+SHA256: ddecc643c7a3c709d4f30bf8dddd40538310497243d58b4a3cffef9b841ad9a3
+
+Package: openai-images-request
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (openai-images-request)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/openai-images-request_1.0.0-1_all.deb
+Size: 7132
+SHA256: 1c4f3fe4d6d711fd348619fb95b4de2b0b65248be05460bff9c8fec780d12422
+
+Package: openai-audio-request
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (openai-audio-request)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/openai-audio-request_1.0.0-1_all.deb
+Size: 7126
+SHA256: ceff3bf19ba3e552a8951be9bd1c6e43f3c1a856221a9f99c625474a8dcbb00d
+
+Package: openai-realtime-url
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (openai-realtime-url)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/openai-realtime-url_1.0.0-1_all.deb
+Size: 7124
+SHA256: 9609752f1202b6d1ae332d532217580dfb5fd154e70cc25e03078590df532bda
+
+Package: openai-realtime-session
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (openai-realtime-session)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/openai-realtime-session_1.0.0-1_all.deb
+Size: 7126
+SHA256: c24804c1141b645ce73831b346b1791b3467a90abca534eadbceb9872e923867
+
+Package: openai-realtime-event-types
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (openai-realtime-event-types)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/openai-realtime-event-types_1.0.0-1_all.deb
+Size: 7134
+SHA256: 5b4ef9714e9ba0ccde81d3d2b8374efb4e458ffb8891be8ac0bf1421d71b146a
+
+Package: openai-realtime-sdp-info
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (openai-realtime-sdp-info)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/openai-realtime-sdp-info_1.0.0-1_all.deb
+Size: 7136
+SHA256: 7c2655e18d907d723087b46d803eeafcab346c5bcb484fea7617635e3d1fad26
+
+Package: openai-agents-config
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (openai-agents-config)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/openai-agents-config_1.0.0-1_all.deb
+Size: 7126
+SHA256: cec667d6d94f056565a38debafff17e8f6b2b34a811b44d37118be71a91666d2
+
+Package: openai-agents-tools
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (openai-agents-tools)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/openai-agents-tools_1.0.0-1_all.deb
+Size: 7130
+SHA256: d1f540cbbeaeeeb276f085c64ed4db76a5f7b7a6d883669c4eae9275e92bc304
+
+Package: openai-agents-handoffs
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (openai-agents-handoffs)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/openai-agents-handoffs_1.0.0-1_all.deb
+Size: 7136
+SHA256: 405200aa69c6e3109b78993b6cba4c24e255aa6e20247c73bf8e545fce7c9f0c
+
+Package: openai-agents-guardrails
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (openai-agents-guardrails)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/openai-agents-guardrails_1.0.0-1_all.deb
+Size: 7132
+SHA256: 10e7a24605c34132d61f03c9ac1303abe8145ad3f029a1cfd264b6f94cd7028f
+
+Package: openai-agents-model-settings
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (openai-agents-model-settings)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/openai-agents-model-settings_1.0.0-1_all.deb
+Size: 7136
+SHA256: 500a0a89337b9ad4fcb9e0aa098e3336833e86bd90f5cad77125cd507a3b80a5
+
+Package: openai-agents-trace-id
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (openai-agents-trace-id)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/openai-agents-trace-id_1.0.0-1_all.deb
+Size: 7130
+SHA256: d0417e0e63b6627db5d31432662d251479993713aa8dbc9bab3c0fcc61e75e8f
+
+Package: openai-agents-span-summary
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (openai-agents-span-summary)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/openai-agents-span-summary_1.0.0-1_all.deb
+Size: 7132
+SHA256: 3b3a3c0e6ebbe9c38c143966a51a0b332982b502789c6f8692f2684f31c15559
+
+Package: openai-mcp-tool-schema
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (openai-mcp-tool-schema)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/openai-mcp-tool-schema_1.0.0-1_all.deb
+Size: 7132
+SHA256: 2f8186f797114cea32b979295aa1696c31eb456a3fbfccef314edd0ec241a2eb
+
+Package: openai-mcp-server-config
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (openai-mcp-server-config)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/openai-mcp-server-config_1.0.0-1_all.deb
+Size: 7128
+SHA256: bd24072f69c2e5ad80ce994a48b601be314e0e10ab9c9f2125fdcde435260620
+
+Package: openai-codex-config
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (openai-codex-config)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/openai-codex-config_1.0.0-1_all.deb
+Size: 7128
+SHA256: fd1c69b5421d30a683ca15eeeb01e4dbfe2f35a8a480152729253efa0a80a0d4
+
+Package: openai-codex-model
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (openai-codex-model)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/openai-codex-model_1.0.0-1_all.deb
+Size: 7130
+SHA256: 433f52d17432d49385e2f9af6da9a3f9c4d0b0996b5c441dc5f4f5ce31501b1e
+
+Package: openai-codex-sandbox
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (openai-codex-sandbox)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/openai-codex-sandbox_1.0.0-1_all.deb
+Size: 7130
+SHA256: 64b61a79fb35ff3c1c7a3f0c88382ea13da8b89d8238a86c5348b9df7c9ac2c7
+
+Package: openai-codex-approval-policy
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (openai-codex-approval-policy)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/openai-codex-approval-policy_1.0.0-1_all.deb
+Size: 7136
+SHA256: d2b3d54b2a4853c99ec2a3908d16ec10f0e617fa66734a55cd1c0037553486a9
+
+Package: openai-sdk-node-check
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (openai-sdk-node-check)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/openai-sdk-node-check_1.0.0-1_all.deb
+Size: 7128
+SHA256: 27bf550d8feceb208d523b366de8adc206285020f3353feef29fd5e84983e9db
+
+Package: openai-sdk-python-check
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (openai-sdk-python-check)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/openai-sdk-python-check_1.0.0-1_all.deb
+Size: 7126
+SHA256: a674a795de0b0ee7dea8c7eb85c23a19a2f48cdd7627535cf35432de49cc79af
+
+Package: openai-health
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (openai-health)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/openai-health_1.0.0-1_all.deb
+Size: 7122
+SHA256: 277c3fdba997795f8af99e25434326ffb7e7fa625590d87181e754c2fc46aa6f
+
+Package: gitplus-repo-root
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (gitplus-repo-root)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/gitplus-repo-root_1.0.0-1_all.deb
+Size: 7124
+SHA256: 42d39e611f3f67d9766a1a1a63c8f64f041d7effd97bc4d201ee65794e9086ac
+
+Package: gitplus-head
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (gitplus-head)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/gitplus-head_1.0.0-1_all.deb
+Size: 7116
+SHA256: 2ec03202cd0e89b6fb67355e2130c6e58e5c6dc915697e56db5a4bc8e0923cda
+
+Package: gitplus-branch
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (gitplus-branch)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/gitplus-branch_1.0.0-1_all.deb
+Size: 7126
+SHA256: a216ee7b2d4ad35ece4fd1f7245337f98f668cb1b25a97026b3e334bdb00adaa
+
+Package: gitplus-upstream
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (gitplus-upstream)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/gitplus-upstream_1.0.0-1_all.deb
+Size: 7122
+SHA256: bf525b9e69237942cdce3d382f831e260f388446b148f7db7b59e7fe550f7a63
+
+Package: gitplus-remotes
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (gitplus-remotes)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/gitplus-remotes_1.0.0-1_all.deb
+Size: 7128
+SHA256: 2cfd33737b5e7824a0b2c318b45fd565469d5061f104e3443744030a37805cff
+
+Package: gitplus-status-counts
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (gitplus-status-counts)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/gitplus-status-counts_1.0.0-1_all.deb
+Size: 7128
+SHA256: ec51625b294f6981f60f0dde2d1c8ad4d9789289c462693e8ef5fa104519f616
+
+Package: gitplus-staged
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (gitplus-staged)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/gitplus-staged_1.0.0-1_all.deb
+Size: 7126
+SHA256: 969416b645f72cb0c596baf7ccd6da81047f7f44be0f1d4bb39aed8e75af7e5c
+
+Package: gitplus-unstaged
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (gitplus-unstaged)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/gitplus-unstaged_1.0.0-1_all.deb
+Size: 7126
+SHA256: d4d74f177de2ff19fe8079dd3ff7afa924aacac5e05884325d81a87a49c526fd
+
+Package: gitplus-untracked
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (gitplus-untracked)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/gitplus-untracked_1.0.0-1_all.deb
+Size: 7126
+SHA256: 6c34f6d0a6b29b16f1d5a9308cfb5b648755789776bebaec97e540cb98e1494d
+
+Package: gitplus-conflicts
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (gitplus-conflicts)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/gitplus-conflicts_1.0.0-1_all.deb
+Size: 7126
+SHA256: 644ec6e2a5ede2d678a1a509360b4018111b57e5ea36f375fc4eb0c4f7b63075
+
+Package: gitplus-last-author
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (gitplus-last-author)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/gitplus-last-author_1.0.0-1_all.deb
+Size: 7124
+SHA256: e33afb8193a7aeb4ce81adb9a00b80f0750c846784791f9a6bbb39d1173d2c2a
+
+Package: gitplus-last-date
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (gitplus-last-date)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/gitplus-last-date_1.0.0-1_all.deb
+Size: 7128
+SHA256: da51ee66358dee2fb07e325d6716b0335bfa57e38bfd9e920c5f6e6a912803db
+
+Package: gitplus-last-subject
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (gitplus-last-subject)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/gitplus-last-subject_1.0.0-1_all.deb
+Size: 7128
+SHA256: 5976b7f0fc87d4e23a0f375baa30ab698c2bd52a58650c47e9360f55fc92f272
+
+Package: gitplus-log-oneline
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (gitplus-log-oneline)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/gitplus-log-oneline_1.0.0-1_all.deb
+Size: 7126
+SHA256: 33a7ed772eabffbca0966543675343bcb8e7065d9f739c04ac9f790d86fc19b0
+
+Package: gitplus-tags
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (gitplus-tags)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/gitplus-tags_1.0.0-1_all.deb
+Size: 7118
+SHA256: 624b16ebb7efa7ae6b67e526def34e9d43aa2c9c9f5dbe6d82632c098df604f1
+
+Package: gitplus-branches
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (gitplus-branches)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/gitplus-branches_1.0.0-1_all.deb
+Size: 7126
+SHA256: a206d486b5559e4f744759c24d3ede43b1dced5bd8ace51da434f2d9365019d7
+
+Package: gitplus-remote-branches
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (gitplus-remote-branches)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/gitplus-remote-branches_1.0.0-1_all.deb
+Size: 7128
+SHA256: 428830dcbd6bb2db995788cdb30cef0d753d9adaaa977a01800b864b08fe76ef
+
+Package: gitplus-merge-base
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (gitplus-merge-base)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/gitplus-merge-base_1.0.0-1_all.deb
+Size: 7130
+SHA256: b9f3e66c78aee1b4f5da4db92483746fb23eb2e6e85b322426ba23456f83fa45
+
+Package: gitplus-ahead-behind
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (gitplus-ahead-behind)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/gitplus-ahead-behind_1.0.0-1_all.deb
+Size: 7126
+SHA256: 182f8f32b785b9bded16626f80c6206603dccd1bb35c0d877d2bf58c7c18bbba
+
+Package: gitplus-file-history
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (gitplus-file-history)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/gitplus-file-history_1.0.0-1_all.deb
+Size: 7124
+SHA256: ea13a2e987c69711a1c67542bc9186b5b5dddf17611edf4396498c7969f8f40e
+
+Package: gitplus-blame-line
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (gitplus-blame-line)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/gitplus-blame-line_1.0.0-1_all.deb
+Size: 7130
+SHA256: eaeda76633783d2c65d24876a58d527348c3a7a76c87641faf5d08a56f085cec
+
+Package: gitplus-tree
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (gitplus-tree)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/gitplus-tree_1.0.0-1_all.deb
+Size: 7118
+SHA256: d93c2aaaf5a99962ac168860659aa6c9bfb0968a31b95867783386629d798456
+
+Package: gitplus-object-exists
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (gitplus-object-exists)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/gitplus-object-exists_1.0.0-1_all.deb
+Size: 7132
+SHA256: 108b931f0e5f4a66ad47e4d04e24cd3982245900b7921a10446155958b134d18
+
+Package: gitplus-submodules
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (gitplus-submodules)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/gitplus-submodules_1.0.0-1_all.deb
+Size: 7132
+SHA256: 4306adb202c177ce9c47c2d9a709ca24e3ec851eac075b99f55110eb7e9f8b3c
+
+Package: gitplus-worktrees
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (gitplus-worktrees)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/gitplus-worktrees_1.0.0-1_all.deb
+Size: 7126
+SHA256: 59d95aa8f76b78189b13cffa65dbf9b3277d5a30f4aa5635023e0885e8f22001
+
+Package: gitplus-hooks
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (gitplus-hooks)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/gitplus-hooks_1.0.0-1_all.deb
+Size: 7124
+SHA256: 5cca476ebbc656ce7b298300cc7ceda01cf8aaf17bc3eec3849215942b7672d2
+
+Package: gitplus-lfs-detect
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (gitplus-lfs-detect)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/gitplus-lfs-detect_1.0.0-1_all.deb
+Size: 7128
+SHA256: e6da77e2df11bbe506b10cad96cf36cbf1d5268efa8573e9f5dee1bf3c1eb27d
+
+Package: gitplus-ignore-check
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (gitplus-ignore-check)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/gitplus-ignore-check_1.0.0-1_all.deb
+Size: 7124
+SHA256: 4c512f4123ce9588d2cf1510c371e5ca6dab8c788151cab3e8a1bc38633ed9ff
+
+Package: gitplus-config-origin
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (gitplus-config-origin)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/gitplus-config-origin_1.0.0-1_all.deb
+Size: 7124
+SHA256: edb54a2e2c167597210069f8caf2028d179531cf3552d7adee750bdaac270094
+
+Package: gitplus-health
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (gitplus-health)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/gitplus-health_1.0.0-1_all.deb
+Size: 7126
+SHA256: 497d874e5f4507eb7eedc6cc9d2b02779813bb5fc71f554da8bf123a01819545
+
+Package: httpx-request-line
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (httpx-request-line)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/httpx-request-line_1.0.0-1_all.deb
+Size: 7128
+SHA256: f4ac5afbf7e988b3336ec84f076a79e3337af774452c7c0a1108e3b7f065396b
+
+Package: httpx-url
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (httpx-url)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/httpx-url_1.0.0-1_all.deb
+Size: 7124
+SHA256: e14f1b53be2476539a54c605078d138b6e1b3793a9b343be864e94926c17d425
+
+Package: httpx-method
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (httpx-method)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/httpx-method_1.0.0-1_all.deb
+Size: 7116
+SHA256: 76bf6ae604875fd1a9b86c7f5ba4e332260450faa423bc21ec4b9e72d92f402c
+
+Package: httpx-header-set
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (httpx-header-set)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/httpx-header-set_1.0.0-1_all.deb
+Size: 7120
+SHA256: e6849e65401d1c6e56287992ed66884cf4f950ebd987f18baa4e4ac1a0e8a366
+
+Package: httpx-header-get
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (httpx-header-get)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/httpx-header-get_1.0.0-1_all.deb
+Size: 7124
+SHA256: 4fffc56e9c657c53d30808ced4c0e5d819dba0e0c0d6bbfefe245a63aa09bf2b
+
+Package: httpx-header-remove
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (httpx-header-remove)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/httpx-header-remove_1.0.0-1_all.deb
+Size: 7126
+SHA256: 9e4d2366b73b2ff756d38c395b86016bcb4e8190f9c9a08033d7644a5ce1a8ef
+
+Package: httpx-query-set
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (httpx-query-set)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/httpx-query-set_1.0.0-1_all.deb
+Size: 7132
+SHA256: d218e2d6f0fee8623f974b6420d85e2e57d1a2cfd8590e41223b68a87690361d
+
+Package: httpx-query-get
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (httpx-query-get)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/httpx-query-get_1.0.0-1_all.deb
+Size: 7134
+SHA256: 9aff02ac512eef613d2b0669b429cb767e9e3a15835dac4a44063ed45c76ad1e
+
+Package: httpx-form-encode
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (httpx-form-encode)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/httpx-form-encode_1.0.0-1_all.deb
+Size: 7132
+SHA256: 8a3485f782c15b28e6e25bdc4b1ee562bd1ebeda65697e02e82f31ff4255f5a7
+
+Package: httpx-json-body
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (httpx-json-body)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/httpx-json-body_1.0.0-1_all.deb
+Size: 7136
+SHA256: cb87e6d9fddaa8ecda0d488caaf09c5d15e295b5c0573604efba28b36481500a
+
+Package: httpx-curl
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (httpx-curl)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/httpx-curl_1.0.0-1_all.deb
+Size: 7126
+SHA256: ffaa0f730c35a6743a9eac789b87a169d49b3997834b631b249ec8a51abb18cb
+
+Package: httpx-wget
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (httpx-wget)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/httpx-wget_1.0.0-1_all.deb
+Size: 7126
+SHA256: 77867b24b7615e84f5abfa6b24fb53980542dbab8c9a578d0287b335d49adb9b
+
+Package: httpx-python-request
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (httpx-python-request)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/httpx-python-request_1.0.0-1_all.deb
+Size: 7130
+SHA256: f4f65786c677ad135e8acb7ce0c5a3a783f1f52c60c6445576aa028ac7735ad1
+
+Package: httpx-node-fetch
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (httpx-node-fetch)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/httpx-node-fetch_1.0.0-1_all.deb
+Size: 7120
+SHA256: 066fc4f511637037b125738b71be42cdd061697376ea186943f6f6230bd21472
+
+Package: httpx-status-class
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (httpx-status-class)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/httpx-status-class_1.0.0-1_all.deb
+Size: 7122
+SHA256: 922b9dfc784a7c8a8058d3bd6e149dccafc32a78a8881e1054f077a4b98cb28b
+
+Package: httpx-cache-control
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (httpx-cache-control)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/httpx-cache-control_1.0.0-1_all.deb
+Size: 7132
+SHA256: 8fe21b665b6a3117f95b927ba250050871bbe2973aab55c9307f14f3ac31359b
+
+Package: httpx-etag
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (httpx-etag)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/httpx-etag_1.0.0-1_all.deb
+Size: 7126
+SHA256: e69f8e6594aeebf057314dff3537d0e2677640e17246fa53933bf8288e340bb9
+
+Package: httpx-content-range
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (httpx-content-range)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/httpx-content-range_1.0.0-1_all.deb
+Size: 7126
+SHA256: 2ba242d6b6b37eb7f1537fe6d0fe5eba4f14af7ebee0e17500a4c33edacd96e1
+
+Package: httpx-range
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (httpx-range)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/httpx-range_1.0.0-1_all.deb
+Size: 7124
+SHA256: 826d5e61da308ee37cfd583393c5e4c540c0662677905f668f6ceea4b1ceebf6
+
+Package: httpx-cookie-jar
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (httpx-cookie-jar)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/httpx-cookie-jar_1.0.0-1_all.deb
+Size: 7124
+SHA256: 042d72b2dd196d10c58d445636241ef8a31298b6a2adc2ed78f697d596cc83d7
+
+Package: httpx-set-cookie
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (httpx-set-cookie)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/httpx-set-cookie_1.0.0-1_all.deb
+Size: 7122
+SHA256: 67938e382121a51d2b35ea46754e842d1e0b923a7947f26e497f5be1935a3745
+
+Package: httpx-auth-basic
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (httpx-auth-basic)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/httpx-auth-basic_1.0.0-1_all.deb
+Size: 7126
+SHA256: 6fb7c990ef0d716929701ce8745a050ed2e182769cc328347d7602446c55acb0
+
+Package: httpx-auth-bearer
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (httpx-auth-bearer)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/httpx-auth-bearer_1.0.0-1_all.deb
+Size: 7130
+SHA256: cf844af2bcd249030176df812fc1d7d64c76adc801a49e5c612cebd104cf7af1
+
+Package: httpx-multipart
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (httpx-multipart)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/httpx-multipart_1.0.0-1_all.deb
+Size: 7130
+SHA256: 0b2b145ecdb1c6b43cf1d2cde621a08b62d62e95ec9521df7fa0dbc812a2265e
+
+Package: httpx-sse-events
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (httpx-sse-events)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/httpx-sse-events_1.0.0-1_all.deb
+Size: 7124
+SHA256: c9e9344527a10db090308a8a7843bfb3adee278adfe8ddff07c6f8e5a5960eaf
+
+Package: httpx-ndjson
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (httpx-ndjson)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/httpx-ndjson_1.0.0-1_all.deb
+Size: 7124
+SHA256: 968735011a1daa697db565802d662d2a25171b68853d4a6bef043146e39afeb6
+
+Package: httpx-retry-after
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (httpx-retry-after)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/httpx-retry-after_1.0.0-1_all.deb
+Size: 7130
+SHA256: 19b497bd0782a02756510cb0fa702786edbb9d8ed78704760372346c11efdff5
+
+Package: httpx-link-header
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (httpx-link-header)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/httpx-link-header_1.0.0-1_all.deb
+Size: 7126
+SHA256: deb4cba2cc953c39fbedec9e2d25537009a1a6bac90fa0da3af48623bce49d7a
+
+Package: httpx-cors-check
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (httpx-cors-check)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/httpx-cors-check_1.0.0-1_all.deb
+Size: 7124
+SHA256: fabb2f2b2b3a2e5ff3b7eae264d1159ae4063fa220b46312fd18e06542d9dd0c
+
+Package: httpx-health
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OpenAI API Git HTTP tooling utility (httpx-health)
+ Functional OceanStudio shard 36 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-36/pool/main/httpx-health_1.0.0-1_all.deb
+Size: 7126
+SHA256: a416dc02805e745c24b2e6ebb13795c2f45abf805a62093aee9755344104dc05

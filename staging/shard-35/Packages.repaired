@@ -1,0 +1,1399 @@
+Package: react-package-check
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (react-package-check)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/react-package-check_1.0.0-1_all.deb
+Size: 6150
+SHA256: 2b636749ec1f6a1e0b835089896fb9972bbcb0a39c45dc15b242f02fea01b968
+
+Package: react-deps
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (react-deps)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/react-deps_1.0.0-1_all.deb
+Size: 6150
+SHA256: f16ebe31e50f0406a7eff87db3adec4e1e264eefe3f737df337e6ab4ae21c616
+
+Package: react-scripts
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (react-scripts)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/react-scripts_1.0.0-1_all.deb
+Size: 6152
+SHA256: 34346ba122456e10ddb2680300aa7882bcbda9b32ac83fe4333f35c120ed884f
+
+Package: react-entry-find
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (react-entry-find)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/react-entry-find_1.0.0-1_all.deb
+Size: 6154
+SHA256: 8ba968ed683295e4d79c08a9ad6feff736d06582147de650625cf82acb70ecd0
+
+Package: react-jsx-files
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (react-jsx-files)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/react-jsx-files_1.0.0-1_all.deb
+Size: 6156
+SHA256: 818065006490d6280dd2f5994478de7ccf0fe8764804836e76076ef767dc8927
+
+Package: react-tsx-files
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (react-tsx-files)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/react-tsx-files_1.0.0-1_all.deb
+Size: 6154
+SHA256: 4be7c45db00b8c50dd0c3d70042bba0ff53eabc943d5f82c912da207d908c4e6
+
+Package: react-component-names
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (react-component-names)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/react-component-names_1.0.0-1_all.deb
+Size: 6160
+SHA256: e2a363e67fd3eb617fcfd5650d8764750fcd179d8ea4127dbd09f3a6cd2b393a
+
+Package: react-hook-usage
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (react-hook-usage)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/react-hook-usage_1.0.0-1_all.deb
+Size: 6156
+SHA256: 529d4030f61b71397d662b26840bc96f1e3138805e1165b2250c29a36d470bf7
+
+Package: react-imports
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (react-imports)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/react-imports_1.0.0-1_all.deb
+Size: 6154
+SHA256: 144ef362d2ebfe084926674c0995bf87c83d90f3f29d83a790520f1096de0a1d
+
+Package: react-dom-imports
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (react-dom-imports)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/react-dom-imports_1.0.0-1_all.deb
+Size: 6162
+SHA256: e09cab0cfa5273d527537b8fe3f7d784dfb63318c80808e766c32328f3908004
+
+Package: react-router-routes
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (react-router-routes)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/react-router-routes_1.0.0-1_all.deb
+Size: 6156
+SHA256: 547046f328364c1714643befc3100ef4080a369de5c4254ba2797f02e34be5c6
+
+Package: react-env-vars
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (react-env-vars)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/react-env-vars_1.0.0-1_all.deb
+Size: 6160
+SHA256: 7249bf74a7948e94cd09a5a2122871933a5552a13bd80cd11b9d2d942089cfe8
+
+Package: react-vite-detect
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (react-vite-detect)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/react-vite-detect_1.0.0-1_all.deb
+Size: 6152
+SHA256: d3c7ae4f3a0a737409f7699928b1897c152cb2a4dc119046e224d73230b210e0
+
+Package: react-next-detect
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (react-next-detect)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/react-next-detect_1.0.0-1_all.deb
+Size: 6156
+SHA256: b581b04daef0ade494dbf7db61621174bfcef605326a7231902408c00633bca0
+
+Package: react-tsconfig-check
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (react-tsconfig-check)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/react-tsconfig-check_1.0.0-1_all.deb
+Size: 6162
+SHA256: 69f026147c5f2f171e0fe0da6bcc2759cfd1868aed4106b05c62a1dc09ef37fc
+
+Package: react-eslint-check
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (react-eslint-check)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/react-eslint-check_1.0.0-1_all.deb
+Size: 6154
+SHA256: 7a954f78d210cdbcf73c7438c2e74917e2c22013442cdd99cca555d6b5d31963
+
+Package: react-build-dir
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (react-build-dir)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/react-build-dir_1.0.0-1_all.deb
+Size: 6160
+SHA256: 1131e820e0814726d36ce8c4798a19b1f4cdb037d87c636e5af0a938ccec3ff4
+
+Package: react-scaffold-minimal
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (react-scaffold-minimal)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/react-scaffold-minimal_1.0.0-1_all.deb
+Size: 6160
+SHA256: f77fc91d27e65040637de227e9c148f631e4e1b7c8faf1d01255fe6c87ca13b2
+
+Package: react-index-html
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (react-index-html)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/react-index-html_1.0.0-1_all.deb
+Size: 6156
+SHA256: 32d637491af65b3479bc49ff8bee2d2bbe8eda24d98a2c612ea3c13dd354a745
+
+Package: react-health
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (react-health)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/react-health_1.0.0-1_all.deb
+Size: 6152
+SHA256: 9f6464945fbdc3ef08212bf080a0d2238e80132fdc54f23612573092e08830dd
+
+Package: vite-package-check
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (vite-package-check)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/vite-package-check_1.0.0-1_all.deb
+Size: 6156
+SHA256: 06b8230f9c429f5d79b713e400ada0da9a1e7707f27e4e3734b495f9a7ae37d7
+
+Package: vite-config-find
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (vite-config-find)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/vite-config-find_1.0.0-1_all.deb
+Size: 6154
+SHA256: 97452b27f020bf325c43ba81702e64a0bbdf458383a98a0adb5411a2545b1715
+
+Package: vite-config-summary
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (vite-config-summary)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/vite-config-summary_1.0.0-1_all.deb
+Size: 6160
+SHA256: 572d297870970ef4c0ad6b792e0e3aa5ef57fa7a705f0ea0a3561fe3fc99c258
+
+Package: vite-plugins
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (vite-plugins)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/vite-plugins_1.0.0-1_all.deb
+Size: 6154
+SHA256: 1158bffe076468c1e72fd20b57c04d0bdccf185200db6ade15bf10c12a975f99
+
+Package: vite-aliases
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (vite-aliases)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/vite-aliases_1.0.0-1_all.deb
+Size: 6152
+SHA256: f0245a1973b6f901aebbe18024c735c5a95aa8f695b26c89bbf0c21e7dad9fd0
+
+Package: vite-env-files
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (vite-env-files)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/vite-env-files_1.0.0-1_all.deb
+Size: 6156
+SHA256: 4795f14b90231dea4ca931af18f2d201fc9d49cf166081365815e3eb3110af1a
+
+Package: vite-env-vars
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (vite-env-vars)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/vite-env-vars_1.0.0-1_all.deb
+Size: 6154
+SHA256: 3e151eff9dcc2e0f2e59758ce634d36c0b7d2b3c42ad895896348c2e5290c043
+
+Package: vite-public-dir
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (vite-public-dir)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/vite-public-dir_1.0.0-1_all.deb
+Size: 6162
+SHA256: e7f178f2b7d30cf7f070fcef0b8b62d1efb67fe06ce6d39fe8237e875a433490
+
+Package: vite-entry-html
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (vite-entry-html)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/vite-entry-html_1.0.0-1_all.deb
+Size: 6154
+SHA256: 8c7cfc0216feec2c11e62f3be7ef9c861c4483317c0db5fce3a1d1d09bcb55a3
+
+Package: vite-script-check
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (vite-script-check)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/vite-script-check_1.0.0-1_all.deb
+Size: 6156
+SHA256: fa65511115bbd80c1187cd259ffc2baacd1a48751275c6b875f165ac1c5d6c69
+
+Package: vite-dependency-scan
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (vite-dependency-scan)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/vite-dependency-scan_1.0.0-1_all.deb
+Size: 6158
+SHA256: 0b482a84ff55a18ef038ff5ba5e618289856e8d79e91ac2df38a356a56059166
+
+Package: vite-assets-scan
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (vite-assets-scan)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/vite-assets-scan_1.0.0-1_all.deb
+Size: 6158
+SHA256: 515678cfe7090cd764adcb851c3bf2b69e047dd7485b9ef5a10088be15ced80a
+
+Package: vite-base-path
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (vite-base-path)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/vite-base-path_1.0.0-1_all.deb
+Size: 6156
+SHA256: f6167c13c772ea0a2c9c309daf5e17cafca051f063e7797e31ca8fe5586bad54
+
+Package: vite-server-port
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (vite-server-port)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/vite-server-port_1.0.0-1_all.deb
+Size: 6154
+SHA256: 213c34b049618c29be28edc8e3a096a7a2b57ec4dc0e35888e4b743c4fc9aa5c
+
+Package: vite-proxy-routes
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (vite-proxy-routes)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/vite-proxy-routes_1.0.0-1_all.deb
+Size: 6160
+SHA256: 0def7720ef52b76432abf36af362207363e1cef4998b448b0d1243c8f4559ea1
+
+Package: vite-build-target
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (vite-build-target)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/vite-build-target_1.0.0-1_all.deb
+Size: 6156
+SHA256: d7a89a0f0c397966d4431c1349b5642a9f0892a23461c00e2ab239e6b29415ca
+
+Package: vite-outdir
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (vite-outdir)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/vite-outdir_1.0.0-1_all.deb
+Size: 6156
+SHA256: 634628d6f61b0d0ef8ba41967e0d9fefa607430eb2dca58587c2f642dc720365
+
+Package: vite-scaffold-react
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (vite-scaffold-react)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/vite-scaffold-react_1.0.0-1_all.deb
+Size: 6162
+SHA256: e6f3ed1faa39191b404fd4d60702c23904709cf81bc8881560133dbaa27e91f0
+
+Package: vite-scaffold-vanilla
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (vite-scaffold-vanilla)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/vite-scaffold-vanilla_1.0.0-1_all.deb
+Size: 6164
+SHA256: 925e0708a086156257e67159c52f9a6f4b90a0bf30fc4aaa52eade2b69f30a0a
+
+Package: vite-health
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (vite-health)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/vite-health_1.0.0-1_all.deb
+Size: 6158
+SHA256: dc1d918a03060f311d873982b2446844aecba57574e1c641b16c89859f2c138a
+
+Package: angular-package-check
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (angular-package-check)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/angular-package-check_1.0.0-1_all.deb
+Size: 6158
+SHA256: b3e6f0ec5563351f11c6de9ed9f96e280363159babc5ac67a24a5e016b93822d
+
+Package: angular-json-projects
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (angular-json-projects)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/angular-json-projects_1.0.0-1_all.deb
+Size: 6158
+SHA256: 960b274c4cc20111b047c826277e34cc71fea6a49a131edad867c8d43b726f47
+
+Package: angular-json-default-project
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (angular-json-default-project)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/angular-json-default-project_1.0.0-1_all.deb
+Size: 6162
+SHA256: 6cac3575bd0c0e10d5b2806ad061459561fdea1ffc9597a3bc758d061a76ed44
+
+Package: angular-build-config
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (angular-build-config)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/angular-build-config_1.0.0-1_all.deb
+Size: 6162
+SHA256: f3fda3955eceae755eab87bc579bb5b4bcb7e64e4f01734d08b412460b6ec41c
+
+Package: angular-serve-config
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (angular-serve-config)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/angular-serve-config_1.0.0-1_all.deb
+Size: 6164
+SHA256: 94e866ef913222dbfec66385d418d103e1c6060669c05cc29931dc755b711f01
+
+Package: angular-assets
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (angular-assets)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/angular-assets_1.0.0-1_all.deb
+Size: 6150
+SHA256: 92081fae771e9dcf1a310f719957c6f625e2f11efbad92ca1c230b24402e634c
+
+Package: angular-styles
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (angular-styles)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/angular-styles_1.0.0-1_all.deb
+Size: 6154
+SHA256: 46c7350069773bb76679e6302c2fc0a8c24922985a3961e01f6def317768cc41
+
+Package: angular-scripts
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (angular-scripts)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/angular-scripts_1.0.0-1_all.deb
+Size: 6156
+SHA256: 0fa0ea3f2c2e3d5b4efba4612e0b80fcb58c9c5a746fc1c6f7415a67e46866b3
+
+Package: angular-tsconfig-paths
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (angular-tsconfig-paths)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/angular-tsconfig-paths_1.0.0-1_all.deb
+Size: 6166
+SHA256: e71450ae1ccdc4e85b56bd106011324ca5612fbe3c0c7f2cb3abffe32f6aef71
+
+Package: angular-module-files
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (angular-module-files)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/angular-module-files_1.0.0-1_all.deb
+Size: 6158
+SHA256: 5865472c1c832a1236f6df6302e71ba82175550543abd617e2e7bd0cf820d7dc
+
+Package: angular-component-files
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (angular-component-files)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/angular-component-files_1.0.0-1_all.deb
+Size: 6162
+SHA256: 7139109748a2347089e7640c7f9a1e8877f0aac5385c7664d3a6b7b294f51578
+
+Package: angular-service-files
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (angular-service-files)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/angular-service-files_1.0.0-1_all.deb
+Size: 6164
+SHA256: 3b1e98e32c41b41b6e6c242350ef475e969f767fcca3ababd4989f0bbe9f9b0b
+
+Package: angular-route-hints
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (angular-route-hints)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/angular-route-hints_1.0.0-1_all.deb
+Size: 6160
+SHA256: e8a16638142f09de6ed75bfbc63a42812215b428da6c8976dce1b8c0c71666d1
+
+Package: angular-env-files
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (angular-env-files)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/angular-env-files_1.0.0-1_all.deb
+Size: 6154
+SHA256: 1eebd0e31472001f757fa95947ff38f5f5a52e6662f7f6fc109b50f5a42ca831
+
+Package: angular-cli-version
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (angular-cli-version)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/angular-cli-version_1.0.0-1_all.deb
+Size: 6164
+SHA256: 862f0cda70720f0391e8c210c3a1872e8c1e7eeab8a268f95591c611ee58ce11
+
+Package: angular-node-check
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (angular-node-check)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/angular-node-check_1.0.0-1_all.deb
+Size: 6164
+SHA256: c3879f63c3f94c8e05add86d9185d240a2e426ee418929e4351fa8e2e8569cfa
+
+Package: angular-port
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (angular-port)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/angular-port_1.0.0-1_all.deb
+Size: 6152
+SHA256: 2511bb5afa155008e0e18205d2e8ff3c3eb2e0587d1e44ce037888fd9d928e69
+
+Package: angular-output-path
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (angular-output-path)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/angular-output-path_1.0.0-1_all.deb
+Size: 6158
+SHA256: f701783b306c17f5c9da9d44cf39777d99dd6b4b9917b48290d4e7cb205568ae
+
+Package: angular-scaffold-component
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (angular-scaffold-component)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/angular-scaffold-component_1.0.0-1_all.deb
+Size: 6166
+SHA256: b5e0bf02a0c37228a9b6660dfa023e815f37ed9fa6c8185cbce577f7d9c6bbf9
+
+Package: angular-health
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (angular-health)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/angular-health_1.0.0-1_all.deb
+Size: 6152
+SHA256: ff43f8c2e9bdaf1dd26ff7bed3ffd390cc5c38c968dfa8ea4e7cf1aa70d74628
+
+Package: cloud-provider-detect
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (cloud-provider-detect)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/cloud-provider-detect_1.0.0-1_all.deb
+Size: 6158
+SHA256: 40576cc7326b94f3843f56b9f4fd39ffd9b4c365e2f3560f5ad65401a36b82bb
+
+Package: cloud-env-aws
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (cloud-env-aws)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/cloud-env-aws_1.0.0-1_all.deb
+Size: 6156
+SHA256: d651dc806fbaffa1275eddda3e5d65c22dd38cef77e8d9132a9e3b986d1ab8fd
+
+Package: cloud-env-azure
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (cloud-env-azure)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/cloud-env-azure_1.0.0-1_all.deb
+Size: 6160
+SHA256: 29e0e6dac0679a57393d4989c2025ae3fe55048471dcd59ab06caf68339183f5
+
+Package: cloud-env-gcp
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (cloud-env-gcp)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/cloud-env-gcp_1.0.0-1_all.deb
+Size: 6156
+SHA256: c07aabf3ad2a0a1d1f4a3a7ffc935a6c01920b34f87ab1ed565d69dc144290c5
+
+Package: cloud-env-cloudflare
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (cloud-env-cloudflare)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/cloud-env-cloudflare_1.0.0-1_all.deb
+Size: 6164
+SHA256: f5d9b49ed79eda467077321e6803cd6acd4cd83293dac7c0e84f8a84fe6174b4
+
+Package: cloud-env-vercel
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (cloud-env-vercel)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/cloud-env-vercel_1.0.0-1_all.deb
+Size: 6154
+SHA256: 3860bf3470011e074829eda56c80a09e4e2ba258e92193b067a053e3d8c135e0
+
+Package: cloud-env-netlify
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (cloud-env-netlify)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/cloud-env-netlify_1.0.0-1_all.deb
+Size: 6158
+SHA256: 1cda883bce011f785f1d5abf8090bf8fba5cbdaed696592567771eb8f8649e2d
+
+Package: cloud-credential-files
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (cloud-credential-files)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/cloud-credential-files_1.0.0-1_all.deb
+Size: 6156
+SHA256: 333340e0fb85f4dafc636027cfbc8933942895f19a11387d455e1fdf8e77e882
+
+Package: cloud-kube-context
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (cloud-kube-context)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/cloud-kube-context_1.0.0-1_all.deb
+Size: 6162
+SHA256: 7ffb950ebaca43cdcc052e9de51b7c5aceb28d335df7937ace70e6565c76f65c
+
+Package: cloud-kube-namespace
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (cloud-kube-namespace)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/cloud-kube-namespace_1.0.0-1_all.deb
+Size: 6164
+SHA256: 8013534cd0c035e43c2fc2c46d6ad338f8ade8c632fb13f10b3c8d797a716735
+
+Package: cloud-terraform-workspace
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (cloud-terraform-workspace)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/cloud-terraform-workspace_1.0.0-1_all.deb
+Size: 6168
+SHA256: ecd3d668620b7d66a04180ce319ace695c50a9ddc767edba5213b03ced4dbd90
+
+Package: cloud-terraform-vars
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (cloud-terraform-vars)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/cloud-terraform-vars_1.0.0-1_all.deb
+Size: 6166
+SHA256: 1748237b006fb12efca6bb64662476ecdba6f6bb30b753fffab7be5c4ca2d010
+
+Package: cloud-helm-values
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (cloud-helm-values)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/cloud-helm-values_1.0.0-1_all.deb
+Size: 6160
+SHA256: cc4801a2eeb587a1aa9602e66ca255ef3ce0a6be740ed7edd74f85860c4001ce
+
+Package: cloud-docker-context
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (cloud-docker-context)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/cloud-docker-context_1.0.0-1_all.deb
+Size: 6164
+SHA256: e2d89e470b205cd2444982a069269c5b19adffebdabf2bf1bed0f220e139299a
+
+Package: cloud-region-normalize
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (cloud-region-normalize)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/cloud-region-normalize_1.0.0-1_all.deb
+Size: 6166
+SHA256: b9fc3da6155fe50e3367a619db5231d8c4048dbd1c2d470c4dfe09cbd266ed46
+
+Package: cloud-url-provider
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (cloud-url-provider)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/cloud-url-provider_1.0.0-1_all.deb
+Size: 6158
+SHA256: eae5ad10b3b141c0b1fae5b249f3016d63949f008536d0079451b1d2b2a2d233
+
+Package: cloud-ci-detect
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (cloud-ci-detect)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/cloud-ci-detect_1.0.0-1_all.deb
+Size: 6154
+SHA256: d9e130e4965a45116bc6b9f778522789cd516bae24874e23bef4bb5ec3bc896b
+
+Package: cloud-secret-name-audit
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (cloud-secret-name-audit)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/cloud-secret-name-audit_1.0.0-1_all.deb
+Size: 6168
+SHA256: 78175060a20cf08472641b4a9ce82bdf041888f8d9cf02b0b130ae0d1d166604
+
+Package: cloud-config-summary
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (cloud-config-summary)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/cloud-config-summary_1.0.0-1_all.deb
+Size: 6166
+SHA256: 6e13983c90eecfc5034e328969ec4a730ac5c3a55eea79b1ea92941286ea3c00
+
+Package: cloud-health
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (cloud-health)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/cloud-health_1.0.0-1_all.deb
+Size: 6158
+SHA256: 80ddcd31976eef85041718594acfc3a8bef4025e0294aad8d2fce162c621d1e5
+
+Package: node-version-check
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (node-version-check)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/node-version-check_1.0.0-1_all.deb
+Size: 6156
+SHA256: 4fae128ec5f7cb557b1796d2be7397fc657c72ee250de12ac583d1af68de5566
+
+Package: node-package-manager
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (node-package-manager)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/node-package-manager_1.0.0-1_all.deb
+Size: 6160
+SHA256: 4f7f2295b81122cf12f0c77726d603435be5f87cccfed1479a25a4cca9760e55
+
+Package: node-lock-detect
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (node-lock-detect)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/node-lock-detect_1.0.0-1_all.deb
+Size: 6154
+SHA256: 64efb3d9d47c7a6dd06c21b0c9e76dba61a4b4b737aac73c125c2622a2b7307f
+
+Package: node-package-json-summary
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (node-package-json-summary)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/node-package-json-summary_1.0.0-1_all.deb
+Size: 6166
+SHA256: 7a94e1add3382b4ec697fba606a9174fe51f60fedc882ea976c291320d53b115
+
+Package: node-bin-scripts
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (node-bin-scripts)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/node-bin-scripts_1.0.0-1_all.deb
+Size: 6160
+SHA256: 59642124ca2e01ad1b13933852f99364ea07c02bfbf98edbb4aaa0410df5ab67
+
+Package: node-module-type
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (node-module-type)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/node-module-type_1.0.0-1_all.deb
+Size: 6156
+SHA256: 751e74a307cc1ebdb83e29fee972e58a46aa3505f237a2929baaa9c23837b863
+
+Package: node-engines-check
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (node-engines-check)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/node-engines-check_1.0.0-1_all.deb
+Size: 6160
+SHA256: bfe1547b9617d7ac04f171c2576e21930e0d252a4a286d810ad76f4c75eb27c3
+
+Package: node-workspaces
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (node-workspaces)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/node-workspaces_1.0.0-1_all.deb
+Size: 6162
+SHA256: 0395e89c5d698807befcce9cceb6398989e1afe3f703e22014968f448a202f31
+
+Package: node-dependency-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (node-dependency-count)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/node-dependency-count_1.0.0-1_all.deb
+Size: 6162
+SHA256: 459160ada7587a02d62348723582cf7cded6b38482801e8f60fb90e272a2d300
+
+Package: node-peer-deps
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (node-peer-deps)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/node-peer-deps_1.0.0-1_all.deb
+Size: 6158
+SHA256: bc86b8625f0ac0b37868f77ed658dc68bb37c5a522d3ab9053564e5b6de5e742
+
+Package: node-optional-deps
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (node-optional-deps)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/node-optional-deps_1.0.0-1_all.deb
+Size: 6152
+SHA256: f367fc59c8993382e68b5a0433c527d6cf6f66a3da67b9457b48d34809b39394
+
+Package: node-package-exports
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (node-package-exports)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/node-package-exports_1.0.0-1_all.deb
+Size: 6152
+SHA256: e1ee06c4a6bf29acefa597eecfe19dbe98e7a9cfb739ceabf8e83ebfe879bcc6
+
+Package: node-package-imports
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (node-package-imports)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/node-package-imports_1.0.0-1_all.deb
+Size: 6158
+SHA256: f4d0fb5249dc36e9a3934cfae4977cf68337cc63decbb48dc8847ce6f77aeae0
+
+Package: node-npmrc-summary
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (node-npmrc-summary)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/node-npmrc-summary_1.0.0-1_all.deb
+Size: 6158
+SHA256: 385e0fb98d3e21fdd3e7c1989ae01e9b17f7ae3ef2035e99fe860702ef160b96
+
+Package: node-pnpm-workspace
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (node-pnpm-workspace)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/node-pnpm-workspace_1.0.0-1_all.deb
+Size: 6164
+SHA256: 6480ad072ade3dea09c301b128818a08d01541f54093e9e94f972344525a64b8
+
+Package: node-yarn-workspaces
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (node-yarn-workspaces)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/node-yarn-workspaces_1.0.0-1_all.deb
+Size: 6160
+SHA256: 58b6c1ede4460d19a80d12a8cfad32c0cd5d70df5f9e10356d7877e7c1af4d15
+
+Package: node-bun-lock
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (node-bun-lock)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/node-bun-lock_1.0.0-1_all.deb
+Size: 6158
+SHA256: a4803a6e23edabce279867246384f6a9c2d08f196ab4f63fe12cc39a50ac4045
+
+Package: node-esm-check
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (node-esm-check)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/node-esm-check_1.0.0-1_all.deb
+Size: 6160
+SHA256: aeb8a2ffe1f08c31ca31ccdfaf09eaa4ed4240d3feaac4d22020d14510244633
+
+Package: node-cjs-check
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (node-cjs-check)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/node-cjs-check_1.0.0-1_all.deb
+Size: 6160
+SHA256: 5872f1bfbb2f95fa331c8e6fbbd5a9de6bebb1ffb9ec20c9ea18d202f3ae20d5
+
+Package: node-project-health
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: React Vite Angular cloud Node project tooling utility (node-project-health)
+ Functional OceanStudio shard 35 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-35/pool/main/node-project-health_1.0.0-1_all.deb
+Size: 6160
+SHA256: ce06bc628c1d2abdd8bbd47b7693b9bcd70cfe1809b4c26e5c1a0349255a53ef

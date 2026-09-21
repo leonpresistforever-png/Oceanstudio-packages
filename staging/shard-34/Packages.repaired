@@ -1,0 +1,1399 @@
+Package: vnc-uri-parse
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (vnc-uri-parse)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/vnc-uri-parse_1.0.0-1_all.deb
+Size: 6746
+SHA256: 1ec94e9e5c94c8cc5ab5b3a527ae2c4306c9ab50bfb7215a90cc71ff0b570a5e
+
+Package: vnc-endpoint
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (vnc-endpoint)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/vnc-endpoint_1.0.0-1_all.deb
+Size: 6744
+SHA256: 8dffd2a3a98458e3a5204af7bd19d09126d1fd7769785871b54da67871d56c27
+
+Package: vnc-default-port
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (vnc-default-port)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/vnc-default-port_1.0.0-1_all.deb
+Size: 6748
+SHA256: 7d6ec98141fa6e34af89d39e72f3a91946f6f30dcedeb77a596977bffb7302c6
+
+Package: vnc-port-check
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (vnc-port-check)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/vnc-port-check_1.0.0-1_all.deb
+Size: 6748
+SHA256: f1f6942a25cce56330f18163d0b2f89458c9e6801057b018ace05db1d30d4494
+
+Package: vnc-rfb-version
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (vnc-rfb-version)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/vnc-rfb-version_1.0.0-1_all.deb
+Size: 6748
+SHA256: 541a2a5a049c7a01e1f30bfbd38eb165ddfdd1ee2b847104ddef5f26232c385f
+
+Package: vnc-rfb-security-types
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (vnc-rfb-security-types)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/vnc-rfb-security-types_1.0.0-1_all.deb
+Size: 6752
+SHA256: b8f435668020768227b350940f2b0f03ba6efad48d3d59433c2328c183116123
+
+Package: vnc-rfb-pixel-format
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (vnc-rfb-pixel-format)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/vnc-rfb-pixel-format_1.0.0-1_all.deb
+Size: 6752
+SHA256: 746c2245604f993f926ac89ad2f5e3c6917dcc00f895aaacf43dcc028c7a97f7
+
+Package: vnc-rfb-encoding-names
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (vnc-rfb-encoding-names)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/vnc-rfb-encoding-names_1.0.0-1_all.deb
+Size: 6754
+SHA256: 6aa43734ab22947a96befdfae2bef75fc4258a4f257241a10441bc17e6205723
+
+Package: vnc-rfb-encoding-id
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (vnc-rfb-encoding-id)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/vnc-rfb-encoding-id_1.0.0-1_all.deb
+Size: 6752
+SHA256: 6c5e6a9fb90ce54057a438cb0bd9edcbd8b2800f7bde5fd6388cff027bdb0200
+
+Package: vnc-rfb-rect-header
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (vnc-rfb-rect-header)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/vnc-rfb-rect-header_1.0.0-1_all.deb
+Size: 6752
+SHA256: 9115c510cc1db92c9ebc877ef0d19f566a1e49ee58deec73c229b0b2d194bc32
+
+Package: vnc-rfb-key-event
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (vnc-rfb-key-event)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/vnc-rfb-key-event_1.0.0-1_all.deb
+Size: 6750
+SHA256: 6f170ac62029b50f320cf257c5f0b2e16a5d0ddac094fdcd9fbce5b292a657f6
+
+Package: vnc-rfb-pointer-event
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (vnc-rfb-pointer-event)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/vnc-rfb-pointer-event_1.0.0-1_all.deb
+Size: 6756
+SHA256: 3b01bb7fa23c4971984410187e5916a26c6d94c86db3560dfa398f9112eeac6d
+
+Package: vnc-rfb-cuttext-size
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (vnc-rfb-cuttext-size)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/vnc-rfb-cuttext-size_1.0.0-1_all.deb
+Size: 6754
+SHA256: ae421c8c3621adeb8894c80abd178aacfd2601278805292a6e4c5dccd66d19b4
+
+Package: vnc-rfb-framebuffer-request
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (vnc-rfb-framebuffer-request)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/vnc-rfb-framebuffer-request_1.0.0-1_all.deb
+Size: 6760
+SHA256: 33e2c0d0ab2ddb7532cc0aac7db0c31918ecff9aebc94bee7ea38fb0bc006691
+
+Package: vnc-password-length-check
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (vnc-password-length-check)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/vnc-password-length-check_1.0.0-1_all.deb
+Size: 6756
+SHA256: a575ed2e7bae3d742fd51e49678f0695ae3a344eadb4cf4e0e80f2a49918ccb2
+
+Package: vnc-session-env
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (vnc-session-env)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/vnc-session-env_1.0.0-1_all.deb
+Size: 6746
+SHA256: eb71ebdea032bdbcf3b67b8a864c0fef129d6a3d309ec2410480f6c59ae9aee5
+
+Package: vnc-display-port
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (vnc-display-port)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/vnc-display-port_1.0.0-1_all.deb
+Size: 6752
+SHA256: aade42010d41868fdc7d6f47dbcda43bad928f239f018f8168b492dfc1281274
+
+Package: vnc-port-display
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (vnc-port-display)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/vnc-port-display_1.0.0-1_all.deb
+Size: 6752
+SHA256: ad0ff2d031a59eb1a2637deed5f8d110c85740dec1f6716df0154313c715e30d
+
+Package: vnc-localhost-check
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (vnc-localhost-check)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/vnc-localhost-check_1.0.0-1_all.deb
+Size: 6752
+SHA256: 1a498ae3b21798ac5fad2e3315749c41fced8e24f21d5ed0082a38ff25de1813
+
+Package: vnc-websocket-url
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (vnc-websocket-url)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/vnc-websocket-url_1.0.0-1_all.deb
+Size: 6752
+SHA256: 57f4a7f0c537102da739c89ddc8653e6079e2a846f9702c6ff741f67265bdecf
+
+Package: novnc-url
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (novnc-url)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/novnc-url_1.0.0-1_all.deb
+Size: 6742
+SHA256: 1937d205b3cde2a054cf63f356387f383ec09b2054d1c6d31799cf7a2f1215c2
+
+Package: novnc-query
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (novnc-query)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/novnc-query_1.0.0-1_all.deb
+Size: 6744
+SHA256: 83c812cd168398b19b790efa4f60e7cd13228b30e5a9bd3ed75f92a77361fd2d
+
+Package: novnc-token-path
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (novnc-token-path)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/novnc-token-path_1.0.0-1_all.deb
+Size: 6752
+SHA256: 359282445e9478cde0b000e89a7756fa551939f28fbcb184e142de7210d0633f
+
+Package: novnc-listen-args
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (novnc-listen-args)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/novnc-listen-args_1.0.0-1_all.deb
+Size: 6750
+SHA256: 320bb15e0ea1dc246ea17aec77e6af14567bca5c4ec6ba9059a4ea738ed79084
+
+Package: novnc-proxy-args
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (novnc-proxy-args)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/novnc-proxy-args_1.0.0-1_all.deb
+Size: 6756
+SHA256: 7489857ad95c1e894ec2c736abe3961b0c38e79c2862943fed9f8b739a62f720
+
+Package: novnc-ssl-args
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (novnc-ssl-args)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/novnc-ssl-args_1.0.0-1_all.deb
+Size: 6756
+SHA256: d4777ade1051a28db1ac1f8a4adb63e3e7a4483f8730f11fcc9a5fbd7330baa8
+
+Package: novnc-path-info
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (novnc-path-info)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/novnc-path-info_1.0.0-1_all.deb
+Size: 6754
+SHA256: f67d8d3878483c9c21bc5d27427eb57f7146f9a8d131cbe09b80c31604afc610
+
+Package: novnc-config-json
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (novnc-config-json)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/novnc-config-json_1.0.0-1_all.deb
+Size: 6754
+SHA256: b6a9882384a1830b07f72cc8bfe0cdb94745a80d2edfc78966f2ceae00a10899
+
+Package: novnc-session-json
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (novnc-session-json)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/novnc-session-json_1.0.0-1_all.deb
+Size: 6756
+SHA256: b1e4c30d695ca39f316704e713c88f7a07860d725e06fca2cbd8def599639ce8
+
+Package: novnc-health
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (novnc-health)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/novnc-health_1.0.0-1_all.deb
+Size: 6748
+SHA256: e3126e02b6cbd1b1f5dd318fb1cf2760e532e1247826c43810a32daa89e7aac4
+
+Package: wine-prefix-path
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (wine-prefix-path)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/wine-prefix-path_1.0.0-1_all.deb
+Size: 6750
+SHA256: d7682958a4b920f5c2ca8a17f302d98b748330d8b9a96c1581279d3c372e70c1
+
+Package: wine-prefix-info
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (wine-prefix-info)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/wine-prefix-info_1.0.0-1_all.deb
+Size: 6750
+SHA256: ff291628701d0fa61dbc5c4e3e346709012c17fde8e5d7ad1e0e699e003adf05
+
+Package: wine-prefix-size
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (wine-prefix-size)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/wine-prefix-size_1.0.0-1_all.deb
+Size: 6752
+SHA256: a7e729f7dd83e9f425fb5a0ee1d62da8a0f58ec72701d907482fdd231d64b479
+
+Package: wine-prefix-drives
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (wine-prefix-drives)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/wine-prefix-drives_1.0.0-1_all.deb
+Size: 6750
+SHA256: 94cc3e521849f4d1d07d73a7ff044a99fa9e132626d8498c141f0ce29c683a6a
+
+Package: wine-prefix-system-reg
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (wine-prefix-system-reg)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/wine-prefix-system-reg_1.0.0-1_all.deb
+Size: 6754
+SHA256: aa3cc6ed645e1fb6aca24b4c31669094461cf7c1038e389e6b8926d914185466
+
+Package: wine-prefix-user-reg
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (wine-prefix-user-reg)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/wine-prefix-user-reg_1.0.0-1_all.deb
+Size: 6752
+SHA256: d5094283ffcc302793e89f87325c3521ef3b65a6b7d1c84af45bebed67acaf41
+
+Package: wine-prefix-userdef-reg
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (wine-prefix-userdef-reg)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/wine-prefix-userdef-reg_1.0.0-1_all.deb
+Size: 6758
+SHA256: 9643f027ef919be448738a72125e2125425cb7cf7b2b8619966980282cd668ff
+
+Package: wine-reg-sections
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (wine-reg-sections)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/wine-reg-sections_1.0.0-1_all.deb
+Size: 6752
+SHA256: a8c1bc805bbdddf3679414fa6ac0dc6bc8978f09a3ac14e0aea129fc40baec1d
+
+Package: wine-reg-key-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (wine-reg-key-count)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/wine-reg-key-count_1.0.0-1_all.deb
+Size: 6756
+SHA256: 0493af966554fbf14955162b1aa9c70e663eee26cbd9676180cb84337c918517
+
+Package: wine-reg-value-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (wine-reg-value-count)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/wine-reg-value-count_1.0.0-1_all.deb
+Size: 6754
+SHA256: 02cb2e8182fdac6972cc1b77482da94260b712e6bda9a8acb9b1f207c25205b8
+
+Package: wine-reg-search
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (wine-reg-search)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/wine-reg-search_1.0.0-1_all.deb
+Size: 6752
+SHA256: 4bed9f14cc7108839973396e89b2700bcde3db0b1bedf6d474336471acb9dee1
+
+Package: wine-drive-map
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (wine-drive-map)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/wine-drive-map_1.0.0-1_all.deb
+Size: 6750
+SHA256: 9e7e004008219ae5cf40b3c4f1716f87a91069b6de59fecf3218f2f92399990b
+
+Package: wine-path-to-win
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (wine-path-to-win)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/wine-path-to-win_1.0.0-1_all.deb
+Size: 6752
+SHA256: 42ee80543839edd5699c311f9c5987326b2a675c82eab6de76ba478c848fc714
+
+Package: wine-path-to-unix
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (wine-path-to-unix)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/wine-path-to-unix_1.0.0-1_all.deb
+Size: 6754
+SHA256: c1a53472abc6b1056e969e8155b066deda6f127e0f210c92096c5dfd42422e26
+
+Package: wine-pe-arch
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (wine-pe-arch)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/wine-pe-arch_1.0.0-1_all.deb
+Size: 6748
+SHA256: 9f605d4180478d4445af7c81ee618b2694ccfe4007f2eddf7c40b5c630e4a87c
+
+Package: wine-pe-subsystem
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (wine-pe-subsystem)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/wine-pe-subsystem_1.0.0-1_all.deb
+Size: 6750
+SHA256: 6eba931b796281ea5046df049fb3958b48c0becc2297e6e92e0adff0a39e6866
+
+Package: wine-pe-sections
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (wine-pe-sections)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/wine-pe-sections_1.0.0-1_all.deb
+Size: 6752
+SHA256: e9f9765d79cf76e5bc4eded6a2491667f88b5314fb862502a588b0510d2447db
+
+Package: wine-pe-import-hints
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (wine-pe-import-hints)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/wine-pe-import-hints_1.0.0-1_all.deb
+Size: 6750
+SHA256: 821b264666accebaa06bb5b18c66424892b869780760b930406891541ff6f353
+
+Package: wine-pe-export-hints
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (wine-pe-export-hints)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/wine-pe-export-hints_1.0.0-1_all.deb
+Size: 6754
+SHA256: 2bb80a5d43cbebc2b151de021df3347598f67ced45d00795331c12084aae5661
+
+Package: wine-dll-search
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (wine-dll-search)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/wine-dll-search_1.0.0-1_all.deb
+Size: 6752
+SHA256: de34edf049442af0611e86aca492a4c803f0cbde5581f487abc4b56094ec0157
+
+Package: wine-env
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (wine-env)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/wine-env_1.0.0-1_all.deb
+Size: 6744
+SHA256: 2a62ee6b3a744bf5bfa0d3f16bbb050a009d225b98c5da3331e1bcdc05330e99
+
+Package: wine-wow64-hints
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (wine-wow64-hints)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/wine-wow64-hints_1.0.0-1_all.deb
+Size: 6750
+SHA256: c8e774ff1d18ce494e557ee1a212355ecdeeee59c2c390b2593b56edd387b63d
+
+Package: wine-prefix-backup-list
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (wine-prefix-backup-list)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/wine-prefix-backup-list_1.0.0-1_all.deb
+Size: 6754
+SHA256: 6cc538608387f6147d52085452c9491a5929d75dc3d532fce5d4a2f6d3c026d7
+
+Package: wine-log-summary
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (wine-log-summary)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/wine-log-summary_1.0.0-1_all.deb
+Size: 6754
+SHA256: aa554f3ee8ccc9bb2abc571bf56266a35c3f28b52da368e6bf658ce37938f148
+
+Package: wine-launch-plan
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (wine-launch-plan)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/wine-launch-plan_1.0.0-1_all.deb
+Size: 6748
+SHA256: 6816b028254175d698fb87de470248eb415083009b88abbb726d109d0a3d171e
+
+Package: box64-rc-parse
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (box64-rc-parse)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/box64-rc-parse_1.0.0-1_all.deb
+Size: 6750
+SHA256: d2ee13e47c3485ab1afa27ab3ff3bf9d716fe7eedf259a457a6fefd1c412c93b
+
+Package: box64-rc-get
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (box64-rc-get)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/box64-rc-get_1.0.0-1_all.deb
+Size: 6746
+SHA256: 5dd59be91780708f25afbf8c90911560a382ed7ecadc94f5fb4f77d11700b2e1
+
+Package: box64-rc-sections
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (box64-rc-sections)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/box64-rc-sections_1.0.0-1_all.deb
+Size: 6750
+SHA256: 102e7f6cbcf16691e11158245644449ee4d6906f373d1d545dd8bc5cb618583d
+
+Package: box64-env-list
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (box64-env-list)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/box64-env-list_1.0.0-1_all.deb
+Size: 6748
+SHA256: 398b112b1a22990f7c6db8e74be690ee4aa133ed87a6aba528243e6804326727
+
+Package: box64-env-merge
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (box64-env-merge)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/box64-env-merge_1.0.0-1_all.deb
+Size: 6750
+SHA256: dc2907384888c9535194c64834c2e1ca0527b359d4ce47a61d66210bedc1e12c
+
+Package: box64-elf-arch
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (box64-elf-arch)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/box64-elf-arch_1.0.0-1_all.deb
+Size: 6750
+SHA256: 53f7b826e4ea8e0b10f74d29ebadd416d687b74247b1c9c369c0d7a3c8d857c6
+
+Package: box64-elf-needed-hints
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (box64-elf-needed-hints)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/box64-elf-needed-hints_1.0.0-1_all.deb
+Size: 6754
+SHA256: 487a962abc9587426fc00c8b11b7e0408adf70b951a546f443acb8372998b9a1
+
+Package: box64-x64-check
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (box64-x64-check)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/box64-x64-check_1.0.0-1_all.deb
+Size: 6746
+SHA256: 9b468f0b335925d4344ae33a6a82647994eba413bf381fe3fddb5039eb4605d3
+
+Package: box64-arm64-check
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (box64-arm64-check)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/box64-arm64-check_1.0.0-1_all.deb
+Size: 6758
+SHA256: 953c6157b8b0ac0962666eab8292fb2945fa6c644d2a7d3b9d4617ae11a942a6
+
+Package: box64-library-map
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (box64-library-map)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/box64-library-map_1.0.0-1_all.deb
+Size: 6748
+SHA256: 9048bd2db35524bc392a5afecba18b39e3d1d730d4a96673b45c2d5a6f387872
+
+Package: box64-cache-path
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (box64-cache-path)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/box64-cache-path_1.0.0-1_all.deb
+Size: 6752
+SHA256: 6cc8b2ce5493e78c18f2d3287bb4b9b9ba5f09f0d3163ffdbf7c84869de142c5
+
+Package: box64-cache-size
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (box64-cache-size)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/box64-cache-size_1.0.0-1_all.deb
+Size: 6754
+SHA256: 8580eedcafd57ade316500f34584acc8920df569d63ccec74c896285b714968d
+
+Package: box64-log-warnings
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (box64-log-warnings)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/box64-log-warnings_1.0.0-1_all.deb
+Size: 6752
+SHA256: 4c33d7dede2dfdc5fab17e0e26d536f379dac2acc5ea31cbfeb0b7404c01829e
+
+Package: box64-log-missing-libs
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (box64-log-missing-libs)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/box64-log-missing-libs_1.0.0-1_all.deb
+Size: 6754
+SHA256: a88c1f766e95fee6d49706703b729822f5b6c14d62ffe3847fad2cb9c0a78aa2
+
+Package: box64-wine-command
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (box64-wine-command)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/box64-wine-command_1.0.0-1_all.deb
+Size: 6756
+SHA256: 606bff76cb1a8ff5b0949e8e34c0bef073255b8403ec638253aaacc587436359
+
+Package: box64-run-plan
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (box64-run-plan)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/box64-run-plan_1.0.0-1_all.deb
+Size: 6750
+SHA256: 75afc77d58cbaf027cb69822eaac2cd2502752a7d231ba7d46a556a8891b06a4
+
+Package: box64-dynarec-flags
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (box64-dynarec-flags)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/box64-dynarec-flags_1.0.0-1_all.deb
+Size: 6754
+SHA256: 08cc1046510c9fdd464e2827f8486a54addb56a678ff8f956ad5861e873ad9a5
+
+Package: box64-page-size-check
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (box64-page-size-check)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/box64-page-size-check_1.0.0-1_all.deb
+Size: 6756
+SHA256: b06ab44d95ba78579cd275720e798689e5644655a16fd6f241f07974cf34536b
+
+Package: box64-host-info
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (box64-host-info)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/box64-host-info_1.0.0-1_all.deb
+Size: 6752
+SHA256: 275f3ca978cb646e9ee162990c8f8e37f5cccbb3acb370d4f5a4bbb109609e20
+
+Package: box64-compat-summary
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (box64-compat-summary)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/box64-compat-summary_1.0.0-1_all.deb
+Size: 6746
+SHA256: 931b05838900e94a4b5701d4267696c0cb05d09329cd16a97c8bdc73e9a1f735
+
+Package: x11-display-parse
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (x11-display-parse)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/x11-display-parse_1.0.0-1_all.deb
+Size: 6750
+SHA256: 49a93d407dc6a34353780f6c214c8ae6b10e47db5e029898560bb4bc3e8b1465
+
+Package: x11-display-env
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (x11-display-env)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/x11-display-env_1.0.0-1_all.deb
+Size: 6746
+SHA256: c27c94f34c88bffc65998c3f8599f4951f917d7737815d3fe9de9bdaca44d80f
+
+Package: x11-socket-path
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (x11-socket-path)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/x11-socket-path_1.0.0-1_all.deb
+Size: 6752
+SHA256: b9936d55cc86eee2fbe396bb610626063815963470162c0561d08424f0792f5f
+
+Package: x11-auth-path
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (x11-auth-path)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/x11-auth-path_1.0.0-1_all.deb
+Size: 6744
+SHA256: 10d052f4898b2c238e028b124861a4b4624320453199a8774d4923fdd0fc8e2f
+
+Package: x11-xauthority-list
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (x11-xauthority-list)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/x11-xauthority-list_1.0.0-1_all.deb
+Size: 6750
+SHA256: f39947a38fba9be614533428e521e0504db5c9bacefbf96be60301de9d4c9602
+
+Package: x11-font-paths
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (x11-font-paths)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/x11-font-paths_1.0.0-1_all.deb
+Size: 6750
+SHA256: ac2f8d88bb9e75243a8ae0502f5216152fbfe4d8d679831d022c615fd0b5f4a5
+
+Package: x11-color-parse
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (x11-color-parse)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/x11-color-parse_1.0.0-1_all.deb
+Size: 6752
+SHA256: d1a727ffbe63724fd9bb1669728764af31bc39129b9f0b4cd0387067bbc72149
+
+Package: x11-geometry-parse
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (x11-geometry-parse)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/x11-geometry-parse_1.0.0-1_all.deb
+Size: 6752
+SHA256: 5e75f5e693d72d08213786545cbb16f54e357f5db39a04ef7e45668c7777f509
+
+Package: x11-screen-size
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (x11-screen-size)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/x11-screen-size_1.0.0-1_all.deb
+Size: 6750
+SHA256: a16282505c9a9990dcc8ec67ef3bd64bbdc6836473fe6c3e0c495ad9fdc043b2
+
+Package: x11-dpi
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (x11-dpi)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/x11-dpi_1.0.0-1_all.deb
+Size: 6742
+SHA256: 1d079ac0e407a55595019bc6059c2edfac13857e9a848cc520ac86988a993fa8
+
+Package: x11-xrandr-parse
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (x11-xrandr-parse)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/x11-xrandr-parse_1.0.0-1_all.deb
+Size: 6754
+SHA256: 4f88289f4fb655d57936524094c89bb74e53e7308f0c536af3a6545c742dc50d
+
+Package: x11-xinput-parse
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (x11-xinput-parse)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/x11-xinput-parse_1.0.0-1_all.deb
+Size: 6752
+SHA256: 756d6b39f4926c616e4d4024089fbe2d8502effd3eb7cc12bce0f8bfa9d23643
+
+Package: x11-xkb-layout
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (x11-xkb-layout)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/x11-xkb-layout_1.0.0-1_all.deb
+Size: 6750
+SHA256: 174edd9f8c039ebefe038f41b6a690c3c07f2647f9f3e3e7fb822f66db29c153
+
+Package: x11-lib-scan
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (x11-lib-scan)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/x11-lib-scan_1.0.0-1_all.deb
+Size: 6748
+SHA256: 0210d49daaa34d2d9e7565b3a725e5eed5fe0f50bac14e5670a166fdd8697c0b
+
+Package: x11-libx11-check
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (x11-libx11-check)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/x11-libx11-check_1.0.0-1_all.deb
+Size: 6748
+SHA256: ad11af3b367aea1843e2a34ef9b444a09bae2bd10051efb7925630a08256edf0
+
+Package: x11-libxcb-check
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (x11-libxcb-check)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/x11-libxcb-check_1.0.0-1_all.deb
+Size: 6750
+SHA256: 399c207e0b1446aa6a49b734cf2e1184d2416bfc8aa97e133c635dc77c26bebf
+
+Package: x11-libxext-check
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (x11-libxext-check)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/x11-libxext-check_1.0.0-1_all.deb
+Size: 6754
+SHA256: 40d6424bd9fb2c5a763e288533d773b490f66e408acced035a48e48dc4b42253
+
+Package: x11-libxrender-check
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (x11-libxrender-check)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/x11-libxrender-check_1.0.0-1_all.deb
+Size: 6752
+SHA256: 30d33079606b9fdf26d52ed22c6fe15ab25d2d76397c3963486a167bbd4df919
+
+Package: x11-libxft-check
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (x11-libxft-check)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/x11-libxft-check_1.0.0-1_all.deb
+Size: 6750
+SHA256: fc809358b2ade540d4f971bd1a6207874ac70a5daade8d29ee9f9f9be3dacdf6
+
+Package: x11-libxss-check
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (x11-libxss-check)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/x11-libxss-check_1.0.0-1_all.deb
+Size: 6752
+SHA256: 923d639d78e9b623b480dc84970734c6edbe49c275eca7f73121186a69cea206
+
+Package: x11-opengl-env
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (x11-opengl-env)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/x11-opengl-env_1.0.0-1_all.deb
+Size: 6752
+SHA256: 5480ba517a39a9c0fc94b7837945e7716bca78f66da7c42bf19d7fe23353e90b
+
+Package: x11-mesa-env
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (x11-mesa-env)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/x11-mesa-env_1.0.0-1_all.deb
+Size: 6746
+SHA256: 4c5f83365291a19bd85291590012bd86a26a721b17e65edc5d28822208c319d3
+
+Package: x11-software-render-env
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (x11-software-render-env)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/x11-software-render-env_1.0.0-1_all.deb
+Size: 6750
+SHA256: ff0de6ec7be8eaec85aae623960f870a70d789b8279f1854b48ad5878924551b
+
+Package: x11-vnc-plan
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (x11-vnc-plan)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/x11-vnc-plan_1.0.0-1_all.deb
+Size: 6746
+SHA256: 3408291de328a61f2f59f1a594e40fe8c84df0d8c7b69388701fdc63a87e6371
+
+Package: x11-stack-summary
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: VNC/noVNC Wine/Box64 compatibility X11/libX utility (x11-stack-summary)
+ Functional OceanStudio shard 34 utility installed under the unchanged
+ Ocean prefix /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-34/pool/main/x11-stack-summary_1.0.0-1_all.deb
+Size: 6756
+SHA256: 524ff84621e386dc37e32aa1c8c6212e737e560fcf43c1a57f7b1c831b18c19e
