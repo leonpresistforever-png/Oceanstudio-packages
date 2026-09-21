@@ -122,7 +122,7 @@ jobs:
           dpkg-deb -x staging/shard-45/pool/main/util-semver-bump-patch_1.0.0-1_all.deb "$root"
           ln -s "$(command -v python3)" "$root/data/data/studio.ocean.app/files/usr/bin/python"
           PREFIX="$root/data/data/studio.ocean.app/files/usr" \
-            "$root/data/data/studio.ocean.app/files/usr/bin/util-semver-bump-patch" 1.2.3 | grep -qx '1.2.4'
+            /bin/sh "$root/data/data/studio.ocean.app/files/usr/bin/util-semver-bump-patch" 1.2.3 | grep -qx '1.2.4'
           rm -rf "$root"
 
           root="$(mktemp -d)"
@@ -130,7 +130,7 @@ jobs:
           ln -s "$(command -v python3)" "$root/data/data/studio.ocean.app/files/usr/bin/python"
           printf '{"mcpServers":{}}\n' > "$root/mcp.json"
           PREFIX="$root/data/data/studio.ocean.app/files/usr" \
-            "$root/data/data/studio.ocean.app/files/usr/bin/mcp-config-lint" "$root/mcp.json" | grep -q '"valid": true'
+            /bin/sh "$root/data/data/studio.ocean.app/files/usr/bin/mcp-config-lint" "$root/mcp.json" | grep -q '"valid": true'
           rm -rf "$root"
           echo "PASS: representative utility and MCP packages execute"
 
