@@ -1,0 +1,720 @@
+{
+  "schemaVersion": 1,
+  "shard": "43",
+  "version": "1.0.0-1",
+  "prefix": "/data/data/studio.ocean.app/files/usr",
+  "commandCount": 100,
+  "packageCount": 101,
+  "suite": "agent-mcp-multiplier-suite",
+  "networkAtAptInstall": false,
+  "rootRequired": false,
+  "packages": [
+    {
+      "package": "npx",
+      "artifact": "npx_1.0.0-1_all.deb",
+      "provider": "npx",
+      "bytes": 812,
+      "sha256": "608c8ef99bb879e8a070bd7196e7b0a77d97921b766f9e3bccb42623ed58384e"
+    },
+    {
+      "package": "npx-exec",
+      "artifact": "npx-exec_1.0.0-1_all.deb",
+      "provider": "npx",
+      "bytes": 820,
+      "sha256": "32c1f1e37a97621ba9caa2dd42af547959c582051ba3ab3a76f7c31cca93617b"
+    },
+    {
+      "package": "npx-create",
+      "artifact": "npx-create_1.0.0-1_all.deb",
+      "provider": "npx",
+      "bytes": 824,
+      "sha256": "e1e36228b59d10e8e0473466c151508a1eb05da3a190bd4e8f0325c13986f0d2"
+    },
+    {
+      "package": "npx-package",
+      "artifact": "npx-package_1.0.0-1_all.deb",
+      "provider": "npx",
+      "bytes": 830,
+      "sha256": "0e3d7292594bbc53de013c65d3a7b18602e674359ca5765ef770afd601d8b768"
+    },
+    {
+      "package": "npx-yes",
+      "artifact": "npx-yes_1.0.0-1_all.deb",
+      "provider": "npx",
+      "bytes": 824,
+      "sha256": "2ea51fa99ad258df2c63e4aba6214a65562ab7f631c407eb4d6e303212a15fa1"
+    },
+    {
+      "package": "npx-version",
+      "artifact": "npx-version_1.0.0-1_all.deb",
+      "provider": "npx",
+      "bytes": 828,
+      "sha256": "6a0206da0e32d4225ab0363708448c26f4277dfdc13c0985566df829ab402b0c"
+    },
+    {
+      "package": "npx-help",
+      "artifact": "npx-help_1.0.0-1_all.deb",
+      "provider": "npx",
+      "bytes": 826,
+      "sha256": "8980ac07625cca721f4460111f97816ce9beea71d76c09a50d9e52ba6a65203f"
+    },
+    {
+      "package": "npm-exec-tool",
+      "artifact": "npm-exec-tool_1.0.0-1_all.deb",
+      "provider": "npm",
+      "bytes": 790,
+      "sha256": "5fcee61ff6dbd113db201fec818a5c5b15fd90c8551756f47b33e1827eeea772"
+    },
+    {
+      "package": "npm-view-tool",
+      "artifact": "npm-view-tool_1.0.0-1_all.deb",
+      "provider": "npm",
+      "bytes": 788,
+      "sha256": "0db0fdcc46013174bef0eb09e425d9a27ffb1d41d6467ed71fb88ee37d0f8684"
+    },
+    {
+      "package": "npm-search-tool",
+      "artifact": "npm-search-tool_1.0.0-1_all.deb",
+      "provider": "npm",
+      "bytes": 790,
+      "sha256": "fba39ce8e32da4ba904f952b610aaa8fa919335d97574406d4f78b1149218853"
+    },
+    {
+      "package": "uv",
+      "artifact": "uv_1.0.0-1_all.deb",
+      "provider": "uv",
+      "bytes": 816,
+      "sha256": "3cbf27cbc30272aae1ebf1a0c707b4c2639ab6d1f6838a74d3754ef971178069"
+    },
+    {
+      "package": "uvx",
+      "artifact": "uvx_1.0.0-1_all.deb",
+      "provider": "uvx",
+      "bytes": 834,
+      "sha256": "f1e4a7eed96d1e2a6d2aa44285433c8d47970887fbca80c333e1ee7e53f2af8a"
+    },
+    {
+      "package": "uv-run",
+      "artifact": "uv-run_1.0.0-1_all.deb",
+      "provider": "uv",
+      "bytes": 828,
+      "sha256": "dfeaef677d1f291437e0c94770b01949f5f7083f785986bf6662e032bb8d2eab"
+    },
+    {
+      "package": "uv-sync",
+      "artifact": "uv-sync_1.0.0-1_all.deb",
+      "provider": "uv",
+      "bytes": 830,
+      "sha256": "14ce78cde022291863ed820c86627da57acea041ecbb92e11e0c7aadd47da89f"
+    },
+    {
+      "package": "uv-add",
+      "artifact": "uv-add_1.0.0-1_all.deb",
+      "provider": "uv",
+      "bytes": 828,
+      "sha256": "f8c0a1ff5bfbdec066568d448bd9b2c8a0de3edcb5da86c15630942942b30201"
+    },
+    {
+      "package": "uv-remove",
+      "artifact": "uv-remove_1.0.0-1_all.deb",
+      "provider": "uv",
+      "bytes": 834,
+      "sha256": "7ea736234197eab49bca32154103651eb612f50ef25891d0b34f3fddfa369ece"
+    },
+    {
+      "package": "uv-lock",
+      "artifact": "uv-lock_1.0.0-1_all.deb",
+      "provider": "uv",
+      "bytes": 832,
+      "sha256": "6059d2afdfea74b1df121cb6a6191a8f51f9487c0cf4446f336722faa027d98d"
+    },
+    {
+      "package": "uv-tree",
+      "artifact": "uv-tree_1.0.0-1_all.deb",
+      "provider": "uv",
+      "bytes": 830,
+      "sha256": "7341a25107142213357156c85ed5b63c6ad5495dac75af1f5d29eedfbdf35205"
+    },
+    {
+      "package": "uv-tool-install",
+      "artifact": "uv-tool-install_1.0.0-1_all.deb",
+      "provider": "uv",
+      "bytes": 846,
+      "sha256": "496f7a60125e97a0e09571667d60922555efff163c80e3fe79b182931f8278e7"
+    },
+    {
+      "package": "uv-python-list",
+      "artifact": "uv-python-list_1.0.0-1_all.deb",
+      "provider": "uv",
+      "bytes": 844,
+      "sha256": "7b92ceadb685259b89e7cdaa83c19e2315de66fa78730946108732787ad3b0b7"
+    },
+    {
+      "package": "fastmcp",
+      "artifact": "fastmcp_1.0.0-1_all.deb",
+      "provider": "fastmcp",
+      "bytes": 856,
+      "sha256": "ace333984c683ea696d3cd13b3b3906697109b0c3f6054cecb9176d48c9baa40"
+    },
+    {
+      "package": "fastmcp-run",
+      "artifact": "fastmcp-run_1.0.0-1_all.deb",
+      "provider": "fastmcp",
+      "bytes": 864,
+      "sha256": "e596ad24d1943e639947564e7e123c4dfc1e4ca4c6bd02b76f6e2d7c9c2ea4d5"
+    },
+    {
+      "package": "fastmcp-dev",
+      "artifact": "fastmcp-dev_1.0.0-1_all.deb",
+      "provider": "fastmcp",
+      "bytes": 866,
+      "sha256": "adeb1f0f3edbd1222dd259ff147868a5056c7e917e3340236f0edb9410745f53"
+    },
+    {
+      "package": "fastmcp-version",
+      "artifact": "fastmcp-version_1.0.0-1_all.deb",
+      "provider": "fastmcp",
+      "bytes": 872,
+      "sha256": "ec61cb4b96ff6471ddaaeca8a1cc43e4c1fe127ba55bb1dae81417ad61b6bd4b"
+    },
+    {
+      "package": "fastmcp-help",
+      "artifact": "fastmcp-help_1.0.0-1_all.deb",
+      "provider": "fastmcp",
+      "bytes": 866,
+      "sha256": "12fd5fecbc5cde7156c7ef53017333a61d4a9d00100e999761f50a9fb37a733a"
+    },
+    {
+      "package": "fastmcp-via-uvx",
+      "artifact": "fastmcp-via-uvx_1.0.0-1_all.deb",
+      "provider": "fastmcp-uvx",
+      "bytes": 838,
+      "sha256": "e0b034a96cee81424f4301c00d7231f3ccd90c71887ca6fecfd9a97e2a755e0f"
+    },
+    {
+      "package": "fastmcp-via-pipx",
+      "artifact": "fastmcp-via-pipx_1.0.0-1_all.deb",
+      "provider": "fastmcp-pipx",
+      "bytes": 794,
+      "sha256": "ddff086f71f83e9d98d6d65c6401f588dceed995f4c57824db3441b2b7f6b4f4"
+    },
+    {
+      "package": "fastmcp-install-local",
+      "artifact": "fastmcp-install-local_1.0.0-1_all.deb",
+      "provider": "pipx",
+      "bytes": 806,
+      "sha256": "6a7bf2b434c944135a7e44d050e9f6af8e8aec5ed547426794427fc8e330b674"
+    },
+    {
+      "package": "fastmcp-upgrade-local",
+      "artifact": "fastmcp-upgrade-local_1.0.0-1_all.deb",
+      "provider": "pipx",
+      "bytes": 810,
+      "sha256": "9d204865e418a4e296dd5c0831daab49dc86a835a871098e8f0fdc1b6e754338"
+    },
+    {
+      "package": "fastmcp-uninstall-local",
+      "artifact": "fastmcp-uninstall-local_1.0.0-1_all.deb",
+      "provider": "pipx",
+      "bytes": 808,
+      "sha256": "abbf53a9f1ebf0e950fbad6aa101fbd315ae0e3e0da15681b9b4f07199e0e702"
+    },
+    {
+      "package": "apm",
+      "artifact": "apm_1.0.0-1_all.deb",
+      "provider": "apm",
+      "bytes": 828,
+      "sha256": "a492a08e27957425a492a7b91e846f9799bfbee9d8481aafc3d6c16c9bf5d6ae"
+    },
+    {
+      "package": "apm-init",
+      "artifact": "apm-init_1.0.0-1_all.deb",
+      "provider": "apm",
+      "bytes": 836,
+      "sha256": "e53a2ff8807d09db1b4fe6287045ebfd6e2d6f28e6d5920698403c1319aab5f2"
+    },
+    {
+      "package": "apm-install",
+      "artifact": "apm-install_1.0.0-1_all.deb",
+      "provider": "apm",
+      "bytes": 842,
+      "sha256": "5ff74ad9309045db966867027f2b7bda1a37b81a64d06428dcc4cfb640cb07dd"
+    },
+    {
+      "package": "apm-update",
+      "artifact": "apm-update_1.0.0-1_all.deb",
+      "provider": "apm",
+      "bytes": 842,
+      "sha256": "9d8b369edafc8617ed9b9ed9fd1d9ac78dcf861923bde4e11c4a2567a2a308cd"
+    },
+    {
+      "package": "apm-audit",
+      "artifact": "apm-audit_1.0.0-1_all.deb",
+      "provider": "apm",
+      "bytes": 842,
+      "sha256": "2bea79f2cfcae3ad17313dcdad85345703705eae534e8013c9988cf7f2493bb4"
+    },
+    {
+      "package": "apm-pack",
+      "artifact": "apm-pack_1.0.0-1_all.deb",
+      "provider": "apm",
+      "bytes": 838,
+      "sha256": "caca596e41f3862a37a3b36ca6d06923f6784a8c2c7e75d15d15214ab5472e01"
+    },
+    {
+      "package": "apm-run",
+      "artifact": "apm-run_1.0.0-1_all.deb",
+      "provider": "apm",
+      "bytes": 836,
+      "sha256": "be90a63bc300f443ebcf3d3a2e36eaa6b7541b94c69c87718b0e23dd6fef1068"
+    },
+    {
+      "package": "apm-compile",
+      "artifact": "apm-compile_1.0.0-1_all.deb",
+      "provider": "apm",
+      "bytes": 838,
+      "sha256": "34b3a3497471339bc04714229444379a11d0057339e98229dd40fa3f5a3ed536"
+    },
+    {
+      "package": "apm-mcp-install",
+      "artifact": "apm-mcp-install_1.0.0-1_all.deb",
+      "provider": "apm",
+      "bytes": 852,
+      "sha256": "4916d574e84e95d075d8d57c23c22c837cc0476aa5a29709c5f0171710a5ac0d"
+    },
+    {
+      "package": "apm-marketplace",
+      "artifact": "apm-marketplace_1.0.0-1_all.deb",
+      "provider": "apm",
+      "bytes": 846,
+      "sha256": "772dde32098c32e2007f1dc4f8ad01fa76243e9751904dc22720e372e2cd2695"
+    },
+    {
+      "package": "claude-code",
+      "artifact": "claude-code_1.0.0-1_all.deb",
+      "provider": "claude",
+      "bytes": 852,
+      "sha256": "a8cb66527607664589e9987c8e7d5f111d6794c6df6c4bf3ea57b6e143a33301"
+    },
+    {
+      "package": "claude-mcp-add",
+      "artifact": "claude-mcp-add_1.0.0-1_all.deb",
+      "provider": "claude",
+      "bytes": 880,
+      "sha256": "33e8bf0327dfb8da79c414e73a8b0a00c6da486f7057a215a10fc62a8b7ed13b"
+    },
+    {
+      "package": "claude-mcp-list",
+      "artifact": "claude-mcp-list_1.0.0-1_all.deb",
+      "provider": "claude",
+      "bytes": 876,
+      "sha256": "a362843a28e1b052e5a084b7a6f3c35760b0a15722c1ba524226fac1c384827f"
+    },
+    {
+      "package": "claude-mcp-remove",
+      "artifact": "claude-mcp-remove_1.0.0-1_all.deb",
+      "provider": "claude",
+      "bytes": 880,
+      "sha256": "ab88379f9f1e08365c120ddadf4edd1c4bb788039f0406ec426dc7e287e7fc12"
+    },
+    {
+      "package": "claude-mcp-get",
+      "artifact": "claude-mcp-get_1.0.0-1_all.deb",
+      "provider": "claude",
+      "bytes": 876,
+      "sha256": "a8de617a69e9f7eaa9738ae63de404a672a3e0a7bb7c0b05f5afff5ba9df9266"
+    },
+    {
+      "package": "claude-print",
+      "artifact": "claude-print_1.0.0-1_all.deb",
+      "provider": "claude",
+      "bytes": 868,
+      "sha256": "310decb632ffe3dccacba0f7e0515eef6eec3e44049e09ccdef4a91247573242"
+    },
+    {
+      "package": "claude-resume",
+      "artifact": "claude-resume_1.0.0-1_all.deb",
+      "provider": "claude",
+      "bytes": 872,
+      "sha256": "1a937ac49db15b13cdc19b89f71a52e1c16310c56a6b0fe71f56c2d111bd511b"
+    },
+    {
+      "package": "claude-continue",
+      "artifact": "claude-continue_1.0.0-1_all.deb",
+      "provider": "claude",
+      "bytes": 868,
+      "sha256": "73a4fdc4484d05301b9490239053ff15f8427df79936b4ad012e9c750a812042"
+    },
+    {
+      "package": "claude-version",
+      "artifact": "claude-version_1.0.0-1_all.deb",
+      "provider": "claude",
+      "bytes": 872,
+      "sha256": "1aae2f1358a5d68cc906d23061548ccf45e57928f4a4e91658a55bdc8169435d"
+    },
+    {
+      "package": "claude-help",
+      "artifact": "claude-help_1.0.0-1_all.deb",
+      "provider": "claude",
+      "bytes": 860,
+      "sha256": "961514bfa523943505341347e91c057803f2e2148d21023a6d0f00b06ad9106a"
+    },
+    {
+      "package": "codex-cli",
+      "artifact": "codex-cli_1.0.0-1_all.deb",
+      "provider": "codex",
+      "bytes": 850,
+      "sha256": "10942a5f8f278a8dee4b5f7bf39965f1175decc84dc97f8766425baf3abc6e98"
+    },
+    {
+      "package": "codex-mcp-add",
+      "artifact": "codex-mcp-add_1.0.0-1_all.deb",
+      "provider": "codex",
+      "bytes": 856,
+      "sha256": "c47493d098137037cfdbaf6515a0916a039935fbe2295e942ac59de186075e27"
+    },
+    {
+      "package": "codex-mcp-list",
+      "artifact": "codex-mcp-list_1.0.0-1_all.deb",
+      "provider": "codex",
+      "bytes": 872,
+      "sha256": "26a3acb59cc819c59f94839aa176d14cb3ee6c2768967b29af617d1a946f910d"
+    },
+    {
+      "package": "codex-mcp-remove",
+      "artifact": "codex-mcp-remove_1.0.0-1_all.deb",
+      "provider": "codex",
+      "bytes": 868,
+      "sha256": "018d9a59feb69803ee842faeb92463ef698c4350f1a0dc1c970bff1aeec0ac74"
+    },
+    {
+      "package": "codex-mcp-get",
+      "artifact": "codex-mcp-get_1.0.0-1_all.deb",
+      "provider": "codex",
+      "bytes": 862,
+      "sha256": "0ef4fd349daf3d163e513857dbcfc6616c0d2202da1b9781d85e29a4ed598ea5"
+    },
+    {
+      "package": "codex-exec",
+      "artifact": "codex-exec_1.0.0-1_all.deb",
+      "provider": "codex",
+      "bytes": 850,
+      "sha256": "b4600c0a8ffcde2c2526549f9958c50e1f4ac376f5ab044bf04cd94b3d1a6ed5"
+    },
+    {
+      "package": "codex-resume",
+      "artifact": "codex-resume_1.0.0-1_all.deb",
+      "provider": "codex",
+      "bytes": 858,
+      "sha256": "d10843fa60fd88e9b40fd9bab74c6392c01c5c9d7bc97d68a5a55053eee90db4"
+    },
+    {
+      "package": "codex-login",
+      "artifact": "codex-login_1.0.0-1_all.deb",
+      "provider": "codex",
+      "bytes": 856,
+      "sha256": "adc00d1b2cfb6dd4215d73b925d8eefc7c4b6c3dc8674f4250c4eb89d84c63fb"
+    },
+    {
+      "package": "codex-version",
+      "artifact": "codex-version_1.0.0-1_all.deb",
+      "provider": "codex",
+      "bytes": 856,
+      "sha256": "66ae6ae027e001a40cefdbb532107fadbb73337360b0598fb3ba99a916e172b4"
+    },
+    {
+      "package": "codex-help",
+      "artifact": "codex-help_1.0.0-1_all.deb",
+      "provider": "codex",
+      "bytes": 856,
+      "sha256": "834f889af2d5066cc5f21317e16b1d60a647843e21762785a66c011d1fdaa732"
+    },
+    {
+      "package": "pipx-run-tool",
+      "artifact": "pipx-run-tool_1.0.0-1_all.deb",
+      "provider": "pipx",
+      "bytes": 786,
+      "sha256": "da353d26125a3b620210dd87611e155f03244517c06d63f1b30501cabe339302"
+    },
+    {
+      "package": "pipx-install-tool",
+      "artifact": "pipx-install-tool_1.0.0-1_all.deb",
+      "provider": "pipx",
+      "bytes": 788,
+      "sha256": "8cc70827acea4ec78d1e7e8bef7e9f1485e7a59bd56063bb6101bed3a4db7a32"
+    },
+    {
+      "package": "pipx-uninstall-tool",
+      "artifact": "pipx-uninstall-tool_1.0.0-1_all.deb",
+      "provider": "pipx",
+      "bytes": 790,
+      "sha256": "eab0bd05bfa250e5976303f8e1226e58e3bb57f441bd8d9a973cdd1ecfcfaf00"
+    },
+    {
+      "package": "pipx-list-tool",
+      "artifact": "pipx-list-tool_1.0.0-1_all.deb",
+      "provider": "pipx",
+      "bytes": 790,
+      "sha256": "a28d0dcc3c9a3db74b83bcf388e8d6da2681ba433475874d4e660188440de31e"
+    },
+    {
+      "package": "pipx-upgrade-tool",
+      "artifact": "pipx-upgrade-tool_1.0.0-1_all.deb",
+      "provider": "pipx",
+      "bytes": 792,
+      "sha256": "e0f5894a503b03a78ee9672e74cfa574b7be2d4d2763a8e4fc2350d0f282af6f"
+    },
+    {
+      "package": "pipx-upgrade-all-tool",
+      "artifact": "pipx-upgrade-all-tool_1.0.0-1_all.deb",
+      "provider": "pipx",
+      "bytes": 798,
+      "sha256": "9a25efc43054b389d1e9f62dbf18b7b075cc27fbdd3ad0ba1af036f50a836c0e"
+    },
+    {
+      "package": "pipx-inject-tool",
+      "artifact": "pipx-inject-tool_1.0.0-1_all.deb",
+      "provider": "pipx",
+      "bytes": 792,
+      "sha256": "1dac267eaff9f57d7e3ce20cccbd745a1134fe82ee2abe274220ed797179a361"
+    },
+    {
+      "package": "pipx-uninject-tool",
+      "artifact": "pipx-uninject-tool_1.0.0-1_all.deb",
+      "provider": "pipx",
+      "bytes": 796,
+      "sha256": "4642077ec8b33678af163d66b8a58a93be83d138f72c9d317cc264ee40e228ca"
+    },
+    {
+      "package": "pipx-reinstall-tool",
+      "artifact": "pipx-reinstall-tool_1.0.0-1_all.deb",
+      "provider": "pipx",
+      "bytes": 790,
+      "sha256": "5e64978eb0df941b3b4581c3f0b9341cb0beb756eda72b55ddaadc4442fa731b"
+    },
+    {
+      "package": "pipx-runpip-tool",
+      "artifact": "pipx-runpip-tool_1.0.0-1_all.deb",
+      "provider": "pipx",
+      "bytes": 794,
+      "sha256": "dc932a7b4596c4bcd2e057c5adac45640328257dd5bc4e51f6b688247d5cd7e1"
+    },
+    {
+      "package": "gh-repo-clone",
+      "artifact": "gh-repo-clone_1.0.0-1_all.deb",
+      "provider": "gh",
+      "bytes": 788,
+      "sha256": "238c7db7cbb58d1c99720438c192559c2503bc6d29d661ce14c328dc73e5df3f"
+    },
+    {
+      "package": "gh-repo-view",
+      "artifact": "gh-repo-view_1.0.0-1_all.deb",
+      "provider": "gh",
+      "bytes": 792,
+      "sha256": "7411931521685a817d32eb863bbb8269cb069436d7d403c737e04c2cc6e56db8"
+    },
+    {
+      "package": "gh-pr-list",
+      "artifact": "gh-pr-list_1.0.0-1_all.deb",
+      "provider": "gh",
+      "bytes": 784,
+      "sha256": "563d0fb4068809ca16bb198e1cace18eb3f275b951cd8e3cab54441b8f4db5e0"
+    },
+    {
+      "package": "gh-pr-view",
+      "artifact": "gh-pr-view_1.0.0-1_all.deb",
+      "provider": "gh",
+      "bytes": 786,
+      "sha256": "294a35f3a9bc04095de2a780686fbe27133b31400c08e4ce104148e426a9f82e"
+    },
+    {
+      "package": "gh-issue-list",
+      "artifact": "gh-issue-list_1.0.0-1_all.deb",
+      "provider": "gh",
+      "bytes": 790,
+      "sha256": "f86209f915e33327d7fa3a3a8050848dde9e44def604260553b4fcaafdf2afdf"
+    },
+    {
+      "package": "gh-issue-view",
+      "artifact": "gh-issue-view_1.0.0-1_all.deb",
+      "provider": "gh",
+      "bytes": 792,
+      "sha256": "f21b80f1dd15936ded201da4025856430da3e8293265958da52a76cfe23b3f5b"
+    },
+    {
+      "package": "gh-release-list",
+      "artifact": "gh-release-list_1.0.0-1_all.deb",
+      "provider": "gh",
+      "bytes": 792,
+      "sha256": "105224a2615872ec8fcb218224471a18cc200691714c7dbf70439439555bf4be"
+    },
+    {
+      "package": "gh-release-view",
+      "artifact": "gh-release-view_1.0.0-1_all.deb",
+      "provider": "gh",
+      "bytes": 796,
+      "sha256": "41f75152189fe1be07843c05a4d0449007f02876dd76b716ca01c94a55fef196"
+    },
+    {
+      "package": "gh-workflow-list",
+      "artifact": "gh-workflow-list_1.0.0-1_all.deb",
+      "provider": "gh",
+      "bytes": 798,
+      "sha256": "dd2074ec7a7def945849f204a259cfb814831d3248ae9289993cfe7210111a0e"
+    },
+    {
+      "package": "gh-run-list",
+      "artifact": "gh-run-list_1.0.0-1_all.deb",
+      "provider": "gh",
+      "bytes": 788,
+      "sha256": "b23498c54615f5a6d9b2a670f92793ed50cb00cc9a1b21eab80b46711f77733c"
+    },
+    {
+      "package": "mcp-config-lint",
+      "artifact": "mcp-config-lint_1.0.0-1_all.deb",
+      "provider": "mcp-native",
+      "bytes": 1912,
+      "sha256": "95a82a2efeef2620b6e2fc6f721170fcba0f2e8d35bd1f4bb1664de3a0d5b495"
+    },
+    {
+      "package": "mcp-config-list",
+      "artifact": "mcp-config-list_1.0.0-1_all.deb",
+      "provider": "mcp-native",
+      "bytes": 1916,
+      "sha256": "8ab0f3e164542078e4d8c1be337258688b3b42835d01a38017f38dc55f2e27e4"
+    },
+    {
+      "package": "mcp-config-add",
+      "artifact": "mcp-config-add_1.0.0-1_all.deb",
+      "provider": "mcp-native",
+      "bytes": 1918,
+      "sha256": "6b3af1dd284600ae0723d5c85f3c1755f5b7675f326d645c4110eb537571a5ab"
+    },
+    {
+      "package": "mcp-config-remove",
+      "artifact": "mcp-config-remove_1.0.0-1_all.deb",
+      "provider": "mcp-native",
+      "bytes": 1916,
+      "sha256": "19de4b66ab536af7d0b571661032830de174f979a557ce29e25bd38c80a5d345"
+    },
+    {
+      "package": "mcp-jsonrpc-request",
+      "artifact": "mcp-jsonrpc-request_1.0.0-1_all.deb",
+      "provider": "mcp-native",
+      "bytes": 1916,
+      "sha256": "031c3999424e94be97b8c8bb353aad6bebdf76274c15251654b5727d3411ff42"
+    },
+    {
+      "package": "mcp-http-probe",
+      "artifact": "mcp-http-probe_1.0.0-1_all.deb",
+      "provider": "mcp-native",
+      "bytes": 1914,
+      "sha256": "d731bcb126f84054dbceea4bee8829d701c1d0f4a84908663b91a9a2c52c94bc"
+    },
+    {
+      "package": "mcp-stdio-probe",
+      "artifact": "mcp-stdio-probe_1.0.0-1_all.deb",
+      "provider": "mcp-native",
+      "bytes": 1912,
+      "sha256": "31625ee62553d97f19de02550781fe6ef6d90ad03a7b5299b9ed1b9d9cec65bf"
+    },
+    {
+      "package": "mcp-env-check",
+      "artifact": "mcp-env-check_1.0.0-1_all.deb",
+      "provider": "mcp-native",
+      "bytes": 1908,
+      "sha256": "8a3c04680a81272eb7f209c82d0613855a1be6ee7c5a71c21ab79a7204496556"
+    },
+    {
+      "package": "mcp-server-template",
+      "artifact": "mcp-server-template_1.0.0-1_all.deb",
+      "provider": "mcp-native",
+      "bytes": 1914,
+      "sha256": "5631daa5c202e6415ee3c170364120c9d97bcd10766fb12fcc9f150aee55bb2c"
+    },
+    {
+      "package": "mcp-manifest-init",
+      "artifact": "mcp-manifest-init_1.0.0-1_all.deb",
+      "provider": "mcp-native",
+      "bytes": 1914,
+      "sha256": "9ba3eaf0d70cfb5907cb371fd8d962789a4d46d5daaf6cf0ac2d244b5028b241"
+    },
+    {
+      "package": "npm-audit-tool",
+      "artifact": "npm-audit-tool_1.0.0-1_all.deb",
+      "provider": "npm",
+      "bytes": 788,
+      "sha256": "54b4923734f29042652b7adfdaf9ab8cc24652364d11dfb3fc4c1b3442a42fe2"
+    },
+    {
+      "package": "npm-outdated-tool",
+      "artifact": "npm-outdated-tool_1.0.0-1_all.deb",
+      "provider": "npm",
+      "bytes": 790,
+      "sha256": "48420c00d601127f073ed22cb75644c670c68df29f5508cb9d8e80151bed0260"
+    },
+    {
+      "package": "npm-cache-tool",
+      "artifact": "npm-cache-tool_1.0.0-1_all.deb",
+      "provider": "npm",
+      "bytes": 788,
+      "sha256": "dd313c7baf1f8c67d43fecdb42d57e4c3657771f9f5fc7e77e6870a4f0c4fbfc"
+    },
+    {
+      "package": "npm-doctor-tool",
+      "artifact": "npm-doctor-tool_1.0.0-1_all.deb",
+      "provider": "npm",
+      "bytes": 786,
+      "sha256": "81dba66bb51693299062c28516a023e1b0cabf5e6b810a6fa6cc722d3d5c400b"
+    },
+    {
+      "package": "npm-pack-tool",
+      "artifact": "npm-pack-tool_1.0.0-1_all.deb",
+      "provider": "npm",
+      "bytes": 788,
+      "sha256": "4ae4211a568cde858d7071e99996af05dfbf9fcd63a20c206420ba3941def7d9"
+    },
+    {
+      "package": "npm-publish-dryrun-tool",
+      "artifact": "npm-publish-dryrun-tool_1.0.0-1_all.deb",
+      "provider": "npm",
+      "bytes": 808,
+      "sha256": "eb22a041e747de3cbd9a15694433dffb92d23a5c65857f54f945d78a50645874"
+    },
+    {
+      "package": "npm-init-tool",
+      "artifact": "npm-init-tool_1.0.0-1_all.deb",
+      "provider": "npm",
+      "bytes": 784,
+      "sha256": "6ef1bf9a5bd3ed4ad36ea7c90d21de44bccd13eb05257c8b4767719bf18927a7"
+    },
+    {
+      "package": "npm-prefix-tool",
+      "artifact": "npm-prefix-tool_1.0.0-1_all.deb",
+      "provider": "npm",
+      "bytes": 790,
+      "sha256": "435ea907a78ae48391df1e2922dfec306ce157b5d807b0b04e2b58d7ec1cb9fa"
+    },
+    {
+      "package": "npm-config-tool",
+      "artifact": "npm-config-tool_1.0.0-1_all.deb",
+      "provider": "npm",
+      "bytes": 790,
+      "sha256": "11dd1ca759860c3ad272af7db89e215b1cdd65f01c589dd11e9b97521ecfd34c"
+    },
+    {
+      "package": "npm-query-tool",
+      "artifact": "npm-query-tool_1.0.0-1_all.deb",
+      "provider": "npm",
+      "bytes": 790,
+      "sha256": "7b0022ff40351df55af2475a93ae5c10afe7b26a6411da92b9fb56b1a7f103ec"
+    },
+    {
+      "package": "agent-mcp-multiplier-suite",
+      "artifact": "agent-mcp-multiplier-suite_1.0.0-1_all.deb",
+      "provider": "meta",
+      "bytes": 1104,
+      "sha256": "7416c9db587a6c2e3461455f0e7c480bab2a7266293a65c4d3dd3332fb4a7dfb"
+    }
+  ]
+}

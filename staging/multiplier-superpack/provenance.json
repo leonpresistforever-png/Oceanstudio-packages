@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0-1",
+  "prefix": "/data/data/studio.ocean.app/files/usr",
+  "dependsOn": [
+    "agent-mcp-multiplier-suite",
+    "developer-tool-multiplier-suite",
+    "portable-utility-multiplier-suite"
+  ],
+  "commandCount": 300,
+  "totalNewPackages": 304
+}

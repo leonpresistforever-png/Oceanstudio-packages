@@ -1,0 +1,720 @@
+{
+  "schemaVersion": 1,
+  "shard": "45",
+  "version": "1.0.0-1",
+  "prefix": "/data/data/studio.ocean.app/files/usr",
+  "commandCount": 100,
+  "packageCount": 101,
+  "suite": "portable-utility-multiplier-suite",
+  "networkAtAptInstall": false,
+  "rootRequired": false,
+  "packages": [
+    {
+      "package": "util-hash-sha256",
+      "artifact": "util-hash-sha256_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3922,
+      "sha256": "5f318b332a8203ccf62d0cc0a8d5d4a4ee43e9d35e20cfd7b1c32a4af0b9e03d"
+    },
+    {
+      "package": "util-hash-sha1",
+      "artifact": "util-hash-sha1_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3928,
+      "sha256": "92bb929837e00b0f9334a3cb04a3ebe8f8590ab039cd174ca7302875dcc22ec2"
+    },
+    {
+      "package": "util-hash-md5",
+      "artifact": "util-hash-md5_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3926,
+      "sha256": "7290db6192ebad078828e914b07ef51510162b1ace97897a7569508f8154c94e"
+    },
+    {
+      "package": "util-hash-blake2b",
+      "artifact": "util-hash-blake2b_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3928,
+      "sha256": "416bc38cde7348bc0d45cf996d3f17957db56627338488c9292be7f63aeaed4c"
+    },
+    {
+      "package": "util-hash-crc32",
+      "artifact": "util-hash-crc32_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3926,
+      "sha256": "402ae1ef46960e55961d06e6cd786556f0fae1a9f25d0484d6724ad96f701c81"
+    },
+    {
+      "package": "util-hash-text-sha256",
+      "artifact": "util-hash-text-sha256_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3938,
+      "sha256": "7ffa537dc2224ce3c95aab31f9b675e468ed403d4a884a03a89810ff0726073a"
+    },
+    {
+      "package": "util-hash-verify-sha256",
+      "artifact": "util-hash-verify-sha256_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3936,
+      "sha256": "8c286f7827e32c811ced37cba0585c0cf29e94c2f488023e79c3681c9a8fb27f"
+    },
+    {
+      "package": "util-hash-size",
+      "artifact": "util-hash-size_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3928,
+      "sha256": "5bed9866f3a8c046d42d49d10d7d88073f82c7cce50b75c521760dfda77dd4fc"
+    },
+    {
+      "package": "util-hash-lines",
+      "artifact": "util-hash-lines_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3928,
+      "sha256": "b5a03fd58f4e087b1b987b25a48b09a5c4030c5d8369a2ca9b80285635c3f49f"
+    },
+    {
+      "package": "util-hash-bytes",
+      "artifact": "util-hash-bytes_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3926,
+      "sha256": "18bb94dda42b845cbf666e088d56e89dc77d6cb194446ebef7485abb980cd952"
+    },
+    {
+      "package": "util-text-lines",
+      "artifact": "util-text-lines_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3928,
+      "sha256": "a2c7915c8a35a1d7dbf59b2e0dab391b7194f1922617d2b702c72b7e9db0637b"
+    },
+    {
+      "package": "util-text-words",
+      "artifact": "util-text-words_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3926,
+      "sha256": "b3695f6f2e0177372072474f359005b9e74068fe14bbb0439ec9e19098988bcc"
+    },
+    {
+      "package": "util-text-chars",
+      "artifact": "util-text-chars_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3928,
+      "sha256": "0562c6d9c2dbebdd6a0dbe62698d3df9dbba369fa08876ed65d74991a2775c4b"
+    },
+    {
+      "package": "util-text-head",
+      "artifact": "util-text-head_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3928,
+      "sha256": "aa5eb321244ff875db4226fbb2d37d1d7ab9c5053ae673a52610479ade709fee"
+    },
+    {
+      "package": "util-text-tail",
+      "artifact": "util-text-tail_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3928,
+      "sha256": "e4bce231c62db546d6107abd2a8334ee29b97da45943f6a33fdc6c7a239f9cdf"
+    },
+    {
+      "package": "util-text-sort",
+      "artifact": "util-text-sort_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3926,
+      "sha256": "3c9b42f0af31502d61a148252c36c2646f2861414531abfe1563d5b4b0a0be61"
+    },
+    {
+      "package": "util-text-unique",
+      "artifact": "util-text-unique_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3924,
+      "sha256": "898221f979eb56c91d93a23038906ad0bf8e3036f7187f297ba258d0b3999edf"
+    },
+    {
+      "package": "util-text-grep",
+      "artifact": "util-text-grep_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3926,
+      "sha256": "cd102a35e1c2197299c1b87caf7203c37193a8f1b228a878fd93a6393019767c"
+    },
+    {
+      "package": "util-text-replace",
+      "artifact": "util-text-replace_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3926,
+      "sha256": "45f2a94434b161dd5e2e8ea8a811839ff8c9126a524722c2cc580fa12229dd8f"
+    },
+    {
+      "package": "util-text-join",
+      "artifact": "util-text-join_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3926,
+      "sha256": "34a0bcf97cda691985a1973c4c28fd60a0bd1d630a682dee6a5f988aa537713f"
+    },
+    {
+      "package": "util-json-validate",
+      "artifact": "util-json-validate_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3928,
+      "sha256": "3087010e2491a480d017270b6e7115c5ceaac4aea06095be87f8fe969d6ba6ef"
+    },
+    {
+      "package": "util-json-pretty",
+      "artifact": "util-json-pretty_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3924,
+      "sha256": "d58bdbd90b5938897adc4892dc5dbde6c1eac4c9cb46fcab2f1c81011eaf82f5"
+    },
+    {
+      "package": "util-json-compact",
+      "artifact": "util-json-compact_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3932,
+      "sha256": "42db06fb7c5d7d98e96d4f2b913f0269a64db1b18f7fa2b87ad05ac06cbab79d"
+    },
+    {
+      "package": "util-json-keys",
+      "artifact": "util-json-keys_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3930,
+      "sha256": "497e2a2c416d909980877a4ca8c69739a9347769598b6a6679c033a4c677390f"
+    },
+    {
+      "package": "util-json-get",
+      "artifact": "util-json-get_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3928,
+      "sha256": "8d76fe0ccec02f4e468f8cd70548f78c5204bd238598f73d3a8f1cd057a58776"
+    },
+    {
+      "package": "util-json-merge",
+      "artifact": "util-json-merge_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3930,
+      "sha256": "015d3671323f5aea1081de4952e490780cdbc65205d10d9564d2b1fe24fcd20e"
+    },
+    {
+      "package": "util-json-diff",
+      "artifact": "util-json-diff_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3924,
+      "sha256": "959ee95d00c93a1f560ef0e4a6aa019cc529d23af4b6079052b3a722a29f5867"
+    },
+    {
+      "package": "util-json-jsonl-count",
+      "artifact": "util-json-jsonl-count_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3930,
+      "sha256": "c43cb9683b45355edc91f931e2a3528761ec2dc4d60e06afcba9087f739d4deb"
+    },
+    {
+      "package": "util-json-sort-keys",
+      "artifact": "util-json-sort-keys_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3928,
+      "sha256": "4ef34777b58e53049c15199551e56c6efb3948795068b1471a804132009b4fd5"
+    },
+    {
+      "package": "util-json-path-exists",
+      "artifact": "util-json-path-exists_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3936,
+      "sha256": "7a2d01fc0292acefbd7026c1937d504d401a4f69a3e9acd428d0e08ccf873022"
+    },
+    {
+      "package": "util-url-parse",
+      "artifact": "util-url-parse_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3926,
+      "sha256": "444e39b3dff75c7e009b3b59d1123cd84f79a16dd7088947c0fe1bc8677b1aec"
+    },
+    {
+      "package": "util-url-encode",
+      "artifact": "util-url-encode_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3930,
+      "sha256": "ddf9b91f5ec00ea07633ab3f79f7d10d36cff9222d361ccc7cdac8a20440c136"
+    },
+    {
+      "package": "util-url-decode",
+      "artifact": "util-url-decode_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3926,
+      "sha256": "49c096c1a935f114b6dbbb8d837437a9955baee61a3da18d68011f56b0b29c8e"
+    },
+    {
+      "package": "util-url-join",
+      "artifact": "util-url-join_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3926,
+      "sha256": "787fc8d303e89554466f83ef3470d3279060b4de5525ce7572fecbdfa6659083"
+    },
+    {
+      "package": "util-url-query-parse",
+      "artifact": "util-url-query-parse_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3930,
+      "sha256": "7a685d65820121bf9cca42dfae0b4994a9d607b5dc3dcd40d8a4eb715cb106dd"
+    },
+    {
+      "package": "util-url-query-build",
+      "artifact": "util-url-query-build_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3928,
+      "sha256": "934ea3c4f58d7875adaead576002a0aa93203b85a67c143f8a3db4bd3830ef7a"
+    },
+    {
+      "package": "util-url-host",
+      "artifact": "util-url-host_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3920,
+      "sha256": "a4d1b56892c11a0e2753eca334fb9703f35827473332e49abd88c44ef9d0a6a9"
+    },
+    {
+      "package": "util-url-scheme",
+      "artifact": "util-url-scheme_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3922,
+      "sha256": "20696b7523a4096ad4788dd41f0848b4fef6029297672e97ec5ebd89305998a3"
+    },
+    {
+      "package": "util-url-normalize",
+      "artifact": "util-url-normalize_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3924,
+      "sha256": "88fc0c970711ca9836926a70972fc5a296d30a38008a3f84e4a478225a4a554e"
+    },
+    {
+      "package": "util-url-resolve",
+      "artifact": "util-url-resolve_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3924,
+      "sha256": "762705813ea78a07011690e86bab5c9e87348684e9e5f5b8336cb39289481df9"
+    },
+    {
+      "package": "util-semver-parse",
+      "artifact": "util-semver-parse_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3928,
+      "sha256": "d0feb147c64620c58c5ff678eafd74e24972a1d0ffae4d252484882cc0a4d885"
+    },
+    {
+      "package": "util-semver-compare",
+      "artifact": "util-semver-compare_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3926,
+      "sha256": "8ae72da7551a39914acd926c497317089a23321abab000b6893b8de59d4619bf"
+    },
+    {
+      "package": "util-semver-bump-major",
+      "artifact": "util-semver-bump-major_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3934,
+      "sha256": "3d1ea6b6ace46dbf10ad8a542189fa96d378e24888d13bbffec921e5fc6c7d10"
+    },
+    {
+      "package": "util-semver-bump-minor",
+      "artifact": "util-semver-bump-minor_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3938,
+      "sha256": "e4d5c8f0d732061c18056383251b9366e4bf7992948e32f32b631b4e13838a8b"
+    },
+    {
+      "package": "util-semver-bump-patch",
+      "artifact": "util-semver-bump-patch_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3936,
+      "sha256": "5da9a21e34dbe88115957ec779765af3fdff5e2392b37e13d4caa453b72538d3"
+    },
+    {
+      "package": "util-semver-major",
+      "artifact": "util-semver-major_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3930,
+      "sha256": "d493f3bde46078022b1b81781c362fc69f55e072596aaafdf6226f1f7e004ffb"
+    },
+    {
+      "package": "util-semver-minor",
+      "artifact": "util-semver-minor_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3928,
+      "sha256": "3ee9d986c31a89d4f18789d7c0bb21f1b175633e2532c481b0aa90787bc20da7"
+    },
+    {
+      "package": "util-semver-patch",
+      "artifact": "util-semver-patch_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3930,
+      "sha256": "de0a03d48eee6e17fba4c0f45d0f2c0dd707b42b82c4a322b61943a582f0056a"
+    },
+    {
+      "package": "util-semver-normalize",
+      "artifact": "util-semver-normalize_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3936,
+      "sha256": "7bc76c853e5dfcf22397bae1216737b1e2fb2f6fc9fcfc27c792dbdf297a5bf9"
+    },
+    {
+      "package": "util-semver-is-valid",
+      "artifact": "util-semver-is-valid_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3930,
+      "sha256": "e9773bfa68141756fa1193efec5c1580071cbbe0761d2ab331a5dac620e4c24b"
+    },
+    {
+      "package": "util-csv-rows",
+      "artifact": "util-csv-rows_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3922,
+      "sha256": "4f34573f647ca3ca509f20892bf87497728471ee68b9896330a288b295ede8aa"
+    },
+    {
+      "package": "util-csv-columns",
+      "artifact": "util-csv-columns_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3920,
+      "sha256": "384e1da8c3340f8b904728f3a660e07d4299e8828b5884be355cf1437cb37914"
+    },
+    {
+      "package": "util-csv-head",
+      "artifact": "util-csv-head_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3928,
+      "sha256": "93ed73a708d8841c4072b8d0cc14124e593483294bdf777608024eb8b81f3acd"
+    },
+    {
+      "package": "util-csv-to-json",
+      "artifact": "util-csv-to-json_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3920,
+      "sha256": "ade9fd3c6373ac6877dc64cdd17ce1849817d45ba7195f59ab7206b25d755fa3"
+    },
+    {
+      "package": "util-csv-from-json",
+      "artifact": "util-csv-from-json_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3930,
+      "sha256": "8957fa3341a664e656ae94634d04f525126996bd866488be2108f2f3c3a38dbc"
+    },
+    {
+      "package": "util-csv-select",
+      "artifact": "util-csv-select_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3922,
+      "sha256": "4288e5addb5730cea32bb3f11548a64cf06087ab56d061a8cf3004136163b09e"
+    },
+    {
+      "package": "util-csv-sort",
+      "artifact": "util-csv-sort_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3924,
+      "sha256": "4a5ba7d9927f6c31febd00092b417c6328e41675a48d70fdb6208e483c3b801f"
+    },
+    {
+      "package": "util-csv-unique",
+      "artifact": "util-csv-unique_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3924,
+      "sha256": "a0db9be4ff5ad35c60a493e01a459f2bc3dfba155c936b49fc1bb4d6ef498838"
+    },
+    {
+      "package": "util-csv-dialect",
+      "artifact": "util-csv-dialect_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3924,
+      "sha256": "c65a0194992fb2c83d1ff351d97a482627c9205289779fada7d3801a5d729ea3"
+    },
+    {
+      "package": "util-csv-stats",
+      "artifact": "util-csv-stats_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3926,
+      "sha256": "9e9492a7de135c6fbde5ab30781c1546bc890bb63f778090a74d6576c88466a6"
+    },
+    {
+      "package": "util-fs-stat",
+      "artifact": "util-fs-stat_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3922,
+      "sha256": "e1c4a077730fc3a2362aad6c94e30c657ce69a82197eb94d547aa86e49fd10f2"
+    },
+    {
+      "package": "util-fs-tree",
+      "artifact": "util-fs-tree_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3918,
+      "sha256": "1674d8dbb18b33dc82b2f9896b17e415742ca6337750ffcbf13f663d5972b67d"
+    },
+    {
+      "package": "util-fs-find-name",
+      "artifact": "util-fs-find-name_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3926,
+      "sha256": "ee042f278a3d378e5016081b271c6fdd288a544821b879165a3b7d126a6a8934"
+    },
+    {
+      "package": "util-fs-find-ext",
+      "artifact": "util-fs-find-ext_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3926,
+      "sha256": "c7cf613d8eb778d957af68eeccf45e1c822f2213021cdaef148c042f711b244e"
+    },
+    {
+      "package": "util-fs-find-large",
+      "artifact": "util-fs-find-large_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3930,
+      "sha256": "2bc21db4ab017e4b1e29db89377d7dce37ac1b1843b90e4fde39c54e8c68c36a"
+    },
+    {
+      "package": "util-fs-duplicates",
+      "artifact": "util-fs-duplicates_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3924,
+      "sha256": "ddd84e4cd98faac23819989df98de90ef08b76b3371ba9595c1279fce362f256"
+    },
+    {
+      "package": "util-fs-newest",
+      "artifact": "util-fs-newest_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3924,
+      "sha256": "27f401197799f78c806425c2a5204fd8921c2fe71455185c7cd4f6733363dc08"
+    },
+    {
+      "package": "util-fs-oldest",
+      "artifact": "util-fs-oldest_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3926,
+      "sha256": "429aa12998e503f3521453984aafb734969479b9797e1dcc1e74331da3361b64"
+    },
+    {
+      "package": "util-fs-permissions",
+      "artifact": "util-fs-permissions_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3928,
+      "sha256": "a31c1583492b87a2052cfdea29d19883846683656c27377c29fd0e68067952f7"
+    },
+    {
+      "package": "util-fs-relative",
+      "artifact": "util-fs-relative_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3922,
+      "sha256": "95e9dc5349e5b1e6bcaad200c12cdaba195c99007215d40d055b7de9864ebd18"
+    },
+    {
+      "package": "util-net-dns",
+      "artifact": "util-net-dns_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3922,
+      "sha256": "24ce57c3f7d8b14146d6afcf82d127178ee40f8e7e0076abdfa6eeb3e9a4c04f"
+    },
+    {
+      "package": "util-net-ip-parse",
+      "artifact": "util-net-ip-parse_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3932,
+      "sha256": "a2458ef158a6392c2b7ed5b5b4c29aa5b14d5286c53c7b65fd9b901b1ef2be37"
+    },
+    {
+      "package": "util-net-cidr-info",
+      "artifact": "util-net-cidr-info_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3926,
+      "sha256": "8cbab477415eb087b05eba846be7302206a983550cd464ee74e9c489d7a818c3"
+    },
+    {
+      "package": "util-net-port-check",
+      "artifact": "util-net-port-check_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3924,
+      "sha256": "bf2103e10b08d5b24d6736c82cbc9d9cc94ef7a51a1f08af05cf739af68ec93b"
+    },
+    {
+      "package": "util-net-tcp-send",
+      "artifact": "util-net-tcp-send_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3926,
+      "sha256": "1a9b51c9e728d091ac7ca5cc2514f45f7bc422a71acd46425a24b60142c3c8c2"
+    },
+    {
+      "package": "util-net-http-head",
+      "artifact": "util-net-http-head_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3924,
+      "sha256": "cf833210b7fec2c2fd2fcf0b88c95ee45597b8aba09e2323c3a2fda6c3e65daf"
+    },
+    {
+      "package": "util-net-http-get",
+      "artifact": "util-net-http-get_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3926,
+      "sha256": "279b1ea665658d4c0b865cc7eebd9ca3fcb50f5c871dd68b5c4990cbc5bebc09"
+    },
+    {
+      "package": "util-net-url-status",
+      "artifact": "util-net-url-status_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3926,
+      "sha256": "ee7634c07f293eae92e3173a5fecded940bc93b9d7ee65cf7df44d7cfc59ebb4"
+    },
+    {
+      "package": "util-net-localhost",
+      "artifact": "util-net-localhost_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3926,
+      "sha256": "b2755710ce49479f3e89feb692d5444272734e705143d38d2a9986f2312a65ed"
+    },
+    {
+      "package": "util-net-hostname",
+      "artifact": "util-net-hostname_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3928,
+      "sha256": "bc22f85c87d8b0696a5dcbe3a95a2068967faa89455987e227564b90b2b0df9c"
+    },
+    {
+      "package": "util-encode-b64-encode",
+      "artifact": "util-encode-b64-encode_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3930,
+      "sha256": "208e7b73ca8d977982c44ffa841e1266dc552e33f4f21ec8aa2abd7ec7ec1cbf"
+    },
+    {
+      "package": "util-encode-b64-decode",
+      "artifact": "util-encode-b64-decode_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3932,
+      "sha256": "5c94623f163a012084d1b7557b872595076bb981b010c0d63995adb412fe5a0b"
+    },
+    {
+      "package": "util-encode-hex-encode",
+      "artifact": "util-encode-hex-encode_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3930,
+      "sha256": "a3ec6eb14133b6e56191748109e23681587a8b72834ad917908cb5960e52a219"
+    },
+    {
+      "package": "util-encode-hex-decode",
+      "artifact": "util-encode-hex-decode_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3932,
+      "sha256": "950e0611269951f5c5d8ba9c425021955a260a0a72c706b47e3d5860b669e8bb"
+    },
+    {
+      "package": "util-encode-urlsafe-b64-encode",
+      "artifact": "util-encode-urlsafe-b64-encode_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3936,
+      "sha256": "4ad8ebdd037e580513827a76b79ac0da48e57d6d7871deda08d52f3c09c7cb7b"
+    },
+    {
+      "package": "util-encode-urlsafe-b64-decode",
+      "artifact": "util-encode-urlsafe-b64-decode_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3938,
+      "sha256": "e5d689690d94bf65e42d5f920df6605c0691f6c6bd249c403e394241fd5f20b7"
+    },
+    {
+      "package": "util-encode-gzip-encode",
+      "artifact": "util-encode-gzip-encode_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3926,
+      "sha256": "61d6bf2febe48b308e64215cac0dc5d87aa3fdd149adb67a7188703c23ac08f6"
+    },
+    {
+      "package": "util-encode-gzip-decode",
+      "artifact": "util-encode-gzip-decode_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3934,
+      "sha256": "fda69adb662ef10cbb23c50c9cd196590bab08e5bb75ff2bd003f6ed7e72c64a"
+    },
+    {
+      "package": "util-encode-json-escape",
+      "artifact": "util-encode-json-escape_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3930,
+      "sha256": "4a6fa311bb25b7ed047ed2f49553e064e6acb9e70223fe68631f6bf8b20b22d0"
+    },
+    {
+      "package": "util-encode-shell-quote",
+      "artifact": "util-encode-shell-quote_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3934,
+      "sha256": "829eceb08160b1d1f10b9d39bf68fbe0765eb2588c75b6dbd707b1dcd978968e"
+    },
+    {
+      "package": "util-config-ini-get",
+      "artifact": "util-config-ini-get_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3924,
+      "sha256": "6870937514da3e3ed91cae148dbc94b5b4ce3c825d6c3e619210f97abd2acf65"
+    },
+    {
+      "package": "util-config-ini-list",
+      "artifact": "util-config-ini-list_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3930,
+      "sha256": "a20ee0b3dd0ab72ce3e6ae7c31dd2fbe820fd4e013c490004fa7cdf6838bc96c"
+    },
+    {
+      "package": "util-config-toml-validate",
+      "artifact": "util-config-toml-validate_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3936,
+      "sha256": "2c9ce168b02fabde368ea2095b0d943d0abdb413612aa5b51c4541dbd8b61603"
+    },
+    {
+      "package": "util-config-toml-get",
+      "artifact": "util-config-toml-get_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3932,
+      "sha256": "31e11119c43bdf294106830768708dd0c1aaf0c491f1b054835c577222d20909"
+    },
+    {
+      "package": "util-config-env-get",
+      "artifact": "util-config-env-get_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3924,
+      "sha256": "3d9b54aec1b2dce17bc0a5e66d34cc294b8b56464807ba9921e742aedf90db68"
+    },
+    {
+      "package": "util-config-env-list",
+      "artifact": "util-config-env-list_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3930,
+      "sha256": "67da0102407388cd99fab130f2456be92faa43fbe33922a8f1717d337073e494"
+    },
+    {
+      "package": "util-config-dotenv-parse",
+      "artifact": "util-config-dotenv-parse_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3932,
+      "sha256": "73e26a4d98f9734941d12408192d0e1ddc6da808e90800f76148d79d4a779f1d"
+    },
+    {
+      "package": "util-config-dotenv-get",
+      "artifact": "util-config-dotenv-get_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3932,
+      "sha256": "22862af33b6a5118f1f0a5d80486f8dd16baec1024709e878e566c070892d276"
+    },
+    {
+      "package": "util-config-path-split",
+      "artifact": "util-config-path-split_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3928,
+      "sha256": "e019777afd19e178cf7a4195926a33bb9d7336b0e29e80110a37789a5ef57c40"
+    },
+    {
+      "package": "util-config-which",
+      "artifact": "util-config-which_1.0.0-1_all.deb",
+      "provider": "custom",
+      "bytes": 3926,
+      "sha256": "a4b7171f8431755ac2b683df996f69ad3fc99e22af80f3d036b22a99dfeb1745"
+    },
+    {
+      "package": "portable-utility-multiplier-suite",
+      "artifact": "portable-utility-multiplier-suite_1.0.0-1_all.deb",
+      "provider": "meta",
+      "bytes": 1124,
+      "sha256": "b51479eacdf49db20873fa482d3db8abfab7c2510af994fc77c25e99e68b4f89"
+    }
+  ]
+}
