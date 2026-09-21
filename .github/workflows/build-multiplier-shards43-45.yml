@@ -1,0 +1,221 @@
+name: Build multiplier shards 43 44 45
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/build-multiplier-shards43-45.py'
+      - '.github/workflows/build-multiplier-shards43-45.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: multiplier-shards43-45
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Checkout multiplier build surface
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /scripts/build-multiplier-shards43-45.py
+            /scripts/index_all_staged.py
+            /apt/dists/stable/main/binary-aarch64/Packages
+            /apt/dists/stable/main/binary-aarch64/Packages.gz
+            /apt/dists/stable/Release
+            /apt/dists/stable/InRelease
+            /apt/dists/stable/Release.gpg
+            /apt/ocean.gpg
+            /staging/shard-43/
+            /staging/shard-44/
+            /staging/shard-45/
+            /staging/multiplier-superpack/
+            /.github/workflows/build-multiplier-shards43-45.yml
+
+      - name: Install build tools
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          sudo apt-get install -y dpkg-dev gnupg
+
+      - name: Validate catalog and live dependencies
+        run: |
+          set -euo pipefail
+          python3 -m py_compile scripts/build-multiplier-shards43-45.py
+          python3 - <<'PY'
+          import importlib.util,re
+          from pathlib import Path
+          p=Path("scripts/build-multiplier-shards43-45.py")
+          s=importlib.util.spec_from_file_location("mult",p)
+          m=importlib.util.module_from_spec(s);s.loader.exec_module(m)
+          names=set(m.AGENT)|set(m.DEV)|set(m.CUSTOM)
+          assert len(m.AGENT)==100 and len(m.DEV)==100 and len(m.CUSTOM)==100
+          assert len(names)==300
+          required={"npx","uv","uvx","fastmcp","apm","claude-code","codex-cli","claude-mcp-add","codex-mcp-add"}
+          assert required <= names
+          text=Path("apt/dists/stable/main/binary-aarch64/Packages").read_text(errors="replace")
+          live=set(re.findall(r"^Package:\s*(\S+)",text,re.M))
+          all_new=names|{m.SHARDS[x][2] for x in ("43","44","45")}|{m.SUPERPACK}
+          collisions=sorted(all_new&live)
+          assert not collisions, "live collisions: "+", ".join(collisions)
+          ds={d for vals in m.DEPS.values() for d in vals}
+          missing=sorted(ds-live)
+          assert not missing, "missing live dependencies: "+", ".join(missing)
+          print("PASS: 300 unique command packages + 4 meta packages; all dependencies live")
+          print("LIVE_BASELINE",len(live))
+          PY
+          grep -c '^Package:' apt/dists/stable/main/binary-aarch64/Packages > /tmp/ocean-before-count
+
+      - name: Build 304 new packages
+        run: |
+          set -euo pipefail
+          python3 scripts/build-multiplier-shards43-45.py --shards 43,44,45
+          test "$(find staging/shard-43 -type f -name '*.deb' | wc -l)" -eq 101
+          test "$(find staging/shard-44 -type f -name '*.deb' | wc -l)" -eq 101
+          test "$(find staging/shard-45 -type f -name '*.deb' | wc -l)" -eq 101
+          test "$(find staging/multiplier-superpack -type f -name '*.deb' | wc -l)" -eq 1
+          test "$(find staging/shard-43 staging/shard-44 staging/shard-45 staging/multiplier-superpack -type f -name '*.deb' | wc -l)" -eq 304
+
+      - name: Audit package integrity and install safety
+        run: |
+          set -euo pipefail
+          while IFS= read -r deb; do
+            dpkg-deb --info "$deb" >/dev/null
+            tmp="$(mktemp -d)"
+            dpkg-deb -e "$deb" "$tmp"
+            test ! -e "$tmp/preinst"
+            test ! -e "$tmp/postinst"
+            test ! -e "$tmp/prerm"
+            test ! -e "$tmp/postrm"
+            rm -rf "$tmp"
+          done < <(find staging/shard-43 staging/shard-44 staging/shard-45 staging/multiplier-superpack -type f -name '*.deb' | sort)
+
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          total=0;names=[]
+          for n in ("43","44","45"):
+              d=json.loads(Path(f"staging/shard-{n}/provenance.json").read_text())
+              assert d["commandCount"]==100 and d["packageCount"]==101
+              assert d["networkAtAptInstall"] is False and d["rootRequired"] is False
+              total+=d["packageCount"];names += [x["package"] for x in d["packages"]]
+          s=json.loads(Path("staging/multiplier-superpack/provenance.json").read_text())
+          total+=1
+          assert total==304 and len(names)==303 and len(set(names))==303
+          assert s["commandCount"]==300 and s["totalNewPackages"]==304
+          print("PASS: provenance and 304 package identities verified")
+          PY
+
+      - name: Smoke-test self-contained utilities
+        run: |
+          set -euo pipefail
+          root="$(mktemp -d)"
+          dpkg-deb -x staging/shard-45/pool/main/util-semver-bump-patch_1.0.0-1_all.deb "$root"
+          ln -s "$(command -v python3)" "$root/data/data/studio.ocean.app/files/usr/bin/python"
+          PREFIX="$root/data/data/studio.ocean.app/files/usr" \
+            "$root/data/data/studio.ocean.app/files/usr/bin/util-semver-bump-patch" 1.2.3 | grep -qx '1.2.4'
+          rm -rf "$root"
+
+          root="$(mktemp -d)"
+          dpkg-deb -x staging/shard-43/pool/main/mcp-config-lint_1.0.0-1_all.deb "$root"
+          ln -s "$(command -v python3)" "$root/data/data/studio.ocean.app/files/usr/bin/python"
+          printf '{"mcpServers":{}}\n' > "$root/mcp.json"
+          PREFIX="$root/data/data/studio.ocean.app/files/usr" \
+            "$root/data/data/studio.ocean.app/files/usr/bin/mcp-config-lint" "$root/mcp.json" | grep -q '"valid": true'
+          rm -rf "$root"
+          echo "PASS: representative utility and MCP packages execute"
+
+      - name: Commit audited staging layer
+        run: |
+          set -euo pipefail
+          git config user.name "Ocean Multiplier Builder"
+          git config user.email "packages@ocean.studio"
+          git add staging/shard-43 staging/shard-44 staging/shard-45 staging/multiplier-superpack
+          if ! git diff --cached --quiet; then
+            git commit -m "feat(shards43-45): stage 304 audited multiplier packages [skip ci]"
+            for attempt in 1 2 3 4 5; do
+              git pull --rebase origin main
+              if git push origin HEAD:main; then break; fi
+              test "$attempt" -lt 5
+              sleep $((attempt*2))
+            done
+          fi
+
+      - name: Check trusted signing key
+        env:
+          OCEAN_REPOSITORY_SIGNING_KEY: ${{ secrets.OCEAN_REPOSITORY_SIGNING_KEY }}
+        run: |
+          set -euo pipefail
+          if [ -z "$OCEAN_REPOSITORY_SIGNING_KEY" ]; then
+            echo "CAN_SIGN=0" >> "$GITHUB_ENV"
+            echo "Trusted signing key unavailable: packages remain safely staged; live APT will not be modified."
+            exit 0
+          fi
+          EXPECTED="$(gpg --batch --show-keys --with-colons apt/ocean.gpg 2>/dev/null | awk -F: '$1=="fpr"{print $10;exit}')"
+          test -n "$EXPECTED"
+          printf '%s\n' "$OCEAN_REPOSITORY_SIGNING_KEY" | gpg --batch --import
+          ACTUAL="$(gpg --batch --list-secret-keys --with-colons 2>/dev/null | awk -F: '$1=="fpr"{print $10;exit}')"
+          [ "$ACTUAL" = "$EXPECTED" ] || { echo "Signing fingerprint mismatch" >&2; exit 1; }
+          echo "OCEAN_SIGNING_FINGERPRINT=$EXPECTED" >> "$GITHUB_ENV"
+          echo "CAN_SIGN=1" >> "$GITHUB_ENV"
+
+      - name: Promote into canonical APT index
+        if: env.CAN_SIGN == '1'
+        run: |
+          set -euo pipefail
+          python3 scripts/index_all_staged.py
+          before="$(cat /tmp/ocean-before-count)"
+          after="$(grep -c '^Package:' apt/dists/stable/main/binary-aarch64/Packages)"
+          test "$after" -eq "$((before+304))"
+          test "$(grep '^Package:' apt/dists/stable/main/binary-aarch64/Packages | sort -u | wc -l)" -eq "$after"
+          for p in npx uv uvx fastmcp apm claude-code codex-cli claude-mcp-add codex-mcp-add ocean-multiplier-superpack; do
+            grep -qx "Package: $p" apt/dists/stable/main/binary-aarch64/Packages
+          done
+          echo "LIVE_PACKAGE_COUNT=$after" >> "$GITHUB_ENV"
+
+      - name: Sign and verify repository metadata
+        if: env.CAN_SIGN == '1'
+        run: |
+          set -euo pipefail
+          RELEASE=apt/dists/stable/Release
+          gpg --batch --yes --local-user "$OCEAN_SIGNING_FINGERPRINT" --digest-algo SHA256 --clearsign --output apt/dists/stable/InRelease "$RELEASE"
+          gpg --batch --yes --local-user "$OCEAN_SIGNING_FINGERPRINT" --digest-algo SHA256 --detach-sign --output apt/dists/stable/Release.gpg "$RELEASE"
+          gpgv --keyring apt/ocean.gpg apt/dists/stable/InRelease
+          gpgv --keyring apt/ocean.gpg apt/dists/stable/Release.gpg "$RELEASE"
+          echo "PASS: signed APT metadata verified"
+
+      - name: Commit live APT promotion
+        if: env.CAN_SIGN == '1'
+        run: |
+          set -euo pipefail
+          git add -f apt/pool/main
+          git add apt/dists/stable/main/binary-aarch64/Packages apt/dists/stable/main/binary-aarch64/Packages.gz
+          git add apt/dists/stable/Release apt/dists/stable/InRelease apt/dists/stable/Release.gpg
+          git commit -m "feat(repo): promote multiplier shards 43-45 live ($LIVE_PACKAGE_COUNT packages) [skip ci]"
+          for attempt in 1 2 3 4 5; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then exit 0; fi
+            test "$attempt" -lt 5
+            sleep $((attempt*2))
+          done
+          exit 1
+
+      - name: Report
+        run: |
+          set -euo pipefail
+          if [ "$CAN_SIGN" = "1" ]; then
+            echo "304 multiplier packages built, audited, signed and promoted live."
+            echo "Live package count: $LIVE_PACKAGE_COUNT"
+          else
+            echo "304 multiplier packages built and audited, and committed to staging."
+            echo "Live promotion was intentionally skipped because the trusted signing key is unavailable."
+          fi
