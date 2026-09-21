@@ -1,0 +1,165 @@
+name: Build shards 28 29 30 modern 200 suite
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'sources/functional-shards/shard28_wasm_wasi.py'
+      - 'sources/functional-shards/shard29_oci_supplychain.py'
+      - 'sources/functional-shards/shard30_mcp_models.py'
+      - 'scripts/build-shards28-30.py'
+      - 'tests/test-shards28-30-functional.py'
+      - '.github/workflows/build-shards28-30.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: shards28-30-modern-200
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /sources/functional-shards/shard28_wasm_wasi.py
+            /sources/functional-shards/shard29_oci_supplychain.py
+            /sources/functional-shards/shard30_mcp_models.py
+            /scripts/build-shards28-30.py
+            /tests/test-shards28-30-functional.py
+            /staging/shard-28/
+            /staging/shard-29/
+            /staging/shard-30/
+            /.github/workflows/build-shards28-30.yml
+
+      - name: Install packaging tools
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          sudo apt-get install -y dpkg-dev
+
+      - name: Compile and functionally test all three shards
+        run: |
+          set -euo pipefail
+          python3 -m py_compile \
+            sources/functional-shards/shard28_wasm_wasi.py \
+            sources/functional-shards/shard29_oci_supplychain.py \
+            sources/functional-shards/shard30_mcp_models.py \
+            scripts/build-shards28-30.py \
+            tests/test-shards28-30-functional.py
+          python3 tests/test-shards28-30-functional.py \
+            sources/functional-shards/shard28_wasm_wasi.py \
+            sources/functional-shards/shard29_oci_supplychain.py \
+            sources/functional-shards/shard30_mcp_models.py
+
+      - name: Prove 200 names are unique and repo-new
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import importlib.util,subprocess
+          from pathlib import Path
+          files=[
+            ("28",Path("sources/functional-shards/shard28_wasm_wasi.py"),67),
+            ("29",Path("sources/functional-shards/shard29_oci_supplychain.py"),67),
+            ("30",Path("sources/functional-shards/shard30_mcp_models.py"),66),
+          ]
+          names=[]
+          for num,p,count in files:
+              s=importlib.util.spec_from_file_location("s"+num,p)
+              m=importlib.util.module_from_spec(s);s.loader.exec_module(m)
+              assert len(m.COMMANDS)==count and len(set(m.COMMANDS))==count
+              names+=m.COMMANDS
+          assert len(names)==200 and len(set(names))==200
+          paths=subprocess.check_output(["git","ls-tree","-r","--name-only","HEAD"],text=True).splitlines()
+          existing=set()
+          for x in paths:
+              if not x.endswith(".deb"): continue
+              if x.startswith(("staging/shard-28/","staging/shard-29/","staging/shard-30/")): continue
+              existing.add(Path(x).name.split("_",1)[0])
+          collisions=sorted(set(names)&existing)
+          if collisions: raise SystemExit("repo-wide package collisions: "+", ".join(collisions))
+          print("PASS: 200/200 names are unique and absent from all existing .deb artifacts")
+          PY
+
+      - name: Build 67 plus 67 plus 66 packages
+        run: |
+          set -euo pipefail
+          python3 scripts/build-shards28-30.py --shards 28,29,30
+
+      - name: Audit shard artifacts and prefixes
+        run: |
+          set -euo pipefail
+          test "$(find staging/shard-28/pool/main -type f -name '*.deb' | wc -l)" -eq 67
+          test "$(find staging/shard-29/pool/main -type f -name '*.deb' | wc -l)" -eq 67
+          test "$(find staging/shard-30/pool/main -type f -name '*.deb' | wc -l)" -eq 66
+          test "$(grep -c '^Package:' staging/shard-28/Packages.repaired)" -eq 67
+          test "$(grep -c '^Package:' staging/shard-29/Packages.repaired)" -eq 67
+          test "$(grep -c '^Package:' staging/shard-30/Packages.repaired)" -eq 66
+
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          expected={"28":67,"29":67,"30":66}
+          names=[]
+          for n,c in expected.items():
+              d=json.loads(Path(f"staging/shard-{n}/provenance.json").read_text())
+              assert d["packageCount"]==c and d["uniquePackageCount"]==c
+              assert d["prefix"]=="/data/data/studio.ocean.app/files/usr"
+              assert d["termuxRuntimeDependency"] is False
+              names += [x["package"] for x in d["packages"]]
+          assert len(names)==200 and len(set(names))==200
+          assert any(x.startswith("wasm-") for x in names)
+          assert any(x.startswith("wasi-") for x in names)
+          assert any(x.startswith("oci-") for x in names)
+          assert any(x.startswith("sbom-") for x in names)
+          assert any(x.startswith("attest-") for x in names)
+          assert any(x.startswith("mcp-") for x in names)
+          assert any(x.startswith("gguf-") for x in names)
+          assert any(x.startswith("safetensors-") for x in names)
+          print("PASS: 200 package identities and unchanged Ocean prefix verified")
+          PY
+
+          while IFS= read -r deb; do
+            dpkg-deb --info "$deb" >/dev/null
+          done < <(find staging/shard-28 staging/shard-29 staging/shard-30 -type f -name '*.deb' | sort)
+
+          ! grep -R -a -E '/data/(data|user/0)/com\.termux|packages\.termux\.dev|TERMUX_PREFIX' \
+            staging/shard-28 staging/shard-29 staging/shard-30 \
+            sources/functional-shards/shard28_wasm_wasi.py \
+            sources/functional-shards/shard29_oci_supplychain.py \
+            sources/functional-shards/shard30_mcp_models.py
+
+      - name: Commit staged shards
+        run: |
+          set -euo pipefail
+          git config user.name "Ocean Modern Shards Builder"
+          git config user.email "packages@ocean.studio"
+          git add staging/shard-28 staging/shard-29 staging/shard-30
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "feat(shards28-30): stage 200 modern spec utilities [skip ci]"
+          for attempt in 1 2 3 4 5; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then exit 0; fi
+            sleep $((attempt*2))
+          done
+          exit 1
+
+      - name: Report
+        run: |
+          python3 - <<'PY'
+          import json
+          total=0
+          for n in ("28","29","30"):
+              d=json.load(open(f"staging/shard-{n}/provenance.json"))
+              total+=d["packageCount"]
+              print("shard",n,d["packageCount"],d["topic"])
+          print("total",total)
+          PY
