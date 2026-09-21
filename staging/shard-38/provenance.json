@@ -1,0 +1,714 @@
+{
+  "schemaVersion": 1,
+  "suite": "shard-38",
+  "version": "1.0.0-1",
+  "sourceType": "Ocean-native original source",
+  "prefix": "/data/data/studio.ocean.app/files/usr",
+  "packageCount": 100,
+  "uniquePackageCount": 100,
+  "termuxRuntimeDependency": false,
+  "topic": "glTF/GLB/KTX2/3D asset inspection",
+  "packages": [
+    {
+      "package": "gltf-asset-version",
+      "artifact": "gltf-asset-version_1.0.0-1_all.deb",
+      "bytes": 5314,
+      "sha256": "59eb3b8748d984248d81cd7f4c6c17603fcb92159bbc95189511eece8f94072a",
+      "depends": "python"
+    },
+    {
+      "package": "gltf-generator",
+      "artifact": "gltf-generator_1.0.0-1_all.deb",
+      "bytes": 5316,
+      "sha256": "e732cba9e7f76a69a9e847ed3988db3d8fa410ce087318db358a241fe27049b2",
+      "depends": "python"
+    },
+    {
+      "package": "gltf-extensions-used",
+      "artifact": "gltf-extensions-used_1.0.0-1_all.deb",
+      "bytes": 5316,
+      "sha256": "54864bd4e89d6af0c5e34c7a3cdd32982b1113709ed5cca19d0aeb4b19b94e08",
+      "depends": "python"
+    },
+    {
+      "package": "gltf-extensions-required",
+      "artifact": "gltf-extensions-required_1.0.0-1_all.deb",
+      "bytes": 5324,
+      "sha256": "460518f816eeef28502e3511e610de9aa9f2e75824f1a1d6de3331af57739e87",
+      "depends": "python"
+    },
+    {
+      "package": "gltf-scene-count",
+      "artifact": "gltf-scene-count_1.0.0-1_all.deb",
+      "bytes": 5314,
+      "sha256": "1fab36ec08b99dc42840216aadd6bb5b5b14c5276dabd72ce8490a60368dc325",
+      "depends": "python"
+    },
+    {
+      "package": "gltf-default-scene",
+      "artifact": "gltf-default-scene_1.0.0-1_all.deb",
+      "bytes": 5324,
+      "sha256": "a558efab131dc7366fb4f3de678e8b303896f7e04dfb03f04b86a408b4c14194",
+      "depends": "python"
+    },
+    {
+      "package": "gltf-node-count",
+      "artifact": "gltf-node-count_1.0.0-1_all.deb",
+      "bytes": 5320,
+      "sha256": "5bc585202012117e7701c10de0406f32e5ba7f0bd56645d62f949933c4bbf1e4",
+      "depends": "python"
+    },
+    {
+      "package": "gltf-mesh-count",
+      "artifact": "gltf-mesh-count_1.0.0-1_all.deb",
+      "bytes": 5322,
+      "sha256": "74930151940dd606647ffb595f74f315a588dde70d5ea6173aab4cce5e494217",
+      "depends": "python"
+    },
+    {
+      "package": "gltf-primitive-count",
+      "artifact": "gltf-primitive-count_1.0.0-1_all.deb",
+      "bytes": 5324,
+      "sha256": "e5a7a71738b2c7d715dab41080dd4a44c3a7f995c6dba4930546ca650f392bbb",
+      "depends": "python"
+    },
+    {
+      "package": "gltf-material-count",
+      "artifact": "gltf-material-count_1.0.0-1_all.deb",
+      "bytes": 5316,
+      "sha256": "029caa69b3544a01ed69a2b9e4d9f8526283d34798d632d19572b8ed9b5cfdc5",
+      "depends": "python"
+    },
+    {
+      "package": "gltf-texture-count",
+      "artifact": "gltf-texture-count_1.0.0-1_all.deb",
+      "bytes": 5318,
+      "sha256": "acf1771534839548cbdb2d8580ff31bdb808c3f6e4764ff1e56c5da29ffb3595",
+      "depends": "python"
+    },
+    {
+      "package": "gltf-image-count",
+      "artifact": "gltf-image-count_1.0.0-1_all.deb",
+      "bytes": 5318,
+      "sha256": "0926c6444b3f3db362de2d9ca849f276a228ba43485a76006ce2157180de6577",
+      "depends": "python"
+    },
+    {
+      "package": "gltf-sampler-count",
+      "artifact": "gltf-sampler-count_1.0.0-1_all.deb",
+      "bytes": 5318,
+      "sha256": "4731a8dd533616f93f186d223ecb89a9fabde17f21ae906da089f87a2079847e",
+      "depends": "python"
+    },
+    {
+      "package": "gltf-accessor-count",
+      "artifact": "gltf-accessor-count_1.0.0-1_all.deb",
+      "bytes": 5320,
+      "sha256": "17dbff010011b7e000f8f0e849504d40e4d39fdce865074109ce4d5c831d06f8",
+      "depends": "python"
+    },
+    {
+      "package": "gltf-buffer-count",
+      "artifact": "gltf-buffer-count_1.0.0-1_all.deb",
+      "bytes": 5316,
+      "sha256": "dfc32f68a581e17affde9c3d90efe53f27a5eabc909f9f98d540d7cb005bd4e2",
+      "depends": "python"
+    },
+    {
+      "package": "gltf-bufferview-count",
+      "artifact": "gltf-bufferview-count_1.0.0-1_all.deb",
+      "bytes": 5318,
+      "sha256": "af37d36d136e123e84ee7fc0df3448b0620280c39ec7418a1bf9e05e76b297d5",
+      "depends": "python"
+    },
+    {
+      "package": "gltf-animation-count",
+      "artifact": "gltf-animation-count_1.0.0-1_all.deb",
+      "bytes": 5322,
+      "sha256": "eaf8a76543e4e8f1363440694fc3d2668072015c40f7f847546222d7bf9d9ca2",
+      "depends": "python"
+    },
+    {
+      "package": "gltf-skin-count",
+      "artifact": "gltf-skin-count_1.0.0-1_all.deb",
+      "bytes": 5322,
+      "sha256": "ea392d9e3d1fea85c47f6b47824fa4053ecc8e786d7b9ebfe2d53034e07a3b7e",
+      "depends": "python"
+    },
+    {
+      "package": "gltf-camera-count",
+      "artifact": "gltf-camera-count_1.0.0-1_all.deb",
+      "bytes": 5314,
+      "sha256": "cf1e41d12bf1095edf51326bc91884ef7c78df676f8dba74241095fbe7d21b69",
+      "depends": "python"
+    },
+    {
+      "package": "gltf-light-count",
+      "artifact": "gltf-light-count_1.0.0-1_all.deb",
+      "bytes": 5316,
+      "sha256": "4234209f79ad64c140cc3e077a3d650e8fb50ec00d2ee4fbcc61b0f69e1a6d7a",
+      "depends": "python"
+    },
+    {
+      "package": "gltf-node-names",
+      "artifact": "gltf-node-names_1.0.0-1_all.deb",
+      "bytes": 5318,
+      "sha256": "82aefec695865b32266470f54acc911044a8e7e99751ba563d2d7b29d984d1bb",
+      "depends": "python"
+    },
+    {
+      "package": "gltf-mesh-names",
+      "artifact": "gltf-mesh-names_1.0.0-1_all.deb",
+      "bytes": 5318,
+      "sha256": "cfc12b421b6654747344037eb130378ba673a6175ffc59a366b903dd74886dc6",
+      "depends": "python"
+    },
+    {
+      "package": "gltf-material-names",
+      "artifact": "gltf-material-names_1.0.0-1_all.deb",
+      "bytes": 5316,
+      "sha256": "4062e994ee58d8d97a7dad1abdaa9dbd121212e549d455ea7652de0f6e148c68",
+      "depends": "python"
+    },
+    {
+      "package": "gltf-image-uris",
+      "artifact": "gltf-image-uris_1.0.0-1_all.deb",
+      "bytes": 5320,
+      "sha256": "6ee7654076c22df1c4b9eec9ccf736d5dfc6c094999c086f6ddaa20767252bde",
+      "depends": "python"
+    },
+    {
+      "package": "gltf-buffer-uris",
+      "artifact": "gltf-buffer-uris_1.0.0-1_all.deb",
+      "bytes": 5322,
+      "sha256": "3177a44a32104cc8bfb5d1560b46acfb54828f7a837ee5ce342ae2987ae237cf",
+      "depends": "python"
+    },
+    {
+      "package": "gltf-external-uris",
+      "artifact": "gltf-external-uris_1.0.0-1_all.deb",
+      "bytes": 5318,
+      "sha256": "73b3d72983671f50175fe81f5b2c99f7940c113f504e5519c8ed4fc79299b3d9",
+      "depends": "python"
+    },
+    {
+      "package": "gltf-data-uris",
+      "artifact": "gltf-data-uris_1.0.0-1_all.deb",
+      "bytes": 5320,
+      "sha256": "b3251485002779ae381fcd5c0f5651296c748066bbf91bb46570a89179896ce8",
+      "depends": "python"
+    },
+    {
+      "package": "gltf-draco-hints",
+      "artifact": "gltf-draco-hints_1.0.0-1_all.deb",
+      "bytes": 5316,
+      "sha256": "76cd862cd4d0314acc6a4fc48edf53be9009e5db7ca417821327d14aed024c7d",
+      "depends": "python"
+    },
+    {
+      "package": "gltf-meshopt-hints",
+      "artifact": "gltf-meshopt-hints_1.0.0-1_all.deb",
+      "bytes": 5318,
+      "sha256": "96aa3278be476e042c791881fc2df4535705dc4c4740721ec2b522382909ba8e",
+      "depends": "python"
+    },
+    {
+      "package": "gltf-basisu-hints",
+      "artifact": "gltf-basisu-hints_1.0.0-1_all.deb",
+      "bytes": 5316,
+      "sha256": "266f3cf4bb339f44ff074ff746c966d1da4aee5aea0d949af2fe9fd6fca9eb9c",
+      "depends": "python"
+    },
+    {
+      "package": "gltf-pbr-materials",
+      "artifact": "gltf-pbr-materials_1.0.0-1_all.deb",
+      "bytes": 5318,
+      "sha256": "8c52967a0b00286694650dd7a00ab2c3964179ea52a01677e98c77494d7fb8a5",
+      "depends": "python"
+    },
+    {
+      "package": "gltf-alpha-modes",
+      "artifact": "gltf-alpha-modes_1.0.0-1_all.deb",
+      "bytes": 5314,
+      "sha256": "dbe3bf5361ae53f4d758a926b383f1413f0a1cfc54b0fff24aca6a1901e9ba34",
+      "depends": "python"
+    },
+    {
+      "package": "gltf-double-sided",
+      "artifact": "gltf-double-sided_1.0.0-1_all.deb",
+      "bytes": 5312,
+      "sha256": "75846781f721ba14ba8c473a551d8bac20304b5c75ed051f73224eb6d0b0ea11",
+      "depends": "python"
+    },
+    {
+      "package": "gltf-texture-transforms",
+      "artifact": "gltf-texture-transforms_1.0.0-1_all.deb",
+      "bytes": 5324,
+      "sha256": "4be498c1e43bd1a8b1b6704ad7422fdaa27c93330738b62d3e3d7a845d472fd6",
+      "depends": "python"
+    },
+    {
+      "package": "gltf-scene-roots",
+      "artifact": "gltf-scene-roots_1.0.0-1_all.deb",
+      "bytes": 5318,
+      "sha256": "a4c7b3fa7779847ea51312925c95524aba8e6ad9c44f6e0c0f1ca4421f587043",
+      "depends": "python"
+    },
+    {
+      "package": "gltf-node-children",
+      "artifact": "gltf-node-children_1.0.0-1_all.deb",
+      "bytes": 5324,
+      "sha256": "5e002b5a29386c2199c3ba829ea347b66c5e2000681827313236be0b601f867c",
+      "depends": "python"
+    },
+    {
+      "package": "gltf-accessor-bounds",
+      "artifact": "gltf-accessor-bounds_1.0.0-1_all.deb",
+      "bytes": 5324,
+      "sha256": "a6f1bdf1f9f7e547546585ad47440375e9f13790b92e694c56e9978c74b8907a",
+      "depends": "python"
+    },
+    {
+      "package": "gltf-minify",
+      "artifact": "gltf-minify_1.0.0-1_all.deb",
+      "bytes": 5312,
+      "sha256": "a30bac59d64d5e00bfe5c7396389d01ea8b0077ef72fff7edcb52b378eefa4be",
+      "depends": "python"
+    },
+    {
+      "package": "gltf-pretty",
+      "artifact": "gltf-pretty_1.0.0-1_all.deb",
+      "bytes": 5312,
+      "sha256": "1adedc03d6f8608508717de7cd2d4b2d6e81f6a8b9ee814f3accc5d9b0c8aeb7",
+      "depends": "python"
+    },
+    {
+      "package": "gltf-summary",
+      "artifact": "gltf-summary_1.0.0-1_all.deb",
+      "bytes": 5316,
+      "sha256": "197f821ec2ea3bc9e64f847d262403de100dc2eca54935675df7b78f82867d77",
+      "depends": "python"
+    },
+    {
+      "package": "glb-magic",
+      "artifact": "glb-magic_1.0.0-1_all.deb",
+      "bytes": 5304,
+      "sha256": "9d12c81a46cbda9a786a1017d078a7bffe73236df76955ca519e9492c4bbcc72",
+      "depends": "python"
+    },
+    {
+      "package": "glb-version",
+      "artifact": "glb-version_1.0.0-1_all.deb",
+      "bytes": 5310,
+      "sha256": "411e161df937958efc0d6fd622c0c83c72c4bed2734d4f2dcef02620fcd6f929",
+      "depends": "python"
+    },
+    {
+      "package": "glb-length",
+      "artifact": "glb-length_1.0.0-1_all.deb",
+      "bytes": 5312,
+      "sha256": "f778ccd86e8b1e9b5024d4ca06e7d67e44cbe95eb0ba61945c26de72adaa6a1f",
+      "depends": "python"
+    },
+    {
+      "package": "glb-chunk-count",
+      "artifact": "glb-chunk-count_1.0.0-1_all.deb",
+      "bytes": 5320,
+      "sha256": "cd823095f3ef626b84e69e51c5c51b07eaa8ddafa2a3ac5644cf858d9fd139f1",
+      "depends": "python"
+    },
+    {
+      "package": "glb-chunk-types",
+      "artifact": "glb-chunk-types_1.0.0-1_all.deb",
+      "bytes": 5322,
+      "sha256": "8b18ed42406f6a452d61780fe3d5adfe38c5878e8e0fd1a3095af620c3043875",
+      "depends": "python"
+    },
+    {
+      "package": "glb-json-chunk",
+      "artifact": "glb-json-chunk_1.0.0-1_all.deb",
+      "bytes": 5320,
+      "sha256": "83fcd206093c403686891b96056d9157c5ef9c9c7d913c90e7f9a719090bd78c",
+      "depends": "python"
+    },
+    {
+      "package": "glb-bin-chunk-size",
+      "artifact": "glb-bin-chunk-size_1.0.0-1_all.deb",
+      "bytes": 5324,
+      "sha256": "bfc4f830a852fe1c9a7b1ec0c89d59a9b906d8708bf9b3167af5e7ebfc6495b6",
+      "depends": "python"
+    },
+    {
+      "package": "glb-chunk-offsets",
+      "artifact": "glb-chunk-offsets_1.0.0-1_all.deb",
+      "bytes": 5316,
+      "sha256": "abde27668b954de7c3e44e42aa8532d72c42aefbbf3c8974903706ce32f3513d",
+      "depends": "python"
+    },
+    {
+      "package": "glb-validate-length",
+      "artifact": "glb-validate-length_1.0.0-1_all.deb",
+      "bytes": 5326,
+      "sha256": "d5acfa236c89e8d320b76fefee23790272a1f9a8007349e6da8931c7b2bfb8c3",
+      "depends": "python"
+    },
+    {
+      "package": "glb-json-summary",
+      "artifact": "glb-json-summary_1.0.0-1_all.deb",
+      "bytes": 5320,
+      "sha256": "c145d7027f97150473e89b1d250526712c761f2a3272ad1515bd4bf812168aa8",
+      "depends": "python"
+    },
+    {
+      "package": "glb-embedded-buffer",
+      "artifact": "glb-embedded-buffer_1.0.0-1_all.deb",
+      "bytes": 5318,
+      "sha256": "e8b4ba0678058de4aa0e58c6c126c79111bba4f5dc10a0298d57550eb654c44d",
+      "depends": "python"
+    },
+    {
+      "package": "glb-sha256",
+      "artifact": "glb-sha256_1.0.0-1_all.deb",
+      "bytes": 5312,
+      "sha256": "568fae634fda1f86f9b44b667ce5c85df53799c1e94323685656828b63f7adbd",
+      "depends": "python"
+    },
+    {
+      "package": "glb-entropy",
+      "artifact": "glb-entropy_1.0.0-1_all.deb",
+      "bytes": 5314,
+      "sha256": "c550ae8760414af549dae13876fd7867c7e763098fc9917e69b8ee97f31ff09d",
+      "depends": "python"
+    },
+    {
+      "package": "glb-hexdump",
+      "artifact": "glb-hexdump_1.0.0-1_all.deb",
+      "bytes": 5318,
+      "sha256": "f9db60609e769aea24383d6b3596b6dc8fd710bc1d5d32ae999009d6c9e15909",
+      "depends": "python"
+    },
+    {
+      "package": "glb-summary",
+      "artifact": "glb-summary_1.0.0-1_all.deb",
+      "bytes": 5316,
+      "sha256": "7131d8ca27df5c788f3ed49577e4e3bbcbed621003715a2e12120a1bc14f50b6",
+      "depends": "python"
+    },
+    {
+      "package": "ktx2-magic",
+      "artifact": "ktx2-magic_1.0.0-1_all.deb",
+      "bytes": 5310,
+      "sha256": "5d3ac56db740cc6857874d284820cb707a3405fa7d5bdae9ec490a7d6d54e93d",
+      "depends": "python"
+    },
+    {
+      "package": "ktx2-vk-format",
+      "artifact": "ktx2-vk-format_1.0.0-1_all.deb",
+      "bytes": 5316,
+      "sha256": "537647300c37df0515960f7d09b85b1b968bca7993b4ccedf608fb39a18c41ec",
+      "depends": "python"
+    },
+    {
+      "package": "ktx2-type-size",
+      "artifact": "ktx2-type-size_1.0.0-1_all.deb",
+      "bytes": 5318,
+      "sha256": "84b7e227f2bd961397e8b55e67ce39c27696dd51d8d83af87b759334a0aaabba",
+      "depends": "python"
+    },
+    {
+      "package": "ktx2-pixel-width",
+      "artifact": "ktx2-pixel-width_1.0.0-1_all.deb",
+      "bytes": 5312,
+      "sha256": "621a6ee9ee0bd2ba1c13610fb59de8722ef7d7c3283828d12ac08b26dd24ca28",
+      "depends": "python"
+    },
+    {
+      "package": "ktx2-pixel-height",
+      "artifact": "ktx2-pixel-height_1.0.0-1_all.deb",
+      "bytes": 5316,
+      "sha256": "ec6dbb6fcef1536b6eef4674b096a44f8076411c851c2e5c69d911f0faa95671",
+      "depends": "python"
+    },
+    {
+      "package": "ktx2-pixel-depth",
+      "artifact": "ktx2-pixel-depth_1.0.0-1_all.deb",
+      "bytes": 5318,
+      "sha256": "0a693c673a0adfc8b157c3054f4dda46998d0c01b82e47fbaaa0e03839814582",
+      "depends": "python"
+    },
+    {
+      "package": "ktx2-layer-count",
+      "artifact": "ktx2-layer-count_1.0.0-1_all.deb",
+      "bytes": 5316,
+      "sha256": "1b0e70b90d401376692f607614fc2c69950c98024e6bf2cf10641030292eae86",
+      "depends": "python"
+    },
+    {
+      "package": "ktx2-face-count",
+      "artifact": "ktx2-face-count_1.0.0-1_all.deb",
+      "bytes": 5322,
+      "sha256": "f9c859ff5102a6891983b4653cfd8a326b1992b6c83942b015c4d71ec3395703",
+      "depends": "python"
+    },
+    {
+      "package": "ktx2-level-count",
+      "artifact": "ktx2-level-count_1.0.0-1_all.deb",
+      "bytes": 5318,
+      "sha256": "10bf058c90037923706c103050e6c178667be7a1bdb0806b3b80e69a276a0745",
+      "depends": "python"
+    },
+    {
+      "package": "ktx2-supercompression",
+      "artifact": "ktx2-supercompression_1.0.0-1_all.deb",
+      "bytes": 5312,
+      "sha256": "5b7ec9326314fc3939d04881481a10d01e0ed84578b08054588629c4a4f10b4d",
+      "depends": "python"
+    },
+    {
+      "package": "ktx2-dfd-offset",
+      "artifact": "ktx2-dfd-offset_1.0.0-1_all.deb",
+      "bytes": 5322,
+      "sha256": "6c713f384aec4e0d685b50749c01c44e59f070d6c97269f2d972d32b28473c03",
+      "depends": "python"
+    },
+    {
+      "package": "ktx2-dfd-length",
+      "artifact": "ktx2-dfd-length_1.0.0-1_all.deb",
+      "bytes": 5322,
+      "sha256": "8e5540a1f734a40fde553b1f88ad4d1668d75e7ab9f96124eb94ac80d4defa46",
+      "depends": "python"
+    },
+    {
+      "package": "ktx2-kvd-offset",
+      "artifact": "ktx2-kvd-offset_1.0.0-1_all.deb",
+      "bytes": 5318,
+      "sha256": "c4ed8c791abf12380110e4459c65664ffd12e3f056ed1d8b70045400b38f4a80",
+      "depends": "python"
+    },
+    {
+      "package": "ktx2-kvd-length",
+      "artifact": "ktx2-kvd-length_1.0.0-1_all.deb",
+      "bytes": 5320,
+      "sha256": "342c2d2d88e53f449573eb76ded826a177289593d253caeb71b1ea5a8b912787",
+      "depends": "python"
+    },
+    {
+      "package": "ktx2-sgd-offset",
+      "artifact": "ktx2-sgd-offset_1.0.0-1_all.deb",
+      "bytes": 5324,
+      "sha256": "af40722ff80b445fbadd9beaa9be121c5c32b1012e6d6f0470414244fef77448",
+      "depends": "python"
+    },
+    {
+      "package": "ktx2-sgd-length",
+      "artifact": "ktx2-sgd-length_1.0.0-1_all.deb",
+      "bytes": 5320,
+      "sha256": "1b7df7feb59eb0f3161448e110768db77edc0f979e75cb224b5daf06467b73c1",
+      "depends": "python"
+    },
+    {
+      "package": "ktx2-levels",
+      "artifact": "ktx2-levels_1.0.0-1_all.deb",
+      "bytes": 5312,
+      "sha256": "119f0605981c7c9deedb50833742968c01861a3b96b447e261196d9a0dde61da",
+      "depends": "python"
+    },
+    {
+      "package": "ktx2-level-sizes",
+      "artifact": "ktx2-level-sizes_1.0.0-1_all.deb",
+      "bytes": 5318,
+      "sha256": "e91420c5b2c58bf064ac740a29fa14214bd182cae13b524a3492a7d28545f415",
+      "depends": "python"
+    },
+    {
+      "package": "ktx2-basis-detect",
+      "artifact": "ktx2-basis-detect_1.0.0-1_all.deb",
+      "bytes": 5314,
+      "sha256": "7ee21322b96e752a3ff1438d430a39e9cbe03007f765ef569bd3fe48e0047e1a",
+      "depends": "python"
+    },
+    {
+      "package": "ktx2-cubemap-detect",
+      "artifact": "ktx2-cubemap-detect_1.0.0-1_all.deb",
+      "bytes": 5320,
+      "sha256": "c55c4b32c751e39b2f9ba9c5a5ea1dcb8fca1594694fc5a99fb6e2cd4d1c04a9",
+      "depends": "python"
+    },
+    {
+      "package": "ktx2-array-detect",
+      "artifact": "ktx2-array-detect_1.0.0-1_all.deb",
+      "bytes": 5314,
+      "sha256": "bff4222d4723f7e90d5372e5ba8652666e4b2d95f841f7abedc6e2e0caf8e5fb",
+      "depends": "python"
+    },
+    {
+      "package": "ktx2-mipmap-detect",
+      "artifact": "ktx2-mipmap-detect_1.0.0-1_all.deb",
+      "bytes": 5324,
+      "sha256": "7d5302d90f5053c657c5004ef74938c61eff5c807811839a3af1b982e88fe63d",
+      "depends": "python"
+    },
+    {
+      "package": "ktx2-sha256",
+      "artifact": "ktx2-sha256_1.0.0-1_all.deb",
+      "bytes": 5312,
+      "sha256": "919dfd505e91d326430b8867b5b753fcac3d612bddef76fa3e067b73a5a4a07c",
+      "depends": "python"
+    },
+    {
+      "package": "ktx2-header-json",
+      "artifact": "ktx2-header-json_1.0.0-1_all.deb",
+      "bytes": 5320,
+      "sha256": "0e246caf6a3797090099e146b07e8c4de5f93cd98e58b721c5bbc7d0e151a2b8",
+      "depends": "python"
+    },
+    {
+      "package": "ktx2-summary",
+      "artifact": "ktx2-summary_1.0.0-1_all.deb",
+      "bytes": 5312,
+      "sha256": "abb7b39f219c479d963303bb89f9627d470a80d9d5ea88b7280ab24e038c4b57",
+      "depends": "python"
+    },
+    {
+      "package": "stl-format",
+      "artifact": "stl-format_1.0.0-1_all.deb",
+      "bytes": 5308,
+      "sha256": "ef19086e5fec4e93636b15850a300b617d22fe45f06cad26c4ea34468d6f1b44",
+      "depends": "python"
+    },
+    {
+      "package": "stl-triangle-count",
+      "artifact": "stl-triangle-count_1.0.0-1_all.deb",
+      "bytes": 5318,
+      "sha256": "376a336113cab056306713f202bb3730f6fc9095fe3df899e82983f264fe9d31",
+      "depends": "python"
+    },
+    {
+      "package": "stl-bbox",
+      "artifact": "stl-bbox_1.0.0-1_all.deb",
+      "bytes": 5308,
+      "sha256": "d4c0bb61ba9745204965a1d2a228f90360708fb48c4010f6c248aa898135a085",
+      "depends": "python"
+    },
+    {
+      "package": "stl-size-check",
+      "artifact": "stl-size-check_1.0.0-1_all.deb",
+      "bytes": 5318,
+      "sha256": "8ad908ab0489d253fd388c7688793ce71fefb4249514c324f73cbd9964bbc9c7",
+      "depends": "python"
+    },
+    {
+      "package": "stl-sha256",
+      "artifact": "stl-sha256_1.0.0-1_all.deb",
+      "bytes": 5306,
+      "sha256": "9012fc431852e05ff8b779a902e485c97ef3bfb606a98b09c2842f12caebc0d3",
+      "depends": "python"
+    },
+    {
+      "package": "ply-format",
+      "artifact": "ply-format_1.0.0-1_all.deb",
+      "bytes": 5312,
+      "sha256": "abbba20610b2ffae1b2b38fbceaf4177110b3d9ff89af38bb379591d05a1345f",
+      "depends": "python"
+    },
+    {
+      "package": "ply-elements",
+      "artifact": "ply-elements_1.0.0-1_all.deb",
+      "bytes": 5312,
+      "sha256": "9dba8ad11c49a812a4279d17f8beaf3a4565a41080fb8b96a1d14f9e8c704e8c",
+      "depends": "python"
+    },
+    {
+      "package": "ply-vertex-count",
+      "artifact": "ply-vertex-count_1.0.0-1_all.deb",
+      "bytes": 5316,
+      "sha256": "798f15dd80c2f6063b208fad5f4ff29c831b7842dae5bfa9a7ef3775c142cc83",
+      "depends": "python"
+    },
+    {
+      "package": "ply-face-count",
+      "artifact": "ply-face-count_1.0.0-1_all.deb",
+      "bytes": 5314,
+      "sha256": "0b3f679ae1d009a0ea774ed393419f7b8ed09e7692342dda7c907a67cd7c22a4",
+      "depends": "python"
+    },
+    {
+      "package": "ply-properties",
+      "artifact": "ply-properties_1.0.0-1_all.deb",
+      "bytes": 5316,
+      "sha256": "9e4350ae5fbf9d9276391d0f1250dd5adc0aea09097e087c999e6958904e1048",
+      "depends": "python"
+    },
+    {
+      "package": "ply-header",
+      "artifact": "ply-header_1.0.0-1_all.deb",
+      "bytes": 5314,
+      "sha256": "46ba286c3518fcf48af14e0ab0958290c269533a64283cafe28e3cf4696591e9",
+      "depends": "python"
+    },
+    {
+      "package": "ply-sha256",
+      "artifact": "ply-sha256_1.0.0-1_all.deb",
+      "bytes": 5310,
+      "sha256": "af5c019868761522b9cff046fc65a4fa2d81738d14f6578aa33e7f5f6a9f00b3",
+      "depends": "python"
+    },
+    {
+      "package": "objmesh-vertex-count",
+      "artifact": "objmesh-vertex-count_1.0.0-1_all.deb",
+      "bytes": 5322,
+      "sha256": "70b1f5ee48bcef4d372e4717b3a8e05a323689129793d5bdc404ad2812383cb3",
+      "depends": "python"
+    },
+    {
+      "package": "objmesh-normal-count",
+      "artifact": "objmesh-normal-count_1.0.0-1_all.deb",
+      "bytes": 5320,
+      "sha256": "e0229a8f75b6a25bb4594cf17ce27f99da9605533ee9028d53983c7d18f0baed",
+      "depends": "python"
+    },
+    {
+      "package": "objmesh-texcoord-count",
+      "artifact": "objmesh-texcoord-count_1.0.0-1_all.deb",
+      "bytes": 5324,
+      "sha256": "43f68d90797fabf1448e9f845d0ec9201bac7bf3fb4e6b7858b7f032b23f4fac",
+      "depends": "python"
+    },
+    {
+      "package": "objmesh-face-count",
+      "artifact": "objmesh-face-count_1.0.0-1_all.deb",
+      "bytes": 5322,
+      "sha256": "16a3156408866fc73124eb7785b9b4d9c431d44d5a3c10460e16f0c4d893286a",
+      "depends": "python"
+    },
+    {
+      "package": "objmesh-object-names",
+      "artifact": "objmesh-object-names_1.0.0-1_all.deb",
+      "bytes": 5320,
+      "sha256": "d9cd16764f6db314d03fefc402b8dca0df5b131c0e0e974f29415d539c06998c",
+      "depends": "python"
+    },
+    {
+      "package": "objmesh-group-names",
+      "artifact": "objmesh-group-names_1.0.0-1_all.deb",
+      "bytes": 5322,
+      "sha256": "7d3872e67654f6f30f16268f477ee203d499360b365edd94d91ae649e079cdb9",
+      "depends": "python"
+    },
+    {
+      "package": "mtl-material-names",
+      "artifact": "mtl-material-names_1.0.0-1_all.deb",
+      "bytes": 5320,
+      "sha256": "780665442db97c0b05be0d727754b5938638a612eb0028d22499c0e67ccb3b81",
+      "depends": "python"
+    },
+    {
+      "package": "mtl-texture-files",
+      "artifact": "mtl-texture-files_1.0.0-1_all.deb",
+      "bytes": 5310,
+      "sha256": "3643a2b4c3a13b76258492f01ce9cb8b4e605cc45f906120274d5078080597ac",
+      "depends": "python"
+    }
+  ],
+  "promotion": "staging-only until APT promotion/signing"
+}

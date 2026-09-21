@@ -1,0 +1,1399 @@
+Package: gltf-asset-version
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (gltf-asset-version)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/gltf-asset-version_1.0.0-1_all.deb
+Size: 5314
+SHA256: 59eb3b8748d984248d81cd7f4c6c17603fcb92159bbc95189511eece8f94072a
+
+Package: gltf-generator
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (gltf-generator)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/gltf-generator_1.0.0-1_all.deb
+Size: 5316
+SHA256: e732cba9e7f76a69a9e847ed3988db3d8fa410ce087318db358a241fe27049b2
+
+Package: gltf-extensions-used
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (gltf-extensions-used)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/gltf-extensions-used_1.0.0-1_all.deb
+Size: 5316
+SHA256: 54864bd4e89d6af0c5e34c7a3cdd32982b1113709ed5cca19d0aeb4b19b94e08
+
+Package: gltf-extensions-required
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (gltf-extensions-required)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/gltf-extensions-required_1.0.0-1_all.deb
+Size: 5324
+SHA256: 460518f816eeef28502e3511e610de9aa9f2e75824f1a1d6de3331af57739e87
+
+Package: gltf-scene-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (gltf-scene-count)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/gltf-scene-count_1.0.0-1_all.deb
+Size: 5314
+SHA256: 1fab36ec08b99dc42840216aadd6bb5b5b14c5276dabd72ce8490a60368dc325
+
+Package: gltf-default-scene
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (gltf-default-scene)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/gltf-default-scene_1.0.0-1_all.deb
+Size: 5324
+SHA256: a558efab131dc7366fb4f3de678e8b303896f7e04dfb03f04b86a408b4c14194
+
+Package: gltf-node-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (gltf-node-count)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/gltf-node-count_1.0.0-1_all.deb
+Size: 5320
+SHA256: 5bc585202012117e7701c10de0406f32e5ba7f0bd56645d62f949933c4bbf1e4
+
+Package: gltf-mesh-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (gltf-mesh-count)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/gltf-mesh-count_1.0.0-1_all.deb
+Size: 5322
+SHA256: 74930151940dd606647ffb595f74f315a588dde70d5ea6173aab4cce5e494217
+
+Package: gltf-primitive-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (gltf-primitive-count)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/gltf-primitive-count_1.0.0-1_all.deb
+Size: 5324
+SHA256: e5a7a71738b2c7d715dab41080dd4a44c3a7f995c6dba4930546ca650f392bbb
+
+Package: gltf-material-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (gltf-material-count)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/gltf-material-count_1.0.0-1_all.deb
+Size: 5316
+SHA256: 029caa69b3544a01ed69a2b9e4d9f8526283d34798d632d19572b8ed9b5cfdc5
+
+Package: gltf-texture-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (gltf-texture-count)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/gltf-texture-count_1.0.0-1_all.deb
+Size: 5318
+SHA256: acf1771534839548cbdb2d8580ff31bdb808c3f6e4764ff1e56c5da29ffb3595
+
+Package: gltf-image-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (gltf-image-count)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/gltf-image-count_1.0.0-1_all.deb
+Size: 5318
+SHA256: 0926c6444b3f3db362de2d9ca849f276a228ba43485a76006ce2157180de6577
+
+Package: gltf-sampler-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (gltf-sampler-count)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/gltf-sampler-count_1.0.0-1_all.deb
+Size: 5318
+SHA256: 4731a8dd533616f93f186d223ecb89a9fabde17f21ae906da089f87a2079847e
+
+Package: gltf-accessor-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (gltf-accessor-count)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/gltf-accessor-count_1.0.0-1_all.deb
+Size: 5320
+SHA256: 17dbff010011b7e000f8f0e849504d40e4d39fdce865074109ce4d5c831d06f8
+
+Package: gltf-buffer-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (gltf-buffer-count)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/gltf-buffer-count_1.0.0-1_all.deb
+Size: 5316
+SHA256: dfc32f68a581e17affde9c3d90efe53f27a5eabc909f9f98d540d7cb005bd4e2
+
+Package: gltf-bufferview-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (gltf-bufferview-count)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/gltf-bufferview-count_1.0.0-1_all.deb
+Size: 5318
+SHA256: af37d36d136e123e84ee7fc0df3448b0620280c39ec7418a1bf9e05e76b297d5
+
+Package: gltf-animation-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (gltf-animation-count)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/gltf-animation-count_1.0.0-1_all.deb
+Size: 5322
+SHA256: eaf8a76543e4e8f1363440694fc3d2668072015c40f7f847546222d7bf9d9ca2
+
+Package: gltf-skin-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (gltf-skin-count)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/gltf-skin-count_1.0.0-1_all.deb
+Size: 5322
+SHA256: ea392d9e3d1fea85c47f6b47824fa4053ecc8e786d7b9ebfe2d53034e07a3b7e
+
+Package: gltf-camera-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (gltf-camera-count)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/gltf-camera-count_1.0.0-1_all.deb
+Size: 5314
+SHA256: cf1e41d12bf1095edf51326bc91884ef7c78df676f8dba74241095fbe7d21b69
+
+Package: gltf-light-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (gltf-light-count)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/gltf-light-count_1.0.0-1_all.deb
+Size: 5316
+SHA256: 4234209f79ad64c140cc3e077a3d650e8fb50ec00d2ee4fbcc61b0f69e1a6d7a
+
+Package: gltf-node-names
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (gltf-node-names)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/gltf-node-names_1.0.0-1_all.deb
+Size: 5318
+SHA256: 82aefec695865b32266470f54acc911044a8e7e99751ba563d2d7b29d984d1bb
+
+Package: gltf-mesh-names
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (gltf-mesh-names)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/gltf-mesh-names_1.0.0-1_all.deb
+Size: 5318
+SHA256: cfc12b421b6654747344037eb130378ba673a6175ffc59a366b903dd74886dc6
+
+Package: gltf-material-names
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (gltf-material-names)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/gltf-material-names_1.0.0-1_all.deb
+Size: 5316
+SHA256: 4062e994ee58d8d97a7dad1abdaa9dbd121212e549d455ea7652de0f6e148c68
+
+Package: gltf-image-uris
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (gltf-image-uris)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/gltf-image-uris_1.0.0-1_all.deb
+Size: 5320
+SHA256: 6ee7654076c22df1c4b9eec9ccf736d5dfc6c094999c086f6ddaa20767252bde
+
+Package: gltf-buffer-uris
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (gltf-buffer-uris)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/gltf-buffer-uris_1.0.0-1_all.deb
+Size: 5322
+SHA256: 3177a44a32104cc8bfb5d1560b46acfb54828f7a837ee5ce342ae2987ae237cf
+
+Package: gltf-external-uris
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (gltf-external-uris)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/gltf-external-uris_1.0.0-1_all.deb
+Size: 5318
+SHA256: 73b3d72983671f50175fe81f5b2c99f7940c113f504e5519c8ed4fc79299b3d9
+
+Package: gltf-data-uris
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (gltf-data-uris)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/gltf-data-uris_1.0.0-1_all.deb
+Size: 5320
+SHA256: b3251485002779ae381fcd5c0f5651296c748066bbf91bb46570a89179896ce8
+
+Package: gltf-draco-hints
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (gltf-draco-hints)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/gltf-draco-hints_1.0.0-1_all.deb
+Size: 5316
+SHA256: 76cd862cd4d0314acc6a4fc48edf53be9009e5db7ca417821327d14aed024c7d
+
+Package: gltf-meshopt-hints
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (gltf-meshopt-hints)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/gltf-meshopt-hints_1.0.0-1_all.deb
+Size: 5318
+SHA256: 96aa3278be476e042c791881fc2df4535705dc4c4740721ec2b522382909ba8e
+
+Package: gltf-basisu-hints
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (gltf-basisu-hints)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/gltf-basisu-hints_1.0.0-1_all.deb
+Size: 5316
+SHA256: 266f3cf4bb339f44ff074ff746c966d1da4aee5aea0d949af2fe9fd6fca9eb9c
+
+Package: gltf-pbr-materials
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (gltf-pbr-materials)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/gltf-pbr-materials_1.0.0-1_all.deb
+Size: 5318
+SHA256: 8c52967a0b00286694650dd7a00ab2c3964179ea52a01677e98c77494d7fb8a5
+
+Package: gltf-alpha-modes
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (gltf-alpha-modes)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/gltf-alpha-modes_1.0.0-1_all.deb
+Size: 5314
+SHA256: dbe3bf5361ae53f4d758a926b383f1413f0a1cfc54b0fff24aca6a1901e9ba34
+
+Package: gltf-double-sided
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (gltf-double-sided)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/gltf-double-sided_1.0.0-1_all.deb
+Size: 5312
+SHA256: 75846781f721ba14ba8c473a551d8bac20304b5c75ed051f73224eb6d0b0ea11
+
+Package: gltf-texture-transforms
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (gltf-texture-transforms)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/gltf-texture-transforms_1.0.0-1_all.deb
+Size: 5324
+SHA256: 4be498c1e43bd1a8b1b6704ad7422fdaa27c93330738b62d3e3d7a845d472fd6
+
+Package: gltf-scene-roots
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (gltf-scene-roots)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/gltf-scene-roots_1.0.0-1_all.deb
+Size: 5318
+SHA256: a4c7b3fa7779847ea51312925c95524aba8e6ad9c44f6e0c0f1ca4421f587043
+
+Package: gltf-node-children
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (gltf-node-children)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/gltf-node-children_1.0.0-1_all.deb
+Size: 5324
+SHA256: 5e002b5a29386c2199c3ba829ea347b66c5e2000681827313236be0b601f867c
+
+Package: gltf-accessor-bounds
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (gltf-accessor-bounds)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/gltf-accessor-bounds_1.0.0-1_all.deb
+Size: 5324
+SHA256: a6f1bdf1f9f7e547546585ad47440375e9f13790b92e694c56e9978c74b8907a
+
+Package: gltf-minify
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (gltf-minify)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/gltf-minify_1.0.0-1_all.deb
+Size: 5312
+SHA256: a30bac59d64d5e00bfe5c7396389d01ea8b0077ef72fff7edcb52b378eefa4be
+
+Package: gltf-pretty
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (gltf-pretty)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/gltf-pretty_1.0.0-1_all.deb
+Size: 5312
+SHA256: 1adedc03d6f8608508717de7cd2d4b2d6e81f6a8b9ee814f3accc5d9b0c8aeb7
+
+Package: gltf-summary
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (gltf-summary)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/gltf-summary_1.0.0-1_all.deb
+Size: 5316
+SHA256: 197f821ec2ea3bc9e64f847d262403de100dc2eca54935675df7b78f82867d77
+
+Package: glb-magic
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (glb-magic)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/glb-magic_1.0.0-1_all.deb
+Size: 5304
+SHA256: 9d12c81a46cbda9a786a1017d078a7bffe73236df76955ca519e9492c4bbcc72
+
+Package: glb-version
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (glb-version)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/glb-version_1.0.0-1_all.deb
+Size: 5310
+SHA256: 411e161df937958efc0d6fd622c0c83c72c4bed2734d4f2dcef02620fcd6f929
+
+Package: glb-length
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (glb-length)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/glb-length_1.0.0-1_all.deb
+Size: 5312
+SHA256: f778ccd86e8b1e9b5024d4ca06e7d67e44cbe95eb0ba61945c26de72adaa6a1f
+
+Package: glb-chunk-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (glb-chunk-count)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/glb-chunk-count_1.0.0-1_all.deb
+Size: 5320
+SHA256: cd823095f3ef626b84e69e51c5c51b07eaa8ddafa2a3ac5644cf858d9fd139f1
+
+Package: glb-chunk-types
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (glb-chunk-types)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/glb-chunk-types_1.0.0-1_all.deb
+Size: 5322
+SHA256: 8b18ed42406f6a452d61780fe3d5adfe38c5878e8e0fd1a3095af620c3043875
+
+Package: glb-json-chunk
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (glb-json-chunk)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/glb-json-chunk_1.0.0-1_all.deb
+Size: 5320
+SHA256: 83fcd206093c403686891b96056d9157c5ef9c9c7d913c90e7f9a719090bd78c
+
+Package: glb-bin-chunk-size
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (glb-bin-chunk-size)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/glb-bin-chunk-size_1.0.0-1_all.deb
+Size: 5324
+SHA256: bfc4f830a852fe1c9a7b1ec0c89d59a9b906d8708bf9b3167af5e7ebfc6495b6
+
+Package: glb-chunk-offsets
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (glb-chunk-offsets)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/glb-chunk-offsets_1.0.0-1_all.deb
+Size: 5316
+SHA256: abde27668b954de7c3e44e42aa8532d72c42aefbbf3c8974903706ce32f3513d
+
+Package: glb-validate-length
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (glb-validate-length)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/glb-validate-length_1.0.0-1_all.deb
+Size: 5326
+SHA256: d5acfa236c89e8d320b76fefee23790272a1f9a8007349e6da8931c7b2bfb8c3
+
+Package: glb-json-summary
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (glb-json-summary)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/glb-json-summary_1.0.0-1_all.deb
+Size: 5320
+SHA256: c145d7027f97150473e89b1d250526712c761f2a3272ad1515bd4bf812168aa8
+
+Package: glb-embedded-buffer
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (glb-embedded-buffer)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/glb-embedded-buffer_1.0.0-1_all.deb
+Size: 5318
+SHA256: e8b4ba0678058de4aa0e58c6c126c79111bba4f5dc10a0298d57550eb654c44d
+
+Package: glb-sha256
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (glb-sha256)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/glb-sha256_1.0.0-1_all.deb
+Size: 5312
+SHA256: 568fae634fda1f86f9b44b667ce5c85df53799c1e94323685656828b63f7adbd
+
+Package: glb-entropy
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (glb-entropy)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/glb-entropy_1.0.0-1_all.deb
+Size: 5314
+SHA256: c550ae8760414af549dae13876fd7867c7e763098fc9917e69b8ee97f31ff09d
+
+Package: glb-hexdump
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (glb-hexdump)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/glb-hexdump_1.0.0-1_all.deb
+Size: 5318
+SHA256: f9db60609e769aea24383d6b3596b6dc8fd710bc1d5d32ae999009d6c9e15909
+
+Package: glb-summary
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (glb-summary)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/glb-summary_1.0.0-1_all.deb
+Size: 5316
+SHA256: 7131d8ca27df5c788f3ed49577e4e3bbcbed621003715a2e12120a1bc14f50b6
+
+Package: ktx2-magic
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (ktx2-magic)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/ktx2-magic_1.0.0-1_all.deb
+Size: 5310
+SHA256: 5d3ac56db740cc6857874d284820cb707a3405fa7d5bdae9ec490a7d6d54e93d
+
+Package: ktx2-vk-format
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (ktx2-vk-format)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/ktx2-vk-format_1.0.0-1_all.deb
+Size: 5316
+SHA256: 537647300c37df0515960f7d09b85b1b968bca7993b4ccedf608fb39a18c41ec
+
+Package: ktx2-type-size
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (ktx2-type-size)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/ktx2-type-size_1.0.0-1_all.deb
+Size: 5318
+SHA256: 84b7e227f2bd961397e8b55e67ce39c27696dd51d8d83af87b759334a0aaabba
+
+Package: ktx2-pixel-width
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (ktx2-pixel-width)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/ktx2-pixel-width_1.0.0-1_all.deb
+Size: 5312
+SHA256: 621a6ee9ee0bd2ba1c13610fb59de8722ef7d7c3283828d12ac08b26dd24ca28
+
+Package: ktx2-pixel-height
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (ktx2-pixel-height)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/ktx2-pixel-height_1.0.0-1_all.deb
+Size: 5316
+SHA256: ec6dbb6fcef1536b6eef4674b096a44f8076411c851c2e5c69d911f0faa95671
+
+Package: ktx2-pixel-depth
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (ktx2-pixel-depth)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/ktx2-pixel-depth_1.0.0-1_all.deb
+Size: 5318
+SHA256: 0a693c673a0adfc8b157c3054f4dda46998d0c01b82e47fbaaa0e03839814582
+
+Package: ktx2-layer-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (ktx2-layer-count)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/ktx2-layer-count_1.0.0-1_all.deb
+Size: 5316
+SHA256: 1b0e70b90d401376692f607614fc2c69950c98024e6bf2cf10641030292eae86
+
+Package: ktx2-face-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (ktx2-face-count)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/ktx2-face-count_1.0.0-1_all.deb
+Size: 5322
+SHA256: f9c859ff5102a6891983b4653cfd8a326b1992b6c83942b015c4d71ec3395703
+
+Package: ktx2-level-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (ktx2-level-count)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/ktx2-level-count_1.0.0-1_all.deb
+Size: 5318
+SHA256: 10bf058c90037923706c103050e6c178667be7a1bdb0806b3b80e69a276a0745
+
+Package: ktx2-supercompression
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (ktx2-supercompression)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/ktx2-supercompression_1.0.0-1_all.deb
+Size: 5312
+SHA256: 5b7ec9326314fc3939d04881481a10d01e0ed84578b08054588629c4a4f10b4d
+
+Package: ktx2-dfd-offset
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (ktx2-dfd-offset)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/ktx2-dfd-offset_1.0.0-1_all.deb
+Size: 5322
+SHA256: 6c713f384aec4e0d685b50749c01c44e59f070d6c97269f2d972d32b28473c03
+
+Package: ktx2-dfd-length
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (ktx2-dfd-length)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/ktx2-dfd-length_1.0.0-1_all.deb
+Size: 5322
+SHA256: 8e5540a1f734a40fde553b1f88ad4d1668d75e7ab9f96124eb94ac80d4defa46
+
+Package: ktx2-kvd-offset
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (ktx2-kvd-offset)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/ktx2-kvd-offset_1.0.0-1_all.deb
+Size: 5318
+SHA256: c4ed8c791abf12380110e4459c65664ffd12e3f056ed1d8b70045400b38f4a80
+
+Package: ktx2-kvd-length
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (ktx2-kvd-length)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/ktx2-kvd-length_1.0.0-1_all.deb
+Size: 5320
+SHA256: 342c2d2d88e53f449573eb76ded826a177289593d253caeb71b1ea5a8b912787
+
+Package: ktx2-sgd-offset
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (ktx2-sgd-offset)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/ktx2-sgd-offset_1.0.0-1_all.deb
+Size: 5324
+SHA256: af40722ff80b445fbadd9beaa9be121c5c32b1012e6d6f0470414244fef77448
+
+Package: ktx2-sgd-length
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (ktx2-sgd-length)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/ktx2-sgd-length_1.0.0-1_all.deb
+Size: 5320
+SHA256: 1b7df7feb59eb0f3161448e110768db77edc0f979e75cb224b5daf06467b73c1
+
+Package: ktx2-levels
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (ktx2-levels)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/ktx2-levels_1.0.0-1_all.deb
+Size: 5312
+SHA256: 119f0605981c7c9deedb50833742968c01861a3b96b447e261196d9a0dde61da
+
+Package: ktx2-level-sizes
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (ktx2-level-sizes)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/ktx2-level-sizes_1.0.0-1_all.deb
+Size: 5318
+SHA256: e91420c5b2c58bf064ac740a29fa14214bd182cae13b524a3492a7d28545f415
+
+Package: ktx2-basis-detect
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (ktx2-basis-detect)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/ktx2-basis-detect_1.0.0-1_all.deb
+Size: 5314
+SHA256: 7ee21322b96e752a3ff1438d430a39e9cbe03007f765ef569bd3fe48e0047e1a
+
+Package: ktx2-cubemap-detect
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (ktx2-cubemap-detect)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/ktx2-cubemap-detect_1.0.0-1_all.deb
+Size: 5320
+SHA256: c55c4b32c751e39b2f9ba9c5a5ea1dcb8fca1594694fc5a99fb6e2cd4d1c04a9
+
+Package: ktx2-array-detect
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (ktx2-array-detect)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/ktx2-array-detect_1.0.0-1_all.deb
+Size: 5314
+SHA256: bff4222d4723f7e90d5372e5ba8652666e4b2d95f841f7abedc6e2e0caf8e5fb
+
+Package: ktx2-mipmap-detect
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (ktx2-mipmap-detect)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/ktx2-mipmap-detect_1.0.0-1_all.deb
+Size: 5324
+SHA256: 7d5302d90f5053c657c5004ef74938c61eff5c807811839a3af1b982e88fe63d
+
+Package: ktx2-sha256
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (ktx2-sha256)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/ktx2-sha256_1.0.0-1_all.deb
+Size: 5312
+SHA256: 919dfd505e91d326430b8867b5b753fcac3d612bddef76fa3e067b73a5a4a07c
+
+Package: ktx2-header-json
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (ktx2-header-json)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/ktx2-header-json_1.0.0-1_all.deb
+Size: 5320
+SHA256: 0e246caf6a3797090099e146b07e8c4de5f93cd98e58b721c5bbc7d0e151a2b8
+
+Package: ktx2-summary
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (ktx2-summary)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/ktx2-summary_1.0.0-1_all.deb
+Size: 5312
+SHA256: abb7b39f219c479d963303bb89f9627d470a80d9d5ea88b7280ab24e038c4b57
+
+Package: stl-format
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (stl-format)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/stl-format_1.0.0-1_all.deb
+Size: 5308
+SHA256: ef19086e5fec4e93636b15850a300b617d22fe45f06cad26c4ea34468d6f1b44
+
+Package: stl-triangle-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (stl-triangle-count)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/stl-triangle-count_1.0.0-1_all.deb
+Size: 5318
+SHA256: 376a336113cab056306713f202bb3730f6fc9095fe3df899e82983f264fe9d31
+
+Package: stl-bbox
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (stl-bbox)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/stl-bbox_1.0.0-1_all.deb
+Size: 5308
+SHA256: d4c0bb61ba9745204965a1d2a228f90360708fb48c4010f6c248aa898135a085
+
+Package: stl-size-check
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (stl-size-check)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/stl-size-check_1.0.0-1_all.deb
+Size: 5318
+SHA256: 8ad908ab0489d253fd388c7688793ce71fefb4249514c324f73cbd9964bbc9c7
+
+Package: stl-sha256
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (stl-sha256)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/stl-sha256_1.0.0-1_all.deb
+Size: 5306
+SHA256: 9012fc431852e05ff8b779a902e485c97ef3bfb606a98b09c2842f12caebc0d3
+
+Package: ply-format
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (ply-format)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/ply-format_1.0.0-1_all.deb
+Size: 5312
+SHA256: abbba20610b2ffae1b2b38fbceaf4177110b3d9ff89af38bb379591d05a1345f
+
+Package: ply-elements
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (ply-elements)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/ply-elements_1.0.0-1_all.deb
+Size: 5312
+SHA256: 9dba8ad11c49a812a4279d17f8beaf3a4565a41080fb8b96a1d14f9e8c704e8c
+
+Package: ply-vertex-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (ply-vertex-count)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/ply-vertex-count_1.0.0-1_all.deb
+Size: 5316
+SHA256: 798f15dd80c2f6063b208fad5f4ff29c831b7842dae5bfa9a7ef3775c142cc83
+
+Package: ply-face-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (ply-face-count)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/ply-face-count_1.0.0-1_all.deb
+Size: 5314
+SHA256: 0b3f679ae1d009a0ea774ed393419f7b8ed09e7692342dda7c907a67cd7c22a4
+
+Package: ply-properties
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (ply-properties)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/ply-properties_1.0.0-1_all.deb
+Size: 5316
+SHA256: 9e4350ae5fbf9d9276391d0f1250dd5adc0aea09097e087c999e6958904e1048
+
+Package: ply-header
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (ply-header)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/ply-header_1.0.0-1_all.deb
+Size: 5314
+SHA256: 46ba286c3518fcf48af14e0ab0958290c269533a64283cafe28e3cf4696591e9
+
+Package: ply-sha256
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (ply-sha256)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/ply-sha256_1.0.0-1_all.deb
+Size: 5310
+SHA256: af5c019868761522b9cff046fc65a4fa2d81738d14f6578aa33e7f5f6a9f00b3
+
+Package: objmesh-vertex-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (objmesh-vertex-count)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/objmesh-vertex-count_1.0.0-1_all.deb
+Size: 5322
+SHA256: 70b1f5ee48bcef4d372e4717b3a8e05a323689129793d5bdc404ad2812383cb3
+
+Package: objmesh-normal-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (objmesh-normal-count)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/objmesh-normal-count_1.0.0-1_all.deb
+Size: 5320
+SHA256: e0229a8f75b6a25bb4594cf17ce27f99da9605533ee9028d53983c7d18f0baed
+
+Package: objmesh-texcoord-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (objmesh-texcoord-count)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/objmesh-texcoord-count_1.0.0-1_all.deb
+Size: 5324
+SHA256: 43f68d90797fabf1448e9f845d0ec9201bac7bf3fb4e6b7858b7f032b23f4fac
+
+Package: objmesh-face-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (objmesh-face-count)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/objmesh-face-count_1.0.0-1_all.deb
+Size: 5322
+SHA256: 16a3156408866fc73124eb7785b9b4d9c431d44d5a3c10460e16f0c4d893286a
+
+Package: objmesh-object-names
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (objmesh-object-names)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/objmesh-object-names_1.0.0-1_all.deb
+Size: 5320
+SHA256: d9cd16764f6db314d03fefc402b8dca0df5b131c0e0e974f29415d539c06998c
+
+Package: objmesh-group-names
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (objmesh-group-names)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/objmesh-group-names_1.0.0-1_all.deb
+Size: 5322
+SHA256: 7d3872e67654f6f30f16268f477ee203d499360b365edd94d91ae649e079cdb9
+
+Package: mtl-material-names
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (mtl-material-names)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/mtl-material-names_1.0.0-1_all.deb
+Size: 5320
+SHA256: 780665442db97c0b05be0d727754b5938638a612eb0028d22499c0e67ccb3b81
+
+Package: mtl-texture-files
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: glTF/GLB/KTX2/3D asset inspection utility (mtl-texture-files)
+ Functional OceanStudio shard 38 utility. Package-family names are new,
+ while the installation prefix remains /data/data/studio.ocean.app/files/usr.
+Filename: staging/shard-38/pool/main/mtl-texture-files_1.0.0-1_all.deb
+Size: 5310
+SHA256: 3643a2b4c3a13b76258492f01ce9cb8b4e605cc45f906120274d5078080597ac

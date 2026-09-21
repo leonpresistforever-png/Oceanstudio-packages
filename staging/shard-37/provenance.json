@@ -1,0 +1,714 @@
+{
+  "schemaVersion": 1,
+  "suite": "shard-37",
+  "version": "1.0.0-1",
+  "sourceType": "Ocean-native original source",
+  "prefix": "/data/data/studio.ocean.app/files/usr",
+  "packageCount": 100,
+  "uniquePackageCount": 100,
+  "termuxRuntimeDependency": false,
+  "topic": "GeoJSON/WKT/GPX/KML/MapLibre tiles",
+  "packages": [
+    {
+      "package": "geojson-validate-basic",
+      "artifact": "geojson-validate-basic_1.0.0-1_all.deb",
+      "bytes": 6594,
+      "sha256": "79e989cdd5e30091a80206ef11c19e095ec2dfbff2971b7f97c48f5e8451a125",
+      "depends": "python"
+    },
+    {
+      "package": "geojson-type",
+      "artifact": "geojson-type_1.0.0-1_all.deb",
+      "bytes": 6580,
+      "sha256": "4f89c580cdda0434e78b9c15c011ece240c3aad8c6f0491a3af63a8b42c207a5",
+      "depends": "python"
+    },
+    {
+      "package": "geojson-feature-count",
+      "artifact": "geojson-feature-count_1.0.0-1_all.deb",
+      "bytes": 6594,
+      "sha256": "d507d82e18671306d6d03f9ee2aea3dac1d446f086acc65da123721ae99d253f",
+      "depends": "python"
+    },
+    {
+      "package": "geojson-geometry-count",
+      "artifact": "geojson-geometry-count_1.0.0-1_all.deb",
+      "bytes": 6596,
+      "sha256": "f7a76ca89565e7650214655c42a1c75ffcb58c837b7a54ae25c5667580e33dde",
+      "depends": "python"
+    },
+    {
+      "package": "geojson-point-count",
+      "artifact": "geojson-point-count_1.0.0-1_all.deb",
+      "bytes": 6598,
+      "sha256": "5ce1d288472610d024517c46990923d41f6124a7fe91affed8ca3625c9419b6b",
+      "depends": "python"
+    },
+    {
+      "package": "geojson-bbox",
+      "artifact": "geojson-bbox_1.0.0-1_all.deb",
+      "bytes": 6582,
+      "sha256": "eb0e1382ea015488b365533b745ad32fa9e31bb9a0c478cadd4e689f2e29309d",
+      "depends": "python"
+    },
+    {
+      "package": "geojson-properties",
+      "artifact": "geojson-properties_1.0.0-1_all.deb",
+      "bytes": 6594,
+      "sha256": "55affaafca1d6290ed38f808dba4745be4ddc45a4c27adb67c7df9acfc5c2f13",
+      "depends": "python"
+    },
+    {
+      "package": "geojson-property-keys",
+      "artifact": "geojson-property-keys_1.0.0-1_all.deb",
+      "bytes": 6596,
+      "sha256": "26d935d2caf44120d3125b9b6b7fc90214b53994af06a47f9964812e2130dea4",
+      "depends": "python"
+    },
+    {
+      "package": "geojson-crs-hints",
+      "artifact": "geojson-crs-hints_1.0.0-1_all.deb",
+      "bytes": 6592,
+      "sha256": "291e6df06673b0cd19e7bf01e0e5a13809ea80ed02b327e9c01040d3366c955f",
+      "depends": "python"
+    },
+    {
+      "package": "geojson-coordinate-depth",
+      "artifact": "geojson-coordinate-depth_1.0.0-1_all.deb",
+      "bytes": 6598,
+      "sha256": "1d29fccfd9baa20b6f0c4691858c1213b39d4c381bb09b4e3a25aaf1f0e78a66",
+      "depends": "python"
+    },
+    {
+      "package": "geojson-empty-geometries",
+      "artifact": "geojson-empty-geometries_1.0.0-1_all.deb",
+      "bytes": 6598,
+      "sha256": "d72b29fab93a1cd56a3883d8787e13df8946acb23527d6e49963bb69ed6097ac",
+      "depends": "python"
+    },
+    {
+      "package": "geojson-null-geometries",
+      "artifact": "geojson-null-geometries_1.0.0-1_all.deb",
+      "bytes": 6602,
+      "sha256": "0ad31c4a76ee2ea1714702e1a328f33dcebb1abc5a939b5238b3f78c07340108",
+      "depends": "python"
+    },
+    {
+      "package": "geojson-geometry-types",
+      "artifact": "geojson-geometry-types_1.0.0-1_all.deb",
+      "bytes": 6598,
+      "sha256": "67d11c0540ea29a1efcedc84b82dd16b752b4530b69535afc24f66fca6b9a4d7",
+      "depends": "python"
+    },
+    {
+      "package": "geojson-ids",
+      "artifact": "geojson-ids_1.0.0-1_all.deb",
+      "bytes": 6590,
+      "sha256": "613c53c0b2f2340dcbcc7a37d3f75886b5ff25ec3feb47787f1a7eb21b2f32cd",
+      "depends": "python"
+    },
+    {
+      "package": "geojson-centroid-approx",
+      "artifact": "geojson-centroid-approx_1.0.0-1_all.deb",
+      "bytes": 6600,
+      "sha256": "8da3290fe1dbae849dae8a99eb410e78ca222903fb5d8cc49a1e95154d908a19",
+      "depends": "python"
+    },
+    {
+      "package": "geojson-area-bbox",
+      "artifact": "geojson-area-bbox_1.0.0-1_all.deb",
+      "bytes": 6594,
+      "sha256": "d95d887b955fa29ee7acc6f12fa3e97257ee74476b938e5b9f6b906a1c415920",
+      "depends": "python"
+    },
+    {
+      "package": "geojson-line-length-deg",
+      "artifact": "geojson-line-length-deg_1.0.0-1_all.deb",
+      "bytes": 6596,
+      "sha256": "54fba3fdcfa2075f19c144ddbaaa68ed3d3c714999b078794354161e71c1e71a",
+      "depends": "python"
+    },
+    {
+      "package": "geojson-polygon-rings",
+      "artifact": "geojson-polygon-rings_1.0.0-1_all.deb",
+      "bytes": 6596,
+      "sha256": "4ee91a8d53e73794f94cb1db5fc503959511c1af9e8913e86ca5ca34284fe1ba",
+      "depends": "python"
+    },
+    {
+      "package": "geojson-multiparts",
+      "artifact": "geojson-multiparts_1.0.0-1_all.deb",
+      "bytes": 6592,
+      "sha256": "3f795866d45eb60a20e8a7f12346527b8d9c0bcca42eca590f4f34fbd0c21dad",
+      "depends": "python"
+    },
+    {
+      "package": "geojson-normalize",
+      "artifact": "geojson-normalize_1.0.0-1_all.deb",
+      "bytes": 6596,
+      "sha256": "48f377746e70d83577494740333f3d55ae191c97d322287822ca7288b3a7825c",
+      "depends": "python"
+    },
+    {
+      "package": "geojson-minify",
+      "artifact": "geojson-minify_1.0.0-1_all.deb",
+      "bytes": 6588,
+      "sha256": "c5e0b4444c178ec7e790c63e785268d209d0e68cf1478def284f05818925a480",
+      "depends": "python"
+    },
+    {
+      "package": "geojson-pretty",
+      "artifact": "geojson-pretty_1.0.0-1_all.deb",
+      "bytes": 6592,
+      "sha256": "08983d8452e6288c800738ca35a574efaf09c752d99c54282922d292912c613b",
+      "depends": "python"
+    },
+    {
+      "package": "geojson-ndjson",
+      "artifact": "geojson-ndjson_1.0.0-1_all.deb",
+      "bytes": 6588,
+      "sha256": "eec4c073fb1426fc7870fd9895ad2da27b48de49946376c55527734454f8bdcb",
+      "depends": "python"
+    },
+    {
+      "package": "geojson-sha256",
+      "artifact": "geojson-sha256_1.0.0-1_all.deb",
+      "bytes": 6590,
+      "sha256": "b637e44292923116965b4f3d2a36e9996bf0f1e0e4237d1fb6f8d46dafbea1f2",
+      "depends": "python"
+    },
+    {
+      "package": "geojson-summary",
+      "artifact": "geojson-summary_1.0.0-1_all.deb",
+      "bytes": 6582,
+      "sha256": "c70c04bbb9bb672ab403043c75dfb0b467fd47be73d26c448d40f15a9afd748b",
+      "depends": "python"
+    },
+    {
+      "package": "wkt-type",
+      "artifact": "wkt-type_1.0.0-1_all.deb",
+      "bytes": 6580,
+      "sha256": "1db41389f99d8dccea50575ef051b43307c65e77feba2ff35b0906858c61230c",
+      "depends": "python"
+    },
+    {
+      "package": "wkt-dimension",
+      "artifact": "wkt-dimension_1.0.0-1_all.deb",
+      "bytes": 6582,
+      "sha256": "4d85dab15cd8895251739360451747cb63f5a1672f7217407b00ac7191df4b1a",
+      "depends": "python"
+    },
+    {
+      "package": "wkt-coordinate-count",
+      "artifact": "wkt-coordinate-count_1.0.0-1_all.deb",
+      "bytes": 6588,
+      "sha256": "e27af31680079d9c38926bc08aa82c2899bdd9ad26409ce21d8bc98e67bb0c28",
+      "depends": "python"
+    },
+    {
+      "package": "wkt-bbox",
+      "artifact": "wkt-bbox_1.0.0-1_all.deb",
+      "bytes": 6586,
+      "sha256": "ba76372a82e0d85fdb86d8aa44eb91feb24e36c8cf848a883597113b8e06c40e",
+      "depends": "python"
+    },
+    {
+      "package": "wkt-srid",
+      "artifact": "wkt-srid_1.0.0-1_all.deb",
+      "bytes": 6580,
+      "sha256": "1cae8c7c2797cfbc84a607583969066cd1345390ec142f36e610bdddf7bf9199",
+      "depends": "python"
+    },
+    {
+      "package": "wkt-strip-srid",
+      "artifact": "wkt-strip-srid_1.0.0-1_all.deb",
+      "bytes": 6592,
+      "sha256": "6648ff94fc631f81abec3d1b2c5ca176721158cb2a91ebbdfd3014fcd6d3b29a",
+      "depends": "python"
+    },
+    {
+      "package": "wkt-point",
+      "artifact": "wkt-point_1.0.0-1_all.deb",
+      "bytes": 6586,
+      "sha256": "c8bc59974d127ac512cc89ddb99b499c5ae126a459e95db341fdf2948dbd2d9b",
+      "depends": "python"
+    },
+    {
+      "package": "wkt-linestring",
+      "artifact": "wkt-linestring_1.0.0-1_all.deb",
+      "bytes": 6592,
+      "sha256": "0789dab198996bc83d30bfdc6561af3d40b57073adf4245f562aa09b41b839c4",
+      "depends": "python"
+    },
+    {
+      "package": "wkt-polygon-rings",
+      "artifact": "wkt-polygon-rings_1.0.0-1_all.deb",
+      "bytes": 6596,
+      "sha256": "c26e97c5418f8158264e5f3875384c9896ac57c5c5dc5f997a6378263b53c1b8",
+      "depends": "python"
+    },
+    {
+      "package": "wkt-empty",
+      "artifact": "wkt-empty_1.0.0-1_all.deb",
+      "bytes": 6588,
+      "sha256": "49ec2943e598ad6db5ee991dbc311d746211db21b72c99d013a67c4bb068ea3a",
+      "depends": "python"
+    },
+    {
+      "package": "wkt-normalize",
+      "artifact": "wkt-normalize_1.0.0-1_all.deb",
+      "bytes": 6588,
+      "sha256": "08e13e01fb6b3fe04b492005bec96947352a773dfd17f32a8f9fade6818f36d4",
+      "depends": "python"
+    },
+    {
+      "package": "wkt-to-geojson-lite",
+      "artifact": "wkt-to-geojson-lite_1.0.0-1_all.deb",
+      "bytes": 6592,
+      "sha256": "f686329c22e382359d8502851768b1a7c7771672756f7bc5e4cacdd8fdb7a5a6",
+      "depends": "python"
+    },
+    {
+      "package": "wkt-from-geojson-lite",
+      "artifact": "wkt-from-geojson-lite_1.0.0-1_all.deb",
+      "bytes": 6602,
+      "sha256": "3b58a90441238fd994eaa145ad130406d6857d739355c1843bc4daf8cabff82d",
+      "depends": "python"
+    },
+    {
+      "package": "wkt-sha256",
+      "artifact": "wkt-sha256_1.0.0-1_all.deb",
+      "bytes": 6586,
+      "sha256": "8a6c374c09ed77bca599de304a282e09652f62080b389f1a8cc4914491829463",
+      "depends": "python"
+    },
+    {
+      "package": "wkt-summary",
+      "artifact": "wkt-summary_1.0.0-1_all.deb",
+      "bytes": 6590,
+      "sha256": "5df955983994b3f9a650cf993b08b24e74fa3a1c21ceb76c8146d9ffc25ff8cd",
+      "depends": "python"
+    },
+    {
+      "package": "gpx-tracks",
+      "artifact": "gpx-tracks_1.0.0-1_all.deb",
+      "bytes": 6586,
+      "sha256": "14ec10e08d76716d3675418e06478e58720f599a2d1162761ed2a4ac7ff6dadb",
+      "depends": "python"
+    },
+    {
+      "package": "gpx-routes",
+      "artifact": "gpx-routes_1.0.0-1_all.deb",
+      "bytes": 6588,
+      "sha256": "fcb64ead40a79d147a652763fccba5b08a0a7723af9a3364c847f52c6b13472d",
+      "depends": "python"
+    },
+    {
+      "package": "gpx-waypoints",
+      "artifact": "gpx-waypoints_1.0.0-1_all.deb",
+      "bytes": 6586,
+      "sha256": "c0198d85a3417a4ebdf88425890a5f2882e44a476efb3bc90903b55d7968f9ff",
+      "depends": "python"
+    },
+    {
+      "package": "gpx-trackpoints",
+      "artifact": "gpx-trackpoints_1.0.0-1_all.deb",
+      "bytes": 6592,
+      "sha256": "5951cb350e9d11b4440b4bc93127aa2e07b94aa3376c9e6af3d395901cdc0b6f",
+      "depends": "python"
+    },
+    {
+      "package": "gpx-bbox",
+      "artifact": "gpx-bbox_1.0.0-1_all.deb",
+      "bytes": 6582,
+      "sha256": "71f8b46e9f4264d4f0aac20f9d7ca8aae6074986b785c4fbd0d2e0690db2cfa4",
+      "depends": "python"
+    },
+    {
+      "package": "gpx-elevation-range",
+      "artifact": "gpx-elevation-range_1.0.0-1_all.deb",
+      "bytes": 6592,
+      "sha256": "fc93c470cf16409a222689ead388fb7ecec126c4769dc4b0555c975bd767298b",
+      "depends": "python"
+    },
+    {
+      "package": "gpx-time-range",
+      "artifact": "gpx-time-range_1.0.0-1_all.deb",
+      "bytes": 6586,
+      "sha256": "d7602e7e4b1a61dd5a9041e1737627d47ee4c7619ec8271798d6a2b3ad5af777",
+      "depends": "python"
+    },
+    {
+      "package": "gpx-distance-deg",
+      "artifact": "gpx-distance-deg_1.0.0-1_all.deb",
+      "bytes": 6588,
+      "sha256": "4dde8a12eef9a7a3b33403be898afe05fe4a643da12070379a24cbfb64575e32",
+      "depends": "python"
+    },
+    {
+      "package": "gpx-names",
+      "artifact": "gpx-names_1.0.0-1_all.deb",
+      "bytes": 6582,
+      "sha256": "44520912a205d4421ddbd39a46abd8d05bb6f7b6886cc8d3ebe24ef9bcea3fa1",
+      "depends": "python"
+    },
+    {
+      "package": "gpx-summary",
+      "artifact": "gpx-summary_1.0.0-1_all.deb",
+      "bytes": 6586,
+      "sha256": "31a5abf845730eb0cd0981cd6fd8aa712195166c6ac2137a64a93d048e259684",
+      "depends": "python"
+    },
+    {
+      "package": "kml-placemarks",
+      "artifact": "kml-placemarks_1.0.0-1_all.deb",
+      "bytes": 6584,
+      "sha256": "6945e282d80515ed8a237816d7dd484414916b6babd177ced874a8a25ab809f7",
+      "depends": "python"
+    },
+    {
+      "package": "kml-points",
+      "artifact": "kml-points_1.0.0-1_all.deb",
+      "bytes": 6576,
+      "sha256": "75c3d5c8a9c4ef2fe8d9ddfe96f343ba512976a73c68ea51f1fe2b02ced6302b",
+      "depends": "python"
+    },
+    {
+      "package": "kml-linestrings",
+      "artifact": "kml-linestrings_1.0.0-1_all.deb",
+      "bytes": 6586,
+      "sha256": "e133631a1b565e59000344f8be521a090fd84eb71d22037fe67088e12aed91a8",
+      "depends": "python"
+    },
+    {
+      "package": "kml-polygons",
+      "artifact": "kml-polygons_1.0.0-1_all.deb",
+      "bytes": 6576,
+      "sha256": "72a81e7acd110479dada6fc55b9eed13ca6737e50f7290f57d977f1396ca7e53",
+      "depends": "python"
+    },
+    {
+      "package": "kml-coordinates",
+      "artifact": "kml-coordinates_1.0.0-1_all.deb",
+      "bytes": 6592,
+      "sha256": "91a744830bd771b8e67ed4caaeda8d933722af7391d6df42be1821128eef8a31",
+      "depends": "python"
+    },
+    {
+      "package": "kml-names",
+      "artifact": "kml-names_1.0.0-1_all.deb",
+      "bytes": 6582,
+      "sha256": "518e90f8eebc7b95c5c0ab157d5019674b3741e26deb4c55ddae127277b08e79",
+      "depends": "python"
+    },
+    {
+      "package": "kml-styles",
+      "artifact": "kml-styles_1.0.0-1_all.deb",
+      "bytes": 6580,
+      "sha256": "81d19c8ee756624fb43a136fbc298b98eccc08f733f14fff955f20872291d572",
+      "depends": "python"
+    },
+    {
+      "package": "kml-folders",
+      "artifact": "kml-folders_1.0.0-1_all.deb",
+      "bytes": 6588,
+      "sha256": "3912bbf3fd8c867466f8fa7dd7841eb7c23523b21effa8ef61b3fe63a0c502ee",
+      "depends": "python"
+    },
+    {
+      "package": "kml-bbox",
+      "artifact": "kml-bbox_1.0.0-1_all.deb",
+      "bytes": 6576,
+      "sha256": "f4730c9a183ac1c17c86d9aeb706f1f5c7959204b64fa8f5ecd209a0715c58d1",
+      "depends": "python"
+    },
+    {
+      "package": "kml-summary",
+      "artifact": "kml-summary_1.0.0-1_all.deb",
+      "bytes": 6584,
+      "sha256": "32e0b4803dba566e9af125c88fd71f23576f226d2db81d0c8da1264da1f2c80f",
+      "depends": "python"
+    },
+    {
+      "package": "slippy-lonlat-to-tile",
+      "artifact": "slippy-lonlat-to-tile_1.0.0-1_all.deb",
+      "bytes": 6590,
+      "sha256": "781b94f96d073774bfdf20aaf30c1bb352094f8ef5a36b45f07137cbd8162a36",
+      "depends": "python"
+    },
+    {
+      "package": "slippy-tile-to-bbox",
+      "artifact": "slippy-tile-to-bbox_1.0.0-1_all.deb",
+      "bytes": 6588,
+      "sha256": "e91412af442a809de05e6cd6c43a14f3755550b07ea8a1cbf9c6024648a188b1",
+      "depends": "python"
+    },
+    {
+      "package": "slippy-quadkey-encode",
+      "artifact": "slippy-quadkey-encode_1.0.0-1_all.deb",
+      "bytes": 6588,
+      "sha256": "5f03ba191ca1cece3b18f6764406621b5787814eb3288ca3d7d1ca276f585f77",
+      "depends": "python"
+    },
+    {
+      "package": "slippy-quadkey-decode",
+      "artifact": "slippy-quadkey-decode_1.0.0-1_all.deb",
+      "bytes": 6590,
+      "sha256": "b2ee2e63c8ab64304ede34576b87ba31e3930fc850c4f7c19da69927a66b26b2",
+      "depends": "python"
+    },
+    {
+      "package": "slippy-tile-parent",
+      "artifact": "slippy-tile-parent_1.0.0-1_all.deb",
+      "bytes": 6586,
+      "sha256": "1f102079e76c0c572cc6ce359ce4c0a510d29a2ae03922e40120cc18b03be3ef",
+      "depends": "python"
+    },
+    {
+      "package": "slippy-tile-children",
+      "artifact": "slippy-tile-children_1.0.0-1_all.deb",
+      "bytes": 6592,
+      "sha256": "00666b77ea4c03f6b7acabe0b78de994ccfbc4da546f5a49b5433b10d37ac9e0",
+      "depends": "python"
+    },
+    {
+      "package": "slippy-tile-neighbors",
+      "artifact": "slippy-tile-neighbors_1.0.0-1_all.deb",
+      "bytes": 6596,
+      "sha256": "c2d6ac4c54f084c43f439249317163e4a78fcfb763879cb649bc6e5c835841f3",
+      "depends": "python"
+    },
+    {
+      "package": "slippy-tile-count",
+      "artifact": "slippy-tile-count_1.0.0-1_all.deb",
+      "bytes": 6586,
+      "sha256": "07453a7c0e86f0ac69bfe9a706d11852011a393c171a18605271016cc21fbb11",
+      "depends": "python"
+    },
+    {
+      "package": "slippy-url-template",
+      "artifact": "slippy-url-template_1.0.0-1_all.deb",
+      "bytes": 6586,
+      "sha256": "3698f105eed5c7ebbbe504847aba539d6fa67e52620ad0cfee43b81f21c4b755",
+      "depends": "python"
+    },
+    {
+      "package": "slippy-tile-center",
+      "artifact": "slippy-tile-center_1.0.0-1_all.deb",
+      "bytes": 6590,
+      "sha256": "1102ac983956bc96c5c10ab3442973285a66be2223c7fe636ed4399777e75ca7",
+      "depends": "python"
+    },
+    {
+      "package": "mvt-wire-fields",
+      "artifact": "mvt-wire-fields_1.0.0-1_all.deb",
+      "bytes": 6588,
+      "sha256": "848b5d98882a560f4354a8a1c4c0579a145645fee700406017a91fc3f2c25fac",
+      "depends": "python"
+    },
+    {
+      "package": "mvt-layer-count",
+      "artifact": "mvt-layer-count_1.0.0-1_all.deb",
+      "bytes": 6584,
+      "sha256": "5fee2655da2b3559aa134dedc1f43a4f1acd20b1dcd5dbc59f8e21770096bf24",
+      "depends": "python"
+    },
+    {
+      "package": "mvt-layer-names",
+      "artifact": "mvt-layer-names_1.0.0-1_all.deb",
+      "bytes": 6590,
+      "sha256": "dbea0fa936bc39f270e5f7ce4e0a52003a182f85ecbb87b816b57246e472a5e0",
+      "depends": "python"
+    },
+    {
+      "package": "mvt-feature-count",
+      "artifact": "mvt-feature-count_1.0.0-1_all.deb",
+      "bytes": 6586,
+      "sha256": "7b0c968236dfad94ee95e3d9c3c496a6ec5bcecd5082543411612f9b3bb26a4d",
+      "depends": "python"
+    },
+    {
+      "package": "mvt-extent",
+      "artifact": "mvt-extent_1.0.0-1_all.deb",
+      "bytes": 6578,
+      "sha256": "fd93c3a34275c3b9010c18e8041af33b14770034f1738d80aaccc0b25e11ee48",
+      "depends": "python"
+    },
+    {
+      "package": "mvt-version",
+      "artifact": "mvt-version_1.0.0-1_all.deb",
+      "bytes": 6584,
+      "sha256": "3fbecc22380c2e3ba75d8fba20b57d4c6b7629b08f536f9b0b115b809d00b46b",
+      "depends": "python"
+    },
+    {
+      "package": "mvt-key-count",
+      "artifact": "mvt-key-count_1.0.0-1_all.deb",
+      "bytes": 6582,
+      "sha256": "92cb2206ffccf66e1070375689c1f027b5ebe9559e80a8e38791b47f6904c859",
+      "depends": "python"
+    },
+    {
+      "package": "mvt-value-count",
+      "artifact": "mvt-value-count_1.0.0-1_all.deb",
+      "bytes": 6590,
+      "sha256": "576ef251ad956693ef8aea833b66dac5128da6bc25cb3ef40add7761450ef35c",
+      "depends": "python"
+    },
+    {
+      "package": "mvt-sha256",
+      "artifact": "mvt-sha256_1.0.0-1_all.deb",
+      "bytes": 6582,
+      "sha256": "f561caf8ef6d9f71bb8cd32ab2b5c95de68f7722ded849d4133c0ac5804c3f19",
+      "depends": "python"
+    },
+    {
+      "package": "mvt-summary",
+      "artifact": "mvt-summary_1.0.0-1_all.deb",
+      "bytes": 6588,
+      "sha256": "c687fadb4874724204dc4470cb7cc4c23edd4b1a381eedae2df86a2c318dd968",
+      "depends": "python"
+    },
+    {
+      "package": "mlt-version-byte",
+      "artifact": "mlt-version-byte_1.0.0-1_all.deb",
+      "bytes": 6578,
+      "sha256": "9e04c585378f9f6721e41de99cc4cf429b1fa94857681fe8265fd1922d8cb014",
+      "depends": "python"
+    },
+    {
+      "package": "mlt-layer-count",
+      "artifact": "mlt-layer-count_1.0.0-1_all.deb",
+      "bytes": 6586,
+      "sha256": "b93f20d0c11ed5af5c0edc47dd3ee9392685ea6786450fe38804e3fc1fae6cb0",
+      "depends": "python"
+    },
+    {
+      "package": "mlt-layer-sizes",
+      "artifact": "mlt-layer-sizes_1.0.0-1_all.deb",
+      "bytes": 6592,
+      "sha256": "9cb6ff665ee39fd7b00dfb62fb13512016188e9539f4eb5e4fc4a4a8615dbdca",
+      "depends": "python"
+    },
+    {
+      "package": "mlt-tags",
+      "artifact": "mlt-tags_1.0.0-1_all.deb",
+      "bytes": 6580,
+      "sha256": "a29535c6d418a6c88583461570fc8907fc402d53dcd18da0d0043e36bf2910b7",
+      "depends": "python"
+    },
+    {
+      "package": "mlt-v1-detect",
+      "artifact": "mlt-v1-detect_1.0.0-1_all.deb",
+      "bytes": 6582,
+      "sha256": "9c0a8066ede0b95c90d08ea0dc8e00c0f5d3cc1a13041aeb5d8e6b3d5a10619f",
+      "depends": "python"
+    },
+    {
+      "package": "mlt-v2-detect",
+      "artifact": "mlt-v2-detect_1.0.0-1_all.deb",
+      "bytes": 6588,
+      "sha256": "9a45c0e663432e37aea38e40d9aad7b5ef8ee0d38dfe32cac1ecfb2fa17d9d33",
+      "depends": "python"
+    },
+    {
+      "package": "mlt-varints",
+      "artifact": "mlt-varints_1.0.0-1_all.deb",
+      "bytes": 6586,
+      "sha256": "8975e232e21464157c0d82693bac00c54633b79b138b99ec465ed54947feb7b1",
+      "depends": "python"
+    },
+    {
+      "package": "mlt-sha256",
+      "artifact": "mlt-sha256_1.0.0-1_all.deb",
+      "bytes": 6580,
+      "sha256": "5f534fc76b0ce9913a1ae7888fcd7eba730487ba802a5a8827882009fb7aba08",
+      "depends": "python"
+    },
+    {
+      "package": "mlt-bytes",
+      "artifact": "mlt-bytes_1.0.0-1_all.deb",
+      "bytes": 6584,
+      "sha256": "5982d0c63dd44bf2bfff9f79a1a8c9895c1d3e8a3dc18abb2fd81f0f9cdeb46c",
+      "depends": "python"
+    },
+    {
+      "package": "mlt-summary",
+      "artifact": "mlt-summary_1.0.0-1_all.deb",
+      "bytes": 6586,
+      "sha256": "537907224dce3ac952a606d0c676b03ed629dbf1923dc9feea4d6ed81edfa53b",
+      "depends": "python"
+    },
+    {
+      "package": "pmtiles-header-v3",
+      "artifact": "pmtiles-header-v3_1.0.0-1_all.deb",
+      "bytes": 6586,
+      "sha256": "4b5f865faf796f8f8acbfe89c45228d4a1d189946db1c02a729ede60b0345f66",
+      "depends": "python"
+    },
+    {
+      "package": "pmtiles-version",
+      "artifact": "pmtiles-version_1.0.0-1_all.deb",
+      "bytes": 6582,
+      "sha256": "161bd815be11749b9fe04cdd3176ce363fa0f46e44ab8184218c82aca84ec626",
+      "depends": "python"
+    },
+    {
+      "package": "pmtiles-root-offset",
+      "artifact": "pmtiles-root-offset_1.0.0-1_all.deb",
+      "bytes": 6586,
+      "sha256": "4b98e239b50e5da8e66fb01d406db3060e0524b9ee479397a6c34fc21be325fe",
+      "depends": "python"
+    },
+    {
+      "package": "pmtiles-root-length",
+      "artifact": "pmtiles-root-length_1.0.0-1_all.deb",
+      "bytes": 6588,
+      "sha256": "696fe08608627c1f99f61c09e2f7937f7d876e23b86ab25283fc45d5707fb1ca",
+      "depends": "python"
+    },
+    {
+      "package": "pmtiles-json-offset",
+      "artifact": "pmtiles-json-offset_1.0.0-1_all.deb",
+      "bytes": 6588,
+      "sha256": "ebbf59249820274b390ea189a8d9c633522d29135c449bf6bb2029340c1a7b49",
+      "depends": "python"
+    },
+    {
+      "package": "pmtiles-json-length",
+      "artifact": "pmtiles-json-length_1.0.0-1_all.deb",
+      "bytes": 6588,
+      "sha256": "cc791a44d4c2346daa9236b03cc01f0a2bce5893fb24b62bd393d20127ba0d86",
+      "depends": "python"
+    },
+    {
+      "package": "pmtiles-tile-type",
+      "artifact": "pmtiles-tile-type_1.0.0-1_all.deb",
+      "bytes": 6580,
+      "sha256": "5889164622b5b15c6e0a887785694e26d2736000694e1aada43c941d9cd5917e",
+      "depends": "python"
+    },
+    {
+      "package": "pmtiles-compression",
+      "artifact": "pmtiles-compression_1.0.0-1_all.deb",
+      "bytes": 6588,
+      "sha256": "496c4fb9ffb275b517818f85d11ae1058b178e40729eb854fee1991cfd64e5fd",
+      "depends": "python"
+    },
+    {
+      "package": "pmtiles-sha256",
+      "artifact": "pmtiles-sha256_1.0.0-1_all.deb",
+      "bytes": 6584,
+      "sha256": "9b007f3bdb85498453877e688be792d85051618ef399d40bba4be5de9ac9cb2e",
+      "depends": "python"
+    },
+    {
+      "package": "pmtiles-summary",
+      "artifact": "pmtiles-summary_1.0.0-1_all.deb",
+      "bytes": 6586,
+      "sha256": "33aea0e8cc1afcaaebf8d7b658a69e7142e79f11de70e799877beb3388201727",
+      "depends": "python"
+    }
+  ],
+  "promotion": "staging-only until APT promotion/signing"
+}

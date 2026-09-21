@@ -1,0 +1,714 @@
+{
+  "schemaVersion": 1,
+  "suite": "shard-39",
+  "version": "1.0.0-1",
+  "sourceType": "Ocean-native original source",
+  "prefix": "/data/data/studio.ocean.app/files/usr",
+  "packageCount": 100,
+  "uniquePackageCount": 100,
+  "termuxRuntimeDependency": false,
+  "topic": "Android DEX/AXML/ARSC/APK internals",
+  "packages": [
+    {
+      "package": "dex-magic",
+      "artifact": "dex-magic_1.0.0-1_all.deb",
+      "bytes": 6230,
+      "sha256": "1ccb10d3ddd5cfd5a54d51043283bdc08bf37642563645ca43e4fdb84ab06848",
+      "depends": "python"
+    },
+    {
+      "package": "dex-version",
+      "artifact": "dex-version_1.0.0-1_all.deb",
+      "bytes": 6232,
+      "sha256": "1459c4ce666c6db424283d4fd505e8a021a1df45898e007f1dc08fb441be7146",
+      "depends": "python"
+    },
+    {
+      "package": "dex-checksum",
+      "artifact": "dex-checksum_1.0.0-1_all.deb",
+      "bytes": 6236,
+      "sha256": "df4b926c640e1e4fdc76d341158af28dceea2808b2950e16eac33294c66d020f",
+      "depends": "python"
+    },
+    {
+      "package": "dex-signature",
+      "artifact": "dex-signature_1.0.0-1_all.deb",
+      "bytes": 6232,
+      "sha256": "8dfcd37e4e19998637f60fda8cc97b48d552505fde7a79e0d8c264be33afdc13",
+      "depends": "python"
+    },
+    {
+      "package": "dex-file-size",
+      "artifact": "dex-file-size_1.0.0-1_all.deb",
+      "bytes": 6234,
+      "sha256": "c5ea48a467e28c71743b39436984239ef143842da7733f179c2964d8867cbab1",
+      "depends": "python"
+    },
+    {
+      "package": "dex-header-size",
+      "artifact": "dex-header-size_1.0.0-1_all.deb",
+      "bytes": 6242,
+      "sha256": "1b78c8b357e29d9ecfc468e626c59ef3b7a656de48c65fbe784f6bc66b84fe02",
+      "depends": "python"
+    },
+    {
+      "package": "dex-endian-tag",
+      "artifact": "dex-endian-tag_1.0.0-1_all.deb",
+      "bytes": 6236,
+      "sha256": "3611f320f6c9865209ac54be1f47e25bf2c3d5cc5fee88c7e62bfe8597f76279",
+      "depends": "python"
+    },
+    {
+      "package": "dex-link-size",
+      "artifact": "dex-link-size_1.0.0-1_all.deb",
+      "bytes": 6240,
+      "sha256": "5beb49de8a64ed9bed94e13bca6dc65ddde4d4897b9eaca73e31e99f7aacc0ed",
+      "depends": "python"
+    },
+    {
+      "package": "dex-map-off",
+      "artifact": "dex-map-off_1.0.0-1_all.deb",
+      "bytes": 6234,
+      "sha256": "8c84491d8bb80b59b8b728dac1e6247f25d797980ae0264394c431285ba216d7",
+      "depends": "python"
+    },
+    {
+      "package": "dex-string-count",
+      "artifact": "dex-string-count_1.0.0-1_all.deb",
+      "bytes": 6238,
+      "sha256": "e59d070675144416b425c2334aa0a1f6119e708cf9a13c4319a9476c4a8d5ce8",
+      "depends": "python"
+    },
+    {
+      "package": "dex-string-off",
+      "artifact": "dex-string-off_1.0.0-1_all.deb",
+      "bytes": 6238,
+      "sha256": "d170ac409d53789bebba1bf0ffa671824df7fb3dc66d4c1290e46c5e59be6be2",
+      "depends": "python"
+    },
+    {
+      "package": "dex-type-count",
+      "artifact": "dex-type-count_1.0.0-1_all.deb",
+      "bytes": 6238,
+      "sha256": "db8d5ac85962bb2a4d8da865dafc4ff03cb4464abfb19783e2a32d25b1cfa575",
+      "depends": "python"
+    },
+    {
+      "package": "dex-type-off",
+      "artifact": "dex-type-off_1.0.0-1_all.deb",
+      "bytes": 6238,
+      "sha256": "6f5771816c64bc6abd0fca539643a94e57006a1438afe58e8f256074baa0e538",
+      "depends": "python"
+    },
+    {
+      "package": "dex-proto-count",
+      "artifact": "dex-proto-count_1.0.0-1_all.deb",
+      "bytes": 6244,
+      "sha256": "15f184a0b2dceb88a7ea5166c77d10e5948117b4ce2106354ee079d45521affd",
+      "depends": "python"
+    },
+    {
+      "package": "dex-proto-off",
+      "artifact": "dex-proto-off_1.0.0-1_all.deb",
+      "bytes": 6234,
+      "sha256": "1f953122173cff546a08253fdcf65ff7bdaf1b48adde7c1fc7b66ed3da782d9f",
+      "depends": "python"
+    },
+    {
+      "package": "dex-field-count",
+      "artifact": "dex-field-count_1.0.0-1_all.deb",
+      "bytes": 6242,
+      "sha256": "e1f3a0b4ff4ba0290b698691d3747fd57a25ef905ff92708f25f51c4671d04c8",
+      "depends": "python"
+    },
+    {
+      "package": "dex-field-off",
+      "artifact": "dex-field-off_1.0.0-1_all.deb",
+      "bytes": 6232,
+      "sha256": "e624df7544a174914f1b8103123051db24e5b0de0bb14e7cea1e2db24bff83ed",
+      "depends": "python"
+    },
+    {
+      "package": "dex-method-count",
+      "artifact": "dex-method-count_1.0.0-1_all.deb",
+      "bytes": 6236,
+      "sha256": "a46196750f9da363d5391e0179388e99cfa051538648a81f108817c83ee3f05c",
+      "depends": "python"
+    },
+    {
+      "package": "dex-method-off",
+      "artifact": "dex-method-off_1.0.0-1_all.deb",
+      "bytes": 6238,
+      "sha256": "2db88547941973b220eff9b4205eaf351f25316f51308687c20d69ae28a78a75",
+      "depends": "python"
+    },
+    {
+      "package": "dex-class-count",
+      "artifact": "dex-class-count_1.0.0-1_all.deb",
+      "bytes": 6240,
+      "sha256": "8e5239f99239ddab872a689b033673e6a7c67f2dcb344d984c2435cc31cca9a8",
+      "depends": "python"
+    },
+    {
+      "package": "dex-class-off",
+      "artifact": "dex-class-off_1.0.0-1_all.deb",
+      "bytes": 6234,
+      "sha256": "69f36d847e1e666d43c213b083e8d9e2a9cfc62aac3e2f3a127da616f7065724",
+      "depends": "python"
+    },
+    {
+      "package": "dex-data-size",
+      "artifact": "dex-data-size_1.0.0-1_all.deb",
+      "bytes": 6238,
+      "sha256": "c2b9c7775a9dcd25e85d00b9640903ea4ca5b87c5876b0d0721f418c60b88588",
+      "depends": "python"
+    },
+    {
+      "package": "dex-data-off",
+      "artifact": "dex-data-off_1.0.0-1_all.deb",
+      "bytes": 6240,
+      "sha256": "2842dcbe7dfe6a1e172f7657cd8cbd8c04f061532aed2e258c0dbe6c0d181e30",
+      "depends": "python"
+    },
+    {
+      "package": "dex-map-list",
+      "artifact": "dex-map-list_1.0.0-1_all.deb",
+      "bytes": 6232,
+      "sha256": "66063a88d6fe665a5a4593cb2bf292e46a1d9f8fc0eddec2984b948c7a79c629",
+      "depends": "python"
+    },
+    {
+      "package": "dex-string-sample",
+      "artifact": "dex-string-sample_1.0.0-1_all.deb",
+      "bytes": 6240,
+      "sha256": "1401d608f038d84591fdf8ed435c61d8b8469cd4fa0fde6ee621578d812af18e",
+      "depends": "python"
+    },
+    {
+      "package": "dex-strings",
+      "artifact": "dex-strings_1.0.0-1_all.deb",
+      "bytes": 6232,
+      "sha256": "2d86bbe8d567b01233ca37dc70b415c8d9e0893705d5ddd81e48d645bbef964f",
+      "depends": "python"
+    },
+    {
+      "package": "dex-type-descriptors",
+      "artifact": "dex-type-descriptors_1.0.0-1_all.deb",
+      "bytes": 6242,
+      "sha256": "d24445ea555ac257c0d3a2ebc383d0c53948bd4cff1356cf63818c95f13ec47f",
+      "depends": "python"
+    },
+    {
+      "package": "dex-method-id-summary",
+      "artifact": "dex-method-id-summary_1.0.0-1_all.deb",
+      "bytes": 6244,
+      "sha256": "778edf8e21f0729e89f8dfd5776560009277a530bf9561785e19f7ba9a5b4b5f",
+      "depends": "python"
+    },
+    {
+      "package": "dex-class-def-summary",
+      "artifact": "dex-class-def-summary_1.0.0-1_all.deb",
+      "bytes": 6246,
+      "sha256": "906a94776026b52ab55935a8fb681edbd8342f92d288cf4c65643efd30e47444",
+      "depends": "python"
+    },
+    {
+      "package": "dex-sha1-check",
+      "artifact": "dex-sha1-check_1.0.0-1_all.deb",
+      "bytes": 6236,
+      "sha256": "e992a2b9fb1d46a10b3e74f6478af24720bcecf0e222668ba2acd13080124b1b",
+      "depends": "python"
+    },
+    {
+      "package": "dex-adler32-check",
+      "artifact": "dex-adler32-check_1.0.0-1_all.deb",
+      "bytes": 6244,
+      "sha256": "e63b5ebebc3c2cd452080dd1f254da85a236a12d97cab58eac8f03372061abd9",
+      "depends": "python"
+    },
+    {
+      "package": "dex-compact-dex-detect",
+      "artifact": "dex-compact-dex-detect_1.0.0-1_all.deb",
+      "bytes": 6242,
+      "sha256": "cb4bb00f794d1d937f17ba936f3ac47b27f3819bde4897d08bc061c85336055d",
+      "depends": "python"
+    },
+    {
+      "package": "dex-hiddenapi-hints",
+      "artifact": "dex-hiddenapi-hints_1.0.0-1_all.deb",
+      "bytes": 6238,
+      "sha256": "171d35f6001e4f40fa1225cac4965e5a701bad850152d0d118aae8fca38b8436",
+      "depends": "python"
+    },
+    {
+      "package": "dex-duplicate-strings",
+      "artifact": "dex-duplicate-strings_1.0.0-1_all.deb",
+      "bytes": 6242,
+      "sha256": "9f2c455c8d2004962d6ced7eddbb909626482d2739bf50af8f11c24ff279afb7",
+      "depends": "python"
+    },
+    {
+      "package": "dex-utf8-errors",
+      "artifact": "dex-utf8-errors_1.0.0-1_all.deb",
+      "bytes": 6240,
+      "sha256": "aa34b6257f19905c72776ef1fee9504ba3f0e4a603a8cec4a2c8687a7a5bb45f",
+      "depends": "python"
+    },
+    {
+      "package": "dex-section-ranges",
+      "artifact": "dex-section-ranges_1.0.0-1_all.deb",
+      "bytes": 6240,
+      "sha256": "b3c44810c563a688c386163194e5afb7fd78c239ed797c577aaa222291e94c55",
+      "depends": "python"
+    },
+    {
+      "package": "dex-section-overlap",
+      "artifact": "dex-section-overlap_1.0.0-1_all.deb",
+      "bytes": 6242,
+      "sha256": "7e8663efa9c8c6569c19f8a67e85a3fe65e4a214e13599298f614652ce3b5ec6",
+      "depends": "python"
+    },
+    {
+      "package": "dex-entropy",
+      "artifact": "dex-entropy_1.0.0-1_all.deb",
+      "bytes": 6234,
+      "sha256": "7494ff9c379fdc890c571efcd3bf8db63ccb5dbb688e756d5664cd7cb1959fd4",
+      "depends": "python"
+    },
+    {
+      "package": "dex-sha256",
+      "artifact": "dex-sha256_1.0.0-1_all.deb",
+      "bytes": 6234,
+      "sha256": "e15f407bf74a6c30e1ca670692b3431b481fd2bb8501adcc951f891f09222656",
+      "depends": "python"
+    },
+    {
+      "package": "dex-summary",
+      "artifact": "dex-summary_1.0.0-1_all.deb",
+      "bytes": 6236,
+      "sha256": "c819079fa52d4ef8459e02c22aa5aaa124a0d0c4a50a4740860cfd46078edfe8",
+      "depends": "python"
+    },
+    {
+      "package": "axml-magic",
+      "artifact": "axml-magic_1.0.0-1_all.deb",
+      "bytes": 6232,
+      "sha256": "2d964703919cf412c0abd88fe31900001702b1ab0801fe755210279337c8681c",
+      "depends": "python"
+    },
+    {
+      "package": "axml-chunk-size",
+      "artifact": "axml-chunk-size_1.0.0-1_all.deb",
+      "bytes": 6238,
+      "sha256": "44e15ee375211048ce6fb76661fdffefeb4c9f05bb1c75584f73f5efc1ff8850",
+      "depends": "python"
+    },
+    {
+      "package": "axml-chunk-count",
+      "artifact": "axml-chunk-count_1.0.0-1_all.deb",
+      "bytes": 6238,
+      "sha256": "ec4ec3f7a88dafcbbadd78624ff7c7b6d8ddb8b9da95885d1741391408366106",
+      "depends": "python"
+    },
+    {
+      "package": "axml-chunk-types",
+      "artifact": "axml-chunk-types_1.0.0-1_all.deb",
+      "bytes": 6232,
+      "sha256": "2b1c6ce0f3d77b4772c9954f58164798dd3581ce83a2607dff8684716bbcedd3",
+      "depends": "python"
+    },
+    {
+      "package": "axml-string-pool-detect",
+      "artifact": "axml-string-pool-detect_1.0.0-1_all.deb",
+      "bytes": 6238,
+      "sha256": "a3b1b7df5e3028c86d372c844c610639a9d5fae2351e65e7af4031296df68fbd",
+      "depends": "python"
+    },
+    {
+      "package": "axml-string-count",
+      "artifact": "axml-string-count_1.0.0-1_all.deb",
+      "bytes": 6242,
+      "sha256": "82b6eeda25c8a246d3245ae914329610f6f08b8cdebb5436149f6b8f3a6aca85",
+      "depends": "python"
+    },
+    {
+      "package": "axml-utf8-flag",
+      "artifact": "axml-utf8-flag_1.0.0-1_all.deb",
+      "bytes": 6236,
+      "sha256": "aed37d0447e01af36e36a9fa2ebbee7dd30fd9dc4f073c43807bdbf44c1f91bf",
+      "depends": "python"
+    },
+    {
+      "package": "axml-resource-map-count",
+      "artifact": "axml-resource-map-count_1.0.0-1_all.deb",
+      "bytes": 6242,
+      "sha256": "d0dc78915e26c69d2837a4c57b172ed71b3409cb12a75cf6432316b4e087de86",
+      "depends": "python"
+    },
+    {
+      "package": "axml-namespace-count",
+      "artifact": "axml-namespace-count_1.0.0-1_all.deb",
+      "bytes": 6240,
+      "sha256": "cb5a8d3f5efd22eddfc20ae064c33f7ef4c418bd2ed288d48764445649f7aebd",
+      "depends": "python"
+    },
+    {
+      "package": "axml-element-count",
+      "artifact": "axml-element-count_1.0.0-1_all.deb",
+      "bytes": 6244,
+      "sha256": "d799739919d0da1007e0c3c9bebf3e045f0fb3606c0e4b9f5cc99bfec08f3ff4",
+      "depends": "python"
+    },
+    {
+      "package": "axml-attribute-count",
+      "artifact": "axml-attribute-count_1.0.0-1_all.deb",
+      "bytes": 6244,
+      "sha256": "ede9dec36396748f5c80cb218547dcc0e79dfd8ec7a692ca8d49a6beefc941f3",
+      "depends": "python"
+    },
+    {
+      "package": "axml-text-chunk-count",
+      "artifact": "axml-text-chunk-count_1.0.0-1_all.deb",
+      "bytes": 6248,
+      "sha256": "e96559b89edb94c396b860f47e0c8ce862acb0d98da4d3c8e05de3134963902f",
+      "depends": "python"
+    },
+    {
+      "package": "axml-chunk-offsets",
+      "artifact": "axml-chunk-offsets_1.0.0-1_all.deb",
+      "bytes": 6244,
+      "sha256": "edde75d60630ede52728de35303a03624c61471e5c39d0c39e73aec4e0aa39f2",
+      "depends": "python"
+    },
+    {
+      "package": "axml-invalid-chunks",
+      "artifact": "axml-invalid-chunks_1.0.0-1_all.deb",
+      "bytes": 6240,
+      "sha256": "b41d4d9fcab2c6e6ebd3b804ab4797df75cd29a5628912c40fd4a48656d63ffe",
+      "depends": "python"
+    },
+    {
+      "package": "axml-package-hints",
+      "artifact": "axml-package-hints_1.0.0-1_all.deb",
+      "bytes": 6236,
+      "sha256": "66e12b6d1f7e3e2171accfeae124a71ccd6d8dfabe60d58480a5819d76e8153f",
+      "depends": "python"
+    },
+    {
+      "package": "axml-permission-string-hints",
+      "artifact": "axml-permission-string-hints_1.0.0-1_all.deb",
+      "bytes": 6248,
+      "sha256": "73855323d238a5b79b7639d2dc88a6bbd310fbe560edda39a6409166cbc38df1",
+      "depends": "python"
+    },
+    {
+      "package": "axml-intent-string-hints",
+      "artifact": "axml-intent-string-hints_1.0.0-1_all.deb",
+      "bytes": 6250,
+      "sha256": "3fca420fdc0010b920b7222683fb3b3ba04b3ecd50ba90d192448637c3e2b816",
+      "depends": "python"
+    },
+    {
+      "package": "axml-component-string-hints",
+      "artifact": "axml-component-string-hints_1.0.0-1_all.deb",
+      "bytes": 6250,
+      "sha256": "7d2c49d9efb195e05fb3aa429218f9d987009aad67ca29a0701b5955ed634669",
+      "depends": "python"
+    },
+    {
+      "package": "axml-sha256",
+      "artifact": "axml-sha256_1.0.0-1_all.deb",
+      "bytes": 6236,
+      "sha256": "5ca3dd9b20c4c3192ed7bc5dc1dde4806fc05368959b0360fdaa2994eaf9bea7",
+      "depends": "python"
+    },
+    {
+      "package": "axml-summary",
+      "artifact": "axml-summary_1.0.0-1_all.deb",
+      "bytes": 6230,
+      "sha256": "e8ae704a43eea2b4fa0cf83a8090b5758ab34d01baa146f157d7386d6a131b11",
+      "depends": "python"
+    },
+    {
+      "package": "arsc-magic",
+      "artifact": "arsc-magic_1.0.0-1_all.deb",
+      "bytes": 6234,
+      "sha256": "affbe56317c9f55171b23679d99bbd736b7b34e0dd0af2dab7cc1947270beea5",
+      "depends": "python"
+    },
+    {
+      "package": "arsc-file-size",
+      "artifact": "arsc-file-size_1.0.0-1_all.deb",
+      "bytes": 6236,
+      "sha256": "2275c042d54c7151959518479b8fb2bf954aa8724b9d0ece8a52e4becd4053a1",
+      "depends": "python"
+    },
+    {
+      "package": "arsc-chunk-count",
+      "artifact": "arsc-chunk-count_1.0.0-1_all.deb",
+      "bytes": 6238,
+      "sha256": "1aa95fcae253dd338253091a7767019431754efd1cb7263c919d3b1433e4cee9",
+      "depends": "python"
+    },
+    {
+      "package": "arsc-chunk-types",
+      "artifact": "arsc-chunk-types_1.0.0-1_all.deb",
+      "bytes": 6238,
+      "sha256": "76ae10c5745fbdfd8e9db2c2c71ef8065961890054148f589e58988c95e47507",
+      "depends": "python"
+    },
+    {
+      "package": "arsc-string-pool-count",
+      "artifact": "arsc-string-pool-count_1.0.0-1_all.deb",
+      "bytes": 6248,
+      "sha256": "fe0c7a15b82b37ff49c50ce74d00e9d38dd4dce27261b46295a661f1b871b00e",
+      "depends": "python"
+    },
+    {
+      "package": "arsc-package-count",
+      "artifact": "arsc-package-count_1.0.0-1_all.deb",
+      "bytes": 6242,
+      "sha256": "a69201c4dd219a2f577e88fb072a10406597c19af60938d4ca1f28467054bfbe",
+      "depends": "python"
+    },
+    {
+      "package": "arsc-package-ids",
+      "artifact": "arsc-package-ids_1.0.0-1_all.deb",
+      "bytes": 6232,
+      "sha256": "2f8a72413ad8084a309662ddaf1313c7999b051c2b95455c32b45a015560ce9f",
+      "depends": "python"
+    },
+    {
+      "package": "arsc-package-name-hints",
+      "artifact": "arsc-package-name-hints_1.0.0-1_all.deb",
+      "bytes": 6246,
+      "sha256": "42ee6cb89c82857596c717064bebba13fd003e18f2178db5004d4c1cd733bc41",
+      "depends": "python"
+    },
+    {
+      "package": "arsc-type-string-hints",
+      "artifact": "arsc-type-string-hints_1.0.0-1_all.deb",
+      "bytes": 6246,
+      "sha256": "ce1ca08eddf0d2c091ea04067e629d0d46eaecf825e8e551b55fc86f71b35f39",
+      "depends": "python"
+    },
+    {
+      "package": "arsc-key-string-hints",
+      "artifact": "arsc-key-string-hints_1.0.0-1_all.deb",
+      "bytes": 6244,
+      "sha256": "d63245ba9debfc392090322c65a360c7aaa575b3043d54357d3aca9fdc3d174e",
+      "depends": "python"
+    },
+    {
+      "package": "arsc-type-chunk-count",
+      "artifact": "arsc-type-chunk-count_1.0.0-1_all.deb",
+      "bytes": 6248,
+      "sha256": "79a46085ae0c2a76575ea3a7540e6d0961469d7bafa9b5081e725fe6f5522a4c",
+      "depends": "python"
+    },
+    {
+      "package": "arsc-spec-chunk-count",
+      "artifact": "arsc-spec-chunk-count_1.0.0-1_all.deb",
+      "bytes": 6246,
+      "sha256": "262886dae17462052bc3821b94853664d89a23948fa9d4e243fa1f8910e627be",
+      "depends": "python"
+    },
+    {
+      "package": "arsc-entry-count-hints",
+      "artifact": "arsc-entry-count-hints_1.0.0-1_all.deb",
+      "bytes": 6246,
+      "sha256": "f7405c107a049df16e8ec456a7de918e34a955c3bf9f98125a27c092207534e9",
+      "depends": "python"
+    },
+    {
+      "package": "arsc-config-size-hints",
+      "artifact": "arsc-config-size-hints_1.0.0-1_all.deb",
+      "bytes": 6250,
+      "sha256": "5a89b7cf246772b30c99522a56c7905a9d0396631d93c226091ca385bd1476cd",
+      "depends": "python"
+    },
+    {
+      "package": "arsc-density-hints",
+      "artifact": "arsc-density-hints_1.0.0-1_all.deb",
+      "bytes": 6244,
+      "sha256": "05c6df9f15c62eca5b35bcd4935164857a5a4befa7d8d4f54d52eaaef5853e1e",
+      "depends": "python"
+    },
+    {
+      "package": "arsc-locale-hints",
+      "artifact": "arsc-locale-hints_1.0.0-1_all.deb",
+      "bytes": 6244,
+      "sha256": "1d0b4165b887d204d8b2fdbea81d77030b842698993fb93d400d071262688de2",
+      "depends": "python"
+    },
+    {
+      "package": "arsc-chunk-offsets",
+      "artifact": "arsc-chunk-offsets_1.0.0-1_all.deb",
+      "bytes": 6242,
+      "sha256": "a1c3c6762cb1300d70e1d2a307a45ef100ccc533ee57107d8b0ce93a8273dc5e",
+      "depends": "python"
+    },
+    {
+      "package": "arsc-sha256",
+      "artifact": "arsc-sha256_1.0.0-1_all.deb",
+      "bytes": 6232,
+      "sha256": "ea37760611827f099b0f4973fd3d00a08f42694bc3e8603082140b71a225cafc",
+      "depends": "python"
+    },
+    {
+      "package": "arsc-entropy",
+      "artifact": "arsc-entropy_1.0.0-1_all.deb",
+      "bytes": 6234,
+      "sha256": "abfdff09a379cb32d16bf406136a657f814fa8720b7bd9fc7ecb8b43bbae56a2",
+      "depends": "python"
+    },
+    {
+      "package": "arsc-summary",
+      "artifact": "arsc-summary_1.0.0-1_all.deb",
+      "bytes": 6230,
+      "sha256": "9b3049486069ff6392a3c1bd8d698e452512529de29f32917e8833bdebfb9ca5",
+      "depends": "python"
+    },
+    {
+      "package": "apk-entry-count",
+      "artifact": "apk-entry-count_1.0.0-1_all.deb",
+      "bytes": 6238,
+      "sha256": "0981cafe6a6e35dccf8092b322d6025afcc0f9d57d114e37d45c58d43474922c",
+      "depends": "python"
+    },
+    {
+      "package": "apk-uncompressed-size",
+      "artifact": "apk-uncompressed-size_1.0.0-1_all.deb",
+      "bytes": 6240,
+      "sha256": "e096b409119989f550a576d5500aa07daf6dd1ea1414299f0482c7287da5f193",
+      "depends": "python"
+    },
+    {
+      "package": "apk-compressed-size",
+      "artifact": "apk-compressed-size_1.0.0-1_all.deb",
+      "bytes": 6244,
+      "sha256": "b4613be14265e2757279002909edc7a63930fac4e75370cf4169ce5353c09498",
+      "depends": "python"
+    },
+    {
+      "package": "apk-compression-ratio",
+      "artifact": "apk-compression-ratio_1.0.0-1_all.deb",
+      "bytes": 6244,
+      "sha256": "ba30e0d7341e767d2e79b76b262b335e0c96ec0501e24c937e0de6942607c4bc",
+      "depends": "python"
+    },
+    {
+      "package": "apk-dex-files",
+      "artifact": "apk-dex-files_1.0.0-1_all.deb",
+      "bytes": 6232,
+      "sha256": "ca62f1b67b07e0d3cff6f807b866f454fc77ce60854a2b116136da4c7361e0ef",
+      "depends": "python"
+    },
+    {
+      "package": "apk-dex-total",
+      "artifact": "apk-dex-total_1.0.0-1_all.deb",
+      "bytes": 6236,
+      "sha256": "34323bcad30642bf1af7719bfef5b4b5b2248a4598b3e7e4ef1baa54a35559ba",
+      "depends": "python"
+    },
+    {
+      "package": "apk-native-abis",
+      "artifact": "apk-native-abis_1.0.0-1_all.deb",
+      "bytes": 6240,
+      "sha256": "0d6dddfdfd1ecdeb1c631d15277dc407b703e9201e0d079b001a5f94ae20e91f",
+      "depends": "python"
+    },
+    {
+      "package": "apk-native-lib-count",
+      "artifact": "apk-native-lib-count_1.0.0-1_all.deb",
+      "bytes": 6248,
+      "sha256": "ea77a4ea8210b177265a723475c482ccad1703e48d0b5c81af84e1e8a26e8dfe",
+      "depends": "python"
+    },
+    {
+      "package": "apk-assets-count",
+      "artifact": "apk-assets-count_1.0.0-1_all.deb",
+      "bytes": 6232,
+      "sha256": "3068f263bcb49bd0f9fb2fdfbdf22f8dbeb8881565eb52980622c911b4412523",
+      "depends": "python"
+    },
+    {
+      "package": "apk-res-count",
+      "artifact": "apk-res-count_1.0.0-1_all.deb",
+      "bytes": 6230,
+      "sha256": "2ffbc951224bc71e720b91b68b5a5f7e252337d2ffb6342bc6986a96b42c0370",
+      "depends": "python"
+    },
+    {
+      "package": "apk-signing-block-detect",
+      "artifact": "apk-signing-block-detect_1.0.0-1_all.deb",
+      "bytes": 6246,
+      "sha256": "820def8bc1036a0439416a7dfd2b7d91986ae5f446de2449d947e68859abc585",
+      "depends": "python"
+    },
+    {
+      "package": "apk-v1-signature-files",
+      "artifact": "apk-v1-signature-files_1.0.0-1_all.deb",
+      "bytes": 6248,
+      "sha256": "3f8e195435e25b0d6cc32bc86d8b97d7ef66c5ac001f8371847cf9babb03b146",
+      "depends": "python"
+    },
+    {
+      "package": "apk-zipalign-check",
+      "artifact": "apk-zipalign-check_1.0.0-1_all.deb",
+      "bytes": 6244,
+      "sha256": "370291625df952e44d5bb3289084a4cd98800a54e6090955d8dce398b89d37a0",
+      "depends": "python"
+    },
+    {
+      "package": "apk-central-directory-offset",
+      "artifact": "apk-central-directory-offset_1.0.0-1_all.deb",
+      "bytes": 6252,
+      "sha256": "ba2908953ad80240d7c00553df1390e4e909e338b2b17baa4d3c47842870bbc7",
+      "depends": "python"
+    },
+    {
+      "package": "apk-comment",
+      "artifact": "apk-comment_1.0.0-1_all.deb",
+      "bytes": 6236,
+      "sha256": "cdfcf3d7d0741ec4d23a081e55fb55441f96bc1756af5e2fbf8ed98890ab5858",
+      "depends": "python"
+    },
+    {
+      "package": "apk-duplicate-entries",
+      "artifact": "apk-duplicate-entries_1.0.0-1_all.deb",
+      "bytes": 6244,
+      "sha256": "6259bc760d29f3830d2b0964efe59bb73bee032674e02c5142ca2322475ee7ba",
+      "depends": "python"
+    },
+    {
+      "package": "apk-zero-size-files",
+      "artifact": "apk-zero-size-files_1.0.0-1_all.deb",
+      "bytes": 6244,
+      "sha256": "40cf0f0ba51e7529cdef3bde3248ccc1bc0148bbeefce5667078cd791499f4ef",
+      "depends": "python"
+    },
+    {
+      "package": "apk-largest-files",
+      "artifact": "apk-largest-files_1.0.0-1_all.deb",
+      "bytes": 6240,
+      "sha256": "a3b79ba800db9f9f1af1b471a1a88e95b9b690038aed3aaa7d7b6175b3f295b9",
+      "depends": "python"
+    },
+    {
+      "package": "apk-sha256",
+      "artifact": "apk-sha256_1.0.0-1_all.deb",
+      "bytes": 6232,
+      "sha256": "1973e30b5eaf86b2fa3791e5838fb0b0c25d402ace687911db135a3947c187ac",
+      "depends": "python"
+    },
+    {
+      "package": "apk-summary",
+      "artifact": "apk-summary_1.0.0-1_all.deb",
+      "bytes": 6232,
+      "sha256": "08747dbb55cea23ec9e4b941d31a15b62b6e48803843c78712b08b844e6dae15",
+      "depends": "python"
+    }
+  ],
+  "promotion": "staging-only until APT promotion/signing"
+}
