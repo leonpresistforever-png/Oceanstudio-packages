@@ -1,0 +1,161 @@
+name: Build shards 34 35 36 platform 300 suite
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'sources/functional-shards/shard34_remote_compat.py'
+      - 'sources/functional-shards/shard35_web_cloud.py'
+      - 'sources/functional-shards/shard36_openai_git_http.py'
+      - 'scripts/build-shards34-36.py'
+      - 'tests/test-shards34-36-functional.py'
+      - '.github/workflows/build-shards34-36.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: shards34-36-platform-300
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /sources/functional-shards/shard34_remote_compat.py
+            /sources/functional-shards/shard35_web_cloud.py
+            /sources/functional-shards/shard36_openai_git_http.py
+            /scripts/build-shards34-36.py
+            /tests/test-shards34-36-functional.py
+            /staging/shard-34/
+            /staging/shard-35/
+            /staging/shard-36/
+            /.github/workflows/build-shards34-36.yml
+
+      - name: Install packaging tools
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          sudo apt-get install -y dpkg-dev git
+
+      - name: Compile and functionally test all three shards
+        run: |
+          set -euo pipefail
+          python3 -m py_compile \
+            sources/functional-shards/shard34_remote_compat.py \
+            sources/functional-shards/shard35_web_cloud.py \
+            sources/functional-shards/shard36_openai_git_http.py \
+            scripts/build-shards34-36.py \
+            tests/test-shards34-36-functional.py
+          python3 tests/test-shards34-36-functional.py \
+            sources/functional-shards/shard34_remote_compat.py \
+            sources/functional-shards/shard35_web_cloud.py \
+            sources/functional-shards/shard36_openai_git_http.py
+
+      - name: Prove 300 names are unique and repo-new
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import importlib.util,subprocess
+          from pathlib import Path
+          files=[
+            ("34",Path("sources/functional-shards/shard34_remote_compat.py"),100),
+            ("35",Path("sources/functional-shards/shard35_web_cloud.py"),100),
+            ("36",Path("sources/functional-shards/shard36_openai_git_http.py"),100),
+          ]
+          names=[]
+          for num,p,count in files:
+              s=importlib.util.spec_from_file_location("s"+num,p)
+              m=importlib.util.module_from_spec(s);s.loader.exec_module(m)
+              assert len(m.COMMANDS)==count and len(set(m.COMMANDS))==count
+              names+=m.COMMANDS
+          assert len(names)==300 and len(set(names))==300
+          paths=subprocess.check_output(["git","ls-tree","-r","--name-only","HEAD"],text=True).splitlines()
+          existing=set()
+          for x in paths:
+              if not x.endswith(".deb"): continue
+              if x.startswith(("staging/shard-34/","staging/shard-35/","staging/shard-36/")): continue
+              existing.add(Path(x).name.split("_",1)[0])
+          collisions=sorted(set(names)&existing)
+          if collisions: raise SystemExit("repo-wide package collisions: "+", ".join(collisions))
+          print("PASS: 300/300 names are unique and absent from all existing .deb artifacts")
+          PY
+
+      - name: Build 100 plus 100 plus 100 packages
+        run: |
+          set -euo pipefail
+          python3 scripts/build-shards34-36.py --shards 34,35,36
+
+      - name: Audit shard artifacts and unchanged prefix
+        run: |
+          set -euo pipefail
+          for n in 34 35 36; do
+            test "$(find staging/shard-$n/pool/main -type f -name '*.deb' | wc -l)" -eq 100
+            test "$(grep -c '^Package:' staging/shard-$n/Packages.repaired)" -eq 100
+          done
+
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          names=[]
+          for n in ("34","35","36"):
+              d=json.loads(Path(f"staging/shard-{n}/provenance.json").read_text())
+              assert d["packageCount"]==100
+              assert d["uniquePackageCount"]==100
+              assert d["prefix"]=="/data/data/studio.ocean.app/files/usr"
+              assert d["termuxRuntimeDependency"] is False
+              names += [x["package"] for x in d["packages"]]
+          assert len(names)==300 and len(set(names))==300
+          required={
+            "vnc-uri-parse","novnc-health","wine-pe-arch","box64-compat-summary","x11-stack-summary",
+            "react-package-check","vite-package-check","angular-package-check","cloud-health","node-project-health",
+            "openai-responses-request","openai-agents-config","openai-codex-config","gitplus-health","httpx-health",
+          }
+          assert required <= set(names)
+          print("PASS: 300 package identities and unchanged Ocean prefix verified")
+          PY
+
+          while IFS= read -r deb; do
+            dpkg-deb --info "$deb" >/dev/null
+          done < <(find staging/shard-34 staging/shard-35 staging/shard-36 -type f -name '*.deb' | sort)
+
+          ! grep -R -a -E '/data/(data|user/0)/com\.termux|packages\.termux\.dev|TERMUX_PREFIX' \
+            staging/shard-34 staging/shard-35 staging/shard-36 \
+            sources/functional-shards/shard34_remote_compat.py \
+            sources/functional-shards/shard35_web_cloud.py \
+            sources/functional-shards/shard36_openai_git_http.py
+
+      - name: Commit staged shards
+        run: |
+          set -euo pipefail
+          git config user.name "Ocean Platform Shards Builder"
+          git config user.email "packages@ocean.studio"
+          git add staging/shard-34 staging/shard-35 staging/shard-36
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "feat(shards34-36): stage 300 platform utilities [skip ci]"
+          for attempt in 1 2 3 4 5; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then exit 0; fi
+            sleep $((attempt*2))
+          done
+          exit 1
+
+      - name: Report
+        run: |
+          python3 - <<'PY'
+          import json
+          total=0
+          for n in ("34","35","36"):
+              d=json.load(open(f"staging/shard-{n}/provenance.json"))
+              total+=d["packageCount"]
+              print("shard",n,d["packageCount"],d["topic"])
+          print("total",total)
+          PY
