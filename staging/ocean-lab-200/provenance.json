@@ -1,0 +1,1426 @@
+{
+  "schemaVersion": 1,
+  "suite": "ocean-lab-200",
+  "version": "1.0.0-1",
+  "sourceType": "Ocean-native original source",
+  "prefix": "/data/data/studio.ocean.app/files/usr",
+  "packageCount": 200,
+  "uniquePackageCount": 200,
+  "termuxRuntimeDependency": false,
+  "groups": {
+    "office": 20,
+    "pdf": 20,
+    "mail": 20,
+    "cal": 20,
+    "token": 20,
+    "project": 20,
+    "source": 20,
+    "binary": 20,
+    "string": 20,
+    "bundle": 20
+  },
+  "runtimeModel": "self-contained package-specific Python runtime copy",
+  "packages": [
+    {
+      "package": "ocean-lab-office-entries",
+      "artifact": "ocean-lab-office-entries_1.0.0-1_all.deb",
+      "bytes": 9648,
+      "sha256": "f5e174f7a89d0bbc722918d2d5ea45cfd6edebe9816d39b768f21b4e74e2dac6",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-office-content-types",
+      "artifact": "ocean-lab-office-content-types_1.0.0-1_all.deb",
+      "bytes": 9648,
+      "sha256": "6edfb6daa4321e1cd2c7e48b4e8ebe11395227ac25238d6a6c5855105f55d55f",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-office-docx-text",
+      "artifact": "ocean-lab-office-docx-text_1.0.0-1_all.deb",
+      "bytes": 9648,
+      "sha256": "aa884abfc63154ac749f9ac7f069ce018f7571ef96cc9b0c6ef62dc5d5afe6f4",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-office-docx-links",
+      "artifact": "ocean-lab-office-docx-links_1.0.0-1_all.deb",
+      "bytes": 9652,
+      "sha256": "86edf75db5bc10de1ceaeb15a776d68060c143b523fb8301dff7e357ca3cf8eb",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-office-docx-images",
+      "artifact": "ocean-lab-office-docx-images_1.0.0-1_all.deb",
+      "bytes": 9652,
+      "sha256": "7d08717481e929a077bd79abd8b0b166d8028742d6e8f5ab2aa67572c11ddc92",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-office-xlsx-sheets",
+      "artifact": "ocean-lab-office-xlsx-sheets_1.0.0-1_all.deb",
+      "bytes": 9652,
+      "sha256": "fb6740bfb94a1d234c11562479ac0ba9e8f47c87691c2328f3cb28f352e69b1e",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-office-xlsx-shared-strings",
+      "artifact": "ocean-lab-office-xlsx-shared-strings_1.0.0-1_all.deb",
+      "bytes": 9662,
+      "sha256": "9dc04e9335b86c57883f4776b95b176b563f4f5c9d76150013f017dc8a2c7d6b",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-office-xlsx-formulas",
+      "artifact": "ocean-lab-office-xlsx-formulas_1.0.0-1_all.deb",
+      "bytes": 9652,
+      "sha256": "a3cdf5e89354ea11e07c495cb8fe6908bb9f43ba36e302c469e8ac57b9cca46e",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-office-xlsx-dimensions",
+      "artifact": "ocean-lab-office-xlsx-dimensions_1.0.0-1_all.deb",
+      "bytes": 9660,
+      "sha256": "9c8aa482d3bbe2ef41241c889f0a87fd0f2e1185a4196a4279904548357a0416",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-office-pptx-slides",
+      "artifact": "ocean-lab-office-pptx-slides_1.0.0-1_all.deb",
+      "bytes": 9648,
+      "sha256": "6d9cf633c99a09ec046d5e938307d0b9c97f35a0841defcd27d2b9d068d56e47",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-office-pptx-text",
+      "artifact": "ocean-lab-office-pptx-text_1.0.0-1_all.deb",
+      "bytes": 9652,
+      "sha256": "1afe9222eb5da029637cbaf68630cbba8b566ba7e4b652a2e50d916aac2ab710",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-office-pptx-images",
+      "artifact": "ocean-lab-office-pptx-images_1.0.0-1_all.deb",
+      "bytes": 9652,
+      "sha256": "eeeb69759db4832ef419bbc97044f7967f1693052775d652b1f23b53ce9768a3",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-office-epub-metadata",
+      "artifact": "ocean-lab-office-epub-metadata_1.0.0-1_all.deb",
+      "bytes": 9650,
+      "sha256": "bc00a01ca81004930665d4e1f7e897f16c535e39d004bbe83e42a02c6710c139",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-office-epub-manifest",
+      "artifact": "ocean-lab-office-epub-manifest_1.0.0-1_all.deb",
+      "bytes": 9652,
+      "sha256": "5b9afcc3a97751ee8d4a493efb69cc36beb2d251bfdd9dad6a52f38c4b7d9f58",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-office-epub-spine",
+      "artifact": "ocean-lab-office-epub-spine_1.0.0-1_all.deb",
+      "bytes": 9648,
+      "sha256": "62af8d286e65880a638ff03179ed24f904b974c4a0b19e2d308e8e59257e27ef",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-office-odf-mimetype",
+      "artifact": "ocean-lab-office-odf-mimetype_1.0.0-1_all.deb",
+      "bytes": 9652,
+      "sha256": "6d18d604b64a4b2699d42a89516311632c6022ce8384d2e2c108419b9c8698e7",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-office-odf-content-stats",
+      "artifact": "ocean-lab-office-odf-content-stats_1.0.0-1_all.deb",
+      "bytes": 9658,
+      "sha256": "efc3ea2a0ccfde60676037e83daafa52b7c2d354020b79008a52a0b08ddbdb60",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-office-media-list",
+      "artifact": "ocean-lab-office-media-list_1.0.0-1_all.deb",
+      "bytes": 9648,
+      "sha256": "b3cc597f33e09e19146d497c973b0a34502bdb85eca6a4cc90fb9bb934b12fa0",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-office-largest-parts",
+      "artifact": "ocean-lab-office-largest-parts_1.0.0-1_all.deb",
+      "bytes": 9648,
+      "sha256": "5a885e2b23b1fb981de3f1c0a02f27fa068af518b1003c5e895c153f6237dcff",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-office-integrity",
+      "artifact": "ocean-lab-office-integrity_1.0.0-1_all.deb",
+      "bytes": 9642,
+      "sha256": "855917ca82aa73f005c2530ef57bbc87ec9b3fb53a65e5566c8ad5e940a38175",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-pdf-header",
+      "artifact": "ocean-lab-pdf-header_1.0.0-1_all.deb",
+      "bytes": 9642,
+      "sha256": "fef685ba1e6721181c566f2b9e2b55df6ec0eeeeb32961dfbb70035083cc3af8",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-pdf-version",
+      "artifact": "ocean-lab-pdf-version_1.0.0-1_all.deb",
+      "bytes": 9638,
+      "sha256": "517c1175218a994818c1291cb57e3d054f1821c3d36c31727753056862185c70",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-pdf-eof-check",
+      "artifact": "ocean-lab-pdf-eof-check_1.0.0-1_all.deb",
+      "bytes": 9648,
+      "sha256": "5e909d4131486796486388a29e383818d64c319cbff7c41e60864765e0a88165",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-pdf-object-count",
+      "artifact": "ocean-lab-pdf-object-count_1.0.0-1_all.deb",
+      "bytes": 9648,
+      "sha256": "84f20ca552ad2812402083bf24d6ad179cf32dafa4efa08d91a018e04bc0a2eb",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-pdf-stream-count",
+      "artifact": "ocean-lab-pdf-stream-count_1.0.0-1_all.deb",
+      "bytes": 9646,
+      "sha256": "722b76c6ac68006221c5799c662a39970193d90dcec267e1017589bcfce9fa75",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-pdf-page-count",
+      "artifact": "ocean-lab-pdf-page-count_1.0.0-1_all.deb",
+      "bytes": 9648,
+      "sha256": "788983a8a30269dc66d77ceebc83e374553033b815c933fd39b9e80aff893d34",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-pdf-metadata-strings",
+      "artifact": "ocean-lab-pdf-metadata-strings_1.0.0-1_all.deb",
+      "bytes": 9652,
+      "sha256": "b81d56df3aa6af882be43264d632946c8679f5ce9301e2ef5880484982bee7ab",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-pdf-font-hints",
+      "artifact": "ocean-lab-pdf-font-hints_1.0.0-1_all.deb",
+      "bytes": 9646,
+      "sha256": "cef8d30383662a3dc78d81cf27af05f859e0d21dc7e4c2f9d23bfd4e90ebef3b",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-pdf-image-hints",
+      "artifact": "ocean-lab-pdf-image-hints_1.0.0-1_all.deb",
+      "bytes": 9648,
+      "sha256": "06aa4b5e5a5e8b0c7ddaacee8efeb2c502ae52029ef288d0a26411c028e1f922",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-pdf-xref-offsets",
+      "artifact": "ocean-lab-pdf-xref-offsets_1.0.0-1_all.deb",
+      "bytes": 9644,
+      "sha256": "5e56c08e6b088ee20adaea9f8f27a4f3acb5e3444bed958d26aad9506457da5f",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-pdf-trailer",
+      "artifact": "ocean-lab-pdf-trailer_1.0.0-1_all.deb",
+      "bytes": 9642,
+      "sha256": "a45bd20b8652e943938264444c816e1c5ac941dfeaa17622ecd93f2b15108998",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-pdf-linearized",
+      "artifact": "ocean-lab-pdf-linearized_1.0.0-1_all.deb",
+      "bytes": 9640,
+      "sha256": "fba5ea37bc8790d22ba72a5084c4c8a352a9129c48f857e493d5a00217126e57",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-pdf-encrypted",
+      "artifact": "ocean-lab-pdf-encrypted_1.0.0-1_all.deb",
+      "bytes": 9648,
+      "sha256": "d992e8c357fa4a416f435a664e744c77c0ca1d948dce3aacc826a2c894cd067a",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-pdf-attachment-hints",
+      "artifact": "ocean-lab-pdf-attachment-hints_1.0.0-1_all.deb",
+      "bytes": 9654,
+      "sha256": "1101ec95130cab64d5b668ecc3584d56fc9e1f655f1d1563d5fe7546e6b7922f",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-pdf-uri-links",
+      "artifact": "ocean-lab-pdf-uri-links_1.0.0-1_all.deb",
+      "bytes": 9652,
+      "sha256": "6d648669a5096b6e8029ba4f29a3f19d048b2d00e687f48ce78ddaf1902f8e36",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-pdf-producer",
+      "artifact": "ocean-lab-pdf-producer_1.0.0-1_all.deb",
+      "bytes": 9644,
+      "sha256": "bf44775a2b16d32e07e5c0fbc2db73bb9872c689cc067744c76cbc12596b9a80",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-pdf-creator",
+      "artifact": "ocean-lab-pdf-creator_1.0.0-1_all.deb",
+      "bytes": 9646,
+      "sha256": "31fba7ffec7c8c2a1034fce9afd39f2792d1ee105946cbedd29aad0fd0ae04d8",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-pdf-title",
+      "artifact": "ocean-lab-pdf-title_1.0.0-1_all.deb",
+      "bytes": 9638,
+      "sha256": "eee0fcc40ebd046a33216b49d211c04cdd24c7998657190ad04e94d8e3542e62",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-pdf-sha256",
+      "artifact": "ocean-lab-pdf-sha256_1.0.0-1_all.deb",
+      "bytes": 9644,
+      "sha256": "1a8bfe220d6cd5deafe461ad3c53c4051e0d0a3ee0a22972e1119ea99ee5f72b",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-pdf-entropy",
+      "artifact": "ocean-lab-pdf-entropy_1.0.0-1_all.deb",
+      "bytes": 9648,
+      "sha256": "cf85c51437e4a1e1b402c70d2026d0f76aa2e4bcfdd82943362029b29e06face",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-mail-headers",
+      "artifact": "ocean-lab-mail-headers_1.0.0-1_all.deb",
+      "bytes": 9644,
+      "sha256": "e54a9af48f94c57147e426a4ac00f4ec4a2c2a1467c6ae41325679f6e69297cd",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-mail-subject",
+      "artifact": "ocean-lab-mail-subject_1.0.0-1_all.deb",
+      "bytes": 9648,
+      "sha256": "a5b289ce4695e0a73c06e07b26a1be1c240aca6e0cadc2903f8b07374f516e8c",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-mail-from",
+      "artifact": "ocean-lab-mail-from_1.0.0-1_all.deb",
+      "bytes": 9642,
+      "sha256": "77bf8ab17ec2bd57293943f66589e773635350acc28b869868bcc89b07c09554",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-mail-to",
+      "artifact": "ocean-lab-mail-to_1.0.0-1_all.deb",
+      "bytes": 9642,
+      "sha256": "958bd98c2347a8643f1c7e354017f3e6245360c6320602ac147ea65f161a4f98",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-mail-cc",
+      "artifact": "ocean-lab-mail-cc_1.0.0-1_all.deb",
+      "bytes": 9640,
+      "sha256": "84883922c2c8f17ee6f62cadcafa5b1928b882b82862d83d4d5513bcdc212d27",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-mail-date",
+      "artifact": "ocean-lab-mail-date_1.0.0-1_all.deb",
+      "bytes": 9642,
+      "sha256": "9099d648d2dcbd3d6e1b9cbe6edce2ba035518c208867582310a77180d695ec1",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-mail-message-id",
+      "artifact": "ocean-lab-mail-message-id_1.0.0-1_all.deb",
+      "bytes": 9650,
+      "sha256": "4ff29753b6141e2da7925ab579ca50d0e367ec4acf54cb2b8381f047c33099a0",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-mail-attachments",
+      "artifact": "ocean-lab-mail-attachments_1.0.0-1_all.deb",
+      "bytes": 9644,
+      "sha256": "ecc0c07396f9cbf76deffb5a5943658b4eb8b594b86c12711172a4d0b9b0b216",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-mail-mime-parts",
+      "artifact": "ocean-lab-mail-mime-parts_1.0.0-1_all.deb",
+      "bytes": 9648,
+      "sha256": "7381f7736a301387529fc8ddbe0faf2c4e6972e72991327ae8cc652439dd46d0",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-mail-text-body",
+      "artifact": "ocean-lab-mail-text-body_1.0.0-1_all.deb",
+      "bytes": 9644,
+      "sha256": "7a1af2813ee91e61655812ba25f63bcfe9e02609c2ec1e1256059caea9e6f8cc",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-mail-html-body",
+      "artifact": "ocean-lab-mail-html-body_1.0.0-1_all.deb",
+      "bytes": 9646,
+      "sha256": "b1a5d958583d97a23ed727d61553ae0278bc25f62caf0d2a28bb4cade67defbb",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-mail-domains",
+      "artifact": "ocean-lab-mail-domains_1.0.0-1_all.deb",
+      "bytes": 9646,
+      "sha256": "fb2fa5995559629c75be646ebdc37b3ae8b1b89075d0ad3a48134a3e102bfb17",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-mail-addresses",
+      "artifact": "ocean-lab-mail-addresses_1.0.0-1_all.deb",
+      "bytes": 9640,
+      "sha256": "5cbfcbc55f4d13219aa2bf8a5958e00d251f8400314c14943254b0fc49a71cbd",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-mail-received-hops",
+      "artifact": "ocean-lab-mail-received-hops_1.0.0-1_all.deb",
+      "bytes": 9648,
+      "sha256": "4e192c6224eeee5516339d1ddf35f7960a1ae00994941ccd60e5d10959c25f89",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-mail-content-types",
+      "artifact": "ocean-lab-mail-content-types_1.0.0-1_all.deb",
+      "bytes": 9646,
+      "sha256": "3bd798c296d83a6a0b66d14df0a4f613844157a7ab4c527b6b9031faf3695d0a",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-mail-attachment-names",
+      "artifact": "ocean-lab-mail-attachment-names_1.0.0-1_all.deb",
+      "bytes": 9654,
+      "sha256": "2836c5282451f863ff119cf3ff35d3e30fe84d4687027343ce775ed75e944092",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-mail-decode-header",
+      "artifact": "ocean-lab-mail-decode-header_1.0.0-1_all.deb",
+      "bytes": 9648,
+      "sha256": "94a4535450c09cb1ddc47898e1d6d375eaf8d2f384cf5b3ff05b1e96c0e3462f",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-mail-canonicalize",
+      "artifact": "ocean-lab-mail-canonicalize_1.0.0-1_all.deb",
+      "bytes": 9644,
+      "sha256": "65f1a70ab8c0ffc587394bae1b628234b0688950a102f7ff891fde5ab40fc2fc",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-mail-mbox-count",
+      "artifact": "ocean-lab-mail-mbox-count_1.0.0-1_all.deb",
+      "bytes": 9644,
+      "sha256": "56f2b187a8ee7060c35a3aefb50edc4f36cc3f1d0d7d0781ceb93334631b2020",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-mail-eml-hash",
+      "artifact": "ocean-lab-mail-eml-hash_1.0.0-1_all.deb",
+      "bytes": 9648,
+      "sha256": "dfc31bb68d0f5324516c7c3c39cbf94dcece4df2b22536d9b79d7be3ca189a56",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-cal-ics-events",
+      "artifact": "ocean-lab-cal-ics-events_1.0.0-1_all.deb",
+      "bytes": 9644,
+      "sha256": "ba63bd2ca1de1cde26ac2aa7c9c50c0647d38b8bfa3f9eb4ad0022cd780b8c41",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-cal-ics-todos",
+      "artifact": "ocean-lab-cal-ics-todos_1.0.0-1_all.deb",
+      "bytes": 9646,
+      "sha256": "a245a4d6076ad34db17a2ef91c8b1eea9bf34b2fd0e69bd8d9f1b9d79ecc07d3",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-cal-ics-timezones",
+      "artifact": "ocean-lab-cal-ics-timezones_1.0.0-1_all.deb",
+      "bytes": 9646,
+      "sha256": "a8a72a41ea0b2d2bc1122c75ae61b9f84da7771b45b17ce58cd8653f91bf8f85",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-cal-ics-dtstart",
+      "artifact": "ocean-lab-cal-ics-dtstart_1.0.0-1_all.deb",
+      "bytes": 9662,
+      "sha256": "d229e4b3a10311f742105e539103720f634d5147482d50c145070f05be0ee399",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-cal-ics-dtend",
+      "artifact": "ocean-lab-cal-ics-dtend_1.0.0-1_all.deb",
+      "bytes": 9646,
+      "sha256": "501bc29c889bf903c3ed8f1ab2a0ce3dc030a855cc49a7d6caf74f488f19e2ec",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-cal-ics-duration",
+      "artifact": "ocean-lab-cal-ics-duration_1.0.0-1_all.deb",
+      "bytes": 9646,
+      "sha256": "3017747940b278e54af44cdcb54496088480a226e01b93db1679760f841627aa",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-cal-ics-attendees",
+      "artifact": "ocean-lab-cal-ics-attendees_1.0.0-1_all.deb",
+      "bytes": 9642,
+      "sha256": "d8833520a71bdf62178d5afb7f0ce3eb2457785c097741be3a26f7c9f94d252f",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-cal-ics-organizers",
+      "artifact": "ocean-lab-cal-ics-organizers_1.0.0-1_all.deb",
+      "bytes": 9648,
+      "sha256": "a18baac4399b01420a9e56e27d8b28a1b65e80a0c65db61ea3cfdbdfc5f7e9b3",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-cal-ics-locations",
+      "artifact": "ocean-lab-cal-ics-locations_1.0.0-1_all.deb",
+      "bytes": 9652,
+      "sha256": "759e7248e285715e94154a498ca753a7c48290bd05b68593e7782a9af49ee17e",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-cal-ics-summaries",
+      "artifact": "ocean-lab-cal-ics-summaries_1.0.0-1_all.deb",
+      "bytes": 9648,
+      "sha256": "cbfe676ed4285ff1b68022cd718cb8fbb4fbb28a584451df143051d87d38565d",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-cal-ics-uids",
+      "artifact": "ocean-lab-cal-ics-uids_1.0.0-1_all.deb",
+      "bytes": 9644,
+      "sha256": "88cff7a461e1b99a392b14d7eb7c87da602fcfcc4d0eb07c945403ac326cc1ee",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-cal-ics-rrules",
+      "artifact": "ocean-lab-cal-ics-rrules_1.0.0-1_all.deb",
+      "bytes": 9638,
+      "sha256": "ce0bc4b4cda96e47cc1cab5959ed1f3c080b0f923649a51722b91c4d783a148e",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-cal-ics-alarms",
+      "artifact": "ocean-lab-cal-ics-alarms_1.0.0-1_all.deb",
+      "bytes": 9644,
+      "sha256": "cd1bec3e1f712e259e3b190fc6ef5369a25e25730d2f5f82c1ce937568592a8b",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-cal-ics-freebusy",
+      "artifact": "ocean-lab-cal-ics-freebusy_1.0.0-1_all.deb",
+      "bytes": 9646,
+      "sha256": "796b4055f7dfc632de4a5aec3d33a0db607118aeb7bf96fd7e8a62db21bcc596",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-cal-vcard-names",
+      "artifact": "ocean-lab-cal-vcard-names_1.0.0-1_all.deb",
+      "bytes": 9642,
+      "sha256": "2073d93bced83c23fb96e594d269535d4402d3fff3dbfddf472dd850937394de",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-cal-vcard-emails",
+      "artifact": "ocean-lab-cal-vcard-emails_1.0.0-1_all.deb",
+      "bytes": 9644,
+      "sha256": "f57e14f9a3306fbdf6c744a560ab3b2e34d2935cd522bc7c834249b168361e27",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-cal-vcard-phones",
+      "artifact": "ocean-lab-cal-vcard-phones_1.0.0-1_all.deb",
+      "bytes": 9648,
+      "sha256": "c817cb2fed71f521ee292a17c5590f4b91ca8abba5d2a3b560409208adbb4853",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-cal-vcard-orgs",
+      "artifact": "ocean-lab-cal-vcard-orgs_1.0.0-1_all.deb",
+      "bytes": 9646,
+      "sha256": "66a3bdede4ef72635668d3f2b53bd5e14034d2bc6e8a3c9500f1b9568863d0c4",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-cal-vcard-addresses",
+      "artifact": "ocean-lab-cal-vcard-addresses_1.0.0-1_all.deb",
+      "bytes": 9650,
+      "sha256": "87c84dee6d1788b8d7a9cae3c95ae0a31eea7b536922e4a0206c372c447c8ef3",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-cal-vcard-properties",
+      "artifact": "ocean-lab-cal-vcard-properties_1.0.0-1_all.deb",
+      "bytes": 9648,
+      "sha256": "f6a9b695c795b0e77ffe6cef60b8a78c7feb92a6aaa45b41635cee0f462c5a7f",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-token-jwt-header",
+      "artifact": "ocean-lab-token-jwt-header_1.0.0-1_all.deb",
+      "bytes": 9648,
+      "sha256": "3a24c2181f7b2f953de0fff61d359579e7da7afc1a2e786bb7be35e4e8157147",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-token-jwt-payload",
+      "artifact": "ocean-lab-token-jwt-payload_1.0.0-1_all.deb",
+      "bytes": 9644,
+      "sha256": "38b5074493af043e499b9e51a1872cede9c8d2cba094e4ad60951a3bd5360e6c",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-token-jwt-claims",
+      "artifact": "ocean-lab-token-jwt-claims_1.0.0-1_all.deb",
+      "bytes": 9644,
+      "sha256": "f01f4f11fab7ea71d53f5eb721ae797399265ede55691aadf0020d1e11fd4094",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-token-jwt-exp",
+      "artifact": "ocean-lab-token-jwt-exp_1.0.0-1_all.deb",
+      "bytes": 9646,
+      "sha256": "3cb6188b4fcf66d0978dfa72db6fe1e445a28e871a7dcb3f37bfd68554cdc5f7",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-token-jwt-nbf",
+      "artifact": "ocean-lab-token-jwt-nbf_1.0.0-1_all.deb",
+      "bytes": 9650,
+      "sha256": "9a125d7c903d723883f5d7eaeaee810158424d89bbb0bf5c2d0c0b8e116a939b",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-token-jwt-iat",
+      "artifact": "ocean-lab-token-jwt-iat_1.0.0-1_all.deb",
+      "bytes": 9650,
+      "sha256": "0536cdaec46d955ac229b19b70c8fb1c67758ac28e2ee0771950bac0d8026dc3",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-token-jwt-aud",
+      "artifact": "ocean-lab-token-jwt-aud_1.0.0-1_all.deb",
+      "bytes": 9646,
+      "sha256": "9d1f1c93441df6f87f9142ff835d1bd9e0b548af168d0a07c85992eefa69442f",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-token-jwt-iss",
+      "artifact": "ocean-lab-token-jwt-iss_1.0.0-1_all.deb",
+      "bytes": 9648,
+      "sha256": "694c7825d6e6d8f9937ea3e952787115326203ea8609d0bb25439f020bcc9c5f",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-token-jwt-sub",
+      "artifact": "ocean-lab-token-jwt-sub_1.0.0-1_all.deb",
+      "bytes": 9650,
+      "sha256": "531a282767f3df7a4cea4dc15437389191960e04bd6574557acd4b2e06a1aad1",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-token-jwt-jti",
+      "artifact": "ocean-lab-token-jwt-jti_1.0.0-1_all.deb",
+      "bytes": 9648,
+      "sha256": "4492fa5ce1d658101d1902ee4f77a5342ff93056abfbd1ee15a7c3ac969d0601",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-token-jwt-scopes",
+      "artifact": "ocean-lab-token-jwt-scopes_1.0.0-1_all.deb",
+      "bytes": 9646,
+      "sha256": "a8914760582abe6978d290eae8d5207c3d370c220b9b4975584841cc69364e0a",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-token-jwt-alg",
+      "artifact": "ocean-lab-token-jwt-alg_1.0.0-1_all.deb",
+      "bytes": 9650,
+      "sha256": "e24310ae4a398bb06602e73d62d7235044eab6099c46c84922b8724294631a2c",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-token-jwt-kid",
+      "artifact": "ocean-lab-token-jwt-kid_1.0.0-1_all.deb",
+      "bytes": 9648,
+      "sha256": "474e4556d82f996148f8035cae72daccbc845e71a753b41955136d65c46c0d64",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-token-jwt-type",
+      "artifact": "ocean-lab-token-jwt-type_1.0.0-1_all.deb",
+      "bytes": 9644,
+      "sha256": "fd9a22dcc439698cc54a5795197397e7f9938fca398683da96a395e71f666b18",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-token-jwt-expired",
+      "artifact": "ocean-lab-token-jwt-expired_1.0.0-1_all.deb",
+      "bytes": 9646,
+      "sha256": "0d3723cc31b3755dbc2420983432a61947cf59fc2319450b73f0c164913fe358",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-token-jwt-ttl",
+      "artifact": "ocean-lab-token-jwt-ttl_1.0.0-1_all.deb",
+      "bytes": 9646,
+      "sha256": "405abc6905d8e214fdb0f47dc396b4680c7b8ec7042e0c482acb4a51826fcca1",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-token-base64url-split",
+      "artifact": "ocean-lab-token-base64url-split_1.0.0-1_all.deb",
+      "bytes": 9646,
+      "sha256": "c4d1d902efc619caf23a8730ea55f4d7b3da31f8753c0893a2273919b12ccb3a",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-token-compact-parts",
+      "artifact": "ocean-lab-token-compact-parts_1.0.0-1_all.deb",
+      "bytes": 9650,
+      "sha256": "ac368b4f1e903289204143f4b2f367d43d8725e984278cd412142f2af3925077",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-token-fingerprint",
+      "artifact": "ocean-lab-token-fingerprint_1.0.0-1_all.deb",
+      "bytes": 9644,
+      "sha256": "16232d5be75b545e8cfdfa6f16f6d8edfc67d785b3f1cf1b6580e5b450fd0d23",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-token-redact",
+      "artifact": "ocean-lab-token-redact_1.0.0-1_all.deb",
+      "bytes": 9640,
+      "sha256": "6c41b2e0e2e17d60ac0fe5b6f028e9c0f2c9e07326b12cf143c5a639f723b8da",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-project-npm-name",
+      "artifact": "ocean-lab-project-npm-name_1.0.0-1_all.deb",
+      "bytes": 9642,
+      "sha256": "5d5e7ed87707367949408b371e14d6465780b3ce0193ea5192558ddf741edee3",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-project-npm-version",
+      "artifact": "ocean-lab-project-npm-version_1.0.0-1_all.deb",
+      "bytes": 9652,
+      "sha256": "603f001866ff5010468857632e83da98c4100527f31d3739b50fb3db1d4cfc9c",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-project-npm-deps",
+      "artifact": "ocean-lab-project-npm-deps_1.0.0-1_all.deb",
+      "bytes": 9646,
+      "sha256": "f30150ea24b5bb83d9af49bad198fcf7dbc64a00dd6ff2a1aae92fe5292715ed",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-project-npm-devdeps",
+      "artifact": "ocean-lab-project-npm-devdeps_1.0.0-1_all.deb",
+      "bytes": 9654,
+      "sha256": "de0d0894ba841bb58dcc0e56985481c50dc1cc034c9c8db8a5954ec8bb2f34c9",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-project-npm-scripts",
+      "artifact": "ocean-lab-project-npm-scripts_1.0.0-1_all.deb",
+      "bytes": 9650,
+      "sha256": "86dabac0e32a0e0b8fc4102e1aba84bea6072a8d30a985b946e5f00ccecd7148",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-project-npm-engines",
+      "artifact": "ocean-lab-project-npm-engines_1.0.0-1_all.deb",
+      "bytes": 9654,
+      "sha256": "b18a6404e74e64fe09fc4f692391fe0b2cab8d9ab2150b405e7619a461f13506",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-project-cargo-package",
+      "artifact": "ocean-lab-project-cargo-package_1.0.0-1_all.deb",
+      "bytes": 9646,
+      "sha256": "f5ea5af97b0332a09d2e1c22dab26adaec724baf459e8733bb3061f78141a6ec",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-project-cargo-deps",
+      "artifact": "ocean-lab-project-cargo-deps_1.0.0-1_all.deb",
+      "bytes": 9644,
+      "sha256": "c3f7955d8fc5e99b518aee76a8b5a6f7650706610e65655077e447a1fc394b8b",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-project-cargo-features",
+      "artifact": "ocean-lab-project-cargo-features_1.0.0-1_all.deb",
+      "bytes": 9648,
+      "sha256": "b909c1f18c5e9d638b7f85fbc15461b646bf9b9c0436074c1e636ac9d424d976",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-project-pyproject-project",
+      "artifact": "ocean-lab-project-pyproject-project_1.0.0-1_all.deb",
+      "bytes": 9648,
+      "sha256": "ca96f8c7bfe376e02a75fff659176b6d9674dcc81f84600f2770ca8a86a728b5",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-project-pyproject-deps",
+      "artifact": "ocean-lab-project-pyproject-deps_1.0.0-1_all.deb",
+      "bytes": 9652,
+      "sha256": "55c5edf47a912ca9a2ead654d5ca1169546c4a0df1300619f1a9e1e658891cea",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-project-pyproject-scripts",
+      "artifact": "ocean-lab-project-pyproject-scripts_1.0.0-1_all.deb",
+      "bytes": 9652,
+      "sha256": "3a818d3e0c68cc54bffe724ccc3ee823b9d203c18992a8e4e5128efbd13d5350",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-project-requirements-packages",
+      "artifact": "ocean-lab-project-requirements-packages_1.0.0-1_all.deb",
+      "bytes": 9652,
+      "sha256": "894044a09b88b1a127b7c379497baeb4ddccfea17a69fc6db585b7dab65d36aa",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-project-gradle-plugins",
+      "artifact": "ocean-lab-project-gradle-plugins_1.0.0-1_all.deb",
+      "bytes": 9652,
+      "sha256": "300c08834b8d78cc98623ca0d0123e4e91479a3f1325d707b6b2f542762245a4",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-project-gradle-deps",
+      "artifact": "ocean-lab-project-gradle-deps_1.0.0-1_all.deb",
+      "bytes": 9650,
+      "sha256": "2bc9358434a9bbbcf4235bdbf5bf4ebdecdddb74b48095156a30a77dd3545e1f",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-project-pom-gav",
+      "artifact": "ocean-lab-project-pom-gav_1.0.0-1_all.deb",
+      "bytes": 9644,
+      "sha256": "17737af0b7898258b33b5207c54672152f2b42463cc9d2d79ebfc8d318dca793",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-project-pom-deps",
+      "artifact": "ocean-lab-project-pom-deps_1.0.0-1_all.deb",
+      "bytes": 9650,
+      "sha256": "b034824e89409ccb71540ab688f531a8b42bb37dcb246814fc8d5e2a39b0e0ac",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-project-android-package",
+      "artifact": "ocean-lab-project-android-package_1.0.0-1_all.deb",
+      "bytes": 9654,
+      "sha256": "29c676c3c583479985d4487287fced47dca0c240663faa22fb01ac58799d5784",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-project-android-permissions",
+      "artifact": "ocean-lab-project-android-permissions_1.0.0-1_all.deb",
+      "bytes": 9660,
+      "sha256": "4c5ead5b597be9617b390bd7839c97d09a1ab043ba68ee2cf835fbad100d7142",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-project-project-detect",
+      "artifact": "ocean-lab-project-project-detect_1.0.0-1_all.deb",
+      "bytes": 9644,
+      "sha256": "ac23ba84f05ada35cb939eb71767a0eaf9eba00547f44ed39f65955c6993acb6",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-source-detect-language",
+      "artifact": "ocean-lab-source-detect-language_1.0.0-1_all.deb",
+      "bytes": 9652,
+      "sha256": "6e3c7ac71b1c8eae1ea85f13abb967b29159f6c67bd5a8ce6069215bce435530",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-source-lines-total",
+      "artifact": "ocean-lab-source-lines-total_1.0.0-1_all.deb",
+      "bytes": 9646,
+      "sha256": "41c93829f571156061ba736c956ccc1c8d35e8a873524f1febe7d313b9bd8158",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-source-lines-blank",
+      "artifact": "ocean-lab-source-lines-blank_1.0.0-1_all.deb",
+      "bytes": 9646,
+      "sha256": "228912d440e2916983cef77337457efe701f4916bb4ac27527604345ecf8aee9",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-source-lines-comment",
+      "artifact": "ocean-lab-source-lines-comment_1.0.0-1_all.deb",
+      "bytes": 9652,
+      "sha256": "e12164adc89081cc1de25d7721d5d0e725b86d013e91bbb72d6beaad5a2a2f62",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-source-lines-code",
+      "artifact": "ocean-lab-source-lines-code_1.0.0-1_all.deb",
+      "bytes": 9648,
+      "sha256": "1e8bb7040f7fb3f842dd7aca7d0f692edfd86deec4b9f89750b95ee866569f51",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-source-longest-line",
+      "artifact": "ocean-lab-source-longest-line_1.0.0-1_all.deb",
+      "bytes": 9654,
+      "sha256": "4261f4917e7ae365ae6427679bc35951300af303f3186fdcfb0693486336083a",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-source-trailing-space",
+      "artifact": "ocean-lab-source-trailing-space_1.0.0-1_all.deb",
+      "bytes": 9648,
+      "sha256": "3e75e3657e637c07789d1274c6c13ba5d4f9cb3408f0a32dc7081635a3ac754b",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-source-tab-lines",
+      "artifact": "ocean-lab-source-tab-lines_1.0.0-1_all.deb",
+      "bytes": 9648,
+      "sha256": "54adb6b9755c4f6eac98a7408b9312c0e1f7b1427f559c9eb3c21dcc76bce3fe",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-source-nonascii-lines",
+      "artifact": "ocean-lab-source-nonascii-lines_1.0.0-1_all.deb",
+      "bytes": 9654,
+      "sha256": "56ec08e88d3dc32e8bd425ecb17388885d9eaed33718fa5a17c0dc7cc289aad0",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-source-todo-lines",
+      "artifact": "ocean-lab-source-todo-lines_1.0.0-1_all.deb",
+      "bytes": 9648,
+      "sha256": "0da6daa1a172f95ea42a31180f1b3e4bec8ae62df09675068cb4a2aec0ebe438",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-source-python-functions",
+      "artifact": "ocean-lab-source-python-functions_1.0.0-1_all.deb",
+      "bytes": 9646,
+      "sha256": "01e5bf2695e8be329dae191914d1f5240920a7d3292fbf9b50da3c0f33145214",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-source-python-classes",
+      "artifact": "ocean-lab-source-python-classes_1.0.0-1_all.deb",
+      "bytes": 9650,
+      "sha256": "1c2207874878f6208feda0a03bad923ab8fc0687f7694441f3ffc271081fd490",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-source-js-imports",
+      "artifact": "ocean-lab-source-js-imports_1.0.0-1_all.deb",
+      "bytes": 9646,
+      "sha256": "33d65ea9a41bf3c99e712b9da9af5c6d3aefd3bda78f68b12a59b68716646daa",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-source-js-requires",
+      "artifact": "ocean-lab-source-js-requires_1.0.0-1_all.deb",
+      "bytes": 9646,
+      "sha256": "25abfd823267b92af5224a4107fa11db1a60cf1a04a66489ec1bd3037ecada71",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-source-go-imports",
+      "artifact": "ocean-lab-source-go-imports_1.0.0-1_all.deb",
+      "bytes": 9644,
+      "sha256": "a88caab3f0760829f5063df136b3dbbfa0b026faf558e97f66a9dbb1439456a8",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-source-rust-uses",
+      "artifact": "ocean-lab-source-rust-uses_1.0.0-1_all.deb",
+      "bytes": 9652,
+      "sha256": "66925164d99d43c0a0eaef8d011e24e354344e1aff229e0ca9de99125f1c2051",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-source-java-package",
+      "artifact": "ocean-lab-source-java-package_1.0.0-1_all.deb",
+      "bytes": 9648,
+      "sha256": "70da74b033226f97c51e1ca0a910803255d5ea5a4e759b74358df4752e4a69d2",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-source-java-imports",
+      "artifact": "ocean-lab-source-java-imports_1.0.0-1_all.deb",
+      "bytes": 9652,
+      "sha256": "1bfa745e8fc0b3038a58be5f9da2f4b079b15dbb263bedfa7e36fe792e580a48",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-source-kotlin-imports",
+      "artifact": "ocean-lab-source-kotlin-imports_1.0.0-1_all.deb",
+      "bytes": 9648,
+      "sha256": "f165ec368caec6b81fe01e63342a045f9b08987f7e4179ebfece7e0b3048c38d",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-source-symbols-lite",
+      "artifact": "ocean-lab-source-symbols-lite_1.0.0-1_all.deb",
+      "bytes": 9656,
+      "sha256": "628d5392eea16a3c9fc3a90c1a416a54d57817b201f13fc0c77ff0af4cf087e9",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-binary-u16le",
+      "artifact": "ocean-lab-binary-u16le_1.0.0-1_all.deb",
+      "bytes": 9642,
+      "sha256": "890956a4424f9697afb3ecf4722dc0498b28ef1f18a389696b44a256a0c6fd67",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-binary-u16be",
+      "artifact": "ocean-lab-binary-u16be_1.0.0-1_all.deb",
+      "bytes": 9638,
+      "sha256": "08fe17cf240c6b036c430ae496ca20e1e116adad88f37a72732c9749dcdb751f",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-binary-u32le",
+      "artifact": "ocean-lab-binary-u32le_1.0.0-1_all.deb",
+      "bytes": 9640,
+      "sha256": "e341407ee277fcf513d624625716673302d165f924e52193cdde1da3aad07919",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-binary-u32be",
+      "artifact": "ocean-lab-binary-u32be_1.0.0-1_all.deb",
+      "bytes": 9642,
+      "sha256": "c12460630fabd38d38d4fbca042128f40f7b33ee95bf08696e8185597721f3f6",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-binary-u64le",
+      "artifact": "ocean-lab-binary-u64le_1.0.0-1_all.deb",
+      "bytes": 9640,
+      "sha256": "9207ab38f6e2a785f8a478d16acbba169704ba8f7c660a33bd7266afd69120ed",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-binary-u64be",
+      "artifact": "ocean-lab-binary-u64be_1.0.0-1_all.deb",
+      "bytes": 9640,
+      "sha256": "d0ee21b2d2a22a4985c349bbbc98bad84edfe160d64208f890a26da2779234ce",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-binary-varint-encode",
+      "artifact": "ocean-lab-binary-varint-encode_1.0.0-1_all.deb",
+      "bytes": 9652,
+      "sha256": "eba335a2f9b7b73fb8e9b10993ed4d03a03a3755660cd018531198c371d2f860",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-binary-varint-decode",
+      "artifact": "ocean-lab-binary-varint-decode_1.0.0-1_all.deb",
+      "bytes": 9650,
+      "sha256": "dd2e3acdf6f2d19a084067ededdc8eabd8ca82af913fcc5b181116d0aa075a79",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-binary-zigzag-encode",
+      "artifact": "ocean-lab-binary-zigzag-encode_1.0.0-1_all.deb",
+      "bytes": 9650,
+      "sha256": "ca5e08374a2c743e6edb0d0cddfd0a43bd6c2883e73cadf17c54f00cbe89fc1d",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-binary-zigzag-decode",
+      "artifact": "ocean-lab-binary-zigzag-decode_1.0.0-1_all.deb",
+      "bytes": 9654,
+      "sha256": "af3363998d89e0d16f7f8808968f1b20c058dbb3ec67db34a61516b73b5d200d",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-binary-crc32",
+      "artifact": "ocean-lab-binary-crc32_1.0.0-1_all.deb",
+      "bytes": 9638,
+      "sha256": "7eee239ac485027bc165de195067d852443a696ea0bb352d4e79e7ee1e23ed0d",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-binary-adler32",
+      "artifact": "ocean-lab-binary-adler32_1.0.0-1_all.deb",
+      "bytes": 9644,
+      "sha256": "bb14cff24a787dbb29274a08bd203cd73700828c186624fcb91f88ac4cc03f45",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-binary-entropy",
+      "artifact": "ocean-lab-binary-entropy_1.0.0-1_all.deb",
+      "bytes": 9640,
+      "sha256": "13df65f180bf0d9635e9e425a747c9b0602511ecbd99da71241d570845265243",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-binary-magic",
+      "artifact": "ocean-lab-binary-magic_1.0.0-1_all.deb",
+      "bytes": 9640,
+      "sha256": "b883af0ddc452c7e510803726a0dbe9ef2874dc5272387efe2585030f23e7e64",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-binary-hexdump",
+      "artifact": "ocean-lab-binary-hexdump_1.0.0-1_all.deb",
+      "bytes": 9642,
+      "sha256": "6a958a3b6f82e33bb9a99cd48a185bd9015af586c2372ebd052766c047f15548",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-binary-xor",
+      "artifact": "ocean-lab-binary-xor_1.0.0-1_all.deb",
+      "bytes": 9642,
+      "sha256": "ace5a83526e4a536c1b2d066df4636d6f6dca72b31c99002ba1bc71ef0ee5985",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-binary-bitcount",
+      "artifact": "ocean-lab-binary-bitcount_1.0.0-1_all.deb",
+      "bytes": 9642,
+      "sha256": "9d97ac5eae9988243b0a1c6b918cc4b302925f7e42f56e5f87a64ca878c27d7b",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-binary-swap32",
+      "artifact": "ocean-lab-binary-swap32_1.0.0-1_all.deb",
+      "bytes": 9642,
+      "sha256": "e9698aed12840e8d5ab82efc93fb882d7e7cabd5b098b71b56128384dba530a1",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-binary-slice",
+      "artifact": "ocean-lab-binary-slice_1.0.0-1_all.deb",
+      "bytes": 9638,
+      "sha256": "12ae7d777a90c16c0f2611f614259dce4607613373766b7c171e15540983601c",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-binary-concat",
+      "artifact": "ocean-lab-binary-concat_1.0.0-1_all.deb",
+      "bytes": 9642,
+      "sha256": "4471658e2e98a3e54e47a7a6f6084a135a89d2e99ceadc3a198ef6df28a67dae",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-string-env-subst",
+      "artifact": "ocean-lab-string-env-subst_1.0.0-1_all.deb",
+      "bytes": 9648,
+      "sha256": "299f1026a72f7360bbe2978ab48751062f550b9fb968e0d34b9f68593375d9ba",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-string-map-subst",
+      "artifact": "ocean-lab-string-map-subst_1.0.0-1_all.deb",
+      "bytes": 9650,
+      "sha256": "6a5204efdbe7255c6a1578e8bfa1551b7b18de473de994feaf0d88a247da3d95",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-string-mustache-lite",
+      "artifact": "ocean-lab-string-mustache-lite_1.0.0-1_all.deb",
+      "bytes": 9650,
+      "sha256": "74a893fc27fdb3d11ec2bf056e5065d958b07a2f51c2281068879b049c7c8341",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-string-repeat",
+      "artifact": "ocean-lab-string-repeat_1.0.0-1_all.deb",
+      "bytes": 9642,
+      "sha256": "c391bcffeae63da00775dcd8b8c9c1d6e3cdb2abbe87db788153b96c25c4e4aa",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-string-pad-left",
+      "artifact": "ocean-lab-string-pad-left_1.0.0-1_all.deb",
+      "bytes": 9646,
+      "sha256": "c58f9bb820ac63cd05012ce271a8715cff486abd67e766d5caa7018a61f376c2",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-string-pad-right",
+      "artifact": "ocean-lab-string-pad-right_1.0.0-1_all.deb",
+      "bytes": 9644,
+      "sha256": "07ca7db9fd1ae0b63df1bea1f54fa3f8676ba8778e2e7393fc7d0157d45abc60",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-string-center",
+      "artifact": "ocean-lab-string-center_1.0.0-1_all.deb",
+      "bytes": 9640,
+      "sha256": "a92613cf9770510cc7b1135a295a6f66c63fa7e2b2f6c4912d65f288ce84114d",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-string-truncate",
+      "artifact": "ocean-lab-string-truncate_1.0.0-1_all.deb",
+      "bytes": 9646,
+      "sha256": "ba6f60bb8d215b574023596e18df7186aae71ced6366123a6ed6b3f1a243e3fb",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-string-ellipsis",
+      "artifact": "ocean-lab-string-ellipsis_1.0.0-1_all.deb",
+      "bytes": 9644,
+      "sha256": "6c8d6fc822d1dd3e071314122379dff1b6819cbb9055dad8ba708b00fa2cfdf6",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-string-camel",
+      "artifact": "ocean-lab-string-camel_1.0.0-1_all.deb",
+      "bytes": 9636,
+      "sha256": "95b1d17fa4852ea6630feb55c5c1ad3c589fd919c0f7e5d8dfcf34636c7007b4",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-string-snake",
+      "artifact": "ocean-lab-string-snake_1.0.0-1_all.deb",
+      "bytes": 9642,
+      "sha256": "fac35c8478b448eb3e478c4a1da6500e89989df7dd50d62c259bdfca3bf2ddf8",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-string-kebab",
+      "artifact": "ocean-lab-string-kebab_1.0.0-1_all.deb",
+      "bytes": 9638,
+      "sha256": "328ad510a3de76e1acd76c4a373b95dda3b7b90febf546b2c63ab6db9db7b4fd",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-string-pascal",
+      "artifact": "ocean-lab-string-pascal_1.0.0-1_all.deb",
+      "bytes": 9640,
+      "sha256": "52fabf60470bd445356a0fc4d3efa8d969748e4b14f3381802c317173166e4b2",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-string-initials",
+      "artifact": "ocean-lab-string-initials_1.0.0-1_all.deb",
+      "bytes": 9644,
+      "sha256": "374265b9ab500b97585ab6866ee4f66a41575d0bebbff34c8f2ee4178f30ef53",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-string-plural-simple",
+      "artifact": "ocean-lab-string-plural-simple_1.0.0-1_all.deb",
+      "bytes": 9648,
+      "sha256": "b2a168aa69f9570f8e0ecef671ff292ccfd6f743f5a8bbbab67e44a1f387f1df",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-string-singular-simple",
+      "artifact": "ocean-lab-string-singular-simple_1.0.0-1_all.deb",
+      "bytes": 9650,
+      "sha256": "74beb03df1845a714f901576092913357ff2734928965331f025bdad56b7f28e",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-string-normalize-space",
+      "artifact": "ocean-lab-string-normalize-space_1.0.0-1_all.deb",
+      "bytes": 9652,
+      "sha256": "f6f1094658a4a5b2fe2930bbd89f651cb972359cb507a6214fad35eafbdf21e2",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-string-template-lines",
+      "artifact": "ocean-lab-string-template-lines_1.0.0-1_all.deb",
+      "bytes": 9650,
+      "sha256": "36ea327df0fde63ca451201346884e5f56f5dec05d71a09136f5181d2dd35915",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-string-join-nonempty",
+      "artifact": "ocean-lab-string-join-nonempty_1.0.0-1_all.deb",
+      "bytes": 9646,
+      "sha256": "a6d200ef204f8b22a42dec3dad42a73ae75d22c94dfa039ad0263abf409f4050",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-string-placeholders",
+      "artifact": "ocean-lab-string-placeholders_1.0.0-1_all.deb",
+      "bytes": 9642,
+      "sha256": "e3aaed0e6022f269238ec4d70f0ce98bc8d4380723e5f0b7fe3a0d7d7501aca3",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-bundle-aab-entries",
+      "artifact": "ocean-lab-bundle-aab-entries_1.0.0-1_all.deb",
+      "bytes": 9646,
+      "sha256": "30648421d11076cb18f23b37f67be3baf386f944951883f89206e82d3afbd075",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-bundle-aab-modules",
+      "artifact": "ocean-lab-bundle-aab-modules_1.0.0-1_all.deb",
+      "bytes": 9650,
+      "sha256": "3346c467ec7bea1e61f5a495f9c1a611adceccd496bcd1f78a552ff224fe1868",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-bundle-aab-manifests",
+      "artifact": "ocean-lab-bundle-aab-manifests_1.0.0-1_all.deb",
+      "bytes": 9648,
+      "sha256": "81792f5adf30598f725475318328846f141e8179c657144e1f318980bb660ad7",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-bundle-aab-dex",
+      "artifact": "ocean-lab-bundle-aab-dex_1.0.0-1_all.deb",
+      "bytes": 9646,
+      "sha256": "5305e3989820e72c2543e0ad3dd7f3eb58096dac2155986bf1effd2ef4798ec3",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-bundle-aab-native-abis",
+      "artifact": "ocean-lab-bundle-aab-native-abis_1.0.0-1_all.deb",
+      "bytes": 9652,
+      "sha256": "a5c31c6dedc237b5685b7bea0176e65cec372d6bebc5db03832cb680d34e19e2",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-bundle-aab-native-libs",
+      "artifact": "ocean-lab-bundle-aab-native-libs_1.0.0-1_all.deb",
+      "bytes": 9652,
+      "sha256": "281bc0ff3144bc5094ff13e7a95004e9492fc7d1b70ecb913f0d88a107f20d62",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-bundle-aab-assets",
+      "artifact": "ocean-lab-bundle-aab-assets_1.0.0-1_all.deb",
+      "bytes": 9646,
+      "sha256": "c9364add8eebc1bc5f11904bc1b3c824b3433b9d178144ca1dd90c0b42d1716a",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-bundle-aab-resources",
+      "artifact": "ocean-lab-bundle-aab-resources_1.0.0-1_all.deb",
+      "bytes": 9644,
+      "sha256": "6d347914645fe08ae88d2e81b7cf118aab971bb094b24b33073ed4f79a83aa85",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-bundle-aab-bundle-config",
+      "artifact": "ocean-lab-bundle-aab-bundle-config_1.0.0-1_all.deb",
+      "bytes": 9646,
+      "sha256": "7b841e5d704489a09a187d40898dc416d50657ea445e9c0a4d92a47d3aad370c",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-bundle-aab-largest",
+      "artifact": "ocean-lab-bundle-aab-largest_1.0.0-1_all.deb",
+      "bytes": 9646,
+      "sha256": "d1305ad582b8274c73e6ee8781de342921612f11a2446e0cb0da9a0fe79391e3",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-bundle-apks-entries",
+      "artifact": "ocean-lab-bundle-apks-entries_1.0.0-1_all.deb",
+      "bytes": 9648,
+      "sha256": "bfb128ab8613e01f8df4321a948abac0bf6cb505962f9b9beb39766403c50bfd",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-bundle-apks-split-apks",
+      "artifact": "ocean-lab-bundle-apks-split-apks_1.0.0-1_all.deb",
+      "bytes": 9644,
+      "sha256": "e453612d4f97d7f4b8c50395f1d8887c962caf9380f5db508de37449da268cd4",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-bundle-apks-split-names",
+      "artifact": "ocean-lab-bundle-apks-split-names_1.0.0-1_all.deb",
+      "bytes": 9652,
+      "sha256": "34ee5199cddd4e0876f7b4e79830bef3c4012d175a4201cc7e46d612cb90dd18",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-bundle-apks-total-size",
+      "artifact": "ocean-lab-bundle-apks-total-size_1.0.0-1_all.deb",
+      "bytes": 9646,
+      "sha256": "f9e119021dbf42706d073f98a137a159400dfa19823eb819cde45bbe4e799161",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-bundle-apks-native-abis",
+      "artifact": "ocean-lab-bundle-apks-native-abis_1.0.0-1_all.deb",
+      "bytes": 9654,
+      "sha256": "7da5f8f2ee2304d59aaef96739655c9c416d4d69f9cf61217918b13a4e85bb4f",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-bundle-apks-dex-count",
+      "artifact": "ocean-lab-bundle-apks-dex-count_1.0.0-1_all.deb",
+      "bytes": 9652,
+      "sha256": "b5a3e7245764bb727d9e6ae9b945d76f418aed5b098cedc47cca28f0228f6b12",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-bundle-apks-assets",
+      "artifact": "ocean-lab-bundle-apks-assets_1.0.0-1_all.deb",
+      "bytes": 9650,
+      "sha256": "5fde8b9ae1f68cb8eda90512ca8486293abc42dc684f1e9f40e80d58cfe04c8a",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-bundle-bundle-sha256",
+      "artifact": "ocean-lab-bundle-bundle-sha256_1.0.0-1_all.deb",
+      "bytes": 9648,
+      "sha256": "cf22877bbfbf92bc5f49d6086a7e954c275ceac987e0aba5f8d9f02442a84036",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-bundle-bundle-integrity",
+      "artifact": "ocean-lab-bundle-bundle-integrity_1.0.0-1_all.deb",
+      "bytes": 9648,
+      "sha256": "6933edffab63b186a2cb138ce8b9bc016c6bdb3ae95f346c4d588f42e5a748e1",
+      "depends": "python"
+    },
+    {
+      "package": "ocean-lab-bundle-bundle-search",
+      "artifact": "ocean-lab-bundle-bundle-search_1.0.0-1_all.deb",
+      "bytes": 9644,
+      "sha256": "349210becfe231a49163ca5b5473f4234e534e68d73bc176167b6e84f0c905d5",
+      "depends": "python"
+    }
+  ],
+  "promotion": "staging-only until APT promotion/signing"
+}

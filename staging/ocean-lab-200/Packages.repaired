@@ -1,0 +1,2599 @@
+Package: ocean-lab-office-entries
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio office entries
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-office-entries_1.0.0-1_all.deb
+Size: 9648
+SHA256: f5e174f7a89d0bbc722918d2d5ea45cfd6edebe9816d39b768f21b4e74e2dac6
+
+Package: ocean-lab-office-content-types
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio office content types
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-office-content-types_1.0.0-1_all.deb
+Size: 9648
+SHA256: 6edfb6daa4321e1cd2c7e48b4e8ebe11395227ac25238d6a6c5855105f55d55f
+
+Package: ocean-lab-office-docx-text
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio office docx text
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-office-docx-text_1.0.0-1_all.deb
+Size: 9648
+SHA256: aa884abfc63154ac749f9ac7f069ce018f7571ef96cc9b0c6ef62dc5d5afe6f4
+
+Package: ocean-lab-office-docx-links
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio office docx links
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-office-docx-links_1.0.0-1_all.deb
+Size: 9652
+SHA256: 86edf75db5bc10de1ceaeb15a776d68060c143b523fb8301dff7e357ca3cf8eb
+
+Package: ocean-lab-office-docx-images
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio office docx images
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-office-docx-images_1.0.0-1_all.deb
+Size: 9652
+SHA256: 7d08717481e929a077bd79abd8b0b166d8028742d6e8f5ab2aa67572c11ddc92
+
+Package: ocean-lab-office-xlsx-sheets
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio office xlsx sheets
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-office-xlsx-sheets_1.0.0-1_all.deb
+Size: 9652
+SHA256: fb6740bfb94a1d234c11562479ac0ba9e8f47c87691c2328f3cb28f352e69b1e
+
+Package: ocean-lab-office-xlsx-shared-strings
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio office xlsx shared strings
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-office-xlsx-shared-strings_1.0.0-1_all.deb
+Size: 9662
+SHA256: 9dc04e9335b86c57883f4776b95b176b563f4f5c9d76150013f017dc8a2c7d6b
+
+Package: ocean-lab-office-xlsx-formulas
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio office xlsx formulas
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-office-xlsx-formulas_1.0.0-1_all.deb
+Size: 9652
+SHA256: a3cdf5e89354ea11e07c495cb8fe6908bb9f43ba36e302c469e8ac57b9cca46e
+
+Package: ocean-lab-office-xlsx-dimensions
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio office xlsx dimensions
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-office-xlsx-dimensions_1.0.0-1_all.deb
+Size: 9660
+SHA256: 9c8aa482d3bbe2ef41241c889f0a87fd0f2e1185a4196a4279904548357a0416
+
+Package: ocean-lab-office-pptx-slides
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio office pptx slides
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-office-pptx-slides_1.0.0-1_all.deb
+Size: 9648
+SHA256: 6d9cf633c99a09ec046d5e938307d0b9c97f35a0841defcd27d2b9d068d56e47
+
+Package: ocean-lab-office-pptx-text
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio office pptx text
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-office-pptx-text_1.0.0-1_all.deb
+Size: 9652
+SHA256: 1afe9222eb5da029637cbaf68630cbba8b566ba7e4b652a2e50d916aac2ab710
+
+Package: ocean-lab-office-pptx-images
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio office pptx images
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-office-pptx-images_1.0.0-1_all.deb
+Size: 9652
+SHA256: eeeb69759db4832ef419bbc97044f7967f1693052775d652b1f23b53ce9768a3
+
+Package: ocean-lab-office-epub-metadata
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio office epub metadata
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-office-epub-metadata_1.0.0-1_all.deb
+Size: 9650
+SHA256: bc00a01ca81004930665d4e1f7e897f16c535e39d004bbe83e42a02c6710c139
+
+Package: ocean-lab-office-epub-manifest
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio office epub manifest
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-office-epub-manifest_1.0.0-1_all.deb
+Size: 9652
+SHA256: 5b9afcc3a97751ee8d4a493efb69cc36beb2d251bfdd9dad6a52f38c4b7d9f58
+
+Package: ocean-lab-office-epub-spine
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio office epub spine
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-office-epub-spine_1.0.0-1_all.deb
+Size: 9648
+SHA256: 62af8d286e65880a638ff03179ed24f904b974c4a0b19e2d308e8e59257e27ef
+
+Package: ocean-lab-office-odf-mimetype
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio office odf mimetype
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-office-odf-mimetype_1.0.0-1_all.deb
+Size: 9652
+SHA256: 6d18d604b64a4b2699d42a89516311632c6022ce8384d2e2c108419b9c8698e7
+
+Package: ocean-lab-office-odf-content-stats
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio office odf content stats
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-office-odf-content-stats_1.0.0-1_all.deb
+Size: 9658
+SHA256: efc3ea2a0ccfde60676037e83daafa52b7c2d354020b79008a52a0b08ddbdb60
+
+Package: ocean-lab-office-media-list
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio office media list
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-office-media-list_1.0.0-1_all.deb
+Size: 9648
+SHA256: b3cc597f33e09e19146d497c973b0a34502bdb85eca6a4cc90fb9bb934b12fa0
+
+Package: ocean-lab-office-largest-parts
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio office largest parts
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-office-largest-parts_1.0.0-1_all.deb
+Size: 9648
+SHA256: 5a885e2b23b1fb981de3f1c0a02f27fa068af518b1003c5e895c153f6237dcff
+
+Package: ocean-lab-office-integrity
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio office integrity
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-office-integrity_1.0.0-1_all.deb
+Size: 9642
+SHA256: 855917ca82aa73f005c2530ef57bbc87ec9b3fb53a65e5566c8ad5e940a38175
+
+Package: ocean-lab-pdf-header
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio pdf header
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-pdf-header_1.0.0-1_all.deb
+Size: 9642
+SHA256: fef685ba1e6721181c566f2b9e2b55df6ec0eeeeb32961dfbb70035083cc3af8
+
+Package: ocean-lab-pdf-version
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio pdf version
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-pdf-version_1.0.0-1_all.deb
+Size: 9638
+SHA256: 517c1175218a994818c1291cb57e3d054f1821c3d36c31727753056862185c70
+
+Package: ocean-lab-pdf-eof-check
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio pdf eof check
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-pdf-eof-check_1.0.0-1_all.deb
+Size: 9648
+SHA256: 5e909d4131486796486388a29e383818d64c319cbff7c41e60864765e0a88165
+
+Package: ocean-lab-pdf-object-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio pdf object count
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-pdf-object-count_1.0.0-1_all.deb
+Size: 9648
+SHA256: 84f20ca552ad2812402083bf24d6ad179cf32dafa4efa08d91a018e04bc0a2eb
+
+Package: ocean-lab-pdf-stream-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio pdf stream count
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-pdf-stream-count_1.0.0-1_all.deb
+Size: 9646
+SHA256: 722b76c6ac68006221c5799c662a39970193d90dcec267e1017589bcfce9fa75
+
+Package: ocean-lab-pdf-page-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio pdf page count
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-pdf-page-count_1.0.0-1_all.deb
+Size: 9648
+SHA256: 788983a8a30269dc66d77ceebc83e374553033b815c933fd39b9e80aff893d34
+
+Package: ocean-lab-pdf-metadata-strings
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio pdf metadata strings
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-pdf-metadata-strings_1.0.0-1_all.deb
+Size: 9652
+SHA256: b81d56df3aa6af882be43264d632946c8679f5ce9301e2ef5880484982bee7ab
+
+Package: ocean-lab-pdf-font-hints
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio pdf font hints
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-pdf-font-hints_1.0.0-1_all.deb
+Size: 9646
+SHA256: cef8d30383662a3dc78d81cf27af05f859e0d21dc7e4c2f9d23bfd4e90ebef3b
+
+Package: ocean-lab-pdf-image-hints
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio pdf image hints
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-pdf-image-hints_1.0.0-1_all.deb
+Size: 9648
+SHA256: 06aa4b5e5a5e8b0c7ddaacee8efeb2c502ae52029ef288d0a26411c028e1f922
+
+Package: ocean-lab-pdf-xref-offsets
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio pdf xref offsets
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-pdf-xref-offsets_1.0.0-1_all.deb
+Size: 9644
+SHA256: 5e56c08e6b088ee20adaea9f8f27a4f3acb5e3444bed958d26aad9506457da5f
+
+Package: ocean-lab-pdf-trailer
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio pdf trailer
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-pdf-trailer_1.0.0-1_all.deb
+Size: 9642
+SHA256: a45bd20b8652e943938264444c816e1c5ac941dfeaa17622ecd93f2b15108998
+
+Package: ocean-lab-pdf-linearized
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio pdf linearized
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-pdf-linearized_1.0.0-1_all.deb
+Size: 9640
+SHA256: fba5ea37bc8790d22ba72a5084c4c8a352a9129c48f857e493d5a00217126e57
+
+Package: ocean-lab-pdf-encrypted
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio pdf encrypted
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-pdf-encrypted_1.0.0-1_all.deb
+Size: 9648
+SHA256: d992e8c357fa4a416f435a664e744c77c0ca1d948dce3aacc826a2c894cd067a
+
+Package: ocean-lab-pdf-attachment-hints
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio pdf attachment hints
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-pdf-attachment-hints_1.0.0-1_all.deb
+Size: 9654
+SHA256: 1101ec95130cab64d5b668ecc3584d56fc9e1f655f1d1563d5fe7546e6b7922f
+
+Package: ocean-lab-pdf-uri-links
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio pdf uri links
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-pdf-uri-links_1.0.0-1_all.deb
+Size: 9652
+SHA256: 6d648669a5096b6e8029ba4f29a3f19d048b2d00e687f48ce78ddaf1902f8e36
+
+Package: ocean-lab-pdf-producer
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio pdf producer
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-pdf-producer_1.0.0-1_all.deb
+Size: 9644
+SHA256: bf44775a2b16d32e07e5c0fbc2db73bb9872c689cc067744c76cbc12596b9a80
+
+Package: ocean-lab-pdf-creator
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio pdf creator
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-pdf-creator_1.0.0-1_all.deb
+Size: 9646
+SHA256: 31fba7ffec7c8c2a1034fce9afd39f2792d1ee105946cbedd29aad0fd0ae04d8
+
+Package: ocean-lab-pdf-title
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio pdf title
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-pdf-title_1.0.0-1_all.deb
+Size: 9638
+SHA256: eee0fcc40ebd046a33216b49d211c04cdd24c7998657190ad04e94d8e3542e62
+
+Package: ocean-lab-pdf-sha256
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio pdf sha256
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-pdf-sha256_1.0.0-1_all.deb
+Size: 9644
+SHA256: 1a8bfe220d6cd5deafe461ad3c53c4051e0d0a3ee0a22972e1119ea99ee5f72b
+
+Package: ocean-lab-pdf-entropy
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio pdf entropy
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-pdf-entropy_1.0.0-1_all.deb
+Size: 9648
+SHA256: cf85c51437e4a1e1b402c70d2026d0f76aa2e4bcfdd82943362029b29e06face
+
+Package: ocean-lab-mail-headers
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio mail headers
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-mail-headers_1.0.0-1_all.deb
+Size: 9644
+SHA256: e54a9af48f94c57147e426a4ac00f4ec4a2c2a1467c6ae41325679f6e69297cd
+
+Package: ocean-lab-mail-subject
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio mail subject
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-mail-subject_1.0.0-1_all.deb
+Size: 9648
+SHA256: a5b289ce4695e0a73c06e07b26a1be1c240aca6e0cadc2903f8b07374f516e8c
+
+Package: ocean-lab-mail-from
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio mail from
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-mail-from_1.0.0-1_all.deb
+Size: 9642
+SHA256: 77bf8ab17ec2bd57293943f66589e773635350acc28b869868bcc89b07c09554
+
+Package: ocean-lab-mail-to
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio mail to
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-mail-to_1.0.0-1_all.deb
+Size: 9642
+SHA256: 958bd98c2347a8643f1c7e354017f3e6245360c6320602ac147ea65f161a4f98
+
+Package: ocean-lab-mail-cc
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio mail cc
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-mail-cc_1.0.0-1_all.deb
+Size: 9640
+SHA256: 84883922c2c8f17ee6f62cadcafa5b1928b882b82862d83d4d5513bcdc212d27
+
+Package: ocean-lab-mail-date
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio mail date
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-mail-date_1.0.0-1_all.deb
+Size: 9642
+SHA256: 9099d648d2dcbd3d6e1b9cbe6edce2ba035518c208867582310a77180d695ec1
+
+Package: ocean-lab-mail-message-id
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio mail message id
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-mail-message-id_1.0.0-1_all.deb
+Size: 9650
+SHA256: 4ff29753b6141e2da7925ab579ca50d0e367ec4acf54cb2b8381f047c33099a0
+
+Package: ocean-lab-mail-attachments
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio mail attachments
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-mail-attachments_1.0.0-1_all.deb
+Size: 9644
+SHA256: ecc0c07396f9cbf76deffb5a5943658b4eb8b594b86c12711172a4d0b9b0b216
+
+Package: ocean-lab-mail-mime-parts
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio mail mime parts
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-mail-mime-parts_1.0.0-1_all.deb
+Size: 9648
+SHA256: 7381f7736a301387529fc8ddbe0faf2c4e6972e72991327ae8cc652439dd46d0
+
+Package: ocean-lab-mail-text-body
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio mail text body
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-mail-text-body_1.0.0-1_all.deb
+Size: 9644
+SHA256: 7a1af2813ee91e61655812ba25f63bcfe9e02609c2ec1e1256059caea9e6f8cc
+
+Package: ocean-lab-mail-html-body
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio mail html body
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-mail-html-body_1.0.0-1_all.deb
+Size: 9646
+SHA256: b1a5d958583d97a23ed727d61553ae0278bc25f62caf0d2a28bb4cade67defbb
+
+Package: ocean-lab-mail-domains
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio mail domains
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-mail-domains_1.0.0-1_all.deb
+Size: 9646
+SHA256: fb2fa5995559629c75be646ebdc37b3ae8b1b89075d0ad3a48134a3e102bfb17
+
+Package: ocean-lab-mail-addresses
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio mail addresses
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-mail-addresses_1.0.0-1_all.deb
+Size: 9640
+SHA256: 5cbfcbc55f4d13219aa2bf8a5958e00d251f8400314c14943254b0fc49a71cbd
+
+Package: ocean-lab-mail-received-hops
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio mail received hops
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-mail-received-hops_1.0.0-1_all.deb
+Size: 9648
+SHA256: 4e192c6224eeee5516339d1ddf35f7960a1ae00994941ccd60e5d10959c25f89
+
+Package: ocean-lab-mail-content-types
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio mail content types
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-mail-content-types_1.0.0-1_all.deb
+Size: 9646
+SHA256: 3bd798c296d83a6a0b66d14df0a4f613844157a7ab4c527b6b9031faf3695d0a
+
+Package: ocean-lab-mail-attachment-names
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio mail attachment names
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-mail-attachment-names_1.0.0-1_all.deb
+Size: 9654
+SHA256: 2836c5282451f863ff119cf3ff35d3e30fe84d4687027343ce775ed75e944092
+
+Package: ocean-lab-mail-decode-header
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio mail decode header
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-mail-decode-header_1.0.0-1_all.deb
+Size: 9648
+SHA256: 94a4535450c09cb1ddc47898e1d6d375eaf8d2f384cf5b3ff05b1e96c0e3462f
+
+Package: ocean-lab-mail-canonicalize
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio mail canonicalize
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-mail-canonicalize_1.0.0-1_all.deb
+Size: 9644
+SHA256: 65f1a70ab8c0ffc587394bae1b628234b0688950a102f7ff891fde5ab40fc2fc
+
+Package: ocean-lab-mail-mbox-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio mail mbox count
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-mail-mbox-count_1.0.0-1_all.deb
+Size: 9644
+SHA256: 56f2b187a8ee7060c35a3aefb50edc4f36cc3f1d0d7d0781ceb93334631b2020
+
+Package: ocean-lab-mail-eml-hash
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio mail eml hash
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-mail-eml-hash_1.0.0-1_all.deb
+Size: 9648
+SHA256: dfc31bb68d0f5324516c7c3c39cbf94dcece4df2b22536d9b79d7be3ca189a56
+
+Package: ocean-lab-cal-ics-events
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio cal ics events
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-cal-ics-events_1.0.0-1_all.deb
+Size: 9644
+SHA256: ba63bd2ca1de1cde26ac2aa7c9c50c0647d38b8bfa3f9eb4ad0022cd780b8c41
+
+Package: ocean-lab-cal-ics-todos
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio cal ics todos
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-cal-ics-todos_1.0.0-1_all.deb
+Size: 9646
+SHA256: a245a4d6076ad34db17a2ef91c8b1eea9bf34b2fd0e69bd8d9f1b9d79ecc07d3
+
+Package: ocean-lab-cal-ics-timezones
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio cal ics timezones
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-cal-ics-timezones_1.0.0-1_all.deb
+Size: 9646
+SHA256: a8a72a41ea0b2d2bc1122c75ae61b9f84da7771b45b17ce58cd8653f91bf8f85
+
+Package: ocean-lab-cal-ics-dtstart
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio cal ics dtstart
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-cal-ics-dtstart_1.0.0-1_all.deb
+Size: 9662
+SHA256: d229e4b3a10311f742105e539103720f634d5147482d50c145070f05be0ee399
+
+Package: ocean-lab-cal-ics-dtend
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio cal ics dtend
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-cal-ics-dtend_1.0.0-1_all.deb
+Size: 9646
+SHA256: 501bc29c889bf903c3ed8f1ab2a0ce3dc030a855cc49a7d6caf74f488f19e2ec
+
+Package: ocean-lab-cal-ics-duration
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio cal ics duration
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-cal-ics-duration_1.0.0-1_all.deb
+Size: 9646
+SHA256: 3017747940b278e54af44cdcb54496088480a226e01b93db1679760f841627aa
+
+Package: ocean-lab-cal-ics-attendees
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio cal ics attendees
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-cal-ics-attendees_1.0.0-1_all.deb
+Size: 9642
+SHA256: d8833520a71bdf62178d5afb7f0ce3eb2457785c097741be3a26f7c9f94d252f
+
+Package: ocean-lab-cal-ics-organizers
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio cal ics organizers
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-cal-ics-organizers_1.0.0-1_all.deb
+Size: 9648
+SHA256: a18baac4399b01420a9e56e27d8b28a1b65e80a0c65db61ea3cfdbdfc5f7e9b3
+
+Package: ocean-lab-cal-ics-locations
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio cal ics locations
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-cal-ics-locations_1.0.0-1_all.deb
+Size: 9652
+SHA256: 759e7248e285715e94154a498ca753a7c48290bd05b68593e7782a9af49ee17e
+
+Package: ocean-lab-cal-ics-summaries
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio cal ics summaries
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-cal-ics-summaries_1.0.0-1_all.deb
+Size: 9648
+SHA256: cbfe676ed4285ff1b68022cd718cb8fbb4fbb28a584451df143051d87d38565d
+
+Package: ocean-lab-cal-ics-uids
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio cal ics uids
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-cal-ics-uids_1.0.0-1_all.deb
+Size: 9644
+SHA256: 88cff7a461e1b99a392b14d7eb7c87da602fcfcc4d0eb07c945403ac326cc1ee
+
+Package: ocean-lab-cal-ics-rrules
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio cal ics rrules
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-cal-ics-rrules_1.0.0-1_all.deb
+Size: 9638
+SHA256: ce0bc4b4cda96e47cc1cab5959ed1f3c080b0f923649a51722b91c4d783a148e
+
+Package: ocean-lab-cal-ics-alarms
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio cal ics alarms
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-cal-ics-alarms_1.0.0-1_all.deb
+Size: 9644
+SHA256: cd1bec3e1f712e259e3b190fc6ef5369a25e25730d2f5f82c1ce937568592a8b
+
+Package: ocean-lab-cal-ics-freebusy
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio cal ics freebusy
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-cal-ics-freebusy_1.0.0-1_all.deb
+Size: 9646
+SHA256: 796b4055f7dfc632de4a5aec3d33a0db607118aeb7bf96fd7e8a62db21bcc596
+
+Package: ocean-lab-cal-vcard-names
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio cal vcard names
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-cal-vcard-names_1.0.0-1_all.deb
+Size: 9642
+SHA256: 2073d93bced83c23fb96e594d269535d4402d3fff3dbfddf472dd850937394de
+
+Package: ocean-lab-cal-vcard-emails
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio cal vcard emails
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-cal-vcard-emails_1.0.0-1_all.deb
+Size: 9644
+SHA256: f57e14f9a3306fbdf6c744a560ab3b2e34d2935cd522bc7c834249b168361e27
+
+Package: ocean-lab-cal-vcard-phones
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio cal vcard phones
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-cal-vcard-phones_1.0.0-1_all.deb
+Size: 9648
+SHA256: c817cb2fed71f521ee292a17c5590f4b91ca8abba5d2a3b560409208adbb4853
+
+Package: ocean-lab-cal-vcard-orgs
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio cal vcard orgs
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-cal-vcard-orgs_1.0.0-1_all.deb
+Size: 9646
+SHA256: 66a3bdede4ef72635668d3f2b53bd5e14034d2bc6e8a3c9500f1b9568863d0c4
+
+Package: ocean-lab-cal-vcard-addresses
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio cal vcard addresses
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-cal-vcard-addresses_1.0.0-1_all.deb
+Size: 9650
+SHA256: 87c84dee6d1788b8d7a9cae3c95ae0a31eea7b536922e4a0206c372c447c8ef3
+
+Package: ocean-lab-cal-vcard-properties
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio cal vcard properties
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-cal-vcard-properties_1.0.0-1_all.deb
+Size: 9648
+SHA256: f6a9b695c795b0e77ffe6cef60b8a78c7feb92a6aaa45b41635cee0f462c5a7f
+
+Package: ocean-lab-token-jwt-header
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio token jwt header
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-token-jwt-header_1.0.0-1_all.deb
+Size: 9648
+SHA256: 3a24c2181f7b2f953de0fff61d359579e7da7afc1a2e786bb7be35e4e8157147
+
+Package: ocean-lab-token-jwt-payload
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio token jwt payload
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-token-jwt-payload_1.0.0-1_all.deb
+Size: 9644
+SHA256: 38b5074493af043e499b9e51a1872cede9c8d2cba094e4ad60951a3bd5360e6c
+
+Package: ocean-lab-token-jwt-claims
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio token jwt claims
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-token-jwt-claims_1.0.0-1_all.deb
+Size: 9644
+SHA256: f01f4f11fab7ea71d53f5eb721ae797399265ede55691aadf0020d1e11fd4094
+
+Package: ocean-lab-token-jwt-exp
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio token jwt exp
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-token-jwt-exp_1.0.0-1_all.deb
+Size: 9646
+SHA256: 3cb6188b4fcf66d0978dfa72db6fe1e445a28e871a7dcb3f37bfd68554cdc5f7
+
+Package: ocean-lab-token-jwt-nbf
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio token jwt nbf
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-token-jwt-nbf_1.0.0-1_all.deb
+Size: 9650
+SHA256: 9a125d7c903d723883f5d7eaeaee810158424d89bbb0bf5c2d0c0b8e116a939b
+
+Package: ocean-lab-token-jwt-iat
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio token jwt iat
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-token-jwt-iat_1.0.0-1_all.deb
+Size: 9650
+SHA256: 0536cdaec46d955ac229b19b70c8fb1c67758ac28e2ee0771950bac0d8026dc3
+
+Package: ocean-lab-token-jwt-aud
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio token jwt aud
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-token-jwt-aud_1.0.0-1_all.deb
+Size: 9646
+SHA256: 9d1f1c93441df6f87f9142ff835d1bd9e0b548af168d0a07c85992eefa69442f
+
+Package: ocean-lab-token-jwt-iss
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio token jwt iss
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-token-jwt-iss_1.0.0-1_all.deb
+Size: 9648
+SHA256: 694c7825d6e6d8f9937ea3e952787115326203ea8609d0bb25439f020bcc9c5f
+
+Package: ocean-lab-token-jwt-sub
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio token jwt sub
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-token-jwt-sub_1.0.0-1_all.deb
+Size: 9650
+SHA256: 531a282767f3df7a4cea4dc15437389191960e04bd6574557acd4b2e06a1aad1
+
+Package: ocean-lab-token-jwt-jti
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio token jwt jti
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-token-jwt-jti_1.0.0-1_all.deb
+Size: 9648
+SHA256: 4492fa5ce1d658101d1902ee4f77a5342ff93056abfbd1ee15a7c3ac969d0601
+
+Package: ocean-lab-token-jwt-scopes
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio token jwt scopes
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-token-jwt-scopes_1.0.0-1_all.deb
+Size: 9646
+SHA256: a8914760582abe6978d290eae8d5207c3d370c220b9b4975584841cc69364e0a
+
+Package: ocean-lab-token-jwt-alg
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio token jwt alg
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-token-jwt-alg_1.0.0-1_all.deb
+Size: 9650
+SHA256: e24310ae4a398bb06602e73d62d7235044eab6099c46c84922b8724294631a2c
+
+Package: ocean-lab-token-jwt-kid
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio token jwt kid
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-token-jwt-kid_1.0.0-1_all.deb
+Size: 9648
+SHA256: 474e4556d82f996148f8035cae72daccbc845e71a753b41955136d65c46c0d64
+
+Package: ocean-lab-token-jwt-type
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio token jwt type
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-token-jwt-type_1.0.0-1_all.deb
+Size: 9644
+SHA256: fd9a22dcc439698cc54a5795197397e7f9938fca398683da96a395e71f666b18
+
+Package: ocean-lab-token-jwt-expired
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio token jwt expired
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-token-jwt-expired_1.0.0-1_all.deb
+Size: 9646
+SHA256: 0d3723cc31b3755dbc2420983432a61947cf59fc2319450b73f0c164913fe358
+
+Package: ocean-lab-token-jwt-ttl
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio token jwt ttl
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-token-jwt-ttl_1.0.0-1_all.deb
+Size: 9646
+SHA256: 405abc6905d8e214fdb0f47dc396b4680c7b8ec7042e0c482acb4a51826fcca1
+
+Package: ocean-lab-token-base64url-split
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio token base64url split
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-token-base64url-split_1.0.0-1_all.deb
+Size: 9646
+SHA256: c4d1d902efc619caf23a8730ea55f4d7b3da31f8753c0893a2273919b12ccb3a
+
+Package: ocean-lab-token-compact-parts
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio token compact parts
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-token-compact-parts_1.0.0-1_all.deb
+Size: 9650
+SHA256: ac368b4f1e903289204143f4b2f367d43d8725e984278cd412142f2af3925077
+
+Package: ocean-lab-token-fingerprint
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio token fingerprint
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-token-fingerprint_1.0.0-1_all.deb
+Size: 9644
+SHA256: 16232d5be75b545e8cfdfa6f16f6d8edfc67d785b3f1cf1b6580e5b450fd0d23
+
+Package: ocean-lab-token-redact
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio token redact
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-token-redact_1.0.0-1_all.deb
+Size: 9640
+SHA256: 6c41b2e0e2e17d60ac0fe5b6f028e9c0f2c9e07326b12cf143c5a639f723b8da
+
+Package: ocean-lab-project-npm-name
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio project npm name
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-project-npm-name_1.0.0-1_all.deb
+Size: 9642
+SHA256: 5d5e7ed87707367949408b371e14d6465780b3ce0193ea5192558ddf741edee3
+
+Package: ocean-lab-project-npm-version
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio project npm version
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-project-npm-version_1.0.0-1_all.deb
+Size: 9652
+SHA256: 603f001866ff5010468857632e83da98c4100527f31d3739b50fb3db1d4cfc9c
+
+Package: ocean-lab-project-npm-deps
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio project npm deps
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-project-npm-deps_1.0.0-1_all.deb
+Size: 9646
+SHA256: f30150ea24b5bb83d9af49bad198fcf7dbc64a00dd6ff2a1aae92fe5292715ed
+
+Package: ocean-lab-project-npm-devdeps
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio project npm devdeps
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-project-npm-devdeps_1.0.0-1_all.deb
+Size: 9654
+SHA256: de0d0894ba841bb58dcc0e56985481c50dc1cc034c9c8db8a5954ec8bb2f34c9
+
+Package: ocean-lab-project-npm-scripts
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio project npm scripts
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-project-npm-scripts_1.0.0-1_all.deb
+Size: 9650
+SHA256: 86dabac0e32a0e0b8fc4102e1aba84bea6072a8d30a985b946e5f00ccecd7148
+
+Package: ocean-lab-project-npm-engines
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio project npm engines
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-project-npm-engines_1.0.0-1_all.deb
+Size: 9654
+SHA256: b18a6404e74e64fe09fc4f692391fe0b2cab8d9ab2150b405e7619a461f13506
+
+Package: ocean-lab-project-cargo-package
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio project cargo package
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-project-cargo-package_1.0.0-1_all.deb
+Size: 9646
+SHA256: f5ea5af97b0332a09d2e1c22dab26adaec724baf459e8733bb3061f78141a6ec
+
+Package: ocean-lab-project-cargo-deps
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio project cargo deps
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-project-cargo-deps_1.0.0-1_all.deb
+Size: 9644
+SHA256: c3f7955d8fc5e99b518aee76a8b5a6f7650706610e65655077e447a1fc394b8b
+
+Package: ocean-lab-project-cargo-features
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio project cargo features
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-project-cargo-features_1.0.0-1_all.deb
+Size: 9648
+SHA256: b909c1f18c5e9d638b7f85fbc15461b646bf9b9c0436074c1e636ac9d424d976
+
+Package: ocean-lab-project-pyproject-project
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio project pyproject project
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-project-pyproject-project_1.0.0-1_all.deb
+Size: 9648
+SHA256: ca96f8c7bfe376e02a75fff659176b6d9674dcc81f84600f2770ca8a86a728b5
+
+Package: ocean-lab-project-pyproject-deps
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio project pyproject deps
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-project-pyproject-deps_1.0.0-1_all.deb
+Size: 9652
+SHA256: 55c5edf47a912ca9a2ead654d5ca1169546c4a0df1300619f1a9e1e658891cea
+
+Package: ocean-lab-project-pyproject-scripts
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio project pyproject scripts
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-project-pyproject-scripts_1.0.0-1_all.deb
+Size: 9652
+SHA256: 3a818d3e0c68cc54bffe724ccc3ee823b9d203c18992a8e4e5128efbd13d5350
+
+Package: ocean-lab-project-requirements-packages
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio project requirements packages
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-project-requirements-packages_1.0.0-1_all.deb
+Size: 9652
+SHA256: 894044a09b88b1a127b7c379497baeb4ddccfea17a69fc6db585b7dab65d36aa
+
+Package: ocean-lab-project-gradle-plugins
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio project gradle plugins
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-project-gradle-plugins_1.0.0-1_all.deb
+Size: 9652
+SHA256: 300c08834b8d78cc98623ca0d0123e4e91479a3f1325d707b6b2f542762245a4
+
+Package: ocean-lab-project-gradle-deps
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio project gradle deps
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-project-gradle-deps_1.0.0-1_all.deb
+Size: 9650
+SHA256: 2bc9358434a9bbbcf4235bdbf5bf4ebdecdddb74b48095156a30a77dd3545e1f
+
+Package: ocean-lab-project-pom-gav
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio project pom gav
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-project-pom-gav_1.0.0-1_all.deb
+Size: 9644
+SHA256: 17737af0b7898258b33b5207c54672152f2b42463cc9d2d79ebfc8d318dca793
+
+Package: ocean-lab-project-pom-deps
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio project pom deps
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-project-pom-deps_1.0.0-1_all.deb
+Size: 9650
+SHA256: b034824e89409ccb71540ab688f531a8b42bb37dcb246814fc8d5e2a39b0e0ac
+
+Package: ocean-lab-project-android-package
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio project android package
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-project-android-package_1.0.0-1_all.deb
+Size: 9654
+SHA256: 29c676c3c583479985d4487287fced47dca0c240663faa22fb01ac58799d5784
+
+Package: ocean-lab-project-android-permissions
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio project android permissions
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-project-android-permissions_1.0.0-1_all.deb
+Size: 9660
+SHA256: 4c5ead5b597be9617b390bd7839c97d09a1ab043ba68ee2cf835fbad100d7142
+
+Package: ocean-lab-project-project-detect
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio project project detect
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-project-project-detect_1.0.0-1_all.deb
+Size: 9644
+SHA256: ac23ba84f05ada35cb939eb71767a0eaf9eba00547f44ed39f65955c6993acb6
+
+Package: ocean-lab-source-detect-language
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio source detect language
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-source-detect-language_1.0.0-1_all.deb
+Size: 9652
+SHA256: 6e3c7ac71b1c8eae1ea85f13abb967b29159f6c67bd5a8ce6069215bce435530
+
+Package: ocean-lab-source-lines-total
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio source lines total
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-source-lines-total_1.0.0-1_all.deb
+Size: 9646
+SHA256: 41c93829f571156061ba736c956ccc1c8d35e8a873524f1febe7d313b9bd8158
+
+Package: ocean-lab-source-lines-blank
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio source lines blank
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-source-lines-blank_1.0.0-1_all.deb
+Size: 9646
+SHA256: 228912d440e2916983cef77337457efe701f4916bb4ac27527604345ecf8aee9
+
+Package: ocean-lab-source-lines-comment
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio source lines comment
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-source-lines-comment_1.0.0-1_all.deb
+Size: 9652
+SHA256: e12164adc89081cc1de25d7721d5d0e725b86d013e91bbb72d6beaad5a2a2f62
+
+Package: ocean-lab-source-lines-code
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio source lines code
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-source-lines-code_1.0.0-1_all.deb
+Size: 9648
+SHA256: 1e8bb7040f7fb3f842dd7aca7d0f692edfd86deec4b9f89750b95ee866569f51
+
+Package: ocean-lab-source-longest-line
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio source longest line
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-source-longest-line_1.0.0-1_all.deb
+Size: 9654
+SHA256: 4261f4917e7ae365ae6427679bc35951300af303f3186fdcfb0693486336083a
+
+Package: ocean-lab-source-trailing-space
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio source trailing space
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-source-trailing-space_1.0.0-1_all.deb
+Size: 9648
+SHA256: 3e75e3657e637c07789d1274c6c13ba5d4f9cb3408f0a32dc7081635a3ac754b
+
+Package: ocean-lab-source-tab-lines
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio source tab lines
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-source-tab-lines_1.0.0-1_all.deb
+Size: 9648
+SHA256: 54adb6b9755c4f6eac98a7408b9312c0e1f7b1427f559c9eb3c21dcc76bce3fe
+
+Package: ocean-lab-source-nonascii-lines
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio source nonascii lines
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-source-nonascii-lines_1.0.0-1_all.deb
+Size: 9654
+SHA256: 56ec08e88d3dc32e8bd425ecb17388885d9eaed33718fa5a17c0dc7cc289aad0
+
+Package: ocean-lab-source-todo-lines
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio source todo lines
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-source-todo-lines_1.0.0-1_all.deb
+Size: 9648
+SHA256: 0da6daa1a172f95ea42a31180f1b3e4bec8ae62df09675068cb4a2aec0ebe438
+
+Package: ocean-lab-source-python-functions
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio source python functions
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-source-python-functions_1.0.0-1_all.deb
+Size: 9646
+SHA256: 01e5bf2695e8be329dae191914d1f5240920a7d3292fbf9b50da3c0f33145214
+
+Package: ocean-lab-source-python-classes
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio source python classes
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-source-python-classes_1.0.0-1_all.deb
+Size: 9650
+SHA256: 1c2207874878f6208feda0a03bad923ab8fc0687f7694441f3ffc271081fd490
+
+Package: ocean-lab-source-js-imports
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio source js imports
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-source-js-imports_1.0.0-1_all.deb
+Size: 9646
+SHA256: 33d65ea9a41bf3c99e712b9da9af5c6d3aefd3bda78f68b12a59b68716646daa
+
+Package: ocean-lab-source-js-requires
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio source js requires
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-source-js-requires_1.0.0-1_all.deb
+Size: 9646
+SHA256: 25abfd823267b92af5224a4107fa11db1a60cf1a04a66489ec1bd3037ecada71
+
+Package: ocean-lab-source-go-imports
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio source go imports
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-source-go-imports_1.0.0-1_all.deb
+Size: 9644
+SHA256: a88caab3f0760829f5063df136b3dbbfa0b026faf558e97f66a9dbb1439456a8
+
+Package: ocean-lab-source-rust-uses
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio source rust uses
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-source-rust-uses_1.0.0-1_all.deb
+Size: 9652
+SHA256: 66925164d99d43c0a0eaef8d011e24e354344e1aff229e0ca9de99125f1c2051
+
+Package: ocean-lab-source-java-package
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio source java package
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-source-java-package_1.0.0-1_all.deb
+Size: 9648
+SHA256: 70da74b033226f97c51e1ca0a910803255d5ea5a4e759b74358df4752e4a69d2
+
+Package: ocean-lab-source-java-imports
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio source java imports
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-source-java-imports_1.0.0-1_all.deb
+Size: 9652
+SHA256: 1bfa745e8fc0b3038a58be5f9da2f4b079b15dbb263bedfa7e36fe792e580a48
+
+Package: ocean-lab-source-kotlin-imports
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio source kotlin imports
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-source-kotlin-imports_1.0.0-1_all.deb
+Size: 9648
+SHA256: f165ec368caec6b81fe01e63342a045f9b08987f7e4179ebfece7e0b3048c38d
+
+Package: ocean-lab-source-symbols-lite
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio source symbols lite
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-source-symbols-lite_1.0.0-1_all.deb
+Size: 9656
+SHA256: 628d5392eea16a3c9fc3a90c1a416a54d57817b201f13fc0c77ff0af4cf087e9
+
+Package: ocean-lab-binary-u16le
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio binary u16le
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-binary-u16le_1.0.0-1_all.deb
+Size: 9642
+SHA256: 890956a4424f9697afb3ecf4722dc0498b28ef1f18a389696b44a256a0c6fd67
+
+Package: ocean-lab-binary-u16be
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio binary u16be
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-binary-u16be_1.0.0-1_all.deb
+Size: 9638
+SHA256: 08fe17cf240c6b036c430ae496ca20e1e116adad88f37a72732c9749dcdb751f
+
+Package: ocean-lab-binary-u32le
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio binary u32le
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-binary-u32le_1.0.0-1_all.deb
+Size: 9640
+SHA256: e341407ee277fcf513d624625716673302d165f924e52193cdde1da3aad07919
+
+Package: ocean-lab-binary-u32be
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio binary u32be
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-binary-u32be_1.0.0-1_all.deb
+Size: 9642
+SHA256: c12460630fabd38d38d4fbca042128f40f7b33ee95bf08696e8185597721f3f6
+
+Package: ocean-lab-binary-u64le
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio binary u64le
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-binary-u64le_1.0.0-1_all.deb
+Size: 9640
+SHA256: 9207ab38f6e2a785f8a478d16acbba169704ba8f7c660a33bd7266afd69120ed
+
+Package: ocean-lab-binary-u64be
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio binary u64be
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-binary-u64be_1.0.0-1_all.deb
+Size: 9640
+SHA256: d0ee21b2d2a22a4985c349bbbc98bad84edfe160d64208f890a26da2779234ce
+
+Package: ocean-lab-binary-varint-encode
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio binary varint encode
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-binary-varint-encode_1.0.0-1_all.deb
+Size: 9652
+SHA256: eba335a2f9b7b73fb8e9b10993ed4d03a03a3755660cd018531198c371d2f860
+
+Package: ocean-lab-binary-varint-decode
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio binary varint decode
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-binary-varint-decode_1.0.0-1_all.deb
+Size: 9650
+SHA256: dd2e3acdf6f2d19a084067ededdc8eabd8ca82af913fcc5b181116d0aa075a79
+
+Package: ocean-lab-binary-zigzag-encode
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio binary zigzag encode
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-binary-zigzag-encode_1.0.0-1_all.deb
+Size: 9650
+SHA256: ca5e08374a2c743e6edb0d0cddfd0a43bd6c2883e73cadf17c54f00cbe89fc1d
+
+Package: ocean-lab-binary-zigzag-decode
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio binary zigzag decode
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-binary-zigzag-decode_1.0.0-1_all.deb
+Size: 9654
+SHA256: af3363998d89e0d16f7f8808968f1b20c058dbb3ec67db34a61516b73b5d200d
+
+Package: ocean-lab-binary-crc32
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio binary crc32
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-binary-crc32_1.0.0-1_all.deb
+Size: 9638
+SHA256: 7eee239ac485027bc165de195067d852443a696ea0bb352d4e79e7ee1e23ed0d
+
+Package: ocean-lab-binary-adler32
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio binary adler32
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-binary-adler32_1.0.0-1_all.deb
+Size: 9644
+SHA256: bb14cff24a787dbb29274a08bd203cd73700828c186624fcb91f88ac4cc03f45
+
+Package: ocean-lab-binary-entropy
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio binary entropy
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-binary-entropy_1.0.0-1_all.deb
+Size: 9640
+SHA256: 13df65f180bf0d9635e9e425a747c9b0602511ecbd99da71241d570845265243
+
+Package: ocean-lab-binary-magic
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio binary magic
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-binary-magic_1.0.0-1_all.deb
+Size: 9640
+SHA256: b883af0ddc452c7e510803726a0dbe9ef2874dc5272387efe2585030f23e7e64
+
+Package: ocean-lab-binary-hexdump
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio binary hexdump
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-binary-hexdump_1.0.0-1_all.deb
+Size: 9642
+SHA256: 6a958a3b6f82e33bb9a99cd48a185bd9015af586c2372ebd052766c047f15548
+
+Package: ocean-lab-binary-xor
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio binary xor
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-binary-xor_1.0.0-1_all.deb
+Size: 9642
+SHA256: ace5a83526e4a536c1b2d066df4636d6f6dca72b31c99002ba1bc71ef0ee5985
+
+Package: ocean-lab-binary-bitcount
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio binary bitcount
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-binary-bitcount_1.0.0-1_all.deb
+Size: 9642
+SHA256: 9d97ac5eae9988243b0a1c6b918cc4b302925f7e42f56e5f87a64ca878c27d7b
+
+Package: ocean-lab-binary-swap32
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio binary swap32
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-binary-swap32_1.0.0-1_all.deb
+Size: 9642
+SHA256: e9698aed12840e8d5ab82efc93fb882d7e7cabd5b098b71b56128384dba530a1
+
+Package: ocean-lab-binary-slice
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio binary slice
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-binary-slice_1.0.0-1_all.deb
+Size: 9638
+SHA256: 12ae7d777a90c16c0f2611f614259dce4607613373766b7c171e15540983601c
+
+Package: ocean-lab-binary-concat
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio binary concat
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-binary-concat_1.0.0-1_all.deb
+Size: 9642
+SHA256: 4471658e2e98a3e54e47a7a6f6084a135a89d2e99ceadc3a198ef6df28a67dae
+
+Package: ocean-lab-string-env-subst
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio string env subst
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-string-env-subst_1.0.0-1_all.deb
+Size: 9648
+SHA256: 299f1026a72f7360bbe2978ab48751062f550b9fb968e0d34b9f68593375d9ba
+
+Package: ocean-lab-string-map-subst
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio string map subst
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-string-map-subst_1.0.0-1_all.deb
+Size: 9650
+SHA256: 6a5204efdbe7255c6a1578e8bfa1551b7b18de473de994feaf0d88a247da3d95
+
+Package: ocean-lab-string-mustache-lite
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio string mustache lite
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-string-mustache-lite_1.0.0-1_all.deb
+Size: 9650
+SHA256: 74a893fc27fdb3d11ec2bf056e5065d958b07a2f51c2281068879b049c7c8341
+
+Package: ocean-lab-string-repeat
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio string repeat
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-string-repeat_1.0.0-1_all.deb
+Size: 9642
+SHA256: c391bcffeae63da00775dcd8b8c9c1d6e3cdb2abbe87db788153b96c25c4e4aa
+
+Package: ocean-lab-string-pad-left
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio string pad left
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-string-pad-left_1.0.0-1_all.deb
+Size: 9646
+SHA256: c58f9bb820ac63cd05012ce271a8715cff486abd67e766d5caa7018a61f376c2
+
+Package: ocean-lab-string-pad-right
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio string pad right
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-string-pad-right_1.0.0-1_all.deb
+Size: 9644
+SHA256: 07ca7db9fd1ae0b63df1bea1f54fa3f8676ba8778e2e7393fc7d0157d45abc60
+
+Package: ocean-lab-string-center
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio string center
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-string-center_1.0.0-1_all.deb
+Size: 9640
+SHA256: a92613cf9770510cc7b1135a295a6f66c63fa7e2b2f6c4912d65f288ce84114d
+
+Package: ocean-lab-string-truncate
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio string truncate
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-string-truncate_1.0.0-1_all.deb
+Size: 9646
+SHA256: ba6f60bb8d215b574023596e18df7186aae71ced6366123a6ed6b3f1a243e3fb
+
+Package: ocean-lab-string-ellipsis
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio string ellipsis
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-string-ellipsis_1.0.0-1_all.deb
+Size: 9644
+SHA256: 6c8d6fc822d1dd3e071314122379dff1b6819cbb9055dad8ba708b00fa2cfdf6
+
+Package: ocean-lab-string-camel
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio string camel
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-string-camel_1.0.0-1_all.deb
+Size: 9636
+SHA256: 95b1d17fa4852ea6630feb55c5c1ad3c589fd919c0f7e5d8dfcf34636c7007b4
+
+Package: ocean-lab-string-snake
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio string snake
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-string-snake_1.0.0-1_all.deb
+Size: 9642
+SHA256: fac35c8478b448eb3e478c4a1da6500e89989df7dd50d62c259bdfca3bf2ddf8
+
+Package: ocean-lab-string-kebab
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio string kebab
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-string-kebab_1.0.0-1_all.deb
+Size: 9638
+SHA256: 328ad510a3de76e1acd76c4a373b95dda3b7b90febf546b2c63ab6db9db7b4fd
+
+Package: ocean-lab-string-pascal
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio string pascal
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-string-pascal_1.0.0-1_all.deb
+Size: 9640
+SHA256: 52fabf60470bd445356a0fc4d3efa8d969748e4b14f3381802c317173166e4b2
+
+Package: ocean-lab-string-initials
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio string initials
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-string-initials_1.0.0-1_all.deb
+Size: 9644
+SHA256: 374265b9ab500b97585ab6866ee4f66a41575d0bebbff34c8f2ee4178f30ef53
+
+Package: ocean-lab-string-plural-simple
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio string plural simple
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-string-plural-simple_1.0.0-1_all.deb
+Size: 9648
+SHA256: b2a168aa69f9570f8e0ecef671ff292ccfd6f743f5a8bbbab67e44a1f387f1df
+
+Package: ocean-lab-string-singular-simple
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio string singular simple
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-string-singular-simple_1.0.0-1_all.deb
+Size: 9650
+SHA256: 74beb03df1845a714f901576092913357ff2734928965331f025bdad56b7f28e
+
+Package: ocean-lab-string-normalize-space
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio string normalize space
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-string-normalize-space_1.0.0-1_all.deb
+Size: 9652
+SHA256: f6f1094658a4a5b2fe2930bbd89f651cb972359cb507a6214fad35eafbdf21e2
+
+Package: ocean-lab-string-template-lines
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio string template lines
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-string-template-lines_1.0.0-1_all.deb
+Size: 9650
+SHA256: 36ea327df0fde63ca451201346884e5f56f5dec05d71a09136f5181d2dd35915
+
+Package: ocean-lab-string-join-nonempty
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio string join nonempty
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-string-join-nonempty_1.0.0-1_all.deb
+Size: 9646
+SHA256: a6d200ef204f8b22a42dec3dad42a73ae75d22c94dfa039ad0263abf409f4050
+
+Package: ocean-lab-string-placeholders
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio string placeholders
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-string-placeholders_1.0.0-1_all.deb
+Size: 9642
+SHA256: e3aaed0e6022f269238ec4d70f0ce98bc8d4380723e5f0b7fe3a0d7d7501aca3
+
+Package: ocean-lab-bundle-aab-entries
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio bundle aab entries
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-bundle-aab-entries_1.0.0-1_all.deb
+Size: 9646
+SHA256: 30648421d11076cb18f23b37f67be3baf386f944951883f89206e82d3afbd075
+
+Package: ocean-lab-bundle-aab-modules
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio bundle aab modules
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-bundle-aab-modules_1.0.0-1_all.deb
+Size: 9650
+SHA256: 3346c467ec7bea1e61f5a495f9c1a611adceccd496bcd1f78a552ff224fe1868
+
+Package: ocean-lab-bundle-aab-manifests
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio bundle aab manifests
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-bundle-aab-manifests_1.0.0-1_all.deb
+Size: 9648
+SHA256: 81792f5adf30598f725475318328846f141e8179c657144e1f318980bb660ad7
+
+Package: ocean-lab-bundle-aab-dex
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio bundle aab dex
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-bundle-aab-dex_1.0.0-1_all.deb
+Size: 9646
+SHA256: 5305e3989820e72c2543e0ad3dd7f3eb58096dac2155986bf1effd2ef4798ec3
+
+Package: ocean-lab-bundle-aab-native-abis
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio bundle aab native abis
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-bundle-aab-native-abis_1.0.0-1_all.deb
+Size: 9652
+SHA256: a5c31c6dedc237b5685b7bea0176e65cec372d6bebc5db03832cb680d34e19e2
+
+Package: ocean-lab-bundle-aab-native-libs
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio bundle aab native libs
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-bundle-aab-native-libs_1.0.0-1_all.deb
+Size: 9652
+SHA256: 281bc0ff3144bc5094ff13e7a95004e9492fc7d1b70ecb913f0d88a107f20d62
+
+Package: ocean-lab-bundle-aab-assets
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio bundle aab assets
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-bundle-aab-assets_1.0.0-1_all.deb
+Size: 9646
+SHA256: c9364add8eebc1bc5f11904bc1b3c824b3433b9d178144ca1dd90c0b42d1716a
+
+Package: ocean-lab-bundle-aab-resources
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio bundle aab resources
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-bundle-aab-resources_1.0.0-1_all.deb
+Size: 9644
+SHA256: 6d347914645fe08ae88d2e81b7cf118aab971bb094b24b33073ed4f79a83aa85
+
+Package: ocean-lab-bundle-aab-bundle-config
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio bundle aab bundle config
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-bundle-aab-bundle-config_1.0.0-1_all.deb
+Size: 9646
+SHA256: 7b841e5d704489a09a187d40898dc416d50657ea445e9c0a4d92a47d3aad370c
+
+Package: ocean-lab-bundle-aab-largest
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio bundle aab largest
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-bundle-aab-largest_1.0.0-1_all.deb
+Size: 9646
+SHA256: d1305ad582b8274c73e6ee8781de342921612f11a2446e0cb0da9a0fe79391e3
+
+Package: ocean-lab-bundle-apks-entries
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio bundle apks entries
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-bundle-apks-entries_1.0.0-1_all.deb
+Size: 9648
+SHA256: bfb128ab8613e01f8df4321a948abac0bf6cb505962f9b9beb39766403c50bfd
+
+Package: ocean-lab-bundle-apks-split-apks
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio bundle apks split apks
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-bundle-apks-split-apks_1.0.0-1_all.deb
+Size: 9644
+SHA256: e453612d4f97d7f4b8c50395f1d8887c962caf9380f5db508de37449da268cd4
+
+Package: ocean-lab-bundle-apks-split-names
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio bundle apks split names
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-bundle-apks-split-names_1.0.0-1_all.deb
+Size: 9652
+SHA256: 34ee5199cddd4e0876f7b4e79830bef3c4012d175a4201cc7e46d612cb90dd18
+
+Package: ocean-lab-bundle-apks-total-size
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio bundle apks total size
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-bundle-apks-total-size_1.0.0-1_all.deb
+Size: 9646
+SHA256: f9e119021dbf42706d073f98a137a159400dfa19823eb819cde45bbe4e799161
+
+Package: ocean-lab-bundle-apks-native-abis
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio bundle apks native abis
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-bundle-apks-native-abis_1.0.0-1_all.deb
+Size: 9654
+SHA256: 7da5f8f2ee2304d59aaef96739655c9c416d4d69f9cf61217918b13a4e85bb4f
+
+Package: ocean-lab-bundle-apks-dex-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio bundle apks dex count
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-bundle-apks-dex-count_1.0.0-1_all.deb
+Size: 9652
+SHA256: b5a3e7245764bb727d9e6ae9b945d76f418aed5b098cedc47cca28f0228f6b12
+
+Package: ocean-lab-bundle-apks-assets
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio bundle apks assets
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-bundle-apks-assets_1.0.0-1_all.deb
+Size: 9650
+SHA256: 5fde8b9ae1f68cb8eda90512ca8486293abc42dc684f1e9f40e80d58cfe04c8a
+
+Package: ocean-lab-bundle-bundle-sha256
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio bundle bundle sha256
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-bundle-bundle-sha256_1.0.0-1_all.deb
+Size: 9648
+SHA256: cf22877bbfbf92bc5f49d6086a7e954c275ceac987e0aba5f8d9f02442a84036
+
+Package: ocean-lab-bundle-bundle-integrity
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio bundle bundle integrity
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-bundle-bundle-integrity_1.0.0-1_all.deb
+Size: 9648
+SHA256: 6933edffab63b186a2cb138ce8b9bc016c6bdb3ae95f346c4d588f42e5a748e1
+
+Package: ocean-lab-bundle-bundle-search
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: OceanStudio bundle bundle search
+ Functional Ocean Lab utility using Python standard-library parsing and analysis.
+Filename: staging/ocean-lab-200/pool/main/ocean-lab-bundle-bundle-search_1.0.0-1_all.deb
+Size: 9644
+SHA256: 349210becfe231a49163ca5b5473f4234e534e68d73bc176167b6e84f0c905d5
