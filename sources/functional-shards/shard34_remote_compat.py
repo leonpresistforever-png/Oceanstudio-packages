@@ -234,7 +234,11 @@ def x11(cmd,a):
     if op=="x11-opengl-env":emit({k:v for k,v in os.environ.items() if k.startswith(("LIBGL","MESA","EGL","GALLIUM"))});return
     if op=="x11-mesa-env":emit({"LIBGL_ALWAYS_SOFTWARE":os.environ.get("LIBGL_ALWAYS_SOFTWARE"),"MESA_LOADER_DRIVER_OVERRIDE":os.environ.get("MESA_LOADER_DRIVER_OVERRIDE")});return
     if op=="x11-software-render-env":emit({"LIBGL_ALWAYS_SOFTWARE":"1","GALLIUM_DRIVER":"llvmpipe"});return
-    if op=="x11-vnc-plan":emit({"display":os.environ.get("DISPLAY",":1"),"command":["x11vnc","-display",os.environ.get("DISPLAY",":1),"-rfbport",a[0] if a else "5901","-localhost","-forever","-shared"]});return
+    if op=="x11-vnc-plan":
+        display=os.environ.get("DISPLAY",":1")
+        port=a[0] if a else "5901"
+        emit({"display":display,"command":["x11vnc","-display",display,"-rfbport",port,"-localhost","-forever","-shared"]})
+        return
     if op=="x11-stack-summary":emit({"display":os.environ.get("DISPLAY"),"libs":{x:bool(libfind(x)) for x in ["libX11.so","libxcb.so","libXext.so","libXrender.so","libXft.so","libXss.so"]},"x11vnc":shutil.which("x11vnc"),"Xvfb":shutil.which("Xvfb")});return
 
 def main():
