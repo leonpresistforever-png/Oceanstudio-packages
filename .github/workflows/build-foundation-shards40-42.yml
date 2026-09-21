@@ -1,0 +1,215 @@
+name: Build foundation shards 40 41 42
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'sources/foundation-shards/shard40_forge_pyjs.py'
+      - 'sources/foundation-shards/shard41_ecosys_lang.py'
+      - 'sources/foundation-shards/shard42_envhub_universal.py'
+      - 'scripts/build-foundation-shards40-42.py'
+      - 'tests/test-foundation-shards40-42.py'
+      - '.github/workflows/build-foundation-shards40-42.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: foundation-shards40-42
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /sources/foundation-shards/shard40_forge_pyjs.py
+            /sources/foundation-shards/shard41_ecosys_lang.py
+            /sources/foundation-shards/shard42_envhub_universal.py
+            /scripts/build-foundation-shards40-42.py
+            /tests/test-foundation-shards40-42.py
+            /staging/shard-40/
+            /staging/shard-41/
+            /staging/shard-42/
+            /staging/foundation-superpack/
+            /apt/dists/stable/main/binary-aarch64/Packages
+            /.github/workflows/build-foundation-shards40-42.yml
+
+      - name: Install packaging tools
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          sudo apt-get install -y dpkg-dev
+
+      - name: Compile and execute all 300 isolated dispatch tests
+        run: |
+          set -euo pipefail
+          python3 -m py_compile \
+            sources/foundation-shards/shard40_forge_pyjs.py \
+            sources/foundation-shards/shard41_ecosys_lang.py \
+            sources/foundation-shards/shard42_envhub_universal.py \
+            scripts/build-foundation-shards40-42.py \
+            tests/test-foundation-shards40-42.py
+          python3 tests/test-foundation-shards40-42.py \
+            sources/foundation-shards/shard40_forge_pyjs.py \
+            sources/foundation-shards/shard41_ecosys_lang.py \
+            sources/foundation-shards/shard42_envhub_universal.py \
+            scripts/build-foundation-shards40-42.py
+
+      - name: Prove all 304 package names are repo-new
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import importlib.util,subprocess
+          from pathlib import Path
+          def load(path,name):
+              s=importlib.util.spec_from_file_location(name,Path(path))
+              m=importlib.util.module_from_spec(s);s.loader.exec_module(m);return m
+          m40=load("sources/foundation-shards/shard40_forge_pyjs.py","s40")
+          m41=load("sources/foundation-shards/shard41_ecosys_lang.py","s41")
+          m42=load("sources/foundation-shards/shard42_envhub_universal.py","s42")
+          names=list(m40.COMMANDS)+list(m41.COMMANDS)+list(m42.COMMANDS)+[
+              "forge-foundation-suite","ecosys-foundation-suite","envhub-foundation-suite","ocean-foundation-superpack"
+          ]
+          assert len(names)==304 and len(set(names))==304
+          paths=subprocess.check_output(["git","ls-tree","-r","--name-only","HEAD"],text=True).splitlines()
+          existing=set()
+          for x in paths:
+              if not x.endswith(".deb"): continue
+              if x.startswith(("staging/shard-40/","staging/shard-41/","staging/shard-42/","staging/foundation-superpack/")): continue
+              existing.add(Path(x).name.split("_",1)[0])
+          collisions=sorted(set(names)&existing)
+          if collisions: raise SystemExit("repo-wide package collisions: "+", ".join(collisions))
+          print("PASS: 304/304 package names are new")
+          PY
+
+      - name: Verify every foundation dependency is already live
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import importlib.util
+          from pathlib import Path
+          s=importlib.util.spec_from_file_location("builder",Path("scripts/build-foundation-shards40-42.py"))
+          b=importlib.util.module_from_spec(s);s.loader.exec_module(b)
+          live=set()
+          for line in Path("apt/dists/stable/main/binary-aarch64/Packages").read_text(errors="replace").splitlines():
+              if line.startswith("Package: "): live.add(line.split(": ",1)[1].strip())
+          deps={x for rows in b.DEPENDENCY_BY_PROVIDER.values() for x in rows}
+          missing=sorted(deps-live)
+          if missing: raise SystemExit("foundation dependency not live: "+", ".join(missing))
+          assert b.PREFIX=="/data/data/studio.ocean.app/files/usr"
+          print("PASS: all",len(deps),"unique dependencies exist in live APT")
+          PY
+
+      - name: Build 300 commands plus four meta-packages
+        run: |
+          set -euo pipefail
+          python3 scripts/build-foundation-shards40-42.py --shards 40,41,42
+
+      - name: Audit all 304 generated packages
+        run: |
+          set -euo pipefail
+          test "$(find staging/shard-40/pool/main -type f -name '*.deb' | wc -l)" -eq 101
+          test "$(find staging/shard-41/pool/main -type f -name '*.deb' | wc -l)" -eq 101
+          test "$(find staging/shard-42/pool/main -type f -name '*.deb' | wc -l)" -eq 101
+          test "$(find staging/foundation-superpack/pool/main -type f -name '*.deb' | wc -l)" -eq 1
+          test "$(find staging/shard-40 staging/shard-41 staging/shard-42 staging/foundation-superpack -type f -name '*.deb' | wc -l)" -eq 304
+
+          test "$(grep -c '^Package:' staging/shard-40/Packages.repaired)" -eq 101
+          test "$(grep -c '^Package:' staging/shard-41/Packages.repaired)" -eq 101
+          test "$(grep -c '^Package:' staging/shard-42/Packages.repaired)" -eq 101
+          test "$(grep -c '^Package:' staging/foundation-superpack/Packages.repaired)" -eq 1
+
+          python3 - <<'PY'
+          import json,subprocess
+          from pathlib import Path
+          total=0;names=[]
+          for n in ("40","41","42"):
+              d=json.loads(Path(f"staging/shard-{n}/provenance.json").read_text())
+              assert d["commandPackageCount"]==100
+              assert d["metaPackageCount"]==1
+              assert d["packageCount"]==101
+              assert d["uniquePackageCount"]==101
+              assert d["prefix"]=="/data/data/studio.ocean.app/files/usr"
+              assert d["networkAtAptInstall"] is False
+              assert d["rootRequired"] is False
+              total+=d["packageCount"];names += [x["package"] for x in d["packages"]]
+          s=json.loads(Path("staging/foundation-superpack/provenance.json").read_text())
+          assert s["totalFoundationCommands"]==300
+          assert s["totalNewPackages"]==304
+          assert s["packageCount"]==1
+          assert s["prefix"]=="/data/data/studio.ocean.app/files/usr"
+          total+=1;names += [x["package"] for x in s["packages"]]
+          assert total==304 and len(names)==304 and len(set(names))==304
+          assert {"forge-foundation-suite","ecosys-foundation-suite","envhub-foundation-suite","ocean-foundation-superpack"} <= set(names)
+
+          # Meta dependency fan-out: 100 + 100 + 100, then 3 suites at the top.
+          for folder,pkg in [
+              ("shard-40","forge-foundation-suite"),
+              ("shard-41","ecosys-foundation-suite"),
+              ("shard-42","envhub-foundation-suite"),
+          ]:
+              deb=next(Path(f"staging/{folder}/pool/main").glob(pkg+"_*.deb"))
+              fields=subprocess.check_output(["dpkg-deb","-f",str(deb)],text=True)
+              dep=" ".join(x.strip() for x in fields.splitlines() if x.startswith("Depends:") or x.startswith(" "))
+              assert dep.count("(= 1.0.0-1)")>=100
+          superdeb=next(Path("staging/foundation-superpack/pool/main").glob("ocean-foundation-superpack_*.deb"))
+          fields=subprocess.check_output(["dpkg-deb","-f",str(superdeb)],text=True)
+          assert "forge-foundation-suite (= 1.0.0-1)" in fields
+          assert "ecosys-foundation-suite (= 1.0.0-1)" in fields
+          assert "envhub-foundation-suite (= 1.0.0-1)" in fields
+          print("PASS: 304 package identities, provenance and meta fan-out verified")
+          PY
+
+          while IFS= read -r deb; do
+            dpkg-deb --info "$deb" >/dev/null
+            # No maintainer scripts: apt install itself must not execute network/bootstrap code.
+            tmp="$(mktemp -d)"
+            dpkg-deb -e "$deb" "$tmp"
+            test ! -e "$tmp/preinst"
+            test ! -e "$tmp/postinst"
+            test ! -e "$tmp/prerm"
+            test ! -e "$tmp/postrm"
+            rm -rf "$tmp"
+          done < <(find staging/shard-40 staging/shard-41 staging/shard-42 staging/foundation-superpack -type f -name '*.deb' | sort)
+
+          ! grep -R -a -E '/data/(data|user/0)/com\.termux|packages\.termux\.dev|TERMUX_PREFIX' \
+            staging/shard-40 staging/shard-41 staging/shard-42 staging/foundation-superpack \
+            sources/foundation-shards scripts/build-foundation-shards40-42.py
+
+      - name: Commit staged foundation layer
+        run: |
+          set -euo pipefail
+          git config user.name "Ocean Foundation Builder"
+          git config user.email "packages@ocean.studio"
+          git add staging/shard-40 staging/shard-41 staging/shard-42 staging/foundation-superpack
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "feat(shards40-42): stage 304 universal foundation packages [skip ci]"
+          for attempt in 1 2 3 4 5; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then exit 0; fi
+            sleep $((attempt*2))
+          done
+          exit 1
+
+      - name: Report
+        run: |
+          python3 - <<'PY'
+          import json
+          total=0
+          for n in ("40","41","42"):
+              d=json.load(open(f"staging/shard-{n}/provenance.json"))
+              total+=d["packageCount"]
+              print("shard",n,":",d["packageCount"],"packages,",d["commandPackageCount"],"manager commands")
+          s=json.load(open("staging/foundation-superpack/provenance.json"))
+          total+=s["packageCount"]
+          print("foundation superpack:",s["packageCount"])
+          print("TOTAL NEW PACKAGES:",total)
+          PY
