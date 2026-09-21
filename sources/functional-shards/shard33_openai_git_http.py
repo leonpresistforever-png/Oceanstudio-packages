@@ -181,7 +181,8 @@ def git(cmd,a):
     if cmd=="gitplus-remote-branches":emit(gitrun(["branch","-r","--format=%(refname:short)"],cwd).splitlines());return
     if cmd=="gitplus-merge-base":
         args=a[1:] if cwd else a
-        if len(args)<2:die("A B");print(gitrun(["merge-base",args[0],args[1]],cwd));return
+        if len(args)<2:die("A B")
+        print(gitrun(["merge-base",args[0],args[1]],cwd));return
     if cmd=="gitplus-ahead-behind":
         args=a[1:] if cwd else a
         ref=args[0] if args else "@{u}"
@@ -192,7 +193,8 @@ def git(cmd,a):
         path=a[1] if cwd and len(a)>1 else a[0] if a else die("FILE");print(gitrun(["log","--oneline","--",path],cwd));return
     if cmd=="gitplus-blame-line":
         args=a[1:] if cwd else a
-        if len(args)<2:die("FILE LINE");print(gitrun(["blame","-L",f"{args[1]},{args[1]}","--",args[0]],cwd));return
+        if len(args)<2:die("FILE LINE")
+        print(gitrun(["blame","-L",f"{args[1]},{args[1]}","--",args[0]],cwd));return
     if cmd=="gitplus-tree":emit(gitrun(["ls-tree","-r","--name-only","HEAD"],cwd).splitlines());return
     if cmd=="gitplus-object-exists":
         obj=a[1] if cwd and len(a)>1 else a[0];p=subprocess.run(["git","cat-file","-e",obj],cwd=cwd);print(str(p.returncode==0).lower());return
