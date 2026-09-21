@@ -1,0 +1,160 @@
+name: Build shards 37 38 39 modern 300 suite
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'sources/functional-shards/shard37_geospatial.py'
+      - 'sources/functional-shards/shard38_gltf_gpu.py'
+      - 'sources/functional-shards/shard39_android_binary.py'
+      - 'scripts/build-shards37-39.py'
+      - 'tests/test-shards37-39-functional.py'
+      - '.github/workflows/build-shards37-39.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: shards37-39-modern-300
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /sources/functional-shards/shard37_geospatial.py
+            /sources/functional-shards/shard38_gltf_gpu.py
+            /sources/functional-shards/shard39_android_binary.py
+            /scripts/build-shards37-39.py
+            /tests/test-shards37-39-functional.py
+            /staging/shard-37/
+            /staging/shard-38/
+            /staging/shard-39/
+            /.github/workflows/build-shards37-39.yml
+
+      - name: Install packaging tools
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          sudo apt-get install -y dpkg-dev
+
+      - name: Compile and functionally test all three shards
+        run: |
+          set -euo pipefail
+          python3 -m py_compile \
+            sources/functional-shards/shard37_geospatial.py \
+            sources/functional-shards/shard38_gltf_gpu.py \
+            sources/functional-shards/shard39_android_binary.py \
+            scripts/build-shards37-39.py \
+            tests/test-shards37-39-functional.py
+          python3 tests/test-shards37-39-functional.py \
+            sources/functional-shards/shard37_geospatial.py \
+            sources/functional-shards/shard38_gltf_gpu.py \
+            sources/functional-shards/shard39_android_binary.py
+
+      - name: Prove 300 names are unique and repo-new
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import importlib.util,subprocess
+          from pathlib import Path
+          files=[
+            ("37",Path("sources/functional-shards/shard37_geospatial.py"),100),
+            ("38",Path("sources/functional-shards/shard38_gltf_gpu.py"),100),
+            ("39",Path("sources/functional-shards/shard39_android_binary.py"),100),
+          ]
+          names=[]
+          for num,p,count in files:
+              s=importlib.util.spec_from_file_location("s"+num,p)
+              m=importlib.util.module_from_spec(s);s.loader.exec_module(m)
+              assert len(m.COMMANDS)==count and len(set(m.COMMANDS))==count
+              names+=m.COMMANDS
+          assert len(names)==300 and len(set(names))==300
+          paths=subprocess.check_output(["git","ls-tree","-r","--name-only","HEAD"],text=True).splitlines()
+          existing=set()
+          for x in paths:
+              if not x.endswith(".deb"): continue
+              if x.startswith(("staging/shard-37/","staging/shard-38/","staging/shard-39/")): continue
+              existing.add(Path(x).name.split("_",1)[0])
+          collisions=sorted(set(names)&existing)
+          if collisions: raise SystemExit("repo-wide package collisions: "+", ".join(collisions))
+          print("PASS: 300/300 names are unique and absent from all existing .deb artifacts")
+          PY
+
+      - name: Build exactly 300 packages
+        run: |
+          set -euo pipefail
+          python3 scripts/build-shards37-39.py --shards 37,38,39
+
+      - name: Audit artifacts and unchanged Ocean prefix
+        run: |
+          set -euo pipefail
+          for n in 37 38 39; do
+            test "$(find "staging/shard-$n/pool/main" -type f -name '*.deb' | wc -l)" -eq 100
+            test "$(grep -c '^Package:' "staging/shard-$n/Packages.repaired")" -eq 100
+          done
+
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          names=[]
+          for n in ("37","38","39"):
+              d=json.loads(Path(f"staging/shard-{n}/provenance.json").read_text())
+              assert d["packageCount"]==100 and d["uniquePackageCount"]==100
+              assert d["prefix"]=="/data/data/studio.ocean.app/files/usr"
+              assert d["termuxRuntimeDependency"] is False
+              names += [x["package"] for x in d["packages"]]
+          assert len(names)==300 and len(set(names))==300
+          required={
+            "mlt-v1-detect","pmtiles-header-v3","geojson-summary",
+            "gltf-summary","ktx2-summary","glb-summary",
+            "dex-summary","axml-summary","arsc-summary","apk-summary",
+          }
+          assert required <= set(names)
+          print("PASS: 300 package identities and unchanged Ocean prefix verified")
+          PY
+
+          while IFS= read -r deb; do
+            dpkg-deb --info "$deb" >/dev/null
+          done < <(find staging/shard-37 staging/shard-38 staging/shard-39 -type f -name '*.deb' | sort)
+
+          ! grep -R -a -E '/data/(data|user/0)/com\.termux|packages\.termux\.dev|TERMUX_PREFIX' \
+            staging/shard-37 staging/shard-38 staging/shard-39 \
+            sources/functional-shards/shard37_geospatial.py \
+            sources/functional-shards/shard38_gltf_gpu.py \
+            sources/functional-shards/shard39_android_binary.py
+
+      - name: Commit staged shards
+        run: |
+          set -euo pipefail
+          git config user.name "Ocean Modern Shards Builder"
+          git config user.email "packages@ocean.studio"
+          git add staging/shard-37 staging/shard-38 staging/shard-39
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "feat(shards37-39): stage 300 modern mobile graphics map packages [skip ci]"
+          for attempt in 1 2 3 4 5; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then exit 0; fi
+            sleep $((attempt*2))
+          done
+          exit 1
+
+      - name: Report
+        run: |
+          python3 - <<'PY'
+          import json
+          total=0
+          for n in ("37","38","39"):
+              d=json.load(open(f"staging/shard-{n}/provenance.json"))
+              total += d["packageCount"]
+              print("shard",n,d["packageCount"],d["topic"])
+          print("total",total)
+          PY
