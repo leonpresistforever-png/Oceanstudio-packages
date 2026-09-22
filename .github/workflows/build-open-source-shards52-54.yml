@@ -112,7 +112,7 @@ jobs:
               assert d["rootRequired"] is False
               assert "real upstream open-source tools" in d["implementation"]
               total += d["packageCount"]
-              names += [x["package"] for x in d["packages"] if x["provider"]!="meta"]
+              names += [x["package"] for x in d["packages"] if x["package"] != d["suite"]]
           s=json.loads(Path("staging/open-source-superpack/provenance.json").read_text())
           assert total+1==304 and len(names)==300 and len(set(names))==300
           assert s["newCommandPackages"]==300 and s["totalNewPackages"]==304
