@@ -1,0 +1,140 @@
+name: Audit and publish complete APT index
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/index_all_staged.py'
+      - 'scripts/audit_repository.py'
+      - 'tests/test-index-publication.py'
+      - '.github/workflows/publish-apt-index.yml'
+      - 'staging/**'
+      - 'apt/pool/**'
+      - 'apt/dists/**'
+  workflow_run:
+    workflows:
+      - "Build open-source shards 52 53 54"
+      - "Build foundation shards 40 41 42"
+      - "Build multiplier shards 43 44 45"
+      - "Build intelligence shards 49 50 51"
+      - "Build power foundation shards 55 56 57"
+      - "Build AI dev shards 46 47 48"
+      - "Build shards 28 29 30 modern 200 suite"
+      - "Build shards 37 38 39 modern 300 suite"
+      - "# revision 2"
+      - "Build shards 31 32 33 format 200 suite"
+      - "Build official-source core suite"
+      - "Clean wrapper aliases and broken duplicity from live APT"
+      - "Build official-source Nix for Ocean"
+      - "Build isolated Ocean glibc foundation"
+      - "Build Ocean device/render 200 package suite"
+      - "Build Ocean DevKit 200 package suite"
+      - "Build Ocean Lab 200 package suite"
+      - "Build Ocean Workbench 300 package suite"
+      - "Build independent Ocean X11 runtime"
+      - "Build Ocean Power suite"
+      - "Promote validated functional repairs"
+      - "Repair 150 functional packages (09 13 16)"
+      - "Repair 150 functional packages (08 10 11)"
+      - "Repair 150 functional packages"
+      - "Repair functional shard 18"
+      - "Repair final 200 functional packages"
+      - "Repair functional shard 26"
+      - "Repair functional shard 26"
+      - "Repair functional shard 27"
+      - "Repair functional shard 26"
+      - "Build official-source Toybox expansion"
+    types: [completed]
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ocean-complete-apt-publication
+  cancel-in-progress: false
+
+jobs:
+  verify:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+          sparse-checkout: |
+            scripts
+            tests
+          filter: blob:none
+      - name: Exercise real dpkg packages and disposable GPG test keys
+        run: python3 tests/test-index-publication.py
+
+  publish:
+    needs: verify
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+    steps:
+      - name: Fetch every current package and staging directory
+        uses: actions/checkout@v5
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - name: Audit every indexed and staged binary before publication
+        continue-on-error: true
+        run: python3 scripts/audit_repository.py --json /tmp/ocean-apt-before.json
+
+      - name: Require the existing trusted archive private key
+        env:
+          OCEAN_REPOSITORY_SIGNING_KEY: ${{ secrets.OCEAN_REPOSITORY_SIGNING_KEY }}
+        run: |
+          set -euo pipefail
+          if [ -z "$OCEAN_REPOSITORY_SIGNING_KEY" ]; then
+            echo "::error::OCEAN_REPOSITORY_SIGNING_KEY is missing. Current package coverage and signatures are reported in the audit artifact. No live files were changed."
+            exit 1
+          fi
+          signing_home="$(mktemp -d)"
+          chmod 700 "$signing_home"
+          echo "GNUPGHOME=$signing_home" >> "$GITHUB_ENV"
+          printf '%s\n' "$OCEAN_REPOSITORY_SIGNING_KEY" | GNUPGHOME="$signing_home" gpg --batch --import
+
+      - name: Promote all staged packages and verify both signatures
+        run: python3 scripts/index_all_staged.py
+
+      - name: Verify complete coverage and every indexed checksum
+        run: python3 scripts/audit_repository.py --json /tmp/ocean-apt-after.json
+
+      - name: Publish the verified pool and signed metadata in one commit
+        run: |
+          set -euo pipefail
+          git config user.name "Ocean Package Builder"
+          git config user.email "packages@ocean.studio"
+          git add apt/pool apt/dists/stable
+          if git diff --cached --quiet; then
+            echo "Repository is already current."
+            exit 0
+          fi
+          git commit -m "fix(apt): publish complete verified signed package index [skip ci]"
+          # Never rebase an already signed snapshot over a concurrent publisher.
+          # A rejected push must be rerun from the latest main and audited again.
+          git push origin HEAD:main
+
+      - name: Preserve per-package audit evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ocean-apt-index-audit
+          path: /tmp/ocean-apt-*.json
+          if-no-files-found: ignore
+
+      - name: Remove temporary imported key material
+        if: always()
+        run: |
+          if [ -n "${GNUPGHOME:-}" ]; then
+            gpgconf --kill gpg-agent || true
+            rm -rf "$GNUPGHOME"
+          fi

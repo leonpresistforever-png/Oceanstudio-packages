@@ -1,0 +1,308 @@
+{
+  "mode": "git-blob-identity",
+  "tree": "871bc842ea3e5f1f19c4f9fd0f9371008f4f8e3e",
+  "indexedEntries": 6482,
+  "uniqueNames": 6482,
+  "uniquePackageArchitectures": 6482,
+  "stagedFiles": 5446,
+  "stagedGroups": {
+    "ai-dev-superpack": {
+      "exact_blob_indexed": 1
+    },
+    "core-suite": {
+      "exact_blob_indexed": 5
+    },
+    "foundation-superpack": {
+      "exact_blob_indexed": 1
+    },
+    "glibc-2.44": {
+      "exact_blob_indexed": 7
+    },
+    "intelligence-superpack": {
+      "exact_blob_indexed": 1
+    },
+    "multiplier-superpack": {
+      "exact_blob_indexed": 1
+    },
+    "nix-ocean": {
+      "exact_blob_indexed": 1
+    },
+    "ocean-device-suite": {
+      "exact_blob_indexed": 200
+    },
+    "ocean-devkit-200": {
+      "exact_blob_indexed": 200
+    },
+    "ocean-lab-200": {
+      "exact_blob_indexed": 200
+    },
+    "ocean-workbench-300": {
+      "exact_blob_indexed": 300
+    },
+    "open-source-superpack": {
+      "exact_blob_indexed": 1
+    },
+    "power-foundation-superpack": {
+      "exact_blob_indexed": 1
+    },
+    "power-suite": {
+      "exact_blob_indexed": 250
+    },
+    "shard-02-gnu-text": {
+      "exact_blob_indexed": 51
+    },
+    "shard-03-compression-fs": {
+      "exact_blob_indexed": 51
+    },
+    "shard-04-network-protocols": {
+      "exact_blob_indexed": 51
+    },
+    "shard-05-cryptography-secrets": {
+      "exact_blob_indexed": 50
+    },
+    "shard-06-system-diagnostics-proc": {
+      "exact_blob_indexed": 50
+    },
+    "shard-07-build-codegen": {
+      "exact_blob_indexed": 51
+    },
+    "shard-08-network-traffic-sockets": {
+      "exact_blob_indexed": 50
+    },
+    "shard-09-filesystem-storage": {
+      "exact_blob_indexed": 50
+    },
+    "shard-10-devops-microservices": {
+      "exact_blob_indexed": 50
+    },
+    "shard-11-compiler-toolchain-helpers": {
+      "exact_blob_indexed": 50
+    },
+    "shard-12-database-query-engines": {
+      "exact_blob_indexed": 50
+    },
+    "shard-13-text-nlp-corpora": {
+      "exact_blob_indexed": 50
+    },
+    "shard-14-image-media-audio": {
+      "exact_blob_indexed": 50
+    },
+    "shard-15-data-serialization": {
+      "exact_blob_indexed": 51
+    },
+    "shard-16-math-scientific-computing": {
+      "exact_blob_indexed": 50
+    },
+    "shard-17-android-bionic-platform": {
+      "exact_blob_indexed": 50
+    },
+    "shard-18-code-lint-analysis": {
+      "exact_blob_indexed": 50
+    },
+    "shard-19-archive-backup-sync": {
+      "exact_blob_indexed": 50
+    },
+    "shard-20-security-audit-forensics": {
+      "exact_blob_indexed": 50
+    },
+    "shard-21-cloud-container-runtime": {
+      "exact_blob_indexed": 50
+    },
+    "shard-22-security-analysis": {
+      "exact_blob_indexed": 51
+    },
+    "shard-23-distributed-consensus-p2p": {
+      "exact_blob_indexed": 50
+    },
+    "shard-24-firmware-hardware-iot": {
+      "exact_blob_indexed": 50
+    },
+    "shard-25-api-contract-validation": {
+      "exact_blob_indexed": 50
+    },
+    "shard-26-performance-profiling": {
+      "exact_blob_indexed": 50
+    },
+    "shard-27-data-stream-etl": {
+      "exact_blob_indexed": 50
+    },
+    "shard-28": {
+      "exact_blob_indexed": 67
+    },
+    "shard-29": {
+      "exact_blob_indexed": 67
+    },
+    "shard-30": {
+      "exact_blob_indexed": 66
+    },
+    "shard-31": {
+      "exact_blob_indexed": 67
+    },
+    "shard-32": {
+      "exact_blob_indexed": 67
+    },
+    "shard-33": {
+      "exact_blob_indexed": 66
+    },
+    "shard-34": {
+      "exact_blob_indexed": 100
+    },
+    "shard-35": {
+      "exact_blob_indexed": 100
+    },
+    "shard-36": {
+      "exact_blob_indexed": 100
+    },
+    "shard-37": {
+      "exact_blob_indexed": 100
+    },
+    "shard-38": {
+      "exact_blob_indexed": 100
+    },
+    "shard-39": {
+      "exact_blob_indexed": 100
+    },
+    "shard-40": {
+      "exact_blob_indexed": 101
+    },
+    "shard-41": {
+      "exact_blob_indexed": 101
+    },
+    "shard-42": {
+      "exact_blob_indexed": 101
+    },
+    "shard-43": {
+      "exact_blob_indexed": 101
+    },
+    "shard-44": {
+      "exact_blob_indexed": 101
+    },
+    "shard-45": {
+      "exact_blob_indexed": 101
+    },
+    "shard-46": {
+      "exact_blob_indexed": 101
+    },
+    "shard-47": {
+      "exact_blob_indexed": 101
+    },
+    "shard-48": {
+      "exact_blob_indexed": 101
+    },
+    "shard-49": {
+      "exact_blob_indexed": 101
+    },
+    "shard-50": {
+      "exact_blob_indexed": 101
+    },
+    "shard-51": {
+      "exact_blob_indexed": 101
+    },
+    "shard-52": {
+      "exact_blob_indexed": 101
+    },
+    "shard-53": {
+      "exact_blob_indexed": 101
+    },
+    "shard-54": {
+      "exact_blob_indexed": 101
+    },
+    "shard-55": {
+      "exact_blob_indexed": 101
+    },
+    "shard-56": {
+      "exact_blob_indexed": 101
+    },
+    "shard-57": {
+      "exact_blob_indexed": 101
+    },
+    "toybox-0.8.14": {
+      "exact_blob_indexed": 153
+    }
+  },
+  "poolSymlinks": [
+    {
+      "path": "apt/pool/main/wabt_1.0.41_aarch64.deb",
+      "blob": "f2f98fe1a6e1a17b3a3010be69a48db2cefbd249"
+    }
+  ],
+  "errors": [
+    "Signed metadata: InRelease signs different metadata than Release"
+  ],
+  "runtimeTested": false,
+  "checkedSourceRevision": "871bc842ea3e5f1f19c4f9fd0f9371008f4f8e3e",
+  "sourceFilesReadAndBlobVerified": 271,
+  "allStagedFilesMatchIndexedGitBlobs": true,
+  "unreferencedPoolFileCount": 960,
+  "glibc": [
+    {
+      "Package": "ocean-glibc",
+      "Version": "2.44-1",
+      "Architecture": "aarch64",
+      "Filename": "pool/main/ocean-glibc_2.44-1_aarch64.deb",
+      "SHA256": "561187144f791b8d112286cd814a5ac2e8dc698fc7724591fedeaf6ef5e76e50"
+    },
+    {
+      "Package": "ocean-glibc-devel",
+      "Version": "2.44-1",
+      "Architecture": "aarch64",
+      "Filename": "pool/main/ocean-glibc-devel_2.44-1_aarch64.deb",
+      "SHA256": "d6f7fe03f8fa4db9093d7753d0a3a1496c5bbfd5ddbe53dd94ff45a16844a7bf"
+    },
+    {
+      "Package": "ocean-glibc-locale-data",
+      "Version": "2.44-1",
+      "Architecture": "all",
+      "Filename": "pool/main/ocean-glibc-locale-data_2.44-1_all.deb",
+      "SHA256": "5e3020af5dbe760bff9bcddf50efe08da7f98c28f772e9dbb3e2141a1d9634b1"
+    },
+    {
+      "Package": "ocean-glibc-patchelf",
+      "Version": "2.44-1",
+      "Architecture": "all",
+      "Filename": "pool/main/ocean-glibc-patchelf_2.44-1_all.deb",
+      "SHA256": "8ba9c78d2b069405d2a460b98be214404520f3b847b22526aaf26a4a48ad1e0a"
+    },
+    {
+      "Package": "ocean-glibc-runner",
+      "Version": "2.44-1",
+      "Architecture": "all",
+      "Filename": "pool/main/ocean-glibc-runner_2.44-1_all.deb",
+      "SHA256": "083ea94f5d309d04d3f0d6c9afc3f36f2dd05f8801000ff6160d68b4b6fbac52"
+    },
+    {
+      "Package": "ocean-glibc-suite",
+      "Version": "2.44-1",
+      "Architecture": "all",
+      "Filename": "pool/main/ocean-glibc-suite_2.44-1_all.deb",
+      "SHA256": "6ee73a533c7bd424b78a5a7d9e1300e6734c8242d07e9cd0eea688aa248f26cc"
+    },
+    {
+      "Package": "ocean-glibc-utils",
+      "Version": "2.44-1",
+      "Architecture": "aarch64",
+      "Filename": "pool/main/ocean-glibc-utils_2.44-1_aarch64.deb",
+      "SHA256": "e227eeb2a609c7f9ac1e8d7213d69c9ac6e0c9d32bb33dea84468df32fc79025"
+    }
+  ],
+  "signedMetadata": {
+    "InReleaseDate": "2026-09-06T13:10:50Z",
+    "ReleaseDate": "2026-09-22T06:28:03Z",
+    "inReleaseSignature": "valid for OLD metadata",
+    "detachedSignatureAgainstCurrentRelease": "BAD",
+    "PackagesSha256": "112bfa865d82d1f2b8b6ea2080d161fbcac8b8955c5963b3751a779344cbab13"
+  },
+  "blocker": {
+    "secret": "OCEAN_REPOSITORY_SIGNING_KEY",
+    "expectedPrimaryFingerprint": "09D45DD2CDC37BD4F9BC2C458EC15431CA5542E2",
+    "observedWorkflowJob": 106609071618,
+    "reason": "Trusted signing key unavailable; promotion and signing steps skipped"
+  },
+  "alternateBranch": {
+    "ref": "feat/shards43-45-real-multipliers",
+    "revision": "64cd20a0168435b4c19bec0a5398cdbc7f7898bb",
+    "additionalDebPaths": 0,
+    "differentDebBlobs": 0
+  },
+  "scope": "Repository index coverage and signed metadata. This does not certify Android runtime functionality."
+}
