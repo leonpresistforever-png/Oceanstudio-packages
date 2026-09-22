@@ -361,7 +361,8 @@ def handle_x11(cmd,a):
     if cmd in ("ocean-x11","ocean-x11-open","ocean-x11-attach","ocean-render","ocean-render-open"):
         emit(post("/api/x11",{"action":"open","port":int(a[0]) if a else 5901}));return
     if cmd=="ocean-x11-display":print(x11_config().get("display",":1"));return
-    if cmd=="ocean-x11-env":\n        c=x11_config();emit({"DISPLAY":c["display"],"RFB_PORT":c["rfb_port"],"GEOMETRY":c["geometry"],"DPI":c["dpi"],"PREFIX":str(PREFIX)});return
+    if cmd=="ocean-x11-env":
+        c=x11_config();emit({"DISPLAY":c["display"],"RFB_PORT":c["rfb_port"],"GEOMETRY":c["geometry"],"DPI":c["dpi"],"PREFIX":str(PREFIX)});return
     if cmd in ("ocean-x11-fit","ocean-x11-keyboard"):
         emit(post("/api/x11",{"action":"fit" if cmd.endswith("fit") else "keyboard"}));return
     if cmd in ("ocean-x11-resize","ocean-x11-fullscreen","ocean-x11-mouse","ocean-x11-touch","ocean-x11-clipboard"):
