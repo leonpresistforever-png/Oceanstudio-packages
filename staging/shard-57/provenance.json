@@ -1,0 +1,823 @@
+{
+  "schemaVersion": 1,
+  "shard": "57",
+  "version": "1.0.0-1",
+  "prefix": "/data/data/studio.ocean.app/files/usr",
+  "commandPackageCount": 100,
+  "metaPackageCount": 1,
+  "packageCount": 101,
+  "suite": "ocean-core-io-suite",
+  "networkAtAptInstall": false,
+  "rootRequired": false,
+  "implementation": "self-contained functional commands; no placeholder aliases; no maintainer-script side effects",
+  "packages": [
+    {
+      "package": "corex-http-get",
+      "artifact": "corex-http-get_1.0.0-1_all.deb",
+      "group": "http",
+      "operation": "get",
+      "bytes": 9690,
+      "sha256": "5be0148aeabcece5de1f04d36a0237adcc1d85f58e298e222cf65ad352609d70"
+    },
+    {
+      "package": "corex-http-head",
+      "artifact": "corex-http-head_1.0.0-1_all.deb",
+      "group": "http",
+      "operation": "head",
+      "bytes": 9688,
+      "sha256": "9fadabdea961c271bcadc384fc313c6209b7055e18af09eafd502b12fa56a283"
+    },
+    {
+      "package": "corex-http-status",
+      "artifact": "corex-http-status_1.0.0-1_all.deb",
+      "group": "http",
+      "operation": "status",
+      "bytes": 9690,
+      "sha256": "7a9457d245e92d277a2ac38aff8d5863d9652b52256d061b1622e9ef63c04104"
+    },
+    {
+      "package": "corex-http-download",
+      "artifact": "corex-http-download_1.0.0-1_all.deb",
+      "group": "http",
+      "operation": "download",
+      "bytes": 9690,
+      "sha256": "c10bee6714d21b9e4fd26d1982c25db9f290c26227e954b45c29f7c6f4a57c83"
+    },
+    {
+      "package": "corex-http-headers",
+      "artifact": "corex-http-headers_1.0.0-1_all.deb",
+      "group": "http",
+      "operation": "headers",
+      "bytes": 9690,
+      "sha256": "50d413bbfc53d25ef8a7aa7a75239e08479533ecc63327d368b697e7beb63b55"
+    },
+    {
+      "package": "corex-http-json",
+      "artifact": "corex-http-json_1.0.0-1_all.deb",
+      "group": "http",
+      "operation": "json",
+      "bytes": 9688,
+      "sha256": "d5130feeb179e9702ac815b323faa52eac801452b99656ed839c2911039b3d07"
+    },
+    {
+      "package": "corex-http-post-json",
+      "artifact": "corex-http-post-json_1.0.0-1_all.deb",
+      "group": "http",
+      "operation": "post-json",
+      "bytes": 9694,
+      "sha256": "279bc62df2bc23dbd1c68a1fb5d2e089fff31931276b0e3a329c4d3ecf636d5c"
+    },
+    {
+      "package": "corex-http-put-json",
+      "artifact": "corex-http-put-json_1.0.0-1_all.deb",
+      "group": "http",
+      "operation": "put-json",
+      "bytes": 9700,
+      "sha256": "23037acd99132501b0a1171fe78a50d494a3d0bcb0a00705b652ce271a2acc96"
+    },
+    {
+      "package": "corex-http-delete",
+      "artifact": "corex-http-delete_1.0.0-1_all.deb",
+      "group": "http",
+      "operation": "delete",
+      "bytes": 9694,
+      "sha256": "1c6bd46fb1ea28b775ab9f9a7d3c09f804ed744e82603de020d11449eddbac93"
+    },
+    {
+      "package": "corex-http-serve",
+      "artifact": "corex-http-serve_1.0.0-1_all.deb",
+      "group": "http",
+      "operation": "serve",
+      "bytes": 9688,
+      "sha256": "6159d6e4b881ae35e6e53b1bda5112b469469671cbfe5c96404d618e63313710"
+    },
+    {
+      "package": "corex-tcp-connect",
+      "artifact": "corex-tcp-connect_1.0.0-1_all.deb",
+      "group": "tcp",
+      "operation": "connect",
+      "bytes": 9692,
+      "sha256": "645f147d876bf40be5c2647ff1f8821255bcb549c7655f793afa5ad788568f19"
+    },
+    {
+      "package": "corex-tcp-send",
+      "artifact": "corex-tcp-send_1.0.0-1_all.deb",
+      "group": "tcp",
+      "operation": "send",
+      "bytes": 9684,
+      "sha256": "561b9fac532a660feaa316ca3c82a17bf31596113218487cfe537bcca8cd393b"
+    },
+    {
+      "package": "corex-tcp-port",
+      "artifact": "corex-tcp-port_1.0.0-1_all.deb",
+      "group": "tcp",
+      "operation": "port",
+      "bytes": 9682,
+      "sha256": "69a69c82c601a5a464bfa3dfeb7121210c4cf2a31fc830a07c9ccee1c5735763"
+    },
+    {
+      "package": "corex-tcp-wait",
+      "artifact": "corex-tcp-wait_1.0.0-1_all.deb",
+      "group": "tcp",
+      "operation": "wait",
+      "bytes": 9686,
+      "sha256": "c68ea1af7f38602d8e4b99b4297e0a2be34d99cea38819513cf33b9dde6c9abe"
+    },
+    {
+      "package": "corex-tcp-listen-once",
+      "artifact": "corex-tcp-listen-once_1.0.0-1_all.deb",
+      "group": "tcp",
+      "operation": "listen-once",
+      "bytes": 9692,
+      "sha256": "5e9229300ed69d25dbffbca8be12c690c9a171c88e001ca81263863a457d1b8c"
+    },
+    {
+      "package": "corex-tcp-resolve",
+      "artifact": "corex-tcp-resolve_1.0.0-1_all.deb",
+      "group": "tcp",
+      "operation": "resolve",
+      "bytes": 9690,
+      "sha256": "688e37bbb8e60b02818500060802118b7fb9100d5dc228b513bf750b47d12e54"
+    },
+    {
+      "package": "corex-tcp-local-ports",
+      "artifact": "corex-tcp-local-ports_1.0.0-1_all.deb",
+      "group": "tcp",
+      "operation": "local-ports",
+      "bytes": 9692,
+      "sha256": "cc5c42753909693fc73a8f66900dc9a8b6c594d57920f00de2d5cd2a14fcd6a9"
+    },
+    {
+      "package": "corex-tcp-remote",
+      "artifact": "corex-tcp-remote_1.0.0-1_all.deb",
+      "group": "tcp",
+      "operation": "remote",
+      "bytes": 9692,
+      "sha256": "70809bdd3bdde4d67ed924d292dfefc0492ac7e73fa7bd17b6574a7ad4990a56"
+    },
+    {
+      "package": "corex-tcp-latency",
+      "artifact": "corex-tcp-latency_1.0.0-1_all.deb",
+      "group": "tcp",
+      "operation": "latency",
+      "bytes": 9694,
+      "sha256": "45556753b6b4644e41e6a1d61e34e62a3fa870e5c35781816583b34f448ce1f1"
+    },
+    {
+      "package": "corex-tcp-echo-server",
+      "artifact": "corex-tcp-echo-server_1.0.0-1_all.deb",
+      "group": "tcp",
+      "operation": "echo-server",
+      "bytes": 9694,
+      "sha256": "12dbba07ed1a27f8868aed61b2f0cf85ce0779e01951b1bcac101db441d885d5"
+    },
+    {
+      "package": "corex-tls-cert",
+      "artifact": "corex-tls-cert_1.0.0-1_all.deb",
+      "group": "tls",
+      "operation": "cert",
+      "bytes": 9686,
+      "sha256": "45dfac8019074fd65e39d24f82b48e1ab495dad65179ec122cc277f962112eb8"
+    },
+    {
+      "package": "corex-tls-subject",
+      "artifact": "corex-tls-subject_1.0.0-1_all.deb",
+      "group": "tls",
+      "operation": "subject",
+      "bytes": 9692,
+      "sha256": "8e3842db0fcb95dfceec80ffba9209d0c77bc07165aac53455a51e5455f74ff4"
+    },
+    {
+      "package": "corex-tls-issuer",
+      "artifact": "corex-tls-issuer_1.0.0-1_all.deb",
+      "group": "tls",
+      "operation": "issuer",
+      "bytes": 9684,
+      "sha256": "963f8f7dbbb10206d03c153417470cdeb255db684ffca643f53103a9728501bf"
+    },
+    {
+      "package": "corex-tls-serial",
+      "artifact": "corex-tls-serial_1.0.0-1_all.deb",
+      "group": "tls",
+      "operation": "serial",
+      "bytes": 9686,
+      "sha256": "5b105b4b720bf960cbcd38fd20155278d47bfc8de04422c9c0b87f57445aacc8"
+    },
+    {
+      "package": "corex-tls-expires",
+      "artifact": "corex-tls-expires_1.0.0-1_all.deb",
+      "group": "tls",
+      "operation": "expires",
+      "bytes": 9688,
+      "sha256": "de6ca65826a8a4638fe73c31aebaf1bc1586722ace6e7308b69be7ee0ec65a75"
+    },
+    {
+      "package": "corex-tls-days-left",
+      "artifact": "corex-tls-days-left_1.0.0-1_all.deb",
+      "group": "tls",
+      "operation": "days-left",
+      "bytes": 9688,
+      "sha256": "9a378b9efcf7df5586dc8482d0f376957095c97750518699c0488b6c5d2cdeaf"
+    },
+    {
+      "package": "corex-tls-san",
+      "artifact": "corex-tls-san_1.0.0-1_all.deb",
+      "group": "tls",
+      "operation": "san",
+      "bytes": 9682,
+      "sha256": "b60f0b918201d475c1fbee06bdf30683d6235c1cfff33d43c05d4e86eedc379d"
+    },
+    {
+      "package": "corex-tls-fingerprint",
+      "artifact": "corex-tls-fingerprint_1.0.0-1_all.deb",
+      "group": "tls",
+      "operation": "fingerprint",
+      "bytes": 9690,
+      "sha256": "42d278006cca182655200f74ca519a628faad50e958faf3785e7266ea9e6b1d9"
+    },
+    {
+      "package": "corex-tls-protocol",
+      "artifact": "corex-tls-protocol_1.0.0-1_all.deb",
+      "group": "tls",
+      "operation": "protocol",
+      "bytes": 9688,
+      "sha256": "95099d972d9dfd4bc6a77301ff17ce2819482d8e4d2e507869604c34963c90b3"
+    },
+    {
+      "package": "corex-tls-check",
+      "artifact": "corex-tls-check_1.0.0-1_all.deb",
+      "group": "tls",
+      "operation": "check",
+      "bytes": 9686,
+      "sha256": "5d55a654560fc6b33476361a52c1884c530cb5d7a001b2bc5adc79adaabdf635"
+    },
+    {
+      "package": "corex-dns-lookup",
+      "artifact": "corex-dns-lookup_1.0.0-1_all.deb",
+      "group": "dns",
+      "operation": "lookup",
+      "bytes": 9690,
+      "sha256": "49bbc4b9118f02d9144a6ed7bddeec0b8234360c7ed07f96696e907da38caa61"
+    },
+    {
+      "package": "corex-dns-lookup-all",
+      "artifact": "corex-dns-lookup-all_1.0.0-1_all.deb",
+      "group": "dns",
+      "operation": "lookup-all",
+      "bytes": 9694,
+      "sha256": "235585ae92ed6abee11fa38a509f222576666c1dea6a05b3098deeae98386fdf"
+    },
+    {
+      "package": "corex-dns-reverse",
+      "artifact": "corex-dns-reverse_1.0.0-1_all.deb",
+      "group": "dns",
+      "operation": "reverse",
+      "bytes": 9688,
+      "sha256": "1f22d3451a45e97b145e9def170127d957e7b0db01f30ab5662dbb5b0da31afe"
+    },
+    {
+      "package": "corex-dns-fqdn",
+      "artifact": "corex-dns-fqdn_1.0.0-1_all.deb",
+      "group": "dns",
+      "operation": "fqdn",
+      "bytes": 9686,
+      "sha256": "759c48f084bf99b26936d7b255feb89a938e61136374859126d0d9908d1a5e98"
+    },
+    {
+      "package": "corex-dns-hostname",
+      "artifact": "corex-dns-hostname_1.0.0-1_all.deb",
+      "group": "dns",
+      "operation": "hostname",
+      "bytes": 9692,
+      "sha256": "7e414c104b3466ceceb32adf0407d0f576986f6a784eedbc61ac6a292c2114ea"
+    },
+    {
+      "package": "corex-dns-hosts",
+      "artifact": "corex-dns-hosts_1.0.0-1_all.deb",
+      "group": "dns",
+      "operation": "hosts",
+      "bytes": 9684,
+      "sha256": "fb5721c1ec81911cf24fc5914f39a535267a39ae8342dc4d72ac003df3db0a6b"
+    },
+    {
+      "package": "corex-dns-resolv",
+      "artifact": "corex-dns-resolv_1.0.0-1_all.deb",
+      "group": "dns",
+      "operation": "resolv",
+      "bytes": 9682,
+      "sha256": "3bd0b05ed839bb656585084d289fc70c707ab201ee0cf8babae16341f2b5dd49"
+    },
+    {
+      "package": "corex-dns-mx-hint",
+      "artifact": "corex-dns-mx-hint_1.0.0-1_all.deb",
+      "group": "dns",
+      "operation": "mx-hint",
+      "bytes": 9688,
+      "sha256": "cf3fdef0bd160bf9b30e646a18b14cb57a93bc90ed8ef57ec5b58bf09575e9d5"
+    },
+    {
+      "package": "corex-dns-local-ip",
+      "artifact": "corex-dns-local-ip_1.0.0-1_all.deb",
+      "group": "dns",
+      "operation": "local-ip",
+      "bytes": 9686,
+      "sha256": "89fa150e64ec39f3e763565d44d09956bdd9b68937c40c91d02ea281846ca601"
+    },
+    {
+      "package": "corex-dns-summary",
+      "artifact": "corex-dns-summary_1.0.0-1_all.deb",
+      "group": "dns",
+      "operation": "summary",
+      "bytes": 9688,
+      "sha256": "d25a29d14a0cd75a9411aa8a5688fdbf4aa77f3d83dfcb1f64db643ef93c323d"
+    },
+    {
+      "package": "corex-sqlite-query",
+      "artifact": "corex-sqlite-query_1.0.0-1_all.deb",
+      "group": "sqlite",
+      "operation": "query",
+      "bytes": 9694,
+      "sha256": "7f4ddb1402c51c57b8b3ab5202a5ff1022bf3563da16091afd8049645dfba7dc"
+    },
+    {
+      "package": "corex-sqlite-tables",
+      "artifact": "corex-sqlite-tables_1.0.0-1_all.deb",
+      "group": "sqlite",
+      "operation": "tables",
+      "bytes": 9692,
+      "sha256": "47d26df1d4f6ec1e3268ef9fdfcedd7cbb9c141ea56bc5b45df3b2e286e84e25"
+    },
+    {
+      "package": "corex-sqlite-schema",
+      "artifact": "corex-sqlite-schema_1.0.0-1_all.deb",
+      "group": "sqlite",
+      "operation": "schema",
+      "bytes": 9694,
+      "sha256": "1476dc8050a2af0fae4c90042250aa6881dd4f8a33a98d4ede462523bcc30052"
+    },
+    {
+      "package": "corex-sqlite-indexes",
+      "artifact": "corex-sqlite-indexes_1.0.0-1_all.deb",
+      "group": "sqlite",
+      "operation": "indexes",
+      "bytes": 9686,
+      "sha256": "753f572bdb4eca51a8cf5c809a5e5cd3f06342f6b4372242632b5fc4751b62ac"
+    },
+    {
+      "package": "corex-sqlite-integrity",
+      "artifact": "corex-sqlite-integrity_1.0.0-1_all.deb",
+      "group": "sqlite",
+      "operation": "integrity",
+      "bytes": 9694,
+      "sha256": "a6ecf6730650b5cb4138880059dad40feb0b112988128d8357f6061a2cb3e603"
+    },
+    {
+      "package": "corex-sqlite-backup",
+      "artifact": "corex-sqlite-backup_1.0.0-1_all.deb",
+      "group": "sqlite",
+      "operation": "backup",
+      "bytes": 9694,
+      "sha256": "a8fb83bf8ebf6fb019ae1bc3c9720138129e4376086f0e5c9b66d3045b979f7a"
+    },
+    {
+      "package": "corex-sqlite-dump",
+      "artifact": "corex-sqlite-dump_1.0.0-1_all.deb",
+      "group": "sqlite",
+      "operation": "dump",
+      "bytes": 9696,
+      "sha256": "03976628efd735cf7657f6d07cc6b102520aed67c169b12a3440a2435977a167"
+    },
+    {
+      "package": "corex-sqlite-vacuum",
+      "artifact": "corex-sqlite-vacuum_1.0.0-1_all.deb",
+      "group": "sqlite",
+      "operation": "vacuum",
+      "bytes": 9694,
+      "sha256": "5dabb419f5ad668797d59a4711e9c7b033fe27134dc130dd7e9303b2e787fc28"
+    },
+    {
+      "package": "corex-sqlite-rowcount",
+      "artifact": "corex-sqlite-rowcount_1.0.0-1_all.deb",
+      "group": "sqlite",
+      "operation": "rowcount",
+      "bytes": 9698,
+      "sha256": "4efa0340925aafc168ef88aaffe46111a78ca84efec28c2b85357b538397cb21"
+    },
+    {
+      "package": "corex-sqlite-info",
+      "artifact": "corex-sqlite-info_1.0.0-1_all.deb",
+      "group": "sqlite",
+      "operation": "info",
+      "bytes": 9692,
+      "sha256": "746a0119fac7f75a2a798aa834ba349d617f50971f4e3836362897b32240bb6d"
+    },
+    {
+      "package": "corex-json-validate",
+      "artifact": "corex-json-validate_1.0.0-1_all.deb",
+      "group": "json",
+      "operation": "validate",
+      "bytes": 9692,
+      "sha256": "10037f92d2b5f28a8a72a58051110809cc084669137b6a54b9fd76076b0c6f66"
+    },
+    {
+      "package": "corex-json-pretty",
+      "artifact": "corex-json-pretty_1.0.0-1_all.deb",
+      "group": "json",
+      "operation": "pretty",
+      "bytes": 9694,
+      "sha256": "9bf19d331f9fd1edc83c910690fb36fce61db3d31381608abcfb571954dd5aef"
+    },
+    {
+      "package": "corex-json-compact",
+      "artifact": "corex-json-compact_1.0.0-1_all.deb",
+      "group": "json",
+      "operation": "compact",
+      "bytes": 9688,
+      "sha256": "c6f1a807cca8ab45f176b5e7df35d047ff6dc7e236942894c65015216660210b"
+    },
+    {
+      "package": "corex-json-get",
+      "artifact": "corex-json-get_1.0.0-1_all.deb",
+      "group": "json",
+      "operation": "get",
+      "bytes": 9688,
+      "sha256": "d6d0129df9c6222e4765656384f809369565d24ef29871d55644b066ad7e65a3"
+    },
+    {
+      "package": "corex-json-set",
+      "artifact": "corex-json-set_1.0.0-1_all.deb",
+      "group": "json",
+      "operation": "set",
+      "bytes": 9684,
+      "sha256": "46e6c816a2814839e4943f650f7694488af5b7e7bc5bb62026ef8c0ea135e8cb"
+    },
+    {
+      "package": "corex-json-merge",
+      "artifact": "corex-json-merge_1.0.0-1_all.deb",
+      "group": "json",
+      "operation": "merge",
+      "bytes": 9688,
+      "sha256": "a5a3a3aba85a2376e1ba3fb8f92679badc723116dfcf4e5068d258d9832ad5f0"
+    },
+    {
+      "package": "corex-json-diff",
+      "artifact": "corex-json-diff_1.0.0-1_all.deb",
+      "group": "json",
+      "operation": "diff",
+      "bytes": 9686,
+      "sha256": "521bd023c0f1128f71778988bd1feb5132012b58d580316c9bcde3593d0c3daa"
+    },
+    {
+      "package": "corex-json-keys",
+      "artifact": "corex-json-keys_1.0.0-1_all.deb",
+      "group": "json",
+      "operation": "keys",
+      "bytes": 9680,
+      "sha256": "2eb105cd13263d9c0ffbad4ab382f4d46716ef74995b20d814a44d7604f6b68b"
+    },
+    {
+      "package": "corex-json-select",
+      "artifact": "corex-json-select_1.0.0-1_all.deb",
+      "group": "json",
+      "operation": "select",
+      "bytes": 9690,
+      "sha256": "16506b6d4304f8ab2dd4064ed6616398fcd285563b3925a2516934f5aaece7fb"
+    },
+    {
+      "package": "corex-json-jsonl-count",
+      "artifact": "corex-json-jsonl-count_1.0.0-1_all.deb",
+      "group": "json",
+      "operation": "jsonl-count",
+      "bytes": 9692,
+      "sha256": "4b19482b4c4b9e991be9d5ad1aa8092cf0a4c77c6d29b783ff3b3c8cf7db9b30"
+    },
+    {
+      "package": "corex-csv-stats",
+      "artifact": "corex-csv-stats_1.0.0-1_all.deb",
+      "group": "csv",
+      "operation": "stats",
+      "bytes": 9682,
+      "sha256": "f4320783ea4b571e89d03f3275c8702675e587c31c51956f11aefb3cb5642a86"
+    },
+    {
+      "package": "corex-csv-to-json",
+      "artifact": "corex-csv-to-json_1.0.0-1_all.deb",
+      "group": "csv",
+      "operation": "to-json",
+      "bytes": 9696,
+      "sha256": "6244cb54729e99d316e83a8400d1a7582ca1795687a5d5b9da219e1ca42065df"
+    },
+    {
+      "package": "corex-csv-from-json",
+      "artifact": "corex-csv-from-json_1.0.0-1_all.deb",
+      "group": "csv",
+      "operation": "from-json",
+      "bytes": 9698,
+      "sha256": "3aab4bffcca8d14461f53d326a31cbb4c805675af35b74c2cb8f68c06340e7f0"
+    },
+    {
+      "package": "corex-csv-select",
+      "artifact": "corex-csv-select_1.0.0-1_all.deb",
+      "group": "csv",
+      "operation": "select",
+      "bytes": 9692,
+      "sha256": "be4faae064b1103ec9ad854d02d94150287ee2baf0388fb2b5c48e4f15f36508"
+    },
+    {
+      "package": "corex-csv-filter",
+      "artifact": "corex-csv-filter_1.0.0-1_all.deb",
+      "group": "csv",
+      "operation": "filter",
+      "bytes": 9692,
+      "sha256": "be4e42e934f60ca3c0b446cddb68affd542758c4253c9b5258556ff23ffef674"
+    },
+    {
+      "package": "corex-csv-sort",
+      "artifact": "corex-csv-sort_1.0.0-1_all.deb",
+      "group": "csv",
+      "operation": "sort",
+      "bytes": 9692,
+      "sha256": "d164512b67a1d4be72a59efe7b4ce22623e222a6429e83cce6a3a1e81a12d21e"
+    },
+    {
+      "package": "corex-csv-dedupe",
+      "artifact": "corex-csv-dedupe_1.0.0-1_all.deb",
+      "group": "csv",
+      "operation": "dedupe",
+      "bytes": 9690,
+      "sha256": "10796ada323b964da67778085430f008396ef2d9a0cbf0ccd869f336606d3844"
+    },
+    {
+      "package": "corex-csv-head",
+      "artifact": "corex-csv-head_1.0.0-1_all.deb",
+      "group": "csv",
+      "operation": "head",
+      "bytes": 9692,
+      "sha256": "2670e5e17f2bae42f18a1e55e7587804a57df390f37755e7419878bc44e0f961"
+    },
+    {
+      "package": "corex-csv-tail",
+      "artifact": "corex-csv-tail_1.0.0-1_all.deb",
+      "group": "csv",
+      "operation": "tail",
+      "bytes": 9694,
+      "sha256": "229ebdd6a9652276dbc77c7f737793b5a7c3f5a5003f2f70d0f1fd5bea662693"
+    },
+    {
+      "package": "corex-csv-split",
+      "artifact": "corex-csv-split_1.0.0-1_all.deb",
+      "group": "csv",
+      "operation": "split",
+      "bytes": 9688,
+      "sha256": "9fad4b2c98a6c5b7d395147ff712e6d35c4b36f77c1fd3dd45236c14fc03fdc2"
+    },
+    {
+      "package": "corex-blob-sha256",
+      "artifact": "corex-blob-sha256_1.0.0-1_all.deb",
+      "group": "blob",
+      "operation": "sha256",
+      "bytes": 9694,
+      "sha256": "ce8f7a74c81002cd608b6533a85d535fc6c7551ca72069d532c6eea750a0baf3"
+    },
+    {
+      "package": "corex-blob-sha512",
+      "artifact": "corex-blob-sha512_1.0.0-1_all.deb",
+      "group": "blob",
+      "operation": "sha512",
+      "bytes": 9702,
+      "sha256": "ea1f78f44c4b04d6ef3f95df97a9703f0eaaa61fe4e0e8b015663ea9a7b7fd3e"
+    },
+    {
+      "package": "corex-blob-md5",
+      "artifact": "corex-blob-md5_1.0.0-1_all.deb",
+      "group": "blob",
+      "operation": "md5",
+      "bytes": 9696,
+      "sha256": "9e0a7690131cf495eefa68773bcb090f2fd634c6a25692d30b771dd37114d505"
+    },
+    {
+      "package": "corex-blob-base64",
+      "artifact": "corex-blob-base64_1.0.0-1_all.deb",
+      "group": "blob",
+      "operation": "base64",
+      "bytes": 9696,
+      "sha256": "2bb972d576b0886c8adc70927cbc6eac861e1f85e56600a9c3da442e92d41230"
+    },
+    {
+      "package": "corex-blob-unbase64",
+      "artifact": "corex-blob-unbase64_1.0.0-1_all.deb",
+      "group": "blob",
+      "operation": "unbase64",
+      "bytes": 9694,
+      "sha256": "c5cac77da9129a8dfbf04e92a33d2e28b74e4c5f7be271b413ff36097020e005"
+    },
+    {
+      "package": "corex-blob-hex",
+      "artifact": "corex-blob-hex_1.0.0-1_all.deb",
+      "group": "blob",
+      "operation": "hex",
+      "bytes": 9694,
+      "sha256": "8697dcf0d8c2bb34e17632173b33b7b7325997c81f7738acbecadae842008c34"
+    },
+    {
+      "package": "corex-blob-unhex",
+      "artifact": "corex-blob-unhex_1.0.0-1_all.deb",
+      "group": "blob",
+      "operation": "unhex",
+      "bytes": 9694,
+      "sha256": "77fb8ed0022311ea65d869c17914d48e4d2ff9c8fc6be5e68c51f7c667095d0e"
+    },
+    {
+      "package": "corex-blob-gzip",
+      "artifact": "corex-blob-gzip_1.0.0-1_all.deb",
+      "group": "blob",
+      "operation": "gzip",
+      "bytes": 9686,
+      "sha256": "4461942a34a1f22c44a82491de2a326799960213ad73c35b6065daa0733bc3c9"
+    },
+    {
+      "package": "corex-blob-gunzip",
+      "artifact": "corex-blob-gunzip_1.0.0-1_all.deb",
+      "group": "blob",
+      "operation": "gunzip",
+      "bytes": 9702,
+      "sha256": "b54075b700ff7786f7cb57524647107d2b356dfcb201f7eb58798d3149ebebf3"
+    },
+    {
+      "package": "corex-blob-size",
+      "artifact": "corex-blob-size_1.0.0-1_all.deb",
+      "group": "blob",
+      "operation": "size",
+      "bytes": 9686,
+      "sha256": "6691351861a9939e4a1b0c5885bbfaf34ebe0da340b6c02dbd5a262339a763b7"
+    },
+    {
+      "package": "corex-stream-lines",
+      "artifact": "corex-stream-lines_1.0.0-1_all.deb",
+      "group": "stream",
+      "operation": "lines",
+      "bytes": 9694,
+      "sha256": "cdc5da6ae61ef1a03e4cfb5eeee889ffdb8516bb41bffb70f10109bf7de90ac2"
+    },
+    {
+      "package": "corex-stream-words",
+      "artifact": "corex-stream-words_1.0.0-1_all.deb",
+      "group": "stream",
+      "operation": "words",
+      "bytes": 9696,
+      "sha256": "7e4683f46f15981e307c37e97cf626600ca46bce9ca40bd959a70f7841bacd93"
+    },
+    {
+      "package": "corex-stream-chars",
+      "artifact": "corex-stream-chars_1.0.0-1_all.deb",
+      "group": "stream",
+      "operation": "chars",
+      "bytes": 9696,
+      "sha256": "a467cbbcaa2e1f238f68b3a2d46d87e7a89cb1ca6e0bab3195b6ebc2c8f52506"
+    },
+    {
+      "package": "corex-stream-head",
+      "artifact": "corex-stream-head_1.0.0-1_all.deb",
+      "group": "stream",
+      "operation": "head",
+      "bytes": 9694,
+      "sha256": "242a5132c460d37389fff2b7b9945b8861d4fbd6f04e7d4306d7be808bd93612"
+    },
+    {
+      "package": "corex-stream-tail",
+      "artifact": "corex-stream-tail_1.0.0-1_all.deb",
+      "group": "stream",
+      "operation": "tail",
+      "bytes": 9694,
+      "sha256": "19c7283e25311bdcc8a6a0f89da1b426fc8c4a190cf27fbb74712b8d3936461f"
+    },
+    {
+      "package": "corex-stream-grep",
+      "artifact": "corex-stream-grep_1.0.0-1_all.deb",
+      "group": "stream",
+      "operation": "grep",
+      "bytes": 9696,
+      "sha256": "7674d14c31b935d4daa95dc6d86b7d726a80770b960a8bef36530593114c27ce"
+    },
+    {
+      "package": "corex-stream-dedupe",
+      "artifact": "corex-stream-dedupe_1.0.0-1_all.deb",
+      "group": "stream",
+      "operation": "dedupe",
+      "bytes": 9698,
+      "sha256": "3be4df2b1752686243f386d2152eef6f7b199fafdcfed01a420dd933adbb2bb9"
+    },
+    {
+      "package": "corex-stream-sort",
+      "artifact": "corex-stream-sort_1.0.0-1_all.deb",
+      "group": "stream",
+      "operation": "sort",
+      "bytes": 9692,
+      "sha256": "051772e6a64b995f89330abb492adb19a2c229d009885f6d778069eeb4d5aee4"
+    },
+    {
+      "package": "corex-stream-count",
+      "artifact": "corex-stream-count_1.0.0-1_all.deb",
+      "group": "stream",
+      "operation": "count",
+      "bytes": 9696,
+      "sha256": "85d7cb0e715a38cf1501a71b6104d5d1cc4bb821a93df5575c99fd3e7e0a3c8c"
+    },
+    {
+      "package": "corex-stream-checksum",
+      "artifact": "corex-stream-checksum_1.0.0-1_all.deb",
+      "group": "stream",
+      "operation": "checksum",
+      "bytes": 9704,
+      "sha256": "6c5e33c12f6eddc2f237ba71b590bfdbbbc4adea83e912257a30fca5e9f18886"
+    },
+    {
+      "package": "corex-kv-set",
+      "artifact": "corex-kv-set_1.0.0-1_all.deb",
+      "group": "kv",
+      "operation": "set",
+      "bytes": 9690,
+      "sha256": "992f80c44913d9ad85dd4d716093299fe39ae62f4acf2950d4e3f03871b782f0"
+    },
+    {
+      "package": "corex-kv-get",
+      "artifact": "corex-kv-get_1.0.0-1_all.deb",
+      "group": "kv",
+      "operation": "get",
+      "bytes": 9688,
+      "sha256": "9c83e1f3966e442a55b73370ed9bad1341fb53cf1d47e2af7de031c8bc9ce6d7"
+    },
+    {
+      "package": "corex-kv-delete",
+      "artifact": "corex-kv-delete_1.0.0-1_all.deb",
+      "group": "kv",
+      "operation": "delete",
+      "bytes": 9692,
+      "sha256": "c1f1a14e885571ef9acf1f2a0ad53b8fd03c26a27be3f6f90f5123b4fe4c6b23"
+    },
+    {
+      "package": "corex-kv-list",
+      "artifact": "corex-kv-list_1.0.0-1_all.deb",
+      "group": "kv",
+      "operation": "list",
+      "bytes": 9686,
+      "sha256": "73fea1f4b46f5b9b64d49bc2a3df18fde5132c532ce44524307363836aa34c5c"
+    },
+    {
+      "package": "corex-kv-clear",
+      "artifact": "corex-kv-clear_1.0.0-1_all.deb",
+      "group": "kv",
+      "operation": "clear",
+      "bytes": 9688,
+      "sha256": "aaab0ff645f5a7e62645a92b28069b2642a5bd34ce583c1d6e39d2aa6e416e69"
+    },
+    {
+      "package": "corex-kv-has",
+      "artifact": "corex-kv-has_1.0.0-1_all.deb",
+      "group": "kv",
+      "operation": "has",
+      "bytes": 9692,
+      "sha256": "3ac429254be6b29d53d774542629c0179b2f7d618374f282c392c1dccbaa3965"
+    },
+    {
+      "package": "corex-kv-keys",
+      "artifact": "corex-kv-keys_1.0.0-1_all.deb",
+      "group": "kv",
+      "operation": "keys",
+      "bytes": 9686,
+      "sha256": "6fb1b28dff2a4fa4333b0b988ae0d3847b75a3bc73eaf6f3dc34b484aab8eec1"
+    },
+    {
+      "package": "corex-kv-export",
+      "artifact": "corex-kv-export_1.0.0-1_all.deb",
+      "group": "kv",
+      "operation": "export",
+      "bytes": 9692,
+      "sha256": "ef7e04b6940666aefe80a3effabd238107fa5668ac809450f1a7b96824ef99bd"
+    },
+    {
+      "package": "corex-kv-import",
+      "artifact": "corex-kv-import_1.0.0-1_all.deb",
+      "group": "kv",
+      "operation": "import",
+      "bytes": 9692,
+      "sha256": "0ef5c9c95c4d2cec926681282a447a5a122125b33f861d447078980aa0c5a0ac"
+    },
+    {
+      "package": "corex-kv-stats",
+      "artifact": "corex-kv-stats_1.0.0-1_all.deb",
+      "group": "kv",
+      "operation": "stats",
+      "bytes": 9688,
+      "sha256": "f5fb583fdc12189a5478b2105569806b2aff099062426d24ea21f2ddb1ff9944"
+    },
+    {
+      "package": "ocean-core-io-suite",
+      "artifact": "ocean-core-io-suite_1.0.0-1_all.deb",
+      "group": "meta",
+      "operation": "meta",
+      "bytes": 1118,
+      "sha256": "a3d24c380e37b550d35bf0f3cbb2fd45a0234231ef61a4f71e06163b46b1df76"
+    }
+  ]
+}

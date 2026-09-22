@@ -1,0 +1,1412 @@
+Package: agentx-task-init
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-task-init
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-task-init_1.0.0-1_all.deb
+Size: 9694
+SHA256: 423a0ce2945fb270cd3c4f7322b9a865617ed5becfeeb39666a7c11ad61e9143
+
+Package: agentx-task-add
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-task-add
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-task-add_1.0.0-1_all.deb
+Size: 9694
+SHA256: ca943d6f28a14b6a21b0207dd7b3868f85f68863b557b0b29815d72ffb9b5617
+
+Package: agentx-task-list
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-task-list
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-task-list_1.0.0-1_all.deb
+Size: 9696
+SHA256: 230b0d50e7f8ea084c61c4dd8a67066e4979e368a2b89a95b5d6ebd3d20478df
+
+Package: agentx-task-next
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-task-next
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-task-next_1.0.0-1_all.deb
+Size: 9696
+SHA256: c9c7f5b2773c6090158ed8ef675668b8bf8390a280a4f0c23dae305eca6f1a01
+
+Package: agentx-task-start
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-task-start
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-task-start_1.0.0-1_all.deb
+Size: 9694
+SHA256: 9f27d5d77368a650803c11245b4b908714bedaf8a5b015946c1638e16bc70097
+
+Package: agentx-task-done
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-task-done
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-task-done_1.0.0-1_all.deb
+Size: 9694
+SHA256: ec2efd61777cc62b2c6eaf6d69e3de1ff0b1404cc71a6e40ff2ceba41f676712
+
+Package: agentx-task-fail
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-task-fail
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-task-fail_1.0.0-1_all.deb
+Size: 9694
+SHA256: c726333c4111effa15c4468f6b7118dc2aa04a2b414bdd1c3ba72d566859c5f2
+
+Package: agentx-task-retry
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-task-retry
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-task-retry_1.0.0-1_all.deb
+Size: 9688
+SHA256: eb9fdfb19e4f810bb6b1cb4da98f869c1843978c25eecaff0d829b4bef3e0601
+
+Package: agentx-task-clear
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-task-clear
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-task-clear_1.0.0-1_all.deb
+Size: 9692
+SHA256: 8bef61a9c7ac504be9977485c1622a78f548b04a34bec6420adfafde8fc00b25
+
+Package: agentx-task-stats
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-task-stats
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-task-stats_1.0.0-1_all.deb
+Size: 9690
+SHA256: 154f7a5208de8a24b35cbe9f91f9d88c40140d3095ff663c1b6cb118b06d6c47
+
+Package: agentx-state-get
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-state-get
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-state-get_1.0.0-1_all.deb
+Size: 9690
+SHA256: 9489833f1412b8a1f8f1a403e1bc5568660d2c8acf98f0af36dacf76be9e87bf
+
+Package: agentx-state-set
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-state-set
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-state-set_1.0.0-1_all.deb
+Size: 9690
+SHA256: cc54c4272edbf2ad54e99bb52254ea68bc54e6673b17a7c3f111ccb8e0dd80cd
+
+Package: agentx-state-delete
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-state-delete
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-state-delete_1.0.0-1_all.deb
+Size: 9696
+SHA256: d47f33a53b79c7c33cf228edc3294bb776a668c9e91f10236285c45ab2dd4f20
+
+Package: agentx-state-list
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-state-list
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-state-list_1.0.0-1_all.deb
+Size: 9690
+SHA256: 44d6efc46366d0b78cfb81960f4313f3ca8c2e585c3ee283697e49286e04946e
+
+Package: agentx-state-export
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-state-export
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-state-export_1.0.0-1_all.deb
+Size: 9686
+SHA256: becaefb2e335649ba442af0ad2c80e9c2fafef0b06fa0e41fc68345e98c3e848
+
+Package: agentx-state-import
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-state-import
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-state-import_1.0.0-1_all.deb
+Size: 9694
+SHA256: be2365e53267fd64237c9a83af78f68a7731df70e8c3bd4a74033b0985ea232c
+
+Package: agentx-state-diff
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-state-diff
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-state-diff_1.0.0-1_all.deb
+Size: 9688
+SHA256: b16323b6f90f01a2eab7ad8ffa08030f79b81c5b3914c63c1528c1758a3f66a4
+
+Package: agentx-state-merge
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-state-merge
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-state-merge_1.0.0-1_all.deb
+Size: 9698
+SHA256: fd297fd469b1591c5ccafc7d05a0616b1a31a049567d9f89a80c9cf796b59f30
+
+Package: agentx-state-clear
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-state-clear
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-state-clear_1.0.0-1_all.deb
+Size: 9696
+SHA256: a038d70fc4a7e81ac901c7af76436589820a3483e7308826827d71e72424c4c7
+
+Package: agentx-state-version
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-state-version
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-state-version_1.0.0-1_all.deb
+Size: 9692
+SHA256: 760c7408adbde6af7fe7bdbad9fb3b066b4926023bdd9ec3b2ba1ca240a95ae2
+
+Package: agentx-queue-push
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-queue-push
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-queue-push_1.0.0-1_all.deb
+Size: 9694
+SHA256: a37efc99cd533933443177f6ca875a56e2fe7f0c2add32a5ea5cce10741c546d
+
+Package: agentx-queue-pop
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-queue-pop
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-queue-pop_1.0.0-1_all.deb
+Size: 9694
+SHA256: 9299dcca7f2d710740dc293b185fbf5db96f4e193e0fd7d29ca14a32d9311972
+
+Package: agentx-queue-peek
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-queue-peek
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-queue-peek_1.0.0-1_all.deb
+Size: 9694
+SHA256: f01bd894e0f303c30204e59810648b929860e9e0be0512c8485f4fd10388a2ba
+
+Package: agentx-queue-list
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-queue-list
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-queue-list_1.0.0-1_all.deb
+Size: 9690
+SHA256: 4eed1d41c65a624300f8fcf6c4ebb03a82975935f7ff74d3e89e7b035034dfd6
+
+Package: agentx-queue-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-queue-count
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-queue-count_1.0.0-1_all.deb
+Size: 9700
+SHA256: a4b803f05c7a8d228b6f444dd98118d4da10bfd5428d818e24d811977e466850
+
+Package: agentx-queue-clear
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-queue-clear
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-queue-clear_1.0.0-1_all.deb
+Size: 9698
+SHA256: b18a1e16a356a2c0cb5c5083e65aae223f6a7f0e808394c896190b609fc0db8b
+
+Package: agentx-queue-dedupe
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-queue-dedupe
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-queue-dedupe_1.0.0-1_all.deb
+Size: 9702
+SHA256: 751a3e6ee3c35fda168eb9cfeddfd49e266734ed542a8a38e040e150b413253c
+
+Package: agentx-queue-export
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-queue-export
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-queue-export_1.0.0-1_all.deb
+Size: 9696
+SHA256: 4e3635003dbfaef621e7aaee2ca38a26de6f43d62c863be69705b5e41abdd40e
+
+Package: agentx-queue-import
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-queue-import
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-queue-import_1.0.0-1_all.deb
+Size: 9698
+SHA256: c085278ccabcf728a028e6daf72a6cac6aa6a2aa4854d0db92032c0b62ac6336
+
+Package: agentx-queue-merge
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-queue-merge
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-queue-merge_1.0.0-1_all.deb
+Size: 9700
+SHA256: 64b58616688c19eb4fa59c298270763abecfd845a98dc0cbf0c404e7a515f1c7
+
+Package: agentx-event-emit
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-event-emit
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-event-emit_1.0.0-1_all.deb
+Size: 9692
+SHA256: 812337bd93b89982fdac7bf8e056e71c0c2e834f78adc66107f4752a741a9d0b
+
+Package: agentx-event-list
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-event-list
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-event-list_1.0.0-1_all.deb
+Size: 9688
+SHA256: d9d309af7833b3b1fb21e528c9ec64ec23bd3c036b7962842bfea32d86474e27
+
+Package: agentx-event-tail
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-event-tail
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-event-tail_1.0.0-1_all.deb
+Size: 9692
+SHA256: 984d39f185d7eda1eac558ea9b238d44a9cc641842593beced7fca89678baca6
+
+Package: agentx-event-filter
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-event-filter
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-event-filter_1.0.0-1_all.deb
+Size: 9698
+SHA256: db6dde4c457956e38fbd498fb7fb9dca29ea0653e0a0b04c5594b78cedb3f227
+
+Package: agentx-event-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-event-count
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-event-count_1.0.0-1_all.deb
+Size: 9698
+SHA256: 8f65ee525f103fbc6351437e23a93b809a4c6844503dc1f948221c50e88c4a4d
+
+Package: agentx-event-clear
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-event-clear
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-event-clear_1.0.0-1_all.deb
+Size: 9694
+SHA256: 6cfe43ac227a483ad28420f266e7cbf856876295d4b065bb9efcbc6f2ae05189
+
+Package: agentx-event-export
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-event-export
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-event-export_1.0.0-1_all.deb
+Size: 9696
+SHA256: 20b13521193d6580d25dd4a2fdf5dbfe96ba844330636317253430b35f8c8080
+
+Package: agentx-event-import
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-event-import
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-event-import_1.0.0-1_all.deb
+Size: 9702
+SHA256: 25645b7d4aaf0151b59627eecf0f064a553302eab9cceb0f5444263e02de142c
+
+Package: agentx-event-types
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-event-types
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-event-types_1.0.0-1_all.deb
+Size: 9698
+SHA256: f514683b3e695e1282d70253c5c261f5be4f786c0cf79606af8fc54ca7d5a9f4
+
+Package: agentx-event-latest
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-event-latest
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-event-latest_1.0.0-1_all.deb
+Size: 9700
+SHA256: 55d786d38cf2c978f7233f0b0dd7af4e4cc2e15a20c37fca9e77d253eede7806
+
+Package: agentx-lock-acquire
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-lock-acquire
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-lock-acquire_1.0.0-1_all.deb
+Size: 9694
+SHA256: 7a8b5a94af1ad52b1c58676804b097d99c8cd8923c55ae295141e97dc60e9759
+
+Package: agentx-lock-release
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-lock-release
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-lock-release_1.0.0-1_all.deb
+Size: 9696
+SHA256: 22c8c3bde56e47231216cb18e9ba5aba98c17f2ff3585557ecfc0d756eaf36de
+
+Package: agentx-lock-status
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-lock-status
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-lock-status_1.0.0-1_all.deb
+Size: 9696
+SHA256: 83605b74d9802407a07cbff729e0df9ffd4d1fe2ab3084f9642d229602c90d9f
+
+Package: agentx-lock-list
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-lock-list
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-lock-list_1.0.0-1_all.deb
+Size: 9698
+SHA256: 0186672cda77ac99fbec94a740c640faee3f414018ae665922cbaf2c86b255eb
+
+Package: agentx-lock-wait
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-lock-wait
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-lock-wait_1.0.0-1_all.deb
+Size: 9696
+SHA256: bdc23621553b64288baad135ec8d7bc6f3db3d94b1e4c9f6989170cf824098d1
+
+Package: agentx-lock-touch
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-lock-touch
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-lock-touch_1.0.0-1_all.deb
+Size: 9696
+SHA256: 2bba54166bbc42708aee5ace41be661d47be35fb27d4f52742f93f18e0b5c73a
+
+Package: agentx-lock-owner
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-lock-owner
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-lock-owner_1.0.0-1_all.deb
+Size: 9694
+SHA256: 90e18afa423ca2c455a3e68c618c96b349df2a0ba4ec02d80649c583bd409e05
+
+Package: agentx-lock-stale
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-lock-stale
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-lock-stale_1.0.0-1_all.deb
+Size: 9694
+SHA256: 5f93413948759ee2c689b9b4e1ccda0c570cbbdf74c7aac13795fa133f3e8e1e
+
+Package: agentx-lock-clear-stale
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-lock-clear-stale
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-lock-clear-stale_1.0.0-1_all.deb
+Size: 9706
+SHA256: 25cbd196d00b8231be13b928a6e6da55c27361a37ab44ff930517f2de3db1543
+
+Package: agentx-lock-clear-all
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-lock-clear-all
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-lock-clear-all_1.0.0-1_all.deb
+Size: 9704
+SHA256: 45042e7336c928d3134b1b6a33fc0f358f23479fba7bc04f508b0a95e9599bdd
+
+Package: agentx-approval-request
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-approval-request
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-approval-request_1.0.0-1_all.deb
+Size: 9700
+SHA256: 232c267616bfc9c5c0e093be373fa1fe917132a26b13e53bf77b4fa968972f74
+
+Package: agentx-approval-list
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-approval-list
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-approval-list_1.0.0-1_all.deb
+Size: 9698
+SHA256: 7993c7d1000f05032ab5febbeae7a084700786a7b3f55772ef646694c6bfa7f7
+
+Package: agentx-approval-approve
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-approval-approve
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-approval-approve_1.0.0-1_all.deb
+Size: 9700
+SHA256: 14d56189e4b3a7b4616b8d94f6b73d5be39925af98aed3795066a5355019cbc5
+
+Package: agentx-approval-deny
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-approval-deny
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-approval-deny_1.0.0-1_all.deb
+Size: 9700
+SHA256: 21632d54babdaecfce5846e3b40524af115287ef334a28545853c6357a342d93
+
+Package: agentx-approval-status
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-approval-status
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-approval-status_1.0.0-1_all.deb
+Size: 9700
+SHA256: b6141fb01ccc8f84ffa8707cd5683cadbe4bc41fc3ce357147d78a75d1a22e1c
+
+Package: agentx-approval-pending
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-approval-pending
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-approval-pending_1.0.0-1_all.deb
+Size: 9702
+SHA256: bea9f40bae39d988c1ada393205b1f926fc7bd2cd642cc6a11824a36a848630d
+
+Package: agentx-approval-clear
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-approval-clear
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-approval-clear_1.0.0-1_all.deb
+Size: 9696
+SHA256: c97efd70c1d73d9eb3563d2bc9ea6460c9c5d5da8a484fac21c1bc4d7dcaa78e
+
+Package: agentx-approval-export
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-approval-export
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-approval-export_1.0.0-1_all.deb
+Size: 9696
+SHA256: fc812adf8dcfac45f5bfcb1dec4dbcb33fdde25148039132c6456ae8bf8b5d83
+
+Package: agentx-approval-import
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-approval-import
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-approval-import_1.0.0-1_all.deb
+Size: 9696
+SHA256: 4eb4bcb56d0bc608c9436bcbc6a84ee841cf42a28eb8f164809b4d2584302c5a
+
+Package: agentx-approval-history
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-approval-history
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-approval-history_1.0.0-1_all.deb
+Size: 9700
+SHA256: 6612f624099aa9d818484b1c8b39f56daf3624a4c9345d594df90e1f2af23787
+
+Package: agentx-cap-which
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-cap-which
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-cap-which_1.0.0-1_all.deb
+Size: 9696
+SHA256: 2fd08eb91e46861142eecfcab8c8966a720b2a6f37b7b6e7a5ef3ef3c3869a49
+
+Package: agentx-cap-has-command
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-cap-has-command
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-cap-has-command_1.0.0-1_all.deb
+Size: 9698
+SHA256: 8db42f79d6c7191289dedcbeb243517810c17f02c3eb614128487b1045a282bb
+
+Package: agentx-cap-has-env
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-cap-has-env
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-cap-has-env_1.0.0-1_all.deb
+Size: 9702
+SHA256: 19bce54c3a14812de1c68c83bdbf138c1b6eec2afa963dd7a84b8837c79eb593
+
+Package: agentx-cap-has-file
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-cap-has-file
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-cap-has-file_1.0.0-1_all.deb
+Size: 9704
+SHA256: c571486cd1a40e6a4ed976f44b206eefbbe41e05212c3638e5cdc385125f3308
+
+Package: agentx-cap-has-dir
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-cap-has-dir
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-cap-has-dir_1.0.0-1_all.deb
+Size: 9700
+SHA256: eb124099821d341bd0f23eeaa9816c1322cec81ffd4ea567754c83b8f593f14a
+
+Package: agentx-cap-writable
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-cap-writable
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-cap-writable_1.0.0-1_all.deb
+Size: 9702
+SHA256: fb7864dc76d99e76a6c6d12c53630f3925b1d922e6c1b2cb6196b3d45982a6f7
+
+Package: agentx-cap-readable
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-cap-readable
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-cap-readable_1.0.0-1_all.deb
+Size: 9706
+SHA256: aab5d9aed94ebd04255c793d99a3ed15bacaeb5016b8408ad03f891c299c7811
+
+Package: agentx-cap-port-free
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-cap-port-free
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-cap-port-free_1.0.0-1_all.deb
+Size: 9694
+SHA256: 8cd38b0d8616ff3243ab29ed51d8e7a35fff7d47479a905c7258cb87cd0b2039
+
+Package: agentx-cap-python
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-cap-python
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-cap-python_1.0.0-1_all.deb
+Size: 9694
+SHA256: dc67cbdcc04a347e0fa30265ed424750c4c43cd93befbf768b45adcb669a09fa
+
+Package: agentx-cap-summary
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-cap-summary
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-cap-summary_1.0.0-1_all.deb
+Size: 9698
+SHA256: c83586ed6e533ef48e207819baf0a0b06a0ad9512edd0e147fdc2f8114738931
+
+Package: agentx-exec-run
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-exec-run
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-exec-run_1.0.0-1_all.deb
+Size: 9698
+SHA256: 8744f5b39d89ac6d5a75c09776bdc62187f509721b9e595cff3cecf6159e2d0f
+
+Package: agentx-exec-shell
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-exec-shell
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-exec-shell_1.0.0-1_all.deb
+Size: 9692
+SHA256: 7689c9c40bdffdffd4aa3a5991fd75d79548c3e78e86e465df1f1916b0892c58
+
+Package: agentx-exec-capture
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-exec-capture
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-exec-capture_1.0.0-1_all.deb
+Size: 9694
+SHA256: 948fdcdacc4d6262a04b457604509168993202520737d31fd4a117dbb2e78af5
+
+Package: agentx-exec-timeout
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-exec-timeout
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-exec-timeout_1.0.0-1_all.deb
+Size: 9698
+SHA256: 481468e092a6c21d6a3a0e0d3c883248501b22a0514b402e890762512aa925e4
+
+Package: agentx-exec-env
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-exec-env
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-exec-env_1.0.0-1_all.deb
+Size: 9696
+SHA256: 199fa36d7915364047f83a8635d5a9ea4c0bc7f76ac5a5d6ef6d5ef6be02eebf
+
+Package: agentx-exec-cwd
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-exec-cwd
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-exec-cwd_1.0.0-1_all.deb
+Size: 9696
+SHA256: 23fe8748f3fd955070f3e5ad30d4622aa66aa7b7be3aa30504bd21ef9bbd3485
+
+Package: agentx-exec-pipeline
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-exec-pipeline
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-exec-pipeline_1.0.0-1_all.deb
+Size: 9696
+SHA256: 11612d2424eccefc73933bb4555be7f2a9a4613518e128ad3b5235cc888a047c
+
+Package: agentx-exec-which
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-exec-which
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-exec-which_1.0.0-1_all.deb
+Size: 9696
+SHA256: 360d8c9e0c1581af3e4e7aac328df17936d299a949ab59a0ebd668602dd8f178
+
+Package: agentx-exec-dryrun
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-exec-dryrun
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-exec-dryrun_1.0.0-1_all.deb
+Size: 9700
+SHA256: 00c97bf40b4f46b8a64631306fdc61f20714f2018210c5c6b834032533a5dfe0
+
+Package: agentx-exec-history
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-exec-history
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-exec-history_1.0.0-1_all.deb
+Size: 9692
+SHA256: e881b96786f01166e486b65de7022f124845568cabfa107a3b5dd93fea89e4a3
+
+Package: agentx-job-define
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-job-define
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-job-define_1.0.0-1_all.deb
+Size: 9702
+SHA256: 1143ad376b86ab24c874e2bdb20e76713a6f657acaff594a48c5ae860a505926
+
+Package: agentx-job-start
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-job-start
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-job-start_1.0.0-1_all.deb
+Size: 9694
+SHA256: 3297751e281887b27058549ed67175d23c8fdb2fb41783708ab72f9d862b58b9
+
+Package: agentx-job-status
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-job-status
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-job-status_1.0.0-1_all.deb
+Size: 9698
+SHA256: a0adc2cabfcb1e57955239cb36ee4c438bb7dfe13b34112c10dbde013955b860
+
+Package: agentx-job-list
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-job-list
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-job-list_1.0.0-1_all.deb
+Size: 9694
+SHA256: b01c21d071294a98bd53cadcf439d881798f0882aea2878181641e38cf9bf9f6
+
+Package: agentx-job-wait
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-job-wait
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-job-wait_1.0.0-1_all.deb
+Size: 9698
+SHA256: f555cc3b1b53b5204fcb5e2e8208b0b66b32cea03eadedb5502203275418cc4e
+
+Package: agentx-job-stop
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-job-stop
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-job-stop_1.0.0-1_all.deb
+Size: 9698
+SHA256: 62dfe497f527e665ce3d7b0b8c6cc46eb1875fd233cff5143bd3121ea4f1ce43
+
+Package: agentx-job-logs
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-job-logs
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-job-logs_1.0.0-1_all.deb
+Size: 9698
+SHA256: 5542183361eb0436fa3721dda93218ce9ae297cb91193e904b81985e138e8731
+
+Package: agentx-job-retry
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-job-retry
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-job-retry_1.0.0-1_all.deb
+Size: 9694
+SHA256: 5b9659daad6f8bd3f0c2eacce27158e45d247da73c1072504e76a6e2bac2a0c0
+
+Package: agentx-job-purge
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-job-purge
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-job-purge_1.0.0-1_all.deb
+Size: 9696
+SHA256: 1a4b951be57480db3398cd38698dbfa1b771d8f028f22d5373ab334123c3e1b2
+
+Package: agentx-job-summary
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-job-summary
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-job-summary_1.0.0-1_all.deb
+Size: 9700
+SHA256: a7914b6bc4028ab2a39e15ff99862c09bb9445d29b7b186db1f0d9b79f07a45c
+
+Package: agentx-workspace-scan
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-workspace-scan
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-workspace-scan_1.0.0-1_all.deb
+Size: 9696
+SHA256: 39db413336f31ffb6e1cae0084cf56ab482c9f814f64e9709e7ff74031eb1b30
+
+Package: agentx-workspace-manifest
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-workspace-manifest
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-workspace-manifest_1.0.0-1_all.deb
+Size: 9704
+SHA256: 362e652c8a928733bdba5be982b796f2dd91c473b8d9f2c8519613e0b93bec20
+
+Package: agentx-workspace-hash
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-workspace-hash
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-workspace-hash_1.0.0-1_all.deb
+Size: 9698
+SHA256: 1c014b9118a76407dc6e930b61e1de0a78cf900f4808eb3094ef6f9c2182d627
+
+Package: agentx-workspace-snapshot
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-workspace-snapshot
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-workspace-snapshot_1.0.0-1_all.deb
+Size: 9700
+SHA256: 3643f03d6066a7903463bd25a94f1e921ea330834ae36ca007c6e60936e5d86d
+
+Package: agentx-workspace-diff
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-workspace-diff
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-workspace-diff_1.0.0-1_all.deb
+Size: 9692
+SHA256: f5d5a0d604d0b77f43b689efe734affe3f6047c7bb5c4bb5c52c7fe656e8d882
+
+Package: agentx-workspace-changed
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-workspace-changed
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-workspace-changed_1.0.0-1_all.deb
+Size: 9698
+SHA256: 552822a79e6e083f4042ed087c464379491fadbe7d5f19cc1a1a40056fc1cb74
+
+Package: agentx-workspace-large
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-workspace-large
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-workspace-large_1.0.0-1_all.deb
+Size: 9698
+SHA256: 681c89362517cb96c5471cbaa7cc80aa1b7bb0cd296b8c2662f58ba19e01189c
+
+Package: agentx-workspace-recent
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-workspace-recent
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-workspace-recent_1.0.0-1_all.deb
+Size: 9700
+SHA256: 877ef535ae26e45191d74ed6d97e9b209b4d4ced1bbf90c7c74c616eb77948f8
+
+Package: agentx-workspace-summary
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-workspace-summary
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-workspace-summary_1.0.0-1_all.deb
+Size: 9698
+SHA256: 44d6a710273d9a3e22894dae3b3f92b09e9d733b7ce3ae82e02f47031593a4a6
+
+Package: agentx-workspace-clean-empty
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: agent task/state/job/workspace orchestration - agentx-workspace-clean-empty
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-56/pool/main/agentx-workspace-clean-empty_1.0.0-1_all.deb
+Size: 9702
+SHA256: 9cd37067bc7e8865db58728f32c012ff3e965dad356dba09a683af66dd56b133
+
+Package: ocean-agent-runtime-suite
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: metapackages
+Priority: optional
+Depends: agentx-task-init (= 1.0.0-1), agentx-task-add (= 1.0.0-1), agentx-task-list (= 1.0.0-1), agentx-task-next (= 1.0.0-1), agentx-task-start (= 1.0.0-1), agentx-task-done (= 1.0.0-1), agentx-task-fail (= 1.0.0-1), agentx-task-retry (= 1.0.0-1), agentx-task-clear (= 1.0.0-1), agentx-task-stats (= 1.0.0-1), agentx-state-get (= 1.0.0-1), agentx-state-set (= 1.0.0-1), agentx-state-delete (= 1.0.0-1), agentx-state-list (= 1.0.0-1), agentx-state-export (= 1.0.0-1), agentx-state-import (= 1.0.0-1), agentx-state-diff (= 1.0.0-1), agentx-state-merge (= 1.0.0-1), agentx-state-clear (= 1.0.0-1), agentx-state-version (= 1.0.0-1), agentx-queue-push (= 1.0.0-1), agentx-queue-pop (= 1.0.0-1), agentx-queue-peek (= 1.0.0-1), agentx-queue-list (= 1.0.0-1), agentx-queue-count (= 1.0.0-1), agentx-queue-clear (= 1.0.0-1), agentx-queue-dedupe (= 1.0.0-1), agentx-queue-export (= 1.0.0-1), agentx-queue-import (= 1.0.0-1), agentx-queue-merge (= 1.0.0-1), agentx-event-emit (= 1.0.0-1), agentx-event-list (= 1.0.0-1), agentx-event-tail (= 1.0.0-1), agentx-event-filter (= 1.0.0-1), agentx-event-count (= 1.0.0-1), agentx-event-clear (= 1.0.0-1), agentx-event-export (= 1.0.0-1), agentx-event-import (= 1.0.0-1), agentx-event-types (= 1.0.0-1), agentx-event-latest (= 1.0.0-1), agentx-lock-acquire (= 1.0.0-1), agentx-lock-release (= 1.0.0-1), agentx-lock-status (= 1.0.0-1), agentx-lock-list (= 1.0.0-1), agentx-lock-wait (= 1.0.0-1), agentx-lock-touch (= 1.0.0-1), agentx-lock-owner (= 1.0.0-1), agentx-lock-stale (= 1.0.0-1), agentx-lock-clear-stale (= 1.0.0-1), agentx-lock-clear-all (= 1.0.0-1), agentx-approval-request (= 1.0.0-1), agentx-approval-list (= 1.0.0-1), agentx-approval-approve (= 1.0.0-1), agentx-approval-deny (= 1.0.0-1), agentx-approval-status (= 1.0.0-1), agentx-approval-pending (= 1.0.0-1), agentx-approval-clear (= 1.0.0-1), agentx-approval-export (= 1.0.0-1), agentx-approval-import (= 1.0.0-1), agentx-approval-history (= 1.0.0-1), agentx-cap-which (= 1.0.0-1), agentx-cap-has-command (= 1.0.0-1), agentx-cap-has-env (= 1.0.0-1), agentx-cap-has-file (= 1.0.0-1), agentx-cap-has-dir (= 1.0.0-1), agentx-cap-writable (= 1.0.0-1), agentx-cap-readable (= 1.0.0-1), agentx-cap-port-free (= 1.0.0-1), agentx-cap-python (= 1.0.0-1), agentx-cap-summary (= 1.0.0-1), agentx-exec-run (= 1.0.0-1), agentx-exec-shell (= 1.0.0-1), agentx-exec-capture (= 1.0.0-1), agentx-exec-timeout (= 1.0.0-1), agentx-exec-env (= 1.0.0-1), agentx-exec-cwd (= 1.0.0-1), agentx-exec-pipeline (= 1.0.0-1), agentx-exec-which (= 1.0.0-1), agentx-exec-dryrun (= 1.0.0-1), agentx-exec-history (= 1.0.0-1), agentx-job-define (= 1.0.0-1), agentx-job-start (= 1.0.0-1), agentx-job-status (= 1.0.0-1), agentx-job-list (= 1.0.0-1), agentx-job-wait (= 1.0.0-1), agentx-job-stop (= 1.0.0-1), agentx-job-logs (= 1.0.0-1), agentx-job-retry (= 1.0.0-1), agentx-job-purge (= 1.0.0-1), agentx-job-summary (= 1.0.0-1), agentx-workspace-scan (= 1.0.0-1), agentx-workspace-manifest (= 1.0.0-1), agentx-workspace-hash (= 1.0.0-1), agentx-workspace-snapshot (= 1.0.0-1), agentx-workspace-diff (= 1.0.0-1), agentx-workspace-changed (= 1.0.0-1), agentx-workspace-large (= 1.0.0-1), agentx-workspace-recent (= 1.0.0-1), agentx-workspace-summary (= 1.0.0-1), agentx-workspace-clean-empty (= 1.0.0-1)
+Description: Ocean agent task/state/job/workspace orchestration suite
+ Meta-package installing the complete Ocean power capability shard.
+Filename: staging/shard-56/pool/main/ocean-agent-runtime-suite_1.0.0-1_all.deb
+Size: 1084
+SHA256: 2b1d65ce5b5c1da047ac46d2e11bf75738d3552d6c8daa6c54e900fa4936307a

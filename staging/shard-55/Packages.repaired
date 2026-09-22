@@ -1,0 +1,1412 @@
+Package: sysx-repo-list
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python, apt
+Description: system/package/session/process customization - sysx-repo-list
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-repo-list_1.0.0-1_all.deb
+Size: 9696
+SHA256: 6494c0e20b313507d8e04eaacf1cbc4fe3a70429e51d8ef74c17fe9a559db11a
+
+Package: sysx-repo-add
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python, apt
+Description: system/package/session/process customization - sysx-repo-add
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-repo-add_1.0.0-1_all.deb
+Size: 9700
+SHA256: 5d77e5c5539dfbd1791ab800c1113aa4498b2d2a97c33394c75f9a5511972f94
+
+Package: sysx-repo-remove
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python, apt
+Description: system/package/session/process customization - sysx-repo-remove
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-repo-remove_1.0.0-1_all.deb
+Size: 9700
+SHA256: 81854d34bdadbbe117aaa32bbb0c7f23c7529ab25fd6691dae81219f55de2055
+
+Package: sysx-repo-enable
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python, apt
+Description: system/package/session/process customization - sysx-repo-enable
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-repo-enable_1.0.0-1_all.deb
+Size: 9698
+SHA256: 9f58709ebc05fdc438541e74509cc425198da530721e891cac74e3b81bdcdfe2
+
+Package: sysx-repo-disable
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python, apt
+Description: system/package/session/process customization - sysx-repo-disable
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-repo-disable_1.0.0-1_all.deb
+Size: 9690
+SHA256: e9a6346d0a5d96378212fc798914c8f7b0c917dadf5aff411bf4370758af74e9
+
+Package: sysx-repo-switch
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python, apt
+Description: system/package/session/process customization - sysx-repo-switch
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-repo-switch_1.0.0-1_all.deb
+Size: 9698
+SHA256: 6a480e1ee3a3161e5c3c1b00088ce50668006ade7e3ce223e11695389123f8f0
+
+Package: sysx-repo-pin
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python, apt
+Description: system/package/session/process customization - sysx-repo-pin
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-repo-pin_1.0.0-1_all.deb
+Size: 9694
+SHA256: a5921ef32452e721d9a80c4ec215c384811819eabcfe0bbf106bc745e0ebeb35
+
+Package: sysx-repo-unpin
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python, apt
+Description: system/package/session/process customization - sysx-repo-unpin
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-repo-unpin_1.0.0-1_all.deb
+Size: 9700
+SHA256: 80268a64af25218b601f5f67ad3fe09269c509ea652577962d5eb7e1400b2aa4
+
+Package: sysx-repo-backup
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python, apt
+Description: system/package/session/process customization - sysx-repo-backup
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-repo-backup_1.0.0-1_all.deb
+Size: 9692
+SHA256: a010c17e9680a81b58f6cdc32779dab6d83d8c63a61195d3687407883ba3f2e9
+
+Package: sysx-repo-restore
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python, apt
+Description: system/package/session/process customization - sysx-repo-restore
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-repo-restore_1.0.0-1_all.deb
+Size: 9694
+SHA256: 4a395bf645b0368531e96cfc8dbdbaa0fde5c52c7d0287cb2841013dc7613908
+
+Package: sysx-pkg-installed
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python, apt, dpkg
+Description: system/package/session/process customization - sysx-pkg-installed
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-pkg-installed_1.0.0-1_all.deb
+Size: 9700
+SHA256: 5678ae11ae042b0f8b95cc321ec26bc905fef2328820095af9fd12e5aa32b870
+
+Package: sysx-pkg-search
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python, apt, dpkg
+Description: system/package/session/process customization - sysx-pkg-search
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-pkg-search_1.0.0-1_all.deb
+Size: 9702
+SHA256: a915ef9c10bdb39305a11608f8e368d91adfac8a346dbe342cd7f6a6f5ff27fd
+
+Package: sysx-pkg-policy
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python, apt, dpkg
+Description: system/package/session/process customization - sysx-pkg-policy
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-pkg-policy_1.0.0-1_all.deb
+Size: 9700
+SHA256: c928e2c77c34b2d5035e6ac6a1feec56145fa5bf31ac0283efcbb528c7929251
+
+Package: sysx-pkg-files
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python, apt, dpkg
+Description: system/package/session/process customization - sysx-pkg-files
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-pkg-files_1.0.0-1_all.deb
+Size: 9696
+SHA256: 76ecf7bfe397b7a51ec8faab3008b3035ea8031e22680ff863ce52b019ff0d00
+
+Package: sysx-pkg-owner
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python, apt, dpkg
+Description: system/package/session/process customization - sysx-pkg-owner
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-pkg-owner_1.0.0-1_all.deb
+Size: 9698
+SHA256: 05e0939d1c2bff6b342a87fa37036a5f9d561a33007e7704a848f97032155b79
+
+Package: sysx-pkg-deps
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python, apt, dpkg
+Description: system/package/session/process customization - sysx-pkg-deps
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-pkg-deps_1.0.0-1_all.deb
+Size: 9702
+SHA256: d642628c9dc923b0c20dba5c43d2b6237c6fb667a288c82d047830cfe4fec65d
+
+Package: sysx-pkg-rdeps
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python, apt, dpkg
+Description: system/package/session/process customization - sysx-pkg-rdeps
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-pkg-rdeps_1.0.0-1_all.deb
+Size: 9694
+SHA256: 68e771fd4aedf4718fe2c0334a68ba34073bde2248409c45d195538a2724c384
+
+Package: sysx-pkg-manifest
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python, apt, dpkg
+Description: system/package/session/process customization - sysx-pkg-manifest
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-pkg-manifest_1.0.0-1_all.deb
+Size: 9702
+SHA256: 01b985806e0e62d7c528c6fdd76d572d3c742a57eb29da907c8ca411a5b78c14
+
+Package: sysx-pkg-verify
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python, apt, dpkg
+Description: system/package/session/process customization - sysx-pkg-verify
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-pkg-verify_1.0.0-1_all.deb
+Size: 9704
+SHA256: 0575766709b768a5d6b38035beac4dd94847b3472372a1ecef7d33e8d66f4070
+
+Package: sysx-pkg-cache
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python, apt, dpkg
+Description: system/package/session/process customization - sysx-pkg-cache
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-pkg-cache_1.0.0-1_all.deb
+Size: 9694
+SHA256: 481fa46c6a9f84f2a8e83da7b30bf0bd9fac2774e0ea4bc2c09b07cfbab526db
+
+Package: sysx-proc-list
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-proc-list
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-proc-list_1.0.0-1_all.deb
+Size: 9688
+SHA256: cc152716ba9481b87e19b1278bd3b302cbb924f2dad3c4cd061e460c1d2651b1
+
+Package: sysx-proc-find
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-proc-find
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-proc-find_1.0.0-1_all.deb
+Size: 9694
+SHA256: f81c00b6a435432ac91374f38e154e2c3c3f28e263e9db4273394f8dceb23bdf
+
+Package: sysx-proc-tree
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-proc-tree
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-proc-tree_1.0.0-1_all.deb
+Size: 9686
+SHA256: ef68efe2cde87ac53016d75f7eea813ae21e3b93e15bd709cbbd61a82503abb6
+
+Package: sysx-proc-topcpu
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-proc-topcpu
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-proc-topcpu_1.0.0-1_all.deb
+Size: 9692
+SHA256: 045d591e6eb08ff0c551ede681795b4a8d470e5a3d51c60a6e1bf889ec38fc71
+
+Package: sysx-proc-topmem
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-proc-topmem
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-proc-topmem_1.0.0-1_all.deb
+Size: 9692
+SHA256: 0b8ae5aeb7a9664e5e368a86992e60b14592206bbc75a0521e3ea0c1116b3aea
+
+Package: sysx-proc-env
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-proc-env
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-proc-env_1.0.0-1_all.deb
+Size: 9688
+SHA256: 9e4a6d6b5bc01476ada8dccfaaf3ad1acd252ab0fccdcb67fc3b7c878323a78b
+
+Package: sysx-proc-fds
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-proc-fds
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-proc-fds_1.0.0-1_all.deb
+Size: 9694
+SHA256: 617d9495039de63394fb289d3394bb08dde01d39fa8fae72202e62f51fadb30d
+
+Package: sysx-proc-cwd
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-proc-cwd
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-proc-cwd_1.0.0-1_all.deb
+Size: 9688
+SHA256: 479e09edba95e54ccc87473bbb8dba4903fa480aaa01a3e60c83a35e43ec367f
+
+Package: sysx-proc-signal
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-proc-signal
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-proc-signal_1.0.0-1_all.deb
+Size: 9688
+SHA256: 0f1a447d9cf2873275932673b0a73e0f1fa04195dd97c7c69af55565ae0afbbb
+
+Package: sysx-proc-wait
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-proc-wait
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-proc-wait_1.0.0-1_all.deb
+Size: 9688
+SHA256: 52e3f2bc2550a4f7ec5033858c60096feda2adc53332a832f36c185ccca2ff84
+
+Package: sysx-session-new
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python, tmux
+Description: system/package/session/process customization - sysx-session-new
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-session-new_1.0.0-1_all.deb
+Size: 9690
+SHA256: 422dca466746d2ad70ade5804a540a4255318bef87266e276eaacb451f5bf589
+
+Package: sysx-session-list
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python, tmux
+Description: system/package/session/process customization - sysx-session-list
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-session-list_1.0.0-1_all.deb
+Size: 9690
+SHA256: d29586a49b5a606374b5a4c86b79b0abefc0fedca7e8b56ab162686e26957d69
+
+Package: sysx-session-has
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python, tmux
+Description: system/package/session/process customization - sysx-session-has
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-session-has_1.0.0-1_all.deb
+Size: 9694
+SHA256: 00749f44777e0ba1c807e98f5272800276321c4a3e3138aaec9bf4e52ee39dbd
+
+Package: sysx-session-kill
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python, tmux
+Description: system/package/session/process customization - sysx-session-kill
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-session-kill_1.0.0-1_all.deb
+Size: 9694
+SHA256: 022db67438674f87072ab6eddf623e861462561ba905df210d0ff6a5d43af76f
+
+Package: sysx-session-send
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python, tmux
+Description: system/package/session/process customization - sysx-session-send
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-session-send_1.0.0-1_all.deb
+Size: 9690
+SHA256: 3d3cd8d455ffb7d8167fc6db3d641e176130902b80950e1727b7870c86bb5b7d
+
+Package: sysx-session-capture
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python, tmux
+Description: system/package/session/process customization - sysx-session-capture
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-session-capture_1.0.0-1_all.deb
+Size: 9694
+SHA256: 3398c6d971e99b092b74536ea492f4cc635077f6c6bd87c2fe51e866597951e4
+
+Package: sysx-session-rename
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python, tmux
+Description: system/package/session/process customization - sysx-session-rename
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-session-rename_1.0.0-1_all.deb
+Size: 9696
+SHA256: a61f0d7efdc98023c5114db006c2631c616ff7391177c74a3176fe3cc2f4ef52
+
+Package: sysx-session-window-new
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python, tmux
+Description: system/package/session/process customization - sysx-session-window-new
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-session-window-new_1.0.0-1_all.deb
+Size: 9698
+SHA256: a7cad9a3c10be8b8f04b39b9763a47d33e3ac8e753065d39e265509b2d3a1652
+
+Package: sysx-session-window-list
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python, tmux
+Description: system/package/session/process customization - sysx-session-window-list
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-session-window-list_1.0.0-1_all.deb
+Size: 9696
+SHA256: 406fd9669066354a9e418a8b64568e37e7dd1325bbfc246d37587562bca063cd
+
+Package: sysx-session-detach
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python, tmux
+Description: system/package/session/process customization - sysx-session-detach
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-session-detach_1.0.0-1_all.deb
+Size: 9692
+SHA256: 56529b760f3cdddac25e2afe6c018587e64f31e14f68ab1a33db4e575fde5edb
+
+Package: sysx-service-define
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-service-define
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-service-define_1.0.0-1_all.deb
+Size: 9696
+SHA256: 1655b4ac9c486615eee11a706f89c0dc0cac99c6d890bd84bf28bf89dfc86c37
+
+Package: sysx-service-start
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-service-start
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-service-start_1.0.0-1_all.deb
+Size: 9692
+SHA256: 1557977af5e6ebe3e84f64c795b083be93ed8b0d59865df3eff722294ac83ea6
+
+Package: sysx-service-stop
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-service-stop
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-service-stop_1.0.0-1_all.deb
+Size: 9690
+SHA256: 306ca79c4aea6fc3d77a4d06d317e32b51f4c2b1226af904dedad730066aa32c
+
+Package: sysx-service-restart
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-service-restart
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-service-restart_1.0.0-1_all.deb
+Size: 9694
+SHA256: 17a22d00862390a93c8242deba02206de41cb4f6d0e48556af4aa3263b61b995
+
+Package: sysx-service-status
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-service-status
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-service-status_1.0.0-1_all.deb
+Size: 9694
+SHA256: 18bbb836e9324588977c4c0b2d8fa8723909c8e365a844eca38c1a6823d8ba61
+
+Package: sysx-service-list
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-service-list
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-service-list_1.0.0-1_all.deb
+Size: 9690
+SHA256: db5a133e3bcfca3df57add86a9103889836127136c1dcd6bee95b7f5cd5ce4f9
+
+Package: sysx-service-logs
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-service-logs
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-service-logs_1.0.0-1_all.deb
+Size: 9690
+SHA256: 72ba9f030f0d2d9915759b49f57189b5e6bf6ac8030609ae661fc1bf45e5b834
+
+Package: sysx-service-enable
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-service-enable
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-service-enable_1.0.0-1_all.deb
+Size: 9698
+SHA256: e56f941796d37f81d0fe7506a57e4f798d5a9be25d05691933d0131b3210848a
+
+Package: sysx-service-disable
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-service-disable
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-service-disable_1.0.0-1_all.deb
+Size: 9698
+SHA256: 8b514d7cb340526f0f4e0c7e7de899e660b0da568f62940338c69b224e4d94c9
+
+Package: sysx-service-purge
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-service-purge
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-service-purge_1.0.0-1_all.deb
+Size: 9692
+SHA256: 87a745805feb9c3b2466344d40cff11155393456f090440f67adff310f04810f
+
+Package: sysx-fs-stat
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-fs-stat
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-fs-stat_1.0.0-1_all.deb
+Size: 9690
+SHA256: acd21b137a54405bdc36e8f06beffaf1f1565b6f7e2be9acb227a48d70b800ec
+
+Package: sysx-fs-tree
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-fs-tree
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-fs-tree_1.0.0-1_all.deb
+Size: 9690
+SHA256: 0e524ae6a4ed0a1056ab1070aa2c41468a8b070e583024ac445da6891b325873
+
+Package: sysx-fs-mkdir
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-fs-mkdir
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-fs-mkdir_1.0.0-1_all.deb
+Size: 9686
+SHA256: f1d75d8b52e975889f18766fc4d4fa6e3df6d34b3e3c9c93930643f640e32f41
+
+Package: sysx-fs-touch
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-fs-touch
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-fs-touch_1.0.0-1_all.deb
+Size: 9684
+SHA256: 9a85f44c2ddd064f50e569f01570032527796f84436c8777c4d9854403e59569
+
+Package: sysx-fs-copy
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-fs-copy
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-fs-copy_1.0.0-1_all.deb
+Size: 9694
+SHA256: abb864c5e9158f03af53bd5099913c368920979195e3d16b84700262b62418e9
+
+Package: sysx-fs-move
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-fs-move
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-fs-move_1.0.0-1_all.deb
+Size: 9698
+SHA256: e5d2f00258f53213bf86ffe7c4108d2af26b588cfb7d35af8ba36f3f410283f7
+
+Package: sysx-fs-symlink
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-fs-symlink
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-fs-symlink_1.0.0-1_all.deb
+Size: 9696
+SHA256: 03372b711cf29933dc1b7ac1e93f684c35fa59ff6993ce932d287e6a93c77298
+
+Package: sysx-fs-chmod
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-fs-chmod
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-fs-chmod_1.0.0-1_all.deb
+Size: 9690
+SHA256: b585709f347c3956e2d5dd47675e43fbcca3d71e32b370f55606ed17af487045
+
+Package: sysx-fs-checksum
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-fs-checksum
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-fs-checksum_1.0.0-1_all.deb
+Size: 9696
+SHA256: 661e081c2317213e2d60d8b4db8b83babfa5b0c543fb46f1d0c172a06cae7810
+
+Package: sysx-fs-remove
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-fs-remove
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-fs-remove_1.0.0-1_all.deb
+Size: 9692
+SHA256: ba98104f94bc094b760f73a80b7097501f2105880b711ab61d9dd367cd87ad15
+
+Package: sysx-envfile-get
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-envfile-get
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-envfile-get_1.0.0-1_all.deb
+Size: 9690
+SHA256: 74b371812799d99155efafca271689cd058bd4d644db2e6642e328193525a9c2
+
+Package: sysx-envfile-set
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-envfile-set
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-envfile-set_1.0.0-1_all.deb
+Size: 9688
+SHA256: dfe951af4609bfd12c2796afb2ab3bb0a195f7a3f2ad58398629771535d0a00c
+
+Package: sysx-envfile-unset
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-envfile-unset
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-envfile-unset_1.0.0-1_all.deb
+Size: 9700
+SHA256: b099e06bbac9b4d74ce403a2aca721de14351ea917defa9d437f3ef903c98251
+
+Package: sysx-envfile-list
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-envfile-list
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-envfile-list_1.0.0-1_all.deb
+Size: 9688
+SHA256: bbd5d0f5aaef6f5ac6502d26f9dba9d8175d6c72d9aa5f542959652807f126d2
+
+Package: sysx-envfile-merge
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-envfile-merge
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-envfile-merge_1.0.0-1_all.deb
+Size: 9694
+SHA256: 87f43813b7eb0c2b73f93526fe5dce935e4250bb6a83e44ad57c109b092ee47b
+
+Package: sysx-envfile-export
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-envfile-export
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-envfile-export_1.0.0-1_all.deb
+Size: 9696
+SHA256: c462543e044025bb809166e1ee0af332b4f7b3012e334b4141aa09096b915279
+
+Package: sysx-envfile-path-add
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-envfile-path-add
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-envfile-path-add_1.0.0-1_all.deb
+Size: 9700
+SHA256: add3c91e011f8827b170da77214489f1b82374b85afa1a4dfdee2c2f2d1e67de
+
+Package: sysx-envfile-path-remove
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-envfile-path-remove
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-envfile-path-remove_1.0.0-1_all.deb
+Size: 9698
+SHA256: 2801c3bd785bd23b322f7630d88422f0b8a22ab982a404362a54797c1dc1223f
+
+Package: sysx-envfile-which
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-envfile-which
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-envfile-which_1.0.0-1_all.deb
+Size: 9696
+SHA256: cef076c130641438358962cb46b211c789c737746b91d7bb650184c6e8bd795b
+
+Package: sysx-envfile-doctor
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-envfile-doctor
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-envfile-doctor_1.0.0-1_all.deb
+Size: 9696
+SHA256: f389cb6edbac1b9963215246a659bcb16a1b300020fb526f2d940bfa1e92e22a
+
+Package: sysx-perm-mode
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-perm-mode
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-perm-mode_1.0.0-1_all.deb
+Size: 9692
+SHA256: cf41518e5d979912e88b578631596cc3c790b781c512bc7cb22c1db4edeee54b
+
+Package: sysx-perm-chmod
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-perm-chmod
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-perm-chmod_1.0.0-1_all.deb
+Size: 9696
+SHA256: b87e4684c7d81b5ba2ffa767bcee158c39e31ffde97be641eb929323ae92f2b1
+
+Package: sysx-perm-executable
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-perm-executable
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-perm-executable_1.0.0-1_all.deb
+Size: 9702
+SHA256: b8b92d8fffc6a77606f8d64f544d977774dcf4e3e0bca7bdcaf89aa6d5dd73f6
+
+Package: sysx-perm-readonly
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-perm-readonly
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-perm-readonly_1.0.0-1_all.deb
+Size: 9698
+SHA256: 3ffa5535a8e0600bc4c25ee89282fdf1e7f83857f08cd926c172874733a4c594
+
+Package: sysx-perm-writable
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-perm-writable
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-perm-writable_1.0.0-1_all.deb
+Size: 9704
+SHA256: 290669b1a7cf745f31c2b726ba69e6505e4a5ed105860b59ed189615c47302b6
+
+Package: sysx-perm-owner
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-perm-owner
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-perm-owner_1.0.0-1_all.deb
+Size: 9694
+SHA256: b726214210d0c13f165cf2a72caac0cf09e0abfe0ec6f0f4d1548d61d6f6e0e6
+
+Package: sysx-perm-access
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-perm-access
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-perm-access_1.0.0-1_all.deb
+Size: 9694
+SHA256: e6d8d6e83a40cb867dd6e7bd700f8d3fb848a2212b5938216e9fb071cebcfaaf
+
+Package: sysx-perm-dirs
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-perm-dirs
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-perm-dirs_1.0.0-1_all.deb
+Size: 9694
+SHA256: e9c6c7811140050ca205a1d722763cc44166bd2c1f4b5793dbf78a52b3122e79
+
+Package: sysx-perm-files
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-perm-files
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-perm-files_1.0.0-1_all.deb
+Size: 9686
+SHA256: cba51013d56a3ab11999b19efea125f9ad687a85980679912be74e193a1ac918
+
+Package: sysx-perm-secure
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-perm-secure
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-perm-secure_1.0.0-1_all.deb
+Size: 9696
+SHA256: 9828d7f376313c32e42885f1cc742094111fe45beb7fb6b2cc2c06297886a1cc
+
+Package: sysx-watch-mtime
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-watch-mtime
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-watch-mtime_1.0.0-1_all.deb
+Size: 9694
+SHA256: 60b2849b5f413ecc278c844c132429f0e2aa1218e0298bb8015143d7bc8ab285
+
+Package: sysx-watch-wait-change
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-watch-wait-change
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-watch-wait-change_1.0.0-1_all.deb
+Size: 9696
+SHA256: 98ced41aba42864e286067f21d5e2d854d69f4be19b25d0d1c0e68fdcb1245d4
+
+Package: sysx-watch-wait-create
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-watch-wait-create
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-watch-wait-create_1.0.0-1_all.deb
+Size: 9700
+SHA256: 6c88929ea3acedc0b9cb1ca173fcb18229e46a2329e9435b3ad9452fd57fa8e5
+
+Package: sysx-watch-wait-delete
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-watch-wait-delete
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-watch-wait-delete_1.0.0-1_all.deb
+Size: 9698
+SHA256: 99b307b13fb2b8a513d5869d1a324de220b5a5d08613eafe6e412010f6611908
+
+Package: sysx-watch-tail
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-watch-tail
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-watch-tail_1.0.0-1_all.deb
+Size: 9692
+SHA256: d9c0f12c693e2bfe7915843a8724bd2d7ae42f216d25afaebf97f65ebfc3f4f4
+
+Package: sysx-watch-size
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-watch-size
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-watch-size_1.0.0-1_all.deb
+Size: 9694
+SHA256: c18ab5294c00fd94e8ab39131f21e4aa6f0b9e56bc1a7f8345487ad7453fa1f5
+
+Package: sysx-watch-exists
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-watch-exists
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-watch-exists_1.0.0-1_all.deb
+Size: 9696
+SHA256: b154d19a7749856fdb0c1ff6972fae386eeca0d78b7288d20c6c35be4e4d60cf
+
+Package: sysx-watch-newest
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-watch-newest
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-watch-newest_1.0.0-1_all.deb
+Size: 9694
+SHA256: a6e2951a65c2fc8a560fd147c92d604ecfb0b6e452ddb11a00bcc9e653eaeebc
+
+Package: sysx-watch-oldest
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-watch-oldest
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-watch-oldest_1.0.0-1_all.deb
+Size: 9696
+SHA256: 4736764283e8b557d26a42ddabb671d83222066c0919424b10bd7075db3aeecd
+
+Package: sysx-watch-changed-since
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-watch-changed-since
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-watch-changed-since_1.0.0-1_all.deb
+Size: 9696
+SHA256: b8ef60cbed0fcffecdc517fd96a4c8433269c9a7666c9659347e606384aaec2d
+
+Package: sysx-archive-zip-create
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-archive-zip-create
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-archive-zip-create_1.0.0-1_all.deb
+Size: 9700
+SHA256: 7a20f5249fd8553dcbd7bd8bd8f06072def39fa3e30850b22ebddff9881e2378
+
+Package: sysx-archive-zip-extract
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-archive-zip-extract
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-archive-zip-extract_1.0.0-1_all.deb
+Size: 9700
+SHA256: 3f36f759a37aeec20916dc7d562312cf0e8acff8166ddd89281ed1e39cbb080b
+
+Package: sysx-archive-zip-list
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-archive-zip-list
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-archive-zip-list_1.0.0-1_all.deb
+Size: 9704
+SHA256: c6439314826ce37d6c7a11cabfaa91c549f1cba4189aec63bcdac43ad7b25936
+
+Package: sysx-archive-tar-create
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-archive-tar-create
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-archive-tar-create_1.0.0-1_all.deb
+Size: 9704
+SHA256: 2a02142f5efb50ae72452d70039dcd0c9082020a975c05d13ae32be196331279
+
+Package: sysx-archive-tar-extract
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-archive-tar-extract
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-archive-tar-extract_1.0.0-1_all.deb
+Size: 9700
+SHA256: e048664ea8e14683ced8004790b293440aca82647443808f4818facc4ec67236
+
+Package: sysx-archive-tar-list
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-archive-tar-list
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-archive-tar-list_1.0.0-1_all.deb
+Size: 9704
+SHA256: 15cc4ce3ef1c0faef4d4c55c58684f348100eaf3495528c970fbb7f18cc27146
+
+Package: sysx-archive-gzip
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-archive-gzip
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-archive-gzip_1.0.0-1_all.deb
+Size: 9690
+SHA256: c0277a04aaaffddcd05af3faa81b8bec27dc195be40ca6c438edd7a88e206b0b
+
+Package: sysx-archive-gunzip
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-archive-gunzip
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-archive-gunzip_1.0.0-1_all.deb
+Size: 9702
+SHA256: 09416e3961dc819dd7da4e19619b37426b2711d97fb3db4e4edcbc8c24ba500c
+
+Package: sysx-archive-checksum
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-archive-checksum
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-archive-checksum_1.0.0-1_all.deb
+Size: 9704
+SHA256: d53ba78be2a1750665ed13911b204521f9b1c3a542ccc934628cd9fd99cdc606
+
+Package: sysx-archive-manifest
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: system/package/session/process customization - sysx-archive-manifest
+ Self-contained non-root Ocean capability package with concrete local behavior.
+ It has no maintainer-script side effects and requires no network at APT install.
+Filename: staging/shard-55/pool/main/sysx-archive-manifest_1.0.0-1_all.deb
+Size: 9698
+SHA256: 7fa4ed8abd4d5867d24248ef10b9ef0bfca4e2f53bfa557f325c2091460917da
+
+Package: ocean-system-control-suite
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: metapackages
+Priority: optional
+Depends: sysx-repo-list (= 1.0.0-1), sysx-repo-add (= 1.0.0-1), sysx-repo-remove (= 1.0.0-1), sysx-repo-enable (= 1.0.0-1), sysx-repo-disable (= 1.0.0-1), sysx-repo-switch (= 1.0.0-1), sysx-repo-pin (= 1.0.0-1), sysx-repo-unpin (= 1.0.0-1), sysx-repo-backup (= 1.0.0-1), sysx-repo-restore (= 1.0.0-1), sysx-pkg-installed (= 1.0.0-1), sysx-pkg-search (= 1.0.0-1), sysx-pkg-policy (= 1.0.0-1), sysx-pkg-files (= 1.0.0-1), sysx-pkg-owner (= 1.0.0-1), sysx-pkg-deps (= 1.0.0-1), sysx-pkg-rdeps (= 1.0.0-1), sysx-pkg-manifest (= 1.0.0-1), sysx-pkg-verify (= 1.0.0-1), sysx-pkg-cache (= 1.0.0-1), sysx-proc-list (= 1.0.0-1), sysx-proc-find (= 1.0.0-1), sysx-proc-tree (= 1.0.0-1), sysx-proc-topcpu (= 1.0.0-1), sysx-proc-topmem (= 1.0.0-1), sysx-proc-env (= 1.0.0-1), sysx-proc-fds (= 1.0.0-1), sysx-proc-cwd (= 1.0.0-1), sysx-proc-signal (= 1.0.0-1), sysx-proc-wait (= 1.0.0-1), sysx-session-new (= 1.0.0-1), sysx-session-list (= 1.0.0-1), sysx-session-has (= 1.0.0-1), sysx-session-kill (= 1.0.0-1), sysx-session-send (= 1.0.0-1), sysx-session-capture (= 1.0.0-1), sysx-session-rename (= 1.0.0-1), sysx-session-window-new (= 1.0.0-1), sysx-session-window-list (= 1.0.0-1), sysx-session-detach (= 1.0.0-1), sysx-service-define (= 1.0.0-1), sysx-service-start (= 1.0.0-1), sysx-service-stop (= 1.0.0-1), sysx-service-restart (= 1.0.0-1), sysx-service-status (= 1.0.0-1), sysx-service-list (= 1.0.0-1), sysx-service-logs (= 1.0.0-1), sysx-service-enable (= 1.0.0-1), sysx-service-disable (= 1.0.0-1), sysx-service-purge (= 1.0.0-1), sysx-fs-stat (= 1.0.0-1), sysx-fs-tree (= 1.0.0-1), sysx-fs-mkdir (= 1.0.0-1), sysx-fs-touch (= 1.0.0-1), sysx-fs-copy (= 1.0.0-1), sysx-fs-move (= 1.0.0-1), sysx-fs-symlink (= 1.0.0-1), sysx-fs-chmod (= 1.0.0-1), sysx-fs-checksum (= 1.0.0-1), sysx-fs-remove (= 1.0.0-1), sysx-envfile-get (= 1.0.0-1), sysx-envfile-set (= 1.0.0-1), sysx-envfile-unset (= 1.0.0-1), sysx-envfile-list (= 1.0.0-1), sysx-envfile-merge (= 1.0.0-1), sysx-envfile-export (= 1.0.0-1), sysx-envfile-path-add (= 1.0.0-1), sysx-envfile-path-remove (= 1.0.0-1), sysx-envfile-which (= 1.0.0-1), sysx-envfile-doctor (= 1.0.0-1), sysx-perm-mode (= 1.0.0-1), sysx-perm-chmod (= 1.0.0-1), sysx-perm-executable (= 1.0.0-1), sysx-perm-readonly (= 1.0.0-1), sysx-perm-writable (= 1.0.0-1), sysx-perm-owner (= 1.0.0-1), sysx-perm-access (= 1.0.0-1), sysx-perm-dirs (= 1.0.0-1), sysx-perm-files (= 1.0.0-1), sysx-perm-secure (= 1.0.0-1), sysx-watch-mtime (= 1.0.0-1), sysx-watch-wait-change (= 1.0.0-1), sysx-watch-wait-create (= 1.0.0-1), sysx-watch-wait-delete (= 1.0.0-1), sysx-watch-tail (= 1.0.0-1), sysx-watch-size (= 1.0.0-1), sysx-watch-exists (= 1.0.0-1), sysx-watch-newest (= 1.0.0-1), sysx-watch-oldest (= 1.0.0-1), sysx-watch-changed-since (= 1.0.0-1), sysx-archive-zip-create (= 1.0.0-1), sysx-archive-zip-extract (= 1.0.0-1), sysx-archive-zip-list (= 1.0.0-1), sysx-archive-tar-create (= 1.0.0-1), sysx-archive-tar-extract (= 1.0.0-1), sysx-archive-tar-list (= 1.0.0-1), sysx-archive-gzip (= 1.0.0-1), sysx-archive-gunzip (= 1.0.0-1), sysx-archive-checksum (= 1.0.0-1), sysx-archive-manifest (= 1.0.0-1)
+Description: Ocean system/package/session/process customization suite
+ Meta-package installing the complete Ocean power capability shard.
+Filename: staging/shard-55/pool/main/ocean-system-control-suite_1.0.0-1_all.deb
+Size: 1096
+SHA256: 43247bae5b6a92ee5cbffa040bcb5bc73700ce9f33d3ff5d41696ddf2d016ee8

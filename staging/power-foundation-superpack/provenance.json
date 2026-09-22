@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0-1",
+  "prefix": "/data/data/studio.ocean.app/files/usr",
+  "dependsOn": [
+    "ocean-system-control-suite",
+    "ocean-agent-runtime-suite",
+    "ocean-core-io-suite"
+  ],
+  "newCommandPackages": 300,
+  "totalNewPackages": 304
+}

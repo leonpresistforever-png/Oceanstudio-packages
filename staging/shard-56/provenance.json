@@ -1,0 +1,823 @@
+{
+  "schemaVersion": 1,
+  "shard": "56",
+  "version": "1.0.0-1",
+  "prefix": "/data/data/studio.ocean.app/files/usr",
+  "commandPackageCount": 100,
+  "metaPackageCount": 1,
+  "packageCount": 101,
+  "suite": "ocean-agent-runtime-suite",
+  "networkAtAptInstall": false,
+  "rootRequired": false,
+  "implementation": "self-contained functional commands; no placeholder aliases; no maintainer-script side effects",
+  "packages": [
+    {
+      "package": "agentx-task-init",
+      "artifact": "agentx-task-init_1.0.0-1_all.deb",
+      "group": "task",
+      "operation": "init",
+      "bytes": 9694,
+      "sha256": "423a0ce2945fb270cd3c4f7322b9a865617ed5becfeeb39666a7c11ad61e9143"
+    },
+    {
+      "package": "agentx-task-add",
+      "artifact": "agentx-task-add_1.0.0-1_all.deb",
+      "group": "task",
+      "operation": "add",
+      "bytes": 9694,
+      "sha256": "ca943d6f28a14b6a21b0207dd7b3868f85f68863b557b0b29815d72ffb9b5617"
+    },
+    {
+      "package": "agentx-task-list",
+      "artifact": "agentx-task-list_1.0.0-1_all.deb",
+      "group": "task",
+      "operation": "list",
+      "bytes": 9696,
+      "sha256": "230b0d50e7f8ea084c61c4dd8a67066e4979e368a2b89a95b5d6ebd3d20478df"
+    },
+    {
+      "package": "agentx-task-next",
+      "artifact": "agentx-task-next_1.0.0-1_all.deb",
+      "group": "task",
+      "operation": "next",
+      "bytes": 9696,
+      "sha256": "c9c7f5b2773c6090158ed8ef675668b8bf8390a280a4f0c23dae305eca6f1a01"
+    },
+    {
+      "package": "agentx-task-start",
+      "artifact": "agentx-task-start_1.0.0-1_all.deb",
+      "group": "task",
+      "operation": "start",
+      "bytes": 9694,
+      "sha256": "9f27d5d77368a650803c11245b4b908714bedaf8a5b015946c1638e16bc70097"
+    },
+    {
+      "package": "agentx-task-done",
+      "artifact": "agentx-task-done_1.0.0-1_all.deb",
+      "group": "task",
+      "operation": "done",
+      "bytes": 9694,
+      "sha256": "ec2efd61777cc62b2c6eaf6d69e3de1ff0b1404cc71a6e40ff2ceba41f676712"
+    },
+    {
+      "package": "agentx-task-fail",
+      "artifact": "agentx-task-fail_1.0.0-1_all.deb",
+      "group": "task",
+      "operation": "fail",
+      "bytes": 9694,
+      "sha256": "c726333c4111effa15c4468f6b7118dc2aa04a2b414bdd1c3ba72d566859c5f2"
+    },
+    {
+      "package": "agentx-task-retry",
+      "artifact": "agentx-task-retry_1.0.0-1_all.deb",
+      "group": "task",
+      "operation": "retry",
+      "bytes": 9688,
+      "sha256": "eb9fdfb19e4f810bb6b1cb4da98f869c1843978c25eecaff0d829b4bef3e0601"
+    },
+    {
+      "package": "agentx-task-clear",
+      "artifact": "agentx-task-clear_1.0.0-1_all.deb",
+      "group": "task",
+      "operation": "clear",
+      "bytes": 9692,
+      "sha256": "8bef61a9c7ac504be9977485c1622a78f548b04a34bec6420adfafde8fc00b25"
+    },
+    {
+      "package": "agentx-task-stats",
+      "artifact": "agentx-task-stats_1.0.0-1_all.deb",
+      "group": "task",
+      "operation": "stats",
+      "bytes": 9690,
+      "sha256": "154f7a5208de8a24b35cbe9f91f9d88c40140d3095ff663c1b6cb118b06d6c47"
+    },
+    {
+      "package": "agentx-state-get",
+      "artifact": "agentx-state-get_1.0.0-1_all.deb",
+      "group": "state",
+      "operation": "get",
+      "bytes": 9690,
+      "sha256": "9489833f1412b8a1f8f1a403e1bc5568660d2c8acf98f0af36dacf76be9e87bf"
+    },
+    {
+      "package": "agentx-state-set",
+      "artifact": "agentx-state-set_1.0.0-1_all.deb",
+      "group": "state",
+      "operation": "set",
+      "bytes": 9690,
+      "sha256": "cc54c4272edbf2ad54e99bb52254ea68bc54e6673b17a7c3f111ccb8e0dd80cd"
+    },
+    {
+      "package": "agentx-state-delete",
+      "artifact": "agentx-state-delete_1.0.0-1_all.deb",
+      "group": "state",
+      "operation": "delete",
+      "bytes": 9696,
+      "sha256": "d47f33a53b79c7c33cf228edc3294bb776a668c9e91f10236285c45ab2dd4f20"
+    },
+    {
+      "package": "agentx-state-list",
+      "artifact": "agentx-state-list_1.0.0-1_all.deb",
+      "group": "state",
+      "operation": "list",
+      "bytes": 9690,
+      "sha256": "44d6efc46366d0b78cfb81960f4313f3ca8c2e585c3ee283697e49286e04946e"
+    },
+    {
+      "package": "agentx-state-export",
+      "artifact": "agentx-state-export_1.0.0-1_all.deb",
+      "group": "state",
+      "operation": "export",
+      "bytes": 9686,
+      "sha256": "becaefb2e335649ba442af0ad2c80e9c2fafef0b06fa0e41fc68345e98c3e848"
+    },
+    {
+      "package": "agentx-state-import",
+      "artifact": "agentx-state-import_1.0.0-1_all.deb",
+      "group": "state",
+      "operation": "import",
+      "bytes": 9694,
+      "sha256": "be2365e53267fd64237c9a83af78f68a7731df70e8c3bd4a74033b0985ea232c"
+    },
+    {
+      "package": "agentx-state-diff",
+      "artifact": "agentx-state-diff_1.0.0-1_all.deb",
+      "group": "state",
+      "operation": "diff",
+      "bytes": 9688,
+      "sha256": "b16323b6f90f01a2eab7ad8ffa08030f79b81c5b3914c63c1528c1758a3f66a4"
+    },
+    {
+      "package": "agentx-state-merge",
+      "artifact": "agentx-state-merge_1.0.0-1_all.deb",
+      "group": "state",
+      "operation": "merge",
+      "bytes": 9698,
+      "sha256": "fd297fd469b1591c5ccafc7d05a0616b1a31a049567d9f89a80c9cf796b59f30"
+    },
+    {
+      "package": "agentx-state-clear",
+      "artifact": "agentx-state-clear_1.0.0-1_all.deb",
+      "group": "state",
+      "operation": "clear",
+      "bytes": 9696,
+      "sha256": "a038d70fc4a7e81ac901c7af76436589820a3483e7308826827d71e72424c4c7"
+    },
+    {
+      "package": "agentx-state-version",
+      "artifact": "agentx-state-version_1.0.0-1_all.deb",
+      "group": "state",
+      "operation": "version",
+      "bytes": 9692,
+      "sha256": "760c7408adbde6af7fe7bdbad9fb3b066b4926023bdd9ec3b2ba1ca240a95ae2"
+    },
+    {
+      "package": "agentx-queue-push",
+      "artifact": "agentx-queue-push_1.0.0-1_all.deb",
+      "group": "queue",
+      "operation": "push",
+      "bytes": 9694,
+      "sha256": "a37efc99cd533933443177f6ca875a56e2fe7f0c2add32a5ea5cce10741c546d"
+    },
+    {
+      "package": "agentx-queue-pop",
+      "artifact": "agentx-queue-pop_1.0.0-1_all.deb",
+      "group": "queue",
+      "operation": "pop",
+      "bytes": 9694,
+      "sha256": "9299dcca7f2d710740dc293b185fbf5db96f4e193e0fd7d29ca14a32d9311972"
+    },
+    {
+      "package": "agentx-queue-peek",
+      "artifact": "agentx-queue-peek_1.0.0-1_all.deb",
+      "group": "queue",
+      "operation": "peek",
+      "bytes": 9694,
+      "sha256": "f01bd894e0f303c30204e59810648b929860e9e0be0512c8485f4fd10388a2ba"
+    },
+    {
+      "package": "agentx-queue-list",
+      "artifact": "agentx-queue-list_1.0.0-1_all.deb",
+      "group": "queue",
+      "operation": "list",
+      "bytes": 9690,
+      "sha256": "4eed1d41c65a624300f8fcf6c4ebb03a82975935f7ff74d3e89e7b035034dfd6"
+    },
+    {
+      "package": "agentx-queue-count",
+      "artifact": "agentx-queue-count_1.0.0-1_all.deb",
+      "group": "queue",
+      "operation": "count",
+      "bytes": 9700,
+      "sha256": "a4b803f05c7a8d228b6f444dd98118d4da10bfd5428d818e24d811977e466850"
+    },
+    {
+      "package": "agentx-queue-clear",
+      "artifact": "agentx-queue-clear_1.0.0-1_all.deb",
+      "group": "queue",
+      "operation": "clear",
+      "bytes": 9698,
+      "sha256": "b18a1e16a356a2c0cb5c5083e65aae223f6a7f0e808394c896190b609fc0db8b"
+    },
+    {
+      "package": "agentx-queue-dedupe",
+      "artifact": "agentx-queue-dedupe_1.0.0-1_all.deb",
+      "group": "queue",
+      "operation": "dedupe",
+      "bytes": 9702,
+      "sha256": "751a3e6ee3c35fda168eb9cfeddfd49e266734ed542a8a38e040e150b413253c"
+    },
+    {
+      "package": "agentx-queue-export",
+      "artifact": "agentx-queue-export_1.0.0-1_all.deb",
+      "group": "queue",
+      "operation": "export",
+      "bytes": 9696,
+      "sha256": "4e3635003dbfaef621e7aaee2ca38a26de6f43d62c863be69705b5e41abdd40e"
+    },
+    {
+      "package": "agentx-queue-import",
+      "artifact": "agentx-queue-import_1.0.0-1_all.deb",
+      "group": "queue",
+      "operation": "import",
+      "bytes": 9698,
+      "sha256": "c085278ccabcf728a028e6daf72a6cac6aa6a2aa4854d0db92032c0b62ac6336"
+    },
+    {
+      "package": "agentx-queue-merge",
+      "artifact": "agentx-queue-merge_1.0.0-1_all.deb",
+      "group": "queue",
+      "operation": "merge",
+      "bytes": 9700,
+      "sha256": "64b58616688c19eb4fa59c298270763abecfd845a98dc0cbf0c404e7a515f1c7"
+    },
+    {
+      "package": "agentx-event-emit",
+      "artifact": "agentx-event-emit_1.0.0-1_all.deb",
+      "group": "event",
+      "operation": "emit",
+      "bytes": 9692,
+      "sha256": "812337bd93b89982fdac7bf8e056e71c0c2e834f78adc66107f4752a741a9d0b"
+    },
+    {
+      "package": "agentx-event-list",
+      "artifact": "agentx-event-list_1.0.0-1_all.deb",
+      "group": "event",
+      "operation": "list",
+      "bytes": 9688,
+      "sha256": "d9d309af7833b3b1fb21e528c9ec64ec23bd3c036b7962842bfea32d86474e27"
+    },
+    {
+      "package": "agentx-event-tail",
+      "artifact": "agentx-event-tail_1.0.0-1_all.deb",
+      "group": "event",
+      "operation": "tail",
+      "bytes": 9692,
+      "sha256": "984d39f185d7eda1eac558ea9b238d44a9cc641842593beced7fca89678baca6"
+    },
+    {
+      "package": "agentx-event-filter",
+      "artifact": "agentx-event-filter_1.0.0-1_all.deb",
+      "group": "event",
+      "operation": "filter",
+      "bytes": 9698,
+      "sha256": "db6dde4c457956e38fbd498fb7fb9dca29ea0653e0a0b04c5594b78cedb3f227"
+    },
+    {
+      "package": "agentx-event-count",
+      "artifact": "agentx-event-count_1.0.0-1_all.deb",
+      "group": "event",
+      "operation": "count",
+      "bytes": 9698,
+      "sha256": "8f65ee525f103fbc6351437e23a93b809a4c6844503dc1f948221c50e88c4a4d"
+    },
+    {
+      "package": "agentx-event-clear",
+      "artifact": "agentx-event-clear_1.0.0-1_all.deb",
+      "group": "event",
+      "operation": "clear",
+      "bytes": 9694,
+      "sha256": "6cfe43ac227a483ad28420f266e7cbf856876295d4b065bb9efcbc6f2ae05189"
+    },
+    {
+      "package": "agentx-event-export",
+      "artifact": "agentx-event-export_1.0.0-1_all.deb",
+      "group": "event",
+      "operation": "export",
+      "bytes": 9696,
+      "sha256": "20b13521193d6580d25dd4a2fdf5dbfe96ba844330636317253430b35f8c8080"
+    },
+    {
+      "package": "agentx-event-import",
+      "artifact": "agentx-event-import_1.0.0-1_all.deb",
+      "group": "event",
+      "operation": "import",
+      "bytes": 9702,
+      "sha256": "25645b7d4aaf0151b59627eecf0f064a553302eab9cceb0f5444263e02de142c"
+    },
+    {
+      "package": "agentx-event-types",
+      "artifact": "agentx-event-types_1.0.0-1_all.deb",
+      "group": "event",
+      "operation": "types",
+      "bytes": 9698,
+      "sha256": "f514683b3e695e1282d70253c5c261f5be4f786c0cf79606af8fc54ca7d5a9f4"
+    },
+    {
+      "package": "agentx-event-latest",
+      "artifact": "agentx-event-latest_1.0.0-1_all.deb",
+      "group": "event",
+      "operation": "latest",
+      "bytes": 9700,
+      "sha256": "55d786d38cf2c978f7233f0b0dd7af4e4cc2e15a20c37fca9e77d253eede7806"
+    },
+    {
+      "package": "agentx-lock-acquire",
+      "artifact": "agentx-lock-acquire_1.0.0-1_all.deb",
+      "group": "lock",
+      "operation": "acquire",
+      "bytes": 9694,
+      "sha256": "7a8b5a94af1ad52b1c58676804b097d99c8cd8923c55ae295141e97dc60e9759"
+    },
+    {
+      "package": "agentx-lock-release",
+      "artifact": "agentx-lock-release_1.0.0-1_all.deb",
+      "group": "lock",
+      "operation": "release",
+      "bytes": 9696,
+      "sha256": "22c8c3bde56e47231216cb18e9ba5aba98c17f2ff3585557ecfc0d756eaf36de"
+    },
+    {
+      "package": "agentx-lock-status",
+      "artifact": "agentx-lock-status_1.0.0-1_all.deb",
+      "group": "lock",
+      "operation": "status",
+      "bytes": 9696,
+      "sha256": "83605b74d9802407a07cbff729e0df9ffd4d1fe2ab3084f9642d229602c90d9f"
+    },
+    {
+      "package": "agentx-lock-list",
+      "artifact": "agentx-lock-list_1.0.0-1_all.deb",
+      "group": "lock",
+      "operation": "list",
+      "bytes": 9698,
+      "sha256": "0186672cda77ac99fbec94a740c640faee3f414018ae665922cbaf2c86b255eb"
+    },
+    {
+      "package": "agentx-lock-wait",
+      "artifact": "agentx-lock-wait_1.0.0-1_all.deb",
+      "group": "lock",
+      "operation": "wait",
+      "bytes": 9696,
+      "sha256": "bdc23621553b64288baad135ec8d7bc6f3db3d94b1e4c9f6989170cf824098d1"
+    },
+    {
+      "package": "agentx-lock-touch",
+      "artifact": "agentx-lock-touch_1.0.0-1_all.deb",
+      "group": "lock",
+      "operation": "touch",
+      "bytes": 9696,
+      "sha256": "2bba54166bbc42708aee5ace41be661d47be35fb27d4f52742f93f18e0b5c73a"
+    },
+    {
+      "package": "agentx-lock-owner",
+      "artifact": "agentx-lock-owner_1.0.0-1_all.deb",
+      "group": "lock",
+      "operation": "owner",
+      "bytes": 9694,
+      "sha256": "90e18afa423ca2c455a3e68c618c96b349df2a0ba4ec02d80649c583bd409e05"
+    },
+    {
+      "package": "agentx-lock-stale",
+      "artifact": "agentx-lock-stale_1.0.0-1_all.deb",
+      "group": "lock",
+      "operation": "stale",
+      "bytes": 9694,
+      "sha256": "5f93413948759ee2c689b9b4e1ccda0c570cbbdf74c7aac13795fa133f3e8e1e"
+    },
+    {
+      "package": "agentx-lock-clear-stale",
+      "artifact": "agentx-lock-clear-stale_1.0.0-1_all.deb",
+      "group": "lock",
+      "operation": "clear-stale",
+      "bytes": 9706,
+      "sha256": "25cbd196d00b8231be13b928a6e6da55c27361a37ab44ff930517f2de3db1543"
+    },
+    {
+      "package": "agentx-lock-clear-all",
+      "artifact": "agentx-lock-clear-all_1.0.0-1_all.deb",
+      "group": "lock",
+      "operation": "clear-all",
+      "bytes": 9704,
+      "sha256": "45042e7336c928d3134b1b6a33fc0f358f23479fba7bc04f508b0a95e9599bdd"
+    },
+    {
+      "package": "agentx-approval-request",
+      "artifact": "agentx-approval-request_1.0.0-1_all.deb",
+      "group": "approval",
+      "operation": "request",
+      "bytes": 9700,
+      "sha256": "232c267616bfc9c5c0e093be373fa1fe917132a26b13e53bf77b4fa968972f74"
+    },
+    {
+      "package": "agentx-approval-list",
+      "artifact": "agentx-approval-list_1.0.0-1_all.deb",
+      "group": "approval",
+      "operation": "list",
+      "bytes": 9698,
+      "sha256": "7993c7d1000f05032ab5febbeae7a084700786a7b3f55772ef646694c6bfa7f7"
+    },
+    {
+      "package": "agentx-approval-approve",
+      "artifact": "agentx-approval-approve_1.0.0-1_all.deb",
+      "group": "approval",
+      "operation": "approve",
+      "bytes": 9700,
+      "sha256": "14d56189e4b3a7b4616b8d94f6b73d5be39925af98aed3795066a5355019cbc5"
+    },
+    {
+      "package": "agentx-approval-deny",
+      "artifact": "agentx-approval-deny_1.0.0-1_all.deb",
+      "group": "approval",
+      "operation": "deny",
+      "bytes": 9700,
+      "sha256": "21632d54babdaecfce5846e3b40524af115287ef334a28545853c6357a342d93"
+    },
+    {
+      "package": "agentx-approval-status",
+      "artifact": "agentx-approval-status_1.0.0-1_all.deb",
+      "group": "approval",
+      "operation": "status",
+      "bytes": 9700,
+      "sha256": "b6141fb01ccc8f84ffa8707cd5683cadbe4bc41fc3ce357147d78a75d1a22e1c"
+    },
+    {
+      "package": "agentx-approval-pending",
+      "artifact": "agentx-approval-pending_1.0.0-1_all.deb",
+      "group": "approval",
+      "operation": "pending",
+      "bytes": 9702,
+      "sha256": "bea9f40bae39d988c1ada393205b1f926fc7bd2cd642cc6a11824a36a848630d"
+    },
+    {
+      "package": "agentx-approval-clear",
+      "artifact": "agentx-approval-clear_1.0.0-1_all.deb",
+      "group": "approval",
+      "operation": "clear",
+      "bytes": 9696,
+      "sha256": "c97efd70c1d73d9eb3563d2bc9ea6460c9c5d5da8a484fac21c1bc4d7dcaa78e"
+    },
+    {
+      "package": "agentx-approval-export",
+      "artifact": "agentx-approval-export_1.0.0-1_all.deb",
+      "group": "approval",
+      "operation": "export",
+      "bytes": 9696,
+      "sha256": "fc812adf8dcfac45f5bfcb1dec4dbcb33fdde25148039132c6456ae8bf8b5d83"
+    },
+    {
+      "package": "agentx-approval-import",
+      "artifact": "agentx-approval-import_1.0.0-1_all.deb",
+      "group": "approval",
+      "operation": "import",
+      "bytes": 9696,
+      "sha256": "4eb4bcb56d0bc608c9436bcbc6a84ee841cf42a28eb8f164809b4d2584302c5a"
+    },
+    {
+      "package": "agentx-approval-history",
+      "artifact": "agentx-approval-history_1.0.0-1_all.deb",
+      "group": "approval",
+      "operation": "history",
+      "bytes": 9700,
+      "sha256": "6612f624099aa9d818484b1c8b39f56daf3624a4c9345d594df90e1f2af23787"
+    },
+    {
+      "package": "agentx-cap-which",
+      "artifact": "agentx-cap-which_1.0.0-1_all.deb",
+      "group": "cap",
+      "operation": "which",
+      "bytes": 9696,
+      "sha256": "2fd08eb91e46861142eecfcab8c8966a720b2a6f37b7b6e7a5ef3ef3c3869a49"
+    },
+    {
+      "package": "agentx-cap-has-command",
+      "artifact": "agentx-cap-has-command_1.0.0-1_all.deb",
+      "group": "cap",
+      "operation": "has-command",
+      "bytes": 9698,
+      "sha256": "8db42f79d6c7191289dedcbeb243517810c17f02c3eb614128487b1045a282bb"
+    },
+    {
+      "package": "agentx-cap-has-env",
+      "artifact": "agentx-cap-has-env_1.0.0-1_all.deb",
+      "group": "cap",
+      "operation": "has-env",
+      "bytes": 9702,
+      "sha256": "19bce54c3a14812de1c68c83bdbf138c1b6eec2afa963dd7a84b8837c79eb593"
+    },
+    {
+      "package": "agentx-cap-has-file",
+      "artifact": "agentx-cap-has-file_1.0.0-1_all.deb",
+      "group": "cap",
+      "operation": "has-file",
+      "bytes": 9704,
+      "sha256": "c571486cd1a40e6a4ed976f44b206eefbbe41e05212c3638e5cdc385125f3308"
+    },
+    {
+      "package": "agentx-cap-has-dir",
+      "artifact": "agentx-cap-has-dir_1.0.0-1_all.deb",
+      "group": "cap",
+      "operation": "has-dir",
+      "bytes": 9700,
+      "sha256": "eb124099821d341bd0f23eeaa9816c1322cec81ffd4ea567754c83b8f593f14a"
+    },
+    {
+      "package": "agentx-cap-writable",
+      "artifact": "agentx-cap-writable_1.0.0-1_all.deb",
+      "group": "cap",
+      "operation": "writable",
+      "bytes": 9702,
+      "sha256": "fb7864dc76d99e76a6c6d12c53630f3925b1d922e6c1b2cb6196b3d45982a6f7"
+    },
+    {
+      "package": "agentx-cap-readable",
+      "artifact": "agentx-cap-readable_1.0.0-1_all.deb",
+      "group": "cap",
+      "operation": "readable",
+      "bytes": 9706,
+      "sha256": "aab5d9aed94ebd04255c793d99a3ed15bacaeb5016b8408ad03f891c299c7811"
+    },
+    {
+      "package": "agentx-cap-port-free",
+      "artifact": "agentx-cap-port-free_1.0.0-1_all.deb",
+      "group": "cap",
+      "operation": "port-free",
+      "bytes": 9694,
+      "sha256": "8cd38b0d8616ff3243ab29ed51d8e7a35fff7d47479a905c7258cb87cd0b2039"
+    },
+    {
+      "package": "agentx-cap-python",
+      "artifact": "agentx-cap-python_1.0.0-1_all.deb",
+      "group": "cap",
+      "operation": "python",
+      "bytes": 9694,
+      "sha256": "dc67cbdcc04a347e0fa30265ed424750c4c43cd93befbf768b45adcb669a09fa"
+    },
+    {
+      "package": "agentx-cap-summary",
+      "artifact": "agentx-cap-summary_1.0.0-1_all.deb",
+      "group": "cap",
+      "operation": "summary",
+      "bytes": 9698,
+      "sha256": "c83586ed6e533ef48e207819baf0a0b06a0ad9512edd0e147fdc2f8114738931"
+    },
+    {
+      "package": "agentx-exec-run",
+      "artifact": "agentx-exec-run_1.0.0-1_all.deb",
+      "group": "exec",
+      "operation": "run",
+      "bytes": 9698,
+      "sha256": "8744f5b39d89ac6d5a75c09776bdc62187f509721b9e595cff3cecf6159e2d0f"
+    },
+    {
+      "package": "agentx-exec-shell",
+      "artifact": "agentx-exec-shell_1.0.0-1_all.deb",
+      "group": "exec",
+      "operation": "shell",
+      "bytes": 9692,
+      "sha256": "7689c9c40bdffdffd4aa3a5991fd75d79548c3e78e86e465df1f1916b0892c58"
+    },
+    {
+      "package": "agentx-exec-capture",
+      "artifact": "agentx-exec-capture_1.0.0-1_all.deb",
+      "group": "exec",
+      "operation": "capture",
+      "bytes": 9694,
+      "sha256": "948fdcdacc4d6262a04b457604509168993202520737d31fd4a117dbb2e78af5"
+    },
+    {
+      "package": "agentx-exec-timeout",
+      "artifact": "agentx-exec-timeout_1.0.0-1_all.deb",
+      "group": "exec",
+      "operation": "timeout",
+      "bytes": 9698,
+      "sha256": "481468e092a6c21d6a3a0e0d3c883248501b22a0514b402e890762512aa925e4"
+    },
+    {
+      "package": "agentx-exec-env",
+      "artifact": "agentx-exec-env_1.0.0-1_all.deb",
+      "group": "exec",
+      "operation": "env",
+      "bytes": 9696,
+      "sha256": "199fa36d7915364047f83a8635d5a9ea4c0bc7f76ac5a5d6ef6d5ef6be02eebf"
+    },
+    {
+      "package": "agentx-exec-cwd",
+      "artifact": "agentx-exec-cwd_1.0.0-1_all.deb",
+      "group": "exec",
+      "operation": "cwd",
+      "bytes": 9696,
+      "sha256": "23fe8748f3fd955070f3e5ad30d4622aa66aa7b7be3aa30504bd21ef9bbd3485"
+    },
+    {
+      "package": "agentx-exec-pipeline",
+      "artifact": "agentx-exec-pipeline_1.0.0-1_all.deb",
+      "group": "exec",
+      "operation": "pipeline",
+      "bytes": 9696,
+      "sha256": "11612d2424eccefc73933bb4555be7f2a9a4613518e128ad3b5235cc888a047c"
+    },
+    {
+      "package": "agentx-exec-which",
+      "artifact": "agentx-exec-which_1.0.0-1_all.deb",
+      "group": "exec",
+      "operation": "which",
+      "bytes": 9696,
+      "sha256": "360d8c9e0c1581af3e4e7aac328df17936d299a949ab59a0ebd668602dd8f178"
+    },
+    {
+      "package": "agentx-exec-dryrun",
+      "artifact": "agentx-exec-dryrun_1.0.0-1_all.deb",
+      "group": "exec",
+      "operation": "dryrun",
+      "bytes": 9700,
+      "sha256": "00c97bf40b4f46b8a64631306fdc61f20714f2018210c5c6b834032533a5dfe0"
+    },
+    {
+      "package": "agentx-exec-history",
+      "artifact": "agentx-exec-history_1.0.0-1_all.deb",
+      "group": "exec",
+      "operation": "history",
+      "bytes": 9692,
+      "sha256": "e881b96786f01166e486b65de7022f124845568cabfa107a3b5dd93fea89e4a3"
+    },
+    {
+      "package": "agentx-job-define",
+      "artifact": "agentx-job-define_1.0.0-1_all.deb",
+      "group": "job",
+      "operation": "define",
+      "bytes": 9702,
+      "sha256": "1143ad376b86ab24c874e2bdb20e76713a6f657acaff594a48c5ae860a505926"
+    },
+    {
+      "package": "agentx-job-start",
+      "artifact": "agentx-job-start_1.0.0-1_all.deb",
+      "group": "job",
+      "operation": "start",
+      "bytes": 9694,
+      "sha256": "3297751e281887b27058549ed67175d23c8fdb2fb41783708ab72f9d862b58b9"
+    },
+    {
+      "package": "agentx-job-status",
+      "artifact": "agentx-job-status_1.0.0-1_all.deb",
+      "group": "job",
+      "operation": "status",
+      "bytes": 9698,
+      "sha256": "a0adc2cabfcb1e57955239cb36ee4c438bb7dfe13b34112c10dbde013955b860"
+    },
+    {
+      "package": "agentx-job-list",
+      "artifact": "agentx-job-list_1.0.0-1_all.deb",
+      "group": "job",
+      "operation": "list",
+      "bytes": 9694,
+      "sha256": "b01c21d071294a98bd53cadcf439d881798f0882aea2878181641e38cf9bf9f6"
+    },
+    {
+      "package": "agentx-job-wait",
+      "artifact": "agentx-job-wait_1.0.0-1_all.deb",
+      "group": "job",
+      "operation": "wait",
+      "bytes": 9698,
+      "sha256": "f555cc3b1b53b5204fcb5e2e8208b0b66b32cea03eadedb5502203275418cc4e"
+    },
+    {
+      "package": "agentx-job-stop",
+      "artifact": "agentx-job-stop_1.0.0-1_all.deb",
+      "group": "job",
+      "operation": "stop",
+      "bytes": 9698,
+      "sha256": "62dfe497f527e665ce3d7b0b8c6cc46eb1875fd233cff5143bd3121ea4f1ce43"
+    },
+    {
+      "package": "agentx-job-logs",
+      "artifact": "agentx-job-logs_1.0.0-1_all.deb",
+      "group": "job",
+      "operation": "logs",
+      "bytes": 9698,
+      "sha256": "5542183361eb0436fa3721dda93218ce9ae297cb91193e904b81985e138e8731"
+    },
+    {
+      "package": "agentx-job-retry",
+      "artifact": "agentx-job-retry_1.0.0-1_all.deb",
+      "group": "job",
+      "operation": "retry",
+      "bytes": 9694,
+      "sha256": "5b9659daad6f8bd3f0c2eacce27158e45d247da73c1072504e76a6e2bac2a0c0"
+    },
+    {
+      "package": "agentx-job-purge",
+      "artifact": "agentx-job-purge_1.0.0-1_all.deb",
+      "group": "job",
+      "operation": "purge",
+      "bytes": 9696,
+      "sha256": "1a4b951be57480db3398cd38698dbfa1b771d8f028f22d5373ab334123c3e1b2"
+    },
+    {
+      "package": "agentx-job-summary",
+      "artifact": "agentx-job-summary_1.0.0-1_all.deb",
+      "group": "job",
+      "operation": "summary",
+      "bytes": 9700,
+      "sha256": "a7914b6bc4028ab2a39e15ff99862c09bb9445d29b7b186db1f0d9b79f07a45c"
+    },
+    {
+      "package": "agentx-workspace-scan",
+      "artifact": "agentx-workspace-scan_1.0.0-1_all.deb",
+      "group": "workspace",
+      "operation": "scan",
+      "bytes": 9696,
+      "sha256": "39db413336f31ffb6e1cae0084cf56ab482c9f814f64e9709e7ff74031eb1b30"
+    },
+    {
+      "package": "agentx-workspace-manifest",
+      "artifact": "agentx-workspace-manifest_1.0.0-1_all.deb",
+      "group": "workspace",
+      "operation": "manifest",
+      "bytes": 9704,
+      "sha256": "362e652c8a928733bdba5be982b796f2dd91c473b8d9f2c8519613e0b93bec20"
+    },
+    {
+      "package": "agentx-workspace-hash",
+      "artifact": "agentx-workspace-hash_1.0.0-1_all.deb",
+      "group": "workspace",
+      "operation": "hash",
+      "bytes": 9698,
+      "sha256": "1c014b9118a76407dc6e930b61e1de0a78cf900f4808eb3094ef6f9c2182d627"
+    },
+    {
+      "package": "agentx-workspace-snapshot",
+      "artifact": "agentx-workspace-snapshot_1.0.0-1_all.deb",
+      "group": "workspace",
+      "operation": "snapshot",
+      "bytes": 9700,
+      "sha256": "3643f03d6066a7903463bd25a94f1e921ea330834ae36ca007c6e60936e5d86d"
+    },
+    {
+      "package": "agentx-workspace-diff",
+      "artifact": "agentx-workspace-diff_1.0.0-1_all.deb",
+      "group": "workspace",
+      "operation": "diff",
+      "bytes": 9692,
+      "sha256": "f5d5a0d604d0b77f43b689efe734affe3f6047c7bb5c4bb5c52c7fe656e8d882"
+    },
+    {
+      "package": "agentx-workspace-changed",
+      "artifact": "agentx-workspace-changed_1.0.0-1_all.deb",
+      "group": "workspace",
+      "operation": "changed",
+      "bytes": 9698,
+      "sha256": "552822a79e6e083f4042ed087c464379491fadbe7d5f19cc1a1a40056fc1cb74"
+    },
+    {
+      "package": "agentx-workspace-large",
+      "artifact": "agentx-workspace-large_1.0.0-1_all.deb",
+      "group": "workspace",
+      "operation": "large",
+      "bytes": 9698,
+      "sha256": "681c89362517cb96c5471cbaa7cc80aa1b7bb0cd296b8c2662f58ba19e01189c"
+    },
+    {
+      "package": "agentx-workspace-recent",
+      "artifact": "agentx-workspace-recent_1.0.0-1_all.deb",
+      "group": "workspace",
+      "operation": "recent",
+      "bytes": 9700,
+      "sha256": "877ef535ae26e45191d74ed6d97e9b209b4d4ced1bbf90c7c74c616eb77948f8"
+    },
+    {
+      "package": "agentx-workspace-summary",
+      "artifact": "agentx-workspace-summary_1.0.0-1_all.deb",
+      "group": "workspace",
+      "operation": "summary",
+      "bytes": 9698,
+      "sha256": "44d6a710273d9a3e22894dae3b3f92b09e9d733b7ce3ae82e02f47031593a4a6"
+    },
+    {
+      "package": "agentx-workspace-clean-empty",
+      "artifact": "agentx-workspace-clean-empty_1.0.0-1_all.deb",
+      "group": "workspace",
+      "operation": "clean-empty",
+      "bytes": 9702,
+      "sha256": "9cd37067bc7e8865db58728f32c012ff3e965dad356dba09a683af66dd56b133"
+    },
+    {
+      "package": "ocean-agent-runtime-suite",
+      "artifact": "ocean-agent-runtime-suite_1.0.0-1_all.deb",
+      "group": "meta",
+      "operation": "meta",
+      "bytes": 1084,
+      "sha256": "2b1d65ce5b5c1da047ac46d2e11bf75738d3552d6c8daa6c54e900fa4936307a"
+    }
+  ]
+}

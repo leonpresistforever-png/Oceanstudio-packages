@@ -1,0 +1,12 @@
+Package: ocean-power-foundation-superpack
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: metapackages
+Priority: optional
+Depends: ocean-system-control-suite (= 1.0.0-1), ocean-agent-runtime-suite (= 1.0.0-1), ocean-core-io-suite (= 1.0.0-1)
+Description: Ocean power-user and agent foundation superpack
+ Meta-package installing the complete Ocean power capability shard.
+Filename: staging/power-foundation-superpack/pool/main/ocean-power-foundation-superpack_1.0.0-1_all.deb
+Size: 616
+SHA256: e2a99ba2a627282f06b2d4fda7c3ddf4cc32e62d73d44fe868ebe2b887b65043

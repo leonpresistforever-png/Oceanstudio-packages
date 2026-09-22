@@ -1,0 +1,823 @@
+{
+  "schemaVersion": 1,
+  "shard": "55",
+  "version": "1.0.0-1",
+  "prefix": "/data/data/studio.ocean.app/files/usr",
+  "commandPackageCount": 100,
+  "metaPackageCount": 1,
+  "packageCount": 101,
+  "suite": "ocean-system-control-suite",
+  "networkAtAptInstall": false,
+  "rootRequired": false,
+  "implementation": "self-contained functional commands; no placeholder aliases; no maintainer-script side effects",
+  "packages": [
+    {
+      "package": "sysx-repo-list",
+      "artifact": "sysx-repo-list_1.0.0-1_all.deb",
+      "group": "repo",
+      "operation": "list",
+      "bytes": 9696,
+      "sha256": "6494c0e20b313507d8e04eaacf1cbc4fe3a70429e51d8ef74c17fe9a559db11a"
+    },
+    {
+      "package": "sysx-repo-add",
+      "artifact": "sysx-repo-add_1.0.0-1_all.deb",
+      "group": "repo",
+      "operation": "add",
+      "bytes": 9700,
+      "sha256": "5d77e5c5539dfbd1791ab800c1113aa4498b2d2a97c33394c75f9a5511972f94"
+    },
+    {
+      "package": "sysx-repo-remove",
+      "artifact": "sysx-repo-remove_1.0.0-1_all.deb",
+      "group": "repo",
+      "operation": "remove",
+      "bytes": 9700,
+      "sha256": "81854d34bdadbbe117aaa32bbb0c7f23c7529ab25fd6691dae81219f55de2055"
+    },
+    {
+      "package": "sysx-repo-enable",
+      "artifact": "sysx-repo-enable_1.0.0-1_all.deb",
+      "group": "repo",
+      "operation": "enable",
+      "bytes": 9698,
+      "sha256": "9f58709ebc05fdc438541e74509cc425198da530721e891cac74e3b81bdcdfe2"
+    },
+    {
+      "package": "sysx-repo-disable",
+      "artifact": "sysx-repo-disable_1.0.0-1_all.deb",
+      "group": "repo",
+      "operation": "disable",
+      "bytes": 9690,
+      "sha256": "e9a6346d0a5d96378212fc798914c8f7b0c917dadf5aff411bf4370758af74e9"
+    },
+    {
+      "package": "sysx-repo-switch",
+      "artifact": "sysx-repo-switch_1.0.0-1_all.deb",
+      "group": "repo",
+      "operation": "switch",
+      "bytes": 9698,
+      "sha256": "6a480e1ee3a3161e5c3c1b00088ce50668006ade7e3ce223e11695389123f8f0"
+    },
+    {
+      "package": "sysx-repo-pin",
+      "artifact": "sysx-repo-pin_1.0.0-1_all.deb",
+      "group": "repo",
+      "operation": "pin",
+      "bytes": 9694,
+      "sha256": "a5921ef32452e721d9a80c4ec215c384811819eabcfe0bbf106bc745e0ebeb35"
+    },
+    {
+      "package": "sysx-repo-unpin",
+      "artifact": "sysx-repo-unpin_1.0.0-1_all.deb",
+      "group": "repo",
+      "operation": "unpin",
+      "bytes": 9700,
+      "sha256": "80268a64af25218b601f5f67ad3fe09269c509ea652577962d5eb7e1400b2aa4"
+    },
+    {
+      "package": "sysx-repo-backup",
+      "artifact": "sysx-repo-backup_1.0.0-1_all.deb",
+      "group": "repo",
+      "operation": "backup",
+      "bytes": 9692,
+      "sha256": "a010c17e9680a81b58f6cdc32779dab6d83d8c63a61195d3687407883ba3f2e9"
+    },
+    {
+      "package": "sysx-repo-restore",
+      "artifact": "sysx-repo-restore_1.0.0-1_all.deb",
+      "group": "repo",
+      "operation": "restore",
+      "bytes": 9694,
+      "sha256": "4a395bf645b0368531e96cfc8dbdbaa0fde5c52c7d0287cb2841013dc7613908"
+    },
+    {
+      "package": "sysx-pkg-installed",
+      "artifact": "sysx-pkg-installed_1.0.0-1_all.deb",
+      "group": "pkg",
+      "operation": "installed",
+      "bytes": 9700,
+      "sha256": "5678ae11ae042b0f8b95cc321ec26bc905fef2328820095af9fd12e5aa32b870"
+    },
+    {
+      "package": "sysx-pkg-search",
+      "artifact": "sysx-pkg-search_1.0.0-1_all.deb",
+      "group": "pkg",
+      "operation": "search",
+      "bytes": 9702,
+      "sha256": "a915ef9c10bdb39305a11608f8e368d91adfac8a346dbe342cd7f6a6f5ff27fd"
+    },
+    {
+      "package": "sysx-pkg-policy",
+      "artifact": "sysx-pkg-policy_1.0.0-1_all.deb",
+      "group": "pkg",
+      "operation": "policy",
+      "bytes": 9700,
+      "sha256": "c928e2c77c34b2d5035e6ac6a1feec56145fa5bf31ac0283efcbb528c7929251"
+    },
+    {
+      "package": "sysx-pkg-files",
+      "artifact": "sysx-pkg-files_1.0.0-1_all.deb",
+      "group": "pkg",
+      "operation": "files",
+      "bytes": 9696,
+      "sha256": "76ecf7bfe397b7a51ec8faab3008b3035ea8031e22680ff863ce52b019ff0d00"
+    },
+    {
+      "package": "sysx-pkg-owner",
+      "artifact": "sysx-pkg-owner_1.0.0-1_all.deb",
+      "group": "pkg",
+      "operation": "owner",
+      "bytes": 9698,
+      "sha256": "05e0939d1c2bff6b342a87fa37036a5f9d561a33007e7704a848f97032155b79"
+    },
+    {
+      "package": "sysx-pkg-deps",
+      "artifact": "sysx-pkg-deps_1.0.0-1_all.deb",
+      "group": "pkg",
+      "operation": "deps",
+      "bytes": 9702,
+      "sha256": "d642628c9dc923b0c20dba5c43d2b6237c6fb667a288c82d047830cfe4fec65d"
+    },
+    {
+      "package": "sysx-pkg-rdeps",
+      "artifact": "sysx-pkg-rdeps_1.0.0-1_all.deb",
+      "group": "pkg",
+      "operation": "rdeps",
+      "bytes": 9694,
+      "sha256": "68e771fd4aedf4718fe2c0334a68ba34073bde2248409c45d195538a2724c384"
+    },
+    {
+      "package": "sysx-pkg-manifest",
+      "artifact": "sysx-pkg-manifest_1.0.0-1_all.deb",
+      "group": "pkg",
+      "operation": "manifest",
+      "bytes": 9702,
+      "sha256": "01b985806e0e62d7c528c6fdd76d572d3c742a57eb29da907c8ca411a5b78c14"
+    },
+    {
+      "package": "sysx-pkg-verify",
+      "artifact": "sysx-pkg-verify_1.0.0-1_all.deb",
+      "group": "pkg",
+      "operation": "verify",
+      "bytes": 9704,
+      "sha256": "0575766709b768a5d6b38035beac4dd94847b3472372a1ecef7d33e8d66f4070"
+    },
+    {
+      "package": "sysx-pkg-cache",
+      "artifact": "sysx-pkg-cache_1.0.0-1_all.deb",
+      "group": "pkg",
+      "operation": "cache",
+      "bytes": 9694,
+      "sha256": "481fa46c6a9f84f2a8e83da7b30bf0bd9fac2774e0ea4bc2c09b07cfbab526db"
+    },
+    {
+      "package": "sysx-proc-list",
+      "artifact": "sysx-proc-list_1.0.0-1_all.deb",
+      "group": "proc",
+      "operation": "list",
+      "bytes": 9688,
+      "sha256": "cc152716ba9481b87e19b1278bd3b302cbb924f2dad3c4cd061e460c1d2651b1"
+    },
+    {
+      "package": "sysx-proc-find",
+      "artifact": "sysx-proc-find_1.0.0-1_all.deb",
+      "group": "proc",
+      "operation": "find",
+      "bytes": 9694,
+      "sha256": "f81c00b6a435432ac91374f38e154e2c3c3f28e263e9db4273394f8dceb23bdf"
+    },
+    {
+      "package": "sysx-proc-tree",
+      "artifact": "sysx-proc-tree_1.0.0-1_all.deb",
+      "group": "proc",
+      "operation": "tree",
+      "bytes": 9686,
+      "sha256": "ef68efe2cde87ac53016d75f7eea813ae21e3b93e15bd709cbbd61a82503abb6"
+    },
+    {
+      "package": "sysx-proc-topcpu",
+      "artifact": "sysx-proc-topcpu_1.0.0-1_all.deb",
+      "group": "proc",
+      "operation": "topcpu",
+      "bytes": 9692,
+      "sha256": "045d591e6eb08ff0c551ede681795b4a8d470e5a3d51c60a6e1bf889ec38fc71"
+    },
+    {
+      "package": "sysx-proc-topmem",
+      "artifact": "sysx-proc-topmem_1.0.0-1_all.deb",
+      "group": "proc",
+      "operation": "topmem",
+      "bytes": 9692,
+      "sha256": "0b8ae5aeb7a9664e5e368a86992e60b14592206bbc75a0521e3ea0c1116b3aea"
+    },
+    {
+      "package": "sysx-proc-env",
+      "artifact": "sysx-proc-env_1.0.0-1_all.deb",
+      "group": "proc",
+      "operation": "env",
+      "bytes": 9688,
+      "sha256": "9e4a6d6b5bc01476ada8dccfaaf3ad1acd252ab0fccdcb67fc3b7c878323a78b"
+    },
+    {
+      "package": "sysx-proc-fds",
+      "artifact": "sysx-proc-fds_1.0.0-1_all.deb",
+      "group": "proc",
+      "operation": "fds",
+      "bytes": 9694,
+      "sha256": "617d9495039de63394fb289d3394bb08dde01d39fa8fae72202e62f51fadb30d"
+    },
+    {
+      "package": "sysx-proc-cwd",
+      "artifact": "sysx-proc-cwd_1.0.0-1_all.deb",
+      "group": "proc",
+      "operation": "cwd",
+      "bytes": 9688,
+      "sha256": "479e09edba95e54ccc87473bbb8dba4903fa480aaa01a3e60c83a35e43ec367f"
+    },
+    {
+      "package": "sysx-proc-signal",
+      "artifact": "sysx-proc-signal_1.0.0-1_all.deb",
+      "group": "proc",
+      "operation": "signal",
+      "bytes": 9688,
+      "sha256": "0f1a447d9cf2873275932673b0a73e0f1fa04195dd97c7c69af55565ae0afbbb"
+    },
+    {
+      "package": "sysx-proc-wait",
+      "artifact": "sysx-proc-wait_1.0.0-1_all.deb",
+      "group": "proc",
+      "operation": "wait",
+      "bytes": 9688,
+      "sha256": "52e3f2bc2550a4f7ec5033858c60096feda2adc53332a832f36c185ccca2ff84"
+    },
+    {
+      "package": "sysx-session-new",
+      "artifact": "sysx-session-new_1.0.0-1_all.deb",
+      "group": "session",
+      "operation": "new",
+      "bytes": 9690,
+      "sha256": "422dca466746d2ad70ade5804a540a4255318bef87266e276eaacb451f5bf589"
+    },
+    {
+      "package": "sysx-session-list",
+      "artifact": "sysx-session-list_1.0.0-1_all.deb",
+      "group": "session",
+      "operation": "list",
+      "bytes": 9690,
+      "sha256": "d29586a49b5a606374b5a4c86b79b0abefc0fedca7e8b56ab162686e26957d69"
+    },
+    {
+      "package": "sysx-session-has",
+      "artifact": "sysx-session-has_1.0.0-1_all.deb",
+      "group": "session",
+      "operation": "has",
+      "bytes": 9694,
+      "sha256": "00749f44777e0ba1c807e98f5272800276321c4a3e3138aaec9bf4e52ee39dbd"
+    },
+    {
+      "package": "sysx-session-kill",
+      "artifact": "sysx-session-kill_1.0.0-1_all.deb",
+      "group": "session",
+      "operation": "kill",
+      "bytes": 9694,
+      "sha256": "022db67438674f87072ab6eddf623e861462561ba905df210d0ff6a5d43af76f"
+    },
+    {
+      "package": "sysx-session-send",
+      "artifact": "sysx-session-send_1.0.0-1_all.deb",
+      "group": "session",
+      "operation": "send",
+      "bytes": 9690,
+      "sha256": "3d3cd8d455ffb7d8167fc6db3d641e176130902b80950e1727b7870c86bb5b7d"
+    },
+    {
+      "package": "sysx-session-capture",
+      "artifact": "sysx-session-capture_1.0.0-1_all.deb",
+      "group": "session",
+      "operation": "capture",
+      "bytes": 9694,
+      "sha256": "3398c6d971e99b092b74536ea492f4cc635077f6c6bd87c2fe51e866597951e4"
+    },
+    {
+      "package": "sysx-session-rename",
+      "artifact": "sysx-session-rename_1.0.0-1_all.deb",
+      "group": "session",
+      "operation": "rename",
+      "bytes": 9696,
+      "sha256": "a61f0d7efdc98023c5114db006c2631c616ff7391177c74a3176fe3cc2f4ef52"
+    },
+    {
+      "package": "sysx-session-window-new",
+      "artifact": "sysx-session-window-new_1.0.0-1_all.deb",
+      "group": "session",
+      "operation": "window-new",
+      "bytes": 9698,
+      "sha256": "a7cad9a3c10be8b8f04b39b9763a47d33e3ac8e753065d39e265509b2d3a1652"
+    },
+    {
+      "package": "sysx-session-window-list",
+      "artifact": "sysx-session-window-list_1.0.0-1_all.deb",
+      "group": "session",
+      "operation": "window-list",
+      "bytes": 9696,
+      "sha256": "406fd9669066354a9e418a8b64568e37e7dd1325bbfc246d37587562bca063cd"
+    },
+    {
+      "package": "sysx-session-detach",
+      "artifact": "sysx-session-detach_1.0.0-1_all.deb",
+      "group": "session",
+      "operation": "detach",
+      "bytes": 9692,
+      "sha256": "56529b760f3cdddac25e2afe6c018587e64f31e14f68ab1a33db4e575fde5edb"
+    },
+    {
+      "package": "sysx-service-define",
+      "artifact": "sysx-service-define_1.0.0-1_all.deb",
+      "group": "service",
+      "operation": "define",
+      "bytes": 9696,
+      "sha256": "1655b4ac9c486615eee11a706f89c0dc0cac99c6d890bd84bf28bf89dfc86c37"
+    },
+    {
+      "package": "sysx-service-start",
+      "artifact": "sysx-service-start_1.0.0-1_all.deb",
+      "group": "service",
+      "operation": "start",
+      "bytes": 9692,
+      "sha256": "1557977af5e6ebe3e84f64c795b083be93ed8b0d59865df3eff722294ac83ea6"
+    },
+    {
+      "package": "sysx-service-stop",
+      "artifact": "sysx-service-stop_1.0.0-1_all.deb",
+      "group": "service",
+      "operation": "stop",
+      "bytes": 9690,
+      "sha256": "306ca79c4aea6fc3d77a4d06d317e32b51f4c2b1226af904dedad730066aa32c"
+    },
+    {
+      "package": "sysx-service-restart",
+      "artifact": "sysx-service-restart_1.0.0-1_all.deb",
+      "group": "service",
+      "operation": "restart",
+      "bytes": 9694,
+      "sha256": "17a22d00862390a93c8242deba02206de41cb4f6d0e48556af4aa3263b61b995"
+    },
+    {
+      "package": "sysx-service-status",
+      "artifact": "sysx-service-status_1.0.0-1_all.deb",
+      "group": "service",
+      "operation": "status",
+      "bytes": 9694,
+      "sha256": "18bbb836e9324588977c4c0b2d8fa8723909c8e365a844eca38c1a6823d8ba61"
+    },
+    {
+      "package": "sysx-service-list",
+      "artifact": "sysx-service-list_1.0.0-1_all.deb",
+      "group": "service",
+      "operation": "list",
+      "bytes": 9690,
+      "sha256": "db5a133e3bcfca3df57add86a9103889836127136c1dcd6bee95b7f5cd5ce4f9"
+    },
+    {
+      "package": "sysx-service-logs",
+      "artifact": "sysx-service-logs_1.0.0-1_all.deb",
+      "group": "service",
+      "operation": "logs",
+      "bytes": 9690,
+      "sha256": "72ba9f030f0d2d9915759b49f57189b5e6bf6ac8030609ae661fc1bf45e5b834"
+    },
+    {
+      "package": "sysx-service-enable",
+      "artifact": "sysx-service-enable_1.0.0-1_all.deb",
+      "group": "service",
+      "operation": "enable",
+      "bytes": 9698,
+      "sha256": "e56f941796d37f81d0fe7506a57e4f798d5a9be25d05691933d0131b3210848a"
+    },
+    {
+      "package": "sysx-service-disable",
+      "artifact": "sysx-service-disable_1.0.0-1_all.deb",
+      "group": "service",
+      "operation": "disable",
+      "bytes": 9698,
+      "sha256": "8b514d7cb340526f0f4e0c7e7de899e660b0da568f62940338c69b224e4d94c9"
+    },
+    {
+      "package": "sysx-service-purge",
+      "artifact": "sysx-service-purge_1.0.0-1_all.deb",
+      "group": "service",
+      "operation": "purge",
+      "bytes": 9692,
+      "sha256": "87a745805feb9c3b2466344d40cff11155393456f090440f67adff310f04810f"
+    },
+    {
+      "package": "sysx-fs-stat",
+      "artifact": "sysx-fs-stat_1.0.0-1_all.deb",
+      "group": "fs",
+      "operation": "stat",
+      "bytes": 9690,
+      "sha256": "acd21b137a54405bdc36e8f06beffaf1f1565b6f7e2be9acb227a48d70b800ec"
+    },
+    {
+      "package": "sysx-fs-tree",
+      "artifact": "sysx-fs-tree_1.0.0-1_all.deb",
+      "group": "fs",
+      "operation": "tree",
+      "bytes": 9690,
+      "sha256": "0e524ae6a4ed0a1056ab1070aa2c41468a8b070e583024ac445da6891b325873"
+    },
+    {
+      "package": "sysx-fs-mkdir",
+      "artifact": "sysx-fs-mkdir_1.0.0-1_all.deb",
+      "group": "fs",
+      "operation": "mkdir",
+      "bytes": 9686,
+      "sha256": "f1d75d8b52e975889f18766fc4d4fa6e3df6d34b3e3c9c93930643f640e32f41"
+    },
+    {
+      "package": "sysx-fs-touch",
+      "artifact": "sysx-fs-touch_1.0.0-1_all.deb",
+      "group": "fs",
+      "operation": "touch",
+      "bytes": 9684,
+      "sha256": "9a85f44c2ddd064f50e569f01570032527796f84436c8777c4d9854403e59569"
+    },
+    {
+      "package": "sysx-fs-copy",
+      "artifact": "sysx-fs-copy_1.0.0-1_all.deb",
+      "group": "fs",
+      "operation": "copy",
+      "bytes": 9694,
+      "sha256": "abb864c5e9158f03af53bd5099913c368920979195e3d16b84700262b62418e9"
+    },
+    {
+      "package": "sysx-fs-move",
+      "artifact": "sysx-fs-move_1.0.0-1_all.deb",
+      "group": "fs",
+      "operation": "move",
+      "bytes": 9698,
+      "sha256": "e5d2f00258f53213bf86ffe7c4108d2af26b588cfb7d35af8ba36f3f410283f7"
+    },
+    {
+      "package": "sysx-fs-symlink",
+      "artifact": "sysx-fs-symlink_1.0.0-1_all.deb",
+      "group": "fs",
+      "operation": "symlink",
+      "bytes": 9696,
+      "sha256": "03372b711cf29933dc1b7ac1e93f684c35fa59ff6993ce932d287e6a93c77298"
+    },
+    {
+      "package": "sysx-fs-chmod",
+      "artifact": "sysx-fs-chmod_1.0.0-1_all.deb",
+      "group": "fs",
+      "operation": "chmod",
+      "bytes": 9690,
+      "sha256": "b585709f347c3956e2d5dd47675e43fbcca3d71e32b370f55606ed17af487045"
+    },
+    {
+      "package": "sysx-fs-checksum",
+      "artifact": "sysx-fs-checksum_1.0.0-1_all.deb",
+      "group": "fs",
+      "operation": "checksum",
+      "bytes": 9696,
+      "sha256": "661e081c2317213e2d60d8b4db8b83babfa5b0c543fb46f1d0c172a06cae7810"
+    },
+    {
+      "package": "sysx-fs-remove",
+      "artifact": "sysx-fs-remove_1.0.0-1_all.deb",
+      "group": "fs",
+      "operation": "remove",
+      "bytes": 9692,
+      "sha256": "ba98104f94bc094b760f73a80b7097501f2105880b711ab61d9dd367cd87ad15"
+    },
+    {
+      "package": "sysx-envfile-get",
+      "artifact": "sysx-envfile-get_1.0.0-1_all.deb",
+      "group": "envfile",
+      "operation": "get",
+      "bytes": 9690,
+      "sha256": "74b371812799d99155efafca271689cd058bd4d644db2e6642e328193525a9c2"
+    },
+    {
+      "package": "sysx-envfile-set",
+      "artifact": "sysx-envfile-set_1.0.0-1_all.deb",
+      "group": "envfile",
+      "operation": "set",
+      "bytes": 9688,
+      "sha256": "dfe951af4609bfd12c2796afb2ab3bb0a195f7a3f2ad58398629771535d0a00c"
+    },
+    {
+      "package": "sysx-envfile-unset",
+      "artifact": "sysx-envfile-unset_1.0.0-1_all.deb",
+      "group": "envfile",
+      "operation": "unset",
+      "bytes": 9700,
+      "sha256": "b099e06bbac9b4d74ce403a2aca721de14351ea917defa9d437f3ef903c98251"
+    },
+    {
+      "package": "sysx-envfile-list",
+      "artifact": "sysx-envfile-list_1.0.0-1_all.deb",
+      "group": "envfile",
+      "operation": "list",
+      "bytes": 9688,
+      "sha256": "bbd5d0f5aaef6f5ac6502d26f9dba9d8175d6c72d9aa5f542959652807f126d2"
+    },
+    {
+      "package": "sysx-envfile-merge",
+      "artifact": "sysx-envfile-merge_1.0.0-1_all.deb",
+      "group": "envfile",
+      "operation": "merge",
+      "bytes": 9694,
+      "sha256": "87f43813b7eb0c2b73f93526fe5dce935e4250bb6a83e44ad57c109b092ee47b"
+    },
+    {
+      "package": "sysx-envfile-export",
+      "artifact": "sysx-envfile-export_1.0.0-1_all.deb",
+      "group": "envfile",
+      "operation": "export",
+      "bytes": 9696,
+      "sha256": "c462543e044025bb809166e1ee0af332b4f7b3012e334b4141aa09096b915279"
+    },
+    {
+      "package": "sysx-envfile-path-add",
+      "artifact": "sysx-envfile-path-add_1.0.0-1_all.deb",
+      "group": "envfile",
+      "operation": "path-add",
+      "bytes": 9700,
+      "sha256": "add3c91e011f8827b170da77214489f1b82374b85afa1a4dfdee2c2f2d1e67de"
+    },
+    {
+      "package": "sysx-envfile-path-remove",
+      "artifact": "sysx-envfile-path-remove_1.0.0-1_all.deb",
+      "group": "envfile",
+      "operation": "path-remove",
+      "bytes": 9698,
+      "sha256": "2801c3bd785bd23b322f7630d88422f0b8a22ab982a404362a54797c1dc1223f"
+    },
+    {
+      "package": "sysx-envfile-which",
+      "artifact": "sysx-envfile-which_1.0.0-1_all.deb",
+      "group": "envfile",
+      "operation": "which",
+      "bytes": 9696,
+      "sha256": "cef076c130641438358962cb46b211c789c737746b91d7bb650184c6e8bd795b"
+    },
+    {
+      "package": "sysx-envfile-doctor",
+      "artifact": "sysx-envfile-doctor_1.0.0-1_all.deb",
+      "group": "envfile",
+      "operation": "doctor",
+      "bytes": 9696,
+      "sha256": "f389cb6edbac1b9963215246a659bcb16a1b300020fb526f2d940bfa1e92e22a"
+    },
+    {
+      "package": "sysx-perm-mode",
+      "artifact": "sysx-perm-mode_1.0.0-1_all.deb",
+      "group": "perm",
+      "operation": "mode",
+      "bytes": 9692,
+      "sha256": "cf41518e5d979912e88b578631596cc3c790b781c512bc7cb22c1db4edeee54b"
+    },
+    {
+      "package": "sysx-perm-chmod",
+      "artifact": "sysx-perm-chmod_1.0.0-1_all.deb",
+      "group": "perm",
+      "operation": "chmod",
+      "bytes": 9696,
+      "sha256": "b87e4684c7d81b5ba2ffa767bcee158c39e31ffde97be641eb929323ae92f2b1"
+    },
+    {
+      "package": "sysx-perm-executable",
+      "artifact": "sysx-perm-executable_1.0.0-1_all.deb",
+      "group": "perm",
+      "operation": "executable",
+      "bytes": 9702,
+      "sha256": "b8b92d8fffc6a77606f8d64f544d977774dcf4e3e0bca7bdcaf89aa6d5dd73f6"
+    },
+    {
+      "package": "sysx-perm-readonly",
+      "artifact": "sysx-perm-readonly_1.0.0-1_all.deb",
+      "group": "perm",
+      "operation": "readonly",
+      "bytes": 9698,
+      "sha256": "3ffa5535a8e0600bc4c25ee89282fdf1e7f83857f08cd926c172874733a4c594"
+    },
+    {
+      "package": "sysx-perm-writable",
+      "artifact": "sysx-perm-writable_1.0.0-1_all.deb",
+      "group": "perm",
+      "operation": "writable",
+      "bytes": 9704,
+      "sha256": "290669b1a7cf745f31c2b726ba69e6505e4a5ed105860b59ed189615c47302b6"
+    },
+    {
+      "package": "sysx-perm-owner",
+      "artifact": "sysx-perm-owner_1.0.0-1_all.deb",
+      "group": "perm",
+      "operation": "owner",
+      "bytes": 9694,
+      "sha256": "b726214210d0c13f165cf2a72caac0cf09e0abfe0ec6f0f4d1548d61d6f6e0e6"
+    },
+    {
+      "package": "sysx-perm-access",
+      "artifact": "sysx-perm-access_1.0.0-1_all.deb",
+      "group": "perm",
+      "operation": "access",
+      "bytes": 9694,
+      "sha256": "e6d8d6e83a40cb867dd6e7bd700f8d3fb848a2212b5938216e9fb071cebcfaaf"
+    },
+    {
+      "package": "sysx-perm-dirs",
+      "artifact": "sysx-perm-dirs_1.0.0-1_all.deb",
+      "group": "perm",
+      "operation": "dirs",
+      "bytes": 9694,
+      "sha256": "e9c6c7811140050ca205a1d722763cc44166bd2c1f4b5793dbf78a52b3122e79"
+    },
+    {
+      "package": "sysx-perm-files",
+      "artifact": "sysx-perm-files_1.0.0-1_all.deb",
+      "group": "perm",
+      "operation": "files",
+      "bytes": 9686,
+      "sha256": "cba51013d56a3ab11999b19efea125f9ad687a85980679912be74e193a1ac918"
+    },
+    {
+      "package": "sysx-perm-secure",
+      "artifact": "sysx-perm-secure_1.0.0-1_all.deb",
+      "group": "perm",
+      "operation": "secure",
+      "bytes": 9696,
+      "sha256": "9828d7f376313c32e42885f1cc742094111fe45beb7fb6b2cc2c06297886a1cc"
+    },
+    {
+      "package": "sysx-watch-mtime",
+      "artifact": "sysx-watch-mtime_1.0.0-1_all.deb",
+      "group": "watch",
+      "operation": "mtime",
+      "bytes": 9694,
+      "sha256": "60b2849b5f413ecc278c844c132429f0e2aa1218e0298bb8015143d7bc8ab285"
+    },
+    {
+      "package": "sysx-watch-wait-change",
+      "artifact": "sysx-watch-wait-change_1.0.0-1_all.deb",
+      "group": "watch",
+      "operation": "wait-change",
+      "bytes": 9696,
+      "sha256": "98ced41aba42864e286067f21d5e2d854d69f4be19b25d0d1c0e68fdcb1245d4"
+    },
+    {
+      "package": "sysx-watch-wait-create",
+      "artifact": "sysx-watch-wait-create_1.0.0-1_all.deb",
+      "group": "watch",
+      "operation": "wait-create",
+      "bytes": 9700,
+      "sha256": "6c88929ea3acedc0b9cb1ca173fcb18229e46a2329e9435b3ad9452fd57fa8e5"
+    },
+    {
+      "package": "sysx-watch-wait-delete",
+      "artifact": "sysx-watch-wait-delete_1.0.0-1_all.deb",
+      "group": "watch",
+      "operation": "wait-delete",
+      "bytes": 9698,
+      "sha256": "99b307b13fb2b8a513d5869d1a324de220b5a5d08613eafe6e412010f6611908"
+    },
+    {
+      "package": "sysx-watch-tail",
+      "artifact": "sysx-watch-tail_1.0.0-1_all.deb",
+      "group": "watch",
+      "operation": "tail",
+      "bytes": 9692,
+      "sha256": "d9c0f12c693e2bfe7915843a8724bd2d7ae42f216d25afaebf97f65ebfc3f4f4"
+    },
+    {
+      "package": "sysx-watch-size",
+      "artifact": "sysx-watch-size_1.0.0-1_all.deb",
+      "group": "watch",
+      "operation": "size",
+      "bytes": 9694,
+      "sha256": "c18ab5294c00fd94e8ab39131f21e4aa6f0b9e56bc1a7f8345487ad7453fa1f5"
+    },
+    {
+      "package": "sysx-watch-exists",
+      "artifact": "sysx-watch-exists_1.0.0-1_all.deb",
+      "group": "watch",
+      "operation": "exists",
+      "bytes": 9696,
+      "sha256": "b154d19a7749856fdb0c1ff6972fae386eeca0d78b7288d20c6c35be4e4d60cf"
+    },
+    {
+      "package": "sysx-watch-newest",
+      "artifact": "sysx-watch-newest_1.0.0-1_all.deb",
+      "group": "watch",
+      "operation": "newest",
+      "bytes": 9694,
+      "sha256": "a6e2951a65c2fc8a560fd147c92d604ecfb0b6e452ddb11a00bcc9e653eaeebc"
+    },
+    {
+      "package": "sysx-watch-oldest",
+      "artifact": "sysx-watch-oldest_1.0.0-1_all.deb",
+      "group": "watch",
+      "operation": "oldest",
+      "bytes": 9696,
+      "sha256": "4736764283e8b557d26a42ddabb671d83222066c0919424b10bd7075db3aeecd"
+    },
+    {
+      "package": "sysx-watch-changed-since",
+      "artifact": "sysx-watch-changed-since_1.0.0-1_all.deb",
+      "group": "watch",
+      "operation": "changed-since",
+      "bytes": 9696,
+      "sha256": "b8ef60cbed0fcffecdc517fd96a4c8433269c9a7666c9659347e606384aaec2d"
+    },
+    {
+      "package": "sysx-archive-zip-create",
+      "artifact": "sysx-archive-zip-create_1.0.0-1_all.deb",
+      "group": "archive",
+      "operation": "zip-create",
+      "bytes": 9700,
+      "sha256": "7a20f5249fd8553dcbd7bd8bd8f06072def39fa3e30850b22ebddff9881e2378"
+    },
+    {
+      "package": "sysx-archive-zip-extract",
+      "artifact": "sysx-archive-zip-extract_1.0.0-1_all.deb",
+      "group": "archive",
+      "operation": "zip-extract",
+      "bytes": 9700,
+      "sha256": "3f36f759a37aeec20916dc7d562312cf0e8acff8166ddd89281ed1e39cbb080b"
+    },
+    {
+      "package": "sysx-archive-zip-list",
+      "artifact": "sysx-archive-zip-list_1.0.0-1_all.deb",
+      "group": "archive",
+      "operation": "zip-list",
+      "bytes": 9704,
+      "sha256": "c6439314826ce37d6c7a11cabfaa91c549f1cba4189aec63bcdac43ad7b25936"
+    },
+    {
+      "package": "sysx-archive-tar-create",
+      "artifact": "sysx-archive-tar-create_1.0.0-1_all.deb",
+      "group": "archive",
+      "operation": "tar-create",
+      "bytes": 9704,
+      "sha256": "2a02142f5efb50ae72452d70039dcd0c9082020a975c05d13ae32be196331279"
+    },
+    {
+      "package": "sysx-archive-tar-extract",
+      "artifact": "sysx-archive-tar-extract_1.0.0-1_all.deb",
+      "group": "archive",
+      "operation": "tar-extract",
+      "bytes": 9700,
+      "sha256": "e048664ea8e14683ced8004790b293440aca82647443808f4818facc4ec67236"
+    },
+    {
+      "package": "sysx-archive-tar-list",
+      "artifact": "sysx-archive-tar-list_1.0.0-1_all.deb",
+      "group": "archive",
+      "operation": "tar-list",
+      "bytes": 9704,
+      "sha256": "15cc4ce3ef1c0faef4d4c55c58684f348100eaf3495528c970fbb7f18cc27146"
+    },
+    {
+      "package": "sysx-archive-gzip",
+      "artifact": "sysx-archive-gzip_1.0.0-1_all.deb",
+      "group": "archive",
+      "operation": "gzip",
+      "bytes": 9690,
+      "sha256": "c0277a04aaaffddcd05af3faa81b8bec27dc195be40ca6c438edd7a88e206b0b"
+    },
+    {
+      "package": "sysx-archive-gunzip",
+      "artifact": "sysx-archive-gunzip_1.0.0-1_all.deb",
+      "group": "archive",
+      "operation": "gunzip",
+      "bytes": 9702,
+      "sha256": "09416e3961dc819dd7da4e19619b37426b2711d97fb3db4e4edcbc8c24ba500c"
+    },
+    {
+      "package": "sysx-archive-checksum",
+      "artifact": "sysx-archive-checksum_1.0.0-1_all.deb",
+      "group": "archive",
+      "operation": "checksum",
+      "bytes": 9704,
+      "sha256": "d53ba78be2a1750665ed13911b204521f9b1c3a542ccc934628cd9fd99cdc606"
+    },
+    {
+      "package": "sysx-archive-manifest",
+      "artifact": "sysx-archive-manifest_1.0.0-1_all.deb",
+      "group": "archive",
+      "operation": "manifest",
+      "bytes": 9698,
+      "sha256": "7fa4ed8abd4d5867d24248ef10b9ef0bfca4e2f53bfa557f325c2091460917da"
+    },
+    {
+      "package": "ocean-system-control-suite",
+      "artifact": "ocean-system-control-suite_1.0.0-1_all.deb",
+      "group": "meta",
+      "operation": "meta",
+      "bytes": 1096,
+      "sha256": "43247bae5b6a92ee5cbffa040bcb5bc73700ce9f33d3ff5d41696ddf2d016ee8"
+    }
+  ]
+}
