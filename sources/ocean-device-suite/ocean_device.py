@@ -122,27 +122,72 @@ def x11_bin(name):
     for q in [root/"usr/bin"/name,root/"bin"/name]:
         if q.exists():return str(q)
     return None
-def x11_runtime_status():
+def x11_config(args=None):
+    cfg={"display":":1","geometry":"1280x720","dpi":120,"rfb_port":5901}
+    path=PREFIX/"etc/ocean-x11.conf"
+    if path.exists():
+        try:
+            for raw in path.read_text(errors="replace").splitlines():
+                if "=" not in raw or raw.lstrip().startswith("#"):continue
+                k,v=raw.split("=",1);k=k.strip().upper();v=v.strip()
+                if k=="DISPLAY" and re.fullmatch(r":\d+",v):cfg["display"]=v
+                elif k=="GEOMETRY" and re.fullmatch(r"\d{3,5}x\d{3,5}",v):cfg["geometry"]=v
+                elif k=="DPI":
+                    try:cfg["dpi"]=max(72,min(240,int(v)))
+                    except:pass
+                elif k=="RFB_PORT":
+                    try:cfg["rfb_port"]=max(1024,min(65535,int(v)))
+                    except:pass
+        except Exception:pass
+    env_display=os.environ.get("DISPLAY")
+    if env_display and re.fullmatch(r":\d+",env_display):cfg["display"]=env_display
+    a=list(args or [])
+    i=0
+    while i<len(a):
+        x=a[i]
+        if re.fullmatch(r":\d+",x):
+            cfg["display"]=x;i+=1;continue
+        if x in ("--geometry","--resolution") and i+1<len(a):
+            v=a[i+1]
+            if not re.fullmatch(r"\d{3,5}x\d{3,5}",v):die("invalid X11 geometry: "+v)
+            cfg["geometry"]=v;i+=2;continue
+        if x=="--dpi" and i+1<len(a):
+            cfg["dpi"]=max(72,min(240,int(a[i+1])));i+=2;continue
+        if x=="--rfb-port" and i+1<len(a):
+            cfg["rfb_port"]=max(1024,min(65535,int(a[i+1])));i+=2;continue
+        die("unknown ocean-x11-start option: "+x)
+    # Keep the normal VNC mapping unless a custom port was explicitly configured.
+    if cfg["rfb_port"]==5901:
+        try:cfg["rfb_port"]=5900+int(cfg["display"][1:])
+        except:pass
+    return cfg
+
+def x11_runtime_status(args=None):
     need=["Xvfb","x11vnc","openbox","xterm"]
-    return {"rootfs":str(x11_root()),"rootfs_present":x11_root().exists(),"commands":{n:x11_bin(n) for n in need},"proot":shutil.which("proot"),"display":os.environ.get("DISPLAY",":1"),"rfb_port":5901}
-def x11_start():
-    status=x11_runtime_status()
+    cfg=x11_config(args)
+    return {"rootfs":str(x11_root()),"rootfs_present":x11_root().exists(),"commands":{n:x11_bin(n) for n in need},"proot":shutil.which("proot"),**cfg,"config_file":str(PREFIX/"etc/ocean-x11.conf")}
+
+def x11_start(args=None):
+    status=x11_runtime_status(args)
     missing=[k for k,v in status["commands"].items() if not v]
     if missing: die("X11 backend missing: "+", ".join(missing)+". Run ocean-x11-runtime --bootstrap or install the Ocean X11 runtime package.")
     run=P(PREFIX/"var/run/ocean-x11");run.mkdir(parents=True,exist_ok=True)
     log=open(run/"session.log","ab",buffering=0)
-    env=os.environ.copy();env["DISPLAY"]=":1"
+    display=status["display"];geometry=status["geometry"];dpi=str(status["dpi"]);rfb=str(status["rfb_port"])
+    env=os.environ.copy();env["DISPLAY"]=display
     root=x11_root()
+    xargs=[display,"-screen","0",geometry+"x24","-dpi",dpi,"-nolisten","tcp"]
+    vargs=["-display",display,"-rfbport",rfb,"-localhost","-nopw","-forever","-shared"]
     if root.exists() and shutil.which("proot"):
         base=[shutil.which("proot"),"-0","-r",str(root),"-b","/dev","-b","/proc","-b","/sys","-b",f"{PREFIX}:{PREFIX}","-w","/root"]
-        def launch(args):return subprocess.Popen(base+args,env=env,stdout=log,stderr=log,start_new_session=True)
-        xv=launch(["/usr/bin/Xvfb",":1","-screen","0","1280x720x24","-nolisten","tcp"])
-        time.sleep(.7); wm=launch(["/usr/bin/openbox"]);vnc=launch(["/usr/bin/x11vnc","-display",":1","-rfbport","5901","-localhost","-nopw","-forever","-shared"])
+        def launch(args2):return subprocess.Popen(base+args2,env=env,stdout=log,stderr=log,start_new_session=True)
+        xv=launch(["/usr/bin/Xvfb",*xargs])
+        time.sleep(.7);wm=launch(["/usr/bin/openbox"]);vnc=launch(["/usr/bin/x11vnc",*vargs])
     else:
-        xv=subprocess.Popen([status["commands"]["Xvfb"],":1","-screen","0","1280x720x24","-nolisten","tcp"],env=env,stdout=log,stderr=log,start_new_session=True)
-        time.sleep(.7);wm=subprocess.Popen([status["commands"]["openbox"]],env=env,stdout=log,stderr=log,start_new_session=True);vnc=subprocess.Popen([status["commands"]["x11vnc"],"-display",":1","-rfbport","5901","-localhost","-nopw","-forever","-shared"],env=env,stdout=log,stderr=log,start_new_session=True)
-    (run/"pids.json").write_text(json.dumps({"xvfb":xv.pid,"wm":wm.pid,"vnc":vnc.pid}))
-    return {"started":True,"display":":1","rfb_port":5901,"pids":{"xvfb":xv.pid,"wm":wm.pid,"vnc":vnc.pid}}
+        xv=subprocess.Popen([status["commands"]["Xvfb"],*xargs],env=env,stdout=log,stderr=log,start_new_session=True)
+        time.sleep(.7);wm=subprocess.Popen([status["commands"]["openbox"]],env=env,stdout=log,stderr=log,start_new_session=True);vnc=subprocess.Popen([status["commands"]["x11vnc"],*vargs],env=env,stdout=log,stderr=log,start_new_session=True)
+    (run/"pids.json").write_text(json.dumps({"xvfb":xv.pid,"wm":wm.pid,"vnc":vnc.pid,"display":display,"rfb_port":status["rfb_port"],"geometry":geometry,"dpi":status["dpi"]}))
+    return {"started":True,"display":display,"geometry":geometry,"dpi":status["dpi"],"rfb_port":status["rfb_port"],"pids":{"xvfb":xv.pid,"wm":wm.pid,"vnc":vnc.pid}}
 def x11_stop():
     p=P(PREFIX/"var/run/ocean-x11/pids.json")
     if p.exists():
@@ -310,13 +355,13 @@ def handle_x11(cmd,a):
         if a and a[0]=="--bootstrap":emit(x11_bootstrap())
         else:emit(x11_runtime_status())
         return
-    if cmd in ("ocean-x11-start","ocean-render-session"):emit(x11_start());return
+    if cmd in ("ocean-x11-start","ocean-render-session"):emit(x11_start(a));return
     if cmd=="ocean-x11-stop":emit(x11_stop());return
     if cmd in ("ocean-x11-status","ocean-render-status"):emit(post("/api/x11",{"action":"status"}));return
     if cmd in ("ocean-x11","ocean-x11-open","ocean-x11-attach","ocean-render","ocean-render-open"):
         emit(post("/api/x11",{"action":"open","port":int(a[0]) if a else 5901}));return
-    if cmd=="ocean-x11-display":print(os.environ.get("DISPLAY",":1"));return
-    if cmd=="ocean-x11-env":emit({"DISPLAY":os.environ.get("DISPLAY",":1"),"RFB_PORT":5901,"PREFIX":str(PREFIX)});return
+    if cmd=="ocean-x11-display":print(x11_config().get("display",":1"));return
+    if cmd=="ocean-x11-env":\n        c=x11_config();emit({"DISPLAY":c["display"],"RFB_PORT":c["rfb_port"],"GEOMETRY":c["geometry"],"DPI":c["dpi"],"PREFIX":str(PREFIX)});return
     if cmd in ("ocean-x11-fit","ocean-x11-keyboard"):
         emit(post("/api/x11",{"action":"fit" if cmd.endswith("fit") else "keyboard"}));return
     if cmd in ("ocean-x11-resize","ocean-x11-fullscreen","ocean-x11-mouse","ocean-x11-touch","ocean-x11-clipboard"):
