@@ -10,7 +10,7 @@ Description: code repository test docs and build utilities - codeops-python-synt
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-python-syntax_1.0.0-1_all.deb
 Size: 8596
-SHA256: 7d259dd7e5d6954985eb08e9b4aa8e82578b98a0e62a010664824365e6811f88
+SHA256: c778799895095bdd8cd0dc2f2cb6dc5bb1d7c876c66381aefdbb42c76c851dc9
 
 Package: codeops-python-imports
 Version: 1.0.0-1
@@ -24,7 +24,7 @@ Description: code repository test docs and build utilities - codeops-python-impo
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-python-imports_1.0.0-1_all.deb
 Size: 8600
-SHA256: 3d82772fd3abf48c74fdf13811d7b386f53fc81a1caf2f0b24bd000b2869c2ba
+SHA256: 7b0d5a93b3a5296d550ba0fb1dfb3c3c4a9b727b1ff3c753232e68c3686a6965
 
 Package: codeops-python-functions
 Version: 1.0.0-1
@@ -37,8 +37,8 @@ Description: code repository test docs and build utilities - codeops-python-func
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-python-functions_1.0.0-1_all.deb
-Size: 8600
-SHA256: 23018bea1c211662a583a2c61dc8a89340802b9283a483e37b77397f5ed0f8a7
+Size: 8602
+SHA256: e9364ab622c00c17d0a2012286e3828b451f540186c65525a251bab226cc6a22
 
 Package: codeops-python-classes
 Version: 1.0.0-1
@@ -52,7 +52,7 @@ Description: code repository test docs and build utilities - codeops-python-clas
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-python-classes_1.0.0-1_all.deb
 Size: 8598
-SHA256: 23fa4b69aff45b90e9f569283791a35c144f58d59b11efd714238905b47992c4
+SHA256: bdc3ea260a1924b51f4739bc2846f074951c6aade671100e57d81bc69221772e
 
 Package: codeops-python-todos
 Version: 1.0.0-1
@@ -65,8 +65,8 @@ Description: code repository test docs and build utilities - codeops-python-todo
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-python-todos_1.0.0-1_all.deb
-Size: 8600
-SHA256: d49a0f1d04a083146eca56951789242bb3a9162b739b77362c5f448379de7196
+Size: 8598
+SHA256: 0801d1f6ee3e2c710abede3c49065251eac1d1a9426ed2a8047235f9daa612d2
 
 Package: codeops-python-complexity
 Version: 1.0.0-1
@@ -79,8 +79,8 @@ Description: code repository test docs and build utilities - codeops-python-comp
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-python-complexity_1.0.0-1_all.deb
-Size: 8612
-SHA256: 4a5ea5604b2b00f0c1d42470705d6378ce505b8f7d7777930e1c9688e389420f
+Size: 8610
+SHA256: ab07343a03d05d85bb2f86b858863dc93600569efb190fe45a3beed35b037b64
 
 Package: codeops-python-docstrings
 Version: 1.0.0-1
@@ -93,8 +93,8 @@ Description: code repository test docs and build utilities - codeops-python-docs
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-python-docstrings_1.0.0-1_all.deb
-Size: 8612
-SHA256: d318a8f52bd13762f2c76a4030661b842a4e4063c03e84129c50f006f265cb6e
+Size: 8608
+SHA256: e470d39da27b04708690501c8e15490edef3186ea7c60fbb312c6052ce7d8979
 
 Package: codeops-python-ast-types
 Version: 1.0.0-1
@@ -107,8 +107,8 @@ Description: code repository test docs and build utilities - codeops-python-ast-
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-python-ast-types_1.0.0-1_all.deb
-Size: 8608
-SHA256: 4657149fd4a38bb7b002bfa0e401d229096acec651571a209d11b4cb98f64bdb
+Size: 8606
+SHA256: 8934bd3498c088616b44db5b5b628d5e09eac8b5f736b00f5f49b8bb1b450f65
 
 Package: codeops-python-lines
 Version: 1.0.0-1
@@ -121,8 +121,8 @@ Description: code repository test docs and build utilities - codeops-python-line
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-python-lines_1.0.0-1_all.deb
-Size: 8598
-SHA256: bc9620a0e6328804efb91253018eb1ae64fba62b1977d9053b174d37a6894df4
+Size: 8594
+SHA256: eb762260096402a86bfd107182bd6d4e5df27a5105ac0fd102dade030a27b890
 
 Package: codeops-python-stats
 Version: 1.0.0-1
@@ -135,8 +135,8 @@ Description: code repository test docs and build utilities - codeops-python-stat
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-python-stats_1.0.0-1_all.deb
-Size: 8592
-SHA256: b9f09b6ae928bfa40a182fcffc0f8b2ef86070c02cff74fa0347fb16f7a7bcd7
+Size: 8594
+SHA256: 3f86fa20acefde14139a22afbcb5c65b715e89a181123bf52c0fd274cf12f627
 
 Package: codeops-javascript-imports
 Version: 1.0.0-1
@@ -149,8 +149,8 @@ Description: code repository test docs and build utilities - codeops-javascript-
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-javascript-imports_1.0.0-1_all.deb
-Size: 8610
-SHA256: 9207dce199b2ff790fa93a9c7e18391eff1783d47e895d3d057bf4a0634b00f5
+Size: 8614
+SHA256: df1c4a2421302517cce3f615eef5df2caac901ce8e0b1df3de7006239be2e5fb
 
 Package: codeops-javascript-exports
 Version: 1.0.0-1
@@ -163,8 +163,8 @@ Description: code repository test docs and build utilities - codeops-javascript-
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-javascript-exports_1.0.0-1_all.deb
-Size: 8614
-SHA256: 2f7f4d636486f90a7df6497cb51b9a5ca76fb69a5a092f6fbd110214f7e01c6a
+Size: 8616
+SHA256: efc1be6a98fd128f04205355049caa7a7caba10c81afa16d08d7716655d46f0e
 
 Package: codeops-javascript-functions
 Version: 1.0.0-1
@@ -178,7 +178,7 @@ Description: code repository test docs and build utilities - codeops-javascript-
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-javascript-functions_1.0.0-1_all.deb
 Size: 8616
-SHA256: ba6384e6ee39d3874ffb00d2629f2fc47fa233281f7cbfe6be543acf7030c5d9
+SHA256: cabbc6f4f42615b328a850859d51a390af1088ff4d419f249ad802ec42d7a0e4
 
 Package: codeops-javascript-classes
 Version: 1.0.0-1
@@ -192,7 +192,7 @@ Description: code repository test docs and build utilities - codeops-javascript-
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-javascript-classes_1.0.0-1_all.deb
 Size: 8612
-SHA256: 576ab1ae62a3e061c852e363ab5afce77d8724dfb15f1485781bd5f236679371
+SHA256: 9367a57cd313c51536b299ef8f8cf0a64360abbf6dc38850d4995de27ae05af1
 
 Package: codeops-javascript-todos
 Version: 1.0.0-1
@@ -205,8 +205,8 @@ Description: code repository test docs and build utilities - codeops-javascript-
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-javascript-todos_1.0.0-1_all.deb
-Size: 8610
-SHA256: 3333f2572b30345813f6acf20f7892f2b9cf47f15b24ce1a41905e0224a2a8b0
+Size: 8612
+SHA256: 6d17c4adf5e71d432410b24985ef74acd1d87522f4fbed2eecd63c11d725ce80
 
 Package: codeops-javascript-requires
 Version: 1.0.0-1
@@ -219,8 +219,8 @@ Description: code repository test docs and build utilities - codeops-javascript-
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-javascript-requires_1.0.0-1_all.deb
-Size: 8608
-SHA256: 8a99497b211dba71fcc209607c27eb4f86c10023a2104eda78093b843d47a83d
+Size: 8612
+SHA256: fa926fabe12b470e180746d437b5b07c79370a66eed0230e8716f7cc8f6452a8
 
 Package: codeops-javascript-scripts
 Version: 1.0.0-1
@@ -234,7 +234,7 @@ Description: code repository test docs and build utilities - codeops-javascript-
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-javascript-scripts_1.0.0-1_all.deb
 Size: 8610
-SHA256: 504baec353c9b1f9a5236348c2f6b47971a0c608f2844e7c0fef0fac652e03e7
+SHA256: bea0529280725f54c58f0c6ad1745cd8a42f1f45678240eb1398524eeb367f58
 
 Package: codeops-javascript-deps
 Version: 1.0.0-1
@@ -248,7 +248,7 @@ Description: code repository test docs and build utilities - codeops-javascript-
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-javascript-deps_1.0.0-1_all.deb
 Size: 8608
-SHA256: 0e21360bcb3f10cd5b34a6ee46cefb5ab2b2f87120b04542cb6594df1302c123
+SHA256: 12a94b307e955571a5424dfb3bbf1d9f19f0aa96507a8c0921520b8609d43252
 
 Package: codeops-javascript-devdeps
 Version: 1.0.0-1
@@ -261,8 +261,8 @@ Description: code repository test docs and build utilities - codeops-javascript-
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-javascript-devdeps_1.0.0-1_all.deb
-Size: 8612
-SHA256: 70e685bab1e0701defc1cf6c2f5a0f1fe836647f29b34a47200eb0703895bc01
+Size: 8614
+SHA256: 28953f4a0dac016c7b86e2d650f94b7962597bdc640c4031b4601b31d13f1242
 
 Package: codeops-javascript-stats
 Version: 1.0.0-1
@@ -276,7 +276,7 @@ Description: code repository test docs and build utilities - codeops-javascript-
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-javascript-stats_1.0.0-1_all.deb
 Size: 8612
-SHA256: dc8453705774e21744b385a3923d94847792451f762fce0acd291d7dcb8c0106
+SHA256: 668c3a995923945c789975ee54e862c6f1d6cdfbbd4dcd268cb6cf664251e294
 
 Package: codeops-project-detect
 Version: 1.0.0-1
@@ -289,8 +289,8 @@ Description: code repository test docs and build utilities - codeops-project-det
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-project-detect_1.0.0-1_all.deb
-Size: 8604
-SHA256: 52eb2899a6d0bdb3de6f5a8888e7b46b0289b4019c28901ff547c354e1a18931
+Size: 8608
+SHA256: 61ec1f15db74185f08738daa8a0858aab3c6f08fb6cba82965937403aa9c3ba9
 
 Package: codeops-project-files
 Version: 1.0.0-1
@@ -304,7 +304,7 @@ Description: code repository test docs and build utilities - codeops-project-fil
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-project-files_1.0.0-1_all.deb
 Size: 8602
-SHA256: 912b97fe1fa3e84511e88cd4c1f74f6fd6cd090d651042833082debcd5fbec07
+SHA256: 11cc25adebcceaeacd445edefdd1cae251daa5a3127554df613a85d24806360d
 
 Package: codeops-project-dirs
 Version: 1.0.0-1
@@ -317,8 +317,8 @@ Description: code repository test docs and build utilities - codeops-project-dir
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-project-dirs_1.0.0-1_all.deb
-Size: 8602
-SHA256: 69d41c6c74bc1f86a5914951916e0583fd9d8b03a731ba0dc2c875e197fceb69
+Size: 8604
+SHA256: 1e2859680b3e22ec483142534fd0ae3c97d96a7a60e16537dc0fbed9f3c7fb31
 
 Package: codeops-project-extensions
 Version: 1.0.0-1
@@ -331,8 +331,8 @@ Description: code repository test docs and build utilities - codeops-project-ext
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-project-extensions_1.0.0-1_all.deb
-Size: 8610
-SHA256: 010b6d571872d344e2d19517b00856e736c89f3be3bbfe177df67e52008c1772
+Size: 8612
+SHA256: c53276d80cfc55309a97aadd4562f6b69d5951dde917c877333539c58fed9674
 
 Package: codeops-project-readme
 Version: 1.0.0-1
@@ -345,8 +345,8 @@ Description: code repository test docs and build utilities - codeops-project-rea
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-project-readme_1.0.0-1_all.deb
-Size: 8610
-SHA256: a7f865f28f6726a2886de59cc47f5c7185ada833381b0e34e480cf936a65632c
+Size: 8608
+SHA256: 4e49952d212d0796c62ec84beb36bfe5983c87cb3bcc19e1dc6dfb9b9266e83f
 
 Package: codeops-project-licenses
 Version: 1.0.0-1
@@ -359,8 +359,8 @@ Description: code repository test docs and build utilities - codeops-project-lic
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-project-licenses_1.0.0-1_all.deb
-Size: 8606
-SHA256: 11c463863eb781cc7a81009b8cd321efe94f7b6d6ca9f107904d2a57e86b4a8c
+Size: 8610
+SHA256: fabb398c5abebafe983093ed1e0ca91b3fcf5b52cc26445314f3fac618db4a6f
 
 Package: codeops-project-configs
 Version: 1.0.0-1
@@ -373,8 +373,8 @@ Description: code repository test docs and build utilities - codeops-project-con
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-project-configs_1.0.0-1_all.deb
-Size: 8608
-SHA256: 315633a69ce206027350a1a3d7747fe5c0a08dbe9380f665c8b53858f58d649c
+Size: 8610
+SHA256: 00ae0f41c211517259b68719ac08652f84433bc3318fb28250ff25713489eba7
 
 Package: codeops-project-entrypoints
 Version: 1.0.0-1
@@ -387,8 +387,8 @@ Description: code repository test docs and build utilities - codeops-project-ent
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-project-entrypoints_1.0.0-1_all.deb
-Size: 8610
-SHA256: 32ab351979cfe3bcd9ca5c015ed04d51f2c43a3866613220f990c00720125270
+Size: 8606
+SHA256: cf6fd47880ce4442bdb30eba65a236b73e906190ebcc42b2d351631f958dbe4b
 
 Package: codeops-project-largest
 Version: 1.0.0-1
@@ -402,7 +402,7 @@ Description: code repository test docs and build utilities - codeops-project-lar
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-project-largest_1.0.0-1_all.deb
 Size: 8610
-SHA256: 3fdd7e0a1ae10f96d15c8f24b6b6edf64cf365071423249846c4fc20d27dcb2f
+SHA256: 695d959c6322ee7b5c820a9421563d2789111cbcc3b33293a250655663d0af6f
 
 Package: codeops-project-stats
 Version: 1.0.0-1
@@ -416,7 +416,7 @@ Description: code repository test docs and build utilities - codeops-project-sta
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-project-stats_1.0.0-1_all.deb
 Size: 8604
-SHA256: 5dbc5fbe06d22e44a6925d64d8cb2333e2916d7f7d739e3c718a59159ccc00e9
+SHA256: c00e08ba205de116cd19e9daac363704c4a05a731ee1b6e78101a30ec678e458
 
 Package: codeops-tests-discover
 Version: 1.0.0-1
@@ -429,8 +429,8 @@ Description: code repository test docs and build utilities - codeops-tests-disco
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-tests-discover_1.0.0-1_all.deb
-Size: 8606
-SHA256: 9f3fde5b91e266b8be30dbeda81500a6f867550cf99e8502ea64f890b55c9357
+Size: 8604
+SHA256: bd8088c781459ade146a482ae0e6cd54ca0f8956da9fbe48eb68d3436b420894
 
 Package: codeops-tests-python
 Version: 1.0.0-1
@@ -443,8 +443,8 @@ Description: code repository test docs and build utilities - codeops-tests-pytho
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-tests-python_1.0.0-1_all.deb
-Size: 8600
-SHA256: e061191f35e5c2ebefc029684ef5472e0cf33cd179e7f92e7e6c934feecced3f
+Size: 8592
+SHA256: 54fea7f33e7104f0c29d2b2faaee109f21c50c48263c86b918f70b1e35f7e9f7
 
 Package: codeops-tests-javascript
 Version: 1.0.0-1
@@ -457,8 +457,8 @@ Description: code repository test docs and build utilities - codeops-tests-javas
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-tests-javascript_1.0.0-1_all.deb
-Size: 8612
-SHA256: 89f8fd7170ce3411bca669a202dfe05c43019d071f0aca9cdc982a273176870b
+Size: 8614
+SHA256: a8c463b8c4002d2615461a4b8856d3e396c16b1645901f7e1b74c0f38f7e5b03
 
 Package: codeops-tests-coverage
 Version: 1.0.0-1
@@ -471,8 +471,8 @@ Description: code repository test docs and build utilities - codeops-tests-cover
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-tests-coverage_1.0.0-1_all.deb
-Size: 8604
-SHA256: 3caa2c3239505a98673440ae08fad2be0b91646a016b0eed49840b1cd0802f2b
+Size: 8606
+SHA256: f94d2d604afffa3586b019d70c0e3e2391582d935de064105f6441cd2c81bc09
 
 Package: codeops-tests-snapshots
 Version: 1.0.0-1
@@ -485,8 +485,8 @@ Description: code repository test docs and build utilities - codeops-tests-snaps
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-tests-snapshots_1.0.0-1_all.deb
-Size: 8608
-SHA256: e50ac4f976b969d807facb74a58fa0f5f67d1744bace392cf1da2a7075d30d2c
+Size: 8606
+SHA256: 58cca9630c9cd74898dd7756543bd1dc048893f94d0f9420a0dbb1b0e780d438
 
 Package: codeops-tests-fixtures
 Version: 1.0.0-1
@@ -499,8 +499,8 @@ Description: code repository test docs and build utilities - codeops-tests-fixtu
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-tests-fixtures_1.0.0-1_all.deb
-Size: 8606
-SHA256: 725c5242ca106afe4a31a5cbc96e4785af6bed2cf3559bad85bf3984b2bccae7
+Size: 8604
+SHA256: b15dd083a248077c815d5e1eddc141bef5fb576ca860da32e263f5b57256b890
 
 Package: codeops-tests-reports
 Version: 1.0.0-1
@@ -514,7 +514,7 @@ Description: code repository test docs and build utilities - codeops-tests-repor
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-tests-reports_1.0.0-1_all.deb
 Size: 8602
-SHA256: 376756277779a0562abe7ad1b114aa211d46f96fb68a5fe83ca2483763af9d5d
+SHA256: 85421ff04612cd7cf5395014aa3e3f6dae673784d07e265338761e9a0057c36e
 
 Package: codeops-tests-flaky
 Version: 1.0.0-1
@@ -528,7 +528,7 @@ Description: code repository test docs and build utilities - codeops-tests-flaky
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-tests-flaky_1.0.0-1_all.deb
 Size: 8604
-SHA256: 06fd7827d291d9ea771ef56059d05cf5cb7d3e8e8ba38d31a5687b35f2032da4
+SHA256: c78946f63e47594d5ba02c97320d5bc312ec31965f8df67cc5bc89a722054ddf
 
 Package: codeops-tests-names
 Version: 1.0.0-1
@@ -541,8 +541,8 @@ Description: code repository test docs and build utilities - codeops-tests-names
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-tests-names_1.0.0-1_all.deb
-Size: 8600
-SHA256: ee9698412af5d6f52d7f646bd5efa7ec8a37ca6c1dde12753f90820cfad449f2
+Size: 8602
+SHA256: 77028ca4cf9bb26f620493e499d5a9b2a29a71925df6afe7ef8e17bbaa6b2998
 
 Package: codeops-tests-stats
 Version: 1.0.0-1
@@ -555,8 +555,8 @@ Description: code repository test docs and build utilities - codeops-tests-stats
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-tests-stats_1.0.0-1_all.deb
-Size: 8606
-SHA256: 702ae05286fd5da4154ded87f99edd2316f9cdbabbf8c91bc6201f3d25ac56b1
+Size: 8600
+SHA256: 8c9345b19a1cbf4f79456436dc2b78eab57b15bc5ecf4348cc1263126be9c70d
 
 Package: codeops-docs-files
 Version: 1.0.0-1
@@ -569,8 +569,8 @@ Description: code repository test docs and build utilities - codeops-docs-files
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-docs-files_1.0.0-1_all.deb
-Size: 8602
-SHA256: 8ce7ad45b06aaf25d7d3bafa9e8242755eafcaf054f323f562556786d93d9dee
+Size: 8600
+SHA256: 685cb722b97105be52736521fafb7a6d039d5615a68884e02bfd2bf441f1f6e6
 
 Package: codeops-docs-headings
 Version: 1.0.0-1
@@ -583,8 +583,8 @@ Description: code repository test docs and build utilities - codeops-docs-headin
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-docs-headings_1.0.0-1_all.deb
-Size: 8606
-SHA256: 0675ede76931e25514cf0d041065bb6538d9cab4469a187c9e6361e0cb685cb1
+Size: 8604
+SHA256: 6e367ef1265425b0297b5907d3f4b5e59a7d3338d1a8ce6d07f6f6765814c67b
 
 Package: codeops-docs-local-links
 Version: 1.0.0-1
@@ -597,8 +597,8 @@ Description: code repository test docs and build utilities - codeops-docs-local-
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-docs-local-links_1.0.0-1_all.deb
-Size: 8608
-SHA256: a69ff0a20fafd2224065042a05012032cbe5190caa26ebc6cae8fc7deb7bdb5c
+Size: 8610
+SHA256: e49cdb3273a0f60853026f248d2c5473bc4ca460f90758b3f070b6b49f86f8ef
 
 Package: codeops-docs-codeblocks
 Version: 1.0.0-1
@@ -611,8 +611,8 @@ Description: code repository test docs and build utilities - codeops-docs-codebl
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-docs-codeblocks_1.0.0-1_all.deb
-Size: 8610
-SHA256: 4c54d073b9340c08b7ae832d7c3540b999e9c4f50cdb4f1d62e9b5ef3f721ba4
+Size: 8608
+SHA256: 64e840b5580f5093526432d5d47e17f484adf1ee7a261650d6c70827aa0603b0
 
 Package: codeops-docs-todos
 Version: 1.0.0-1
@@ -625,8 +625,8 @@ Description: code repository test docs and build utilities - codeops-docs-todos
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-docs-todos_1.0.0-1_all.deb
-Size: 8600
-SHA256: db9eedb141c3f22331d0f1227bfb5b64ad17772f1625c0e59666719db596fa95
+Size: 8602
+SHA256: e5c48430fe2789e831e108d5e1a1268b2416b1b6a929a7f32f847bf6db5a252c
 
 Package: codeops-docs-readme
 Version: 1.0.0-1
@@ -639,8 +639,8 @@ Description: code repository test docs and build utilities - codeops-docs-readme
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-docs-readme_1.0.0-1_all.deb
-Size: 8598
-SHA256: a174139c6b7f10a00b1f60b01eb4cc2b5b3938e336370fb1e8d4ac62609fffd3
+Size: 8602
+SHA256: e97a61ae50c3e5ab6306ffaf355154e03690669b236c65967f835162307816c6
 
 Package: codeops-docs-changelog
 Version: 1.0.0-1
@@ -654,7 +654,7 @@ Description: code repository test docs and build utilities - codeops-docs-change
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-docs-changelog_1.0.0-1_all.deb
 Size: 8604
-SHA256: 0d9ac24b676f7ff9279b51a11c0a6a74c27804decefdfa3f16b1666e2ef9d3d1
+SHA256: 0b88aac1a24ab654048f2c7923e70807cd76282d065fe7c44559b6e0e56a63b3
 
 Package: codeops-docs-licenses
 Version: 1.0.0-1
@@ -667,8 +667,8 @@ Description: code repository test docs and build utilities - codeops-docs-licens
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-docs-licenses_1.0.0-1_all.deb
-Size: 8602
-SHA256: 5eb713d8e3ffb49675c90922a55f89d1c93fed97855c0aa00560991aa5facde0
+Size: 8604
+SHA256: c37e6c9f4c89fab7652c892cffb6713f1f2dd6e66f1b71b5d0902ff56516f381
 
 Package: codeops-docs-words
 Version: 1.0.0-1
@@ -681,8 +681,8 @@ Description: code repository test docs and build utilities - codeops-docs-words
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-docs-words_1.0.0-1_all.deb
-Size: 8604
-SHA256: 23cbf61a7087133a71bfdd31ff06441ed49a90ee1184630acd7d258b74bdd4f9
+Size: 8602
+SHA256: 07abd64acf8df3d781ac3e946435ee7f1e1b04291641bcceff73994ef7aa7973
 
 Package: codeops-docs-stats
 Version: 1.0.0-1
@@ -696,7 +696,7 @@ Description: code repository test docs and build utilities - codeops-docs-stats
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-docs-stats_1.0.0-1_all.deb
 Size: 8606
-SHA256: add6dfb1e1f43f62bddac7c6f40a1cc0cbfe0b88507d3d279472f5a75711f9ae
+SHA256: 6dec91e86966415b4ad31c7ed48e2b38fbf04641c45e4e489e95d78e9dc0eaa5
 
 Package: codeops-semver-validate
 Version: 1.0.0-1
@@ -710,7 +710,7 @@ Description: code repository test docs and build utilities - codeops-semver-vali
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-semver-validate_1.0.0-1_all.deb
 Size: 8608
-SHA256: c26bed6ff65da98267adce6a67fe13544b258b6d8dd45f2a223d80bf85773823
+SHA256: ffd935df3eeb3eb65510d847c7ea4e0007f30a041e46731e92be38ce82d0946a
 
 Package: codeops-semver-compare
 Version: 1.0.0-1
@@ -723,8 +723,8 @@ Description: code repository test docs and build utilities - codeops-semver-comp
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-semver-compare_1.0.0-1_all.deb
-Size: 8602
-SHA256: fddf2c07620414f0632d935d6c5041ba1b25dd922ebecb937396f2c33777bddc
+Size: 8604
+SHA256: 31b7545f1280dfb7a5ef60614583321bad57ecc217ec9d7134cfff1b23d7a164
 
 Package: codeops-semver-bump-major
 Version: 1.0.0-1
@@ -737,8 +737,8 @@ Description: code repository test docs and build utilities - codeops-semver-bump
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-semver-bump-major_1.0.0-1_all.deb
-Size: 8616
-SHA256: 3393cb09aa1f991d3e65336eb5ecedaec4e642f45f059bd50bb2073acf17cf21
+Size: 8614
+SHA256: ab7e9921a1b58e977d90fbb94bea30662d1e9d81c7a2343a154af73788f1d848
 
 Package: codeops-semver-bump-minor
 Version: 1.0.0-1
@@ -751,8 +751,8 @@ Description: code repository test docs and build utilities - codeops-semver-bump
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-semver-bump-minor_1.0.0-1_all.deb
-Size: 8614
-SHA256: 7b632e88839f7d71093db42892b95ccd46fac5477ddfead4572e63fb976dfd45
+Size: 8616
+SHA256: a202300571937994286ccb9ddf3309ff152f7dce977943fa81bb1e6ede77e2a3
 
 Package: codeops-semver-bump-patch
 Version: 1.0.0-1
@@ -766,7 +766,7 @@ Description: code repository test docs and build utilities - codeops-semver-bump
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-semver-bump-patch_1.0.0-1_all.deb
 Size: 8614
-SHA256: 12004ba4a7876b5dada6bf6b7abc0b832c4afef448b460dcedaed88c8e9e9325
+SHA256: 7ab40853a4c1b6b4291e162c06c3bc77a32956eda97dcbd9a4fb6251700e97a5
 
 Package: codeops-semver-major
 Version: 1.0.0-1
@@ -780,7 +780,7 @@ Description: code repository test docs and build utilities - codeops-semver-majo
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-semver-major_1.0.0-1_all.deb
 Size: 8606
-SHA256: 04aed889be8e8759863213e6cd4d6b9be911985c7edae87a58e9793bb98f57c4
+SHA256: 0011218e581750b815d3a7d2aa1bf6f1500c5f40511317efac06d74d7e6bc4d8
 
 Package: codeops-semver-minor
 Version: 1.0.0-1
@@ -793,8 +793,8 @@ Description: code repository test docs and build utilities - codeops-semver-mino
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-semver-minor_1.0.0-1_all.deb
-Size: 8604
-SHA256: 8ff5794a399adc0116d649b704e8d5db215fc7953f79a6f78184aa5849b39a0c
+Size: 8602
+SHA256: 6b24f05d891a4abbe2e2756f08d38fa25e3ab5a2f5a5514da8f1c5f80c422ef3
 
 Package: codeops-semver-patch
 Version: 1.0.0-1
@@ -807,8 +807,8 @@ Description: code repository test docs and build utilities - codeops-semver-patc
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-semver-patch_1.0.0-1_all.deb
-Size: 8604
-SHA256: 39b21ccdc66664264211a3d9341233f25efca531d8a4a48651668088d309dc73
+Size: 8606
+SHA256: 1b5454ee19766eedc9344fa0f443442226b5aa8234a7874c3b54cdb86f7db673
 
 Package: codeops-semver-normalize
 Version: 1.0.0-1
@@ -821,8 +821,8 @@ Description: code repository test docs and build utilities - codeops-semver-norm
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-semver-normalize_1.0.0-1_all.deb
-Size: 8610
-SHA256: 74d14a196d3c6293f341cc8bb36ec6280588e7cbefcc7d6352ad81e3667b5d16
+Size: 8612
+SHA256: e79bb56ac81408d41d58ac8d7c7a2303778b60c4b3100d692edc0d028b8e4c1a
 
 Package: codeops-semver-range
 Version: 1.0.0-1
@@ -836,7 +836,7 @@ Description: code repository test docs and build utilities - codeops-semver-rang
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-semver-range_1.0.0-1_all.deb
 Size: 8604
-SHA256: 6075742427b289392b56668258f43e2a93fc7c33301d723fdde5895bd0edaed1
+SHA256: 3abfbd8df4c799dbfb1d3ff6c512df4592bf1bbcb8ee7de309b3e42b3fce8a5e
 
 Package: codeops-diff-unified
 Version: 1.0.0-1
@@ -849,8 +849,8 @@ Description: code repository test docs and build utilities - codeops-diff-unifie
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-diff-unified_1.0.0-1_all.deb
-Size: 8602
-SHA256: 12762ecf1febe5ce9ce0f1e5bfd72aba40f41106abcfae60b6c0bddd84ced170
+Size: 8604
+SHA256: 6ab8d443ac5c13f5ba827935a1f6efe03e988f97aebb9f30937d072c24b6303a
 
 Package: codeops-diff-added
 Version: 1.0.0-1
@@ -863,8 +863,8 @@ Description: code repository test docs and build utilities - codeops-diff-added
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-diff-added_1.0.0-1_all.deb
-Size: 8600
-SHA256: e3234dcf961f1147a7054bf6adbb300f0fcc9f0289313b0507655cd19181901f
+Size: 8604
+SHA256: efcba6790d2bb7a28ba3278a643df1408800bf0efc39e79f65d0d003101db3e3
 
 Package: codeops-diff-removed
 Version: 1.0.0-1
@@ -877,8 +877,8 @@ Description: code repository test docs and build utilities - codeops-diff-remove
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-diff-removed_1.0.0-1_all.deb
-Size: 8614
-SHA256: e9e0348a6868ab04fe4ef2f67d0e0671204b3648ed33109cac828ff3a5608e75
+Size: 8606
+SHA256: 1fb8a18e5ae802e9202505e498b40ffc68f49310124a27f3385e34a57d6f0010
 
 Package: codeops-diff-ratio
 Version: 1.0.0-1
@@ -891,8 +891,8 @@ Description: code repository test docs and build utilities - codeops-diff-ratio
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-diff-ratio_1.0.0-1_all.deb
-Size: 8600
-SHA256: 8cfbb0755bdcec4306e7466a3c09d41b98272859930f734217a4bab8ae7088a2
+Size: 8604
+SHA256: 8a80982b717533bba8d45da2c70dc31f8845036d88ecdb527bf84f0bc0bc0e48
 
 Package: codeops-diff-checksum
 Version: 1.0.0-1
@@ -906,7 +906,7 @@ Description: code repository test docs and build utilities - codeops-diff-checks
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-diff-checksum_1.0.0-1_all.deb
 Size: 8604
-SHA256: 237ce1851a70a5b03b61358051b9f66aa9234e98c864e5b791286902da060d22
+SHA256: 26160de02d58186158ad598ec6a5b640511474ce978eabd41e7fe1c710786f41
 
 Package: codeops-diff-json-equal
 Version: 1.0.0-1
@@ -919,8 +919,8 @@ Description: code repository test docs and build utilities - codeops-diff-json-e
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-diff-json-equal_1.0.0-1_all.deb
-Size: 8608
-SHA256: 6844a04e83482b823b28451fcecfc7f2fc1de4615df34c60051bcf4d6ff4cc4d
+Size: 8612
+SHA256: ec6b77eb35b205b8e5f9905a286c11b3929552e97827cabcadc90f914c65f5d1
 
 Package: codeops-diff-word-diff
 Version: 1.0.0-1
@@ -933,8 +933,8 @@ Description: code repository test docs and build utilities - codeops-diff-word-d
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-diff-word-diff_1.0.0-1_all.deb
-Size: 8600
-SHA256: efb09c2736df75cb66daf821e7f86561ab8d58e3abd091ea842c427e50ef3039
+Size: 8604
+SHA256: 8d51a5caf5126eed7f8d2d978b046f8d0fcc6555f0e6273d23b31edf3ba78453
 
 Package: codeops-diff-line-count
 Version: 1.0.0-1
@@ -947,8 +947,8 @@ Description: code repository test docs and build utilities - codeops-diff-line-c
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-diff-line-count_1.0.0-1_all.deb
-Size: 8606
-SHA256: 2760b61b78be1ca33008bcc69b7e2f2e910f0caa95a84e1b33a41861245b4253
+Size: 8608
+SHA256: 646013b18600a668c9939385e28a0e284f3b6e2b07ca606e450416a2deacd75f
 
 Package: codeops-diff-changed
 Version: 1.0.0-1
@@ -962,7 +962,7 @@ Description: code repository test docs and build utilities - codeops-diff-change
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-diff-changed_1.0.0-1_all.deb
 Size: 8600
-SHA256: 5f48e464e4740e12d2adca538f102e7d4dda0efdd5b8641308ccba5f39626847
+SHA256: 9710de2f7815381624ddb484643f17e4376e416dbd48e81373f33be3b3293dd5
 
 Package: codeops-diff-stats
 Version: 1.0.0-1
@@ -975,8 +975,8 @@ Description: code repository test docs and build utilities - codeops-diff-stats
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-diff-stats_1.0.0-1_all.deb
-Size: 8600
-SHA256: 65ef367c352c48e5dbcb32ea655a7fc63488c3b4106911d1e2b6579f26e52b4e
+Size: 8604
+SHA256: b0584a3664f85b12b8f2e130498e600b1814e4fd9b9f9368eeabe02754a57d73
 
 Package: codeops-manifest-files
 Version: 1.0.0-1
@@ -989,8 +989,8 @@ Description: code repository test docs and build utilities - codeops-manifest-fi
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-manifest-files_1.0.0-1_all.deb
-Size: 8600
-SHA256: fc2ee4c2297a79c106d4566a5096e8096d60c0aa6fbf838f4268a3014a8e2b62
+Size: 8604
+SHA256: f744945c3d1700d9d5fb37666003cdfaf3de0c4900c5bc2592f6f21178411832
 
 Package: codeops-manifest-hashes
 Version: 1.0.0-1
@@ -1003,8 +1003,8 @@ Description: code repository test docs and build utilities - codeops-manifest-ha
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-manifest-hashes_1.0.0-1_all.deb
-Size: 8600
-SHA256: dc324db573270c717e0eab8eaf848fa3fbf80d8fac3b8afd6c682d25c8a7eb50
+Size: 8608
+SHA256: 879383a6d26424297835242ad8017687084b02ce638cd217022d3e7db1c3a0f8
 
 Package: codeops-manifest-sizes
 Version: 1.0.0-1
@@ -1017,8 +1017,8 @@ Description: code repository test docs and build utilities - codeops-manifest-si
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-manifest-sizes_1.0.0-1_all.deb
-Size: 8598
-SHA256: 7b91acf7d0ee0fd32c5d543f14c77e4c8923770435f3c0f159bdebf90758e3c7
+Size: 8602
+SHA256: ee2afa3f8ae6da61572b6f55ffbbbd1ba785fa4a52aa8f0cf19090fb9d98f50c
 
 Package: codeops-manifest-executables
 Version: 1.0.0-1
@@ -1031,8 +1031,8 @@ Description: code repository test docs and build utilities - codeops-manifest-ex
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-manifest-executables_1.0.0-1_all.deb
-Size: 8602
-SHA256: 5abeefcc0bcee37e14368926e9852fee074a2babcda41790293aac7d0db54a60
+Size: 8606
+SHA256: c80c1ce8654b37ff8a0fd667074002219218961a595de3edc53b5b6c38bba2f1
 
 Package: codeops-manifest-symlinks
 Version: 1.0.0-1
@@ -1046,7 +1046,7 @@ Description: code repository test docs and build utilities - codeops-manifest-sy
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-manifest-symlinks_1.0.0-1_all.deb
 Size: 8606
-SHA256: 22092df7f5efad2a4e5d0441dcbf00df1b5a5faf02cc386033609b84279c8301
+SHA256: 38adcfaef4b81852ef13ec7a975a56e3e880955cf2ea111b34dbb120a9124276
 
 Package: codeops-manifest-extensions
 Version: 1.0.0-1
@@ -1059,8 +1059,8 @@ Description: code repository test docs and build utilities - codeops-manifest-ex
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-manifest-extensions_1.0.0-1_all.deb
-Size: 8604
-SHA256: c5884c1ccb791c01e0ed932489543531c92ff5b947f16ec252b88696f01696f8
+Size: 8608
+SHA256: 6104da6f28bdbe2acc8c6c91a65f8107a0c95dced8376f5a792fdda1341f89aa
 
 Package: codeops-manifest-json
 Version: 1.0.0-1
@@ -1073,8 +1073,8 @@ Description: code repository test docs and build utilities - codeops-manifest-js
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-manifest-json_1.0.0-1_all.deb
-Size: 8598
-SHA256: 25a1355fc348a999c243a5f28912fc14bf72ab36198b3c662de03f2ffea7a8a8
+Size: 8604
+SHA256: 95bd92cada34b3a4f5617c03ac6f60b79b9f49221a0cd1066b13628d7e508bd1
 
 Package: codeops-manifest-verify
 Version: 1.0.0-1
@@ -1087,8 +1087,8 @@ Description: code repository test docs and build utilities - codeops-manifest-ve
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-manifest-verify_1.0.0-1_all.deb
-Size: 8604
-SHA256: 01f6824b3d30d01e2bee3f049966f84e3d6b267ef2ce5a4dec8b9b6b17e1f1ab
+Size: 8606
+SHA256: 4e4a41ab1958c53877a019e28f5443a8f46f8d0915d0e7c40fc96752ad561d72
 
 Package: codeops-manifest-compare
 Version: 1.0.0-1
@@ -1101,8 +1101,8 @@ Description: code repository test docs and build utilities - codeops-manifest-co
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-manifest-compare_1.0.0-1_all.deb
-Size: 8602
-SHA256: d1663fe538dfa3956c29889d51d05c0300a71c5145ecb5dfc0b18b0b1744a001
+Size: 8608
+SHA256: 4eff3bd16f1d28cf7e6fc0a8c6c3168654399555424108528c76107753f17482
 
 Package: codeops-manifest-stats
 Version: 1.0.0-1
@@ -1115,8 +1115,8 @@ Description: code repository test docs and build utilities - codeops-manifest-st
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-manifest-stats_1.0.0-1_all.deb
-Size: 8602
-SHA256: 183708fdf83737fb57a3ce776c08e0b26fe8910fad6aaa55afe37a4abdd33b6d
+Size: 8606
+SHA256: 9be2094a38051ec106ff663c868f55cce708e9715563f209d602282312fba246
 
 Package: codeops-archive-names
 Version: 1.0.0-1
@@ -1129,8 +1129,8 @@ Description: code repository test docs and build utilities - codeops-archive-nam
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-archive-names_1.0.0-1_all.deb
-Size: 8606
-SHA256: b84d71ea350387f0b7e5ed740a51f09e01135b7e5520c93bb20c48f4ec35cf9e
+Size: 8610
+SHA256: 76de68c99a0e086efff174cf9219aa36f53deada802a9013995fc6688f72b8d8
 
 Package: codeops-archive-format
 Version: 1.0.0-1
@@ -1143,8 +1143,8 @@ Description: code repository test docs and build utilities - codeops-archive-for
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-archive-format_1.0.0-1_all.deb
-Size: 8600
-SHA256: 8f08b49e666c48284824d848670773cfd1171392c14a9548c6a96f4db838b342
+Size: 8608
+SHA256: bd5bad371260b0afd16b312185f843256b08678ea7ec03e7bb155d7443fadd0c
 
 Package: codeops-archive-test
 Version: 1.0.0-1
@@ -1158,7 +1158,7 @@ Description: code repository test docs and build utilities - codeops-archive-tes
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-archive-test_1.0.0-1_all.deb
 Size: 8596
-SHA256: 472e81471d4f04ab2dd059b02cdadee464af2246a84726ee9883e1308357cc3c
+SHA256: 48218c49f5dbfb1fb4491089d6ceccc97240fd71c585d734f0ed48bf577a3003
 
 Package: codeops-archive-unsafe
 Version: 1.0.0-1
@@ -1171,8 +1171,8 @@ Description: code repository test docs and build utilities - codeops-archive-uns
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-archive-unsafe_1.0.0-1_all.deb
-Size: 8604
-SHA256: fa19ba873f286c6dcd9c105ab568da4e3f75d3cab70cd67e085d308d4b8edf82
+Size: 8608
+SHA256: ee71eb391486c9a31db08c6e3dc54e3560accca643a3fb2fd9d5c29584204cb6
 
 Package: codeops-archive-duplicates
 Version: 1.0.0-1
@@ -1185,8 +1185,8 @@ Description: code repository test docs and build utilities - codeops-archive-dup
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-archive-duplicates_1.0.0-1_all.deb
-Size: 8610
-SHA256: dc0555a8926751e457db20ed9b5f39282c5db4224e5983f761685bc56a137cb7
+Size: 8614
+SHA256: 668ecf3f9b084dd99bebcbae2a20dab2adb0f315b6ce6fcc772407d7ee8c0f12
 
 Package: codeops-archive-entries
 Version: 1.0.0-1
@@ -1199,8 +1199,8 @@ Description: code repository test docs and build utilities - codeops-archive-ent
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-archive-entries_1.0.0-1_all.deb
-Size: 8606
-SHA256: de7a281bb5c410203a2d410b1322767638a63e4c932040c9bf96aaf7472cebbe
+Size: 8608
+SHA256: 9a5f839fa96b059885a22a726d4f680dc590277967e9339a1b1c397ba90e8e5a
 
 Package: codeops-archive-compressed-size
 Version: 1.0.0-1
@@ -1213,8 +1213,8 @@ Description: code repository test docs and build utilities - codeops-archive-com
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-archive-compressed-size_1.0.0-1_all.deb
-Size: 8614
-SHA256: fd3756950f95a7281ac5a36f6be168b0f66e9fb1a1768a8d30176d5d13e58f97
+Size: 8622
+SHA256: 23a7f5aa909e9d7528602bebb899249867efbacf96a94bbe91cb67ce4fccfd53
 
 Package: codeops-archive-raw-size
 Version: 1.0.0-1
@@ -1227,8 +1227,8 @@ Description: code repository test docs and build utilities - codeops-archive-raw
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-archive-raw-size_1.0.0-1_all.deb
-Size: 8604
-SHA256: 0ac72feb990938e431c6a77619519b153378f59500139da471b3e85813b43d57
+Size: 8610
+SHA256: e35abe5bc777529419e84547d0f4baf31ffbbe95b001dbb2fa367b33d15716e3
 
 Package: codeops-archive-ratio
 Version: 1.0.0-1
@@ -1241,8 +1241,8 @@ Description: code repository test docs and build utilities - codeops-archive-rat
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-archive-ratio_1.0.0-1_all.deb
-Size: 8602
-SHA256: b3d25f20e93d9a94fbd8e43b9daec47a07dc0e146277e84f27d4e822a72fb215
+Size: 8608
+SHA256: 395cb4d3c30eedb7c63fb16358d0205eddae94594bafe22dc32017fa83b87a40
 
 Package: codeops-archive-stats
 Version: 1.0.0-1
@@ -1255,8 +1255,8 @@ Description: code repository test docs and build utilities - codeops-archive-sta
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-archive-stats_1.0.0-1_all.deb
-Size: 8600
-SHA256: 71780d9494658ef3ebf32a2f9511e79ac3db9cc203a719d5d77bd312d50210d6
+Size: 8606
+SHA256: 5949283e05d1b367d287a6c9f40a3141cb97f2adcccc484c16502033dd14e92b
 
 Package: codeops-git-branch
 Version: 1.0.0-1
@@ -1269,8 +1269,8 @@ Description: code repository test docs and build utilities - codeops-git-branch
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-git-branch_1.0.0-1_all.deb
-Size: 8596
-SHA256: a58c617940a9d4a4710be9aef3235ba2eec55aa441913ae351ec651ec582f555
+Size: 8602
+SHA256: 9fc3d871ee391aa2d9682141ec06dfa3ab369a20d010a4305e98496b992c848c
 
 Package: codeops-git-head
 Version: 1.0.0-1
@@ -1283,8 +1283,8 @@ Description: code repository test docs and build utilities - codeops-git-head
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-git-head_1.0.0-1_all.deb
-Size: 8602
-SHA256: 262169e15b0020e1a7a194b7c106eecb6057b3cbb283a4afb85d4b804c55b87e
+Size: 8610
+SHA256: 4fe5d7ef5ee2f49b31659d5f4549b7fcb3af888849f847e798c37eb1556da09b
 
 Package: codeops-git-root
 Version: 1.0.0-1
@@ -1297,8 +1297,8 @@ Description: code repository test docs and build utilities - codeops-git-root
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-git-root_1.0.0-1_all.deb
-Size: 8602
-SHA256: 2ac20b798acdc17700e9d5a00843207e3f93a78cc71985489fb72540d640c646
+Size: 8610
+SHA256: a8054609add2a9784abf5e6cc8b18641c4166e5366b88a51f00a453507d48d7c
 
 Package: codeops-git-status
 Version: 1.0.0-1
@@ -1311,8 +1311,8 @@ Description: code repository test docs and build utilities - codeops-git-status
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-git-status_1.0.0-1_all.deb
-Size: 8602
-SHA256: 0a9add99e7b8a3b4d60ccbb2889b1c866069ffc85ae03f558e5b1db7071b3e89
+Size: 8606
+SHA256: 5bb69766e5fc758adcf1b605eed3a7fe153ca21d40dc90366c45ffbdc8ec40a4
 
 Package: codeops-git-tracked
 Version: 1.0.0-1
@@ -1325,8 +1325,8 @@ Description: code repository test docs and build utilities - codeops-git-tracked
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-git-tracked_1.0.0-1_all.deb
-Size: 8604
-SHA256: fef7530f23d2713a7f0466114c5901519f3ba3e7e81fb5cdc99f8354108fd7da
+Size: 8608
+SHA256: d80e16b7851621dee396cb4ecf635627c4eaa9dcf5b70171b11f13e4cc5081a6
 
 Package: codeops-git-untracked
 Version: 1.0.0-1
@@ -1339,8 +1339,8 @@ Description: code repository test docs and build utilities - codeops-git-untrack
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-git-untracked_1.0.0-1_all.deb
-Size: 8608
-SHA256: ab8fd2eafc2f747f05fc3a8177721b5ae323919d2f5a19597f574d59e814a219
+Size: 8612
+SHA256: 4faf7ba6add070cee4e4dcb23e060cddef2be9e64495ec73d7503df9a8cb4109
 
 Package: codeops-git-changed
 Version: 1.0.0-1
@@ -1353,8 +1353,8 @@ Description: code repository test docs and build utilities - codeops-git-changed
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-git-changed_1.0.0-1_all.deb
-Size: 8604
-SHA256: 1be1da4c6ded66990423642561ceaf43b2e46405f8a2a031e654e27d808ec18c
+Size: 8610
+SHA256: 16a1e5bf66c81933bbba642138e2886bc26f333f581becf9951b0ff9d850ebe9
 
 Package: codeops-git-tags
 Version: 1.0.0-1
@@ -1367,8 +1367,8 @@ Description: code repository test docs and build utilities - codeops-git-tags
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-git-tags_1.0.0-1_all.deb
-Size: 8600
-SHA256: 2198176d10a0bcda0e18f837270805ea6b74cbfc10c63f306433b3587e5fd2ba
+Size: 8612
+SHA256: e9b140a986c45b973006caea000b19a1e57a67cc459b5be9c3596c9deac11996
 
 Package: codeops-git-remotes
 Version: 1.0.0-1
@@ -1381,8 +1381,8 @@ Description: code repository test docs and build utilities - codeops-git-remotes
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-git-remotes_1.0.0-1_all.deb
-Size: 8602
-SHA256: f24f2d08e83ba0a231eb03e1a36e1dbf45b47ee07c11d758ada00981f715b541
+Size: 8608
+SHA256: 0438351f6451fc92d81fa2881bd122929eb281cc1ff5fce698d4b2b84df94ed6
 
 Package: codeops-git-stats
 Version: 1.0.0-1
@@ -1395,8 +1395,8 @@ Description: code repository test docs and build utilities - codeops-git-stats
  Functional self-contained Ocean utility implemented with Python standard library.
  No network access occurs during apt installation.
 Filename: staging/shard-50/pool/main/codeops-git-stats_1.0.0-1_all.deb
-Size: 8602
-SHA256: 571529822aefe33100cc4bb0e024b6ccd24fc2794c64d6c1dbdd01d061a5255b
+Size: 8610
+SHA256: e95d575b954288eca264e37797dea8aa27275352e0ea15d16c5b2fb240972ac9
 
 Package: code-repo-automation-suite
 Version: 1.0.0-1
@@ -1409,4 +1409,4 @@ Description: Ocean code repository test docs and build utilities suite
  Meta-package installing the complete Ocean utility shard.
 Filename: staging/shard-50/pool/main/code-repo-automation-suite_1.0.0-1_all.deb
 Size: 1146
-SHA256: deaee8095616a8b6675a7a2f9a20d9d2e7e666a942c45c2d1ba327974c0febae
+SHA256: 9386bf2f5da1fd95f083613c88a9f931c711636a336f3400630195d9864973b6

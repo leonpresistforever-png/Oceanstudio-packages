@@ -8,5 +8,5 @@ Depends: ai-rag-data-suite (= 1.0.0-1), code-repo-automation-suite (= 1.0.0-1), 
 Description: Ocean intelligence code automation and observability superpack
  Meta-package installing the complete Ocean utility shard.
 Filename: staging/intelligence-superpack/pool/main/ocean-intelligence-toolkit_1.0.0-1_all.deb
-Size: 620
-SHA256: 35063404e412fa0d1577233b9fbf5cdde014b84e36614cbe078e88084fd45381
+Size: 622
+SHA256: ab3732c1ca907e879d71c54410340c831f30e69ccd614bf079055ac2ab5d17a6
