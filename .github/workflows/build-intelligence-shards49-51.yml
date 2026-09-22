@@ -1,0 +1,227 @@
+name: Build intelligence shards 49 50 51
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/build-intelligence-shards49-51.py'
+      - '.github/workflows/build-intelligence-shards49-51.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: intelligence-shards49-51
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Checkout build surface
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /scripts/build-intelligence-shards49-51.py
+            /scripts/index_all_staged.py
+            /apt/dists/stable/main/binary-aarch64/Packages
+            /apt/dists/stable/main/binary-aarch64/Packages.gz
+            /apt/dists/stable/Release
+            /apt/dists/stable/InRelease
+            /apt/dists/stable/Release.gpg
+            /apt/ocean.gpg
+            /staging/shard-49/
+            /staging/shard-50/
+            /staging/shard-51/
+            /staging/intelligence-superpack/
+            /.github/workflows/build-intelligence-shards49-51.yml
+
+      - name: Install build tools
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          sudo apt-get install -y dpkg-dev gnupg
+
+      - name: Validate catalog and repo collisions
+        run: |
+          set -euo pipefail
+          python3 -m py_compile scripts/build-intelligence-shards49-51.py
+          python3 - <<'PY'
+          import importlib.util,re,subprocess
+          from pathlib import Path
+          p=Path("scripts/build-intelligence-shards49-51.py")
+          s=importlib.util.spec_from_file_location("intel",p)
+          m=importlib.util.module_from_spec(s);s.loader.exec_module(m)
+          cats=[]
+          for n in ("49","50","51"):
+              groups,prefix,*_=m.SHARDS[n]
+              c=m.cat(groups,prefix)
+              assert len(c)==100 and len(set(c))==100
+              cats += list(c)
+          assert len(cats)==300 and len(set(cats))==300
+          required={"airag-vector-cosine","airag-rag-rank","airag-jsonl-split","codeops-python-complexity","codeops-project-detect","codeops-git-stats","netobs-http-latency","netobs-jsonrpc-request","netobs-metric-p95","netobs-trace-make-parent"}
+          assert required <= set(cats)
+          paths=subprocess.check_output(["git","ls-tree","-r","--name-only","HEAD"],text=True).splitlines()
+          skip=("staging/shard-49/","staging/shard-50/","staging/shard-51/","staging/intelligence-superpack/")
+          existing={Path(x).name.split("_",1)[0] for x in paths if x.endswith(".deb") and not x.startswith(skip)}
+          all_new=set(cats)|{"ai-rag-data-suite","code-repo-automation-suite","network-observability-suite","ocean-intelligence-toolkit"}
+          col=sorted(all_new&existing)
+          assert not col, "repo-wide collisions: "+", ".join(col)
+          live_text=Path("apt/dists/stable/main/binary-aarch64/Packages").read_text(errors="replace")
+          live=set(re.findall(r"^Package:\s*(\S+)",live_text,re.M))
+          assert {"python","git"} <= live
+          print("PASS: exactly 300 new commands plus 4 meta packages")
+          print("LIVE_BASELINE",len(live))
+          PY
+          grep -c '^Package:' apt/dists/stable/main/binary-aarch64/Packages > /tmp/ocean-before-count
+
+      - name: Build 304 packages
+        run: |
+          set -euo pipefail
+          python3 scripts/build-intelligence-shards49-51.py
+          test "$(find staging/shard-49/pool/main -name '*.deb' -type f | wc -l)" -eq 101
+          test "$(find staging/shard-50/pool/main -name '*.deb' -type f | wc -l)" -eq 101
+          test "$(find staging/shard-51/pool/main -name '*.deb' -type f | wc -l)" -eq 101
+          test "$(find staging/intelligence-superpack/pool/main -name '*.deb' -type f | wc -l)" -eq 1
+
+      - name: Audit package integrity and provenance
+        run: |
+          set -euo pipefail
+          while IFS= read -r deb; do
+            dpkg-deb --info "$deb" >/dev/null
+            tmp="$(mktemp -d)"
+            dpkg-deb -e "$deb" "$tmp"
+            test ! -e "$tmp/preinst"
+            test ! -e "$tmp/postinst"
+            test ! -e "$tmp/prerm"
+            test ! -e "$tmp/postrm"
+            rm -rf "$tmp"
+          done < <(find staging/shard-49 staging/shard-50 staging/shard-51 staging/intelligence-superpack -name '*.deb' -type f | sort)
+
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          names=[];total=0
+          for n in ("49","50","51"):
+              d=json.loads(Path(f"staging/shard-{n}/provenance.json").read_text())
+              assert d["commandCount"]==100 and d["packageCount"]==101
+              assert d["networkAtAptInstall"] is False and d["rootRequired"] is False
+              assert "self-contained" in d["implementation"]
+              names += [x["package"] for x in d["packages"]]
+              total += d["packageCount"]
+          s=json.loads(Path("staging/intelligence-superpack/provenance.json").read_text())
+          assert total+1==304 and len(names)==303 and len(set(names))==303
+          assert s["commandCount"]==300 and s["totalNewPackages"]==304
+          print("PASS: 304 package identities and provenance verified")
+          PY
+
+      - name: Smoke test representative functionality
+        run: |
+          set -euo pipefail
+          root="$(mktemp -d)"
+          dpkg-deb -x staging/shard-49/pool/main/airag-vector-cosine_1.0.0-1_all.deb "$root"
+          ln -s "$(command -v python3)" "$root/data/data/studio.ocean.app/files/usr/bin/python"
+          PREFIX="$root/data/data/studio.ocean.app/files/usr" /bin/sh "$root/data/data/studio.ocean.app/files/usr/bin/airag-vector-cosine" '[1,0]' '[1,0]' | grep -q '1'
+          rm -rf "$root"
+
+          root="$(mktemp -d)"
+          dpkg-deb -x staging/shard-50/pool/main/codeops-python-functions_1.0.0-1_all.deb "$root"
+          ln -s "$(command -v python3)" "$root/data/data/studio.ocean.app/files/usr/bin/python"
+          printf 'def hello():\n  return 1\n' > "$root/t.py"
+          PREFIX="$root/data/data/studio.ocean.app/files/usr" /bin/sh "$root/data/data/studio.ocean.app/files/usr/bin/codeops-python-functions" "$root/t.py" | grep -q 'hello'
+          rm -rf "$root"
+
+          root="$(mktemp -d)"
+          dpkg-deb -x staging/shard-51/pool/main/netobs-metric-p95_1.0.0-1_all.deb "$root"
+          ln -s "$(command -v python3)" "$root/data/data/studio.ocean.app/files/usr/bin/python"
+          PREFIX="$root/data/data/studio.ocean.app/files/usr" /bin/sh "$root/data/data/studio.ocean.app/files/usr/bin/netobs-metric-p95" '[1,2,3,4,5]' | grep -Eq '4|5'
+          rm -rf "$root"
+          echo "PASS: AI/RAG, code analysis and observability commands execute"
+
+      - name: Commit audited staging layer
+        run: |
+          set -euo pipefail
+          git config user.name "Ocean Intelligence Builder"
+          git config user.email "packages@ocean.studio"
+          git add staging/shard-49 staging/shard-50 staging/shard-51 staging/intelligence-superpack
+          if ! git diff --cached --quiet; then
+            git commit -m "feat(shards49-51): stage 304 functional intelligence packages [skip ci]"
+            for attempt in 1 2 3 4 5; do
+              git pull --rebase origin main
+              if git push origin HEAD:main; then break; fi
+              test "$attempt" -lt 5
+              sleep $((attempt*2))
+            done
+          fi
+
+      - name: Check trusted signing key
+        env:
+          OCEAN_REPOSITORY_SIGNING_KEY: \${{ secrets.OCEAN_REPOSITORY_SIGNING_KEY }}
+        run: |
+          set -euo pipefail
+          if [ -z "$OCEAN_REPOSITORY_SIGNING_KEY" ]; then
+            echo "CAN_SIGN=0" >> "$GITHUB_ENV"
+            echo "Trusted signing key unavailable: packages remain safely staged."
+            exit 0
+          fi
+          EXPECTED="$(gpg --batch --show-keys --with-colons apt/ocean.gpg 2>/dev/null | awk -F: '$1=="fpr"{print $10;exit}')"
+          test -n "$EXPECTED"
+          printf '%s\n' "$OCEAN_REPOSITORY_SIGNING_KEY" | gpg --batch --import
+          ACTUAL="$(gpg --batch --list-secret-keys --with-colons 2>/dev/null | awk -F: '$1=="fpr"{print $10;exit}')"
+          [ "$ACTUAL" = "$EXPECTED" ] || { echo "Signing fingerprint mismatch" >&2; exit 1; }
+          echo "OCEAN_SIGNING_FINGERPRINT=$EXPECTED" >> "$GITHUB_ENV"
+          echo "CAN_SIGN=1" >> "$GITHUB_ENV"
+
+      - name: Promote all staged packages into canonical APT
+        if: env.CAN_SIGN == '1'
+        run: |
+          set -euo pipefail
+          python3 scripts/index_all_staged.py
+          after="$(grep -c '^Package:' apt/dists/stable/main/binary-aarch64/Packages)"
+          test "$(grep '^Package:' apt/dists/stable/main/binary-aarch64/Packages | sort -u | wc -l)" -eq "$after"
+          for p in airag-vector-cosine airag-rag-rank codeops-python-complexity codeops-git-stats netobs-http-latency netobs-metric-p95 ocean-intelligence-toolkit; do
+            grep -qx "Package: $p" apt/dists/stable/main/binary-aarch64/Packages
+          done
+          echo "LIVE_PACKAGE_COUNT=$after" >> "$GITHUB_ENV"
+
+      - name: Sign and verify repository metadata
+        if: env.CAN_SIGN == '1'
+        run: |
+          set -euo pipefail
+          RELEASE=apt/dists/stable/Release
+          gpg --batch --yes --local-user "$OCEAN_SIGNING_FINGERPRINT" --digest-algo SHA256 --clearsign --output apt/dists/stable/InRelease "$RELEASE"
+          gpg --batch --yes --local-user "$OCEAN_SIGNING_FINGERPRINT" --digest-algo SHA256 --detach-sign --output apt/dists/stable/Release.gpg "$RELEASE"
+          gpgv --keyring apt/ocean.gpg apt/dists/stable/InRelease
+          gpgv --keyring apt/ocean.gpg apt/dists/stable/Release.gpg "$RELEASE"
+
+      - name: Commit live APT promotion
+        if: env.CAN_SIGN == '1'
+        run: |
+          set -euo pipefail
+          git add -f apt/pool/main
+          git add apt/dists/stable/main/binary-aarch64/Packages apt/dists/stable/main/binary-aarch64/Packages.gz
+          git add apt/dists/stable/Release apt/dists/stable/InRelease apt/dists/stable/Release.gpg
+          git commit -m "feat(repo): promote intelligence shards 49-51 live ($LIVE_PACKAGE_COUNT packages) [skip ci]"
+          for attempt in 1 2 3 4 5; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then exit 0; fi
+            test "$attempt" -lt 5
+            sleep $((attempt*2))
+          done
+          exit 1
+
+      - name: Report
+        run: |
+          set -euo pipefail
+          if [ "$CAN_SIGN" = "1" ]; then
+            echo "304 intelligence packages built, audited, signed and promoted live."
+            echo "Live package count: $LIVE_PACKAGE_COUNT"
+          else
+            echo "304 intelligence packages built, audited and committed to staging."
+            echo "Live promotion skipped because the trusted signing key is unavailable."
+          fi
