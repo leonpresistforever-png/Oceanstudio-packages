@@ -53,7 +53,7 @@ jobs:
           set -euo pipefail
           test -f apt/dists/stable/main/binary-aarch64/Packages
           grep -q '^Package: bash$' apt/dists/stable/main/binary-aarch64/Packages
-          ! grep -q '^Package: ocean-glibc$' apt/dists/stable/main/binary-aarch64/Packages
+          git diff --exit-code -- apt/dists/stable apt/pool
           echo "Live signed APT index intentionally unchanged."
 
       - name: Commit verified staged glibc family
