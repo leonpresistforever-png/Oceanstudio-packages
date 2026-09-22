@@ -1,0 +1,12 @@
+Package: ocean-multiplier-superpack
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: metapackages
+Priority: optional
+Depends: agent-mcp-multiplier-suite (= 1.0.0-1), developer-tool-multiplier-suite (= 1.0.0-1), portable-utility-multiplier-suite (= 1.0.0-1)
+Description: Ocean multiplier superpack
+ Installs the complete Ocean multiplier capability set.
+Filename: staging/multiplier-superpack/pool/main/ocean-multiplier-superpack_1.0.0-1_all.deb
+Size: 594
+SHA256: fdeb41987a3828196d6c79a71ce78c29cf76b5b5c9f189e001b539ab56faf89d

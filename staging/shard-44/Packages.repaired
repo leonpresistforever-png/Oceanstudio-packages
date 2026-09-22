@@ -1,0 +1,1312 @@
+Package: devx-git-status
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-git-status)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-git-status_1.0.0-1_all.deb
+Size: 790
+SHA256: afafeebb3824f408ef8f5f1198dff24da942aae02da687f528edc5ee5ef9e3f2
+
+Package: devx-git-log
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-git-log)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-git-log_1.0.0-1_all.deb
+Size: 786
+SHA256: a8f946e4fbc66921d7ae275bf8ef29cb7580c57b7f37610b2dee5df2ac1320d0
+
+Package: devx-git-diff
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-git-diff)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-git-diff_1.0.0-1_all.deb
+Size: 788
+SHA256: 03e5e64d37a5d6fc488bd9c27ca471898b0d8758a4e73109532842a7e288b430
+
+Package: devx-git-branch
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-git-branch)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-git-branch_1.0.0-1_all.deb
+Size: 792
+SHA256: 00cb93912887da7767acdca4042654746860157730d57fe6f5d2a0cbf045e21d
+
+Package: devx-git-remote
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-git-remote)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-git-remote_1.0.0-1_all.deb
+Size: 790
+SHA256: ac23116d28bc70ce3d57496e22de31b3e32b6601326814ae6ba259a155ac8299
+
+Package: devx-git-tag
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-git-tag)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-git-tag_1.0.0-1_all.deb
+Size: 784
+SHA256: 037bb00636f3625fce6e70152ed245e0fc8cfd1b3f2e57c7833ba9a557f7eba7
+
+Package: devx-git-grep
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-git-grep)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-git-grep_1.0.0-1_all.deb
+Size: 786
+SHA256: 1a1aeadaefc7dbb402abc46cdc76fc81bd2b852c09c551a8049e84afc62efddc
+
+Package: devx-git-show
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-git-show)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-git-show_1.0.0-1_all.deb
+Size: 786
+SHA256: ccdf24959f9a9aca64432c9942e35e8c53d232b7e8258e6c480391eb04a69c34
+
+Package: devx-git-ls-files
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-git-ls-files)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-git-ls-files_1.0.0-1_all.deb
+Size: 790
+SHA256: a9e1c07ec40f9e3498b8b2c1b8cd54c57c5b215686c5c0c73bd4ef5b53709b92
+
+Package: devx-git-clean-dryrun
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-git-clean-dryrun)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-git-clean-dryrun_1.0.0-1_all.deb
+Size: 804
+SHA256: 66f09ba5e5d2b22b6aa68877669757bfffa3097620cceba938a8a6b214d25b04
+
+Package: devx-curl-head
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-curl-head)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-curl-head_1.0.0-1_all.deb
+Size: 788
+SHA256: 9817ff9592678d1e34de694a384d47d98e5e7087188a9bcfb848f048c5847ace
+
+Package: devx-curl-follow
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-curl-follow)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-curl-follow_1.0.0-1_all.deb
+Size: 788
+SHA256: 3b5914ecfeabc64fba7d1569b7fc4a0d6404856986f1615129a5116d61c1da5d
+
+Package: devx-curl-download
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-curl-download)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-curl-download_1.0.0-1_all.deb
+Size: 796
+SHA256: a9642133da14485485e4f95e48b3e55bd4afbd4f95b287e8a5e638e8dfd01ddd
+
+Package: devx-curl-json
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-curl-json)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-curl-json_1.0.0-1_all.deb
+Size: 808
+SHA256: 072bc3e28c8550a442d048df03e464b0d18fda991d44bb2ea8e19512eaac6c00
+
+Package: devx-curl-verbose
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-curl-verbose)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-curl-verbose_1.0.0-1_all.deb
+Size: 792
+SHA256: 3e797981b5bd68b99931f304172aceccfad6a07064efde4d89ba63bb4811157c
+
+Package: devx-curl-compressed
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-curl-compressed)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-curl-compressed_1.0.0-1_all.deb
+Size: 796
+SHA256: 0965fb312340f9ca8f2e5d8787a7d7700c92c566acc86f88b62231ab4051dfa2
+
+Package: devx-curl-headers
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-curl-headers)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-curl-headers_1.0.0-1_all.deb
+Size: 794
+SHA256: 296e2bef85bdf73e3b1b74fa284334e39124085edcc93271f83d6375963fab3b
+
+Package: devx-curl-http2
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-curl-http2)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-curl-http2_1.0.0-1_all.deb
+Size: 790
+SHA256: 0ab802ac8baf99fe0c32dcf4a9f7d4ecb778d9c037a97bdc427050cec88ff8a3
+
+Package: devx-curl-fail
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-curl-fail)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-curl-fail_1.0.0-1_all.deb
+Size: 796
+SHA256: 82d9304025e010680247af97ab43122309f516263aea5447377cf702d0349a2f
+
+Package: devx-curl-silent
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-curl-silent)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-curl-silent_1.0.0-1_all.deb
+Size: 790
+SHA256: e5c80fe033439b7a132a43a244fe82d2db1554d93cd7967432f127416a9c22b4
+
+Package: devx-jq-pretty
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-jq-pretty)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-jq-pretty_1.0.0-1_all.deb
+Size: 786
+SHA256: 5b9f61e5ac48cb5518cace39b76258977c3e7d69f8becaae03c61768034f9646
+
+Package: devx-jq-compact
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-jq-compact)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-jq-compact_1.0.0-1_all.deb
+Size: 794
+SHA256: 75f5edb8def1e6c586f28a436ddb44f5dc96d2822532b30d26cffe0413bdcf71
+
+Package: devx-jq-sort-keys
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-jq-sort-keys)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-jq-sort-keys_1.0.0-1_all.deb
+Size: 800
+SHA256: 983f9ee69ddeba03b6b9e3153fda045c25f601a7881c6851dd284a188fb77895
+
+Package: devx-jq-slurp
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-jq-slurp)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-jq-slurp_1.0.0-1_all.deb
+Size: 790
+SHA256: ad08cc45a1a12ddcf1f9651f630c6a87ddcfdc030c81e2279f8d01760402f10a
+
+Package: devx-jq-raw
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-jq-raw)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-jq-raw_1.0.0-1_all.deb
+Size: 784
+SHA256: 1af97430767fbff97deb10bdb965a57ede7b86d25c11a6c41186b8d01857a210
+
+Package: devx-jq-keys
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-jq-keys)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-jq-keys_1.0.0-1_all.deb
+Size: 788
+SHA256: 0c3e6bd12759abae57b01ffd10a05d1c7095b0d1ab15e9df13ef11ba7871fc45
+
+Package: devx-jq-length
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-jq-length)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-jq-length_1.0.0-1_all.deb
+Size: 790
+SHA256: 096e30335f316072578aac75b6cb2da789104ed38b6f913f42d06abf58ba8c45
+
+Package: devx-jq-type
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-jq-type)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-jq-type_1.0.0-1_all.deb
+Size: 788
+SHA256: 854854cb84eb8a28057657ca78bb492a2d54c37b7f278fcf418f24c71f056eff
+
+Package: devx-jq-paths
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-jq-paths)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-jq-paths_1.0.0-1_all.deb
+Size: 788
+SHA256: 95b3a03f20fe5898525a11f7343b223c1bd040dcf4bbd8104ab5877b7c23e2b1
+
+Package: devx-jq-empty
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-jq-empty)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-jq-empty_1.0.0-1_all.deb
+Size: 788
+SHA256: 389d503b806d3a7b4987ea50544a3b6c7a125452076c7416bce21cfafdce6697
+
+Package: devx-openssl-version
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-openssl-version)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-openssl-version_1.0.0-1_all.deb
+Size: 794
+SHA256: b77fc0467890c53d3e277cfe1385a9cf6c2fb98aab501be06ac0d7cba6ab7d8c
+
+Package: devx-openssl-rand
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-openssl-rand)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-openssl-rand_1.0.0-1_all.deb
+Size: 792
+SHA256: 8d701c8695069e20446c0c2ba5b0739afaf5465223c1aba9e74db92730196f33
+
+Package: devx-openssl-sha256
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-openssl-sha256)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-openssl-sha256_1.0.0-1_all.deb
+Size: 802
+SHA256: 2a2d53c9ce9e97df7f55e5a020ff84b4eb0f1201163feda44a4eb06ea85ae0d0
+
+Package: devx-openssl-sha512
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-openssl-sha512)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-openssl-sha512_1.0.0-1_all.deb
+Size: 800
+SHA256: c5130c64dd3b9cbf8d6743ed654e11d42785ac330811f8f32ebd3e89f656240a
+
+Package: devx-openssl-base64
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-openssl-base64)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-openssl-base64_1.0.0-1_all.deb
+Size: 792
+SHA256: 8301fe4dba95cab94aa3c3dfc676a7ade3b3b19f6d2c7eb3c7b7eb626f984e46
+
+Package: devx-openssl-x509-text
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-openssl-x509-text)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-openssl-x509-text_1.0.0-1_all.deb
+Size: 812
+SHA256: 1333b05f236acf0d6d8bac333b851c8eefed7aecf7b40b90f72c973c0207bf25
+
+Package: devx-openssl-s-client
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-openssl-s-client)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-openssl-s-client_1.0.0-1_all.deb
+Size: 798
+SHA256: 460c9b20dd653aff31761a8b55b3e660a1b11bd2e11fd1b5928cb6c2269a9d8e
+
+Package: devx-openssl-ciphers
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-openssl-ciphers)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-openssl-ciphers_1.0.0-1_all.deb
+Size: 796
+SHA256: 0bfaf0d7c7208d52959b84028f962126a73dfb2c9268c1d6e82b5ed8fba1424a
+
+Package: devx-openssl-speed
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-openssl-speed)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-openssl-speed_1.0.0-1_all.deb
+Size: 792
+SHA256: 8c8a699a7a999b2262653ec12bf0b3dbb60c8b6d01371cde6ae4b262c756daa8
+
+Package: devx-openssl-pkey
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-openssl-pkey)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-openssl-pkey_1.0.0-1_all.deb
+Size: 802
+SHA256: 6910be46e61adc378e4065b8cbb5ce2b8987834abb603a4bc3811516952ba98a
+
+Package: devx-sqlite-version
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-sqlite-version)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-sqlite-version_1.0.0-1_all.deb
+Size: 798
+SHA256: dc1b6161ba3846ec830b0dcbb12ddfd48db4029d4ceb9cb8fe8285e688fc7beb
+
+Package: devx-sqlite-schema
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-sqlite-schema)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-sqlite-schema_1.0.0-1_all.deb
+Size: 802
+SHA256: 248b988ba9c2c1e172656812845aef7295cb219f40497b8601e3281582effc2b
+
+Package: devx-sqlite-tables
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-sqlite-tables)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-sqlite-tables_1.0.0-1_all.deb
+Size: 802
+SHA256: 5140e17a6ec1cfee49f2abb7b7a469d3cf215e34b6bca13ed3767debe0e82e34
+
+Package: devx-sqlite-dump
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-sqlite-dump)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-sqlite-dump_1.0.0-1_all.deb
+Size: 794
+SHA256: 45daa1e8ebeb359982caf9a5d79c464edddbfda31e1fe418f4744f04712bf6c8
+
+Package: devx-sqlite-integrity
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-sqlite-integrity)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-sqlite-integrity_1.0.0-1_all.deb
+Size: 818
+SHA256: a4b7aa2fa652ec5ef410167898fd11a151b37cf95db225154e149898592c5e0f
+
+Package: devx-sqlite-indexes
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-sqlite-indexes)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-sqlite-indexes_1.0.0-1_all.deb
+Size: 798
+SHA256: 1b87ac4112f702e554ceb1a552ebf368caa28120f75be0486d6c0916dcf7a9b6
+
+Package: devx-sqlite-dbinfo
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-sqlite-dbinfo)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-sqlite-dbinfo_1.0.0-1_all.deb
+Size: 802
+SHA256: 68107e114e46d9aed73cbaac0c7a6672b0c7fb96456bdcc5cf6aa57b1f91f42b
+
+Package: devx-sqlite-databases
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-sqlite-databases)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-sqlite-databases_1.0.0-1_all.deb
+Size: 802
+SHA256: aa4a26770f180cf181c9d646ec5dc6e57e3a9a865f69c03c6988109d9c37a174
+
+Package: devx-sqlite-query
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-sqlite-query)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-sqlite-query_1.0.0-1_all.deb
+Size: 792
+SHA256: 20bdb621d8f893c7611a1d07c51115513ebe7f841303cc3eb9b36df6ca3900af
+
+Package: devx-sqlite-csv
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-sqlite-csv)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-sqlite-csv_1.0.0-1_all.deb
+Size: 792
+SHA256: 3fe8bfd1e06dec26e22f11bfaf3e0e2e18317458ab5cf7e5a3dd0c3c730f9478
+
+Package: devx-ffmpeg-version
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-ffmpeg-version)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-ffmpeg-version_1.0.0-1_all.deb
+Size: 798
+SHA256: c8de9e537b44d86f5fbaea4e8c8a5ddfa76c5058b2fac1e3c06ce8f78814bab5
+
+Package: devx-ffmpeg-formats
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-ffmpeg-formats)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-ffmpeg-formats_1.0.0-1_all.deb
+Size: 798
+SHA256: e6038e501c562d9dcbba25842d8ce8e7139a7a1367849805b21468ee943370b7
+
+Package: devx-ffmpeg-codecs
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-ffmpeg-codecs)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-ffmpeg-codecs_1.0.0-1_all.deb
+Size: 796
+SHA256: 5c42f958eae4a59475325329bf6f881ef67e582d0909f41c3bf9df5fde208bca
+
+Package: devx-ffmpeg-filters
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-ffmpeg-filters)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-ffmpeg-filters_1.0.0-1_all.deb
+Size: 800
+SHA256: 0102e56fdf5d7979db7762f5e80741b12993d6f1798b52a2605e7c2909fb5589
+
+Package: devx-ffmpeg-hwaccels
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-ffmpeg-hwaccels)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-ffmpeg-hwaccels_1.0.0-1_all.deb
+Size: 800
+SHA256: bd39d6d2a0f3cab78c2586164000d83b27dd17cfbf64d040fc5420bee054ff85
+
+Package: devx-ffmpeg-devices
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-ffmpeg-devices)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-ffmpeg-devices_1.0.0-1_all.deb
+Size: 800
+SHA256: c59f1ba51b0398fd8a1b97addb4cbacbeee519a6ece241d03ddacd9d447d3f2d
+
+Package: devx-ffmpeg-probe-json
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-ffmpeg-probe-json)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-ffmpeg-probe-json_1.0.0-1_all.deb
+Size: 840
+SHA256: 800f6ab2ac61de251e848343c8da16896f0d7dccf79c692eceb09bcd3169baea
+
+Package: devx-ffmpeg-probe-streams
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-ffmpeg-probe-streams)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-ffmpeg-probe-streams_1.0.0-1_all.deb
+Size: 822
+SHA256: f98af6adb5dc087b756c947e402e0e3c2b89c770c52f6cdb512e4830ed1cceed
+
+Package: devx-ffmpeg-probe-format
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-ffmpeg-probe-format)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-ffmpeg-probe-format_1.0.0-1_all.deb
+Size: 820
+SHA256: d94df888f5eaed3ac8684614a6fc7ebfb9f1f99a12690659f1619f6acf848191
+
+Package: devx-ffmpeg-benchmark
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-ffmpeg-benchmark)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-ffmpeg-benchmark_1.0.0-1_all.deb
+Size: 802
+SHA256: 99ba87b7736fee00458a0e44417dc649310c29eb4fd0aaf5d4f0327b8ad122d9
+
+Package: devx-aapt-list
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-aapt-list)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-aapt-list_1.0.0-1_all.deb
+Size: 786
+SHA256: bb13158e2658d62a57a8824f053d9f7e539301ad1af27e55ad1e3e7fcde07d2b
+
+Package: devx-aapt-badging
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-aapt-badging)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-aapt-badging_1.0.0-1_all.deb
+Size: 798
+SHA256: b21ec0f48c14ec09cc57bf8a82ca28facdc1a0e453b0a038365774ef5f901ab5
+
+Package: devx-aapt-permissions
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-aapt-permissions)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-aapt-permissions_1.0.0-1_all.deb
+Size: 802
+SHA256: e638d10fe35181742ffc72dd729b10606500cedb9356b50922e2b41aa45e6527
+
+Package: devx-aapt-resources
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-aapt-resources)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-aapt-resources_1.0.0-1_all.deb
+Size: 800
+SHA256: 34a42fc54c677d7997e2f3e6a7e2b5232ade9c1886eba6997d5f980482dc4057
+
+Package: devx-aapt-configurations
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-aapt-configurations)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-aapt-configurations_1.0.0-1_all.deb
+Size: 806
+SHA256: f86ab2538935f94346e4802bb449b7ac763fcba8c40a36dad689b9270a4afca4
+
+Package: devx-aapt-xmltree
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-aapt-xmltree)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-aapt-xmltree_1.0.0-1_all.deb
+Size: 798
+SHA256: 1bd5bc4771b743eccfe578f32b42c3b5f99dbeb8834e39b5e2b73422c3e7c1f0
+
+Package: devx-aapt-xmlstrings
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-aapt-xmlstrings)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-aapt-xmlstrings_1.0.0-1_all.deb
+Size: 804
+SHA256: 830b5746f18fa19f9dedce2e87bbf72c93f80b7c251d57188a7fd9c6dec439e3
+
+Package: devx-aapt-package
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-aapt-package)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-aapt-package_1.0.0-1_all.deb
+Size: 790
+SHA256: 3685b19630b6e02b3b8f4880b4c8171e4fc38c2ed5db35a8b717added01790ee
+
+Package: devx-aapt-version
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-aapt-version)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-aapt-version_1.0.0-1_all.deb
+Size: 794
+SHA256: 1dc22ad432669db3972234618d33e9efbe9a536422713356b43ece4b130f91fb
+
+Package: devx-aapt-add
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-aapt-add)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-aapt-add_1.0.0-1_all.deb
+Size: 784
+SHA256: f4fe6deb4413e0dc35886c7b4f1a25a838880a535bfe033515da55f6e9c2c60d
+
+Package: devx-tar-list
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-tar-list)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-tar-list_1.0.0-1_all.deb
+Size: 784
+SHA256: 05d6a25f6283852e6473a7630f586a5a8f2c1098ef75fa93c264db41f28e473a
+
+Package: devx-tar-extract
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-tar-extract)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-tar-extract_1.0.0-1_all.deb
+Size: 790
+SHA256: 0bce497b4d2ef70f2b80db5fd291cb8e96f2166a3ae4d0870425a80fcb46a63a
+
+Package: devx-tar-create
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-tar-create)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-tar-create_1.0.0-1_all.deb
+Size: 788
+SHA256: 7e4550254c81d4b7f00d5c99486b6c5c12f466ecf9f89da7739d1be82bd8af6f
+
+Package: devx-tar-gzip
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-tar-gzip)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-tar-gzip_1.0.0-1_all.deb
+Size: 786
+SHA256: 4d3937cfa916d048a8c17794211e1dccad54ceb0eae910535e5de745ebe46c90
+
+Package: devx-tar-bzip2
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-tar-bzip2)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-tar-bzip2_1.0.0-1_all.deb
+Size: 790
+SHA256: 94b2ef4a6045ff234403d7fc333451a609db0d4ec5e573cacf6bac69670ea1c9
+
+Package: devx-tar-xz
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-tar-xz)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-tar-xz_1.0.0-1_all.deb
+Size: 786
+SHA256: 5bad60a7e089932e623853b21b70c154ce4ae0cbca12b0b4085c40403eded796
+
+Package: devx-tar-compare
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-tar-compare)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-tar-compare_1.0.0-1_all.deb
+Size: 794
+SHA256: 305c3f4cc9e6bd23d5eda10e228c086dd56c5dce58d039993a832573cf67e317
+
+Package: devx-tar-append
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-tar-append)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-tar-append_1.0.0-1_all.deb
+Size: 788
+SHA256: c74a8380ad2b5eaa12c31904721214b6f3b5018763d72b0c846353adf6831140
+
+Package: devx-tar-update
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-tar-update)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-tar-update_1.0.0-1_all.deb
+Size: 788
+SHA256: 0cb4cce6a7aff41bb7a5af5b1b33cb66056de0cec1d26fef266daf4f8f15ec14
+
+Package: devx-tar-verbose-list
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-tar-verbose-list)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-tar-verbose-list_1.0.0-1_all.deb
+Size: 796
+SHA256: 78d19284710a14e465aba9ce95e51a646f558fe6fda1ff88a46d4f3caf1030b5
+
+Package: devx-zip-create
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-zip-create)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-zip-create_1.0.0-1_all.deb
+Size: 788
+SHA256: 5e83cc40182ab3027cf081cdbfaf70a7c461151ecf86fcf2d57e8afba018ce01
+
+Package: devx-zip-recurse
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-zip-recurse)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-zip-recurse_1.0.0-1_all.deb
+Size: 790
+SHA256: 3d44e218d951cd719a5821188f56b35b267b2ec1d15dc6b16d9eaf3a9e20d4fe
+
+Package: devx-zip-update
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-zip-update)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-zip-update_1.0.0-1_all.deb
+Size: 790
+SHA256: a8d9347e5fc36d1ad60ffcfa9f6e9cc4fc2a3211a4e48ecb4808b60a30617d9d
+
+Package: devx-zip-delete
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-zip-delete)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-zip-delete_1.0.0-1_all.deb
+Size: 790
+SHA256: f1b95a1c05c23f8cb1befcf0903f61b409d47842a7e8acbb8d71642dac02fb3d
+
+Package: devx-zip-test
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-zip-test)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-zip-test_1.0.0-1_all.deb
+Size: 790
+SHA256: 51d5d995f889b57717803a73cdb5b816d628a8fc5e2298530c1e2ddf1a56ab6c
+
+Package: devx-unzip-list
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-unzip-list)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-unzip-list_1.0.0-1_all.deb
+Size: 790
+SHA256: d3a0c871309fe18de9be30a30ace0feac2aba8b4514e354cd2238e3b74cb46e6
+
+Package: devx-unzip-extract
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-unzip-extract)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-unzip-extract_1.0.0-1_all.deb
+Size: 792
+SHA256: a19c0ad2be97426361b9869ef11236aaf1c8431629b96d17b16e8798f30df5dc
+
+Package: devx-unzip-pipe
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-unzip-pipe)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-unzip-pipe_1.0.0-1_all.deb
+Size: 790
+SHA256: 9a166ed031f7f5df58240bfb3e6b67bd8e5b22e08949036217b3c13a3660df49
+
+Package: devx-zipinfo-list
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-zipinfo-list)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-zipinfo-list_1.0.0-1_all.deb
+Size: 794
+SHA256: 45e820929c17dd569dcaa4542feae63f7c6969d8b5cf1c54d549fed1a22517bd
+
+Package: devx-zipinfo-long
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-zipinfo-long)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-zipinfo-long_1.0.0-1_all.deb
+Size: 798
+SHA256: 5a1ee8ac10f6bb44026bc06b569176b9c848cecc17184540b4a8659f1e7f02ae
+
+Package: devx-wget-download
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-wget-download)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-wget-download_1.0.0-1_all.deb
+Size: 792
+SHA256: 170b4ebc8f84e9eea56584ba6b16b99387931b4e1d06317ba141af175525e4f3
+
+Package: devx-wget-output
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-wget-output)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-wget-output_1.0.0-1_all.deb
+Size: 796
+SHA256: 6ab9ae4412eec713c94ca57d17cb3749f6e0eee2f6a9ca3d307519e9eb74a2ce
+
+Package: devx-wget-continue
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-wget-continue)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-wget-continue_1.0.0-1_all.deb
+Size: 796
+SHA256: f7c92a0796c737090a25e2c1394e3e7ea095ad782f7005fb951989ff6d453ba4
+
+Package: devx-wget-mirror
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-wget-mirror)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-wget-mirror_1.0.0-1_all.deb
+Size: 794
+SHA256: a9ddc163fd0f457d42bc931ea80412e97a54f255b68d5ab4029c9040145ce3c7
+
+Package: devx-wget-spider
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-wget-spider)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-wget-spider_1.0.0-1_all.deb
+Size: 794
+SHA256: 65b9ff1d65c12870693b9c895a65aac262cb62cd406bfb595cbaf77065eb44d1
+
+Package: devx-wget-recursive
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-wget-recursive)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-wget-recursive_1.0.0-1_all.deb
+Size: 798
+SHA256: 099922fb00b0321bf9dac051ffe738f6596bdbf9cb75ad36552be85a79aa6fc1
+
+Package: devx-wget-quiet
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-wget-quiet)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-wget-quiet_1.0.0-1_all.deb
+Size: 792
+SHA256: 305bb19bdcff7209a847738d9924b7845e174b2b12f8329d3cf79a4c8dc2d464
+
+Package: devx-wget-server-response
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-wget-server-response)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-wget-server-response_1.0.0-1_all.deb
+Size: 802
+SHA256: d5cb1c2b1718c3dc7a218d6860a0a1a22f5a0ae4f33b2f20f0dd139624e32b3d
+
+Package: devx-wget-no-clobber
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-wget-no-clobber)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-wget-no-clobber_1.0.0-1_all.deb
+Size: 798
+SHA256: 9b47215a88cbe65b57b24201f9f6a6edd00b57ea98b868ac8d9b8554d947c6b7
+
+Package: devx-wget-timestamping
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: developer, data, network and build multipliers (devx-wget-timestamping)
+ Functional OceanStudio multiplier package. It performs a concrete operation and has no network activity during apt installation.
+Filename: staging/shard-44/pool/main/devx-wget-timestamping_1.0.0-1_all.deb
+Size: 802
+SHA256: 021f126b6295477259ed5c8d701e4c3fd8068ed83d17f0f58de8824cc9518b44
+
+Package: developer-tool-multiplier-suite
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: metapackages
+Priority: optional
+Depends: devx-git-status (= 1.0.0-1), devx-git-log (= 1.0.0-1), devx-git-diff (= 1.0.0-1), devx-git-branch (= 1.0.0-1), devx-git-remote (= 1.0.0-1), devx-git-tag (= 1.0.0-1), devx-git-grep (= 1.0.0-1), devx-git-show (= 1.0.0-1), devx-git-ls-files (= 1.0.0-1), devx-git-clean-dryrun (= 1.0.0-1), devx-curl-head (= 1.0.0-1), devx-curl-follow (= 1.0.0-1), devx-curl-download (= 1.0.0-1), devx-curl-json (= 1.0.0-1), devx-curl-verbose (= 1.0.0-1), devx-curl-compressed (= 1.0.0-1), devx-curl-headers (= 1.0.0-1), devx-curl-http2 (= 1.0.0-1), devx-curl-fail (= 1.0.0-1), devx-curl-silent (= 1.0.0-1), devx-jq-pretty (= 1.0.0-1), devx-jq-compact (= 1.0.0-1), devx-jq-sort-keys (= 1.0.0-1), devx-jq-slurp (= 1.0.0-1), devx-jq-raw (= 1.0.0-1), devx-jq-keys (= 1.0.0-1), devx-jq-length (= 1.0.0-1), devx-jq-type (= 1.0.0-1), devx-jq-paths (= 1.0.0-1), devx-jq-empty (= 1.0.0-1), devx-openssl-version (= 1.0.0-1), devx-openssl-rand (= 1.0.0-1), devx-openssl-sha256 (= 1.0.0-1), devx-openssl-sha512 (= 1.0.0-1), devx-openssl-base64 (= 1.0.0-1), devx-openssl-x509-text (= 1.0.0-1), devx-openssl-s-client (= 1.0.0-1), devx-openssl-ciphers (= 1.0.0-1), devx-openssl-speed (= 1.0.0-1), devx-openssl-pkey (= 1.0.0-1), devx-sqlite-version (= 1.0.0-1), devx-sqlite-schema (= 1.0.0-1), devx-sqlite-tables (= 1.0.0-1), devx-sqlite-dump (= 1.0.0-1), devx-sqlite-integrity (= 1.0.0-1), devx-sqlite-indexes (= 1.0.0-1), devx-sqlite-dbinfo (= 1.0.0-1), devx-sqlite-databases (= 1.0.0-1), devx-sqlite-query (= 1.0.0-1), devx-sqlite-csv (= 1.0.0-1), devx-ffmpeg-version (= 1.0.0-1), devx-ffmpeg-formats (= 1.0.0-1), devx-ffmpeg-codecs (= 1.0.0-1), devx-ffmpeg-filters (= 1.0.0-1), devx-ffmpeg-hwaccels (= 1.0.0-1), devx-ffmpeg-devices (= 1.0.0-1), devx-ffmpeg-probe-json (= 1.0.0-1), devx-ffmpeg-probe-streams (= 1.0.0-1), devx-ffmpeg-probe-format (= 1.0.0-1), devx-ffmpeg-benchmark (= 1.0.0-1), devx-aapt-list (= 1.0.0-1), devx-aapt-badging (= 1.0.0-1), devx-aapt-permissions (= 1.0.0-1), devx-aapt-resources (= 1.0.0-1), devx-aapt-configurations (= 1.0.0-1), devx-aapt-xmltree (= 1.0.0-1), devx-aapt-xmlstrings (= 1.0.0-1), devx-aapt-package (= 1.0.0-1), devx-aapt-version (= 1.0.0-1), devx-aapt-add (= 1.0.0-1), devx-tar-list (= 1.0.0-1), devx-tar-extract (= 1.0.0-1), devx-tar-create (= 1.0.0-1), devx-tar-gzip (= 1.0.0-1), devx-tar-bzip2 (= 1.0.0-1), devx-tar-xz (= 1.0.0-1), devx-tar-compare (= 1.0.0-1), devx-tar-append (= 1.0.0-1), devx-tar-update (= 1.0.0-1), devx-tar-verbose-list (= 1.0.0-1), devx-zip-create (= 1.0.0-1), devx-zip-recurse (= 1.0.0-1), devx-zip-update (= 1.0.0-1), devx-zip-delete (= 1.0.0-1), devx-zip-test (= 1.0.0-1), devx-unzip-list (= 1.0.0-1), devx-unzip-extract (= 1.0.0-1), devx-unzip-pipe (= 1.0.0-1), devx-zipinfo-list (= 1.0.0-1), devx-zipinfo-long (= 1.0.0-1), devx-wget-download (= 1.0.0-1), devx-wget-output (= 1.0.0-1), devx-wget-continue (= 1.0.0-1), devx-wget-mirror (= 1.0.0-1), devx-wget-spider (= 1.0.0-1), devx-wget-recursive (= 1.0.0-1), devx-wget-quiet (= 1.0.0-1), devx-wget-server-response (= 1.0.0-1), devx-wget-no-clobber (= 1.0.0-1), devx-wget-timestamping (= 1.0.0-1)
+Description: developer, data, network and build multipliers suite
+ Installs the complete Ocean multiplier capability set.
+Filename: staging/shard-44/pool/main/developer-tool-multiplier-suite_1.0.0-1_all.deb
+Size: 1164
+SHA256: d8ec3adbc6d2216a57e4dc7db477a3808ed60b041e9d6c5734027f8564787efd

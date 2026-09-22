@@ -1,14 +1,18 @@
 Origin: OceanStudio
-Label: OceanStudio Package Repository
+Label: Ocean Packages
 Suite: stable
 Codename: stable
-Architectures: aarch64 arm64 all
+Architectures: aarch64 all
 Components: main
-Description: OceanStudio native package repository
-Date: Tue, 22 Sep 2026 05:20:02 +0000
+Description: Official Ocean APT Repository
+Date: Tue, 22 Sep 2026 06:28:03 +0000
+Valid-Until: Wed, 22 Sep 2027 06:28:03 +0000
 MD5Sum:
- 316bf79d41bba2e7b4e6b9de402f6cca 3507423 main/binary-aarch64/Packages
- 291435db09ee0354ad2727fb31c69285 733370 main/binary-aarch64/Packages.gz
+ 08e49b363f21d95d752a02d077218964 3781229 main/binary-aarch64/Packages
+ 6fee94db486694c77b7ee6c14cbcafae 842412 main/binary-aarch64/Packages.gz
+SHA1:
+ 100ef9cc503ff53e5b12089d2a29fadce96e177f 3781229 main/binary-aarch64/Packages
+ ddf35428142b38695a297e120b4dcca837b10f88 842412 main/binary-aarch64/Packages.gz
 SHA256:
- f9fef77014cc45be120baa83b35e88943a054e3b1262f294de7338905ab71aa3 3507423 main/binary-aarch64/Packages
- 49e8574c773a95be7ca4a066af3c3042d4a6724ec423eab455e801dddcf818f4 733370 main/binary-aarch64/Packages.gz
+ 112bfa865d82d1f2b8b6ea2080d161fbcac8b8955c5963b3751a779344cbab13 3781229 main/binary-aarch64/Packages
+ 37f07f587fad6cda312b7ffa0140ae6f1d7b76746af0cc98e2795e2947e18a28 842412 main/binary-aarch64/Packages.gz
