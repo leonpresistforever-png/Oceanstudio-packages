@@ -1,0 +1,822 @@
+{
+  "schemaVersion": 1,
+  "shard": "50",
+  "version": "1.0.0-1",
+  "prefix": "/data/data/studio.ocean.app/files/usr",
+  "commandCount": 100,
+  "packageCount": 101,
+  "suite": "code-repo-automation-suite",
+  "networkAtAptInstall": false,
+  "rootRequired": false,
+  "implementation": "self-contained Python standard-library utilities",
+  "packages": [
+    {
+      "package": "codeops-python-syntax",
+      "artifact": "codeops-python-syntax_1.0.0-1_all.deb",
+      "group": "python",
+      "operation": "syntax",
+      "bytes": 8596,
+      "sha256": "7d259dd7e5d6954985eb08e9b4aa8e82578b98a0e62a010664824365e6811f88"
+    },
+    {
+      "package": "codeops-python-imports",
+      "artifact": "codeops-python-imports_1.0.0-1_all.deb",
+      "group": "python",
+      "operation": "imports",
+      "bytes": 8600,
+      "sha256": "3d82772fd3abf48c74fdf13811d7b386f53fc81a1caf2f0b24bd000b2869c2ba"
+    },
+    {
+      "package": "codeops-python-functions",
+      "artifact": "codeops-python-functions_1.0.0-1_all.deb",
+      "group": "python",
+      "operation": "functions",
+      "bytes": 8600,
+      "sha256": "23018bea1c211662a583a2c61dc8a89340802b9283a483e37b77397f5ed0f8a7"
+    },
+    {
+      "package": "codeops-python-classes",
+      "artifact": "codeops-python-classes_1.0.0-1_all.deb",
+      "group": "python",
+      "operation": "classes",
+      "bytes": 8598,
+      "sha256": "23fa4b69aff45b90e9f569283791a35c144f58d59b11efd714238905b47992c4"
+    },
+    {
+      "package": "codeops-python-todos",
+      "artifact": "codeops-python-todos_1.0.0-1_all.deb",
+      "group": "python",
+      "operation": "todos",
+      "bytes": 8600,
+      "sha256": "d49a0f1d04a083146eca56951789242bb3a9162b739b77362c5f448379de7196"
+    },
+    {
+      "package": "codeops-python-complexity",
+      "artifact": "codeops-python-complexity_1.0.0-1_all.deb",
+      "group": "python",
+      "operation": "complexity",
+      "bytes": 8612,
+      "sha256": "4a5ea5604b2b00f0c1d42470705d6378ce505b8f7d7777930e1c9688e389420f"
+    },
+    {
+      "package": "codeops-python-docstrings",
+      "artifact": "codeops-python-docstrings_1.0.0-1_all.deb",
+      "group": "python",
+      "operation": "docstrings",
+      "bytes": 8612,
+      "sha256": "d318a8f52bd13762f2c76a4030661b842a4e4063c03e84129c50f006f265cb6e"
+    },
+    {
+      "package": "codeops-python-ast-types",
+      "artifact": "codeops-python-ast-types_1.0.0-1_all.deb",
+      "group": "python",
+      "operation": "ast-types",
+      "bytes": 8608,
+      "sha256": "4657149fd4a38bb7b002bfa0e401d229096acec651571a209d11b4cb98f64bdb"
+    },
+    {
+      "package": "codeops-python-lines",
+      "artifact": "codeops-python-lines_1.0.0-1_all.deb",
+      "group": "python",
+      "operation": "lines",
+      "bytes": 8598,
+      "sha256": "bc9620a0e6328804efb91253018eb1ae64fba62b1977d9053b174d37a6894df4"
+    },
+    {
+      "package": "codeops-python-stats",
+      "artifact": "codeops-python-stats_1.0.0-1_all.deb",
+      "group": "python",
+      "operation": "stats",
+      "bytes": 8592,
+      "sha256": "b9f09b6ae928bfa40a182fcffc0f8b2ef86070c02cff74fa0347fb16f7a7bcd7"
+    },
+    {
+      "package": "codeops-javascript-imports",
+      "artifact": "codeops-javascript-imports_1.0.0-1_all.deb",
+      "group": "javascript",
+      "operation": "imports",
+      "bytes": 8610,
+      "sha256": "9207dce199b2ff790fa93a9c7e18391eff1783d47e895d3d057bf4a0634b00f5"
+    },
+    {
+      "package": "codeops-javascript-exports",
+      "artifact": "codeops-javascript-exports_1.0.0-1_all.deb",
+      "group": "javascript",
+      "operation": "exports",
+      "bytes": 8614,
+      "sha256": "2f7f4d636486f90a7df6497cb51b9a5ca76fb69a5a092f6fbd110214f7e01c6a"
+    },
+    {
+      "package": "codeops-javascript-functions",
+      "artifact": "codeops-javascript-functions_1.0.0-1_all.deb",
+      "group": "javascript",
+      "operation": "functions",
+      "bytes": 8616,
+      "sha256": "ba6384e6ee39d3874ffb00d2629f2fc47fa233281f7cbfe6be543acf7030c5d9"
+    },
+    {
+      "package": "codeops-javascript-classes",
+      "artifact": "codeops-javascript-classes_1.0.0-1_all.deb",
+      "group": "javascript",
+      "operation": "classes",
+      "bytes": 8612,
+      "sha256": "576ab1ae62a3e061c852e363ab5afce77d8724dfb15f1485781bd5f236679371"
+    },
+    {
+      "package": "codeops-javascript-todos",
+      "artifact": "codeops-javascript-todos_1.0.0-1_all.deb",
+      "group": "javascript",
+      "operation": "todos",
+      "bytes": 8610,
+      "sha256": "3333f2572b30345813f6acf20f7892f2b9cf47f15b24ce1a41905e0224a2a8b0"
+    },
+    {
+      "package": "codeops-javascript-requires",
+      "artifact": "codeops-javascript-requires_1.0.0-1_all.deb",
+      "group": "javascript",
+      "operation": "requires",
+      "bytes": 8608,
+      "sha256": "8a99497b211dba71fcc209607c27eb4f86c10023a2104eda78093b843d47a83d"
+    },
+    {
+      "package": "codeops-javascript-scripts",
+      "artifact": "codeops-javascript-scripts_1.0.0-1_all.deb",
+      "group": "javascript",
+      "operation": "scripts",
+      "bytes": 8610,
+      "sha256": "504baec353c9b1f9a5236348c2f6b47971a0c608f2844e7c0fef0fac652e03e7"
+    },
+    {
+      "package": "codeops-javascript-deps",
+      "artifact": "codeops-javascript-deps_1.0.0-1_all.deb",
+      "group": "javascript",
+      "operation": "deps",
+      "bytes": 8608,
+      "sha256": "0e21360bcb3f10cd5b34a6ee46cefb5ab2b2f87120b04542cb6594df1302c123"
+    },
+    {
+      "package": "codeops-javascript-devdeps",
+      "artifact": "codeops-javascript-devdeps_1.0.0-1_all.deb",
+      "group": "javascript",
+      "operation": "devdeps",
+      "bytes": 8612,
+      "sha256": "70e685bab1e0701defc1cf6c2f5a0f1fe836647f29b34a47200eb0703895bc01"
+    },
+    {
+      "package": "codeops-javascript-stats",
+      "artifact": "codeops-javascript-stats_1.0.0-1_all.deb",
+      "group": "javascript",
+      "operation": "stats",
+      "bytes": 8612,
+      "sha256": "dc8453705774e21744b385a3923d94847792451f762fce0acd291d7dcb8c0106"
+    },
+    {
+      "package": "codeops-project-detect",
+      "artifact": "codeops-project-detect_1.0.0-1_all.deb",
+      "group": "project",
+      "operation": "detect",
+      "bytes": 8604,
+      "sha256": "52eb2899a6d0bdb3de6f5a8888e7b46b0289b4019c28901ff547c354e1a18931"
+    },
+    {
+      "package": "codeops-project-files",
+      "artifact": "codeops-project-files_1.0.0-1_all.deb",
+      "group": "project",
+      "operation": "files",
+      "bytes": 8602,
+      "sha256": "912b97fe1fa3e84511e88cd4c1f74f6fd6cd090d651042833082debcd5fbec07"
+    },
+    {
+      "package": "codeops-project-dirs",
+      "artifact": "codeops-project-dirs_1.0.0-1_all.deb",
+      "group": "project",
+      "operation": "dirs",
+      "bytes": 8602,
+      "sha256": "69d41c6c74bc1f86a5914951916e0583fd9d8b03a731ba0dc2c875e197fceb69"
+    },
+    {
+      "package": "codeops-project-extensions",
+      "artifact": "codeops-project-extensions_1.0.0-1_all.deb",
+      "group": "project",
+      "operation": "extensions",
+      "bytes": 8610,
+      "sha256": "010b6d571872d344e2d19517b00856e736c89f3be3bbfe177df67e52008c1772"
+    },
+    {
+      "package": "codeops-project-readme",
+      "artifact": "codeops-project-readme_1.0.0-1_all.deb",
+      "group": "project",
+      "operation": "readme",
+      "bytes": 8610,
+      "sha256": "a7f865f28f6726a2886de59cc47f5c7185ada833381b0e34e480cf936a65632c"
+    },
+    {
+      "package": "codeops-project-licenses",
+      "artifact": "codeops-project-licenses_1.0.0-1_all.deb",
+      "group": "project",
+      "operation": "licenses",
+      "bytes": 8606,
+      "sha256": "11c463863eb781cc7a81009b8cd321efe94f7b6d6ca9f107904d2a57e86b4a8c"
+    },
+    {
+      "package": "codeops-project-configs",
+      "artifact": "codeops-project-configs_1.0.0-1_all.deb",
+      "group": "project",
+      "operation": "configs",
+      "bytes": 8608,
+      "sha256": "315633a69ce206027350a1a3d7747fe5c0a08dbe9380f665c8b53858f58d649c"
+    },
+    {
+      "package": "codeops-project-entrypoints",
+      "artifact": "codeops-project-entrypoints_1.0.0-1_all.deb",
+      "group": "project",
+      "operation": "entrypoints",
+      "bytes": 8610,
+      "sha256": "32ab351979cfe3bcd9ca5c015ed04d51f2c43a3866613220f990c00720125270"
+    },
+    {
+      "package": "codeops-project-largest",
+      "artifact": "codeops-project-largest_1.0.0-1_all.deb",
+      "group": "project",
+      "operation": "largest",
+      "bytes": 8610,
+      "sha256": "3fdd7e0a1ae10f96d15c8f24b6b6edf64cf365071423249846c4fc20d27dcb2f"
+    },
+    {
+      "package": "codeops-project-stats",
+      "artifact": "codeops-project-stats_1.0.0-1_all.deb",
+      "group": "project",
+      "operation": "stats",
+      "bytes": 8604,
+      "sha256": "5dbc5fbe06d22e44a6925d64d8cb2333e2916d7f7d739e3c718a59159ccc00e9"
+    },
+    {
+      "package": "codeops-tests-discover",
+      "artifact": "codeops-tests-discover_1.0.0-1_all.deb",
+      "group": "tests",
+      "operation": "discover",
+      "bytes": 8606,
+      "sha256": "9f3fde5b91e266b8be30dbeda81500a6f867550cf99e8502ea64f890b55c9357"
+    },
+    {
+      "package": "codeops-tests-python",
+      "artifact": "codeops-tests-python_1.0.0-1_all.deb",
+      "group": "tests",
+      "operation": "python",
+      "bytes": 8600,
+      "sha256": "e061191f35e5c2ebefc029684ef5472e0cf33cd179e7f92e7e6c934feecced3f"
+    },
+    {
+      "package": "codeops-tests-javascript",
+      "artifact": "codeops-tests-javascript_1.0.0-1_all.deb",
+      "group": "tests",
+      "operation": "javascript",
+      "bytes": 8612,
+      "sha256": "89f8fd7170ce3411bca669a202dfe05c43019d071f0aca9cdc982a273176870b"
+    },
+    {
+      "package": "codeops-tests-coverage",
+      "artifact": "codeops-tests-coverage_1.0.0-1_all.deb",
+      "group": "tests",
+      "operation": "coverage",
+      "bytes": 8604,
+      "sha256": "3caa2c3239505a98673440ae08fad2be0b91646a016b0eed49840b1cd0802f2b"
+    },
+    {
+      "package": "codeops-tests-snapshots",
+      "artifact": "codeops-tests-snapshots_1.0.0-1_all.deb",
+      "group": "tests",
+      "operation": "snapshots",
+      "bytes": 8608,
+      "sha256": "e50ac4f976b969d807facb74a58fa0f5f67d1744bace392cf1da2a7075d30d2c"
+    },
+    {
+      "package": "codeops-tests-fixtures",
+      "artifact": "codeops-tests-fixtures_1.0.0-1_all.deb",
+      "group": "tests",
+      "operation": "fixtures",
+      "bytes": 8606,
+      "sha256": "725c5242ca106afe4a31a5cbc96e4785af6bed2cf3559bad85bf3984b2bccae7"
+    },
+    {
+      "package": "codeops-tests-reports",
+      "artifact": "codeops-tests-reports_1.0.0-1_all.deb",
+      "group": "tests",
+      "operation": "reports",
+      "bytes": 8602,
+      "sha256": "376756277779a0562abe7ad1b114aa211d46f96fb68a5fe83ca2483763af9d5d"
+    },
+    {
+      "package": "codeops-tests-flaky",
+      "artifact": "codeops-tests-flaky_1.0.0-1_all.deb",
+      "group": "tests",
+      "operation": "flaky",
+      "bytes": 8604,
+      "sha256": "06fd7827d291d9ea771ef56059d05cf5cb7d3e8e8ba38d31a5687b35f2032da4"
+    },
+    {
+      "package": "codeops-tests-names",
+      "artifact": "codeops-tests-names_1.0.0-1_all.deb",
+      "group": "tests",
+      "operation": "names",
+      "bytes": 8600,
+      "sha256": "ee9698412af5d6f52d7f646bd5efa7ec8a37ca6c1dde12753f90820cfad449f2"
+    },
+    {
+      "package": "codeops-tests-stats",
+      "artifact": "codeops-tests-stats_1.0.0-1_all.deb",
+      "group": "tests",
+      "operation": "stats",
+      "bytes": 8606,
+      "sha256": "702ae05286fd5da4154ded87f99edd2316f9cdbabbf8c91bc6201f3d25ac56b1"
+    },
+    {
+      "package": "codeops-docs-files",
+      "artifact": "codeops-docs-files_1.0.0-1_all.deb",
+      "group": "docs",
+      "operation": "files",
+      "bytes": 8602,
+      "sha256": "8ce7ad45b06aaf25d7d3bafa9e8242755eafcaf054f323f562556786d93d9dee"
+    },
+    {
+      "package": "codeops-docs-headings",
+      "artifact": "codeops-docs-headings_1.0.0-1_all.deb",
+      "group": "docs",
+      "operation": "headings",
+      "bytes": 8606,
+      "sha256": "0675ede76931e25514cf0d041065bb6538d9cab4469a187c9e6361e0cb685cb1"
+    },
+    {
+      "package": "codeops-docs-local-links",
+      "artifact": "codeops-docs-local-links_1.0.0-1_all.deb",
+      "group": "docs",
+      "operation": "local-links",
+      "bytes": 8608,
+      "sha256": "a69ff0a20fafd2224065042a05012032cbe5190caa26ebc6cae8fc7deb7bdb5c"
+    },
+    {
+      "package": "codeops-docs-codeblocks",
+      "artifact": "codeops-docs-codeblocks_1.0.0-1_all.deb",
+      "group": "docs",
+      "operation": "codeblocks",
+      "bytes": 8610,
+      "sha256": "4c54d073b9340c08b7ae832d7c3540b999e9c4f50cdb4f1d62e9b5ef3f721ba4"
+    },
+    {
+      "package": "codeops-docs-todos",
+      "artifact": "codeops-docs-todos_1.0.0-1_all.deb",
+      "group": "docs",
+      "operation": "todos",
+      "bytes": 8600,
+      "sha256": "db9eedb141c3f22331d0f1227bfb5b64ad17772f1625c0e59666719db596fa95"
+    },
+    {
+      "package": "codeops-docs-readme",
+      "artifact": "codeops-docs-readme_1.0.0-1_all.deb",
+      "group": "docs",
+      "operation": "readme",
+      "bytes": 8598,
+      "sha256": "a174139c6b7f10a00b1f60b01eb4cc2b5b3938e336370fb1e8d4ac62609fffd3"
+    },
+    {
+      "package": "codeops-docs-changelog",
+      "artifact": "codeops-docs-changelog_1.0.0-1_all.deb",
+      "group": "docs",
+      "operation": "changelog",
+      "bytes": 8604,
+      "sha256": "0d9ac24b676f7ff9279b51a11c0a6a74c27804decefdfa3f16b1666e2ef9d3d1"
+    },
+    {
+      "package": "codeops-docs-licenses",
+      "artifact": "codeops-docs-licenses_1.0.0-1_all.deb",
+      "group": "docs",
+      "operation": "licenses",
+      "bytes": 8602,
+      "sha256": "5eb713d8e3ffb49675c90922a55f89d1c93fed97855c0aa00560991aa5facde0"
+    },
+    {
+      "package": "codeops-docs-words",
+      "artifact": "codeops-docs-words_1.0.0-1_all.deb",
+      "group": "docs",
+      "operation": "words",
+      "bytes": 8604,
+      "sha256": "23cbf61a7087133a71bfdd31ff06441ed49a90ee1184630acd7d258b74bdd4f9"
+    },
+    {
+      "package": "codeops-docs-stats",
+      "artifact": "codeops-docs-stats_1.0.0-1_all.deb",
+      "group": "docs",
+      "operation": "stats",
+      "bytes": 8606,
+      "sha256": "add6dfb1e1f43f62bddac7c6f40a1cc0cbfe0b88507d3d279472f5a75711f9ae"
+    },
+    {
+      "package": "codeops-semver-validate",
+      "artifact": "codeops-semver-validate_1.0.0-1_all.deb",
+      "group": "semver",
+      "operation": "validate",
+      "bytes": 8608,
+      "sha256": "c26bed6ff65da98267adce6a67fe13544b258b6d8dd45f2a223d80bf85773823"
+    },
+    {
+      "package": "codeops-semver-compare",
+      "artifact": "codeops-semver-compare_1.0.0-1_all.deb",
+      "group": "semver",
+      "operation": "compare",
+      "bytes": 8602,
+      "sha256": "fddf2c07620414f0632d935d6c5041ba1b25dd922ebecb937396f2c33777bddc"
+    },
+    {
+      "package": "codeops-semver-bump-major",
+      "artifact": "codeops-semver-bump-major_1.0.0-1_all.deb",
+      "group": "semver",
+      "operation": "bump-major",
+      "bytes": 8616,
+      "sha256": "3393cb09aa1f991d3e65336eb5ecedaec4e642f45f059bd50bb2073acf17cf21"
+    },
+    {
+      "package": "codeops-semver-bump-minor",
+      "artifact": "codeops-semver-bump-minor_1.0.0-1_all.deb",
+      "group": "semver",
+      "operation": "bump-minor",
+      "bytes": 8614,
+      "sha256": "7b632e88839f7d71093db42892b95ccd46fac5477ddfead4572e63fb976dfd45"
+    },
+    {
+      "package": "codeops-semver-bump-patch",
+      "artifact": "codeops-semver-bump-patch_1.0.0-1_all.deb",
+      "group": "semver",
+      "operation": "bump-patch",
+      "bytes": 8614,
+      "sha256": "12004ba4a7876b5dada6bf6b7abc0b832c4afef448b460dcedaed88c8e9e9325"
+    },
+    {
+      "package": "codeops-semver-major",
+      "artifact": "codeops-semver-major_1.0.0-1_all.deb",
+      "group": "semver",
+      "operation": "major",
+      "bytes": 8606,
+      "sha256": "04aed889be8e8759863213e6cd4d6b9be911985c7edae87a58e9793bb98f57c4"
+    },
+    {
+      "package": "codeops-semver-minor",
+      "artifact": "codeops-semver-minor_1.0.0-1_all.deb",
+      "group": "semver",
+      "operation": "minor",
+      "bytes": 8604,
+      "sha256": "8ff5794a399adc0116d649b704e8d5db215fc7953f79a6f78184aa5849b39a0c"
+    },
+    {
+      "package": "codeops-semver-patch",
+      "artifact": "codeops-semver-patch_1.0.0-1_all.deb",
+      "group": "semver",
+      "operation": "patch",
+      "bytes": 8604,
+      "sha256": "39b21ccdc66664264211a3d9341233f25efca531d8a4a48651668088d309dc73"
+    },
+    {
+      "package": "codeops-semver-normalize",
+      "artifact": "codeops-semver-normalize_1.0.0-1_all.deb",
+      "group": "semver",
+      "operation": "normalize",
+      "bytes": 8610,
+      "sha256": "74d14a196d3c6293f341cc8bb36ec6280588e7cbefcc7d6352ad81e3667b5d16"
+    },
+    {
+      "package": "codeops-semver-range",
+      "artifact": "codeops-semver-range_1.0.0-1_all.deb",
+      "group": "semver",
+      "operation": "range",
+      "bytes": 8604,
+      "sha256": "6075742427b289392b56668258f43e2a93fc7c33301d723fdde5895bd0edaed1"
+    },
+    {
+      "package": "codeops-diff-unified",
+      "artifact": "codeops-diff-unified_1.0.0-1_all.deb",
+      "group": "diff",
+      "operation": "unified",
+      "bytes": 8602,
+      "sha256": "12762ecf1febe5ce9ce0f1e5bfd72aba40f41106abcfae60b6c0bddd84ced170"
+    },
+    {
+      "package": "codeops-diff-added",
+      "artifact": "codeops-diff-added_1.0.0-1_all.deb",
+      "group": "diff",
+      "operation": "added",
+      "bytes": 8600,
+      "sha256": "e3234dcf961f1147a7054bf6adbb300f0fcc9f0289313b0507655cd19181901f"
+    },
+    {
+      "package": "codeops-diff-removed",
+      "artifact": "codeops-diff-removed_1.0.0-1_all.deb",
+      "group": "diff",
+      "operation": "removed",
+      "bytes": 8614,
+      "sha256": "e9e0348a6868ab04fe4ef2f67d0e0671204b3648ed33109cac828ff3a5608e75"
+    },
+    {
+      "package": "codeops-diff-ratio",
+      "artifact": "codeops-diff-ratio_1.0.0-1_all.deb",
+      "group": "diff",
+      "operation": "ratio",
+      "bytes": 8600,
+      "sha256": "8cfbb0755bdcec4306e7466a3c09d41b98272859930f734217a4bab8ae7088a2"
+    },
+    {
+      "package": "codeops-diff-checksum",
+      "artifact": "codeops-diff-checksum_1.0.0-1_all.deb",
+      "group": "diff",
+      "operation": "checksum",
+      "bytes": 8604,
+      "sha256": "237ce1851a70a5b03b61358051b9f66aa9234e98c864e5b791286902da060d22"
+    },
+    {
+      "package": "codeops-diff-json-equal",
+      "artifact": "codeops-diff-json-equal_1.0.0-1_all.deb",
+      "group": "diff",
+      "operation": "json-equal",
+      "bytes": 8608,
+      "sha256": "6844a04e83482b823b28451fcecfc7f2fc1de4615df34c60051bcf4d6ff4cc4d"
+    },
+    {
+      "package": "codeops-diff-word-diff",
+      "artifact": "codeops-diff-word-diff_1.0.0-1_all.deb",
+      "group": "diff",
+      "operation": "word-diff",
+      "bytes": 8600,
+      "sha256": "efb09c2736df75cb66daf821e7f86561ab8d58e3abd091ea842c427e50ef3039"
+    },
+    {
+      "package": "codeops-diff-line-count",
+      "artifact": "codeops-diff-line-count_1.0.0-1_all.deb",
+      "group": "diff",
+      "operation": "line-count",
+      "bytes": 8606,
+      "sha256": "2760b61b78be1ca33008bcc69b7e2f2e910f0caa95a84e1b33a41861245b4253"
+    },
+    {
+      "package": "codeops-diff-changed",
+      "artifact": "codeops-diff-changed_1.0.0-1_all.deb",
+      "group": "diff",
+      "operation": "changed",
+      "bytes": 8600,
+      "sha256": "5f48e464e4740e12d2adca538f102e7d4dda0efdd5b8641308ccba5f39626847"
+    },
+    {
+      "package": "codeops-diff-stats",
+      "artifact": "codeops-diff-stats_1.0.0-1_all.deb",
+      "group": "diff",
+      "operation": "stats",
+      "bytes": 8600,
+      "sha256": "65ef367c352c48e5dbcb32ea655a7fc63488c3b4106911d1e2b6579f26e52b4e"
+    },
+    {
+      "package": "codeops-manifest-files",
+      "artifact": "codeops-manifest-files_1.0.0-1_all.deb",
+      "group": "manifest",
+      "operation": "files",
+      "bytes": 8600,
+      "sha256": "fc2ee4c2297a79c106d4566a5096e8096d60c0aa6fbf838f4268a3014a8e2b62"
+    },
+    {
+      "package": "codeops-manifest-hashes",
+      "artifact": "codeops-manifest-hashes_1.0.0-1_all.deb",
+      "group": "manifest",
+      "operation": "hashes",
+      "bytes": 8600,
+      "sha256": "dc324db573270c717e0eab8eaf848fa3fbf80d8fac3b8afd6c682d25c8a7eb50"
+    },
+    {
+      "package": "codeops-manifest-sizes",
+      "artifact": "codeops-manifest-sizes_1.0.0-1_all.deb",
+      "group": "manifest",
+      "operation": "sizes",
+      "bytes": 8598,
+      "sha256": "7b91acf7d0ee0fd32c5d543f14c77e4c8923770435f3c0f159bdebf90758e3c7"
+    },
+    {
+      "package": "codeops-manifest-executables",
+      "artifact": "codeops-manifest-executables_1.0.0-1_all.deb",
+      "group": "manifest",
+      "operation": "executables",
+      "bytes": 8602,
+      "sha256": "5abeefcc0bcee37e14368926e9852fee074a2babcda41790293aac7d0db54a60"
+    },
+    {
+      "package": "codeops-manifest-symlinks",
+      "artifact": "codeops-manifest-symlinks_1.0.0-1_all.deb",
+      "group": "manifest",
+      "operation": "symlinks",
+      "bytes": 8606,
+      "sha256": "22092df7f5efad2a4e5d0441dcbf00df1b5a5faf02cc386033609b84279c8301"
+    },
+    {
+      "package": "codeops-manifest-extensions",
+      "artifact": "codeops-manifest-extensions_1.0.0-1_all.deb",
+      "group": "manifest",
+      "operation": "extensions",
+      "bytes": 8604,
+      "sha256": "c5884c1ccb791c01e0ed932489543531c92ff5b947f16ec252b88696f01696f8"
+    },
+    {
+      "package": "codeops-manifest-json",
+      "artifact": "codeops-manifest-json_1.0.0-1_all.deb",
+      "group": "manifest",
+      "operation": "json",
+      "bytes": 8598,
+      "sha256": "25a1355fc348a999c243a5f28912fc14bf72ab36198b3c662de03f2ffea7a8a8"
+    },
+    {
+      "package": "codeops-manifest-verify",
+      "artifact": "codeops-manifest-verify_1.0.0-1_all.deb",
+      "group": "manifest",
+      "operation": "verify",
+      "bytes": 8604,
+      "sha256": "01f6824b3d30d01e2bee3f049966f84e3d6b267ef2ce5a4dec8b9b6b17e1f1ab"
+    },
+    {
+      "package": "codeops-manifest-compare",
+      "artifact": "codeops-manifest-compare_1.0.0-1_all.deb",
+      "group": "manifest",
+      "operation": "compare",
+      "bytes": 8602,
+      "sha256": "d1663fe538dfa3956c29889d51d05c0300a71c5145ecb5dfc0b18b0b1744a001"
+    },
+    {
+      "package": "codeops-manifest-stats",
+      "artifact": "codeops-manifest-stats_1.0.0-1_all.deb",
+      "group": "manifest",
+      "operation": "stats",
+      "bytes": 8602,
+      "sha256": "183708fdf83737fb57a3ce776c08e0b26fe8910fad6aaa55afe37a4abdd33b6d"
+    },
+    {
+      "package": "codeops-archive-names",
+      "artifact": "codeops-archive-names_1.0.0-1_all.deb",
+      "group": "archive",
+      "operation": "names",
+      "bytes": 8606,
+      "sha256": "b84d71ea350387f0b7e5ed740a51f09e01135b7e5520c93bb20c48f4ec35cf9e"
+    },
+    {
+      "package": "codeops-archive-format",
+      "artifact": "codeops-archive-format_1.0.0-1_all.deb",
+      "group": "archive",
+      "operation": "format",
+      "bytes": 8600,
+      "sha256": "8f08b49e666c48284824d848670773cfd1171392c14a9548c6a96f4db838b342"
+    },
+    {
+      "package": "codeops-archive-test",
+      "artifact": "codeops-archive-test_1.0.0-1_all.deb",
+      "group": "archive",
+      "operation": "test",
+      "bytes": 8596,
+      "sha256": "472e81471d4f04ab2dd059b02cdadee464af2246a84726ee9883e1308357cc3c"
+    },
+    {
+      "package": "codeops-archive-unsafe",
+      "artifact": "codeops-archive-unsafe_1.0.0-1_all.deb",
+      "group": "archive",
+      "operation": "unsafe",
+      "bytes": 8604,
+      "sha256": "fa19ba873f286c6dcd9c105ab568da4e3f75d3cab70cd67e085d308d4b8edf82"
+    },
+    {
+      "package": "codeops-archive-duplicates",
+      "artifact": "codeops-archive-duplicates_1.0.0-1_all.deb",
+      "group": "archive",
+      "operation": "duplicates",
+      "bytes": 8610,
+      "sha256": "dc0555a8926751e457db20ed9b5f39282c5db4224e5983f761685bc56a137cb7"
+    },
+    {
+      "package": "codeops-archive-entries",
+      "artifact": "codeops-archive-entries_1.0.0-1_all.deb",
+      "group": "archive",
+      "operation": "entries",
+      "bytes": 8606,
+      "sha256": "de7a281bb5c410203a2d410b1322767638a63e4c932040c9bf96aaf7472cebbe"
+    },
+    {
+      "package": "codeops-archive-compressed-size",
+      "artifact": "codeops-archive-compressed-size_1.0.0-1_all.deb",
+      "group": "archive",
+      "operation": "compressed-size",
+      "bytes": 8614,
+      "sha256": "fd3756950f95a7281ac5a36f6be168b0f66e9fb1a1768a8d30176d5d13e58f97"
+    },
+    {
+      "package": "codeops-archive-raw-size",
+      "artifact": "codeops-archive-raw-size_1.0.0-1_all.deb",
+      "group": "archive",
+      "operation": "raw-size",
+      "bytes": 8604,
+      "sha256": "0ac72feb990938e431c6a77619519b153378f59500139da471b3e85813b43d57"
+    },
+    {
+      "package": "codeops-archive-ratio",
+      "artifact": "codeops-archive-ratio_1.0.0-1_all.deb",
+      "group": "archive",
+      "operation": "ratio",
+      "bytes": 8602,
+      "sha256": "b3d25f20e93d9a94fbd8e43b9daec47a07dc0e146277e84f27d4e822a72fb215"
+    },
+    {
+      "package": "codeops-archive-stats",
+      "artifact": "codeops-archive-stats_1.0.0-1_all.deb",
+      "group": "archive",
+      "operation": "stats",
+      "bytes": 8600,
+      "sha256": "71780d9494658ef3ebf32a2f9511e79ac3db9cc203a719d5d77bd312d50210d6"
+    },
+    {
+      "package": "codeops-git-branch",
+      "artifact": "codeops-git-branch_1.0.0-1_all.deb",
+      "group": "git",
+      "operation": "branch",
+      "bytes": 8596,
+      "sha256": "a58c617940a9d4a4710be9aef3235ba2eec55aa441913ae351ec651ec582f555"
+    },
+    {
+      "package": "codeops-git-head",
+      "artifact": "codeops-git-head_1.0.0-1_all.deb",
+      "group": "git",
+      "operation": "head",
+      "bytes": 8602,
+      "sha256": "262169e15b0020e1a7a194b7c106eecb6057b3cbb283a4afb85d4b804c55b87e"
+    },
+    {
+      "package": "codeops-git-root",
+      "artifact": "codeops-git-root_1.0.0-1_all.deb",
+      "group": "git",
+      "operation": "root",
+      "bytes": 8602,
+      "sha256": "2ac20b798acdc17700e9d5a00843207e3f93a78cc71985489fb72540d640c646"
+    },
+    {
+      "package": "codeops-git-status",
+      "artifact": "codeops-git-status_1.0.0-1_all.deb",
+      "group": "git",
+      "operation": "status",
+      "bytes": 8602,
+      "sha256": "0a9add99e7b8a3b4d60ccbb2889b1c866069ffc85ae03f558e5b1db7071b3e89"
+    },
+    {
+      "package": "codeops-git-tracked",
+      "artifact": "codeops-git-tracked_1.0.0-1_all.deb",
+      "group": "git",
+      "operation": "tracked",
+      "bytes": 8604,
+      "sha256": "fef7530f23d2713a7f0466114c5901519f3ba3e7e81fb5cdc99f8354108fd7da"
+    },
+    {
+      "package": "codeops-git-untracked",
+      "artifact": "codeops-git-untracked_1.0.0-1_all.deb",
+      "group": "git",
+      "operation": "untracked",
+      "bytes": 8608,
+      "sha256": "ab8fd2eafc2f747f05fc3a8177721b5ae323919d2f5a19597f574d59e814a219"
+    },
+    {
+      "package": "codeops-git-changed",
+      "artifact": "codeops-git-changed_1.0.0-1_all.deb",
+      "group": "git",
+      "operation": "changed",
+      "bytes": 8604,
+      "sha256": "1be1da4c6ded66990423642561ceaf43b2e46405f8a2a031e654e27d808ec18c"
+    },
+    {
+      "package": "codeops-git-tags",
+      "artifact": "codeops-git-tags_1.0.0-1_all.deb",
+      "group": "git",
+      "operation": "tags",
+      "bytes": 8600,
+      "sha256": "2198176d10a0bcda0e18f837270805ea6b74cbfc10c63f306433b3587e5fd2ba"
+    },
+    {
+      "package": "codeops-git-remotes",
+      "artifact": "codeops-git-remotes_1.0.0-1_all.deb",
+      "group": "git",
+      "operation": "remotes",
+      "bytes": 8602,
+      "sha256": "f24f2d08e83ba0a231eb03e1a36e1dbf45b47ee07c11d758ada00981f715b541"
+    },
+    {
+      "package": "codeops-git-stats",
+      "artifact": "codeops-git-stats_1.0.0-1_all.deb",
+      "group": "git",
+      "operation": "stats",
+      "bytes": 8602,
+      "sha256": "571529822aefe33100cc4bb0e024b6ccd24fc2794c64d6c1dbdd01d061a5255b"
+    },
+    {
+      "package": "code-repo-automation-suite",
+      "artifact": "code-repo-automation-suite_1.0.0-1_all.deb",
+      "group": "meta",
+      "operation": "install",
+      "bytes": 1146,
+      "sha256": "deaee8095616a8b6675a7a2f9a20d9d2e7e666a942c45c2d1ba327974c0febae"
+    }
+  ]
+}

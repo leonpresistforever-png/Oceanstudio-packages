@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0-1",
+  "prefix": "/data/data/studio.ocean.app/files/usr",
+  "dependsOn": [
+    "ai-rag-data-suite",
+    "code-repo-automation-suite",
+    "network-observability-suite"
+  ],
+  "commandCount": 300,
+  "totalNewPackages": 304
+}

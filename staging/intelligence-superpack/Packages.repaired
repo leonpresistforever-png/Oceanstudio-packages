@@ -1,0 +1,12 @@
+Package: ocean-intelligence-toolkit
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: metapackages
+Priority: optional
+Depends: ai-rag-data-suite (= 1.0.0-1), code-repo-automation-suite (= 1.0.0-1), network-observability-suite (= 1.0.0-1)
+Description: Ocean intelligence code automation and observability superpack
+ Meta-package installing the complete Ocean utility shard.
+Filename: staging/intelligence-superpack/pool/main/ocean-intelligence-toolkit_1.0.0-1_all.deb
+Size: 620
+SHA256: 35063404e412fa0d1577233b9fbf5cdde014b84e36614cbe078e88084fd45381

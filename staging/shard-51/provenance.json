@@ -1,0 +1,822 @@
+{
+  "schemaVersion": 1,
+  "shard": "51",
+  "version": "1.0.0-1",
+  "prefix": "/data/data/studio.ocean.app/files/usr",
+  "commandCount": 100,
+  "packageCount": 101,
+  "suite": "network-observability-suite",
+  "networkAtAptInstall": false,
+  "rootRequired": false,
+  "implementation": "self-contained Python standard-library utilities",
+  "packages": [
+    {
+      "package": "netobs-http-status",
+      "artifact": "netobs-http-status_1.0.0-1_all.deb",
+      "group": "http",
+      "operation": "status",
+      "bytes": 8610,
+      "sha256": "de8169c06ddc4d231276609d88401025d18836b67128844e74fc7cb6c455e507"
+    },
+    {
+      "package": "netobs-http-headers",
+      "artifact": "netobs-http-headers_1.0.0-1_all.deb",
+      "group": "http",
+      "operation": "headers",
+      "bytes": 8614,
+      "sha256": "4a9896a2c1c0d3924bd95215827a87fa695349e8224f0e3fa0e74480582b390c"
+    },
+    {
+      "package": "netobs-http-text",
+      "artifact": "netobs-http-text_1.0.0-1_all.deb",
+      "group": "http",
+      "operation": "text",
+      "bytes": 8612,
+      "sha256": "ffc17dadb9bbe4307695d1235ef8ca4dab4ddc185b79d4116c1a4341b4bc4ee7"
+    },
+    {
+      "package": "netobs-http-json",
+      "artifact": "netobs-http-json_1.0.0-1_all.deb",
+      "group": "http",
+      "operation": "json",
+      "bytes": 8614,
+      "sha256": "5b1c14518ec441fc87d76860b70dd5f67d626088fae3722b1a04cd6abe9723b9"
+    },
+    {
+      "package": "netobs-http-latency",
+      "artifact": "netobs-http-latency_1.0.0-1_all.deb",
+      "group": "http",
+      "operation": "latency",
+      "bytes": 8610,
+      "sha256": "19e4cb3eda2fb0d15ed7b480a8df240c87bb58cc00abd27847921391c62547d8"
+    },
+    {
+      "package": "netobs-http-final-url",
+      "artifact": "netobs-http-final-url_1.0.0-1_all.deb",
+      "group": "http",
+      "operation": "final-url",
+      "bytes": 8618,
+      "sha256": "eae3f352874c4f0f7f89913ffef5a3dee897c56c3ec897cdf3dcb3e4d69b0097"
+    },
+    {
+      "package": "netobs-http-content-type",
+      "artifact": "netobs-http-content-type_1.0.0-1_all.deb",
+      "group": "http",
+      "operation": "content-type",
+      "bytes": 8622,
+      "sha256": "cc0f9400b38b933bd0c00b736cd6e6a3028caab1fbbc6da440ea5d6ebfdea58b"
+    },
+    {
+      "package": "netobs-http-length",
+      "artifact": "netobs-http-length_1.0.0-1_all.deb",
+      "group": "http",
+      "operation": "length",
+      "bytes": 8614,
+      "sha256": "7360331d17a427e928872563e7b134824e9d16bfea065c843080d1c28c7bfd73"
+    },
+    {
+      "package": "netobs-http-head",
+      "artifact": "netobs-http-head_1.0.0-1_all.deb",
+      "group": "http",
+      "operation": "head",
+      "bytes": 8618,
+      "sha256": "26b3375e85ccb6fb2ab6beeb24f332e633ea3cf06654a0ce08def7c5f230df4b"
+    },
+    {
+      "package": "netobs-http-download",
+      "artifact": "netobs-http-download_1.0.0-1_all.deb",
+      "group": "http",
+      "operation": "download",
+      "bytes": 8610,
+      "sha256": "82d31876ad7dd81aac7ec72e555cb1e6f5bc86f72068404ce90cf629edb53f92"
+    },
+    {
+      "package": "netobs-url-parse",
+      "artifact": "netobs-url-parse_1.0.0-1_all.deb",
+      "group": "url",
+      "operation": "parse",
+      "bytes": 8614,
+      "sha256": "32da82c24bfede5eee633d90541c9a786f6333c7b2a3ae63cbbb3f8f4c327242"
+    },
+    {
+      "package": "netobs-url-encode",
+      "artifact": "netobs-url-encode_1.0.0-1_all.deb",
+      "group": "url",
+      "operation": "encode",
+      "bytes": 8616,
+      "sha256": "794e60362a857ed237ae1d0ef3de9e24dead37b86c5ccfa8a6e225d6fcd110ff"
+    },
+    {
+      "package": "netobs-url-decode",
+      "artifact": "netobs-url-decode_1.0.0-1_all.deb",
+      "group": "url",
+      "operation": "decode",
+      "bytes": 8612,
+      "sha256": "c3261346a96332066470e20da60d594d51c1ee23f0be6d4472e64ce984b9756b"
+    },
+    {
+      "package": "netobs-url-join",
+      "artifact": "netobs-url-join_1.0.0-1_all.deb",
+      "group": "url",
+      "operation": "join",
+      "bytes": 8610,
+      "sha256": "6fa1d559a8d6ae3a9f4669c4cbe9d6c8e4472a4b2b2a64415448e3547e46d6f5"
+    },
+    {
+      "package": "netobs-url-query-parse",
+      "artifact": "netobs-url-query-parse_1.0.0-1_all.deb",
+      "group": "url",
+      "operation": "query-parse",
+      "bytes": 8616,
+      "sha256": "20fcdcc8c3aedf7f87d2b1a019bdda6d33159ff53aae717a2ef20792ec4e4c8e"
+    },
+    {
+      "package": "netobs-url-query-build",
+      "artifact": "netobs-url-query-build_1.0.0-1_all.deb",
+      "group": "url",
+      "operation": "query-build",
+      "bytes": 8616,
+      "sha256": "5f12f1fd6a1ff8d92457a8ac0f494b76e1d8510a37373345d9dfa0cc4b31caa0"
+    },
+    {
+      "package": "netobs-url-normalize",
+      "artifact": "netobs-url-normalize_1.0.0-1_all.deb",
+      "group": "url",
+      "operation": "normalize",
+      "bytes": 8610,
+      "sha256": "b6adfc59408a298fe7eb424dc2bf12731254753ea65300592846299b1e3e3ccd"
+    },
+    {
+      "package": "netobs-url-domain",
+      "artifact": "netobs-url-domain_1.0.0-1_all.deb",
+      "group": "url",
+      "operation": "domain",
+      "bytes": 8616,
+      "sha256": "62c426e94a6d035d08888a22a453a02b4af5b3aaf8e6c42935a9275fd63b3590"
+    },
+    {
+      "package": "netobs-url-scheme",
+      "artifact": "netobs-url-scheme_1.0.0-1_all.deb",
+      "group": "url",
+      "operation": "scheme",
+      "bytes": 8614,
+      "sha256": "5c71a3015fb53fa308cee33a208fbf76379bbb9d7ebd210bab8bf7099ab1b17e"
+    },
+    {
+      "package": "netobs-url-basename",
+      "artifact": "netobs-url-basename_1.0.0-1_all.deb",
+      "group": "url",
+      "operation": "basename",
+      "bytes": 8614,
+      "sha256": "75c20a7588d508397a14de7e7adda815925d647f3f6ed46da2b9fcb10d6a9f51"
+    },
+    {
+      "package": "netobs-dns-resolve",
+      "artifact": "netobs-dns-resolve_1.0.0-1_all.deb",
+      "group": "dns",
+      "operation": "resolve",
+      "bytes": 8610,
+      "sha256": "e80d605cee385d1f857837bc53e39db5c6ae906bb525281d940a4cf264980d89"
+    },
+    {
+      "package": "netobs-dns-reverse",
+      "artifact": "netobs-dns-reverse_1.0.0-1_all.deb",
+      "group": "dns",
+      "operation": "reverse",
+      "bytes": 8610,
+      "sha256": "8514c345c3451dd555e310c7a84bb03d109dee2c08b10e341d09b55e94b7e0b6"
+    },
+    {
+      "package": "netobs-dns-hostname",
+      "artifact": "netobs-dns-hostname_1.0.0-1_all.deb",
+      "group": "dns",
+      "operation": "hostname",
+      "bytes": 8612,
+      "sha256": "39f14c3441b9ffdcf8c829bb615e1a6ac971d01fed8f56b664dc019061787f82"
+    },
+    {
+      "package": "netobs-dns-fqdn",
+      "artifact": "netobs-dns-fqdn_1.0.0-1_all.deb",
+      "group": "dns",
+      "operation": "fqdn",
+      "bytes": 8616,
+      "sha256": "8e4c3a2567fb89a45df3f141415170ca1793a6430e61d6df5c987d66f648aa3b"
+    },
+    {
+      "package": "netobs-dns-localhost",
+      "artifact": "netobs-dns-localhost_1.0.0-1_all.deb",
+      "group": "dns",
+      "operation": "localhost",
+      "bytes": 8608,
+      "sha256": "22032c4250d6e6da5dbe1450f700881459421fa3187ce87a157f5cb98c22931e"
+    },
+    {
+      "package": "netobs-dns-addrinfo",
+      "artifact": "netobs-dns-addrinfo_1.0.0-1_all.deb",
+      "group": "dns",
+      "operation": "addrinfo",
+      "bytes": 8614,
+      "sha256": "76a5e9f95a6868e4607ee381eaab5fad6a0058ea1ec93d80e5636f16e2768421"
+    },
+    {
+      "package": "netobs-dns-canonical",
+      "artifact": "netobs-dns-canonical_1.0.0-1_all.deb",
+      "group": "dns",
+      "operation": "canonical",
+      "bytes": 8606,
+      "sha256": "301d42e96c133ca3bfffb3273e0001c40f252eb1011f667cdb5d82e5f2d60ccc"
+    },
+    {
+      "package": "netobs-dns-service-port",
+      "artifact": "netobs-dns-service-port_1.0.0-1_all.deb",
+      "group": "dns",
+      "operation": "service-port",
+      "bytes": 8614,
+      "sha256": "c564fb3285b63c742cdbb84b4a7beb65838e65f7b18ffe5533e94877077268ed"
+    },
+    {
+      "package": "netobs-dns-port-service",
+      "artifact": "netobs-dns-port-service_1.0.0-1_all.deb",
+      "group": "dns",
+      "operation": "port-service",
+      "bytes": 8614,
+      "sha256": "83dfe12661857c4c1c3c222381d17dc753b7edbe19a2ca6806ea76f2188176d1"
+    },
+    {
+      "package": "netobs-dns-stats",
+      "artifact": "netobs-dns-stats_1.0.0-1_all.deb",
+      "group": "dns",
+      "operation": "stats",
+      "bytes": 8608,
+      "sha256": "d3b6e898bf6e90218fad6d6b52311804b5ac2f41a9811f8f897240cc9e5788c4"
+    },
+    {
+      "package": "netobs-tcp-check",
+      "artifact": "netobs-tcp-check_1.0.0-1_all.deb",
+      "group": "tcp",
+      "operation": "check",
+      "bytes": 8610,
+      "sha256": "89eebb8a29e259fe0d46d55f001b4cff11dfc7dd322b5ae85ccdf324757ed692"
+    },
+    {
+      "package": "netobs-tcp-time",
+      "artifact": "netobs-tcp-time_1.0.0-1_all.deb",
+      "group": "tcp",
+      "operation": "time",
+      "bytes": 8608,
+      "sha256": "1c5500d245e0cb4dc3e34ec28795576d448515e7866f509ae9854c7df7bca52a"
+    },
+    {
+      "package": "netobs-tcp-send",
+      "artifact": "netobs-tcp-send_1.0.0-1_all.deb",
+      "group": "tcp",
+      "operation": "send",
+      "bytes": 8610,
+      "sha256": "3408b9d9798fec7d0086e4f52d1f3d3787817141b27b74d550824a7542271038"
+    },
+    {
+      "package": "netobs-tcp-recv",
+      "artifact": "netobs-tcp-recv_1.0.0-1_all.deb",
+      "group": "tcp",
+      "operation": "recv",
+      "bytes": 8612,
+      "sha256": "ffebf3e2d6c2bd9422b8231954d54d51cf6b096ab2f8846eee25a5ce6ba3a55d"
+    },
+    {
+      "package": "netobs-tcp-resolve",
+      "artifact": "netobs-tcp-resolve_1.0.0-1_all.deb",
+      "group": "tcp",
+      "operation": "resolve",
+      "bytes": 8608,
+      "sha256": "32d8e1f1146f20e854a45b001976898e3f364b8e73698bdefe72151b61a7dffe"
+    },
+    {
+      "package": "netobs-tcp-service",
+      "artifact": "netobs-tcp-service_1.0.0-1_all.deb",
+      "group": "tcp",
+      "operation": "service",
+      "bytes": 8608,
+      "sha256": "d1197c1b40b5d579d55606cac8e08eacf55c1a40adeb2d9e8e0b8d31f1c22077"
+    },
+    {
+      "package": "netobs-tcp-common-ports",
+      "artifact": "netobs-tcp-common-ports_1.0.0-1_all.deb",
+      "group": "tcp",
+      "operation": "common-ports",
+      "bytes": 8618,
+      "sha256": "730497dec3939f2e76aacc4c1774b75aabf8b560975d0a8d9e11b3d3baf4ba60"
+    },
+    {
+      "package": "netobs-tcp-family",
+      "artifact": "netobs-tcp-family_1.0.0-1_all.deb",
+      "group": "tcp",
+      "operation": "family",
+      "bytes": 8614,
+      "sha256": "52374a9b4582ad52faf18cff4739422c87a2f816918fae022aa27046015dd824"
+    },
+    {
+      "package": "netobs-tcp-host",
+      "artifact": "netobs-tcp-host_1.0.0-1_all.deb",
+      "group": "tcp",
+      "operation": "host",
+      "bytes": 8610,
+      "sha256": "7597a25c7f70e7a0cf4cfffa65a1e5faa8839a6a0e5ac127ed2bf65e6279f151"
+    },
+    {
+      "package": "netobs-tcp-stats",
+      "artifact": "netobs-tcp-stats_1.0.0-1_all.deb",
+      "group": "tcp",
+      "operation": "stats",
+      "bytes": 8608,
+      "sha256": "b55fccdf8c9a112157dc7ba8bf86f5023baa838a827bbae3b2f1c53e4bab066b"
+    },
+    {
+      "package": "netobs-jsonrpc-request",
+      "artifact": "netobs-jsonrpc-request_1.0.0-1_all.deb",
+      "group": "jsonrpc",
+      "operation": "request",
+      "bytes": 8612,
+      "sha256": "47ec9207720a9dfb337c55cfb07e7cb5fd8252f91e60abe5c2c07c138cee6dff"
+    },
+    {
+      "package": "netobs-jsonrpc-notify",
+      "artifact": "netobs-jsonrpc-notify_1.0.0-1_all.deb",
+      "group": "jsonrpc",
+      "operation": "notify",
+      "bytes": 8616,
+      "sha256": "a434eb153a2b56de3634d8d9384f0bea52feefc4eedec1a6976c8e582aed8c69"
+    },
+    {
+      "package": "netobs-jsonrpc-response",
+      "artifact": "netobs-jsonrpc-response_1.0.0-1_all.deb",
+      "group": "jsonrpc",
+      "operation": "response",
+      "bytes": 8618,
+      "sha256": "dbcdf6d5c6ebdcd91040b4d483ba863deba9a1723fdc0c2bb350b5dc95c3c807"
+    },
+    {
+      "package": "netobs-jsonrpc-error",
+      "artifact": "netobs-jsonrpc-error_1.0.0-1_all.deb",
+      "group": "jsonrpc",
+      "operation": "error",
+      "bytes": 8608,
+      "sha256": "29e06148581fde51031f7c9fad14f74eac2cf54bc0a7964285c3ecf062e06c91"
+    },
+    {
+      "package": "netobs-jsonrpc-batch",
+      "artifact": "netobs-jsonrpc-batch_1.0.0-1_all.deb",
+      "group": "jsonrpc",
+      "operation": "batch",
+      "bytes": 8612,
+      "sha256": "ba9a91fac48e8ae2aa82c974077ec9e7e5e82ec8389bb926993c2982598c3a23"
+    },
+    {
+      "package": "netobs-jsonrpc-validate",
+      "artifact": "netobs-jsonrpc-validate_1.0.0-1_all.deb",
+      "group": "jsonrpc",
+      "operation": "validate",
+      "bytes": 8616,
+      "sha256": "5a98659fbd9127712b228a2f73ab6b0ab5e4f270323c7d86323032fbdc040b87"
+    },
+    {
+      "package": "netobs-jsonrpc-methods",
+      "artifact": "netobs-jsonrpc-methods_1.0.0-1_all.deb",
+      "group": "jsonrpc",
+      "operation": "methods",
+      "bytes": 8614,
+      "sha256": "ce9f1b4b87bf77fd75c2c03b382afdbf9a0c3b7a417f28c1c0e9ef8114182a2e"
+    },
+    {
+      "package": "netobs-jsonrpc-ids",
+      "artifact": "netobs-jsonrpc-ids_1.0.0-1_all.deb",
+      "group": "jsonrpc",
+      "operation": "ids",
+      "bytes": 8610,
+      "sha256": "5f5b4a13cc16c0d423c2c4c467ec4d234a5d3d59aba876d7df141591b1aa3330"
+    },
+    {
+      "package": "netobs-jsonrpc-pretty",
+      "artifact": "netobs-jsonrpc-pretty_1.0.0-1_all.deb",
+      "group": "jsonrpc",
+      "operation": "pretty",
+      "bytes": 8610,
+      "sha256": "4768fbe10e8dfa28eeffb485f9e433a365001e02f741aedadfe17b89d05c2b83"
+    },
+    {
+      "package": "netobs-jsonrpc-line",
+      "artifact": "netobs-jsonrpc-line_1.0.0-1_all.deb",
+      "group": "jsonrpc",
+      "operation": "line",
+      "bytes": 8610,
+      "sha256": "1a204e43f271e08d4f6cc232d811b385d89b8cc251c23c9505cbddf2adbc46c5"
+    },
+    {
+      "package": "netobs-log-lines",
+      "artifact": "netobs-log-lines_1.0.0-1_all.deb",
+      "group": "log",
+      "operation": "lines",
+      "bytes": 8614,
+      "sha256": "57882064340fec953db1ac3ba713045ca646f1c973aebed027788c9eb5753b04"
+    },
+    {
+      "package": "netobs-log-levels",
+      "artifact": "netobs-log-levels_1.0.0-1_all.deb",
+      "group": "log",
+      "operation": "levels",
+      "bytes": 8610,
+      "sha256": "b8cabfb61e6e064f7a2c7f2e927868593edf6fa62bf9b333ebf21bf13c6a29de"
+    },
+    {
+      "package": "netobs-log-errors",
+      "artifact": "netobs-log-errors_1.0.0-1_all.deb",
+      "group": "log",
+      "operation": "errors",
+      "bytes": 8606,
+      "sha256": "524bfced9f2ac5a90db8a7d30b59843d7163b2af0dc2ea82cbdd4507a97800c9"
+    },
+    {
+      "package": "netobs-log-warnings",
+      "artifact": "netobs-log-warnings_1.0.0-1_all.deb",
+      "group": "log",
+      "operation": "warnings",
+      "bytes": 8612,
+      "sha256": "4eeef8d706afa3ec712ad5b37d74c1f75742d9f2f573a68f7cee00cf753f1715"
+    },
+    {
+      "package": "netobs-log-timestamps",
+      "artifact": "netobs-log-timestamps_1.0.0-1_all.deb",
+      "group": "log",
+      "operation": "timestamps",
+      "bytes": 8610,
+      "sha256": "899a9632ad47c84a7e7b06efd087bf2fff215b1ea2f6421f061b0d8bfab8cf5b"
+    },
+    {
+      "package": "netobs-log-json",
+      "artifact": "netobs-log-json_1.0.0-1_all.deb",
+      "group": "log",
+      "operation": "json",
+      "bytes": 8612,
+      "sha256": "37747d863e3bb7ca2178bef962b1848ffd1667623c7aa414aba02d3845c430bf"
+    },
+    {
+      "package": "netobs-log-grep",
+      "artifact": "netobs-log-grep_1.0.0-1_all.deb",
+      "group": "log",
+      "operation": "grep",
+      "bytes": 8610,
+      "sha256": "9f65e0659ea64ef98114254790a18493f1ec14623f7530aba65046ccb04ced5d"
+    },
+    {
+      "package": "netobs-log-tail",
+      "artifact": "netobs-log-tail_1.0.0-1_all.deb",
+      "group": "log",
+      "operation": "tail",
+      "bytes": 8610,
+      "sha256": "e8b425f3cf6131718706aa7aef54ad94d4e0d38bf6c7d169165de1801c9224ae"
+    },
+    {
+      "package": "netobs-log-top",
+      "artifact": "netobs-log-top_1.0.0-1_all.deb",
+      "group": "log",
+      "operation": "top",
+      "bytes": 8602,
+      "sha256": "1239cbede283a8fd8804b89d479cac1e05187d072af2d54bde0fe699e78508a8"
+    },
+    {
+      "package": "netobs-log-stats",
+      "artifact": "netobs-log-stats_1.0.0-1_all.deb",
+      "group": "log",
+      "operation": "stats",
+      "bytes": 8608,
+      "sha256": "d36a8a24b8745a12925c0f186799075fd37a7cfbf3582d99fcedba754b865868"
+    },
+    {
+      "package": "netobs-metric-avg",
+      "artifact": "netobs-metric-avg_1.0.0-1_all.deb",
+      "group": "metric",
+      "operation": "avg",
+      "bytes": 8616,
+      "sha256": "54857c777601adf12dbe07a082075b95d96e7f14a97a2ca4b21bfdb2f49a2696"
+    },
+    {
+      "package": "netobs-metric-min",
+      "artifact": "netobs-metric-min_1.0.0-1_all.deb",
+      "group": "metric",
+      "operation": "min",
+      "bytes": 8612,
+      "sha256": "2c98d18848c238d292c472f9c95603167ace008192d383b26369a9310b3d33db"
+    },
+    {
+      "package": "netobs-metric-max",
+      "artifact": "netobs-metric-max_1.0.0-1_all.deb",
+      "group": "metric",
+      "operation": "max",
+      "bytes": 8614,
+      "sha256": "9ee8e8e61a2caecf9cbfb493ce2e9a42ca3f3c341e115c01bd3a026a0e44b76c"
+    },
+    {
+      "package": "netobs-metric-sum",
+      "artifact": "netobs-metric-sum_1.0.0-1_all.deb",
+      "group": "metric",
+      "operation": "sum",
+      "bytes": 8614,
+      "sha256": "9ad1410e40fec6023ea386b698113d0c98e23c9de6555a705e5b9f952c0468e5"
+    },
+    {
+      "package": "netobs-metric-count",
+      "artifact": "netobs-metric-count_1.0.0-1_all.deb",
+      "group": "metric",
+      "operation": "count",
+      "bytes": 8608,
+      "sha256": "d44cc69fcd3c3c76569a180a1c4b73f54439ea26d72335d2b38075a6f20aec9b"
+    },
+    {
+      "package": "netobs-metric-p50",
+      "artifact": "netobs-metric-p50_1.0.0-1_all.deb",
+      "group": "metric",
+      "operation": "p50",
+      "bytes": 8612,
+      "sha256": "1e160f87782b9ee1f1a47fc574c9c43c5e2c038ead73b3243005ee51d4b10beb"
+    },
+    {
+      "package": "netobs-metric-p90",
+      "artifact": "netobs-metric-p90_1.0.0-1_all.deb",
+      "group": "metric",
+      "operation": "p90",
+      "bytes": 8616,
+      "sha256": "28646854442fe62a5538a7ab0f22f8b05e233f3d6dc0be71ae5a083c6d07e876"
+    },
+    {
+      "package": "netobs-metric-p95",
+      "artifact": "netobs-metric-p95_1.0.0-1_all.deb",
+      "group": "metric",
+      "operation": "p95",
+      "bytes": 8616,
+      "sha256": "bcee2b955a19c872d050bfe662f386e3c243fcf9c8821a9c7512852dc863ed8a"
+    },
+    {
+      "package": "netobs-metric-p99",
+      "artifact": "netobs-metric-p99_1.0.0-1_all.deb",
+      "group": "metric",
+      "operation": "p99",
+      "bytes": 8610,
+      "sha256": "32c3c157196f4ecc729f995c47979a74b3bbc66c370c90d9c516828062b89215"
+    },
+    {
+      "package": "netobs-metric-stats",
+      "artifact": "netobs-metric-stats_1.0.0-1_all.deb",
+      "group": "metric",
+      "operation": "stats",
+      "bytes": 8610,
+      "sha256": "a19f0e94c432c242ce71a1d3b2fb70ad20e8705d544243125181a4b2c5084471"
+    },
+    {
+      "package": "netobs-trace-new-trace",
+      "artifact": "netobs-trace-new-trace_1.0.0-1_all.deb",
+      "group": "trace",
+      "operation": "new-trace",
+      "bytes": 8610,
+      "sha256": "9cdde740f91a49ea32d9c9558ee80c8248db9bf3468bb958c6e621f0488d451d"
+    },
+    {
+      "package": "netobs-trace-new-span",
+      "artifact": "netobs-trace-new-span_1.0.0-1_all.deb",
+      "group": "trace",
+      "operation": "new-span",
+      "bytes": 8618,
+      "sha256": "f10eb91fbbaf3b6e4bda76406e591b220e1dc7ed1e0fbd622af4f62580841450"
+    },
+    {
+      "package": "netobs-trace-parse-parent",
+      "artifact": "netobs-trace-parse-parent_1.0.0-1_all.deb",
+      "group": "trace",
+      "operation": "parse-parent",
+      "bytes": 8614,
+      "sha256": "e708647287e49cea55bee970726e8113e31511674033ba50bea5d49ad57866ba"
+    },
+    {
+      "package": "netobs-trace-make-parent",
+      "artifact": "netobs-trace-make-parent_1.0.0-1_all.deb",
+      "group": "trace",
+      "operation": "make-parent",
+      "bytes": 8618,
+      "sha256": "11ed9fda96c10eb2264d87a29da126c89ba9b0957206248e0e896a5109df152c"
+    },
+    {
+      "package": "netobs-trace-duration",
+      "artifact": "netobs-trace-duration_1.0.0-1_all.deb",
+      "group": "trace",
+      "operation": "duration",
+      "bytes": 8616,
+      "sha256": "9581ee10e25c244cce15ce678d7fc758b0219a91780f7366226ebe057ce58140"
+    },
+    {
+      "package": "netobs-trace-sort",
+      "artifact": "netobs-trace-sort_1.0.0-1_all.deb",
+      "group": "trace",
+      "operation": "sort",
+      "bytes": 8614,
+      "sha256": "0cf039c11ca275c83a88443329b89b9be6481957397c5add0da8bb262763ee7f"
+    },
+    {
+      "package": "netobs-trace-critical",
+      "artifact": "netobs-trace-critical_1.0.0-1_all.deb",
+      "group": "trace",
+      "operation": "critical",
+      "bytes": 8610,
+      "sha256": "1aec0199ef29a70a92c50dc44e13792790584d54dc0b21c5e207aaf8a8169feb"
+    },
+    {
+      "package": "netobs-trace-errors",
+      "artifact": "netobs-trace-errors_1.0.0-1_all.deb",
+      "group": "trace",
+      "operation": "errors",
+      "bytes": 8606,
+      "sha256": "32696b1c0e49e25db3cd4af3e019f6f5821e73a80d1e029c771a2b1b68c478d6"
+    },
+    {
+      "package": "netobs-trace-services",
+      "artifact": "netobs-trace-services_1.0.0-1_all.deb",
+      "group": "trace",
+      "operation": "services",
+      "bytes": 8612,
+      "sha256": "2a16007a85259ff8ad48a74b33b71cf8766d1adcfd2a56f4c808fed35a46916e"
+    },
+    {
+      "package": "netobs-trace-stats",
+      "artifact": "netobs-trace-stats_1.0.0-1_all.deb",
+      "group": "trace",
+      "operation": "stats",
+      "bytes": 8612,
+      "sha256": "bcdd58e2a29e12e0be89b3c9b776c8a70155645aad4bc7d13e6d1a359a3598f2"
+    },
+    {
+      "package": "netobs-tls-pem-count",
+      "artifact": "netobs-tls-pem-count_1.0.0-1_all.deb",
+      "group": "tls",
+      "operation": "pem-count",
+      "bytes": 8612,
+      "sha256": "70f44bb2846f4e531aacd7792ebd2a34edab8362b3783b7f59bca49fb621b0c8"
+    },
+    {
+      "package": "netobs-tls-pem-labels",
+      "artifact": "netobs-tls-pem-labels_1.0.0-1_all.deb",
+      "group": "tls",
+      "operation": "pem-labels",
+      "bytes": 8614,
+      "sha256": "1853e50f7d39fa400a2eadcfad0b4b963ba322efac7943353f5b8d8b4f48af85"
+    },
+    {
+      "package": "netobs-tls-sha256",
+      "artifact": "netobs-tls-sha256_1.0.0-1_all.deb",
+      "group": "tls",
+      "operation": "sha256",
+      "bytes": 8614,
+      "sha256": "defd47e6a0fab4a219828ef6589fb47c3705fb3f442fe8d16358cc6b0f15b1a2"
+    },
+    {
+      "package": "netobs-tls-version",
+      "artifact": "netobs-tls-version_1.0.0-1_all.deb",
+      "group": "tls",
+      "operation": "version",
+      "bytes": 8610,
+      "sha256": "8e90232ae6121f54031b3fb3e75ba563ebc2673bea839c1fb3c9321ba0547fdb"
+    },
+    {
+      "package": "netobs-tls-cipher",
+      "artifact": "netobs-tls-cipher_1.0.0-1_all.deb",
+      "group": "tls",
+      "operation": "cipher",
+      "bytes": 8612,
+      "sha256": "6b7bb3f1bb87b88d553957260009ec728b46781ea2a806b4d8f6cf4de1eea686"
+    },
+    {
+      "package": "netobs-tls-sans",
+      "artifact": "netobs-tls-sans_1.0.0-1_all.deb",
+      "group": "tls",
+      "operation": "sans",
+      "bytes": 8608,
+      "sha256": "7f3bf908dff37cd768f0bc8dcf43a7b82e4dae487f44057c9c2d60496cd7c30c"
+    },
+    {
+      "package": "netobs-tls-issuer",
+      "artifact": "netobs-tls-issuer_1.0.0-1_all.deb",
+      "group": "tls",
+      "operation": "issuer",
+      "bytes": 8612,
+      "sha256": "9b3ca2f8caa31f8a0c9eb60867183f0b326ffa908eddab01e44023db3d7e9b9c"
+    },
+    {
+      "package": "netobs-tls-expiry",
+      "artifact": "netobs-tls-expiry_1.0.0-1_all.deb",
+      "group": "tls",
+      "operation": "expiry",
+      "bytes": 8608,
+      "sha256": "952e63c693a20f263883ec3bf4c94db223d401f8f24cdd75980827d764398df4"
+    },
+    {
+      "package": "netobs-tls-certificate",
+      "artifact": "netobs-tls-certificate_1.0.0-1_all.deb",
+      "group": "tls",
+      "operation": "certificate",
+      "bytes": 8614,
+      "sha256": "e37f995172b756e7c3496ed85095e44a9a84fba1c41e1457f04c247e9a48bc14"
+    },
+    {
+      "package": "netobs-tls-stats",
+      "artifact": "netobs-tls-stats_1.0.0-1_all.deb",
+      "group": "tls",
+      "operation": "stats",
+      "bytes": 8608,
+      "sha256": "4661fdcd6155553dd7040fdecaa70af1ae4c740c30c7ec61c9446349290fcff9"
+    },
+    {
+      "package": "netobs-system-env",
+      "artifact": "netobs-system-env_1.0.0-1_all.deb",
+      "group": "system",
+      "operation": "env",
+      "bytes": 8606,
+      "sha256": "3c1177fb18f2e1d39d2e62e5932d621ddc2a9a73fd4a16582773a0ff346349d2"
+    },
+    {
+      "package": "netobs-system-path",
+      "artifact": "netobs-system-path_1.0.0-1_all.deb",
+      "group": "system",
+      "operation": "path",
+      "bytes": 8606,
+      "sha256": "299549d8cbc112290c3a5a5aed2592be4d217ae92789a1185d71c95d2b8af6f8"
+    },
+    {
+      "package": "netobs-system-which",
+      "artifact": "netobs-system-which_1.0.0-1_all.deb",
+      "group": "system",
+      "operation": "which",
+      "bytes": 8612,
+      "sha256": "1300534daa78510961b9c6e1a73f027eaa352807df1cdeb33abd211ef040affb"
+    },
+    {
+      "package": "netobs-system-platform",
+      "artifact": "netobs-system-platform_1.0.0-1_all.deb",
+      "group": "system",
+      "operation": "platform",
+      "bytes": 8604,
+      "sha256": "f3d824438d7a8130cd23f10776f7255cf935dfac8b48bb863da43927e1b97b93"
+    },
+    {
+      "package": "netobs-system-python",
+      "artifact": "netobs-system-python_1.0.0-1_all.deb",
+      "group": "system",
+      "operation": "python",
+      "bytes": 8600,
+      "sha256": "c0c3f53fa48f7d505b18bafa98100cba9480e1742e007bc0d3f88146aee6fb0b"
+    },
+    {
+      "package": "netobs-system-cwd",
+      "artifact": "netobs-system-cwd_1.0.0-1_all.deb",
+      "group": "system",
+      "operation": "cwd",
+      "bytes": 8606,
+      "sha256": "4ab4193415114d52dd78403089b08f8e7de065e5870d3dfee547defadea1fcaf"
+    },
+    {
+      "package": "netobs-system-disk",
+      "artifact": "netobs-system-disk_1.0.0-1_all.deb",
+      "group": "system",
+      "operation": "disk",
+      "bytes": 8604,
+      "sha256": "551bde285f2e68c11699ccfca9017b70e0cf8c21be2618b9713f65a82ce93cc6"
+    },
+    {
+      "package": "netobs-system-uname",
+      "artifact": "netobs-system-uname_1.0.0-1_all.deb",
+      "group": "system",
+      "operation": "uname",
+      "bytes": 8610,
+      "sha256": "29e3846e6ca03f47b63225401d7a280aa011e081b63b4f6f17497d27e1c09217"
+    },
+    {
+      "package": "netobs-system-hostname",
+      "artifact": "netobs-system-hostname_1.0.0-1_all.deb",
+      "group": "system",
+      "operation": "hostname",
+      "bytes": 8610,
+      "sha256": "7593c481eb9134ecfb754e149c679352672c98769ae8e490dde9550d006e9c32"
+    },
+    {
+      "package": "netobs-system-stats",
+      "artifact": "netobs-system-stats_1.0.0-1_all.deb",
+      "group": "system",
+      "operation": "stats",
+      "bytes": 8610,
+      "sha256": "8a342e3bd98c51dcb3241b896b4cfe0aecfab89a6beed3de6d64c7883716814a"
+    },
+    {
+      "package": "network-observability-suite",
+      "artifact": "network-observability-suite_1.0.0-1_all.deb",
+      "group": "meta",
+      "operation": "install",
+      "bytes": 1126,
+      "sha256": "8025df02e7645aa957153209bef2c8cddcbf4deb332dd1078bbb492a4d5bc230"
+    }
+  ]
+}

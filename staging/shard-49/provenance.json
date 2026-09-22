@@ -1,0 +1,822 @@
+{
+  "schemaVersion": 1,
+  "shard": "49",
+  "version": "1.0.0-1",
+  "prefix": "/data/data/studio.ocean.app/files/usr",
+  "commandCount": 100,
+  "packageCount": 101,
+  "suite": "ai-rag-data-suite",
+  "networkAtAptInstall": false,
+  "rootRequired": false,
+  "implementation": "self-contained Python standard-library utilities",
+  "packages": [
+    {
+      "package": "airag-vector-dot",
+      "artifact": "airag-vector-dot_1.0.0-1_all.deb",
+      "group": "vector",
+      "operation": "dot",
+      "bytes": 8596,
+      "sha256": "93c29a9178e07174bcd31fd67dc6d289b0eb25a9b6c2624d850a7888c2171a60"
+    },
+    {
+      "package": "airag-vector-cosine",
+      "artifact": "airag-vector-cosine_1.0.0-1_all.deb",
+      "group": "vector",
+      "operation": "cosine",
+      "bytes": 8598,
+      "sha256": "dd1fb71dae9bf012da78040b3c16b3e35afc4f598be496d3980428341d28127a"
+    },
+    {
+      "package": "airag-vector-norm",
+      "artifact": "airag-vector-norm_1.0.0-1_all.deb",
+      "group": "vector",
+      "operation": "norm",
+      "bytes": 8594,
+      "sha256": "2a7aa23db90ac538d9c7fe1aed7d173ebe5d6753b1e9584f357371f9129d2886"
+    },
+    {
+      "package": "airag-vector-normalize",
+      "artifact": "airag-vector-normalize_1.0.0-1_all.deb",
+      "group": "vector",
+      "operation": "normalize",
+      "bytes": 8598,
+      "sha256": "f163a4058460e56048b9d69d6976d98397c38290c1bdbc4b14dc7e0a3b448c64"
+    },
+    {
+      "package": "airag-vector-dims",
+      "artifact": "airag-vector-dims_1.0.0-1_all.deb",
+      "group": "vector",
+      "operation": "dims",
+      "bytes": 8594,
+      "sha256": "e376a7a4b89f9e35635e52bd3782becc9eb91d2265e63505c9d6ec66673b811b"
+    },
+    {
+      "package": "airag-vector-topk",
+      "artifact": "airag-vector-topk_1.0.0-1_all.deb",
+      "group": "vector",
+      "operation": "topk",
+      "bytes": 8600,
+      "sha256": "85176d99084d7773b587958ba77fb472ac2c7bb8b1bbfcadbea81324c2fb5a92"
+    },
+    {
+      "package": "airag-vector-mean",
+      "artifact": "airag-vector-mean_1.0.0-1_all.deb",
+      "group": "vector",
+      "operation": "mean",
+      "bytes": 8594,
+      "sha256": "79e40ad5031c615fc0debed997517149dcc5bbc85e856d944e6e9b969e4d0acb"
+    },
+    {
+      "package": "airag-vector-sum",
+      "artifact": "airag-vector-sum_1.0.0-1_all.deb",
+      "group": "vector",
+      "operation": "sum",
+      "bytes": 8596,
+      "sha256": "36ce496a07ad11e0aa549a7612ad77d4b389e5d4b4f0ebbe4514002eeb59d7ee"
+    },
+    {
+      "package": "airag-vector-min",
+      "artifact": "airag-vector-min_1.0.0-1_all.deb",
+      "group": "vector",
+      "operation": "min",
+      "bytes": 8596,
+      "sha256": "4a0ec6d695087e28fb895bcfe383d92aae7dcc10edbff3ff304058643e255af9"
+    },
+    {
+      "package": "airag-vector-max",
+      "artifact": "airag-vector-max_1.0.0-1_all.deb",
+      "group": "vector",
+      "operation": "max",
+      "bytes": 8600,
+      "sha256": "0d2c1e98edbd0c90df04c52a21948482e5fccd84095e74b2fcc70fe6c38532cb"
+    },
+    {
+      "package": "airag-rag-chunk-chars",
+      "artifact": "airag-rag-chunk-chars_1.0.0-1_all.deb",
+      "group": "rag",
+      "operation": "chunk-chars",
+      "bytes": 8594,
+      "sha256": "edcd275e78b4bd791dfc725c0f6c06db20e9c876f69f796e71e41025861edfdb"
+    },
+    {
+      "package": "airag-rag-chunk-words",
+      "artifact": "airag-rag-chunk-words_1.0.0-1_all.deb",
+      "group": "rag",
+      "operation": "chunk-words",
+      "bytes": 8600,
+      "sha256": "cd233f0b687353fc759c0a77174d54305f71b3976ac18d814256a1ce528983d4"
+    },
+    {
+      "package": "airag-rag-chunk-lines",
+      "artifact": "airag-rag-chunk-lines_1.0.0-1_all.deb",
+      "group": "rag",
+      "operation": "chunk-lines",
+      "bytes": 8596,
+      "sha256": "3ae43f6277dd507359b6ac457f60a1684910423fe4cbc7d9767eabc77ce9992c"
+    },
+    {
+      "package": "airag-rag-overlap",
+      "artifact": "airag-rag-overlap_1.0.0-1_all.deb",
+      "group": "rag",
+      "operation": "overlap",
+      "bytes": 8592,
+      "sha256": "b622354dba92476695a9bb526d5ec077f00480b2b309493647fbf08f21cc173e"
+    },
+    {
+      "package": "airag-rag-dedupe",
+      "artifact": "airag-rag-dedupe_1.0.0-1_all.deb",
+      "group": "rag",
+      "operation": "dedupe",
+      "bytes": 8592,
+      "sha256": "8d7a25591158e4923379e775fc2afc0fff96b74bc5f230a0db604771cffa1e51"
+    },
+    {
+      "package": "airag-rag-rank",
+      "artifact": "airag-rag-rank_1.0.0-1_all.deb",
+      "group": "rag",
+      "operation": "rank",
+      "bytes": 8590,
+      "sha256": "46277de82e6a49e6028b6f0bd0ba08db5442b0db0f89c28092c6db49d0399da4"
+    },
+    {
+      "package": "airag-rag-context",
+      "artifact": "airag-rag-context_1.0.0-1_all.deb",
+      "group": "rag",
+      "operation": "context",
+      "bytes": 8594,
+      "sha256": "79c05cedda0b1fc45a46d03cdafc12d253f31227f677369c0e524fd06312ddc7"
+    },
+    {
+      "package": "airag-rag-citations",
+      "artifact": "airag-rag-citations_1.0.0-1_all.deb",
+      "group": "rag",
+      "operation": "citations",
+      "bytes": 8596,
+      "sha256": "537f3240f86ba7aa8ddce7fa7dbcc6afff6dbbbae1badd0e811db99f1ac50dc2"
+    },
+    {
+      "package": "airag-rag-manifest",
+      "artifact": "airag-rag-manifest_1.0.0-1_all.deb",
+      "group": "rag",
+      "operation": "manifest",
+      "bytes": 8596,
+      "sha256": "cd5c38fb67c3f1a27d7c42546bd2e0e130157e8474ab7c7beda8cd381ddcbe7f"
+    },
+    {
+      "package": "airag-rag-stats",
+      "artifact": "airag-rag-stats_1.0.0-1_all.deb",
+      "group": "rag",
+      "operation": "stats",
+      "bytes": 8592,
+      "sha256": "7d61386bc6addadadfc96e69b0c3518c3946db59f4fd060318f799432108f756"
+    },
+    {
+      "package": "airag-prompt-vars",
+      "artifact": "airag-prompt-vars_1.0.0-1_all.deb",
+      "group": "prompt",
+      "operation": "vars",
+      "bytes": 8598,
+      "sha256": "7c05efb01b5452ac3b9d881607a4753ed61fc5ecee33bc999b5351f16f5fcd92"
+    },
+    {
+      "package": "airag-prompt-render",
+      "artifact": "airag-prompt-render_1.0.0-1_all.deb",
+      "group": "prompt",
+      "operation": "render",
+      "bytes": 8600,
+      "sha256": "a632bb1116cd6cd5a9be7dcf892292eba0719cc63968de359d1c37d09472a909"
+    },
+    {
+      "package": "airag-prompt-roles",
+      "artifact": "airag-prompt-roles_1.0.0-1_all.deb",
+      "group": "prompt",
+      "operation": "roles",
+      "bytes": 8600,
+      "sha256": "6b9cbaa4de21bb61eadf5f047beaf8aae875385d37458466b27f899ed44ae287"
+    },
+    {
+      "package": "airag-prompt-messages",
+      "artifact": "airag-prompt-messages_1.0.0-1_all.deb",
+      "group": "prompt",
+      "operation": "messages",
+      "bytes": 8598,
+      "sha256": "8450bb893eff05f1c51aed70724680a7c2e465896b007a43b7d2fec70dfc916f"
+    },
+    {
+      "package": "airag-prompt-compact",
+      "artifact": "airag-prompt-compact_1.0.0-1_all.deb",
+      "group": "prompt",
+      "operation": "compact",
+      "bytes": 8596,
+      "sha256": "9b029f51127b2f77191854bf6b401cb0a0c764cfb68056213d1551584e4dffa7"
+    },
+    {
+      "package": "airag-prompt-hash",
+      "artifact": "airag-prompt-hash_1.0.0-1_all.deb",
+      "group": "prompt",
+      "operation": "hash",
+      "bytes": 8598,
+      "sha256": "24ca958086b1316a52cdfe930df8353234a97985caec71ca095c803b999392b8"
+    },
+    {
+      "package": "airag-prompt-estimate",
+      "artifact": "airag-prompt-estimate_1.0.0-1_all.deb",
+      "group": "prompt",
+      "operation": "estimate",
+      "bytes": 8598,
+      "sha256": "0af1b5340f2a6bd07fcbe1de5f6a435a3bc4850f4a85e5e08d65942d92d69d9b"
+    },
+    {
+      "package": "airag-prompt-json",
+      "artifact": "airag-prompt-json_1.0.0-1_all.deb",
+      "group": "prompt",
+      "operation": "json",
+      "bytes": 8600,
+      "sha256": "42bc6b0504381a094f216e921161a76bc6bb0ba0b90b9c66be31fe4be64fe67a"
+    },
+    {
+      "package": "airag-prompt-join",
+      "artifact": "airag-prompt-join_1.0.0-1_all.deb",
+      "group": "prompt",
+      "operation": "join",
+      "bytes": 8600,
+      "sha256": "7bc3a5ff091a756f98d5d79d8757daa0de403034feba9b70c9827988bc77ba63"
+    },
+    {
+      "package": "airag-prompt-stats",
+      "artifact": "airag-prompt-stats_1.0.0-1_all.deb",
+      "group": "prompt",
+      "operation": "stats",
+      "bytes": 8600,
+      "sha256": "b48d9419544d03edffdaf5d1b1e7c9c36bfd69645f6ee1b242fb7197062e7525"
+    },
+    {
+      "package": "airag-jsonl-count",
+      "artifact": "airag-jsonl-count_1.0.0-1_all.deb",
+      "group": "jsonl",
+      "operation": "count",
+      "bytes": 8600,
+      "sha256": "beea4baf794ffcc151408f8fdf3136a71d13f0d40616d4b3c5b80406600dd0ba"
+    },
+    {
+      "package": "airag-jsonl-head",
+      "artifact": "airag-jsonl-head_1.0.0-1_all.deb",
+      "group": "jsonl",
+      "operation": "head",
+      "bytes": 8602,
+      "sha256": "0a4b21deb0f8b4bef5055b15782634a74df5370a58bd8c091f09f25ef0b31f14"
+    },
+    {
+      "package": "airag-jsonl-tail",
+      "artifact": "airag-jsonl-tail_1.0.0-1_all.deb",
+      "group": "jsonl",
+      "operation": "tail",
+      "bytes": 8602,
+      "sha256": "e821ca9413377bf35ad80374d55cb6b5170931bfbf74d19aee2f6a2ac4068130"
+    },
+    {
+      "package": "airag-jsonl-validate",
+      "artifact": "airag-jsonl-validate_1.0.0-1_all.deb",
+      "group": "jsonl",
+      "operation": "validate",
+      "bytes": 8600,
+      "sha256": "0d820cad41bde5a6e9f8853e602f4c8bf4ff2558154bbe482d32c06b88e7b1c4"
+    },
+    {
+      "package": "airag-jsonl-dedupe",
+      "artifact": "airag-jsonl-dedupe_1.0.0-1_all.deb",
+      "group": "jsonl",
+      "operation": "dedupe",
+      "bytes": 8602,
+      "sha256": "8d919474115d0b2c7ed9188206af112cd3d7fe79702210c8aa57502da64a30ce"
+    },
+    {
+      "package": "airag-jsonl-sample",
+      "artifact": "airag-jsonl-sample_1.0.0-1_all.deb",
+      "group": "jsonl",
+      "operation": "sample",
+      "bytes": 8600,
+      "sha256": "5a1c125ff5b0468e08bba2ff3fa128efb121c5ec2328f888ec377e2a28ce787a"
+    },
+    {
+      "package": "airag-jsonl-shuffle",
+      "artifact": "airag-jsonl-shuffle_1.0.0-1_all.deb",
+      "group": "jsonl",
+      "operation": "shuffle",
+      "bytes": 8600,
+      "sha256": "f33261c1c17e31dc5286b5d8b66af6176cdcf65ab52f2494ba6e55f686e70017"
+    },
+    {
+      "package": "airag-jsonl-split",
+      "artifact": "airag-jsonl-split_1.0.0-1_all.deb",
+      "group": "jsonl",
+      "operation": "split",
+      "bytes": 8598,
+      "sha256": "21523bf477cfd193e8ece7999b5e0972076b4d24a3a2535e4d77e9857c8cbc85"
+    },
+    {
+      "package": "airag-jsonl-keys",
+      "artifact": "airag-jsonl-keys_1.0.0-1_all.deb",
+      "group": "jsonl",
+      "operation": "keys",
+      "bytes": 8602,
+      "sha256": "175c90158288016fda6e73ba3dc640444ce86d8f2c5ad45316101c5e97d946f5"
+    },
+    {
+      "package": "airag-jsonl-stats",
+      "artifact": "airag-jsonl-stats_1.0.0-1_all.deb",
+      "group": "jsonl",
+      "operation": "stats",
+      "bytes": 8594,
+      "sha256": "0816905bb583e3232f658db382ff771c181ea31a3c9d481fc6c980bb3466b3bd"
+    },
+    {
+      "package": "airag-json-pretty",
+      "artifact": "airag-json-pretty_1.0.0-1_all.deb",
+      "group": "json",
+      "operation": "pretty",
+      "bytes": 8596,
+      "sha256": "79f56afaaca3049762d2d94ea89907c7abba21cc9fa6d7cf131f2e84ff009002"
+    },
+    {
+      "package": "airag-json-compact",
+      "artifact": "airag-json-compact_1.0.0-1_all.deb",
+      "group": "json",
+      "operation": "compact",
+      "bytes": 8598,
+      "sha256": "94fd7a14a3d7362fd463ed47175b91e423075114dc172758b18047d55429720b"
+    },
+    {
+      "package": "airag-json-keys",
+      "artifact": "airag-json-keys_1.0.0-1_all.deb",
+      "group": "json",
+      "operation": "keys",
+      "bytes": 8598,
+      "sha256": "fc0caef36a8dec031333806046daef5c4beec94e1d85dba60a4164da0883e00f"
+    },
+    {
+      "package": "airag-json-get",
+      "artifact": "airag-json-get_1.0.0-1_all.deb",
+      "group": "json",
+      "operation": "get",
+      "bytes": 8598,
+      "sha256": "84249c2280d0f8a17a6ef89f8de736be37f62a7d66e0ea1e9def23ff4ee6252d"
+    },
+    {
+      "package": "airag-json-merge",
+      "artifact": "airag-json-merge_1.0.0-1_all.deb",
+      "group": "json",
+      "operation": "merge",
+      "bytes": 8600,
+      "sha256": "17926c589a7bd46ac9ea2c974eca8d89926f972a084520f8e10112355361cd13"
+    },
+    {
+      "package": "airag-json-equal",
+      "artifact": "airag-json-equal_1.0.0-1_all.deb",
+      "group": "json",
+      "operation": "equal",
+      "bytes": 8600,
+      "sha256": "da86d3e97c7876c3c83d5f6ba52e75a3452589c33cbba16f141c46c6d67ab1ac"
+    },
+    {
+      "package": "airag-json-validate",
+      "artifact": "airag-json-validate_1.0.0-1_all.deb",
+      "group": "json",
+      "operation": "validate",
+      "bytes": 8596,
+      "sha256": "16889bc9a98037b808d18a37f40eb44bbe36a6933085be5968537119318603af"
+    },
+    {
+      "package": "airag-json-to-jsonl",
+      "artifact": "airag-json-to-jsonl_1.0.0-1_all.deb",
+      "group": "json",
+      "operation": "to-jsonl",
+      "bytes": 8598,
+      "sha256": "9333e9ed652d4ed1800826de3e73ed5d56ba918d873a12531ca8fb40680fa3a0"
+    },
+    {
+      "package": "airag-json-from-jsonl",
+      "artifact": "airag-json-from-jsonl_1.0.0-1_all.deb",
+      "group": "json",
+      "operation": "from-jsonl",
+      "bytes": 8596,
+      "sha256": "c701ee29323902f4f46737ff6769d10360cf98a30669d6c52dbe516785144f98"
+    },
+    {
+      "package": "airag-json-stats",
+      "artifact": "airag-json-stats_1.0.0-1_all.deb",
+      "group": "json",
+      "operation": "stats",
+      "bytes": 8598,
+      "sha256": "8e7189f9fceeb6b5b04fcb071b8ac677577cfebee8642300a3ce9f615ebc2731"
+    },
+    {
+      "package": "airag-csv-rows",
+      "artifact": "airag-csv-rows_1.0.0-1_all.deb",
+      "group": "csv",
+      "operation": "rows",
+      "bytes": 8594,
+      "sha256": "006b2f00bac4efc287767b7b95f115ae749e79e1a2ebb7b9ec15539e201333f5"
+    },
+    {
+      "package": "airag-csv-cols",
+      "artifact": "airag-csv-cols_1.0.0-1_all.deb",
+      "group": "csv",
+      "operation": "cols",
+      "bytes": 8596,
+      "sha256": "7275995a1572dcd2a1ea7e12239e2541394c15214703c4ecc3c9c06868030245"
+    },
+    {
+      "package": "airag-csv-head",
+      "artifact": "airag-csv-head_1.0.0-1_all.deb",
+      "group": "csv",
+      "operation": "head",
+      "bytes": 8596,
+      "sha256": "e62b8b21b20ee0b867317aa5c92d4d8adeffa4c7a2b780de295d5f735c9f50ab"
+    },
+    {
+      "package": "airag-csv-to-json",
+      "artifact": "airag-csv-to-json_1.0.0-1_all.deb",
+      "group": "csv",
+      "operation": "to-json",
+      "bytes": 8598,
+      "sha256": "feb00f514551643a750e05c8c7fd276900962e175aab188c20d7dc56508a135a"
+    },
+    {
+      "package": "airag-csv-from-json",
+      "artifact": "airag-csv-from-json_1.0.0-1_all.deb",
+      "group": "csv",
+      "operation": "from-json",
+      "bytes": 8596,
+      "sha256": "5f00d715d56c2c8d764821ca7217f0392402af323bd5b4d887b2c477e5927c3b"
+    },
+    {
+      "package": "airag-csv-select",
+      "artifact": "airag-csv-select_1.0.0-1_all.deb",
+      "group": "csv",
+      "operation": "select",
+      "bytes": 8600,
+      "sha256": "b5746727a985f3e6fd8ac4438f015ec13916e3cd49dc0a3615cae23989b73dfb"
+    },
+    {
+      "package": "airag-csv-dedupe",
+      "artifact": "airag-csv-dedupe_1.0.0-1_all.deb",
+      "group": "csv",
+      "operation": "dedupe",
+      "bytes": 8596,
+      "sha256": "c6db439484191432cb5a4f9eae641ec2ebd7debf9e704fffcb0859b8bc36a09c"
+    },
+    {
+      "package": "airag-csv-sort",
+      "artifact": "airag-csv-sort_1.0.0-1_all.deb",
+      "group": "csv",
+      "operation": "sort",
+      "bytes": 8594,
+      "sha256": "610784649a6fcf1bd8aac4b144c45d7f06af3263274a130f75dcc83eb5b7cf95"
+    },
+    {
+      "package": "airag-csv-header",
+      "artifact": "airag-csv-header_1.0.0-1_all.deb",
+      "group": "csv",
+      "operation": "header",
+      "bytes": 8600,
+      "sha256": "8098b470254f2b0f8547abbe9116be4cfe1dccc05b3e5c31a95a7db2f564d4ba"
+    },
+    {
+      "package": "airag-csv-stats",
+      "artifact": "airag-csv-stats_1.0.0-1_all.deb",
+      "group": "csv",
+      "operation": "stats",
+      "bytes": 8600,
+      "sha256": "6ff6ff6d12400bbb5bd0f5595533124323b598717e07ab0b74d94574e0cc6875"
+    },
+    {
+      "package": "airag-markdown-headings",
+      "artifact": "airag-markdown-headings_1.0.0-1_all.deb",
+      "group": "markdown",
+      "operation": "headings",
+      "bytes": 8604,
+      "sha256": "4278d64ada04243685c7f41f3f25f6b31144716f21564969e000cd7b1dfff8a6"
+    },
+    {
+      "package": "airag-markdown-links",
+      "artifact": "airag-markdown-links_1.0.0-1_all.deb",
+      "group": "markdown",
+      "operation": "links",
+      "bytes": 8598,
+      "sha256": "1819d6452e8e9d3ea83403b123078c0b382db6afc9f1a0a3d12a4859a33a9994"
+    },
+    {
+      "package": "airag-markdown-images",
+      "artifact": "airag-markdown-images_1.0.0-1_all.deb",
+      "group": "markdown",
+      "operation": "images",
+      "bytes": 8598,
+      "sha256": "4b0286a6ea267e9981c6f5816a266739016dc9a5c974a9dfe8e76f59bb82489f"
+    },
+    {
+      "package": "airag-markdown-codeblocks",
+      "artifact": "airag-markdown-codeblocks_1.0.0-1_all.deb",
+      "group": "markdown",
+      "operation": "codeblocks",
+      "bytes": 8606,
+      "sha256": "870087979bed8c221a77e1c04c52df7938b612dc4ae9d3aa71f8323810d90d46"
+    },
+    {
+      "package": "airag-markdown-toc",
+      "artifact": "airag-markdown-toc_1.0.0-1_all.deb",
+      "group": "markdown",
+      "operation": "toc",
+      "bytes": 8594,
+      "sha256": "55e8ffaba0287d714b650623836ec8dd7b6bccb933ed4276fe9dc5210bfbbfbd"
+    },
+    {
+      "package": "airag-markdown-strip",
+      "artifact": "airag-markdown-strip_1.0.0-1_all.deb",
+      "group": "markdown",
+      "operation": "strip",
+      "bytes": 8600,
+      "sha256": "147976c5b753c638b277af3f0d9c8d298bb38f0c4bad0a87e543dd11d8febd02"
+    },
+    {
+      "package": "airag-markdown-words",
+      "artifact": "airag-markdown-words_1.0.0-1_all.deb",
+      "group": "markdown",
+      "operation": "words",
+      "bytes": 8596,
+      "sha256": "6e005745bd60517275efc76e18e7e9dcab5e95a0fc55e5fb9d55c496b4b522cc"
+    },
+    {
+      "package": "airag-markdown-sections",
+      "artifact": "airag-markdown-sections_1.0.0-1_all.deb",
+      "group": "markdown",
+      "operation": "sections",
+      "bytes": 8602,
+      "sha256": "766992d351179ee90e11776f7c5e3e7740905d602501c6276789deea7c65b013"
+    },
+    {
+      "package": "airag-markdown-frontmatter",
+      "artifact": "airag-markdown-frontmatter_1.0.0-1_all.deb",
+      "group": "markdown",
+      "operation": "frontmatter",
+      "bytes": 8608,
+      "sha256": "c59e494f84bf5f0da939bf00a92a7389d25b0cc7fa2abf15097d92852ef11854"
+    },
+    {
+      "package": "airag-markdown-stats",
+      "artifact": "airag-markdown-stats_1.0.0-1_all.deb",
+      "group": "markdown",
+      "operation": "stats",
+      "bytes": 8594,
+      "sha256": "6a961d46a39b8eebc1b5acefb4fc2ff4109608eb9658e35b26a64aed15633e39"
+    },
+    {
+      "package": "airag-text-normalize",
+      "artifact": "airag-text-normalize_1.0.0-1_all.deb",
+      "group": "text",
+      "operation": "normalize",
+      "bytes": 8596,
+      "sha256": "fdd111cbadfd0397dcd2f15b14c8f3c0dd4a6d610ae809262abc7877cd96a7cf"
+    },
+    {
+      "package": "airag-text-lines",
+      "artifact": "airag-text-lines_1.0.0-1_all.deb",
+      "group": "text",
+      "operation": "lines",
+      "bytes": 8596,
+      "sha256": "602178b3f1384c7764109b077dae93b4bcc864bec08c7fe5d90afcbc0597a057"
+    },
+    {
+      "package": "airag-text-words",
+      "artifact": "airag-text-words_1.0.0-1_all.deb",
+      "group": "text",
+      "operation": "words",
+      "bytes": 8596,
+      "sha256": "b37526642f025b43e5bb53f3919eb6768c68ff7bb04e48f36496f505d8c43f1e"
+    },
+    {
+      "package": "airag-text-ngrams",
+      "artifact": "airag-text-ngrams_1.0.0-1_all.deb",
+      "group": "text",
+      "operation": "ngrams",
+      "bytes": 8596,
+      "sha256": "9838b30432d3a9ec1e02ccaa196ae596fc672b1d0d15222f06b74a14bae70b2d"
+    },
+    {
+      "package": "airag-text-keywords",
+      "artifact": "airag-text-keywords_1.0.0-1_all.deb",
+      "group": "text",
+      "operation": "keywords",
+      "bytes": 8602,
+      "sha256": "e8b2b595a224f0dff07948ee051599bed737be28bf29be9daf55f68887b9a771"
+    },
+    {
+      "package": "airag-text-emails",
+      "artifact": "airag-text-emails_1.0.0-1_all.deb",
+      "group": "text",
+      "operation": "emails",
+      "bytes": 8596,
+      "sha256": "6d6ed9dbd26aae6272d1b1a00efcea789869cff20913272839c26ad6d7d77c3e"
+    },
+    {
+      "package": "airag-text-urls",
+      "artifact": "airag-text-urls_1.0.0-1_all.deb",
+      "group": "text",
+      "operation": "urls",
+      "bytes": 8598,
+      "sha256": "1cbd51a44a8bd756f2f1d1bcef493a2418b6afe215838cc3b45344e6404fc88b"
+    },
+    {
+      "package": "airag-text-redact",
+      "artifact": "airag-text-redact_1.0.0-1_all.deb",
+      "group": "text",
+      "operation": "redact",
+      "bytes": 8594,
+      "sha256": "0f03d64d3c1dbe96e10f775f7b95754c2383d739d32088702c7b872637997178"
+    },
+    {
+      "package": "airag-text-unique-lines",
+      "artifact": "airag-text-unique-lines_1.0.0-1_all.deb",
+      "group": "text",
+      "operation": "unique-lines",
+      "bytes": 8604,
+      "sha256": "a6f677badcf4f9b656c80166363682c2bb0d4b475b7de5ffa73727c34687f17b"
+    },
+    {
+      "package": "airag-text-stats",
+      "artifact": "airag-text-stats_1.0.0-1_all.deb",
+      "group": "text",
+      "operation": "stats",
+      "bytes": 8600,
+      "sha256": "30eaf32d2666fcfbf01e4e4c862b6ee17ecaa0d4ab0ea18694a0333b89916f2e"
+    },
+    {
+      "package": "airag-files-sha256",
+      "artifact": "airag-files-sha256_1.0.0-1_all.deb",
+      "group": "files",
+      "operation": "sha256",
+      "bytes": 8600,
+      "sha256": "7d306c13a1516e64c0e687c9546955b744a1d77b670d417e126eda7302d8ed21"
+    },
+    {
+      "package": "airag-files-size",
+      "artifact": "airag-files-size_1.0.0-1_all.deb",
+      "group": "files",
+      "operation": "size",
+      "bytes": 8598,
+      "sha256": "6bbb6333ed4a03c3074490d26ade5a320f8efafb05bc50abab77fff953d82257"
+    },
+    {
+      "package": "airag-files-lines",
+      "artifact": "airag-files-lines_1.0.0-1_all.deb",
+      "group": "files",
+      "operation": "lines",
+      "bytes": 8594,
+      "sha256": "65cd8e2c0abaa0199959757ab80ed43912f4dfa4e679273f9f4caf9a3701196e"
+    },
+    {
+      "package": "airag-files-mime",
+      "artifact": "airag-files-mime_1.0.0-1_all.deb",
+      "group": "files",
+      "operation": "mime",
+      "bytes": 8600,
+      "sha256": "0c210dd20a1c86384407d3d5853d4a206faa3e3c0a2b2908b08586ab0d630ba2"
+    },
+    {
+      "package": "airag-files-extension",
+      "artifact": "airag-files-extension_1.0.0-1_all.deb",
+      "group": "files",
+      "operation": "extension",
+      "bytes": 8598,
+      "sha256": "c60c8dd42c9d0d2ccac949415e28db85e734babea491706537bb1e04ea14054a"
+    },
+    {
+      "package": "airag-files-newest",
+      "artifact": "airag-files-newest_1.0.0-1_all.deb",
+      "group": "files",
+      "operation": "newest",
+      "bytes": 8598,
+      "sha256": "edcf9943973b7a92c1414de77bde515c2d83dce5be781038316cc6d68a2fa14a"
+    },
+    {
+      "package": "airag-files-largest",
+      "artifact": "airag-files-largest_1.0.0-1_all.deb",
+      "group": "files",
+      "operation": "largest",
+      "bytes": 8596,
+      "sha256": "114987f61aab408b3d6321745a4a6db4d33cd1c23cf4b31714cd5b650bfb5cb2"
+    },
+    {
+      "package": "airag-files-manifest",
+      "artifact": "airag-files-manifest_1.0.0-1_all.deb",
+      "group": "files",
+      "operation": "manifest",
+      "bytes": 8600,
+      "sha256": "44851c57d789496c3da03f2233ded6db0e7c932245d5af50bbc03f84e7e6dcd2"
+    },
+    {
+      "package": "airag-files-duplicates",
+      "artifact": "airag-files-duplicates_1.0.0-1_all.deb",
+      "group": "files",
+      "operation": "duplicates",
+      "bytes": 8602,
+      "sha256": "1be6855f3a05af859c5cbe747272c41829629d7a58a1302431bdb5a9f9d0d1a2"
+    },
+    {
+      "package": "airag-files-stats",
+      "artifact": "airag-files-stats_1.0.0-1_all.deb",
+      "group": "files",
+      "operation": "stats",
+      "bytes": 8600,
+      "sha256": "95d8c9359ce4551b52f2947e02b69cb1d860e82ee80f16cfb74e219b9e2d0ec2"
+    },
+    {
+      "package": "airag-eval-exact",
+      "artifact": "airag-eval-exact_1.0.0-1_all.deb",
+      "group": "eval",
+      "operation": "exact",
+      "bytes": 8602,
+      "sha256": "5cf375fd05ff8cabbfde8a9465e82f1fb045d9d4387e4c6960051f460d42b663"
+    },
+    {
+      "package": "airag-eval-contains",
+      "artifact": "airag-eval-contains_1.0.0-1_all.deb",
+      "group": "eval",
+      "operation": "contains",
+      "bytes": 8598,
+      "sha256": "dd7bfd5fc53fbd4ab8f9c57fa1bd50a3e51dbd0ed707b34d07b6ceb37ef1a42e"
+    },
+    {
+      "package": "airag-eval-regex",
+      "artifact": "airag-eval-regex_1.0.0-1_all.deb",
+      "group": "eval",
+      "operation": "regex",
+      "bytes": 8604,
+      "sha256": "b1c8af662a171bdcbc6d7c9b7bcba1f245936f7539f11aad47218b74936de282"
+    },
+    {
+      "package": "airag-eval-overlap",
+      "artifact": "airag-eval-overlap_1.0.0-1_all.deb",
+      "group": "eval",
+      "operation": "overlap",
+      "bytes": 8600,
+      "sha256": "f93e68dc29df6dd4419352e6773ff5e3f4ea5477703bbc27022318be05b5b1e5"
+    },
+    {
+      "package": "airag-eval-jaccard",
+      "artifact": "airag-eval-jaccard_1.0.0-1_all.deb",
+      "group": "eval",
+      "operation": "jaccard",
+      "bytes": 8602,
+      "sha256": "72edf8212d51ad6eef05cad60fae073acbfb2dbcbadf98ae205c9f8c75caa270"
+    },
+    {
+      "package": "airag-eval-length-delta",
+      "artifact": "airag-eval-length-delta_1.0.0-1_all.deb",
+      "group": "eval",
+      "operation": "length-delta",
+      "bytes": 8602,
+      "sha256": "10b7e44a7c14fe612c571a7e660b2ffe4a1232c906491bd26340ecf46d824e0f"
+    },
+    {
+      "package": "airag-eval-json-equal",
+      "artifact": "airag-eval-json-equal_1.0.0-1_all.deb",
+      "group": "eval",
+      "operation": "json-equal",
+      "bytes": 8604,
+      "sha256": "f757dac08cb1e9e37eeb43a55ae9d45ae8fd9cff84688ae86d5292ea28d831e1"
+    },
+    {
+      "package": "airag-eval-list-overlap",
+      "artifact": "airag-eval-list-overlap_1.0.0-1_all.deb",
+      "group": "eval",
+      "operation": "list-overlap",
+      "bytes": 8604,
+      "sha256": "60902d9adb46d61690bed3d01f2c3e2e876d73c486081e95a5aa8ff409c1e013"
+    },
+    {
+      "package": "airag-eval-passrate",
+      "artifact": "airag-eval-passrate_1.0.0-1_all.deb",
+      "group": "eval",
+      "operation": "passrate",
+      "bytes": 8594,
+      "sha256": "55c285012d639d2128afa532a55b764df74707263b1b47123f0676fd6abee6d4"
+    },
+    {
+      "package": "airag-eval-stats",
+      "artifact": "airag-eval-stats_1.0.0-1_all.deb",
+      "group": "eval",
+      "operation": "stats",
+      "bytes": 8600,
+      "sha256": "1cfe2dd0706560e99a12a19a60a748c9f182c842322b3a0cdf0defb316130c8e"
+    },
+    {
+      "package": "ai-rag-data-suite",
+      "artifact": "ai-rag-data-suite_1.0.0-1_all.deb",
+      "group": "meta",
+      "operation": "install",
+      "bytes": 1086,
+      "sha256": "2ef2b4d6c6c9b4f52cd7cb76abd1b9ca635313473a0a7d700639ff6734f2d1e9"
+    }
+  ]
+}

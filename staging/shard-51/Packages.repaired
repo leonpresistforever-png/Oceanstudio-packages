@@ -1,0 +1,1412 @@
+Package: netobs-http-status
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-http-status
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-http-status_1.0.0-1_all.deb
+Size: 8610
+SHA256: de8169c06ddc4d231276609d88401025d18836b67128844e74fc7cb6c455e507
+
+Package: netobs-http-headers
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-http-headers
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-http-headers_1.0.0-1_all.deb
+Size: 8614
+SHA256: 4a9896a2c1c0d3924bd95215827a87fa695349e8224f0e3fa0e74480582b390c
+
+Package: netobs-http-text
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-http-text
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-http-text_1.0.0-1_all.deb
+Size: 8612
+SHA256: ffc17dadb9bbe4307695d1235ef8ca4dab4ddc185b79d4116c1a4341b4bc4ee7
+
+Package: netobs-http-json
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-http-json
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-http-json_1.0.0-1_all.deb
+Size: 8614
+SHA256: 5b1c14518ec441fc87d76860b70dd5f67d626088fae3722b1a04cd6abe9723b9
+
+Package: netobs-http-latency
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-http-latency
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-http-latency_1.0.0-1_all.deb
+Size: 8610
+SHA256: 19e4cb3eda2fb0d15ed7b480a8df240c87bb58cc00abd27847921391c62547d8
+
+Package: netobs-http-final-url
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-http-final-url
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-http-final-url_1.0.0-1_all.deb
+Size: 8618
+SHA256: eae3f352874c4f0f7f89913ffef5a3dee897c56c3ec897cdf3dcb3e4d69b0097
+
+Package: netobs-http-content-type
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-http-content-type
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-http-content-type_1.0.0-1_all.deb
+Size: 8622
+SHA256: cc0f9400b38b933bd0c00b736cd6e6a3028caab1fbbc6da440ea5d6ebfdea58b
+
+Package: netobs-http-length
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-http-length
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-http-length_1.0.0-1_all.deb
+Size: 8614
+SHA256: 7360331d17a427e928872563e7b134824e9d16bfea065c843080d1c28c7bfd73
+
+Package: netobs-http-head
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-http-head
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-http-head_1.0.0-1_all.deb
+Size: 8618
+SHA256: 26b3375e85ccb6fb2ab6beeb24f332e633ea3cf06654a0ce08def7c5f230df4b
+
+Package: netobs-http-download
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-http-download
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-http-download_1.0.0-1_all.deb
+Size: 8610
+SHA256: 82d31876ad7dd81aac7ec72e555cb1e6f5bc86f72068404ce90cf629edb53f92
+
+Package: netobs-url-parse
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-url-parse
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-url-parse_1.0.0-1_all.deb
+Size: 8614
+SHA256: 32da82c24bfede5eee633d90541c9a786f6333c7b2a3ae63cbbb3f8f4c327242
+
+Package: netobs-url-encode
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-url-encode
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-url-encode_1.0.0-1_all.deb
+Size: 8616
+SHA256: 794e60362a857ed237ae1d0ef3de9e24dead37b86c5ccfa8a6e225d6fcd110ff
+
+Package: netobs-url-decode
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-url-decode
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-url-decode_1.0.0-1_all.deb
+Size: 8612
+SHA256: c3261346a96332066470e20da60d594d51c1ee23f0be6d4472e64ce984b9756b
+
+Package: netobs-url-join
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-url-join
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-url-join_1.0.0-1_all.deb
+Size: 8610
+SHA256: 6fa1d559a8d6ae3a9f4669c4cbe9d6c8e4472a4b2b2a64415448e3547e46d6f5
+
+Package: netobs-url-query-parse
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-url-query-parse
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-url-query-parse_1.0.0-1_all.deb
+Size: 8616
+SHA256: 20fcdcc8c3aedf7f87d2b1a019bdda6d33159ff53aae717a2ef20792ec4e4c8e
+
+Package: netobs-url-query-build
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-url-query-build
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-url-query-build_1.0.0-1_all.deb
+Size: 8616
+SHA256: 5f12f1fd6a1ff8d92457a8ac0f494b76e1d8510a37373345d9dfa0cc4b31caa0
+
+Package: netobs-url-normalize
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-url-normalize
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-url-normalize_1.0.0-1_all.deb
+Size: 8610
+SHA256: b6adfc59408a298fe7eb424dc2bf12731254753ea65300592846299b1e3e3ccd
+
+Package: netobs-url-domain
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-url-domain
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-url-domain_1.0.0-1_all.deb
+Size: 8616
+SHA256: 62c426e94a6d035d08888a22a453a02b4af5b3aaf8e6c42935a9275fd63b3590
+
+Package: netobs-url-scheme
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-url-scheme
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-url-scheme_1.0.0-1_all.deb
+Size: 8614
+SHA256: 5c71a3015fb53fa308cee33a208fbf76379bbb9d7ebd210bab8bf7099ab1b17e
+
+Package: netobs-url-basename
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-url-basename
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-url-basename_1.0.0-1_all.deb
+Size: 8614
+SHA256: 75c20a7588d508397a14de7e7adda815925d647f3f6ed46da2b9fcb10d6a9f51
+
+Package: netobs-dns-resolve
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-dns-resolve
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-dns-resolve_1.0.0-1_all.deb
+Size: 8610
+SHA256: e80d605cee385d1f857837bc53e39db5c6ae906bb525281d940a4cf264980d89
+
+Package: netobs-dns-reverse
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-dns-reverse
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-dns-reverse_1.0.0-1_all.deb
+Size: 8610
+SHA256: 8514c345c3451dd555e310c7a84bb03d109dee2c08b10e341d09b55e94b7e0b6
+
+Package: netobs-dns-hostname
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-dns-hostname
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-dns-hostname_1.0.0-1_all.deb
+Size: 8612
+SHA256: 39f14c3441b9ffdcf8c829bb615e1a6ac971d01fed8f56b664dc019061787f82
+
+Package: netobs-dns-fqdn
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-dns-fqdn
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-dns-fqdn_1.0.0-1_all.deb
+Size: 8616
+SHA256: 8e4c3a2567fb89a45df3f141415170ca1793a6430e61d6df5c987d66f648aa3b
+
+Package: netobs-dns-localhost
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-dns-localhost
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-dns-localhost_1.0.0-1_all.deb
+Size: 8608
+SHA256: 22032c4250d6e6da5dbe1450f700881459421fa3187ce87a157f5cb98c22931e
+
+Package: netobs-dns-addrinfo
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-dns-addrinfo
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-dns-addrinfo_1.0.0-1_all.deb
+Size: 8614
+SHA256: 76a5e9f95a6868e4607ee381eaab5fad6a0058ea1ec93d80e5636f16e2768421
+
+Package: netobs-dns-canonical
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-dns-canonical
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-dns-canonical_1.0.0-1_all.deb
+Size: 8606
+SHA256: 301d42e96c133ca3bfffb3273e0001c40f252eb1011f667cdb5d82e5f2d60ccc
+
+Package: netobs-dns-service-port
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-dns-service-port
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-dns-service-port_1.0.0-1_all.deb
+Size: 8614
+SHA256: c564fb3285b63c742cdbb84b4a7beb65838e65f7b18ffe5533e94877077268ed
+
+Package: netobs-dns-port-service
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-dns-port-service
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-dns-port-service_1.0.0-1_all.deb
+Size: 8614
+SHA256: 83dfe12661857c4c1c3c222381d17dc753b7edbe19a2ca6806ea76f2188176d1
+
+Package: netobs-dns-stats
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-dns-stats
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-dns-stats_1.0.0-1_all.deb
+Size: 8608
+SHA256: d3b6e898bf6e90218fad6d6b52311804b5ac2f41a9811f8f897240cc9e5788c4
+
+Package: netobs-tcp-check
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-tcp-check
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-tcp-check_1.0.0-1_all.deb
+Size: 8610
+SHA256: 89eebb8a29e259fe0d46d55f001b4cff11dfc7dd322b5ae85ccdf324757ed692
+
+Package: netobs-tcp-time
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-tcp-time
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-tcp-time_1.0.0-1_all.deb
+Size: 8608
+SHA256: 1c5500d245e0cb4dc3e34ec28795576d448515e7866f509ae9854c7df7bca52a
+
+Package: netobs-tcp-send
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-tcp-send
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-tcp-send_1.0.0-1_all.deb
+Size: 8610
+SHA256: 3408b9d9798fec7d0086e4f52d1f3d3787817141b27b74d550824a7542271038
+
+Package: netobs-tcp-recv
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-tcp-recv
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-tcp-recv_1.0.0-1_all.deb
+Size: 8612
+SHA256: ffebf3e2d6c2bd9422b8231954d54d51cf6b096ab2f8846eee25a5ce6ba3a55d
+
+Package: netobs-tcp-resolve
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-tcp-resolve
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-tcp-resolve_1.0.0-1_all.deb
+Size: 8608
+SHA256: 32d8e1f1146f20e854a45b001976898e3f364b8e73698bdefe72151b61a7dffe
+
+Package: netobs-tcp-service
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-tcp-service
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-tcp-service_1.0.0-1_all.deb
+Size: 8608
+SHA256: d1197c1b40b5d579d55606cac8e08eacf55c1a40adeb2d9e8e0b8d31f1c22077
+
+Package: netobs-tcp-common-ports
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-tcp-common-ports
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-tcp-common-ports_1.0.0-1_all.deb
+Size: 8618
+SHA256: 730497dec3939f2e76aacc4c1774b75aabf8b560975d0a8d9e11b3d3baf4ba60
+
+Package: netobs-tcp-family
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-tcp-family
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-tcp-family_1.0.0-1_all.deb
+Size: 8614
+SHA256: 52374a9b4582ad52faf18cff4739422c87a2f816918fae022aa27046015dd824
+
+Package: netobs-tcp-host
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-tcp-host
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-tcp-host_1.0.0-1_all.deb
+Size: 8610
+SHA256: 7597a25c7f70e7a0cf4cfffa65a1e5faa8839a6a0e5ac127ed2bf65e6279f151
+
+Package: netobs-tcp-stats
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-tcp-stats
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-tcp-stats_1.0.0-1_all.deb
+Size: 8608
+SHA256: b55fccdf8c9a112157dc7ba8bf86f5023baa838a827bbae3b2f1c53e4bab066b
+
+Package: netobs-jsonrpc-request
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-jsonrpc-request
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-jsonrpc-request_1.0.0-1_all.deb
+Size: 8612
+SHA256: 47ec9207720a9dfb337c55cfb07e7cb5fd8252f91e60abe5c2c07c138cee6dff
+
+Package: netobs-jsonrpc-notify
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-jsonrpc-notify
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-jsonrpc-notify_1.0.0-1_all.deb
+Size: 8616
+SHA256: a434eb153a2b56de3634d8d9384f0bea52feefc4eedec1a6976c8e582aed8c69
+
+Package: netobs-jsonrpc-response
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-jsonrpc-response
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-jsonrpc-response_1.0.0-1_all.deb
+Size: 8618
+SHA256: dbcdf6d5c6ebdcd91040b4d483ba863deba9a1723fdc0c2bb350b5dc95c3c807
+
+Package: netobs-jsonrpc-error
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-jsonrpc-error
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-jsonrpc-error_1.0.0-1_all.deb
+Size: 8608
+SHA256: 29e06148581fde51031f7c9fad14f74eac2cf54bc0a7964285c3ecf062e06c91
+
+Package: netobs-jsonrpc-batch
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-jsonrpc-batch
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-jsonrpc-batch_1.0.0-1_all.deb
+Size: 8612
+SHA256: ba9a91fac48e8ae2aa82c974077ec9e7e5e82ec8389bb926993c2982598c3a23
+
+Package: netobs-jsonrpc-validate
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-jsonrpc-validate
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-jsonrpc-validate_1.0.0-1_all.deb
+Size: 8616
+SHA256: 5a98659fbd9127712b228a2f73ab6b0ab5e4f270323c7d86323032fbdc040b87
+
+Package: netobs-jsonrpc-methods
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-jsonrpc-methods
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-jsonrpc-methods_1.0.0-1_all.deb
+Size: 8614
+SHA256: ce9f1b4b87bf77fd75c2c03b382afdbf9a0c3b7a417f28c1c0e9ef8114182a2e
+
+Package: netobs-jsonrpc-ids
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-jsonrpc-ids
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-jsonrpc-ids_1.0.0-1_all.deb
+Size: 8610
+SHA256: 5f5b4a13cc16c0d423c2c4c467ec4d234a5d3d59aba876d7df141591b1aa3330
+
+Package: netobs-jsonrpc-pretty
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-jsonrpc-pretty
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-jsonrpc-pretty_1.0.0-1_all.deb
+Size: 8610
+SHA256: 4768fbe10e8dfa28eeffb485f9e433a365001e02f741aedadfe17b89d05c2b83
+
+Package: netobs-jsonrpc-line
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-jsonrpc-line
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-jsonrpc-line_1.0.0-1_all.deb
+Size: 8610
+SHA256: 1a204e43f271e08d4f6cc232d811b385d89b8cc251c23c9505cbddf2adbc46c5
+
+Package: netobs-log-lines
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-log-lines
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-log-lines_1.0.0-1_all.deb
+Size: 8614
+SHA256: 57882064340fec953db1ac3ba713045ca646f1c973aebed027788c9eb5753b04
+
+Package: netobs-log-levels
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-log-levels
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-log-levels_1.0.0-1_all.deb
+Size: 8610
+SHA256: b8cabfb61e6e064f7a2c7f2e927868593edf6fa62bf9b333ebf21bf13c6a29de
+
+Package: netobs-log-errors
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-log-errors
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-log-errors_1.0.0-1_all.deb
+Size: 8606
+SHA256: 524bfced9f2ac5a90db8a7d30b59843d7163b2af0dc2ea82cbdd4507a97800c9
+
+Package: netobs-log-warnings
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-log-warnings
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-log-warnings_1.0.0-1_all.deb
+Size: 8612
+SHA256: 4eeef8d706afa3ec712ad5b37d74c1f75742d9f2f573a68f7cee00cf753f1715
+
+Package: netobs-log-timestamps
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-log-timestamps
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-log-timestamps_1.0.0-1_all.deb
+Size: 8610
+SHA256: 899a9632ad47c84a7e7b06efd087bf2fff215b1ea2f6421f061b0d8bfab8cf5b
+
+Package: netobs-log-json
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-log-json
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-log-json_1.0.0-1_all.deb
+Size: 8612
+SHA256: 37747d863e3bb7ca2178bef962b1848ffd1667623c7aa414aba02d3845c430bf
+
+Package: netobs-log-grep
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-log-grep
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-log-grep_1.0.0-1_all.deb
+Size: 8610
+SHA256: 9f65e0659ea64ef98114254790a18493f1ec14623f7530aba65046ccb04ced5d
+
+Package: netobs-log-tail
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-log-tail
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-log-tail_1.0.0-1_all.deb
+Size: 8610
+SHA256: e8b425f3cf6131718706aa7aef54ad94d4e0d38bf6c7d169165de1801c9224ae
+
+Package: netobs-log-top
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-log-top
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-log-top_1.0.0-1_all.deb
+Size: 8602
+SHA256: 1239cbede283a8fd8804b89d479cac1e05187d072af2d54bde0fe699e78508a8
+
+Package: netobs-log-stats
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-log-stats
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-log-stats_1.0.0-1_all.deb
+Size: 8608
+SHA256: d36a8a24b8745a12925c0f186799075fd37a7cfbf3582d99fcedba754b865868
+
+Package: netobs-metric-avg
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-metric-avg
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-metric-avg_1.0.0-1_all.deb
+Size: 8616
+SHA256: 54857c777601adf12dbe07a082075b95d96e7f14a97a2ca4b21bfdb2f49a2696
+
+Package: netobs-metric-min
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-metric-min
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-metric-min_1.0.0-1_all.deb
+Size: 8612
+SHA256: 2c98d18848c238d292c472f9c95603167ace008192d383b26369a9310b3d33db
+
+Package: netobs-metric-max
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-metric-max
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-metric-max_1.0.0-1_all.deb
+Size: 8614
+SHA256: 9ee8e8e61a2caecf9cbfb493ce2e9a42ca3f3c341e115c01bd3a026a0e44b76c
+
+Package: netobs-metric-sum
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-metric-sum
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-metric-sum_1.0.0-1_all.deb
+Size: 8614
+SHA256: 9ad1410e40fec6023ea386b698113d0c98e23c9de6555a705e5b9f952c0468e5
+
+Package: netobs-metric-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-metric-count
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-metric-count_1.0.0-1_all.deb
+Size: 8608
+SHA256: d44cc69fcd3c3c76569a180a1c4b73f54439ea26d72335d2b38075a6f20aec9b
+
+Package: netobs-metric-p50
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-metric-p50
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-metric-p50_1.0.0-1_all.deb
+Size: 8612
+SHA256: 1e160f87782b9ee1f1a47fc574c9c43c5e2c038ead73b3243005ee51d4b10beb
+
+Package: netobs-metric-p90
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-metric-p90
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-metric-p90_1.0.0-1_all.deb
+Size: 8616
+SHA256: 28646854442fe62a5538a7ab0f22f8b05e233f3d6dc0be71ae5a083c6d07e876
+
+Package: netobs-metric-p95
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-metric-p95
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-metric-p95_1.0.0-1_all.deb
+Size: 8616
+SHA256: bcee2b955a19c872d050bfe662f386e3c243fcf9c8821a9c7512852dc863ed8a
+
+Package: netobs-metric-p99
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-metric-p99
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-metric-p99_1.0.0-1_all.deb
+Size: 8610
+SHA256: 32c3c157196f4ecc729f995c47979a74b3bbc66c370c90d9c516828062b89215
+
+Package: netobs-metric-stats
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-metric-stats
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-metric-stats_1.0.0-1_all.deb
+Size: 8610
+SHA256: a19f0e94c432c242ce71a1d3b2fb70ad20e8705d544243125181a4b2c5084471
+
+Package: netobs-trace-new-trace
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-trace-new-trace
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-trace-new-trace_1.0.0-1_all.deb
+Size: 8610
+SHA256: 9cdde740f91a49ea32d9c9558ee80c8248db9bf3468bb958c6e621f0488d451d
+
+Package: netobs-trace-new-span
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-trace-new-span
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-trace-new-span_1.0.0-1_all.deb
+Size: 8618
+SHA256: f10eb91fbbaf3b6e4bda76406e591b220e1dc7ed1e0fbd622af4f62580841450
+
+Package: netobs-trace-parse-parent
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-trace-parse-parent
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-trace-parse-parent_1.0.0-1_all.deb
+Size: 8614
+SHA256: e708647287e49cea55bee970726e8113e31511674033ba50bea5d49ad57866ba
+
+Package: netobs-trace-make-parent
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-trace-make-parent
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-trace-make-parent_1.0.0-1_all.deb
+Size: 8618
+SHA256: 11ed9fda96c10eb2264d87a29da126c89ba9b0957206248e0e896a5109df152c
+
+Package: netobs-trace-duration
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-trace-duration
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-trace-duration_1.0.0-1_all.deb
+Size: 8616
+SHA256: 9581ee10e25c244cce15ce678d7fc758b0219a91780f7366226ebe057ce58140
+
+Package: netobs-trace-sort
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-trace-sort
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-trace-sort_1.0.0-1_all.deb
+Size: 8614
+SHA256: 0cf039c11ca275c83a88443329b89b9be6481957397c5add0da8bb262763ee7f
+
+Package: netobs-trace-critical
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-trace-critical
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-trace-critical_1.0.0-1_all.deb
+Size: 8610
+SHA256: 1aec0199ef29a70a92c50dc44e13792790584d54dc0b21c5e207aaf8a8169feb
+
+Package: netobs-trace-errors
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-trace-errors
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-trace-errors_1.0.0-1_all.deb
+Size: 8606
+SHA256: 32696b1c0e49e25db3cd4af3e019f6f5821e73a80d1e029c771a2b1b68c478d6
+
+Package: netobs-trace-services
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-trace-services
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-trace-services_1.0.0-1_all.deb
+Size: 8612
+SHA256: 2a16007a85259ff8ad48a74b33b71cf8766d1adcfd2a56f4c808fed35a46916e
+
+Package: netobs-trace-stats
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-trace-stats
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-trace-stats_1.0.0-1_all.deb
+Size: 8612
+SHA256: bcdd58e2a29e12e0be89b3c9b776c8a70155645aad4bc7d13e6d1a359a3598f2
+
+Package: netobs-tls-pem-count
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-tls-pem-count
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-tls-pem-count_1.0.0-1_all.deb
+Size: 8612
+SHA256: 70f44bb2846f4e531aacd7792ebd2a34edab8362b3783b7f59bca49fb621b0c8
+
+Package: netobs-tls-pem-labels
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-tls-pem-labels
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-tls-pem-labels_1.0.0-1_all.deb
+Size: 8614
+SHA256: 1853e50f7d39fa400a2eadcfad0b4b963ba322efac7943353f5b8d8b4f48af85
+
+Package: netobs-tls-sha256
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-tls-sha256
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-tls-sha256_1.0.0-1_all.deb
+Size: 8614
+SHA256: defd47e6a0fab4a219828ef6589fb47c3705fb3f442fe8d16358cc6b0f15b1a2
+
+Package: netobs-tls-version
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-tls-version
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-tls-version_1.0.0-1_all.deb
+Size: 8610
+SHA256: 8e90232ae6121f54031b3fb3e75ba563ebc2673bea839c1fb3c9321ba0547fdb
+
+Package: netobs-tls-cipher
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-tls-cipher
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-tls-cipher_1.0.0-1_all.deb
+Size: 8612
+SHA256: 6b7bb3f1bb87b88d553957260009ec728b46781ea2a806b4d8f6cf4de1eea686
+
+Package: netobs-tls-sans
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-tls-sans
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-tls-sans_1.0.0-1_all.deb
+Size: 8608
+SHA256: 7f3bf908dff37cd768f0bc8dcf43a7b82e4dae487f44057c9c2d60496cd7c30c
+
+Package: netobs-tls-issuer
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-tls-issuer
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-tls-issuer_1.0.0-1_all.deb
+Size: 8612
+SHA256: 9b3ca2f8caa31f8a0c9eb60867183f0b326ffa908eddab01e44023db3d7e9b9c
+
+Package: netobs-tls-expiry
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-tls-expiry
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-tls-expiry_1.0.0-1_all.deb
+Size: 8608
+SHA256: 952e63c693a20f263883ec3bf4c94db223d401f8f24cdd75980827d764398df4
+
+Package: netobs-tls-certificate
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-tls-certificate
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-tls-certificate_1.0.0-1_all.deb
+Size: 8614
+SHA256: e37f995172b756e7c3496ed85095e44a9a84fba1c41e1457f04c247e9a48bc14
+
+Package: netobs-tls-stats
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-tls-stats
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-tls-stats_1.0.0-1_all.deb
+Size: 8608
+SHA256: 4661fdcd6155553dd7040fdecaa70af1ae4c740c30c7ec61c9446349290fcff9
+
+Package: netobs-system-env
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-system-env
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-system-env_1.0.0-1_all.deb
+Size: 8606
+SHA256: 3c1177fb18f2e1d39d2e62e5932d621ddc2a9a73fd4a16582773a0ff346349d2
+
+Package: netobs-system-path
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-system-path
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-system-path_1.0.0-1_all.deb
+Size: 8606
+SHA256: 299549d8cbc112290c3a5a5aed2592be4d217ae92789a1185d71c95d2b8af6f8
+
+Package: netobs-system-which
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-system-which
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-system-which_1.0.0-1_all.deb
+Size: 8612
+SHA256: 1300534daa78510961b9c6e1a73f027eaa352807df1cdeb33abd211ef040affb
+
+Package: netobs-system-platform
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-system-platform
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-system-platform_1.0.0-1_all.deb
+Size: 8604
+SHA256: f3d824438d7a8130cd23f10776f7255cf935dfac8b48bb863da43927e1b97b93
+
+Package: netobs-system-python
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-system-python
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-system-python_1.0.0-1_all.deb
+Size: 8600
+SHA256: c0c3f53fa48f7d505b18bafa98100cba9480e1742e007bc0d3f88146aee6fb0b
+
+Package: netobs-system-cwd
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-system-cwd
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-system-cwd_1.0.0-1_all.deb
+Size: 8606
+SHA256: 4ab4193415114d52dd78403089b08f8e7de065e5870d3dfee547defadea1fcaf
+
+Package: netobs-system-disk
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-system-disk
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-system-disk_1.0.0-1_all.deb
+Size: 8604
+SHA256: 551bde285f2e68c11699ccfca9017b70e0cf8c21be2618b9713f65a82ce93cc6
+
+Package: netobs-system-uname
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-system-uname
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-system-uname_1.0.0-1_all.deb
+Size: 8610
+SHA256: 29e3846e6ca03f47b63225401d7a280aa011e081b63b4f6f17497d27e1c09217
+
+Package: netobs-system-hostname
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-system-hostname
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-system-hostname_1.0.0-1_all.deb
+Size: 8610
+SHA256: 7593c481eb9134ecfb754e149c679352672c98769ae8e490dde9550d006e9c32
+
+Package: netobs-system-stats
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: python
+Description: API network logs metrics trace and observability utilities - netobs-system-stats
+ Functional self-contained Ocean utility implemented with Python standard library.
+ No network access occurs during apt installation.
+Filename: staging/shard-51/pool/main/netobs-system-stats_1.0.0-1_all.deb
+Size: 8610
+SHA256: 8a342e3bd98c51dcb3241b896b4cfe0aecfab89a6beed3de6d64c7883716814a
+
+Package: network-observability-suite
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: metapackages
+Priority: optional
+Depends: netobs-http-status (= 1.0.0-1), netobs-http-headers (= 1.0.0-1), netobs-http-text (= 1.0.0-1), netobs-http-json (= 1.0.0-1), netobs-http-latency (= 1.0.0-1), netobs-http-final-url (= 1.0.0-1), netobs-http-content-type (= 1.0.0-1), netobs-http-length (= 1.0.0-1), netobs-http-head (= 1.0.0-1), netobs-http-download (= 1.0.0-1), netobs-url-parse (= 1.0.0-1), netobs-url-encode (= 1.0.0-1), netobs-url-decode (= 1.0.0-1), netobs-url-join (= 1.0.0-1), netobs-url-query-parse (= 1.0.0-1), netobs-url-query-build (= 1.0.0-1), netobs-url-normalize (= 1.0.0-1), netobs-url-domain (= 1.0.0-1), netobs-url-scheme (= 1.0.0-1), netobs-url-basename (= 1.0.0-1), netobs-dns-resolve (= 1.0.0-1), netobs-dns-reverse (= 1.0.0-1), netobs-dns-hostname (= 1.0.0-1), netobs-dns-fqdn (= 1.0.0-1), netobs-dns-localhost (= 1.0.0-1), netobs-dns-addrinfo (= 1.0.0-1), netobs-dns-canonical (= 1.0.0-1), netobs-dns-service-port (= 1.0.0-1), netobs-dns-port-service (= 1.0.0-1), netobs-dns-stats (= 1.0.0-1), netobs-tcp-check (= 1.0.0-1), netobs-tcp-time (= 1.0.0-1), netobs-tcp-send (= 1.0.0-1), netobs-tcp-recv (= 1.0.0-1), netobs-tcp-resolve (= 1.0.0-1), netobs-tcp-service (= 1.0.0-1), netobs-tcp-common-ports (= 1.0.0-1), netobs-tcp-family (= 1.0.0-1), netobs-tcp-host (= 1.0.0-1), netobs-tcp-stats (= 1.0.0-1), netobs-jsonrpc-request (= 1.0.0-1), netobs-jsonrpc-notify (= 1.0.0-1), netobs-jsonrpc-response (= 1.0.0-1), netobs-jsonrpc-error (= 1.0.0-1), netobs-jsonrpc-batch (= 1.0.0-1), netobs-jsonrpc-validate (= 1.0.0-1), netobs-jsonrpc-methods (= 1.0.0-1), netobs-jsonrpc-ids (= 1.0.0-1), netobs-jsonrpc-pretty (= 1.0.0-1), netobs-jsonrpc-line (= 1.0.0-1), netobs-log-lines (= 1.0.0-1), netobs-log-levels (= 1.0.0-1), netobs-log-errors (= 1.0.0-1), netobs-log-warnings (= 1.0.0-1), netobs-log-timestamps (= 1.0.0-1), netobs-log-json (= 1.0.0-1), netobs-log-grep (= 1.0.0-1), netobs-log-tail (= 1.0.0-1), netobs-log-top (= 1.0.0-1), netobs-log-stats (= 1.0.0-1), netobs-metric-avg (= 1.0.0-1), netobs-metric-min (= 1.0.0-1), netobs-metric-max (= 1.0.0-1), netobs-metric-sum (= 1.0.0-1), netobs-metric-count (= 1.0.0-1), netobs-metric-p50 (= 1.0.0-1), netobs-metric-p90 (= 1.0.0-1), netobs-metric-p95 (= 1.0.0-1), netobs-metric-p99 (= 1.0.0-1), netobs-metric-stats (= 1.0.0-1), netobs-trace-new-trace (= 1.0.0-1), netobs-trace-new-span (= 1.0.0-1), netobs-trace-parse-parent (= 1.0.0-1), netobs-trace-make-parent (= 1.0.0-1), netobs-trace-duration (= 1.0.0-1), netobs-trace-sort (= 1.0.0-1), netobs-trace-critical (= 1.0.0-1), netobs-trace-errors (= 1.0.0-1), netobs-trace-services (= 1.0.0-1), netobs-trace-stats (= 1.0.0-1), netobs-tls-pem-count (= 1.0.0-1), netobs-tls-pem-labels (= 1.0.0-1), netobs-tls-sha256 (= 1.0.0-1), netobs-tls-version (= 1.0.0-1), netobs-tls-cipher (= 1.0.0-1), netobs-tls-sans (= 1.0.0-1), netobs-tls-issuer (= 1.0.0-1), netobs-tls-expiry (= 1.0.0-1), netobs-tls-certificate (= 1.0.0-1), netobs-tls-stats (= 1.0.0-1), netobs-system-env (= 1.0.0-1), netobs-system-path (= 1.0.0-1), netobs-system-which (= 1.0.0-1), netobs-system-platform (= 1.0.0-1), netobs-system-python (= 1.0.0-1), netobs-system-cwd (= 1.0.0-1), netobs-system-disk (= 1.0.0-1), netobs-system-uname (= 1.0.0-1), netobs-system-hostname (= 1.0.0-1), netobs-system-stats (= 1.0.0-1)
+Description: Ocean API network logs metrics trace and observability utilities suite
+ Meta-package installing the complete Ocean utility shard.
+Filename: staging/shard-51/pool/main/network-observability-suite_1.0.0-1_all.deb
+Size: 1126
+SHA256: 8025df02e7645aa957153209bef2c8cddcbf4deb332dd1078bbb492a4d5bc230
