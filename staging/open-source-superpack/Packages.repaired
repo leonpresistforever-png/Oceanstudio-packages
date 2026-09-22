@@ -1,0 +1,12 @@
+Package: ocean-open-source-superpack
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: metapackages
+Priority: optional
+Depends: terminal-unix-foundation-suite (= 1.0.0-1), network-server-foundation-suite (= 1.0.0-1), open-source-cli-foundation-suite (= 1.0.0-1), nano, vim, tmux, rclone, socat, nmap, perl, openssh, rsync, curl, wget, git, bash, coreutils
+Description: Ocean open-source terminal and server superpack
+ Meta-package only; installs the corresponding Ocean open-source capability set.
+Filename: staging/open-source-superpack/pool/main/ocean-open-source-superpack_1.0.0-1_all.deb
+Size: 682
+SHA256: 80295050a3f8c77fe8fd140c0a708f57e9a3939593d03a209d70555fcc3266e4

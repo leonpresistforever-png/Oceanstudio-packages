@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0-1",
+  "prefix": "/data/data/studio.ocean.app/files/usr",
+  "dependsOnSuites": [
+    "terminal-unix-foundation-suite",
+    "network-server-foundation-suite",
+    "open-source-cli-foundation-suite"
+  ],
+  "alsoInstallsExistingEssentials": [
+    "nano",
+    "vim",
+    "tmux",
+    "rclone",
+    "socat",
+    "nmap",
+    "perl",
+    "openssh",
+    "rsync",
+    "curl",
+    "wget",
+    "git",
+    "bash",
+    "coreutils"
+  ],
+  "newCommandPackages": 300,
+  "totalNewPackages": 304
+}

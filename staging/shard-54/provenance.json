@@ -1,0 +1,924 @@
+{
+  "schemaVersion": 1,
+  "shard": "54",
+  "version": "1.0.0-1",
+  "prefix": "/data/data/studio.ocean.app/files/usr",
+  "commandPackageCount": 100,
+  "metaPackageCount": 1,
+  "packageCount": 101,
+  "suite": "open-source-cli-foundation-suite",
+  "networkAtAptInstall": false,
+  "rootRequired": false,
+  "implementation": "real upstream open-source tools resolved through nix-ocean; no renamed no-op placeholders",
+  "packages": [
+    {
+      "package": "xmlstarlet",
+      "artifact": "xmlstarlet_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "xmlstarlet",
+      "command": "xmlstarlet",
+      "bytes": 1108,
+      "sha256": "bbd89e9bf3394bc30275846ba1cd61a6c491bb3bfb944b122dc73fc6ca1062b9"
+    },
+    {
+      "package": "tidy-html5",
+      "artifact": "tidy-html5_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "tidy-html5",
+      "command": "tidy-html5",
+      "bytes": 1110,
+      "sha256": "b57f82f4840b2bb287dda13c934c36c16088d95b9d357d761aa4e65379bc72a9"
+    },
+    {
+      "package": "jless",
+      "artifact": "jless_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "jless",
+      "command": "jless",
+      "bytes": 1100,
+      "sha256": "7056fb1ff59da5c42073396d80274501d0f8fefc63994737656a0b8b6b82d2d7"
+    },
+    {
+      "package": "jc",
+      "artifact": "jc_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "jc",
+      "command": "jc",
+      "bytes": 1094,
+      "sha256": "9f88516dba0ff88705953f827a1aef81819f2191375a77e435d13fcf270bc854"
+    },
+    {
+      "package": "jo",
+      "artifact": "jo_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "jo",
+      "command": "jo",
+      "bytes": 1092,
+      "sha256": "f41e1d10e4278b113ca754d9d7bde6f07fd6cc576d277c9dae8cb7b4ba1cb633"
+    },
+    {
+      "package": "jid",
+      "artifact": "jid_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "jid",
+      "command": "jid",
+      "bytes": 1098,
+      "sha256": "cfcb7fde709765b1dfb0e9cf6cdfc61124b36893a88bab9de3158ac544ab19be"
+    },
+    {
+      "package": "lua",
+      "artifact": "lua_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "lua",
+      "command": "lua",
+      "bytes": 1096,
+      "sha256": "4373bb9364ea5712a3fac5f55f49f53312071936ad8a3d1408e01d76a9318263"
+    },
+    {
+      "package": "julia",
+      "artifact": "julia_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "julia",
+      "command": "julia",
+      "bytes": 1100,
+      "sha256": "fbf97b4a4fbda5abe0888026d15ccc2e0176829831fae269f55a7c2f0f41c819"
+    },
+    {
+      "package": "sccache",
+      "artifact": "sccache_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "sccache",
+      "command": "sccache",
+      "bytes": 1100,
+      "sha256": "e61dd236ece92c1f19ccd4c87569764e36c583e1446e0c951cc24eb058e2d793"
+    },
+    {
+      "package": "bear",
+      "artifact": "bear_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "bear",
+      "command": "bear",
+      "bytes": 1096,
+      "sha256": "a6eb92b5514265df7dd60111f223b6881240b7d25d86459259523d8448aa9737"
+    },
+    {
+      "package": "patchutils",
+      "artifact": "patchutils_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "patchutils",
+      "command": "patchutils",
+      "bytes": 1104,
+      "sha256": "6c60b26a75a9dd9b28a3a1fe554c48a3e3fe25c5b4353c7856324a87f4cdd5df"
+    },
+    {
+      "package": "cscope",
+      "artifact": "cscope_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "cscope",
+      "command": "cscope",
+      "bytes": 1098,
+      "sha256": "f909d0e69b025ed7550e5d07f1042e83071455dd984015286969c5bba1ed8389"
+    },
+    {
+      "package": "universal-ctags",
+      "artifact": "universal-ctags_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "universal-ctags",
+      "command": "universal-ctags",
+      "bytes": 1116,
+      "sha256": "2288baddf019f2b42e98b766cdb7813fcc396ae79df9cba3ea1f54c7daa7d41a"
+    },
+    {
+      "package": "w3m",
+      "artifact": "w3m_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "w3m",
+      "command": "w3m",
+      "bytes": 1100,
+      "sha256": "b4e3f362454d8ba602e88a34214eac6313fb96b8c6b1fa1fe32deeb09a333f93"
+    },
+    {
+      "package": "lynx",
+      "artifact": "lynx_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "lynx",
+      "command": "lynx",
+      "bytes": 1098,
+      "sha256": "534aba9a21282a78792c4d2a07ab82aecfcbe09188ee399824105402dee39b58"
+    },
+    {
+      "package": "links2",
+      "artifact": "links2_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "links2",
+      "command": "links",
+      "bytes": 1102,
+      "sha256": "e40fc28cb6038aa4b6523d363266d0ed1623a365f6859f3ee29643841c58f034"
+    },
+    {
+      "package": "elinks",
+      "artifact": "elinks_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "elinks",
+      "command": "elinks",
+      "bytes": 1100,
+      "sha256": "264251d00b3d1b723225eec0313f32866f207821d15c37dc21d2bcf7e7f99fba"
+    },
+    {
+      "package": "browsh",
+      "artifact": "browsh_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "browsh",
+      "command": "browsh",
+      "bytes": 1102,
+      "sha256": "dc04d2073bbda4687a822739ba347802c27dbafda41778da379a6fdd72e40de7"
+    },
+    {
+      "package": "ddgr",
+      "artifact": "ddgr_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "ddgr",
+      "command": "ddgr",
+      "bytes": 1096,
+      "sha256": "837007c7396120d189e41d3504d89d85d3d86cb445c97dbdf4fc4c8cd2b6f818"
+    },
+    {
+      "package": "googler",
+      "artifact": "googler_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "googler",
+      "command": "googler",
+      "bytes": 1102,
+      "sha256": "10b2b74bff330d112f9caa8cecf3bd237ca6c120c03496feb34e6318fcdfd8d9"
+    },
+    {
+      "package": "newsboat",
+      "artifact": "newsboat_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "newsboat",
+      "command": "newsboat",
+      "bytes": 1104,
+      "sha256": "60aa0574ea1bbeef9f7d00095ec47ccec8faf61c397a100c3d40006a8a922fd1"
+    },
+    {
+      "package": "neomutt",
+      "artifact": "neomutt_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "neomutt",
+      "command": "neomutt",
+      "bytes": 1100,
+      "sha256": "e82619e7345425df48b45335f173c93ab9ec56a461068e7eb1b58e4aec5c4bf5"
+    },
+    {
+      "package": "aerc",
+      "artifact": "aerc_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "aerc",
+      "command": "aerc",
+      "bytes": 1094,
+      "sha256": "b0bd82f6ab417f1f6423e5c73e347314e50abcb4d6cd9f9372f994ea734081ba"
+    },
+    {
+      "package": "alpine",
+      "artifact": "alpine_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "alpine",
+      "command": "alpine",
+      "bytes": 1100,
+      "sha256": "bfbf673f7f92ce211ff51052ca779364597f3ec41b2936903e8a96a4acc1d66d"
+    },
+    {
+      "package": "msmtp",
+      "artifact": "msmtp_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "msmtp",
+      "command": "msmtp",
+      "bytes": 1098,
+      "sha256": "8172d64ed34ac6ce5e636b4edd3caeeff8e647fb4174f0700e063b5c02882472"
+    },
+    {
+      "package": "isync",
+      "artifact": "isync_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "isync",
+      "command": "mbsync",
+      "bytes": 1120,
+      "sha256": "77377695595ef66981b0b55f66d097c7b4efc4b651e1e5137c7e72a4f07021ff"
+    },
+    {
+      "package": "notmuch",
+      "artifact": "notmuch_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "notmuch",
+      "command": "notmuch",
+      "bytes": 1100,
+      "sha256": "5fd430e9be49399de98376c1448ee98927f95f72336ae13471552a6e3cd62359"
+    },
+    {
+      "package": "timewarrior",
+      "artifact": "timewarrior_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "timewarrior",
+      "command": "timewarrior",
+      "bytes": 1110,
+      "sha256": "06fca0fe8843c09f839b54e8e1d6330ebd310df0eeffa9e0858825f1dc85e368"
+    },
+    {
+      "package": "calcurse",
+      "artifact": "calcurse_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "calcurse",
+      "command": "calcurse",
+      "bytes": 1100,
+      "sha256": "89e84308c2b2db6c2c6b6815b22ddfcc3827c22ad068227b901575b281516b74"
+    },
+    {
+      "package": "remind",
+      "artifact": "remind_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "remind",
+      "command": "remind",
+      "bytes": 1098,
+      "sha256": "7e26df54f46e462ffc8b3617b5c705342efe55122a5b9a12e2a088d2ac9aa062"
+    },
+    {
+      "package": "khal",
+      "artifact": "khal_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "khal",
+      "command": "khal",
+      "bytes": 1098,
+      "sha256": "f14a7380d4389912054200ce1c7f8f86cce4dd4fb612923b15d62cc811e45d99"
+    },
+    {
+      "package": "vdirsyncer",
+      "artifact": "vdirsyncer_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "vdirsyncer",
+      "command": "vdirsyncer",
+      "bytes": 1106,
+      "sha256": "f424911aa9885c5c4482eacb42f27d3819a9f452aa7c59442f61a51197563007"
+    },
+    {
+      "package": "ledger",
+      "artifact": "ledger_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "ledger",
+      "command": "ledger",
+      "bytes": 1104,
+      "sha256": "fc46ab6c84a49017d6406ef38d0366be24b76f20f250772f882fffc71bfe61cc"
+    },
+    {
+      "package": "hledger",
+      "artifact": "hledger_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "hledger",
+      "command": "hledger",
+      "bytes": 1104,
+      "sha256": "a5b00cd060606afb0f6f94b031a4ae4638ee1b3c807ce20b3238bf0901b67b32"
+    },
+    {
+      "package": "beancount",
+      "artifact": "beancount_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "beancount",
+      "command": "beancount",
+      "bytes": 1104,
+      "sha256": "74679df31d300b464185ca325d101a848e10d48436db9a166aec911bad2ad009"
+    },
+    {
+      "package": "jrnl",
+      "artifact": "jrnl_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "jrnl",
+      "command": "jrnl",
+      "bytes": 1098,
+      "sha256": "05c20e1213f38de38c1ce1b818a4bf2ebec13f5f52e11dbc2b7324478e68618d"
+    },
+    {
+      "package": "todo-txt-cli",
+      "artifact": "todo-txt-cli_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "todo-txt-cli",
+      "command": "todo.sh",
+      "bytes": 1116,
+      "sha256": "3a5ad3e573b9d8ac790ed38cc67777cd051170fd59145b910f38cfad528a11d5"
+    },
+    {
+      "package": "recode",
+      "artifact": "recode_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "recode",
+      "command": "recode",
+      "bytes": 1098,
+      "sha256": "709c6bbe4bb778cbe5a1399596e623b5343e78050d1ddf736585967e289600f0"
+    },
+    {
+      "package": "enca",
+      "artifact": "enca_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "enca",
+      "command": "enca",
+      "bytes": 1096,
+      "sha256": "8671bf6522ba4b3d245f407eb01afc5d4224c5d02332ddaea04eb357456b8d98"
+    },
+    {
+      "package": "uchardet",
+      "artifact": "uchardet_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "uchardet",
+      "command": "uchardet",
+      "bytes": 1102,
+      "sha256": "506910682219c518d3de203eb7f2b4839cfb61a425d9e6a52ecd7bb72d41de61"
+    },
+    {
+      "package": "parallel",
+      "artifact": "parallel_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "parallel",
+      "command": "parallel",
+      "bytes": 1104,
+      "sha256": "692adb34962fd45e71a5e4e48bb07c740b1d1f14f2de07c61711e6eb5bca5d91"
+    },
+    {
+      "package": "choose",
+      "artifact": "choose_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "choose",
+      "command": "choose",
+      "bytes": 1096,
+      "sha256": "7fdb57bbe3ae0d121309597633f2b8f8c3a1d49c2102c2f798154378c58b7bd3"
+    },
+    {
+      "package": "sd",
+      "artifact": "sd_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "sd",
+      "command": "sd",
+      "bytes": 1088,
+      "sha256": "f485c05de2340d7a11152283146aa89483e883680f40ebe6497ec2b9c4acc665"
+    },
+    {
+      "package": "cheat",
+      "artifact": "cheat_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "cheat",
+      "command": "cheat",
+      "bytes": 1098,
+      "sha256": "57b8deefecdec386cc26a7be88398528dd05e7359007cc85540be6236ad311c4"
+    },
+    {
+      "package": "navi",
+      "artifact": "navi_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "navi",
+      "command": "navi",
+      "bytes": 1094,
+      "sha256": "1f256dec2d0e2c2762183615e092edc1ccf29ed828d5732ad9b8cc95e4ab4eec"
+    },
+    {
+      "package": "procs",
+      "artifact": "procs_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "procs",
+      "command": "procs",
+      "bytes": 1096,
+      "sha256": "9ca918f2540fa69f817b828985c9f8a96639f2077aba1260449d1d669e604798"
+    },
+    {
+      "package": "net-tools",
+      "artifact": "net-tools_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "nettools",
+      "command": "ifconfig",
+      "bytes": 1120,
+      "sha256": "8f518fc9461326cf5336a5d0cb1220874df04707c04bd9f65a2fda18b883214a"
+    },
+    {
+      "package": "inetutils",
+      "artifact": "inetutils_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "inetutils",
+      "command": "telnet",
+      "bytes": 1112,
+      "sha256": "4451e72d31b2cf9cce0528300302fdeb94aa021a0cd9fb9c776d6750a5fa9178"
+    },
+    {
+      "package": "netperf",
+      "artifact": "netperf_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "netperf",
+      "command": "netperf",
+      "bytes": 1096,
+      "sha256": "ad1a1adde964ea483a00d137f9422c2059dfc50e87a2325fd566546e87806628"
+    },
+    {
+      "package": "netcat-gnu",
+      "artifact": "netcat-gnu_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "netcat-gnu",
+      "command": "nc",
+      "bytes": 1104,
+      "sha256": "d1ccd7cba61d40090e5619f79603a0b527a5da9e200c879c5aaa316f814b8c6c"
+    },
+    {
+      "package": "termshark",
+      "artifact": "termshark_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "termshark",
+      "command": "termshark",
+      "bytes": 1104,
+      "sha256": "59d375e2390ddf8c0f96ac4777083ba1eefb87e2a357205127f45a3b24e62604"
+    },
+    {
+      "package": "sniffglue",
+      "artifact": "sniffglue_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "sniffglue",
+      "command": "sniffglue",
+      "bytes": 1104,
+      "sha256": "f68752562ef3485d30f9c4b7885e877887ab921a5381df62c7167a96b3a96a96"
+    },
+    {
+      "package": "rustscan",
+      "artifact": "rustscan_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "rustscan",
+      "command": "rustscan",
+      "bytes": 1102,
+      "sha256": "0e0490786953b5f3553ab17f0e4c3d0ed75c972171e0a47d5a59d668128bd8f6"
+    },
+    {
+      "package": "dnsperf",
+      "artifact": "dnsperf_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "dnsperf",
+      "command": "dnsperf",
+      "bytes": 1102,
+      "sha256": "19d91e1f31a22d2da9bd2a0bae5a1a49f72a7f03657a7be3154318c34c65e377"
+    },
+    {
+      "package": "dnstop",
+      "artifact": "dnstop_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "dnstop",
+      "command": "dnstop",
+      "bytes": 1098,
+      "sha256": "235b4b4821becaf1c6ae71039cfd68927656810e6f05a03f7992118363ed3ea8"
+    },
+    {
+      "package": "dnstracer",
+      "artifact": "dnstracer_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "dnstracer",
+      "command": "dnstracer",
+      "bytes": 1102,
+      "sha256": "02bd0212f902a923149ddbb79174ab65cf3c38ffb0cfadc0ad01144fac10d19c"
+    },
+    {
+      "package": "coredns",
+      "artifact": "coredns_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "coredns",
+      "command": "coredns",
+      "bytes": 1100,
+      "sha256": "38a68eedb1f927013bd6a8de3ec2d4509857d14ba4cd0aef3349a01bcc94b3d4"
+    },
+    {
+      "package": "powerdns",
+      "artifact": "powerdns_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "pdns",
+      "command": "pdns_server",
+      "bytes": 1146,
+      "sha256": "91082c7d26e9c03d92caa428875866739e5ccf4ecd3a13e75066afb5bd57997c"
+    },
+    {
+      "package": "knot-resolver",
+      "artifact": "knot-resolver_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "knot-resolver",
+      "command": "kresd",
+      "bytes": 1134,
+      "sha256": "47ec735a3f274abacd6a0736b614eefd531ac94429d7c7711de074db80cec6cc"
+    },
+    {
+      "package": "nghttp2",
+      "artifact": "nghttp2_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "nghttp2",
+      "command": "nghttp2",
+      "bytes": 1100,
+      "sha256": "ee00ec686c2c93e2119f15ee43061d4d78e65cdac3c233995dfb105252d77635"
+    },
+    {
+      "package": "websocketd",
+      "artifact": "websocketd_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "websocketd",
+      "command": "websocketd",
+      "bytes": 1106,
+      "sha256": "112c6b4835f0a006e39934d182e900fbfba7829998735fc107ba26673efd15f3"
+    },
+    {
+      "package": "websockify",
+      "artifact": "websockify_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "websockify",
+      "command": "websockify",
+      "bytes": 1106,
+      "sha256": "0ce4326b9a87699a4bad5c383dfae90f0eaa97e31d7702cf82f4b8a90e8a907e"
+    },
+    {
+      "package": "wstunnel",
+      "artifact": "wstunnel_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "wstunnel",
+      "command": "wstunnel",
+      "bytes": 1102,
+      "sha256": "e208d7b2e746ca3fd22720d187047199d2e84cdef510aba57f87139ee1193580"
+    },
+    {
+      "package": "bore-cli",
+      "artifact": "bore-cli_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "bore-cli",
+      "command": "bore-cli",
+      "bytes": 1102,
+      "sha256": "29bf877fbab7d650756797f1ee8293456d40cc752e39dd3fe44f1486b8ce0c15"
+    },
+    {
+      "package": "seaweedfs",
+      "artifact": "seaweedfs_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "seaweedfs",
+      "command": "weed",
+      "bytes": 1128,
+      "sha256": "d3b4ec642d05f0b86669640cb425c3ba203c5e45cda7399f58021a5915d52a18"
+    },
+    {
+      "package": "garage",
+      "artifact": "garage_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "garage",
+      "command": "garage",
+      "bytes": 1100,
+      "sha256": "b9757b0e611dc26044b380a3d4dcd881041eadb29c6e4739a318829a9d4886db"
+    },
+    {
+      "package": "croc",
+      "artifact": "croc_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "croc",
+      "command": "croc",
+      "bytes": 1096,
+      "sha256": "563d179df5451611279184b4cc165009fc9b0ee315897bc209648bd705468102"
+    },
+    {
+      "package": "magic-wormhole",
+      "artifact": "magic-wormhole_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "magic-wormhole",
+      "command": "wormhole",
+      "bytes": 1136,
+      "sha256": "7b1b3cc2fa8e7622c0caaab04cf38fcad2e7a7267497ee2368af700f371c4274"
+    },
+    {
+      "package": "wormhole-william",
+      "artifact": "wormhole-william_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "wormhole-william",
+      "command": "wormhole-william",
+      "bytes": 1120,
+      "sha256": "d9cf27eb97a86cb7afddcc214d762718341ffbb145a5ff890f0d0d4d0109bbb9"
+    },
+    {
+      "package": "dufs",
+      "artifact": "dufs_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "dufs",
+      "command": "dufs",
+      "bytes": 1096,
+      "sha256": "fba66df93911e024b49ce156628eb5efa9b98cc2388fa229db009b6eb7510519"
+    },
+    {
+      "package": "filebrowser",
+      "artifact": "filebrowser_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "filebrowser",
+      "command": "filebrowser",
+      "bytes": 1106,
+      "sha256": "663b65bafafd7cbd0291c4a37ba68fc8ea3472f1ec784f5fb4a11583075be6b6"
+    },
+    {
+      "package": "rabbitmq-server",
+      "artifact": "rabbitmq-server_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "rabbitmq-server",
+      "command": "rabbitmq-server",
+      "bytes": 1116,
+      "sha256": "9a851c281421d1d2d2871c53a0aeabc9c1a80dd96647487ee8645557c5982dd2"
+    },
+    {
+      "package": "beanstalkd",
+      "artifact": "beanstalkd_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "beanstalkd",
+      "command": "beanstalkd",
+      "bytes": 1108,
+      "sha256": "1c65f99dfcd7d51aad201562b54e1f6059d89a17822a3522f083545b5e129617"
+    },
+    {
+      "package": "nsq",
+      "artifact": "nsq_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "nsq",
+      "command": "nsqd",
+      "bytes": 1114,
+      "sha256": "4293fb5f7b38d1fc52c914bde197b94372b92fb9d7b6f5670d4e7503906cb4bf"
+    },
+    {
+      "package": "xray",
+      "artifact": "xray_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "xray",
+      "command": "xray",
+      "bytes": 1098,
+      "sha256": "0ffe31dfc25ab402dc7bb6defa569792f5564468d50c063d00a4f55a93982a2a"
+    },
+    {
+      "package": "sing-box",
+      "artifact": "sing-box_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "sing-box",
+      "command": "sing-box",
+      "bytes": 1102,
+      "sha256": "954bbcb7b26a6542408da3fec5dfda9e1648fd4eafb7dc7f341d299ece73a129"
+    },
+    {
+      "package": "stunnel",
+      "artifact": "stunnel_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "stunnel",
+      "command": "stunnel",
+      "bytes": 1100,
+      "sha256": "2a1c7789988158d2fe818a3e2a7a5e319c8ead0ede50a47e0aa84124928f1476"
+    },
+    {
+      "package": "lego",
+      "artifact": "lego_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "lego",
+      "command": "lego",
+      "bytes": 1098,
+      "sha256": "32e0d5aaf000eec61f2501b7c5a1edaef103df6e5544f4d8c9f56f037c5811eb"
+    },
+    {
+      "package": "prometheus",
+      "artifact": "prometheus_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "prometheus",
+      "command": "prometheus",
+      "bytes": 1106,
+      "sha256": "d0a68519931085f7d32ee44889f98259dc1369ab2b7fda02ac58a8b6724dac72"
+    },
+    {
+      "package": "blackbox-exporter",
+      "artifact": "blackbox-exporter_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "prometheus-blackbox-exporter",
+      "command": "blackbox_exporter",
+      "bytes": 1160,
+      "sha256": "6df592ab9694f28f34c5b4aa2df1535c169e1fd6e816a01f8e4c243e9f083bc6"
+    },
+    {
+      "package": "victoriametrics",
+      "artifact": "victoriametrics_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "victoriametrics",
+      "command": "victoria-metrics-prod",
+      "bytes": 1130,
+      "sha256": "0ea3cdebb92201a8f836e08021153917d1a845a4743fb14144c226f0f04f8c40"
+    },
+    {
+      "package": "loki",
+      "artifact": "loki_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "grafana-loki",
+      "command": "loki",
+      "bytes": 1112,
+      "sha256": "c12c42882d7f6c9f31809ddb2e668e408721e48c31a7a557f336b8ba7f550510"
+    },
+    {
+      "package": "promtail",
+      "artifact": "promtail_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "grafana-loki",
+      "command": "promtail",
+      "bytes": 1120,
+      "sha256": "2f0ddcb35e35738f0f15f3d89b265a8a532aad690c559e25915e548e4f199a89"
+    },
+    {
+      "package": "redli",
+      "artifact": "redli_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "redli",
+      "command": "redli",
+      "bytes": 1100,
+      "sha256": "c3d0414fc156198fba7ea48866344539f776b48e9752388811d09efae81bf625"
+    },
+    {
+      "package": "mongosh",
+      "artifact": "mongosh_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "mongosh",
+      "command": "mongosh",
+      "bytes": 1102,
+      "sha256": "c5933f0d5cf7de27efb738a26b10afd6fcc3d831f246e601b0b6830052387c5b"
+    },
+    {
+      "package": "mongodb-tools",
+      "artifact": "mongodb-tools_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "mongodb-tools",
+      "command": "mongodump",
+      "bytes": 1140,
+      "sha256": "1dda4497ddd79e222a272b94fda2b2f135d8c0e86ea36b76200604c0494bc6ed"
+    },
+    {
+      "package": "rqlite",
+      "artifact": "rqlite_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "rqlite",
+      "command": "rqlite",
+      "bytes": 1102,
+      "sha256": "f1bc2e82448ec0c86bbf0e8942b72aad8f29bba86f55bcb72b7257941e7464bc"
+    },
+    {
+      "package": "sops",
+      "artifact": "sops_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "sops",
+      "command": "sops",
+      "bytes": 1096,
+      "sha256": "d486cdd6e35819bc372bea0446851a87bb5eb95377baded64defdb77293b5825"
+    },
+    {
+      "package": "pass",
+      "artifact": "pass_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "pass",
+      "command": "pass",
+      "bytes": 1094,
+      "sha256": "9a1552278a6db9f28eff947da9cd50e51268f1a099d95d890ebf76abedbc766d"
+    },
+    {
+      "package": "gopass",
+      "artifact": "gopass_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "gopass",
+      "command": "gopass",
+      "bytes": 1100,
+      "sha256": "a5c9453cd26d73add8b2667468b66fff6da26cdf46b9f64bb69faa3b7db2e70f"
+    },
+    {
+      "package": "nomad",
+      "artifact": "nomad_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "nomad",
+      "command": "nomad",
+      "bytes": 1094,
+      "sha256": "5b0a50565b817fb045cf401e40f293c9f32dd52c07ec003a126191863d8573ca"
+    },
+    {
+      "package": "boundary",
+      "artifact": "boundary_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "boundary",
+      "command": "boundary",
+      "bytes": 1104,
+      "sha256": "f374e96ae8b516adf195da71f7281993cdecf26f0a761605aa37cc716a6bd877"
+    },
+    {
+      "package": "goreleaser",
+      "artifact": "goreleaser_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "goreleaser",
+      "command": "goreleaser",
+      "bytes": 1106,
+      "sha256": "1944d3237ab55e1249b1abcb25dc44d68cf0c746a8d432ffee36cfec8195fbc9"
+    },
+    {
+      "package": "ko",
+      "artifact": "ko_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "ko",
+      "command": "ko",
+      "bytes": 1092,
+      "sha256": "141a44e0098c23a648e2d6c873573efcf5dff6e5d66b064cfa2644f61c1ee457"
+    },
+    {
+      "package": "nixfmt-rfc-style",
+      "artifact": "nixfmt-rfc-style_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "nixfmt-rfc-style",
+      "command": "nixfmt",
+      "bytes": 1126,
+      "sha256": "0017051ec4ca62ccad31d50990ccfc42f9c0a2b82f0003164fd1d1662db9d082"
+    },
+    {
+      "package": "alejandra",
+      "artifact": "alejandra_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "alejandra",
+      "command": "alejandra",
+      "bytes": 1104,
+      "sha256": "d7f3c31029774f06b5d479930d40f2e6da280a778a574e883222c6091cb088a6"
+    },
+    {
+      "package": "deadnix",
+      "artifact": "deadnix_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "deadnix",
+      "command": "deadnix",
+      "bytes": 1100,
+      "sha256": "b0a2277ae4c9c5a4bd7d59bc961bd6026a167abc71b372d3d7623908ffe650d4"
+    },
+    {
+      "package": "statix",
+      "artifact": "statix_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "statix",
+      "command": "statix",
+      "bytes": 1098,
+      "sha256": "cc2f56cd11eccc4e9e35832c2c711d5b2322507cf6bceb196552c38b00bc2e6d"
+    },
+    {
+      "package": "shellharden",
+      "artifact": "shellharden_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "shellharden",
+      "command": "shellharden",
+      "bytes": 1102,
+      "sha256": "75e41ceab48f763f29ce54a997b4bb5f27194d71d8b29e21ba610add7751971e"
+    },
+    {
+      "package": "cloc",
+      "artifact": "cloc_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "cloc",
+      "command": "cloc",
+      "bytes": 1096,
+      "sha256": "58b67d6dade6d6626f9e0f8ab1a6ea058ef08fbfa831cbffd4b0025ffea41a9e"
+    },
+    {
+      "package": "open-source-cli-foundation-suite",
+      "artifact": "open-source-cli-foundation-suite_1.0.0-1_all.deb",
+      "provider": "meta",
+      "upstream": "",
+      "command": "",
+      "bytes": 1126,
+      "sha256": "2d4ae9a225e304e9f97511fd2c2824cc82b94b39c91feb61bada11039153a95d"
+    }
+  ]
+}

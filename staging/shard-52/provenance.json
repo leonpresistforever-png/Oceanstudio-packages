@@ -1,0 +1,924 @@
+{
+  "schemaVersion": 1,
+  "shard": "52",
+  "version": "1.0.0-1",
+  "prefix": "/data/data/studio.ocean.app/files/usr",
+  "commandPackageCount": 100,
+  "metaPackageCount": 1,
+  "packageCount": 101,
+  "suite": "terminal-unix-foundation-suite",
+  "networkAtAptInstall": false,
+  "rootRequired": false,
+  "implementation": "real upstream open-source tools resolved through nix-ocean; no renamed no-op placeholders",
+  "packages": [
+    {
+      "package": "neovim",
+      "artifact": "neovim_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "neovim",
+      "command": "nvim",
+      "bytes": 1114,
+      "sha256": "2ce2d86cf1a704ad5db1098beb6c5530237ec6924d5428f58ebced3ae5f5c9b5"
+    },
+    {
+      "package": "emacs",
+      "artifact": "emacs_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "emacs",
+      "command": "emacs",
+      "bytes": 1094,
+      "sha256": "8a8a10af9cae11a9e54b1a4a8f092f882ba2086a5feb4b7ab374f53feaa7792e"
+    },
+    {
+      "package": "helix",
+      "artifact": "helix_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "helix",
+      "command": "hx",
+      "bytes": 1120,
+      "sha256": "67818059c84135501096c6ae8ed26f9826468b18febb7edb72b9e8ec716505af"
+    },
+    {
+      "package": "kakoune",
+      "artifact": "kakoune_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "kakoune",
+      "command": "kakoune",
+      "bytes": 1098,
+      "sha256": "bcd98fd30ccd9de722793a41578ffe5f06c183fc6aec926dfea14ffe12741359"
+    },
+    {
+      "package": "joe",
+      "artifact": "joe_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "joe",
+      "command": "joe",
+      "bytes": 1094,
+      "sha256": "378e38d0ba0c444e2890671b05ff10bbd42e099a55cd5701ff724b2915416d16"
+    },
+    {
+      "package": "jed",
+      "artifact": "jed_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "jed",
+      "command": "jed",
+      "bytes": 1092,
+      "sha256": "d0a1ebf5fd2b3f0ff13c65070722bfc0e9b5e2251d768fc1c9b0f4aec765cba9"
+    },
+    {
+      "package": "vis",
+      "artifact": "vis_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "vis",
+      "command": "vis",
+      "bytes": 1090,
+      "sha256": "c9e807a675f3bae0439bbfb385c199adc471087d15518e390c0606e6b61a054d"
+    },
+    {
+      "package": "zile",
+      "artifact": "zile_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "zile",
+      "command": "zile",
+      "bytes": 1096,
+      "sha256": "f9867fb19a919c3c47f85c61384038c0ac2714d99d4b1339d11ef34064a79a31"
+    },
+    {
+      "package": "mg",
+      "artifact": "mg_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "mg",
+      "command": "mg",
+      "bytes": 1090,
+      "sha256": "94593921a6046451c4fac8b1c13756d0dddd0c051d0ce7dcaf41d0aa09ac2a1a"
+    },
+    {
+      "package": "zellij",
+      "artifact": "zellij_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "zellij",
+      "command": "zellij",
+      "bytes": 1102,
+      "sha256": "637656a132a52e9cfc5c6dbf5d204aed347580d3e9bd9c9565249d505d63c64f"
+    },
+    {
+      "package": "dvtm",
+      "artifact": "dvtm_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "dvtm",
+      "command": "dvtm",
+      "bytes": 1092,
+      "sha256": "b3fbbf065c56d13279fcdc0be6eca4e1a036ba317c5b2509a2426e8f9a97f143"
+    },
+    {
+      "package": "abduco",
+      "artifact": "abduco_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "abduco",
+      "command": "abduco",
+      "bytes": 1098,
+      "sha256": "d47583704c2c9aae35ad5c9d22de36726db6ba28c01f4b00e717ce5167851c6c"
+    },
+    {
+      "package": "byobu",
+      "artifact": "byobu_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "byobu",
+      "command": "byobu",
+      "bytes": 1096,
+      "sha256": "f9f092ab0a1f5d7c42a8b9381bad7969b768a7e68fa749447dffcd289340c456"
+    },
+    {
+      "package": "mosh",
+      "artifact": "mosh_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "mosh",
+      "command": "mosh",
+      "bytes": 1094,
+      "sha256": "3ab3e9dd062f8c08e25492c070302c2ad430515b2d5f88f817112974ee0eaa10"
+    },
+    {
+      "package": "autossh",
+      "artifact": "autossh_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "autossh",
+      "command": "autossh",
+      "bytes": 1098,
+      "sha256": "3894e4ab77721ffe5907ac84b3dcddc0dc0c6f04a20013a0fca959b94ccebd9d"
+    },
+    {
+      "package": "ncdu",
+      "artifact": "ncdu_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "ncdu",
+      "command": "ncdu",
+      "bytes": 1092,
+      "sha256": "c679a7fd106070421db8ea8caa738c8bdc3f4df4c29a3149d282b03793e09343"
+    },
+    {
+      "package": "ranger",
+      "artifact": "ranger_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "ranger",
+      "command": "ranger",
+      "bytes": 1098,
+      "sha256": "7bae79af36def0b1825d77f54d7d8cdf6a31eb123d6d7088efa3dc7e76bd1de0"
+    },
+    {
+      "package": "nnn",
+      "artifact": "nnn_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "nnn",
+      "command": "nnn",
+      "bytes": 1086,
+      "sha256": "16592e251a757333a1f13ac468665e0398b99f6f4a6cefbcc7067e7f2931f87d"
+    },
+    {
+      "package": "lf",
+      "artifact": "lf_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "lf",
+      "command": "lf",
+      "bytes": 1086,
+      "sha256": "bfc58e7551da07fd673af0e5674628e125b70f0d6134a90ca768f2e3622b3e04"
+    },
+    {
+      "package": "vifm",
+      "artifact": "vifm_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "vifm",
+      "command": "vifm",
+      "bytes": 1096,
+      "sha256": "28ebe07bcb72cbbf88bd2ad786b71cb64a28647e1406b341e77986213fee4f9b"
+    },
+    {
+      "package": "yazi",
+      "artifact": "yazi_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "yazi",
+      "command": "yazi",
+      "bytes": 1094,
+      "sha256": "dada450c14f2fe7ffccee5c7c79504b4bf2439244034ad4d02f864fe8e2a812c"
+    },
+    {
+      "package": "mc",
+      "artifact": "mc_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "mc",
+      "command": "mc",
+      "bytes": 1090,
+      "sha256": "75d1c1d2bab43296b46b64d92887d3700cfc12ab9b88a5d45b19a6218c6bb907"
+    },
+    {
+      "package": "dust",
+      "artifact": "dust_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "dust",
+      "command": "dust",
+      "bytes": 1094,
+      "sha256": "2b8cf5d508725f3e35f50978e561087a8743669845b052a91849db33adcb7ce4"
+    },
+    {
+      "package": "duf",
+      "artifact": "duf_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "duf",
+      "command": "duf",
+      "bytes": 1092,
+      "sha256": "8e044151eb00f6254271e425c276e5d1b9aa2b304dd6becdecd4039abb55cd9c"
+    },
+    {
+      "package": "gdu",
+      "artifact": "gdu_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "gdu",
+      "command": "gdu",
+      "bytes": 1092,
+      "sha256": "eb5c1af2e6c82ec170e05756929b541fa86fef9601eda74b70483bc5f9f01c5f"
+    },
+    {
+      "package": "dua",
+      "artifact": "dua_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "dua",
+      "command": "dua",
+      "bytes": 1092,
+      "sha256": "449abbc43a87b32454bc0d3e966588e00b389bd069c9e73253e8ad36a6ca3344"
+    },
+    {
+      "package": "jdupes",
+      "artifact": "jdupes_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "jdupes",
+      "command": "jdupes",
+      "bytes": 1098,
+      "sha256": "48f4146e2bf066c1939896c30f32ffd37537b67f9fa0b0a869b69eec543cb171"
+    },
+    {
+      "package": "rdfind",
+      "artifact": "rdfind_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "rdfind",
+      "command": "rdfind",
+      "bytes": 1098,
+      "sha256": "5cb59176db6342739ee74da84480b1a772db4a6880c798c046b6817d0f146d7e"
+    },
+    {
+      "package": "rmlint",
+      "artifact": "rmlint_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "rmlint",
+      "command": "rmlint",
+      "bytes": 1098,
+      "sha256": "ac6f2549d6dfa1bcb46ced36b4ab07b84f04866b2e1db197f784564929870a91"
+    },
+    {
+      "package": "fclones",
+      "artifact": "fclones_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "fclones",
+      "command": "fclones",
+      "bytes": 1098,
+      "sha256": "5b19b268b8f8c973ace182a11495a78f3aec3dae089690046a4d3c9218c75ae7"
+    },
+    {
+      "package": "trash-cli",
+      "artifact": "trash-cli_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "trash-cli",
+      "command": "trash-cli",
+      "bytes": 1102,
+      "sha256": "6d3cce42799eb93673b9c27ddfa26063a8e503a025bc7375b449d0dcfda05c83"
+    },
+    {
+      "package": "moreutils",
+      "artifact": "moreutils_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "moreutils",
+      "command": "sponge",
+      "bytes": 1106,
+      "sha256": "7333cce5151881cce31f8b7a7041dbb0f79a064625c54feea2ed8988e22b8020"
+    },
+    {
+      "package": "most",
+      "artifact": "most_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "most",
+      "command": "most",
+      "bytes": 1092,
+      "sha256": "26efbec3e4c3a43eed6498f225b81250f2240de8ccf47da525487f40d376334b"
+    },
+    {
+      "package": "pv",
+      "artifact": "pv_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "pv",
+      "command": "pv",
+      "bytes": 1092,
+      "sha256": "c06372484d114a2f0c1aff1c79f4c839ccc341d6b2af93a4ce5460ad10f5191a"
+    },
+    {
+      "package": "progress",
+      "artifact": "progress_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "progress",
+      "command": "progress",
+      "bytes": 1098,
+      "sha256": "383621ff9089da39f88e5615d2b836dd4f9844bc18b0a9827f9b12047529ab91"
+    },
+    {
+      "package": "rlwrap",
+      "artifact": "rlwrap_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "rlwrap",
+      "command": "rlwrap",
+      "bytes": 1100,
+      "sha256": "dbb53e77a0f98ee5d5dc58ad9ac08ef966b5860bdd79e1e4fb3e808e36d2268b"
+    },
+    {
+      "package": "expect",
+      "artifact": "expect_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "expect",
+      "command": "expect",
+      "bytes": 1100,
+      "sha256": "cbd189d636d78f118e415c0e31fd3e14720593042924d45ae9243458c9ce6d6e"
+    },
+    {
+      "package": "tmate",
+      "artifact": "tmate_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "tmate",
+      "command": "tmate",
+      "bytes": 1096,
+      "sha256": "ed4b7a5530bbabd03636b1a932e5425cc9a8c3b871c4e26d0657adfd6e588915"
+    },
+    {
+      "package": "ttyrec",
+      "artifact": "ttyrec_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "ttyrec",
+      "command": "ttyrec",
+      "bytes": 1096,
+      "sha256": "ec6557b01b76e1ecb648e2469eb8b9546cdbc088d54c346c1f342bcd64725f95"
+    },
+    {
+      "package": "boxes",
+      "artifact": "boxes_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "boxes",
+      "command": "boxes",
+      "bytes": 1094,
+      "sha256": "8104e79f2de258ea3ecd2411ac02a0822e8e296f877610c6381a67a8e70a7763"
+    },
+    {
+      "package": "figlet",
+      "artifact": "figlet_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "figlet",
+      "command": "figlet",
+      "bytes": 1100,
+      "sha256": "0094c34740e70d85808d2f5ffee65df49a94027b4f1dc800869c8dbb0174514a"
+    },
+    {
+      "package": "toilet",
+      "artifact": "toilet_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "toilet",
+      "command": "toilet",
+      "bytes": 1096,
+      "sha256": "f44a8d6cb7fa2a27bd2415ff840fa57f5956ca4c26d67f375e2d835c8f1f56e9"
+    },
+    {
+      "package": "lolcat",
+      "artifact": "lolcat_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "lolcat",
+      "command": "lolcat",
+      "bytes": 1098,
+      "sha256": "6ddd3eb0e6b49734c6541d80dd7b433eba7c33fd6427be92bf1d9c37f5628dd7"
+    },
+    {
+      "package": "fortune",
+      "artifact": "fortune_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "fortune",
+      "command": "fortune",
+      "bytes": 1100,
+      "sha256": "e83bb09d33d1ee59fb055240684eeb49e2bb287714d1d6b3ffaeecf8222ba296"
+    },
+    {
+      "package": "cowsay",
+      "artifact": "cowsay_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "cowsay",
+      "command": "cowsay",
+      "bytes": 1098,
+      "sha256": "588a66206c8139356101c0adc0a4374abb3a42d593ef9b4af5e1fe3ac977684f"
+    },
+    {
+      "package": "cmatrix",
+      "artifact": "cmatrix_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "cmatrix",
+      "command": "cmatrix",
+      "bytes": 1098,
+      "sha256": "23e61c887c6bf949b1b4fa9ebcc5e8a55b67c30af26c5db2ac19c01feadf00c2"
+    },
+    {
+      "package": "neofetch",
+      "artifact": "neofetch_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "neofetch",
+      "command": "neofetch",
+      "bytes": 1098,
+      "sha256": "c920d73eb56214efdf8e749eeaf00f4c05ff6aeadc5361471e0c6fdd7769a8ba"
+    },
+    {
+      "package": "macchina",
+      "artifact": "macchina_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "macchina",
+      "command": "macchina",
+      "bytes": 1098,
+      "sha256": "7c05f22ed07297e65bfb0300698f210daad9a44fb0b036afe301a33a73b9cf05"
+    },
+    {
+      "package": "onefetch",
+      "artifact": "onefetch_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "onefetch",
+      "command": "onefetch",
+      "bytes": 1096,
+      "sha256": "bc4e5ff9ae6ce9754b75c920ce983fa2d5c1bf7eb8981cc06273bda86cb1029f"
+    },
+    {
+      "package": "glances",
+      "artifact": "glances_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "glances",
+      "command": "glances",
+      "bytes": 1098,
+      "sha256": "b1afab6bccc4fc72c7a7190b0baad1e1a97b7b258614625a4ae64145b274d875"
+    },
+    {
+      "package": "atop",
+      "artifact": "atop_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "atop",
+      "command": "atop",
+      "bytes": 1092,
+      "sha256": "c01917a6f984d3548ac16f3836ee49e2f9e2c2e57d309b24d5dec093c1890047"
+    },
+    {
+      "package": "dstat",
+      "artifact": "dstat_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "dstat",
+      "command": "dstat",
+      "bytes": 1094,
+      "sha256": "149bd5d63b8e9f252ef9807973432030795279c4807b419093122e52028539f5"
+    },
+    {
+      "package": "ioping",
+      "artifact": "ioping_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "ioping",
+      "command": "ioping",
+      "bytes": 1100,
+      "sha256": "bacc6347721ab5f6a78a164d19f14a1093c3db375cec3e28b27bd20bb45f8394"
+    },
+    {
+      "package": "nethogs",
+      "artifact": "nethogs_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "nethogs",
+      "command": "nethogs",
+      "bytes": 1094,
+      "sha256": "112125a49164ac0bb9f37fc47d66ab949e6523ab1f1feb76c9f0511bafa2b17b"
+    },
+    {
+      "package": "bmon",
+      "artifact": "bmon_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "bmon",
+      "command": "bmon",
+      "bytes": 1096,
+      "sha256": "7e1f4eb0109c3ee93c332be9b40f017d5f9868b3071cf44da3c4ec7caf30c8dc"
+    },
+    {
+      "package": "iftop",
+      "artifact": "iftop_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "iftop",
+      "command": "iftop",
+      "bytes": 1096,
+      "sha256": "56f90f1d84ec3f5db45772440259c91058ccd561dad9913cb81fdb2fc782edf4"
+    },
+    {
+      "package": "vnstat",
+      "artifact": "vnstat_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "vnstat",
+      "command": "vnstat",
+      "bytes": 1100,
+      "sha256": "e31f7a27b6584e8b41cb70a434e67023211cd0ddd241220737b505f1f0d4cb64"
+    },
+    {
+      "package": "procps",
+      "artifact": "procps_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "procps",
+      "command": "ps",
+      "bytes": 1098,
+      "sha256": "7d59521a8a3d251220bd4d2ec6810a1fe625b3ff9e9324a182f086ee6e3105b5"
+    },
+    {
+      "package": "plocate",
+      "artifact": "plocate_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "plocate",
+      "command": "plocate",
+      "bytes": 1098,
+      "sha256": "b9c633d804656f31a6d7f3577e28163c951fde756bca5d789ad473eb6d452102"
+    },
+    {
+      "package": "silver-searcher",
+      "artifact": "silver-searcher_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "silver-searcher",
+      "command": "ag",
+      "bytes": 1130,
+      "sha256": "dfcb4a31a45d831658d2cdf3790d6267f9aaecf86ef20152f655e7da3422905f"
+    },
+    {
+      "package": "ack",
+      "artifact": "ack_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "ack",
+      "command": "ack",
+      "bytes": 1094,
+      "sha256": "1b2a82bbe52db8d33d69da668bfff6dfe9eab057df51907f6f8b4cdfa9ed39d7"
+    },
+    {
+      "package": "ugrep",
+      "artifact": "ugrep_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "ugrep",
+      "command": "ugrep",
+      "bytes": 1096,
+      "sha256": "28b5d77f2edc0cddd65ed410614b55f485379dfec5deecf49fd2cae709667e2b"
+    },
+    {
+      "package": "man-db",
+      "artifact": "man-db_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "man-db",
+      "command": "man",
+      "bytes": 1114,
+      "sha256": "e5a593b1700319894ce485062a652bacbb4455a999b4e2a262abcbcbeccf7cc8"
+    },
+    {
+      "package": "elvish",
+      "artifact": "elvish_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "elvish",
+      "command": "elvish",
+      "bytes": 1098,
+      "sha256": "0aa9f496656bd14476dd65ff7a155b0c93d7a9244692e8452cf81e00a654bcec"
+    },
+    {
+      "package": "xonsh",
+      "artifact": "xonsh_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "xonsh",
+      "command": "xonsh",
+      "bytes": 1096,
+      "sha256": "721b3b9363dfa4ea813c910d8e1954131fd24f5d5e080c856285f51960b3e284"
+    },
+    {
+      "package": "yash",
+      "artifact": "yash_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "yash",
+      "command": "yash",
+      "bytes": 1092,
+      "sha256": "afc10a8290096f3ff0c345b58be998b93a0e3b2bc9165fb4f291cbdc84e53452"
+    },
+    {
+      "package": "mksh",
+      "artifact": "mksh_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "mksh",
+      "command": "mksh",
+      "bytes": 1092,
+      "sha256": "8df291059700f367a67ee339ea09e7775658867884aec9dbc807256ec420f02e"
+    },
+    {
+      "package": "tcsh",
+      "artifact": "tcsh_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "tcsh",
+      "command": "tcsh",
+      "bytes": 1096,
+      "sha256": "155a4b975f4335c7879e6e96cb06743bd2b55a4a1591b77ed01af9b2b3d3da4a"
+    },
+    {
+      "package": "ksh",
+      "artifact": "ksh_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "ksh",
+      "command": "ksh",
+      "bytes": 1092,
+      "sha256": "27f821f5e631b2af02bbad7a90b5b3eba052a70517abd98834c91260dd600b6c"
+    },
+    {
+      "package": "atuin",
+      "artifact": "atuin_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "atuin",
+      "command": "atuin",
+      "bytes": 1092,
+      "sha256": "038f11e7486ca880adb1d4e727392cfb28d672d3ae1971690cdfbe841923b658"
+    },
+    {
+      "package": "carapace",
+      "artifact": "carapace_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "carapace",
+      "command": "carapace",
+      "bytes": 1096,
+      "sha256": "54ea77faca26c7cebff9d248abe1e09fe3e44ad66143f9ea6a5cc795eb02efa4"
+    },
+    {
+      "package": "entr",
+      "artifact": "entr_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "entr",
+      "command": "entr",
+      "bytes": 1090,
+      "sha256": "fad5d9e8912409a44a0b9f6eb1139a892bc0dafab223e49300bb072f4fee9847"
+    },
+    {
+      "package": "watch",
+      "artifact": "watch_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "procps",
+      "command": "watch",
+      "bytes": 1104,
+      "sha256": "eea171e57ce72d2176fc223c2ec5a5429831d8d1c21f14add96ba8ca33ffacbc"
+    },
+    {
+      "package": "tig",
+      "artifact": "tig_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "tig",
+      "command": "tig",
+      "bytes": 1090,
+      "sha256": "8eec5246d786e9723d46818e9ee781018891c026af0f4c2114f501f1f96d86ef"
+    },
+    {
+      "package": "cronie",
+      "artifact": "cronie_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "cronie",
+      "command": "crond",
+      "bytes": 1116,
+      "sha256": "9786ec791471a6fc52ce6a39aad24a6f880d81dee8da9da5915319230fa3411a"
+    },
+    {
+      "package": "fcron",
+      "artifact": "fcron_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "fcron",
+      "command": "fcron",
+      "bytes": 1098,
+      "sha256": "532d048471c61dcd4bccd65ce71beaddc220716bca1665f8cd8acddfd7f429f9"
+    },
+    {
+      "package": "supercronic",
+      "artifact": "supercronic_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "supercronic",
+      "command": "supercronic",
+      "bytes": 1106,
+      "sha256": "1bff1cbcd7e16ec250e4ce9e92c627696ff1c7e7a72538fc47eab32889fda2ae"
+    },
+    {
+      "package": "redis",
+      "artifact": "redis_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "redis",
+      "command": "redis-server",
+      "bytes": 1124,
+      "sha256": "81570e7001486b6d97f7cb48575a63958960d27e4f086bc685f0bdb94cbf1291"
+    },
+    {
+      "package": "valkey",
+      "artifact": "valkey_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "valkey",
+      "command": "valkey-server",
+      "bytes": 1130,
+      "sha256": "2ca5605c698bef1bbf64c47d87e7c988cb54ae39219164e068ed894a7b98fdae"
+    },
+    {
+      "package": "keydb",
+      "artifact": "keydb_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "keydb",
+      "command": "keydb-server",
+      "bytes": 1122,
+      "sha256": "bd916978b62d195ea5d5892eba74eacc64c4151db2de55816d0c4095e5901a23"
+    },
+    {
+      "package": "mariadb",
+      "artifact": "mariadb_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "mariadb",
+      "command": "mariadb",
+      "bytes": 1098,
+      "sha256": "793992fbd25b9bc0f2bc33b308af5df96d089c6be1a946fe8b4dbba218dda1ad"
+    },
+    {
+      "package": "ncat",
+      "artifact": "ncat_1.0.0-1_all.deb",
+      "provider": "meta",
+      "upstream": "nmap",
+      "command": "ncat",
+      "bytes": 624,
+      "sha256": "ced0226a604307e36b7fa61bc3426b8f3cd9b5d2bded142353548b5ca46acad6"
+    },
+    {
+      "package": "iproute2",
+      "artifact": "iproute2_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "iproute2",
+      "command": "ip",
+      "bytes": 1112,
+      "sha256": "5f1df2372fd423fd168c088a488e5c37f5d48d0a8257694bc0b2844962d508e4"
+    },
+    {
+      "package": "iputils",
+      "artifact": "iputils_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "iputils",
+      "command": "ping",
+      "bytes": 1126,
+      "sha256": "60f4915cb97f5168cbf481814c494bfffd96f87aef1e75075f6044eca7786ec8"
+    },
+    {
+      "package": "bridge-utils",
+      "artifact": "bridge-utils_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "bridge-utils",
+      "command": "brctl",
+      "bytes": 1132,
+      "sha256": "9583d5a9e294ca48affa5ae0e4fca2b1c48f38166f4164a83953004d10f2dfa4"
+    },
+    {
+      "package": "arp-scan",
+      "artifact": "arp-scan_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "arp-scan",
+      "command": "arp-scan",
+      "bytes": 1100,
+      "sha256": "09ba1f978e52d24ae110c5bea447860832fee7b186f4f620ea7638a361242c37"
+    },
+    {
+      "package": "arping",
+      "artifact": "arping_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "arping",
+      "command": "arping",
+      "bytes": 1098,
+      "sha256": "5dbde3db958099ff1cca6591dbed49327833c7c0de5a81be8560b3b1811e08bf"
+    },
+    {
+      "package": "iperf",
+      "artifact": "iperf_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "iperf",
+      "command": "iperf",
+      "bytes": 1096,
+      "sha256": "c3019f20d98425e7ac0582ce559588c3eb2332fd0d53d65cbdd26f0bee32f8a8"
+    },
+    {
+      "package": "nload",
+      "artifact": "nload_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "nload",
+      "command": "nload",
+      "bytes": 1092,
+      "sha256": "a0fd2bf4f8563178fa5f614ad31c405ee58d40c7cd94806ed90ddcda48652d5b"
+    },
+    {
+      "package": "ngrep",
+      "artifact": "ngrep_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "ngrep",
+      "command": "ngrep",
+      "bytes": 1096,
+      "sha256": "a000af5a70c557991a534f7aad4352935607d9ce44b0255c2b8e97ded4496e05"
+    },
+    {
+      "package": "netsniff-ng",
+      "artifact": "netsniff-ng_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "netsniff-ng",
+      "command": "netsniff-ng",
+      "bytes": 1102,
+      "sha256": "9547461adf632f1f1388ecec55c64354d28c8b85cd878157dfcea3c9ef8d6b74"
+    },
+    {
+      "package": "hping",
+      "artifact": "hping_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "hping",
+      "command": "hping",
+      "bytes": 1098,
+      "sha256": "f0e74d85bf6265b1be3c9aa9b9de2758fa65a3c42e69f0b5f0422483a0dd52d0"
+    },
+    {
+      "package": "fping",
+      "artifact": "fping_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "fping",
+      "command": "fping",
+      "bytes": 1098,
+      "sha256": "902ebb0f3ab36f4d3d662ef65fb7bc8782e1e707f9e3d78040e994df596634cf"
+    },
+    {
+      "package": "whois",
+      "artifact": "whois_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "whois",
+      "command": "whois",
+      "bytes": 1096,
+      "sha256": "27f83ff1f45d503db5bcc3a6581e7540fd7bfb4d460bdbcbe29310496f9c86f7"
+    },
+    {
+      "package": "bind",
+      "artifact": "bind_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "bind",
+      "command": "dig",
+      "bytes": 1118,
+      "sha256": "beb227d0b834897da7a33443b024634b1a973295035832874f57e07b7fb93160"
+    },
+    {
+      "package": "stubby",
+      "artifact": "stubby_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "stubby",
+      "command": "stubby",
+      "bytes": 1100,
+      "sha256": "55e123b2fbc1e6888cd1b7c1e0a2cea5c5335ca9552759fe9e75ceffdf6f43d8"
+    },
+    {
+      "package": "dogdns",
+      "artifact": "dogdns_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "dogdns",
+      "command": "dog",
+      "bytes": 1116,
+      "sha256": "ef4817418f6bdeaa88406c3a969640524d7a4a158c930e982c495518d6e8ba3b"
+    },
+    {
+      "package": "wget2",
+      "artifact": "wget2_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "wget2",
+      "command": "wget2",
+      "bytes": 1096,
+      "sha256": "9a289dbe28a57c7023ff78250b369b18de3edfd759073944a955dc920d14bf4f"
+    },
+    {
+      "package": "axel",
+      "artifact": "axel_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "axel",
+      "command": "axel",
+      "bytes": 1094,
+      "sha256": "9a45d89c135c48b06281817dfb8ead574d85b5a090641e75545df49364fece0f"
+    },
+    {
+      "package": "hey",
+      "artifact": "hey_1.0.0-1_all.deb",
+      "provider": "nix",
+      "upstream": "hey",
+      "command": "hey",
+      "bytes": 1092,
+      "sha256": "7b6dbe3174ec0ab025ca2e460192a271b1c593425034501134c2b7bac19d6353"
+    },
+    {
+      "package": "terminal-unix-foundation-suite",
+      "artifact": "terminal-unix-foundation-suite_1.0.0-1_all.deb",
+      "provider": "meta",
+      "upstream": "",
+      "command": "",
+      "bytes": 1022,
+      "sha256": "035539b3c1367dc3ab9b304b87aeded6acb2012eed6759725f8cec036485c951"
+    }
+  ]
+}

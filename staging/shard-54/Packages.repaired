@@ -1,0 +1,1412 @@
+Package: xmlstarlet
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - xmlstarlet
+ Open-source bridge to nixpkgs#xmlstarlet; invokes upstream command xmlstarlet on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/xmlstarlet_1.0.0-1_all.deb
+Size: 1108
+SHA256: bbd89e9bf3394bc30275846ba1cd61a6c491bb3bfb944b122dc73fc6ca1062b9
+
+Package: tidy-html5
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - tidy-html5
+ Open-source bridge to nixpkgs#tidy-html5; invokes upstream command tidy-html5 on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/tidy-html5_1.0.0-1_all.deb
+Size: 1110
+SHA256: b57f82f4840b2bb287dda13c934c36c16088d95b9d357d761aa4e65379bc72a9
+
+Package: jless
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - jless
+ Open-source bridge to nixpkgs#jless; invokes upstream command jless on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/jless_1.0.0-1_all.deb
+Size: 1100
+SHA256: 7056fb1ff59da5c42073396d80274501d0f8fefc63994737656a0b8b6b82d2d7
+
+Package: jc
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - jc
+ Open-source bridge to nixpkgs#jc; invokes upstream command jc on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/jc_1.0.0-1_all.deb
+Size: 1094
+SHA256: 9f88516dba0ff88705953f827a1aef81819f2191375a77e435d13fcf270bc854
+
+Package: jo
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - jo
+ Open-source bridge to nixpkgs#jo; invokes upstream command jo on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/jo_1.0.0-1_all.deb
+Size: 1092
+SHA256: f41e1d10e4278b113ca754d9d7bde6f07fd6cc576d277c9dae8cb7b4ba1cb633
+
+Package: jid
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - jid
+ Open-source bridge to nixpkgs#jid; invokes upstream command jid on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/jid_1.0.0-1_all.deb
+Size: 1098
+SHA256: cfcb7fde709765b1dfb0e9cf6cdfc61124b36893a88bab9de3158ac544ab19be
+
+Package: lua
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - lua
+ Open-source bridge to nixpkgs#lua; invokes upstream command lua on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/lua_1.0.0-1_all.deb
+Size: 1096
+SHA256: 4373bb9364ea5712a3fac5f55f49f53312071936ad8a3d1408e01d76a9318263
+
+Package: julia
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - julia
+ Open-source bridge to nixpkgs#julia; invokes upstream command julia on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/julia_1.0.0-1_all.deb
+Size: 1100
+SHA256: fbf97b4a4fbda5abe0888026d15ccc2e0176829831fae269f55a7c2f0f41c819
+
+Package: sccache
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - sccache
+ Open-source bridge to nixpkgs#sccache; invokes upstream command sccache on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/sccache_1.0.0-1_all.deb
+Size: 1100
+SHA256: e61dd236ece92c1f19ccd4c87569764e36c583e1446e0c951cc24eb058e2d793
+
+Package: bear
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - bear
+ Open-source bridge to nixpkgs#bear; invokes upstream command bear on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/bear_1.0.0-1_all.deb
+Size: 1096
+SHA256: a6eb92b5514265df7dd60111f223b6881240b7d25d86459259523d8448aa9737
+
+Package: patchutils
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - patchutils
+ Open-source bridge to nixpkgs#patchutils; invokes upstream command patchutils on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/patchutils_1.0.0-1_all.deb
+Size: 1104
+SHA256: 6c60b26a75a9dd9b28a3a1fe554c48a3e3fe25c5b4353c7856324a87f4cdd5df
+
+Package: cscope
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - cscope
+ Open-source bridge to nixpkgs#cscope; invokes upstream command cscope on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/cscope_1.0.0-1_all.deb
+Size: 1098
+SHA256: f909d0e69b025ed7550e5d07f1042e83071455dd984015286969c5bba1ed8389
+
+Package: universal-ctags
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - universal-ctags
+ Open-source bridge to nixpkgs#universal-ctags; invokes upstream command universal-ctags on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/universal-ctags_1.0.0-1_all.deb
+Size: 1116
+SHA256: 2288baddf019f2b42e98b766cdb7813fcc396ae79df9cba3ea1f54c7daa7d41a
+
+Package: w3m
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - w3m
+ Open-source bridge to nixpkgs#w3m; invokes upstream command w3m on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/w3m_1.0.0-1_all.deb
+Size: 1100
+SHA256: b4e3f362454d8ba602e88a34214eac6313fb96b8c6b1fa1fe32deeb09a333f93
+
+Package: lynx
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - lynx
+ Open-source bridge to nixpkgs#lynx; invokes upstream command lynx on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/lynx_1.0.0-1_all.deb
+Size: 1098
+SHA256: 534aba9a21282a78792c4d2a07ab82aecfcbe09188ee399824105402dee39b58
+
+Package: links2
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - links2
+ Open-source bridge to nixpkgs#links2; invokes upstream command links on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/links2_1.0.0-1_all.deb
+Size: 1102
+SHA256: e40fc28cb6038aa4b6523d363266d0ed1623a365f6859f3ee29643841c58f034
+
+Package: elinks
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - elinks
+ Open-source bridge to nixpkgs#elinks; invokes upstream command elinks on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/elinks_1.0.0-1_all.deb
+Size: 1100
+SHA256: 264251d00b3d1b723225eec0313f32866f207821d15c37dc21d2bcf7e7f99fba
+
+Package: browsh
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - browsh
+ Open-source bridge to nixpkgs#browsh; invokes upstream command browsh on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/browsh_1.0.0-1_all.deb
+Size: 1102
+SHA256: dc04d2073bbda4687a822739ba347802c27dbafda41778da379a6fdd72e40de7
+
+Package: ddgr
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - ddgr
+ Open-source bridge to nixpkgs#ddgr; invokes upstream command ddgr on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/ddgr_1.0.0-1_all.deb
+Size: 1096
+SHA256: 837007c7396120d189e41d3504d89d85d3d86cb445c97dbdf4fc4c8cd2b6f818
+
+Package: googler
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - googler
+ Open-source bridge to nixpkgs#googler; invokes upstream command googler on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/googler_1.0.0-1_all.deb
+Size: 1102
+SHA256: 10b2b74bff330d112f9caa8cecf3bd237ca6c120c03496feb34e6318fcdfd8d9
+
+Package: newsboat
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - newsboat
+ Open-source bridge to nixpkgs#newsboat; invokes upstream command newsboat on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/newsboat_1.0.0-1_all.deb
+Size: 1104
+SHA256: 60aa0574ea1bbeef9f7d00095ec47ccec8faf61c397a100c3d40006a8a922fd1
+
+Package: neomutt
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - neomutt
+ Open-source bridge to nixpkgs#neomutt; invokes upstream command neomutt on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/neomutt_1.0.0-1_all.deb
+Size: 1100
+SHA256: e82619e7345425df48b45335f173c93ab9ec56a461068e7eb1b58e4aec5c4bf5
+
+Package: aerc
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - aerc
+ Open-source bridge to nixpkgs#aerc; invokes upstream command aerc on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/aerc_1.0.0-1_all.deb
+Size: 1094
+SHA256: b0bd82f6ab417f1f6423e5c73e347314e50abcb4d6cd9f9372f994ea734081ba
+
+Package: alpine
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - alpine
+ Open-source bridge to nixpkgs#alpine; invokes upstream command alpine on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/alpine_1.0.0-1_all.deb
+Size: 1100
+SHA256: bfbf673f7f92ce211ff51052ca779364597f3ec41b2936903e8a96a4acc1d66d
+
+Package: msmtp
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - msmtp
+ Open-source bridge to nixpkgs#msmtp; invokes upstream command msmtp on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/msmtp_1.0.0-1_all.deb
+Size: 1098
+SHA256: 8172d64ed34ac6ce5e636b4edd3caeeff8e647fb4174f0700e063b5c02882472
+
+Package: isync
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - isync
+ Open-source bridge to nixpkgs#isync; invokes upstream command mbsync on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/isync_1.0.0-1_all.deb
+Size: 1120
+SHA256: 77377695595ef66981b0b55f66d097c7b4efc4b651e1e5137c7e72a4f07021ff
+
+Package: notmuch
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - notmuch
+ Open-source bridge to nixpkgs#notmuch; invokes upstream command notmuch on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/notmuch_1.0.0-1_all.deb
+Size: 1100
+SHA256: 5fd430e9be49399de98376c1448ee98927f95f72336ae13471552a6e3cd62359
+
+Package: timewarrior
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - timewarrior
+ Open-source bridge to nixpkgs#timewarrior; invokes upstream command timewarrior on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/timewarrior_1.0.0-1_all.deb
+Size: 1110
+SHA256: 06fca0fe8843c09f839b54e8e1d6330ebd310df0eeffa9e0858825f1dc85e368
+
+Package: calcurse
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - calcurse
+ Open-source bridge to nixpkgs#calcurse; invokes upstream command calcurse on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/calcurse_1.0.0-1_all.deb
+Size: 1100
+SHA256: 89e84308c2b2db6c2c6b6815b22ddfcc3827c22ad068227b901575b281516b74
+
+Package: remind
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - remind
+ Open-source bridge to nixpkgs#remind; invokes upstream command remind on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/remind_1.0.0-1_all.deb
+Size: 1098
+SHA256: 7e26df54f46e462ffc8b3617b5c705342efe55122a5b9a12e2a088d2ac9aa062
+
+Package: khal
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - khal
+ Open-source bridge to nixpkgs#khal; invokes upstream command khal on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/khal_1.0.0-1_all.deb
+Size: 1098
+SHA256: f14a7380d4389912054200ce1c7f8f86cce4dd4fb612923b15d62cc811e45d99
+
+Package: vdirsyncer
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - vdirsyncer
+ Open-source bridge to nixpkgs#vdirsyncer; invokes upstream command vdirsyncer on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/vdirsyncer_1.0.0-1_all.deb
+Size: 1106
+SHA256: f424911aa9885c5c4482eacb42f27d3819a9f452aa7c59442f61a51197563007
+
+Package: ledger
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - ledger
+ Open-source bridge to nixpkgs#ledger; invokes upstream command ledger on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/ledger_1.0.0-1_all.deb
+Size: 1104
+SHA256: fc46ab6c84a49017d6406ef38d0366be24b76f20f250772f882fffc71bfe61cc
+
+Package: hledger
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - hledger
+ Open-source bridge to nixpkgs#hledger; invokes upstream command hledger on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/hledger_1.0.0-1_all.deb
+Size: 1104
+SHA256: a5b00cd060606afb0f6f94b031a4ae4638ee1b3c807ce20b3238bf0901b67b32
+
+Package: beancount
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - beancount
+ Open-source bridge to nixpkgs#beancount; invokes upstream command beancount on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/beancount_1.0.0-1_all.deb
+Size: 1104
+SHA256: 74679df31d300b464185ca325d101a848e10d48436db9a166aec911bad2ad009
+
+Package: jrnl
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - jrnl
+ Open-source bridge to nixpkgs#jrnl; invokes upstream command jrnl on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/jrnl_1.0.0-1_all.deb
+Size: 1098
+SHA256: 05c20e1213f38de38c1ce1b818a4bf2ebec13f5f52e11dbc2b7324478e68618d
+
+Package: todo-txt-cli
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - todo-txt-cli
+ Open-source bridge to nixpkgs#todo-txt-cli; invokes upstream command todo.sh on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/todo-txt-cli_1.0.0-1_all.deb
+Size: 1116
+SHA256: 3a5ad3e573b9d8ac790ed38cc67777cd051170fd59145b910f38cfad528a11d5
+
+Package: recode
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - recode
+ Open-source bridge to nixpkgs#recode; invokes upstream command recode on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/recode_1.0.0-1_all.deb
+Size: 1098
+SHA256: 709c6bbe4bb778cbe5a1399596e623b5343e78050d1ddf736585967e289600f0
+
+Package: enca
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - enca
+ Open-source bridge to nixpkgs#enca; invokes upstream command enca on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/enca_1.0.0-1_all.deb
+Size: 1096
+SHA256: 8671bf6522ba4b3d245f407eb01afc5d4224c5d02332ddaea04eb357456b8d98
+
+Package: uchardet
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - uchardet
+ Open-source bridge to nixpkgs#uchardet; invokes upstream command uchardet on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/uchardet_1.0.0-1_all.deb
+Size: 1102
+SHA256: 506910682219c518d3de203eb7f2b4839cfb61a425d9e6a52ecd7bb72d41de61
+
+Package: parallel
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - parallel
+ Open-source bridge to nixpkgs#parallel; invokes upstream command parallel on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/parallel_1.0.0-1_all.deb
+Size: 1104
+SHA256: 692adb34962fd45e71a5e4e48bb07c740b1d1f14f2de07c61711e6eb5bca5d91
+
+Package: choose
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - choose
+ Open-source bridge to nixpkgs#choose; invokes upstream command choose on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/choose_1.0.0-1_all.deb
+Size: 1096
+SHA256: 7fdb57bbe3ae0d121309597633f2b8f8c3a1d49c2102c2f798154378c58b7bd3
+
+Package: sd
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - sd
+ Open-source bridge to nixpkgs#sd; invokes upstream command sd on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/sd_1.0.0-1_all.deb
+Size: 1088
+SHA256: f485c05de2340d7a11152283146aa89483e883680f40ebe6497ec2b9c4acc665
+
+Package: cheat
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - cheat
+ Open-source bridge to nixpkgs#cheat; invokes upstream command cheat on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/cheat_1.0.0-1_all.deb
+Size: 1098
+SHA256: 57b8deefecdec386cc26a7be88398528dd05e7359007cc85540be6236ad311c4
+
+Package: navi
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - navi
+ Open-source bridge to nixpkgs#navi; invokes upstream command navi on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/navi_1.0.0-1_all.deb
+Size: 1094
+SHA256: 1f256dec2d0e2c2762183615e092edc1ccf29ed828d5732ad9b8cc95e4ab4eec
+
+Package: procs
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - procs
+ Open-source bridge to nixpkgs#procs; invokes upstream command procs on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/procs_1.0.0-1_all.deb
+Size: 1096
+SHA256: 9ca918f2540fa69f817b828985c9f8a96639f2077aba1260449d1d669e604798
+
+Package: net-tools
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - net-tools
+ Open-source bridge to nixpkgs#nettools; invokes upstream command ifconfig on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/net-tools_1.0.0-1_all.deb
+Size: 1120
+SHA256: 8f518fc9461326cf5336a5d0cb1220874df04707c04bd9f65a2fda18b883214a
+
+Package: inetutils
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - inetutils
+ Open-source bridge to nixpkgs#inetutils; invokes upstream command telnet on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/inetutils_1.0.0-1_all.deb
+Size: 1112
+SHA256: 4451e72d31b2cf9cce0528300302fdeb94aa021a0cd9fb9c776d6750a5fa9178
+
+Package: netperf
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - netperf
+ Open-source bridge to nixpkgs#netperf; invokes upstream command netperf on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/netperf_1.0.0-1_all.deb
+Size: 1096
+SHA256: ad1a1adde964ea483a00d137f9422c2059dfc50e87a2325fd566546e87806628
+
+Package: netcat-gnu
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - netcat-gnu
+ Open-source bridge to nixpkgs#netcat-gnu; invokes upstream command nc on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/netcat-gnu_1.0.0-1_all.deb
+Size: 1104
+SHA256: d1ccd7cba61d40090e5619f79603a0b527a5da9e200c879c5aaa316f814b8c6c
+
+Package: termshark
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - termshark
+ Open-source bridge to nixpkgs#termshark; invokes upstream command termshark on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/termshark_1.0.0-1_all.deb
+Size: 1104
+SHA256: 59d375e2390ddf8c0f96ac4777083ba1eefb87e2a357205127f45a3b24e62604
+
+Package: sniffglue
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - sniffglue
+ Open-source bridge to nixpkgs#sniffglue; invokes upstream command sniffglue on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/sniffglue_1.0.0-1_all.deb
+Size: 1104
+SHA256: f68752562ef3485d30f9c4b7885e877887ab921a5381df62c7167a96b3a96a96
+
+Package: rustscan
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - rustscan
+ Open-source bridge to nixpkgs#rustscan; invokes upstream command rustscan on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/rustscan_1.0.0-1_all.deb
+Size: 1102
+SHA256: 0e0490786953b5f3553ab17f0e4c3d0ed75c972171e0a47d5a59d668128bd8f6
+
+Package: dnsperf
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - dnsperf
+ Open-source bridge to nixpkgs#dnsperf; invokes upstream command dnsperf on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/dnsperf_1.0.0-1_all.deb
+Size: 1102
+SHA256: 19d91e1f31a22d2da9bd2a0bae5a1a49f72a7f03657a7be3154318c34c65e377
+
+Package: dnstop
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - dnstop
+ Open-source bridge to nixpkgs#dnstop; invokes upstream command dnstop on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/dnstop_1.0.0-1_all.deb
+Size: 1098
+SHA256: 235b4b4821becaf1c6ae71039cfd68927656810e6f05a03f7992118363ed3ea8
+
+Package: dnstracer
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - dnstracer
+ Open-source bridge to nixpkgs#dnstracer; invokes upstream command dnstracer on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/dnstracer_1.0.0-1_all.deb
+Size: 1102
+SHA256: 02bd0212f902a923149ddbb79174ab65cf3c38ffb0cfadc0ad01144fac10d19c
+
+Package: coredns
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - coredns
+ Open-source bridge to nixpkgs#coredns; invokes upstream command coredns on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/coredns_1.0.0-1_all.deb
+Size: 1100
+SHA256: 38a68eedb1f927013bd6a8de3ec2d4509857d14ba4cd0aef3349a01bcc94b3d4
+
+Package: powerdns
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - powerdns
+ Open-source bridge to nixpkgs#pdns; invokes upstream command pdns_server on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/powerdns_1.0.0-1_all.deb
+Size: 1146
+SHA256: 91082c7d26e9c03d92caa428875866739e5ccf4ecd3a13e75066afb5bd57997c
+
+Package: knot-resolver
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - knot-resolver
+ Open-source bridge to nixpkgs#knot-resolver; invokes upstream command kresd on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/knot-resolver_1.0.0-1_all.deb
+Size: 1134
+SHA256: 47ec735a3f274abacd6a0736b614eefd531ac94429d7c7711de074db80cec6cc
+
+Package: nghttp2
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - nghttp2
+ Open-source bridge to nixpkgs#nghttp2; invokes upstream command nghttp2 on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/nghttp2_1.0.0-1_all.deb
+Size: 1100
+SHA256: ee00ec686c2c93e2119f15ee43061d4d78e65cdac3c233995dfb105252d77635
+
+Package: websocketd
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - websocketd
+ Open-source bridge to nixpkgs#websocketd; invokes upstream command websocketd on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/websocketd_1.0.0-1_all.deb
+Size: 1106
+SHA256: 112c6b4835f0a006e39934d182e900fbfba7829998735fc107ba26673efd15f3
+
+Package: websockify
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - websockify
+ Open-source bridge to nixpkgs#websockify; invokes upstream command websockify on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/websockify_1.0.0-1_all.deb
+Size: 1106
+SHA256: 0ce4326b9a87699a4bad5c383dfae90f0eaa97e31d7702cf82f4b8a90e8a907e
+
+Package: wstunnel
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - wstunnel
+ Open-source bridge to nixpkgs#wstunnel; invokes upstream command wstunnel on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/wstunnel_1.0.0-1_all.deb
+Size: 1102
+SHA256: e208d7b2e746ca3fd22720d187047199d2e84cdef510aba57f87139ee1193580
+
+Package: bore-cli
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - bore-cli
+ Open-source bridge to nixpkgs#bore-cli; invokes upstream command bore-cli on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/bore-cli_1.0.0-1_all.deb
+Size: 1102
+SHA256: 29bf877fbab7d650756797f1ee8293456d40cc752e39dd3fe44f1486b8ce0c15
+
+Package: seaweedfs
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - seaweedfs
+ Open-source bridge to nixpkgs#seaweedfs; invokes upstream command weed on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/seaweedfs_1.0.0-1_all.deb
+Size: 1128
+SHA256: d3b4ec642d05f0b86669640cb425c3ba203c5e45cda7399f58021a5915d52a18
+
+Package: garage
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - garage
+ Open-source bridge to nixpkgs#garage; invokes upstream command garage on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/garage_1.0.0-1_all.deb
+Size: 1100
+SHA256: b9757b0e611dc26044b380a3d4dcd881041eadb29c6e4739a318829a9d4886db
+
+Package: croc
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - croc
+ Open-source bridge to nixpkgs#croc; invokes upstream command croc on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/croc_1.0.0-1_all.deb
+Size: 1096
+SHA256: 563d179df5451611279184b4cc165009fc9b0ee315897bc209648bd705468102
+
+Package: magic-wormhole
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - magic-wormhole
+ Open-source bridge to nixpkgs#magic-wormhole; invokes upstream command wormhole on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/magic-wormhole_1.0.0-1_all.deb
+Size: 1136
+SHA256: 7b1b3cc2fa8e7622c0caaab04cf38fcad2e7a7267497ee2368af700f371c4274
+
+Package: wormhole-william
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - wormhole-william
+ Open-source bridge to nixpkgs#wormhole-william; invokes upstream command wormhole-william on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/wormhole-william_1.0.0-1_all.deb
+Size: 1120
+SHA256: d9cf27eb97a86cb7afddcc214d762718341ffbb145a5ff890f0d0d4d0109bbb9
+
+Package: dufs
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - dufs
+ Open-source bridge to nixpkgs#dufs; invokes upstream command dufs on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/dufs_1.0.0-1_all.deb
+Size: 1096
+SHA256: fba66df93911e024b49ce156628eb5efa9b98cc2388fa229db009b6eb7510519
+
+Package: filebrowser
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - filebrowser
+ Open-source bridge to nixpkgs#filebrowser; invokes upstream command filebrowser on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/filebrowser_1.0.0-1_all.deb
+Size: 1106
+SHA256: 663b65bafafd7cbd0291c4a37ba68fc8ea3472f1ec784f5fb4a11583075be6b6
+
+Package: rabbitmq-server
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - rabbitmq-server
+ Open-source bridge to nixpkgs#rabbitmq-server; invokes upstream command rabbitmq-server on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/rabbitmq-server_1.0.0-1_all.deb
+Size: 1116
+SHA256: 9a851c281421d1d2d2871c53a0aeabc9c1a80dd96647487ee8645557c5982dd2
+
+Package: beanstalkd
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - beanstalkd
+ Open-source bridge to nixpkgs#beanstalkd; invokes upstream command beanstalkd on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/beanstalkd_1.0.0-1_all.deb
+Size: 1108
+SHA256: 1c65f99dfcd7d51aad201562b54e1f6059d89a17822a3522f083545b5e129617
+
+Package: nsq
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - nsq
+ Open-source bridge to nixpkgs#nsq; invokes upstream command nsqd on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/nsq_1.0.0-1_all.deb
+Size: 1114
+SHA256: 4293fb5f7b38d1fc52c914bde197b94372b92fb9d7b6f5670d4e7503906cb4bf
+
+Package: xray
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - xray
+ Open-source bridge to nixpkgs#xray; invokes upstream command xray on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/xray_1.0.0-1_all.deb
+Size: 1098
+SHA256: 0ffe31dfc25ab402dc7bb6defa569792f5564468d50c063d00a4f55a93982a2a
+
+Package: sing-box
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - sing-box
+ Open-source bridge to nixpkgs#sing-box; invokes upstream command sing-box on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/sing-box_1.0.0-1_all.deb
+Size: 1102
+SHA256: 954bbcb7b26a6542408da3fec5dfda9e1648fd4eafb7dc7f341d299ece73a129
+
+Package: stunnel
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - stunnel
+ Open-source bridge to nixpkgs#stunnel; invokes upstream command stunnel on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/stunnel_1.0.0-1_all.deb
+Size: 1100
+SHA256: 2a1c7789988158d2fe818a3e2a7a5e319c8ead0ede50a47e0aa84124928f1476
+
+Package: lego
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - lego
+ Open-source bridge to nixpkgs#lego; invokes upstream command lego on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/lego_1.0.0-1_all.deb
+Size: 1098
+SHA256: 32e0d5aaf000eec61f2501b7c5a1edaef103df6e5544f4d8c9f56f037c5811eb
+
+Package: prometheus
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - prometheus
+ Open-source bridge to nixpkgs#prometheus; invokes upstream command prometheus on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/prometheus_1.0.0-1_all.deb
+Size: 1106
+SHA256: d0a68519931085f7d32ee44889f98259dc1369ab2b7fda02ac58a8b6724dac72
+
+Package: blackbox-exporter
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - blackbox-exporter
+ Open-source bridge to nixpkgs#prometheus-blackbox-exporter; invokes upstream command blackbox_exporter on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/blackbox-exporter_1.0.0-1_all.deb
+Size: 1160
+SHA256: 6df592ab9694f28f34c5b4aa2df1535c169e1fd6e816a01f8e4c243e9f083bc6
+
+Package: victoriametrics
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - victoriametrics
+ Open-source bridge to nixpkgs#victoriametrics; invokes upstream command victoria-metrics-prod on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/victoriametrics_1.0.0-1_all.deb
+Size: 1130
+SHA256: 0ea3cdebb92201a8f836e08021153917d1a845a4743fb14144c226f0f04f8c40
+
+Package: loki
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - loki
+ Open-source bridge to nixpkgs#grafana-loki; invokes upstream command loki on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/loki_1.0.0-1_all.deb
+Size: 1112
+SHA256: c12c42882d7f6c9f31809ddb2e668e408721e48c31a7a557f336b8ba7f550510
+
+Package: promtail
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - promtail
+ Open-source bridge to nixpkgs#grafana-loki; invokes upstream command promtail on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/promtail_1.0.0-1_all.deb
+Size: 1120
+SHA256: 2f0ddcb35e35738f0f15f3d89b265a8a532aad690c559e25915e548e4f199a89
+
+Package: redli
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - redli
+ Open-source bridge to nixpkgs#redli; invokes upstream command redli on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/redli_1.0.0-1_all.deb
+Size: 1100
+SHA256: c3d0414fc156198fba7ea48866344539f776b48e9752388811d09efae81bf625
+
+Package: mongosh
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - mongosh
+ Open-source bridge to nixpkgs#mongosh; invokes upstream command mongosh on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/mongosh_1.0.0-1_all.deb
+Size: 1102
+SHA256: c5933f0d5cf7de27efb738a26b10afd6fcc3d831f246e601b0b6830052387c5b
+
+Package: mongodb-tools
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - mongodb-tools
+ Open-source bridge to nixpkgs#mongodb-tools; invokes upstream command mongodump on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/mongodb-tools_1.0.0-1_all.deb
+Size: 1140
+SHA256: 1dda4497ddd79e222a272b94fda2b2f135d8c0e86ea36b76200604c0494bc6ed
+
+Package: rqlite
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - rqlite
+ Open-source bridge to nixpkgs#rqlite; invokes upstream command rqlite on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/rqlite_1.0.0-1_all.deb
+Size: 1102
+SHA256: f1bc2e82448ec0c86bbf0e8942b72aad8f29bba86f55bcb72b7257941e7464bc
+
+Package: sops
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - sops
+ Open-source bridge to nixpkgs#sops; invokes upstream command sops on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/sops_1.0.0-1_all.deb
+Size: 1096
+SHA256: d486cdd6e35819bc372bea0446851a87bb5eb95377baded64defdb77293b5825
+
+Package: pass
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - pass
+ Open-source bridge to nixpkgs#pass; invokes upstream command pass on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/pass_1.0.0-1_all.deb
+Size: 1094
+SHA256: 9a1552278a6db9f28eff947da9cd50e51268f1a099d95d890ebf76abedbc766d
+
+Package: gopass
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - gopass
+ Open-source bridge to nixpkgs#gopass; invokes upstream command gopass on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/gopass_1.0.0-1_all.deb
+Size: 1100
+SHA256: a5c9453cd26d73add8b2667468b66fff6da26cdf46b9f64bb69faa3b7db2e70f
+
+Package: nomad
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - nomad
+ Open-source bridge to nixpkgs#nomad; invokes upstream command nomad on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/nomad_1.0.0-1_all.deb
+Size: 1094
+SHA256: 5b0a50565b817fb045cf401e40f293c9f32dd52c07ec003a126191863d8573ca
+
+Package: boundary
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - boundary
+ Open-source bridge to nixpkgs#boundary; invokes upstream command boundary on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/boundary_1.0.0-1_all.deb
+Size: 1104
+SHA256: f374e96ae8b516adf195da71f7281993cdecf26f0a761605aa37cc716a6bd877
+
+Package: goreleaser
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - goreleaser
+ Open-source bridge to nixpkgs#goreleaser; invokes upstream command goreleaser on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/goreleaser_1.0.0-1_all.deb
+Size: 1106
+SHA256: 1944d3237ab55e1249b1abcb25dc44d68cf0c746a8d432ffee36cfec8195fbc9
+
+Package: ko
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - ko
+ Open-source bridge to nixpkgs#ko; invokes upstream command ko on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/ko_1.0.0-1_all.deb
+Size: 1092
+SHA256: 141a44e0098c23a648e2d6c873573efcf5dff6e5d66b064cfa2644f61c1ee457
+
+Package: nixfmt-rfc-style
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - nixfmt-rfc-style
+ Open-source bridge to nixpkgs#nixfmt-rfc-style; invokes upstream command nixfmt on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/nixfmt-rfc-style_1.0.0-1_all.deb
+Size: 1126
+SHA256: 0017051ec4ca62ccad31d50990ccfc42f9c0a2b82f0003164fd1d1662db9d082
+
+Package: alejandra
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - alejandra
+ Open-source bridge to nixpkgs#alejandra; invokes upstream command alejandra on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/alejandra_1.0.0-1_all.deb
+Size: 1104
+SHA256: d7f3c31029774f06b5d479930d40f2e6da280a778a574e883222c6091cb088a6
+
+Package: deadnix
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - deadnix
+ Open-source bridge to nixpkgs#deadnix; invokes upstream command deadnix on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/deadnix_1.0.0-1_all.deb
+Size: 1100
+SHA256: b0a2277ae4c9c5a4bd7d59bc961bd6026a167abc71b372d3d7623908ffe650d4
+
+Package: statix
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - statix
+ Open-source bridge to nixpkgs#statix; invokes upstream command statix on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/statix_1.0.0-1_all.deb
+Size: 1098
+SHA256: cc2f56cd11eccc4e9e35832c2c711d5b2322507cf6bceb196552c38b00bc2e6d
+
+Package: shellharden
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - shellharden
+ Open-source bridge to nixpkgs#shellharden; invokes upstream command shellharden on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/shellharden_1.0.0-1_all.deb
+Size: 1102
+SHA256: 75e41ceab48f763f29ce54a997b4bb5f27194d71d8b29e21ba610add7751971e
+
+Package: cloc
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Depends: nix-ocean
+Description: open-source CLI, data, mail, web and infrastructure tools - cloc
+ Open-source bridge to nixpkgs#cloc; invokes upstream command cloc on demand.
+ No network activity or source download is performed by APT maintainer scripts.
+Filename: staging/shard-54/pool/main/cloc_1.0.0-1_all.deb
+Size: 1096
+SHA256: 58b67d6dade6d6626f9e0f8ab1a6ea058ef08fbfa831cbffd4b0025ffea41a9e
+
+Package: open-source-cli-foundation-suite
+Version: 1.0.0-1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: metapackages
+Priority: optional
+Depends: xmlstarlet, tidy-html5, jless, jc, jo, jid, lua, julia, sccache, bear, patchutils, cscope, universal-ctags, w3m, lynx, links2, elinks, browsh, ddgr, googler, newsboat, neomutt, aerc, alpine, msmtp, isync, notmuch, timewarrior, calcurse, remind, khal, vdirsyncer, ledger, hledger, beancount, jrnl, todo-txt-cli, recode, enca, uchardet, parallel, choose, sd, cheat, navi, procs, net-tools, inetutils, netperf, netcat-gnu, termshark, sniffglue, rustscan, dnsperf, dnstop, dnstracer, coredns, powerdns, knot-resolver, nghttp2, websocketd, websockify, wstunnel, bore-cli, seaweedfs, garage, croc, magic-wormhole, wormhole-william, dufs, filebrowser, rabbitmq-server, beanstalkd, nsq, xray, sing-box, stunnel, lego, prometheus, blackbox-exporter, victoriametrics, loki, promtail, redli, mongosh, mongodb-tools, rqlite, sops, pass, gopass, nomad, boundary, goreleaser, ko, nixfmt-rfc-style, alejandra, deadnix, statix, shellharden, cloc
+Description: Ocean open-source CLI, data, mail, web and infrastructure tools suite
+ Meta-package only; installs the corresponding Ocean open-source capability set.
+Filename: staging/shard-54/pool/main/open-source-cli-foundation-suite_1.0.0-1_all.deb
+Size: 1126
+SHA256: 2d4ae9a225e304e9f97511fd2c2824cc82b94b39c91feb61bada11039153a95d
