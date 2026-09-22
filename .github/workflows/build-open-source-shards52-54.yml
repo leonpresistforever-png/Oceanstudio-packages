@@ -1,0 +1,223 @@
+name: Build open-source shards 52 53 54
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/build-open-source-shards52-54.py'
+      - '.github/workflows/build-open-source-shards52-54.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: open-source-shards52-54
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Checkout open-source build surface
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /scripts/build-open-source-shards52-54.py
+            /scripts/index_all_staged.py
+            /apt/dists/stable/main/binary-aarch64/Packages
+            /apt/dists/stable/main/binary-aarch64/Packages.gz
+            /apt/dists/stable/Release
+            /apt/dists/stable/InRelease
+            /apt/dists/stable/Release.gpg
+            /apt/ocean.gpg
+            /staging/shard-52/
+            /staging/shard-53/
+            /staging/shard-54/
+            /staging/open-source-superpack/
+            /.github/workflows/build-open-source-shards52-54.yml
+
+      - name: Install packaging tools
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          sudo apt-get install -y dpkg-dev gnupg
+
+      - name: Validate catalog, dependencies and repo collisions
+        run: |
+          set -euo pipefail
+          python3 -m py_compile scripts/build-open-source-shards52-54.py
+          python3 - <<'PY'
+          import importlib.util,re,subprocess
+          from pathlib import Path
+          p=Path("scripts/build-open-source-shards52-54.py")
+          s=importlib.util.spec_from_file_location("oss",p)
+          m=importlib.util.module_from_spec(s);s.loader.exec_module(m)
+          names=m.SHARD52+m.SHARD53+m.SHARD54
+          assert len(names)==300 and len(set(names))==300
+          required={"neovim","emacs","mosh","autossh","ncdu","tig","entr","cronie","redis","mariadb","ncat","iproute2","nginx","lighttpd","supervisor","netcat-gnu","prometheus","nomad"}
+          assert required <= set(names)
+          live_text=Path("apt/dists/stable/main/binary-aarch64/Packages").read_text(errors="replace")
+          live=set(re.findall(r"^Package:\s*(\S+)",live_text,re.M))
+          essentials={"nano","vim","tmux","rclone","socat","nmap","perl","nix-ocean"}
+          miss=sorted(essentials-live)
+          assert not miss, "missing live essentials: "+", ".join(miss)
+          paths=subprocess.check_output(["git","ls-tree","-r","--name-only","HEAD"],text=True).splitlines()
+          skip=("staging/shard-52/","staging/shard-53/","staging/shard-54/","staging/open-source-superpack/")
+          existing={Path(x).name.split("_",1)[0] for x in paths if x.endswith(".deb") and not x.startswith(skip)}
+          collisions=sorted(set(names)&existing)
+          assert not collisions, "repo-wide collisions: "+", ".join(collisions)
+          print("PASS: exactly 300 new open-source package names, no repo collisions")
+          print("LIVE_BASELINE",len(live))
+          PY
+          grep -c '^Package:' apt/dists/stable/main/binary-aarch64/Packages > /tmp/ocean-before-count
+
+      - name: Build 304 packages
+        run: |
+          set -euo pipefail
+          python3 scripts/build-open-source-shards52-54.py
+          test "$(find staging/shard-52/pool/main -name '*.deb' -type f | wc -l)" -eq 101
+          test "$(find staging/shard-53/pool/main -name '*.deb' -type f | wc -l)" -eq 101
+          test "$(find staging/shard-54/pool/main -name '*.deb' -type f | wc -l)" -eq 101
+          test "$(find staging/open-source-superpack/pool/main -name '*.deb' -type f | wc -l)" -eq 1
+
+      - name: Audit package integrity and provenance
+        run: |
+          set -euo pipefail
+          while IFS= read -r deb; do
+            dpkg-deb --info "$deb" >/dev/null
+            tmp="$(mktemp -d)"
+            dpkg-deb -e "$deb" "$tmp"
+            test ! -e "$tmp/preinst"
+            test ! -e "$tmp/postinst"
+            test ! -e "$tmp/prerm"
+            test ! -e "$tmp/postrm"
+            rm -rf "$tmp"
+          done < <(find staging/shard-52 staging/shard-53 staging/shard-54 staging/open-source-superpack -name '*.deb' -type f | sort)
+
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          total=0; names=[]
+          for n in ("52","53","54"):
+              d=json.loads(Path(f"staging/shard-{n}/provenance.json").read_text())
+              assert d["commandPackageCount"]==100
+              assert d["metaPackageCount"]==1
+              assert d["packageCount"]==101
+              assert d["networkAtAptInstall"] is False
+              assert d["rootRequired"] is False
+              assert "real upstream open-source tools" in d["implementation"]
+              total += d["packageCount"]
+              names += [x["package"] for x in d["packages"] if x["provider"]!="meta"]
+          s=json.loads(Path("staging/open-source-superpack/provenance.json").read_text())
+          assert total+1==304 and len(names)==300 and len(set(names))==300
+          assert s["newCommandPackages"]==300 and s["totalNewPackages"]==304
+          print("PASS: 304 artifacts and provenance verified")
+          PY
+
+      - name: Smoke-test bridge packages
+        run: |
+          set -euo pipefail
+          for pkg in neovim redis nginx; do
+            root="$(mktemp -d)"
+            deb="$(find staging/shard-52 staging/shard-53 staging/shard-54 -name "${pkg}_1.0.0-1_all.deb" -type f | head -n1)"
+            test -n "$deb"
+            dpkg-deb -x "$deb" "$root"
+            PREFIX="$root/data/data/studio.ocean.app/files/usr" \
+              /bin/sh "$root/data/data/studio.ocean.app/files/usr/bin/$pkg" --ocean-plan | grep -q '"provider": "nix-ocean"'
+            rm -rf "$root"
+          done
+
+          root="$(mktemp -d)"
+          dpkg-deb -x staging/shard-52/pool/main/neovim_1.0.0-1_all.deb "$root"
+          PREFIX="$root/data/data/studio.ocean.app/files/usr" \
+            /bin/sh "$root/data/data/studio.ocean.app/files/usr/bin/nvim" --ocean-plan | grep -q '"upstreamCommand": "nvim"'
+          rm -rf "$root"
+          echo "PASS: representative open-source bridges execute and expose upstream plans"
+
+      - name: Commit audited staging layer
+        run: |
+          set -euo pipefail
+          git config user.name "Ocean Open Source Builder"
+          git config user.email "packages@ocean.studio"
+          git add staging/shard-52 staging/shard-53 staging/shard-54 staging/open-source-superpack
+          if ! git diff --cached --quiet; then
+            git commit -m "feat(shards52-54): stage 304 open-source terminal and server packages [skip ci]"
+            for attempt in 1 2 3 4 5; do
+              git pull --rebase origin main
+              if git push origin HEAD:main; then break; fi
+              test "$attempt" -lt 5
+              sleep $((attempt*2))
+            done
+          fi
+
+      - name: Check trusted signing key
+        env:
+          OCEAN_REPOSITORY_SIGNING_KEY: ${{ secrets.OCEAN_REPOSITORY_SIGNING_KEY }}
+        run: |
+          set -euo pipefail
+          if [ -z "$OCEAN_REPOSITORY_SIGNING_KEY" ]; then
+            echo "CAN_SIGN=0" >> "$GITHUB_ENV"
+            echo "Trusted signing key unavailable: packages remain safely staged."
+            exit 0
+          fi
+          EXPECTED="$(gpg --batch --show-keys --with-colons apt/ocean.gpg 2>/dev/null | awk -F: '$1=="fpr"{print $10;exit}')"
+          test -n "$EXPECTED"
+          printf '%s\n' "$OCEAN_REPOSITORY_SIGNING_KEY" | gpg --batch --import
+          ACTUAL="$(gpg --batch --list-secret-keys --with-colons 2>/dev/null | awk -F: '$1=="fpr"{print $10;exit}')"
+          [ "$ACTUAL" = "$EXPECTED" ] || { echo "Signing fingerprint mismatch" >&2; exit 1; }
+          echo "OCEAN_SIGNING_FINGERPRINT=$EXPECTED" >> "$GITHUB_ENV"
+          echo "CAN_SIGN=1" >> "$GITHUB_ENV"
+
+      - name: Promote all staged packages into canonical APT
+        if: env.CAN_SIGN == '1'
+        run: |
+          set -euo pipefail
+          python3 scripts/index_all_staged.py
+          after="$(grep -c '^Package:' apt/dists/stable/main/binary-aarch64/Packages)"
+          test "$(grep '^Package:' apt/dists/stable/main/binary-aarch64/Packages | sort -u | wc -l)" -eq "$after"
+          for p in neovim emacs cronie redis mariadb ncat mosh ncdu tig entr autossh iftop iproute2 nginx lighttpd supervisor ocean-open-source-superpack; do
+            grep -qx "Package: $p" apt/dists/stable/main/binary-aarch64/Packages
+          done
+          echo "LIVE_PACKAGE_COUNT=$after" >> "$GITHUB_ENV"
+
+      - name: Sign and verify repository metadata
+        if: env.CAN_SIGN == '1'
+        run: |
+          set -euo pipefail
+          RELEASE=apt/dists/stable/Release
+          gpg --batch --yes --local-user "$OCEAN_SIGNING_FINGERPRINT" --digest-algo SHA256 --clearsign --output apt/dists/stable/InRelease "$RELEASE"
+          gpg --batch --yes --local-user "$OCEAN_SIGNING_FINGERPRINT" --digest-algo SHA256 --detach-sign --output apt/dists/stable/Release.gpg "$RELEASE"
+          gpgv --keyring apt/ocean.gpg apt/dists/stable/InRelease
+          gpgv --keyring apt/ocean.gpg apt/dists/stable/Release.gpg "$RELEASE"
+
+      - name: Commit live APT promotion
+        if: env.CAN_SIGN == '1'
+        run: |
+          set -euo pipefail
+          git add -f apt/pool/main
+          git add apt/dists/stable/main/binary-aarch64/Packages apt/dists/stable/main/binary-aarch64/Packages.gz
+          git add apt/dists/stable/Release apt/dists/stable/InRelease apt/dists/stable/Release.gpg
+          git commit -m "feat(repo): promote open-source shards 52-54 live ($LIVE_PACKAGE_COUNT packages) [skip ci]"
+          for attempt in 1 2 3 4 5; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then exit 0; fi
+            test "$attempt" -lt 5
+            sleep $((attempt*2))
+          done
+          exit 1
+
+      - name: Report
+        run: |
+          set -euo pipefail
+          if [ "$CAN_SIGN" = "1" ]; then
+            echo "304 open-source packages built, audited, signed and promoted live."
+            echo "Live package count: $LIVE_PACKAGE_COUNT"
+          else
+            echo "304 open-source packages built, audited and committed to staging."
+            echo "Live promotion skipped because the trusted signing key is unavailable."
+          fi
