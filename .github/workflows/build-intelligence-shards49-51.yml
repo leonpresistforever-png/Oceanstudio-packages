@@ -161,7 +161,7 @@ jobs:
 
       - name: Check trusted signing key
         env:
-          OCEAN_REPOSITORY_SIGNING_KEY: \${{ secrets.OCEAN_REPOSITORY_SIGNING_KEY }}
+          OCEAN_REPOSITORY_SIGNING_KEY: ${{ secrets.OCEAN_REPOSITORY_SIGNING_KEY }}
         run: |
           set -euo pipefail
           if [ -z "$OCEAN_REPOSITORY_SIGNING_KEY" ]; then
