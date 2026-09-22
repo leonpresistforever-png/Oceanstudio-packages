@@ -1,0 +1,241 @@
+name: Build power foundation shards 55 56 57
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/build-power-foundation-shards55-57.py'
+      - '.github/workflows/build-power-foundation-shards55-57.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: power-foundation-shards55-57
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Checkout power foundation surface
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /scripts/build-power-foundation-shards55-57.py
+            /scripts/index_all_staged.py
+            /apt/dists/stable/main/binary-aarch64/Packages
+            /apt/dists/stable/main/binary-aarch64/Packages.gz
+            /apt/dists/stable/Release
+            /apt/dists/stable/InRelease
+            /apt/dists/stable/Release.gpg
+            /apt/ocean.gpg
+            /staging/shard-55/
+            /staging/shard-56/
+            /staging/shard-57/
+            /staging/power-foundation-superpack/
+            /.github/workflows/build-power-foundation-shards55-57.yml
+
+      - name: Install packaging tools
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          sudo apt-get install -y dpkg-dev gnupg
+
+      - name: Validate catalog dependencies and collisions
+        run: |
+          set -euo pipefail
+          python3 -m py_compile scripts/build-power-foundation-shards55-57.py
+          python3 - <<'PY'
+          import importlib.util,re,subprocess
+          from pathlib import Path
+          p=Path("scripts/build-power-foundation-shards55-57.py")
+          s=importlib.util.spec_from_file_location("power",p)
+          m=importlib.util.module_from_spec(s);s.loader.exec_module(m)
+          names=list(m.SYS)+list(m.AGENT)+list(m.CORE)
+          assert len(names)==300 and len(set(names))==300
+          required={
+            "sysx-repo-switch","sysx-repo-pin","sysx-pkg-manifest","sysx-proc-tree","sysx-session-capture","sysx-service-start",
+            "agentx-task-next","agentx-state-diff","agentx-approval-request","agentx-exec-capture","agentx-job-start","agentx-workspace-snapshot",
+            "corex-http-serve","corex-tcp-latency","corex-tls-fingerprint","corex-sqlite-backup","corex-json-diff","corex-kv-set"
+          }
+          assert required <= set(names)
+          live_text=Path("apt/dists/stable/main/binary-aarch64/Packages").read_text(errors="replace")
+          live=set(re.findall(r"^Package:\s*(\S+)",live_text,re.M))
+          missing=sorted({"python","apt","dpkg","tmux"}-live)
+          assert not missing, "missing live dependencies: "+", ".join(missing)
+          paths=subprocess.check_output(["git","ls-tree","-r","--name-only","HEAD"],text=True).splitlines()
+          skip=("staging/shard-55/","staging/shard-56/","staging/shard-57/","staging/power-foundation-superpack/")
+          existing={Path(x).name.split("_",1)[0] for x in paths if x.endswith(".deb") and not x.startswith(skip)}
+          new=set(names)|{"ocean-system-control-suite","ocean-agent-runtime-suite","ocean-core-io-suite","ocean-power-foundation-superpack"}
+          col=sorted(new&existing)
+          assert not col, "repo-wide collisions: "+", ".join(col)
+          print("PASS: exactly 300 new capability packages + 4 meta packages")
+          print("LIVE_BASELINE",len(live))
+          PY
+          grep -c '^Package:' apt/dists/stable/main/binary-aarch64/Packages > /tmp/ocean-before-count
+
+      - name: Build 304 packages
+        run: |
+          set -euo pipefail
+          python3 scripts/build-power-foundation-shards55-57.py
+          test "$(find staging/shard-55/pool/main -name '*.deb' -type f | wc -l)" -eq 101
+          test "$(find staging/shard-56/pool/main -name '*.deb' -type f | wc -l)" -eq 101
+          test "$(find staging/shard-57/pool/main -name '*.deb' -type f | wc -l)" -eq 101
+          test "$(find staging/power-foundation-superpack/pool/main -name '*.deb' -type f | wc -l)" -eq 1
+
+      - name: Audit package integrity and provenance
+        run: |
+          set -euo pipefail
+          while IFS= read -r deb; do
+            dpkg-deb --info "$deb" >/dev/null
+            tmp="$(mktemp -d)"
+            dpkg-deb -e "$deb" "$tmp"
+            test ! -e "$tmp/preinst"
+            test ! -e "$tmp/postinst"
+            test ! -e "$tmp/prerm"
+            test ! -e "$tmp/postrm"
+            rm -rf "$tmp"
+          done < <(find staging/shard-55 staging/shard-56 staging/shard-57 staging/power-foundation-superpack -name '*.deb' -type f | sort)
+
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          total=0; names=[]
+          for n in ("55","56","57"):
+              d=json.loads(Path(f"staging/shard-{n}/provenance.json").read_text())
+              assert d["commandPackageCount"]==100 and d["metaPackageCount"]==1 and d["packageCount"]==101
+              assert d["networkAtAptInstall"] is False and d["rootRequired"] is False
+              assert "self-contained functional commands" in d["implementation"]
+              total += d["packageCount"]
+              names += [x["package"] for x in d["packages"] if x["package"] != d["suite"]]
+          s=json.loads(Path("staging/power-foundation-superpack/provenance.json").read_text())
+          assert total+1==304 and len(names)==300 and len(set(names))==300
+          assert s["newCommandPackages"]==300 and s["totalNewPackages"]==304
+          print("PASS: 304 artifacts and provenance verified")
+          PY
+
+      - name: Smoke test concrete capabilities
+        run: |
+          set -euo pipefail
+
+          root="$(mktemp -d)"
+          dpkg-deb -x staging/shard-55/pool/main/sysx-fs-mkdir_1.0.0-1_all.deb "$root"
+          ln -s "$(command -v python3)" "$root/data/data/studio.ocean.app/files/usr/bin/python"
+          testdir="$root/work/newdir"
+          PREFIX="$root/data/data/studio.ocean.app/files/usr" /bin/sh "$root/data/data/studio.ocean.app/files/usr/bin/sysx-fs-mkdir" "$testdir"
+          test -d "$testdir"
+          rm -rf "$root"
+
+          root="$(mktemp -d)"
+          dpkg-deb -x staging/shard-56/pool/main/agentx-task-add_1.0.0-1_all.deb "$root"
+          ln -s "$(command -v python3)" "$root/data/data/studio.ocean.app/files/usr/bin/python"
+          HOME="$root/home" PREFIX="$root/data/data/studio.ocean.app/files/usr" /bin/sh "$root/data/data/studio.ocean.app/files/usr/bin/agentx-task-add" "build project" | grep -q '"status": "pending"'
+          rm -rf "$root"
+
+          root="$(mktemp -d)"
+          dpkg-deb -x staging/shard-57/pool/main/corex-json-pretty_1.0.0-1_all.deb "$root"
+          ln -s "$(command -v python3)" "$root/data/data/studio.ocean.app/files/usr/bin/python"
+          PREFIX="$root/data/data/studio.ocean.app/files/usr" /bin/sh "$root/data/data/studio.ocean.app/files/usr/bin/corex-json-pretty" '{"ok":true}' | grep -q '"ok": true'
+          rm -rf "$root"
+
+          root="$(mktemp -d)"
+          dpkg-deb -x staging/shard-57/pool/main/corex-sqlite-query_1.0.0-1_all.deb "$root"
+          ln -s "$(command -v python3)" "$root/data/data/studio.ocean.app/files/usr/bin/python"
+          python3 - <<PY
+          import sqlite3
+          p="$root/t.db"
+          c=sqlite3.connect(p);c.execute("create table x(v integer)");c.execute("insert into x values (7)");c.commit();c.close()
+          PY
+          PREFIX="$root/data/data/studio.ocean.app/files/usr" /bin/sh "$root/data/data/studio.ocean.app/files/usr/bin/corex-sqlite-query" "$root/t.db" "select v from x" | grep -q '7'
+          rm -rf "$root"
+
+          echo "PASS: system, agent and data foundation commands execute"
+
+      - name: Commit audited staging layer
+        run: |
+          set -euo pipefail
+          git config user.name "Ocean Power Foundation Builder"
+          git config user.email "packages@ocean.studio"
+          git add staging/shard-55 staging/shard-56 staging/shard-57 staging/power-foundation-superpack
+          if ! git diff --cached --quiet; then
+            git commit -m "feat(shards55-57): stage 304 power-user and agent foundation packages [skip ci]"
+            for attempt in 1 2 3 4 5; do
+              git pull --rebase origin main
+              if git push origin HEAD:main; then break; fi
+              test "$attempt" -lt 5
+              sleep $((attempt*2))
+            done
+          fi
+
+      - name: Check trusted signing key
+        env:
+          OCEAN_REPOSITORY_SIGNING_KEY: ${{ secrets.OCEAN_REPOSITORY_SIGNING_KEY }}
+        run: |
+          set -euo pipefail
+          if [ -z "$OCEAN_REPOSITORY_SIGNING_KEY" ]; then
+            echo "CAN_SIGN=0" >> "$GITHUB_ENV"
+            echo "Trusted signing key unavailable: packages remain safely staged."
+            exit 0
+          fi
+          EXPECTED="$(gpg --batch --show-keys --with-colons apt/ocean.gpg 2>/dev/null | awk -F: '$1=="fpr"{print $10;exit}')"
+          test -n "$EXPECTED"
+          printf '%s\n' "$OCEAN_REPOSITORY_SIGNING_KEY" | gpg --batch --import
+          ACTUAL="$(gpg --batch --list-secret-keys --with-colons 2>/dev/null | awk -F: '$1=="fpr"{print $10;exit}')"
+          [ "$ACTUAL" = "$EXPECTED" ] || { echo "Signing fingerprint mismatch" >&2; exit 1; }
+          echo "OCEAN_SIGNING_FINGERPRINT=$EXPECTED" >> "$GITHUB_ENV"
+          echo "CAN_SIGN=1" >> "$GITHUB_ENV"
+
+      - name: Promote all staged packages into canonical APT
+        if: env.CAN_SIGN == '1'
+        run: |
+          set -euo pipefail
+          python3 scripts/index_all_staged.py
+          after="$(grep -c '^Package:' apt/dists/stable/main/binary-aarch64/Packages)"
+          test "$(grep '^Package:' apt/dists/stable/main/binary-aarch64/Packages | sort -u | wc -l)" -eq "$after"
+          for p in sysx-repo-switch sysx-pkg-manifest sysx-session-capture agentx-task-next agentx-approval-request agentx-exec-capture corex-http-serve corex-tls-fingerprint corex-sqlite-backup ocean-power-foundation-superpack; do
+            grep -qx "Package: $p" apt/dists/stable/main/binary-aarch64/Packages
+          done
+          echo "LIVE_PACKAGE_COUNT=$after" >> "$GITHUB_ENV"
+
+      - name: Sign and verify repository metadata
+        if: env.CAN_SIGN == '1'
+        run: |
+          set -euo pipefail
+          RELEASE=apt/dists/stable/Release
+          gpg --batch --yes --local-user "$OCEAN_SIGNING_FINGERPRINT" --digest-algo SHA256 --clearsign --output apt/dists/stable/InRelease "$RELEASE"
+          gpg --batch --yes --local-user "$OCEAN_SIGNING_FINGERPRINT" --digest-algo SHA256 --detach-sign --output apt/dists/stable/Release.gpg "$RELEASE"
+          gpgv --keyring apt/ocean.gpg apt/dists/stable/InRelease
+          gpgv --keyring apt/ocean.gpg apt/dists/stable/Release.gpg "$RELEASE"
+
+      - name: Commit live APT promotion
+        if: env.CAN_SIGN == '1'
+        run: |
+          set -euo pipefail
+          git add -f apt/pool/main
+          git add apt/dists/stable/main/binary-aarch64/Packages apt/dists/stable/main/binary-aarch64/Packages.gz
+          git add apt/dists/stable/Release apt/dists/stable/InRelease apt/dists/stable/Release.gpg
+          git commit -m "feat(repo): promote power foundation shards 55-57 live ($LIVE_PACKAGE_COUNT packages) [skip ci]"
+          for attempt in 1 2 3 4 5; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then exit 0; fi
+            test "$attempt" -lt 5
+            sleep $((attempt*2))
+          done
+          exit 1
+
+      - name: Report
+        run: |
+          set -euo pipefail
+          if [ "$CAN_SIGN" = "1" ]; then
+            echo "304 power foundation packages built, audited, signed and promoted live."
+            echo "Live package count: $LIVE_PACKAGE_COUNT"
+          else
+            echo "304 power foundation packages built, audited and committed to staging."
+            echo "Live promotion skipped because the trusted signing key is unavailable."
+          fi
