@@ -635,14 +635,21 @@ def repo_names():
  skip=("staging/shard-55/","staging/shard-56/","staging/shard-57/","staging/power-foundation-superpack/")
  return {Path(x).name.split("_",1)[0] for x in paths if x.endswith(".deb") and not x.startswith(skip)}
 
-def control(pkg,label):
+def dependencies(spec):
+ g,_=spec
+ if g=="pkg":return "python, apt, dpkg"
+ if g=="repo":return "python, apt"
+ if g=="session":return "python, tmux"
+ return "python"
+
+def control(pkg,label,spec):
  return f"""Package: {pkg}
 Version: {VERSION}
 Architecture: all
 Maintainer: OceanStudio <packages@ocean.studio>
 Section: utils
 Priority: optional
-Depends: python
+Depends: {dependencies(spec)}
 Description: {label} - {pkg}
  Self-contained non-root Ocean capability package with concrete local behavior.
  It has no maintainer-script side effects and requires no network at APT install.
@@ -671,7 +678,7 @@ def build_one(pkg,spec,pool,label):
  g,o=spec
  with tempfile.TemporaryDirectory(prefix="ocean-power-") as td:
   root=Path(td)/pkg;(root/"DEBIAN").mkdir(parents=True)
-  (root/"DEBIAN/control").write_text(control(pkg,label))
+  (root/"DEBIAN/control").write_text(control(pkg,label,spec))
   bind=root/PREFIX.strip("/")/"bin";bind.mkdir(parents=True)
   sh=bind/pkg;sh.write_text(launcher(pkg,g,o));sh.chmod(0o755)
   lib=root/PREFIX.strip("/")/"lib/ocean-power";lib.mkdir(parents=True)
