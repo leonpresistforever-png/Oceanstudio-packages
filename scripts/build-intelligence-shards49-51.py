@@ -523,7 +523,7 @@ def build(pkg,g,o,pool,n,desc,prefix):
   d.mkdir(parents=True);b.mkdir(parents=True);l.mkdir(parents=True)
   deps=["python"]+(["git"] if n=="50" and g=="git" else [])
   (d/"control").write_text(ctrl(pkg,desc,deps))
-  sh=b/pkg;sh.write_text('#!/system/bin/sh\\nP="$PREFIX"\\n[ -n "$P" ] || P="'+PREFIX+'"\\nexec "$P/bin/python" "$P/lib/ocean-intelligence/'+pkg+'.py" '+repr(prefix)+' '+repr(g)+' '+repr(o)+' "$@"\\n');sh.chmod(0o755)
+  sh=b/pkg;sh.write_text('#!/system/bin/sh\nP="$PREFIX"\n[ -n "$P" ] || P="'+PREFIX+'"\nexec "$P/bin/python" "$P/lib/ocean-intelligence/'+pkg+'.py" '+repr(prefix)+' '+repr(g)+' '+repr(o)+' "$@"\n');sh.chmod(0o755)
   rt=l/(pkg+".py");rt.write_text(RUNTIME);rt.chmod(0o755)
   art=pool/f"{pkg}_{VERSION}_all.deb";subprocess.run(["dpkg-deb","--root-owner-group","--build",str(root),str(art)],check=True,stdout=subprocess.DEVNULL);return art
 def meta(pkg,deps,pool,desc):
@@ -536,8 +536,8 @@ def index(out,rows):
  paras=[]
  for r in rows:
   art=out/"pool/main"/r["artifact"];f=subprocess.check_output(["dpkg-deb","-f",str(art)],text=True).strip()
-  paras.append(f+"\\nFilename: "+out.as_posix()+"/pool/main/"+art.name+"\\nSize: "+str(r["bytes"])+"\\nSHA256: "+r["sha256"]+"\\n")
- (out/"Packages.repaired").write_text("\\n".join(paras))
+  paras.append(f+"\nFilename: "+out.as_posix()+"/pool/main/"+art.name+"\nSize: "+str(r["bytes"])+"\nSHA256: "+r["sha256"]+"\n")
+ (out/"Packages.repaired").write_text("\n".join(paras))
 def main():
  ap=argparse.ArgumentParser();ap.add_argument("--shards",default="49,50,51");a=ap.parse_args()
  seen=existing();suites=[];total=0
@@ -550,13 +550,13 @@ def main():
   pool.mkdir(parents=True);rows=[]
   for pkg,(g,o) in C.items():rows.append(row(build(pkg,g,o,pool,n,desc,prefix),pkg,g,o))
   rows.append(row(meta(suite,list(C),pool,"Ocean "+desc+" suite"),suite,"meta","install"));index(out,rows)
-  (out/"provenance.json").write_text(json.dumps({"schemaVersion":1,"shard":n,"version":VERSION,"prefix":PREFIX,"commandCount":100,"packageCount":101,"suite":suite,"networkAtAptInstall":False,"rootRequired":False,"implementation":"self-contained Python standard-library utilities","packages":rows},indent=2)+"\\n")
+  (out/"provenance.json").write_text(json.dumps({"schemaVersion":1,"shard":n,"version":VERSION,"prefix":PREFIX,"commandCount":100,"packageCount":101,"suite":suite,"networkAtAptInstall":False,"rootRequired":False,"implementation":"self-contained Python standard-library utilities","packages":rows},indent=2)+"\n")
   seen.update(C);seen.add(suite);suites.append(suite);total+=101
  out=Path("staging/intelligence-superpack");pool=out/"pool/main"
  if out.exists():shutil.rmtree(out)
  pool.mkdir(parents=True)
  if SUPER in seen:raise SystemExit("superpack collision")
  r=row(meta(SUPER,suites,pool,"Ocean intelligence code automation and observability superpack"),SUPER,"meta","install");index(out,[r])
- (out/"provenance.json").write_text(json.dumps({"schemaVersion":1,"version":VERSION,"prefix":PREFIX,"dependsOn":suites,"commandCount":300,"totalNewPackages":304},indent=2)+"\\n")
+ (out/"provenance.json").write_text(json.dumps({"schemaVersion":1,"version":VERSION,"prefix":PREFIX,"dependsOn":suites,"commandCount":300,"totalNewPackages":304},indent=2)+"\n")
  print(json.dumps({"commands":300,"metaPackages":4,"totalNewPackages":304,"shards":["49","50","51"]},indent=2))
 if __name__=="__main__":main()
