@@ -51,4 +51,6 @@ jobs:
         if: always()
         with:
           name: ocean-upstream-repair-candidates
-          path: staging/upstream-repairs
+          path: |
+            staging/upstream-repairs
+            build-diagnostics

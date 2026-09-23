@@ -9,6 +9,7 @@ import os
 from pathlib import Path
 import shutil
 import subprocess
+import sys
 import tempfile
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -27,6 +28,20 @@ def run(args, **kwargs):
 
 def sha(path):
     return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def capture(args, **kwargs):
+    """Keep runtime diagnostics visible when an actual ARM execution fails."""
+    print('+', ' '.join(map(str, args)), flush=True)
+    result = subprocess.run(list(map(str, args)), stdout=subprocess.PIPE,
+                            stderr=subprocess.PIPE, timeout=180, **kwargs)
+    if result.returncode:
+        print(result.stderr.decode(errors='replace'), file=sys.stderr, flush=True)
+        # Text diagnostics sometimes arrive on stdout. Never print compressed data.
+        if not kwargs.get('input'):
+            print(result.stdout.decode(errors='replace'), file=sys.stderr, flush=True)
+        result.check_returncode()
+    return result.stdout, result.stderr
 
 
 def source(name, work, receipts):
@@ -98,13 +113,17 @@ def main():
         run(['make', '-j2', 'LIBS=-lm -lz', 'CC=' + str(cc), 'CFLAGS=-O2 -I' + str(zprefix / 'include'),
              'LDFLAGS=-static -Wl,-z,max-page-size=16384 -L' + str(zprefix / 'lib')], cwd=pigz, env=env)
         binary = pigz / 'pigz'
-        version = subprocess.check_output(['qemu-aarch64', str(binary), '--version'], stderr=subprocess.STDOUT).decode().strip()
+        diagnostics = ROOT / 'build-diagnostics'
+        diagnostics.mkdir(exist_ok=True)
+        shutil.copy2(binary, diagnostics / 'pigz-android-aarch64')
+        version_out, version_err = capture(['qemu-aarch64', str(binary), '--version'])
+        version = (version_out + version_err).decode().strip()
         payload = (bytes(range(256)) + b'Ocean upstream compression round trip\n') * 8192
         for level in ('-1', '-9'):
-            compressed = subprocess.check_output(['qemu-aarch64', str(binary), '-p', '2', '-c', level], input=payload)
+            compressed, _ = capture(['qemu-aarch64', str(binary), '-p', '2', '-c', level], input=payload)
             if gzip.decompress(compressed) != payload:
                 raise RuntimeError('pigz produced invalid gzip data')
-            decoded = subprocess.check_output(['qemu-aarch64', str(binary), '-dc'], input=compressed)
+            decoded, _ = capture(['qemu-aarch64', str(binary), '-dc'], input=compressed)
             if decoded != payload:
                 raise RuntimeError('pigz decompression changed data')
         stage = work / 'pigz-stage'
@@ -141,7 +160,9 @@ def main():
         run([cc, '-static', '-DLIBRSYNC_STATIC_DEFINE', '-I' + str(src / 'src'), '-I' + str(static / 'src'),
              test, static / 'librsync.a', '-o', executable])
         testdir = work / 'roundtrip'; testdir.mkdir()
-        result = subprocess.check_output(['qemu-aarch64', str(executable)], cwd=testdir, text=True).strip()
+        shutil.copy2(executable, diagnostics / 'librsync-roundtrip-android-aarch64')
+        result_out, _ = capture(['qemu-aarch64', str(executable)], cwd=testdir)
+        result = result_out.decode().strip()
         if result != 'signature, delta and patch round trip passed':
             raise RuntimeError('Unexpected librsync test output: ' + result)
         prefix = stage / PREFIX.lstrip('/')
