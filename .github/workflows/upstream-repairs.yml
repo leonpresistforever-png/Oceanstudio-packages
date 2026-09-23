@@ -24,14 +24,19 @@ jobs:
             tests
             staging/upstream-repairs
           filter: blob:none
-      - uses: android-actions/setup-android@v3
       - name: Install official Android NDK and ARM execution tools
         run: |
           sudo apt-get update
           sudo apt-get install -y qemu-user cmake dpkg-dev
-          sdkmanager --install 'ndk;27.0.12077973'
+          ndk="$RUNNER_TEMP/android-ndk-r27"
+          curl --fail --location --retry 3 --max-time 1800 \
+            https://dl.google.com/android/repository/android-ndk-r27-linux.zip \
+            --output "$RUNNER_TEMP/android-ndk-r27.zip"
+          unzip -q "$RUNNER_TEMP/android-ndk-r27.zip" -d "$RUNNER_TEMP"
+          grep -F 'Pkg.Revision = 27.0.12077973' "$ndk/source.properties"
+          echo "OCEAN_BUILD_NDK=$ndk" >> "$GITHUB_ENV"
       - name: Compile upstream sources and execute actual ARM binaries
-        run: python3 scripts/build-upstream-repairs.py --ndk "$ANDROID_HOME/ndk/27.0.12077973"
+        run: python3 scripts/build-upstream-repairs.py --ndk "$OCEAN_BUILD_NDK"
       - name: Save tested staging without changing live metadata
         run: |
           set -euo pipefail
