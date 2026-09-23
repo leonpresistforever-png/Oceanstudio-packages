@@ -101,6 +101,8 @@ def main():
     receipts, packages = {}, []
     with tempfile.TemporaryDirectory(prefix='ocean-official-repairs-') as temporary:
         work = Path(temporary)
+        tls_object = work / 'android-static-tls.o'
+        run([cc, '-c', ROOT / 'scripts/android-static-tls.S', '-o', tls_object])
         zlib = source('zlib', work, receipts)
         pigz = source('pigz', work, receipts)
         zprefix = work / 'zlib-prefix'
@@ -111,7 +113,8 @@ def main():
         # Static Android/Bionic executable avoids dependence on a foreign prefix or libc.
         # Bionic implements pthreads in libc; it has no separate libpthread.
         run(['make', '-j2', 'LIBS=-lm -lz', 'CC=' + str(cc), 'CFLAGS=-O2 -I' + str(zprefix / 'include'),
-             'LDFLAGS=-static -Wl,-z,max-page-size=16384 -L' + str(zprefix / 'lib')], cwd=pigz, env=env)
+             'LDFLAGS=-static -Wl,-z,max-page-size=16384 ' + str(tls_object) +
+             ' -L' + str(zprefix / 'lib')], cwd=pigz, env=env)
         binary = pigz / 'pigz'
         diagnostics = ROOT / 'build-diagnostics'
         diagnostics.mkdir(exist_ok=True)
@@ -158,7 +161,7 @@ def main():
         test = ROOT / 'tests/librsync-roundtrip.c'
         executable = work / 'rsync-roundtrip'
         run([cc, '-static', '-DLIBRSYNC_STATIC_DEFINE', '-I' + str(src / 'src'), '-I' + str(static / 'src'),
-             test, static / 'librsync.a', '-o', executable])
+             test, static / 'librsync.a', tls_object, '-o', executable])
         testdir = work / 'roundtrip'; testdir.mkdir()
         shutil.copy2(executable, diagnostics / 'librsync-roundtrip-android-aarch64')
         result_out, _ = capture(['qemu-aarch64', str(executable)], cwd=testdir)

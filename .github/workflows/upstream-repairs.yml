@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - scripts/build-upstream-repairs.py
+      - scripts/android-static-tls.S
       - tests/librsync-roundtrip.c
       - .github/workflows/upstream-repairs.yml
 permissions:
