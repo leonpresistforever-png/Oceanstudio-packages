@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "suite": "clean-core-replacements",
+  "sourceType": "Official upstream sources patched for Ocean OS (removed termux-services and TERMUX__PREFIX)",
+  "termuxContamination": false,
+  "packages": [
+    {
+      "package": "openssh",
+      "version": "10.5p1-1",
+      "architecture": "aarch64",
+      "filename": "pool/main/openssh_10.5p1-1_aarch64.deb",
+      "upstream": "https://www.openssh.com/",
+      "replaces": "openssh 10.5p1 (purged termux-services and TERMUX__PREFIX)",
+      "size": 963540,
+      "md5": "68a1d247984721e5091b1f82fee7c165",
+      "sha1": "9413f14201194e95dbe03a82fe2ce0cc0d7ee126",
+      "sha256": "e00fc8523f97a73fea06a84b5f5e6431e52f4dd420c6f09624cd105715a29cf0"
+    },
+    {
+      "package": "dropbear",
+      "version": "2026.94-1",
+      "architecture": "aarch64",
+      "filename": "pool/main/dropbear_2026.94-1_aarch64.deb",
+      "upstream": "https://matt.ucc.asn.au/dropbear/dropbear.html",
+      "replaces": "dropbear 2026.94 (purged termux-services)",
+      "size": 143564,
+      "md5": "50c75a7749fa264d81db0f470a947ff4",
+      "sha1": "5b1eb077ff3693412e56d9e9d4b3a32b182b744c",
+      "sha256": "473b08eb13edc80812eab577810ec156ca8aa8d821b12146ad864cf3deca5eef"
+    }
+  ]
+}
