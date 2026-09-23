@@ -1,0 +1,43 @@
+name: Full package file and control forensics
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/forensic_repository.py
+      - tests/test_forensic_repository.py
+      - .github/workflows/forensic-packages.yml
+permissions:
+  contents: write
+concurrency:
+  group: ocean-full-forensics
+  cancel-in-progress: false
+jobs:
+  inspect:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v5
+      - name: Validate full-byte and archive checks
+        run: python3 -m unittest discover -s tests -p test_forensic_repository.py -v
+      - name: Read every unique pool and staged archive
+        run: python3 scripts/forensic_repository.py --output forensic-results
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: ocean-complete-file-forensics
+          path: forensic-results
+          retention-days: 30
+      - name: Commit the complete evidence for this source snapshot
+        if: success()
+        run: |
+          set -euo pipefail
+          dest="audits/forensic/$GITHUB_SHA"
+          mkdir -p "$dest"
+          cp forensic-results/* "$dest/"
+          git config user.name 'Ocean Package Auditor'
+          git config user.email 'packages@ocean.studio'
+          git add "$dest"
+          git commit -m "audit(packages): preserve full file evidence for $GITHUB_SHA [skip ci]"
+          git pull --rebase origin main
+          git push origin HEAD:main
