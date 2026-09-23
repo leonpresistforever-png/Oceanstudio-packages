@@ -1,0 +1,49 @@
+name: Build verified upstream pigz and librsync repairs
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/build-upstream-repairs.py
+      - tests/librsync-roundtrip.c
+      - .github/workflows/upstream-repairs.yml
+permissions:
+  contents: write
+concurrency:
+  group: ocean-upstream-repairs
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          sparse-checkout: |
+            scripts
+            tests
+            staging/upstream-repairs
+          filter: blob:none
+      - uses: android-actions/setup-android@v3
+      - name: Install official Android NDK and ARM execution tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y qemu-user cmake dpkg-dev
+          sdkmanager --install 'ndk;27.0.12077973'
+      - name: Compile upstream sources and execute actual ARM binaries
+        run: python3 scripts/build-upstream-repairs.py --ndk "$ANDROID_HOME/ndk/27.0.12077973"
+      - name: Save tested staging without changing live metadata
+        run: |
+          set -euo pipefail
+          git config user.name 'Ocean Source Builder'
+          git config user.email 'packages@ocean.studio'
+          git add staging/upstream-repairs
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'build(packages): replace pigz stub and build librsync from official upstream sources [skip ci]'
+          git pull --rebase origin main
+          git push origin HEAD:main
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: ocean-upstream-repair-candidates
+          path: staging/upstream-repairs
