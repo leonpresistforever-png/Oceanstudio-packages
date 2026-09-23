@@ -94,7 +94,8 @@ def main():
         run(['./configure', '--static', '--prefix=' + str(zprefix)], cwd=zlib, env=env)
         run(['make', '-j2', 'install'], cwd=zlib, env=env)
         # Static Android/Bionic executable avoids dependence on a foreign prefix or libc.
-        run(['make', '-j2', 'CC=' + str(cc), 'CFLAGS=-O2 -I' + str(zprefix / 'include'),
+        # Bionic implements pthreads in libc; it has no separate libpthread.
+        run(['make', '-j2', 'LIBS=-lm -lz', 'CC=' + str(cc), 'CFLAGS=-O2 -I' + str(zprefix / 'include'),
              'LDFLAGS=-static -Wl,-z,max-page-size=16384 -L' + str(zprefix / 'lib')], cwd=pigz, env=env)
         binary = pigz / 'pigz'
         version = subprocess.check_output(['qemu-aarch64', str(binary), '--version'], stderr=subprocess.STDOUT).decode().strip()
