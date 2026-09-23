@@ -1,0 +1,283 @@
+#!/data/data/studio.ocean.app/files/usr/bin/bash
+# OceanStudio Linux Distribution & Rootfs Manager (PRoot-based)
+set -euo pipefail
+
+OCEAN_PREFIX="${OCEAN_PREFIX:-${PREFIX:-/data/data/studio.ocean.app/files/usr}}"
+OCEAN_HOME="${OCEAN_HOME:-${HOME:-/data/data/studio.ocean.app/files/home}}"
+DISTRO_BASE_DIR="${OCEAN_DISTRO_DIR:-$OCEAN_HOME/.distro}"
+REGISTRY_FILE="${OCEAN_DISTRO_REGISTRY:-${OCEAN_PREFIX}/share/ocean-distro/distros.json}"
+
+# Fallback if running from source tree
+if [[ ! -f "$REGISTRY_FILE" ]]; then
+  SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+  if [[ -f "$SCRIPT_DIR/distros.json" ]]; then
+    REGISTRY_FILE="$SCRIPT_DIR/distros.json"
+  fi
+fi
+
+usage() {
+  cat << 'USAGE'
+OceanStudio Distro Universe Manager (ocean-distro)
+
+Usage:
+  ocean-distro list                   List all supported & installed distributions
+  ocean-distro install <distro>       Download and install a distribution rootfs
+  ocean-distro login <distro> [-- cmd] Log into a distribution or run a command
+  ocean-distro info <distro>          Display detailed information about a distro
+  ocean-distro update <distro>        Run package manager update inside distro
+  ocean-distro remove <distro>        Uninstall and remove a distribution rootfs
+
+Supported distributions:
+  debian, ubuntu, alpine, arch, fedora, rocky, alma,
+  opensuse, void, kali, centos, devuan, gentoo
+USAGE
+  exit "${1:-0}"
+}
+
+die() {
+  echo "ocean-distro error: $*" >&2
+  exit 1
+}
+
+require_proot() {
+  PROOT_BIN="$(command -v proot)" || die "proot is required but not installed. Run: pkg install proot"
+  [[ "$PROOT_BIN" = /* ]] || die "proot must resolve to an absolute executable path."
+}
+
+normalize_distro() {
+  local name="${1,,}"
+  [[ "$name" =~ ^[a-z0-9][a-z0-9_-]*$ ]] || die "Invalid distribution name: '$1'"
+  printf '%s\n' "$name"
+}
+
+get_distro_field() {
+  local distro="$1"
+  local field="$2"
+  # A real JSON lookup prevents the distribution "arch" from matching another
+  # distribution's architecture field and selecting its rootfs by mistake.
+  command -v jq >/dev/null 2>&1 || die "jq is required. Run: pkg install jq"
+  jq -er --arg d "$distro" --arg f "$field" '.[$d][$f] // "" | select(type == "string")' "$REGISTRY_FILE"
+}
+
+cmd_list() {
+  echo "OceanStudio Distro Universe:"
+  printf "%-12s %-22s %-10s %-16s %s\n" "DISTRO" "NAME & VERSION" "STATUS" "PACKAGE MANAGER" "PRIORITY"
+  printf "%-12s %-22s %-10s %-16s %s\n" "------" "--------------" "------" "---------------" "--------"
+  
+  command -v jq >/dev/null 2>&1 || die "jq is required. Run: pkg install jq"
+  local rows distro title pkg prio status
+  rows=$(jq -er 'to_entries[] | [.key, (.value.name + " " + .value.version), .value.pkg_manager, .value.priority] | @tsv' "$REGISTRY_FILE")
+  while IFS=$'\t' read -r distro title pkg prio; do
+    status=AVAILABLE
+    [[ -d "$DISTRO_BASE_DIR/$distro/etc" ]] && status=INSTALLED
+    printf "%-12s %-22.22s %-10s %-16s %s\n" "$distro" "$title" "$status" "$pkg" "$prio"
+  done <<< "$rows"
+}
+
+cmd_install() {
+  local distro="${1:-}"
+  [[ -z "$distro" ]] && usage
+  distro="$(normalize_distro "$distro")"
+  require_proot
+
+  local url sha shell_path
+  url=$(get_distro_field "$distro" "url")
+  sha=$(get_distro_field "$distro" "sha256")
+  shell_path=$(get_distro_field "$distro" "shell")
+  local fallback_url
+  fallback_url=$(get_distro_field "$distro" "fallback_url")
+
+  [[ -z "$url" ]] && die "Unknown distribution: '$distro'. Run 'ocean-distro list' to see available distros."
+
+  local target_dir="$DISTRO_BASE_DIR/$distro"
+  if [[ -d "$target_dir" ]]; then
+    die "Distribution '$distro' is already installed at $target_dir. Remove first or run 'ocean-distro login $distro'."
+  fi
+
+  [[ "$sha" =~ ^[0-9a-fA-F]{64}$ ]] || die "No verified SHA256 for '$distro'. Update the distro catalogue before installing."
+  command -v curl >/dev/null 2>&1 || die "curl is required. Run: pkg install curl"
+  mkdir -p "$DISTRO_BASE_DIR/.downloads"
+  local temp_archive="$DISTRO_BASE_DIR/.downloads/${sha,,}.tar"
+  local partial="$temp_archive.part" actual_sha try_url attempt complete=false
+  if [[ -f "$temp_archive" ]]; then
+    read -r actual_sha _ < <(sha256sum "$temp_archive")
+    [[ "${actual_sha,,}" = "${sha,,}" ]] && complete=true
+  fi
+  for try_url in "$url" "$fallback_url"; do
+    [[ "$complete" = true ]] && break
+    [[ -z "$try_url" ]] && continue
+    [[ "$try_url" = https://* && "${try_url,,}" != *termux* ]] || die "Rootfs source must be an official HTTPS upstream."
+    for attempt in 1 2; do
+      echo "Downloading $distro rootfs from $try_url..."
+      # Resume only a checksum-addressed partial file. A failed range request or
+      # corrupt partial gets one clean restart; neither can become an install.
+      if curl --fail --location --proto '=https' --proto-redir '=https' \
+          --continue-at - --retry 3 --retry-all-errors --connect-timeout 30 \
+          --max-time 1800 --speed-limit 1024 --speed-time 90 \
+          --output "$partial" "$try_url"; then
+        read -r actual_sha _ < <(sha256sum "$partial")
+        if [[ "${actual_sha,,}" = "${sha,,}" ]]; then
+          mv -f -- "$partial" "$temp_archive"
+          complete=true
+          break
+        fi
+        echo "Checksum mismatch; discarding the incomplete or changed archive." >&2
+      fi
+      rm -f -- "$partial"
+    done
+  done
+  [[ "$complete" = true ]] || die "Download did not pass SHA256 verification. No distribution was installed."
+
+  # Install into a temporary sibling. A failed extraction must never leave a
+  # directory that login/list can mistake for a completed distribution.
+  (
+    local staging
+    staging="$(mktemp -d "$DISTRO_BASE_DIR/.install-${distro}.XXXXXX")"
+    trap 'rm -rf -- "$staging"' EXIT
+    trap 'exit 130' INT
+    trap 'exit 143' TERM HUP
+    tar --extract --file "$temp_archive" --directory "$staging" \
+        --no-same-owner --no-same-permissions --delay-directory-restore
+    [[ -d "$staging/etc" && ! -L "$staging/etc" && ! -L "$staging/root" \
+       && ( -e "$staging$shell_path" || -L "$staging$shell_path" ) ]] \
+      || die "Archive is not a usable '$distro' root filesystem."
+    # Replace the guest DNS link itself, never follow it into a host path.
+    rm -f -- "$staging/etc/resolv.conf"
+    printf 'nameserver 1.1.1.1\nnameserver 8.8.8.8\n' > "$staging/etc/resolv.conf"
+    mkdir -p "$staging/root"
+    printf 'distro=%s\nsha256=%s\n' "$distro" "${sha,,}" > "$staging/.ocean-installed"
+    [[ ! -e "$target_dir" && ! -L "$target_dir" ]] || die "Target appeared during installation; preserving it."
+    mv -T -n -- "$staging" "$target_dir"
+    [[ ! -e "$staging" ]] || die "Target appeared during installation; preserving it."
+    trap - EXIT
+  )
+
+  echo "Successfully installed $distro into $target_dir."
+  echo "Run 'ocean-distro login $distro' to start your session."
+}
+
+cmd_login() {
+  local distro="${1:-}"
+  shift || true
+  [[ -z "$distro" ]] && usage
+  distro="$(normalize_distro "$distro")"
+  require_proot
+
+  local target_dir="$DISTRO_BASE_DIR/$distro"
+  [[ ! -d "$target_dir" ]] && die "Distribution '$distro' is not installed. Run 'ocean-distro install $distro' first."
+
+  local shell_path
+  shell_path=$(get_distro_field "$distro" "shell")
+  local fallback_url
+  fallback_url=$(get_distro_field "$distro" "fallback_url")
+  shell_path="${shell_path:-/bin/sh}"
+
+  local guest_user="root"
+  local guest_home="/root"
+
+  # Standard PRoot bind mounts for Android userland
+  local proot_args=(
+    "$PROOT_BIN"
+    --link2symlink
+    -0
+    -r "$target_dir"
+    -b /dev
+    -b /proc
+    -b /sys
+    -b "$OCEAN_HOME:/data/data/studio.ocean.app/files/home"
+    -w "$guest_home"
+  )
+
+  # Export guest environment
+  # Retain native PATH and loader settings until the native proot has started.
+  # Set guest variables with the guest's env; no ocean/proot-distro auto-login,
+  # inherited native LD_PRELOAD or foreign prefix leaks into the guest session.
+  proot_args+=( /usr/bin/env -i HOME="$guest_home" USER="$guest_user" LOGNAME="$guest_user"
+    TERM="${TERM:-xterm-256color}" LANG=C.UTF-8
+    PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin )
+  # Native proot may need Ocean's LD_LIBRARY_PATH to load its own libraries.
+  # The guest env -i above clears it for the requested guest command.
+  unset LD_PRELOAD
+
+  if [[ $# -gt 0 ]]; then
+    if [[ "$1" == "--" ]]; then
+      shift
+    fi
+    exec "${proot_args[@]}" "$@"
+  else
+    exec "${proot_args[@]}" "$shell_path"
+  fi
+}
+
+cmd_info() {
+  local distro="${1:-}"
+  [[ -z "$distro" ]] && usage
+  distro="$(normalize_distro "$distro")"
+
+  local name ver prio pkg desc arch url
+  name=$(get_distro_field "$distro" "name")
+  [[ -z "$name" ]] && die "Unknown distribution: '$distro'"
+
+  ver=$(get_distro_field "$distro" "version")
+  prio=$(get_distro_field "$distro" "priority")
+  pkg=$(get_distro_field "$distro" "pkg_manager")
+  desc=$(get_distro_field "$distro" "description")
+  arch=$(get_distro_field "$distro" "arch")
+  url=$(get_distro_field "$distro" "url")
+
+  local installed="No"
+  [[ -d "$DISTRO_BASE_DIR/$distro" ]] && installed="Yes ($DISTRO_BASE_DIR/$distro)"
+
+  cat << INFO
+Distribution:    $distro
+Name:            $name $ver
+Architecture:    $arch
+Package Manager: $pkg
+Tier/Priority:   $prio
+Installed:       $installed
+Description:     $desc
+Source URL:      $url
+INFO
+}
+
+cmd_remove() {
+  local distro="${1:-}"
+  [[ -z "$distro" ]] && usage
+  distro="$(normalize_distro "$distro")"
+
+  local target_dir="$DISTRO_BASE_DIR/$distro"
+  [[ ! -d "$target_dir" ]] && die "Distribution '$distro' is not installed."
+
+  echo "Removing $distro ($target_dir)..."
+  chmod -R u+rwX "$target_dir" 2>/dev/null || true
+  rm -rf "$target_dir"
+  echo "Successfully removed $distro."
+}
+
+cmd_update() {
+  local distro="${1:-}"
+  [[ -z "$distro" ]] && usage
+  distro="$(normalize_distro "$distro")"
+
+  local target_dir="$DISTRO_BASE_DIR/$distro"
+  [[ ! -d "$target_dir" ]] && die "Distribution '$distro' is not installed."
+
+  local update_cmd
+  update_cmd=$(get_distro_field "$distro" "update_cmd")
+  [[ -z "$update_cmd" ]] && die "No update command defined for $distro."
+
+  echo "Updating $distro with: $update_cmd"
+  cmd_login "$distro" -- /bin/sh -c "$update_cmd"
+}
+
+action="${1:-}"
+case "$action" in
+  list)           cmd_list ;;
+  install)        shift; cmd_install "$@" ;;
+  login)          shift; cmd_login "$@" ;;
+  info)           shift; cmd_info "$@" ;;
+  update)         shift; cmd_update "$@" ;;
+  remove|uninstall) shift; cmd_remove "$@" ;;
+  help|-h|--help) usage ;;
+  *)              usage ;;
+esac

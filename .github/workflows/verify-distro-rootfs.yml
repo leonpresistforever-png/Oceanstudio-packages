@@ -1,0 +1,47 @@
+name: Verify official distro rootfs candidates
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - packages/ocean-distro/**
+      - tests/test-ocean-distro.py
+      - scripts/verify-rootfs-candidates.py
+      - .github/workflows/verify-distro-rootfs.yml
+permissions:
+  contents: write
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          sparse-checkout: |
+            packages/ocean-distro
+            scripts
+            tests
+          filter: blob:none
+      - name: Exercise actual installer with corrupted and complete archives
+        run: python3 tests/test-ocean-distro.py -v
+      - name: Install ARM execution tools
+        run: sudo apt-get update && sudo apt-get install -y qemu-user
+      - name: Verify every configured rootfs source
+        run: python3 scripts/verify-rootfs-candidates.py --registry packages/ocean-distro/distros.json --output rootfs-results/report.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: ocean-distro-source-audit
+          path: rootfs-results
+      - name: Commit verified outcomes including failures
+        run: |
+          set -euo pipefail
+          dest="audits/rootfs/$GITHUB_SHA"
+          mkdir -p "$dest"
+          cp rootfs-results/report.json "$dest/report.json"
+          git config user.name 'Ocean Rootfs Auditor'
+          git config user.email 'packages@ocean.studio'
+          git add --sparse "$dest"
+          git commit -m "audit(distro): record real upstream downloads and ARM execution for $GITHUB_SHA [skip ci]"
+          git pull --rebase origin main
+          git push origin HEAD:main

@@ -1,0 +1,11 @@
+Package: ocean-distro
+Version: 1.0.1-1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: bash, jq, proot, tar, coreutils, zstd, xz-utils, gzip, bzip2, curl, ca-certificates
+Section: admin
+Priority: optional
+Description: Ocean PRoot Linux distribution and rootfs manager
+ Unlocks Debian, Ubuntu, Alpine, Arch, Fedora, openSUSE, Void, Rocky,
+ AlmaLinux, Kali, Mint, CentOS, Devuan, Gentoo, and Slackware userland
+ universes inside OceanStudio using PRoot virtualization.
