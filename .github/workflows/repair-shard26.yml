@@ -66,86 +66,15 @@ jobs:
           grep -q '"repair": "placeholder-to-functional"' staging/shard-26-performance-profiling/provenance.json
           ! grep -R -a -E '/data/(data|user/0)/com\.termux|packages\.termux\.dev|TERMUX_PREFIX' staging/shard-26-performance-profiling sources/functional-shards/shard26_profiling.py
 
-      - name: Promote only with trusted signing key
-        id: promote
-        env:
-          OCEAN_REPOSITORY_SIGNING_KEY: ${{ secrets.OCEAN_REPOSITORY_SIGNING_KEY }}
-        run: |
-          set -euo pipefail
-          if [ -z "$OCEAN_REPOSITORY_SIGNING_KEY" ]; then
-            echo "No trusted signing key available; repaired shard stays staged."
-            echo "promoted=false" >> "$GITHUB_OUTPUT"
-            exit 0
-          fi
-          EXPECTED=$(gpg --batch --show-keys --with-colons apt/ocean.gpg 2>/dev/null | awk -F: '$1=="fpr"{print $10;exit}')
-          printf '%s\n' "$OCEAN_REPOSITORY_SIGNING_KEY" | gpg --batch --import
-          ACTUAL=$(gpg --batch --list-secret-keys --with-colons 2>/dev/null | awk -F: '$1=="fpr"{print $10;exit}')
-          [ -n "$EXPECTED" ] && [ "$ACTUAL" = "$EXPECTED" ]
-
-          mkdir -p apt/pool/main
-          cp staging/shard-26-performance-profiling/pool/main/*.deb apt/pool/main/
-
-          python3 - <<'PY'
-          from pathlib import Path
-          import re
-          live=Path("apt/dists/stable/main/binary-aarch64/Packages")
-          new=Path("staging/shard-26-performance-profiling/Packages.repaired").read_text()
-          names=set(re.findall(r"^Package:\s*(\S+)",new,re.M))
-          stanzas=[s for s in re.split(r"\n\s*\n",live.read_text().strip()) if s.strip()]
-          kept=[]; removed=0
-          for s in stanzas:
-              m=re.search(r"^Package:\s*(\S+)",s,re.M)
-              if m and m.group(1) in names: removed+=1
-              else: kept.append(s)
-          if removed!=50: raise SystemExit(f"expected 50 live replacements, got {removed}")
-          live.write_text("\n\n".join(kept)+"\n\n"+new.strip()+"\n")
-          PY
-
-          gzip -n -9 -c apt/dists/stable/main/binary-aarch64/Packages > apt/dists/stable/main/binary-aarch64/Packages.gz
-          RELEASE=apt/dists/stable/Release; PKG=apt/dists/stable/main/binary-aarch64/Packages; PKG_GZ=apt/dists/stable/main/binary-aarch64/Packages.gz
-          DATE=$(date -u -R); VALID=$(date -u -R -d '+30 days')
-          {
-            echo "Origin: OceanStudio"; echo "Label: Ocean Packages"; echo "Suite: stable"; echo "Codename: stable"
-            echo "Architectures: aarch64 all"; echo "Components: main"; echo "Description: Official Ocean APT Repository"
-            echo "Date: $DATE"; echo "Valid-Until: $VALID"; echo "MD5Sum:"
-            printf ' %s %s main/binary-aarch64/Packages\n' "$(md5sum "$PKG"|awk '{print $1}')" "$(stat -c %s "$PKG")"
-            printf ' %s %s main/binary-aarch64/Packages.gz\n' "$(md5sum "$PKG_GZ"|awk '{print $1}')" "$(stat -c %s "$PKG_GZ")"
-            echo "SHA1:"
-            printf ' %s %s main/binary-aarch64/Packages\n' "$(sha1sum "$PKG"|awk '{print $1}')" "$(stat -c %s "$PKG")"
-            printf ' %s %s main/binary-aarch64/Packages.gz\n' "$(sha1sum "$PKG_GZ"|awk '{print $1}')" "$(stat -c %s "$PKG_GZ")"
-            echo "SHA256:"
-            printf ' %s %s main/binary-aarch64/Packages\n' "$(sha256sum "$PKG"|awk '{print $1}')" "$(stat -c %s "$PKG")"
-            printf ' %s %s main/binary-aarch64/Packages.gz\n' "$(sha256sum "$PKG_GZ"|awk '{print $1}')" "$(stat -c %s "$PKG_GZ")"
-          } > "$RELEASE"
-          gpg --batch --yes --local-user "$EXPECTED" --digest-algo SHA256 --clearsign --output apt/dists/stable/InRelease "$RELEASE"
-          gpg --batch --yes --local-user "$EXPECTED" --digest-algo SHA256 --detach-sign --output apt/dists/stable/Release.gpg "$RELEASE"
-          gpgv --keyring apt/ocean.gpg apt/dists/stable/InRelease
-          gpgv --keyring apt/ocean.gpg apt/dists/stable/Release.gpg "$RELEASE"
-          echo "promoted=true" >> "$GITHUB_OUTPUT"
-
       - name: Commit validated repair
         run: |
           set -euo pipefail
           git config user.name "Ocean Package Repair"; git config user.email "packages@ocean.studio"
           git add staging/shard-26-performance-profiling
-          if [ "${{ steps.promote.outputs.promoted }}" = "true" ]; then
-            python3 - <<'PY' > "$RUNNER_TEMP/old-paths"
-          import importlib.util
-          s=importlib.util.spec_from_file_location("b","scripts/expansion/shard_batch4.py"); m=importlib.util.module_from_spec(s); s.loader.exec_module(m)
-          for name,version,_ in m.BATCH4_SHARDS["shard-26-performance-profiling"]["packages"]:
-              print(f"apt/pool/main/{name}_{version}_aarch64.deb")
-          PY
-            while IFS= read -r p; do git rm --cached --sparse --ignore-unmatch "$p" || true; done < "$RUNNER_TEMP/old-paths"
-            git add --sparse apt/pool/main/*.deb
-            git add apt/dists/stable
-          fi
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "fix(shard26): replace 50 profiling placeholders with functional tools [skip ci]"
           git pull --rebase origin main
           git push origin HEAD:main
 
-      - name: Report
-        run: |
-          echo "Functional packages rebuilt: 50"
-          echo "Functional command tests: 50/50"
-          echo "Live signed promotion: ${{ steps.promote.outputs.promoted }}"
+      - name: Publication handoff
+        run: echo "Validated staging is preserved. Live publication runs through the complete APT publisher."

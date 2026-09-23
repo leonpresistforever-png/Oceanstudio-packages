@@ -2,9 +2,11 @@ name: Audit and publish complete APT index
 
 on:
   workflow_dispatch:
+  workflow_call:
   push:
     branches: [main]
     paths:
+      - '.github/apt-repair-validation.trigger'
       - 'scripts/index_all_staged.py'
       - 'scripts/audit_repository.py'
       - 'tests/test-index-publication.py'
@@ -14,36 +16,34 @@ on:
       - 'apt/dists/**'
   workflow_run:
     workflows:
-      - "Build open-source shards 52 53 54"
-      - "Build foundation shards 40 41 42"
-      - "Build multiplier shards 43 44 45"
-      - "Build intelligence shards 49 50 51"
-      - "Build power foundation shards 55 56 57"
       - "Build AI dev shards 46 47 48"
+      - "Build foundation shards 40 41 42"
+      - "Build intelligence shards 49 50 51"
+      - "Build multiplier shards 43 44 45"
+      - "Build open-source shards 52 53 54"
+      - "Build power foundation shards 55 56 57"
       - "Build shards 28 29 30 modern 200 suite"
-      - "Build shards 37 38 39 modern 300 suite"
-      - "# revision 2"
       - "Build shards 31 32 33 format 200 suite"
+      - "Build shards 34 35 36 platform 300 suite"
+      - "Build shards 37 38 39 modern 300 suite"
       - "Build official-source core suite"
-      - "Clean wrapper aliases and broken duplicity from live APT"
-      - "Build official-source Nix for Ocean"
       - "Build isolated Ocean glibc foundation"
+      - "Build official-source Nix for Ocean"
       - "Build Ocean device/render 200 package suite"
       - "Build Ocean DevKit 200 package suite"
       - "Build Ocean Lab 200 package suite"
       - "Build Ocean Workbench 300 package suite"
       - "Build independent Ocean X11 runtime"
       - "Build Ocean Power suite"
-      - "Promote validated functional repairs"
-      - "Repair 150 functional packages (09 13 16)"
       - "Repair 150 functional packages (08 10 11)"
+      - "Repair 150 functional packages (09 13 16)"
+      - "Repair final 200 functional packages"
       - "Repair 150 functional packages"
       - "Repair functional shard 18"
-      - "Repair final 200 functional packages"
-      - "Repair functional shard 26"
+      - "Repair functional shard 24"
+      - "Repair functional shard 25"
       - "Repair functional shard 26"
       - "Repair functional shard 27"
-      - "Repair functional shard 26"
       - "Build official-source Toybox expansion"
     types: [completed]
     branches: [main]
@@ -88,6 +88,9 @@ jobs:
         continue-on-error: true
         run: python3 scripts/audit_repository.py --json /tmp/ocean-apt-before.json
 
+      - name: Inventory all pool candidates without changing live files
+        run: python3 scripts/index_all_staged.py --plan /tmp/ocean-apt-selection.json
+
       - name: Require the existing trusted archive private key
         env:
           OCEAN_REPOSITORY_SIGNING_KEY: ${{ secrets.OCEAN_REPOSITORY_SIGNING_KEY }}
@@ -102,7 +105,7 @@ jobs:
           echo "GNUPGHOME=$signing_home" >> "$GITHUB_ENV"
           printf '%s\n' "$OCEAN_REPOSITORY_SIGNING_KEY" | GNUPGHOME="$signing_home" gpg --batch --import
 
-      - name: Promote all staged packages and verify both signatures
+      - name: Reconcile the complete pool and staging and verify both signatures
         run: python3 scripts/index_all_staged.py
 
       - name: Verify complete coverage and every indexed checksum

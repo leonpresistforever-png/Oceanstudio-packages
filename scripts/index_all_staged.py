@@ -5,6 +5,7 @@ from __future__ import annotations
 import argparse
 import gzip
 import hashlib
+import json
 import os
 import re
 import shutil
@@ -68,12 +69,12 @@ def parse_deb(path):
     return control, hashes(path)
 
 
-def make_stanza(control_text, digest, deb_name):
+def make_stanza(control_text, digest, deb_name, filename=None):
     control = fields(control_text)
     identity(control)
     lines = [f"{k}: {v}" for k, v in control.items() if k not in GENERATED]
     lines.extend([
-        f"Filename: pool/main/{deb_name}", f"Size: {digest['size']}",
+        f"Filename: {filename or 'pool/main/' + deb_name}", f"Size: {digest['size']}",
         f"MD5sum: {digest['md5']}", f"SHA1: {digest['sha1']}",
         f"SHA256: {digest['sha256']}",
     ])
@@ -164,41 +165,83 @@ def release_bytes(packages, compressed):
     return ("\n".join(lines) + "\n").encode()
 
 
-def run_indexing(copy_debs=True, root=ROOT):
-    if not copy_debs:
-        raise ValueError("Cannot publish references without copying the corresponding packages")
+def select_packages(root):
+    """Read real controls and bytes across the entire pool and staging tree.
+
+    Keep one candidate per package/architecture, using dpkg version ordering.
+    Historical pool files are retained. A previously indexed same-version build
+    remains canonical; conflicting unindexed bytes are reported, never relabelled.
+    """
     root = Path(root).resolve()
     apt, dists = root / "apt", root / "apt/dists/stable"
-    keyring = apt / "ocean.gpg"
-    # Fail before touching ANY live file if the original private key is absent.
-    fingerprint = require_signing_key(keyring)
-    selected = {}
+    selected, original, conflicts = {}, {}, []
+    staged = []
+    for deb in sorted((root / "staging").rglob("*.deb")):
+        control_text, digest = parse_deb(deb)
+        staged.append((deb, control_text, digest))
+    replacements = {digest["sha256"]: (deb, text, digest) for deb, text, digest in staged}
     for stanza in stanzas((dists / INDEX).read_text()):
         control = fields(stanza)
         key = identity(control)
         if key in selected:
             raise ValueError(f"Duplicate indexed package/architecture: {key}")
-        selected[key] = (stanza, control, None)
+        filename = control.get("Filename", "")
+        deb = apt / filename
+        if not filename.startswith("pool/") or not deb.resolve().is_relative_to((apt / "pool").resolve()):
+            raise ValueError(f"Invalid package Filename: {filename}")
+        # An exact staging copy can repair a missing/damaged pool file. Nothing
+        # is changed yet, and no stale index checksum is used as a size shortcut.
+        source, text, digest = replacements.get(control.get("SHA256"), (None, None, None))
+        if source is None:
+            source = deb
+            text, digest = parse_deb(source)
+        actual = fields(text)
+        if identity(actual) != key or actual["Version"] != control["Version"]:
+            raise ValueError(f"Indexed control identity mismatch: {filename}")
+        if digest["sha256"] != control.get("SHA256"):
+            raise ValueError(f"Indexed checksum mismatch without an exact staged replacement: {filename}")
+        corrected = make_stanza(text, digest, deb.name, filename)
+        selected[key] = (corrected, fields(corrected), source)
+        original[key] = control
 
-    updates = 0
-    for deb in sorted((root / "staging").rglob("*.deb")):
-        control_text, digest = parse_deb(deb)
+    def consider(deb, control_text, digest, from_pool):
         control = fields(control_text)
         key = identity(control)
         previous = selected.get(key)
         if previous:
             comparison = compare_versions(control["Version"], previous[1]["Version"])
             if comparison < 0:
-                continue  # Older staged builds cannot downgrade live packages.
+                return
             if comparison == 0:
                 if digest["sha256"] != previous[1].get("SHA256"):
+                    canonical = original.get(key, {})
+                    if from_pool and canonical.get("Version") == control["Version"]:
+                        conflicts.append({"path": deb.relative_to(root).as_posix(),
+                                          "package": control["Package"], "version": control["Version"],
+                                          "sha256": digest["sha256"], "kept": canonical["Filename"]})
+                        return
                     raise ValueError(f"Conflicting bytes for {key} {control['Version']}; bump the version")
-                selected[key] = (previous[0], previous[1], deb)
-                continue
-        stanza = make_stanza(control_text, digest, deb.name)
+                return
+        filename = deb.relative_to(apt).as_posix() if from_pool else "pool/main/" + deb.name
+        destination = apt / filename
+        if not from_pool and destination.exists() and hashes(destination)["sha256"] != digest["sha256"]:
+            raise ValueError(f"Staged filename would overwrite different pool bytes: {filename}; use a versioned filename")
+        stanza = make_stanza(control_text, digest, deb.name, filename)
         selected[key] = (stanza, fields(stanza), deb)
-        updates += 1
 
+    current_paths = {r["Filename"] for r in original.values()}
+    pool = sorted((apt / "pool").rglob("*.deb"))
+    for deb in pool:
+        if deb.is_symlink():
+            if not deb.resolve().is_relative_to((apt / "pool").resolve()) or not deb.is_file():
+                raise ValueError(f"Broken or unsafe pool symlink: {deb}")
+            continue
+        if deb.relative_to(apt).as_posix() in current_paths:
+            continue  # Already checked above, including exact staging recovery.
+        text, digest = parse_deb(deb)
+        consider(deb, text, digest, True)
+    for deb, text, digest in staged:
+        consider(deb, text, digest, False)
     destinations = {}
     for _, control, _ in selected.values():
         filename = control.get("Filename", "")
@@ -208,6 +251,25 @@ def run_indexing(copy_debs=True, root=ROOT):
         if filename in destinations and destinations[filename] != control.get("SHA256"):
             raise ValueError(f"Package filename collision: {filename}")
         destinations[filename] = control.get("SHA256")
+
+    updates = [dict(package=c["Package"], version=c["Version"], architecture=c["Architecture"],
+                    filename=c["Filename"]) for k, (_, c, _) in selected.items()
+               if any(original.get(k, {}).get(f) != c[f] for f in ("Version", "SHA256", "Filename"))]
+    return selected, {"indexedBefore": len(original), "indexedAfter": len(selected),
+                      "poolFiles": len(pool), "stagedFiles": len(staged),
+                      "updates": updates, "retainedPoolConflicts": conflicts,
+                      "runtimeTested": False}
+
+
+def run_indexing(copy_debs=True, root=ROOT):
+    if not copy_debs:
+        raise ValueError("Cannot publish references without copying the corresponding packages")
+    root = Path(root).resolve()
+    apt, dists = root / "apt", root / "apt/dists/stable"
+    keyring = apt / "ocean.gpg"
+    # Fail before touching ANY live file if the original private key is absent.
+    fingerprint = require_signing_key(keyring)
+    selected, report = select_packages(root)
 
     output = ("\n\n".join(selected[k][0] for k in sorted(selected)) + "\n").encode()
     compressed = gzip.compress(output, mtime=0)
@@ -235,7 +297,9 @@ def run_indexing(copy_debs=True, root=ROOT):
         for filename in (str(INDEX), str(INDEX) + ".gz", "Release", "Release.gpg", "InRelease"):
             os.replace(temporary / filename, dists / filename)
     verify_release(dists, keyring)
-    print(f"Verified signed index: {len(selected)} package/architecture entries; {updates} staged updates")
+    print(f"Verified signed index: {len(selected)} package/architecture entries; {len(report['updates'])} updates")
+    for conflict in report["retainedPoolConflicts"]:
+        print(f"Retained conflicting historical bytes without indexing: {conflict['path']}; canonical={conflict['kept']}")
     # Publish pool + all five metadata files in ONE Git commit. Indexing is not
     # runtime validation: never rewrite functional-repair-status.json here.
 
@@ -243,8 +307,14 @@ def run_indexing(copy_debs=True, root=ROOT):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--root", type=Path, default=ROOT)
+    parser.add_argument("--plan", type=Path, help="Write a read-only complete-pool selection report without signing")
     args = parser.parse_args()
     try:
-        run_indexing(root=args.root)
+        if args.plan:
+            _, report = select_packages(args.root)
+            args.plan.write_text(json.dumps(report, indent=2) + "\n")
+            print(json.dumps({k: v for k, v in report.items() if k not in ("updates", "retainedPoolConflicts")}))
+        else:
+            run_indexing(root=args.root)
     except (ValueError, OSError, subprocess.CalledProcessError) as exc:
         parser.exit(1, f"Index publication failed: {exc}\n")

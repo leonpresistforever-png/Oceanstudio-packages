@@ -78,88 +78,13 @@ jobs:
             > "$RUNNER_TEMP/collisions"
           test ! -s "$RUNNER_TEMP/collisions"
 
-      - name: Promote and sign live APT repository
-        id: promote
-        env:
-          OCEAN_REPOSITORY_SIGNING_KEY: ${{ secrets.OCEAN_REPOSITORY_SIGNING_KEY }}
-        run: |
-          set -euo pipefail
-          if [ -z "$OCEAN_REPOSITORY_SIGNING_KEY" ]; then
-            echo "Signing key unavailable; leaving all 250 packages safely staged."
-            echo "promoted=false" >> "$GITHUB_OUTPUT"
-            exit 0
-          fi
-
-          EXPECTED=$(gpg --batch --show-keys --with-colons apt/ocean.gpg 2>/dev/null | awk -F: '$1=="fpr"{print $10;exit}')
-          test -n "$EXPECTED"
-          printf '%s\n' "$OCEAN_REPOSITORY_SIGNING_KEY" | gpg --batch --import
-          ACTUAL=$(gpg --batch --list-secret-keys --with-colons 2>/dev/null | awk -F: '$1=="fpr"{print $10;exit}')
-          [ "$ACTUAL" = "$EXPECTED" ] || { echo "Signing fingerprint mismatch" >&2; exit 1; }
-
-          PKG=apt/dists/stable/main/binary-aarch64/Packages
-          PKG_GZ=apt/dists/stable/main/binary-aarch64/Packages.gz
-          OLD_STANZAS=$(grep -c '^Package:' "$PKG")
-          OLD_UNIQUE=$(grep '^Package:' "$PKG" | sed 's/^Package:[[:space:]]*//' | sort -u | wc -l)
-
-          mkdir -p apt/pool/main
-          cp -f staging/power-suite/pool/main/*.deb apt/pool/main/
-
-          printf '\n' >> "$PKG"
-          cat staging/power-suite/Packages.new >> "$PKG"
-
-          NEW_STANZAS=$(grep -c '^Package:' "$PKG")
-          NEW_UNIQUE=$(grep '^Package:' "$PKG" | sed 's/^Package:[[:space:]]*//' | sort -u | wc -l)
-          test "$NEW_STANZAS" -eq "$((OLD_STANZAS + 250))"
-          test "$NEW_UNIQUE" -eq "$((OLD_UNIQUE + 250))"
-
-          gzip -n -9 -c "$PKG" > "$PKG_GZ"
-
-          RELEASE=apt/dists/stable/Release
-          DATE=$(date -u -R)
-          VALID=$(date -u -R -d '+30 days')
-          {
-            echo "Origin: OceanStudio"
-            echo "Label: Ocean Packages"
-            echo "Suite: stable"
-            echo "Codename: stable"
-            echo "Architectures: aarch64 all"
-            echo "Components: main"
-            echo "Description: Official Ocean APT Repository"
-            echo "Date: $DATE"
-            echo "Valid-Until: $VALID"
-            echo "MD5Sum:"
-            printf ' %s %s main/binary-aarch64/Packages\n' "$(md5sum "$PKG" | awk '{print $1}')" "$(stat -c %s "$PKG")"
-            printf ' %s %s main/binary-aarch64/Packages.gz\n' "$(md5sum "$PKG_GZ" | awk '{print $1}')" "$(stat -c %s "$PKG_GZ")"
-            echo "SHA1:"
-            printf ' %s %s main/binary-aarch64/Packages\n' "$(sha1sum "$PKG" | awk '{print $1}')" "$(stat -c %s "$PKG")"
-            printf ' %s %s main/binary-aarch64/Packages.gz\n' "$(sha1sum "$PKG_GZ" | awk '{print $1}')" "$(stat -c %s "$PKG_GZ")"
-            echo "SHA256:"
-            printf ' %s %s main/binary-aarch64/Packages\n' "$(sha256sum "$PKG" | awk '{print $1}')" "$(stat -c %s "$PKG")"
-            printf ' %s %s main/binary-aarch64/Packages.gz\n' "$(sha256sum "$PKG_GZ" | awk '{print $1}')" "$(stat -c %s "$PKG_GZ")"
-          } > "$RELEASE"
-
-          gpg --batch --yes --local-user "$EXPECTED" --digest-algo SHA256 --clearsign --output apt/dists/stable/InRelease "$RELEASE"
-          gpg --batch --yes --local-user "$EXPECTED" --digest-algo SHA256 --detach-sign --output apt/dists/stable/Release.gpg "$RELEASE"
-          gpgv --keyring apt/ocean.gpg apt/dists/stable/InRelease
-          gpgv --keyring apt/ocean.gpg apt/dists/stable/Release.gpg "$RELEASE"
-
-          echo "old_stanzas=$OLD_STANZAS" >> "$GITHUB_OUTPUT"
-          echo "old_unique=$OLD_UNIQUE" >> "$GITHUB_OUTPUT"
-          echo "new_stanzas=$NEW_STANZAS" >> "$GITHUB_OUTPUT"
-          echo "new_unique=$NEW_UNIQUE" >> "$GITHUB_OUTPUT"
-          echo "promoted=true" >> "$GITHUB_OUTPUT"
-
-      - name: Commit staged build and signed promotion
+      - name: Commit staged build for central signed publication
         run: |
           set -euo pipefail
           git config user.name "Ocean Package Builder"
           git config user.email "packages@ocean.studio"
 
           git add staging/power-suite
-          if [ "${{ steps.promote.outputs.promoted }}" = "true" ]; then
-            git add apt/dists/stable
-            git add --sparse apt/pool/main/*.deb
-          fi
 
           if git diff --cached --quiet; then
             echo "No changes to commit."
@@ -170,11 +95,5 @@ jobs:
           git pull --rebase origin main
           git push origin HEAD:main
 
-      - name: Final report
-        run: |
-          echo "Built packages: 250"
-          echo "Promoted: ${{ steps.promote.outputs.promoted }}"
-          echo "Old live stanzas: ${{ steps.promote.outputs.old_stanzas }}"
-          echo "New live stanzas: ${{ steps.promote.outputs.new_stanzas }}"
-          echo "Old unique names: ${{ steps.promote.outputs.old_unique }}"
-          echo "New unique names: ${{ steps.promote.outputs.new_unique }}"
+      - name: Publication handoff
+        run: echo "Validated staging is preserved. Live publication runs through the complete APT publisher."

@@ -1,15 +1,12 @@
 #!/usr/bin/env python3
-"""Build and index 1,000 new, unique, non-duplicate packages across 20 shards for OceanStudio."""
+"""Build expansion candidates in staging; only the signed publisher may modify live APT."""
 from __future__ import annotations
 import os, sys, re, shutil, subprocess, hashlib, tempfile, gzip, time
 from datetime import datetime, timezone
 from pathlib import Path
 
-ROOT = Path("/data/data/com.termux/files/home/Oceanstudio-packages-sparse")
+ROOT = Path(__file__).resolve().parents[2]
 PKG_FILE = ROOT / "apt/dists/stable/main/binary-aarch64/Packages"
-PKG_GZ_FILE = ROOT / "apt/dists/stable/main/binary-aarch64/Packages.gz"
-RELEASE_FILE = ROOT / "apt/dists/stable/Release"
-LIVE_POOL = ROOT / "apt/pool/main"
 STAGING_DIR = ROOT / "staging"
 
 PREFIX = "/data/data/studio.ocean.app/files/usr"
@@ -81,7 +78,6 @@ def main():
         raise SystemExit(f"FATAL: {len(collisions)} candidate packages collide with existing repo: {collisions}")
 
     print("Zero collisions confirmed against existing repository.")
-    LIVE_POOL.mkdir(parents=True, exist_ok=True)
 
     new_stanzas = []
     total_built = 0
@@ -100,7 +96,6 @@ def main():
         for pkg_name, version, short_desc in pkgs:
             deb_filename = f"{pkg_name}_{version}_aarch64.deb"
             deb_staging_path = shard_pool / deb_filename
-            deb_live_path = LIVE_POOL / deb_filename
 
             # Build deb package in temporary directory
             with tempfile.TemporaryDirectory(prefix=f"pkg-{pkg_name}-") as td:
@@ -230,15 +225,14 @@ Description: {short_desc}
                     raise SystemExit(f"dpkg-deb failed for {pkg_name}: {res.stderr}")
 
             # Copy to live pool
-            shutil.copy2(deb_staging_path, deb_live_path)
 
             # Validate binary against forbidden strings
-            deb_data = deb_live_path.read_bytes()
+            deb_data = deb_staging_path.read_bytes()
             for f_str in FORBIDDEN:
                 if f_str in deb_data:
-                    raise SystemExit(f"FATAL: Forbidden leak {f_str} in {deb_live_path}")
+                    raise SystemExit(f"FATAL: Forbidden leak {f_str} in {deb_staging_path}")
 
-            hashes = get_hashes(deb_live_path)
+            hashes = get_hashes(deb_staging_path)
             provenance_entries.append({
                 "package": pkg_name,
                 "version": version,
@@ -286,54 +280,8 @@ Description: {short_desc}
 
     print(f"\nAll {total_built} new packages built and staged successfully in {time.time() - start_time:.2f}s!")
 
-    # 3. Update Master Packages file
-    print("Updating master repository indexes...")
-    full_new_content = existing_content.rstrip() + "\n\n" + "\n\n".join(new_stanzas) + "\n"
-    PKG_FILE.write_text(full_new_content, encoding="utf-8")
-
-    # 4. Generate deterministic Packages.gz (mtime=0)
-    with open(PKG_GZ_FILE, "wb") as f_out:
-        with gzip.GzipFile(filename="", mode="wb", fileobj=f_out, mtime=0) as gz:
-            gz.write(full_new_content.encode("utf-8"))
-
-    # 5. Update Release file checksums
-    pkg_hashes = get_hashes(PKG_FILE)
-    gz_hashes = get_hashes(PKG_GZ_FILE)
-
-    now_utc = datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S +0000")
-    valid_until = datetime.fromtimestamp(time.time() + 30*86400, timezone.utc).strftime("%a, %d %b %Y %H:%M:%S +0000")
-
-    release_lines = [
-        "Origin: OceanStudio",
-        "Label: Ocean Packages",
-        "Suite: stable",
-        "Codename: stable",
-        "Architectures: aarch64 all",
-        "Components: main",
-        "Description: Official Ocean APT Repository",
-        f"Date: {now_utc}",
-        f"Valid-Until: {valid_until}",
-        "MD5Sum:",
-        f" {pkg_hashes['md5']} {pkg_hashes['size']} main/binary-aarch64/Packages",
-        f" {gz_hashes['md5']} {gz_hashes['size']} main/binary-aarch64/Packages.gz",
-        "SHA1:",
-        f" {pkg_hashes['sha1']} {pkg_hashes['size']} main/binary-aarch64/Packages",
-        f" {gz_hashes['sha1']} {gz_hashes['size']} main/binary-aarch64/Packages.gz",
-        "SHA256:",
-        f" {pkg_hashes['sha256']} {pkg_hashes['size']} main/binary-aarch64/Packages",
-        f" {gz_hashes['sha256']} {gz_hashes['size']} main/binary-aarch64/Packages.gz",
-    ]
-    RELEASE_FILE.write_text("\n".join(release_lines) + "\n", encoding="utf-8")
-
-    # 6. Final verification
-    all_final_stanzas = re.findall(r"^Package: (.*)$", full_new_content, re.MULTILINE)
-    final_unique = set(all_final_stanzas)
-    print("\n=== FINAL REPOSITORY AUDIT ===")
-    print(f"Total package stanzas: {len(all_final_stanzas)} (expected 2,518)")
-    print(f"Total unique packages: {len(final_unique)} (expected 2,508)")
-    assert len(all_final_stanzas) == 2518, f"Stanza count mismatch: {len(all_final_stanzas)}"
-    assert len(final_unique) == 2508, f"Unique package count mismatch: {len(final_unique)}"
-    print("SUCCESS: 2,508 unique packages reached with ZERO duplicates and full compliance!")
+    print("Staging only: run the complete signed APT publisher after candidate validation.")
+    print("Package construction is not evidence of runtime functionality or upstream provenance.")
 
 if __name__ == "__main__":
     main()

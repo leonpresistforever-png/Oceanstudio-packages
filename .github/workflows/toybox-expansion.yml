@@ -55,85 +55,12 @@ jobs:
           grep -q '"packageCount": 153' staging/toybox-0.8.14/provenance.json
           ! grep -R -a -E '/data/(data|user/0)/com\.termux|packages\.termux\.dev|TERMUX_PREFIX' staging/toybox-0.8.14
 
-      - name: Promote only with the existing trusted Ocean signing identity
-        id: promote
-        env:
-          OCEAN_REPOSITORY_SIGNING_KEY: ${{ secrets.OCEAN_REPOSITORY_SIGNING_KEY }}
-        run: |
-          set -euo pipefail
-          if [ -z "$OCEAN_REPOSITORY_SIGNING_KEY" ]; then
-            echo "No repository signing secret is available in this public repository."
-            echo "Live apt/ remains unchanged; compiled packages stay in staging."
-            echo "promoted=false" >> "$GITHUB_OUTPUT"
-            exit 0
-          fi
-
-          # The large live repository is intentionally fetched only after a trusted
-          # signing identity is available. Compilation never mutates the working pool.
-          git sparse-checkout add apt
-
-          EXPECTED=$(gpg --batch --show-keys --with-colons apt/ocean.gpg 2>/dev/null | awk -F: '$1=="fpr"{print $10;exit}')
-          test -n "$EXPECTED"
-          printf '%s\n' "$OCEAN_REPOSITORY_SIGNING_KEY" | gpg --batch --import
-          ACTUAL=$(gpg --batch --list-secret-keys --with-colons 2>/dev/null | awk -F: '$1=="fpr"{print $10;exit}')
-          if [ "$ACTUAL" != "$EXPECTED" ]; then
-            echo "Refusing live promotion: signing fingerprint mismatch expected=$EXPECTED actual=$ACTUAL" >&2
-            exit 1
-          fi
-
-          cp -f staging/toybox-0.8.14/pool/main/*.deb apt/pool/main/
-          mkdir -p apt/dists/stable/main/binary-aarch64
-          (
-            cd apt
-            dpkg-scanpackages --multiversion pool/main /dev/null > dists/stable/main/binary-aarch64/Packages
-            gzip -n -9 -c dists/stable/main/binary-aarch64/Packages > dists/stable/main/binary-aarch64/Packages.gz
-          )
-
-          RELEASE=apt/dists/stable/Release
-          PKG=apt/dists/stable/main/binary-aarch64/Packages
-          PKG_GZ=apt/dists/stable/main/binary-aarch64/Packages.gz
-          DATE=$(date -u -R)
-          VALID=$(date -u -R -d '+30 days')
-          {
-            echo "Origin: OceanStudio"
-            echo "Label: Ocean Packages"
-            echo "Suite: stable"
-            echo "Codename: stable"
-            echo "Architectures: aarch64 all"
-            echo "Components: main"
-            echo "Description: Official Ocean APT Repository"
-            echo "Date: $DATE"
-            echo "Valid-Until: $VALID"
-            echo "MD5Sum:"
-            printf ' %s %s main/binary-aarch64/Packages\n' "$(md5sum "$PKG" | awk '{print $1}')" "$(stat -c %s "$PKG")"
-            printf ' %s %s main/binary-aarch64/Packages.gz\n' "$(md5sum "$PKG_GZ" | awk '{print $1}')" "$(stat -c %s "$PKG_GZ")"
-            echo "SHA1:"
-            printf ' %s %s main/binary-aarch64/Packages\n' "$(sha1sum "$PKG" | awk '{print $1}')" "$(stat -c %s "$PKG")"
-            printf ' %s %s main/binary-aarch64/Packages.gz\n' "$(sha1sum "$PKG_GZ" | awk '{print $1}')" "$(stat -c %s "$PKG_GZ")"
-            echo "SHA256:"
-            printf ' %s %s main/binary-aarch64/Packages\n' "$(sha256sum "$PKG" | awk '{print $1}')" "$(stat -c %s "$PKG")"
-            printf ' %s %s main/binary-aarch64/Packages.gz\n' "$(sha256sum "$PKG_GZ" | awk '{print $1}')" "$(stat -c %s "$PKG_GZ")"
-          } > "$RELEASE"
-
-          gpg --batch --yes --local-user "$EXPECTED" --digest-algo SHA256 --clearsign --output apt/dists/stable/InRelease "$RELEASE"
-          gpg --batch --yes --local-user "$EXPECTED" --digest-algo SHA256 --detach-sign --output apt/dists/stable/Release.gpg "$RELEASE"
-          gpgv --keyring apt/ocean.gpg apt/dists/stable/InRelease
-          gpgv --keyring apt/ocean.gpg apt/dists/stable/Release.gpg "$RELEASE"
-
-          LIVE_COUNT=$(grep -c '^Package: ' "$PKG")
-          test "$LIVE_COUNT" -ge 1199
-          echo "Live signed repository now contains $LIVE_COUNT indexed records."
-          echo "promoted=true" >> "$GITHUB_OUTPUT"
-
-      - name: Commit compiled staging batch and any signed live promotion
+      - name: Commit compiled staging batch for central signed publication
         run: |
           set -euo pipefail
           git config user.name "Ocean Package Builder"
           git config user.email "packages@ocean.studio"
           git add staging/toybox-0.8.14
-          if [ "${{ steps.promote.outputs.promoted }}" = "true" ]; then
-            git add apt/pool/main apt/dists/stable
-          fi
           if git diff --cached --quiet; then
             echo "No generated changes to commit."
             exit 0

@@ -167,6 +167,43 @@ class PublicationTests(unittest.TestCase):
         self.publish()
         self.assertEqual(status.read_bytes(), before)
 
+    def test_unindexed_pool_package_and_newer_pool_version_are_promoted(self):
+        self.build(version="1.0")
+        self.publish()
+        for name, version in (("ocean-fixture", "1:2.0"), ("pool-only", "1.0")):
+            built = self.build(version=version, name=name, group=name)
+            pool = self.root / "apt/pool/extra" / built.name
+            pool.parent.mkdir(parents=True, exist_ok=True)
+            built.rename(pool)
+        self.publish()
+        records = {r["Package"]: r for r in self.records()}
+        self.assertEqual(records["ocean-fixture"]["Version"], "1:2.0")
+        self.assertEqual(records["pool-only"]["Filename"], "pool/extra/pool-only_1.0_all.deb")
+        self.assertEqual(audit(self.root)["errors"], [])
+
+    def test_historical_pool_conflict_retains_published_build_and_reports_it(self):
+        self.build()
+        self.publish()
+        canonical = self.records()[0]["SHA256"]
+        conflict = self.build(group="conflict", content="different bytes\n")
+        historical = self.root / "apt/pool/main/conflicting-alias.deb"
+        conflict.rename(historical)
+        self.publish()
+        self.assertEqual(self.records()[0]["SHA256"], canonical)
+        self.assertTrue(historical.is_file())
+        _, plan = indexer.select_packages(self.root)
+        self.assertEqual(plan["retainedPoolConflicts"][0]["path"], "apt/pool/main/conflicting-alias.deb")
+
+    def test_missing_live_file_fails_before_new_metadata_is_written(self):
+        self.build()
+        self.publish()
+        shutil.rmtree(self.root / "staging")
+        (self.root / "apt" / self.records()[0]["Filename"]).unlink()
+        before = self.snapshot()
+        with self.assertRaises(subprocess.CalledProcessError):
+            self.publish()
+        self.assertEqual(self.snapshot(), before)
+
     def test_real_apt_accepts_signed_index_and_sees_the_package(self):
         self.build()
         self.publish()
