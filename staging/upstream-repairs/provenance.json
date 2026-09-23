@@ -1,0 +1,63 @@
+{
+  "packages": [
+    {
+      "package": "pigz",
+      "version": "2.8-1",
+      "artifact": "pigz_2.8-1_aarch64.deb",
+      "sha256": "1a6defcfb60b157929b38dfb9d05f9830ac9a65aa72748368355c2b4c53e4212",
+      "sources": {
+        "pigz": {
+          "url": "https://github.com/madler/pigz.git",
+          "commit": "fe4894f57739e3039a2ffc2a2a360d35e19bacbe",
+          "sourceArchiveSha256": "ed530f699a2257553b1224e648d1a0c74b0d33e011cbcc3a5e44e47103f5427c"
+        },
+        "zlib": {
+          "url": "https://github.com/madler/zlib.git",
+          "commit": "da607da739fa6047df13e66a2af6b8bec7c2a498",
+          "sourceArchiveSha256": "9a0323b8dcde2417150eeaa8ccccae0cb0d7f62b72c3dedafb4cd63df7ba0b45"
+        }
+      },
+      "tests": {
+        "qemuAndroidBinary": "pigz 2.8",
+        "gzipRoundTrips": 2
+      },
+      "payloadAudit": {
+        "files": 7,
+        "elfFiles": 1,
+        "executables": [
+          "./data/data/studio.ocean.app/files/usr/bin/pigz"
+        ],
+        "issues": []
+      },
+      "physicalDeviceTested": false
+    },
+    {
+      "package": "librsync",
+      "version": "2.3.4-1",
+      "artifact": "librsync_2.3.4-1_aarch64.deb",
+      "sha256": "aa86ccf6cd004c49257b76dbe90de6eb1d39f0d6c1fbca5e586443c4374d32bf",
+      "sources": {
+        "librsync": {
+          "url": "https://github.com/librsync/librsync.git",
+          "commit": "e364852674780e43d578e4239128ff7014190ed3",
+          "sourceArchiveSha256": "342c15a1ddbf5dfcab6ba1719d3b8b05dd601c3ba90832eaa2445b2575e5acd0"
+        }
+      },
+      "tests": {
+        "qemuAndroidLibraryRoundTrip": "signature, delta and patch round trip passed",
+        "sharedLibraryRuntime": "not tested"
+      },
+      "payloadAudit": {
+        "files": 8,
+        "elfFiles": 1,
+        "executables": [],
+        "issues": []
+      },
+      "physicalDeviceTested": false
+    }
+  ],
+  "prefix": "/data/data/studio.ocean.app/files/usr",
+  "sourcePolicy": "Pinned official upstream commits, Android NDK; no imported package binaries",
+  "nativeAndroidDeviceTested": false,
+  "promotion": "requires canonical signed publication"
+}

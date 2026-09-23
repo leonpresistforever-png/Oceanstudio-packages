@@ -1,0 +1,27 @@
+Package: pigz
+Version: 2.8-1
+Architecture: aarch64
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Homepage: https://github.com/madler/pigz
+Description: Parallel gzip compiled from official pigz and zlib sources for Ocean Android
+Filename: pool/main/pigz_2.8-1_aarch64.deb
+Size: 862340
+MD5sum: e6b8e896b352c3a304579dba33f9b496
+SHA1: c15d3a79869d9a4109824f14425ea6c8b551c003
+SHA256: 1a6defcfb60b157929b38dfb9d05f9830ac9a65aa72748368355c2b4c53e4212
+
+Package: librsync
+Version: 2.3.4-1
+Architecture: aarch64
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Homepage: https://github.com/librsync/librsync
+Description: Rsync signature and delta library compiled from official source for Ocean Android
+Filename: pool/main/librsync_2.3.4-1_aarch64.deb
+Size: 138060
+MD5sum: 0f1a614d0749b8cd01c2f08d5afe986b
+SHA1: 6c85c8432a5520982b6918be9ca128fa2d8738d3
+SHA256: aa86ccf6cd004c49257b76dbe90de6eb1d39f0d6c1fbca5e586443c4374d32bf
