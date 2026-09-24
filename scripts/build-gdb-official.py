@@ -56,13 +56,17 @@ def main():
             "reason":"Bionic strerror_r returns char*; avoid gnulib 9.2 POSIX-int call path",
             "beforeSha256":hashlib.sha256(compat_before.encode()).hexdigest(),
             "afterSha256":hashlib.sha256(compat_after.encode()).hexdigest()}
-        compiler_compat={"flag":"-Wno-enum-constexpr-conversion",
-            "reason":"GDB 9.2 enum-flags intentionally probes T(-1); modern Clang diagnoses that legacy constexpr enum conversion"}
+        compiler_compat=[
+            {"flag":"-Wno-enum-constexpr-conversion",
+             "reason":"GDB 9.2 enum-flags intentionally probes T(-1); modern Clang diagnoses that legacy constexpr enum conversion"},
+            {"flags":["-DHAVE_ELF32_AUXV_T=1","-DHAVE_ELF64_AUXV_T=1"],
+             "reason":"Android NDK elf.h already defines Elf32_auxv_t/Elf64_auxv_t; prevent GDB 9.2 gdbserver fallback typedef redefinition"}
+        ]
         build.mkdir()
         env=dict(os.environ,CC=str(cc),CXX=str(cxx),AR=str(tools/"llvm-ar"),
                  RANLIB=str(tools/"llvm-ranlib"),STRIP=str(tools/"llvm-strip"),
-                 CFLAGS=f"-O2 -ffile-prefix-map={work}=/usr/src/ocean -fdebug-prefix-map={work}=/usr/src/ocean",
-                 CXXFLAGS=f"-O2 -Wno-enum-constexpr-conversion -ffile-prefix-map={work}=/usr/src/ocean -fdebug-prefix-map={work}=/usr/src/ocean",
+                 CFLAGS=f"-O2 -DHAVE_ELF32_AUXV_T=1 -DHAVE_ELF64_AUXV_T=1 -ffile-prefix-map={work}=/usr/src/ocean -fdebug-prefix-map={work}=/usr/src/ocean",
+                 CXXFLAGS=f"-O2 -Wno-enum-constexpr-conversion -DHAVE_ELF32_AUXV_T=1 -DHAVE_ELF64_AUXV_T=1 -ffile-prefix-map={work}=/usr/src/ocean -fdebug-prefix-map={work}=/usr/src/ocean",
                  LDFLAGS="-static -Wl,-z,max-page-size=16384",
                  SOURCE_DATE_EPOCH="0",MAKEINFO="true")
         configure=[
@@ -112,7 +116,7 @@ def main():
         report={"status":"PASS_CANDIDATE","package":"gdb","version":VERSION,"source":SOURCE,
                 "tag":TAG,"commit":commit,"sha256":sha(deb),"target":"aarch64-linux-android28",
                 "prefix":PREFIX,"qemuArm64Version":ver.stdout.splitlines()[0],
-                "static":True,"foreignRuntimeMarkers":[],"oceanPatches":[patch_record],"compilerCompatibility":[compiler_compat],"androidPhonePtraceTested":False,
+                "static":True,"foreignRuntimeMarkers":[],"oceanPatches":[patch_record],"compilerCompatibility":compiler_compat,"androidPhonePtraceTested":False,
                 "limitation":"QEMU user mode proves executable startup/version, not ptrace debugging on a physical Android device"}
         (out/"provenance.json").write_text(json.dumps(report,indent=2)+"\n")
         print(json.dumps(report,indent=2))
