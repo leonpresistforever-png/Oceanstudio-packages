@@ -7,7 +7,7 @@
     "arch": "arm64",
     "url": "https://cloud.debian.org/images/cloud/bookworm/latest/debian-12-generic-arm64.tar.xz",
     "fallback_url": "https://raw.githubusercontent.com/debuerreotype/docker-debian-artifacts/dist-arm64/bookworm/rootfs.tar.xz",
-    "sha256": "skip",
+    "sha256": "77213a2c0417c370d2d51ea94c0c43d707a8aaf3b9dc6d5075aa442b6d8444ea",
     "shell": "/bin/bash",
     "update_cmd": "apt update && apt upgrade -y",
     "description": "Primary glibc compatibility baseline."
