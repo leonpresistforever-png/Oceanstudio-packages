@@ -52,8 +52,15 @@ def caddy(src, work, stage, receipts):
     run(['go', 'build', '-mod=readonly', '-trimpath', '-buildvcs=false',
          '-tags=netgo,osusergo', '-ldflags=-s -w -buildid= -X github.com/caddyserver/caddy/v2.CustomVersion=v2.11.4-ocean.1',
          '-o', binary, './cmd/caddy'], cwd=src, env=env)
+    version, err = capture(['qemu-aarch64',binary,'version'],env=env)
+    if b'v2.11.4' not in version+err:
+        raise RuntimeError('Actual Android ARM Caddy version did not match the source')
     doc = prefix/'share/doc/caddy'; doc.mkdir(parents=True)
-    modules = json_stream(subprocess.check_output(['go','list','-m','-json','all'],cwd=src,env=env,text=True))
+    # License the modules actually linked for this target. `go list -m all`
+    # includes upstream lint/test tools that are not shipped in the executable.
+    packages = json_stream(subprocess.check_output(
+        ['go','list','-deps','-json','-tags=netgo,osusergo','./cmd/caddy'],cwd=src,env=env,text=True))
+    modules = list({r['Module']['Path']:r['Module'] for r in packages if 'Module' in r}.values())
     missing = []
     for module in modules:
         location = module.get('Dir')
@@ -76,9 +83,6 @@ def caddy(src, work, stage, receipts):
         {k:v for k,v in m.items() if k in ('Path','Version','Sum','GoModSum')}
         for m in modules],indent=2)+'\n')
     receipts['toolchain'] = subprocess.check_output(['go','version'],text=True).strip()
-    version, err = capture(['qemu-aarch64',binary,'version'],env=env)
-    if b'v2.11.4' not in version+err:
-        raise RuntimeError('Actual Android ARM Caddy version did not match the source')
     content = work/'served'; content.mkdir()
     expected = b'Ocean official-source Caddy HTTP smoke test\n'
     (content/'proof.txt').write_bytes(expected)
@@ -118,6 +122,20 @@ def strace(src, work, stage, ndk, receipts):
     run([cc,'-c',ROOT/'scripts/android-static-tls.S','-o',tls])
     # The pinned official tag provides autotools' version metadata in a shallow checkout.
     run(['git','tag','v7.2',SOURCES['strace'][1]],cwd=src)
+    # Upstream intentionally probes a kernel ABI with a null mask. Bionic's
+    # sched_getaffinity contract rejects null arguments, so invoke that same
+    # documented kernel probe directly without violating the libc contract.
+    affinity=src/'src/affinity.c'
+    original=affinity.read_text()
+    probe='sched_getaffinity(0, cpuset_size, NULL)'
+    if original.count(probe)!=1:raise RuntimeError('Upstream affinity probe changed')
+    patched=original.replace('#include <sched.h>','#include <sched.h>\n#include <sys/syscall.h>\n#include <unistd.h>')
+    patched=patched.replace(probe,'syscall(SYS_sched_getaffinity, 0, cpuset_size, NULL)')
+    affinity.write_text(patched)
+    receipts['oceanPatches']=[{'path':'src/affinity.c',
+        'reason':'Use the kernel affinity-size probe without passing NULL to Bionic nonnull API',
+        'beforeSha256':hashlib.sha256(original.encode()).hexdigest(),
+        'afterSha256':hashlib.sha256(patched.encode()).hexdigest()}]
     run(['./bootstrap'],cwd=src)
     env=dict(os.environ,CC=str(cc),AR=str(tools/'llvm-ar'),RANLIB=str(tools/'llvm-ranlib'),
              CFLAGS='-O2 -ffile-prefix-map='+str(work)+'=/usr/src/ocean',
