@@ -1,0 +1,28 @@
+{
+  "androidRuntimeTested": false,
+  "originalMaintainerScriptsExecuted": false,
+  "purpose": "Isolated dpkg unpack reproduction with unchanged data archives",
+  "packages": [
+    {
+      "package": "openjdk-21-jre-headless",
+      "version": "21.0.12",
+      "originalSha256": "62e6dbfcd86fa8c4431f520e6c240d1902fca1a9018d0c81805a4a4c9267caa7",
+      "originalBytes": 38449072,
+      "payloadArchiveSha256": "b13ca73a4c187e32191811ea33731efe8d709fdece3c11ea5535a6aad38207a5",
+      "replayExitCode": 0,
+      "stdout": "Selecting previously unselected package openjdk-21-jre-headless:aarch64.\n(Reading database ... 0 files and directories currently installed.)\nPreparing to unpack .../test-only-no-maintainer-scripts.deb ...\nUnpacking openjdk-21-jre-headless:aarch64 (21.0.12) ...\n",
+      "stderr": "mkdir: cannot create directory \u2018/run/needrestart\u2019: Permission denied\ndpkg: could not open log '/var/log/dpkg.log': Permission denied\ndpkg: warning: overriding problem because --force enabled:\ndpkg: warning: package architecture (aarch64) does not match system (amd64)\ntouch: cannot touch '/run/needrestart/unpacked': No such file or directory\n"
+    },
+    {
+      "package": "openjdk-21",
+      "version": "21.0.12",
+      "originalSha256": "4a1c999cf4d21d3cbd29d93489fcd7f96c09f0df7791b2356d2bac1d7407fcd8",
+      "originalBytes": 74094116,
+      "payloadArchiveSha256": "b79871e61400af4a28db821945528d6e89ed3a04206a1e644624faeaf1c26c2f",
+      "replayExitCode": 1,
+      "stdout": "Selecting previously unselected package openjdk-21:aarch64.\n(Reading database ... 467 files and directories currently installed.)\nPreparing to unpack .../test-only-no-maintainer-scripts.deb ...\nUnpacking openjdk-21:aarch64 (21.0.12) ...\n",
+      "stderr": "dpkg: could not open log '/var/log/dpkg.log': Permission denied\nmkdir: cannot create directory \u2018/run/needrestart\u2019: Permission denied\ndpkg: warning: overriding problem because --force enabled:\ndpkg: warning: package architecture (aarch64) does not match system (amd64)\ndpkg: error processing archive /tmp/ocean-jdk-replay-22upo7ne/openjdk-21/test-only-no-maintainer-scripts.deb (--unpack):\n trying to overwrite '/data/data/studio.ocean.app/files/usr/lib/jvm/java-21-openjdk/bin/jar', which is also in package openjdk-21-jre-headless:aarch64 21.0.12\ntouch: cannot touch '/run/needrestart/errored': No such file or directory\ndpkg-deb: error: paste subprocess was killed by signal (Broken pipe)\nErrors were encountered while processing:\n /tmp/ocean-jdk-replay-22upo7ne/openjdk-21/test-only-no-maintainer-scripts.deb\n"
+    }
+  ],
+  "overwriteFailureReproduced": true
+}
