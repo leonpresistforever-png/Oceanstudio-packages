@@ -1,0 +1,39 @@
+name: Discover remaining official distro rootfs
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  discover:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - name: Probe authoritative upstream ARM64 artifacts
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import urllib.request,re
+          urls={
+          "debian":"https://cloud.debian.org/images/cloud/bookworm/latest/SHA512SUMS",
+          "fedora":"https://fedoraproject.org/everything/download/",
+          "rocky":"https://dl.rockylinux.org/pub/rocky/9/images/aarch64/",
+          "alma":"https://repo.almalinux.org/almalinux/9/cloud/aarch64/images/",
+          "opensuse":"https://download.opensuse.org/ports/aarch64/tumbleweed/appliances/",
+          "kali":"https://kali.download/nethunter-images/current/rootfs/",
+          "centos":"https://cloud.centos.org/centos/9-stream/aarch64/images/",
+          "devuan":"https://files.devuan.org/devuan_daedalus/installer-iso/"
+          }
+          for name,url in urls.items():
+            print("\n==",name,url)
+            try:
+              req=urllib.request.Request(url,headers={"User-Agent":"OceanStudio-rootfs-discovery/1"})
+              with urllib.request.urlopen(req,timeout=30) as r:
+                data=r.read(2_000_000).decode("utf-8","replace")
+                print("HTTP",r.status,"FINAL",r.url,"BYTES",len(data))
+                for line in data.splitlines():
+                  low=line.lower()
+                  if ("aarch64" in low or "arm64" in low) and any(x in low for x in (".tar",".xz",".gz","sha256","sha512","rootfs","container")):
+                    print(line[:1200])
+            except Exception as e: print("ERROR",repr(e))
+          PY
