@@ -103,12 +103,10 @@ def publish():
             # Preserve existing control metadata but regenerate exactly from the
             # already indexed package bytes to prevent stale size/hash fields.
             filename=r["Filename"]; deb=apt/filename
+            filename=r["Filename"]; deb=apt/filename
             text,digest=parse_deb(deb)
             stanzas_out.append(make_stanza(text,digest,deb.name,filename))
-    packages=("
-
-".join(stanzas_out)+"
-").encode()
+    packages = ((chr(10) + chr(10)).join(stanzas_out) + chr(10)).encode()
     compressed=gzip.compress(packages,mtime=0)
     with tempfile.TemporaryDirectory(prefix="ocean-critical-signed-",dir=ROOT) as td:
         tmp=Path(td); (tmp/INDEX).parent.mkdir(parents=True)
@@ -134,11 +132,9 @@ def main():
     a=ap.parse_args()
     try:
         if a.plan:
-            *_,report=plan(); a.plan.parent.mkdir(parents=True,exist_ok=True);a.plan.write_text(json.dumps(report,indent=2)+"
-");print(json.dumps(report,indent=2))
+            *_,report=plan(); a.plan.parent.mkdir(parents=True,exist_ok=True); a.plan.write_text(json.dumps(report,indent=2)+chr(10)); print(json.dumps(report,indent=2))
         else:
-            report=publish();print(json.dumps(report,indent=2))
+            report=publish(); print(json.dumps(report,indent=2))
     except (ValueError,OSError,subprocess.CalledProcessError) as exc:
-        ap.exit(1,"Critical publication failed: "+str(exc)+"
-")
+        ap.exit(1, "Critical publication failed: " + str(exc) + chr(10))
 if __name__=="__main__":main()
