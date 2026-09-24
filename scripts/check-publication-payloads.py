@@ -14,7 +14,7 @@ import json
 from pathlib import Path
 
 from audit_package_payloads import dependencies, satisfies
-from forensic_repository import scan_tar
+from forensic_repository import scan_tar, elf_role
 from index_all_staged import ROOT, INDEX, fields, stanzas, identity, select_packages
 
 BASELINE = 'audits/forensic/9dbec922bac216cb2f13fa84d398f3ecb5ad08b8'
@@ -60,7 +60,10 @@ def assess(before, after, payloads):
                 if finding['kind'] in HARD_FINDINGS:
                     errors.append({'package': record['Package'], 'path': row['path'], **finding})
             elf = row.get('elf')
-            if elf and elf['role'] == 'native-elf' and (elf['machine'] != 183 or record['Architecture'] == 'all'):
+            # A byte-identical cached inventory can predate classification fixes.
+            # Reclassify from its recorded ELF header, retaining all raw findings.
+            role = elf_role(row['path'], elf['machine'], elf.get('type')) if elf else None
+            if elf and role == 'native-elf' and (elf['machine'] != 183 or record['Architecture'] == 'all'):
                 errors.append({'package': record['Package'], 'path': row['path'], 'kind': 'native-architecture',
                     'machine': elf['machine'], 'declared': record['Architecture']})
     for path, keys in sorted(after_owners.items()):

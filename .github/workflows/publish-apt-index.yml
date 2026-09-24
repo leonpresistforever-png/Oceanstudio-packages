@@ -18,6 +18,7 @@ on:
       - 'apt/dists/**'
   workflow_run:
     workflows:
+      - "Build official Caddy and strace for Ocean"
       - "Repair Ocean shared runtime ownership"
       - "Build verified upstream pigz and librsync repairs"
       - "Build AI dev shards 46 47 48"

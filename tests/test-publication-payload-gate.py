@@ -48,8 +48,19 @@ class GateTests(unittest.TestCase):
 
     def test_vm_bytecode_is_not_misclassified_as_native_elf(self):
         a = package('guile')
-        rows = [file('lib/guile/x.go', elf={'machine': 0, 'role': 'guile-vm-bytecode'})]
+        rows = [file('lib/guile/x.go', elf={'machine': 0, 'type': 3, 'role': 'guile-vm-bytecode'})]
         self.assertFalse(gate.assess([], [a], {'guile-1': rows})['errors'])
+
+    def test_old_cached_gdb_guile_classification_is_corrected(self):
+        a = package('gdb', Architecture='aarch64')
+        rows = [file('data/data/studio.ocean.app/files/usr/share/gdb/guile/gdb/iterator.go',
+                     elf={'machine': 0, 'type': 3, 'role': 'native-elf'})]
+        self.assertFalse(gate.assess([], [a], {'gdb-1': rows})['errors'])
+
+    def test_real_wrong_architecture_still_fails(self):
+        a = package('wrong', Architecture='aarch64')
+        rows = [file('bin/native', elf={'machine': 62, 'type': 3, 'role': 'native-elf'})]
+        self.assertEqual(gate.assess([], [a], {'wrong-1': rows})['errors'][0]['kind'], 'native-architecture')
 
 
 if __name__ == '__main__':

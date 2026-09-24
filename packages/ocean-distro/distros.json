@@ -42,8 +42,8 @@
     "priority": "Excellent",
     "pkg_manager": "pacman",
     "arch": "arm64",
-    "url": "http://os.archlinuxarm.org/os/ArchLinuxARM-aarch64-latest.tar.gz",
-    "sha256": "skip",
+    "url": "https://ca.us.mirror.archlinuxarm.org/os/ArchLinuxARM-aarch64-latest.tar.gz",
+    "sha256": "42a4eeaa038994ffd31fa173256ef2f0ef511358eeb41b9ea1f8626391b9b319",
     "shell": "/bin/bash",
     "update_cmd": "pacman -Syu --noconfirm",
     "description": "Rolling package universe; excellent breadth."

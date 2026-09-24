@@ -42,7 +42,8 @@ def location(path):
 def elf_role(path, machine, elf_type):
     # Guile .go files contain VM bytecode in ELF containers, with EM_NONE.
     # Go distributes cross-target relocatable .syso files as compiler inputs.
-    if machine == 0 and '/lib/guile/' in '/' + path and path.endswith('.go'):
+    guile_container = any(segment in '/' + path for segment in ('/lib/guile/', '/share/gdb/guile/'))
+    if machine == 0 and guile_container and path.endswith('.go'):
         return 'guile-vm-bytecode'
     if elf_type == 1 and '/lib/go/src/' in '/' + path and path.endswith('.syso'):
         return 'go-cross-target-object'
