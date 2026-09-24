@@ -1,0 +1,56 @@
+name: Diagnose publication blockers
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/diagnose-publication-blockers.yml]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  diagnose:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+        with: {fetch-depth: 0}
+      - name: Inspect selected caddy gdb strace and exact foreign markers
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import sys,json
+          from pathlib import Path
+          sys.path.insert(0,"scripts")
+          from index_all_staged import fields,stanzas,select_packages,INDEX
+          from forensic_repository import scan_tar
+          root=Path(".").resolve()
+          current={r["Package"]:r for r in [fields(s) for s in stanzas((root/"apt/dists/stable"/INDEX).read_text())]}
+          selected,_=select_packages(root)
+          out={}
+          for name in ("caddy","gdb","strace"):
+            item=next((x for x in selected.values() if x[1]["Package"]==name),None)
+            if not item:
+              out[name]={"selected":None}; continue
+            _,rec,path=item
+            rows=list(scan_tar(path))+list(scan_tar(path,control=True))
+            bad=[]
+            for row in rows:
+              for f in row.get("findings",[]):
+                if f["kind"] in ("foreign-app-prefix","foreign-repository","foreign-runtime-variable","foreign-link-target"):
+                  bad.append({"path":row["path"],"section":row.get("location"),**f})
+            out[name]={"current":current.get(name),"selected":rec,"sourcePath":str(path.relative_to(root)),"foreign":bad}
+          Path("staging/publication-blockers").mkdir(parents=True,exist_ok=True)
+          Path("staging/publication-blockers/report.json").write_text(json.dumps(out,indent=2)+"\n")
+          print(json.dumps(out,indent=2))
+          PY
+      - name: Preserve
+        if: always()
+        run: |
+          git config user.name oceanstudio-bot
+          git config user.email actions@users.noreply.github.com
+          git add staging/publication-blockers/report.json || true
+          git diff --cached --quiet || (git commit -m "audit(apt): record exact publication blockers [skip ci]" && git pull --rebase origin main && git push origin HEAD:main)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: publication-blockers
+          path: staging/publication-blockers/report.json
