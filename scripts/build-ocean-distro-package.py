@@ -119,8 +119,7 @@ def main():
         "sourceTests": "PASS",
         "physicalAndroidDeviceTested": False
     }
-    (OUT / "provenance.json").write_text(json.dumps(report, indent=2) + "
-")
+    (OUT / "provenance.json").write_text(json.dumps(report, indent=2) + chr(10))
     print(json.dumps(report, indent=2))
 
 if __name__ == "__main__":
