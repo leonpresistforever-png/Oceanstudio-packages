@@ -2,7 +2,7 @@
   "status": "PASS_CANDIDATE",
   "package": "ocean-distro",
   "version": "1.0.1-1",
-  "sha256": "64ab7b78831f6e211e0f1900b722429a9c8c9321f8a5b800160e90c6956bcd36",
+  "sha256": "0bdca7eccb25de5e64e43888f57b8196e0d0b90f8ccac5b27418f398c6953197",
   "sourcePolicy": "Ocean-owned manager; no Termux/proot-distro payload copied",
   "prefix": "/data/data/studio.ocean.app/files/usr",
   "advertisedDistros": [
@@ -20,7 +20,7 @@
     "devuan",
     "gentoo"
   ],
-  "verifiedChecksumEntries": [
+  "pinnedChecksumEntries": [
     "ubuntu",
     "alpine",
     "arch",
@@ -37,6 +37,7 @@
     "centos",
     "devuan"
   ],
+  "checksumMeaning": "Pinned checksum is integrity metadata only; runtime verification is recorded separately by rootfs audits",
   "sourceTests": "PASS",
   "physicalAndroidDeviceTested": false
 }
