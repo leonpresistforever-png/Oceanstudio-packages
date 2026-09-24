@@ -1,0 +1,11 @@
+Package: proot-distro
+Version: 4.18.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: ocean-distro (>= 1.0.1-1)
+Section: utils
+Priority: optional
+Homepage: https://ocean.studio
+Description: PRoot distribution manager for Ocean OS (ocean-distro compatibility wrapper)
+ Compatibility CLI wrapper for OceanStudio's native ocean-distro manager.
+ Completely decoupled from Termux with zero Termux dependencies or URLs.
