@@ -14,6 +14,7 @@ POOL=ROOT/"apt/pool/main"
 JRE=POOL/"openjdk-21-jre-headless_21.0.12_aarch64.deb"
 JDK=POOL/"openjdk-21_21.0.12_aarch64.deb"
 OUT=ROOT/"staging/openjdk-21-repair"
+REPAIR_VERSION="21.0.12-1+ocean1"
 PREFIX="data/data/studio.ocean.app/files/usr"
 
 def run(*a, **kw): return subprocess.run(a, check=True, text=True, **kw)
@@ -53,9 +54,17 @@ with tempfile.TemporaryDirectory(prefix="ocean-openjdk-fix-") as td:
             lines[i]="Depends: "+", ".join([dep]+vals); break
     else:
         lines.insert(4,"Depends: "+dep)
+    # Bump the repaired JDK version so the canonical publisher can select it
+    # without a same-version/different-bytes conflict against the broken archive.
+    version_done=False
+    for i,l in enumerate(lines):
+        if l.startswith("Version:"):
+            lines[i]="Version: "+REPAIR_VERSION; version_done=True; break
+    if not version_done: raise SystemExit("JDK control is missing Version")
     ctl.write_text("\n".join(lines)+"\n")
+    shutil.rmtree(OUT,ignore_errors=True)
     OUT.mkdir(parents=True,exist_ok=True)
-    candidate=OUT/JDK.name
+    candidate=OUT/f"openjdk-21_{REPAIR_VERSION}_aarch64.deb"
     run("dpkg-deb","-Zxz","-z6","--root-owner-group","--build",str(jd),str(candidate))
     # prove repaired package no longer owns any JRE path
     chk=t/"fixed"; run("dpkg-deb","-x",str(candidate),str(chk))
@@ -75,5 +84,5 @@ with tempfile.TemporaryDirectory(prefix="ocean-openjdk-fix-") as td:
     if r.returncode: raise SystemExit("Clean co-install failed:\n"+r.stdout+"\n"+r.stderr)
     sha=hashlib.sha256(candidate.read_bytes()).hexdigest()
     report=OUT/"repair-report.txt"
-    report.write_text(f"status=REPAIRED_CANDIDATE\noverlap_removed={len(overlap)}\ndiffering_overlap=0\nresidual_overlap=0\nclean_dpkg_unpack=PASS\ncompression=xz\nsha256={sha}\nandroid_runtime_tested=false\n")
+    report.write_text(f"status=REPAIRED_CANDIDATE\nversion={REPAIR_VERSION}\noverlap_removed={len(overlap)}\ndiffering_overlap=0\nresidual_overlap=0\nclean_dpkg_unpack=PASS\ncompression=xz\nsha256={sha}\nandroid_runtime_tested=false\n")
     print(report.read_text())
