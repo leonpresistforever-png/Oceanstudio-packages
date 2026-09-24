@@ -1,0 +1,8 @@
+status=REPAIRED_CANDIDATE
+overlap_removed=365
+differing_overlap=0
+residual_overlap=0
+clean_dpkg_unpack=PASS
+compression=xz
+sha256=41be6daf174e42df3a600a06fe7462f08a0e5615fed94403c4481aab5ab15ca4
+android_runtime_tested=false
