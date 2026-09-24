@@ -1,0 +1,197 @@
+{
+  "indexedEntries": 6482,
+  "uniqueNames": 6482,
+  "dependencyErrorCount": 2,
+  "targetRecords": [
+    {
+      "Package": "clang",
+      "Architecture": "aarch64",
+      "Installed-Size": "186820",
+      "Maintainer": "OceanStudio <maintainer@ocean.studio>",
+      "Version": "21.1.8-3",
+      "Homepage": "https://clang.llvm.org/",
+      "Depends": "libcompiler-rt, lld, llvm, ndk-sysroot, libllvm (= 21.1.8-3)",
+      "Provides": "c-compiler, c++-compiler",
+      "Breaks": "libllvm (<< 16.0.0), clangd",
+      "Replaces": "libllvm (<< 16.0.0), clangd",
+      "Description": "C language frontend for LLVM",
+      "Filename": "pool/main/clang_21.1.8-3_aarch64.deb",
+      "Size": "49336332",
+      "MD5sum": "6f220565c760df28b85a44bb48fc058d",
+      "SHA1": "801616b5e18c26fa4945c0737c27e7318f8baa7d",
+      "SHA256": "92abff0164c5571e098496804da643ae0e2f3f5446f1a5b4b06699361a5f13ca"
+    },
+    {
+      "Package": "libandroid-execinfo",
+      "Architecture": "aarch64",
+      "Installed-Size": "88",
+      "Maintainer": "OceanStudio <maintainer@ocean.studio>",
+      "Version": "0.1-3",
+      "Homepage": "https://man7.org/linux/man-pages/man3/backtrace.3.html",
+      "Conflicts": "libexecinfo",
+      "Provides": "libexecinfo",
+      "Description": "Shared library for the backtrace system function",
+      "Filename": "pool/main/libandroid-execinfo_0.1-3_aarch64.deb",
+      "Size": "15260",
+      "MD5sum": "05bf50461a6f8a7a7e820cf7369315cb",
+      "SHA1": "26bed5cc7685239efb68bec84ea850a8c097bf5b",
+      "SHA256": "a65fcde66805168c9bb03791ab4f60f2416a820e6f1a3d162934ea6609b041e0"
+    },
+    {
+      "Package": "libyaml",
+      "Architecture": "aarch64",
+      "Installed-Size": "208",
+      "Maintainer": "OceanStudio <maintainer@ocean.studio>",
+      "Version": "0.2.5-5",
+      "Homepage": "https://pyyaml.org/wiki/LibYAML",
+      "Breaks": "libyaml-dev",
+      "Replaces": "libyaml-dev",
+      "Description": "LibYAML is a YAML 1.1 parser and emitter written in C",
+      "Filename": "pool/main/libyaml_0.2.5-5_aarch64.deb",
+      "Size": "46420",
+      "MD5sum": "ca0950a74b8a5f95410a49e9828c822e",
+      "SHA1": "9b61257230f3b07e859951cb3bd909355d03ea62",
+      "SHA256": "9f03ef5a1e8c5c31b3e67ad9568898113c8ce7b13f3504095cbbefde0b80874d"
+    },
+    {
+      "Package": "make",
+      "Architecture": "aarch64",
+      "Installed-Size": "944",
+      "Maintainer": "OceanStudio <maintainer@ocean.studio>",
+      "Version": "4.4.1-1",
+      "Homepage": "https://www.gnu.org/software/make/",
+      "Breaks": "make-dev",
+      "Conflicts": "make-guile",
+      "Replaces": "make-dev",
+      "Description": "Tool to control the generation of non-source files from source files",
+      "Filename": "pool/main/make_4.4.1-1_aarch64.deb",
+      "Size": "240640",
+      "MD5sum": "9a9fbda27946628c4c9fad2dec9165a1",
+      "SHA1": "8c870573f6b3d2e0d32367b0bdd2f27527046d01",
+      "SHA256": "2eb7f87e3594a1463f86c761088a2b11edbf4045c974fe21966b315371f950d6"
+    },
+    {
+      "Package": "open-jdk",
+      "Version": "21.0.12",
+      "Architecture": "all",
+      "Maintainer": "OceanStudio <archive@ocean.studio>",
+      "Section": "utils",
+      "Priority": "optional",
+      "Depends": "openjdk-21",
+      "Homepage": "https://ocean.studio",
+      "Description": "Java Development Kit (metapackage)",
+      "Filename": "pool/main/open-jdk_21.0.12_all.deb",
+      "Size": "744",
+      "MD5sum": "5641ad4b4d62273b9e83d414639c90a2",
+      "SHA1": "22a82dd91306bbcfd63e16bbedb35ad5e5fe96ca",
+      "SHA256": "5a5320044a103f5577cc0647cc4b69f0ee55f23c658d5ffa6f32f1e4a24738bb"
+    },
+    {
+      "Package": "openjdk-21",
+      "Architecture": "aarch64",
+      "Installed-Size": "249532",
+      "Maintainer": "OceanStudio <archive@ocean.studio>",
+      "Version": "21.0.12",
+      "Homepage": "https://openjdk.java.net",
+      "Depends": "openjdk-21-jre-headless (= 21.0.12)",
+      "Recommends": "ca-certificates-java, resolv-conf",
+      "Description": "Java development kit and runtime",
+      "Filename": "pool/main/openjdk-21_21.0.12_aarch64.deb",
+      "Size": "74094116",
+      "MD5sum": "9f6630cf0a4b4434b60aa20d86827f2e",
+      "SHA1": "c008725aef86f9e15f5e1d6c02ad0e2a53c34e50",
+      "SHA256": "4a1c999cf4d21d3cbd29d93489fcd7f96c09f0df7791b2356d2bac1d7407fcd8"
+    },
+    {
+      "Package": "openjdk-21-jre-headless",
+      "Architecture": "aarch64",
+      "Installed-Size": "249532",
+      "Maintainer": "OceanStudio <archive@ocean.studio>",
+      "Version": "21.0.12",
+      "Homepage": "https://openjdk.java.net",
+      "Depends": "libandroid-shmem, libandroid-spawn, libiconv, libjpeg-turbo, zlib, littlecms",
+      "Recommends": "ca-certificates-java, resolv-conf",
+      "Description": "Java runtime environment (headless)",
+      "Filename": "pool/main/openjdk-21-jre-headless_21.0.12_aarch64.deb",
+      "Size": "38449072",
+      "MD5sum": "6bb4302d545a29ea05c2224b35ceec0e",
+      "SHA1": "89a7aaed8bfd3f5cb0024637ed174ddd6c5b9167",
+      "SHA256": "62e6dbfcd86fa8c4431f520e6c240d1902fca1a9018d0c81805a4a4c9267caa7"
+    },
+    {
+      "Package": "pkg-config",
+      "Architecture": "aarch64",
+      "Installed-Size": "140",
+      "Maintainer": "OceanStudio <maintainer@ocean.studio>",
+      "Version": "0.29.2-3",
+      "Homepage": "https://www.freedesktop.org/wiki/Software/pkg-config/",
+      "Depends": "glib",
+      "Description": "Helper tool used when compiling applications and libraries",
+      "Filename": "pool/main/pkg-config_0.29.2-3_aarch64.deb",
+      "Size": "32832",
+      "MD5sum": "54e3285dae479c9d611bec7be6a4c4d2",
+      "SHA1": "b1354a490a59187ef95278d494fbd284a110041f",
+      "SHA256": "69f9619cd7a3cfb5e99db927f82fe300b214ec13587f1353962c010c0c034d99"
+    },
+    {
+      "Package": "ruby",
+      "Architecture": "aarch64",
+      "Installed-Size": "42832",
+      "Maintainer": "OceanStudio <maintainer@ocean.studio>",
+      "Version": "3.4.1-2",
+      "Homepage": "https://www.ruby-lang.org/",
+      "Breaks": "ruby-dev",
+      "Depends": "libandroid-execinfo, libandroid-support, libffi, libgmp, readline, openssl, libyaml, zlib",
+      "Recommends": "clang, make, pkg-config, resolv-conf",
+      "Replaces": "ruby-dev",
+      "Description": "Dynamic programming language with a focus on simplicity and productivity",
+      "Filename": "pool/main/ruby_3.4.1-2_aarch64.deb",
+      "Size": "8407068",
+      "MD5sum": "8ecaa632bec5bed24b8c44d4aa515f52",
+      "SHA1": "ee849882f76584a11284e1941c95451c5f2ae050",
+      "SHA256": "eaa0fce9e9d8968b0528b107d2fe3ec21019cdf7a2e1114f9e4883a95cadc867"
+    }
+  ],
+  "targetDependencyErrors": [],
+  "targetDebControls": {
+    "clang": {
+      "path": "apt/pool/main/clang_21.1.8-3_aarch64.deb",
+      "control": "Package: clang\nArchitecture: aarch64\nInstalled-Size: 186820\nMaintainer: OceanStudio <maintainer@ocean.studio>\nVersion: 21.1.8-3\nHomepage: https://clang.llvm.org/\nDepends: libcompiler-rt, lld, llvm, ndk-sysroot, libllvm (= 21.1.8-3)\nProvides: c-compiler, c++-compiler\nBreaks: libllvm (<< 16.0.0), clangd\nReplaces: libllvm (<< 16.0.0), clangd\nDescription: C language frontend for LLVM\n"
+    },
+    "libandroid-execinfo": {
+      "path": "apt/pool/main/libandroid-execinfo_0.1-3_aarch64.deb",
+      "control": "Package: libandroid-execinfo\nArchitecture: aarch64\nInstalled-Size: 88\nMaintainer: OceanStudio <maintainer@ocean.studio>\nVersion: 0.1-3\nHomepage: https://man7.org/linux/man-pages/man3/backtrace.3.html\nConflicts: libexecinfo\nProvides: libexecinfo\nDescription: Shared library for the backtrace system function\n"
+    },
+    "openjdk-21": {
+      "path": "apt/pool/main/openjdk-21_21.0.12_aarch64.deb",
+      "control": "Package: openjdk-21\nArchitecture: aarch64\nInstalled-Size: 249532\nMaintainer: OceanStudio <archive@ocean.studio>\nVersion: 21.0.12\nHomepage: https://openjdk.java.net\nDepends: openjdk-21-jre-headless (= 21.0.12)\nRecommends: ca-certificates-java, resolv-conf\nDescription: Java development kit and runtime\n"
+    },
+    "open-jdk": {
+      "path": "apt/pool/main/open-jdk_21.0.12_all.deb",
+      "control": "Package: open-jdk\nVersion: 21.0.12\nArchitecture: all\nMaintainer: OceanStudio <archive@ocean.studio>\nSection: utils\nPriority: optional\nDepends: openjdk-21\nHomepage: https://ocean.studio\nDescription: Java Development Kit (metapackage)\n"
+    },
+    "ruby": {
+      "path": "apt/pool/main/ruby_3.4.1-2_aarch64.deb",
+      "control": "Package: ruby\nArchitecture: aarch64\nInstalled-Size: 42832\nMaintainer: OceanStudio <maintainer@ocean.studio>\nVersion: 3.4.1-2\nHomepage: https://www.ruby-lang.org/\nBreaks: ruby-dev\nDepends: libandroid-execinfo, libandroid-support, libffi, libgmp, readline, openssl, libyaml, zlib\nRecommends: clang, make, pkg-config, resolv-conf\nReplaces: ruby-dev\nDescription: Dynamic programming language with a focus on simplicity and productivity\n"
+    },
+    "openjdk-21-jre-headless": {
+      "path": "apt/pool/main/openjdk-21-jre-headless_21.0.12_aarch64.deb",
+      "control": "Package: openjdk-21-jre-headless\nArchitecture: aarch64\nInstalled-Size: 249532\nMaintainer: OceanStudio <archive@ocean.studio>\nVersion: 21.0.12\nHomepage: https://openjdk.java.net\nDepends: libandroid-shmem, libandroid-spawn, libiconv, libjpeg-turbo, zlib, littlecms\nRecommends: ca-certificates-java, resolv-conf\nDescription: Java runtime environment (headless)\n"
+    },
+    "libyaml": {
+      "path": "apt/pool/main/libyaml_0.2.5-5_aarch64.deb",
+      "control": "Package: libyaml\nArchitecture: aarch64\nInstalled-Size: 208\nMaintainer: OceanStudio <maintainer@ocean.studio>\nVersion: 0.2.5-5\nHomepage: https://pyyaml.org/wiki/LibYAML\nBreaks: libyaml-dev\nReplaces: libyaml-dev\nDescription: LibYAML is a YAML 1.1 parser and emitter written in C\n"
+    },
+    "pkg-config": {
+      "path": "apt/pool/main/pkg-config_0.29.2-3_aarch64.deb",
+      "control": "Package: pkg-config\nArchitecture: aarch64\nInstalled-Size: 140\nMaintainer: OceanStudio <maintainer@ocean.studio>\nVersion: 0.29.2-3\nHomepage: https://www.freedesktop.org/wiki/Software/pkg-config/\nDepends: glib\nDescription: Helper tool used when compiling applications and libraries\n"
+    },
+    "make": {
+      "path": "apt/pool/main/make_4.4.1-1_aarch64.deb",
+      "control": "Package: make\nArchitecture: aarch64\nInstalled-Size: 944\nMaintainer: OceanStudio <maintainer@ocean.studio>\nVersion: 4.4.1-1\nHomepage: https://www.gnu.org/software/make/\nBreaks: make-dev\nConflicts: make-guile\nReplaces: make-dev\nDescription: Tool to control the generation of non-source files from source files\n"
+    }
+  },
+  "currentPackagesGzSha256": "06ffe9d1d9fe5923c77d53b412339a445900393849dcf5ebe2eac6b72c37f71c",
+  "inReleaseExpectedPackagesGzSha256": "968fb260b05430aa73deac1f13047de1275590ee1e354b6a2d7998242aeafdab",
+  "signedMetadataMatchesCurrentPackagesGz": false
+}
