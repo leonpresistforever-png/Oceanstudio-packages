@@ -142,9 +142,9 @@ def strace(src, work, stage, ndk, receipts):
     # currently includes them in the opposite order, which glibc tolerates.
     msghdr=src/'src/msghdr.c'
     ms_original=msghdr.read_text()
-    includes='#include <arpa/inet.h>\\n#include <netinet/in.h>'
+    includes='#include <arpa/inet.h>\n#include <netinet/in.h>'
     if ms_original.count(includes)!=1: raise RuntimeError('Upstream msghdr include order changed')
-    ms_patched=ms_original.replace(includes,'#include <netinet/in.h>\\n#include <arpa/inet.h>')
+    ms_patched=ms_original.replace(includes,'#include <netinet/in.h>\n#include <arpa/inet.h>')
     msghdr.write_text(ms_patched)
     receipts['oceanPatches']=[{'path':'src/affinity.c',
         'reason':'Use the kernel affinity-size probe without passing NULL to Bionic nonnull API',
