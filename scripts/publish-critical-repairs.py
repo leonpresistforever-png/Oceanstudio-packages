@@ -23,7 +23,7 @@ CANDIDATES={
  "gdb": ROOT/"staging/official-gdb-repair/pool/main/gdb_9.2-1+ocean1_aarch64.deb",
  "librsync": ROOT/"staging/upstream-repairs/pool/main/librsync_2.3.4-1_aarch64.deb",
  "luajit": ROOT/"apt/pool/main/luajit_1:2.1.1787165859+g1ee778a_aarch64.deb",
- "ocean-distro": ROOT/"staging/ocean-distro-repair/pool/main/ocean-distro_1.0.1-1_all.deb",
+ "ocean-distro": ROOT/"staging/ocean-distro-repair/pool/main/ocean-distro_1.0.1-2_all.deb",
  "proot-distro": ROOT/"staging/ocean-distro-repair/pool/main/proot-distro_4.18.0-1+ocean1_all.deb",
 }
 HARD={"foreign-app-prefix","foreign-repository","foreign-runtime-variable","foreign-link-target",
