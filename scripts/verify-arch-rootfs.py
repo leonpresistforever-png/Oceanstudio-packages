@@ -36,7 +36,12 @@ def main():
         with tempfile.TemporaryDirectory(prefix='ocean-arch-auth-') as tmp:
             directory = Path(tmp)
             archive, signature, keyring = [directory / n for n in ['rootfs.tar.gz', 'rootfs.sig', 'archlinuxarm.gpg']]
-            for url, target in [(KEY_URL, keyring), (URL + '.sig', signature), (URL, archive)]:
+            key_source = directory / 'upstream-keyring.asc'
+            download(KEY_URL, key_source)
+            # Upstream calls its ASCII-armored public keyring .gpg; gpgv needs
+            # binary key packets, not the filename-based assumption made before.
+            subprocess.run(['gpg', '--batch', '--dearmor', '--output', str(keyring), str(key_source)], check=True)
+            for url, target in [(URL + '.sig', signature), (URL, archive)]:
                 download(url, target)
             result = subprocess.run(['gpgv', '--status-fd', '1', '--keyring', str(keyring), str(signature), str(archive)],
                 text=True, capture_output=True)
