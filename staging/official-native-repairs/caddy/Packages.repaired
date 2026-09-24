@@ -7,7 +7,7 @@ Priority: optional
 Homepage: https://github.com/caddyserver/caddy
 Description: Official-source caddy built for the Ocean native Android prefix
 Filename: pool/main/caddy_2.11.4-1+ocean1_aarch64.deb
-Size: 11622352
-MD5sum: 2ba96c259203cd8512b86812d487ce83
-SHA1: 3eefd06843e85ea6aeb98f31571dd097a8b3be22
-SHA256: e940cb536a0d27a313b4e88e273dab8907e58af9b76ccc8bf60e0524ac6c71f5
+Size: 11622076
+MD5sum: a4ddde314413da1449c46c2d84b3fa62
+SHA1: bb047b4ff62eb78cb3f6ef5cd76a17175733f229
+SHA256: cfe46323c8190b9b576743980c8ee2c45da8de85dcfe585d8ef8569e78bb0c9f

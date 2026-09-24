@@ -2,7 +2,7 @@
   "package": "caddy",
   "version": "2.11.4-1+ocean1",
   "artifact": "caddy_2.11.4-1+ocean1_aarch64.deb",
-  "sha256": "e940cb536a0d27a313b4e88e273dab8907e58af9b76ccc8bf60e0524ac6c71f5",
+  "sha256": "cfe46323c8190b9b576743980c8ee2c45da8de85dcfe585d8ef8569e78bb0c9f",
   "sources": {
     "caddy": {
       "url": "https://github.com/caddyserver/caddy.git",
