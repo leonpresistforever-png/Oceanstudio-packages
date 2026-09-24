@@ -18,7 +18,7 @@ PREFIX="data/data/studio.ocean.app/files/usr"
 
 def run(*a, **kw): return subprocess.run(a, check=True, text=True, **kw)
 def files(root):
-    return {str(p.relative_to(root)):p for p in root.rglob("*") if p.is_file() or p.is_symlink()}
+    return {str(p.relative_to(root)):p for p in root.rglob("*") if (p.is_file() or p.is_symlink()) and "DEBIAN" not in p.relative_to(root).parts}
 def same(a,b):
     if a.is_symlink() or b.is_symlink():
         return a.is_symlink() and b.is_symlink() and os.readlink(a)==os.readlink(b)
