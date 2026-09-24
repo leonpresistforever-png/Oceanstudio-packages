@@ -1,0 +1,42 @@
+{
+  "status": "PASS_CANDIDATE",
+  "package": "ocean-distro",
+  "version": "1.0.1-1",
+  "sha256": "64ab7b78831f6e211e0f1900b722429a9c8c9321f8a5b800160e90c6956bcd36",
+  "sourcePolicy": "Ocean-owned manager; no Termux/proot-distro payload copied",
+  "prefix": "/data/data/studio.ocean.app/files/usr",
+  "advertisedDistros": [
+    "debian",
+    "ubuntu",
+    "alpine",
+    "arch",
+    "fedora",
+    "rocky",
+    "alma",
+    "opensuse",
+    "void",
+    "kali",
+    "centos",
+    "devuan",
+    "gentoo"
+  ],
+  "verifiedChecksumEntries": [
+    "ubuntu",
+    "alpine",
+    "arch",
+    "fedora",
+    "rocky",
+    "opensuse",
+    "void",
+    "gentoo"
+  ],
+  "unresolvedChecksumEntries": [
+    "debian",
+    "alma",
+    "kali",
+    "centos",
+    "devuan"
+  ],
+  "sourceTests": "PASS",
+  "physicalAndroidDeviceTested": false
+}
