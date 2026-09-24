@@ -1,0 +1,107 @@
+name: Build and validate remaining distro rootfs
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/build-remaining-rootfs.yml]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  validate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v5
+        with: {fetch-depth: 0}
+      - name: Install emulation and image tools
+        run: sudo apt-get update && sudo apt-get install -y qemu-user-static libguestfs-tools
+      - name: Resolve official ARM64 artifacts and validate
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import urllib.request,re,json,hashlib,subprocess,tempfile,tarfile,os
+          from pathlib import Path
+          UA={"User-Agent":"OceanStudio-rootfs-builder/1"}
+          # Only authoritative distribution-owned hosts. Discovery must never silently fall back.
+          pages={
+            "debian":"https://cloud.debian.org/images/cloud/bookworm/latest/",
+            "fedora":"https://download.fedoraproject.org/pub/fedora/linux/releases/41/Container/aarch64/images/",
+            "rocky":"https://dl.rockylinux.org/pub/rocky/9/images/aarch64/",
+            "alma":"https://repo.almalinux.org/almalinux/9/cloud/aarch64/images/",
+            "opensuse":"https://download.opensuse.org/ports/aarch64/tumbleweed/appliances/",
+            "kali":"https://kali.download/nethunter-images/current/rootfs/",
+            "centos":"https://cloud.centos.org/centos/9-stream/aarch64/images/",
+            "devuan":"https://files.devuan.org/devuan_daedalus/"
+          }
+          patterns={
+            "debian":r'href="([^"]*(?:generic|nocloud)[^"]*arm64[^"]*\.tar\.xz)"',
+            "fedora":r'href="([^"]*Container[^"]*aarch64[^"]*(?:tar\.xz|tar\.gz))"',
+            "rocky":r'href="([^"]*(?:Container|container)[^"]*aarch64[^"]*(?:tar\.xz|tar\.gz))"',
+            "alma":r'href="([^"]*(?:container|Container)[^"]*aarch64[^"]*(?:tar\.xz|tar\.gz))"',
+            "opensuse":r'href="([^"]*(?:container|rootfs)[^"]*aarch64[^"]*(?:tar\.xz|tar\.gz))"',
+            "kali":r'href="([^"]*arm64[^"]*(?:rootfs|minimal)[^"]*(?:tar\.xz|tar\.gz))"',
+            "centos":r'href="([^"]*(?:container|Container)[^"]*aarch64[^"]*(?:tar\.xz|tar\.gz))"',
+            "devuan":r'href="([^"]*arm64[^"]*(?:rootfs|minimal)[^"]*(?:tar\.xz|tar\.gz))"'
+          }
+          out={"status":"DISCOVERY_AND_VALIDATION","results":[]}
+          for name,page in pages.items():
+            rec={"distro":name,"page":page,"status":"UNRESOLVED"}
+            try:
+              html=urllib.request.urlopen(urllib.request.Request(page,headers=UA),timeout=30).read().decode("utf8","replace")
+              hits=re.findall(patterns[name],html,re.I)
+              if not hits: raise RuntimeError("no flat ARM64 rootfs candidate found on official page")
+              hit=hits[-1]
+              from urllib.parse import urljoin
+              url=urljoin(page,hit); rec["candidate"]=url
+              if not url.startswith("https://") or "linuxcontainers.org" in url or "termux" in url.lower():
+                raise RuntimeError("candidate violates authoritative-source policy")
+              with tempfile.TemporaryDirectory() as td:
+                fn=Path(td)/"rootfs"
+                h=hashlib.sha256()
+                with urllib.request.urlopen(urllib.request.Request(url,headers=UA),timeout=60) as r,fn.open("wb") as f:
+                  while True:
+                    b=r.read(1024*1024)
+                    if not b: break
+                    f.write(b);h.update(b)
+                rec["sha256"]=h.hexdigest(); rec["bytes"]=fn.stat().st_size
+                # Must be a flat tar rootfs; OCI/disk images are rejected rather than misrepresented.
+                try:
+                  with tarfile.open(fn) as tf:
+                    names={m.name.lstrip("./") for m in tf.getmembers()}
+                    osrel=next((x for x in ("etc/os-release","usr/lib/os-release") if x in names),None)
+                    if not osrel: raise RuntimeError("archive is not a flat rootfs with os-release")
+                    root=Path(td)/"root";root.mkdir()
+                    subprocess.run(["tar","-xf",str(fn),"-C",str(root),"--exclude=dev/*","--exclude=./dev/*","--no-same-owner"],check=True)
+                except tarfile.TarError as e: raise RuntimeError("not a flat tar rootfs") from e
+                osdata={}
+                for op in (root/"etc/os-release",root/"usr/lib/os-release"):
+                  if op.exists():
+                    for line in op.read_text(errors="replace").splitlines():
+                      if "=" in line:
+                        k,v=line.split("=",1);osdata[k]=v.strip().strip('"')
+                    break
+                rec["osRelease"]=osdata
+                shell=root/"bin/sh"
+                if not shell.exists(): raise RuntimeError("/bin/sh missing")
+                q=subprocess.run(["qemu-aarch64-static","-L",str(root),str(shell),"-c","printf OCEAN_ROOTFS_EXEC_OK"],capture_output=True,text=True,timeout=30)
+                rec["armShell"]={"code":q.returncode,"stdout":q.stdout,"stderr":q.stderr[:1000]}
+                if q.returncode or q.stdout!="OCEAN_ROOTFS_EXEC_OK": raise RuntimeError("ARM shell execution failed")
+                rec["status"]="PASS_CANDIDATE"
+            except Exception as e: rec["error"]=str(e)
+            out["results"].append(rec); print(json.dumps(rec),flush=True)
+          Path("staging/rootfs-remaining").mkdir(parents=True,exist_ok=True)
+          Path("staging/rootfs-remaining/report.json").write_text(json.dumps(out,indent=2)+"\n")
+          PY
+      - name: Preserve evidence
+        if: always()
+        run: |
+          git config user.name oceanstudio-bot
+          git config user.email actions@users.noreply.github.com
+          git add staging/rootfs-remaining/report.json || true
+          git diff --cached --quiet || (git commit -m "audit(distro): validate remaining official ARM64 rootfs candidates [skip ci]" && git pull --rebase origin main && git push origin HEAD:main)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: remaining-rootfs-validation
+          path: staging/rootfs-remaining/report.json
