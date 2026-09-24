@@ -1,0 +1,47 @@
+name: Build official GDB for Ocean
+on:
+  push:
+    branches: [main]
+    paths:
+      - scripts/build-gdb-official.py
+      - .github/workflows/official-gdb-repair.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          sparse-checkout: |
+            scripts
+            staging/official-gdb-repair
+          filter: blob:none
+      - name: Install build and ARM execution tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y qemu-user build-essential bison flex texinfo
+      - name: Install official Android NDK r27
+        run: |
+          curl --fail --location --retry 3 --proto '=https' --proto-redir '=https'             https://dl.google.com/android/repository/android-ndk-r27-linux.zip             --output "$RUNNER_TEMP/android-ndk-r27.zip"
+          unzip -q "$RUNNER_TEMP/android-ndk-r27.zip" -d "$RUNNER_TEMP"
+          grep -F 'Pkg.Revision = 27.0.12077973' "$RUNNER_TEMP/android-ndk-r27/source.properties"
+      - name: Build official upstream GDB and exercise ARM binary
+        run: python3 scripts/build-gdb-official.py --ndk "$RUNNER_TEMP/android-ndk-r27"
+      - name: Preserve tested candidate without publishing live metadata
+        run: |
+          set -euo pipefail
+          git config user.name 'Ocean Source Builder'
+          git config user.email 'packages@ocean.studio'
+          git add staging/official-gdb-repair
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'build(packages): stage official-source gdb repair and execution evidence [skip ci]'
+          git pull --rebase origin main
+          git push origin HEAD:main
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: ocean-official-gdb-evidence
+          path: staging/official-gdb-repair
