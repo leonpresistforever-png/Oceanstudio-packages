@@ -128,6 +128,10 @@ def strace(src, work, stage, ndk, receipts):
     run([cc,'-c',ROOT/'scripts/android-static-tls.S','-o',tls])
     # The pinned official tag provides autotools' version metadata in a shallow checkout.
     run(['git','tag','v7.2',SOURCES['strace'][1]],cwd=src)
+    expected_version=subprocess.check_output(['./build-aux/git-version-gen','.tarball-version'],cwd=src,text=True).strip()
+    if not expected_version:
+        raise RuntimeError('Unable to derive strace version from pinned upstream source')
+    receipts['sourceVersion']=expected_version
     # Upstream intentionally probes a kernel ABI with a null mask. Bionic's
     # sched_getaffinity contract rejects null arguments, so invoke that same
     # documented kernel probe directly without violating the libc contract.
@@ -211,9 +215,11 @@ def strace(src, work, stage, ndk, receipts):
     for filename in ('COPYING','CREDITS','AUTHORS','LGPL-2.1-or-later'):
         if (src/filename).is_file():shutil.copy2(src/filename,doc/filename)
     version,err=capture(['qemu-aarch64',prefix/'bin/strace','--version'])
-    if b'7.2' not in version+err:raise RuntimeError('Actual ARM strace version mismatch')
+    reported=(version+err).decode(errors='replace').strip()
+    if expected_version not in reported:
+        raise RuntimeError(f'Actual ARM strace version mismatch: expected {expected_version!r}, got {reported!r}')
     receipts['toolchain']='Android NDK 27.0.12077973; API 28; static Bionic'
-    return {'qemuAndroidBinary':(version+err).decode().strip(),
+    return {'qemuAndroidBinary':reported,'sourceVersion':expected_version,
             'ptraceOnAndroidPhone':False,'limitation':'QEMU user mode cannot exercise ptrace',
             'configureOptions':['--enable-mpers=no','--enable-stacktrace=no']}
 
