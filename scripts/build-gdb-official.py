@@ -74,7 +74,7 @@ def main():
           "--prefix="+PREFIX,"--disable-nls","--disable-werror","--disable-tui",
           "--without-python","--without-guile","--without-expat","--without-lzma",
           "--without-zstd","--without-libunwind","--without-debuginfod",
-          "--without-babeltrace","--disable-source-highlight","--disable-sim","--with-system-readline=no"
+          "--without-babeltrace","--disable-source-highlight","--disable-sim","--disable-gdbserver","--with-system-readline=no"
         ]
         run(configure,cwd=build,env=env)
         run(["make","-j2","all-gdb"],cwd=build,env=env)
