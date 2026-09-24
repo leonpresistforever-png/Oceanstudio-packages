@@ -148,16 +148,24 @@ def strace(src, work, stage, ndk, receipts):
         net_index=ms_lines.index('#include <netinet/in.h>')
     except ValueError as exc:
         raise RuntimeError('Upstream msghdr network includes changed') from exc
-    if arpa_index >= net_index:
-        raise RuntimeError('Upstream msghdr include order no longer needs the Bionic patch')
-    ms_lines[arpa_index],ms_lines[net_index]=ms_lines[net_index],ms_lines[arpa_index]
-    ms_patched='\\n'.join(ms_lines)+'\\n'
+    if net_index != arpa_index + 1:
+        raise RuntimeError('Upstream msghdr network include layout changed')
+    # strace's bundled Linux UAPI headers can suppress the Bionic typedef
+    # that arpa/inet.h expects. Define the ABI-identical 32-bit type locally
+    # and keep Bionic netinet/in.h ahead of arpa/inet.h.
+    ms_lines[arpa_index:net_index+1]=[
+        '#include <stdint.h>',
+        'typedef uint32_t in_addr_t;',
+        '#include <netinet/in.h>',
+        '#include <arpa/inet.h>',
+    ]
+    ms_patched='\n'.join(ms_lines)+'\n'
     msghdr.write_text(ms_patched)
     receipts['oceanPatches']=[{'path':'src/affinity.c',
         'reason':'Use the kernel affinity-size probe without passing NULL to Bionic nonnull API',
         'beforeSha256':hashlib.sha256(original.encode()).hexdigest(),
         'afterSha256':hashlib.sha256(patched.encode()).hexdigest()},
-        {'path':'src/msghdr.c','reason':'Bionic requires netinet/in.h before arpa/inet.h for in_addr_t',
+        {'path':'src/msghdr.c','reason':'Restore Bionic in_addr_t when strace bundled Linux UAPI headers suppress the libc typedef',
         'beforeSha256':hashlib.sha256(ms_original.encode()).hexdigest(),
         'afterSha256':hashlib.sha256(ms_patched.encode()).hexdigest()}]
     run(['./bootstrap'],cwd=src)
