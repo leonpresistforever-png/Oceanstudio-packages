@@ -1,0 +1,13 @@
+Package: strace
+Version: 7.2-1+ocean1
+Architecture: aarch64
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Homepage: https://github.com/strace/strace
+Description: Official-source strace built for the Ocean native Android prefix
+Filename: pool/main/strace_7.2-1+ocean1_aarch64.deb
+Size: 1273584
+MD5sum: 180cc7a42a32acf13358c1183f912dee
+SHA1: 123e95a709fd57fba98fdfba45602aa625870837
+SHA256: 187733184bd41206827cf4d01dab294e8887b0fc415679bfae0a780562064dea

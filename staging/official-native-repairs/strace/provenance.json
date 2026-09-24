@@ -1,0 +1,104 @@
+{
+  "package": "strace",
+  "version": "7.2-1+ocean1",
+  "artifact": "strace_7.2-1+ocean1_aarch64.deb",
+  "sha256": "187733184bd41206827cf4d01dab294e8887b0fc415679bfae0a780562064dea",
+  "sources": {
+    "strace": {
+      "url": "https://github.com/strace/strace.git",
+      "commit": "195ac8ddbf6fad16ff1ff125b0feb725b6c46dcf",
+      "sourceArchiveSha256": "094708b1bd4803a4cf0b5d8af6e48ec93ce21d4bc6b9c30c7c735ef78f107ae1"
+    },
+    "sourceVersion": "UNKNOWN",
+    "oceanPatches": [
+      {
+        "path": "src/affinity.c",
+        "reason": "Use the kernel affinity-size probe without passing NULL to Bionic nonnull API",
+        "beforeSha256": "ef4503665c9bb64a6722425c92eb9f13458a6d238e11fa65f583cdd4cd55c137",
+        "afterSha256": "aeabca71333c6dd25e0dee68645d1f57b9f120427cc31878b95bc2c4511d8d13"
+      },
+      {
+        "path": "src/msghdr.c",
+        "reason": "Restore Bionic in_addr_t when strace bundled Linux UAPI headers suppress the libc typedef",
+        "beforeSha256": "f201736275c04089551d721fd2d15d0944c0678b6f92c1a4913afcb5302dca6c",
+        "afterSha256": "f8e9828916e8a0c4eb51860c9e6692785a26b1c5e48e706a8cbcc338d920f7c9"
+      },
+      {
+        "path": "src/net.c",
+        "reason": "Restore Bionic in_addr_t when strace bundled Linux UAPI headers suppress the libc typedef",
+        "beforeSha256": "47f896f06cc20de0896b918a7945ff5e56a9fa18a45872443f908381acb7865e",
+        "afterSha256": "e2fe186e2c04c8f087110cc978865c76d9d450a038525efe51e418acd25382d9"
+      },
+      {
+        "path": "src/netlink_inet_diag.c",
+        "reason": "Restore Bionic in_addr_t when strace bundled Linux UAPI headers suppress the libc typedef",
+        "beforeSha256": "e0e0c9cf678e8f27e69bd4f604bff6e2b1a104e5a641a5ef8219294a5d94c033",
+        "afterSha256": "62c490c8de42b33ede5ef944d46d7563c39e800fbc2f90c8f54065d956300296"
+      },
+      {
+        "path": "src/netlink_kobject_uevent.c",
+        "reason": "Restore Bionic in_addr_t when strace bundled Linux UAPI headers suppress the libc typedef",
+        "beforeSha256": "ac4d1e20bc5eab8702f9280727ff5b635db5844a8f200a4d4812161951ba51e2",
+        "afterSha256": "9ead93f32328fa84c83af78506f10a78ab95ee9c7e774b2ecb4152523a6fcf55"
+      },
+      {
+        "path": "src/netlink_netfilter.c",
+        "reason": "Restore Bionic in_addr_t when strace bundled Linux UAPI headers suppress the libc typedef",
+        "beforeSha256": "38ab627bb32a00253e142bbb10cf33ba0462810b347269288e657eebb4e64d1e",
+        "afterSha256": "c953c078ed50566670c8d292ec7866ec973490310a159936c047a81069c4b699"
+      },
+      {
+        "path": "src/netlink_smc_diag.c",
+        "reason": "Restore Bionic in_addr_t when strace bundled Linux UAPI headers suppress the libc typedef",
+        "beforeSha256": "94fc288ae4d2a089003054da5e558049e61e4388ce2081f23b8dac9d077e2f42",
+        "afterSha256": "4465d4a4274fb49dcbbcf8835e0b1398bd664ef5f2d42af3abfbbc69756784e2"
+      },
+      {
+        "path": "src/nlattr.c",
+        "reason": "Restore Bionic in_addr_t when strace bundled Linux UAPI headers suppress the libc typedef",
+        "beforeSha256": "738a103b1c122da7f28914ac153e638b839bbb8c96423d50b59ff3630eb0d6e3",
+        "afterSha256": "e06f854832ebd0c07ec13cfcecb3119b92a7f9cfa6e4417baeef67becade2d1d"
+      },
+      {
+        "path": "src/sock.c",
+        "reason": "Restore Bionic in_addr_t when strace bundled Linux UAPI headers suppress the libc typedef",
+        "beforeSha256": "cf9cbcc7c723111b9a61e0ac8ecff23beaef125f295a9fd00333cc3e9615cc0d",
+        "afterSha256": "3f06998213feb6cec90729ecd94d5191f47e1104a3b67662da27dae135c8a09c"
+      },
+      {
+        "path": "src/sockaddr.c",
+        "reason": "Restore Bionic in_addr_t when strace bundled Linux UAPI headers suppress the libc typedef",
+        "beforeSha256": "064f49dc3ae8045f8801140ef8a418e2a6d716c9ebddd5ab6cd228174f3dfd92",
+        "afterSha256": "24b3bc41d4ad7bf65bf9fd42e5d4a8b6d18d410ed2be28382b61f0f6042a03fa"
+      },
+      {
+        "path": "src/socketutils.c",
+        "reason": "Restore Bionic in_addr_t when strace bundled Linux UAPI headers suppress the libc typedef",
+        "beforeSha256": "79fbb2dffa8e6569fd0c8adcc21055e8cdecc05ff55d148ce6f48d931c1f3291",
+        "afterSha256": "78db04e027decc54b899d6c840505b0093dbd62c7cd66895d2a334930dc8b0b3"
+      }
+    ],
+    "toolchain": "Android NDK 27.0.12077973; API 28; static Bionic"
+  },
+  "tests": {
+    "qemuAndroidBinary": "strace -- version UNKNOWN\nCopyright (c) 1991-2026 The strace developers <https://strace.io>.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\nOptional features enabled: no-m32-mpers",
+    "sourceVersion": "UNKNOWN",
+    "ptraceOnAndroidPhone": false,
+    "limitation": "QEMU user mode cannot exercise ptrace",
+    "configureOptions": [
+      "--enable-mpers=no",
+      "--enable-stacktrace=no"
+    ]
+  },
+  "payloadAudit": {
+    "files": 8,
+    "elfFiles": 1,
+    "executables": [
+      "./data/data/studio.ocean.app/files/usr/bin/strace",
+      "./data/data/studio.ocean.app/files/usr/bin/strace-log-merge"
+    ],
+    "issues": []
+  },
+  "physicalDeviceTested": false,
+  "completePayloadFilesRead": 9
+}
