@@ -63,11 +63,13 @@ def main():
              "reason":"Android NDK elf.h already defines Elf32_auxv_t/Elf64_auxv_t; prevent GDB 9.2 gdbserver fallback typedef redefinition"}
         ]
         build.mkdir()
+        tls_object = work / "android-static-tls.o"
+        run([cc, "-c", str(ROOT / "scripts/android-static-tls.S"), "-o", str(tls_object)])
         env=dict(os.environ,CC=str(cc),CXX=str(cxx),AR=str(tools/"llvm-ar"),
                  RANLIB=str(tools/"llvm-ranlib"),STRIP=str(tools/"llvm-strip"),
                  CFLAGS=f"-O2 -DHAVE_ELF32_AUXV_T=1 -DHAVE_ELF64_AUXV_T=1 -ffile-prefix-map={work}=/usr/src/ocean -fdebug-prefix-map={work}=/usr/src/ocean",
                  CXXFLAGS=f"-O2 -Wno-enum-constexpr-conversion -DHAVE_ELF32_AUXV_T=1 -DHAVE_ELF64_AUXV_T=1 -ffile-prefix-map={work}=/usr/src/ocean -fdebug-prefix-map={work}=/usr/src/ocean",
-                 LDFLAGS="-static -Wl,-z,max-page-size=16384",
+                 LDFLAGS=f"-static -Wl,-z,max-page-size=16384 {tls_object}",
                  SOURCE_DATE_EPOCH="0",MAKEINFO="true")
         configure=[
           str(src/"configure"),"--host=aarch64-linux-android","--target=aarch64-linux-android",
