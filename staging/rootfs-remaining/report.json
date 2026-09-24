@@ -1,0 +1,85 @@
+{
+  "status": "DISCOVERY_AND_VALIDATION",
+  "results": [
+    {
+      "distro": "debian",
+      "page": "https://cloud.debian.org/images/cloud/bookworm/latest/",
+      "status": "UNRESOLVED",
+      "candidate": "https://cloud.debian.org/images/cloud/bookworm/latest/debian-12-nocloud-arm64.tar.xz",
+      "sha256": "efa16f7967a99755f3c8a75c39dedf863f359fd4a6abf190601f8d403a6366b3",
+      "bytes": 249261664,
+      "error": "archive is not a flat rootfs with os-release"
+    },
+    {
+      "distro": "fedora",
+      "page": "https://download.fedoraproject.org/pub/fedora/linux/releases/41/Container/aarch64/images/",
+      "status": "UNRESOLVED",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "distro": "rocky",
+      "page": "https://dl.rockylinux.org/pub/rocky/9/images/aarch64/",
+      "status": "UNRESOLVED",
+      "candidate": "https://dl.rockylinux.org/pub/rocky/9/images/aarch64/Rocky-9-Container-UBI.latest.aarch64.tar.xz",
+      "sha256": "3bdc8259c0991d34b453b72d7890d179f4007c44c59d50f256a3b5b42f71fdfc",
+      "bytes": 88430144,
+      "error": "archive is not a flat rootfs with os-release"
+    },
+    {
+      "distro": "alma",
+      "page": "https://repo.almalinux.org/almalinux/9/cloud/aarch64/images/",
+      "status": "UNRESOLVED",
+      "error": "no flat ARM64 rootfs candidate found on official page"
+    },
+    {
+      "distro": "opensuse",
+      "page": "https://download.opensuse.org/ports/aarch64/tumbleweed/appliances/",
+      "status": "PASS_CANDIDATE",
+      "candidate": "https://download.opensuse.org/ports/aarch64/tumbleweed/appliances/openSUSE-Tumbleweed-ARM-XFCE.aarch64-rootfs.aarch64.tar.xz",
+      "sha256": "f913da0211ee240d4917f3e248f52e7b514e7b053bee75661b345398519a9fb0",
+      "bytes": 1644096380,
+      "osRelease": {
+        "NAME": "openSUSE Tumbleweed",
+        "# VERSION": "20260921",
+        "ID": "opensuse-tumbleweed",
+        "ID_LIKE": "opensuse suse",
+        "VERSION_ID": "20260921",
+        "PRETTY_NAME": "openSUSE Tumbleweed",
+        "ANSI_COLOR": "0;32",
+        "CPE_NAME": "cpe:2.3:o:opensuse:tumbleweed:20260921:*:*:*:*:*:*:*",
+        "#CPE_NAME": "cpe:/o:opensuse:tumbleweed:20260921",
+        "BUG_REPORT_URL": "https://bugzilla.opensuse.org",
+        "SUPPORT_URL": "https://bugs.opensuse.org",
+        "HOME_URL": "https://www.opensuse.org",
+        "DOCUMENTATION_URL": "https://en.opensuse.org/Portal:Tumbleweed",
+        "LOGO": "distributor-logo-Tumbleweed"
+      },
+      "armShell": {
+        "code": 0,
+        "stdout": "OCEAN_ROOTFS_EXEC_OK",
+        "stderr": ""
+      }
+    },
+    {
+      "distro": "kali",
+      "page": "https://kali.download/nethunter-images/current/rootfs/",
+      "status": "UNRESOLVED",
+      "error": "no flat ARM64 rootfs candidate found on official page"
+    },
+    {
+      "distro": "centos",
+      "page": "https://cloud.centos.org/centos/9-stream/aarch64/images/",
+      "status": "UNRESOLVED",
+      "candidate": "https://cloud.centos.org/centos/9-stream/aarch64/images/CentOS-Stream-Container-Minimal-9-20260728.1.aarch64.tar.xz",
+      "sha256": "c92edb879c527e117d7a22283c52da1f352bdfd60adda1a9495b54ada05e710b",
+      "bytes": 24682500,
+      "error": "archive is not a flat rootfs with os-release"
+    },
+    {
+      "distro": "devuan",
+      "page": "https://files.devuan.org/devuan_daedalus/",
+      "status": "UNRESOLVED",
+      "error": "no flat ARM64 rootfs candidate found on official page"
+    }
+  ]
+}
