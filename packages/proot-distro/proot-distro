@@ -5,32 +5,32 @@ set -euo pipefail
 
 DISTRO_CMD="/data/data/studio.ocean.app/files/usr/bin/ocean-distro"
 
-if [[ ! -x "" ]]; then
-  echo "proot-distro error: ocean-distro backend not found at " >&2
+if [[ ! -x "$DISTRO_CMD" ]]; then
+  echo "proot-distro error: ocean-distro backend not found at $DISTRO_CMD" >&2
   exit 1
 fi
 
-case "" in
+case "${1:-}" in
   reset)
     shift
-    distro=""
-    if [[ -z "" ]]; then
+    distro="${1:-}"
+    if [[ -z "$distro" ]]; then
       echo "Usage: proot-distro reset <distro>" >&2
       exit 1
     fi
-    "" remove ""
-    exec "" install ""
+    "$DISTRO_CMD" remove "$distro"
+    exec "$DISTRO_CMD" install "$distro"
     ;;
   clear-cache)
-    cache_dir="/data/data/com.termux/files/home/.distro/dl-cache"
-    rm -rf ""
-    echo "proot-distro: cache cleared ()."
+    cache_dir="${OCEAN_HOME:-/data/data/studio.ocean.app/files/home}/.distro/dl-cache"
+    rm -rf "$cache_dir"
+    echo "proot-distro: cache cleared ($cache_dir)."
     exit 0
     ;;
   help|--help|-h|"")
-    exec "" --help
+    exec "$DISTRO_CMD" --help
     ;;
   *)
-    exec "" ""
+    exec "$DISTRO_CMD" "$@"
     ;;
 esac
