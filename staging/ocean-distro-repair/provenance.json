@@ -1,11 +1,11 @@
 {
   "status": "PASS_CANDIDATE",
   "package": "ocean-distro",
-  "version": "1.0.1-2",
-  "sha256": "7801ca91bf484620c651ffefd27c52a72e044e6840e30d50ea025b24f4bcac85",
+  "version": "1.0.1-3",
+  "sha256": "ec1a7772351c319e1365391e600b1d9d652d086d1bbba3474d368f3092cbd8f5",
   "prootDistroPackage": "proot-distro",
-  "prootDistroVersion": "4.18.0-1+ocean1",
-  "prootDistroSha256": "01fc29435bca5a7fe092424ed8475e294eb4b30a319145a894a7d0dda2f47f31",
+  "prootDistroVersion": "4.18.0-1+ocean2",
+  "prootDistroSha256": "a5e4bcb722df490688cb1ddeb2f9caaeead756e42fc63a625144bed849eada35",
   "sourcePolicy": "Ocean-owned manager; no Termux/proot-distro payload copied",
   "prefix": "/data/data/studio.ocean.app/files/usr",
   "advertisedDistros": [
@@ -42,5 +42,8 @@
   ],
   "checksumMeaning": "Pinned checksum is integrity metadata only; runtime verification is recorded separately by rootfs audits",
   "sourceTests": "PASS",
+  "independentManagerTests": "PASS",
+  "prootState": "/data/data/studio.ocean.app/files/usr/var/lib/proot-distro/installed-rootfs",
+  "oceanState": "${OCEAN_HOME}/.distro",
   "physicalAndroidDeviceTested": false
 }

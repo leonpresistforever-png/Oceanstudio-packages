@@ -1,0 +1,39 @@
+{
+  "sourceArchive": "apt/pool/main/ocean-tools_1.1.0_all.deb",
+  "sourceSha256": "46d362be243df5ae7af5397ed2946c8b749c739db5cef285d039cd8c2de668ab",
+  "package": "ocean-tools",
+  "version": "1.1.0+ocean1",
+  "sha256": "230d25065f0ccd710c84fe164a26dce2013cceaeb2f3816d03c7bb3c0caf2db0",
+  "preservedScriptSha256": {
+    "data/data/studio.ocean.app/files/usr/bin/ocean-api": "635ff6c3153e891ae9991383a6075c1aa71e7bfba7b8e759e61e800a95a46c2a",
+    "data/data/studio.ocean.app/files/usr/bin/ocean-apk-decompile": "d1a2b322d0b653952278425135fc8d8fd92250988cd9fe3a7c56b4927b88c411",
+    "data/data/studio.ocean.app/files/usr/bin/ocean-apk-sign": "842b7368275c229a068d24aee0f45e4080bb052fb03d8a950423cb8fe0a6e9cd",
+    "data/data/studio.ocean.app/files/usr/bin/ocean-archive": "f6240d234b888eb05ebe7e00b73e9ffd428dc1ca1eefa9027ed6387ec925eca4",
+    "data/data/studio.ocean.app/files/usr/bin/ocean-battery-status": "8dffa4f656199ef2c443418e7643afe6e65e07f22caefeafc50010541f9e6fdd",
+    "data/data/studio.ocean.app/files/usr/bin/ocean-change-repo": "de4b32b0c5d4b8061df24014b0801ed61c272c22a23df3b050d46c7b7368e9ec",
+    "data/data/studio.ocean.app/files/usr/bin/ocean-chroot": "ed21ff5d55ad056df759a0d1fd8bf909f986fb5a8fbff65f9d607a62c3f73f5a",
+    "data/data/studio.ocean.app/files/usr/bin/ocean-chsh": "797f2c7e5a050dc68e4406b837bab5252c76d61c2f720ae6bd9ae11ba45b02ad",
+    "data/data/studio.ocean.app/files/usr/bin/ocean-clipboard-get": "e2f649588bb4b1400f027215287746f5630639ad67d201c667cb95abc0cb3d44",
+    "data/data/studio.ocean.app/files/usr/bin/ocean-clipboard-set": "de8aedee5ed27f62ff112c98488c5c71630240dd7200b52bc8b144142c91d192",
+    "data/data/studio.ocean.app/files/usr/bin/ocean-doctor": "4257ffa99c4442925ca9a4a037d99737e24e7e6241339396233eb1739ccc9c8a",
+    "data/data/studio.ocean.app/files/usr/bin/ocean-hello": "cf958dfd3f17a5b0b91cf10f312fa1e74e5a631cc74bb6717eb36733d2e24080",
+    "data/data/studio.ocean.app/files/usr/bin/ocean-info": "32aa5aeb2660a88e23ea8df262d7b8a379f57ec6318c6c4ce2f89dc1a6bc2d37",
+    "data/data/studio.ocean.app/files/usr/bin/ocean-installer": "a43bf2487440b8c7c1e4313d6abb501291e2944a50dbd45a19390f0a289b6344",
+    "data/data/studio.ocean.app/files/usr/bin/ocean-intent": "8067c08e3ed818829b570f23cbf0f151f52c3c9bc6ad3673381c0916c8be98ae",
+    "data/data/studio.ocean.app/files/usr/bin/ocean-notification": "b68e01b6aef388872c5ee135d1b0695b7bbba1e74c6850e760e24d6467e7326a",
+    "data/data/studio.ocean.app/files/usr/bin/ocean-open": "1058e37eacfd0ebe0b02bafac8d485690b45f4b1bc3497f050a9fb6d1ee9f4d1",
+    "data/data/studio.ocean.app/files/usr/bin/ocean-package-smoke-test": "02c596ab8077a070b77a6cb281d6982805686ba3ffc140cdcfa13287d0c16579",
+    "data/data/studio.ocean.app/files/usr/bin/ocean-pkg": "e1b9b57b6e396748fbda223b3f31df17c12366b5a07190397bdb1cc1b5dee9b5",
+    "data/data/studio.ocean.app/files/usr/bin/ocean-resigner": "842b7368275c229a068d24aee0f45e4080bb052fb03d8a950423cb8fe0a6e9cd",
+    "data/data/studio.ocean.app/files/usr/bin/ocean-save-pkg": "e92ff5b082b950ed3e85540b40a3f02a96f9648d39807907e610c464926faaed",
+    "data/data/studio.ocean.app/files/usr/bin/ocean-setup-storage": "4dd1219c80d5d51bb5964a1caa16678e0c8050bcc0b49ea4a79cc76f02ecbefb",
+    "data/data/studio.ocean.app/files/usr/bin/ocean-share": "55cc020d64bf7b947d8bb19d12f48617c6ef69059fb1f6a3708aa92e7be39049",
+    "data/data/studio.ocean.app/files/usr/bin/ocean-toast": "e471240e1e687d259d5bf7634f9148c53c9fe7fa6d443d66e5b9a55e01b01c66",
+    "data/data/studio.ocean.app/files/usr/bin/ocean-vibrate": "d2747c6a9cc36a845aa43b6ef3dd273e1f93fb36fb9031c230bf5657fa846639"
+  },
+  "movedToOceanDistro": [
+    "data/data/studio.ocean.app/files/usr/bin/ocean-distro"
+  ],
+  "scope": "Ownership migration; existing Ocean script bytes retained.",
+  "androidExecutionTested": false
+}
