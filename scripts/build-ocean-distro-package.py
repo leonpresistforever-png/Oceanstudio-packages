@@ -100,9 +100,7 @@ def main():
 
     test = subprocess.run(["python3", str(ROOT / "tests/test-ocean-distro.py")], capture_output=True, text=True)
     if test.returncode:
-        raise SystemExit("ocean-distro tests failed:
-" + test.stdout + "
-" + test.stderr)
+        raise SystemExit("ocean-distro tests failed: " + test.stdout + " " + test.stderr)
 
     report = {
         "status": "PASS_CANDIDATE",
