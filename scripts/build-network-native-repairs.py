@@ -43,7 +43,7 @@ def json_stream(text):
 
 
 def caddy(src, work, stage, receipts):
-    env = dict(os.environ, GOOS='android', GOARCH='arm64', CGO_ENABLED='0',
+    env = dict(os.environ, GOOS='linux', GOARCH='arm64', CGO_ENABLED='0',
                GOMAXPROCS='2', SOURCE_DATE_EPOCH='0')
     run(['go', 'mod', 'download', 'all'], cwd=src, env=env)
     run(['go', 'mod', 'verify'], cwd=src, env=env)
@@ -52,6 +52,12 @@ def caddy(src, work, stage, receipts):
     run(['go', 'build', '-mod=readonly', '-trimpath', '-buildvcs=false',
          '-tags=netgo,osusergo', '-ldflags=-s -w -buildid= -X github.com/caddyserver/caddy/v2.CustomVersion=v2.11.4-ocean.1',
          '-o', binary, './cmd/caddy'], cwd=src, env=env)
+    # Caddy is pure Go here: use a static Linux/AArch64 executable with no libc
+    # dependency. Android uses the Linux kernel ABI, so this avoids requiring a
+    # host copy of Android's /system/bin/linker64 merely to execute CI tests.
+    elf = subprocess.check_output(['readelf','-lW','-dW',binary],text=True)
+    if 'Requesting program interpreter' in elf or '(NEEDED)' in elf:
+        raise RuntimeError('Caddy candidate unexpectedly depends on a userspace libc/linker')
     version, err = capture(['qemu-aarch64',binary,'version'],env=env)
     if b'v2.11.4' not in version+err:
         raise RuntimeError('Actual Android ARM Caddy version did not match the source')
@@ -109,8 +115,8 @@ def caddy(src, work, stage, receipts):
             server.terminate()
             try: server.wait(timeout=10)
             except subprocess.TimeoutExpired: server.kill();server.wait()
-    return {'qemuAndroidBinary':(version+err).decode().strip(),'loopbackHttpRoundTrip':True,
-            'androidPhone':False,'tlsAndDnsIntegration':'not tested'}
+    return {'qemuArm64Binary':(version+err).decode().strip(),'runtimeAbi':'linux-arm64-static-purego-no-libc',
+            'loopbackHttpRoundTrip':True,'androidPhone':False,'tlsAndDnsIntegration':'not tested'}
 
 
 def strace(src, work, stage, ndk, receipts):
@@ -132,10 +138,21 @@ def strace(src, work, stage, ndk, receipts):
     patched=original.replace('#include <sched.h>','#include <sched.h>\n#include <sys/syscall.h>\n#include <unistd.h>')
     patched=patched.replace(probe,'syscall(SYS_sched_getaffinity, 0, cpuset_size, NULL)')
     affinity.write_text(patched)
+    # Bionic's <arpa/inet.h> expects in_addr_t from <netinet/in.h>. Upstream
+    # currently includes them in the opposite order, which glibc tolerates.
+    msghdr=src/'src/msghdr.c'
+    ms_original=msghdr.read_text()
+    includes='#include <arpa/inet.h>\\n#include <netinet/in.h>'
+    if ms_original.count(includes)!=1: raise RuntimeError('Upstream msghdr include order changed')
+    ms_patched=ms_original.replace(includes,'#include <netinet/in.h>\\n#include <arpa/inet.h>')
+    msghdr.write_text(ms_patched)
     receipts['oceanPatches']=[{'path':'src/affinity.c',
         'reason':'Use the kernel affinity-size probe without passing NULL to Bionic nonnull API',
         'beforeSha256':hashlib.sha256(original.encode()).hexdigest(),
-        'afterSha256':hashlib.sha256(patched.encode()).hexdigest()}]
+        'afterSha256':hashlib.sha256(patched.encode()).hexdigest()},
+        {'path':'src/msghdr.c','reason':'Bionic requires netinet/in.h before arpa/inet.h for in_addr_t',
+        'beforeSha256':hashlib.sha256(ms_original.encode()).hexdigest(),
+        'afterSha256':hashlib.sha256(ms_patched.encode()).hexdigest()}]
     run(['./bootstrap'],cwd=src)
     env=dict(os.environ,CC=str(cc),AR=str(tools/'llvm-ar'),RANLIB=str(tools/'llvm-ranlib'),
              CFLAGS='-O2 -ffile-prefix-map='+str(work)+'=/usr/src/ocean',
