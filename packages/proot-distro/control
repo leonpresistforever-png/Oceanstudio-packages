@@ -1,11 +1,12 @@
 Package: proot-distro
-Version: 4.18.0-1+ocean1
+Version: 4.18.0-1+ocean2
 Architecture: all
 Maintainer: OceanStudio <maintainer@ocean.studio>
-Depends: ocean-distro (>= 1.0.1-1)
+Depends: bash, jq, proot, tar, coreutils, zstd, xz-utils, gzip, bzip2, curl, ca-certificates
 Section: utils
 Priority: optional
 Homepage: https://ocean.studio
-Description: PRoot distribution manager for Ocean OS (ocean-distro compatibility wrapper)
- Compatibility CLI wrapper for OceanStudio's native ocean-distro manager.
- Completely decoupled from Termux with zero Termux dependencies or URLs.
+Description: Independent PRoot guest manager implemented for OceanStudio
+ Installs, logs into, backs up and restores guests using its own registry,
+ download cache and var/lib/proot-distro/installed-rootfs state. Does not invoke
+ or install the ocean-distro command. Existing guests are preserved on upgrade.

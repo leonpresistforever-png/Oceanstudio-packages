@@ -13,8 +13,8 @@ PREFIX = "/data/data/studio.ocean.app/files/usr"
 SRC_DISTRO = ROOT / "packages/ocean-distro"
 SRC_PROOT = ROOT / "packages/proot-distro"
 OUT = ROOT / "staging/ocean-distro-repair"
-VERSION = "1.0.1-2"
-PROOT_VERSION = "4.18.0-1+ocean1"
+VERSION = "1.0.1-3"
+PROOT_VERSION = "4.18.0-1+ocean2"
 
 def sha(path):
     h = hashlib.sha256()
@@ -27,9 +27,8 @@ def run(*args, **kw):
     return subprocess.run(args, check=True, text=True, **kw)
 
 def main():
-    shutil.rmtree(OUT, ignore_errors=True)
     pool = OUT / "pool/main"
-    pool.mkdir(parents=True)
+    pool.mkdir(parents=True, exist_ok=True)
 
     hard = {
         "foreign-app-prefix", "foreign-repository", "foreign-runtime-variable",
@@ -39,6 +38,10 @@ def main():
     import sys
     sys.path.insert(0, str(ROOT / "scripts"))
     from forensic_repository import scan_tar
+
+    # First migrate the old Ocean shell-script package away from the manager's
+    # executable. Preserve every unrelated script byte; this is ownership repair.
+    run("python3", str(ROOT / "scripts/build-ocean-tools-ownership-repair.py"), "--output", str(OUT))
 
     # 1. Build ocean-distro
     with tempfile.TemporaryDirectory(prefix="ocean-distro-pkg-") as td:
@@ -59,6 +62,7 @@ def main():
         (debian / "control").write_text(control)
         for p in stage.rglob("*"):
             os.utime(p, (0, 0), follow_symlinks=False)
+        os.utime(stage, (0, 0))
         deb = pool / f"ocean-distro_{VERSION}_all.deb"
         run("dpkg-deb", "--root-owner-group", "-Zxz", "-z6", "--build", str(stage), str(deb))
 
@@ -67,14 +71,16 @@ def main():
         if defects:
             raise SystemExit("ocean-distro package audit failed: " + repr(defects[:20]))
 
-    # 2. Build proot-distro compatibility wrapper package
+    # 2. Build the independent Ocean-authored PRoot manager and its own registry.
     with tempfile.TemporaryDirectory(prefix="proot-distro-pkg-") as pd_td:
         stage = Path(pd_td)
         stage.chmod(0o755)
         root = stage / PREFIX.lstrip("/")
         (root / "bin").mkdir(parents=True)
+        (root / "share/proot-distro").mkdir(parents=True)
         shutil.copy2(SRC_PROOT / "proot-distro", root / "bin/proot-distro")
         (root / "bin/proot-distro").chmod(0o755)
+        shutil.copy2(SRC_PROOT / "distros.json", root / "share/proot-distro/distros.json")
         debian = stage / "DEBIAN"
         debian.mkdir(mode=0o755)
         debian.chmod(0o755)
@@ -84,6 +90,7 @@ def main():
         (debian / "control").write_text(control)
         for p in stage.rglob("*"):
             os.utime(p, (0, 0), follow_symlinks=False)
+        os.utime(stage, (0, 0))
         pd_deb = pool / f"proot-distro_{PROOT_VERSION}_all.deb"
         run("dpkg-deb", "--root-owner-group", "-Zxz", "-z6", "--build", str(stage), str(pd_deb))
 
@@ -101,6 +108,9 @@ def main():
     test = subprocess.run(["python3", str(ROOT / "tests/test-ocean-distro.py")], capture_output=True, text=True)
     if test.returncode:
         raise SystemExit("ocean-distro tests failed: " + test.stdout + " " + test.stderr)
+    independent = subprocess.run(["python3", str(ROOT / "tests/test-proot-distro-independent.py")], capture_output=True, text=True)
+    if independent.returncode:
+        raise SystemExit("independent PRoot manager tests failed: " + independent.stdout + " " + independent.stderr)
 
     report = {
         "status": "PASS_CANDIDATE",
@@ -117,6 +127,9 @@ def main():
         "unresolvedChecksumEntries": unresolved,
         "checksumMeaning": "Pinned checksum is integrity metadata only; runtime verification is recorded separately by rootfs audits",
         "sourceTests": "PASS",
+        "independentManagerTests": "PASS",
+        "prootState": PREFIX + "/var/lib/proot-distro/installed-rootfs",
+        "oceanState": "${OCEAN_HOME}/.distro",
         "physicalAndroidDeviceTested": False
     }
     (OUT / "provenance.json").write_text(json.dumps(report, indent=2) + chr(10))

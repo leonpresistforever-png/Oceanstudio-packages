@@ -1,36 +1,441 @@
 #!/data/data/studio.ocean.app/files/usr/bin/bash
-# OceanStudio PRoot distribution compatibility CLI
-# Forwards commands to native ocean-distro with clean upstream rootfs
+# Ocean-authored independent PRoot guest manager. No other manager is invoked.
 set -euo pipefail
 
-DISTRO_CMD="/data/data/studio.ocean.app/files/usr/bin/ocean-distro"
+OCEAN_PREFIX="${OCEAN_PREFIX:-${PREFIX:-/data/data/studio.ocean.app/files/usr}}"
+OCEAN_HOME="${OCEAN_HOME:-${HOME:-/data/data/studio.ocean.app/files/home}}"
+RUNTIME_DIR="${OCEAN_PROOT_DISTRO_DIR:-$OCEAN_PREFIX/var/lib/proot-distro}"
+DISTRO_BASE_DIR="$RUNTIME_DIR/installed-rootfs"
+DOWNLOAD_DIR="$RUNTIME_DIR/dl-cache"
+REGISTRY_FILE="${OCEAN_PROOT_DISTRO_REGISTRY:-${OCEAN_PREFIX}/share/proot-distro/distros.json}"
 
-if [[ ! -x "$DISTRO_CMD" ]]; then
-  echo "proot-distro error: ocean-distro backend not found at $DISTRO_CMD" >&2
-  exit 1
+# Fallback if running from source tree
+if [[ ! -f "$REGISTRY_FILE" ]]; then
+  SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+  if [[ -f "$SCRIPT_DIR/distros.json" ]]; then
+    REGISTRY_FILE="$SCRIPT_DIR/distros.json"
+  fi
 fi
 
-case "${1:-}" in
-  reset)
-    shift
-    distro="${1:-}"
-    if [[ -z "$distro" ]]; then
-      echo "Usage: proot-distro reset <distro>" >&2
-      exit 1
+usage() {
+  cat << 'USAGE'
+OceanStudio Independent PRoot Manager (proot-distro)
+
+Usage:
+  proot-distro list                   List all supported & installed distributions
+  proot-distro install <distro>       Download and install a distribution rootfs
+  proot-distro login <distro> [-- cmd] Log into a distribution or run a command
+  proot-distro info <distro>          Display detailed information about a distro
+  proot-distro update <distro>        Run package manager update inside distro
+  proot-distro remove <distro>        Remove this manager's distribution
+  proot-distro reset <distro>         Reinstall; preserve the old guest if download fails
+  proot-distro rename <old> <new>     Rename this manager's guest
+  proot-distro backup <distro> --output <archive.tar>
+  proot-distro restore <archive.tar>  Restore one guest without overwriting an installation
+  proot-distro clear-cache           Remove only this manager's download cache
+
+Supported distributions:
+  debian, ubuntu, alpine, arch, fedora, rocky, alma,
+  opensuse, void, kali, centos, devuan, gentoo
+USAGE
+  exit "${1:-0}"
+}
+
+die() {
+  echo "proot-distro error: $*" >&2
+  exit 1
+}
+
+require_proot() {
+  PROOT_BIN="$(command -v proot)" || die "proot is required but not installed. Run: pkg install proot"
+  [[ "$PROOT_BIN" = /* ]] || die "proot must resolve to an absolute executable path."
+}
+
+normalize_distro() {
+  local name="${1,,}"
+  [[ "$name" =~ ^[a-z0-9][a-z0-9_-]*$ ]] || die "Invalid distribution name: '$1'"
+  printf '%s\n' "$name"
+}
+
+get_distro_field() {
+  local distro="$1"
+  local field="$2"
+  if [[ -f "$DISTRO_BASE_DIR/$distro/.ocean-proot-alias" ]]; then
+    distro=$(normalize_distro "$(cat "$DISTRO_BASE_DIR/$distro/.ocean-proot-alias")")
+  fi
+  # A real JSON lookup prevents the distribution "arch" from matching another
+  # distribution's architecture field and selecting its rootfs by mistake.
+  command -v jq >/dev/null 2>&1 || die "jq is required. Run: pkg install jq"
+  jq -er --arg d "$distro" --arg f "$field" '.[$d][$f] // "" | select(type == "string")' "$REGISTRY_FILE"
+}
+
+cmd_list() {
+  echo "OceanStudio Distro Universe:"
+  printf "%-12s %-22s %-10s %-16s %s\n" "DISTRO" "NAME & VERSION" "STATUS" "PACKAGE MANAGER" "PRIORITY"
+  printf "%-12s %-22s %-10s %-16s %s\n" "------" "--------------" "------" "---------------" "--------"
+  
+  command -v jq >/dev/null 2>&1 || die "jq is required. Run: pkg install jq"
+  local rows distro title pkg prio status
+  rows=$(jq -er 'to_entries[] | [.key, (.value.name + " " + .value.version), .value.pkg_manager, .value.priority] | @tsv' "$REGISTRY_FILE")
+  while IFS=$'\t' read -r distro title pkg prio; do
+    status=AVAILABLE
+    [[ -d "$DISTRO_BASE_DIR/$distro/etc" ]] && status=INSTALLED
+    printf "%-12s %-22.22s %-10s %-16s %s\n" "$distro" "$title" "$status" "$pkg" "$prio"
+  done <<< "$rows"
+}
+
+cmd_install() {
+  local distro="${1:-}"
+  [[ -z "$distro" ]] && usage
+  distro="$(normalize_distro "$distro")"
+  require_proot
+
+  local url sha shell_path
+  url=$(get_distro_field "$distro" "url")
+  sha=$(get_distro_field "$distro" "sha256")
+  shell_path=$(get_distro_field "$distro" "shell")
+  local fallback_url
+  fallback_url=$(get_distro_field "$distro" "fallback_url")
+
+  [[ -z "$url" ]] && die "Unknown distribution: '$distro'. Run 'proot-distro list' to see available distros."
+
+  local target_dir="$DISTRO_BASE_DIR/$distro"
+  [[ ! -L "$target_dir" ]] || die "Guest directory must not be a host symlink."
+  if [[ -d "$target_dir" ]]; then
+    die "Distribution '$distro' is already installed at $target_dir. Remove first or run 'proot-distro login $distro'."
+  fi
+
+  [[ "$sha" =~ ^[0-9a-fA-F]{64}$ ]] || die "No verified SHA256 for '$distro'. Update the distro catalogue before installing."
+  command -v curl >/dev/null 2>&1 || die "curl is required. Run: pkg install curl"
+  mkdir -p "$DOWNLOAD_DIR" "$DISTRO_BASE_DIR"
+  local temp_archive="$DOWNLOAD_DIR/${sha,,}.tar"
+  local partial="$temp_archive.part" actual_sha try_url attempt complete=false
+  if [[ -f "$temp_archive" ]]; then
+    read -r actual_sha _ < <(sha256sum "$temp_archive")
+    [[ "${actual_sha,,}" = "${sha,,}" ]] && complete=true
+  fi
+  for try_url in "$url" "$fallback_url"; do
+    [[ "$complete" = true ]] && break
+    [[ -z "$try_url" ]] && continue
+    [[ "$try_url" = https://* && "${try_url,,}" != *termux* ]] || die "Rootfs source must be an official HTTPS upstream."
+    for attempt in 1 2; do
+      echo "Downloading $distro rootfs from $try_url..."
+      # Resume only a checksum-addressed partial file. A failed range request or
+      # corrupt partial gets one clean restart; neither can become an install.
+      if curl --fail --location --proto '=https' --proto-redir '=https' \
+          --continue-at - --retry 3 --retry-all-errors --connect-timeout 30 \
+          --max-time 1800 --speed-limit 1024 --speed-time 90 \
+          --output "$partial" "$try_url"; then
+        read -r actual_sha _ < <(sha256sum "$partial")
+        if [[ "${actual_sha,,}" = "${sha,,}" ]]; then
+          mv -f -- "$partial" "$temp_archive"
+          complete=true
+          break
+        fi
+        echo "Checksum mismatch; discarding the incomplete or changed archive." >&2
+      fi
+      rm -f -- "$partial"
+    done
+  done
+  [[ "$complete" = true ]] || die "Download did not pass SHA256 verification. No distribution was installed."
+
+  # Install into a temporary sibling. A failed extraction must never leave a
+  # directory that login/list can mistake for a completed distribution.
+  (
+    local staging
+    staging="$(mktemp -d "$DISTRO_BASE_DIR/.install-${distro}.XXXXXX")"
+    trap 'rm -rf -- "$staging"' EXIT
+    trap 'exit 130' INT
+    trap 'exit 143' TERM HUP
+    tar --extract --file "$temp_archive" --directory "$staging" \
+        --no-same-owner --no-same-permissions --delay-directory-restore \
+        --exclude='dev/*' --exclude='./dev/*'
+    # A non-root Android app cannot create archived device nodes (Gentoo ships
+    # dev/null and dev/console). Login binds the real /dev over this directory.
+    [[ ! -L "$staging/dev" ]] || die "Rootfs /dev must not be a symlink."
+    mkdir -p "$staging/dev"
+    [[ -d "$staging/etc" && ! -L "$staging/etc" && ! -L "$staging/root" \
+       && ( -e "$staging$shell_path" || -L "$staging$shell_path" ) ]] \
+      || die "Archive is not a usable '$distro' root filesystem."
+    # Replace the guest DNS link itself, never follow it into a host path.
+    rm -f -- "$staging/etc/resolv.conf"
+    printf 'nameserver 1.1.1.1\nnameserver 8.8.8.8\n' > "$staging/etc/resolv.conf"
+    mkdir -p "$staging/root"
+    printf 'distro=%s\nsha256=%s\n' "$distro" "${sha,,}" > "$staging/.ocean-proot-installed"
+    [[ ! -e "$target_dir" && ! -L "$target_dir" ]] || die "Target appeared during installation; preserving it."
+    mv -T -n -- "$staging" "$target_dir"
+    [[ ! -e "$staging" ]] || die "Target appeared during installation; preserving it."
+    trap - EXIT
+  )
+
+  echo "Successfully installed $distro into $target_dir."
+  echo "Run 'proot-distro login $distro' to start your session."
+}
+
+cmd_login() {
+  local distro="${1:-}"
+  shift || true
+  [[ -z "$distro" ]] && usage
+  distro="$(normalize_distro "$distro")"
+  require_proot
+
+  local target_dir="$DISTRO_BASE_DIR/$distro"
+  [[ ! -L "$target_dir" ]] || die "Guest directory must not be a host symlink."
+  [[ ! -d "$target_dir" ]] && die "Distribution '$distro' is not installed. Run 'proot-distro install $distro' first."
+
+  local shell_path
+  shell_path=$(get_distro_field "$distro" "shell")
+  local fallback_url
+  fallback_url=$(get_distro_field "$distro" "fallback_url")
+  shell_path="${shell_path:-/bin/sh}"
+
+  local guest_user="root"
+  local guest_home="/root"
+
+  # Standard PRoot bind mounts for Android userland
+  local proot_args=(
+    "$PROOT_BIN"
+    --link2symlink
+    -0
+    -r "$target_dir"
+    -b /dev
+    -b /proc
+    -b /sys
+    -b "$OCEAN_HOME:/data/data/studio.ocean.app/files/home"
+    -w "$guest_home"
+  )
+
+  # Export guest environment
+  # Retain native PATH and loader settings until the native proot has started.
+  # Set guest variables with the guest's env; no ocean/proot-distro auto-login,
+  # inherited native LD_PRELOAD or foreign prefix leaks into the guest session.
+  proot_args+=( /usr/bin/env -i HOME="$guest_home" USER="$guest_user" LOGNAME="$guest_user"
+    TERM="${TERM:-xterm-256color}" LANG=C.UTF-8
+    PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin )
+  # Native proot may need Ocean's LD_LIBRARY_PATH to load its own libraries.
+  # The guest env -i above clears it for the requested guest command.
+  unset LD_PRELOAD
+
+  if [[ $# -gt 0 ]]; then
+    if [[ "$1" == "--" ]]; then
+      shift
     fi
-    "$DISTRO_CMD" remove "$distro"
-    exec "$DISTRO_CMD" install "$distro"
-    ;;
-  clear-cache)
-    cache_dir="${OCEAN_HOME:-/data/data/studio.ocean.app/files/home}/.distro/dl-cache"
-    rm -rf "$cache_dir"
-    echo "proot-distro: cache cleared ($cache_dir)."
-    exit 0
-    ;;
-  help|--help|-h|"")
-    exec "$DISTRO_CMD" --help
-    ;;
-  *)
-    exec "$DISTRO_CMD" "$@"
-    ;;
+    exec "${proot_args[@]}" "$@"
+  else
+    exec "${proot_args[@]}" "$shell_path"
+  fi
+}
+
+cmd_info() {
+  local distro="${1:-}"
+  [[ -z "$distro" ]] && usage
+  distro="$(normalize_distro "$distro")"
+
+  local name ver prio pkg desc arch url
+  name=$(get_distro_field "$distro" "name")
+  [[ -z "$name" ]] && die "Unknown distribution: '$distro'"
+
+  ver=$(get_distro_field "$distro" "version")
+  prio=$(get_distro_field "$distro" "priority")
+  pkg=$(get_distro_field "$distro" "pkg_manager")
+  desc=$(get_distro_field "$distro" "description")
+  arch=$(get_distro_field "$distro" "arch")
+  url=$(get_distro_field "$distro" "url")
+
+  local installed="No"
+  [[ -d "$DISTRO_BASE_DIR/$distro" ]] && installed="Yes ($DISTRO_BASE_DIR/$distro)"
+
+  cat << INFO
+Distribution:    $distro
+Name:            $name $ver
+Architecture:    $arch
+Package Manager: $pkg
+Tier/Priority:   $prio
+Installed:       $installed
+Description:     $desc
+Source URL:      $url
+INFO
+}
+
+cmd_remove() {
+  local distro="${1:-}"
+  [[ -z "$distro" ]] && usage
+  distro="$(normalize_distro "$distro")"
+
+  local target_dir="$DISTRO_BASE_DIR/$distro"
+  [[ ! -L "$target_dir" ]] || die "Guest directory must not be a host symlink."
+  [[ ! -d "$target_dir" ]] && die "Distribution '$distro' is not installed."
+
+  echo "Removing $distro ($target_dir)..."
+  chmod -R u+rwX "$target_dir" 2>/dev/null || true
+  rm -rf "$target_dir"
+  echo "Successfully removed $distro."
+}
+
+cmd_update() {
+  local distro="${1:-}"
+  [[ -z "$distro" ]] && usage
+  distro="$(normalize_distro "$distro")"
+
+  local target_dir="$DISTRO_BASE_DIR/$distro"
+  [[ ! -L "$target_dir" ]] || die "Guest directory must not be a host symlink."
+  [[ ! -d "$target_dir" ]] && die "Distribution '$distro' is not installed."
+
+  local update_cmd
+  update_cmd=$(get_distro_field "$distro" "update_cmd")
+  [[ -z "$update_cmd" ]] && die "No update command defined for $distro."
+
+  echo "Updating $distro with: $update_cmd"
+  cmd_login "$distro" -- /bin/sh -c "$update_cmd"
+}
+
+
+# Inherited Ocean settings must never redirect this manager into Ocean guests.
+# Resolve existing symlinks before comparing both defaults and configured paths.
+assert_independent_state() {
+  local own ocean
+  own=$(realpath -m -- "$RUNTIME_DIR")
+  [[ "$own" != / && "$own" != "$OCEAN_PREFIX" && "$own" != "$OCEAN_HOME" ]] \
+    || die "PRoot state directory is too broad."
+  for ocean in "$OCEAN_HOME/.distro" "${OCEAN_DISTRO_DIR:-$OCEAN_HOME/.distro}"; do
+    ocean=$(realpath -m -- "$ocean")
+    if [[ "$own/" == "$ocean/"* || "$ocean/" == "$own/"* ]]; then
+      die "PRoot and Ocean guest directories must be independent."
+    fi
+  done
+  [[ ! -L "$DISTRO_BASE_DIR" && ! -L "$DOWNLOAD_DIR" ]] \
+    || die "PRoot state subdirectories must not be host symlinks."
+}
+
+cmd_clear_cache() {
+  [[ ! -L "$DOWNLOAD_DIR" ]] || die "Download cache must not be a host symlink."
+  rm -rf -- "$DOWNLOAD_DIR"
+  echo "Cleared PRoot download cache. Installed guests were preserved."
+}
+
+cmd_reset() (
+  local distro staging old target committed=false
+  distro=$(normalize_distro "${1:?Specify a distribution}")
+  target="$DISTRO_BASE_DIR/$distro"
+  [[ -d "$target" && ! -L "$target" ]] || die "Distribution '$distro' is not installed."
+  staging=$(mktemp -d "$RUNTIME_DIR/.reset-$distro.XXXXXX")
+  old="$staging/previous"
+  cleanup_reset() {
+    if [[ -d "$old" && "$committed" != true ]]; then
+      if [[ ! -e "$target" && ! -L "$target" ]]; then
+        mv -- "$old" "$target" || return
+      else
+        echo "Previous guest preserved at $old" >&2
+        return
+      fi
+    fi
+    chmod -R u+rwX "$staging" 2>/dev/null || true
+    rm -rf -- "$staging"
+  }
+  trap cleanup_reset EXIT
+  trap 'exit 130' INT
+  trap 'exit 143' TERM HUP
+  # Download and validate replacement completely before moving the current guest.
+  ( DISTRO_BASE_DIR="$staging/installed-rootfs"; mkdir -p "$DISTRO_BASE_DIR"; cmd_install "$distro" )
+  mv -- "$target" "$old"
+  if ! mv -T -n -- "$staging/installed-rootfs/$distro" "$target"; then
+    mv -- "$old" "$target"
+    die "Reset failed; previous guest was restored."
+  fi
+  [[ ! -d "$staging/installed-rootfs/$distro" ]] || {
+    echo "Concurrent target appeared. Previous guest is preserved at $old" >&2
+    trap - EXIT
+    exit 1
+  }
+  committed=true
+  chmod -R u+rwX -- "$old"
+  echo "Reset PRoot guest '$distro'."
+)
+
+cmd_rename() {
+  local old new
+  old=$(normalize_distro "${1:?Specify old name}")
+  new=$(normalize_distro "${2:?Specify new name}")
+  [[ -d "$DISTRO_BASE_DIR/$old" && ! -L "$DISTRO_BASE_DIR/$old" ]] || die "Guest does not exist."
+  [[ ! -e "$DISTRO_BASE_DIR/$new" && ! -L "$DISTRO_BASE_DIR/$new" ]] || die "Target already exists."
+  # Retain the original registry identity so renamed guests still use its shell.
+  [[ -f "$DISTRO_BASE_DIR/$old/.ocean-proot-alias" ]] \
+    || printf '%s\n' "$old" > "$DISTRO_BASE_DIR/$old/.ocean-proot-alias"
+  mv -T -n -- "$DISTRO_BASE_DIR/$old" "$DISTRO_BASE_DIR/$new"
+  [[ ! -e "$DISTRO_BASE_DIR/$old" ]] || die "Target appeared; original guest preserved."
+}
+
+cmd_backup() (
+  local distro='' output='' partial
+  while [[ $# -gt 0 ]]; do
+    case "$1" in
+      --output) [[ $# -ge 2 ]] || die "--output needs a filename"; output="$2"; shift 2 ;;
+      -*) die "Unknown backup option: $1" ;;
+      *) [[ -z "$distro" ]] || die "Specify one guest"; distro=$(normalize_distro "$1"); shift ;;
+    esac
+  done
+  [[ -n "$distro" && -n "$output" ]] || die "Usage: proot-distro backup <guest> --output <archive.tar>"
+  [[ -d "$DISTRO_BASE_DIR/$distro" && ! -L "$DISTRO_BASE_DIR/$distro" ]] || die "Guest does not exist."
+  [[ ! -e "$output" && ! -L "$output" ]] || die "Backup file already exists; preserving it."
+  partial=$(mktemp "${output}.part.XXXXXX")
+  trap 'rm -f -- "$partial"' EXIT
+  tar --create --file "$partial" --directory "$RUNTIME_DIR" "installed-rootfs/$distro"
+  ln -- "$partial" "$output" || die "Backup target appeared; preserving it."
+  echo "Saved PRoot backup to $output"
+)
+
+cmd_restore() (
+  local archive="${1:?Specify a backup archive}" member alias='' candidate staging target
+  [[ -f "$archive" ]] || die "Backup file does not exist."
+  # Read all member names before extraction. Legacy plugin files are never
+  # executed or installed; only the selected guest subtree is restored.
+  local members
+  members=$(tar --list --file "$archive") || die "Backup archive is corrupt."
+  while IFS= read -r member; do
+    member="${member#./}"
+    [[ "/$member/" != *'/../'* && "$member" != /* ]] || die "Backup contains an unsafe path."
+    case "$member" in
+      installed-rootfs/*)
+        candidate="${member#installed-rootfs/}"; candidate="${candidate%%/*}"
+        [[ -z "$candidate" ]] && continue
+        candidate=$(normalize_distro "$candidate")
+        [[ -z "$alias" || "$alias" == "$candidate" ]] || die "Restore one guest at a time."
+        alias="$candidate" ;;
+    esac
+  done <<< "$members"
+  [[ -n "$alias" ]] || die "No installed-rootfs guest found in backup."
+  mkdir -p "$DISTRO_BASE_DIR"
+  target="$DISTRO_BASE_DIR/$alias"
+  [[ ! -e "$target" && ! -L "$target" ]] || die "Guest already exists; preserving it."
+  staging=$(mktemp -d "$RUNTIME_DIR/.restore-$alias.XXXXXX")
+  trap 'chmod -R u+rwX "$staging" 2>/dev/null || true; rm -rf -- "$staging"' EXIT
+  tar --extract --file "$archive" --directory "$staging" --no-same-owner \
+      --delay-directory-restore --exclude='*/dev/*' "installed-rootfs/$alias"
+  local guest="$staging/installed-rootfs/$alias"
+  [[ -d "$guest/etc" && ! -L "$guest" && ! -L "$guest/etc" && ! -L "$guest/dev" ]] \
+    || die "Backup does not contain a usable guest."
+  mkdir -p "$guest/dev"
+  mv -T -n -- "$guest" "$target"
+  [[ ! -e "$guest" ]] || die "Target appeared; existing guest was preserved."
+  echo "Restored PRoot guest '$alias'."
+)
+
+assert_independent_state
+
+action="${1:-}"
+case "$action" in
+  paths) printf "manager=proot-distro\nrootfs=%s\ncache=%s\nregistry=%s\n" "$DISTRO_BASE_DIR" "$DOWNLOAD_DIR" "$REGISTRY_FILE" ;;
+  reset) shift; cmd_reset "$@" ;;
+  rename) shift; cmd_rename "$@" ;;
+  backup|bak|bkp) shift; cmd_backup "$@" ;;
+  restore) shift; cmd_restore "$@" ;;
+  clear-cache|cc) cmd_clear_cache ;;
+  list|ls)        cmd_list ;;
+  install)        shift; cmd_install "$@" ;;
+  login)          shift; cmd_login "$@" ;;
+  info)           shift; cmd_info "$@" ;;
+  update)         shift; cmd_update "$@" ;;
+  remove|uninstall) shift; cmd_remove "$@" ;;
+  help|-h|--help) usage ;;
+  *)              usage ;;
 esac
