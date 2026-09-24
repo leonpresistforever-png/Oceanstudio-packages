@@ -204,9 +204,9 @@ def strace(src, work, stage, ndk, receipts):
     merge=prefix/'bin/strace-log-merge'
     if merge.exists():
         text=merge.read_text(); lines=text.splitlines(keepends=True)
-        if not lines[0].startswith('#!') or 'perl' not in lines[0]:
+        if not lines or lines[0].strip()!='#!/bin/sh':
             raise RuntimeError('Unexpected upstream log-merge interpreter')
-        lines[0]='#!'+PREFIX+'/bin/perl\n';merge.write_text(''.join(lines))
+        lines[0]='#!'+PREFIX+'/bin/sh\n';merge.write_text(''.join(lines))
     doc=prefix/'share/doc/strace';doc.mkdir(parents=True,exist_ok=True)
     for filename in ('COPYING','CREDITS','AUTHORS','LGPL-2.1-or-later'):
         if (src/filename).is_file():shutil.copy2(src/filename,doc/filename)
@@ -233,15 +233,6 @@ def main():
             tests=caddy(src,work,stage,receipts) if name=='caddy' else strace(src,work,stage,a.ndk,receipts)
             record=upstream.package(name,{'caddy':'2.11.4-1+ocean1','strace':'7.2-1+ocean1'}[name],
                 stage,output,'Official-source '+name+' built for the Ocean native Android prefix',receipts,tests)
-            if name=='strace' and (stage/PREFIX.lstrip('/')/'bin/strace-log-merge').exists():
-                # Preserve log merge functionality with its real interpreter dependency.
-                control=stage/'DEBIAN/control'
-                control.write_text(control.read_text()+'Depends: perl\n')
-                archive=output/'pool/main'/record['artifact']
-                run(['dpkg-deb','--root-owner-group','-Zxz','--build',stage,archive])
-                from index_all_staged import parse_deb,make_stanza
-                text,digest=parse_deb(archive)
-                record.update(sha256=upstream.sha(archive),index=make_stanza(text,digest,archive.name))
             # Read every payload/control byte, including binary embedded prefixes.
             from forensic_repository import scan_tar
             archive=output/'pool/main'/record['artifact']
