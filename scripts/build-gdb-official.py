@@ -41,6 +41,21 @@ def main():
         work=Path(td); src=work/"src"; build=work/"build"; stage=work/"stage"
         run(["git","clone","--depth=1","--branch",TAG,SOURCE,str(src)])
         commit=subprocess.check_output(["git","-C",str(src),"rev-parse","HEAD"],text=True).strip()
+        # GDB 9.2 bundles an older gnulib strerror_r replacement. On Bionic,
+        # strerror_r has the GNU char* signature, but this gnulib branch assumes
+        # an int-returning POSIX signature. Route Android through gnulib's
+        # thread-safe strerror fallback instead of compiling the incompatible call.
+        compat=src/"gnulib/import/strerror_r.c"
+        compat_before=compat.read_text()
+        needle="#elif HAVE_DECL_STRERROR_R_ORIG && !(__GLIBC__ >= 2 || defined __UCLIBC__ || defined __CYGWIN__)"
+        if compat_before.count(needle)!=1:
+            raise SystemExit("Upstream gnulib strerror_r layout changed")
+        compat_after=compat_before.replace(needle,needle+" && !defined __ANDROID__")
+        compat.write_text(compat_after)
+        patch_record={"path":"gnulib/import/strerror_r.c",
+            "reason":"Bionic strerror_r returns char*; avoid gnulib 9.2 POSIX-int call path",
+            "beforeSha256":hashlib.sha256(compat_before.encode()).hexdigest(),
+            "afterSha256":hashlib.sha256(compat_after.encode()).hexdigest()}
         build.mkdir()
         env=dict(os.environ,CC=str(cc),CXX=str(cxx),AR=str(tools/"llvm-ar"),
                  RANLIB=str(tools/"llvm-ranlib"),STRIP=str(tools/"llvm-strip"),
@@ -53,7 +68,7 @@ def main():
           "--prefix="+PREFIX,"--disable-nls","--disable-werror","--disable-tui",
           "--without-python","--without-guile","--without-expat","--without-lzma",
           "--without-zstd","--without-libunwind","--without-debuginfod",
-          "--without-babeltrace","--disable-source-highlight","--with-system-readline=no"
+          "--without-babeltrace","--disable-source-highlight","--disable-sim","--with-system-readline=no"
         ]
         run(configure,cwd=build,env=env)
         run(["make","-j2","all-gdb"],cwd=build,env=env)
@@ -95,7 +110,7 @@ def main():
         report={"status":"PASS_CANDIDATE","package":"gdb","version":VERSION,"source":SOURCE,
                 "tag":TAG,"commit":commit,"sha256":sha(deb),"target":"aarch64-linux-android28",
                 "prefix":PREFIX,"qemuArm64Version":ver.stdout.splitlines()[0],
-                "static":True,"foreignRuntimeMarkers":[],"androidPhonePtraceTested":False,
+                "static":True,"foreignRuntimeMarkers":[],"oceanPatches":[patch_record],"androidPhonePtraceTested":False,
                 "limitation":"QEMU user mode proves executable startup/version, not ptrace debugging on a physical Android device"}
         (out/"provenance.json").write_text(json.dumps(report,indent=2)+"\n")
         print(json.dumps(report,indent=2))
