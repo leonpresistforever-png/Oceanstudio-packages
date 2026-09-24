@@ -24,6 +24,7 @@ CANDIDATES={
  "librsync": ROOT/"staging/upstream-repairs/pool/main/librsync_2.3.4-1_aarch64.deb",
  "luajit": ROOT/"apt/pool/main/luajit_1:2.1.1787165859+g1ee778a_aarch64.deb",
  "ocean-distro": ROOT/"staging/ocean-distro-repair/pool/main/ocean-distro_1.0.1-1_all.deb",
+ "proot-distro": ROOT/"staging/ocean-distro-repair/pool/main/proot-distro_4.18.0-1+ocean1_all.deb",
 }
 HARD={"foreign-app-prefix","foreign-repository","foreign-runtime-variable","foreign-link-target",
       "unsafe-archive-path","confirmed-ready-stub","invalid-elf-header","elf-reader-error"}
@@ -104,7 +105,10 @@ def publish():
             filename=r["Filename"]; deb=apt/filename
             text,digest=parse_deb(deb)
             stanzas_out.append(make_stanza(text,digest,deb.name,filename))
-    packages=("\n\n".join(stanzas_out)+"\n").encode()
+    packages=("
+
+".join(stanzas_out)+"
+").encode()
     compressed=gzip.compress(packages,mtime=0)
     with tempfile.TemporaryDirectory(prefix="ocean-critical-signed-",dir=ROOT) as td:
         tmp=Path(td); (tmp/INDEX).parent.mkdir(parents=True)
@@ -130,9 +134,11 @@ def main():
     a=ap.parse_args()
     try:
         if a.plan:
-            *_,report=plan(); a.plan.parent.mkdir(parents=True,exist_ok=True);a.plan.write_text(json.dumps(report,indent=2)+"\n");print(json.dumps(report,indent=2))
+            *_,report=plan(); a.plan.parent.mkdir(parents=True,exist_ok=True);a.plan.write_text(json.dumps(report,indent=2)+"
+");print(json.dumps(report,indent=2))
         else:
             report=publish();print(json.dumps(report,indent=2))
     except (ValueError,OSError,subprocess.CalledProcessError) as exc:
-        ap.exit(1,"Critical publication failed: "+str(exc)+"\n")
+        ap.exit(1,"Critical publication failed: "+str(exc)+"
+")
 if __name__=="__main__":main()
