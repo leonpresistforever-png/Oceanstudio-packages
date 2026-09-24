@@ -1,0 +1,25 @@
+name: Test archive signing continuity recovery
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/sync_repository_signing_secret.py
+      - tests/test_repository_signing_sync.py
+      - .github/workflows/test-signing-restore.yml
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          sparse-checkout: |
+            scripts
+            tests
+          filter: blob:none
+      - run: python3 -m pip install --target "$RUNNER_TEMP/ocean-nacl" PyNaCl==1.6.2
+      - name: Test disposable key signing, identity rejection and sealed encryption
+        run: PYTHONPATH="$RUNNER_TEMP/ocean-nacl" python3 tests/test_repository_signing_sync.py -v
