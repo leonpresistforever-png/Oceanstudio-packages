@@ -1,0 +1,42 @@
+name: Reproduce original OpenJDK unpack failure
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/reproduce-openjdk-unpack.py
+      - .github/workflows/reproduce-openjdk-unpack.yml
+permissions:
+  contents: write
+jobs:
+  replay:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /scripts/
+            /apt/dists/stable/main/binary-aarch64/
+            /apt/pool/main/openjdk-21*.deb
+          filter: blob:none
+      - name: Hash actual archives and replay original payload unpacking
+        run: python3 scripts/reproduce-openjdk-unpack.py --output jdk-replay/report.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: ocean-openjdk-unpack-evidence
+          path: jdk-replay
+      - name: Preserve exact replay results
+        run: |
+          set -euo pipefail
+          dest="audits/openjdk/$GITHUB_SHA"
+          mkdir -p "$dest"
+          cp jdk-replay/report.json "$dest/report.json"
+          git config user.name 'Ocean Package Auditor'
+          git config user.email 'packages@ocean.studio'
+          git add --sparse "$dest"
+          git commit -m "audit(openjdk): record original payload dpkg unpack failure for $GITHUB_SHA [skip ci]"
+          git pull --rebase origin main
+          git push origin HEAD:main

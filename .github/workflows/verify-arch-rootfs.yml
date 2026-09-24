@@ -1,0 +1,42 @@
+name: Authenticate official Arch ARM rootfs
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/verify-arch-rootfs.py
+      - .github/workflows/verify-arch-rootfs.yml
+permissions:
+  contents: write
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          sparse-checkout: |
+            scripts
+            packages/ocean-distro
+          filter: blob:none
+      - name: Install ARM userspace execution tools
+        run: sudo apt-get update && sudo apt-get install -y qemu-user
+      - name: Check official signature then real ARM rootfs
+        run: python3 scripts/verify-arch-rootfs.py --output arch-results
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: ocean-arch-rootfs-evidence
+          path: arch-results
+      - name: Save candidate evidence without publishing the registry
+        run: |
+          set -euo pipefail
+          dest="audits/arch-rootfs/$GITHUB_SHA"
+          mkdir -p "$dest"
+          cp arch-results/*.json "$dest/"
+          git config user.name 'Ocean Rootfs Auditor'
+          git config user.email 'packages@ocean.studio'
+          git add --sparse "$dest"
+          git commit -m "audit(distro): preserve authenticated Arch rootfs result for $GITHUB_SHA [skip ci]"
+          git pull --rebase origin main
+          git push origin HEAD:main
