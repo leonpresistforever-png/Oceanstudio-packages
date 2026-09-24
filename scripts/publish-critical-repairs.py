@@ -21,6 +21,8 @@ CANDIDATES={
  "caddy": ROOT/"staging/official-native-repairs/caddy/pool/main/caddy_2.11.4-1+ocean1_aarch64.deb",
  "strace": ROOT/"staging/official-native-repairs/strace/pool/main/strace_7.2-1+ocean1_aarch64.deb",
  "gdb": ROOT/"staging/official-gdb-repair/pool/main/gdb_9.2-1+ocean1_aarch64.deb",
+ "librsync": ROOT/"staging/upstream-repairs/pool/main/librsync_2.3.4-1_aarch64.deb",
+ "luajit": ROOT/"apt/pool/main/luajit_1:2.1.1787165859+g1ee778a_aarch64.deb",
 }
 HARD={"foreign-app-prefix","foreign-repository","foreign-runtime-variable","foreign-link-target",
       "unsafe-archive-path","confirmed-ready-stub","invalid-elf-header","elf-reader-error"}
@@ -36,8 +38,7 @@ def validate_candidate(name,path,current):
     text,digest=parse_deb(path); rec=fields(text)
     if rec["Package"]!=name: raise ValueError(f"{path}: package name mismatch")
     old=next((r for r in current if identity(r)==identity(rec)),None)
-    if not old: raise ValueError(f"{name}: no current indexed package to repair")
-    if compare_versions(rec["Version"],old["Version"])<=0:
+    if old and compare_versions(rec["Version"],old["Version"])<=0:
         raise ValueError(f"{name}: repaired version must be newer than live {old['Version']}")
     rows=list(scan_tar(path))+list(scan_tar(path,control=True))
     bad=[{"path":r["path"],**f} for r in rows for f in r.get("findings",[]) if f["kind"] in HARD]
@@ -49,8 +50,11 @@ def plan():
     for name,path in CANDIDATES.items():
         text,digest,rec=validate_candidate(name,path,current)
         replacements[identity(rec)]=(path,text,digest,rec)
-        evidence[name]={"path":str(path.relative_to(ROOT)),"version":rec["Version"],"sha256":digest["sha256"]}
+        old=next((r for r in current if identity(r)==identity(rec)),None)
+        evidence[name]={"path":str(path.relative_to(ROOT)),"version":rec["Version"],"sha256":digest["sha256"],
+                        "action":"replace" if old else "add"}
     after=[]
+    current_ids={identity(r) for r in current}
     for r in current:
         item=replacements.get(identity(r))
         if item:
@@ -59,16 +63,28 @@ def plan():
             after.append(stanza)
         else:
             after.append(r)
+    # Add missing dependency packages only when they passed the same full payload
+    # validation. Existing packages are never deleted to make the graph pass.
+    for key,item in replacements.items():
+        if key in current_ids:
+            continue
+        path,text,digest,rec=item
+        after.append(fields(make_stanza(text,digest,path.name,"pool/main/"+path.name)))
     before_err={errkey(e) for e in dependency_errors(current)}
     after_err={errkey(e) for e in dependency_errors(after)}
     new_err=sorted(after_err-before_err)
     if new_err: raise ValueError("Critical repairs introduce dependency errors: "+repr(new_err[:20]))
-    if len(after)!=len(current): raise ValueError("Critical repair snapshot changed package count")
+    if after_err:
+        raise ValueError("Critical repair snapshot still has unresolved dependency errors: "+repr(sorted(after_err)[:20]))
+    additions=sum(1 for e in evidence.values() if e["action"]=="add")
+    if len(after)!=len(current)+additions:
+        raise ValueError("Critical repair snapshot changed package count unexpectedly")
     names={r["Package"] for r in after}
     for name in CANDIDATES:
         if name not in names: raise ValueError("Critical package disappeared: "+name)
     return current,after,replacements,{"status":"READY_FOR_SIGNING","indexedEntries":len(after),
-        "replacements":evidence,"existingDependencyErrors":len(before_err),"newDependencyErrors":0,
+        "replacements":evidence,"dependencyErrorsBefore":len(before_err),"dependencyErrorsAfter":len(after_err),
+        "newDependencyErrors":0,"packageAdditions":additions,
         "packageDeletionCount":0,"androidPhysicalRuntimeTested":False}
 
 def publish():
