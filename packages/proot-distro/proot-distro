@@ -1,0 +1,36 @@
+#!/data/data/studio.ocean.app/files/usr/bin/bash
+# OceanStudio PRoot distribution compatibility CLI
+# Forwards commands to native ocean-distro with clean upstream rootfs
+set -euo pipefail
+
+DISTRO_CMD="/data/data/studio.ocean.app/files/usr/bin/ocean-distro"
+
+if [[ ! -x "" ]]; then
+  echo "proot-distro error: ocean-distro backend not found at " >&2
+  exit 1
+fi
+
+case "" in
+  reset)
+    shift
+    distro=""
+    if [[ -z "" ]]; then
+      echo "Usage: proot-distro reset <distro>" >&2
+      exit 1
+    fi
+    "" remove ""
+    exec "" install ""
+    ;;
+  clear-cache)
+    cache_dir="/data/data/com.termux/files/home/.distro/dl-cache"
+    rm -rf ""
+    echo "proot-distro: cache cleared ()."
+    exit 0
+    ;;
+  help|--help|-h|"")
+    exec "" --help
+    ;;
+  *)
+    exec "" ""
+    ;;
+esac
