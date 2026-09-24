@@ -126,8 +126,15 @@ def strace(src, work, stage, ndk, receipts):
     cc=tools/'aarch64-linux-android28-clang'
     tls=work/'ocean-tls.o'
     run([cc,'-c',ROOT/'scripts/android-static-tls.S','-o',tls])
-    # The pinned official tag provides autotools' version metadata in a shallow checkout.
-    run(['git','tag','v7.2',SOURCES['strace'][1]],cwd=src)
+    # Fetch the real upstream annotated release tag. git-version-gen ignores
+    # lightweight tags, so manufacturing a local tag would report VERSION=UNKNOWN.
+    # The dereferenced official v7.2 tag must resolve to the already-pinned commit.
+    run(['git','fetch','--depth=1',SOURCES['strace'][0],
+         'refs/tags/v7.2:refs/tags/v7.2'],cwd=src)
+    tagged=subprocess.check_output(
+        ['git','rev-parse','v7.2^{}'],cwd=src,text=True).strip()
+    if tagged != SOURCES['strace'][1]:
+        raise RuntimeError('Official strace v7.2 tag does not match pinned source commit')
     expected_version=subprocess.check_output(['./build-aux/git-version-gen','.tarball-version'],cwd=src,text=True).strip()
     if not expected_version:
         raise RuntimeError('Unable to derive strace version from pinned upstream source')
