@@ -1,0 +1,75 @@
+name: Diagnose Ocean package installability
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/diagnose-installability.yml]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  diagnose:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+        with: {fetch-depth: 0}
+      - name: Inspect current dependency graph and signed metadata
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import sys,json,hashlib,gzip,re,subprocess
+          from pathlib import Path
+          sys.path.insert(0,"scripts")
+          from index_all_staged import fields, stanzas
+          from audit_package_payloads import dependency_errors
+          idx=Path("apt/dists/stable/main/binary-aarch64/Packages")
+          records=[fields(s) for s in stanzas(idx.read_text())]
+          errs=dependency_errors(records)
+          names={"open-jdk","openjdk-21","openjdk-21-jre-headless","ruby","libandroid-execinfo","libyaml","clang","make","pkg-config"}
+          target_records=[r for r in records if r.get("Package") in names]
+          target_errs=[e for e in errs if e.get("package") in names or any(n in json.dumps(e) for n in names)]
+          deb_controls={}
+          for n in names:
+            matches=sorted(Path("apt/pool/main").glob(n+"_*.deb"))
+            if matches:
+              p=matches[-1]
+              try:
+                c=subprocess.check_output(["dpkg-deb","-f",str(p)],text=True)
+              except subprocess.CalledProcessError as e:
+                c=e.output
+              deb_controls[n]={"path":str(p),"control":c}
+          pgz=Path("apt/dists/stable/main/binary-aarch64/Packages.gz")
+          cur=hashlib.sha256(pgz.read_bytes()).hexdigest() if pgz.exists() else None
+          inrel=Path("apt/dists/stable/InRelease").read_text(errors="replace")
+          expected=None
+          for line in inrel.splitlines():
+            m=re.match(r"\s*([0-9a-fA-F]{64})\s+\d+\s+main/binary-aarch64/Packages\.gz\s*$",line)
+            if m: expected=m.group(1).lower();break
+          out={
+            "indexedEntries":len(records),
+            "uniqueNames":len({r.get("Package") for r in records}),
+            "dependencyErrorCount":len(errs),
+            "targetRecords":target_records,
+            "targetDependencyErrors":target_errs,
+            "targetDebControls":deb_controls,
+            "currentPackagesGzSha256":cur,
+            "inReleaseExpectedPackagesGzSha256":expected,
+            "signedMetadataMatchesCurrentPackagesGz": bool(expected and cur and expected==cur),
+          }
+          Path("staging/installability").mkdir(parents=True,exist_ok=True)
+          Path("staging/installability/report.json").write_text(json.dumps(out,indent=2)+"\n")
+          print(json.dumps(out,indent=2))
+          PY
+      - name: Preserve evidence
+        if: always()
+        run: |
+          git config user.name oceanstudio-bot
+          git config user.email actions@users.noreply.github.com
+          git add staging/installability/report.json || true
+          git diff --cached --quiet || (git commit -m "audit(apt): capture dependency and signature installability evidence [skip ci]" && git pull --rebase origin main && git push origin HEAD:main)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: installability-diagnosis
+          path: staging/installability/report.json
