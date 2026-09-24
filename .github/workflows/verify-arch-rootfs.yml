@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - scripts/verify-arch-rootfs.py
+      - scripts/verify-rootfs-candidates.py
       - .github/workflows/verify-arch-rootfs.yml
 permissions:
   contents: write

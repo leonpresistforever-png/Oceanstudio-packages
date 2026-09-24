@@ -95,7 +95,7 @@ def inspect(name, entry):
             if 183 not in machines: raise ValueError('No actual AArch64 ELF payload')
             guest = Path(tmp)/'guest'; guest.mkdir()
             extraction = subprocess.run(['tar','--extract','--file',str(archive),'--directory',str(guest),
-                            '--no-same-owner','--no-same-permissions','--exclude=dev/*',
+                            '--no-same-owner','--no-same-permissions','--delay-directory-restore','--exclude=dev/*',
                             '--exclude=./dev/*'], capture_output=True, text=True)
             report['deviceNodeHandling'] = 'Skip guest /dev contents; native /dev is bound at login'
             report['extraction'] = {'exitCode': extraction.returncode, 'stderr': extraction.stderr[:8000]}

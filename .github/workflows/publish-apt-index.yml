@@ -10,6 +10,8 @@ on:
       - 'scripts/index_all_staged.py'
       - 'scripts/audit_repository.py'
       - 'tests/test-index-publication.py'
+      - 'tests/test-publication-payload-gate.py'
+      - 'scripts/check-publication-payloads.py'
       - '.github/workflows/publish-apt-index.yml'
       - 'staging/**'
       - 'apt/pool/**'
@@ -71,7 +73,9 @@ jobs:
             tests
           filter: blob:none
       - name: Exercise real dpkg packages and disposable GPG test keys
-        run: python3 tests/test-index-publication.py
+        run: |
+          python3 tests/test-index-publication.py
+          python3 tests/test-publication-payload-gate.py -v
 
   publish:
     needs: verify
@@ -92,6 +96,9 @@ jobs:
 
       - name: Inventory all pool candidates without changing live files
         run: python3 scripts/index_all_staged.py --plan /tmp/ocean-apt-selection.json
+
+      - name: Reject new payload defects and undeclared ownership collisions
+        run: python3 scripts/check-publication-payloads.py --json /tmp/ocean-apt-payload-gate.json
 
       - name: Require the existing trusted archive private key
         env:
