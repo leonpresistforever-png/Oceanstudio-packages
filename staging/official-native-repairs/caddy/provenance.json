@@ -1,0 +1,32 @@
+{
+  "package": "caddy",
+  "version": "2.11.4-1+ocean1",
+  "artifact": "caddy_2.11.4-1+ocean1_aarch64.deb",
+  "sha256": "1a3a9c2fba83e91f6e70a55eaf5101a1f1b7044f01c5d6cfe4a6b4f576543af8",
+  "sources": {
+    "caddy": {
+      "url": "https://github.com/caddyserver/caddy.git",
+      "commit": "e2eee6a7fce366321294c9c2a79f3146891dcbdf",
+      "sourceArchiveSha256": "c54ee02c0d993fd1b08b00cbf604316e09cdd4a39f53af28f3a4736bd8930755"
+    },
+    "toolchain": "go version go1.26.8 linux/amd64"
+  },
+  "tests": {
+    "qemuArm64Binary": "v2.11.4-ocean.1",
+    "runtimeAbi": "linux-arm64-static-purego-no-libc",
+    "loopbackHttpRoundTrip": true,
+    "androidPhone": false,
+    "tlsAndDnsIntegration": "not tested"
+  },
+  "payloadAudit": {
+    "files": 172,
+    "elfFiles": 1,
+    "executables": [
+      "./data/data/studio.ocean.app/files/usr/bin/caddy",
+      "./data/data/studio.ocean.app/files/usr/share/doc/caddy/Go-LICENSE"
+    ],
+    "issues": []
+  },
+  "physicalDeviceTested": false,
+  "completePayloadFilesRead": 173
+}
