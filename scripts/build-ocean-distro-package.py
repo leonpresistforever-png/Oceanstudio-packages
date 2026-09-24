@@ -54,8 +54,7 @@ def main():
         debian.mkdir(mode=0o755)
         debian.chmod(0o755)
         control = (SRC_DISTRO / "control").read_text()
-        if f"Version: {VERSION}
-" not in control:
+        if ("Version: " + VERSION) not in control:
             raise SystemExit("control version mismatch")
         (debian / "control").write_text(control)
         for p in stage.rglob("*"):
@@ -80,8 +79,7 @@ def main():
         debian.mkdir(mode=0o755)
         debian.chmod(0o755)
         control = (SRC_PROOT / "control").read_text()
-        if f"Version: {PROOT_VERSION}
-" not in control:
+        if ("Version: " + PROOT_VERSION) not in control:
             raise SystemExit("proot-distro control version mismatch")
         (debian / "control").write_text(control)
         for p in stage.rglob("*"):
