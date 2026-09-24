@@ -1,6 +1,10 @@
 name: Discover remaining official distro rootfs
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/discover-remaining-rootfs.yml
 permissions:
   contents: read
 jobs:
