@@ -1,0 +1,17 @@
+{
+  "packagesVerified": 1268,
+  "commandPackages": 1250,
+  "sharedRuntimePackages": 18,
+  "overlappingPaths": 0,
+  "allCandidatePackagesCoInstalled": true,
+  "removingOneCommandPerGroupPreservesSharedFiles": true,
+  "hostExecutedCommands": [
+    "ocean-wb-math-gcd",
+    "subnet-mask-calc"
+  ],
+  "androidDeviceTested": false,
+  "limitations": [
+    "Host-only Python fixture, no native Android dependency test",
+    "Co-installing does not establish functionality of every command"
+  ]
+}
