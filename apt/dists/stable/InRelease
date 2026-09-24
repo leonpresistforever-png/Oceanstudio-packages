@@ -8,22 +8,21 @@ Codename: stable
 Architectures: aarch64 all
 Components: main
 Description: Official Ocean APT Repository
-Date: Sun, 06 Sep 2026 13:10:50 +0000
-Valid-Until: Tue, 06 Oct 2026 13:10:50 +0000
+Date: Thu, 24 Sep 2026 13:02:47 +0000
+Valid-Until: Wed, 23 Dec 2026 13:02:47 +0000
 MD5Sum:
- 03bb856b8658fa062a8f1b64c9d672fe 509608 main/binary-aarch64/Packages
- 14802ec4543a486eda37dce633f6c985 158938 main/binary-aarch64/Packages.gz
+ dbfd68ab4ed9868272147c340aedc4a4 3781955 main/binary-aarch64/Packages
+ 99494138cee54e12684f5c9770bc97c9 842682 main/binary-aarch64/Packages.gz
 SHA1:
- 0ea707d3a96809f50ba5d4d63ba03a87ae0d28dc 509608 main/binary-aarch64/Packages
- b450cc81aed5957d613d71d6c65e8e1338cc65a9 158938 main/binary-aarch64/Packages.gz
+ 67eb908443eef314d16356eae663b29de671c046 3781955 main/binary-aarch64/Packages
+ 5d8f63052c23e1d9ab1a5681ff9252ff18711558 842682 main/binary-aarch64/Packages.gz
 SHA256:
- b295347a9a330727be05529d08c6e90259091f8a7da7b95a5184722be47acb82 509608 main/binary-aarch64/Packages
- 968fb260b05430aa73deac1f13047de1275590ee1e354b6a2d7998242aeafdab 158938 main/binary-aarch64/Packages.gz
+ 87a9dd2cde0acfb1269e3207eed6c631ecd1db39bda0ad5b87c3004ede68ca4b 3781955 main/binary-aarch64/Packages
+ 909ab91e0905428169c16ef1bbf1cb45c7656b037708e2daf5e66b0db7ae06bf 842682 main/binary-aarch64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iJEEARYIADkWIQQJ1F3SzcN71Pm8LEWOwVQxylVC4gUCap1mWhsUgAAAAAAEAA5t
-YW51MiwyLjUrMS4xMSwzLDIACgkQjsFUMcpVQuLjjgD/fXjHloJlFQJB2mjoEGek
-TsCB/gANf6g1RlqJxqEAJO8A/A9fOLUJxVxpUX852GRPJmDW4U3QeYTE0ndjZvJG
-HSwJ
-=83bg
+iHUEARYIAB0WIQTebMe5ss9R2lQ0Zj9fu6EkgsRcwwUCarUfdwAKCRBfu6EkgsRc
+wyvBAP9sj5ouLE5NSP9bw6flTTeP2yXldPGd3OuMHYFybcyYQgD+NLaPgd6m0S5p
+dZwBPLUDCHBHHxtWRy16CKqHMgVtAAU=
+=hgBv
 -----END PGP SIGNATURE-----

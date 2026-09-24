@@ -11160,19 +11160,18 @@ SHA1: b38d257e3e701fb3bb9556e61671c0fc3388fd46
 SHA256: 50c7c4cc709052c773d01e476f15c51e9bb286886b729ef630e4be27328f95c0
 
 Package: caddy
-Version: 2.9.1
+Version: 2.11.4-1+ocean1
 Architecture: aarch64
-Maintainer: OceanStudio <maintainer@ocean.studio>
-Installed-Size: 37697
+Maintainer: OceanStudio <packages@ocean.studio>
 Section: utils
 Priority: optional
-Homepage: https://ocean.studio
-Description: Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS
-Filename: pool/main/caddy_2.9.1_aarch64.deb
-Size: 12884866
-MD5sum: f33bb87fe5a4b7a161ae67ea2732fed0
-SHA1: 97fba5a254fbd1dc6e55b0c4a11a740522955b2d
-SHA256: 1c62283f3015890c86ae0e0a354a983ee0637a9cd70fc7bbb8e917b7d8ce1267
+Homepage: https://github.com/caddyserver/caddy
+Description: Official-source caddy built for the Ocean native Android prefix
+Filename: pool/main/caddy_2.11.4-1+ocean1_aarch64.deb
+Size: 11622076
+MD5sum: a4ddde314413da1449c46c2d84b3fa62
+SHA1: bb047b4ff62eb78cb3f6ef5cd76a17175733f229
+SHA256: cfe46323c8190b9b576743980c8ee2c45da8de85dcfe585d8ef8569e78bb0c9f
 
 Package: caesar-cipher-tool
 Version: 1.0.0-1
@@ -31916,19 +31915,18 @@ SHA1: 7848d51a02d431b1dd51dc54b76d04608adda2b5
 SHA256: 9cea75af95f1ad21d9f606770a0abd7b142d44cb4ba72d62749e1f96b0175325
 
 Package: gdb
-Version: 9.2
+Version: 9.2-1+ocean1
 Architecture: aarch64
 Maintainer: OceanStudio <maintainer@ocean.studio>
-Installed-Size: 11045
-Section: utils
+Section: devel
 Priority: optional
-Homepage: https://ocean.studio
-Description: GNU Debugger
-Filename: pool/main/gdb_9.2_aarch64.deb
-Size: 4643546
-MD5sum: 668ad408b79b68202cb6b17379178c87
-SHA1: 4a1d8088eeb8b88c7492e6a73e2136b5149f6e4c
-SHA256: 1e822dd7063e8ee5a4066b68432a14f60e37ca5319d3fbf09891c19a935f60e0
+Homepage: https://sourceware.org/gdb/
+Description: GNU debugger rebuilt from official upstream source for Ocean Android/AArch64
+Filename: pool/main/gdb_9.2-1+ocean1_aarch64.deb
+Size: 3596148
+MD5sum: 7975f29ef6d0e57eddcce7bcac6da8e9
+SHA1: c07ff5e4db7be2b75ad18ec53760f488831fca29
+SHA256: b809f85fe70f2f7e236289fcae6b155b4f4691ace2596d7e2667d1981460e43f
 
 Package: gdbm
 Architecture: aarch64
@@ -46175,19 +46173,19 @@ SHA1: ed44c87368497eaf57f082397281bcc017e32867
 SHA256: baac300803ce3201eb468df97a3b15a76a511563ee994c3ac12d731cb387aedf
 
 Package: luajit
-Version: 2.1.0
 Architecture: aarch64
+Installed-Size: 1352
 Maintainer: OceanStudio <maintainer@ocean.studio>
-Installed-Size: 523
-Section: utils
-Priority: optional
-Homepage: https://ocean.studio
-Description: Just in time compiler for Lua
-Filename: pool/main/luajit_2.1.0_aarch64.deb
-Size: 284146
-MD5sum: e2bf2aa434f8904e52bb1522228a454c
-SHA1: cb1a9ce27d97f00891d3228fdf37dcad0790eeac
-SHA256: 8b49a43e27ef28fd6e95aacaf9637bd95747b0a8c5364484371472217a5f08dd
+Version: 1:2.1.1787165859+g1ee778a
+Homepage: https://luajit.org/
+Breaks: libluajit-dev, libluajit
+Replaces: libluajit-dev, libluajit
+Description: Just-In-Time Compiler for Lua
+Filename: pool/main/luajit_1:2.1.1787165859+g1ee778a_aarch64.deb
+Size: 293860
+MD5sum: 7877dfeb009e9f663be087fb712b86cc
+SHA1: 3d943e065a1cb0ed8241e543fec4f987a0eee816
+SHA256: d1460ba06f135655e2d19d52d72a2dc8f73a9700db335667b93e667f0d6fb5bc
 
 Package: luajit-static
 Architecture: aarch64
@@ -56063,21 +56061,21 @@ SHA1: 3d3a9b4b5b8d0a0beb0aa3600ad3027195b61dfa
 SHA256: 9d9c886208e9349f4184047915a871b6bde72ab3f4d4f8875566176a02d31ddb
 
 Package: ocean-distro
-Version: 1.0.0
+Version: 1.0.1-1
 Architecture: all
 Maintainer: OceanStudio <maintainer@ocean.studio>
-Depends: proot, tar, zstd, xz-utils, gzip, bzip2, curl, ca-certificates
+Depends: bash, jq, proot, tar, coreutils, zstd, xz-utils, gzip, bzip2, curl, ca-certificates
 Section: admin
 Priority: optional
 Description: Ocean PRoot Linux distribution and rootfs manager
- Unlocks Debian, Ubuntu, Alpine, Arch, Fedora, openSUSE, Void, Rocky,
- AlmaLinux, Kali, Mint, CentOS, Devuan, Gentoo, and Slackware userland
- universes inside OceanStudio using PRoot virtualization.
-Filename: pool/main/ocean-distro_1.0.0_all.deb
-Size: 5404
-MD5sum: 86f261395ede660b251aa22cf340bfc2
-SHA1: d93a607bf277893688a0e328466b33071de4ff5f
-SHA256: c57427c64c3b27d6f6a82e657e5d06aa2325325f66162a3f08e30afc85f5b71d
+ Manages Debian, Ubuntu, Alpine, Arch, Fedora, Rocky, AlmaLinux, openSUSE,
+ Void, Kali, CentOS Stream, Devuan, and Gentoo userlands inside OceanStudio
+ using an Ocean-owned PRoot workflow independent from proot-distro.
+Filename: pool/main/ocean-distro_1.0.1-1_all.deb
+Size: 6488
+MD5sum: ae493c39f4afddc06d03e3f206c42db6
+SHA1: 2f0853dca8306eff9b6ea07c3f00580b0d1651af
+SHA256: 0bdca7eccb25de5e64e43888f57b8196e0d0b90f8ccac5b27418f398c6953197
 
 Package: ocean-download
 Version: 1.0.0-1
@@ -75680,16 +75678,16 @@ Package: openjdk-21
 Architecture: aarch64
 Installed-Size: 249532
 Maintainer: OceanStudio <archive@ocean.studio>
-Version: 21.0.12
+Version: 21.0.12-1+ocean1
 Homepage: https://openjdk.java.net
 Depends: openjdk-21-jre-headless (= 21.0.12)
 Recommends: ca-certificates-java, resolv-conf
 Description: Java development kit and runtime
-Filename: pool/main/openjdk-21_21.0.12_aarch64.deb
-Size: 74094116
-MD5sum: 9f6630cf0a4b4434b60aa20d86827f2e
-SHA1: c008725aef86f9e15f5e1d6c02ad0e2a53c34e50
-SHA256: 4a1c999cf4d21d3cbd29d93489fcd7f96c09f0df7791b2356d2bac1d7407fcd8
+Filename: pool/main/openjdk-21_21.0.12-1+ocean1_aarch64.deb
+Size: 67740980
+MD5sum: d1c9ac398d56989514f6254032efe011
+SHA1: 97282650bf138e3c19949b7222d98730dde92236
+SHA256: e418f46b779ec99df7e044c9ab11544de2c59e3910e0619b65f6c0ecd43bdf36
 
 Package: openjdk-21-jre-headless
 Architecture: aarch64
@@ -86705,19 +86703,18 @@ SHA1: 5d6dad77974fc4b68bf1f46b10babb6595367dc7
 SHA256: d79d39abd2d60436fcbbf1aea5895bddce1033df47d159db48624cf9150c8837
 
 Package: strace
-Version: 7.0
+Version: 7.2-1+ocean1
 Architecture: aarch64
-Maintainer: OceanStudio <maintainer@ocean.studio>
-Installed-Size: 2058
+Maintainer: OceanStudio <packages@ocean.studio>
 Section: utils
 Priority: optional
-Homepage: https://ocean.studio
-Description: System call tracer
-Filename: pool/main/strace_7.0_aarch64.deb
-Size: 663038
-MD5sum: daaca93c71fa244b9d1d3b28ce119206
-SHA1: e573382d85fe705306459a1577062dbdf0570828
-SHA256: fb12971f5fe817cbb53f9f5db02cda3a0ac995a0d9ea1d0f5d8028f5d0e96491
+Homepage: https://github.com/strace/strace
+Description: Official-source strace built for the Ocean native Android prefix
+Filename: pool/main/strace_7.2-1+ocean1_aarch64.deb
+Size: 1273584
+MD5sum: 180cc7a42a32acf13358c1183f912dee
+SHA1: 123e95a709fd57fba98fdfba45602aa625870837
+SHA256: 187733184bd41206827cf4d01dab294e8887b0fc415679bfae0a780562064dea
 
 Package: strace-frequency-analyzer
 Version: 1.0.0-1
@@ -100407,3 +100404,17 @@ Size: 972
 MD5sum: 3cbf600494be74d36af006d41b8f62f5
 SHA1: 6475053bbff784ae7b370e1eea73de91a9440bdc
 SHA256: 4a101ebd1e00191c921973c73d376db465bc93d162598efe8d095cf7b21ce00a
+
+Package: librsync
+Version: 2.3.4-1
+Architecture: aarch64
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: utils
+Priority: optional
+Homepage: https://github.com/librsync/librsync
+Description: Rsync signature and delta library compiled from official source for Ocean Android
+Filename: pool/main/librsync_2.3.4-1_aarch64.deb
+Size: 138060
+MD5sum: 0f1a614d0749b8cd01c2f08d5afe986b
+SHA1: 6c85c8432a5520982b6918be9ca128fa2d8738d3
+SHA256: aa86ccf6cd004c49257b76dbe90de6eb1d39f0d6c1fbca5e586443c4374d32bf
