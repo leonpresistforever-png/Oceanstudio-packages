@@ -40,8 +40,12 @@ def validate_candidate(name,path,current):
     text,digest=parse_deb(path); rec=fields(text)
     if rec["Package"]!=name: raise ValueError(f"{path}: package name mismatch")
     old=next((r for r in current if identity(r)==identity(rec)),None)
-    if old and compare_versions(rec["Version"],old["Version"])<=0:
-        raise ValueError(f"{name}: repaired version must be newer than live {old['Version']}")
+    if old:
+        cmp = compare_versions(rec["Version"], old["Version"])
+        if cmp < 0:
+            raise ValueError(f"{name}: repaired version cannot be older than live {old['Version']}")
+        if cmp == 0 and old.get("SHA256") != digest["sha256"]:
+            raise ValueError(f"{name}: same version with different checksum requires version bump")
     rows=list(scan_tar(path))+list(scan_tar(path,control=True))
     bad=[{"path":r["path"],**f} for r in rows for f in r.get("findings",[]) if f["kind"] in HARD]
     if bad: raise ValueError(f"{name}: repaired candidate still has hard payload defects: {bad[:10]}")
@@ -54,7 +58,7 @@ def plan():
         replacements[identity(rec)]=(path,text,digest,rec)
         old=next((r for r in current if identity(r)==identity(rec)),None)
         evidence[name]={"path":str(path.relative_to(ROOT)),"version":rec["Version"],"sha256":digest["sha256"],
-                        "action":"replace" if old else "add"}
+                        "action":"current" if (old and old.get("SHA256") == digest["sha256"]) else ("replace" if old else "add")}
     after=[]
     current_ids={identity(r) for r in current}
     for r in current:
