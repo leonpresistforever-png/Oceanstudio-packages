@@ -5,6 +5,7 @@ on:
       - Build official Caddy and strace for Ocean
       - Build official GDB for Ocean
       - Repair OpenJDK 21 ownership split
+      - Build Ocean distro manager package
     types: [completed]
   push:
     branches: [main]
@@ -15,6 +16,7 @@ on:
       - staging/official-native-repairs/caddy/**
       - staging/official-native-repairs/strace/**
       - staging/official-gdb-repair/**
+      - staging/ocean-distro-repair/**
   workflow_dispatch:
 permissions:
   contents: write
@@ -51,7 +53,7 @@ jobs:
           set -euo pipefail
           git config user.name 'Ocean Package Builder'
           git config user.email 'packages@ocean.studio'
-          git add apt/pool/main/openjdk-21_21.0.12-1+ocean1_aarch64.deb apt/pool/main/caddy_2.11.4-1+ocean1_aarch64.deb apt/pool/main/strace_7.2-1+ocean1_aarch64.deb apt/pool/main/gdb_9.2-1+ocean1_aarch64.deb apt/pool/main/librsync_2.3.4-1_aarch64.deb apt/pool/main/ocean-distro_1.0.1-1_all.deb apt/dists/stable/main/binary-aarch64/Packages apt/dists/stable/main/binary-aarch64/Packages.gz apt/dists/stable/Release apt/dists/stable/Release.gpg apt/dists/stable/InRelease
+          git add apt/pool/main/openjdk-21_21.0.12-1+ocean1_aarch64.deb apt/pool/main/caddy_2.11.4-1+ocean1_aarch64.deb apt/pool/main/strace_7.2-1+ocean1_aarch64.deb apt/pool/main/gdb_9.2-1+ocean1_aarch64.deb apt/pool/main/librsync_2.3.4-1_aarch64.deb apt/pool/main/ocean-distro_1.0.1-1_all.deb apt/pool/main/proot-distro_4.18.0-1+ocean1_all.deb apt/dists/stable/main/binary-aarch64/Packages apt/dists/stable/main/binary-aarch64/Packages.gz apt/dists/stable/Release apt/dists/stable/Release.gpg apt/dists/stable/InRelease
           git diff --cached --quiet || (git commit -m 'fix(apt): publish critical repaired packages with coherent signatures [skip ci]' && git push origin HEAD:main)
       - name: Preserve readiness evidence
         if: always()
