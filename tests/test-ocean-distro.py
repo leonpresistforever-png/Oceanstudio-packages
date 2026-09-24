@@ -98,5 +98,20 @@ else: shutil.copyfile(os.environ['ARCHIVE'],dest)
         self.assertNotEqual(self.call('install','ubuntu').returncode,0)
         self.assertFalse((self.root/'urls').exists())
 
+    def test_guest_device_nodes_are_skipped_for_nonroot_installation(self):
+        with tarfile.open(self.archive, 'w:gz') as out:
+            for name, content in [('etc/os-release', b'ID=ubuntu\n'), ('bin/sh', b'#!/bin/sh\n')]:
+                item = tarfile.TarInfo(name); item.size = len(content)
+                out.addfile(item, io.BytesIO(content))
+            node = tarfile.TarInfo('./dev/null'); node.type = tarfile.CHRTYPE
+            node.devmajor, node.devminor = 1, 3
+            out.addfile(node)
+        self.entries['ubuntu']['sha256'] = hashlib.sha256(self.archive.read_bytes()).hexdigest()
+        self.save_registry()
+        result = self.call('install', 'ubuntu')
+        self.assertEqual(result.returncode, 0, result.stderr)
+        self.assertTrue((self.base/'ubuntu/dev').is_dir())
+        self.assertFalse((self.base/'ubuntu/dev/null').exists())
+
 
 if __name__=='__main__': unittest.main()

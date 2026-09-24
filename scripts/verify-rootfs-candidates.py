@@ -95,14 +95,18 @@ def inspect(name, entry):
             if 183 not in machines: raise ValueError('No actual AArch64 ELF payload')
             guest = Path(tmp)/'guest'; guest.mkdir()
             extraction = subprocess.run(['tar','--extract','--file',str(archive),'--directory',str(guest),
-                            '--no-same-owner','--no-same-permissions'], capture_output=True, text=True)
+                            '--no-same-owner','--no-same-permissions','--exclude=dev/*',
+                            '--exclude=./dev/*'], capture_output=True, text=True)
+            report['deviceNodeHandling'] = 'Skip guest /dev contents; native /dev is bound at login'
             report['extraction'] = {'exitCode': extraction.returncode, 'stderr': extraction.stderr[:8000]}
             if extraction.returncode:
                 raise ValueError('Rootfs extraction failed; see extraction.stderr')
             shell = rooted_path(guest, entry.get('shell','/bin/sh'))
             if not shell.is_file():
                 raise ValueError('Guest shell target is missing')
-            result = subprocess.run(['qemu-aarch64','-L',str(guest),str(shell),'-c',
+            # BusyBox chooses its applet using argv[0]. Resolving /bin/sh to
+            # /bin/busybox must not turn a shell test into "busybox -c".
+            result = subprocess.run(['qemu-aarch64','-L',str(guest),'-0',entry.get('shell','/bin/sh'),str(shell),'-c',
                                      'printf OCEAN_ROOTFS_EXEC_OK'],capture_output=True,text=True,timeout=30)
             report['armShellResult']={'exitCode':result.returncode,'stdout':result.stdout,'stderr':result.stderr[:2000]}
             if result.returncode or result.stdout!='OCEAN_ROOTFS_EXEC_OK':

@@ -137,7 +137,12 @@ cmd_install() {
     trap 'exit 130' INT
     trap 'exit 143' TERM HUP
     tar --extract --file "$temp_archive" --directory "$staging" \
-        --no-same-owner --no-same-permissions --delay-directory-restore
+        --no-same-owner --no-same-permissions --delay-directory-restore \
+        --exclude='dev/*' --exclude='./dev/*'
+    # A non-root Android app cannot create archived device nodes (Gentoo ships
+    # dev/null and dev/console). Login binds the real /dev over this directory.
+    [[ ! -L "$staging/dev" ]] || die "Rootfs /dev must not be a symlink."
+    mkdir -p "$staging/dev"
     [[ -d "$staging/etc" && ! -L "$staging/etc" && ! -L "$staging/root" \
        && ( -e "$staging$shell_path" || -L "$staging$shell_path" ) ]] \
       || die "Archive is not a usable '$distro' root filesystem."
