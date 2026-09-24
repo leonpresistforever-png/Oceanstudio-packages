@@ -51,6 +51,7 @@ jobs:
             "uniqueNames":len({r.get("Package") for r in records}),
             "dependencyErrorCount":len(errs),
             "dependencyErrors":errs,
+            "dependencyErrors":errs,
             "targetRecords":target_records,
             "targetDependencyErrors":target_errs,
             "targetDebControls":deb_controls,
