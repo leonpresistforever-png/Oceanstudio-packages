@@ -50,16 +50,17 @@ def main():
         if defects: raise SystemExit("ocean-distro package audit failed: "+repr(defects[:20]))
         registry=json.loads((SRC/"distros.json").read_text())
         if len(registry)!=13: raise SystemExit(f"expected 13 distro records, got {len(registry)}")
-        verified=[n for n,v in registry.items() if isinstance(v.get("sha256"),str) and len(v["sha256"])==64]
-        unresolved=[n for n,v in registry.items() if n not in verified]
+        pinned=[n for n,v in registry.items() if isinstance(v.get("sha256"),str) and len(v["sha256"])==64]
+        unresolved=[n for n,v in registry.items() if n not in pinned]
         # Real source-level installer tests exercise lookup/case handling, download
         # verification, manager separation, interrupted downloads and /dev handling.
         test=subprocess.run(["python3",str(ROOT/"tests/test-ocean-distro.py")],capture_output=True,text=True)
         if test.returncode: raise SystemExit("ocean-distro tests failed:\n"+test.stdout+"\n"+test.stderr)
         report={"status":"PASS_CANDIDATE","package":"ocean-distro","version":VERSION,
                 "sha256":sha(deb),"sourcePolicy":"Ocean-owned manager; no Termux/proot-distro payload copied",
-                "prefix":PREFIX,"advertisedDistros":list(registry),"verifiedChecksumEntries":verified,
-                "unresolvedChecksumEntries":unresolved,"sourceTests":"PASS",
+                "prefix":PREFIX,"advertisedDistros":list(registry),"pinnedChecksumEntries":pinned,
+                "unresolvedChecksumEntries":unresolved,
+                "checksumMeaning":"Pinned checksum is integrity metadata only; runtime verification is recorded separately by rootfs audits","sourceTests":"PASS",
                 "physicalAndroidDeviceTested":False}
         (OUT/"provenance.json").write_text(json.dumps(report,indent=2)+"\n")
         print(json.dumps(report,indent=2))
