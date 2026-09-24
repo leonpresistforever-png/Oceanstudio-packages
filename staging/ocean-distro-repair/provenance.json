@@ -2,7 +2,7 @@
   "status": "PASS_CANDIDATE",
   "package": "ocean-distro",
   "version": "1.0.1-1",
-  "sha256": "0bdca7eccb25de5e64e43888f57b8196e0d0b90f8ccac5b27418f398c6953197",
+  "sha256": "c9497db79ea44c90b7b30503814d0dbe968d181c38b1767171e883d0f7d02bca",
   "sourcePolicy": "Ocean-owned manager; no Termux/proot-distro payload copied",
   "prefix": "/data/data/studio.ocean.app/files/usr",
   "advertisedDistros": [
@@ -21,6 +21,7 @@
     "gentoo"
   ],
   "pinnedChecksumEntries": [
+    "debian",
     "ubuntu",
     "alpine",
     "arch",
@@ -31,7 +32,6 @@
     "gentoo"
   ],
   "unresolvedChecksumEntries": [
-    "debian",
     "alma",
     "kali",
     "centos",
