@@ -86,15 +86,15 @@
   },
   "opensuse": {
     "name": "openSUSE Tumbleweed",
-    "version": "rolling",
+    "version": "Tumbleweed 20260921",
     "priority": "Very good",
     "pkg_manager": "zypper, rpm",
     "arch": "arm64",
-    "url": "https://images.linuxcontainers.org/images/opensuse/tumbleweed/arm64/default/20260903_04:20/rootfs.tar.xz",
-    "sha256": "skip",
+    "url": "https://download.opensuse.org/ports/aarch64/tumbleweed/appliances/openSUSE-Tumbleweed-ARM-XFCE.aarch64-rootfs.aarch64.tar.xz",
+    "sha256": "f913da0211ee240d4917f3e248f52e7b514e7b053bee75661b345398519a9fb0",
     "shell": "/bin/bash",
     "update_cmd": "zypper refresh && zypper dist-upgrade -y",
-    "description": "Independent repository/package workflow."
+    "description": "Official openSUSE Tumbleweed ARM64 rootfs; checksum, distro identity and ARM shell verified by Ocean CI."
   },
   "void": {
     "name": "Void Linux",
