@@ -1,0 +1,14 @@
+{
+  "url": "https://ca.us.mirror.archlinuxarm.org/os/ArchLinuxARM-aarch64-latest.tar.gz",
+  "officialFingerprintSource": "https://archlinuxarm.org/about/downloads",
+  "fingerprint": "68B3537F39A313B3E574D06777193F152BDBE6A6",
+  "keyringUrl": "https://raw.githubusercontent.com/archlinuxarm/archlinuxarm-keyring/91e6b11698f8df66042d56aaa56fbe9c9263847d/archlinuxarm.gpg",
+  "published": false,
+  "signatureResult": {
+    "exitCode": 2,
+    "status": "[GNUPG:] NEWSIG\n[GNUPG:] ERRSIG 77193F152BDBE6A6 1 10 00 1785933702 9 68B3537F39A313B3E574D06777193F152BDBE6A6\n[GNUPG:] NO_PUBKEY 77193F152BDBE6A6\n",
+    "stderr": "gpgv: Signature made Wed Aug  5 12:41:42 2026 UTC\ngpgv:                using RSA key 68B3537F39A313B3E574D06777193F152BDBE6A6\ngpgv: [don't know]: invalid packet (ctb=2d)\ngpgv: keydb_search failed: Invalid packet\ngpgv: [don't know]: invalid packet (ctb=2d)\ngpgv: keydb_search failed: Invalid packet\ngpgv: Can't check signature: No public key\n"
+  },
+  "status": "failed",
+  "error": "Archive lacks a valid signature from the official pinned Arch ARM key"
+}
