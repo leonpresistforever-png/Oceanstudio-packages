@@ -1,0 +1,282 @@
+{
+  "distros": [
+    {
+      "distro": "debian",
+      "url": "https://cloud.debian.org/images/cloud/bookworm/latest/debian-12-generic-arm64.tar.xz",
+      "expectedSha256": "skip",
+      "androidDeviceTested": false,
+      "status": "failed",
+      "finalUrl": "https://laotzu.ftp.acc.umu.se/images/cloud/bookworm/latest/debian-12-generic-arm64.tar.xz",
+      "bytes": 261359104,
+      "sha256": "77213a2c0417c370d2d51ea94c0c43d707a8aaf3b9dc6d5075aa442b6d8444ea",
+      "error": "Missing or mismatched pinned checksum; do not replace it without upstream verification"
+    },
+    {
+      "distro": "ubuntu",
+      "url": "https://cdimage.ubuntu.com/ubuntu-base/releases/24.04/release/ubuntu-base-24.04.5-base-arm64.tar.gz",
+      "expectedSha256": "a91d5a93010193712d346d761372b7c9db6dfcf093893161c64ca107f05914f2",
+      "androidDeviceTested": false,
+      "status": "checksum-identity-arm-shell-passed",
+      "finalUrl": "https://cdimage.ubuntu.com/ubuntu-base/releases/24.04/release/ubuntu-base-24.04.5-base-arm64.tar.gz",
+      "bytes": 29936675,
+      "sha256": "a91d5a93010193712d346d761372b7c9db6dfcf093893161c64ca107f05914f2",
+      "osRelease": {
+        "PRETTY_NAME": "Ubuntu 24.04.5 LTS",
+        "NAME": "Ubuntu",
+        "VERSION_ID": "24.04",
+        "VERSION": "24.04.5 LTS (Noble Numbat)",
+        "VERSION_CODENAME": "noble",
+        "ID": "ubuntu",
+        "ID_LIKE": "debian",
+        "HOME_URL": "https://www.ubuntu.com/",
+        "SUPPORT_URL": "https://help.ubuntu.com/",
+        "BUG_REPORT_URL": "https://bugs.launchpad.net/ubuntu/",
+        "PRIVACY_POLICY_URL": "https://www.ubuntu.com/legal/terms-and-policies/privacy-policy",
+        "UBUNTU_CODENAME": "noble",
+        "LOGO": "ubuntu-logo"
+      },
+      "elfMachines": [
+        183
+      ],
+      "deviceNodes": [],
+      "deviceNodeHandling": "Skip guest /dev contents; native /dev is bound at login",
+      "extraction": {
+        "exitCode": 0,
+        "stderr": ""
+      },
+      "armShellResult": {
+        "exitCode": 0,
+        "stdout": "OCEAN_ROOTFS_EXEC_OK",
+        "stderr": ""
+      }
+    },
+    {
+      "distro": "alpine",
+      "url": "https://dl-cdn.alpinelinux.org/alpine/v3.21/releases/aarch64/alpine-minirootfs-3.21.3-aarch64.tar.gz",
+      "expectedSha256": "ead8a4b37867bd19e7417dd078748e2312c0aea364403d96758d63ea8ff261ea",
+      "androidDeviceTested": false,
+      "status": "checksum-identity-arm-shell-passed",
+      "finalUrl": "https://dl-cdn.alpinelinux.org/alpine/v3.21/releases/aarch64/alpine-minirootfs-3.21.3-aarch64.tar.gz",
+      "bytes": 3850365,
+      "sha256": "ead8a4b37867bd19e7417dd078748e2312c0aea364403d96758d63ea8ff261ea",
+      "osRelease": {
+        "NAME": "Alpine Linux",
+        "ID": "alpine",
+        "VERSION_ID": "3.21.3",
+        "PRETTY_NAME": "Alpine Linux v3.21",
+        "HOME_URL": "https://alpinelinux.org/",
+        "BUG_REPORT_URL": "https://gitlab.alpinelinux.org/alpine/aports/-/issues"
+      },
+      "elfMachines": [
+        183
+      ],
+      "deviceNodes": [],
+      "deviceNodeHandling": "Skip guest /dev contents; native /dev is bound at login",
+      "extraction": {
+        "exitCode": 0,
+        "stderr": ""
+      },
+      "armShellResult": {
+        "exitCode": 0,
+        "stdout": "OCEAN_ROOTFS_EXEC_OK",
+        "stderr": ""
+      }
+    },
+    {
+      "distro": "arch",
+      "url": "https://ca.us.mirror.archlinuxarm.org/os/ArchLinuxARM-aarch64-latest.tar.gz",
+      "expectedSha256": "42a4eeaa038994ffd31fa173256ef2f0ef511358eeb41b9ea1f8626391b9b319",
+      "androidDeviceTested": false,
+      "status": "checksum-identity-arm-shell-passed",
+      "finalUrl": "https://ca.us.mirror.archlinuxarm.org/os/ArchLinuxARM-aarch64-latest.tar.gz",
+      "bytes": 829367415,
+      "sha256": "42a4eeaa038994ffd31fa173256ef2f0ef511358eeb41b9ea1f8626391b9b319",
+      "osRelease": {
+        "NAME": "Arch Linux ARM",
+        "PRETTY_NAME": "Arch Linux ARM",
+        "ID": "archarm",
+        "ID_LIKE": "arch",
+        "BUILD_ID": "rolling",
+        "ANSI_COLOR": "38;2;23;147;209",
+        "HOME_URL": "https://archlinuxarm.org/",
+        "DOCUMENTATION_URL": "https://archlinuxarm.org/wiki",
+        "SUPPORT_URL": "https://archlinuxarm.org/forum",
+        "BUG_REPORT_URL": "https://github.com/archlinuxarm/PKGBUILDs/issues",
+        "LOGO": "archlinux-logo"
+      },
+      "elfMachines": [
+        0,
+        1,
+        3,
+        8,
+        40,
+        164,
+        183,
+        243
+      ],
+      "deviceNodes": [],
+      "deviceNodeHandling": "Skip guest /dev contents; native /dev is bound at login",
+      "extraction": {
+        "exitCode": 0,
+        "stderr": "tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.capability'\ntar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.security.capability'\n"
+      },
+      "armShellResult": {
+        "exitCode": 0,
+        "stdout": "OCEAN_ROOTFS_EXEC_OK",
+        "stderr": ""
+      }
+    },
+    {
+      "distro": "fedora",
+      "url": "https://download.fedoraproject.org/pub/fedora/linux/releases/41/Container/aarch64/images/Fedora-Container-Base-Generic-41-1.4.aarch64.oci.tar.xz",
+      "expectedSha256": "2d23cfbaae5df33e29bec6d2d2571dcc47c9cbf1431fbf26dfa97d69522297bf",
+      "androidDeviceTested": false,
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "distro": "rocky",
+      "url": "https://dl.rockylinux.org/pub/rocky/9/images/aarch64/Rocky-9-Container-Base.latest.aarch64.tar.xz",
+      "expectedSha256": "254dc06377bb63a5ab390cea33c2f26d71c4e0ff6ae1bc8a0fb0fbb86d992e89",
+      "androidDeviceTested": false,
+      "status": "failed",
+      "finalUrl": "https://dl.rockylinux.org/pub/rocky/9/images/aarch64/Rocky-9-Container-Base.latest.aarch64.tar.xz",
+      "bytes": 84701720,
+      "sha256": "254dc06377bb63a5ab390cea33c2f26d71c4e0ff6ae1bc8a0fb0fbb86d992e89",
+      "osRelease": {},
+      "elfMachines": [],
+      "deviceNodes": [],
+      "error": "Wrong distro identity or not a flat rootfs archive"
+    },
+    {
+      "distro": "alma",
+      "url": "https://images.linuxcontainers.org/images/almalinux/9/arm64/default/20260902_23:08/rootfs.tar.xz",
+      "expectedSha256": "skip",
+      "androidDeviceTested": false,
+      "status": "failed",
+      "error": "Third-party image; an official distribution source is still needed"
+    },
+    {
+      "distro": "opensuse",
+      "url": "https://images.linuxcontainers.org/images/opensuse/tumbleweed/arm64/default/20260903_04:20/rootfs.tar.xz",
+      "expectedSha256": "skip",
+      "androidDeviceTested": false,
+      "status": "failed",
+      "error": "Third-party image; an official distribution source is still needed"
+    },
+    {
+      "distro": "void",
+      "url": "https://repo-default.voidlinux.org/live/current/void-aarch64-ROOTFS-20250202.tar.xz",
+      "expectedSha256": "01a30f17ae06d4d5b322cd579ca971bc479e02cc284ec1e5a4255bea6bac3ce6",
+      "androidDeviceTested": false,
+      "status": "checksum-identity-arm-shell-passed",
+      "finalUrl": "https://repo-default.voidlinux.org/live/current/void-aarch64-ROOTFS-20250202.tar.xz",
+      "bytes": 45789416,
+      "sha256": "01a30f17ae06d4d5b322cd579ca971bc479e02cc284ec1e5a4255bea6bac3ce6",
+      "osRelease": {
+        "NAME": "Void",
+        "ID": "void",
+        "PRETTY_NAME": "Void Linux",
+        "HOME_URL": "https://voidlinux.org/",
+        "DOCUMENTATION_URL": "https://docs.voidlinux.org/",
+        "LOGO": "void-logo",
+        "ANSI_COLOR": "0;38;2;71;128;97",
+        "DISTRIB_ID": "void"
+      },
+      "elfMachines": [
+        183
+      ],
+      "deviceNodes": [],
+      "deviceNodeHandling": "Skip guest /dev contents; native /dev is bound at login",
+      "extraction": {
+        "exitCode": 0,
+        "stderr": ""
+      },
+      "armShellResult": {
+        "exitCode": 0,
+        "stdout": "OCEAN_ROOTFS_EXEC_OK",
+        "stderr": ""
+      }
+    },
+    {
+      "distro": "kali",
+      "url": "https://images.linuxcontainers.org/images/kali/current/arm64/default/20260902_17:14/rootfs.tar.xz",
+      "expectedSha256": "skip",
+      "androidDeviceTested": false,
+      "status": "failed",
+      "error": "Third-party image; an official distribution source is still needed"
+    },
+    {
+      "distro": "centos",
+      "url": "https://images.linuxcontainers.org/images/centos/9-Stream/arm64/default/20260903_07:36/rootfs.tar.xz",
+      "expectedSha256": "skip",
+      "androidDeviceTested": false,
+      "status": "failed",
+      "error": "Third-party image; an official distribution source is still needed"
+    },
+    {
+      "distro": "devuan",
+      "url": "https://images.linuxcontainers.org/images/devuan/daedalus/arm64/default/20260903_11:50/rootfs.tar.xz",
+      "expectedSha256": "skip",
+      "androidDeviceTested": false,
+      "status": "failed",
+      "error": "Third-party image; an official distribution source is still needed"
+    },
+    {
+      "distro": "gentoo",
+      "url": "https://distfiles.gentoo.org/releases/arm64/autobuilds/20260830T234553Z/stage3-arm64-openrc-20260830T234553Z.tar.xz",
+      "expectedSha256": "cac51286eb9935b538df3bc91a65ed821a1c4bb84a8274e7a06635e6a01c9349",
+      "androidDeviceTested": false,
+      "status": "checksum-identity-arm-shell-passed",
+      "finalUrl": "https://distfiles.gentoo.org/releases/arm64/autobuilds/20260830T234553Z/stage3-arm64-openrc-20260830T234553Z.tar.xz",
+      "bytes": 248231488,
+      "sha256": "cac51286eb9935b538df3bc91a65ed821a1c4bb84a8274e7a06635e6a01c9349",
+      "osRelease": {
+        "NAME": "Gentoo",
+        "ID": "gentoo",
+        "PRETTY_NAME": "Gentoo Linux",
+        "VERSION": "2.18",
+        "VERSION_ID": "2.18",
+        "HOME_URL": "https://www.gentoo.org/",
+        "SUPPORT_URL": "https://www.gentoo.org/support/",
+        "BUG_REPORT_URL": "https://bugs.gentoo.org/",
+        "ANSI_COLOR": "1;32"
+      },
+      "elfMachines": [
+        183
+      ],
+      "deviceNodes": [
+        "dev/console",
+        "dev/null"
+      ],
+      "deviceNodeHandling": "Skip guest /dev contents; native /dev is bound at login",
+      "extraction": {
+        "exitCode": 0,
+        "stderr": ""
+      },
+      "armShellResult": {
+        "exitCode": 0,
+        "stdout": "OCEAN_ROOTFS_EXEC_OK",
+        "stderr": ""
+      }
+    }
+  ],
+  "allPassed": false,
+  "physicalAndroidTested": false,
+  "scope": [
+    "debian",
+    "ubuntu",
+    "alpine",
+    "arch",
+    "fedora",
+    "rocky",
+    "alma",
+    "opensuse",
+    "void",
+    "kali",
+    "centos",
+    "devuan",
+    "gentoo"
+  ],
+  "sourceRegistrySha256": "f428918e17761cf44301072a84d3e335ed2fd3c7eacb1ac84af14d2866cefb41"
+}
