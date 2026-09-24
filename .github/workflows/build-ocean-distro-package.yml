@@ -4,6 +4,7 @@ on:
     branches: [main]
     paths:
       - packages/ocean-distro/**
+      - packages/proot-distro/**
       - scripts/build-ocean-distro-package.py
       - tests/test-ocean-distro.py
       - .github/workflows/build-ocean-distro-package.yml
@@ -26,12 +27,12 @@ jobs:
           git config user.email 'packages@ocean.studio'
           git add staging/ocean-distro-repair
           if git diff --cached --quiet; then exit 0; fi
-          git commit -m 'build(distro): stage validated ocean-distro repair [skip ci]'
+          git commit -m 'build(distro): stage validated ocean-distro and proot-distro repair [skip ci]'
           for attempt in 1 2 3 4 5; do
             git pull --rebase origin main
             if git push origin HEAD:main; then exit 0; fi
-            echo "Concurrent main update; retrying ($attempt/5)" >&2
-            sleep $((attempt * 2))
+            echo "Concurrent main update; retrying (/5)" >&2
+            sleep 0
           done
           exit 1
       - uses: actions/upload-artifact@v4
