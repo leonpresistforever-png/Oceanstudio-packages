@@ -20,6 +20,33 @@ import urllib.request
 IDS = {'arch': ('archarm','arch'), 'alma': ('almalinux',), 'opensuse': ('opensuse-tumbleweed',)}
 
 
+def rooted_path(root, guest_path):
+    """Resolve guest symlinks as a chroot would, without consulting host paths."""
+    root = Path(root).resolve()
+    pending = list(PurePosixPath(guest_path).parts)
+    resolved, links = [], 0
+    while pending:
+        component = pending.pop(0)
+        if component in ('/', '.', ''):
+            continue
+        if component == '..':
+            if resolved:
+                resolved.pop()
+            continue
+        candidate = root.joinpath(*resolved, component)
+        if candidate.is_symlink():
+            links += 1
+            if links > 40:
+                raise ValueError('Guest symlink cycle or more than 40 links')
+            target = candidate.readlink()
+            if target.is_absolute():
+                resolved = []
+            pending = list(PurePosixPath(target).parts) + pending
+        else:
+            resolved.append(component)
+    return root.joinpath(*resolved)
+
+
 def inspect(name, entry):
     report = {'distro': name, 'url': entry['url'], 'expectedSha256': entry.get('sha256'),
               'androidDeviceTested': False, 'status': 'failed'}
@@ -45,12 +72,14 @@ def inspect(name, entry):
             if expected_size and expected_size != size: raise ValueError('Partial HTTP response')
             if h.hexdigest() != entry.get('sha256'):
                 raise ValueError('Missing or mismatched pinned checksum; do not replace it without upstream verification')
-            names, release, machines = set(), {}, set()
+            names, release, machines, device_nodes = set(), {}, set(), []
             with tarfile.open(archive) as tf:
                 for m in tf:
                     p = PurePosixPath(m.name)
                     if p.is_absolute() or '..' in p.parts: raise ValueError('Unsafe archive member: '+m.name)
                     names.add(p.as_posix())
+                    if m.ischr() or m.isblk():
+                        device_nodes.append(p.as_posix())
                     if m.isfile():
                         with tf.extractfile(m) as stream:
                             head = stream.read(8192)
@@ -60,16 +89,19 @@ def inspect(name, entry):
                                     key,value=line.split('=',1);release[key]=value.strip('"\'')
                         if head.startswith(b'\x7fELF') and len(head)>=20:
                             machines.add(struct.unpack(('<' if head[5]==1 else '>')+'H',head[18:20])[0])
-            report.update(osRelease=release, elfMachines=sorted(machines))
+            report.update(osRelease=release, elfMachines=sorted(machines), deviceNodes=device_nodes)
             if release.get('ID') not in IDS.get(name,(name,)):
                 raise ValueError('Wrong distro identity or not a flat rootfs archive')
             if 183 not in machines: raise ValueError('No actual AArch64 ELF payload')
             guest = Path(tmp)/'guest'; guest.mkdir()
-            subprocess.run(['tar','--extract','--file',str(archive),'--directory',str(guest),
-                            '--no-same-owner','--no-same-permissions'], check=True, capture_output=True)
-            shell = guest / entry.get('shell','/bin/sh').lstrip('/')
-            if not shell.resolve().is_relative_to(guest.resolve()):
-                raise ValueError('Shell path needs guest-aware absolute symlink resolution')
+            extraction = subprocess.run(['tar','--extract','--file',str(archive),'--directory',str(guest),
+                            '--no-same-owner','--no-same-permissions'], capture_output=True, text=True)
+            report['extraction'] = {'exitCode': extraction.returncode, 'stderr': extraction.stderr[:8000]}
+            if extraction.returncode:
+                raise ValueError('Rootfs extraction failed; see extraction.stderr')
+            shell = rooted_path(guest, entry.get('shell','/bin/sh'))
+            if not shell.is_file():
+                raise ValueError('Guest shell target is missing')
             result = subprocess.run(['qemu-aarch64','-L',str(guest),str(shell),'-c',
                                      'printf OCEAN_ROOTFS_EXEC_OK'],capture_output=True,text=True,timeout=30)
             report['armShellResult']={'exitCode':result.returncode,'stdout':result.stdout,'stderr':result.stderr[:2000]}
@@ -85,12 +117,20 @@ def inspect(name, entry):
 def main():
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument('--registry',type=Path,required=True);p.add_argument('--output',type=Path,required=True)
+    p.add_argument('--only', help='Comma-separated distro names for a focused recheck')
     args=p.parse_args();entries=json.loads(args.registry.read_text())
+    if args.only:
+        selected = [name.strip().lower() for name in args.only.split(',')]
+        missing = set(selected) - entries.keys()
+        if missing:
+            p.error('Unknown distro names: ' + ', '.join(sorted(missing)))
+        entries = {name: entries[name] for name in selected}
     with ThreadPoolExecutor(max_workers=3) as pool:
         results=list(pool.map(lambda item:inspect(*item),entries.items()))
     args.output.parent.mkdir(parents=True,exist_ok=True)
     args.output.write_text(json.dumps({'distros':results,'allPassed':all(r['status']=='checksum-identity-arm-shell-passed' for r in results),
-        'physicalAndroidTested':False,'sourceRegistrySha256':hashlib.sha256(args.registry.read_bytes()).hexdigest()},indent=2)+'\n')
+        'physicalAndroidTested':False,'scope':list(entries),
+        'sourceRegistrySha256':hashlib.sha256(args.registry.read_bytes()).hexdigest()},indent=2)+'\n')
 
 
 if __name__=='__main__':main()

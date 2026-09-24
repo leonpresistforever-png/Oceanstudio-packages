@@ -1,11 +1,17 @@
 name: Verify official distro rootfs candidates
 on:
   workflow_dispatch:
+    inputs:
+      only:
+        description: Optional comma-separated distro names
+        type: string
+        default: ''
   push:
     branches: [main]
     paths:
       - packages/ocean-distro/**
       - tests/test-ocean-distro.py
+      - tests/test-rootfs-inspector.py
       - scripts/verify-rootfs-candidates.py
       - .github/workflows/verify-distro-rootfs.yml
 permissions:
@@ -23,11 +29,18 @@ jobs:
             tests
           filter: blob:none
       - name: Exercise actual installer with corrupted and complete archives
-        run: python3 tests/test-ocean-distro.py -v
+        run: |
+          python3 tests/test-ocean-distro.py -v
+          python3 tests/test-rootfs-inspector.py -v
       - name: Install ARM execution tools
         run: sudo apt-get update && sudo apt-get install -y qemu-user
       - name: Verify every configured rootfs source
-        run: python3 scripts/verify-rootfs-candidates.py --registry packages/ocean-distro/distros.json --output rootfs-results/report.json
+        env:
+          SELECTED_DISTROS: ${{ inputs.only }}
+        run: |
+          args=()
+          if [ -n "$SELECTED_DISTROS" ]; then args+=(--only "$SELECTED_DISTROS"); fi
+          python3 scripts/verify-rootfs-candidates.py --registry packages/ocean-distro/distros.json --output rootfs-results/report.json "${args[@]}"
       - uses: actions/upload-artifact@v4
         if: always()
         with:
