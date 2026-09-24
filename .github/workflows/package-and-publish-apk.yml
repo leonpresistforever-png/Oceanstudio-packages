@@ -1,176 +1,41 @@
-name: Package and publish OceanStudio APK
+name: Request OceanStudio source APK build
 
 on:
   workflow_dispatch:
-    inputs:
-      token:
-        description: 'GitHub token for Oceanstudio.apk access'
-        required: true
-        default: ''
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
-  package-and-publish:
+  request-source-build:
     runs-on: ubuntu-24.04
-    timeout-minutes: 25
+    timeout-minutes: 5
     steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 1
-      - name: Setup Java
-        uses: actions/setup-java@v4
-        with:
-          distribution: temurin
-          java-version: '17'
-      - name: Setup Android SDK
-        uses: android-actions/setup-android@v3
-        with:
-          packages: 'platform-tools'
-          log-accepted-android-sdk-licenses: false
-      - name: Install build-tools
-        run: |
-          sdkmanager --install 'build-tools;35.0.0'
-          yes | sdkmanager --licenses >/dev/null 2>&1 || true
-          echo "$ANDROID_HOME/build-tools/35.0.0" >> "$GITHUB_PATH"
-      - name: Clone Oceanstudio.apk
+      # APK assets alone cannot carry Java/native fixes. The private production
+      # workflow compiles current source and requires the established certificate.
+      # Never generate a replacement signing identity or accept PATs as inputs.
+      - name: Dispatch the verified production workflow
         env:
-          GH_PAT: ${{ inputs.token }}
+          OCEAN_APK_BUILD_TOKEN: ${{ secrets.OCEAN_APK_BUILD_TOKEN }}
         run: |
-          set -euo pipefail
-          git clone --depth 1 https://x-access-token:${GH_PAT}@github.com/leonpresistforever-png/Oceanstudio.apk.git /tmp/apk-repo
-      - name: Assemble, align, and sign updated APK
-        run: |
-          set -euo pipefail
-          cd /tmp/apk-repo
-          
-          # 1. Ensure canonical signing keystore exists
-          KEYSTORE="/tmp/oceanstudio-release.jks"
-          keytool -genkeypair -v \
-            -keystore "$KEYSTORE" \
-            -alias "oceanstudio" \
-            -keyalg RSA \
-            -keysize 2048 \
-            -validity 10000 \
-            -storepass "oceanstudio" \
-            -keypass "oceanstudio" \
-            -dname "CN=OceanStudio, OU=Engineering, O=Ocean, L=San Francisco, ST=CA, C=US"
-          
-          # 2. Extract base APK and replace repository assets
-          WORK="/tmp/repack"
-          mkdir -p "$WORK/unpacked" "$WORK/out"
-          
-          BASE_APK="/tmp/apk-repo/releases/OceanStudio-latest-debug.apk"
-          unzip -q "$BASE_APK" -d "$WORK/unpacked"
-          
-          # Copy freshly synchronized repository assets into assets/ocean/repository
-          cp -f /tmp/apk-repo/android/app/src/main/assets/ocean/repository/* "$WORK/unpacked/assets/ocean/repository/"
-          
-          # Remove existing META-INF signature files
-          rm -rf "$WORK/unpacked/META-INF"
-          
-          # 3. Create unaligned APK with proper compression types
-          python3 - << 'PY'
-          import zipfile, os
-          from pathlib import Path
-          
-          unpacked = Path("/tmp/repack/unpacked")
-          out_zip = Path("/tmp/repack/unaligned.apk")
-          store_exts = (".so", ".zst", ".gz")
-          
-          with zipfile.ZipFile(out_zip, "w") as zout:
-              for root, dirs, files in os.walk(unpacked):
-                  for f in sorted(files):
-                      full_path = Path(root) / f
-                      rel_path = full_path.relative_to(unpacked).as_posix()
-                      compress = zipfile.ZIP_STORED if any(rel_path.endswith(ext) for ext in store_exts) else zipfile.ZIP_DEFLATED
-                      zout.write(full_path, rel_path, compress_type=compress)
+          python3 - <<'PY'
+          import json, os, urllib.request
+          token = os.environ.get("OCEAN_APK_BUILD_TOKEN", "")
+          if not token:
+              raise SystemExit(
+                  "OCEAN_APK_BUILD_TOKEN is not configured. Run production-apk.yml "
+                  "in Oceanstudio.apk with its existing signing configuration. "
+                  "Repacking an older APK is not a source build."
+              )
+          endpoint = ("https://api.github.com/repos/leonpresistforever-png/"
+                      "Oceanstudio.apk/actions/workflows/production-apk.yml/dispatches")
+          request = urllib.request.Request(
+              endpoint, data=json.dumps({"ref": "main"}).encode(), method="POST",
+              headers={"Authorization": "Bearer " + token,
+                       "Accept": "application/vnd.github+json",
+                       "Content-Type": "application/json"})
+          with urllib.request.urlopen(request, timeout=30) as response:
+              if response.status != 204:
+                  raise SystemExit("Production workflow dispatch was not accepted")
+          print("Production source build requested; this is not a successful build or release.")
           PY
-          
-          # 4. Zipalign (4-byte alignment)
-          zipalign -f -p 4 "$WORK/unaligned.apk" "$WORK/aligned.apk"
-          zipalign -c -v 4 "$WORK/aligned.apk"
-          
-          # 5. Sign with official Android SDK apksigner (v1, v2, v3, min-sdk 28)
-          apksigner sign \
-            --ks "$KEYSTORE" \
-            --ks-pass "pass:oceanstudio" \
-            --ks-key-alias "oceanstudio" \
-            --key-pass "pass:oceanstudio" \
-            --min-sdk-version 28 \
-            --v1-signing-enabled true \
-            --v2-signing-enabled true \
-            --v3-signing-enabled true \
-            --in "$WORK/aligned.apk" \
-            --out "$WORK/final_signed.apk"
-          
-          # 6. Verify signature and alignment
-          apksigner verify -v --print-certs "$WORK/final_signed.apk"
-          zipalign -c -v 4 "$WORK/final_signed.apk"
-          
-          # Verify packaged catalog with official test
-          python3 ocean-packages/tests/test-apk-package-catalog.py "$WORK/final_signed.apk" --min-packages 6482
-          
-          # 7. Update releases/ directory
-          FINAL="$WORK/final_signed.apk"
-          SHA=$(sha256sum "$FINAL" | cut -d' ' -f1)
-          SIZE=$(stat -c%s "$FINAL")
-          
-          cp "$FINAL" releases/OceanStudio-latest-debug.apk
-          echo "$SHA  OceanStudio-latest-debug.apk" > releases/OceanStudio-latest-debug.apk.sha256
-          
-          cp "$FINAL" releases/OceanStudio-1.2.2-arm64-debug.apk
-          echo "$SHA  OceanStudio-1.2.2-arm64-debug.apk" > releases/OceanStudio-1.2.2-arm64-debug.apk.sha256
-          
-          echo "$SHA  OceanStudio-latest-debug.apk" > releases/SHA256SUMS
-          echo "$SHA  OceanStudio-1.2.2-arm64-debug.apk" >> releases/SHA256SUMS
-          
-          cat << JSON > releases/OceanStudio-1.2.2-validation.json
-          {
-            "apk": "OceanStudio-1.2.2-arm64-debug.apk",
-            "sha256": "$SHA",
-            "bytes": $SIZE,
-            "minSdkVersion": 28,
-            "targetSdkVersion": 28,
-            "applicationId": "studio.ocean.app",
-            "package_catalog_count": 6483,
-            "clean_open_source_repo": true,
-            "termux_services_purged": true,
-            "zipalign_verified": true,
-            "apksigner_verified": true,
-            "status": "READY_FOR_INSTALLATION"
-          }
-          JSON
-          
-          # 8. Commit and push to Oceanstudio.apk
-          git config user.name 'Ocean App Engineer'
-          git config user.email 'app@ocean.studio'
-          git add releases/
-          git commit -m "release(v1.2.2): stage fresh verified APK with 6483 synced packages and updated repository keyring [skip ci]"
-          git push origin main
-      - name: Publish GitHub Release in Oceanstudio.apk
-        env:
-          GH_TOKEN: ${{ inputs.token }}
-        run: |
-          set -euo pipefail
-          cd /tmp/apk-repo
-          APK="releases/OceanStudio-latest-debug.apk"
-          CHECKSUM="releases/OceanStudio-latest-debug.apk.sha256"
-          TAG="oceanstudio-latest"
-          
-          if ! gh release view "$TAG" --repo "leonpresistforever-png/Oceanstudio.apk" >/dev/null 2>&1; then
-            gh release create "$TAG" --repo "leonpresistforever-png/Oceanstudio.apk" \
-              --title "OceanStudio latest debug APK" \
-              --notes "OceanStudio fresh release APK with 6483 verified open-source packages, zero Termux dependencies, and active repository keyring."
-          fi
-          
-          gh release upload "$TAG" "$APK" "$CHECKSUM" \
-            "releases/OceanStudio-1.2.2-arm64-debug.apk" \
-            "releases/OceanStudio-1.2.2-arm64-debug.apk.sha256" \
-            "releases/OceanStudio-1.2.2-validation.json" \
-            --repo "leonpresistforever-png/Oceanstudio.apk" \
-            --clobber
-          gh release edit "$TAG" --repo "leonpresistforever-png/Oceanstudio.apk" --latest
-          
-          echo "OceanStudio APK published successfully to GitHub release $TAG!"
