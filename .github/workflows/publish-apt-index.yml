@@ -16,6 +16,7 @@ on:
       - 'apt/dists/**'
   workflow_run:
     workflows:
+      - "Repair Ocean shared runtime ownership"
       - "Build verified upstream pigz and librsync repairs"
       - "Build AI dev shards 46 47 48"
       - "Build foundation shards 40 41 42"

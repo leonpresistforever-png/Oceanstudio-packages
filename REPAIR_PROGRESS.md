@@ -1,4 +1,4 @@
-# Ocean package repair checkpoint — 2026-09-23
+# Ocean package repair checkpoint — 2026-09-24
 
 This is an evidence ledger, not a claim that the package collection works.
 Preserve `/data/data/studio.ocean.app/files/usr` and the separate
@@ -8,8 +8,8 @@ guests and proot-distro guests must retain independent state.
 ## Verified repository state
 
 - Current unsigned Packages: 6,482 entries / 6,482 unique names.
-- Last complete pool/staging reconciliation: 7,444 pool paths, 5,448 staged paths.
-  Two further upstream repair candidates were subsequently staged; they are not live.
+- Complete forensic snapshot: 7,444 pool paths and 5,450 staged paths,
+  representing 7,445 distinct archive byte streams. All 6,482 live records were covered.
 - The current InRelease still authenticates the old 1,046-entry catalogue.
   It does not authenticate the current Packages.gz. Release.gpg also fails against
   the current Release. This explains successful-looking updates that retain old lists.
@@ -55,10 +55,13 @@ Neither package is published through APT until the complete signed publication p
   is still the attributed Termux implementation. Its command checks require awk
   and other tools absent from its declared dependency list. It has not been replaced
   with an independently implemented and feature-verified Ocean manager.
-- OpenJDK's reported partial install remains under investigation. Do not conflate a
-  valid downloaded archive with successful dependency resolution and installation.
+- OpenJDK and its required headless JRE own 365 identical files with no Replaces
+  declaration. Real dpkg rejects the same ownership pattern even with identical
+  bytes. The JDK/JRE also contain foreign-prefix references in ELF files; proper
+  upstream rebuilding and a non-overlapping split remain necessary. A good archive
+  checksum is not a successful installation.
 
-## Ongoing complete forensic pass
+## Completed static forensic pass
 
 `scripts/forensic_repository.py` hashes and reads every byte of every unique pool
 and staged archive, including maintainer scripts, full binary contents, symlink
@@ -71,6 +74,59 @@ File inventories and findings are committed by the forensic workflow under
 static checks do not prove upstream provenance or Android execution, and nested
 compressed payloads are not recursively expanded. Guile VM bytecode and Go
 cross-target object files are classified separately from native executables.
+
+The complete evidence is in
+`audits/forensic/9dbec922bac216cb2f13fa84d398f3ecb5ad08b8/`, committed as
+`91af6c6ad85b9c6acc22d97bdd05bcd40ac515c8` (Actions run 35885286777).
+All archives decoded; zero invalid/truncated repository archives were found.
+There were 427 overlapping live paths, 107 foreign-prefix findings in files of
+39 live packages (88 ELF files, 5 scripts, 14 other files), and the previously
+reported 305 ready-message stub files. Some ELF strings can be build paths;
+they require review and do not alone prove a runtime failure or clean provenance.
+
+## Shared-file ownership repair
+
+18 shared Python files were owned by 1,250 separate command packages. Each source
+file was matched by SHA256 against the committed original Ocean source, and each
+old package's complete file layout was verified before constructing a repair.
+
+`build-shared-runtime-repairs.py` now rebuilds all 1,250 existing command packages
+plus 18 distinct shared runtime packages. Existing command names, source bytes,
+architectures and the native prefix are preserved. Versioned Replaces/Breaks and
+exact dependencies provide an explicit ownership migration. No foreign binary is
+copied into these source builds and no original package is deleted.
+
+Local verification passed:
+- 6 real dpkg/APT regression tests, including old overlap reproduction, upgrade,
+  fresh install, removal survival, source hash enforcement and reproducible bytes.
+- All 1,268 built archives scanned; no duplicate file ownership among candidates.
+- All 1,268 co-installed and configured together in a temporary host dpkg root
+  using a host-only Python fixture and foreign-architecture support.
+- Removing one command from each group preserved every shared source file.
+- Actual installed GCD and subnet commands returned expected results.
+- Workbench's 300 help paths and 15 functional-domain checks passed.
+
+These establish packaging behavior. They do not certify all command semantics or
+Android execution. CI stages the tested artifacts; live APT remains unchanged
+until existing-key signing succeeds. The 18 shared collisions are repaired by the
+candidate overlay; 409 other overlapping live paths remain for investigation.
+
+## Distro installer/source verification
+
+Ocean-distro source now uses real JSON selection, case-normalized names,
+checksum-addressed downloads, clean restart after a corrupt partial, temporary
+extraction and separate Ocean/proot-distro guest state. Seven installer tests and
+three guest symlink-resolution tests pass. These source fixes are not yet a newly
+published distro package or APK.
+
+Ubuntu 24.04.5 and Void official downloads passed checksum, OS identity and actual
+ARM shell execution under QEMU. Gentoo's failed extraction is specifically from
+archived dev/null and dev/console requiring mknod; the installer now skips guest
+/dev contents because login binds the native /dev. Alpine's auditor needed both
+guest-aware absolute symlink resolution and BusyBox's original shell argv[0].
+Remaining distro source problems (including Debian, Arch and container archives)
+are recorded honestly in `audits/rootfs/`; a workflow's success only means its
+evidence was saved, not that every distro passed.
 
 ## APK status
 

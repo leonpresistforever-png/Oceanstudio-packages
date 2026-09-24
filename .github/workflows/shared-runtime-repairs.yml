@@ -1,0 +1,56 @@
+name: Repair Ocean shared runtime ownership
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - packages/shared-runtime-repairs.json
+      - scripts/build-shared-runtime-repairs.py
+      - scripts/verify-shared-runtime-repairs.py
+      - tests/test-shared-runtime-migration.py
+      - .github/workflows/shared-runtime-repairs.yml
+permissions:
+  contents: write
+concurrency:
+  group: ocean-shared-runtime-repairs
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          sparse-checkout: |
+            scripts
+            tests
+            sources
+            packages
+            apt/dists
+            staging/shared-runtime-repairs
+          filter: blob:none
+      - name: Prove dpkg and APT ownership migrations
+        run: python3 tests/test-shared-runtime-migration.py -v
+      - name: Verify preserved Workbench source behavior
+        run: python3 tests/test-ocean-workbench-300.py sources/ocean-workbench-300/ocean_workbench.py
+      - name: Build all audited commands from their original Ocean source
+        run: python3 scripts/build-shared-runtime-repairs.py --output "$RUNNER_TEMP/shared-runtime-repairs"
+      - name: Verify every archive and co-install all rebuilt candidates
+        run: python3 scripts/verify-shared-runtime-repairs.py "$RUNNER_TEMP/shared-runtime-repairs"
+      - name: Save rebuilt candidates without changing the live index
+        run: |
+          set -euo pipefail
+          mkdir -p staging/shared-runtime-repairs
+          cp -a "$RUNNER_TEMP/shared-runtime-repairs/." staging/shared-runtime-repairs/
+          git config user.name 'Ocean Source Builder'
+          git config user.email 'packages@ocean.studio'
+          git add staging/shared-runtime-repairs
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'fix(packages): stage shared-runtime ownership repair for 1250 original Ocean commands [skip ci]'
+          git pull --rebase origin main
+          git push origin HEAD:main
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: ocean-shared-runtime-repair-candidates
+          path: ${{ runner.temp }}/shared-runtime-repairs
