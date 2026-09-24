@@ -1,0 +1,37 @@
+{
+  "status": "PASS_CANDIDATE",
+  "package": "gdb",
+  "version": "9.2-1+ocean1",
+  "source": "https://sourceware.org/git/binutils-gdb.git",
+  "tag": "gdb-9.2-release",
+  "commit": "e7fe0803b6427d3906e991bbb3b7fd2f0fd05e00",
+  "sha256": "b809f85fe70f2f7e236289fcae6b155b4f4691ace2596d7e2667d1981460e43f",
+  "target": "aarch64-linux-android28",
+  "prefix": "/data/data/studio.ocean.app/files/usr",
+  "qemuArm64Version": "GNU gdb (GDB) 9.2",
+  "static": true,
+  "foreignRuntimeMarkers": [],
+  "oceanPatches": [
+    {
+      "path": "gnulib/import/strerror_r.c",
+      "reason": "Bionic strerror_r returns char*; avoid gnulib 9.2 POSIX-int call path",
+      "beforeSha256": "8ffc398d7374f5dc93404f733681fbda6c108ef1623d50aace9e43a55a0a949f",
+      "afterSha256": "7044640a13cc34a6729c44cc747db5bebef92c918a98830dc6c9dad89e9e8b27"
+    }
+  ],
+  "compilerCompatibility": [
+    {
+      "flag": "-Wno-enum-constexpr-conversion",
+      "reason": "GDB 9.2 enum-flags intentionally probes T(-1); modern Clang diagnoses that legacy constexpr enum conversion"
+    },
+    {
+      "flags": [
+        "-DHAVE_ELF32_AUXV_T=1",
+        "-DHAVE_ELF64_AUXV_T=1"
+      ],
+      "reason": "Android NDK elf.h already defines Elf32_auxv_t/Elf64_auxv_t; prevent GDB 9.2 gdbserver fallback typedef redefinition"
+    }
+  ],
+  "androidPhonePtraceTested": false,
+  "limitation": "QEMU user mode proves executable startup/version, not ptrace debugging on a physical Android device"
+}
