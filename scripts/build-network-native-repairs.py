@@ -161,13 +161,37 @@ def strace(src, work, stage, ndk, receipts):
     ]
     ms_patched='\n'.join(ms_lines)+'\n'
     msghdr.write_text(ms_patched)
+    # The same bundled-UAPI/Bionic collision can occur in any translation unit
+    # that includes arpa/inet.h, not only msghdr.c. Patch every such upstream
+    # source deterministically before configure. Files already carrying the
+    # compatibility typedef (including msghdr.c above) are left untouched.
+    network_compat_patches=[]
+    for network_file in sorted((src/'src').rglob('*')):
+        if not network_file.is_file() or network_file.suffix not in ('.c','.h'):
+            continue
+        try:
+            network_before=network_file.read_text()
+        except UnicodeDecodeError:
+            continue
+        if '#include <arpa/inet.h>' not in network_before or 'typedef uint32_t in_addr_t;' in network_before:
+            continue
+        network_after=network_before.replace(
+            '#include <arpa/inet.h>',
+            '#include <stdint.h>\ntypedef uint32_t in_addr_t;\n#include <arpa/inet.h>',
+            1)
+        network_file.write_text(network_after)
+        network_compat_patches.append({
+            'path':network_file.relative_to(src).as_posix(),
+            'reason':'Restore Bionic in_addr_t when strace bundled Linux UAPI headers suppress the libc typedef',
+            'beforeSha256':hashlib.sha256(network_before.encode()).hexdigest(),
+            'afterSha256':hashlib.sha256(network_after.encode()).hexdigest()})
     receipts['oceanPatches']=[{'path':'src/affinity.c',
         'reason':'Use the kernel affinity-size probe without passing NULL to Bionic nonnull API',
         'beforeSha256':hashlib.sha256(original.encode()).hexdigest(),
         'afterSha256':hashlib.sha256(patched.encode()).hexdigest()},
         {'path':'src/msghdr.c','reason':'Restore Bionic in_addr_t when strace bundled Linux UAPI headers suppress the libc typedef',
         'beforeSha256':hashlib.sha256(ms_original.encode()).hexdigest(),
-        'afterSha256':hashlib.sha256(ms_patched.encode()).hexdigest()}]
+        'afterSha256':hashlib.sha256(ms_patched.encode()).hexdigest()}] + network_compat_patches
     run(['./bootstrap'],cwd=src)
     env=dict(os.environ,CC=str(cc),AR=str(tools/'llvm-ar'),RANLIB=str(tools/'llvm-ranlib'),
              CFLAGS='-O2 -ffile-prefix-map='+str(work)+'=/usr/src/ocean',
