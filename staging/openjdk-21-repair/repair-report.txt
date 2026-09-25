@@ -1,11 +1,11 @@
 status=REPAIRED_CANDIDATE
-version=21.0.12-1+ocean1
+version=21.0.12-1+ocean2
 overlap_removed=365
 differing_overlap=0
 residual_overlap=0
 clean_dpkg_unpack=PASS
 compression=xz
-jre_sha256=716ab7068b1614a864553e8e2c8b25b55727d29c12fc1f9d8810161df033fb87
-jdk_sha256=798b3e0d0b44f40f8a5fa200c5ec979e56da19aabb95ae8ec2a1046f334e8ec0
+jre_sha256=d9fec4d0fb648682030eed2f161daac0a374f241fdfd74bfea746efa8be6aa74
+jdk_sha256=fb8df3d926bd8324c042c2112353fa3a840a3b56f2c83d0627ba1c40c42bf472
 maintainer_scripts_fixed=true
 android_runtime_tested=false
