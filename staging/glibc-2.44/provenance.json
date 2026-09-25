@@ -16,52 +16,58 @@
   "sourceVerification": "exact upstream git commit + CVE fix ancestry PASS",
   "qemuSmokeTest": "OCEAN_GLIBC_OK",
   "sourcePolicy": "official Sourceware glibc stable branch; exact security-fixed commit; no Termux package or binary input",
-  "packageCount": 7,
+  "packageCount": 8,
   "packages": [
     {
       "artifact": "ocean-glibc_2.44-1_aarch64.deb",
-      "sha256": "561187144f791b8d112286cd814a5ac2e8dc698fc7724591fedeaf6ef5e76e50",
-      "bytes": 6781328,
+      "sha256": "2032f01b363586a2b38dfba6b0a9b303dfd74fed17be101459f3153ba1285602",
+      "bytes": 6780600,
       "package": "ocean-glibc"
     },
     {
       "artifact": "ocean-glibc-runner_2.44-1_all.deb",
-      "sha256": "083ea94f5d309d04d3f0d6c9afc3f36f2dd05f8801000ff6160d68b4b6fbac52",
+      "sha256": "98a7ef48a4a0ecbd8c6e5e109dd7fd2b2e1fa282d724f866d3e664f5ee209dba",
       "bytes": 1112,
       "package": "ocean-glibc-runner"
     },
     {
       "artifact": "ocean-glibc-devel_2.44-1_aarch64.deb",
-      "sha256": "d6f7fe03f8fa4db9093d7753d0a3a1496c5bbfd5ddbe53dd94ff45a16844a7bf",
-      "bytes": 6082064,
+      "sha256": "87bed0b2b0d74d64ba28ecc00a71a4ed98f450c32140126db598a1d7873b6726",
+      "bytes": 6081792,
       "package": "ocean-glibc-devel"
     },
     {
       "artifact": "ocean-glibc-utils_2.44-1_aarch64.deb",
-      "sha256": "e227eeb2a609c7f9ac1e8d7213d69c9ac6e0c9d32bb33dea84468df32fc79025",
-      "bytes": 2428552,
+      "sha256": "5242b72f9decd5796fe12b5893c339c192886cd7d13dc168705f04924b31883b",
+      "bytes": 2428204,
       "package": "ocean-glibc-utils"
     },
     {
       "artifact": "ocean-glibc-locale-data_2.44-1_all.deb",
-      "sha256": "5e3020af5dbe760bff9bcddf50efe08da7f98c28f772e9dbb3e2141a1d9634b1",
+      "sha256": "94ccb98b5364da74fcab8ebcae423bd6755aba4b4ae9c9a0408161329f2f0f84",
       "bytes": 4572920,
       "package": "ocean-glibc-locale-data"
     },
     {
       "artifact": "ocean-glibc-patchelf_2.44-1_all.deb",
-      "sha256": "8ba9c78d2b069405d2a460b98be214404520f3b847b22526aaf26a4a48ad1e0a",
+      "sha256": "e18b44e05461890e00c7730518f41659182cb86a2f8b24a22df5c8fc6b0ec176",
       "bytes": 1052,
       "package": "ocean-glibc-patchelf"
     },
     {
       "artifact": "ocean-glibc-suite_2.44-1_all.deb",
-      "sha256": "6ee73a533c7bd424b78a5a7d9e1300e6734c8242d07e9cd0eea688aa248f26cc",
+      "sha256": "1ff45a02f81e8a8c835578a1e160aba456e3c96b34bcea3addb21a84f68d9b58",
       "bytes": 764,
       "package": "ocean-glibc-suite"
+    },
+    {
+      "artifact": "glibc_2.44-1_all.deb",
+      "sha256": "d3a1f0c9658d08358ddd915ac29ce8945868d4b0ea4544a39a063839fd7903d2",
+      "bytes": 788,
+      "package": "glibc"
     }
   ],
-  "indexSha256": "bf47927c543851f8b3a28b2dd57de4678847c0a42cb5cd4d05d0c07000ebef19",
-  "indexGzipSha256": "733598c873bc749e35f8b4a7c5fcb1ca4a4ff99e8bb72c316ee2d5e97c066560",
+  "indexSha256": "f272a7f8301579deb301106147c65ff51d9c9480e03d9f5d857feff602320fc8",
+  "indexGzipSha256": "04123c5bafadea2f5c5981b1a56191c8c1e44499637452528aa5f0982967e455",
   "promotion": "staging-only"
 }
