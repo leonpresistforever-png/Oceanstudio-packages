@@ -13,8 +13,8 @@ PREFIX = "/data/data/studio.ocean.app/files/usr"
 SRC_DISTRO = ROOT / "packages/ocean-distro"
 SRC_PROOT = ROOT / "packages/proot-distro"
 OUT = ROOT / "staging/ocean-distro-repair"
-VERSION = "1.0.1-3"
-PROOT_VERSION = "4.18.0-1+ocean2"
+VERSION = "1.0.1-4"
+PROOT_VERSION = "4.18.0-1+ocean3"
 
 def sha(path):
     h = hashlib.sha256()

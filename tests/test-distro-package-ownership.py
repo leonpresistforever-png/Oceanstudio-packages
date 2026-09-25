@@ -18,8 +18,8 @@ def main():
         root = Path(directory)
         command = ['dpkg', '--root='+directory, '--force-not-root', '--force-depends', '--auto-deconfigure']
         steps = [('oldTools', [ROOT/'apt/pool/main/ocean-tools_1.1.0_all.deb']),
-                 ('ownershipUpgrade', [POOL/'ocean-tools_1.1.0+ocean1_all.deb', POOL/'ocean-distro_1.0.1-3_all.deb']),
-                 ('independentProot', [POOL/'proot-distro_4.18.0-1+ocean2_all.deb'])]
+                 ('ownershipUpgrade', [POOL/'ocean-tools_1.1.0+ocean1_all.deb', POOL/'ocean-distro_1.0.1-4_all.deb']),
+                 ('independentProot', [POOL/'proot-distro_4.18.0-1+ocean3_all.deb'])]
         for label, archives in steps:
             run = subprocess.run(command+['--install']+[str(p) for p in archives], capture_output=True, text=True)
             evidence[label] = {'exit': run.returncode, 'stdout': run.stdout, 'stderr': run.stderr}
