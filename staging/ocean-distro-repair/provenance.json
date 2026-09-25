@@ -2,10 +2,10 @@
   "status": "PASS_CANDIDATE",
   "package": "ocean-distro",
   "version": "1.0.1-4",
-  "sha256": "3e40a883f10cfc8bb82226f93a53ca5d4dfcc7a017fc8760b92a83db683b99b6",
+  "sha256": "c677bd5dfffc429d51bac9a4cb49b3302dc77fd14a60be51e2886b52899ad60b",
   "prootDistroPackage": "proot-distro",
   "prootDistroVersion": "4.18.0-1+ocean3",
-  "prootDistroSha256": "329fad4c26aa1e3cbcf21b7dea543ae427bf69b3154a6b56fc6da46e5add9b66",
+  "prootDistroSha256": "2510a715e616112d95ba51c718eba0b98edec2ab27cbb01366da2f432524d357",
   "sourcePolicy": "Ocean-owned manager; no Termux/proot-distro payload copied",
   "prefix": "/data/data/studio.ocean.app/files/usr",
   "advertisedDistros": [
