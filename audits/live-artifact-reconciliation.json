@@ -1,0 +1,144 @@
+{
+  "sourceCommit": "121bd84604ddafbbdabd0aace7411a59f56e109d",
+  "signedMetadataVerified": true,
+  "indexedNames": 6501,
+  "archives": [
+    {
+      "name": "npm",
+      "version": "11.19.1",
+      "sha256": "9c0f73989ac6e9225bbaa622a7fa9bb0dc396f3fa021d680b44f10e1867aed2d",
+      "size": 2030296,
+      "arMembers": [
+        "debian-binary",
+        "control.tar.xz",
+        "data.tar.xz"
+      ]
+    },
+    {
+      "name": "ocean-distro",
+      "version": "1.0.1-3",
+      "sha256": "62a85061e6576c4d4f2de2114405038d2595e2d4f3251b6a93d09b18b4a60696",
+      "size": 6544,
+      "arMembers": [
+        "debian-binary",
+        "control.tar.xz",
+        "data.tar.xz"
+      ],
+      "usesProotForExtraction": false,
+      "scriptMatchesCurrentSource": false
+    },
+    {
+      "name": "ocean-exec",
+      "version": "1.0.0",
+      "sha256": "01842739c0465f72e6ab94aba7ecb8c75c2ae549d324140991a0a822b288e58b",
+      "size": 3756,
+      "arMembers": [
+        "debian-binary",
+        "control.tar.xz",
+        "data.tar.xz"
+      ]
+    },
+    {
+      "name": "ocean-glibc",
+      "version": "2.44-1",
+      "sha256": "561187144f791b8d112286cd814a5ac2e8dc698fc7724591fedeaf6ef5e76e50",
+      "size": 6781328,
+      "arMembers": [
+        "debian-binary",
+        "control.tar.xz",
+        "data.tar.xz"
+      ]
+    },
+    {
+      "name": "ocean-glibc-devel",
+      "version": "2.44-1",
+      "sha256": "d6f7fe03f8fa4db9093d7753d0a3a1496c5bbfd5ddbe53dd94ff45a16844a7bf",
+      "size": 6082064,
+      "arMembers": [
+        "debian-binary",
+        "control.tar.xz",
+        "data.tar.xz"
+      ]
+    },
+    {
+      "name": "ocean-glibc-locale-data",
+      "version": "2.44-1",
+      "sha256": "5e3020af5dbe760bff9bcddf50efe08da7f98c28f772e9dbb3e2141a1d9634b1",
+      "size": 4572920,
+      "arMembers": [
+        "debian-binary",
+        "control.tar.xz",
+        "data.tar.xz"
+      ]
+    },
+    {
+      "name": "ocean-glibc-patchelf",
+      "version": "2.44-1",
+      "sha256": "8ba9c78d2b069405d2a460b98be214404520f3b847b22526aaf26a4a48ad1e0a",
+      "size": 1052,
+      "arMembers": [
+        "debian-binary",
+        "control.tar.xz",
+        "data.tar.xz"
+      ]
+    },
+    {
+      "name": "ocean-glibc-runner",
+      "version": "2.44-1",
+      "sha256": "083ea94f5d309d04d3f0d6c9afc3f36f2dd05f8801000ff6160d68b4b6fbac52",
+      "size": 1112,
+      "arMembers": [
+        "debian-binary",
+        "control.tar.xz",
+        "data.tar.xz"
+      ]
+    },
+    {
+      "name": "ocean-glibc-suite",
+      "version": "2.44-1",
+      "sha256": "6ee73a533c7bd424b78a5a7d9e1300e6734c8242d07e9cd0eea688aa248f26cc",
+      "size": 764,
+      "arMembers": [
+        "debian-binary",
+        "control.tar.xz",
+        "data.tar.xz"
+      ]
+    },
+    {
+      "name": "ocean-glibc-utils",
+      "version": "2.44-1",
+      "sha256": "e227eeb2a609c7f9ac1e8d7213d69c9ac6e0c9d32bb33dea84468df32fc79025",
+      "size": 2428552,
+      "arMembers": [
+        "debian-binary",
+        "control.tar.xz",
+        "data.tar.xz"
+      ]
+    },
+    {
+      "name": "ocean-tools",
+      "version": "1.1.0+ocean1",
+      "sha256": "f7d95e327b21d2c35be2f5875c2e341c4e420e8ecc75a4ad2ebbc09c954fcbcc",
+      "size": 7220,
+      "arMembers": [
+        "debian-binary",
+        "control.tar.xz",
+        "data.tar.xz"
+      ]
+    },
+    {
+      "name": "proot-distro",
+      "version": "4.18.0-1+ocean2",
+      "sha256": "12e731b7165d2c0d942ac44e3e57719a580eda698fb5211f533787b13fc64e2d",
+      "size": 8252,
+      "arMembers": [
+        "debian-binary",
+        "control.tar.xz",
+        "data.tar.xz"
+      ],
+      "usesProotForExtraction": false,
+      "scriptMatchesCurrentSource": false
+    }
+  ],
+  "allPackagesRuntimeTested": false
+}

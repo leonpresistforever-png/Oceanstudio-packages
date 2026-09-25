@@ -1,5 +1,27 @@
 # Ocean repair checkpoint — 2026-09-25
 
+## Latest live-byte reconciliation (121bd846, September 25)
+
+The signed live index has 6,501 distinct package names. Both signatures, the
+Release body, all index sizes/hashes, gzip equivalence and by-hash files passed
+verification. All seven indexed ocean-glibc archives were downloaded and their
+actual sizes and SHA256 values matched. This establishes availability and
+integrity, not execution of every package on Android.
+
+The published ocean-distro 1.0.1-3 and proot-distro 4.18.0-1+ocean2 archives do
+NOT contain the later source hardlink extraction change. Their installed script
+bytes differ from current source. The npm screenshot shows a missing
+/usr/bin/env shebang after npm's self-update, before npm fund can execute.
+
+The published ocean-tools 1.1.0+ocean1 incorrectly conflicts with nine important
+Ocean component packages. A coordinated ownership migration is being prepared;
+it preserves all 25 original script byte streams and revises exact reverse
+dependencies. It does not purport to rebuild preserved native payloads from
+upstream. The published ocean-exec ELF still contains foreign app-prefix paths.
+
+Evidence: [download reconciliation](audits/live-artifact-reconciliation.json).
+The older sections below describe their explicitly named historical snapshots.
+
 This is a record of verified work and remaining defects, not a claim that all packages work.
 Native Ocean remains at `/data/data/studio.ocean.app/files/usr`; the isolated glibc
 runtime remains at `/data/data/studio.ocean.app/files/glibc`.
