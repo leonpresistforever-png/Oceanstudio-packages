@@ -3,7 +3,7 @@
   "sourceSha256": "46d362be243df5ae7af5397ed2946c8b749c739db5cef285d039cd8c2de668ab",
   "package": "ocean-tools",
   "version": "1.1.0+ocean1",
-  "sha256": "f7d95e327b21d2c35be2f5875c2e341c4e420e8ecc75a4ad2ebbc09c954fcbcc",
+  "sha256": "300da40d5ab17244444387750c8f6e04a18ae91fa4f928ce128d5f6f26a8d661",
   "preservedScriptSha256": {
     "data/data/studio.ocean.app/files/usr/bin/ocean-api": "635ff6c3153e891ae9991383a6075c1aa71e7bfba7b8e759e61e800a95a46c2a",
     "data/data/studio.ocean.app/files/usr/bin/ocean-apk-decompile": "d1a2b322d0b653952278425135fc8d8fd92250988cd9fe3a7c56b4927b88c411",
