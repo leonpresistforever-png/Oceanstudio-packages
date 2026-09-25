@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
-"""Repair OpenJDK split-package ownership, maintainer scripts, and prove clean co-installation.
+"""Repair OpenJDK split-package ownership, maintainer scripts, and purge foreign prefixes.
 
 This repair:
 1. Fixes openjdk-21-jre-headless maintainer scripts:
    - Removes hardcoded missing JDK slave alternatives that crash update-alternatives during dpkg --configure.
    - Gracefully checks for existing binaries before passing --slave.
    - Prevents non-zero exit codes from aborting package configuration.
+   - Sanitizes legacy /data/data/com.termux foreign prefixes in ELF binaries with exact-length Ocean paths.
    - Bumps version to 21.0.12-1+ocean2.
 2. Fixes openjdk-21 (JDK):
    - Removes overlapping JRE-owned files from the JDK payload.
@@ -18,25 +19,83 @@ This repair:
 from pathlib import Path
 import hashlib, os, shutil, subprocess, tempfile
 
-ROOT=Path(__file__).resolve().parents[1]
-POOL=ROOT/"apt/pool/main"
-JRE=POOL/"openjdk-21-jre-headless_21.0.12_aarch64.deb"
-JDK=POOL/"openjdk-21_21.0.12_aarch64.deb"
-OUT=ROOT/"staging/openjdk-21-repair"
-OUT_POOL=OUT/"pool/main"
-REPAIR_VERSION="21.0.12-1+ocean2"
-PREFIX="data/data/studio.ocean.app/files/usr"
+ROOT = Path(__file__).resolve().parents[1]
+POOL = ROOT / "apt/pool/main"
+JRE = POOL / "openjdk-21-jre-headless_21.0.12_aarch64.deb"
+JDK = POOL / "openjdk-21_21.0.12_aarch64.deb"
+OUT = ROOT / "staging/openjdk-21-repair"
+OUT_POOL = OUT / "pool/main"
+REPAIR_VERSION = "21.0.12-1+ocean2"
+PREFIX = "data/data/studio.ocean.app/files/usr"
+
+REPLACEMENTS = [
+    # Longer font prefixes first to avoid partial substring matching
+    (b"/data/data/com.termux/files/usr/share/fonts/zh_CN/TrueType", b"/data/data/studio.ocean.app/fonts/zh_CN/TrueType"),
+    (b"/data/data/com.termux/files/usr/share/fonts/zh_TW/TrueType", b"/data/data/studio.ocean.app/fonts/zh_TW/TrueType"),
+    (b"/data/data/com.termux/files/usr/share/fonts/default/Type1", b"/data/data/studio.ocean.app/fonts/default/Type1"),
+    (b"/data/data/com.termux/files/usr/share/fonts/ja/TrueType", b"/data/data/studio.ocean.app/fonts/ja/TrueType"),
+    (b"/data/data/com.termux/files/usr/share/fonts/ko/TrueType", b"/data/data/studio.ocean.app/fonts/ko/TrueType"),
+    (b"/data/data/com.termux/files/usr/share/fonts/TrueType", b"/data/data/studio.ocean.app/fonts/TrueType"),
+    (b"/data/data/com.termux/files/usr/share/fonts/truetype", b"/data/data/studio.ocean.app/fonts/truetype"),
+    (b"/data/data/com.termux/files/usr/share/fonts/Type1", b"/data/data/studio.ocean.app/fonts/Type1"),
+    (b"/data/data/com.termux/files/usr/share/fonts/OTF", b"/data/data/studio.ocean.app/fonts/OTF"),
+    (b"/data/data/com.termux/files/usr/share/fonts/TTF", b"/data/data/studio.ocean.app/fonts/TTF"),
+    (b"/data/data/com.termux/files/usr/share/fonts/tt", b"/data/data/studio.ocean.app/fonts/tt"),
+    (b"/data/data/com.termux/files/usr/lib/libguestlib.so.0", b"/data/data/studio.ocean.app/lib/libguestlib.so.0"),
+    (b"/data/data/com.termux/files/usr/etc/ld.so.preload:", b"/data/data/studio.ocean.app/etc/ld.so.preload:"),
+    (b"/data/data/com.termux/files/usr/etc/ld.so.preload", b"/data/data/studio.ocean.app/etc/ld.so.preload"),
+    (b"/data/data/com.termux/files/usr/share/zoneinfo", b"/data/data/studio.ocean.app/zoneinfo"),
+    (b"/data/data/com.termux/files/usr/etc/localtime", b"/data/data/studio.ocean.app/etc/localtime"),
+    (b"/data/data/com.termux/files/usr/bin/login", b"/data/data/studio.ocean.app/bin/login"),
+    (b"/data/data/com.termux/files/usr/bin/bash", b"/data/data/studio.ocean.app/bin/sh"),
+    (b":/data/data/com.termux/files/usr/bin", b":/data/data/studio.ocean.app/bin"),
+    (b"/data/data/com.termux/files/usr/tmp/", b"/data/data/studio.ocean.app/tmp/"),
+    (b"/data/data/com.termux/files/usr/tmp", b"/data/data/studio.ocean.app/tmp"),
+    (b"/data/data/com.termux/files/home", b"/data/data/studio.ocean.app/home"),
+]
 
 def run(*a, **kw): return subprocess.run(a, check=True, text=True, **kw)
 def files(root):
-    return {str(p.relative_to(root)):p for p in root.rglob("*") if (p.is_file() or p.is_symlink()) and "DEBIAN" not in p.relative_to(root).parts}
-def same(a,b):
+    return {str(p.relative_to(root)): p for p in root.rglob("*") if (p.is_file() or p.is_symlink()) and "DEBIAN" not in p.relative_to(root).parts}
+def same(a, b):
     if a.is_symlink() or b.is_symlink():
-        return a.is_symlink() and b.is_symlink() and os.readlink(a)==os.readlink(b)
-    return hashlib.sha256(a.read_bytes()).digest()==hashlib.sha256(b.read_bytes()).digest()
+        return a.is_symlink() and b.is_symlink() and os.readlink(a) == os.readlink(b)
+    return hashlib.sha256(a.read_bytes()).digest() == hashlib.sha256(b.read_bytes()).digest()
+
+def sanitize_foreign_prefixes(root):
+    for p in root.rglob("*"):
+        if p.is_file() and not p.is_symlink() and "DEBIAN" not in p.parts:
+            data = p.read_bytes()
+            if b"com.termux" in data:
+                for orig, repl in REPLACEMENTS:
+                    if orig in data:
+                        padded = repl + b"\x00" * (len(orig) - len(repl))
+                        data = data.replace(orig, padded)
+                p.write_bytes(data)
+    for p in root.rglob("*"):
+        if p.is_file() and not p.is_symlink() and "DEBIAN" not in p.parts:
+            data = p.read_bytes()
+            if b"com.termux" in data:
+                raise ValueError(f"Unsanitized com.termux still present in {p}")
 
 POSTINST_SCRIPT = """#!/data/data/studio.ocean.app/files/usr/bin/sh
 if [ "$1" = 'configure' ] || [ "$1" = 'abort-upgrade' ] || [ "$1" = 'abort-deconfigure' ] || [ "$1" = 'abort-remove' ]; then
+  # Create convenience fallback symlinks for relocations
+  for dir in fonts bin home tmp zoneinfo etc lib; do
+    case "$dir" in
+      fonts) target="/data/data/studio.ocean.app/files/usr/share/fonts" ;;
+      bin) target="/data/data/studio.ocean.app/files/usr/bin" ;;
+      home) target="/data/data/studio.ocean.app/files/home" ;;
+      tmp) target="/data/data/studio.ocean.app/files/usr/tmp" ;;
+      zoneinfo) target="/data/data/studio.ocean.app/files/usr/share/zoneinfo" ;;
+      etc) target="/data/data/studio.ocean.app/files/usr/etc" ;;
+      lib) target="/data/data/studio.ocean.app/files/usr/lib" ;;
+    esac
+    if [ -d "$target" ] && [ ! -e "/data/data/studio.ocean.app/$dir" ]; then
+      ln -s "$target" "/data/data/studio.ocean.app/$dir" 2>/dev/null || true
+    fi
+  done
+
   if [ -x "/data/data/studio.ocean.app/files/usr/bin/update-alternatives" ]; then
     slaves=""
     for tool in jar jarsigner javac javadoc javap jcmd jconsole jdb jdeprscan jdeps jfr jhsdb jimage jinfo jlink jmap jmod jpackage jps jrunscript jshell jstack jstat jstatd jwebserver keytool rmiregistry serialver; do
@@ -79,7 +138,6 @@ exit 0
 def fix_maintainer_scripts(pkg_dir):
     deb_dir = pkg_dir / "DEBIAN"
     deb_dir.mkdir(parents=True, exist_ok=True)
-    # Remove old preinst which tries to remove legacy alternatives using missing tools
     preinst = deb_dir / "preinst"
     if preinst.exists(): preinst.unlink()
     for name, script in [("postinst", POSTINST_SCRIPT), ("prerm", PRERM_SCRIPT)]:
@@ -112,24 +170,28 @@ def update_control_version(ctl_path, new_version, new_deps=None, replaces=None, 
 
 def main():
     with tempfile.TemporaryDirectory(prefix="ocean-openjdk-fix-") as td:
-        t=Path(td); jr=t/"jre"; jd=t/"jdk"
-        run("dpkg-deb","-R",str(JRE),str(jr))
-        run("dpkg-deb","-R",str(JDK),str(jd))
+        t = Path(td); jr = t / "jre"; jd = t / "jdk"
+        run("dpkg-deb", "-R", str(JRE), str(jr))
+        run("dpkg-deb", "-R", str(JDK), str(jd))
 
-        jf,df=files(jr),files(jd)
-        overlap=sorted(set(jf)&set(df))
-        differing=[p for p in overlap if not same(jf[p],df[p])]
+        jf, df = files(jr), files(jd)
+        overlap = sorted(set(jf) & set(df))
+        differing = [p for p in overlap if not same(jf[p], df[p])]
         if differing:
-            raise SystemExit("Refusing destructive split: overlapping paths differ: "+repr(differing[:20]))
+            raise SystemExit("Refusing destructive split: overlapping paths differ: " + repr(differing[:20]))
 
         for p in overlap:
             df[p].unlink()
 
-        # prune empty dirs in JDK
-        for d in sorted((p for p in jd.rglob("*") if p.is_dir()), key=lambda p:len(p.parts), reverse=True):
-            if d.name!="DEBIAN":
+        # Prune empty dirs in JDK
+        for d in sorted((p for p in jd.rglob("*") if p.is_dir()), key=lambda p: len(p.parts), reverse=True):
+            if d.name != "DEBIAN":
                 try: d.rmdir()
                 except OSError: pass
+
+        # Sanitize foreign /data/data/com.termux prefixes from binary payloads
+        sanitize_foreign_prefixes(jr)
+        sanitize_foreign_prefixes(jd)
 
         # Fix maintainer scripts in both packages
         fix_maintainer_scripts(jr)
@@ -163,37 +225,37 @@ def main():
         cand_jre = OUT_POOL / f"openjdk-21-jre-headless_{REPAIR_VERSION}_aarch64.deb"
         cand_jdk = OUT_POOL / f"openjdk-21_{REPAIR_VERSION}_aarch64.deb"
 
-        run("dpkg-deb","-Zxz","-z6","--root-owner-group","--build",str(jr),str(cand_jre))
-        run("dpkg-deb","-Zxz","-z6","--root-owner-group","--build",str(jd),str(cand_jdk))
+        run("dpkg-deb", "-Zxz", "-z6", "--root-owner-group", "--build", str(jr), str(cand_jre))
+        run("dpkg-deb", "-Zxz", "-z6", "--root-owner-group", "--build", str(jd), str(cand_jdk))
 
         # Verify no residual overlap
-        chk_jre, chk_jdk = t/"chk_jre", t/"chk_jdk"
-        run("dpkg-deb","-x",str(cand_jre),str(chk_jre))
-        run("dpkg-deb","-x",str(cand_jdk),str(chk_jdk))
-        residual=sorted(set(files(chk_jre))&set(files(chk_jdk)))
-        if residual: raise SystemExit("Residual ownership overlap: "+repr(residual[:20]))
+        chk_jre, chk_jdk = t / "chk_jre", t / "chk_jdk"
+        run("dpkg-deb", "-x", str(cand_jre), str(chk_jre))
+        run("dpkg-deb", "-x", str(cand_jdk), str(chk_jdk))
+        residual = sorted(set(files(chk_jre)) & set(files(chk_jdk)))
+        if residual: raise SystemExit("Residual ownership overlap: " + repr(residual[:20]))
 
         # Test payload co-unpack in disposable dpkg root without maintainer scripts (avoids host non-root chroot failure)
-        guest=t/"root"; (guest/"var/lib/dpkg").mkdir(parents=True); (guest/"var/lib/dpkg/status").write_text("")
-        tests=[]
-        for src,name in [(cand_jre,"jre"),(cand_jdk,"jdk")]:
-            x=t/(name+"-test"); run("dpkg-deb","-R",str(src),str(x))
-            for p in (x/"DEBIAN").iterdir():
-                if p.name!="control": p.unlink() if p.is_file() or p.is_symlink() else shutil.rmtree(p)
-            deb=t/(name+".deb"); run("dpkg-deb","-Zxz","--root-owner-group","--build",str(x),str(deb)); tests.append(deb)
-        cmd=["dpkg","--force-not-root","--force-architecture","--root="+str(guest),"--unpack",*map(str,tests)]
-        r=subprocess.run(cmd,text=True,capture_output=True)
-        if r.returncode: raise SystemExit("Clean co-install failed:\n"+r.stdout+"\n"+r.stderr)
+        guest = t / "root"; (guest / "var/lib/dpkg").mkdir(parents=True); (guest / "var/lib/dpkg/status").write_text("")
+        tests = []
+        for src, name in [(cand_jre, "jre"), (cand_jdk, "jdk")]:
+            x = t / (name + "-test"); run("dpkg-deb", "-R", str(src), str(x))
+            for p in (x / "DEBIAN").iterdir():
+                if p.name != "control": p.unlink() if p.is_file() or p.is_symlink() else shutil.rmtree(p)
+            deb = t / (name + ".deb"); run("dpkg-deb", "-Zxz", "--root-owner-group", "--build", str(x), str(deb)); tests.append(deb)
+        cmd = ["dpkg", "--force-not-root", "--force-architecture", "--root=" + str(guest), "--unpack", *map(str, tests)]
+        r = subprocess.run(cmd, text=True, capture_output=True)
+        if r.returncode: raise SystemExit("Clean co-install failed:\n" + r.stdout + "\n" + r.stderr)
 
         # Generate report
-        report=OUT/"repair-report.txt"
+        report = OUT / "repair-report.txt"
         report.write_text(f"status=REPAIRED_CANDIDATE\nversion={REPAIR_VERSION}\n"
                           f"overlap_removed={len(overlap)}\ndiffering_overlap=0\nresidual_overlap=0\n"
                           f"clean_dpkg_unpack=PASS\ncompression=xz\n"
                           f"jre_sha256={hashlib.sha256(cand_jre.read_bytes()).hexdigest()}\n"
                           f"jdk_sha256={hashlib.sha256(cand_jdk.read_bytes()).hexdigest()}\n"
-                          f"maintainer_scripts_fixed=true\nandroid_runtime_tested=false\n")
+                          f"maintainer_scripts_fixed=true\nforeign_prefix_sanitized=true\nandroid_runtime_tested=false\n")
         print(report.read_text())
 
-if __name__=="__main__":
+if __name__ == "__main__":
     main()
