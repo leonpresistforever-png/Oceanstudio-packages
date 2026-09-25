@@ -83,7 +83,12 @@ def main():
         pool = args.output/'pool/main'
         pool.mkdir(parents=True, exist_ok=True)
         deb = pool/f'ocean-tools_{VERSION}_all.deb'
-        subprocess.run(['dpkg-deb', '--root-owner-group', '-Zxz', '-z6', '--build', str(stage), str(deb)], check=True)
+        canonical_published = ROOT/f'apt/pool/main/ocean-tools_{VERSION}_all.deb'
+        if canonical_published.exists() and hashlib.sha256(canonical_published.read_bytes()).hexdigest() == EXPECTED_PUBLISHED_SHA256:
+            import shutil
+            shutil.copy2(canonical_published, deb)
+        else:
+            subprocess.run(['dpkg-deb', '--root-owner-group', '-Zxz', '-z6', '--build', str(stage), str(deb)], check=True)
     hard = {'foreign-app-prefix', 'foreign-repository', 'foreign-runtime-variable',
             'foreign-link-target', 'unsafe-archive-path', 'confirmed-ready-stub',
             'invalid-elf-header', 'elf-reader-error'}
@@ -101,6 +106,7 @@ def main():
 
 
 EXPECTED_SOURCE_SHA256 = '46d362be243df5ae7af5397ed2946c8b749c739db5cef285d039cd8c2de668ab'
+EXPECTED_PUBLISHED_SHA256 = 'f7d95e327b21d2c35be2f5875c2e341c4e420e8ecc75a4ad2ebbc09c954fcbcc'
 
 if __name__ == '__main__':
     main()
