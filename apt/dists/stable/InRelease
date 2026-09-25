@@ -9,8 +9,8 @@ Architectures: aarch64 all
 Components: main
 Description: Official Ocean APT Repository
 Acquire-By-Hash: yes
-Date: Fri, 25 Sep 2026 03:12:37 +0000
-Valid-Until: Thu, 24 Dec 2026 03:12:37 +0000
+Date: Fri, 25 Sep 2026 03:17:08 +0000
+Valid-Until: Thu, 24 Dec 2026 03:17:08 +0000
 MD5Sum:
  a9622a87efe4978cd485976c3192d796 3971418 main/binary-aarch64/Packages
  fb09ca6667ee1d110e6922f3bcdeadfa 860743 main/binary-aarch64/Packages.gz
@@ -22,8 +22,8 @@ SHA256:
  fda4079525e069a425e963622edbbcf5a9a9703e217e26f7402fe8bd65374614 860743 main/binary-aarch64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYIAB0WIQTebMe5ss9R2lQ0Zj9fu6EkgsRcwwUCarXmpQAKCRBfu6EkgsRc
-w4VaAQDyFw2zKNrSfuAj+1WXCljr58p5hjGmT1pvIAsVMIzLCQD/ZTP8+yOEwjW8
-DrRVsTPoxxo+HBqIXqQ4hIFInjxTJwk=
-=oH07
+iHUEARYIAB0WIQTebMe5ss9R2lQ0Zj9fu6EkgsRcwwUCarXntAAKCRBfu6EkgsRc
+w+/TAQCCQuQf4aiUThYtuIX32cSuRItyhDfQq0TLPQTC7faS4wD+Modst2ATCzSg
+8qUPEmgV5drRNqUowTuIsVBX6pxySQ4=
+=Lj7t
 -----END PGP SIGNATURE-----
