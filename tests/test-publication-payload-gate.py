@@ -74,5 +74,21 @@ class GateTests(unittest.TestCase):
         self.assertEqual(gate.assess([], [a], {'wrong-1': rows})['errors'][0]['kind'], 'native-architecture')
 
 
+    def test_multi_package_overlap_declaration_resolves_suite_collisions(self):
+        overlapped = 'ocean-api, ocean-pkg, ocean-clipboard-get'
+        suite = package('ocean-tools', '1.1.0+ocean1', Replaces=overlapped, Conflicts=overlapped)
+        old_suite = package('ocean-tools', '1.1.0')
+        api = package('ocean-api', '1.0.0-1')
+        pkg = package('ocean-pkg', '1.1.0')
+        payloads = {
+            suite['SHA256']: [file('bin/ocean-api'), file('bin/ocean-pkg')],
+            old_suite['SHA256']: [file('bin/ocean-api'), file('bin/ocean-pkg')],
+            api['SHA256']: [file('bin/ocean-api')],
+            pkg['SHA256']: [file('bin/ocean-pkg')]
+        }
+        result = gate.assess([old_suite, api, pkg], [suite, api, pkg], payloads)
+        overlap_errors = [e for e in result['errors'] if e.get('kind') == 'undeclared-file-overlap']
+        self.assertEqual(len(overlap_errors), 0)
+
 if __name__ == '__main__':
     unittest.main()

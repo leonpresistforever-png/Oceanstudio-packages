@@ -69,6 +69,9 @@ def main():
         for field in ('Provides', 'Replaces', 'Conflicts'):
             if control.get(field) == 'ocean-tools':
                 del control[field]
+        overlapped = 'ocean-api, ocean-pkg, ocean-clipboard-get, ocean-clipboard-set, ocean-hello, ocean-open, ocean-share, ocean-toast, ocean-vibrate'
+        control['Replaces'] = overlapped
+        control['Conflicts'] = overlapped
         (stage/'DEBIAN').mkdir()
         (stage/'DEBIAN/control').write_text(''.join(k+': '+v+'\n' for k,v in control.items()))
         for path in stage.rglob('*'):

@@ -20,6 +20,10 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 INDEX = Path("main/binary-aarch64/Packages")
 GENERATED = {"Filename", "Size", "MD5sum", "SHA1", "SHA256", "SHA512"}
+DIRTY_POOL_HASHES = {
+    # Termux-contaminated gdb 16.3-4 with /data/data/com.termux payload
+    "3908aba8bf3dccf617185cde2847e421be5a78a5d56059fe12eb91701a16f400",
+}
 
 
 def fields(text):
@@ -230,6 +234,12 @@ def select_packages(root):
     def consider(deb, control_text, digest, from_pool):
         control = fields(control_text)
         key = identity(control)
+        if from_pool and digest["sha256"] in DIRTY_POOL_HASHES:
+            canonical = original.get(key, {})
+            conflicts.append({"path": deb.relative_to(root).as_posix(),
+                              "package": control["Package"], "version": control["Version"],
+                              "sha256": digest["sha256"], "kept": canonical.get("Filename", "rejected-foreign-binary")})
+            return
         previous = selected.get(key)
         if previous:
             comparison = compare_versions(control["Version"], previous[1]["Version"])
