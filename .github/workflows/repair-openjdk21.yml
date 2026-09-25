@@ -23,7 +23,7 @@ jobs:
           set -euo pipefail
           git config user.name 'Ocean OpenJDK Repair'
           git config user.email 'packages@ocean.studio'
-          git add staging/openjdk-21-repair/
+          git add -A staging/openjdk-21-repair/
           git commit -m "fix(openjdk): remove JRE-owned files from JDK payload [skip ci]"
           for attempt in 1 2 3 4 5; do
             git pull --rebase origin main

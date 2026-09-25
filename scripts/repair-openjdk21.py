@@ -6,12 +6,12 @@ This repair:
    - Removes hardcoded missing JDK slave alternatives that crash update-alternatives during dpkg --configure.
    - Gracefully checks for existing binaries before passing --slave.
    - Prevents non-zero exit codes from aborting package configuration.
-   - Bumps version to 21.0.12-1+ocean1.
+   - Bumps version to 21.0.12-1+ocean2.
 2. Fixes openjdk-21 (JDK):
    - Removes overlapping JRE-owned files from the JDK payload.
    - Fixes maintainer scripts to safely register alternatives.
-   - Updates dependency to openjdk-21-jre-headless (= 21.0.12-1+ocean1).
-   - Bumps version to 21.0.12-1+ocean1.
+   - Updates dependency to openjdk-21-jre-headless (= 21.0.12-1+ocean2).
+   - Bumps version to 21.0.12-1+ocean2.
 3. Stages both in staging/openjdk-21-repair/pool/main/ for seamless APT publication.
 4. Validates unpack and mutual non-interference.
 """
@@ -24,7 +24,7 @@ JRE=POOL/"openjdk-21-jre-headless_21.0.12_aarch64.deb"
 JDK=POOL/"openjdk-21_21.0.12_aarch64.deb"
 OUT=ROOT/"staging/openjdk-21-repair"
 OUT_POOL=OUT/"pool/main"
-REPAIR_VERSION="21.0.12-1+ocean1"
+REPAIR_VERSION="21.0.12-1+ocean2"
 PREFIX="data/data/studio.ocean.app/files/usr"
 
 def run(*a, **kw): return subprocess.run(a, check=True, text=True, **kw)
@@ -68,7 +68,9 @@ exit 0
 PRERM_SCRIPT = """#!/data/data/studio.ocean.app/files/usr/bin/sh
 if [ "$1" = 'remove' ] || [ "$1" != 'upgrade' ]; then
   if [ -x "/data/data/studio.ocean.app/files/usr/bin/update-alternatives" ]; then
-    update-alternatives --remove "java" "/data/data/studio.ocean.app/files/usr/lib/jvm/java-21-openjdk/bin/java" || true
+    if [ ! -e "/data/data/studio.ocean.app/files/usr/lib/jvm/java-21-openjdk/bin/java" ]; then
+      update-alternatives --remove "java" "/data/data/studio.ocean.app/files/usr/lib/jvm/java-21-openjdk/bin/java" || true
+    fi
   fi
 fi
 exit 0
@@ -85,7 +87,7 @@ def fix_maintainer_scripts(pkg_dir):
         target.write_text(script)
         target.chmod(0o755)
 
-def update_control_version(ctl_path, new_version, new_deps=None):
+def update_control_version(ctl_path, new_version, new_deps=None, replaces=None, breaks=None):
     lines = ctl_path.read_text().splitlines()
     v_done = False
     for i, l in enumerate(lines):
@@ -94,8 +96,18 @@ def update_control_version(ctl_path, new_version, new_deps=None):
             v_done = True
         elif l.startswith("Depends:") and new_deps:
             lines[i] = f"Depends: {new_deps}"
+        elif l.startswith("Replaces:") and replaces:
+            lines[i] = f"Replaces: {replaces}"
+            replaces = None
+        elif l.startswith("Breaks:") and breaks:
+            lines[i] = f"Breaks: {breaks}"
+            breaks = None
     if not v_done:
         lines.insert(2, f"Version: {new_version}")
+    if replaces:
+        lines.append(f"Replaces: {replaces}")
+    if breaks:
+        lines.append(f"Breaks: {breaks}")
     ctl_path.write_text("\n".join(lines) + "\n")
 
 def main():
@@ -123,8 +135,10 @@ def main():
         fix_maintainer_scripts(jr)
         fix_maintainer_scripts(jd)
 
-        # Update JRE control version
-        update_control_version(jr / "DEBIAN/control", REPAIR_VERSION)
+        # Update JRE control version, replaces and breaks for older monolithic openjdk-21
+        update_control_version(jr / "DEBIAN/control", REPAIR_VERSION,
+                               replaces=f"openjdk-21 (<< {REPAIR_VERSION})",
+                               breaks=f"openjdk-21 (<< {REPAIR_VERSION})")
 
         # Update JDK control version and exact JRE dependency
         jdk_lines = (jd / "DEBIAN/control").read_text().splitlines()
