@@ -1,143 +1,102 @@
-# Ocean package repair checkpoint — 2026-09-24
+# Ocean repair checkpoint — 2026-09-25
 
-This is an evidence ledger, not a claim that the package collection works.
-Preserve `/data/data/studio.ocean.app/files/usr` and the separate
-`/data/data/studio.ocean.app/files/glibc` runtime. Native Ocean, ocean-distro
-guests and proot-distro guests must retain independent state.
+This is a record of verified work and remaining defects, not a claim that all packages work.
+Native Ocean remains at `/data/data/studio.ocean.app/files/usr`; the isolated glibc
+runtime remains at `/data/data/studio.ocean.app/files/glibc`.
 
-## Verified repository state
+## Current verified state
 
-- Current unsigned Packages: 6,482 entries / 6,482 unique names.
-- Complete forensic snapshot: 7,444 pool paths and 5,450 staged paths,
-  representing 7,445 distinct archive byte streams. All 6,482 live records were covered.
-- The current InRelease still authenticates the old 1,046-entry catalogue.
-  It does not authenticate the current Packages.gz. Release.gpg also fails against
-  the current Release. This explains successful-looking updates that retain old lists.
-- Archive fingerprint: `09D45DD2CDC37BD4F9BC2C458EC15431CA5542E2`.
-  The existing private signing key is unavailable to the publisher. Do not replace
-  the trusted key or disable signature checks to manufacture a successful update.
-- Five newer pool versions were omitted by the old staging-only publisher.
-  The canonical publisher now selects from the complete pool and staging, preserves
-  historical artifacts, and records same-version conflicts. Fifteen regression tests pass.
-- The earlier bounded payload audit found 305 confirmed ready-message stubs in
-  252 indexed packages. They remain in the current live index; they are not certified.
-- Earlier confirmed active defects include the apt package's foreign repository
-  source and foreign interpreter paths in guile and unzip. SSH metadata repacking
-  does not establish official-source rebuilding: the compared ELF bytes were unchanged.
+Package snapshot: `45bd61a0d25f7676f1dbef2c8fcac9065b3e446d`.
+The later distro build added repair candidates; it did not publish them.
 
-## Actual upstream builds and execution
+- Live APT: **6,483 entries / 6,483 unique names** (previously 6,482).
+- Actual GPG verification passed for both InRelease and Release.gpg with archive key
+  `DE6CC7B9B2CF51DA5434663F5FBBA12482C45CC3`. InRelease's payload equals Release;
+  every advertised size/hash and decompression of Packages.gz matched Packages.
+- A real isolated host APT client, configured for Ocean's aarch64 repository,
+  downloaded InRelease **and the 843 kB Packages index**, persisted it, found all
+  seven ocean-glibc package names, and resolved the glibc suite's eight-package
+  transaction. This verifies repository/client metadata, not Android execution.
+- Full forensic run **36031758771** read **14,176 archive paths / 8,720 distinct
+  archive byte streams**. Zero invalid/truncated archives and zero unresolved
+  dependency references were found.
+- Live defects remain: **252 packages with 305 ready-message stubs**, **38 packages
+  with foreign-prefix findings**, and **62 overlapping live paths**. Some prefix
+  strings are build paths; none establish clean upstream provenance.
+- The 1,268 shared-runtime repair archives (1,250 command packages plus 18 new
+  runtimes) are staged, not live. No ocean-runtime-* package is in the current index.
+- The official pigz 2.8-1 replacement is staged. Live pigz still references the old
+  942-byte archive.
+- The newer unindexed pool GDB 16.3-4 contains a foreign app prefix. It must not
+  supersede the official-source GDB candidate solely because its version is higher.
 
-Commit `cd7dad14747417be8d59d1c300ee1e94c16aa478` stages:
+Full evidence:
+[forensic snapshot](audits/forensic/45bd61a0d25f7676f1dbef2c8fcac9065b3e446d/).
 
-- pigz 2.8-1, official madler/pigz + madler/zlib commits, compiled with Android NDK r27.
-  Actual ARM Android executable reports pigz 2.8 and passes two compression /
-  decompression round trips under QEMU. This replaces the old 942-byte stub candidate.
-- librsync 2.3.4-1, official librsync/librsync source, compiled with the Android NDK.
-  Actual ARM static-library test passes signature, delta and patch round trip.
-  The shared library is compiled but not tested on an Android device.
+## Gemini CLI changes reviewed
 
-Build run: https://github.com/leonpresistforever-png/Oceanstudio-packages/actions/runs/35884505366
-Source hashes and test details are in `staging/upstream-repairs/provenance.json`.
-The initial static builds aborted because ARM64 Bionic requires 64-byte TLS
-alignment. An assembly alignment input now fixes this while linking, before tests.
-Neither package is published through APT until the complete signed publication passes.
+The CLI published a coherent signed catalogue and selected critical replacements
+for Caddy, strace, GDB, librsync, LuaJIT, OpenJDK's ownership split, and the distro
+commands. The signing improvement is verified from the actual metadata bytes.
 
-## Distro failures reproduced from actual indexed archives
+OpenJDK's 365 overlapping JDK/JRE paths were removed from the JDK archive.
+The JRE is unchanged, still has foreign-prefix findings, and its maintainer scripts
+and Android JVM execution have not been validated by the unpack-only replay.
+This is not a complete official-source JDK/JRE replacement.
 
-- `ocean-distro_1.0.0_all.deb` SHA256
-  `c57427c64c3b27d6f6a82e657e5d06aa2325325f66162a3f08e30afc85f5b71d`
-  still contains Termux-hosted rootfs URLs, despite different app source files.
-- Its awk JSON parser matches the inner `"arch"` metadata field when asked for the
-  top-level `arch` distribution. Consequently `install arch` reads Debian's URL.
-  Distro names are also case-sensitive. These match the phone screenshots.
-- `proot-distro_4.18.0_all.deb` SHA256
-  `8e6cca74e9576cf02951b13b10fc8bac1f67cf0ace7ea1f4c90eff520ffa47b4`
-  is still the attributed Termux implementation. Its command checks require awk
-  and other tools absent from its declared dependency list. It has not been replaced
-  with an independently implemented and feature-verified Ocean manager.
-- OpenJDK and its required headless JRE own 365 identical files with no Replaces
-  declaration. Real dpkg rejects the same ownership pattern even with identical
-  bytes. The JDK/JRE also contain foreign-prefix references in ELF files; proper
-  upstream rebuilding and a non-overlapping split remain necessary. A good archive
-  checksum is not a successful installation.
+The CLI's proot-distro package invoked ocean-distro directly, sharing its guest
+state. Its APK job repacked an existing APK, retained all eight DEX files and the
+manifest, and generated a different signing certificate. It did not compile the
+new Java/native source fixes.
 
-## Completed static forensic pass
+## Repairs made after that review
 
-`scripts/forensic_repository.py` hashes and reads every byte of every unique pool
-and staged archive, including maintainer scripts, full binary contents, symlink
-targets and runtime URLs. It records overlapping file ownership to investigate
-dpkg overwrite / partial installation failures. Exact duplicate archives are
-scanned once with every referring path recorded. No payload is executed.
+- **45bd61a**: replace the unsafe APK repack workflow with a request to the private
+  source production builder; no new signing identity or PAT workflow input.
+- **b5855fe**: independently implemented PRoot command and registry; own state at
+  `$PREFIX/var/lib/proot-distro/installed-rootfs` and own download cache.
+  It does not invoke or depend on the ocean-distro command.
+- Ocean remains in `${OCEAN_HOME}/.distro`. Thirteen PRoot command tests cover
+  install/login, removal, cache separation, failed reset preservation, rename,
+  backup/restore and rejection of overlapping or symlinked state directories.
+- A versioned ownership transfer moves the old Ocean tools manager executable into
+  ocean-distro while preserving all 25 unrelated Ocean script byte streams.
+- CI **36033997429** built the three distro/tool repair candidates, passed the
+  command tests and actual host dpkg ownership/upgrade/removal test.
+  The ownership test uses --force-depends and does not certify the dependency
+  runtime on Android. Candidates are in [staging](staging/ocean-distro-repair/).
+- The repacked APK release was marked as a prerelease and its unsupported clean /
+  complete claims were replaced with the byte-level findings.
 
-File inventories and findings are committed by the forensic workflow under
-`audits/forensic/<source-commit>/`. Review the report's explicit limitations:
-static checks do not prove upstream provenance or Android execution, and nested
-compressed payloads are not recursively expanded. Guile VM bytecode and Go
-cross-target object files are classified separately from native executables.
+The subsequent publisher run **36034195488** failed to push because main advanced.
+It also still selected the older hardcoded distro versions. The new distro/tool
+candidates are **not yet live**.
 
-The complete evidence is in
-`audits/forensic/9dbec922bac216cb2f13fa84d398f3ecb5ad08b8/`, committed as
-`91af6c6ad85b9c6acc22d97bdd05bcd40ac515c8` (Actions run 35885286777).
-All archives decoded; zero invalid/truncated repository archives were found.
-There were 427 overlapping live paths, 107 foreign-prefix findings in files of
-39 live packages (88 ELF files, 5 scripts, 14 other files), and the previously
-reported 305 ready-message stub files. Some ELF strings can be build paths;
-they require review and do not alone prove a runtime failure or clean provenance.
+## Distro rootfs status
 
-## Shared-file ownership repair
+Run **36033997422** tested all 13 registry entries. Six passed checksum, OS identity
+and actual ARM shell execution under QEMU: Ubuntu, Alpine, Arch, openSUSE, Void,
+Gentoo. Debian and Rocky were not usable flat rootfs archives; Fedora returned 404.
+Alma, Kali, CentOS and Devuan still require official verified sources. A pinned
+checksum alone does not make a distribution installable.
 
-18 shared Python files were owned by 1,250 separate command packages. Each source
-file was matched by SHA256 against the committed original Ocean source, and each
-old package's complete file layout was verified before constructing a repair.
+Evidence: [rootfs report](audits/rootfs/b5855fead43f47ed6484670ed2bebba5b62b7ee5/report.json).
 
-`build-shared-runtime-repairs.py` now rebuilds all 1,250 existing command packages
-plus 18 distinct shared runtime packages. Existing command names, source bytes,
-architectures and the native prefix are preserved. Versioned Replaces/Breaks and
-exact dependencies provide an explicit ownership migration. No foreign binary is
-copied into these source builds and no original package is deleted.
+## Work still required
 
-Local verification passed:
-- 6 real dpkg/APT regression tests, including old overlap reproduction, upgrade,
-  fresh install, removal survival, source hash enforcement and reproducible bytes.
-- All 1,268 built archives scanned; no duplicate file ownership among candidates.
-- All 1,268 co-installed and configured together in a temporary host dpkg root
-  using a host-only Python fixture and foreign-architecture support.
-- Removing one command from each group preserved every shared source file.
-- Actual installed GCD and subnet commands returned expected results.
-- Workbench's 300 help paths and 15 functional-domain checks passed.
+1. Reconcile every eligible staged/pool candidate through one publication path;
+   retain explicit evidence for rejected foreign/placeholder candidates.
+2. Publish the tested shared-runtime, pigz and independent distro repairs; repeat
+   checksum, dependency and ownership verification on the resulting live index.
+3. Rebuild the remaining foreign-origin and stub packages from upstream source.
+   Removing strings or rebadging existing binaries does not satisfy this.
+4. Repair remaining official rootfs sources and verify their actual guest shells.
+5. Finish app key migration even when an APT index already exists; preserve
+   user-selected repositories, unknown keys and installed package state.
+6. Compile current app sources, refresh/verify the bootstrap, use the established
+   APK signing identity, and smoke-test before a new production release.
 
-These establish packaging behavior. They do not certify all command semantics or
-Android execution. CI stages the tested artifacts; live APT remains unchanged
-until existing-key signing succeeds. The 18 shared collisions are repaired by the
-candidate overlay; 409 other overlapping live paths remain for investigation.
-
-## Distro installer/source verification
-
-Ocean-distro source now uses real JSON selection, case-normalized names,
-checksum-addressed downloads, clean restart after a corrupt partial, temporary
-extraction and separate Ocean/proot-distro guest state. Seven installer tests and
-three guest symlink-resolution tests pass. These source fixes are not yet a newly
-published distro package or APK.
-
-Ubuntu 24.04.5 and Void official downloads passed checksum, OS identity and actual
-ARM shell execution under QEMU. Gentoo's failed extraction is specifically from
-archived dev/null and dev/console requiring mknod; the installer now skips guest
-/dev contents because login binds the native /dev. Alpine's auditor needed both
-guest-aware absolute symlink resolution and BusyBox's original shell argv[0].
-Remaining distro source problems (including Debian, Arch and container archives)
-are recorded honestly in `audits/rootfs/`; a workflow's success only means its
-evidence was saved, not that every distro passed.
-
-## APK status
-
-Ocean native paths were preserved. Signed-catalogue validation, known-cache
-migration, native pkg diagnostics/update checks and a source production build
-workflow are committed in Oceanstudio.apk. Unknown user catalogues and dpkg state
-are preserved. Concurrent UI work was retained.
-
-No new production APK has been built or released by this repair. Private Actions
-jobs currently fail before any steps execute. The production gate also rejects
-the mixed old signature/new bundled catalogue and unresolved payload defects.
-The reserved version 1.2.2 is not evidence of a release. Existing signing material
-and functional package repairs are still required. Never publish a debug-key,
-repacked-old-DEX or authentication-bypass APK as a production repair.
+No repaired production APK has been built by this work. The file labelled 1.2.2
+is a catalogue repack of 1.2.1, not that deliverable. Earlier source and audit work,
+including real ARM glibc/pigz/librsync checks and the 1,268-package shared ownership
+migration, remains in Git history and the existing audit/staging receipts.
