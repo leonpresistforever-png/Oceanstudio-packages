@@ -76033,31 +76033,33 @@ Package: openjdk-21
 Architecture: aarch64
 Installed-Size: 249532
 Maintainer: OceanStudio <archive@ocean.studio>
-Version: 21.0.12-1+ocean1
+Version: 21.0.12-1+ocean2
 Homepage: https://openjdk.java.net
-Depends: openjdk-21-jre-headless (= 21.0.12)
+Depends: openjdk-21-jre-headless (= 21.0.12-1+ocean2)
 Recommends: ca-certificates-java, resolv-conf
 Description: Java development kit and runtime
-Filename: pool/main/openjdk-21_21.0.12-1+ocean1_aarch64.deb
-Size: 67740980
-MD5sum: d1c9ac398d56989514f6254032efe011
-SHA1: 97282650bf138e3c19949b7222d98730dde92236
-SHA256: e418f46b779ec99df7e044c9ab11544de2c59e3910e0619b65f6c0ecd43bdf36
+Filename: pool/main/openjdk-21_21.0.12-1+ocean2_aarch64.deb
+Size: 67740176
+MD5sum: b6433b4bb28d12fd17697b9e654b6b55
+SHA1: a7ccf495edce1c6323fb99e138fc469f38301c33
+SHA256: efefa2187716d0b95b72641492bc5e5fe30572de858c7bd9e7c18e4e54b63d48
 
 Package: openjdk-21-jre-headless
 Architecture: aarch64
 Installed-Size: 249532
 Maintainer: OceanStudio <archive@ocean.studio>
-Version: 21.0.12
+Version: 21.0.12-1+ocean2
 Homepage: https://openjdk.java.net
 Depends: libandroid-shmem, libandroid-spawn, libiconv, libjpeg-turbo, zlib, littlecms
 Recommends: ca-certificates-java, resolv-conf
 Description: Java runtime environment (headless)
-Filename: pool/main/openjdk-21-jre-headless_21.0.12_aarch64.deb
-Size: 38449072
-MD5sum: 6bb4302d545a29ea05c2224b35ceec0e
-SHA1: 89a7aaed8bfd3f5cb0024637ed174ddd6c5b9167
-SHA256: 62e6dbfcd86fa8c4431f520e6c240d1902fca1a9018d0c81805a4a4c9267caa7
+Replaces: openjdk-21 (<< 21.0.12-1+ocean2)
+Breaks: openjdk-21 (<< 21.0.12-1+ocean2)
+Filename: pool/main/openjdk-21-jre-headless_21.0.12-1+ocean2_aarch64.deb
+Size: 38444092
+MD5sum: 0603855c17587b96ec0dcf1df049f41a
+SHA1: b3ca6f0e618b543a85adea603b92f6d52579cdd9
+SHA256: a864709fa238d0fbcd8590d8e44a58c0b9b9fecd750669017379f3b19d1d745c
 
 Package: openldap
 Architecture: aarch64
