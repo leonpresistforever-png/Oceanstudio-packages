@@ -9,6 +9,7 @@ from pathlib import Path
 import shutil
 import subprocess
 import sys
+import tarfile
 import tempfile
 import unittest
 from unittest.mock import patch
@@ -66,7 +67,7 @@ class PublicationTests(unittest.TestCase):
         (directory / "payload").write_text(content)
         destination = self.root / f"staging/{group}/pool/main/{name}_{version}_{arch}.deb"
         destination.parent.mkdir(parents=True, exist_ok=True)
-        subprocess.run(["dpkg-deb", "--root-owner-group", "--build", str(directory), str(destination)],
+        subprocess.run(["dpkg-deb", "-Zxz", "--root-owner-group", "--build", str(directory), str(destination)],
                        check=True, capture_output=True)
         return destination
 
@@ -90,6 +91,49 @@ class PublicationTests(unittest.TestCase):
         self.publish()
         self.assertEqual(len(self.records()), 1)
         self.assertEqual(audit(self.root)["stagedFiles"], 2)
+        self.assertEqual(audit(self.root)["errors"], [])
+
+    def control_archive(self, duplicate=False):
+        path = self.build()
+        original, _ = indexer.parse_deb(path)
+        stream = io.BytesIO()
+        with tarfile.open(fileobj=stream, mode="w:gz") as archive:
+            for _ in range(2 if duplicate else 1):
+                member = tarfile.TarInfo("./control")
+                member.uid = member.gid = 10629
+                member.size = len(original.encode())
+                member.mode = 0o644
+                archive.addfile(member, io.BytesIO(original.encode()))
+        members = {"debian-binary": b"2.0\n", "control.tar.gz": stream.getvalue(),
+                   "data.tar.xz": subprocess.check_output(["ar", "p", str(path), "data.tar.xz"])}
+        output = bytearray(b"!<arch>\n")
+        for name, data in members.items():
+            output.extend(f"{name + '/':<16}{0:<12}{0:<6}{0:<6}{'100644':<8}{len(data):<10}`\n".encode())
+            output.extend(data)
+            if len(data) % 2: output.extend(b"\n")
+        path.write_bytes(output)
+        return path
+
+    def test_android_owned_control_is_read_without_host_ownership_changes(self):
+        path = self.control_archive()
+        control, _ = indexer.parse_deb(path)
+        self.assertEqual(indexer.fields(control)["Package"], "ocean-fixture")
+
+    def test_duplicate_control_members_are_rejected(self):
+        path = self.control_archive(duplicate=True)
+        with self.assertRaisesRegex(ValueError, "one regular control"):
+            indexer.parse_deb(path)
+
+    def test_immutable_indexes_survive_later_publication(self):
+        self.build()
+        self.publish()
+        previous = (self.dists / (str(indexer.INDEX) + ".gz")).read_bytes()
+        digest = indexer.hashlib.sha256(previous).hexdigest()
+        self.build("2.0", group="new")
+        self.publish()
+        self.assertIn("Acquire-By-Hash: yes", (self.dists / "Release").read_text())
+        retained = self.dists / indexer.INDEX.parent / "by-hash/SHA256" / digest
+        self.assertEqual(retained.read_bytes(), previous)
         self.assertEqual(audit(self.root)["errors"], [])
 
     def test_older_staging_cannot_downgrade_live_version(self):

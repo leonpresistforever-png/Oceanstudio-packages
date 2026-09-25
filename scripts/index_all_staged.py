@@ -5,11 +5,13 @@ from __future__ import annotations
 import argparse
 import gzip
 import hashlib
+import io
 import json
 import os
 import re
 import shutil
 import subprocess
+import tarfile
 import tempfile
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
@@ -63,8 +65,14 @@ def hashes(path):
 
 
 def parse_deb(path):
-    # dpkg validates ar and supports every installed control compression codec.
-    control = subprocess.check_output(["dpkg-deb", "--field", str(path)], text=True)
+    # Read the control stream without extracting Android-owned files on the
+    # build host. --field can fail trying to chown an otherwise valid archive.
+    data = subprocess.check_output(["dpkg-deb", "--ctrl-tarfile", str(path)])
+    with tarfile.open(fileobj=io.BytesIO(data)) as archive:
+        controls = [m for m in archive if m.name.removeprefix("./") == "control"]
+        if len(controls) != 1 or not controls[0].isfile():
+            raise ValueError(f"Expected one regular control file: {path}")
+        control = archive.extractfile(controls[0]).read().decode("utf-8")
     identity(fields(control))
     return control, hashes(path)
 
@@ -146,6 +154,10 @@ def verify_release(dists, keyring):
             content = (dists / name).read_bytes()
             if entries.get(name) != (hashlib.new(algorithm, content).hexdigest(), len(content)):
                 raise ValueError(f"Release {section} mismatch: {name}")
+            if algorithm == "sha256" and metadata.get("Acquire-By-Hash") == "yes":
+                immutable = dists / Path(name).parent / "by-hash/SHA256" / entries[name][0]
+                if not immutable.is_file() or immutable.read_bytes() != content:
+                    raise ValueError(f"Missing or damaged immutable index: {name}")
     if gzip.decompress((dists / (str(INDEX) + ".gz")).read_bytes()) != (dists / INDEX).read_bytes():
         raise ValueError("Packages.gz differs from Packages")
 
@@ -155,6 +167,7 @@ def release_bytes(packages, compressed):
     lines = [
         "Origin: OceanStudio", "Label: Ocean Packages", "Suite: stable", "Codename: stable",
         "Architectures: aarch64 all", "Components: main", "Description: Official Ocean APT Repository",
+        "Acquire-By-Hash: yes",
         f"Date: {now:%a, %d %b %Y %H:%M:%S +0000}",
         f"Valid-Until: {now + timedelta(days=90):%a, %d %b %Y %H:%M:%S +0000}",
     ]
@@ -163,6 +176,16 @@ def release_bytes(packages, compressed):
         for suffix, content in (("", packages), (".gz", compressed)):
             lines.append(f" {hashlib.new(algorithm, content).hexdigest()} {len(content)} {INDEX}{suffix}")
     return ("\n".join(lines) + "\n").encode()
+
+
+def retain_by_hash(dists, content):
+    destination = dists / INDEX.parent / "by-hash/SHA256" / hashlib.sha256(content).hexdigest()
+    if destination.exists():
+        if destination.read_bytes() != content:
+            raise ValueError(f"Immutable index hash collision/corruption: {destination}")
+        return
+    destination.parent.mkdir(parents=True, exist_ok=True)
+    destination.write_bytes(content)
 
 
 def select_packages(root):
@@ -279,6 +302,8 @@ def run_indexing(copy_debs=True, root=ROOT):
         (temporary / INDEX).parent.mkdir(parents=True)
         (temporary / INDEX).write_bytes(output)
         (temporary / (str(INDEX) + ".gz")).write_bytes(compressed)
+        for content in (output, compressed):
+            retain_by_hash(temporary, content)
         (temporary / "Release").write_bytes(release_bytes(output, compressed))
         for filename, operation in (("InRelease", "--clearsign"), ("Release.gpg", "--detach-sign")):
             subprocess.run([
@@ -286,6 +311,13 @@ def run_indexing(copy_debs=True, root=ROOT):
                 "--output", str(temporary / filename), operation, str(temporary / "Release"),
             ], check=True)
         verify_release(temporary, keyring)
+        # Preserve previous snapshots so an APT client holding a cached signed
+        # Release can still fetch exactly the index that Release authenticates.
+        for filename in (str(INDEX), str(INDEX) + ".gz"):
+            if (dists / filename).is_file():
+                retain_by_hash(dists, (dists / filename).read_bytes())
+        for content in (output, compressed):
+            retain_by_hash(dists, content)
         for _, control, source in selected.values():
             if source is None:
                 continue

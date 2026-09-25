@@ -13,11 +13,11 @@ import itertools
 import json
 from pathlib import Path
 
-from audit_package_payloads import dependencies, satisfies
+from audit_package_payloads import dependencies, dependency_errors, satisfies
 from forensic_repository import scan_tar, elf_role
 from index_all_staged import ROOT, INDEX, fields, stanzas, identity, select_packages
 
-BASELINE = 'audits/forensic/9dbec922bac216cb2f13fa84d398f3ecb5ad08b8'
+BASELINE = 'audits/forensic/45bd61a0d25f7676f1dbef2c8fcac9065b3e446d'
 HARD_FINDINGS = {'foreign-app-prefix', 'foreign-repository', 'foreign-runtime-variable',
     'foreign-link-target', 'unsafe-archive-path', 'confirmed-ready-stub', 'invalid-elf-header', 'elf-reader-error'}
 
@@ -52,7 +52,8 @@ def assess(before, after, payloads):
         return owners
 
     before_owners, after_owners = ownership(old), ownership(new)
-    errors, remaining = [], []
+    errors = [dict(kind='unresolved-dependency', **problem) for problem in dependency_errors(after)]
+    remaining = []
     for key in changed:
         record = new[key]
         for row in payloads[record['SHA256']]:
@@ -115,10 +116,10 @@ def check(root, baseline):
 if __name__ == '__main__':
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('--root', type=Path, default=ROOT)
-    p.add_argument('--baseline', type=Path, default=ROOT / BASELINE)
+    p.add_argument('--baseline', type=Path)
     p.add_argument('--json', type=Path, required=True)
     a = p.parse_args()
-    result = check(a.root, a.baseline)
+    result = check(a.root, a.baseline or a.root / BASELINE)
     a.json.write_text(json.dumps(result, indent=2) + '\n')
     print(json.dumps({k: v for k, v in result.items() if k not in ('errors', 'unchangedExistingCollisions')}, indent=2))
     for error in result['errors'][:30]:

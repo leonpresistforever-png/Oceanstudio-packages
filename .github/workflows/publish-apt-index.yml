@@ -8,6 +8,8 @@ on:
     paths:
       - '.github/apt-repair-validation.trigger'
       - 'scripts/index_all_staged.py'
+      - 'scripts/publish_apt_snapshot.py'
+      - 'tests/test-publication-retry.py'
       - 'scripts/audit_repository.py'
       - 'tests/test-index-publication.py'
       - 'tests/test-publication-payload-gate.py'
@@ -19,6 +21,9 @@ on:
   workflow_run:
     workflows:
       - "Build official Caddy and strace for Ocean"
+      - "Build official GDB for Ocean"
+      - "Repair OpenJDK 21 ownership split"
+      - "Build Ocean distro manager package"
       - "Repair Ocean shared runtime ownership"
       - "Build verified upstream pigz and librsync repairs"
       - "Build AI dev shards 46 47 48"
@@ -77,11 +82,12 @@ jobs:
         run: |
           python3 tests/test-index-publication.py
           python3 tests/test-publication-payload-gate.py -v
+          python3 tests/test-publication-retry.py -v
 
   publish:
     needs: verify
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 60
     permissions:
       contents: write
     steps:
@@ -94,12 +100,6 @@ jobs:
       - name: Audit every indexed and staged binary before publication
         continue-on-error: true
         run: python3 scripts/audit_repository.py --json /tmp/ocean-apt-before.json
-
-      - name: Inventory all pool candidates without changing live files
-        run: python3 scripts/index_all_staged.py --plan /tmp/ocean-apt-selection.json
-
-      - name: Reject new payload defects and undeclared ownership collisions
-        run: python3 scripts/check-publication-payloads.py --json /tmp/ocean-apt-payload-gate.json
 
       - name: Require the existing trusted archive private key
         env:
@@ -115,33 +115,17 @@ jobs:
           echo "GNUPGHOME=$signing_home" >> "$GITHUB_ENV"
           printf '%s\n' "$OCEAN_REPOSITORY_SIGNING_KEY" | GNUPGHOME="$signing_home" gpg --batch --import
 
-      - name: Reconcile the complete pool and staging and verify both signatures
-        run: python3 scripts/index_all_staged.py
-
-      - name: Verify complete coverage and every indexed checksum
-        run: python3 scripts/audit_repository.py --json /tmp/ocean-apt-after.json
-
-      - name: Publish the verified pool and signed metadata in one commit
-        run: |
-          set -euo pipefail
-          git config user.name "Ocean Package Builder"
-          git config user.email "packages@ocean.studio"
-          git add apt/pool apt/dists/stable
-          if git diff --cached --quiet; then
-            echo "Repository is already current."
-            exit 0
-          fi
-          git commit -m "fix(apt): publish complete verified signed package index [skip ci]"
-          # Never rebase an already signed snapshot over a concurrent publisher.
-          # A rejected push must be rerun from the latest main and audited again.
-          git push origin HEAD:main
+      - name: Recheck, sign and publish the complete collection with bounded race recovery
+        run: python3 scripts/publish_apt_snapshot.py --report-dir /tmp/ocean-apt-publication
 
       - name: Preserve per-package audit evidence
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: ocean-apt-index-audit
-          path: /tmp/ocean-apt-*.json
+          path: |
+            /tmp/ocean-apt-*.json
+            /tmp/ocean-apt-publication/*.json
           if-no-files-found: ignore
 
       - name: Remove temporary imported key material

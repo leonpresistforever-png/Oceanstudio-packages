@@ -1,71 +1,13 @@
 name: Publish critical signed APT repairs
+# Compatibility dispatch for existing callers. All publishers now use the same
+# complete candidate selection, gates, signing chain and concurrency group.
 on:
-  workflow_run:
-    workflows:
-      - Build official Caddy and strace for Ocean
-      - Build official GDB for Ocean
-      - Repair OpenJDK 21 ownership split
-      - Build Ocean distro manager package
-    types: [completed]
-  push:
-    branches: [main]
-    paths:
-      - scripts/publish-critical-repairs.py
-      - .github/workflows/publish-critical-repairs.yml
-      - staging/openjdk-21-repair/**
-      - staging/official-native-repairs/caddy/**
-      - staging/official-native-repairs/strace/**
-      - staging/official-gdb-repair/**
-      - staging/ocean-distro-repair/**
   workflow_dispatch:
 permissions:
-  contents: write
-concurrency:
-  group: ocean-critical-apt-publication
-  cancel-in-progress: false
+  contents: read
 jobs:
-  publish:
-    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
-    runs-on: ubuntu-24.04
-    timeout-minutes: 30
-    steps:
-      - uses: actions/checkout@v5
-        with: {fetch-depth: 1}
-      - name: Validate only the critical repaired candidates
-        run: python3 scripts/publish-critical-repairs.py --plan /tmp/critical-plan.json
-      - name: Require existing trusted signing key
-        env:
-          OCEAN_REPOSITORY_SIGNING_KEY: ${{ secrets.OCEAN_REPOSITORY_SIGNING_KEY }}
-        run: |
-          set -euo pipefail
-          if [ -z "$OCEAN_REPOSITORY_SIGNING_KEY" ]; then
-            echo "::error::OCEAN_REPOSITORY_SIGNING_KEY is missing; candidates are validated but live signed metadata is unchanged."
-            exit 1
-          fi
-          signing_home="$(mktemp -d)"
-          chmod 700 "$signing_home"
-          echo "GNUPGHOME=$signing_home" >> "$GITHUB_ENV"
-          printf '%s\n' "$OCEAN_REPOSITORY_SIGNING_KEY" | GNUPGHOME="$signing_home" gpg --batch --import
-      - name: Atomically publish repaired packages and one coherent signed snapshot
-        run: python3 scripts/publish-critical-repairs.py
-      - name: Commit only the repaired pool objects and signed metadata
-        run: |
-          set -euo pipefail
-          git config user.name 'Ocean Package Builder'
-          git config user.email 'packages@ocean.studio'
-          git add apt/pool/main/openjdk-21_21.0.12-1+ocean1_aarch64.deb apt/pool/main/caddy_2.11.4-1+ocean1_aarch64.deb apt/pool/main/strace_7.2-1+ocean1_aarch64.deb apt/pool/main/gdb_9.2-1+ocean1_aarch64.deb apt/pool/main/librsync_2.3.4-1_aarch64.deb apt/pool/main/ocean-distro_1.0.1-2_all.deb apt/pool/main/proot-distro_4.18.0-1+ocean1_all.deb apt/dists/stable/main/binary-aarch64/Packages apt/dists/stable/main/binary-aarch64/Packages.gz apt/dists/stable/Release apt/dists/stable/Release.gpg apt/dists/stable/InRelease
-          git diff --cached --quiet || (git commit -m 'fix(apt): publish critical repaired packages with coherent signatures [skip ci]' && git push origin HEAD:main)
-      - name: Preserve readiness evidence
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: critical-apt-repair-plan
-          path: /tmp/critical-plan.json
-          if-no-files-found: ignore
-      - name: Remove temporary key material
-        if: always()
-        run: |
-          if [ -n "${GNUPGHOME:-}" ]; then
-            gpgconf --kill gpg-agent || true
-            rm -rf "$GNUPGHOME"
-          fi
+  complete-publication:
+    permissions:
+      contents: write
+    uses: ./.github/workflows/publish-apt-index.yml
+    secrets: inherit

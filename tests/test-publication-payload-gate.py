@@ -19,6 +19,17 @@ def file(path, **extra):
 
 
 class GateTests(unittest.TestCase):
+    def test_missing_dependency_prevents_publication(self):
+        a = package('application', Depends='missing-runtime (>= 2)')
+        result = gate.assess([], [a], {a['SHA256']: []})
+        self.assertEqual(result['errors'][0]['kind'], 'unresolved-dependency')
+
+    def test_versioned_virtual_dependency_and_alternative_resolve(self):
+        a = package('application', Depends='unavailable | virtual-runtime (>= 2)')
+        b = package('ocean-runtime', Provides='virtual-runtime (= 2)')
+        result = gate.assess([], [a, b], {a['SHA256']: [], b['SHA256']: []})
+        self.assertFalse(result['errors'])
+
     def test_new_undeclared_collision_is_rejected(self):
         a, b = package('left'), package('right')
         result = gate.assess([a], [a, b], {'left-1': [file('bin/same')], 'right-1': [file('bin/same')]})
