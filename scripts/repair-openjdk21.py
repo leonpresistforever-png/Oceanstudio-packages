@@ -74,19 +74,13 @@ fi
 exit 0
 """
 
-PREINST_SCRIPT = """#!/data/data/studio.ocean.app/files/usr/bin/sh
-if [ -x "/data/data/studio.ocean.app/files/usr/bin/update-alternatives" ]; then
-  for item in java-profile jar jarsigner java javac javadoc javap jcmd jconsole jdb jdeprscan jdeps jfr jhsdb jimage jinfo jlink jmap jmod jpackage jps jrunscript jshell jstack jstat jstatd jwebserver keytool rmiregistry serialver jar.1.gz jarsigner.1.gz java.1.gz javac.1.gz javadoc.1.gz javap.1.gz jcmd.1.gz jconsole.1.gz jdb.1.gz jdeprscan.1.gz jdeps.1.gz jfr.1.gz jhsdb.1.gz jinfo.1.gz jlink.1.gz jmap.1.gz jmod.1.gz jpackage.1.gz jps.1.gz jrunscript.1.gz jshell.1.gz jstack.1.gz jstat.1.gz jstatd.1.gz jwebserver.1.gz keytool.1.gz rmiregistry.1.gz serialver.1.gz; do
-    update-alternatives --remove-all "$item" 2>/dev/null || true
-  done
-fi
-exit 0
-"""
-
 def fix_maintainer_scripts(pkg_dir):
     deb_dir = pkg_dir / "DEBIAN"
     deb_dir.mkdir(parents=True, exist_ok=True)
-    for name, script in [("postinst", POSTINST_SCRIPT), ("prerm", PRERM_SCRIPT), ("preinst", PREINST_SCRIPT)]:
+    # Remove old preinst which tries to remove legacy alternatives using missing tools
+    preinst = deb_dir / "preinst"
+    if preinst.exists(): preinst.unlink()
+    for name, script in [("postinst", POSTINST_SCRIPT), ("prerm", PRERM_SCRIPT)]:
         target = deb_dir / name
         target.write_text(script)
         target.chmod(0o755)
@@ -165,9 +159,15 @@ def main():
         residual=sorted(set(files(chk_jre))&set(files(chk_jdk)))
         if residual: raise SystemExit("Residual ownership overlap: "+repr(residual[:20]))
 
-        # Test unpack in disposable dpkg root
+        # Test payload co-unpack in disposable dpkg root without maintainer scripts (avoids host non-root chroot failure)
         guest=t/"root"; (guest/"var/lib/dpkg").mkdir(parents=True); (guest/"var/lib/dpkg/status").write_text("")
-        cmd=["dpkg","--force-not-root","--force-architecture","--root="+str(guest),"--unpack",str(cand_jre),str(cand_jdk)]
+        tests=[]
+        for src,name in [(cand_jre,"jre"),(cand_jdk,"jdk")]:
+            x=t/(name+"-test"); run("dpkg-deb","-R",str(src),str(x))
+            for p in (x/"DEBIAN").iterdir():
+                if p.name!="control": p.unlink() if p.is_file() or p.is_symlink() else shutil.rmtree(p)
+            deb=t/(name+".deb"); run("dpkg-deb","-Zxz","--root-owner-group","--build",str(x),str(deb)); tests.append(deb)
+        cmd=["dpkg","--force-not-root","--force-architecture","--root="+str(guest),"--unpack",*map(str,tests)]
         r=subprocess.run(cmd,text=True,capture_output=True)
         if r.returncode: raise SystemExit("Clean co-install failed:\n"+r.stdout+"\n"+r.stderr)
 
