@@ -147,7 +147,7 @@ cmd_install() {
     trap 'rm -rf -- "$staging"' EXIT
     trap 'exit 130' INT
     trap 'exit 143' TERM HUP
-    tar --extract --file "$temp_archive" --directory "$staging" \
+    PROOT_L2S_DIR="$staging/.l2s" "$PROOT_BIN" --link2symlink -0 tar --extract --file "$temp_archive" --directory "$staging" \
         --no-same-owner --no-same-permissions --delay-directory-restore \
         --exclude='dev/*' --exclude='./dev/*'
     # A non-root Android app cannot create archived device nodes (Gentoo ships
@@ -407,9 +407,10 @@ cmd_restore() (
   mkdir -p "$DISTRO_BASE_DIR"
   target="$DISTRO_BASE_DIR/$alias"
   [[ ! -e "$target" && ! -L "$target" ]] || die "Guest already exists; preserving it."
+  require_proot
   staging=$(mktemp -d "$RUNTIME_DIR/.restore-$alias.XXXXXX")
   trap 'chmod -R u+rwX "$staging" 2>/dev/null || true; rm -rf -- "$staging"' EXIT
-  tar --extract --file "$archive" --directory "$staging" --no-same-owner \
+  PROOT_L2S_DIR="$staging/.l2s" "$PROOT_BIN" --link2symlink -0 tar --extract --file "$archive" --directory "$staging" --no-same-owner \
       --delay-directory-restore --exclude='*/dev/*' "installed-rootfs/$alias"
   local guest="$staging/installed-rootfs/$alias"
   [[ -d "$guest/etc" && ! -L "$guest" && ! -L "$guest/etc" && ! -L "$guest/dev" ]] \

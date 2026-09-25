@@ -136,7 +136,7 @@ cmd_install() {
     trap 'rm -rf -- "$staging"' EXIT
     trap 'exit 130' INT
     trap 'exit 143' TERM HUP
-    tar --extract --file "$temp_archive" --directory "$staging" \
+    PROOT_L2S_DIR="$staging/.l2s" "$PROOT_BIN" --link2symlink -0 tar --extract --file "$temp_archive" --directory "$staging" \
         --no-same-owner --no-same-permissions --delay-directory-restore \
         --exclude='dev/*' --exclude='./dev/*'
     # A non-root Android app cannot create archived device nodes (Gentoo ships

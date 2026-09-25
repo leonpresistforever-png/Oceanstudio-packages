@@ -116,7 +116,7 @@ def package_all(m,install_root,source,output,source_meta):
         (doc/"ocean-build.json").write_text(json.dumps(source_meta,indent=2)+"\n")
         control(stage,[("Package","ocean-glibc"),("Version",version),("Architecture","aarch64"),
             ("Maintainer","OceanStudio <maintainer@ocean.studio>"),("Homepage","https://www.gnu.org/software/libc/"),
-            ("Section","libs"),("Priority","optional"),("Description","Isolated GNU C Library runtime for OceanStudio; does not replace Android Bionic")])
+            ("Section","libs"),("Priority","optional"),("Provides",f"glibc (= {version})"),("Description","Isolated GNU C Library runtime for OceanStudio; does not replace Android Bionic")])
         out=pool/f"ocean-glibc_{version}_aarch64.deb";build_deb(stage,out);produced.append(out)
 
     with tempfile.TemporaryDirectory() as t:
@@ -181,6 +181,15 @@ def package_all(m,install_root,source,output,source_meta):
             ("Maintainer","OceanStudio <maintainer@ocean.studio>"),("Section","metapackages"),("Priority","optional"),
             ("Description","Meta package for the isolated Ocean glibc compatibility foundation")])
         out=pool/f"ocean-glibc-suite_{version}_all.deb";build_deb(stage,out);produced.append(out)
+
+    with tempfile.TemporaryDirectory() as t:
+        stage=pathlib.Path(t)
+        control(stage,[("Package","glibc"),("Version",version),("Architecture","all"),
+            ("Depends",f"ocean-glibc (= {version}), ocean-glibc-runner (= {version})"),
+            ("Provides",f"glibc (= {version})"),("Maintainer","OceanStudio <maintainer@ocean.studio>"),
+            ("Section","libs"),("Priority","optional"),("Homepage","https://www.gnu.org/software/libc/"),
+            ("Description","GNU C Library compatibility meta-package for OceanStudio (provides glibc runtime and tools)")])
+        out=pool/f"glibc_{version}_all.deb";build_deb(stage,out);produced.append(out)
     return produced
 
 def main():

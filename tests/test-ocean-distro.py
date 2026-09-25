@@ -35,7 +35,7 @@ class DistroTests(unittest.TestCase):
             'shell': '/bin/sh', 'pkg_manager': 'test', 'priority': 'test'} for key in ('debian', 'arch', 'ubuntu')}
         self.save_registry()
         for name, body in {
-            'proot': '#!/usr/bin/env python3\nimport json,os,sys\nopen(os.environ["CALL_LOG"],"w").write(json.dumps({"argv":sys.argv,"path":os.environ["PATH"]}))\n',
+            'proot': '#!/usr/bin/env python3\nimport json, os, sys, subprocess\nif "CALL_LOG" in os.environ:\n    open(os.environ["CALL_LOG"], "w").write(json.dumps({"argv": sys.argv, "path": os.environ.get("PATH", "")}))\noptions_with_arg = {"-r", "-b", "-w", "-m", "--bind", "--rootfs"}\nskip_next = False\ncmd_idx = -1\nfor i, arg in enumerate(sys.argv[1:], 1):\n    if skip_next:\n        skip_next = False\n        continue\n    if arg in options_with_arg:\n        skip_next = True\n        continue\n    if arg.startswith("-"):\n        continue\n    cmd_idx = i\n    break\nif cmd_idx != -1:\n    sys.exit(subprocess.run(sys.argv[cmd_idx:]).returncode)\nsys.exit(0)\n',
             'curl': '''#!/usr/bin/env python3
 import os,sys,shutil
 args=sys.argv[1:]; dest=args[args.index('--output')+1]
