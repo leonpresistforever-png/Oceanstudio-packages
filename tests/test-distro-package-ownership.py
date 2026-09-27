@@ -16,10 +16,16 @@ def main():
     scripts = json.loads((POOL.parent.parent/'ocean-tools-ownership.json').read_text())['preservedScriptSha256']
     with tempfile.TemporaryDirectory(prefix='ocean-distro-ownership-') as directory:
         root = Path(directory)
-        command = ['dpkg', '--root='+directory, '--force-not-root', '--force-depends', '--auto-deconfigure']
+        admindir = directory + '/var/lib/dpkg'
+        (root/'var/lib/dpkg/updates').mkdir(parents=True, exist_ok=True)
+        (root/'var/lib/dpkg/info').mkdir(parents=True, exist_ok=True)
+        (root/'var/lib/dpkg/status').touch()
+        command = ['dpkg', '--root='+directory, '--admindir='+admindir, '--force-not-root', '--force-depends', '--auto-deconfigure']
+        ocean_distro_deb = sorted(POOL.glob('ocean-distro_*.deb'))[-1]
+        proot_distro_deb = sorted(POOL.glob('proot-distro_*.deb'))[-1]
         steps = [('oldTools', [ROOT/'apt/pool/main/ocean-tools_1.1.0_all.deb']),
-                 ('ownershipUpgrade', [POOL/'ocean-tools_1.1.0+ocean1_all.deb', POOL/'ocean-distro_1.0.1-4_all.deb']),
-                 ('independentProot', [POOL/'proot-distro_4.18.0-1+ocean3_all.deb'])]
+                 ('ownershipUpgrade', [POOL/'ocean-tools_1.1.0+ocean1_all.deb', ocean_distro_deb]),
+                 ('independentProot', [proot_distro_deb])]
         for label, archives in steps:
             run = subprocess.run(command+['--install']+[str(p) for p in archives], capture_output=True, text=True)
             evidence[label] = {'exit': run.returncode, 'stdout': run.stdout, 'stderr': run.stderr}

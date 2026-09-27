@@ -59,11 +59,17 @@ class PublicationTests(unittest.TestCase):
 
     def build(self, version="1.0-1", group="one", content="working\n", name="ocean-fixture", arch="all"):
         directory = self.root / ("source-" + group)
-        (directory / "DEBIAN").mkdir(parents=True, exist_ok=True)
-        (directory / "DEBIAN/control").write_text(
+        directory.mkdir(parents=True, exist_ok=True)
+        directory.chmod(0o755)
+        debian = directory / "DEBIAN"
+        debian.mkdir(parents=True, exist_ok=True)
+        debian.chmod(0o755)
+        control = debian / "control"
+        control.write_text(
             f"Package: {name}\nVersion: {version}\nArchitecture: {arch}\n"
             "Maintainer: Ocean Test <test@example.invalid>\nDescription: real indexing fixture\n"
         )
+        control.chmod(0o644)
         (directory / "payload").write_text(content)
         destination = self.root / f"staging/{group}/pool/main/{name}_{version}_{arch}.deb"
         destination.parent.mkdir(parents=True, exist_ok=True)

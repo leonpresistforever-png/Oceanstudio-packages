@@ -25,7 +25,7 @@ JRE = POOL / "openjdk-21-jre-headless_21.0.12_aarch64.deb"
 JDK = POOL / "openjdk-21_21.0.12_aarch64.deb"
 OUT = ROOT / "staging/openjdk-21-repair"
 OUT_POOL = OUT / "pool/main"
-REPAIR_VERSION = "21.0.12-1+ocean2"
+REPAIR_VERSION = "21.0.12-1+ocean3"
 PREFIX = "data/data/studio.ocean.app/files/usr"
 
 REPLACEMENTS = [

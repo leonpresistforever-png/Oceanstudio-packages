@@ -136,9 +136,21 @@ cmd_install() {
     trap 'rm -rf -- "$staging"' EXIT
     trap 'exit 130' INT
     trap 'exit 143' TERM HUP
-    PROOT_L2S_DIR="$staging/.l2s" "$PROOT_BIN" --link2symlink -0 tar --extract --file "$temp_archive" --directory "$staging" \
+    mkdir -p "$staging/.l2s"
+    if ! ( PROOT_L2S_DIR="$staging/.l2s" "$PROOT_BIN" --link2symlink -0 tar --extract --file "$temp_archive" --directory "$staging" \
         --no-same-owner --no-same-permissions --delay-directory-restore \
-        --exclude='dev/*' --exclude='./dev/*'
+        --exclude='dev/*' --exclude='./dev/*' ); then
+      tar -tvf "$temp_archive" 2>/dev/null | grep '^h' | while IFS= read -r line; do
+        link_name=$(echo "$line" | sed -n 's/.* [0-9][0-9]:[0-9][0-9] \(.*\) link to \(.*\)/\1/p')
+        target_name=$(echo "$line" | sed -n 's/.* [0-9][0-9]:[0-9][0-9] \(.*\) link to \(.*\)/\2/p')
+        if [[ -n "$link_name" && -n "$target_name" ]]; then
+          if [[ -e "$staging/$target_name" ]]; then
+            mkdir -p "$(dirname "$staging/$link_name")"
+            cp -a "$staging/$target_name" "$staging/$link_name" 2>/dev/null || true
+          fi
+        fi
+      done
+    fi
     # A non-root Android app cannot create archived device nodes (Gentoo ships
     # dev/null and dev/console). Login binds the real /dev over this directory.
     [[ ! -L "$staging/dev" ]] || die "Rootfs /dev must not be a symlink."
