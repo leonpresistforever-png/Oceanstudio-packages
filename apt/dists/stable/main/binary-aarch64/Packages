@@ -23343,17 +23343,17 @@ Package: dropbear
 Architecture: aarch64
 Installed-Size: 444
 Maintainer: OceanStudio <archive@ocean.studio>
-Version: 2026.94-1
+Version: 2026.94-1+ocean1
 Homepage: https://matt.ucc.asn.au/dropbear/dropbear.html
 Depends: ocean-auth, zlib
 Conflicts: openssh
 Suggests: openssh-sftp-server
 Description: Small SSH server and client
-Filename: pool/main/dropbear_2026.94-1_aarch64.deb
-Size: 143564
-MD5sum: 50c75a7749fa264d81db0f470a947ff4
-SHA1: 5b1eb077ff3693412e56d9e9d4b3a32b182b744c
-SHA256: 473b08eb13edc80812eab577810ec156ca8aa8d821b12146ad864cf3deca5eef
+Filename: pool/main/dropbear_2026.94-1+ocean1_aarch64.deb
+Size: 143752
+MD5sum: 3fb3dff86b4866e78e43da3fae615ebd
+SHA1: 44b948c415110b7c687414cf01580b579a4e998b
+SHA256: d9d61e02fe213d47d61f12334c864d7049527c9e361bdcef722b26d3a3ead5c1
 
 Package: dsa-key-auditor
 Version: 1.0.0-1
@@ -42285,16 +42285,16 @@ Package: libandroid-stub
 Architecture: aarch64
 Installed-Size: 156
 Maintainer: OceanStudio <maintainer@ocean.studio>
-Version: 29-2
+Version: 29-3
 Homepage: https://android.googlesource.com/platform/frameworks/base/+/main/native/android
 Conflicts: libandroid
 Replaces: libandroid
 Description: Stub libandroid.so for non-Android certified environment
-Filename: pool/main/libandroid-stub_29-2_aarch64.deb
-Size: 23300
-MD5sum: 212c9947bf847d80376edaab6f9d2071
-SHA1: fa8ac46d8473f0a67b3f3b6b9929d2f3595de1b8
-SHA256: 9b2f2a63c0080adb56d7d804e04f587b2f42f7c955bea05561cf8e176d620480
+Filename: pool/main/libandroid-stub_29-3_aarch64.deb
+Size: 24280
+MD5sum: b17072be68259b69d94d7e6bbbbc546f
+SHA1: d01542b591d9c37f2bd3721c287beecf2b12f90d
+SHA256: ce1c211ccc33090814b6ccf13185cee0b547d84f5187bca5564d74f9d6e01721
 
 Package: libandroid-support
 Architecture: aarch64
@@ -54888,21 +54888,20 @@ SHA1: 920929e577eb74f80364daf6ee68df314c69d343
 SHA256: 4a259d4219c156ccc287c0fb549e279c82f694038e7dafe451885fcc57d7bb41
 
 Package: ocean-auth
-Version: 1.0.0
+Version: 1.0.1
 Architecture: aarch64
 Maintainer: OceanStudio <maintainer@ocean.studio>
-Installed-Size: 85
+Installed-Size: 90
 Depends: openssl
 Provides: ocean-auth, libocean-auth
-Replaces: ocean-auth
-Conflicts: ocean-auth
+Replaces: ocean-auth (<< 1.0.1)
 Homepage: https://ocean.studio
-Description: Native authentication layer for Ocean Terminal environments.
-Filename: pool/main/ocean-auth_1.0.0_aarch64.deb
-Size: 7140
-MD5sum: dd3ac7027b3e9ab48ae0228dc723630a
-SHA1: 9122920bcce52644161d6e9fa4129ddf19f3ea12
-SHA256: 416273481f39dbb86d632bf73aca800d21e62b07a068e6212af76705584e4ab6
+Description: Native authentication layer for Ocean Terminal.
+Filename: pool/main/ocean-auth_1.0.1_aarch64.deb
+Size: 5648
+MD5sum: 7fbbb8760bf129951720f2246ef69a5c
+SHA1: 2d1c3de9aa61809b04d0ff177c3c90998313843c
+SHA256: 5bca51c79f1b1490cc400dc6c00f8ee478344e5cc6b8c230741a6d0b3d759c6c
 
 Package: ocean-back
 Version: 1.0.0-1
@@ -56142,20 +56141,19 @@ SHA1: ff8ee4439edde1c4a21e724d8a800d8efb6a1c91
 SHA256: 181fcde76683ed93f726705b8fd70a5406775a9ba43f1d191b83f570fd225373
 
 Package: ocean-exec
-Version: 1.0.0
+Version: 1.0.1
 Architecture: aarch64
 Maintainer: OceanStudio <maintainer@ocean.studio>
 Installed-Size: 45
 Provides: ocean-exec, libocean-exec
-Replaces: ocean-exec
-Conflicts: ocean-exec
+Replaces: ocean-exec (<< 1.0.1)
 Homepage: https://ocean.studio
-Description: Native execution and shebang interceptor for Ocean Terminal environments.
-Filename: pool/main/ocean-exec_1.0.0_aarch64.deb
-Size: 3756
-MD5sum: a9f78931d707255c2c6431d51e5f5399
-SHA1: 52321382313591daafacd7781a82e88b22670200
-SHA256: 01842739c0465f72e6ab94aba7ecb8c75c2ae549d324140991a0a822b288e58b
+Description: Native execution and shebang interceptor for Ocean Terminal.
+Filename: pool/main/ocean-exec_1.0.1_aarch64.deb
+Size: 3088
+MD5sum: e8fca56d67d7c3a4deffa9c3b1d33585
+SHA1: ff5de08e4760885994840830a49123c86d79a999
+SHA256: 1976e4d982bb26eb5ce4c5df7f6e83fed0be310bb7bb8291f31213ce5c214c23
 
 Package: ocean-features
 Version: 1.0.0-1
@@ -76033,33 +76031,33 @@ Package: openjdk-21
 Architecture: aarch64
 Installed-Size: 249532
 Maintainer: OceanStudio <archive@ocean.studio>
-Version: 21.0.12-1+ocean3
+Version: 21.0.12-1+ocean4
 Homepage: https://openjdk.java.net
-Depends: openjdk-21-jre-headless (= 21.0.12-1+ocean3)
+Depends: openjdk-21-jre-headless (= 21.0.12-1+ocean4)
 Recommends: ca-certificates-java, resolv-conf
 Description: Java development kit and runtime
-Filename: pool/main/openjdk-21_21.0.12-1+ocean3_aarch64.deb
-Size: 67740176
-MD5sum: 2d1af539c3cc3309fb5964da93368e9f
-SHA1: 695273df8cd7c5eb5902449b31539765bc6c49e4
-SHA256: b31a32285d83ddede55954544d34a397e6034ed32fed5071d796dd8a68a8572b
+Filename: pool/main/openjdk-21_21.0.12-1+ocean4_aarch64.deb
+Size: 67740152
+MD5sum: 55d00e920427f6fa9bc2a4b49e172d66
+SHA1: 332dfce895ce00039dac2283c8b683e555c52d97
+SHA256: d4efffe18fd99b396ce8506b2b4d66f7bd88ebe951a02be1a9634e436b13452b
 
 Package: openjdk-21-jre-headless
 Architecture: aarch64
 Installed-Size: 249532
 Maintainer: OceanStudio <archive@ocean.studio>
-Version: 21.0.12-1+ocean3
+Version: 21.0.12-1+ocean4
 Homepage: https://openjdk.java.net
 Depends: libandroid-shmem, libandroid-spawn, libiconv, libjpeg-turbo, zlib, littlecms
 Recommends: ca-certificates-java, resolv-conf
 Description: Java runtime environment (headless)
-Replaces: openjdk-21 (<< 21.0.12-1+ocean3)
-Breaks: openjdk-21 (<< 21.0.12-1+ocean3)
-Filename: pool/main/openjdk-21-jre-headless_21.0.12-1+ocean3_aarch64.deb
-Size: 38444092
-MD5sum: ea307e17b01e4e2ae9bcc7e89ee9af9a
-SHA1: fdf65a87fc451aac8eb7edc7a567e38a17f21183
-SHA256: 0957cde7a59a1523a72170e7a32b00995c5e71658b2833ef39f634392ac3a83e
+Replaces: openjdk-21 (<< 21.0.12-1+ocean4)
+Breaks: openjdk-21 (<< 21.0.12-1+ocean4)
+Filename: pool/main/openjdk-21-jre-headless_21.0.12-1+ocean4_aarch64.deb
+Size: 38441388
+MD5sum: 6a6e83a0feaca687332c0b96192384a2
+SHA1: 885c7922c79c50c97eab17ea957e7dffdfa848b5
+SHA256: 66c377aeacd83674814cbc2bf2857c5f7e2f467f6705cd24ed1e5f35fce008b4
 
 Package: openldap
 Architecture: aarch64
@@ -76157,16 +76155,16 @@ Package: openssh
 Architecture: aarch64
 Installed-Size: 6376
 Maintainer: OceanStudio <archive@ocean.studio>
-Version: 10.5p1-1
+Version: 10.5p1-1+ocean1
 Homepage: https://www.openssh.com/
 Depends: krb5, ldns, libandroid-support, libedit, openssh-sftp-server, openssl, ocean-auth, zlib
 Conflicts: dropbear
 Description: Secure shell for logging into a remote machine
-Filename: pool/main/openssh_10.5p1-1_aarch64.deb
-Size: 963540
-MD5sum: 68a1d247984721e5091b1f82fee7c165
-SHA1: 9413f14201194e95dbe03a82fe2ce0cc0d7ee126
-SHA256: e00fc8523f97a73fea06a84b5f5e6431e52f4dd420c6f09624cd105715a29cf0
+Filename: pool/main/openssh_10.5p1-1+ocean1_aarch64.deb
+Size: 962616
+MD5sum: 67f6a29130a248224e66d209f04d959d
+SHA1: d48e84f43cde8748ac369af1ad0391b7450c0c50
+SHA256: 29f3cad5cc96bc82bce8ad510ec2bc0bde0773ada84dcd6f74bace16bc4c2dc5
 
 Package: openssh-sftp-server
 Architecture: aarch64
@@ -79456,16 +79454,16 @@ Package: proot
 Architecture: aarch64
 Installed-Size: 336
 Maintainer: OceanStudio <maintainer@ocean.studio>
-Version: 5.1.107.92
+Version: 5.1.107.92-1+ocean1
 Homepage: https://proot-me.github.io/
 Depends: libandroid-shmem, libtalloc
 Suggests: proot-distro
 Description: Emulate chroot, bind mount and binfmt_misc for non-root users
-Filename: pool/main/proot_5.1.107.92_aarch64.deb
-Size: 97668
-MD5sum: c1711fc87b1ee18d5a1c778775d41664
-SHA1: 2f975fd5d466a22e94cf81d3a7d0fc60e19af583
-SHA256: 018d7f3d5e6569bbac83b62e5727ee52e4465e46135ee4565e976aecff2f4740
+Filename: pool/main/proot_5.1.107.92-1+ocean1_aarch64.deb
+Size: 96368
+MD5sum: 8b7df450e7664df1d79cca76ac34a489
+SHA1: 7e945ec5279d033bac634a2b331946156f90e66a
+SHA256: 3018f2a2b4e64b2aa17a2516514eb18a43aed1a660b894f519176c28b33139c6
 
 Package: proot-distro
 Version: 4.18.0-1+ocean4
@@ -80802,7 +80800,7 @@ SHA1: bec28be015923cd46a2fa74e2015a0661f29fe7f
 SHA256: a964e20b36daf4a3935f24c283bbc2d9fa4db9b6bf5b02815d1709b1e332d7e6
 
 Package: radare2
-Version: 6.2.0
+Version: 6.2.0-1+ocean1
 Architecture: aarch64
 Maintainer: OceanStudio <maintainer@ocean.studio>
 Installed-Size: 40545
@@ -80810,11 +80808,11 @@ Section: utils
 Priority: optional
 Homepage: https://ocean.studio
 Description: Reverse engineering framework and CLI tools
-Filename: pool/main/radare2_6.2.0_aarch64.deb
-Size: 11682058
-MD5sum: e9b57e1f5e51878e0da8afd459f4214e
-SHA1: f6412bb1cf1310aa8e7b15efeeaa3a392e78ad90
-SHA256: 43ab895529ba02bc876340d8d7c67cc985f918c4b76f08c350f6206ac6f5e9d9
+Filename: pool/main/radare2_6.2.0-1+ocean1_aarch64.deb
+Size: 7969716
+MD5sum: 4f488a1a2a082caa9dde729794b11147
+SHA1: 845d1513313b04650ba3a7cd6a17e8da76f649c5
+SHA256: ff2bf4cbe542fd9c9718f7c2b8930cd9607f04686a90cf38e31a5a930b65b3fb
 
 Package: raft-term-log-viewer
 Version: 1.0.0-2+ocean1
