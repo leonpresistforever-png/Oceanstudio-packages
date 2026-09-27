@@ -56091,7 +56091,7 @@ SHA1: 3d3a9b4b5b8d0a0beb0aa3600ad3027195b61dfa
 SHA256: 9d9c886208e9349f4184047915a871b6bde72ab3f4d4f8875566176a02d31ddb
 
 Package: ocean-distro
-Version: 1.0.1-4
+Version: 1.0.1-5
 Architecture: all
 Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: bash, jq, proot, tar, coreutils, zstd, xz-utils, gzip, bzip2, curl, ca-certificates
@@ -56103,11 +56103,11 @@ Description: Ocean PRoot Linux distribution and rootfs manager
  Manages Debian, Ubuntu, Alpine, Arch, Fedora, Rocky, AlmaLinux, openSUSE,
  Void, Kali, CentOS Stream, Devuan, and Gentoo userlands inside OceanStudio
  using an Ocean-owned PRoot workflow independent from proot-distro.
-Filename: pool/main/ocean-distro_1.0.1-4_all.deb
-Size: 6568
-MD5sum: fcba0d47f905aed0e50e1d36f25dd513
-SHA1: 11525885e8d1fcd4575884491cf356a6e10a51ff
-SHA256: c677bd5dfffc429d51bac9a4cb49b3302dc77fd14a60be51e2886b52899ad60b
+Filename: pool/main/ocean-distro_1.0.1-5_all.deb
+Size: 6724
+MD5sum: 19f00726ba21c62e21419a3e571ff612
+SHA1: 8682bcbeb62dfd9c92bfc13d7d5eb53a6ada5a55
+SHA256: da8edc427bf54305c96b170538846b73143520cf70b365117f61ff9d274ffede
 
 Package: ocean-download
 Version: 1.0.0-1
@@ -76033,33 +76033,33 @@ Package: openjdk-21
 Architecture: aarch64
 Installed-Size: 249532
 Maintainer: OceanStudio <archive@ocean.studio>
-Version: 21.0.12-1+ocean2
+Version: 21.0.12-1+ocean3
 Homepage: https://openjdk.java.net
-Depends: openjdk-21-jre-headless (= 21.0.12-1+ocean2)
+Depends: openjdk-21-jre-headless (= 21.0.12-1+ocean3)
 Recommends: ca-certificates-java, resolv-conf
 Description: Java development kit and runtime
-Filename: pool/main/openjdk-21_21.0.12-1+ocean2_aarch64.deb
+Filename: pool/main/openjdk-21_21.0.12-1+ocean3_aarch64.deb
 Size: 67740176
-MD5sum: b6433b4bb28d12fd17697b9e654b6b55
-SHA1: a7ccf495edce1c6323fb99e138fc469f38301c33
-SHA256: efefa2187716d0b95b72641492bc5e5fe30572de858c7bd9e7c18e4e54b63d48
+MD5sum: 2d1af539c3cc3309fb5964da93368e9f
+SHA1: 695273df8cd7c5eb5902449b31539765bc6c49e4
+SHA256: b31a32285d83ddede55954544d34a397e6034ed32fed5071d796dd8a68a8572b
 
 Package: openjdk-21-jre-headless
 Architecture: aarch64
 Installed-Size: 249532
 Maintainer: OceanStudio <archive@ocean.studio>
-Version: 21.0.12-1+ocean2
+Version: 21.0.12-1+ocean3
 Homepage: https://openjdk.java.net
 Depends: libandroid-shmem, libandroid-spawn, libiconv, libjpeg-turbo, zlib, littlecms
 Recommends: ca-certificates-java, resolv-conf
 Description: Java runtime environment (headless)
-Replaces: openjdk-21 (<< 21.0.12-1+ocean2)
-Breaks: openjdk-21 (<< 21.0.12-1+ocean2)
-Filename: pool/main/openjdk-21-jre-headless_21.0.12-1+ocean2_aarch64.deb
+Replaces: openjdk-21 (<< 21.0.12-1+ocean3)
+Breaks: openjdk-21 (<< 21.0.12-1+ocean3)
+Filename: pool/main/openjdk-21-jre-headless_21.0.12-1+ocean3_aarch64.deb
 Size: 38444092
-MD5sum: 0603855c17587b96ec0dcf1df049f41a
-SHA1: b3ca6f0e618b543a85adea603b92f6d52579cdd9
-SHA256: a864709fa238d0fbcd8590d8e44a58c0b9b9fecd750669017379f3b19d1d745c
+MD5sum: ea307e17b01e4e2ae9bcc7e89ee9af9a
+SHA1: fdf65a87fc451aac8eb7edc7a567e38a17f21183
+SHA256: 0957cde7a59a1523a72170e7a32b00995c5e71658b2833ef39f634392ac3a83e
 
 Package: openldap
 Architecture: aarch64
@@ -79468,7 +79468,7 @@ SHA1: 2f975fd5d466a22e94cf81d3a7d0fc60e19af583
 SHA256: 018d7f3d5e6569bbac83b62e5727ee52e4465e46135ee4565e976aecff2f4740
 
 Package: proot-distro
-Version: 4.18.0-1+ocean3
+Version: 4.18.0-1+ocean4
 Architecture: all
 Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: bash, jq, proot, tar, coreutils, zstd, xz-utils, gzip, bzip2, curl, ca-certificates
@@ -79479,11 +79479,11 @@ Description: Independent PRoot guest manager implemented for OceanStudio
  Installs, logs into, backs up and restores guests using its own registry,
  download cache and var/lib/proot-distro/installed-rootfs state. Does not invoke
  or install the ocean-distro command. Existing guests are preserved on upgrade.
-Filename: pool/main/proot-distro_4.18.0-1+ocean3_all.deb
-Size: 8280
-MD5sum: fea63c7a558f45e68221cf8b5f034e0d
-SHA1: 751bea18dc892178a19342784b863ce02a8b69b1
-SHA256: 2510a715e616112d95ba51c718eba0b98edec2ab27cbb01366da2f432524d357
+Filename: pool/main/proot-distro_4.18.0-1+ocean4_all.deb
+Size: 8424
+MD5sum: 943cff03758cf8ac5c1bf66b830d299b
+SHA1: bddd4cd7bae5ae12f5b26fd4e6f7371e5cc7bf82
+SHA256: 8945ec9612bb0bb2fcd18a3749943d0ae1571afa951648aeed377d468262bb94
 
 Package: proot-ocean-binding
 Version: 1.0.0-2+ocean1
