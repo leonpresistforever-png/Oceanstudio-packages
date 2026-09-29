@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "suite": "priority-userland-half",
+  "packageCount": 63,
+  "uniquePackageCount": 63,
+  "bridges": [
+    "notify-send",
+    "aplay",
+    "arecord",
+    "paplay",
+    "pacat",
+    "pactl",
+    "parec",
+    "parecord",
+    "ffprobe",
+    "ffplay",
+    "xeyes",
+    "ocean"
+  ]
+}

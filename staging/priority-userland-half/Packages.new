@@ -1,0 +1,944 @@
+Package: ocean-term-media-core
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: python
+Filename: pool/main/ocean-term-media-core_1.0.0-1+ocean1_all.deb
+Size: 2428
+MD5sum: 864214916d64104366b0edd9c76e5bad
+SHA1: 86f2bcbf3ae3be308ae49cdcc195b9841ce5b0f7
+SHA256: dd8e4e0319b00a75c4b27aae8c787ff152b882b7430c418194136c6070dedcce
+Section: utils
+Priority: optional
+Description: Shared runtime for Ocean terminal media helper commands
+ Ocean terminal package for OceanStudio on Android.
+
+Package: notify-send
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-term-media-core
+Filename: pool/main/notify-send_1.0.0-1+ocean1_all.deb
+Size: 892
+MD5sum: fb88e5617baf3472f2884c1fc7a30c5b
+SHA1: 3b493f64b5e450da51ff404af40e8fc860784995
+SHA256: 4d4fb3b19145fa49933c6d31bcfdbe47b638179ffa853ea0bb27d706092e0c56
+Section: utils
+Priority: optional
+Description: Send Android notifications via ocean-notify
+ Ocean terminal package for OceanStudio on Android.
+
+Package: aplay
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-term-media-core
+Filename: pool/main/aplay_1.0.0-1+ocean1_all.deb
+Size: 992
+MD5sum: 8f5571fc7ba7d0d1792261658f5c997c
+SHA1: 326c9dae0b6145e5ceee38fa0b0ff8bf4611248b
+SHA256: 38f47d3fa5c8faefdb0d0e8988f9ab6879e112ee97203e4f90caf5514fc4e314
+Section: sound
+Priority: optional
+Description: Play audio via pulseaudio paplay/pacat or alsa-utils
+ Ocean terminal package for OceanStudio on Android.
+
+Package: arecord
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-term-media-core
+Filename: pool/main/arecord_1.0.0-1+ocean1_all.deb
+Size: 976
+MD5sum: d8b0fc7fae534056b7451a2f890dca34
+SHA1: 668b22e8b6289c61f01c61f6099dac6b77dbaf7a
+SHA256: 7798a24544cdd470df1d214b90e549381b6ca9760154dbe82df398710010df68
+Section: sound
+Priority: optional
+Description: Record audio via pulseaudio pacat or alsa-utils
+ Ocean terminal package for OceanStudio on Android.
+
+Package: paplay
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-term-media-core
+Filename: pool/main/paplay_1.0.0-1+ocean1_all.deb
+Size: 744
+MD5sum: 1965984632acebc0e885cf8019345f3e
+SHA1: 878b615ed68cff38fa13bfc2d60d3f06ed8c72ed
+SHA256: c36d84d5e225b41bffcd0b80c16f430eac951c5037c3cac8f1e0ca940c0e52f0
+Section: sound
+Priority: optional
+Description: Install name for pulseaudio paplay binary
+ Ocean terminal package for OceanStudio on Android.
+
+Package: pacat
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-term-media-core
+Filename: pool/main/pacat_1.0.0-1+ocean1_all.deb
+Size: 744
+MD5sum: 8a26404469f02f6446a3f4d257f7a0a1
+SHA1: 7fde8d567fb114827c6f2f9e3332f081d7a1d8fb
+SHA256: d77ea8f5f5dde9c20d626309ffcfb9be5ca353b582adef9b3f05eb2a5158929f
+Section: sound
+Priority: optional
+Description: Install name for pulseaudio pacat binary
+ Ocean terminal package for OceanStudio on Android.
+
+Package: pactl
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-term-media-core
+Filename: pool/main/pactl_1.0.0-1+ocean1_all.deb
+Size: 744
+MD5sum: 33c1d421b421dbfa9d4e0321237d5a25
+SHA1: f19607c90aead293b1bd3173596e316e0e0c4e25
+SHA256: 000916c4b885022b3010f83539bf0507c857e44ff0f8ba1eedf889cb5962f575
+Section: sound
+Priority: optional
+Description: Install name for pulseaudio pactl binary
+ Ocean terminal package for OceanStudio on Android.
+
+Package: parec
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-term-media-core
+Filename: pool/main/parec_1.0.0-1+ocean1_all.deb
+Size: 744
+MD5sum: 657c1ec90b7aea9cfe893fb0d9141ede
+SHA1: da4ecb7e69b72661005058a4d45832cf612f3191
+SHA256: 0ca62d688f22ab168eed47d1b3c16b08549eeafe087cf3587f6b39062d1f034a
+Section: sound
+Priority: optional
+Description: Install name for pulseaudio parec binary
+ Ocean terminal package for OceanStudio on Android.
+
+Package: parecord
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-term-media-core
+Filename: pool/main/parecord_1.0.0-1+ocean1_all.deb
+Size: 744
+MD5sum: 61ad8ee3d91d124a7845effa09b3c54c
+SHA1: 32762cf43a63ca3be0c535b59b47dd9558671480
+SHA256: 5e13292a007018f41c8966838636993fe0e9923011cb2a413060067dda5f3463
+Section: sound
+Priority: optional
+Description: Install name for pulseaudio parecord binary
+ Ocean terminal package for OceanStudio on Android.
+
+Package: ffprobe
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-term-media-core
+Filename: pool/main/ffprobe_1.0.0-1+ocean1_all.deb
+Size: 744
+MD5sum: ecff0ab8fada24aab6fbfa6ed0c860db
+SHA1: a600c8bb0245c1c4aabc16045d6779cdcf208227
+SHA256: dcc77880df6e5d64524ed95ae7444b434300653dff9f43eb71bb6b5f9129b84b
+Section: video
+Priority: optional
+Description: Install name for ffmpeg ffprobe binary
+ Ocean terminal package for OceanStudio on Android.
+
+Package: ffplay
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-term-media-core
+Filename: pool/main/ffplay_1.0.0-1+ocean1_all.deb
+Size: 744
+MD5sum: f858d62d380fbd281814314c3548f83e
+SHA1: ad6fa205ba59ff48d0637d5a47782b136a26ff37
+SHA256: b211110bb10fa712c3f5811584fecb0f0feee901c5dcb37256a6e1eb04c3587d
+Section: video
+Priority: optional
+Description: Install name for ffmpeg ffplay binary
+ Ocean terminal package for OceanStudio on Android.
+
+Package: xeyes
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-term-media-core
+Filename: pool/main/xeyes_1.0.0-1+ocean1_all.deb
+Size: 1008
+MD5sum: f9fdd89ce45bb555c944de2f24ffac40
+SHA1: e720bb841349b2b2ec1cf22b09675be3b70fb293
+SHA256: d5879f2f1f309d0a98504b5a2d83c8c2edd8718e8d8ed5735b7a928c7b3c7ad6
+Section: x11
+Priority: optional
+Description: Launch xeyes in Ocean X11 guest
+ Ocean terminal package for OceanStudio on Android.
+
+Package: ocean
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-term-media-core
+Filename: pool/main/ocean_1.0.0-1+ocean1_all.deb
+Size: 1000
+MD5sum: ce08d00438eb564097e6bb2431b63535
+SHA1: 32749df7f961a8d6d7f2afed0c9c1425ed9ebee6
+SHA256: def76e3824db14a83ef84d54ef987c3b04c807a80c9d29939d9bd46362f6361f
+Section: utils
+Priority: optional
+Description: OceanStudio multi-command dispatcher
+ Ocean terminal package for OceanStudio on Android.
+
+Package: ocean-term-media-001
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-term-media-core
+Filename: pool/main/ocean-term-media-001_1.0.0-1+ocean1_all.deb
+Size: 932
+MD5sum: 8b3e3b4473348230575351a7cab11f3a
+SHA1: da8b79feb66cadb0c278fde82af8590cb8ab4282
+SHA256: 8ea44b3a5d3fa3dc495597a16f6928cce4ab6cfa06174de4f0c50652544711d9
+Section: sound
+Priority: optional
+Description: Ocean media helper command ocean-term-media-001
+ Ocean terminal package for OceanStudio on Android.
+
+Package: ocean-term-media-002
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-term-media-core
+Filename: pool/main/ocean-term-media-002_1.0.0-1+ocean1_all.deb
+Size: 932
+MD5sum: fb3570ea90f68890431eac467e370c73
+SHA1: e895dac98a7280b3e806204d03cd3c791f87380d
+SHA256: 003f003a12dd3d1a23eaa7d6e426cdf924c445ab80c6dd278b5a3d0dce11a0f2
+Section: sound
+Priority: optional
+Description: Ocean media helper command ocean-term-media-002
+ Ocean terminal package for OceanStudio on Android.
+
+Package: ocean-term-media-003
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-term-media-core
+Filename: pool/main/ocean-term-media-003_1.0.0-1+ocean1_all.deb
+Size: 932
+MD5sum: e8ce632bf9a5b9b7ac98a5d0e96e5e3c
+SHA1: 844fc47924cba6eaa43b5091dfd56dd79ead0c15
+SHA256: 4267f2bd969fd6557a3d8c735ae3dc5fc92da19921b7f9de09f535ec4840f676
+Section: sound
+Priority: optional
+Description: Ocean media helper command ocean-term-media-003
+ Ocean terminal package for OceanStudio on Android.
+
+Package: ocean-term-media-004
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-term-media-core
+Filename: pool/main/ocean-term-media-004_1.0.0-1+ocean1_all.deb
+Size: 932
+MD5sum: fcb85e22d7d3537eba0cb42445c95e6e
+SHA1: e6a38a70caa3c1cc418c97c1e128a184db55186c
+SHA256: 42d5ef1cfa026dac840a6ed3ad34cb484eb42d67562e424bcad6f26331e64cdd
+Section: sound
+Priority: optional
+Description: Ocean media helper command ocean-term-media-004
+ Ocean terminal package for OceanStudio on Android.
+
+Package: ocean-term-media-005
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-term-media-core
+Filename: pool/main/ocean-term-media-005_1.0.0-1+ocean1_all.deb
+Size: 932
+MD5sum: 4cccdc8b396569d9943f85aeb2fd6206
+SHA1: 50efb5fccd0181155513fbd437599f58a9aa3a1c
+SHA256: b9d58bc3691fa07c34a9cfe19ef299a6c888175376f28cfddbb32c339614b665
+Section: sound
+Priority: optional
+Description: Ocean media helper command ocean-term-media-005
+ Ocean terminal package for OceanStudio on Android.
+
+Package: ocean-term-media-006
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-term-media-core
+Filename: pool/main/ocean-term-media-006_1.0.0-1+ocean1_all.deb
+Size: 932
+MD5sum: 420ca07b264e7a52c5b91a1a6d0e63cb
+SHA1: 4e528eb191c416256e94ef2d2d22bcbd9863180c
+SHA256: 36022b2cc9ac3a4142b4dad5920f0e548c191c72b9ed8c4327594f062016d756
+Section: sound
+Priority: optional
+Description: Ocean media helper command ocean-term-media-006
+ Ocean terminal package for OceanStudio on Android.
+
+Package: ocean-term-media-007
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-term-media-core
+Filename: pool/main/ocean-term-media-007_1.0.0-1+ocean1_all.deb
+Size: 932
+MD5sum: 18276fe38e718c8997056a0be5403123
+SHA1: 27267d7c697b55373b6eefa5c65c63faa354a58c
+SHA256: d91f9ea4f325e89a49644f36423c71b6012b8591005713dcb04213c523e12bb2
+Section: sound
+Priority: optional
+Description: Ocean media helper command ocean-term-media-007
+ Ocean terminal package for OceanStudio on Android.
+
+Package: ocean-term-media-008
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-term-media-core
+Filename: pool/main/ocean-term-media-008_1.0.0-1+ocean1_all.deb
+Size: 936
+MD5sum: 140286f9b771dfef31e27cc274dd412d
+SHA1: 40b94a083d47a1bd7ca4421042adb0a4fe8b273a
+SHA256: cbce108851defafe7d00abe90b8d5a335c85a48ce1648ede88720aeddfed80a3
+Section: sound
+Priority: optional
+Description: Ocean media helper command ocean-term-media-008
+ Ocean terminal package for OceanStudio on Android.
+
+Package: ocean-term-media-009
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-term-media-core
+Filename: pool/main/ocean-term-media-009_1.0.0-1+ocean1_all.deb
+Size: 936
+MD5sum: 520a231e3073c2baf4bdfb10e02b478f
+SHA1: dd7c05b46ec6b611c5da69df17adc657a1311254
+SHA256: ffddb0c7d54b3628b180c564b015d06fc412494a10e26340bd8c0636725e25c6
+Section: sound
+Priority: optional
+Description: Ocean media helper command ocean-term-media-009
+ Ocean terminal package for OceanStudio on Android.
+
+Package: ocean-term-media-010
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-term-media-core
+Filename: pool/main/ocean-term-media-010_1.0.0-1+ocean1_all.deb
+Size: 932
+MD5sum: 1e33daafb0b92f4173981bc8990c9829
+SHA1: 3b0113da9133a3446336662c1c224867018a3f7c
+SHA256: be515584d7d8c67fbcf98fedb19c22adf91f99035dd1cd6cd5db7b561850df78
+Section: sound
+Priority: optional
+Description: Ocean media helper command ocean-term-media-010
+ Ocean terminal package for OceanStudio on Android.
+
+Package: ocean-term-media-011
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-term-media-core
+Filename: pool/main/ocean-term-media-011_1.0.0-1+ocean1_all.deb
+Size: 932
+MD5sum: 2a2c25c4714a5002204161553c6f74a0
+SHA1: d6bbb67629a76c6b3cadf3435cc8c29b1bb98901
+SHA256: 5e60af68332ec93686470333f34ee4768fb1773bb6c6a7a14f7a554ec2309163
+Section: sound
+Priority: optional
+Description: Ocean media helper command ocean-term-media-011
+ Ocean terminal package for OceanStudio on Android.
+
+Package: ocean-term-media-012
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-term-media-core
+Filename: pool/main/ocean-term-media-012_1.0.0-1+ocean1_all.deb
+Size: 932
+MD5sum: e8514f44c125cbc7476cae4f2f63d912
+SHA1: 5d715a35ec714e7f2de26c6b39f07e8ca6860281
+SHA256: 536f64c8b9e5af1a0be9431c3a4a4fbf27b63344107704076f428cbad275c751
+Section: sound
+Priority: optional
+Description: Ocean media helper command ocean-term-media-012
+ Ocean terminal package for OceanStudio on Android.
+
+Package: ocean-term-media-013
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-term-media-core
+Filename: pool/main/ocean-term-media-013_1.0.0-1+ocean1_all.deb
+Size: 932
+MD5sum: f8035ab54b984dc3efe14a6014510e4e
+SHA1: 269054e3a87106fe756e6ef48438c626bb3452c5
+SHA256: 0bc144d48130c0c12a81b02d372c307bbc2b73314868d6de1678fb97123bc623
+Section: sound
+Priority: optional
+Description: Ocean media helper command ocean-term-media-013
+ Ocean terminal package for OceanStudio on Android.
+
+Package: ocean-term-media-014
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-term-media-core
+Filename: pool/main/ocean-term-media-014_1.0.0-1+ocean1_all.deb
+Size: 932
+MD5sum: 2806cb322e554d89bb91a6108f32760e
+SHA1: e958d118275d2c6849ad3eab335cf55a64e2ce45
+SHA256: e0177d666623116480d9a90e860f01cca41e15a0828164f17c69a3afde58fb83
+Section: sound
+Priority: optional
+Description: Ocean media helper command ocean-term-media-014
+ Ocean terminal package for OceanStudio on Android.
+
+Package: ocean-term-media-015
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-term-media-core
+Filename: pool/main/ocean-term-media-015_1.0.0-1+ocean1_all.deb
+Size: 932
+MD5sum: 33a36715829deb53b0b8ac62fa9784cd
+SHA1: 858f3cce2078030ab156e9b21f6fb6442b443011
+SHA256: 99f8f1c29bf7a3cd4bebecbf35826428ba25a2b51d05be14e34bbc91bbe9a078
+Section: sound
+Priority: optional
+Description: Ocean media helper command ocean-term-media-015
+ Ocean terminal package for OceanStudio on Android.
+
+Package: ocean-term-media-016
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-term-media-core
+Filename: pool/main/ocean-term-media-016_1.0.0-1+ocean1_all.deb
+Size: 932
+MD5sum: d79a8ddc824ca656dd9824c178c685ac
+SHA1: 4f4a045f9f72a6658ae022b3b30cc97b97718ba6
+SHA256: a143b23d9abaa8284c5ee6ec91e17e5b3a510cb0be20b1a7b3b9610ffeec9c66
+Section: sound
+Priority: optional
+Description: Ocean media helper command ocean-term-media-016
+ Ocean terminal package for OceanStudio on Android.
+
+Package: ocean-term-media-017
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-term-media-core
+Filename: pool/main/ocean-term-media-017_1.0.0-1+ocean1_all.deb
+Size: 932
+MD5sum: 4d09b23b8bd7913080411708b881798d
+SHA1: 3c27788c9dab1f6596bddbf8a2f3c03745aa60b3
+SHA256: cb189c52090ffe542eceb90b84dfd4e2b9e309d0b53c1aa5f2cbb103be6df574
+Section: sound
+Priority: optional
+Description: Ocean media helper command ocean-term-media-017
+ Ocean terminal package for OceanStudio on Android.
+
+Package: ocean-term-media-018
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-term-media-core
+Filename: pool/main/ocean-term-media-018_1.0.0-1+ocean1_all.deb
+Size: 932
+MD5sum: 689a231e793446e64baff0adfa43e562
+SHA1: 741e4dd2fe36d26954e1dd6616dcd60f6f81ce12
+SHA256: ecc81240acbfdb05ffd4c3746e175e2c1aa952b3f23fe806716815493374c932
+Section: sound
+Priority: optional
+Description: Ocean media helper command ocean-term-media-018
+ Ocean terminal package for OceanStudio on Android.
+
+Package: ocean-term-media-019
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-term-media-core
+Filename: pool/main/ocean-term-media-019_1.0.0-1+ocean1_all.deb
+Size: 932
+MD5sum: 3a690635fb4b8e43c2f174b21d3f8ac7
+SHA1: 1601abde38a8766fdd8c512d85b09a987eeb35cb
+SHA256: 3441c4816bf37961a1d3991a8f54ff502dd467fcef542918ed7f210927691754
+Section: sound
+Priority: optional
+Description: Ocean media helper command ocean-term-media-019
+ Ocean terminal package for OceanStudio on Android.
+
+Package: ocean-term-media-020
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-term-media-core
+Filename: pool/main/ocean-term-media-020_1.0.0-1+ocean1_all.deb
+Size: 932
+MD5sum: 642ca4ac6ae18f26ef4cc40d3d41f7bf
+SHA1: d0219543de32e000d61441f7c990ac388cb875c8
+SHA256: dcac027f335224a175a18161a8ef70d3b302fa3ecb74fc7df04cb5c4a57680ce
+Section: sound
+Priority: optional
+Description: Ocean media helper command ocean-term-media-020
+ Ocean terminal package for OceanStudio on Android.
+
+Package: ocean-term-media-021
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-term-media-core
+Filename: pool/main/ocean-term-media-021_1.0.0-1+ocean1_all.deb
+Size: 932
+MD5sum: f726839417dd878a056eba83863c0d10
+SHA1: 978e253179d4b4478fb1c27e856a7072e1ac3573
+SHA256: 751e691fdbcca6db9dbf098caecb5b2973a0fc15a1062db7e40c889f02b3e3c4
+Section: sound
+Priority: optional
+Description: Ocean media helper command ocean-term-media-021
+ Ocean terminal package for OceanStudio on Android.
+
+Package: ocean-term-media-022
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-term-media-core
+Filename: pool/main/ocean-term-media-022_1.0.0-1+ocean1_all.deb
+Size: 932
+MD5sum: 23f58926ff3602056337677582e000b5
+SHA1: a7fa86ac017fa623683c6c8bf356cd366ef43ce1
+SHA256: 1ca26777f9a498478662a5797a48a9557205ef82739be215d4ed6f714669efe2
+Section: sound
+Priority: optional
+Description: Ocean media helper command ocean-term-media-022
+ Ocean terminal package for OceanStudio on Android.
+
+Package: ocean-term-media-023
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-term-media-core
+Filename: pool/main/ocean-term-media-023_1.0.0-1+ocean1_all.deb
+Size: 932
+MD5sum: 074d2bcd4412b535d2f67fb1205c679f
+SHA1: cde125a69b4a686e5f179e11037083285e867e26
+SHA256: baefb386c60a012ef2a8c8a4f6f51ca0f66dadda022700f90721962ba7a51bc4
+Section: sound
+Priority: optional
+Description: Ocean media helper command ocean-term-media-023
+ Ocean terminal package for OceanStudio on Android.
+
+Package: ocean-term-media-024
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-term-media-core
+Filename: pool/main/ocean-term-media-024_1.0.0-1+ocean1_all.deb
+Size: 932
+MD5sum: fe787b5642110a2d9792e5687bf88b97
+SHA1: d2d53244fed56dd870c3cdad269b760210883e79
+SHA256: ca5da848afa064c39fc16ce5e583008f0e84c6325de05da37ddc22f649256583
+Section: sound
+Priority: optional
+Description: Ocean media helper command ocean-term-media-024
+ Ocean terminal package for OceanStudio on Android.
+
+Package: ocean-term-media-025
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-term-media-core
+Filename: pool/main/ocean-term-media-025_1.0.0-1+ocean1_all.deb
+Size: 932
+MD5sum: fc1a734cd14198b9030e0c3c33cb07c5
+SHA1: 5ca0e66ba44d11d4e25923a3bb44f297cc5b4311
+SHA256: f675be8298a9bc821d3c4f945fceaa6eba2ebeeb2256727cb7c74062a3663191
+Section: sound
+Priority: optional
+Description: Ocean media helper command ocean-term-media-025
+ Ocean terminal package for OceanStudio on Android.
+
+Package: ocean-term-media-026
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-term-media-core
+Filename: pool/main/ocean-term-media-026_1.0.0-1+ocean1_all.deb
+Size: 932
+MD5sum: 4e4f0ba3513c58b79aaef3e2a00ae28d
+SHA1: 6feb23b416fe6f197e9e768cf704ccb51a412ba9
+SHA256: 5a8117cb1910ac7287764d3298892752573888c66a8cb00b25d6237bf850d8bf
+Section: sound
+Priority: optional
+Description: Ocean media helper command ocean-term-media-026
+ Ocean terminal package for OceanStudio on Android.
+
+Package: ocean-term-media-027
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-term-media-core
+Filename: pool/main/ocean-term-media-027_1.0.0-1+ocean1_all.deb
+Size: 932
+MD5sum: 14dbc0238f7b175a5a4b07dcf8393ac4
+SHA1: fef25aeebbf9affbadde826fe748fcad4b53eeb1
+SHA256: 7e8c3c19128bc5e3623a6da8d00078625840fdc28330764236269184805694c0
+Section: sound
+Priority: optional
+Description: Ocean media helper command ocean-term-media-027
+ Ocean terminal package for OceanStudio on Android.
+
+Package: ocean-term-media-028
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-term-media-core
+Filename: pool/main/ocean-term-media-028_1.0.0-1+ocean1_all.deb
+Size: 932
+MD5sum: 9afc2d54e864f380a417047373ab69db
+SHA1: c3d3fe9cad803a51209e1efa110eb1534190a3fa
+SHA256: 1409fb6735e47de88ef55731ed13b8d64d4545927e3751ac148a99ba4f8f6274
+Section: sound
+Priority: optional
+Description: Ocean media helper command ocean-term-media-028
+ Ocean terminal package for OceanStudio on Android.
+
+Package: ocean-term-media-029
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-term-media-core
+Filename: pool/main/ocean-term-media-029_1.0.0-1+ocean1_all.deb
+Size: 932
+MD5sum: ab60f42d15c0393b2fd2fd14cb09708d
+SHA1: 6f1de8edcdc9b9067ddbd3aaac38735d488c60e0
+SHA256: 906cbed79996e9f0383ce7e24d8bc81486c0fc9202c5f82d1098179de233148d
+Section: sound
+Priority: optional
+Description: Ocean media helper command ocean-term-media-029
+ Ocean terminal package for OceanStudio on Android.
+
+Package: ocean-term-media-030
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-term-media-core
+Filename: pool/main/ocean-term-media-030_1.0.0-1+ocean1_all.deb
+Size: 932
+MD5sum: 2c54aa67ea8d5bca2165186bf48a2e04
+SHA1: 96593ea8d9e88bff2186d8aca75c5b3fa7484f82
+SHA256: 15b90f989262aa6b78e03c44fc96a5f09226b33d82756e2bb67e2159e435e4e8
+Section: sound
+Priority: optional
+Description: Ocean media helper command ocean-term-media-030
+ Ocean terminal package for OceanStudio on Android.
+
+Package: ocean-term-media-031
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-term-media-core
+Filename: pool/main/ocean-term-media-031_1.0.0-1+ocean1_all.deb
+Size: 932
+MD5sum: 5f2cee3e53db71d0a52a34a907491afc
+SHA1: dc7d270ef53378170c2ec893d8178f2b571a885d
+SHA256: 2ef6e965425748ce72862041d056ec0012d948784f7243fc3c36983433d0d90d
+Section: sound
+Priority: optional
+Description: Ocean media helper command ocean-term-media-031
+ Ocean terminal package for OceanStudio on Android.
+
+Package: ocean-term-media-032
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-term-media-core
+Filename: pool/main/ocean-term-media-032_1.0.0-1+ocean1_all.deb
+Size: 932
+MD5sum: 12b07f2e9c2163a7dd3781223fd63e04
+SHA1: 66f0176760f27dc5fdf44471c1a2100588e5899f
+SHA256: af79b57628ebaaf0472d6a907c9078ff90a04a7bcea052476d3cf41af53e03c3
+Section: sound
+Priority: optional
+Description: Ocean media helper command ocean-term-media-032
+ Ocean terminal package for OceanStudio on Android.
+
+Package: ocean-term-media-033
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-term-media-core
+Filename: pool/main/ocean-term-media-033_1.0.0-1+ocean1_all.deb
+Size: 932
+MD5sum: 7c30cfeac0eea609b4e0596d19a61e93
+SHA1: ee0ce93835edb1a8da4512b1c6b392d1aaed7d7f
+SHA256: 22032748702fcd039a4392c2be61ae896cc55cd4ee943981a344acfacfc3788e
+Section: sound
+Priority: optional
+Description: Ocean media helper command ocean-term-media-033
+ Ocean terminal package for OceanStudio on Android.
+
+Package: ocean-term-media-034
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-term-media-core
+Filename: pool/main/ocean-term-media-034_1.0.0-1+ocean1_all.deb
+Size: 932
+MD5sum: 33bfdd72d3c9b7c9f5aae4002aa32a0d
+SHA1: 042903354d7448413aff15087b411557116210fb
+SHA256: b017fbafbbbc44a37b4a98a1d85388920542946a035e678008f49eb870da2273
+Section: sound
+Priority: optional
+Description: Ocean media helper command ocean-term-media-034
+ Ocean terminal package for OceanStudio on Android.
+
+Package: ocean-term-media-035
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-term-media-core
+Filename: pool/main/ocean-term-media-035_1.0.0-1+ocean1_all.deb
+Size: 932
+MD5sum: 897a62b95754d1e31ac42cd6c9c0384c
+SHA1: d4ee3ac023b3e1836ef4d235f0118a7ebb8d8228
+SHA256: cbac1a535471c9ae42b854f63eebf4908ec38d383c401769386b7422a5a1bbf2
+Section: sound
+Priority: optional
+Description: Ocean media helper command ocean-term-media-035
+ Ocean terminal package for OceanStudio on Android.
+
+Package: ocean-term-media-036
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-term-media-core
+Filename: pool/main/ocean-term-media-036_1.0.0-1+ocean1_all.deb
+Size: 932
+MD5sum: 66e1d123983288b2a42e7cdc24f1bcb7
+SHA1: 288d517082e724182f8e61a2cd824f4662866f7c
+SHA256: bb951e7a14ebaa957d4252d284a89e27a6b1562d1d4ee3f25659ec66779f4c37
+Section: sound
+Priority: optional
+Description: Ocean media helper command ocean-term-media-036
+ Ocean terminal package for OceanStudio on Android.
+
+Package: ocean-term-media-037
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-term-media-core
+Filename: pool/main/ocean-term-media-037_1.0.0-1+ocean1_all.deb
+Size: 932
+MD5sum: ff06a05571b13a73a364a21b2e399151
+SHA1: 73c0a1546ded443bd28cdb2718ddbc9d0da46ba6
+SHA256: 5e92f174e5a763bc2f7e7b1be655b91fc5f36f3cae6eba20defb25af7157f622
+Section: sound
+Priority: optional
+Description: Ocean media helper command ocean-term-media-037
+ Ocean terminal package for OceanStudio on Android.
+
+Package: ocean-term-media-038
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-term-media-core
+Filename: pool/main/ocean-term-media-038_1.0.0-1+ocean1_all.deb
+Size: 932
+MD5sum: 0f1d1867628ae0e156ab6e17deea1676
+SHA1: 6f99bb337a1eae043265fb9986f9f89a89290801
+SHA256: 9e1d656b915571e8a1fa1767acd90cd5ae2a78369656175ccb6df47dd724b224
+Section: sound
+Priority: optional
+Description: Ocean media helper command ocean-term-media-038
+ Ocean terminal package for OceanStudio on Android.
+
+Package: ocean-term-media-039
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-term-media-core
+Filename: pool/main/ocean-term-media-039_1.0.0-1+ocean1_all.deb
+Size: 932
+MD5sum: cc0a03b8e401e6faa970b555d99c65ab
+SHA1: 6e474edbb4642a3174d25a628167c07dc895572a
+SHA256: 3afddcf0961434410450c1450426f2824757fc7fcf10ec2e60a250f565afe09f
+Section: sound
+Priority: optional
+Description: Ocean media helper command ocean-term-media-039
+ Ocean terminal package for OceanStudio on Android.
+
+Package: ocean-term-media-040
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-term-media-core
+Filename: pool/main/ocean-term-media-040_1.0.0-1+ocean1_all.deb
+Size: 932
+MD5sum: d1e36ce2301f0833fce455561b3eb838
+SHA1: 92937b1190a9974f6bee001405a432c76bdd62a6
+SHA256: ccad4d4c61fa8fb5b41da05a4b164c22143546f593776c2b1e014e4b3b216317
+Section: sound
+Priority: optional
+Description: Ocean media helper command ocean-term-media-040
+ Ocean terminal package for OceanStudio on Android.
+
+Package: ocean-term-media-041
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-term-media-core
+Filename: pool/main/ocean-term-media-041_1.0.0-1+ocean1_all.deb
+Size: 932
+MD5sum: 731cb1468fed17632870218e05ada024
+SHA1: 34860b8787a5c12f2d0258f9e2f9ed1bff83367a
+SHA256: c6ba9000c2d05cc2708d8065ab3c16e51a86c15e2f4169cdd1762d841d2434d4
+Section: sound
+Priority: optional
+Description: Ocean media helper command ocean-term-media-041
+ Ocean terminal package for OceanStudio on Android.
+
+Package: ocean-term-media-042
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-term-media-core
+Filename: pool/main/ocean-term-media-042_1.0.0-1+ocean1_all.deb
+Size: 932
+MD5sum: 75ea18101e07a20e069294db98457c93
+SHA1: fdb4024d437997ccd773d83ac5f839709a05f466
+SHA256: 1adbabde7e57f1374d486828f124e32ebff1d96daa40a27d634ab5aa22ea6c4a
+Section: sound
+Priority: optional
+Description: Ocean media helper command ocean-term-media-042
+ Ocean terminal package for OceanStudio on Android.
+
+Package: ocean-term-media-043
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-term-media-core
+Filename: pool/main/ocean-term-media-043_1.0.0-1+ocean1_all.deb
+Size: 932
+MD5sum: 9b3acb0f27cd71c2e89b63d27b8da879
+SHA1: 9fc802c155471ea0c4f69dea997322303dbe44a8
+SHA256: 373d6dc41fdbdce85dc02c2b15d05ac6cc0b78334f87f56b86f5c592009eb97d
+Section: sound
+Priority: optional
+Description: Ocean media helper command ocean-term-media-043
+ Ocean terminal package for OceanStudio on Android.
+
+Package: ocean-term-media-044
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-term-media-core
+Filename: pool/main/ocean-term-media-044_1.0.0-1+ocean1_all.deb
+Size: 932
+MD5sum: d83f687435c7d40d9fe1432655944e0f
+SHA1: 731e2ba512b49270020033830b96416ffd1efe7c
+SHA256: d037b9f1f66da8d703ce399be2a6242d0e502dea186b8de7743e28e01c4914ff
+Section: sound
+Priority: optional
+Description: Ocean media helper command ocean-term-media-044
+ Ocean terminal package for OceanStudio on Android.
+
+Package: ocean-term-media-045
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-term-media-core
+Filename: pool/main/ocean-term-media-045_1.0.0-1+ocean1_all.deb
+Size: 932
+MD5sum: 9935fda7c14d8c90b0aed9452d79d06e
+SHA1: 8e21a353fe033c28091b0ddab6be3dd2eb423cde
+SHA256: d5abfd70cd25c257c3928323eeecd8fee1824b41b71a22aad30853765fffca3b
+Section: sound
+Priority: optional
+Description: Ocean media helper command ocean-term-media-045
+ Ocean terminal package for OceanStudio on Android.
+
+Package: ocean-term-media-046
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-term-media-core
+Filename: pool/main/ocean-term-media-046_1.0.0-1+ocean1_all.deb
+Size: 932
+MD5sum: 9c15950b329f8997b628614569e54067
+SHA1: abf9c00f4a7c831334ad652e2e9896f4c17dc577
+SHA256: 49674eab7e6a1cacba9556ee79f472c3f31af5f856215b7dd9d01e2225661e0b
+Section: sound
+Priority: optional
+Description: Ocean media helper command ocean-term-media-046
+ Ocean terminal package for OceanStudio on Android.
+
+Package: ocean-term-media-047
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-term-media-core
+Filename: pool/main/ocean-term-media-047_1.0.0-1+ocean1_all.deb
+Size: 932
+MD5sum: 15dd64d9644aa7923402808ef9047df0
+SHA1: 9a16674510df5ba0f446de974c396f02dbd0eb5b
+SHA256: 3cb726b4371b7e8988b9b2e1cae035a78b74b17103fa54cad8d84f70294a15fb
+Section: sound
+Priority: optional
+Description: Ocean media helper command ocean-term-media-047
+ Ocean terminal package for OceanStudio on Android.
+
+Package: ocean-term-media-048
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-term-media-core
+Filename: pool/main/ocean-term-media-048_1.0.0-1+ocean1_all.deb
+Size: 932
+MD5sum: 0416fac4478b68af0bd77e6a41fddc13
+SHA1: f867486ae2e2b737ea44e3c2a25211b521273e7b
+SHA256: 2831fbc6c370043bdba2500121ad6fbbf69989e6cdc3b1b5cb1a981ba728ceeb
+Section: sound
+Priority: optional
+Description: Ocean media helper command ocean-term-media-048
+ Ocean terminal package for OceanStudio on Android.
+
+Package: ocean-term-media-049
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-term-media-core
+Filename: pool/main/ocean-term-media-049_1.0.0-1+ocean1_all.deb
+Size: 932
+MD5sum: 0b7e1673ffecf4fb806c13949001042c
+SHA1: 2ecc6a1500e1c19cddeca5dda5749920dd80a0f9
+SHA256: f13d61271db8bf28a2400269bf61630e3b484632aa3c250ffb382a6db3844938
+Section: sound
+Priority: optional
+Description: Ocean media helper command ocean-term-media-049
+ Ocean terminal package for OceanStudio on Android.
+
+Package: ocean-term-media-050
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
+Depends: ocean-term-media-core
+Filename: pool/main/ocean-term-media-050_1.0.0-1+ocean1_all.deb
+Size: 932
+MD5sum: 8489e86351335385fe82c6aae07e8062
+SHA1: c58860bf1d4698ca56eda90c63a1f4249ae9b1c8
+SHA256: 49b2d27dfc810b951a4b253f61e6dbad0c9162f700f21f039023a2b4c2fa2fc7
+Section: sound
+Priority: optional
+Description: Ocean media helper command ocean-term-media-050
+ Ocean terminal package for OceanStudio on Android.

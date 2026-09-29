@@ -44,6 +44,7 @@ on:
       - "Build Ocean Lab 200 package suite"
       - "Build Ocean Workbench 300 package suite"
       - "Build independent Ocean X11 runtime"
+      - "Build priority userland half batch"
       - "Build Ocean Power suite"
       - "Repair 150 functional packages (08 10 11)"
       - "Repair 150 functional packages (09 13 16)"

@@ -1,0 +1,91 @@
+name: Build priority userland half batch
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'sources/priority-userland-half/**'
+      - 'scripts/build-priority-userland-half.py'
+      - 'tests/test-priority-userland-half.py'
+      - '.github/workflows/build-priority-userland-half.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: priority-userland-half
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /sources/priority-userland-half/
+            /scripts/build-priority-userland-half.py
+            /tests/test-priority-userland-half.py
+            /staging/priority-userland-half/
+            /apt/dists/stable/main/binary-aarch64/Packages
+            /.github/workflows/build-priority-userland-half.yml
+
+      - name: Install packaging tools
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          sudo apt-get install -y dpkg-dev
+
+      - name: Compile and test helpers
+        run: |
+          set -euo pipefail
+          python3 -m py_compile \
+            sources/priority-userland-half/ocean_media_half.py \
+            scripts/build-priority-userland-half.py \
+            tests/test-priority-userland-half.py
+          python3 tests/test-priority-userland-half.py
+
+      - name: Build 63 new packages
+        run: |
+          set -euo pipefail
+          python3 scripts/build-priority-userland-half.py \
+            --source sources/priority-userland-half \
+            --output staging/priority-userland-half \
+            --existing-packages apt/dists/stable/main/binary-aarch64/Packages
+
+      - name: Audit package set
+        run: |
+          set -euo pipefail
+          test "$(find staging/priority-userland-half/pool/main -type f -name '*.deb' | wc -l)" -eq 63
+          test "$(grep -c '^Package:' staging/priority-userland-half/Packages.new)" -eq 63
+          python3 - <<'PY'
+          import json
+          d = json.load(open("staging/priority-userland-half/provenance.json"))
+          assert d["packageCount"] == 63
+          assert d["uniquePackageCount"] == 63
+          assert len(d["bridges"]) == 12
+          print("63/63 package identities verified")
+          PY
+          while IFS= read -r deb; do
+            dpkg-deb --info "$deb" >/dev/null
+          done < <(find staging/priority-userland-half/pool/main -type f -name '*.deb' | sort)
+
+      - name: Commit staged batch
+        run: |
+          set -euo pipefail
+          git config user.name "Ocean Package Builder"
+          git config user.email "packages@ocean.studio"
+          git add staging/priority-userland-half sources/priority-userland-half scripts/build-priority-userland-half.py tests/test-priority-userland-half.py .github/workflows/build-priority-userland-half.yml
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "feat(priority-userland): stage 63 CLI bridges and media helpers [skip ci]"
+          for attempt in 1 2 3 4 5; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then exit 0; fi
+            sleep $((attempt * 2))
+          done
+          exit 1
