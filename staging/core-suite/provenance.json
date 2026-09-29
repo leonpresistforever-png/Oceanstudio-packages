@@ -8,7 +8,7 @@
     {
       "package": "busybox",
       "artifact": "busybox_1.38.0-1_aarch64.deb",
-      "sha256": "7888fe8ba4de16aed5f0a4ab4a0306362c96497cf6c2486e211fbf17f5d29e76",
+      "sha256": "d40f9d8b97971af41c6e5055ee495dd68e15074e9c0728459d40350419e6e409",
       "sourceSha256": "34f9ea6ff8636f2c9241153b9114eefa9e65674a45318ae1ef95bb5f31c53bb2",
       "patches": [
         "base config switched to upstream android_ndk_defconfig",
@@ -29,7 +29,7 @@
     {
       "package": "sbase",
       "artifact": "sbase_0.1+gitc546c3a-1_aarch64.deb",
-      "sha256": "600ec6901d78d902e3a91dce40e126f79be1d68ccf1ade56873ee42913f03194",
+      "sha256": "4bc61880ee2eb2bb4376030da2535d0cf16508814126c1e2197820b35a8f93cd",
       "commit": "c546c3a5724c81cee9a11d816a38ccdf17472129",
       "patches": [
         "HOSTCC for build-time scripts/make"
@@ -47,7 +47,7 @@
     {
       "package": "ubase",
       "artifact": "ubase_0.1+gite8249b4-1_aarch64.deb",
-      "sha256": "dfebe24bac8ff2dfce8eb16f4a1b10b407157efccba022d58e03499acc8f16d9",
+      "sha256": "1ff2983c91e026d4daa4f90f0a6b1e9ca2a1b9e223f85a09855dd66db3489c11",
       "commit": "e8249b49ca3e02032dece5e0cdac3d236667a6d9",
       "patches": [
         "exclude setuid passwd/su and console getty/login unsupported on Android Bionic"
@@ -65,7 +65,7 @@
     {
       "package": "sinit",
       "artifact": "sinit_1.1+git28c44b6-1_aarch64.deb",
-      "sha256": "f909d5fe26d86637770de2d55394b25f6bae7a281befe3512076dfd74052b51c",
+      "sha256": "f0aa40101c7d197bd56d4d8f92cbd0673c1dc1bf36c6b305cad05df758dc9e02",
       "commit": "28c44b6b94a870f2942c37f9cfbae8b770595712",
       "patches": [
         "rc paths relocated to Ocean private prefix"
@@ -83,7 +83,7 @@
     {
       "package": "buildroot",
       "artifact": "buildroot_2026.08-1_all.deb",
-      "sha256": "be83f749e15ae87d49c06b39a48a120f738e5e75ba7df53f21a5ec2eaae93e50",
+      "sha256": "c7406e0d442d4f68a5fc59daae217efb8beaf02828f921f75f01c7346564a83b",
       "tag": "2026.08",
       "commit": "d5180309b1b66ef3b8eaccca70ad69be8e0729a1",
       "validation": {
@@ -96,35 +96,35 @@
       "package": "buildroot",
       "architecture": "all",
       "artifact": "buildroot_2026.08-1_all.deb",
-      "sha256": "be83f749e15ae87d49c06b39a48a120f738e5e75ba7df53f21a5ec2eaae93e50",
+      "sha256": "c7406e0d442d4f68a5fc59daae217efb8beaf02828f921f75f01c7346564a83b",
       "bytes": 5595172
     },
     {
       "package": "busybox",
       "architecture": "aarch64",
       "artifact": "busybox_1.38.0-1_aarch64.deb",
-      "sha256": "7888fe8ba4de16aed5f0a4ab4a0306362c96497cf6c2486e211fbf17f5d29e76",
+      "sha256": "d40f9d8b97971af41c6e5055ee495dd68e15074e9c0728459d40350419e6e409",
       "bytes": 428344
     },
     {
       "package": "sbase",
       "architecture": "aarch64",
       "artifact": "sbase_0.1+gitc546c3a-1_aarch64.deb",
-      "sha256": "600ec6901d78d902e3a91dce40e126f79be1d68ccf1ade56873ee42913f03194",
+      "sha256": "4bc61880ee2eb2bb4376030da2535d0cf16508814126c1e2197820b35a8f93cd",
       "bytes": 128372
     },
     {
       "package": "sinit",
       "architecture": "aarch64",
       "artifact": "sinit_1.1+git28c44b6-1_aarch64.deb",
-      "sha256": "f909d5fe26d86637770de2d55394b25f6bae7a281befe3512076dfd74052b51c",
+      "sha256": "f0aa40101c7d197bd56d4d8f92cbd0673c1dc1bf36c6b305cad05df758dc9e02",
       "bytes": 3996
     },
     {
       "package": "ubase",
       "architecture": "aarch64",
       "artifact": "ubase_0.1+gite8249b4-1_aarch64.deb",
-      "sha256": "dfebe24bac8ff2dfce8eb16f4a1b10b407157efccba022d58e03499acc8f16d9",
+      "sha256": "1ff2983c91e026d4daa4f90f0a6b1e9ca2a1b9e223f85a09855dd66db3489c11",
       "bytes": 30440
     }
   ],

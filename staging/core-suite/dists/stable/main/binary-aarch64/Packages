@@ -5,9 +5,9 @@ Maintainer: OceanStudio <maintainer@ocean.studio>
 Depends: bash, make, python, git, tar, gzip, bzip2, xz-utils, patch, sed, gawk, grep, findutils, diffutils, coreutils
 Filename: pool/main/buildroot_2026.08-1_all.deb
 Size: 5595172
-MD5sum: f06ce763d8158238f48a7dafc72f967b
-SHA1: 279f4498a4f49b4b2aaa5a561096cb2ab63cd375
-SHA256: be83f749e15ae87d49c06b39a48a120f738e5e75ba7df53f21a5ec2eaae93e50
+MD5sum: 0257a3012d8d175a322debfe7f42fd2b
+SHA1: 056ad377d47e04db0e6a32c0e26f89b21ea73ab7
+SHA256: c7406e0d442d4f68a5fc59daae217efb8beaf02828f921f75f01c7346564a83b
 Section: devel
 Priority: optional
 Description: Official Buildroot 2026.08 source framework with Ocean private workspace launcher
@@ -18,9 +18,9 @@ Architecture: aarch64
 Maintainer: OceanStudio <maintainer@ocean.studio>
 Filename: pool/main/busybox_1.38.0-1_aarch64.deb
 Size: 428344
-MD5sum: e810738d66a104631aa26752cb5f5149
-SHA1: 0f070b33a75defbad25c95f577727fb8b0c7ee50
-SHA256: 7888fe8ba4de16aed5f0a4ab4a0306362c96497cf6c2486e211fbf17f5d29e76
+MD5sum: e4299bc2c1e317ff36229c585096851b
+SHA1: 2edb6c11613e6401a7deadbf1ef82bec8c3a9fba
+SHA256: d40f9d8b97971af41c6e5055ee495dd68e15074e9c0728459d40350419e6e409
 Section: utils
 Priority: optional
 Description: BusyBox multicall utility compiled from official upstream source for Ocean Android/AArch64
@@ -31,9 +31,9 @@ Architecture: aarch64
 Maintainer: OceanStudio <maintainer@ocean.studio>
 Filename: pool/main/sbase_0.1+gitc546c3a-1_aarch64.deb
 Size: 128372
-MD5sum: ae64318379a8d0b22f427d8aef459375
-SHA1: a03fe0ed3f85be6df2375c3a12c09d7bdb33eef6
-SHA256: 600ec6901d78d902e3a91dce40e126f79be1d68ccf1ade56873ee42913f03194
+MD5sum: 983ce68671ba454c19a24024535cbf13
+SHA1: 2269168e032eec56c0e0965a37eb16b6ce4244fb
+SHA256: 4bc61880ee2eb2bb4376030da2535d0cf16508814126c1e2197820b35a8f93cd
 Section: utils
 Priority: optional
 Description: suckless sbase multicall utilities compiled for Ocean Android/AArch64
@@ -44,9 +44,9 @@ Architecture: aarch64
 Maintainer: OceanStudio <maintainer@ocean.studio>
 Filename: pool/main/sinit_1.1+git28c44b6-1_aarch64.deb
 Size: 3996
-MD5sum: 9c2c8a6a54aeb4ea357233a5dad205e5
-SHA1: f4d5cbb03590692f6f881514444d6f4752d190bf
-SHA256: f909d5fe26d86637770de2d55394b25f6bae7a281befe3512076dfd74052b51c
+MD5sum: 6c2385015b7b49d5626edd2ef1a790c4
+SHA1: d6b964f5746aba8672fcbc988fa913f76517bedd
+SHA256: f0aa40101c7d197bd56d4d8f92cbd0673c1dc1bf36c6b305cad05df758dc9e02
 Section: utils
 Priority: optional
 Description: suckless sinit compiled for Ocean; intended for a suitable PID-1 container/rootfs environment
@@ -57,9 +57,9 @@ Architecture: aarch64
 Maintainer: OceanStudio <maintainer@ocean.studio>
 Filename: pool/main/ubase_0.1+gite8249b4-1_aarch64.deb
 Size: 30440
-MD5sum: e8ae9ae948b9f89dcfccc8b5e40c30b6
-SHA1: ace04bfa1a860876b06bbe83070aa74aea869f2f
-SHA256: dfebe24bac8ff2dfce8eb16f4a1b10b407157efccba022d58e03499acc8f16d9
+MD5sum: e3b40eaa5741542defae81b007c335cd
+SHA1: 8830c9f9fa5191209180f632ecdacd271843f057
+SHA256: 1ff2983c91e026d4daa4f90f0a6b1e9ca2a1b9e223f85a09855dd66db3489c11
 Section: utils
 Priority: optional
 Description: suckless ubase Linux utility multicall binary compiled for Ocean Android/AArch64
