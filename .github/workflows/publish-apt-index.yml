@@ -55,6 +55,7 @@ on:
       - "Repair functional shard 26"
       - "Repair functional shard 27"
       - "Build official-source Toybox expansion"
+      - "Build native Ocean graphics foundation from upstream"
     types: [completed]
     branches: [main]
 
