@@ -5,9 +5,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: python
 Filename: pool/main/ocean-term/core/ocean-term-media-core_1.0.0-1+ocean1_all.deb
 Size: 2428
-MD5sum: cebbd3753efb8ff88843e5b27bdd59ad
-SHA1: f7094a6bc3af53acfdb1e3d3d35c077bba6294a3
-SHA256: fd0da3a6f9ec6cb14b559270417c6b3a1ffb05dbb843dea2e2eb61e3e720e09d
+MD5sum: 651a99f37d2810aa46a322d1634cd847
+SHA1: fc3f9024b21d679cdb560a54135e99d52f23b08e
+SHA256: 85898c2d61e3ab37677bb20e512d8d2025472caf318b9d03d46bcbc93c63632b
 Section: utils
 Priority: optional
 Description: Shared runtime for Ocean terminal media helper commands
@@ -20,9 +20,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-term-media-core
 Filename: pool/main/bridge/notify-send_1.0.0-1+ocean1_all.deb
 Size: 888
-MD5sum: c22d21667ac6272e0e9bd7cf98660210
-SHA1: 95a0c2e46db2d80281360467b4a8617685b84f6e
-SHA256: fddde1b437c1b04afaa621bb61389cb1d28272ce2a5354717265bd9d5e3e055c
+MD5sum: 0fc127b43f2d343073a7e20199ef0881
+SHA1: e135c40856d2ae3c08b51432f156864482cb1f54
+SHA256: 06b3d5625064f39ff64bd29803d8c6b2fc63a53ec42dc9ecad5f905d7baa2edd
 Section: utils
 Priority: optional
 Description: Send Android notifications via ocean-notify
@@ -35,9 +35,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-term-media-core
 Filename: pool/main/bridge/aplay_1.0.0-1+ocean1_all.deb
 Size: 992
-MD5sum: f2106a2a85243287f85187012af20b37
-SHA1: 7c83486233c38955e7eda32d97d1a269a87e3443
-SHA256: 2f479c954747c5440f79c5fd4bd7fcf65029cf97b46e231b7846b35b295166f8
+MD5sum: d72b1273833ef77bbc4222c08f641276
+SHA1: b125ab179ce959777962a2b27fbf780932d7f2e0
+SHA256: 0411e30fff085817ccca908d116903e2870ffdf9c9624fd437051b8a4b9c8801
 Section: sound
 Priority: optional
 Description: Play audio via pulseaudio paplay/pacat or alsa-utils
@@ -50,9 +50,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-term-media-core
 Filename: pool/main/bridge/arecord_1.0.0-1+ocean1_all.deb
 Size: 976
-MD5sum: 134d349f218f5fecc85be6bc81073c31
-SHA1: 8524dba7c0a0405c47041a6d2896b1b06014e4f8
-SHA256: cda681e4448055121e61edce2da15d791db61e6dfcaf5334b7979b191e99ddf2
+MD5sum: c75bafee40134a8348e25a225d1d9309
+SHA1: 04d56cba09831b5a3906e821e03062dd87c605ec
+SHA256: 0e8a72201d176eb2e71f59331e1cae9e051f3e726a60c8558a9151f6a564e933
 Section: sound
 Priority: optional
 Description: Record audio via pulseaudio pacat or alsa-utils
@@ -65,9 +65,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-term-media-core
 Filename: pool/main/bridge/paplay_1.0.0-1+ocean1_all.deb
 Size: 744
-MD5sum: ee3ae26cf002965dc0d13f7f411c665d
-SHA1: ab3e29fc224e82cd84f85ea08eef1331f4ea020b
-SHA256: 22a58dc7f2a72bb5b32d7cd554be2def67bf20cef57cf6afef4adb192bafa11d
+MD5sum: 877131c88d9790c2ff4ee1024dd0afba
+SHA1: 8ab811035bba415a342621e73b8308925c195508
+SHA256: 9edb64c0aa665a624f00703bc19853f55599e9a43f75c4d24b5a0c2dcbb5fae9
 Section: sound
 Priority: optional
 Description: Install name for pulseaudio paplay binary
@@ -80,9 +80,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-term-media-core
 Filename: pool/main/bridge/pacat_1.0.0-1+ocean1_all.deb
 Size: 744
-MD5sum: 7c51b1f6458bc01b0986759c79f52ff8
-SHA1: 2667c843955797c1152d14bcccab6b87827dd05b
-SHA256: 878a3884a5ae781e32cc1c694ec08f2b7fe0034adec29eb2440e8861551032fc
+MD5sum: 0a35f64a31436ed34121163762d8090f
+SHA1: 1dabd66d3d8a6e196563d39074866c2b1b3efec0
+SHA256: 321cc70db1eeb1a55b589573b43d42c60750c5b31485a27e6f70bfa163506c04
 Section: sound
 Priority: optional
 Description: Install name for pulseaudio pacat binary
@@ -95,9 +95,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-term-media-core
 Filename: pool/main/bridge/pactl_1.0.0-1+ocean1_all.deb
 Size: 744
-MD5sum: 2930da9b0450908ab30612d135a173c1
-SHA1: 779311c59151b9d0903a66a9aa6c9ec86f7b555b
-SHA256: 5b35e143dd06e98d950d84a347cfba779addaa58b44880908da2dea31a36d623
+MD5sum: 0bfe3ffcc0ffdfe93013ef0ae3fd1d02
+SHA1: ed43fdde3d56aa1dbf75e1c377e078b7efe30205
+SHA256: e30005ff4809bbb8baaa6c0b6963241f68b75be5c90c77725434db978ce76496
 Section: sound
 Priority: optional
 Description: Install name for pulseaudio pactl binary
@@ -110,9 +110,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-term-media-core
 Filename: pool/main/bridge/parec_1.0.0-1+ocean1_all.deb
 Size: 744
-MD5sum: a5e2112e4dfda43ee69fa27d12a778a4
-SHA1: 2afee72522bd494f3a5bdfb32e0876fa84dc5e70
-SHA256: acb7fdc7cf43c1c21fbc99fa91f2b0d6fdb5fe9e45721b08308fc02e2910ec4a
+MD5sum: f41521cfc497f6228b901792d8074b9d
+SHA1: c60f921dd6f9b8657feca4435647a4902cb56999
+SHA256: a44c094a3e82792ed2799cc8d19b48b8de16edde20f36b24428ff1429ef32d8d
 Section: sound
 Priority: optional
 Description: Install name for pulseaudio parec binary
@@ -125,9 +125,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-term-media-core
 Filename: pool/main/bridge/parecord_1.0.0-1+ocean1_all.deb
 Size: 744
-MD5sum: 29b9d88fb77101dc9b052e5123960a8d
-SHA1: 54af32aa026aaf94fde9901be02b2f5b8e0c179c
-SHA256: f8bb27049956e29d709253947719891b1a8bcbbdab180b63380a8831a6f0c4c1
+MD5sum: da8b3ed57d1419b2d940ebd1687330db
+SHA1: bc095918fa5cac0fd994e70a72411023d18c5952
+SHA256: f15cc8e8da3ef8b46c35817ea432f954ce4a970e78e1bf67017ea6f165acd385
 Section: sound
 Priority: optional
 Description: Install name for pulseaudio parecord binary
@@ -140,9 +140,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-term-media-core
 Filename: pool/main/bridge/ffprobe_1.0.0-1+ocean1_all.deb
 Size: 744
-MD5sum: 3e69edc08c640fd5ce88db4ec06c371a
-SHA1: abc9d2112b44ecc1ddffb61e39a2f76c59d0b19b
-SHA256: 3b6ac25808199a890fa7e444e0d595a6d2733b41f93f97db7f40f48a1b5102c1
+MD5sum: e194a6928ef739f5dce724486f26cf5f
+SHA1: f1fac452210fe901a0d60799f95eeed76f3b8879
+SHA256: 4ca32ea328071a9e3d697845a9131ac83d16ed27e7f15dd766841bf737abbf0b
 Section: video
 Priority: optional
 Description: Install name for ffmpeg ffprobe binary
@@ -155,9 +155,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-term-media-core
 Filename: pool/main/bridge/ffplay_1.0.0-1+ocean1_all.deb
 Size: 744
-MD5sum: 860cb60db84691b36acba8d72a987873
-SHA1: 4b61cd078ea478ef1bfaac804cdfa08a663b927e
-SHA256: 20404f34cc331d9926cc4bdc45221dc6daadec931dc6ee95c6e2ca193fbe176e
+MD5sum: b468391fcb39c35caf63d506648c8fbd
+SHA1: 79f29d6c7c994e17789d6b683702cc513f77d666
+SHA256: 9d712b49a057a3fe378c3e23ba92e50cabbf79a841374ee84033943c761e576b
 Section: video
 Priority: optional
 Description: Install name for ffmpeg ffplay binary
@@ -170,9 +170,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-term-media-core
 Filename: pool/main/bridge/xeyes_1.0.0-1+ocean1_all.deb
 Size: 1004
-MD5sum: 83bfdb278c49afdb00e70dee576ae9a4
-SHA1: 2f124a27c5dc1141389e8814f2e75ee7e1b00b13
-SHA256: 304cafba80a0f71f8b976d965e0f22c4111accdaa58e62943099d43717488e25
+MD5sum: ea137840387883b1b60de6970de8579d
+SHA1: 6622ed5c555cbce4e528ca52f854ff9c00466ee7
+SHA256: 40d66933fcff45907bb4fe076f33a30603dced61d0a4f9a4f34c407b298d5978
 Section: x11
 Priority: optional
 Description: Launch xeyes in Ocean X11 guest
@@ -185,9 +185,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-term-media-core
 Filename: pool/main/bridge/ocean_1.0.0-1+ocean1_all.deb
 Size: 1000
-MD5sum: 8decc94e7cef6f870f3476251b56dc50
-SHA1: 6ee06125c023d22f3c96de4854210d862119dd79
-SHA256: 681d3d2574531e5a83dee5984ededb3d24ab16b48da234c5f082bae9973b0093
+MD5sum: 20361890c8120b37ff6413b0af7b2f34
+SHA1: 943f4dc1d1c1766d8f3efdfae73681e8f2178b5c
+SHA256: 4ea3f8289b141b0e887dd88de0e989f08b847ffca4663a2101bfc6f939b30f17
 Section: utils
 Priority: optional
 Description: OceanStudio multi-command dispatcher
@@ -200,9 +200,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-term-media-core
 Filename: pool/main/ocean-term/ocean-term-media-001_1.0.0-1+ocean1_all.deb
 Size: 932
-MD5sum: 4ae547666730ecd3edc61535fddd019f
-SHA1: 22bf7a6eb1e5bad1509e22915e345c4943b3d484
-SHA256: 4a33fb7d859dae830e8075a0494e44559b45abd9856410974a1845eaf228dd43
+MD5sum: 014bc9a81d4872e37b9edf62f609915c
+SHA1: d4e3ad99d13f97eaa667b530d2050d6b9b2e4946
+SHA256: 40d25c27a41c3df8da15c64726549e13ea30f3b7c5fce2eab02076e3da8a4f7e
 Section: sound
 Priority: optional
 Description: Ocean media helper command ocean-term-media-001
@@ -215,9 +215,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-term-media-core
 Filename: pool/main/ocean-term/ocean-term-media-002_1.0.0-1+ocean1_all.deb
 Size: 932
-MD5sum: a1166f54b186a33e4448a6f48a8c548e
-SHA1: 5737c546636456837ece983f45158bf784a1a354
-SHA256: 3d9bc3be7a25045f60be91132f89cba4802f70c919427982402b063fbbb5fce2
+MD5sum: 43e26ab54be6d93896a66d8e55cf32ac
+SHA1: 4bfb5d8a1f20ff8850cd1282faa914d03b1c0687
+SHA256: 6fc762b9ad07368a8c12694e2f0f9e780517c14e5a7ae8982dfcae574bc55398
 Section: sound
 Priority: optional
 Description: Ocean media helper command ocean-term-media-002
@@ -230,9 +230,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-term-media-core
 Filename: pool/main/ocean-term/ocean-term-media-003_1.0.0-1+ocean1_all.deb
 Size: 932
-MD5sum: 41277024c0a1fc632d4ffa23a1e7f5be
-SHA1: c0167cc278b953d598c3be18b8f84789266fbba7
-SHA256: 8c00fe822323414f082e146f8fde3615d5489f7f4c891eab82a26989cfd0e10e
+MD5sum: 19ff8ebaa6085e0460267a7f3dad9f0b
+SHA1: bbaa9688811f80182c2e9b557f8850e7b9713d15
+SHA256: 1b9cc4756f3c0bb45cb76b00f4641776252ec164a0d6857f744d39b13242afe3
 Section: sound
 Priority: optional
 Description: Ocean media helper command ocean-term-media-003
@@ -245,9 +245,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-term-media-core
 Filename: pool/main/ocean-term/ocean-term-media-004_1.0.0-1+ocean1_all.deb
 Size: 932
-MD5sum: d71a6b8e57e7feeedbab4d024b8a8cfe
-SHA1: 96f2270e643c275aa3e71586a3188a4a18d2acfe
-SHA256: a03e47b34480e1ec65b8345bb922388a6af007fed23a5c22b513f5bff518bfee
+MD5sum: 127cd9a09d8c58ab964a0844264ab524
+SHA1: 9bc89309030923555ac6226d69715f3d4b1a905b
+SHA256: 5739ed505afe1581b68433ccdf8284fff65f7e82b5c19443f39c7fcf8940d8e9
 Section: sound
 Priority: optional
 Description: Ocean media helper command ocean-term-media-004
@@ -260,9 +260,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-term-media-core
 Filename: pool/main/ocean-term/ocean-term-media-005_1.0.0-1+ocean1_all.deb
 Size: 932
-MD5sum: 5ed81dad75a66e038d9f98477f77cd73
-SHA1: 9c0791de5b770687b2068431fa48d432bbc80261
-SHA256: b9d55feda0e2794acf8964a0e0c0bcbbf5b4431056f9781a925a02184cb3b4ae
+MD5sum: 3364389a32f69875870a7be00b18fb33
+SHA1: 34548cd06205230839695aab0730880193d98171
+SHA256: 3faaed8561df3e94a8e03fd470fad768255039e4253675351346e3f90d86f272
 Section: sound
 Priority: optional
 Description: Ocean media helper command ocean-term-media-005
@@ -275,9 +275,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-term-media-core
 Filename: pool/main/ocean-term/ocean-term-media-006_1.0.0-1+ocean1_all.deb
 Size: 932
-MD5sum: a54893f9d1eb261b45465ecdfa10f51f
-SHA1: 16b5bc1cb73e24f2d3aee56fe75dc7ac8207dcad
-SHA256: ea5254ce882f225611a4a66cb438491c0e9abc2bc70ab5ff5ba56c5266b55678
+MD5sum: 5317f104ee5e0194ff6a68fdf37e603e
+SHA1: ba64bda4e8000b149c647f8deac3dd3691fececb
+SHA256: a9feedd5d8b84e9b236c0ee8733d88219cca036b39fe44b088e616762a38cc1f
 Section: sound
 Priority: optional
 Description: Ocean media helper command ocean-term-media-006
@@ -290,9 +290,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-term-media-core
 Filename: pool/main/ocean-term/ocean-term-media-007_1.0.0-1+ocean1_all.deb
 Size: 932
-MD5sum: f5ab872f22cb7d0335313a757e31d8be
-SHA1: 70e72253c354bf02af31c6f7caf1557a7d3bec93
-SHA256: 291a45109068701a2eebbdd1e17ef842aa9f578aaab5922438515730a494c552
+MD5sum: 4c98c8d0aa478b441fb9f4b56fc0415a
+SHA1: 50b8f76a7faf612bb94ef18f179668ff1a14e8e5
+SHA256: 5242e40fd163ac88eb921c9a1f839b41e6ec438a74873ce63b97aad9b48da4d5
 Section: sound
 Priority: optional
 Description: Ocean media helper command ocean-term-media-007
@@ -305,9 +305,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-term-media-core
 Filename: pool/main/ocean-term/ocean-term-media-008_1.0.0-1+ocean1_all.deb
 Size: 932
-MD5sum: 2f437363a5c52dfc997a0e39ff3a8ecd
-SHA1: 72556a86d193e4653b97200f744f27fb9c1cd2ae
-SHA256: 6aa7fef079161bea1648efdd615e1bc7850cc40c9ff9d0d1bdef9a8bded712f8
+MD5sum: 5c0f7953c96688357de319a0470d2b0b
+SHA1: 3224c0e0e5d3a7b6189482c67669165abbfe1054
+SHA256: b1406d9cbba8cb8f8f75469fce4a7bc3350a67aeb5de15954cacbb197dc47c6d
 Section: sound
 Priority: optional
 Description: Ocean media helper command ocean-term-media-008
@@ -320,9 +320,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-term-media-core
 Filename: pool/main/ocean-term/ocean-term-media-009_1.0.0-1+ocean1_all.deb
 Size: 932
-MD5sum: b5f485399a0f15185dc2dd7d694c5b18
-SHA1: 8c0d1b3b6ca5dbc1633345e58f86042dcbdf7d6a
-SHA256: a477741b4db1d501f7ba218f1894c73a446bef79db5757fdb0976cd24a0dd20a
+MD5sum: cbab920772100e00482b9180babd57fa
+SHA1: 43cf627bc83bb1d65181a3763b1dab551f09171f
+SHA256: 834f6703285fae75ab699147cf61ed52f97226855d6f295e65e82c082b04d2f2
 Section: sound
 Priority: optional
 Description: Ocean media helper command ocean-term-media-009
@@ -335,9 +335,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-term-media-core
 Filename: pool/main/ocean-term/ocean-term-media-010_1.0.0-1+ocean1_all.deb
 Size: 932
-MD5sum: c6262aeac738e60a334f8a207a5761ed
-SHA1: 2ef43f3ad060aa6a1657f972317c441baabbbd2d
-SHA256: ebf9d0eb29bb7362c9fa7cd27574a5c36270cbcc4f859c44b68407374a97e5f9
+MD5sum: bdcba80c143a7bd22d6c032b5cd9ff8b
+SHA1: b9d233a1b7b327c3d80c4cd8280acc4e1b0ecf87
+SHA256: 5d5ac8d4c9114b0cabd856ae0d54690a84480ccd48425ed6d59f564f28c36655
 Section: sound
 Priority: optional
 Description: Ocean media helper command ocean-term-media-010
@@ -350,9 +350,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-term-media-core
 Filename: pool/main/ocean-term/ocean-term-media-011_1.0.0-1+ocean1_all.deb
 Size: 932
-MD5sum: 1e2e0e90b5e184552cd5cb86d9226ac5
-SHA1: 2280842880ea5ec18dccc7e814a77b1c915b208d
-SHA256: 0c867d652316e3fa4751d0a185fce1fbba56b4cf64d6e79d8a43df712329c477
+MD5sum: fef4ba5ff23a7f84cc619a4cc44001e5
+SHA1: 722a20dc9e2c6e17de1064c1afbf6736c063b860
+SHA256: 4466dcbd4c583f811e4df9abd9979b772afbf9cb5cb4c01b623cceaaad95aa7d
 Section: sound
 Priority: optional
 Description: Ocean media helper command ocean-term-media-011
@@ -365,9 +365,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-term-media-core
 Filename: pool/main/ocean-term/ocean-term-media-012_1.0.0-1+ocean1_all.deb
 Size: 932
-MD5sum: b6fa8ec62e1ca6e890530ccc943993bf
-SHA1: c6c84c8952718f0e577ad6d560ce12ed2830e56f
-SHA256: 430bc8a3d7dfe07b3571dfee2e775505a3bbeb72202ec2f468827925c563c043
+MD5sum: 064ba5553f74f83ff09671eefa92db2e
+SHA1: 1f0ecbfa8108dce0ee548ef40c7f528c65707095
+SHA256: e06474ade296e52f4e3f2caa272fb561cf6512469782e5676507b8268ba4e5ac
 Section: sound
 Priority: optional
 Description: Ocean media helper command ocean-term-media-012
@@ -380,9 +380,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-term-media-core
 Filename: pool/main/ocean-term/ocean-term-media-013_1.0.0-1+ocean1_all.deb
 Size: 932
-MD5sum: 5e6f76a8dc1ba5ac81917bdf51e4a8ab
-SHA1: b9812b79bb1ddb3b1f46c67c9b16f7d24f723ed2
-SHA256: 1fe4f33d42a2ddd82f68b2b1a7313741ae1935c4eed98558ce77a9e9b325a1ff
+MD5sum: 67ea392dc20aebc062c9171401faa16b
+SHA1: 4b2d5a9e81d85933a1a885a1fb1fd598012afa32
+SHA256: c8ddd1dbadc26a5842ee30264f7dcf515d35837c561cb11ade9ba0e8a4d6bbac
 Section: sound
 Priority: optional
 Description: Ocean media helper command ocean-term-media-013
@@ -395,9 +395,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-term-media-core
 Filename: pool/main/ocean-term/ocean-term-media-014_1.0.0-1+ocean1_all.deb
 Size: 932
-MD5sum: 18834bf79d003f693258188010e934ec
-SHA1: 8aa2b711fb1c912e2f6d72b85a86c455cc783039
-SHA256: ad7fee508d567c79be02ddaa0fa5257fee90a47ea3fbb69789a82d513c22147f
+MD5sum: 5fa4c135127ccb475580892725fe8d06
+SHA1: 1ace20112de50f854740f675e45d85634ed773d6
+SHA256: 227be23645948d316b7c996ac023ae09d2d6a83963cd6f0cf7ee251f2bc014fb
 Section: sound
 Priority: optional
 Description: Ocean media helper command ocean-term-media-014
@@ -410,9 +410,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-term-media-core
 Filename: pool/main/ocean-term/ocean-term-media-015_1.0.0-1+ocean1_all.deb
 Size: 932
-MD5sum: f70bff0c6e56c89f2f9c83d90d51dff2
-SHA1: e708318b28e8a819f48e364ba3f06585c8aec0e7
-SHA256: b98a049eb321c60e1dfc0b1a609f3bebbc3089ebd7f249bd0d7835236daed487
+MD5sum: 7f1b2536c8e4c4123c26e1c80c39c027
+SHA1: ef12326f5ec11766ba42f3f64728fd6effc806e7
+SHA256: bc5e7c6eb6e7b9728c52cddf680026af2d1c5ca2bf5586808c6cdab67a6685fa
 Section: sound
 Priority: optional
 Description: Ocean media helper command ocean-term-media-015
@@ -425,9 +425,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-term-media-core
 Filename: pool/main/ocean-term/ocean-term-media-016_1.0.0-1+ocean1_all.deb
 Size: 932
-MD5sum: 7c0ce29d2e788f7cf1153f7a448747a8
-SHA1: 4146f2bab95bf5f2e4f8fcba0c678679de893000
-SHA256: 4aa6d6fc7155d08fcc00069707eebd830ce5043e06418240c53bcf759815e598
+MD5sum: 1a3f3ae35169450ed9e56d0fc0127208
+SHA1: e8b58c4f76f06e9e4669e9fa7006c0cbc32d49a8
+SHA256: 1b3ee68c311b858fca0bbed7ee275e8c2f2f5b38b4eb9d2860d6f197433e958e
 Section: sound
 Priority: optional
 Description: Ocean media helper command ocean-term-media-016
@@ -440,9 +440,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-term-media-core
 Filename: pool/main/ocean-term/ocean-term-media-017_1.0.0-1+ocean1_all.deb
 Size: 932
-MD5sum: a454a7ac91f111948157feca70776d8e
-SHA1: 56c1aff8ad5fdc6e49a2db0faff5095ea46a85b0
-SHA256: f488cf3c5197240fff3174d3b3d5074e80ad5e3794bed077ab93a51eb87d3170
+MD5sum: 2f1c5b413d436580cfb6dcc6f9cfcd81
+SHA1: 89239064740ae742972daffc2829564c9ba5f98e
+SHA256: 7ec653292e5190f955f08ce5734f93ec0bcb06045f6778a01e911fc7ab0e7cb6
 Section: sound
 Priority: optional
 Description: Ocean media helper command ocean-term-media-017
@@ -455,9 +455,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-term-media-core
 Filename: pool/main/ocean-term/ocean-term-media-018_1.0.0-1+ocean1_all.deb
 Size: 932
-MD5sum: 921aaaad20849b43b2d36c485d31637e
-SHA1: c1d9ccecfd5eca310194cd8324cdf89bfc506182
-SHA256: 7bca7936a713ea7a53f1666e6148da67042cead057478963ca7f6350c00c269e
+MD5sum: a716562fa424cfa3fa53d594be8dc05d
+SHA1: a98dbf6a0b4e80b5732b6eeb6b679a815000bd95
+SHA256: becaafa06c8652221aa6e125d591e761e4c7f59125394433b4fd9e688c53a01e
 Section: sound
 Priority: optional
 Description: Ocean media helper command ocean-term-media-018
@@ -470,9 +470,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-term-media-core
 Filename: pool/main/ocean-term/ocean-term-media-019_1.0.0-1+ocean1_all.deb
 Size: 932
-MD5sum: 77c916a60af00f2eec3d3061c2b79934
-SHA1: a5fa5d11e6c2183726f05e878fa97475cbe55e17
-SHA256: bdd9f0d1cdb905d19e26279e2f3d47a6beb6a6ce4313036df0de542bf287f987
+MD5sum: aa737126507b1f1f3b45d0cc4b61509d
+SHA1: 2214716b6fd6d8710947462f54c83a08b231ab33
+SHA256: ceb9a6b979a49e748bb6fecd405b54a1d40b097cd6af9806a354b09b7fad51ab
 Section: sound
 Priority: optional
 Description: Ocean media helper command ocean-term-media-019
@@ -485,9 +485,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-term-media-core
 Filename: pool/main/ocean-term/ocean-term-media-020_1.0.0-1+ocean1_all.deb
 Size: 932
-MD5sum: 47868b811b208bbf7c46fd7deb6af3ce
-SHA1: e332cf57ab72592c27be18126ab448fe3d9cf998
-SHA256: 64822d32367b4c767ed0a4daea69b74ed1c587a876f12a4f9bd301a09ac440eb
+MD5sum: 06310c7621de0119698f1a43c4698c53
+SHA1: cab0161ff16f656994a76f28509c22d08e27cbe2
+SHA256: 846c1773be78324d54cd37300314c95b4388d2ac5ffaf4f05e491a4e6625bc59
 Section: sound
 Priority: optional
 Description: Ocean media helper command ocean-term-media-020
@@ -500,9 +500,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-term-media-core
 Filename: pool/main/ocean-term/ocean-term-media-021_1.0.0-1+ocean1_all.deb
 Size: 932
-MD5sum: ed8cbe7ec08f83fcc0fe59edb6be07ce
-SHA1: a37112defb27937dc3ff72d1c01d3eb140014eaf
-SHA256: 5499815175e3e5827848cffdbe379662c6d4143bd50716d8d4a8a6ec5b859fe5
+MD5sum: d6687c6c74031c62cc83f3d3cddf75b3
+SHA1: d5bacae7cc6e4e5d9669e3fd886485a7990de0fb
+SHA256: d44a3308723a43b7e603ff7252af114bbe3d7820002e75445009334a8638dc84
 Section: sound
 Priority: optional
 Description: Ocean media helper command ocean-term-media-021
@@ -515,9 +515,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-term-media-core
 Filename: pool/main/ocean-term/ocean-term-media-022_1.0.0-1+ocean1_all.deb
 Size: 932
-MD5sum: 5ad7797b749cd8f6d5f9dfcf02072d20
-SHA1: d82de8d1cd2cc41831968f2184842e8f9692e6aa
-SHA256: 886ed7c032946bb9215bffb2ce47c91adbef1183dbb3411ccd9363903ceee344
+MD5sum: cb789b0fb28436a5a505f4829154b6b7
+SHA1: fedd11f5e4ba806d8cd2d6e9f1e211f694fd1411
+SHA256: 6171479551d15d33e7da5980ff9d251c069352087761ea7a0368c92c768a7dbc
 Section: sound
 Priority: optional
 Description: Ocean media helper command ocean-term-media-022
@@ -530,9 +530,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-term-media-core
 Filename: pool/main/ocean-term/ocean-term-media-023_1.0.0-1+ocean1_all.deb
 Size: 932
-MD5sum: 4bafbcb2a8385a1eb87535c552f545bd
-SHA1: 3267ed56cf5a667c06dd7e10665bca429d7319c1
-SHA256: 56faa88d3298aa547ab51dfdfa5604e86201f3ca523c3f3c03464924efa90047
+MD5sum: d2595cd4db72a2fce43acca935a17f35
+SHA1: 03cd25308a86ec100ba920bf268d548c587f06de
+SHA256: ada79372fb1f304471f5fa7f3e5c7e98478196a54665c0e0911a7bb35e4100b4
 Section: sound
 Priority: optional
 Description: Ocean media helper command ocean-term-media-023
@@ -545,9 +545,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-term-media-core
 Filename: pool/main/ocean-term/ocean-term-media-024_1.0.0-1+ocean1_all.deb
 Size: 932
-MD5sum: ed8550a419e46315fd4b00f382f543bf
-SHA1: 40665af8ab7b2971724df02e3c2c4eb9cd4ca1a7
-SHA256: d98640aee912c1f796e65785d95c719f1041bbc30ac49d1382d2bca88d3fa299
+MD5sum: 725d723bdbb9da3c68eebe39dba4fa6c
+SHA1: a9fd57f09bcce4adb72f3c46147150b3e7f0abf3
+SHA256: c2a4c9a774c8aa957e0cb792bab4fef28b9b47fe955f9983b5512fb94ca49ac4
 Section: sound
 Priority: optional
 Description: Ocean media helper command ocean-term-media-024
@@ -560,9 +560,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-term-media-core
 Filename: pool/main/ocean-term/ocean-term-media-025_1.0.0-1+ocean1_all.deb
 Size: 932
-MD5sum: 727a048896438922c7962c787c68707e
-SHA1: 6457a9196b508e02bb2dfc39ad179f1245f1c0df
-SHA256: fd59f4920c0bfb9b43755af33574102adf297680475be2f349678c5f0225a443
+MD5sum: e032f8a8f9e2ed2ffa7de1ea2c63b77e
+SHA1: 5546241f09b1641e0233ee24475af5f03d550e4d
+SHA256: 9a1997bfeaeb8a57087855b0c4fa45e2207cbef9f4d6980ba2a1b7604b21a574
 Section: sound
 Priority: optional
 Description: Ocean media helper command ocean-term-media-025
@@ -575,9 +575,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-term-media-core
 Filename: pool/main/ocean-term/ocean-term-media-026_1.0.0-1+ocean1_all.deb
 Size: 932
-MD5sum: 037a33c5dd998ef6008e32b204bbdced
-SHA1: fa7d7ec693d15c0f24c316bdbf728576fdce7790
-SHA256: ef142f025861d965fc8ac64fc81e2c329cf74271e3780c4e52f9996252966f80
+MD5sum: a06366e753f6dabda891c721b33ce465
+SHA1: 7a06e9bb296db8571b95d649ec8f54d976ae79e1
+SHA256: 7e1c25376ae8914cb5f1efdb5cf01e48725d52e64973226e912cae31eb85b108
 Section: sound
 Priority: optional
 Description: Ocean media helper command ocean-term-media-026
@@ -590,9 +590,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-term-media-core
 Filename: pool/main/ocean-term/ocean-term-media-027_1.0.0-1+ocean1_all.deb
 Size: 932
-MD5sum: 71d34cc784d53109d724a2b68c228a7f
-SHA1: 81cc0e15392d360f2a065b1fab4a6abc00ac211b
-SHA256: 68e8e1f67c26962a360837e2f8df42d0e021068143b2696c992f6b0bff8d6750
+MD5sum: f3403ae01c909f785ce8388c2cb86d50
+SHA1: 75d0893d2c2a377fa26ca8bcf716eeb3374b82bc
+SHA256: 035bd8c4f09aca0b3f43610d81fd17fcc4d87a4af1ca42606c20ac6803212c9c
 Section: sound
 Priority: optional
 Description: Ocean media helper command ocean-term-media-027
@@ -605,9 +605,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-term-media-core
 Filename: pool/main/ocean-term/ocean-term-media-028_1.0.0-1+ocean1_all.deb
 Size: 932
-MD5sum: 9448af9688d0c64f8d576530d39724d6
-SHA1: cbff6068440ae463932c1992b9c9f7bef60de05c
-SHA256: 41f530f02c6043355677713f8abcd88366105eb69ed4eda7065eb48ee73beca2
+MD5sum: 3de24b94fb53485e29678ccf43b8fd2d
+SHA1: da8a2143fd4b430645616809f2aa2d071bcd85de
+SHA256: 5f57ae8c6e3bd441451c29dc6bd59bb559f66b8c96fbe2abeb98084a3990019c
 Section: sound
 Priority: optional
 Description: Ocean media helper command ocean-term-media-028
@@ -620,9 +620,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-term-media-core
 Filename: pool/main/ocean-term/ocean-term-media-029_1.0.0-1+ocean1_all.deb
 Size: 932
-MD5sum: 0bc1465756fc42d57ed6718150a8ba53
-SHA1: 4f3610ed3d96f1dd7ca79240533719aa65f0a54a
-SHA256: 4c78754fea78f8b303fd8d1134734701f307c6d06e27821b2ace986b164d5197
+MD5sum: e3547b371f5daa5bbb9ee907b7a4d56a
+SHA1: 98b6770b8e6349ee1cbc167e6455a4c2e7705b42
+SHA256: b02aa73d5359edcc9f64fe3be11444806a33d7c02889a524437065ef3c527335
 Section: sound
 Priority: optional
 Description: Ocean media helper command ocean-term-media-029
@@ -635,9 +635,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-term-media-core
 Filename: pool/main/ocean-term/ocean-term-media-030_1.0.0-1+ocean1_all.deb
 Size: 932
-MD5sum: 1b3f47abd5a765257c395a9ac82dcfcb
-SHA1: d7e110d36d611aff358f9d8fea76f9ca9fe354a8
-SHA256: 08729c2906cde80737412020497d17398caf654973d55a68263f81b3253a7565
+MD5sum: ad56a36112883c3ec80b09210a62e9a5
+SHA1: 22090c3d93ef5850de19a8117eb3a3801b1c1b76
+SHA256: e5a8dec6d9553dde19b7d1cea038bc8ad860ef3e54f0bfc956253285db3ea19f
 Section: sound
 Priority: optional
 Description: Ocean media helper command ocean-term-media-030
@@ -650,9 +650,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-term-media-core
 Filename: pool/main/ocean-term/ocean-term-media-031_1.0.0-1+ocean1_all.deb
 Size: 932
-MD5sum: 980ec5c656c1ddfef4d096075a980b35
-SHA1: b278c9fed5f3ecfec2e4c8605ece323637501823
-SHA256: 30ab7601aa7a035c6dcb5e32d4862448a742beaad3dd860c66a4e9a70bee40a3
+MD5sum: 96d15f68a5ddb2590bafe94df045d65d
+SHA1: ebfe90e8a161a56c168a530d2a2afa601c4fb88b
+SHA256: f2f60e55fac9933ab60b7fa9c091724d414c53230803ceab9f1069941fe8476f
 Section: sound
 Priority: optional
 Description: Ocean media helper command ocean-term-media-031
@@ -665,9 +665,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-term-media-core
 Filename: pool/main/ocean-term/ocean-term-media-032_1.0.0-1+ocean1_all.deb
 Size: 932
-MD5sum: 20b0978cd9affbe3668b96dc188dec66
-SHA1: a9b4850839bf83aba3ba8c3a9f52a72881554a2f
-SHA256: 4a915968e8352e25f0e7a69dd6fe7e1dcde0e888847c8f980c5e29c82722d7cf
+MD5sum: b34331ca478bb285d3a28a6b48897804
+SHA1: 1e77b5f282d1a5ca45fac2b795e64ce404159331
+SHA256: 8a87a409fa895d220cdede8e9254a6d48b317138d7d8bec2a38935d784140454
 Section: sound
 Priority: optional
 Description: Ocean media helper command ocean-term-media-032
@@ -680,9 +680,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-term-media-core
 Filename: pool/main/ocean-term/ocean-term-media-033_1.0.0-1+ocean1_all.deb
 Size: 932
-MD5sum: fac43c08c3c2bc51e8758666fc4458ee
-SHA1: 516bb2022c34ae3761991fb4bf3228d619641440
-SHA256: ccf0f6e1b6317446b09bbdd15483bc2d6980c7d2f16e5d235de787ecc3b3a85c
+MD5sum: 07a0d7c6390399ee178ae9a2dbc346da
+SHA1: 301c6c40ca25ec6fd0a735a440fcd4655db1d86b
+SHA256: 32f188863948bebd7e32eb46d78c336cfa404f097f503bb3a29ba123e5bd9be6
 Section: sound
 Priority: optional
 Description: Ocean media helper command ocean-term-media-033
@@ -695,9 +695,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-term-media-core
 Filename: pool/main/ocean-term/ocean-term-media-034_1.0.0-1+ocean1_all.deb
 Size: 932
-MD5sum: 2d4690c0cc555e0d09fa602cbadbaa19
-SHA1: baccebf2f140b1656702b78f262b5caee0ba4e40
-SHA256: 6f02de1d6d45afd8de55b384417b574232866abbcdd6e073f2aca2d532f88726
+MD5sum: b2f5b3fcb46ad5f469fe6ba4821258a5
+SHA1: ae52f3361b97209ebc99575849ae884b97063197
+SHA256: ae652c4bc90db503932d35e89756c14c9db83864bdb2b3ee8c3759dd2f2c7640
 Section: sound
 Priority: optional
 Description: Ocean media helper command ocean-term-media-034
@@ -710,9 +710,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-term-media-core
 Filename: pool/main/ocean-term/ocean-term-media-035_1.0.0-1+ocean1_all.deb
 Size: 932
-MD5sum: 96d36f7a1d95b48bf4041304d2ecfe44
-SHA1: 1b05f00ed2afaf72766b3acd167c75e3659913bb
-SHA256: 150cf0cfca2786d9284b823d81e96f514a4f16903dc1834265e25dd6c57b8c6e
+MD5sum: fefd346e8396c4913521db3d24cc9862
+SHA1: a932b27b13f7249aea13d86b7372b41d580c8dee
+SHA256: bf099000b926b3e4cd4b4fe7f92a0d2ee390322a7dca61d1bcfeb5f4fb705a11
 Section: sound
 Priority: optional
 Description: Ocean media helper command ocean-term-media-035
@@ -725,9 +725,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-term-media-core
 Filename: pool/main/ocean-term/ocean-term-media-036_1.0.0-1+ocean1_all.deb
 Size: 932
-MD5sum: 74975ad2c6100a060e89c07d56124cf4
-SHA1: ea3bfdb3e3c72c7b02c52c7ce50325a1e3fc2668
-SHA256: 7515898f37c4c22619549ccc08b25489d0dee2e943ce5cf5cde3a168aec844a8
+MD5sum: db22c3618fc9abc306442ca799aab14f
+SHA1: 610798f34c4b5eb0f0a9f1db4394c202c099a3d2
+SHA256: 28f146c61257f7246e1c20a5d0d22b20cee2b836b79af02ffe2d0beb52f5bee3
 Section: sound
 Priority: optional
 Description: Ocean media helper command ocean-term-media-036
@@ -740,9 +740,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-term-media-core
 Filename: pool/main/ocean-term/ocean-term-media-037_1.0.0-1+ocean1_all.deb
 Size: 932
-MD5sum: 5ca9f5558ac99302f5642e448d9037ea
-SHA1: e4fc47760640cdb302f5d1ded2fb15527ab38cf6
-SHA256: 982229559fdecbed177226b7f90f2b4f455117731de55892953a15a0ff2cf260
+MD5sum: ea9bc4e83bcaf67483457cfaffd8d2ce
+SHA1: 9a339bfdb6dcf7fe0b16ed1de3fe20c941e5d9e5
+SHA256: e052be6cb5f9efb40376b61fe9f8a4b1d1cf530951b015dce9a833a620fddc2a
 Section: sound
 Priority: optional
 Description: Ocean media helper command ocean-term-media-037
@@ -755,9 +755,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-term-media-core
 Filename: pool/main/ocean-term/ocean-term-media-038_1.0.0-1+ocean1_all.deb
 Size: 932
-MD5sum: 1691b2e6ec087bbd3ec42f7524ce70b3
-SHA1: a7310116e4a8a82a8842d402b8b6d49b46d5ff91
-SHA256: e53ef0309a5568b7285d717d75945fd2a4612e779d329ca0ff1f185caa3741ea
+MD5sum: 9df66accba4260e659e5d53082669c9b
+SHA1: a0d69bce4b1f0a7e0646ebbc0bed6ceeef32ddca
+SHA256: e4959ee0d1ff16d8c79814303b908ad8ad8aac33a148a6547207fe394a76951f
 Section: sound
 Priority: optional
 Description: Ocean media helper command ocean-term-media-038
@@ -770,9 +770,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-term-media-core
 Filename: pool/main/ocean-term/ocean-term-media-039_1.0.0-1+ocean1_all.deb
 Size: 932
-MD5sum: f0053837bc4f088efb0600054399b93d
-SHA1: 1c1f93ad15d76b6057ae8123a6a4ed8ff62a9475
-SHA256: dfc72fc7374129c461cded379309933abaf538796347bbd6ed9892e57af4ff04
+MD5sum: 85b687052ed7f27905d6f32312cc7f26
+SHA1: 935597b8872168a268048ce36ab74dc0538a02e9
+SHA256: 2afcd329c5575ef5f7f1c97f4084242c1529b6d343adc39b5ed945c014eb45d7
 Section: sound
 Priority: optional
 Description: Ocean media helper command ocean-term-media-039
@@ -785,9 +785,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-term-media-core
 Filename: pool/main/ocean-term/ocean-term-media-040_1.0.0-1+ocean1_all.deb
 Size: 932
-MD5sum: 7d33e7cd04aaaa03d5b9e9985aaa1f89
-SHA1: 17ebd1f5bab7eedc6215a14515f76055a1cf45a6
-SHA256: 161332aa88fb2e6b6ee688d27e6cabff4b229b0a87f5c5729e2604cfa46e7df4
+MD5sum: a3837029b78160979c8beec42bc52a10
+SHA1: 01cf47f29a9d35284fa1763b3358c6c875a5d6cf
+SHA256: 1e6e079a636a43120094180bd30049b30f4f5b796a890f267722c2bdebf53cd8
 Section: sound
 Priority: optional
 Description: Ocean media helper command ocean-term-media-040
@@ -800,9 +800,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-term-media-core
 Filename: pool/main/ocean-term/ocean-term-media-041_1.0.0-1+ocean1_all.deb
 Size: 932
-MD5sum: 60cb0b3d4d228b559cefb02cdf4a6f19
-SHA1: aeace33b1d9a2c9fb51fde47d3b8e3b89ee307b6
-SHA256: d54a329a592c3274ee163334f79c4903a625205aaf0e68142ea215564a9b04bf
+MD5sum: 59ea429f56d30b06774ed9a29a751765
+SHA1: 4ecfa21d25251f67bc6a9ae32a0d3451ce172ad6
+SHA256: 26d165e1c61bbe16db1c900003785c0cb015288ed1f320aa83c300b76db201f9
 Section: sound
 Priority: optional
 Description: Ocean media helper command ocean-term-media-041
@@ -815,9 +815,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-term-media-core
 Filename: pool/main/ocean-term/ocean-term-media-042_1.0.0-1+ocean1_all.deb
 Size: 932
-MD5sum: 029dfabe07bf14741d84adf0715c62bc
-SHA1: b73bbe9e8541b6cfbc925c75cb83d68a141fab4b
-SHA256: 93b4a87f8f3df85c38942287e7311ecfb77a58737cc03923e0c33385a71bb37a
+MD5sum: 1defc12bdee9151a3088e51ce97e4dbd
+SHA1: 133348c0880f4210eba777435ad38df270c71fa8
+SHA256: 006463368fab9784cbe87c6854c30e9a5f8a8389086d9d3fa25a15a909913812
 Section: sound
 Priority: optional
 Description: Ocean media helper command ocean-term-media-042
@@ -830,9 +830,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-term-media-core
 Filename: pool/main/ocean-term/ocean-term-media-043_1.0.0-1+ocean1_all.deb
 Size: 932
-MD5sum: b7c3da410401e184c72c19fd106927bb
-SHA1: 530e9b0f01f01e9ade11325c490a20fc3bdd15de
-SHA256: d5d764c0d16135cbb841c7188862b332b886fea89d6104bf7fcb31a6eaa14396
+MD5sum: 7e069b3c9bad26704aea946a3c367992
+SHA1: 3c228aa1c4f213921768d4d5496cc8a01e13b719
+SHA256: 6849c41828c5a7dbe21a8ff94c8c87a5710adf51233f6266851a7394aa30537c
 Section: sound
 Priority: optional
 Description: Ocean media helper command ocean-term-media-043
@@ -845,9 +845,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-term-media-core
 Filename: pool/main/ocean-term/ocean-term-media-044_1.0.0-1+ocean1_all.deb
 Size: 932
-MD5sum: 0d554b76f35414b9ec896f14df1ee024
-SHA1: b6ea5182cf423be670167155ca5d57e7c51b74ec
-SHA256: 54715631b970e94e9637534d661f8036461316765dcf5e00c25acb195920ec48
+MD5sum: 64c9d4a294dc86f91240db450e4cf69c
+SHA1: 48b82d0ee4b6430597d14fd5875fcad3e18f1395
+SHA256: 3e1f22eff2cfb7105175109ffc091f4242b8668fd2bff9c8c164032d0fcdd191
 Section: sound
 Priority: optional
 Description: Ocean media helper command ocean-term-media-044
@@ -860,9 +860,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-term-media-core
 Filename: pool/main/ocean-term/ocean-term-media-045_1.0.0-1+ocean1_all.deb
 Size: 932
-MD5sum: 1f243110df96ba882334ac58b1cdaefd
-SHA1: d47f1a6474b20742cafa904a2d72e4d2d6c1c3b8
-SHA256: e7511fbc0ccb34824c374d11dc93f56f212017006493bd596d6b967ed488da7b
+MD5sum: 22368f9514f7a4f812b89aaf05491f5f
+SHA1: 438ba33f12d7887e5e6b717a3a7761208fc77dba
+SHA256: 90835366d1c2cfc5a01711241b2ea8adf8747707b45a39e5b873f2beb6591cd8
 Section: sound
 Priority: optional
 Description: Ocean media helper command ocean-term-media-045
@@ -875,9 +875,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-term-media-core
 Filename: pool/main/ocean-term/ocean-term-media-046_1.0.0-1+ocean1_all.deb
 Size: 932
-MD5sum: 372800508f610d3233640ae5eecc427f
-SHA1: 30da9f2000674a20dcb7f93aab3f8e02a91e1baa
-SHA256: d83f4f0ac1457fbe601e7ce0b604083fe3695680c94d9082c2e794691061818d
+MD5sum: 578ddbddfa6a0a9ec9477f6e4ca61fb8
+SHA1: e73874cad3ac34e93120bbad96b76673be89ab18
+SHA256: 8dc921feabca07359df09864ead995af34bab058b0d7cfb12d9a60b550e8b73c
 Section: sound
 Priority: optional
 Description: Ocean media helper command ocean-term-media-046
@@ -890,9 +890,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-term-media-core
 Filename: pool/main/ocean-term/ocean-term-media-047_1.0.0-1+ocean1_all.deb
 Size: 932
-MD5sum: ae4a26da2192fff2b1672940225a33b0
-SHA1: dcc8fbe57907d42e2db0859a8d7dfdcb6132e329
-SHA256: ee5ffe8cb16b0891cf4b8c0821969bdfd97b6549456a83f160aa4082300df18c
+MD5sum: df252366fd3910a557368a74e3d25dd8
+SHA1: 548c311824876688e485bd0e2dbcdd44f3d02997
+SHA256: 190af195763504ebd9cbd92ce12729cf11fa0de386664f330cdeb02e8fe69e5f
 Section: sound
 Priority: optional
 Description: Ocean media helper command ocean-term-media-047
@@ -905,9 +905,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-term-media-core
 Filename: pool/main/ocean-term/ocean-term-media-048_1.0.0-1+ocean1_all.deb
 Size: 932
-MD5sum: 6e15ea9c67c0828635b785a7ecfbe59c
-SHA1: 52286c8a6a2f40c1ec3a7eb8c0fb719c8159eb4c
-SHA256: 9c790d2b3587035680891517d281d2eead559a678dc383edbbd22ec068f4d936
+MD5sum: c224cc8e32f525ab827ceedba05ef5f7
+SHA1: e6d3afd5062c9751a24326b8be95777f1b2bc9ac
+SHA256: edd27e10caede5d2bf8839d0c15f930f499c55a610bda9ff5f99893d9d42a4cf
 Section: sound
 Priority: optional
 Description: Ocean media helper command ocean-term-media-048
@@ -920,9 +920,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-term-media-core
 Filename: pool/main/ocean-term/ocean-term-media-049_1.0.0-1+ocean1_all.deb
 Size: 932
-MD5sum: b684a67e232cd27cc8eed90c17b5e019
-SHA1: cf4c47f6b6df4d5d5277727fc3f94efb346ababd
-SHA256: 905904b3c7ec691f1f9e3087f16556328a9f07cc0a978876132bfe8c4838f9c4
+MD5sum: df7951d44716a6910052f085ff17ef78
+SHA1: ce938967bd7919bf7a5b1b45805dc48d3ae2db91
+SHA256: 4d9e3d7a60eebd43093f591f65827b3d0e04a2c7ac52f731f85f8f639e66a219
 Section: sound
 Priority: optional
 Description: Ocean media helper command ocean-term-media-049
@@ -935,9 +935,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-term-media-core
 Filename: pool/main/ocean-term/ocean-term-media-050_1.0.0-1+ocean1_all.deb
 Size: 932
-MD5sum: b2c2642fffbb4cfdaa76ddf525e41869
-SHA1: 79011b8bc30b35bc94e6d2cd460d11da32f70561
-SHA256: 0df7ae72bbc33a81b1f8ecee99a43b09d27464753ad2eeeeba94aab74c28382e
+MD5sum: 355ef2c99244e70fa0197958f1a7bb65
+SHA1: 7947f23783c26ca9bf3218eab0d1c46a0e69c3de
+SHA256: 0bcd0037a7a37776cd6a22632399e6b429153741c3cfa0a339be30a55a190625
 Section: sound
 Priority: optional
 Description: Ocean media helper command ocean-term-media-050
