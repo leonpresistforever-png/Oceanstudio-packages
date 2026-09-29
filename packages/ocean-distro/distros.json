@@ -79,7 +79,7 @@
     "pkg_manager": "dnf, rpm",
     "arch": "arm64",
     "url": "https://images.linuxcontainers.org/images/almalinux/9/arm64/default/20260902_23:08/rootfs.tar.xz",
-    "sha256": "skip",
+    "sha256": "pending-official-rootfs",
     "shell": "/bin/bash",
     "update_cmd": "dnf upgrade -y",
     "description": "Practical RHEL-compatible ecosystem."
@@ -91,7 +91,7 @@
     "pkg_manager": "zypper, rpm",
     "arch": "arm64",
     "url": "https://download.opensuse.org/ports/aarch64/tumbleweed/appliances/openSUSE-Tumbleweed-ARM-XFCE.aarch64-rootfs.aarch64.tar.xz",
-    "sha256": "f913da0211ee240d4917f3e248f52e7b514e7b053bee75661b345398519a9fb0",
+    "sha256": "6d7c4b552b4f1b4a1190c90cf2a46d1889ffffb5607a9aee153fe7072dfda1b3",
     "shell": "/bin/bash",
     "update_cmd": "zypper refresh && zypper dist-upgrade -y",
     "description": "Official openSUSE Tumbleweed ARM64 rootfs; checksum, distro identity and ARM shell verified by Ocean CI."
@@ -150,9 +150,9 @@
     "priority": "Hard but possible",
     "pkg_manager": "emerge, Portage",
     "arch": "arm64",
-    "url": "https://distfiles.gentoo.org/releases/arm64/autobuilds/20260830T234553Z/stage3-arm64-openrc-20260830T234553Z.tar.xz",
-    "fallback_url": "https://gentoo.osuosl.org/releases/arm64/autobuilds/20260830T234553Z/stage3-arm64-openrc-20260830T234553Z.tar.xz",
-    "sha256": "cac51286eb9935b538df3bc91a65ed821a1c4bb84a8274e7a06635e6a01c9349",
+    "url": "https://distfiles.gentoo.org/releases/arm64/autobuilds/20260927T224600Z/stage3-arm64-openrc-20260927T224600Z.tar.xz",
+    "fallback_url": "https://gentoo.osuosl.org/releases/arm64/autobuilds/20260927T224600Z/stage3-arm64-openrc-20260927T224600Z.tar.xz",
+    "sha256": "198e2970ea81d28e8d3e10958e26b761d2d113bdd59d1c3bcf47770710e86508",
     "shell": "/bin/bash",
     "update_cmd": "emerge --sync && emerge -uDN @world",
     "description": "Source-heavy; high CPU/storage cost, but valuable source ecosystem."
