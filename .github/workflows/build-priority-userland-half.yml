@@ -62,6 +62,8 @@ jobs:
         run: |
           set -euo pipefail
           test "$(find staging/priority-userland-half/pool/main -type f -name '*.deb' | wc -l)" -eq 63
+          test -d staging/priority-userland-half/pool/main/bridge
+          test -d staging/priority-userland-half/pool/main/ocean-term
           test "$(grep -c '^Package:' staging/priority-userland-half/Packages.new)" -eq 63
           python3 - <<'PY'
           import json

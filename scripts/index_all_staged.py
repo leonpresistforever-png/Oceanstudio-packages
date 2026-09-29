@@ -255,7 +255,16 @@ def select_packages(root):
                         return
                     raise ValueError(f"Conflicting bytes for {key} {control['Version']}; bump the version")
                 return
-        filename = deb.relative_to(apt).as_posix() if from_pool else "pool/main/" + deb.name
+        if from_pool:
+            filename = deb.relative_to(apt).as_posix()
+        else:
+            marker = "/pool/main/"
+            staged = deb.as_posix()
+            filename = (
+                "pool/main/" + staged.split(marker, 1)[1]
+                if marker in staged
+                else "pool/main/" + deb.name
+            )
         destination = apt / filename
         if not from_pool and destination.exists() and hashes(destination)["sha256"] != digest["sha256"]:
             raise ValueError(f"Staged filename would overwrite different pool bytes: {filename}; use a versioned filename")

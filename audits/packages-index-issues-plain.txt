@@ -1,0 +1,125 @@
+Ocean package index issue list (plain)
+Indexed package names: 6506
+
+[OK] Signed Release matches InRelease and Packages checksums.
+
+Staged .deb files not in live index: 64
+  - aplay_1.0.0-1+ocean1_all.deb
+  - arecord_1.0.0-1+ocean1_all.deb
+  - ffplay_1.0.0-1+ocean1_all.deb
+  - ffprobe_1.0.0-1+ocean1_all.deb
+  - notify-send_1.0.0-1+ocean1_all.deb
+  - ocean-distro_1.0.1-6_all.deb
+  - ocean-term-media-001_1.0.0-1+ocean1_all.deb
+  - ocean-term-media-002_1.0.0-1+ocean1_all.deb
+  - ocean-term-media-003_1.0.0-1+ocean1_all.deb
+  - ocean-term-media-004_1.0.0-1+ocean1_all.deb
+  - ocean-term-media-005_1.0.0-1+ocean1_all.deb
+  - ocean-term-media-006_1.0.0-1+ocean1_all.deb
+  - ocean-term-media-007_1.0.0-1+ocean1_all.deb
+  - ocean-term-media-008_1.0.0-1+ocean1_all.deb
+  - ocean-term-media-009_1.0.0-1+ocean1_all.deb
+  - ocean-term-media-010_1.0.0-1+ocean1_all.deb
+  - ocean-term-media-011_1.0.0-1+ocean1_all.deb
+  - ocean-term-media-012_1.0.0-1+ocean1_all.deb
+  - ocean-term-media-013_1.0.0-1+ocean1_all.deb
+  - ocean-term-media-014_1.0.0-1+ocean1_all.deb
+  - ocean-term-media-015_1.0.0-1+ocean1_all.deb
+  - ocean-term-media-016_1.0.0-1+ocean1_all.deb
+  - ocean-term-media-017_1.0.0-1+ocean1_all.deb
+  - ocean-term-media-018_1.0.0-1+ocean1_all.deb
+  - ocean-term-media-019_1.0.0-1+ocean1_all.deb
+  - ocean-term-media-020_1.0.0-1+ocean1_all.deb
+  - ocean-term-media-021_1.0.0-1+ocean1_all.deb
+  - ocean-term-media-022_1.0.0-1+ocean1_all.deb
+  - ocean-term-media-023_1.0.0-1+ocean1_all.deb
+  - ocean-term-media-024_1.0.0-1+ocean1_all.deb
+  - ocean-term-media-025_1.0.0-1+ocean1_all.deb
+  - ocean-term-media-026_1.0.0-1+ocean1_all.deb
+  - ocean-term-media-027_1.0.0-1+ocean1_all.deb
+  - ocean-term-media-028_1.0.0-1+ocean1_all.deb
+  - ocean-term-media-029_1.0.0-1+ocean1_all.deb
+  - ocean-term-media-030_1.0.0-1+ocean1_all.deb
+  - ocean-term-media-031_1.0.0-1+ocean1_all.deb
+  - ocean-term-media-032_1.0.0-1+ocean1_all.deb
+  - ocean-term-media-033_1.0.0-1+ocean1_all.deb
+  - ocean-term-media-034_1.0.0-1+ocean1_all.deb
+  - ocean-term-media-035_1.0.0-1+ocean1_all.deb
+  - ocean-term-media-036_1.0.0-1+ocean1_all.deb
+  - ocean-term-media-037_1.0.0-1+ocean1_all.deb
+  - ocean-term-media-038_1.0.0-1+ocean1_all.deb
+  - ocean-term-media-039_1.0.0-1+ocean1_all.deb
+  - ocean-term-media-040_1.0.0-1+ocean1_all.deb
+  - ocean-term-media-041_1.0.0-1+ocean1_all.deb
+  - ocean-term-media-042_1.0.0-1+ocean1_all.deb
+  - ocean-term-media-043_1.0.0-1+ocean1_all.deb
+  - ocean-term-media-044_1.0.0-1+ocean1_all.deb
+  - ocean-term-media-045_1.0.0-1+ocean1_all.deb
+  - ocean-term-media-046_1.0.0-1+ocean1_all.deb
+  - ocean-term-media-047_1.0.0-1+ocean1_all.deb
+  - ocean-term-media-048_1.0.0-1+ocean1_all.deb
+  - ocean-term-media-049_1.0.0-1+ocean1_all.deb
+  - ocean-term-media-050_1.0.0-1+ocean1_all.deb
+  - ocean-term-media-core_1.0.0-1+ocean1_all.deb
+  - ocean_1.0.0-1+ocean1_all.deb
+  - pacat_1.0.0-1+ocean1_all.deb
+  - pactl_1.0.0-1+ocean1_all.deb
+  - paplay_1.0.0-1+ocean1_all.deb
+  - parec_1.0.0-1+ocean1_all.deb
+  - parecord_1.0.0-1+ocean1_all.deb
+  - xeyes_1.0.0-1+ocean1_all.deb
+
+Staged same filename as pool but different bytes (blocks promotion): 0
+
+Priority name gaps (not in index): 35
+  - alsa-utils
+  - libnotify-bin
+  - libnotify
+  - x11-apps
+  - xeyes
+  - xauth
+  - xset
+  - espeak-ng
+  - espeak
+  - festival
+  - flite
+  - paplay
+  - pactl
+  - ffprobe
+  - ghostscript
+  - poppler-utils
+  - qpdf
+  - bind9-dnsutils
+  - rustc
+  - cargo
+  - deno
+  - bun
+  - awscli
+  - docker-cli
+  - fftw3
+  - gmp
+  - mpfr
+  - mpc
+  - bazel
+  - texlive-binaries
+  - tesseract-ocr
+  - ocrmypdf
+  - opencv
+  - gstreamer1.0-tools
+  - v4l-utils
+
+Packages using flat pool/main/<deb> only (no subdirectory): 6506
+Packages with ocean- prefix: 1345
+
+Broken Depends references in index: 0
+
+Promotion plan (read-only):
+  Would index 6569 entries (currently 6506).
+  Pending updates: 64
+
+Fixes applied in this pass:
+  - Removed 5 stale core-suite staging debs that blocked promotion (same version, different bytes).
+  - Bumped ocean-distro to 1.0.1-6 with rootfs_unpack in the package.
+  - Rebuilt priority-userland-half under pool/main/bridge/, pool/main/ocean-term/, pool/main/ocean-term/core/.
+  - index_all_staged.py now preserves staging pool subdirectories when promoting.
+  - Promotion unblocked locally; live index still 6506 until publish-apt-index runs with OCEAN_REPOSITORY_SIGNING_KEY.

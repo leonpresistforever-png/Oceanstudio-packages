@@ -88,6 +88,14 @@ def build_deb(pkg, desc, section, depends, files, outpath: Path):
         run(["dpkg-deb", "--root-owner-group", "-Zxz", "--build", str(root), str(outpath)])
 
 
+def pool_relpath(path: Path) -> str:
+    parts = path.parts
+    if "main" in parts:
+        idx = parts.index("main")
+        return "pool/main/" + "/".join(parts[idx + 1 :])
+    return f"pool/main/{path.name}"
+
+
 def stanza(pkg, desc, section, path: Path):
     data = path.read_bytes()
     digest = hashlib.sha256(data).hexdigest()
@@ -95,7 +103,7 @@ def stanza(pkg, desc, section, path: Path):
         f"Package: {pkg}\nVersion: {VERSION}\nArchitecture: all\n"
         "Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>\n"
         f"Depends: {CORE if pkg != CORE else 'python'}\n"
-        f"Filename: pool/main/{path.name}\nSize: {len(data)}\n"
+        f"Filename: {pool_relpath(path)}\nSize: {len(data)}\n"
         f"MD5sum: {hashlib.md5(data).hexdigest()}\nSHA1: {hashlib.sha1(data).hexdigest()}\n"
         f"SHA256: {digest}\nSection: {section}\nPriority: optional\n"
         f"Description: {desc}\n Ocean terminal package for OceanStudio on Android."
@@ -111,8 +119,11 @@ def main():
     out = Path(args.output)
     existing = set(re.findall(r"^Package:\s*(\S+)", Path(args.existing_packages).read_text(), re.M))
     shutil.rmtree(out, ignore_errors=True)
-    pool = out / "pool/main"
-    pool.mkdir(parents=True)
+    bridge_dir = out / "pool/main/bridge"
+    term_dir = out / "pool/main/ocean-term"
+    core_dir = term_dir / "core"
+    bridge_dir.mkdir(parents=True, exist_ok=True)
+    core_dir.mkdir(parents=True, exist_ok=True)
     candidates = [CORE] + [b[0] for b in BRIDGES] + MEDIA_TOOLS
     collisions = sorted(existing.intersection(candidates))
     if collisions:
@@ -121,7 +132,7 @@ def main():
         raise SystemExit(f"expected 63 packages, got {len(candidates)}")
 
     core_src = (Path(args.source) / "ocean_media_half.py").read_text(encoding="utf-8")
-    core_deb = pool / f"{CORE}_{VERSION}_all.deb"
+    core_deb = core_dir / f"{CORE}_{VERSION}_all.deb"
     build_deb(
         CORE,
         "Shared runtime for Ocean terminal media helper commands",
@@ -138,7 +149,7 @@ def main():
     )
     stanzas = [stanza(CORE, "Shared runtime for Ocean terminal media helper commands", "utils", core_deb)]
     for name, depends, kind, desc, section in BRIDGES:
-        deb = pool / f"{name}_{VERSION}_all.deb"
+        deb = bridge_dir / f"{name}_{VERSION}_all.deb"
         if kind == "meta":
             build_deb(name, desc, section, depends, {}, deb)
         elif kind == "shell":
@@ -154,7 +165,7 @@ def main():
             raise SystemExit(f"unknown bridge kind: {kind}")
         stanzas.append(stanza(name, desc, section, deb))
     for tool in MEDIA_TOOLS:
-        deb = pool / f"{tool}_{VERSION}_all.deb"
+        deb = term_dir / f"{tool}_{VERSION}_all.deb"
         wrapper = (
             f"#!{PREFIX}/bin/bash\nexec {PREFIX}/bin/python {PREFIX}/lib/ocean-term/ocean_media_half.py {tool} \"$@\"\n"
         )
