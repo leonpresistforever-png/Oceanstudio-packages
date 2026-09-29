@@ -1,0 +1,47 @@
+{
+  "sourcePolicy": "Official upstream commits only; no Termux artifacts",
+  "sources": {
+    "glm": [
+      "https://github.com/g-truc/glm.git",
+      "1.0.3",
+      "8d1fd52e5ab5590e2c81768ace50c72bae28f2ed"
+    ],
+    "imgui": [
+      "https://github.com/ocornut/imgui.git",
+      "v1.92.9b",
+      "f1cc2ae15e53a861a874c3034aae6798fde194ab"
+    ],
+    "assimp": [
+      "https://github.com/assimp/assimp.git",
+      "v6.0.5",
+      "392a658f9c271be965271f45e7521a1b80ea4392"
+    ]
+  },
+  "packages": [
+    {
+      "package": "glm",
+      "version": "1.0.3-1+ocean1",
+      "file": "glm_1.0.3-1+ocean1_all.deb",
+      "sha256": "ea817e1f520d983d0828bc1508f0cec86f46298d9a27baaef3f305c4b0a02050"
+    },
+    {
+      "package": "imgui",
+      "version": "1.92.9b-1+ocean1",
+      "file": "imgui_1.92.9b-1+ocean1_aarch64.deb",
+      "sha256": "86c23685477836f9ef22cdedc6a160399eed43b8cab4769f47a3881cfa49006f"
+    },
+    {
+      "package": "assimp",
+      "version": "6.0.5-1+ocean1",
+      "file": "assimp_6.0.5-1+ocean1_aarch64.deb",
+      "sha256": "b7cb6847490c501e9cdfe886ea17e1f1e2cb3a87cfcc570732285a66362d7d37"
+    },
+    {
+      "package": "build-essential",
+      "version": "1.0.0-1+ocean1",
+      "file": "build-essential_1.0.0-1+ocean1_all.deb",
+      "sha256": "eae945e4e63563f7a78a06addf44abc18f9696ef11f185a3f1a5144c81715ca6"
+    }
+  ],
+  "deviceRuntimeTested": false
+}
