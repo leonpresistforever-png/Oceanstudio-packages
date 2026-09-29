@@ -53,6 +53,7 @@ def main():
         shutil.copy2(SRC_DISTRO / "ocean-distro", root / "bin/ocean-distro")
         (root / "bin/ocean-distro").chmod(0o755)
         shutil.copy2(SRC_DISTRO / "distros.json", root / "share/ocean-distro/distros.json")
+        shutil.copy2(SRC_DISTRO / "rootfs_unpack.py", root / "share/ocean-distro/rootfs_unpack.py")
         debian = stage / "DEBIAN"
         debian.mkdir(mode=0o755)
         debian.chmod(0o755)
@@ -81,6 +82,7 @@ def main():
         shutil.copy2(SRC_PROOT / "proot-distro", root / "bin/proot-distro")
         (root / "bin/proot-distro").chmod(0o755)
         shutil.copy2(SRC_PROOT / "distros.json", root / "share/proot-distro/distros.json")
+        shutil.copy2(SRC_DISTRO / "rootfs_unpack.py", root / "share/proot-distro/rootfs_unpack.py")
         debian = stage / "DEBIAN"
         debian.mkdir(mode=0o755)
         debian.chmod(0o755)

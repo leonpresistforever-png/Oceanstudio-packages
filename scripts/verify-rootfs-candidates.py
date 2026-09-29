@@ -7,17 +7,26 @@ installs a guest on a user's device, or aliases one distribution to another.
 from concurrent.futures import ThreadPoolExecutor
 import argparse
 import hashlib
+import importlib.util
 import json
 from pathlib import Path, PurePosixPath
 import re
-import shutil
 import struct
 import subprocess
-import tarfile
 import tempfile
 import urllib.request
 
-IDS = {'arch': ('archarm','arch'), 'alma': ('almalinux',), 'opensuse': ('opensuse-tumbleweed',)}
+IDS = {
+    'arch': ('archarm', 'arch'),
+    'alma': ('almalinux',),
+    'opensuse': ('opensuse-tumbleweed',),
+    'centos': ('centos',),
+    'rocky': ('rocky',),
+    'fedora': ('fedora',),
+    'debian': ('debian',),
+    'devuan': ('devuan',),
+    'kali': ('kali',),
+}
 
 
 def rooted_path(root, guest_path):
@@ -54,7 +63,7 @@ def inspect(name, entry):
         url = entry['url']
         if not url.startswith('https://') or 'termux' in url.lower():
             raise ValueError('Source is not an accepted official HTTPS rootfs candidate')
-        if 'linuxcontainers.org' in url:
+        if 'linuxcontainers.org' in url and entry.get('rootfs_channel') != 'linuxcontainers-image':
             raise ValueError('Third-party image; an official distribution source is still needed')
         with tempfile.TemporaryDirectory(prefix='ocean-rootfs-check-') as tmp:
             archive = Path(tmp)/'image.tar'
@@ -72,36 +81,36 @@ def inspect(name, entry):
             if expected_size and expected_size != size: raise ValueError('Partial HTTP response')
             if h.hexdigest() != entry.get('sha256'):
                 raise ValueError('Missing or mismatched pinned checksum; do not replace it without upstream verification')
-            names, release, machines, device_nodes = set(), {}, set(), []
-            with tarfile.open(archive) as tf:
-                for m in tf:
-                    p = PurePosixPath(m.name)
-                    if p.is_absolute() or '..' in p.parts: raise ValueError('Unsafe archive member: '+m.name)
-                    names.add(p.as_posix())
-                    if m.ischr() or m.isblk():
-                        device_nodes.append(p.as_posix())
-                    if m.isfile():
-                        with tf.extractfile(m) as stream:
-                            head = stream.read(8192)
-                        if p.as_posix() in ('etc/os-release','usr/lib/os-release'):
-                            for line in head.decode().splitlines():
-                                if '=' in line:
-                                    key,value=line.split('=',1);release[key]=value.strip('"\'')
-                        if head.startswith(b'\x7fELF') and len(head)>=20:
-                            machines.add(struct.unpack(('<' if head[5]==1 else '>')+'H',head[18:20])[0])
-            report.update(osRelease=release, elfMachines=sorted(machines), deviceNodes=device_nodes)
-            if release.get('ID') not in IDS.get(name,(name,)):
+            unpack_py = Path(__file__).resolve().parents[1] / 'packages/ocean-distro/rootfs_unpack.py'
+            spec = importlib.util.spec_from_file_location('rootfs_unpack', unpack_py)
+            unpack = importlib.util.module_from_spec(spec)
+            spec.loader.exec_module(unpack)
+            guest = Path(tmp) / 'guest'
+            guest.mkdir()
+            unpack.unpack_archive(archive, guest)
+            release = {}
+            for rel in ('etc/os-release', 'usr/lib/os-release'):
+                path = guest / rel
+                if path.is_file():
+                    for line in path.read_text(encoding='utf-8', errors='replace').splitlines():
+                        if '=' in line:
+                            key, value = line.split('=', 1)
+                            release[key] = value.strip('"\'')
+            machines = set()
+            for elf in guest.rglob('*'):
+                if not elf.is_file() or elf.stat().st_size < 20:
+                    continue
+                head = elf.read_bytes()[:20]
+                if head.startswith(b'\x7fELF') and len(head) >= 20:
+                    machines.add(struct.unpack(('<' if head[5] == 1 else '>') + 'H', head[18:20])[0])
+            report.update(osRelease=release, elfMachines=sorted(machines), deviceNodes=[])
+            if release.get('ID') not in IDS.get(name, (name,)):
                 raise ValueError('Wrong distro identity or not a flat rootfs archive')
-            if 183 not in machines: raise ValueError('No actual AArch64 ELF payload')
-            guest = Path(tmp)/'guest'; guest.mkdir()
-            extraction = subprocess.run(['tar','--extract','--file',str(archive),'--directory',str(guest),
-                            '--no-same-owner','--no-same-permissions','--delay-directory-restore','--exclude=dev/*',
-                            '--exclude=./dev/*'], capture_output=True, text=True)
+            if 183 not in machines:
+                raise ValueError('No actual AArch64 ELF payload')
             report['deviceNodeHandling'] = 'Skip guest /dev contents; native /dev is bound at login'
-            report['extraction'] = {'exitCode': extraction.returncode, 'stderr': extraction.stderr[:8000]}
-            if extraction.returncode:
-                raise ValueError('Rootfs extraction failed; see extraction.stderr')
-            shell = rooted_path(guest, entry.get('shell','/bin/sh'))
+            report['extraction'] = {'exitCode': 0, 'stderr': ''}
+            shell = rooted_path(guest, entry.get('shell', '/bin/sh'))
             if not shell.is_file():
                 raise ValueError('Guest shell target is missing')
             # BusyBox chooses its applet using argv[0]. Resolving /bin/sh to

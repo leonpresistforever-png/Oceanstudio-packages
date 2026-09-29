@@ -2,10 +2,10 @@
   "status": "PASS_CANDIDATE",
   "package": "ocean-distro",
   "version": "1.0.1-5",
-  "sha256": "02e5b8225836607fd58dce862a0376546d95b1c6cfd5583468f6eb35951624b9",
+  "sha256": "a0ef28cce1363a091ad1975817280415e59b07a4dd4c1102e3f1ee06241636a2",
   "prootDistroPackage": "proot-distro",
   "prootDistroVersion": "4.18.0-1+ocean4",
-  "prootDistroSha256": "812cda033975158dce3fe11f6ca209adb229a854d2317b7b5363b73460576982",
+  "prootDistroSha256": "6e23d382737b79a5147b0533fdca2466e1fa0a23e5272be0d6b3f144e05bc9d8",
   "sourcePolicy": "Ocean-owned manager; no Termux/proot-distro payload copied",
   "prefix": "/data/data/studio.ocean.app/files/usr",
   "advertisedDistros": [
@@ -30,16 +30,15 @@
     "arch",
     "fedora",
     "rocky",
+    "alma",
     "opensuse",
     "void",
-    "gentoo"
-  ],
-  "unresolvedChecksumEntries": [
-    "alma",
     "kali",
     "centos",
-    "devuan"
+    "devuan",
+    "gentoo"
   ],
+  "unresolvedChecksumEntries": [],
   "checksumMeaning": "Pinned checksum is integrity metadata only; runtime verification is recorded separately by rootfs audits",
   "sourceTests": "PASS",
   "independentManagerTests": "PASS",

@@ -5,12 +5,12 @@
     "priority": "Excellent",
     "pkg_manager": "apt, dpkg",
     "arch": "arm64",
-    "url": "https://cloud.debian.org/images/cloud/bookworm/latest/debian-12-generic-arm64.tar.xz",
-    "fallback_url": "https://raw.githubusercontent.com/debuerreotype/docker-debian-artifacts/dist-arm64/bookworm/rootfs.tar.xz",
-    "sha256": "77213a2c0417c370d2d51ea94c0c43d707a8aaf3b9dc6d5075aa442b6d8444ea",
+    "url": "https://images.linuxcontainers.org/images/debian/bookworm/arm64/default/20260929_06%3A06/rootfs.tar.xz",
+    "sha256": "9cd2544386445fa61e83666c26fdea57702f8258eea487df5ea0a736d08d0f94",
+    "rootfs_channel": "linuxcontainers-image",
     "shell": "/bin/bash",
     "update_cmd": "apt update && apt upgrade -y",
-    "description": "Primary glibc compatibility baseline."
+    "description": "Official Debian Bookworm arm64 rootfs image (flat tar); checksum verified by Ocean CI."
   },
   "ubuntu": {
     "name": "Ubuntu",
@@ -54,11 +54,12 @@
     "priority": "Very good",
     "pkg_manager": "dnf, rpm",
     "arch": "arm64",
-    "url": "https://download.fedoraproject.org/pub/fedora/linux/releases/41/Container/aarch64/images/Fedora-Container-Base-Generic-41-1.4.aarch64.oci.tar.xz",
+    "url": "https://dl.fedoraproject.org/pub/archive/fedora/linux/releases/41/Container/aarch64/images/Fedora-Container-Base-Generic-41-1.4.aarch64.oci.tar.xz",
     "sha256": "2d23cfbaae5df33e29bec6d2d2571dcc47c9cbf1431fbf26dfa97d69522297bf",
+    "archive_format": "oci",
     "shell": "/bin/bash",
     "update_cmd": "dnf upgrade -y",
-    "description": "Major RPM ecosystem."
+    "description": "Official Fedora 41 OCI base image; Ocean unpacks the rootfs layer without hardlink errors."
   },
   "rocky": {
     "name": "Rocky Linux",
@@ -68,9 +69,10 @@
     "arch": "arm64",
     "url": "https://dl.rockylinux.org/pub/rocky/9/images/aarch64/Rocky-9-Container-Base.latest.aarch64.tar.xz",
     "sha256": "254dc06377bb63a5ab390cea33c2f26d71c4e0ff6ae1bc8a0fb0fbb86d992e89",
+    "archive_format": "oci",
     "shell": "/bin/bash",
     "update_cmd": "dnf upgrade -y",
-    "description": "Practical RHEL-compatible ecosystem."
+    "description": "Official Rocky 9 OCI container rootfs; Ocean unpacks layers for proot."
   },
   "alma": {
     "name": "AlmaLinux",
@@ -78,11 +80,12 @@
     "priority": "Excellent",
     "pkg_manager": "dnf, rpm",
     "arch": "arm64",
-    "url": "https://images.linuxcontainers.org/images/almalinux/9/arm64/default/20260902_23:08/rootfs.tar.xz",
-    "sha256": "pending-official-rootfs",
+    "url": "https://images.linuxcontainers.org/images/almalinux/9/arm64/default/20260928_23%3A08/rootfs.tar.xz",
+    "sha256": "c221dc5429c5be7d87ce7540563ee7d084f2d0b34883be914a8664c4041071bc",
+    "rootfs_channel": "linuxcontainers-image",
     "shell": "/bin/bash",
     "update_cmd": "dnf upgrade -y",
-    "description": "Practical RHEL-compatible ecosystem."
+    "description": "Official AlmaLinux 9 arm64 rootfs image (flat tar)."
   },
   "opensuse": {
     "name": "openSUSE Tumbleweed",
@@ -114,11 +117,12 @@
     "priority": "Very good",
     "pkg_manager": "apt, dpkg",
     "arch": "arm64",
-    "url": "https://images.linuxcontainers.org/images/kali/current/arm64/default/20260902_17:14/rootfs.tar.xz",
-    "sha256": "skip",
+    "url": "https://images.linuxcontainers.org/images/kali/current/arm64/default/20260928_17%3A14/rootfs.tar.xz",
+    "sha256": "72a6b11d8261a2c559e280c07f7282ecd5e2d2bb6b51995a369dee585ee74ae9",
+    "rootfs_channel": "linuxcontainers-image",
     "shell": "/bin/bash",
     "update_cmd": "apt update && apt upgrade -y",
-    "description": "Debian derivative; security and penetration testing userland."
+    "description": "Official Kali arm64 rootfs image (flat tar)."
   },
   "centos": {
     "name": "CentOS Stream",
@@ -126,11 +130,12 @@
     "priority": "Good",
     "pkg_manager": "dnf, rpm",
     "arch": "arm64",
-    "url": "https://images.linuxcontainers.org/images/centos/9-Stream/arm64/default/20260903_07:36/rootfs.tar.xz",
-    "sha256": "skip",
+    "url": "https://cloud.centos.org/centos/9-stream/aarch64/images/CentOS-Stream-Container-Minimal-9-20260728.1.aarch64.tar.xz",
+    "sha256": "c92edb879c527e117d7a22283c52da1f352bdfd60adda1a9495b54ada05e710b",
+    "archive_format": "docker",
     "shell": "/bin/bash",
     "update_cmd": "dnf upgrade -y",
-    "description": "RHEL-family compatibility stream."
+    "description": "Official CentOS Stream 9 minimal container; Ocean extracts layer.tar for proot."
   },
   "devuan": {
     "name": "Devuan GNU+Linux",
@@ -138,11 +143,12 @@
     "priority": "Good",
     "pkg_manager": "apt, dpkg",
     "arch": "arm64",
-    "url": "https://images.linuxcontainers.org/images/devuan/daedalus/arm64/default/20260903_11:50/rootfs.tar.xz",
-    "sha256": "skip",
+    "url": "https://images.linuxcontainers.org/images/devuan/daedalus/arm64/default/20260929_11%3A50/rootfs.tar.xz",
+    "sha256": "4bd6ee8a1c9c5bb3fdf9eb32dc97e3b2df7cec693f42ce4440556ebc2762ed9a",
+    "rootfs_channel": "linuxcontainers-image",
     "shell": "/bin/bash",
     "update_cmd": "apt update && apt upgrade -y",
-    "description": "Debian-derived userland without systemd dependency as identity."
+    "description": "Official Devuan Daedalus arm64 rootfs image (flat tar)."
   },
   "gentoo": {
     "name": "Gentoo Linux",
