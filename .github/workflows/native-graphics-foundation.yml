@@ -1,0 +1,71 @@
+name: Build native Ocean graphics foundation from upstream
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/build-native-graphics-foundation.py
+      - .github/workflows/native-graphics-foundation.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ocean-native-graphics-foundation
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 75
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Install pinned Android NDK and native build tools
+        run: |
+          set -euo pipefail
+          yes | "${ANDROID_HOME}/cmdline-tools/latest/bin/sdkmanager" --licenses >/dev/null || true
+          "${ANDROID_HOME}/cmdline-tools/latest/bin/sdkmanager" 'ndk;27.0.12077973'
+          sudo apt-get update
+          sudo apt-get install -y ninja-build cmake dpkg-dev binutils
+      - name: Build four official-source native packages
+        run: |
+          set -euo pipefail
+          python3 scripts/build-native-graphics-foundation.py --ndk "${ANDROID_HOME}/ndk/27.0.12077973"
+          python3 - <<'PY'
+          from pathlib import Path
+          import subprocess, sys
+          sys.path.insert(0, 'scripts')
+          from forensic_repository import scan_tar
+          pool=Path('staging/native-graphics-foundation/pool/main')
+          archives=sorted(pool.glob('*.deb'))
+          assert len(archives)==4, [p.name for p in archives]
+          hard={'foreign-app-prefix','foreign-repository','foreign-runtime-variable','foreign-link-target',
+                'unsafe-archive-path','confirmed-ready-stub','invalid-elf-header','elf-reader-error'}
+          for deb in archives:
+              subprocess.run(['dpkg-deb','--info',str(deb)],check=True,stdout=subprocess.DEVNULL)
+              findings=[(row['path'],f) for row in list(scan_tar(deb))+list(scan_tar(deb,control=True))
+                        for f in row.get('findings',[]) if f['kind'] in hard]
+              if findings: raise SystemExit(f'{deb.name}: {findings}')
+              print('Verified candidate:',deb.name)
+          PY
+      - name: Preserve candidate artifacts for review
+        uses: actions/upload-artifact@v4
+        with:
+          name: ocean-native-graphics-foundation
+          path: staging/native-graphics-foundation/
+      - name: Stage only new packages on main
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add staging/native-graphics-foundation
+          git diff --cached --quiet && exit 0
+          git commit -m 'build(graphics): stage four official-source native Ocean packages [skip ci]'
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then exit 0; fi
+            git pull --rebase origin main
+          done
+          exit 1
