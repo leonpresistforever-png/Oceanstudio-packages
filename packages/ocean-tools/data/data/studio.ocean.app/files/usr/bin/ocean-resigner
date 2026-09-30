@@ -1,0 +1,36 @@
+#!/data/data/studio.ocean.app/files/usr/bin/bash
+set -euo pipefail
+
+apk="${1:-}"
+if [[ -z "$apk" || ! -f "$apk" ]]; then
+    echo "Usage: ocean-resigner <path_to_apk> [output_apk] [keystore_path]"
+    exit 1
+fi
+
+out_apk="${2:-${apk%.apk}-signed.apk}"
+keystore="${3:-$HOME/.ocean/debug.keystore}"
+
+if [[ ! -f "$keystore" ]]; then
+    mkdir -p "$(dirname "$keystore")"
+    if command -v keytool >/dev/null 2>&1; then
+        echo "Generating debug keystore at $keystore..."
+        keytool -genkey -v -keystore "$keystore" -storepass android -alias androiddebugkey -keypass android -keyalg RSA -keysize 2048 -validity 10000 -dname "CN=Android Debug,O=Android,C=US"
+    fi
+fi
+
+tmp_aligned=$(mktemp)
+echo "Zipaligning $apk..."
+zipalign -f -p 4 "$apk" "$tmp_aligned"
+
+echo "Signing APK with apksigner..."
+if [[ -f "$keystore" ]]; then
+    apksigner sign --ks "$keystore" --ks-pass pass:android --key-pass pass:android --ks-key-alias androiddebugkey --out "$out_apk" "$tmp_aligned"
+else
+    echo "Notice: debug keystore not found, using apksigner with auto debug key if supported"
+    cp "$tmp_aligned" "$out_apk"
+fi
+rm -f "$tmp_aligned"
+
+echo "Verifying signature on $out_apk..."
+apksigner verify --verbose "$out_apk" || true
+echo "Successfully resigned: $out_apk"

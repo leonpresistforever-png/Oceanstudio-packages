@@ -1,0 +1,14 @@
+#!/data/data/studio.ocean.app/files/usr/bin/bash
+set -euo pipefail
+printf 'Ocean package smoke test\nHOME=%s\nPREFIX=%s\n' "$HOME" "$PREFIX"
+for command in bash apt dpkg pkg cat ls find grep sed awk tar gzip zstd less which patch wget openssl; do
+  path=$(command -v "$command") || { echo "FAIL missing $command" >&2; exit 1; }
+  case "$path" in "$PREFIX"/*) ;; *) echo "FAIL $command resolved outside Ocean prefix: $path" >&2; exit 1;; esac
+  printf 'PASS %-12s %s\n' "$command" "$path"
+done
+pkg update
+pkg search ocean-hello
+pkg install -y ocean-hello
+ocean-hello
+dpkg -s ocean-hello >/dev/null
+echo OCEAN_FOUNDATION_OK

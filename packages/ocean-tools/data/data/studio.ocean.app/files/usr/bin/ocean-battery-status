@@ -1,0 +1,4 @@
+#!/data/data/studio.ocean.app/files/usr/bin/bash
+set -euo pipefail
+curl -s http://127.0.0.1:8088/api/battery 2>/dev/null || echo '{"error":"IPC unavailable"}'
+echo ""

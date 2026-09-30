@@ -1,0 +1,4 @@
+#!/data/data/studio.ocean.app/files/usr/bin/bash
+set -euo pipefail
+MS="${1:-300}"
+curl -s -X POST http://127.0.0.1:8088/api/vibrate -H "Content-Type: application/json" -d "{\"duration_ms\":$MS}" >/dev/null 2>&1 || true

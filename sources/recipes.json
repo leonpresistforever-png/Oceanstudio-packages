@@ -1,0 +1,88 @@
+[
+  {
+    "name": "cmark",
+    "upstream": "commonmark/cmark",
+    "commit": "bb3678d7a73cb02d35c8876ecd097072636200a8",
+    "url": "https://codeload.github.com/commonmark/cmark/tar.gz/bb3678d7a73cb02d35c8876ecd097072636200a8",
+    "sha256": "504be268650122b3cdae316b273e321e08dd8e4ccd82e3b97bc73a33536e8416",
+    "version": "0.31.1-1",
+    "license": "BSD-2-Clause",
+    "licenses": [
+      "COPYING"
+    ],
+    "expected": [
+      "bin/cmark",
+      "include/cmark.h"
+    ],
+    "options": [
+      "-DCMARK_TESTS=OFF",
+      "-DCMARK_STATIC=OFF"
+    ],
+    "description": "CommonMark parser and command line renderer",
+    "build": "cmake"
+  },
+  {
+    "name": "libcjson",
+    "upstream": "DaveGamble/cJSON",
+    "commit": "c859b25da02955fef659d658b8f324b5cde87be3",
+    "url": "https://codeload.github.com/DaveGamble/cJSON/tar.gz/c859b25da02955fef659d658b8f324b5cde87be3",
+    "sha256": "880a86445ad5cf38f877bac31198268d8fac5d2ce996ebf55d3066a4109ddd8d",
+    "version": "1.7.19-1",
+    "license": "MIT",
+    "licenses": [
+      "LICENSE"
+    ],
+    "expected": [
+      "lib/libcjson.so",
+      "include/cjson/cJSON.h"
+    ],
+    "options": [
+      "-DENABLE_CJSON_TEST=OFF",
+      "-DENABLE_CJSON_UTILS=OFF",
+      "-DBUILD_SHARED_LIBS=ON",
+      "-DCMAKE_POLICY_DEFAULT_CMP0057=NEW"
+    ],
+    "description": "Lightweight JSON parser in C",
+    "build": "cmake"
+  },
+  {
+    "name": "libtommath",
+    "upstream": "libtom/libtommath",
+    "commit": "95d80fd8229d05dd6cb4ec88bc8d4f5377ff00ef",
+    "url": "https://codeload.github.com/libtom/libtommath/tar.gz/95d80fd8229d05dd6cb4ec88bc8d4f5377ff00ef",
+    "sha256": "4705d095e1ffc5c986e84bfbc69ac36287e35014ff0a32767e4225f250c77b6f",
+    "version": "1.3.0-1",
+    "license": "Unlicense",
+    "licenses": [
+      "LICENSE"
+    ],
+    "expected": [
+      "include/tommath.h",
+      "lib/libtommath.so"
+    ],
+    "options": [
+      "-DBUILD_SHARED_LIBS=ON"
+    ],
+    "description": "Portable multiple precision arithmetic library",
+    "build": "cmake"
+  },
+  {
+    "name": "kilo",
+    "upstream": "antirez/kilo",
+    "commit": "323d93b29bd89a2cb446de90c4ed4fea1764176e",
+    "url": "https://codeload.github.com/antirez/kilo/tar.gz/323d93b29bd89a2cb446de90c4ed4fea1764176e",
+    "sha256": "79e62c23fdf369fa0cbbeaab9fd8ae2848dcc0156faf6efc89ea274528b39723",
+    "version": "0+git323d93b-1",
+    "license": "BSD-2-Clause",
+    "licenses": [
+      "LICENSE"
+    ],
+    "expected": [
+      "bin/kilo"
+    ],
+    "options": [],
+    "description": "Small terminal text editor",
+    "build": "single-c",
+    "source": "kilo.c"
+  }
+]

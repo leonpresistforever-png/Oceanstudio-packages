@@ -1,0 +1,170 @@
+#!/data/data/studio.ocean.app/files/usr/bin/bash
+set -euo pipefail
+
+export PREFIX=${PREFIX:-/data/data/studio.ocean.app/files/usr}
+lock_dir="$PREFIX/var/run/ocean-pkg.lock.d"
+wait_seconds=${OCEAN_PKG_LOCK_WAIT:-120}
+mkdir -p "${lock_dir%/*}"
+lock_token="$$-$(date +%s 2>/dev/null || printf 0)-${RANDOM:-0}"
+
+process_start() {
+    # /proc/<pid>/stat field 22 prevents a recycled PID being mistaken for the
+    # process which originally acquired the lock. Parentheses in comm may
+    # contain spaces, therefore strip through the final ') ' before indexing.
+    local stat rest
+    stat=$(cat "/proc/$1/stat" 2>/dev/null) || return 1
+    rest=${stat##*) }
+    set -- $rest
+    printf '%s\n' "${20:-}"
+}
+
+lock_owner_alive() {
+    local owner recorded_start actual_start
+    owner=$(cat "$lock_dir/pid" 2>/dev/null || true)
+    [[ "$owner" =~ ^[0-9]+$ ]] || return 1
+    recorded_start=$(cat "$lock_dir/start" 2>/dev/null || true)
+    [[ "$recorded_start" =~ ^[0-9]+$ ]] || return 1
+    actual_start=$(process_start "$owner" 2>/dev/null || true)
+    [[ "$actual_start" == "$recorded_start" ]] && kill -0 "$owner" 2>/dev/null
+}
+
+quarantine_stale_lock() {
+    local quarantine="$lock_dir.stale.$lock_token"
+    # rename is the ownership hand-off: exactly one contender can move a
+    # particular stale lock. Never rm -rf the live lock path after racing.
+    if mv "$lock_dir" "$quarantine" 2>/dev/null; then
+        rm -rf -- "$quarantine"
+    fi
+}
+
+acquired=false
+for ((elapsed=0; elapsed<=wait_seconds; elapsed++)); do
+    if mkdir "$lock_dir" 2>/dev/null; then
+        printf '%s\n' "$$" > "$lock_dir/pid"
+        process_start "$$" > "$lock_dir/start"
+        printf '%s\n' "$lock_token" > "$lock_dir/token"
+        acquired=true
+        break
+    fi
+    if ! lock_owner_alive; then
+        quarantine_stale_lock
+        continue
+    fi
+    (( elapsed < wait_seconds )) && sleep 1
+done
+
+if [[ "$acquired" != true ]]; then
+    echo 'Ocean package manager is busy.' >&2
+    exit 75
+fi
+
+release_lock() {
+    local status=$?
+    trap - EXIT
+    # Only the owner that created this exact directory may release it.
+    if [[ "$(cat "$lock_dir/token" 2>/dev/null || true)" == "$lock_token" ]]; then
+        quarantine_stale_lock
+    fi
+    exit "$status"
+}
+trap release_lock EXIT
+trap 'exit 129' HUP
+trap 'exit 130' INT
+trap 'exit 143' TERM
+
+# Refresh metadata, never installed packages. Preserve usable lists offline.
+lists="$PREFIX/var/lib/apt/lists"
+sync_state="$PREFIX/var/lib/ocean-pkg"
+mkdir -p "$lists/partial" "$sync_state"
+has_catalog() {
+    local index
+    for index in "$lists"/*_Packages "$lists"/*_Packages.lz4 "$lists"/*_Packages.gz "$lists"/*_Packages.xz; do
+        [[ -s "$index" ]] && return 0
+    done
+    return 1
+}
+recent_stamp() {
+    local modified now age
+    [[ -f "$1" ]] || return 1
+    modified=$(stat -c %Y "$1") || return 1
+    now=$(date +%s) || return 1
+    age=$((now-modified))
+    ((age >= 0 && age < $2))
+}
+refresh_catalog() {
+    local status
+    touch "$sync_state/last-attempt"
+    if apt-get update -o APT::Update::Error-Mode=any \
+            -o Acquire::Retries=0 -o Acquire::http::Timeout=15 \
+            -o Acquire::https::Timeout=15 \
+            -o Acquire::http::No-Cache=true -o Acquire::https::No-Cache=true "$@"; then
+        if ! has_catalog; then
+            printf '%s\n' "APT returned success but no Packages index exists in $lists." \
+                'Run pkg doctor to inspect Ocean repository configuration.' >&2
+            return 100
+        fi
+        touch "$sync_state/last-success"
+        return 0
+    else status=$?; return "$status"; fi
+}
+ensure_catalog() {
+    local index status
+    if has_catalog; then
+        recent_stamp "$sync_state/last-success" 86400 && return 0
+        # A direct apt update also counts. Bundled lists retain their old age.
+        for index in "$lists"/*_Packages "$lists"/*_Packages.lz4 "$lists"/*_Packages.gz "$lists"/*_Packages.xz; do
+            [[ -s "$index" ]] && recent_stamp "$index" 86400 && return 0
+        done
+        recent_stamp "$sync_state/last-attempt" 300 && return 0
+    fi
+    printf '%s\n' 'Refreshing Ocean package catalogue…' >&2
+    if refresh_catalog; then return 0; else status=$?; fi
+    if has_catalog; then
+        printf '%s\n' 'Catalogue refresh failed; using cached package lists. Ocean will retry shortly.' >&2
+        return 0
+    fi
+    printf '%s\n' 'No package catalogue is available. Connect to the internet and retry this command.' >&2
+    return "$status"
+}
+run_post_install_hooks() {
+    command -v ocean-fix-shebangs >/dev/null && ocean-fix-shebangs || true
+}
+command=${1:-help}; shift || true
+case "$command" in
+ update) refresh_catalog "$@";;
+ upgrade)
+    refresh_catalog || exit $?
+    apt-get full-upgrade "$@"
+    r=$?
+    run_post_install_hooks
+    exit "$r";;
+ install)
+    ensure_catalog || exit $?
+    apt-get install "$@"
+    r=$?
+    run_post_install_hooks
+    exit "$r";;
+ remove) apt-get remove "$@";;
+ reinstall)
+    ensure_catalog || exit $?
+    apt-get install --reinstall "$@"
+    r=$?
+    run_post_install_hooks
+    exit "$r";;
+ search) ensure_catalog && apt-cache search "$@";;
+ show) ensure_catalog && apt-cache show "$@";;
+ list-installed) dpkg-query -W "$@";;
+ clean) apt-get clean "$@";;
+ change-repo) ocean-change-repo "$@";;
+ paths) printf 'Ocean prefix: %s\nSources: %s\nLists: %s\nArchives: %s\nInstalled database: %s\n' \
+        "$PREFIX" "$PREFIX/etc/apt" "$lists" "$PREFIX/var/cache/apt/archives" "$PREFIX/var/lib/dpkg";;
+ doctor)
+    printf 'Ocean prefix: %s\n' "$PREFIX"
+    apt-config shell Architecture APT::Architecture Config Dir::Etc Lists Dir::State::lists Archives Dir::Cache::archives
+    printf '\nConfigured repositories and candidates:\n'
+    apt-cache policy "$@"
+    if ! has_catalog; then printf '\nNo package indexes in %s; run pkg update.\n' "$lists" >&2; exit 100; fi
+    ;;
+ help|-h|--help) printf '%s\n' 'Ocean pkg: update, upgrade, install, remove, reinstall, search, show, list-installed, clean, change-repo, paths, doctor';;
+ *) echo "Unknown pkg command: $command" >&2; exit 64;;
+esac

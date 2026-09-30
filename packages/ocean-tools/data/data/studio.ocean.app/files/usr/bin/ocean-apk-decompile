@@ -1,0 +1,41 @@
+#!/data/data/studio.ocean.app/files/usr/bin/bash
+set -euo pipefail
+apk="${1:-}"
+out="${2:-}"
+if [[ -z "$apk" ]]; then
+  echo "Usage: ocean-apk-decompile <app.apk> [output-dir]"
+  exit 1
+fi
+if [[ ! -f "$apk" ]]; then
+  echo "Error: APK file '$apk' not found" >&2
+  exit 1
+fi
+if [[ -z "$out" ]]; then
+  out="${apk%.apk}_decompiled"
+fi
+rm -rf "$out"
+mkdir -p "$out"
+
+if command -v apktool >/dev/null 2>&1; then
+  echo "Decoding APK with apktool into $out..."
+  apktool d -f "$apk" -o "$out"
+  printf '%s\n' "$apk" > "$out/.ocean-source-apk"
+  echo "APK workspace ready: $out"
+  exit 0
+fi
+
+echo "apktool is unavailable; falling back to raw extraction + DEX disassembly."
+unzip -q -o "$apk" -d "$out"
+for dex in "$out"/classes*.dex; do
+  if [[ -f "$dex" ]]; then
+    name="$(basename "$dex" .dex)"
+    echo "Disassembling $name..."
+    if command -v baksmali >/dev/null 2>&1; then
+      baksmali d -o "$out/smali_$name" "$dex" || true
+    elif command -v d2j-baksmali >/dev/null 2>&1; then
+      d2j-baksmali -f -o "$out/smali_$name" "$dex" || true
+    fi
+  fi
+done
+printf '%s\n' "$apk" > "$out/.ocean-source-apk"
+echo "Fallback workspace ready in $out. Install apktool for rebuildable decoding."

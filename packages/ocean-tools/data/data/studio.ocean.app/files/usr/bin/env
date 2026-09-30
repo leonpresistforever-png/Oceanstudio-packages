@@ -1,0 +1,8 @@
+#!/data/data/studio.ocean.app/files/usr/bin/bash
+# OceanStudio minimal env shim for bundled CLI wrappers.
+if [[ $# -lt 1 ]]; then echo "env: missing utility" >&2; exit 127; fi
+name="$1"; shift
+if [[ "$name" == */* ]]; then exec "$name" "$@"; fi
+if command -v "$name" >/dev/null 2>&1; then exec "$name" "$@"; fi
+echo "env: $name: No such file or directory" >&2
+exit 127

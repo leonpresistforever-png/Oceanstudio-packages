@@ -1,0 +1,12 @@
+#!/data/data/studio.ocean.app/files/usr/bin/bash
+set -euo pipefail
+PREFIX="${PREFIX:-/data/data/studio.ocean.app/files/usr}"
+script="$PREFIX/share/ocean/scripts/fix-runtime-shebangs.py"
+if [[ ! -f "$script" ]]; then
+  script="$(dirname "$0")/../share/ocean/scripts/fix-runtime-shebangs.py"
+fi
+if [[ ! -f "$script" ]]; then
+  echo "ocean-fix-shebangs: missing $script" >&2
+  exit 1
+fi
+exec "$PREFIX/bin/python3" "$script" --prefix "$PREFIX" "$@"

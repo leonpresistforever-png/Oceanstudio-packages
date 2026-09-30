@@ -1,0 +1,22 @@
+#!/data/data/studio.ocean.app/files/usr/bin/bash
+# OceanStudio - ocean-share (Share text or file via Android Intent)
+set -euo pipefail
+
+if [[ $# -lt 1 ]]; then
+  echo "Usage: ocean-share <text|file> [title]" >&2
+  exit 1
+fi
+
+CONTENT="$1"
+TITLE="${2:-Share via OceanStudio}"
+
+if [[ -f "$CONTENT" ]]; then
+  FILE_CONTENT=$(cat "$CONTENT" 2>/dev/null || echo "$CONTENT")
+  CONTENT="$FILE_CONTENT"
+fi
+
+if curl -s -f -m 1 -X POST http://127.0.0.1:8088/api/share -H "Content-Type: application/json" -d "{\"text\":\"$CONTENT\",\"title\":\"$TITLE\"}" >/dev/null 2>&1; then
+  exit 0
+fi
+
+/system/bin/am start -a android.intent.action.SEND -t "text/plain" --es android.intent.extra.TEXT "$CONTENT" >/dev/null 2>&1 || true

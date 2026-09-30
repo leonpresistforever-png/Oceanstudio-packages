@@ -1,0 +1,32 @@
+#!/data/data/studio.ocean.app/files/usr/bin/bash
+# OceanStudio - ocean-chsh
+set -euo pipefail
+
+PREFIX="${PREFIX:-/data/data/studio.ocean.app/files/usr}"
+HOME="${HOME:-/data/data/studio.ocean.app/files/home}"
+
+TARGET_SHELL="${1:-}"
+
+if [[ -z "$TARGET_SHELL" ]]; then
+  echo "Usage: ocean-chsh <shell-path>" >&2
+  echo "Available shells in OceanStudio:" >&2
+  for s in bash sh zsh fish; do
+    if [[ -x "$PREFIX/bin/$s" ]]; then
+      echo "  $PREFIX/bin/$s" >&2
+    fi
+  done
+  exit 1
+fi
+
+if [[ ! -x "$TARGET_SHELL" ]] && [[ -x "$PREFIX/bin/$TARGET_SHELL" ]]; then
+  TARGET_SHELL="$PREFIX/bin/$TARGET_SHELL"
+fi
+
+if [[ ! -x "$TARGET_SHELL" ]]; then
+  echo "ocean-chsh: '$TARGET_SHELL' is not executable or not found" >&2
+  exit 1
+fi
+
+echo "export SHELL=\"$TARGET_SHELL\"" > "$HOME/.oceanrc"
+echo "Default shell set to $TARGET_SHELL."
+echo "Changes will take effect on next terminal session."

@@ -1,0 +1,4 @@
+#!/data/data/studio.ocean.app/files/usr/bin/bash
+set -euo pipefail
+MSG="${*:-Hello from OceanStudio}"
+curl -s -X POST http://127.0.0.1:8088/api/toast -H "Content-Type: application/json" -d "{\"message\":\"$MSG\"}" >/dev/null 2>&1 || /system/bin/am broadcast -a studio.ocean.app.api.TOAST --es message "$MSG" >/dev/null 2>&1 || true

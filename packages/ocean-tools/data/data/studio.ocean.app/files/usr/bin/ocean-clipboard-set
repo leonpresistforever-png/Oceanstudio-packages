@@ -1,0 +1,7 @@
+#!/data/data/studio.ocean.app/files/usr/bin/bash
+set -euo pipefail
+TEXT="${*:-}"
+if [[ -z "$TEXT" ]] && [[ ! -t 0 ]]; then
+  TEXT=$(cat)
+fi
+curl -s -X POST http://127.0.0.1:8088/api/clipboard -H "Content-Type: application/json" -d "{\"text\":\"$TEXT\"}" >/dev/null 2>&1 || true

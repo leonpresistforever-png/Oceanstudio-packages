@@ -1,0 +1,51 @@
+#!/data/data/studio.ocean.app/files/usr/bin/bash
+set -euo pipefail
+
+usage() {
+    echo "Usage: ocean-intent <action> [options]"
+    echo ""
+    echo "Actions:"
+    echo "  start-activity -a <action> -d <data_uri> [-n <component>]"
+    echo "  broadcast      -a <action> [-e <key> <value>]"
+    echo "  start-service  -a <action> [-n <component>]"
+    echo "  view-url       <url>"
+    echo "  view-file      <file_path>"
+    echo "  json           <json_payload>   # POST to Ocean /api/intent (default activity) or /api/app-task"
+    echo "  app-task       <json_payload>   # POST to /api/app-task (default broadcast)"
+    exit 1
+}
+
+cmd="${1:-}"
+[[ -z "$cmd" ]] && usage
+shift
+
+case "$cmd" in
+    start-activity)
+        /system/bin/am start "$@"
+        ;;
+    broadcast)
+        /system/bin/am broadcast "$@"
+        ;;
+    start-service)
+        /system/bin/am startservice "$@"
+        ;;
+    view-url)
+        url="$1"
+        curl -s -X POST -H "Content-Type: application/json" -d "{\"url\":\"$url\"}" http://127.0.0.1:8088/api/open 2>/dev/null || /system/bin/am start -a android.intent.action.VIEW -d "$url"
+        ;;
+    view-file)
+        fpath="$1"
+        curl -s -X POST -H "Content-Type: application/json" -d "{\"path\":\"$fpath\"}" http://127.0.0.1:8088/api/open 2>/dev/null || /system/bin/am start -a android.intent.action.VIEW -d "file://$fpath"
+        ;;
+    json)
+        payload="$1"
+        curl -s -X POST -H "Content-Type: application/json" -d "$payload" http://127.0.0.1:8088/api/intent
+        echo ""
+        ;;
+    app-task)
+        exec "$(dirname "$0")/ocean-app-task" "$1"
+        ;;
+    *)
+        /system/bin/am "$cmd" "$@"
+        ;;
+esac

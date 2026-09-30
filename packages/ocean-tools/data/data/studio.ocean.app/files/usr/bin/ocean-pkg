@@ -1,0 +1,54 @@
+#!/data/data/studio.ocean.app/files/usr/bin/bash
+set -euo pipefail
+
+usage() {
+    echo "Usage: ocean-pkg <command> [args]"
+    echo ""
+    echo "Commands:"
+    echo "  install <path.apk>       Install an APK via Android PackageInstaller"
+    echo "  extract <package_name>   Extract installed app base/split APK to $HOME"
+    echo "  list                     List installed user packages"
+    echo "  info <package_name>      Show package details"
+    exit 1
+}
+
+cmd="${1:-}"
+[[ -z "$cmd" ]] && usage
+shift
+
+case "$cmd" in
+    install)
+        apk_path="$1"
+        [[ ! -f "$apk_path" ]] && { echo "File not found: $apk_path"; exit 1; }
+        abs_path=$(realpath "$apk_path")
+        echo "Launching Android PackageInstaller for $abs_path..."
+        curl -s -X POST -H "Content-Type: application/json" -d "{\"path\":\"$abs_path\"}" http://127.0.0.1:8088/api/open 2>/dev/null || /system/bin/am start -a android.intent.action.VIEW -t "application/vnd.android.package-archive" -d "file://$abs_path"
+        ;;
+    extract)
+        pkg_name="$1"
+        out_dir="${2:-$HOME/extracted_apks/$pkg_name}"
+        mkdir -p "$out_dir"
+        echo "Extracting APKs for $pkg_name to $out_dir..."
+        pm_path=$(/system/bin/pm path "$pkg_name" 2>/dev/null | sed 's/package://' || true)
+        if [[ -n "$pm_path" ]]; then
+            for p in $pm_path; do
+                echo "Copying $(basename "$p")..."
+                cp "$p" "$out_dir/" || true
+            done
+            echo "Extracted APKs saved to: $out_dir"
+            ls -lh "$out_dir"
+        else
+            echo "Failed to get APK path for $pkg_name (check permissions or package name)"
+        fi
+        ;;
+    list)
+        /system/bin/pm list packages -3 | sed 's/package://' | sort
+        ;;
+    info)
+        pkg_name="$1"
+        /system/bin/dumpsys package "$pkg_name" | head -n 30
+        ;;
+    *)
+        usage
+        ;;
+esac

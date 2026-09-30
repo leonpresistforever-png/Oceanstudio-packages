@@ -1,0 +1,5 @@
+architecture=aarch64
+android_api=28
+ndk=27.0.12077973
+upstream=a3c7f61396dcf87888c2bf3a5d1ff3cf87e98018
+catalog_phases=foundation,network,source-control,runtimes,development,workstation,distro,second-wave

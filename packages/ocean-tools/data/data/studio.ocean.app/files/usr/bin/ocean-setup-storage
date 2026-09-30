@@ -1,0 +1,25 @@
+#!/data/data/studio.ocean.app/files/usr/bin/bash
+# OceanStudio - ocean-setup-storage
+set -euo pipefail
+
+OCEAN_HOME="${OCEAN_HOME:-${HOME:-/data/data/studio.ocean.app/files/home}}"
+STORAGE_DIR="$OCEAN_HOME/storage"
+
+mkdir -p "$STORAGE_DIR"
+
+echo "Configuring storage access in $STORAGE_DIR..."
+
+ln -sfn /sdcard "$STORAGE_DIR/shared"
+ln -sfn /sdcard/Download "$STORAGE_DIR/downloads" 2>/dev/null || true
+ln -sfn /sdcard/DCIM "$STORAGE_DIR/dcim" 2>/dev/null || true
+ln -sfn /sdcard/Pictures "$STORAGE_DIR/pictures" 2>/dev/null || true
+ln -sfn /sdcard/Music "$STORAGE_DIR/music" 2>/dev/null || true
+ln -sfn /sdcard/Movies "$STORAGE_DIR/movies" 2>/dev/null || true
+ln -sfn /sdcard/Documents "$STORAGE_DIR/documents" 2>/dev/null || true
+
+echo "Requesting system storage permissions..."
+curl -s -f -m 1 http://127.0.0.1:8088/api/storage_setup >/dev/null 2>&1 || true
+/system/bin/am start -a android.settings.APPLICATION_DETAILS_SETTINGS -d "package:studio.ocean.app" >/dev/null 2>&1 || true
+
+echo "Storage symlinks created:"
+ls -la "$STORAGE_DIR"

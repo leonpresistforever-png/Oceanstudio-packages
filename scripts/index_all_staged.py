@@ -12,12 +12,16 @@ import re
 import shutil
 import subprocess
 import tarfile
+import sys
 import tempfile
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+_SCRIPTS = Path(__file__).resolve().parent
+if str(_SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(_SCRIPTS))
 INDEX = Path("main/binary-aarch64/Packages")
 GENERATED = {"Filename", "Size", "MD5sum", "SHA1", "SHA256", "SHA512"}
 DIRTY_POOL_HASHES = {
@@ -202,6 +206,11 @@ def select_packages(root):
     root = Path(root).resolve()
     apt, dists = root / "apt", root / "apt/dists/stable"
     selected, original, conflicts = {}, {}, []
+    rejected_staging: list[dict[str, object]] = []
+    try:
+        from package_quality import assess_deb
+    except ImportError:
+        assess_deb = None
     staged = []
     for deb in sorted((root / "staging").rglob("*.deb")):
         control_text, digest = parse_deb(deb)
@@ -283,6 +292,17 @@ def select_packages(root):
         text, digest = parse_deb(deb)
         consider(deb, text, digest, True)
     for deb, text, digest in staged:
+        if assess_deb is not None:
+            verdict = assess_deb(deb, text)
+            if verdict.reject:
+                rejected_staging.append(
+                    {
+                        "path": deb.relative_to(root).as_posix(),
+                        "package": verdict.package,
+                        "reasons": list(verdict.reasons),
+                    }
+                )
+                continue
         consider(deb, text, digest, False)
     destinations = {}
     for _, control, _ in selected.values():
@@ -300,6 +320,7 @@ def select_packages(root):
     return selected, {"indexedBefore": len(original), "indexedAfter": len(selected),
                       "poolFiles": len(pool), "stagedFiles": len(staged),
                       "updates": updates, "retainedPoolConflicts": conflicts,
+                      "rejectedStaging": rejected_staging,
                       "runtimeTested": False}
 
 

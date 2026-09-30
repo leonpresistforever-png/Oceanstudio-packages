@@ -1,0 +1,76 @@
+#!/data/data/studio.ocean.app/files/usr/bin/bash
+set -euo pipefail
+
+usage() {
+    echo "Usage: ocean-archive <command> [arguments]"
+    echo ""
+    echo "Commands:"
+    echo "  create <archive.tar.[gz|xz|zst]> <dirs/files...>   Create archive"
+    echo "  extract <archive> [target_dir]                     Extract archive"
+    echo "  list <archive>                                     List contents"
+    echo "  add <archive.tar> <file_or_dir>                    Append file/dir to tarball"
+    echo "  mkdir <archive.tar> <dir_path>                     Create directory inside tarball"
+    exit 1
+}
+
+cmd="${1:-}"
+case "$cmd" in
+    create)
+        shift
+        arc="$1"; shift
+        case "$arc" in
+            *.tar.zst) tar -cf - "$@" | zstd -T4 -o "$arc" ;;
+            *.tar.gz|*.tgz) tar -czf "$arc" "$@" ;;
+            *.tar.xz) tar -cJf "$arc" "$@" ;;
+            *.zip) zip -r "$arc" "$@" ;;
+            *.tar) tar -cf "$arc" "$@" ;;
+            *) echo "Unsupported extension: $arc"; exit 1 ;;
+        esac
+        echo "Created archive: $arc"
+        ;;
+    extract)
+        shift
+        arc="$1"
+        target="${2:-.}"
+        mkdir -p "$target"
+        case "$arc" in
+            *.tar.zst) zstd -dc "$arc" | tar -xf - -C "$target" ;;
+            *.tar.gz|*.tgz) tar -xzf "$arc" -C "$target" ;;
+            *.tar.xz) tar -xJf "$arc" -C "$target" ;;
+            *.zip) unzip -q -o "$arc" -d "$target" ;;
+            *.tar) tar -xf "$arc" -C "$target" ;;
+            *) echo "Unsupported extension: $arc"; exit 1 ;;
+        esac
+        echo "Extracted $arc into $target"
+        ;;
+    list)
+        shift
+        arc="$1"
+        case "$arc" in
+            *.tar.zst) zstd -dc "$arc" | tar -tvf - ;;
+            *.tar.gz|*.tgz) tar -tzvf "$arc" ;;
+            *.tar.xz) tar -tJvf "$arc" ;;
+            *.zip) unzip -l "$arc" ;;
+            *.tar) tar -tvf "$arc" ;;
+            *) echo "Unsupported extension: $arc"; exit 1 ;;
+        esac
+        ;;
+    add)
+        shift
+        arc="$1"; file="$2"
+        tar -rf "$arc" "$file"
+        echo "Added $file to $arc"
+        ;;
+    mkdir)
+        shift
+        arc="$1"; dir_name="$2"
+        tmp_d=$(mktemp -d)
+        mkdir -p "$tmp_d/$dir_name"
+        (cd "$tmp_d" && tar -rf "$(realpath "$arc")" "$dir_name")
+        rm -rf "$tmp_d"
+        echo "Created directory $dir_name inside $arc"
+        ;;
+    *)
+        usage
+        ;;
+esac

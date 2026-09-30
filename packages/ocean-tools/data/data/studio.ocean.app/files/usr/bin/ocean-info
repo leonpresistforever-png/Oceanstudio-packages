@@ -1,0 +1,28 @@
+#!/data/data/studio.ocean.app/files/usr/bin/bash
+# OceanStudio - ocean-info
+set -euo pipefail
+
+PREFIX="${PREFIX:-/data/data/studio.ocean.app/files/usr}"
+HOME="${HOME:-/data/data/studio.ocean.app/files/home}"
+
+ABI=$(getprop ro.product.cpu.abi 2>/dev/null || uname -m)
+RELEASE=$(getprop ro.build.version.release 2>/dev/null || echo "Unknown")
+SDK=$(getprop ro.build.version.sdk 2>/dev/null || echo "Unknown")
+DEVICE=$(getprop ro.product.model 2>/dev/null || echo "Generic Android")
+PKG_COUNT=$(dpkg-query -l 2>/dev/null | grep -c "^ii" || echo "0")
+
+echo "==================================================="
+echo "             OceanStudio Runtime Info"
+echo "==================================================="
+echo "Application:     OceanStudio (studio.ocean.app)"
+echo "Version:         1.0.0 (Foundation Edition)"
+echo "Architecture:    $ABI ($(uname -m))"
+echo "Android OS:      Android $RELEASE (SDK $SDK)"
+echo "Device Model:    $DEVICE"
+echo "Kernel:          $(uname -r)"
+echo "Prefix:          $PREFIX"
+echo "Home:            $HOME"
+echo "Installed pkgs:  $PKG_COUNT packages"
+echo "Repository:      https://raw.githubusercontent.com/leonpresistforever-png/Oceanstudio-packages/main/apt"
+echo "Distros Active:  13 distributions supported (PRoot)"
+echo "==================================================="

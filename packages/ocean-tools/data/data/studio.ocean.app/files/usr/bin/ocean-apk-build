@@ -1,0 +1,38 @@
+#!/data/data/studio.ocean.app/files/usr/bin/bash
+set -euo pipefail
+
+workspace="${1:-}"
+out_apk="${2:-}"
+keystore="${3:-}"
+
+if [[ -z "$workspace" || ! -d "$workspace" ]]; then
+  echo "Usage: ocean-apk-build <workspace-dir> [output.apk] [keystore]"
+  exit 1
+fi
+if ! command -v apktool >/dev/null 2>&1; then
+  echo "apktool is required. Install it with: pkg install apktool"
+  exit 2
+fi
+if ! command -v zipalign >/dev/null 2>&1 || ! command -v apksigner >/dev/null 2>&1; then
+  echo "zipalign and apksigner are required. Install them with: pkg install zipalign apksigner"
+  exit 2
+fi
+
+workspace="$(realpath "$workspace")"
+name="$(basename "$workspace")"
+out_apk="${out_apk:-$HOME/apk-lab/builds/${name}-signed.apk}"
+mkdir -p "$(dirname "$out_apk")"
+tmp_dir="$(mktemp -d)"
+trap 'rm -rf "$tmp_dir"' EXIT
+unsigned="$tmp_dir/unsigned.apk"
+
+echo "Rebuilding $workspace..."
+apktool b "$workspace" -o "$unsigned"
+
+if [[ -n "$keystore" ]]; then
+  ocean-resigner "$unsigned" "$out_apk" "$keystore"
+else
+  ocean-resigner "$unsigned" "$out_apk"
+fi
+
+echo "APK Lab build complete: $out_apk"

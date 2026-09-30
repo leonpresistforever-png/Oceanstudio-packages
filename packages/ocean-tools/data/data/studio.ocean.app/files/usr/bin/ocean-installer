@@ -1,0 +1,18 @@
+#!/data/data/studio.ocean.app/files/usr/bin/bash
+set -euo pipefail
+target="${1:-}"
+if [[ -z "$target" ]]; then
+  echo "Usage: ocean-installer <package-name-or-apk>"
+  exit 1
+fi
+if [[ "$target" == *.apk ]]; then
+  if [[ ! -f "$target" ]]; then
+    echo "Error: APK file not found: $target" >&2
+    exit 1
+  fi
+  echo "Installing APK via Ocean Intent System: $target"
+  ocean-open "$target" || am start -a android.intent.action.VIEW -d "file://$target" -t "application/vnd.android.package-archive"
+else
+  echo "Installing package via ocean-pkg: $target"
+  ocean-pkg install "$target"
+fi

@@ -1,0 +1,42 @@
+#!/data/data/studio.ocean.app/files/usr/bin/bash
+# OceanStudio - ocean-open (Open file or URL via Android Intent)
+set -euo pipefail
+
+if [[ $# -lt 1 ]]; then
+  echo "Usage: ocean-open <file|url>" >&2
+  exit 1
+fi
+
+TARGET="$1"
+
+if [[ "$TARGET" =~ ^https?:// ]] || [[ "$TARGET" =~ ^mailto: ]] || [[ "$TARGET" =~ ^geo: ]]; then
+  if curl -s -f -m 1 -X POST http://127.0.0.1:8088/api/open -H "Content-Type: application/json" -d "{\"target\":\"$TARGET\"}" >/dev/null 2>&1; then
+    exit 0
+  fi
+  /system/bin/am start -a android.intent.action.VIEW -d "$TARGET" >/dev/null 2>&1 || true
+  exit 0
+fi
+
+REALPATH=$(realpath -q "$TARGET" 2>/dev/null || echo "$TARGET")
+if [[ ! -e "$REALPATH" ]]; then
+  echo "ocean-open: file '$TARGET' does not exist" >&2
+  exit 1
+fi
+
+if curl -s -f -m 1 -X POST http://127.0.0.1:8088/api/open -H "Content-Type: application/json" -d "{\"target\":\"$REALPATH\"}" >/dev/null 2>&1; then
+  exit 0
+fi
+
+MIME="*/*"
+case "${REALPATH##*.}" in
+  txt|log|sh|py|js|json|c|cpp|h|md) MIME="text/plain" ;;
+  html|htm) MIME="text/html" ;;
+  pdf) MIME="application/pdf" ;;
+  png) MIME="image/png" ;;
+  jpg|jpeg) MIME="image/jpeg" ;;
+  mp4) MIME="video/mp4" ;;
+  mp3) MIME="audio/mpeg" ;;
+  apk) MIME="application/vnd.android.package-archive" ;;
+esac
+
+/system/bin/am start -a android.intent.action.VIEW -d "file://$REALPATH" -t "$MIME" >/dev/null 2>&1 || true

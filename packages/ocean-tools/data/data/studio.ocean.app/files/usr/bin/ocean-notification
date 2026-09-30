@@ -1,0 +1,6 @@
+#!/data/data/studio.ocean.app/files/usr/bin/bash
+set -euo pipefail
+TITLE="${1:-OceanStudio}"
+shift || true
+CONTENT="${*:-Notification from terminal}"
+curl -s -X POST http://127.0.0.1:8088/api/notification -H "Content-Type: application/json" -d "{\"title\":\"$TITLE\",\"content\":\"$CONTENT\"}" >/dev/null 2>&1 || true

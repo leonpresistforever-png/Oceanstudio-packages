@@ -1,0 +1,633 @@
+#!/data/data/studio.ocean.app/files/usr/bin/bash
+set -euo pipefail
+
+FORGE="$HOME/ocean-forge"
+WORKSPACE="$FORGE/workspace"
+BUILDS="$FORGE/builds"
+STATE="$FORGE/state"
+mkdir -p "$WORKSPACE" "$BUILDS" "$STATE"
+
+usage() {
+  cat <<'EOF'
+Ocean Forge — local OceanStudio development and rebuild workspace
+
+Usage:
+  ocean-forge tools
+  ocean-forge doctor
+  ocean-forge bootstrap
+  ocean-forge bootstrap-sdk
+  ocean-forge configure-sdk <sdk-root> <arm64-aapt2>
+  ocean-forge detect-sdk
+  ocean-forge sdk-status
+  ocean-forge seed [source.zip]
+  ocean-forge clone <git-url> [branch]
+  ocean-forge init <source-dir>
+  ocean-forge status
+  ocean-forge diff
+  ocean-forge test
+  ocean-forge build
+  ocean-forge build-signed <keystore> <alias> <store-pass-file> <key-pass-file>
+  ocean-forge verify [apk]
+  ocean-forge install [apk]
+  ocean-forge checkpoint [label]
+  ocean-forge rollback
+
+Notes:
+- bootstrap installs Ocean's local JVM/build helper toolchain.
+- bootstrap-sdk downloads the Android 35 platform package and an ARM64 aapt2 adapter, verifies them, and configures Forge.
+- configure-sdk records an Android 35 SDK and ARM64 aapt2 override.
+- seed initializes the workspace from the source snapshot carried inside the installed Ocean APK.
+- clone uses existing Git credentials; do not embed access tokens in repository URLs.
+- init copies a source tree into $HOME/ocean-forge/workspace/current and creates a local Git baseline.
+- build runs Ocean architecture verification, unit tests and assembleDebug.
+- build-signed uses short-lived password files and an imported signing identity for the candidate.
+- verify compares the candidate certificate with the currently installed Ocean APK.
+- install hands a verified candidate to Android PackageInstaller.
+- Android still requires the installed and candidate APKs to have compatible signing identities.
+EOF
+}
+
+current="$WORKSPACE/current"
+candidate="$BUILDS/OceanStudio-candidate.apk"
+
+need() {
+  command -v "$1" >/dev/null 2>&1 || { echo "Missing tool: $1" >&2; return 1; }
+}
+
+installed_apk() {
+  /system/bin/pm path studio.ocean.app 2>/dev/null | sed -n 's/^package://p' | head -n1
+}
+
+installed_version_code() {
+  /system/bin/dumpsys package studio.ocean.app 2>/dev/null |
+    sed -n 's/.*versionCode=\([0-9][0-9]*\).*/\1/p' | head -n1
+}
+
+prepare_version() {
+  local installed_code source_code base_name next
+  installed_code="$(installed_version_code || true)"
+  source_code="$(grep -E 'versionCode ' "$current/android/app/build.gradle" | grep -oE "[0-9]+" | tail -n1 || true)"
+  [[ -n "$source_code" ]] || source_code=1
+  if [[ -n "$installed_code" && "$source_code" -le "$installed_code" ]]; then next=$((installed_code+1)); else next="$source_code"; fi
+  base_name="$(grep -E 'versionName ' "$current/android/app/build.gradle" | grep -oE '"[^"]+"' | tail -n1 | tr -d '"' || true)"
+  [[ -n "$base_name" ]] || base_name="1.0"
+  export OCEAN_FORGE_VERSION_CODE="$next"
+  export OCEAN_FORGE_VERSION_NAME="$base_name-forge.$next"
+  echo "Forge candidate version: $OCEAN_FORGE_VERSION_NAME ($OCEAN_FORGE_VERSION_CODE)"
+}
+
+cert_digest() {
+  local apk="$1"
+  apksigner verify --print-certs "$apk" 2>/dev/null |
+    sed -n 's/^Signer #1 certificate SHA-256 digest: //p' | head -n1 | tr 'A-F' 'a-f' | tr -d ':'
+}
+
+java_home() {
+  local bin
+  bin="$(readlink -f "$(command -v java 2>/dev/null || true)")"
+  [[ -n "$bin" ]] || return 1
+  dirname "$(dirname "$bin")"
+}
+
+load_sdk() {
+  [[ -f "$STATE/android-sdk-root" && -f "$STATE/aapt2-override" ]] || {
+    echo "Forge Android SDK is not configured. Run: ocean-forge configure-sdk <sdk-root> <arm64-aapt2>" >&2
+    return 1
+  }
+  ANDROID_HOME="$(cat "$STATE/android-sdk-root")"
+  ANDROID_SDK_ROOT="$ANDROID_HOME"
+  AAPT2_OVERRIDE="$(cat "$STATE/aapt2-override")"
+  [[ -f "$ANDROID_HOME/platforms/android-35/android.jar" ]] || { echo "Android 35 platform is missing from $ANDROID_HOME" >&2; return 1; }
+  [[ -x "$AAPT2_OVERRIDE" ]] || { echo "ARM64 aapt2 is missing or not executable: $AAPT2_OVERRIDE" >&2; return 1; }
+  export ANDROID_HOME ANDROID_SDK_ROOT
+  JAVA_HOME="$(java_home)" || { echo "A working Java runtime is required." >&2; return 1; }
+  export JAVA_HOME
+}
+
+prepare_native_library() {
+  [[ -d "$current/.git" && -f "$STATE/baseline-commit" ]] || {
+    echo "Forge baseline is unavailable; reinitialize the workspace." >&2
+    return 1
+  }
+
+  local baseline installed out source native_build
+  baseline="$(cat "$STATE/baseline-commit")"
+  out="$current/android/app/src/forgeNative/arm64-v8a/liboceanpty.so"
+  source="$current/android/app/src/main/cpp/ocean_pty.c"
+  mkdir -p "$(dirname "$out")"
+
+  if git -C "$current" diff --quiet "$baseline" -- android/app/src/main/cpp; then
+    installed="$(installed_apk || true)"
+    [[ -n "$installed" && -r "$installed" ]] || {
+      echo "Installed Ocean APK is unavailable for native-library reuse." >&2
+      return 1
+    }
+    unzip -p "$installed" lib/arm64-v8a/liboceanpty.so > "$out"
+    [[ -s "$out" ]] || {
+      rm -f "$out"
+      echo "Installed Ocean APK did not contain liboceanpty.so." >&2
+      return 1
+    }
+    sha256sum "$out" > "$STATE/reused-native.sha256"
+    rm -f "$STATE/built-native.sha256"
+    echo "Native core unchanged; reusing installed PTY: $(cat "$STATE/reused-native.sha256")"
+    return 0
+  fi
+
+  echo "Native Ocean PTY source changed; compiling a fresh ARM64 JNI library locally..."
+  need clang
+  need llvm-readelf
+  [[ -f "$source" ]] || { echo "Native source is missing: $source" >&2; return 8; }
+
+  native_build="$FORGE/native-build"
+  rm -rf "$native_build"
+  mkdir -p "$native_build"
+
+  clang     -shared -fPIC -O2     -Wall -Wextra -Werror     -Wl,-soname,liboceanpty.so     -Wl,--no-undefined     -o "$native_build/liboceanpty.so"     "$source"     -llog
+
+  [[ -s "$native_build/liboceanpty.so" ]] || {
+    echo "Native compiler did not produce liboceanpty.so." >&2
+    return 8
+  }
+
+  llvm-readelf -h "$native_build/liboceanpty.so" | grep -Eq 'Machine:.*AArch64' || {
+    echo "Native Forge output is not an AArch64 ELF library." >&2
+    return 8
+  }
+  llvm-readelf -d "$native_build/liboceanpty.so" >/dev/null
+
+  if command -v llvm-strip >/dev/null 2>&1; then
+    llvm-strip --strip-unneeded "$native_build/liboceanpty.so" || true
+  fi
+
+  cp "$native_build/liboceanpty.so" "$out"
+  sha256sum "$out" > "$STATE/built-native.sha256"
+  rm -f "$STATE/reused-native.sha256"
+  echo "Forge native PTY built locally: $(cat "$STATE/built-native.sha256")"
+}
+
+case "${1:-}" in
+  tools)
+    for tool in bash git java javac gradle python3 kotlin kotlinc ecj clang cmake ninja llvm-readelf aapt zipalign apksigner keytool; do
+      if command -v "$tool" >/dev/null 2>&1; then
+        printf '%-12s %s\n' "$tool" "$(command -v "$tool")"
+      else
+        printf '%-12s missing\n' "$tool"
+      fi
+    done
+    ;;
+
+  doctor)
+    failures=0
+    echo "Ocean Forge doctor"
+    echo "Workspace: $current"
+    for tool in git java javac python3 curl unzip tar clang llvm-readelf; do
+      if command -v "$tool" >/dev/null 2>&1; then
+        printf '  %-14s OK  %s\n' "$tool" "$(command -v "$tool")"
+      else
+        printf '  %-14s MISSING\n' "$tool"
+        failures=$((failures+1))
+      fi
+    done
+    if [[ -d "$current/android" && -f "$current/android/app/build.gradle" ]]; then
+      echo "  source         OK"
+      if [[ -x "$current/android/gradlew" || -f "$current/android/gradlew" ]]; then echo "  gradle wrapper OK"; else echo "  gradle wrapper MISSING"; failures=$((failures+1)); fi
+      if [[ -f "$current/android/variables.gradle" ]]; then
+        min="$(sed -n 's/^\s*minSdkVersion = \([0-9][0-9]*\)\s*$/\1/p' "$current/android/variables.gradle" | head -n1)"
+        target="$(sed -n 's/^\s*targetSdkVersion = \([0-9][0-9]*\)\s*$/\1/p' "$current/android/variables.gradle" | head -n1)"
+        compile="$(sed -n 's/^\s*compileSdkVersion = \([0-9][0-9]*\)\s*$/\1/p' "$current/android/variables.gradle" | head -n1)"
+        echo "  SDK baseline   min=$min target=$target compile=$compile"
+        [[ "$min" = "28" && "$target" = "28" && "$compile" = "35" ]] || failures=$((failures+1))
+      fi
+    else
+      echo "  source         NOT INITIALIZED"
+      failures=$((failures+1))
+    fi
+    if load_sdk >/dev/null 2>&1; then
+      echo "  Android SDK    OK  $ANDROID_HOME"
+      echo "  android.jar    $ANDROID_HOME/platforms/android-35/android.jar"
+      version="$($AAPT2_OVERRIDE version 2>&1 | head -n1 || true)"
+      echo "  ARM64 aapt2    OK  $version"
+    else
+      echo "  Android SDK    NOT CONFIGURED; run ocean-forge bootstrap-sdk"
+      failures=$((failures+1))
+    fi
+    if [[ -d "$current/.git" && -f "$STATE/baseline-commit" ]]; then
+      echo "  baseline       OK  $(cat "$STATE/baseline-commit")"
+      if git -C "$current" diff --quiet "$(cat "$STATE/baseline-commit")" -- android/app/src/main/cpp; then
+        echo "  native source  unchanged; installed JNI reuse is available"
+      else
+        echo "  native source  changed; local ARM64 clang rebuild will be used"
+      fi
+    else
+      echo "  baseline       MISSING"
+      failures=$((failures+1))
+    fi
+    if [[ -f "$candidate" ]]; then
+      echo "  candidate      present  $(sha256sum "$candidate" | awk '{print $1}')"
+    else
+      echo "  candidate      none"
+    fi
+    if [[ $failures -eq 0 ]]; then echo "FORGE_READY=true"; else echo "FORGE_READY=false failures=$failures"; fi
+    exit "$failures"
+    ;;
+  bootstrap)
+    command -v pkg >/dev/null 2>&1 || { echo "Ocean pkg frontend is required." >&2; exit 2; }
+    echo "Installing Ocean Forge toolchain..."
+    pkg update
+    pkg install -y git openjdk-21 kotlin ecj clang cmake ninja aapt apksigner python unzip curl ca-certificates tar xz-utils
+    echo "Forge toolchain installation complete."
+    "$0" tools
+    ;;
+
+  bootstrap-sdk)
+    need curl
+    need python3
+    need unzip
+
+    sdk="$HOME/android-sdk"
+    cache="$FORGE/download-cache"
+    mkdir -p "$sdk/platforms" "$sdk/build-tools/34.0.4" "$cache"
+
+    repo_xml="$cache/repository2-1.xml"
+    echo "Resolving Android SDK Platform 35 from Google's repository metadata..."
+    curl --fail --location --retry 5 --retry-all-errors \
+      --connect-timeout 20 --max-time 180 \
+      -o "$repo_xml.tmp" "https://dl.google.com/android/repository/repository2-1.xml"
+    mv "$repo_xml.tmp" "$repo_xml"
+
+    platform_meta="$cache/platform35.meta"
+    python3 - "$repo_xml" > "$platform_meta.tmp" <<'PY'
+import sys, xml.etree.ElementTree as ET
+root=ET.parse(sys.argv[1]).getroot()
+best=None
+for pkg in root.iter():
+    if pkg.tag.endswith("remotePackage") and pkg.attrib.get("path")=="platforms;android-35":
+        rev=[]
+        for n in pkg.iter():
+            if n.tag.endswith(("major","minor","micro")):
+                try: rev.append(int(n.text or "0"))
+                except: rev.append(0)
+        for a in pkg.iter():
+            if not a.tag.endswith("archive"): continue
+            url=size=sha=None
+            for n in a.iter():
+                tag=n.tag.split("}")[-1]
+                if tag=="url": url=(n.text or "").strip()
+                elif tag=="size": size=(n.text or "").strip()
+                elif tag=="checksum" and n.attrib.get("type","sha1").lower()=="sha1": sha=(n.text or "").strip()
+            if url:
+                cand=(tuple(rev or [0]),url,size or "",sha or "")
+                if best is None or cand[0]>best[0]: best=cand
+if best is None: raise SystemExit("platforms;android-35 archive not found")
+print(best[1]); print(best[2]); print(best[3])
+PY
+    mv "$platform_meta.tmp" "$platform_meta"
+    platform_url="$(sed -n '1p' "$platform_meta")"
+    platform_size="$(sed -n '2p' "$platform_meta")"
+    platform_sha1="$(sed -n '3p' "$platform_meta")"
+    case "$platform_url" in http*) ;; *) platform_url="https://dl.google.com/android/repository/$platform_url" ;; esac
+
+    platform_zip="$cache/platform-35.zip"
+    echo "Downloading Android 35 platform..."
+    curl --fail --location --continue-at - --retry 5 --retry-all-errors \
+      --connect-timeout 20 --max-time 1800 -o "$platform_zip" "$platform_url"
+    [[ -z "$platform_size" || "$(wc -c < "$platform_zip" | tr -d ' ')" = "$platform_size" ]] || {
+      echo "Android platform size verification failed." >&2; exit 20;
+    }
+    if [[ -n "$platform_sha1" ]]; then
+      actual="$(sha1sum "$platform_zip" | awk '{print $1}')"
+      [[ "$actual" = "$platform_sha1" ]] || { echo "Android platform SHA-1 verification failed." >&2; exit 20; }
+    fi
+
+    temp="$cache/platform35-extract"
+    rm -rf "$temp"; mkdir -p "$temp"
+    unzip -q -o "$platform_zip" -d "$temp"
+    android_jar="$(find "$temp" -type f -name android.jar | head -n1)"
+    [[ -n "$android_jar" ]] || { echo "Downloaded platform archive did not contain android.jar" >&2; exit 20; }
+    platform_root="$(dirname "$android_jar")"
+    rm -rf "$sdk/platforms/android-35"
+    mkdir -p "$sdk/platforms/android-35"
+    cp -a "$platform_root"/. "$sdk/platforms/android-35"/
+    [[ -f "$sdk/platforms/android-35/android.jar" ]] || { echo "Failed to install Android 35 platform." >&2; exit 20; }
+
+    build_tools_archive="$cache/build-tools-34.0.4-aarch64.tar.xz"
+    build_tools_url="https://github.com/AndroidIDEOfficial/androidide-tools/releases/download/v34.0.4/build-tools-34.0.4-aarch64.tar.xz"
+    echo "Downloading AndroidIDE ARM64 SDK Build Tools 34.0.4..."
+    curl --fail --location --continue-at - --retry 5 --retry-all-errors \
+      --connect-timeout 20 --max-time 1800 -o "$build_tools_archive" "$build_tools_url"
+    [[ "$(wc -c < "$build_tools_archive" | tr -d ' ')" = "41666832" ]] || {
+      echo "ARM64 build-tools size verification failed." >&2; exit 21;
+    }
+
+    build_tools_temp="$cache/build-tools-extract"
+    rm -rf "$build_tools_temp"; mkdir -p "$build_tools_temp"
+    tar -xJf "$build_tools_archive" -C "$build_tools_temp"
+    found_aapt2="$(find "$build_tools_temp" -type f -name aapt2 | head -n1)"
+    [[ -n "$found_aapt2" ]] || { echo "ARM64 build-tools archive did not contain aapt2." >&2; exit 21; }
+    found_root="$(dirname "$found_aapt2")"
+    rm -rf "$sdk/build-tools/34.0.4"
+    mkdir -p "$sdk/build-tools/34.0.4"
+    cp -a "$found_root"/. "$sdk/build-tools/34.0.4"/
+    aapt2="$sdk/build-tools/34.0.4/aapt2"
+    chmod 700 "$aapt2"
+    "$aapt2" version >/dev/null 2>&1 || { echo "ARM64 aapt2 cannot execute on this device." >&2; exit 21; }
+
+    printf '%s\n' "$(realpath "$sdk")" > "$STATE/android-sdk-root"
+    printf '%s\n' "$(realpath "$aapt2")" > "$STATE/aapt2-override"
+    echo "Forge SDK bootstrap complete."
+    "$0" sdk-status
+    ;;
+
+  detect-sdk)
+    sdk=""
+    aapt2=""
+    for candidate in "${ANDROID_HOME:-}" "${ANDROID_SDK_ROOT:-}" "$HOME/android-sdk" "$HOME/.androidide/android-sdk" "${PREFIX:-$HOME/../usr}/share/android-sdk"; do
+      [[ -n "$candidate" && -f "$candidate/platforms/android-35/android.jar" ]] || continue
+      sdk="$(realpath "$candidate")"; break
+    done
+    if [[ -n "$sdk" ]]; then
+      for candidate in "${PREFIX:-}/bin/aapt2" "$HOME/.androidide/aapt2" "$sdk/build-tools/34.0.4/aapt2" "$sdk/build-tools/35.0.0/aapt2"; do
+        [[ -n "$candidate" && -x "$candidate" ]] || continue
+        if "$candidate" version >/dev/null 2>&1; then aapt2="$(realpath "$candidate")"; break; fi
+      done
+    fi
+    if [[ -n "$sdk" && -n "$aapt2" ]]; then
+      printf '%s\n' "$sdk" > "$STATE/android-sdk-root"
+      printf '%s\n' "$aapt2" > "$STATE/aapt2-override"
+      echo "Detected Forge Android SDK adapter."
+      "$0" sdk-status
+    else
+      echo "No complete Android 35 + ARM64 aapt2 adapter was detected." >&2
+      echo "Install/provide an Android 35 SDK and ARM64 aapt2, then run configure-sdk." >&2
+      exit 9
+    fi
+    ;;
+
+  configure-sdk)
+    sdk="${2:-}"; aapt2="${3:-}"
+    [[ -n "$sdk" && -d "$sdk" && -n "$aapt2" && -f "$aapt2" ]] || { echo "Usage: ocean-forge configure-sdk <sdk-root> <arm64-aapt2>" >&2; exit 2; }
+    sdk="$(realpath "$sdk")"; aapt2="$(realpath "$aapt2")"
+    [[ -f "$sdk/platforms/android-35/android.jar" ]] || { echo "SDK must contain platforms/android-35/android.jar" >&2; exit 2; }
+    chmod +x "$aapt2" 2>/dev/null || true
+    [[ -x "$aapt2" ]] || { echo "aapt2 must be executable" >&2; exit 2; }
+    printf '%s\n' "$sdk" > "$STATE/android-sdk-root"
+    printf '%s\n' "$aapt2" > "$STATE/aapt2-override"
+    echo "Forge Android SDK configured."
+    "$0" sdk-status
+    ;;
+
+  sdk-status)
+    if load_sdk; then
+      echo "ANDROID_HOME=$ANDROID_HOME"
+      echo "AAPT2_OVERRIDE=$AAPT2_OVERRIDE"
+      echo "JAVA_HOME=$JAVA_HOME"
+      "$AAPT2_OVERRIDE" version || true
+    fi
+    ;;
+
+  seed)
+    bundle="${2:-$STATE/source.zip}"
+    [[ -f "$bundle" ]] || { echo "Forge source bundle not found: $bundle" >&2; exit 22; }
+    need unzip
+    rm -rf "$current"
+    mkdir -p "$current"
+    echo "Initializing Forge workspace from bundled Ocean source..."
+    unzip -q -o "$bundle" -d "$current"
+    [[ -d "$current/android" && -f "$current/android/app/build.gradle" ]] || {
+      rm -rf "$current"
+      echo "Forge source bundle is incomplete." >&2
+      exit 22
+    }
+    chmod +x "$current/android/gradlew" "$current/scripts/verify-native-only.sh" 2>/dev/null || true
+    printf '%s\n' "apk-bundled-source" > "$STATE/source-origin"
+    date -u +%Y-%m-%dT%H:%M:%SZ > "$STATE/initialized-at"
+    if command -v git >/dev/null 2>&1; then
+      (
+        cd "$current"
+        git init -q
+        git config user.name "Ocean Forge"
+        git config user.email "forge@ocean.local"
+        git add -A
+        git commit -q -m "Ocean Forge bundled-source baseline" || true
+        git rev-parse HEAD
+      ) > "$STATE/baseline-commit"
+    fi
+    echo "Forge workspace seeded from this Ocean APK: $current"
+    "$0" status
+    ;;
+  clone)
+    url="${2:-}"; branch="${3:-}"
+    [[ -n "$url" ]] || { echo "Usage: ocean-forge clone <git-url> [branch]" >&2; exit 2; }
+    case "$url" in
+      *://*@*) echo "Do not embed credentials or tokens in the Git URL. Configure Git credentials separately." >&2; exit 2 ;;
+    esac
+    need git
+    rm -rf "$current"
+    mkdir -p "$WORKSPACE"
+    echo "Cloning Ocean Forge source workspace..."
+    if [[ -n "$branch" ]]; then
+      git clone --depth 1 --branch "$branch" -- "$url" "$current"
+    else
+      git clone --depth 1 -- "$url" "$current"
+    fi
+    printf '%s\n' "$url" > "$STATE/source-origin"
+    git -C "$current" rev-parse HEAD > "$STATE/baseline-commit"
+    date -u +%Y-%m-%dT%H:%M:%SZ > "$STATE/initialized-at"
+    echo "Forge workspace ready: $current"
+    ;;
+
+  init)
+    src="${2:-}"
+    [[ -n "$src" && -d "$src" ]] || { echo "Usage: ocean-forge init <source-dir>" >&2; exit 2; }
+    src="$(realpath "$src")"
+    rm -rf "$current"
+    mkdir -p "$current"
+    echo "Creating Forge workspace from $src..."
+    (
+      cd "$src"
+      tar --exclude='.git' --exclude='.gradle' --exclude='**/build' --exclude='ocean-forge' -cf - .
+    ) | (
+      cd "$current"
+      tar -xf -
+    )
+    printf '%s\n' "$src" > "$STATE/source-origin"
+    date -u +%Y-%m-%dT%H:%M:%SZ > "$STATE/initialized-at"
+    if command -v git >/dev/null 2>&1; then
+      (
+        cd "$current"
+        git init -q
+        git config user.name "Ocean Forge"
+        git config user.email "forge@ocean.local"
+        git add -A
+        git commit -q -m "Ocean Forge baseline" || true
+        git rev-parse HEAD
+      ) > "$STATE/baseline-commit"
+    fi
+    echo "Forge workspace ready: $current"
+    ;;
+
+  status)
+    echo "Ocean Forge: $FORGE"
+    echo "Workspace: $current"
+    [[ -d "$current" ]] || { echo "Workspace state: not initialized"; exit 0; }
+    echo "Workspace state: ready"
+    if [[ -f "$current/android/variables.gradle" ]]; then
+      grep -E 'minSdkVersion|targetSdkVersion|compileSdkVersion' "$current/android/variables.gradle" || true
+    fi
+    [[ -f "$candidate" ]] && {
+      echo "Candidate: $candidate"
+      sha256sum "$candidate"
+    } || echo "Candidate: none"
+    installed="$(installed_apk || true)"
+    [[ -n "$installed" ]] && echo "Installed Ocean APK: $installed" || echo "Installed Ocean APK: unavailable"
+    if [[ -f "$STATE/built-native.sha256" ]]; then
+      echo "Native core: locally rebuilt"
+      cat "$STATE/built-native.sha256"
+    elif [[ -f "$STATE/reused-native.sha256" ]]; then
+      echo "Native core: reused from installed Ocean"
+      cat "$STATE/reused-native.sha256"
+    else
+      echo "Native core: not prepared for current candidate"
+    fi
+    ;;
+
+  diff)
+    [[ -d "$current" ]] || { echo "Initialize a source workspace first." >&2; exit 3; }
+    if [[ -d "$current/.git" ]] && command -v git >/dev/null 2>&1; then
+      cd "$current"
+      git status --short
+      git diff --stat
+      git diff -- . ':(exclude)android/app/build' ':(exclude).gradle'
+    else
+      echo "No Git baseline is available for this workspace."
+    fi
+    ;;
+
+  test)
+    [[ -d "$current/android" ]] || { echo "Initialize a source workspace first." >&2; exit 3; }
+    load_sdk
+    cd "$current"
+    [[ -x scripts/verify-native-only.sh ]] || chmod +x scripts/verify-native-only.sh 2>/dev/null || true
+    [[ -x android/gradlew ]] || chmod +x android/gradlew
+    ./scripts/verify-native-only.sh
+    cd android
+    export GRADLE_USER_HOME="$FORGE/gradle-home"
+    export OCEAN_FORGE_REUSE_NATIVE=true
+    ./gradlew -Pandroid.aapt2FromMavenOverride="$AAPT2_OVERRIDE" test --no-daemon --stacktrace
+    ;;
+
+  build)
+    [[ -d "$current/android" ]] || { echo "Initialize a source workspace first." >&2; exit 3; }
+    load_sdk
+    prepare_native_library
+    prepare_version
+    cd "$current"
+    [[ -x scripts/verify-native-only.sh ]] || chmod +x scripts/verify-native-only.sh 2>/dev/null || true
+    [[ -x android/gradlew ]] || chmod +x android/gradlew
+    ./scripts/verify-native-only.sh
+    cd android
+    export GRADLE_USER_HOME="$FORGE/gradle-home"
+    export OCEAN_BUILD_COMMIT="forge-local"
+    export OCEAN_FORGE_REUSE_NATIVE=true
+    ./gradlew -Pandroid.aapt2FromMavenOverride="$AAPT2_OVERRIDE" \
+      -PoceanForgeVersionCode="$OCEAN_FORGE_VERSION_CODE" \
+      -PoceanForgeVersionName="$OCEAN_FORGE_VERSION_NAME" \
+      test assembleDebug --no-daemon --stacktrace
+    built="app/build/outputs/apk/debug/app-debug.apk"
+    [[ -f "$built" ]] || { echo "Gradle completed but APK output was not found." >&2; exit 4; }
+    cp "$built" "$candidate"
+    sha256sum "$candidate" > "$candidate.sha256"
+    echo "Forge candidate built: $candidate"
+    "$0" verify "$candidate" || true
+    ;;
+
+  build-signed)
+    keystore="${2:-}"; alias="${3:-}"; store_file="${4:-}"; key_file="${5:-}"
+    [[ -f "$keystore" && -n "$alias" && -f "$store_file" && -f "$key_file" ]] || {
+      echo "Usage: ocean-forge build-signed <keystore> <alias> <store-pass-file> <key-pass-file>" >&2
+      exit 2
+    }
+    export OCEAN_FORGE_KEYSTORE="$(realpath "$keystore")"
+    export OCEAN_FORGE_KEY_ALIAS="$alias"
+    export OCEAN_FORGE_STORE_PASS="$(cat "$store_file")"
+    export OCEAN_FORGE_KEY_PASS="$(cat "$key_file")"
+    trap 'rm -f "$store_file" "$key_file"' EXIT HUP INT TERM
+    "$0" build
+    ;;
+
+  verify)
+    apk="${2:-$candidate}"
+    [[ -f "$apk" ]] || { echo "Candidate not found: $apk" >&2; exit 5; }
+    need apksigner
+    apksigner verify --verbose "$apk"
+    if command -v aapt >/dev/null 2>&1; then
+      badging="$(aapt dump badging "$apk" 2>/dev/null | head -n1 || true)"
+      pkg="$(printf '%s\n' "$badging" | sed -n "s/^package: name='\([^']*\)'.*/\1/p")"
+      code="$(printf '%s\n' "$badging" | sed -n "s/.*versionCode='\([0-9][0-9]*\)'.*/\1/p")"
+      [[ "$pkg" = "studio.ocean.app" ]] || { echo "Candidate package mismatch: $pkg" >&2; exit 11; }
+      installed_code="$(installed_version_code || true)"
+      if [[ -n "$installed_code" && -n "$code" && "$code" -lt "$installed_code" ]]; then
+        echo "Candidate versionCode $code is lower than installed $installed_code" >&2
+        exit 12
+      fi
+      echo "Candidate package: $pkg versionCode=$code"
+    fi
+    candidate_cert="$(cert_digest "$apk")"
+    installed="$(installed_apk || true)"
+    if [[ -n "$installed" && -r "$installed" ]]; then
+      installed_cert="$(cert_digest "$installed")"
+      echo "Candidate certificate: $candidate_cert"
+      echo "Installed certificate: $installed_cert"
+      if [[ -n "$candidate_cert" && "$candidate_cert" = "$installed_cert" ]]; then
+        echo "UPDATE_COMPATIBLE=true"
+        exit 0
+      fi
+      echo "UPDATE_COMPATIBLE=false"
+      echo "Candidate cannot update the installed Ocean app until it is signed with the same trusted key."
+      exit 10
+    fi
+    echo "Installed certificate unavailable; candidate APK itself verified."
+    ;;
+
+  install)
+    apk="${2:-$candidate}"
+    [[ -f "$apk" ]] || { echo "Candidate not found: $apk" >&2; exit 5; }
+    "$0" verify "$apk"
+    command -v ocean-pkg >/dev/null 2>&1 || { echo "ocean-pkg is required for PackageInstaller handoff." >&2; exit 6; }
+    ocean-pkg install "$apk"
+    ;;
+
+  checkpoint)
+    label="${2:-checkpoint}"
+    [[ -d "$current" ]] || { echo "Initialize a source workspace first." >&2; exit 3; }
+    safe="$(printf '%s' "$label" | tr ' ' '_' | tr -cd 'A-Za-z0-9._-')"
+    [[ -n "$safe" ]] || safe=checkpoint
+    mkdir -p "$FORGE/checkpoints"
+    stamp="$(date -u +%Y%m%dT%H%M%SZ)"
+    archive="$FORGE/checkpoints/${stamp}-${safe}.tar.gz"
+    tar -C "$current" -czf "$archive" .
+    if [[ -d "$current/.git" ]] && command -v git >/dev/null 2>&1; then
+      (
+        cd "$current"
+        git add -A
+        git commit -q -m "Forge checkpoint: $label" || true
+      )
+    fi
+    printf '%s\n' "$archive" > "$STATE/last-checkpoint"
+    echo "Checkpoint saved: $archive"
+    ;;
+
+  rollback)
+    archive=""
+    [[ -f "$STATE/last-checkpoint" ]] && archive="$(cat "$STATE/last-checkpoint")"
+    [[ -n "$archive" && -f "$archive" ]] || { echo "No Forge checkpoint is available." >&2; exit 7; }
+    rm -rf "$current"
+    mkdir -p "$current"
+    tar -C "$current" -xzf "$archive"
+    echo "Workspace restored from: $archive"
+    ;;
+
+  ""|-h|--help|help) usage ;;
+  *) echo "Unknown Ocean Forge command: $1" >&2; usage; exit 2 ;;
+esac

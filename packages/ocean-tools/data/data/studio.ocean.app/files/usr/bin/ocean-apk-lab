@@ -1,0 +1,68 @@
+#!/data/data/studio.ocean.app/files/usr/bin/bash
+set -euo pipefail
+
+usage() {
+  cat <<'EOF'
+Ocean APK Lab
+Usage:
+  ocean-apk-lab tools
+  ocean-apk-lab extract <package_name> [output-dir]
+  ocean-apk-lab open <apk> [workspace-dir]
+  ocean-apk-lab package <package_name> [workspace-dir]
+  ocean-apk-lab build <workspace-dir> [output.apk] [keystore]
+  ocean-apk-lab install <apk>
+  ocean-apk-lab inspect <apk>
+
+Only modify apps/APKs you are authorized to modify. Android remains responsible
+for install approval, signatures, private app sandboxes and protected content.
+EOF
+  exit 1
+}
+
+cmd="${1:-}"; [[ -z "$cmd" ]] && usage; shift || true
+mkdir -p "$HOME/apk-lab/workspaces" "$HOME/apk-lab/builds" "$HOME/apk-lab/extracted"
+
+case "$cmd" in
+  tools)
+    for tool in apktool baksmali smali aapt zipalign apksigner keytool; do
+      if command -v "$tool" >/dev/null 2>&1; then printf '%-12s %s\n' "$tool" "$(command -v "$tool")"; else printf '%-12s %s\n' "$tool" "missing"; fi
+    done
+    ;;
+  extract)
+    pkg="${1:-}"; [[ -z "$pkg" ]] && usage
+    out="${2:-$HOME/apk-lab/extracted/$pkg}"
+    ocean-pkg extract "$pkg" "$out"
+    ;;
+  open)
+    apk="${1:-}"; [[ -z "$apk" || ! -f "$apk" ]] && usage
+    base="$(basename "$apk" .apk)"
+    out="${2:-$HOME/apk-lab/workspaces/$base}"
+    ocean-apk-decompile "$apk" "$out"
+    ;;
+  package)
+    pkg="${1:-}"; [[ -z "$pkg" ]] && usage
+    extracted="$HOME/apk-lab/extracted/$pkg"
+    ocean-pkg extract "$pkg" "$extracted"
+    base_apk="$extracted/base.apk"
+    if [[ ! -f "$base_apk" ]]; then
+      base_apk="$(find "$extracted" -maxdepth 1 -type f -name '*.apk' | head -n 1)"
+    fi
+    [[ -z "$base_apk" || ! -f "$base_apk" ]] && { echo "No extracted APK found for $pkg"; exit 3; }
+    out="${2:-$HOME/apk-lab/workspaces/$pkg}"
+    ocean-apk-decompile "$base_apk" "$out"
+    echo "Note: split APK apps may require their original split set; rebuilding only base.apk is not equivalent to rebuilding an app bundle."
+    ;;
+  build)
+    workspace="${1:-}"; [[ -z "$workspace" ]] && usage
+    ocean-apk-build "$workspace" "${2:-}" "${3:-}"
+    ;;
+  install)
+    apk="${1:-}"; [[ -z "$apk" || ! -f "$apk" ]] && usage
+    ocean-pkg install "$apk"
+    ;;
+  inspect)
+    apk="${1:-}"; [[ -z "$apk" || ! -f "$apk" ]] && usage
+    if command -v aapt >/dev/null 2>&1; then aapt dump badging "$apk" | head -n 60; else unzip -l "$apk" | head -n 80; fi
+    ;;
+  *) usage ;;
+esac

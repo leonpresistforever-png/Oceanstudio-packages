@@ -1,0 +1,42 @@
+#!/data/data/studio.ocean.app/files/usr/bin/bash
+# OceanStudio - ocean-doctor
+set -euo pipefail
+
+PREFIX="${PREFIX:-/data/data/studio.ocean.app/files/usr}"
+HOME="${HOME:-/data/data/studio.ocean.app/files/home}"
+
+echo "==================================================="
+echo "         OceanStudio Doctor Health Check"
+echo "==================================================="
+
+ERRORS=0
+
+check() {
+  local name="$1"
+  shift
+  if "$@" >/dev/null 2>&1; then
+    printf "  [OK] %s\n" "$name"
+  else
+    printf "  [FAIL] %s\n" "$name"
+    ERRORS=$((ERRORS + 1))
+  fi
+}
+
+check "Prefix directory exists" test -d "$PREFIX"
+check "Bash shell binary present" test -x "$PREFIX/bin/bash"
+check "PRoot binary present" test -x "$PREFIX/bin/proot"
+check "APT package manager present" test -x "$PREFIX/bin/apt"
+check "Ocean pkg wrapper present" test -x "$PREFIX/bin/pkg"
+check "Tmp directory writeable" test -w "${TMPDIR:-$PREFIX/tmp}"
+check "APT keyring exists" test -f "$PREFIX/etc/apt/keyrings/ocean.gpg"
+check "APT source configured" test -f "$PREFIX/etc/apt/sources.list.d/ocean.list"
+check "DPKG database integrity" dpkg --audit
+check "No Termux paths in APT config" bash -c "! grep -r "com.termux" "$PREFIX/etc/apt""
+
+echo "---------------------------------------------------"
+if [[ $ERRORS -eq 0 ]]; then
+  echo "All health checks passed! OceanStudio runtime is healthy."
+else
+  echo "$ERRORS health check(s) failed. Check details above."
+fi
+echo "==================================================="

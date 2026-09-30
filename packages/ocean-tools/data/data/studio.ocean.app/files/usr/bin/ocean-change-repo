@@ -1,0 +1,19 @@
+#!/data/data/studio.ocean.app/files/usr/bin/bash
+set -euo pipefail
+export PREFIX=${PREFIX:-/data/data/studio.ocean.app/files/usr}
+source_file="$PREFIX/etc/apt/sources.list.d/ocean.list"
+keyring="$PREFIX/etc/apt/keyrings/ocean.gpg"
+url=${1:-}
+if [[ -z "$url" ]]; then
+  echo "Usage: ocean-change-repo https://mirror.example/ocean/apt" >&2; exit 64
+fi
+case "$url" in
+  https://*) ;;
+  *) echo 'Ocean repositories must use HTTPS.' >&2; exit 64;;
+esac
+url=${url%/}
+temporary="$source_file.tmp.$$"
+umask 022
+printf 'deb [signed-by=%s] %s stable main\n' "$keyring" "$url" > "$temporary"
+mv -f "$temporary" "$source_file"
+printf 'Ocean repository changed to %s\nRun pkg update to verify its signed metadata.\n' "$url"

@@ -1,0 +1,8 @@
+Package: ocean-pkg
+Version: 1.2.0
+Architecture: all
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: apt, dpkg
+Section: admin
+Priority: required
+Description: Ocean package manager command frontend

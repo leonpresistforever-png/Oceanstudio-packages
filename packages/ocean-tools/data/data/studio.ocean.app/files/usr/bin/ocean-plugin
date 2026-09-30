@@ -1,0 +1,98 @@
+#!/data/data/studio.ocean.app/files/usr/bin/bash
+set -euo pipefail
+DIR="$HOME/.ocean/plugins"
+mkdir -p "$DIR"
+
+safe_id() { printf '%s' "$1" | tr '[:upper:]' '[:lower:]' | tr -cd 'a-z0-9._-'; }
+clean() { printf '%s' "$1" | tr '\n\r=' '   '; }
+
+usage() {
+  cat <<'EOF'
+Ocean Plugin Registry
+Usage:
+  ocean-plugin register <id> <name> <command> [description]
+  ocean-plugin scaffold <id> <name> [bash|python] [description]
+  ocean-plugin list
+  ocean-plugin remove <id>
+
+Register creates a persistent plugin manifest shown in Ocean's Plugins page.
+Registered agent plugins receive UTF-8 text/JSON on stdin and should write their result to stdout.
+Scaffold creates a private executable handler in Ocean's prefix and registers it without overwriting an existing handler.
+Register alone does not install software; install the required package/tool first.
+EOF
+}
+
+cmd="${1:-}"
+case "$cmd" in
+  register)
+    [[ $# -ge 4 ]] || { usage; exit 1; }
+    id="$(safe_id "$2")"; [[ -n "$id" ]] || { echo "Invalid plugin id" >&2; exit 2; }
+    name="$(clean "$3")"; command_name="$(clean "$4")"; description="$(clean "${5:-Terminal-registered Ocean plugin.}")"
+    file="$DIR/$id.plugin"
+    {
+      printf 'id=%s\n' "$id"
+      printf 'name=%s\n' "$name"
+      printf 'command=%s\n' "$command_name"
+      printf 'description=%s\n' "$description"
+    } > "$file"
+    echo "Registered plugin: $id"
+    ;;
+  scaffold)
+    [[ $# -ge 3 ]] || { usage; exit 1; }
+    id="$(safe_id "$2")"; [[ -n "$id" ]] || { echo "Invalid plugin id" >&2; exit 2; }
+    name="$(clean "$3")"
+    language="${4:-bash}"
+    description="$(clean "${5:-Ocean scaffolded plugin.}")"
+    prefix="${PREFIX:-/data/data/studio.ocean.app/files/usr}"
+    handler="$prefix/bin/ocean-plugin-$id"
+    [[ ! -e "$handler" ]] || { echo "Plugin handler already exists: $handler" >&2; exit 3; }
+    case "$language" in
+      bash)
+        cat > "$handler" <<EOF
+#!$prefix/bin/bash
+set -euo pipefail
+input="\$(cat)"
+printf 'Plugin %s received %s bytes\n' '$id' "\${#input}"
+printf '%s\n' "\$input"
+EOF
+        ;;
+      python)
+        cat > "$handler" <<EOF
+#!$prefix/bin/python3
+import json, sys
+data = sys.stdin.read()
+print(json.dumps({"plugin": "$id", "input": data}, ensure_ascii=False))
+EOF
+        ;;
+      *) echo "Language must be bash or python" >&2; exit 2 ;;
+    esac
+    chmod 700 "$handler"
+    command_name="$(basename "$handler")"
+    file="$DIR/$id.plugin"
+    {
+      printf 'id=%s\n' "$id"
+      printf 'name=%s\n' "$name"
+      printf 'command=%s\n' "$command_name"
+      printf 'description=%s\n' "$description"
+    } > "$file"
+    echo "Scaffolded and registered plugin: $id"
+    echo "Handler: $handler"
+    ;;
+  list)
+    found=0
+    for file in "$DIR"/*.plugin; do
+      [[ -f "$file" ]] || continue
+      found=1
+      id="$(sed -n 's/^id=//p' "$file" | head -n1)"
+      name="$(sed -n 's/^name=//p' "$file" | head -n1)"
+      command_name="$(sed -n 's/^command=//p' "$file" | head -n1)"
+      printf '%-20s %-28s %s\n' "$id" "$name" "$command_name"
+    done
+    [[ $found -eq 1 ]] || echo "No registered plugins."
+    ;;
+  remove)
+    [[ $# -eq 2 ]] || { usage; exit 1; }
+    id="$(safe_id "$2")"; rm -f "$DIR/$id.plugin"; echo "Removed plugin registry entry: $id"
+    ;;
+  *) usage; [[ -n "$cmd" ]] && exit 1 || exit 0 ;;
+esac

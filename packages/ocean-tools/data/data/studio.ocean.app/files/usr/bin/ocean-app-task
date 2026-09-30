@@ -1,0 +1,27 @@
+#!/data/data/studio.ocean.app/files/usr/bin/bash
+# Post structured app tasks to Ocean IPC (headless broadcast/service/activity).
+set -euo pipefail
+
+usage() {
+  echo "Usage: ocean-app-task <json_payload>" >&2
+  echo "       ocean-app-task -f <json_file>" >&2
+  echo "       echo '{\"mode\":\"broadcast\",\"action\":\"...\",\"package_name\":\"...\"}' | ocean-app-task" >&2
+  exit 1
+}
+
+payload=""
+if [[ "${1:-}" == "-f" ]]; then
+  [[ $# -lt 2 ]] && usage
+  payload="$(cat "$2")"
+elif [[ $# -ge 1 ]]; then
+  payload="$1"
+else
+  payload="$(cat)"
+fi
+
+[[ -z "$payload" ]] && usage
+
+curl -s -X POST "http://127.0.0.1:8088/api/app-task" \
+  -H "Content-Type: application/json" \
+  -d "$payload"
+echo ""

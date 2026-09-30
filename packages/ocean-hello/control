@@ -1,0 +1,8 @@
+Package: ocean-hello
+Version: 1.0.0
+Architecture: aarch64
+Maintainer: OceanStudio <maintainer@ocean.studio>
+Depends: bash
+Section: utils
+Priority: optional
+Description: End-to-end verification executable for the Ocean package distribution

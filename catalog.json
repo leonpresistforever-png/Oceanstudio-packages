@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "target": {"applicationId": "studio.ocean.app", "architecture": "aarch64", "androidApi": 28, "prefix": "/data/data/studio.ocean.app/files/usr"},
+  "phases": {
+    "bootstrap": ["bash", "apt", "libcurl"],
+    "foundation": ["coreutils", "findutils", "grep", "sed", "gawk", "diffutils", "tar", "gzip", "zstd", "less", "which", "patch", "util-linux", "wget", "openssl"],
+    "network": ["openssh", "rsync", "aria2", "socat", "traceroute", "iperf3", "dnsutils"],
+    "source-control": ["git", "gh"],
+    "runtimes": ["python", "nodejs", "lua54"],
+    "development": ["libllvm", "make", "cmake", "ninja", "pkg-config"],
+    "workstation": ["jq", "libsqlite", "ffmpeg", "nano", "vim", "micro", "fzf", "tmux"],
+    "distro": ["proot"],
+    "second-wave": ["rust", "ruby", "php", "composer", "golang", "openjdk-21", "maven"]
+  },
+  "packages": {
+    "bash": {"phase":"bootstrap","recipe":"packages/bash"}, "apt": {"phase":"bootstrap","recipe":"packages/apt"}, "libcurl": {"phase":"bootstrap","recipe":"packages/libcurl"},
+    "coreutils": {"phase":"foundation","recipe":"packages/coreutils","commands":["cat","cp","ls","mkdir","mv","rm","touch"]},
+    "findutils": {"phase":"foundation","recipe":"packages/findutils","commands":["find","xargs"]},
+    "grep": {"phase":"foundation","recipe":"packages/grep","commands":["grep"]}, "sed": {"phase":"foundation","recipe":"packages/sed","commands":["sed"]},
+    "gawk": {"phase":"foundation","recipe":"packages/gawk","commands":["awk","gawk"]}, "diffutils": {"phase":"foundation","recipe":"packages/diffutils","commands":["cmp","diff","sdiff"]},
+    "tar": {"phase":"foundation","recipe":"packages/tar","commands":["tar"]}, "gzip": {"phase":"foundation","recipe":"packages/gzip","commands":["gzip","gunzip"]},
+    "zstd": {"phase":"foundation","recipe":"packages/zstd","commands":["zstd"]}, "less": {"phase":"foundation","recipe":"packages/less","commands":["less"]},
+    "which": {"phase":"foundation","recipe":"packages/which","commands":["which"]}, "patch": {"phase":"foundation","recipe":"packages/patch","commands":["patch"]},
+    "util-linux": {"phase":"foundation","recipe":"packages/util-linux","commands":["flock"]}, "wget": {"phase":"foundation","recipe":"packages/wget","commands":["wget"]},
+    "openssl": {"phase":"foundation","recipe":"packages/openssl","commands":["openssl"]},
+    "openssh": {"phase":"network","recipe":"packages/openssh","commands":["ssh","scp","sftp"]}, "rsync": {"phase":"network","recipe":"packages/rsync","commands":["rsync"]},
+    "aria2": {"phase":"network","recipe":"packages/aria2","commands":["aria2c"]}, "socat": {"phase":"network","recipe":"packages/socat","commands":["socat"]},
+    "traceroute": {"phase":"network","recipe":"packages/traceroute","commands":["traceroute"]}, "iperf3": {"phase":"network","recipe":"packages/iperf3","commands":["iperf3"]},
+    "dnsutils": {"phase":"network","recipe":"packages/dnsutils","commands":["dig","host","nslookup"]},
+    "git": {"phase":"source-control","recipe":"packages/git","commands":["git"]}, "gh": {"phase":"source-control","recipe":"packages/gh","commands":["gh"]},
+    "python": {"phase":"runtimes","recipe":"packages/python","commands":["python","python3","pip","pip3"]}, "nodejs": {"phase":"runtimes","recipe":"packages/nodejs","commands":["node","npm","npx"]}, "lua54": {"phase":"runtimes","recipe":"packages/lua54","commands":["lua"]},
+    "libllvm": {"phase":"development","recipe":"packages/libllvm","commands":["clang","clang++","lld"]}, "make": {"phase":"development","recipe":"packages/make","commands":["make"]}, "cmake": {"phase":"development","recipe":"packages/cmake","commands":["cmake"]}, "ninja": {"phase":"development","recipe":"packages/ninja","commands":["ninja"]}, "pkg-config": {"phase":"development","recipe":"packages/pkg-config","commands":["pkg-config"]},
+    "jq": {"phase":"workstation","recipe":"packages/jq","commands":["jq"]}, "libsqlite": {"phase":"workstation","recipe":"packages/libsqlite","commands":["sqlite3"]}, "ffmpeg": {"phase":"workstation","recipe":"packages/ffmpeg","commands":["ffmpeg","ffprobe"]}, "nano": {"phase":"workstation","recipe":"packages/nano","commands":["nano"]}, "vim": {"phase":"workstation","recipe":"packages/vim","commands":["vim"]}, "micro": {"phase":"workstation","recipe":"packages/micro","commands":["micro"]}, "fzf": {"phase":"workstation","recipe":"packages/fzf","commands":["fzf"]}, "tmux": {"phase":"workstation","recipe":"packages/tmux","commands":["tmux"]},
+    "proot": {"phase":"distro","recipe":"packages/proot","commands":["proot"]},
+    "rust": {"phase":"second-wave","recipe":"packages/rust","commands":["rustc","cargo"]}, "ruby": {"phase":"second-wave","recipe":"packages/ruby","commands":["ruby","gem"]}, "php": {"phase":"second-wave","recipe":"packages/php","commands":["php"]}, "composer": {"phase":"second-wave","recipe":"packages/composer","commands":["composer"]}, "golang": {"phase":"second-wave","recipe":"packages/golang","commands":["go"]}, "openjdk-21": {"phase":"second-wave","recipe":"packages/openjdk-21","commands":["java","javac"]}, "maven": {"phase":"second-wave","recipe":"packages/maven","commands":["mvn"]}
+  }
+}
