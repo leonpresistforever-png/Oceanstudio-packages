@@ -1,0 +1,70 @@
+#!/usr/bin/env python3
+"""Run a small JSON agent workflow (sequential steps with shared context)."""
+from __future__ import annotations
+
+import argparse
+import json
+import subprocess
+import sys
+from pathlib import Path
+
+DEFAULT_FLOW = Path.home() / ".ocean" / "agent-flow.json"
+
+
+def run_step(step: dict[str, object], context: dict[str, object]) -> dict[str, object]:
+    name = str(step.get("name", "step"))
+    command = step.get("command")
+    if not command:
+        return {"name": name, "error": "missing command"}
+    env = {**{k: str(v) for k, v in context.items()}, **{k: str(v) for k, v in step.get("env", {}).items()}}
+    payload = json.dumps({"context": context, "step": step}).encode("utf-8")
+    proc = subprocess.run(
+        [str(command)],
+        input=payload,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+        env={**dict(__import__("os").environ), **env},
+    )
+    output = proc.stdout.decode("utf-8", errors="replace").strip()
+    try:
+        parsed = json.loads(output) if output else {}
+    except json.JSONDecodeError:
+        parsed = {"raw": output}
+    if isinstance(parsed, dict):
+        context.update(parsed.get("context", parsed))
+    return {
+        "name": name,
+        "returncode": proc.returncode,
+        "output": parsed,
+        "stderr": proc.stderr.decode("utf-8", errors="replace"),
+    }
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--flow", type=Path, default=DEFAULT_FLOW)
+    parser.add_argument("--inline", help="JSON flow document")
+    args = parser.parse_args()
+    if args.inline:
+        document = json.loads(args.inline)
+    else:
+        if not args.flow.is_file():
+            print(json.dumps({"error": "flow file missing", "path": str(args.flow)}), file=sys.stderr)
+            return 2
+        document = json.loads(args.flow.read_text(encoding="utf-8"))
+    steps = document.get("steps", [])
+    context: dict[str, object] = dict(document.get("context", {}))
+    trace: list[dict[str, object]] = []
+    for step in steps:
+        if not isinstance(step, dict):
+            continue
+        result = run_step(step, context)
+        trace.append(result)
+        if result.get("returncode", 0) != 0:
+            break
+    print(json.dumps({"context": context, "trace": trace}, ensure_ascii=False, indent=2))
+    return 0 if all(t.get("returncode", 0) == 0 for t in trace) else 1
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

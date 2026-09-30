@@ -1,0 +1,78 @@
+#!/usr/bin/env python3
+"""Split and merge auth material across composable shard files with integrity tags."""
+from __future__ import annotations
+
+import argparse
+import hashlib
+import json
+import sys
+from pathlib import Path
+
+DEFAULT_DIR = Path.home() / ".ocean" / "auth-shards"
+
+
+def _tag(shard_id: str, payload: bytes) -> str:
+    return hashlib.sha256(shard_id.encode() + b":" + payload).hexdigest()[:16]
+
+
+def cmd_split(args: argparse.Namespace) -> int:
+    secret = args.secret.encode("utf-8")
+    if len(secret) < 8:
+        raise SystemExit("secret must be at least 8 bytes")
+    out = args.output
+    out.mkdir(parents=True, exist_ok=True)
+    chunk = max(1, len(secret) // args.parts)
+    manifest = {"version": 1, "parts": args.parts, "shards": []}
+    for index in range(args.parts):
+        start = index * chunk
+        end = len(secret) if index == args.parts - 1 else min(len(secret), (index + 1) * chunk)
+        piece = secret[start:end]
+        shard_id = f"{args.name}-{index}"
+        body = {"id": shard_id, "index": index, "tag": _tag(shard_id, piece), "data": piece.decode("latin1")}
+        path = out / f"{shard_id}.json"
+        path.write_text(json.dumps(body), encoding="utf-8")
+        manifest["shards"].append({"id": shard_id, "path": path.name})
+    (out / "manifest.json").write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
+    print(json.dumps({"manifest": str(out / "manifest.json"), "parts": args.parts}))
+    return 0
+
+
+def cmd_merge(args: argparse.Namespace) -> int:
+    manifest_path = args.manifest
+    manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    base = manifest_path.parent
+    pieces: list[bytes] = []
+    for shard in sorted(manifest.get("shards", []), key=lambda x: x.get("id", "")):
+        path = base / shard["path"]
+        body = json.loads(path.read_text(encoding="utf-8"))
+        data = body["data"].encode("latin1")
+        if _tag(body["id"], data) != body.get("tag"):
+            raise SystemExit(f"integrity check failed for {path}")
+        pieces.append(data)
+    merged = b"".join(pieces)
+    if args.check_only:
+        print(json.dumps({"bytes": len(merged), "ok": True}))
+        return 0
+    sys.stdout.write(merged.decode("utf-8"))
+    return 0
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    sub = parser.add_subparsers(dest="cmd", required=True)
+    split = sub.add_parser("split", help="Split a secret into shard files")
+    split.add_argument("--name", default="default")
+    split.add_argument("--secret", required=True)
+    split.add_argument("--parts", type=int, default=3)
+    split.add_argument("--output", type=Path, default=DEFAULT_DIR)
+    split.set_defaults(func=cmd_split)
+    merge = sub.add_parser("merge", help="Merge shard files from a manifest")
+    merge.add_argument("--manifest", type=Path, required=True)
+    merge.add_argument("--check-only", action="store_true")
+    merge.set_defaults(func=cmd_merge)
+    args = parser.parse_args()
+    return args.func(args)
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

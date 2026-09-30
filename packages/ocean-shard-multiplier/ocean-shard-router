@@ -1,0 +1,65 @@
+#!/usr/bin/env python3
+"""Route JSON tool requests to registered handlers by prefix."""
+from __future__ import annotations
+
+import argparse
+import json
+import subprocess
+import sys
+from pathlib import Path
+
+DEFAULT_ROUTES = Path.home() / ".ocean" / "shard-router.json"
+
+
+def load_routes(path: Path) -> list[dict[str, str]]:
+    if not path.is_file():
+        return []
+    data = json.loads(path.read_text(encoding="utf-8"))
+    if isinstance(data, dict) and "routes" in data:
+        data = data["routes"]
+    if not isinstance(data, list):
+        raise SystemExit("routes file must be a list or {\"routes\": [...]}")
+    return data
+
+
+def match_route(routes: list[dict[str, str]], tool: str) -> dict[str, str] | None:
+    for entry in routes:
+        prefix = entry.get("prefix", "")
+        if prefix and tool.startswith(prefix):
+            return entry
+    return None
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--routes", type=Path, default=DEFAULT_ROUTES)
+    parser.add_argument("--tool", required=True, help="Tool name or path prefix to resolve")
+    parser.add_argument("--payload", default="", help="JSON string forwarded on stdin to handler")
+    parser.add_argument("--dry-run", action="store_true")
+    args = parser.parse_args()
+
+    routes = load_routes(args.routes)
+    entry = match_route(routes, args.tool)
+    if entry is None:
+        print(json.dumps({"error": "no route", "tool": args.tool}), file=sys.stderr)
+        return 2
+    command = entry.get("command")
+    if not command:
+        print(json.dumps({"error": "route missing command", "route": entry}), file=sys.stderr)
+        return 2
+    if args.dry_run:
+        print(json.dumps({"route": entry, "tool": args.tool}))
+        return 0
+    proc = subprocess.run(
+        [command],
+        input=args.payload.encode("utf-8"),
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+    )
+    sys.stdout.buffer.write(proc.stdout)
+    sys.stderr.buffer.write(proc.stderr)
+    return proc.returncode
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

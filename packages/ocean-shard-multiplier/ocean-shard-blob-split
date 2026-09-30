@@ -1,0 +1,78 @@
+#!/usr/bin/env python3
+"""Content-addressed blob splitter/joiner for storage shards."""
+from __future__ import annotations
+
+import argparse
+import hashlib
+import json
+import sys
+from pathlib import Path
+
+
+def sha256_bytes(data: bytes) -> str:
+    return hashlib.sha256(data).hexdigest()
+
+
+def cmd_split(args: argparse.Namespace) -> int:
+    data = args.input.read()
+    size = max(1, args.chunk_size)
+    out = args.output
+    out.mkdir(parents=True, exist_ok=True)
+    shards = []
+    for index, offset in enumerate(range(0, len(data), size)):
+        chunk = data[offset : offset + size]
+        digest = sha256_bytes(chunk)
+        name = f"{digest[:12]}.bin"
+        (out / name).write_bytes(chunk)
+        shards.append({"index": index, "file": name, "sha256": digest, "size": len(chunk)})
+    manifest = {
+        "version": 1,
+        "original_sha256": sha256_bytes(data),
+        "original_size": len(data),
+        "chunk_size": size,
+        "shards": shards,
+    }
+    manifest_path = out / "manifest.json"
+    manifest_path.write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
+    print(json.dumps({"manifest": str(manifest_path), "shards": len(shards)}))
+    return 0
+
+
+def cmd_join(args: argparse.Namespace) -> int:
+    manifest = json.loads(args.manifest.read_text(encoding="utf-8"))
+    base = args.manifest.parent
+    parts: list[bytes] = []
+    for shard in sorted(manifest.get("shards", []), key=lambda x: x["index"]):
+        path = base / shard["file"]
+        chunk = path.read_bytes()
+        if sha256_bytes(chunk) != shard["sha256"]:
+            raise SystemExit(f"checksum mismatch: {path}")
+        parts.append(chunk)
+    joined = b"".join(parts)
+    if sha256_bytes(joined) != manifest.get("original_sha256"):
+        raise SystemExit("joined blob does not match original_sha256")
+    if args.output:
+        args.output.write_bytes(joined)
+    else:
+        sys.stdout.buffer.write(joined)
+    return 0
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    sub = parser.add_subparsers(dest="cmd", required=True)
+    split = sub.add_parser("split")
+    split.add_argument("--input", type=argparse.FileType("rb"), required=True)
+    split.add_argument("--output", type=Path, required=True)
+    split.add_argument("--chunk-size", type=int, default=65536)
+    split.set_defaults(func=cmd_split)
+    join = sub.add_parser("join")
+    join.add_argument("--manifest", type=Path, required=True)
+    join.add_argument("--output", type=Path)
+    join.set_defaults(func=cmd_join)
+    args = parser.parse_args()
+    return args.func(args)
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

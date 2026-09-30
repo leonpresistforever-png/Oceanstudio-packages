@@ -1,0 +1,64 @@
+#!/usr/bin/env python3
+"""Fan-out stdin to multiple registered Ocean plugin handlers."""
+from __future__ import annotations
+
+import argparse
+import json
+import subprocess
+import sys
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from pathlib import Path
+
+PLUGIN_DIR = Path.home() / ".ocean" / "plugins"
+PREFIX = Path("/data/data/studio.ocean.app/files/usr")
+
+
+def load_plugin_command(plugin_id: str) -> str | None:
+    path = PLUGIN_DIR / f"{plugin_id}.plugin"
+    if not path.is_file():
+        return None
+    command = None
+    for line in path.read_text(encoding="utf-8").splitlines():
+        if line.startswith("command="):
+            command = line.split("=", 1)[1].strip()
+    if not command:
+        return None
+    candidate = PREFIX / "bin" / command
+    return str(candidate if candidate.is_file() else command)
+
+
+def run_one(plugin_id: str, payload: bytes) -> dict[str, object]:
+    command = load_plugin_command(plugin_id)
+    if not command:
+        return {"plugin": plugin_id, "error": "not registered"}
+    proc = subprocess.run([command], input=payload, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    return {
+        "plugin": plugin_id,
+        "returncode": proc.returncode,
+        "stdout": proc.stdout.decode("utf-8", errors="replace"),
+        "stderr": proc.stderr.decode("utf-8", errors="replace"),
+    }
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("plugins", nargs="+", help="Plugin ids to invoke")
+    parser.add_argument("--parallel", action="store_true")
+    args = parser.parse_args()
+    payload = sys.stdin.buffer.read()
+    results: list[dict[str, object]] = []
+    if args.parallel:
+        with ThreadPoolExecutor(max_workers=min(8, len(args.plugins))) as pool:
+            futures = {pool.submit(run_one, pid, payload): pid for pid in args.plugins}
+            for future in as_completed(futures):
+                results.append(future.result())
+    else:
+        for pid in args.plugins:
+            results.append(run_one(pid, payload))
+    print(json.dumps({"results": results}, ensure_ascii=False))
+    worst = max(r.get("returncode", 1) for r in results if "returncode" in r)
+    return 0 if worst == 0 else 1
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
