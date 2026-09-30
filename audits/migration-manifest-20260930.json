@@ -1,0 +1,906 @@
+[
+  {
+    "apk_path": "ocean-packages/.gitignore",
+    "canonical_target": ".gitignore",
+    "size_bytes": 47,
+    "sha256": "41c5ec267e6ca61e5207ee1ed2ad7fb49f8967fbde2d3d0e1e4b99bc8d09ab5a",
+    "category": "meta-config",
+    "action": "SEMANTIC_MERGE"
+  },
+  {
+    "apk_path": "ocean-packages/README.md",
+    "canonical_target": "README.md",
+    "size_bytes": 3419,
+    "sha256": "23193cfc7f18acdda0f9f6a1e37d999767e44462fdb9ff73996cc48e7afa1259",
+    "category": "meta-config",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/catalog.json",
+    "canonical_target": "catalog.json",
+    "size_bytes": 5169,
+    "sha256": "3ec246240ca1c99736e4702f0642e09e95dd05943bba5f2a800aad75a56bfb44",
+    "category": "meta-config",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/config.env",
+    "canonical_target": "config.env",
+    "size_bytes": 348,
+    "sha256": "944d0761ddc9c42750b59d1ab081f45504f433173347fcba70fe60f12c0d5d08",
+    "category": "meta-config",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/keys/ocean-development-repository.asc",
+    "canonical_target": "keys/ocean-development-repository.asc",
+    "size_bytes": 461,
+    "sha256": "36aa78750f556927316bf1e268355566bc6bb3593e11a97437c682fcebc9966b",
+    "category": "meta-config",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/keys/ocean-development-repository.fingerprint",
+    "canonical_target": "keys/ocean-development-repository.fingerprint",
+    "size_bytes": 41,
+    "sha256": "1466603e581af21ae77d99188995c564973d623526b6f3ece329a9e854f0c286",
+    "category": "meta-config",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/manifest-local-shards.json",
+    "canonical_target": "manifest-local-shards.json",
+    "size_bytes": 2707,
+    "sha256": "042e2b383696f72a2328f7c09fcc47ee869a7619f182e5554930a7177b215c60",
+    "category": "meta-config",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/ocean-package-status.json",
+    "canonical_target": "ocean-package-status.json",
+    "size_bytes": 182259,
+    "sha256": "a103ad096c6eab15d0a81aed30a567dbd421760b511564217026a7e9138af6c1",
+    "category": "meta-config",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/packages/ocean-distro/control",
+    "canonical_target": "packages/ocean-distro/control",
+    "size_bytes": 594,
+    "sha256": "3d16c078a32d3c35f2c27913aad0a426a9eeec2bc9119f425dfd8b9c7db7c476",
+    "category": "distro-packages",
+    "action": "SEMANTIC_MERGE"
+  },
+  {
+    "apk_path": "ocean-packages/packages/ocean-distro/distros.json",
+    "canonical_target": "packages/ocean-distro/distros.json",
+    "size_bytes": 7128,
+    "sha256": "acf590a25208fc52b60950896b095ef342f2eb9776c76be954c51a91cbc1c0f3",
+    "category": "distro-packages",
+    "action": "IDENTICAL"
+  },
+  {
+    "apk_path": "ocean-packages/packages/ocean-distro/ocean-distro",
+    "canonical_target": "packages/ocean-distro/ocean-distro",
+    "size_bytes": 11586,
+    "sha256": "a99aa5c6f3686b2d9185c9bdece8a0f28d943a5fac466250006ec51cea2abb57",
+    "category": "distro-packages",
+    "action": "IDENTICAL"
+  },
+  {
+    "apk_path": "ocean-packages/packages/ocean-distro/rootfs_unpack.py",
+    "canonical_target": "packages/ocean-distro/rootfs_unpack.py",
+    "size_bytes": 7794,
+    "sha256": "49dee2817a4bce040d62e46035e1a67256d766b1f9da378dbfd011d9d5f383cc",
+    "category": "distro-packages",
+    "action": "SEMANTIC_MERGE"
+  },
+  {
+    "apk_path": "ocean-packages/packages/ocean-hello/control",
+    "canonical_target": "packages/ocean-hello/control",
+    "size_bytes": 239,
+    "sha256": "a6fe40423b960bfaa4a4dea1f07424ce3b29227d4c4c01a3bfeacd1ba14e163c",
+    "category": "core-packages",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/packages/ocean-hello/ocean-hello",
+    "canonical_target": "packages/ocean-hello/ocean-hello",
+    "size_bytes": 94,
+    "sha256": "cf958dfd3f17a5b0b91cf10f312fa1e74e5a631cc74bb6717eb36733d2e24080",
+    "category": "core-packages",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/packages/ocean-pkg/control",
+    "canonical_target": "packages/ocean-pkg/control",
+    "size_bytes": 207,
+    "sha256": "ea0a0544bbf0b739be702715e06e267d1024585f7b4c00e2392d7e0be325a70e",
+    "category": "core-packages",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/packages/ocean-pkg/ocean-change-repo",
+    "canonical_target": "packages/ocean-pkg/ocean-change-repo",
+    "size_bytes": 711,
+    "sha256": "de4b32b0c5d4b8061df24014b0801ed61c272c22a23df3b050d46c7b7368e9ec",
+    "category": "core-packages",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/packages/ocean-pkg/pkg",
+    "canonical_target": "packages/ocean-pkg/pkg",
+    "size_bytes": 6076,
+    "sha256": "7a6eb422987ea2513b1b8a3c8216f6f3fb278acd80a426b4fbadcb1259d89742",
+    "category": "core-packages",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/packages/ocean-shard-multiplier/ocean-shard-agent-flow",
+    "canonical_target": "packages/ocean-shard-multiplier/ocean-shard-agent-flow",
+    "size_bytes": 2482,
+    "sha256": "2ac73dfcd8d56742fdacf72e4b134646efb2ef4694b6b071afa7117bc03b964b",
+    "category": "shard-multiplier",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/packages/ocean-shard-multiplier/ocean-shard-auth-store",
+    "canonical_target": "packages/ocean-shard-multiplier/ocean-shard-auth-store",
+    "size_bytes": 3084,
+    "sha256": "3249eecd73d6392d047e3f2fc429b9a63fd7c2d4172d2b1fa8c31b380c8e5b23",
+    "category": "shard-multiplier",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/packages/ocean-shard-multiplier/ocean-shard-blob-split",
+    "canonical_target": "packages/ocean-shard-multiplier/ocean-shard-blob-split",
+    "size_bytes": 2660,
+    "sha256": "3760e07ed4c876d525271355463518382b7fa9caaee2575256f6586cdebf7994",
+    "category": "shard-multiplier",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/packages/ocean-shard-multiplier/ocean-shard-router",
+    "canonical_target": "packages/ocean-shard-multiplier/ocean-shard-router",
+    "size_bytes": 2107,
+    "sha256": "c1be47c4f26999dc467d50b4cee00507074c0cbc3c88b0efd679cc13761e1aed",
+    "category": "shard-multiplier",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/packages/ocean-shard-multiplier/ocean-shard-tool-mux",
+    "canonical_target": "packages/ocean-shard-multiplier/ocean-shard-tool-mux",
+    "size_bytes": 2294,
+    "sha256": "aee7d8dc238c862c562274c819aef936b88d1879f834b734d875ef6fd2b23bde",
+    "category": "shard-multiplier",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/packages/ocean-tools/DEBIAN/control",
+    "canonical_target": "packages/ocean-tools/DEBIAN/control",
+    "size_bytes": 333,
+    "sha256": "2b6f6b62e4625abaaf5519191ad4aaaebf8cc200f6fef08377a68ac9858fabeb",
+    "category": "ocean-tools",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/packages/ocean-tools/control",
+    "canonical_target": "packages/ocean-tools/control",
+    "size_bytes": 337,
+    "sha256": "854d4b03527b48b2a8e603afc09ba9931063cca947e57b23215a768f2fcdf0ba",
+    "category": "ocean-tools",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/env",
+    "canonical_target": "packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/env",
+    "size_bytes": 369,
+    "sha256": "cdae4a9ddb81fbae9dc7dac49d75e93ccd7acc858a10bd25e6144449847064cd",
+    "category": "ocean-tools",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-api",
+    "canonical_target": "packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-api",
+    "size_bytes": 418,
+    "sha256": "635ff6c3153e891ae9991383a6075c1aa71e7bfba7b8e759e61e800a95a46c2a",
+    "category": "ocean-tools",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-apk-build",
+    "canonical_target": "packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-apk-build",
+    "size_bytes": 1075,
+    "sha256": "41d2e51846d8ad635e7ab371e2430dbe4ec1b4298478bcdbd9052139c37223b2",
+    "category": "ocean-tools",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-apk-decompile",
+    "canonical_target": "packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-apk-decompile",
+    "size_bytes": 1192,
+    "sha256": "279ee37b20dfb0e06bbe21b6c4d963f144bc458bd6f9a365d7e63a9b8f6dcd43",
+    "category": "ocean-tools",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-apk-lab",
+    "canonical_target": "packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-apk-lab",
+    "size_bytes": 2408,
+    "sha256": "f487b22fe347c0420e3915df8ac54170834635b9a65866ad1e997cb8e019b7c2",
+    "category": "ocean-tools",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-apk-sign",
+    "canonical_target": "packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-apk-sign",
+    "size_bytes": 1260,
+    "sha256": "842b7368275c229a068d24aee0f45e4080bb052fb03d8a950423cb8fe0a6e9cd",
+    "category": "ocean-tools",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-app-task",
+    "canonical_target": "packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-app-task",
+    "size_bytes": 694,
+    "sha256": "ed751896a4a9b39c030e44a165e0044ca6356cee610573100f856319d3ce8920",
+    "category": "ocean-tools",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-archive",
+    "canonical_target": "packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-archive",
+    "size_bytes": 2412,
+    "sha256": "f6240d234b888eb05ebe7e00b73e9ffd428dc1ca1eefa9027ed6387ec925eca4",
+    "category": "ocean-tools",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-battery-status",
+    "canonical_target": "packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-battery-status",
+    "size_bytes": 167,
+    "sha256": "8dffa4f656199ef2c443418e7643afe6e65e07f22caefeafc50010541f9e6fdd",
+    "category": "ocean-tools",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-change-repo",
+    "canonical_target": "packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-change-repo",
+    "size_bytes": 711,
+    "sha256": "de4b32b0c5d4b8061df24014b0801ed61c272c22a23df3b050d46c7b7368e9ec",
+    "category": "ocean-tools",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-chroot",
+    "canonical_target": "packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-chroot",
+    "size_bytes": 91,
+    "sha256": "1358e2469403651dca32553ff31dab7bbef80d8ad1bc43410101098f689ebcfb",
+    "category": "ocean-tools",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-chsh",
+    "canonical_target": "packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-chsh",
+    "size_bytes": 890,
+    "sha256": "797f2c7e5a050dc68e4406b837bab5252c76d61c2f720ae6bd9ae11ba45b02ad",
+    "category": "ocean-tools",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-clipboard-get",
+    "canonical_target": "packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-clipboard-get",
+    "size_bytes": 207,
+    "sha256": "e2f649588bb4b1400f027215287746f5630639ad67d201c667cb95abc0cb3d44",
+    "category": "ocean-tools",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-clipboard-set",
+    "canonical_target": "packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-clipboard-set",
+    "size_bytes": 278,
+    "sha256": "de8aedee5ed27f62ff112c98488c5c71630240dd7200b52bc8b144142c91d192",
+    "category": "ocean-tools",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-distro",
+    "canonical_target": "packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-distro",
+    "size_bytes": 11586,
+    "sha256": "a99aa5c6f3686b2d9185c9bdece8a0f28d943a5fac466250006ec51cea2abb57",
+    "category": "ocean-tools",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-doctor",
+    "canonical_target": "packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-doctor",
+    "size_bytes": 1494,
+    "sha256": "4257ffa99c4442925ca9a4a037d99737e24e7e6241339396233eb1739ccc9c8a",
+    "category": "ocean-tools",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-fix-shebangs",
+    "canonical_target": "packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-fix-shebangs",
+    "size_bytes": 445,
+    "sha256": "6c6b05d8d9fbb1a6e287b558187bb7b456fb66fb118eac693a6fa4b05b737390",
+    "category": "ocean-tools",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-forge",
+    "canonical_target": "packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-forge",
+    "size_bytes": 26008,
+    "sha256": "fbb0d0924474239ebd2adbfd5c6c20e4cee5dff91fa3be9e2e8dcf2d22e032bb",
+    "category": "ocean-tools",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-hello",
+    "canonical_target": "packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-hello",
+    "size_bytes": 94,
+    "sha256": "cf958dfd3f17a5b0b91cf10f312fa1e74e5a631cc74bb6717eb36733d2e24080",
+    "category": "ocean-tools",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-info",
+    "canonical_target": "packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-info",
+    "size_bytes": 1315,
+    "sha256": "32aa5aeb2660a88e23ea8df262d7b8a379f57ec6318c6c4ce2f89dc1a6bc2d37",
+    "category": "ocean-tools",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-installer",
+    "canonical_target": "packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-installer",
+    "size_bytes": 585,
+    "sha256": "a43bf2487440b8c7c1e4313d6abb501291e2944a50dbd45a19390f0a289b6344",
+    "category": "ocean-tools",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-intent",
+    "canonical_target": "packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-intent",
+    "size_bytes": 1673,
+    "sha256": "279c77bec97f4f051c617976df8aeba35a6b2bc32b8242b12f87959089973c47",
+    "category": "ocean-tools",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-notification",
+    "canonical_target": "packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-notification",
+    "size_bytes": 318,
+    "sha256": "b68e01b6aef388872c5ee135d1b0695b7bbba1e74c6850e760e24d6467e7326a",
+    "category": "ocean-tools",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-open",
+    "canonical_target": "packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-open",
+    "size_bytes": 1360,
+    "sha256": "1058e37eacfd0ebe0b02bafac8d485690b45f4b1bc3497f050a9fb6d1ee9f4d1",
+    "category": "ocean-tools",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-package-smoke-test",
+    "canonical_target": "packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-package-smoke-test",
+    "size_bytes": 622,
+    "sha256": "02c596ab8077a070b77a6cb281d6982805686ba3ffc140cdcfa13287d0c16579",
+    "category": "ocean-tools",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-pkg",
+    "canonical_target": "packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-pkg",
+    "size_bytes": 1903,
+    "sha256": "e1b9b57b6e396748fbda223b3f31df17c12366b5a07190397bdb1cc1b5dee9b5",
+    "category": "ocean-tools",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-plugin",
+    "canonical_target": "packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-plugin",
+    "size_bytes": 3294,
+    "sha256": "6aa2c6a1e41cbcbc964533872006b63a7bd9eee913acd2554615e1de487ab208",
+    "category": "ocean-tools",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-resigner",
+    "canonical_target": "packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-resigner",
+    "size_bytes": 1260,
+    "sha256": "842b7368275c229a068d24aee0f45e4080bb052fb03d8a950423cb8fe0a6e9cd",
+    "category": "ocean-tools",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-save-pkg",
+    "canonical_target": "packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-save-pkg",
+    "size_bytes": 682,
+    "sha256": "e92ff5b082b950ed3e85540b40a3f02a96f9648d39807907e610c464926faaed",
+    "category": "ocean-tools",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-setup-storage",
+    "canonical_target": "packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-setup-storage",
+    "size_bytes": 1040,
+    "sha256": "4dd1219c80d5d51bb5964a1caa16678e0c8050bcc0b49ea4a79cc76f02ecbefb",
+    "category": "ocean-tools",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-share",
+    "canonical_target": "packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-share",
+    "size_bytes": 711,
+    "sha256": "55cc020d64bf7b947d8bb19d12f48617c6ef69059fb1f6a3708aa92e7be39049",
+    "category": "ocean-tools",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-toast",
+    "canonical_target": "packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-toast",
+    "size_bytes": 332,
+    "sha256": "e471240e1e687d259d5bf7634f9148c53c9fe7fa6d443d66e5b9a55e01b01c66",
+    "category": "ocean-tools",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-vibrate",
+    "canonical_target": "packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-vibrate",
+    "size_bytes": 219,
+    "sha256": "d2747c6a9cc36a845aa43b6ef3dd273e1f93fb36fb9031c230bf5657fa846639",
+    "category": "ocean-tools",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/proot-distro",
+    "canonical_target": "packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/proot-distro",
+    "size_bytes": 18655,
+    "sha256": "a9a3d1cb65f12424c52cc4e2844dd9b37ddc8bb3436533d6342e4a42e4c43348",
+    "category": "ocean-tools",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/packages/ocean-tools/data/data/studio.ocean.app/files/usr/etc/profile.d/00-ocean-exec.sh",
+    "canonical_target": "packages/ocean-tools/data/data/studio.ocean.app/files/usr/etc/profile.d/00-ocean-exec.sh",
+    "size_bytes": 152,
+    "sha256": "7c1f47b7d2d86996dead957076e6d7b8ee217a3e63b7d366defcab5a6e720bfc",
+    "category": "ocean-tools",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/packages/ocean-tools/data/data/studio.ocean.app/files/usr/lib/libocean-exec.so",
+    "canonical_target": "packages/ocean-tools/data/data/studio.ocean.app/files/usr/lib/libocean-exec.so",
+    "size_bytes": 6696,
+    "sha256": "a3d43b0f3e466094dcb45bd26c77212f7ee6fa1949d218374db7af6183b24f48",
+    "category": "ocean-tools",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/packages/ocean-tools/data/data/studio.ocean.app/files/usr/share/ocean-agent/01_ENVIRONMENT.md",
+    "canonical_target": "packages/ocean-tools/data/data/studio.ocean.app/files/usr/share/ocean-agent/01_ENVIRONMENT.md",
+    "size_bytes": 2180,
+    "sha256": "52a69645875a182684e9cb5a9cebcd9214bf979f5a808d2b3a20f2bde6e84b95",
+    "category": "ocean-tools",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/packages/ocean-tools/data/data/studio.ocean.app/files/usr/share/ocean-agent/02_TERMINAL_USAGE.md",
+    "canonical_target": "packages/ocean-tools/data/data/studio.ocean.app/files/usr/share/ocean-agent/02_TERMINAL_USAGE.md",
+    "size_bytes": 2151,
+    "sha256": "2bd436600912d8f3bba44a4dc9438a012ffdb8437134c17d83c102ba838e3480",
+    "category": "ocean-tools",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/packages/ocean-tools/data/data/studio.ocean.app/files/usr/share/ocean-agent/03_PACKAGE_MANAGEMENT.md",
+    "canonical_target": "packages/ocean-tools/data/data/studio.ocean.app/files/usr/share/ocean-agent/03_PACKAGE_MANAGEMENT.md",
+    "size_bytes": 1852,
+    "sha256": "6750a842ba1b677448759f0d3891eec55bc02574fc00779762f6232fa37732ca",
+    "category": "ocean-tools",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/packages/ocean-tools/data/data/studio.ocean.app/files/usr/share/ocean-agent/04_SERVICES_AND_PORTS.md",
+    "canonical_target": "packages/ocean-tools/data/data/studio.ocean.app/files/usr/share/ocean-agent/04_SERVICES_AND_PORTS.md",
+    "size_bytes": 1442,
+    "sha256": "0ad759f20d701dad76fad93634c73768d1d25123d3269230a237d31bc0e25f65",
+    "category": "ocean-tools",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/packages/ocean-tools/data/data/studio.ocean.app/files/usr/share/ocean-agent/05_OPERATIONAL_INSTRUCTIONS.md",
+    "canonical_target": "packages/ocean-tools/data/data/studio.ocean.app/files/usr/share/ocean-agent/05_OPERATIONAL_INSTRUCTIONS.md",
+    "size_bytes": 1730,
+    "sha256": "0a724ed47b2a97f36bc8323f1454f4731ca1a251b836baeb47a03be896d0d13c",
+    "category": "ocean-tools",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/packages/ocean-tools/data/data/studio.ocean.app/files/usr/share/ocean-distro/distros.json",
+    "canonical_target": "packages/ocean-tools/data/data/studio.ocean.app/files/usr/share/ocean-distro/distros.json",
+    "size_bytes": 7128,
+    "sha256": "acf590a25208fc52b60950896b095ef342f2eb9776c76be954c51a91cbc1c0f3",
+    "category": "ocean-tools",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/packages/ocean-tools/data/data/studio.ocean.app/files/usr/share/ocean/scripts/fix-runtime-shebangs.py",
+    "canonical_target": "packages/ocean-tools/data/data/studio.ocean.app/files/usr/share/ocean/scripts/fix-runtime-shebangs.py",
+    "size_bytes": 3651,
+    "sha256": "03bf933ab0f586c9c788dc3411f8b13a9c62c13796707d63986c0c6d6120389e",
+    "category": "ocean-tools",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/packages/proot-distro/control",
+    "canonical_target": "packages/proot-distro/control",
+    "size_bytes": 582,
+    "sha256": "3643e34075f12ff8b4438c6ea10fd5a8c5e8eb059bab95254b9768ab8a4541ec",
+    "category": "distro-packages",
+    "action": "SEMANTIC_MERGE"
+  },
+  {
+    "apk_path": "ocean-packages/packages/proot-distro/distros.json",
+    "canonical_target": "packages/proot-distro/distros.json",
+    "size_bytes": 7128,
+    "sha256": "acf590a25208fc52b60950896b095ef342f2eb9776c76be954c51a91cbc1c0f3",
+    "category": "distro-packages",
+    "action": "IDENTICAL"
+  },
+  {
+    "apk_path": "ocean-packages/packages/proot-distro/proot-distro",
+    "canonical_target": "packages/proot-distro/proot-distro",
+    "size_bytes": 18655,
+    "sha256": "a9a3d1cb65f12424c52cc4e2844dd9b37ddc8bb3436533d6342e4a42e4c43348",
+    "category": "distro-packages",
+    "action": "SEMANTIC_MERGE"
+  },
+  {
+    "apk_path": "ocean-packages/scripts/audit-published-repository.py",
+    "canonical_target": "scripts/audit-published-repository.py",
+    "size_bytes": 4790,
+    "sha256": "c4f750ded5e8f65601f2ca3ba227e9b132a8422affb0f5d6790d955b3070ca67",
+    "category": "scripts",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/scripts/audit_package_index.py",
+    "canonical_target": "scripts/audit_package_index.py",
+    "size_bytes": 3485,
+    "sha256": "c5c202a1c68b77284dbb6f5f068ea3cded1fac763566bb568001949b172e9c9b",
+    "category": "scripts",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/scripts/bootstrap-closure.py",
+    "canonical_target": "scripts/bootstrap-closure.py",
+    "size_bytes": 1170,
+    "sha256": "f0a0fe9a6485564f11a2d42e53c8d192379b25cc9d1dbb5863b0e4f7ebd1b754",
+    "category": "scripts",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/scripts/build-local-shards.sh",
+    "canonical_target": "scripts/build-local-shards.sh",
+    "size_bytes": 158,
+    "sha256": "eaffe040440a8421a2522bd71cbf787fe03702bc0059b8f1e4e511f229a94504",
+    "category": "scripts",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/scripts/build-ocean-distribution.sh",
+    "canonical_target": "scripts/build-ocean-distribution.sh",
+    "size_bytes": 471,
+    "sha256": "63c6a0e35a3fcc06c8a88c8e78f8f46dd9eb6e6474745c3a87839fb9c283f0d7",
+    "category": "scripts",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/scripts/build-ocean-distro-package.py",
+    "canonical_target": "scripts/build-ocean-distro-package.py",
+    "size_bytes": 6573,
+    "sha256": "1969162ed39b599a00469c7bd879c1188d577bbdbada6a4975d6f4183158c1ce",
+    "category": "scripts",
+    "action": "SEMANTIC_MERGE"
+  },
+  {
+    "apk_path": "ocean-packages/scripts/build-ocean-shard-packages.py",
+    "canonical_target": "scripts/build-ocean-shard-packages.py",
+    "size_bytes": 3827,
+    "sha256": "0632c1938d34a536ad0c5d12ba552ce6599cb2cf815ad64a3a98ad0530e24ede",
+    "category": "scripts",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/scripts/build-source-packages.py",
+    "canonical_target": "scripts/build-source-packages.py",
+    "size_bytes": 12137,
+    "sha256": "7863c68e1b7f9c926e9d9fe0a7093eb59b64fdae371a147b3edd73828665a287",
+    "category": "scripts",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/scripts/catalog.py",
+    "canonical_target": "scripts/catalog.py",
+    "size_bytes": 3337,
+    "sha256": "be73c2dbedaa2ed261ffbcd64cf0be740e11d09d1a6810ad44f372670577d171",
+    "category": "scripts",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/scripts/fix-runtime-shebangs.py",
+    "canonical_target": "scripts/fix-runtime-shebangs.py",
+    "size_bytes": 3622,
+    "sha256": "b12784841f1056c1b1c33ecffcd86ac67efe2d4c930ccfb833418702b429eb71",
+    "category": "scripts",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/scripts/hydrate-signed-bootstrap.py",
+    "canonical_target": "scripts/hydrate-signed-bootstrap.py",
+    "size_bytes": 17725,
+    "sha256": "84f1f787834fc3db3e6461c0a989a543986c4e1eb1b5970e42eb8daf77aa1ffc",
+    "category": "scripts",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/scripts/index_all_staged.py",
+    "canonical_target": "scripts/index_all_staged.py",
+    "size_bytes": 18585,
+    "sha256": "9856b638fe3459ab87db26059e1b2be3f66859dfb77dd170a6115e98b9a2524d",
+    "category": "scripts",
+    "action": "SEMANTIC_MERGE"
+  },
+  {
+    "apk_path": "ocean-packages/scripts/ocean-download.sh",
+    "canonical_target": "scripts/ocean-download.sh",
+    "size_bytes": 2452,
+    "sha256": "3d817d587dc57599347ce967654b2024d68bf6b69f887c37ce69263879e86d18",
+    "category": "scripts",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/scripts/ocean-package-smoke-test",
+    "canonical_target": "scripts/ocean-package-smoke-test",
+    "size_bytes": 622,
+    "sha256": "02c596ab8077a070b77a6cb281d6982805686ba3ffc140cdcfa13287d0c16579",
+    "category": "scripts",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/scripts/package_quality.py",
+    "canonical_target": "scripts/package_quality.py",
+    "size_bytes": 6985,
+    "sha256": "6fd6297381424338c8af70ad00919abf138aa3353b2b13b660a4352ad2b5e1e6",
+    "category": "scripts",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/scripts/plan-expansion-packages.py",
+    "canonical_target": "scripts/plan-expansion-packages.py",
+    "size_bytes": 3816,
+    "sha256": "a91542b2b80eb9039091df60620ddc8460d1eb347ad9436730ec36b59fefb37b",
+    "category": "scripts",
+    "action": "SEMANTIC_MERGE"
+  },
+  {
+    "apk_path": "ocean-packages/scripts/report-catalog-status.py",
+    "canonical_target": "scripts/report-catalog-status.py",
+    "size_bytes": 1723,
+    "sha256": "f866acea0b6e5535fe0ebd0d2cf8d78d747d0f4702032f84982c260eebf55d89",
+    "category": "scripts",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/scripts/scan-package-index-issues.py",
+    "canonical_target": "scripts/scan-package-index-issues.py",
+    "size_bytes": 7246,
+    "sha256": "f3c4e53cc665ad75c56e8caea3b5a6470162988256efb289f90b71ae8dab8b47",
+    "category": "scripts",
+    "action": "SEMANTIC_MERGE"
+  },
+  {
+    "apk_path": "ocean-packages/scripts/test-no-termux.py",
+    "canonical_target": "scripts/test-no-termux.py",
+    "size_bytes": 5992,
+    "sha256": "92e585e483fa1148bbf616ce654980dac7bcaa636482c7391b3351d1ec5e608f",
+    "category": "scripts",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/scripts/test-ocean-distro.py",
+    "canonical_target": "scripts/test-ocean-distro.py",
+    "size_bytes": 7001,
+    "sha256": "d1639f57be535641742c4424a2c42a38fbe8feef3f7399b1cd99873edf2d8c6a",
+    "category": "scripts",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/scripts/test-ocean-download.sh",
+    "canonical_target": "scripts/test-ocean-download.sh",
+    "size_bytes": 1951,
+    "sha256": "ba3460292b50482dd272db868b637dae1e60f9bad9fc1b2172c78b9ab43c5d6d",
+    "category": "scripts",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/scripts/test-ocean-pkg-lock.sh",
+    "canonical_target": "scripts/test-ocean-pkg-lock.sh",
+    "size_bytes": 2360,
+    "sha256": "afc8a8fabbadf123b4e6a69509782209b7d7acc1e6a0ee4d57415e00c7724ef2",
+    "category": "scripts",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/scripts/validate-packages.py",
+    "canonical_target": "scripts/validate-packages.py",
+    "size_bytes": 2853,
+    "sha256": "f90babcc5fdb90b72c6604b9d9a8867d0f036fdeb32d0508ccff1f12e6a95da0",
+    "category": "scripts",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/scripts/verify-bootstrap.py",
+    "canonical_target": "scripts/verify-bootstrap.py",
+    "size_bytes": 2009,
+    "sha256": "6a56624d461d0b0c495636c8c559d2ee3c6bdaba5f4049aa1f10fdbaae886d98",
+    "category": "scripts",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/scripts/verify-repository-endpoint.sh",
+    "canonical_target": "scripts/verify-repository-endpoint.sh",
+    "size_bytes": 1794,
+    "sha256": "9d8b4aeca1c811219095e41fe6d312603c9da678067aea0b04b9e9e281cacb4e",
+    "category": "scripts",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/scripts/verify-rootfs-candidates.py",
+    "canonical_target": "scripts/verify-rootfs-candidates.py",
+    "size_bytes": 7405,
+    "sha256": "07987a1cd1fe97bac918d39865f10a52d6ae1f9cb5c2bc2176c2c76a2bf571d2",
+    "category": "scripts",
+    "action": "IDENTICAL"
+  },
+  {
+    "apk_path": "ocean-packages/sources/expansion-1000/target-packages.json",
+    "canonical_target": "sources/expansion-1000/target-packages.json",
+    "size_bytes": 737,
+    "sha256": "87b5c3e7afa920a321ac506d9467e6ef6cee2c41cc83b97466195cf1db70ed73",
+    "category": "sources",
+    "action": "IDENTICAL"
+  },
+  {
+    "apk_path": "ocean-packages/sources/recipes.json",
+    "canonical_target": "sources/recipes.json",
+    "size_bytes": 2577,
+    "sha256": "7806ec96329f8830a12945d22372702c166e6ce8a5bd130bb4afc0d23638a7a2",
+    "category": "sources",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/sources/shard-multiplier-manifest.json",
+    "canonical_target": "sources/shard-multiplier-manifest.json",
+    "size_bytes": 1556,
+    "sha256": "c931dd4b7303b9a741f62c0c0f42f76794a86aa81419eb06b413ac716624160f",
+    "category": "sources",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/tests/java/CatalogueMigrationCheck.java",
+    "canonical_target": "tests/java/CatalogueMigrationCheck.java",
+    "size_bytes": 5208,
+    "sha256": "1456b35e55595f25b50e1dcccabf13eb25250f4bf570d1415e36184a91f122d2",
+    "category": "tests",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/tests/java/FrontendMigrationCheck.java",
+    "canonical_target": "tests/java/FrontendMigrationCheck.java",
+    "size_bytes": 2110,
+    "sha256": "81b3927aa0e99f438878d0827770695d3a63b7ac82d7ce985477cf51b2c68549",
+    "category": "tests",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/tests/test-apk-package-catalog.py",
+    "canonical_target": "tests/test-apk-package-catalog.py",
+    "size_bytes": 4147,
+    "sha256": "41a86b0484b537fd28db127406c22f4574e6ee392b02958f665e2eb1b1cedda8",
+    "category": "tests",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/tests/test-bootstrap-closure.sh",
+    "canonical_target": "tests/test-bootstrap-closure.sh",
+    "size_bytes": 1127,
+    "sha256": "8508efd786f3104477868ed9ff6a998d641ad2b0016a1a628e24e13fd81c402a",
+    "category": "tests",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/tests/test-bootstrap-file-lists.py",
+    "canonical_target": "tests/test-bootstrap-file-lists.py",
+    "size_bytes": 2361,
+    "sha256": "d519be5a6d0464974418a566c7fb8781d6f932c9aa2f47c716fa3ea4af284dc6",
+    "category": "tests",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/tests/test-catalog.py",
+    "canonical_target": "tests/test-catalog.py",
+    "size_bytes": 1423,
+    "sha256": "e4b8522ef0585f6f74cfffaae19838f9c5890af023df72508192a870e9dc03ef",
+    "category": "tests",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/tests/test-hydrate-bootstrap.py",
+    "canonical_target": "tests/test-hydrate-bootstrap.py",
+    "size_bytes": 2947,
+    "sha256": "861c2705e95793ed7c9a7225aac722c66ea41cb32401e9774083f789d0e26ae7",
+    "category": "tests",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/tests/test-index-quality-gate.py",
+    "canonical_target": "tests/test-index-quality-gate.py",
+    "size_bytes": 3796,
+    "sha256": "59b3c7db0699a5012a780f002a313af7251d4ca560d8662f41221bb927501e87",
+    "category": "tests",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/tests/test-package-quality.py",
+    "canonical_target": "tests/test-package-quality.py",
+    "size_bytes": 3409,
+    "sha256": "5f4cd4be3c24a94734b6e6f6123f2c8aade8ba0a0b80e6b0aa8cad80a97cf12b",
+    "category": "tests",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/tests/test-pkg-auto-sync.py",
+    "canonical_target": "tests/test-pkg-auto-sync.py",
+    "size_bytes": 5220,
+    "sha256": "9755b28192fcc83dfa2d5a131f4f9a3d8dfcf935e613b282fedfcd8a5093f469",
+    "category": "tests",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/tests/test-repository-configuration.sh",
+    "canonical_target": "tests/test-repository-configuration.sh",
+    "size_bytes": 886,
+    "sha256": "4676b8619dceeac5454225153fe4c59c0d449c470537bed7a12a853bbbfa1334",
+    "category": "tests",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/tests/test-shebang-policy.py",
+    "canonical_target": "tests/test-shebang-policy.py",
+    "size_bytes": 1134,
+    "sha256": "c9bd360a1f3695f0097a02926279d78ce68a12d15defd2f43d7fc856d5b298eb",
+    "category": "tests",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/tests/test-source-builder.py",
+    "canonical_target": "tests/test-source-builder.py",
+    "size_bytes": 2402,
+    "sha256": "0e2ef8d124f92504822147c564a5d1b20a38c57f8bedb943e1ba1998d63c1167",
+    "category": "tests",
+    "action": "PORT_TO_PACKAGES"
+  },
+  {
+    "apk_path": "ocean-packages/upstream-build.inputs",
+    "canonical_target": "upstream-build.inputs",
+    "size_bytes": 205,
+    "sha256": "48569f918661715aeb1d5d505ccb8502c3d2b7ca69b20b51bf62df04e0839463",
+    "category": "meta-config",
+    "action": "PORT_TO_PACKAGES"
+  }
+]
