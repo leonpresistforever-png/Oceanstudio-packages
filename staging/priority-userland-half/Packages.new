@@ -5,9 +5,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-notify
 Filename: pool/main/bridge/notify-send_1.0.0-1+ocean1_all.deb
 Size: 888
-MD5sum: 81c12c588200465ba628dfc73c36560d
-SHA1: 5ef9a106bf05c99bd517ee12b90cba4d6c9afbec
-SHA256: 0fa61d6997397dd1cf5dfa9c2b467bf7b16da9a1fe24c0b8ec4feafd48209036
+MD5sum: 603545e0c25af5020afb2019d36ec182
+SHA1: a72b6f189153745405bd74bab48c97a66ca4b26c
+SHA256: 8a3ae483a765d2a7b7788691216a82076e2fa0e009236620c111edd6a12d7841
 Section: utils
 Priority: optional
 Description: Send Android notifications via ocean-notify
@@ -20,9 +20,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: pulseaudio
 Filename: pool/main/bridge/aplay_1.0.0-1+ocean1_all.deb
 Size: 992
-MD5sum: 67b2bb1e0869f89aec5e2d6926fed9aa
-SHA1: f372ef19f3b1eaa2bebb720fe81c09f89dcea43c
-SHA256: da71ad0a33a1db4d244c60b72ed5648d03fb0e98779d35c9c3f994c370536078
+MD5sum: 58bf9570949f475c39ebedaf0ad25225
+SHA1: 3209bd0ac0665238a3b1c7c502db665a69be0556
+SHA256: 90f70c6bcb301cc49eaa470f7462bd055d3ab728cc3e2ee7cc8f2e4cd71090a2
 Section: sound
 Priority: optional
 Description: Play audio via pulseaudio paplay/pacat or alsa-utils
@@ -35,9 +35,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: pulseaudio
 Filename: pool/main/bridge/arecord_1.0.0-1+ocean1_all.deb
 Size: 976
-MD5sum: 5353d64fc36c0d6a45d523385fa9ea72
-SHA1: 47fb33c0843126e818d6fab7a83442bdbb965817
-SHA256: 355f212d60d39069c7efd0a94b39d3851e236997a4e335e9d008fc33c4db2cd5
+MD5sum: 95246d208cb7f05f016f18ceedd9dddb
+SHA1: 9eb3101e3d07501da8b06b00519664762e900fdd
+SHA256: d877813e2db4c19e8c0ab8ffebdf8d0434984c4ebd66132a170857d945244b16
 Section: sound
 Priority: optional
 Description: Record audio via pulseaudio pacat or alsa-utils
@@ -50,9 +50,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-x11-runtime, proot-distro
 Filename: pool/main/bridge/xeyes_1.0.0-1+ocean1_all.deb
 Size: 1004
-MD5sum: a826feecbed29b98dd1345b79ec81fea
-SHA1: 68491f610ee4096b31772bc32bc6f5c361040bfa
-SHA256: 098bf5140a9c7dafdda3ff46df2833974dca16a394f955df2e626441f9be00fc
+MD5sum: 37880a1ceef57f5d0d1eafe4c0a419e7
+SHA1: a41d101509e21a030e4becf342ce0b0924f243ba
+SHA256: d32adca5d14cbc13342362c41d44854a2186a85cc1748871e0b7a9e9c047a83b
 Section: x11
 Priority: optional
 Description: Launch xeyes in Ocean X11 guest
@@ -65,9 +65,9 @@ Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>
 Depends: ocean-notify, ocean-api
 Filename: pool/main/bridge/ocean_1.0.0-1+ocean1_all.deb
 Size: 1000
-MD5sum: 0350226a04da260b7e38c07bc9a3a2e1
-SHA1: 950cb0f02cdd8eaac31e34eb36d6858500a328ec
-SHA256: 5f8db349998efb8acc3943cbc544400ed6e4fbf6d2c9c3a7ada5ee7517bf1464
+MD5sum: 8ab74b9f7ee172a8992f09787cda4393
+SHA1: 2ddc02bcd50cba93884656a7b75ede850861f11d
+SHA256: 559b0839f415fae9dddbc428cbe1d666bb79bfe144ada153edfe5570e8f1a23a
 Section: utils
 Priority: optional
 Description: OceanStudio multi-command dispatcher
