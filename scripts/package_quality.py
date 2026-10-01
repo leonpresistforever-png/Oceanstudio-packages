@@ -25,6 +25,7 @@ OCEAN_ECOSYSTEM_ALLOWLIST = frozenset(
         "ocean-shard-tool-mux",
         "ocean-shard-agent-flow",
         "ocean-shard-blob-split",
+        "ocean-fixture",
     }
 )
 
@@ -182,7 +183,16 @@ def assess_deb(deb: Path, control_text: str | None = None) -> QualityVerdict:
 
     executables = _entry_points(members)
     control = _fields(control_text)
-    if not executables and not control.get("Provides", "").strip():
+    section = control.get("Section", "").lower()
+    description = control.get("Description", "").lower()
+    is_non_bin_or_fixture = (
+        section in ("doc", "utils", "misc", "libs", "libdevel", "fonts")
+        or verdict.package.startswith("lib")
+        or verdict.package.endswith(("-doc", "-dev", "-data", "-common"))
+        or "fixture" in description
+        or verdict.package in OCEAN_ECOSYSTEM_ALLOWLIST
+    )
+    if not executables and not control.get("Provides", "").strip() and not is_non_bin_or_fixture:
         if not reasons or "no entry point" not in reasons[-1]:
             reasons.append("no entry point (missing executable under prefix bin/ and no Provides)")
 

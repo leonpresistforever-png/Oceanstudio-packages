@@ -6,7 +6,7 @@
       "package": "ocean-shard-router",
       "version": "1.0.0-1+ocean1",
       "artifact": "ocean-shard-router_1.0.0-1+ocean1_all.deb",
-      "sha256": "b161980f875785a42faa59d45f3db3702ab4be158012eb2f79e69ca4bb706b5e",
+      "sha256": "3189324eab721b6eeaccd1b640c0f0a23134498a1450429f1cd941c249557314",
       "bytes": 1748,
       "shard": "ocean-multiplier"
     },
@@ -14,7 +14,7 @@
       "package": "ocean-shard-auth-store",
       "version": "1.0.0-1+ocean1",
       "artifact": "ocean-shard-auth-store_1.0.0-1+ocean1_all.deb",
-      "sha256": "5d173d08974374fa5c597d80496f0d4b6e00f239809028e53a1de9ea72e07277",
+      "sha256": "13b629b2b249668cebd7716a46f2f944697dde896c6884a15850716b14834e19",
       "bytes": 2108,
       "shard": "ocean-multiplier"
     },
@@ -22,15 +22,15 @@
       "package": "ocean-shard-tool-mux",
       "version": "1.0.0-1+ocean1",
       "artifact": "ocean-shard-tool-mux_1.0.0-1+ocean1_all.deb",
-      "sha256": "c1b512df1f2aaa747f049fb3be3a8817c2f84aac76f9916bfbd45b22948ef69a",
-      "bytes": 1848,
+      "sha256": "63ea44f9e2625d0a0ae21b4ff77f5312aa28e586b7ff632c845fef62335c6368",
+      "bytes": 1852,
       "shard": "ocean-multiplier"
     },
     {
       "package": "ocean-shard-agent-flow",
       "version": "1.0.0-1+ocean1",
       "artifact": "ocean-shard-agent-flow_1.0.0-1+ocean1_all.deb",
-      "sha256": "209b2dce38c7542ef1c14a1b3bf0bb029a1db7af0d78f9b7c7b3c8f855cc9d05",
+      "sha256": "35a4fbf8c5d9d898fa990facedb615e6114d8ff329c6a46c72d406663311c27e",
       "bytes": 1904,
       "shard": "ocean-multiplier"
     },
@@ -38,8 +38,8 @@
       "package": "ocean-shard-blob-split",
       "version": "1.0.0-1+ocean1",
       "artifact": "ocean-shard-blob-split_1.0.0-1+ocean1_all.deb",
-      "sha256": "99431d1a117cfa58751bbf1bcb1b254bbbda77a69f195c04bf9e4e465161c9fb",
-      "bytes": 1924,
+      "sha256": "9ed3e69876e1033ad3e850d5c2f8d62a8d2de0d93815a6f5a4e54ae0f9d5a1d2",
+      "bytes": 1920,
       "shard": "ocean-multiplier"
     }
   ]
