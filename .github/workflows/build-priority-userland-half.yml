@@ -50,7 +50,7 @@ jobs:
             tests/test-priority-userland-half.py
           python3 tests/test-priority-userland-half.py
 
-      - name: Build 63 new packages
+      - name: Build 5 verified bridge packages
         run: |
           set -euo pipefail
           python3 scripts/build-priority-userland-half.py \
@@ -61,17 +61,16 @@ jobs:
       - name: Audit package set
         run: |
           set -euo pipefail
-          test "$(find staging/priority-userland-half/pool/main -type f -name '*.deb' | wc -l)" -eq 63
+          test "$(find staging/priority-userland-half/pool/main -type f -name '*.deb' | wc -l)" -eq 5
           test -d staging/priority-userland-half/pool/main/bridge
-          test -d staging/priority-userland-half/pool/main/ocean-term
-          test "$(grep -c '^Package:' staging/priority-userland-half/Packages.new)" -eq 63
+          test "$(grep -c '^Package:' staging/priority-userland-half/Packages.new)" -eq 5
           python3 - <<'PY'
           import json
           d = json.load(open("staging/priority-userland-half/provenance.json"))
-          assert d["packageCount"] == 63
-          assert d["uniquePackageCount"] == 63
-          assert len(d["bridges"]) == 12
-          print("63/63 package identities verified")
+          assert d["packageCount"] == 5
+          assert d["uniquePackageCount"] == 5
+          assert len(d["bridges"]) == 5
+          print("5/5 package identities verified")
           PY
           while IFS= read -r deb; do
             dpkg-deb --info "$deb" >/dev/null

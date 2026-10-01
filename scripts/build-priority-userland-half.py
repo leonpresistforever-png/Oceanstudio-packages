@@ -1,25 +1,17 @@
 #!/usr/bin/env python3
-"""Build 63 new terminal packages: CLI bridges + Ocean media helpers."""
+"""Build 5 verified terminal CLI bridge packages."""
 from __future__ import annotations
 import argparse, hashlib, json, os, re, shutil, subprocess, tempfile
 from pathlib import Path
 
 PREFIX = "/data/data/studio.ocean.app/files/usr"
 VERSION = "1.0.0-1+ocean1"
-CORE = "ocean-term-media-core"
 
-# kind: shell installs a PREFIX/bin wrapper; meta is Depends-only (binary comes from dependency)
+# Verified functional userland bridge packages
 BRIDGES = [
     ("notify-send", "ocean-notify", "shell", "Send Android notifications via ocean-notify", "utils"),
     ("aplay", "pulseaudio", "shell", "Play audio via pulseaudio paplay/pacat or alsa-utils", "sound"),
     ("arecord", "pulseaudio", "shell", "Record audio via pulseaudio pacat or alsa-utils", "sound"),
-    ("paplay", "pulseaudio", "meta", "Install name for pulseaudio paplay binary", "sound"),
-    ("pacat", "pulseaudio", "meta", "Install name for pulseaudio pacat binary", "sound"),
-    ("pactl", "pulseaudio", "meta", "Install name for pulseaudio pactl binary", "sound"),
-    ("parec", "pulseaudio", "meta", "Install name for pulseaudio parec binary", "sound"),
-    ("parecord", "pulseaudio", "meta", "Install name for pulseaudio parecord binary", "sound"),
-    ("ffprobe", "ffmpeg", "meta", "Install name for ffmpeg ffprobe binary", "video"),
-    ("ffplay", "ffmpeg", "meta", "Install name for ffmpeg ffplay binary", "video"),
     ("xeyes", "ocean-x11-runtime, proot-distro", "shell", "Launch xeyes in Ocean X11 guest", "x11"),
     ("ocean", "ocean-notify, ocean-api", "shell", "OceanStudio multi-command dispatcher", "utils"),
 ]
@@ -53,7 +45,7 @@ esac
 ''',
 }
 
-MEDIA_TOOLS = [f"ocean-term-media-{i:03d}" for i in range(1, 51)]
+MEDIA_TOOLS: list[str] = []
 
 
 def run(cmd):
@@ -67,7 +59,10 @@ def sha(path: Path):
 def build_deb(pkg, desc, section, depends, files, outpath: Path):
     with tempfile.TemporaryDirectory(prefix="ocean-half-") as td:
         root = Path(td)
-        (root / "DEBIAN").mkdir()
+        root.chmod(0o755)
+        debian_dir = root / "DEBIAN"
+        debian_dir.mkdir(mode=0o755)
+        debian_dir.chmod(0o755)
         for rel, (content, mode) in files.items():
             p = root / rel.lstrip("/")
             p.parent.mkdir(parents=True, exist_ok=True)
@@ -96,13 +91,13 @@ def pool_relpath(path: Path) -> str:
     return f"pool/main/{path.name}"
 
 
-def stanza(pkg, desc, section, path: Path):
+def stanza(pkg, desc, section, depends, path: Path):
     data = path.read_bytes()
     digest = hashlib.sha256(data).hexdigest()
     return (
         f"Package: {pkg}\nVersion: {VERSION}\nArchitecture: all\n"
         "Maintainer: OceanStudio Packaging Team <maintainer@ocean.studio>\n"
-        f"Depends: {CORE if pkg != CORE else 'python'}\n"
+        f"Depends: {depends}\n"
         f"Filename: {pool_relpath(path)}\nSize: {len(data)}\n"
         f"MD5sum: {hashlib.md5(data).hexdigest()}\nSHA1: {hashlib.sha1(data).hexdigest()}\n"
         f"SHA256: {digest}\nSection: {section}\nPriority: optional\n"
@@ -120,39 +115,18 @@ def main():
     existing = set(re.findall(r"^Package:\s*(\S+)", Path(args.existing_packages).read_text(), re.M))
     shutil.rmtree(out, ignore_errors=True)
     bridge_dir = out / "pool/main/bridge"
-    term_dir = out / "pool/main/ocean-term"
-    core_dir = term_dir / "core"
     bridge_dir.mkdir(parents=True, exist_ok=True)
-    core_dir.mkdir(parents=True, exist_ok=True)
-    candidates = [CORE] + [b[0] for b in BRIDGES] + MEDIA_TOOLS
+    candidates = [b[0] for b in BRIDGES]
     collisions = sorted(existing.intersection(candidates))
     if collisions:
         raise SystemExit("collisions: " + ", ".join(collisions))
-    if len(candidates) != 63:
-        raise SystemExit(f"expected 63 packages, got {len(candidates)}")
+    if len(candidates) != 5:
+        raise SystemExit(f"expected 5 packages, got {len(candidates)}")
 
-    core_src = (Path(args.source) / "ocean_media_half.py").read_text(encoding="utf-8")
-    core_deb = core_dir / f"{CORE}_{VERSION}_all.deb"
-    build_deb(
-        CORE,
-        "Shared runtime for Ocean terminal media helper commands",
-        "utils",
-        "python",
-        {
-            f"{PREFIX}/lib/ocean-term/ocean_media_half.py": (core_src, 0o644),
-            f"{PREFIX}/bin/ocean-term-media": (
-                f"#!{PREFIX}/bin/bash\nexec {PREFIX}/bin/python {PREFIX}/lib/ocean-term/ocean_media_half.py \"$@\"\n",
-                0o755,
-            ),
-        },
-        core_deb,
-    )
-    stanzas = [stanza(CORE, "Shared runtime for Ocean terminal media helper commands", "utils", core_deb)]
+    stanzas = []
     for name, depends, kind, desc, section in BRIDGES:
         deb = bridge_dir / f"{name}_{VERSION}_all.deb"
-        if kind == "meta":
-            build_deb(name, desc, section, depends, {}, deb)
-        elif kind == "shell":
+        if kind == "shell":
             build_deb(
                 name,
                 desc,
@@ -163,21 +137,7 @@ def main():
             )
         else:
             raise SystemExit(f"unknown bridge kind: {kind}")
-        stanzas.append(stanza(name, desc, section, deb))
-    for tool in MEDIA_TOOLS:
-        deb = term_dir / f"{tool}_{VERSION}_all.deb"
-        wrapper = (
-            f"#!{PREFIX}/bin/bash\nexec {PREFIX}/bin/python {PREFIX}/lib/ocean-term/ocean_media_half.py {tool} \"$@\"\n"
-        )
-        build_deb(
-            tool,
-            f"Ocean media helper command {tool}",
-            "sound",
-            f"{CORE}, python",
-            {f"{PREFIX}/bin/{tool}": (wrapper, 0o755)},
-            deb,
-        )
-        stanzas.append(stanza(tool, f"Ocean media helper command {tool}", "sound", deb))
+        stanzas.append(stanza(name, desc, section, depends, deb))
     (out / "Packages.new").write_text("\n\n".join(stanzas) + "\n", encoding="utf-8")
     (out / "provenance.json").write_text(
         json.dumps(

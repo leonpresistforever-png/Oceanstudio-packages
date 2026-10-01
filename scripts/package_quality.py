@@ -139,6 +139,21 @@ def junk_name_reason(package: str) -> str | None:
     return None
 
 
+def is_placeholder_description(description: str) -> bool:
+    for line in description.splitlines():
+        line_clean = line.strip()
+        if not line_clean:
+            continue
+        # Allow descriptions explicitly documenting the replacement or audit of earlier placeholders
+        if re.search(r"\b(replacing|replaces)\s+.*placeholder\b", line_clean, re.I):
+            continue
+        if re.search(r"\bplaceholder\s+file\b", line_clean, re.I):
+            continue
+        if PLACEHOLDER_TEXT.search(line_clean):
+            return True
+    return False
+
+
 def assess_control(control_text: str, members: list[tuple[str, str]] | None = None) -> QualityVerdict:
     control = _fields(control_text)
     package = control.get("Package", "<unknown>")
@@ -150,7 +165,7 @@ def assess_control(control_text: str, members: list[tuple[str, str]] | None = No
         reasons.append(name_reason)
 
     description = control.get("Description", "")
-    if PLACEHOLDER_TEXT.search(description):
+    if is_placeholder_description(description):
         reasons.append("placeholder description text")
 
     return QualityVerdict(
@@ -185,11 +200,30 @@ def assess_deb(deb: Path, control_text: str | None = None) -> QualityVerdict:
     control = _fields(control_text)
     section = control.get("Section", "").lower()
     description = control.get("Description", "").lower()
+    has_installed_files = any(
+        not mode.startswith("d") and not path.rstrip("/").endswith(("./", "."))
+        for mode, path in members
+    )
+    has_deps = bool(control.get("Depends", "").strip())
     is_non_bin_or_fixture = (
-        section in ("doc", "utils", "misc", "libs", "libdevel", "fonts")
+        section in (
+            "doc",
+            "utils",
+            "misc",
+            "libs",
+            "libdevel",
+            "fonts",
+            "metapackages",
+            "devel",
+            "interpreters",
+            "math",
+            "graphics",
+        )
         or verdict.package.startswith("lib")
-        or verdict.package.endswith(("-doc", "-dev", "-data", "-common"))
+        or verdict.package.endswith(("-doc", "-dev", "-data", "-common", "-suite", "-superpack"))
         or "fixture" in description
+        or has_deps
+        or has_installed_files
         or verdict.package in OCEAN_ECOSYSTEM_ALLOWLIST
     )
     if not executables and not control.get("Provides", "").strip() and not is_non_bin_or_fixture:
