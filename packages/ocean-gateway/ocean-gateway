@@ -1,0 +1,101 @@
+#!/data/data/studio.ocean.app/files/usr/bin/bash
+# Ocean gateway lifecycle. Uses the unmodified, integrity-pinned upstream npm release.
+set -euo pipefail
+umask 077
+export PREFIX="${PREFIX:-/data/data/studio.ocean.app/files/usr}"
+gateway_root="${OCEAN_GATEWAY_ROOT:-$PREFIX/opt/ocean-gateway}"
+export DATA_DIR="${OCEAN_GATEWAY_DATA:-$PREFIX/var/lib/ocean-gateway}"
+export PORT="${OCEAN_GATEWAY_PORT:-20129}"
+export HOSTNAME=127.0.0.1 OMNIROUTE_SERVER_HOST=127.0.0.1
+export PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD=1 NEXT_TELEMETRY_DISABLED=1
+export PATH="$PREFIX/bin:$PATH"
+version=3.8.51
+integrity='sha512-VwwSt+bP9lJiPJXFJMz0nNGGuoewPZU3nFe1SLuO11ADgdSwTegGCxhg8Ov75+31m/cocPxHiO63zygn1XQ0MQ=='
+server="$gateway_root/node_modules/omniroute/dist/server.js"
+
+ensure_node() {
+    if ! command -v node >/dev/null || ! command -v npm >/dev/null; then
+        echo 'Installing Ocean Node.js and npm…'
+        pkg install -y nodejs npm
+    fi
+    node -e 'const [a,b,c]=process.versions.node.split(".").map(Number); if(!((a===22&&(b>22||(b===22&&c>=2)))||(a>=24&&a<27)))process.exit(1)' || {
+        echo 'Updating Ocean Node.js to the gateway runtime…'
+        pkg install -y nodejs npm
+    }
+    node -e 'const [a,b,c]=process.versions.node.split(".").map(Number); if(!((a===22&&(b>22||(b===22&&c>=2)))||(a>=24&&a<27)))throw Error("Ocean Node.js must be 22.22.2+ or 24–26")'
+}
+
+initialize() {
+    mkdir -p "$DATA_DIR" "$gateway_root"
+    chmod 700 "$DATA_DIR" "$gateway_root"
+    node --input-type=module - "$DATA_DIR/.env" <<'JS'
+import {openSync,writeFileSync,closeSync,existsSync} from 'node:fs';
+import {randomBytes} from 'node:crypto';
+const file=process.argv[2];
+if(!existsSync(file)) {
+  const secret=()=>randomBytes(32).toString('hex');
+  const fd=openSync(file,'wx',0o600);
+  try { writeFileSync(fd,`JWT_SECRET=${secret()}\nAPI_KEY_SECRET=${secret()}\nINITIAL_PASSWORD=${secret()}\nREQUIRE_API_KEY=true\nAUTH_COOKIE_SECURE=false\n`); }
+  finally { closeSync(fd); }
+}
+JS
+}
+
+verify_install() {
+    node --input-type=module - "$gateway_root" "$version" "$integrity" <<'JS'
+import {readFileSync,existsSync} from 'node:fs';
+import {join} from 'node:path';
+const [root,version,integrity]=process.argv.slice(2);
+const lock=JSON.parse(readFileSync(join(root,'package-lock.json'),'utf8'));
+const p=lock.packages?.['node_modules/omniroute'];
+if(p?.version!==version||p?.integrity!==integrity)throw Error('OmniRoute release integrity mismatch');
+if(!existsSync(join(root,'node_modules/omniroute/dist/server.js')))throw Error('OmniRoute server bundle missing');
+JS
+}
+
+case "${1:-help}" in
+    install)
+        ensure_node
+        initialize
+        if ! verify_install 2>/dev/null; then
+            echo "Installing official OmniRoute $version…"
+            # Lifecycle hooks are disabled: no foreign terminal patches or native downloads.
+            npm install --prefix "$gateway_root" --registry=https://registry.npmjs.org \
+                --ignore-scripts --omit=optional --no-audit --no-fund --save-exact "omniroute@$version"
+        fi
+        verify_install
+        echo "Ocean gateway installed: OmniRoute $version"
+        ;;
+    serve)
+        verify_install
+        initialize
+        # Node's builtin SQLite is used when optional native bindings are absent.
+        # The upstream server and all provider adapters are run without modification.
+        exec node --env-file="$DATA_DIR/.env" "$server"
+        ;;
+    start)
+        "$0" install
+        if [ -f "$DATA_DIR/server.pid" ] && kill -0 "$(cat "$DATA_DIR/server.pid")" 2>/dev/null; then
+            echo "Ocean gateway process is already running; endpoint http://127.0.0.1:$PORT/v1"
+            exit 0
+        fi
+        nohup "$0" serve > "$DATA_DIR/server.log" 2>&1 &
+        echo "$!" > "$DATA_DIR/server.pid"
+        echo "Started Ocean gateway process; logs: $DATA_DIR/server.log"
+        ;;
+    status)
+        curl --fail --silent --noproxy '*' "http://127.0.0.1:$PORT/api/monitoring/health"
+        ;;
+    stop)
+        if [ -f "$DATA_DIR/server.pid" ]; then
+            gateway_pid="$(cat "$DATA_DIR/server.pid")"
+            # Do not kill a recycled PID belonging to another tool.
+            if [[ "$gateway_pid" =~ ^[0-9]+$ ]] && [ -r "/proc/$gateway_pid/cmdline" ] \
+                && tr '\0' '\n' < "/proc/$gateway_pid/cmdline" | grep -Fxq "$server"; then
+                kill "$gateway_pid"
+            fi
+            rm -f "$DATA_DIR/server.pid"
+        fi
+        ;;
+    *) echo 'ocean-gateway install | serve | start | status | stop';;
+esac
