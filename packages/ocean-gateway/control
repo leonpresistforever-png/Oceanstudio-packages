@@ -1,5 +1,5 @@
 Package: ocean-gateway
-Version: 3.8.51-1
+Version: 3.8.51-2
 Architecture: all
 Depends: bash, nodejs, npm, curl
 Maintainer: OceanStudio <maintainer@ocean.studio>

@@ -9,6 +9,8 @@ export PORT="${OCEAN_GATEWAY_PORT:-20129}"
 export HOSTNAME=127.0.0.1 OMNIROUTE_SERVER_HOST=127.0.0.1
 export PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD=1 NEXT_TELEMETRY_DISABLED=1
 export PATH="$PREFIX/bin:$PATH"
+export XDG_CACHE_HOME="${OCEAN_GATEWAY_CACHE:-$DATA_DIR/cache}"
+export TMPDIR="${OCEAN_GATEWAY_TMP:-$DATA_DIR/tmp}"
 version=3.8.51
 integrity='sha512-VwwSt+bP9lJiPJXFJMz0nNGGuoewPZU3nFe1SLuO11ADgdSwTegGCxhg8Ov75+31m/cocPxHiO63zygn1XQ0MQ=='
 server="$gateway_root/node_modules/omniroute/dist/server.js"
@@ -26,8 +28,8 @@ ensure_node() {
 }
 
 initialize() {
-    mkdir -p "$DATA_DIR" "$gateway_root"
-    chmod 700 "$DATA_DIR" "$gateway_root"
+    mkdir -p "$DATA_DIR" "$gateway_root" "$XDG_CACHE_HOME" "$TMPDIR" "${HOME:-$DATA_DIR}/.cache"
+    chmod 700 "$DATA_DIR" "$gateway_root" "$XDG_CACHE_HOME" "$TMPDIR"
     node --input-type=module - "$DATA_DIR/.env" <<'JS'
 import {openSync,writeFileSync,appendFileSync,readFileSync,chmodSync,closeSync,existsSync} from 'node:fs';
 import {randomBytes} from 'node:crypto';
@@ -38,12 +40,19 @@ if(!existsSync(file)) {
   try { writeFileSync(fd,`JWT_SECRET=${secret()}\nAPI_KEY_SECRET=${secret()}\nINITIAL_PASSWORD=${secret()}\nSTORAGE_ENCRYPTION_KEY=${secret()}\nREQUIRE_API_KEY=true\nAUTH_COOKIE_SECURE=false\n`); }
   finally { closeSync(fd); }
 }
+
 // Add the upstream AES-GCM storage key without replacing existing account secrets.
 if(!/^STORAGE_ENCRYPTION_KEY=.+$/m.test(readFileSync(file,'utf8'))) {
   appendFileSync(file,`\nSTORAGE_ENCRYPTION_KEY=${randomBytes(32).toString('hex')}\n`);
 }
 chmodSync(file,0o600);
 JS
+}
+
+prepare_runtime() {
+    local helper="$PREFIX/share/ocean-gateway/prepare-runtime.mjs"
+    if [ ! -f "$helper" ]; then helper="$(dirname "$0")/prepare-runtime.mjs"; fi
+    node "$helper" "$gateway_root"
 }
 
 verify_install() {
@@ -69,13 +78,16 @@ case "${1:-help}" in
                 --ignore-scripts --omit=optional --no-audit --no-fund --save-exact "omniroute@$version"
         fi
         verify_install
+        prepare_runtime
         echo "Ocean gateway installed: OmniRoute $version"
         ;;
     serve)
         verify_install
         initialize
+        prepare_runtime
         # Node's builtin SQLite is used when optional native bindings are absent.
         # The upstream server and all provider adapters are run without modification.
+        echo "$$" > "$DATA_DIR/server.pid"
         exec node --env-file="$DATA_DIR/.env" "$server"
         ;;
     start)
@@ -92,15 +104,18 @@ case "${1:-help}" in
         curl --fail --silent --noproxy '*' "http://127.0.0.1:$PORT/api/monitoring/health"
         ;;
     stop)
-        if [ -f "$DATA_DIR/server.pid" ]; then
-            gateway_pid="$(cat "$DATA_DIR/server.pid")"
-            # Do not kill a recycled PID belonging to another tool.
-            if [[ "$gateway_pid" =~ ^[0-9]+$ ]] && [ -r "/proc/$gateway_pid/cmdline" ] \
-                && tr '\0' '\n' < "/proc/$gateway_pid/cmdline" | grep -Fxq "$server"; then
-                kill "$gateway_pid"
+        # Older app launches did not record a PID. Only stop processes matching
+        # BOTH this private server and its private environment file.
+        for gateway_cmdline in /proc/[0-9]*/cmdline; do
+            [ -r "$gateway_cmdline" ] || continue
+            if tr '\0' '\n' < "$gateway_cmdline" | grep -Fxq -- "$server" \
+                && tr '\0' '\n' < "$gateway_cmdline" | grep -Fxq -- "--env-file=$DATA_DIR/.env"; then
+                gateway_pid="${gateway_cmdline#/proc/}"
+                gateway_pid="${gateway_pid%/cmdline}"
+                kill "$gateway_pid" 2>/dev/null || true
             fi
-            rm -f "$DATA_DIR/server.pid"
-        fi
+        done
+        rm -f "$DATA_DIR/server.pid"
         ;;
     *) echo 'ocean-gateway install | serve | start | status | stop';;
 esac
