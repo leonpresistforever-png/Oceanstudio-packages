@@ -29,15 +29,20 @@ initialize() {
     mkdir -p "$DATA_DIR" "$gateway_root"
     chmod 700 "$DATA_DIR" "$gateway_root"
     node --input-type=module - "$DATA_DIR/.env" <<'JS'
-import {openSync,writeFileSync,closeSync,existsSync} from 'node:fs';
+import {openSync,writeFileSync,appendFileSync,readFileSync,chmodSync,closeSync,existsSync} from 'node:fs';
 import {randomBytes} from 'node:crypto';
 const file=process.argv[2];
 if(!existsSync(file)) {
   const secret=()=>randomBytes(32).toString('hex');
   const fd=openSync(file,'wx',0o600);
-  try { writeFileSync(fd,`JWT_SECRET=${secret()}\nAPI_KEY_SECRET=${secret()}\nINITIAL_PASSWORD=${secret()}\nREQUIRE_API_KEY=true\nAUTH_COOKIE_SECURE=false\n`); }
+  try { writeFileSync(fd,`JWT_SECRET=${secret()}\nAPI_KEY_SECRET=${secret()}\nINITIAL_PASSWORD=${secret()}\nSTORAGE_ENCRYPTION_KEY=${secret()}\nREQUIRE_API_KEY=true\nAUTH_COOKIE_SECURE=false\n`); }
   finally { closeSync(fd); }
 }
+// Add the upstream AES-GCM storage key without replacing existing account secrets.
+if(!/^STORAGE_ENCRYPTION_KEY=.+$/m.test(readFileSync(file,'utf8'))) {
+  appendFileSync(file,`\nSTORAGE_ENCRYPTION_KEY=${randomBytes(32).toString('hex')}\n`);
+}
+chmodSync(file,0o600);
 JS
 }
 
