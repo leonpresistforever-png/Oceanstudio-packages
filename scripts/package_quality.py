@@ -94,8 +94,9 @@ def _read_skill_bodies(deb: Path, skill_paths: list[str]) -> dict[str, str]:
     data = subprocess.check_output(["dpkg-deb", "--fsys-tarfile", str(deb)])
     bodies: dict[str, str] = {}
     with tarfile.open(fileobj=io.BytesIO(data)) as archive:
+        members = {m.name.removeprefix("./"): m for m in archive.getmembers()}
         for name in skill_paths:
-            member = archive.getmember(name.lstrip("./"))
+            member = members[name.removeprefix("./")]
             if not member.isfile():
                 continue
             raw = archive.extractfile(member)

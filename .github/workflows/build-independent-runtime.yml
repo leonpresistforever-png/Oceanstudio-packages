@@ -1,0 +1,115 @@
+name: Build independent Ocean gateway and upstream dependencies
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/build-independent-runtime.yml'
+      - 'packages/ocean-gateway/**'
+      - 'packages/ocean-runtime-compat/**'
+      - 'sources/runtime-dependencies/**'
+      - 'sources/mobile-runtime-additions/**'
+      - 'scripts/build-independent-runtime.py'
+      - 'scripts/build-mobile-runtime-additions.py'
+      - 'tests/test-independent-gateway.mjs'
+      - 'tests/test-independent-runtime.py'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ocean-independent-runtime-build
+  cancel-in-progress: false
+
+jobs:
+  portable:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          sparse-checkout: |
+            scripts
+            tests
+            sources
+            packages/ocean-gateway
+            packages/ocean-runtime-compat
+            apt/dists
+          filter: blob:none
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.14'
+      - name: Install build tools
+        run: python -m pip install setuptools wheel packaging
+      - name: Exercise authenticated HTTP and callback workflows
+        run: node --test tests/test-independent-gateway.mjs
+      - name: Verify archive inspection
+        run: python tests/test-quality-tar-paths.py
+      - name: Build verified upstream packages and Ocean runtime
+        run: python scripts/build-independent-runtime.py --allow-existing --output /tmp/ocean-portable
+      - name: Verify co-installation, dependencies and upstream behavior
+        run: python tests/test-independent-runtime.py /tmp/ocean-portable
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ocean-independent-portable
+          path: /tmp/ocean-portable
+
+  native:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          sparse-checkout: |
+            scripts
+            sources/mobile-runtime-additions
+            tests
+          filter: blob:none
+      - name: Install Android NDK and build tools
+        run: |
+          sdkmanager 'ndk;27.2.12479018'
+          sudo apt-get update -q
+          sudo apt-get install -y ninja-build cmake make pkg-config
+      - name: Build from pinned official commits and verify Android ELF
+        run: python3 scripts/build-mobile-runtime-additions.py --ndk "$ANDROID_HOME/ndk/27.2.12479018" --jobs 4 --output /tmp/ocean-native
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ocean-independent-native
+          path: /tmp/ocean-native
+
+  stage:
+    needs: [portable, native]
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+          sparse-checkout: |
+            staging/independent-runtime
+            staging/mobile-runtime-additions
+          filter: blob:none
+      - uses: actions/download-artifact@v4
+        with:
+          name: ocean-independent-portable
+          path: staging/independent-runtime
+      - uses: actions/download-artifact@v4
+        with:
+          name: ocean-independent-native
+          path: staging/mobile-runtime-additions
+      - name: Commit verified candidates without replacing historical pool archives
+        run: |
+          git config user.name ocean-packages-ci
+          git config user.email packages@ocean.studio
+          git add staging/independent-runtime staging/mobile-runtime-additions
+          if ! git diff --cached --quiet; then
+            git commit -m 'build: stage independent Ocean gateway and verified upstream dependencies [skip ci]'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi

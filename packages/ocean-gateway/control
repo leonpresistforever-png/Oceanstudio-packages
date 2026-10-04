@@ -1,7 +1,7 @@
 Package: ocean-gateway
-Version: 3.8.51-2
+Version: 4.0.0-1+ocean1
 Architecture: all
-Depends: bash, nodejs, npm, curl
+Depends: nodejs (>= 22), ca-certificates
 Maintainer: OceanStudio <maintainer@ocean.studio>
-Homepage: https://github.com/diegosouzapw/OmniRoute
-Description: Isolated one-command installation and lifecycle for the upstream OmniRoute gateway
+Homepage: https://github.com/leonpresistforever-png/Oceanstudio-packages
+Description: Independent Ocean provider gateway with encrypted OAuth accounts and local OpenAI-compatible inference

@@ -1,0 +1,37 @@
+{
+  "implementation": "Original Ocean source; no upstream router code or router npm package is shipped",
+  "providers": [
+    {
+      "name": "codex",
+      "source": "https://github.com/openai/codex",
+      "commit": "d0759639f20af955a5c6447f4683e99bf42ab6cf",
+      "grant": "authorization_code + S256 PKCE",
+      "callback": "http://localhost:1455/auth/callback",
+      "authorization": "https://auth.openai.com/oauth/authorize",
+      "token": "https://auth.openai.com/oauth/token",
+      "inference": "https://chatgpt.com/backend-api/codex/responses"
+    },
+    {
+      "name": "gemini-cli",
+      "source": "https://github.com/google-gemini/gemini-cli",
+      "commit": "fb972b2f87fe7d5b06d37eac711490162d98de2c",
+      "registration": "Native installed-app OAuth client published by Google",
+      "authorization": "https://accounts.google.com/o/oauth2/v2/auth",
+      "token": "https://oauth2.googleapis.com/token",
+      "api": "https://cloudcode-pa.googleapis.com/v1internal"
+    },
+    {
+      "name": "antigravity",
+      "wireReference": "https://github.com/diegosouzapw/OmniRoute/tree/release/v3.8.51",
+      "purpose": "Native client registration and observed JSON/HTTP contract research only; implementation not reused",
+      "grant": "authorization_code; this client grant does not advertise PKCE",
+      "authorization": "https://accounts.google.com/o/oauth2/v2/auth",
+      "token": "https://oauth2.googleapis.com/token",
+      "api": [
+        "https://daily-cloudcode-pa.googleapis.com/v1internal",
+        "https://cloudcode-pa.googleapis.com/v1internal"
+      ]
+    }
+  ],
+  "liveUserConsentTested": false
+}

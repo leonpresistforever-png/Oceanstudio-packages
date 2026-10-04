@@ -20,6 +20,7 @@ on:
       - 'apt/dists/**'
   workflow_run:
     workflows:
+      - "Build independent Ocean gateway and upstream dependencies"
       - "Build official Caddy and strace for Ocean"
       - "Build official GDB for Ocean"
       - "Repair OpenJDK 21 ownership split"

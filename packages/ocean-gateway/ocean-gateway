@@ -1,121 +1,58 @@
-#!/data/data/studio.ocean.app/files/usr/bin/bash
-# Ocean gateway lifecycle. Uses the unmodified, integrity-pinned upstream npm release.
-set -euo pipefail
+#!/system/bin/sh
+# Independent Ocean server: built-in Node modules, no npm or router downloads.
+set -eu
 umask 077
 export PREFIX="${PREFIX:-/data/data/studio.ocean.app/files/usr}"
-gateway_root="${OCEAN_GATEWAY_ROOT:-$PREFIX/opt/ocean-gateway}"
-export DATA_DIR="${OCEAN_GATEWAY_DATA:-$PREFIX/var/lib/ocean-gateway}"
-export PORT="${OCEAN_GATEWAY_PORT:-20129}"
-export HOSTNAME=127.0.0.1 OMNIROUTE_SERVER_HOST=127.0.0.1
-export PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD=1 NEXT_TELEMETRY_DISABLED=1
-export PATH="$PREFIX/bin:$PATH"
-export XDG_CACHE_HOME="${OCEAN_GATEWAY_CACHE:-$DATA_DIR/cache}"
-export TMPDIR="${OCEAN_GATEWAY_TMP:-$DATA_DIR/tmp}"
-version=3.8.51
-integrity='sha512-VwwSt+bP9lJiPJXFJMz0nNGGuoewPZU3nFe1SLuO11ADgdSwTegGCxhg8Ov75+31m/cocPxHiO63zygn1XQ0MQ=='
-server="$gateway_root/node_modules/omniroute/dist/server.js"
+export OCEAN_GATEWAY_DATA="${OCEAN_GATEWAY_DATA:-$PREFIX/var/lib/ocean-gateway}"
+export OCEAN_GATEWAY_PORT="${OCEAN_GATEWAY_PORT:-20129}"
+export DATA_DIR="$OCEAN_GATEWAY_DATA"
+runtime="${OCEAN_GATEWAY_CODE:-$PREFIX/share/ocean-gateway}"
+if [ ! -f "$runtime/server.mjs" ] && [ -f "$(dirname "$0")/server.mjs" ]; then runtime="$(dirname "$0")"; fi
+server="$runtime/server.mjs"
+node="${OCEAN_GATEWAY_NODE:-$PREFIX/bin/node}"
+if [ ! -x "$node" ]; then node="$(command -v node || true)"; fi
+shell=/system/bin/sh
+if [ ! -x "$shell" ]; then shell="$(command -v sh)"; fi
 
-ensure_node() {
-    if ! command -v node >/dev/null || ! command -v npm >/dev/null; then
-        echo 'Installing Ocean Node.js and npm…'
-        pkg install -y nodejs npm
+check() {
+    [ -n "$node" ] && [ -x "$node" ] || { echo 'Installing Ocean Node.js…'; pkg install -y nodejs ca-certificates; node="$PREFIX/bin/node"; }
+    "$node" -e 'if(Number(process.versions.node.split(".")[0])<22)throw Error("Ocean Gateway requires Node.js 22 or newer")'
+    for module in server store transport providers oauth registrations prepare-runtime connect; do
+        [ -s "$runtime/$module.mjs" ] || { echo "Missing Ocean gateway module: $module" >&2; exit 1; }
+    done
+    "$node" "$runtime/prepare-runtime.mjs" "$OCEAN_GATEWAY_DATA"
+}
+alive() {
+    [ -f "$OCEAN_GATEWAY_DATA/server.pid" ] || return 1
+    gateway_pid="$(cat "$OCEAN_GATEWAY_DATA/server.pid")"
+    case "$gateway_pid" in ''|*[!0-9]*) return 1;; esac
+    [ -r "/proc/$gateway_pid/cmdline" ] || return 1
+    tr '\0' '\n' < "/proc/$gateway_pid/cmdline" | grep -Fxq -- "$server" || return 1
+    tr '\0' '\n' < "/proc/$gateway_pid/cmdline" | grep -Fxq -- "--env-file=$OCEAN_GATEWAY_DATA/.env" || return 1
+    kill -0 "$gateway_pid" 2>/dev/null
+}
+start() {
+    check
+    if ! alive; then
+        nohup "$shell" "$0" serve > "$OCEAN_GATEWAY_DATA/server.log" 2>&1 &
+        echo "$!" > "$OCEAN_GATEWAY_DATA/server.pid"
     fi
-    node -e 'const [a,b,c]=process.versions.node.split(".").map(Number); if(!((a===22&&(b>22||(b===22&&c>=2)))||(a>=24&&a<27)))process.exit(1)' || {
-        echo 'Updating Ocean Node.js to the gateway runtime…'
-        pkg install -y nodejs npm
-    }
-    node -e 'const [a,b,c]=process.versions.node.split(".").map(Number); if(!((a===22&&(b>22||(b===22&&c>=2)))||(a>=24&&a<27)))throw Error("Ocean Node.js must be 22.22.2+ or 24–26")'
+    "$node" "$runtime/connect.mjs" wait
 }
-
-initialize() {
-    mkdir -p "$DATA_DIR" "$gateway_root" "$XDG_CACHE_HOME" "$TMPDIR" "${HOME:-$DATA_DIR}/.cache"
-    chmod 700 "$DATA_DIR" "$gateway_root" "$XDG_CACHE_HOME" "$TMPDIR"
-    node --input-type=module - "$DATA_DIR/.env" <<'JS'
-import {openSync,writeFileSync,appendFileSync,readFileSync,chmodSync,closeSync,existsSync} from 'node:fs';
-import {randomBytes} from 'node:crypto';
-const file=process.argv[2];
-if(!existsSync(file)) {
-  const secret=()=>randomBytes(32).toString('hex');
-  const fd=openSync(file,'wx',0o600);
-  try { writeFileSync(fd,`JWT_SECRET=${secret()}\nAPI_KEY_SECRET=${secret()}\nINITIAL_PASSWORD=${secret()}\nSTORAGE_ENCRYPTION_KEY=${secret()}\nREQUIRE_API_KEY=true\nAUTH_COOKIE_SECURE=false\n`); }
-  finally { closeSync(fd); }
-}
-
-// Add the upstream AES-GCM storage key without replacing existing account secrets.
-if(!/^STORAGE_ENCRYPTION_KEY=.+$/m.test(readFileSync(file,'utf8'))) {
-  appendFileSync(file,`\nSTORAGE_ENCRYPTION_KEY=${randomBytes(32).toString('hex')}\n`);
-}
-chmodSync(file,0o600);
-JS
-}
-
-prepare_runtime() {
-    local helper="$PREFIX/share/ocean-gateway/prepare-runtime.mjs"
-    if [ ! -f "$helper" ]; then helper="$(dirname "$0")/prepare-runtime.mjs"; fi
-    node "$helper" "$gateway_root"
-}
-
-verify_install() {
-    node --input-type=module - "$gateway_root" "$version" "$integrity" <<'JS'
-import {readFileSync,existsSync} from 'node:fs';
-import {join} from 'node:path';
-const [root,version,integrity]=process.argv.slice(2);
-const lock=JSON.parse(readFileSync(join(root,'package-lock.json'),'utf8'));
-const p=lock.packages?.['node_modules/omniroute'];
-if(p?.version!==version||p?.integrity!==integrity)throw Error('OmniRoute release integrity mismatch');
-if(!existsSync(join(root,'node_modules/omniroute/dist/server.js')))throw Error('OmniRoute server bundle missing');
-JS
-}
-
 case "${1:-help}" in
-    install)
-        ensure_node
-        initialize
-        if ! verify_install 2>/dev/null; then
-            echo "Installing official OmniRoute $version…"
-            # Lifecycle hooks are disabled: no foreign terminal patches or native downloads.
-            npm install --prefix "$gateway_root" --registry=https://registry.npmjs.org \
-                --ignore-scripts --omit=optional --no-audit --no-fund --save-exact "omniroute@$version"
-        fi
-        verify_install
-        prepare_runtime
-        echo "Ocean gateway installed: OmniRoute $version"
-        ;;
+    install) check; echo 'Independent Ocean Gateway 1.0.0 is installed';;
     serve)
-        verify_install
-        initialize
-        prepare_runtime
-        # Node's builtin SQLite is used when optional native bindings are absent.
-        # The upstream server and all provider adapters are run without modification.
-        echo "$$" > "$DATA_DIR/server.pid"
-        exec node --env-file="$DATA_DIR/.env" "$server"
+        check
+        echo "$$" > "$OCEAN_GATEWAY_DATA/server.pid"
+        exec "$node" "--env-file=$OCEAN_GATEWAY_DATA/.env" "$server"
         ;;
-    start)
-        "$0" install
-        if [ -f "$DATA_DIR/server.pid" ] && kill -0 "$(cat "$DATA_DIR/server.pid")" 2>/dev/null; then
-            echo "Ocean gateway process is already running; endpoint http://127.0.0.1:$PORT/v1"
-            exit 0
-        fi
-        nohup "$0" serve > "$DATA_DIR/server.log" 2>&1 &
-        echo "$!" > "$DATA_DIR/server.pid"
-        echo "Started Ocean gateway process; logs: $DATA_DIR/server.log"
-        ;;
-    status)
-        curl --fail --silent --noproxy '*' "http://127.0.0.1:$PORT/api/monitoring/health"
-        ;;
+    start) start;;
+    status) "$node" "$runtime/connect.mjs" status;;
+    connect) start; "$node" "$runtime/connect.mjs" connect "${2:-codex}";;
+    add-local) start; "$node" "$runtime/connect.mjs" add-local "${2:-http://127.0.0.1:11434/v1}";;
     stop)
-        # Older app launches did not record a PID. Only stop processes matching
-        # BOTH this private server and its private environment file.
-        for gateway_cmdline in /proc/[0-9]*/cmdline; do
-            [ -r "$gateway_cmdline" ] || continue
-            if tr '\0' '\n' < "$gateway_cmdline" | grep -Fxq -- "$server" \
-                && tr '\0' '\n' < "$gateway_cmdline" | grep -Fxq -- "--env-file=$DATA_DIR/.env"; then
-                gateway_pid="${gateway_cmdline#/proc/}"
-                gateway_pid="${gateway_pid%/cmdline}"
-                kill "$gateway_pid" 2>/dev/null || true
-            fi
-        done
-        rm -f "$DATA_DIR/server.pid"
+        if alive; then kill "$gateway_pid"; fi
+        rm -f "$OCEAN_GATEWAY_DATA/server.pid"
         ;;
-    *) echo 'ocean-gateway install | serve | start | status | stop';;
+    *) echo 'ocean-gateway install | start | serve | status | connect codex|antigravity|gemini-cli | add-local [loopback /v1 URL] | stop';;
 esac

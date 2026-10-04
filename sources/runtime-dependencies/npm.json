@@ -1,0 +1,9 @@
+{
+  "version": "11.19.1",
+  "url": "https://registry.npmjs.org/npm/-/npm-11.19.1.tgz",
+  "artifact": "npm-11.19.1.tgz",
+  "sha256": "9f58bff01604cb1b14008fef14dceb14d836a49225e45c6c2e37de3be3e707f0",
+  "sha512SRI": "sha512-ztsxKxt/kkIaAs+2i0GU6I+DRmUdrNasxTZKJe9TCdSjKxlhah/4r/hl5ygMD6XAg1qZ9c2TNomR4qgOydp10g==",
+  "license": "Artistic-2.0",
+  "repository": "https://github.com/npm/cli"
+}

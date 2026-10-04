@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Stage 11 upstream Android libraries plus a separate FFmpeg CLI; never publish implicitly."""
+"""Stage upstream Android libraries, FFmpeg and llama-server; never publish implicitly."""
 import argparse
 import hashlib
 import json
@@ -68,7 +68,7 @@ def build(args):
                              '--enable-shared', '--disable-static', '--disable-autodetect', '--disable-doc',
                              '--disable-debug', '--disable-zlib', '--disable-bzlib', '--disable-lzma', '--disable-iconv',
                              '--disable-openssl', '--enable-mbedtls', '--extra-cflags=-I' + str(mbed / 'include'),
-                             '--extra-ldflags=-L' + str(mbed / 'lib')]
+                             '--extra-ldflags=-L' + str(mbed / 'lib') + ' -Wl,-z,max-page-size=16384']
                 run(configure, cwd=source)
                 run(['make', '-j', args.jobs], cwd=source)
                 run(['make', 'install', 'DESTDIR=' + str(install)], cwd=source)
@@ -76,7 +76,8 @@ def build(args):
                 build_dir = work / (item['name'] + '-build')
                 options = ['-DCMAKE_TOOLCHAIN_FILE=' + str(ndk / 'build/cmake/android.toolchain.cmake'),
                            '-DANDROID_ABI=arm64-v8a', '-DANDROID_PLATFORM=android-28',
-                           '-DCMAKE_BUILD_TYPE=Release', '-DCMAKE_INSTALL_PREFIX=' + PREFIX]
+                           '-DCMAKE_BUILD_TYPE=Release', '-DCMAKE_INSTALL_PREFIX=' + PREFIX,
+                           '-DANDROID_SUPPORT_FLEXIBLE_PAGE_SIZES=ON']
                 if item['name'] == 'mbedtls':
                     options += ['-DENABLE_PROGRAMS=OFF', '-DENABLE_TESTING=OFF',
                                 '-DUSE_STATIC_MBEDTLS_LIBRARY=OFF', '-DUSE_SHARED_MBEDTLS_LIBRARY=ON']
@@ -86,7 +87,7 @@ def build(args):
                     options += ['-DLWS_WITH_SHARED=ON', '-DLWS_WITH_STATIC=OFF', '-DLWS_WITH_SSL=OFF',
                                 '-DLWS_WITH_ZLIB=OFF', '-DLWS_WITHOUT_TESTAPPS=ON']
                 if item['name'] == 'llama.cpp':
-                    options = options[:5] + ['-DANDROID_STL=c++_static', '-DBUILD_SHARED_LIBS=OFF',
+                    options = options[:6] + ['-DANDROID_STL=c++_static', '-DBUILD_SHARED_LIBS=OFF',
                                              '-DGGML_OPENMP=OFF', '-DLLAMA_CURL=OFF',
                                              '-DLLAMA_BUILD_TESTS=OFF', '-DLLAMA_BUILD_SERVER=ON']
                 run(['cmake', '-S', source, '-B', build_dir] + options)
