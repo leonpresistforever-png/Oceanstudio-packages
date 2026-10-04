@@ -48,6 +48,25 @@
       "packages": [
         "ocean-llama-runtime"
       ]
+    },
+    {
+      "name": "ollama",
+      "url": "https://github.com/ollama/ollama.git",
+      "commit": "cc4069396f3ad2c370c53eed2e4a42ac13adab84",
+      "version": "0.35.0",
+      "llamaCommit": "161755f29e415e2c33efe906e91843c068efd664",
+      "packages": [
+        "ollama-cli"
+      ]
+    },
+    {
+      "name": "mandoc",
+      "url": "https://mandoc.bsd.lv/snapshots/mandoc-1.14.6.tar.gz",
+      "sha256": "8bf0d570f01e70a6e124884088870cbed7537f36328d512909eb10cd53179d9c",
+      "version": "1.14.6",
+      "packages": [
+        "mandoc"
+      ]
     }
   ]
 }

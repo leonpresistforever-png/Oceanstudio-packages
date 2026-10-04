@@ -97,6 +97,16 @@ print('HTTP, Flask, OAuth, escaping, XML, patching and graph behavior passed')
         for command in ['npm', 'npx']:
             version = subprocess.check_output(['sh', str(prefix / 'bin' / command), '--version'], text=True, env=env).strip()
             assert version == '11.19.1', (command, version)
+        # Execute the existing ocean-tools wrapper against the previously missing
+        # helper, with a real interpreter and a script installed at a host path.
+        (prefix / 'bin/python3').symlink_to(sys.executable)
+        installed_script = prefix / 'bin/shebang-regression'
+        installed_script.write_text('#!/usr/bin/env python3\nprint("source-preserved")\n')
+        wrapper = ROOT / 'packages/ocean-tools/data/data/studio.ocean.app/files/usr/bin/ocean-fix-shebangs'
+        run(['bash', wrapper], env=env, stdout=subprocess.DEVNULL)
+        assert installed_script.read_text() == f'#!{prefix}/bin/python3\nprint("source-preserved")\n'
+        assert (prefix / 'bin/python3').is_symlink()
+        print('Existing Ocean shebang wrapper executes its packaged helper')
         old_package = 'python-httpx'
         owned_files = [name for name, owner in owners.items() if owner == old_package]
         for name in owned_files:

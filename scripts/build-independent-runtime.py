@@ -97,13 +97,14 @@ def launcher(stage, name, script):
     path.write_text(script)
     path.chmod(0o755)
 
-def package(stage, output, name, version, description, dependencies=(), homepage='', section='python'):
+def package(stage, output, name, version, description, dependencies=(), homepage='', section='python', relationships=''):
     control = stage / 'DEBIAN'
     control.mkdir()
     (control / 'control').write_text(f'Package: {name}\nVersion: {version}\nArchitecture: all\n'
         'Maintainer: OceanStudio <packages@ocean.studio>\nPriority: optional\n' + f'Section: {section}\n'
         + ('Depends: ' + ', '.join(dependencies) + '\n' if dependencies else '')
         + (f'Homepage: {homepage}\n' if homepage else '')
+        + relationships
         + 'Description: ' + ' '.join(description.split()) + '\n')
     artifact = output / f'{name}_{version}_all.deb'
     temporary = stage.parent / (artifact.name + '.complete')
@@ -204,7 +205,8 @@ def main(args):
         for command in ['npm', 'npx']:
             launcher(npm_stage, command, '#!/system/bin/sh\nexec "${PREFIX:-/data/data/studio.ocean.app/files/usr}/bin/node" '
                      '"${PREFIX:-/data/data/studio.ocean.app/files/usr}/lib/node_modules/npm/bin/' + command + '-cli.js" "$@"\n')
-        receipts.append(package(npm_stage, args.output, 'npm', npm['version'] + '-1+ocean1', 'Official npm CLI with relocation-safe Ocean Android launchers', ['nodejs (>= 20.17)'], 'https://github.com/npm/cli', 'devel'))
+        receipts.append(package(npm_stage, args.output, 'npm', npm['version'] + '-2+ocean1', 'Official npm CLI with relocation-safe Ocean Android launchers', ['nodejs (>= 20.17)'], 'https://github.com/npm/cli', 'devel',
+                                'Replaces: npx (<< 11.19.1)\nBreaks: npx (<< 11.19.1)\nProvides: npx (= 11.19.1)\n'))
         gateway = work / 'ocean-gateway'
         gateway.mkdir()
         code = gateway / PREFIX / 'share/ocean-gateway'
@@ -219,9 +221,12 @@ def main(args):
         doctor = compat / PREFIX / 'share/ocean-runtime-compat/doctor.py'
         doctor.parent.mkdir(parents=True)
         shutil.copy2(ROOT / 'packages/ocean-runtime-compat/doctor.py', doctor)
+        shebang = compat / PREFIX / 'share/ocean/scripts/fix-runtime-shebangs.py'
+        shebang.parent.mkdir(parents=True)
+        shutil.copy2(ROOT / 'scripts/fix-runtime-shebangs.py', shebang)
         launcher(compat, 'ocean-runtime-doctor', '#!/system/bin/sh\nexec "${PREFIX:-/data/data/studio.ocean.app/files/usr}/bin/python" '
                  '"${PREFIX:-/data/data/studio.ocean.app/files/usr}/share/ocean-runtime-compat/doctor.py" "$@"\n')
-        receipts.append(package(compat, args.output, 'ocean-runtime-compat', '1.0.0-1+ocean1', 'Inspect native library and interpreter compatibility and repair relocated npm launchers', ['python'], section='utils'))
+        receipts.append(package(compat, args.output, 'ocean-runtime-compat', '1.0.1-1+ocean1', 'Inspect runtime compatibility, repair npm launchers and provide the missing Ocean shebang helper', ['python'], section='utils'))
     (args.output / 'build-receipts.json').write_text(json.dumps(receipts, indent=2) + '\n')
     print(f'Built {len(receipts)} verified packages; {len(entries)} distinct upstream Python distributions')
 

@@ -35,6 +35,7 @@ jobs:
             sources
             packages/ocean-gateway
             packages/ocean-runtime-compat
+            packages/ocean-tools
             apt/dists
           filter: blob:none
       - uses: actions/setup-node@v4
@@ -69,6 +70,9 @@ jobs:
             sources/mobile-runtime-additions
             tests
           filter: blob:none
+      - uses: actions/setup-go@v5
+        with:
+          go-version: '1.26.8'
       - name: Install Android NDK and build tools
         uses: android-actions/setup-android@v3
         with:
