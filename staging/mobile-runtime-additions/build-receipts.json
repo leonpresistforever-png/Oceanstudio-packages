@@ -1,0 +1,246 @@
+[
+  {
+    "name": "mbedtls",
+    "url": "https://github.com/Mbed-TLS/mbedtls.git",
+    "commit": "c765c831e5c2a0971410692f92f7a81d6ec65ec2",
+    "version": "3.6.4",
+    "packages": [
+      "libmbedcrypto",
+      "libmbedx509",
+      "libmbedtls"
+    ],
+    "package": "libmbedcrypto",
+    "target": "aarch64-linux-android28",
+    "physicalDeviceTested": false,
+    "artifact": "libmbedcrypto_3.6.4-1+ocean1_aarch64.deb",
+    "sha256": "a8ada49c766d0a8733bcf1b812325b59f9a2fe7cfe48108ddc2f7f96883b3f6e"
+  },
+  {
+    "name": "mbedtls",
+    "url": "https://github.com/Mbed-TLS/mbedtls.git",
+    "commit": "c765c831e5c2a0971410692f92f7a81d6ec65ec2",
+    "version": "3.6.4",
+    "packages": [
+      "libmbedcrypto",
+      "libmbedx509",
+      "libmbedtls"
+    ],
+    "package": "libmbedx509",
+    "target": "aarch64-linux-android28",
+    "physicalDeviceTested": false,
+    "artifact": "libmbedx509_3.6.4-1+ocean1_aarch64.deb",
+    "sha256": "3f965f3192cef50cd28ab1b91001ac5d8190147032abbbce8b9b7eae18f83311"
+  },
+  {
+    "name": "mbedtls",
+    "url": "https://github.com/Mbed-TLS/mbedtls.git",
+    "commit": "c765c831e5c2a0971410692f92f7a81d6ec65ec2",
+    "version": "3.6.4",
+    "packages": [
+      "libmbedcrypto",
+      "libmbedx509",
+      "libmbedtls"
+    ],
+    "package": "libmbedtls",
+    "target": "aarch64-linux-android28",
+    "physicalDeviceTested": false,
+    "artifact": "libmbedtls_3.6.4-1+ocean1_aarch64.deb",
+    "sha256": "463861256f62f12fe16b90b415d8ce442e46f849d4234d6de15f28a468c2bd1b"
+  },
+  {
+    "name": "ffmpeg",
+    "url": "https://github.com/FFmpeg/FFmpeg.git",
+    "commit": "38b88335f99e76ed89ff3c93f877fdefce736c13",
+    "version": "8.1.2",
+    "packages": [
+      "libavcodec",
+      "libavformat",
+      "libavutil",
+      "libavfilter",
+      "libavdevice",
+      "libswresample",
+      "libswscale",
+      "ocean-ffmpeg-native"
+    ],
+    "package": "libavcodec",
+    "target": "aarch64-linux-android28",
+    "physicalDeviceTested": false,
+    "artifact": "libavcodec_8.1.2-1+ocean1_aarch64.deb",
+    "sha256": "ca45e00747df3c1b147cbeceeb098d574edb3ef3c9308da45792dbadf20ec3ae"
+  },
+  {
+    "name": "ffmpeg",
+    "url": "https://github.com/FFmpeg/FFmpeg.git",
+    "commit": "38b88335f99e76ed89ff3c93f877fdefce736c13",
+    "version": "8.1.2",
+    "packages": [
+      "libavcodec",
+      "libavformat",
+      "libavutil",
+      "libavfilter",
+      "libavdevice",
+      "libswresample",
+      "libswscale",
+      "ocean-ffmpeg-native"
+    ],
+    "package": "libavformat",
+    "target": "aarch64-linux-android28",
+    "physicalDeviceTested": false,
+    "artifact": "libavformat_8.1.2-1+ocean1_aarch64.deb",
+    "sha256": "547a7c9fc0384fc7ed98999647eeadfd6284d2b106104b5e8b64c8722139aad8"
+  },
+  {
+    "name": "ffmpeg",
+    "url": "https://github.com/FFmpeg/FFmpeg.git",
+    "commit": "38b88335f99e76ed89ff3c93f877fdefce736c13",
+    "version": "8.1.2",
+    "packages": [
+      "libavcodec",
+      "libavformat",
+      "libavutil",
+      "libavfilter",
+      "libavdevice",
+      "libswresample",
+      "libswscale",
+      "ocean-ffmpeg-native"
+    ],
+    "package": "libavutil",
+    "target": "aarch64-linux-android28",
+    "physicalDeviceTested": false,
+    "artifact": "libavutil_8.1.2-1+ocean1_aarch64.deb",
+    "sha256": "5380d3fa45becf3cf3f6eb013fc26a52286b7aa21587872b65628a9d49b71c23"
+  },
+  {
+    "name": "ffmpeg",
+    "url": "https://github.com/FFmpeg/FFmpeg.git",
+    "commit": "38b88335f99e76ed89ff3c93f877fdefce736c13",
+    "version": "8.1.2",
+    "packages": [
+      "libavcodec",
+      "libavformat",
+      "libavutil",
+      "libavfilter",
+      "libavdevice",
+      "libswresample",
+      "libswscale",
+      "ocean-ffmpeg-native"
+    ],
+    "package": "libavfilter",
+    "target": "aarch64-linux-android28",
+    "physicalDeviceTested": false,
+    "artifact": "libavfilter_8.1.2-1+ocean1_aarch64.deb",
+    "sha256": "9f3058bb2f59ed4c2405c1cc8942972b2611674b67ef89b2b8aabacc1ab4e6d5"
+  },
+  {
+    "name": "ffmpeg",
+    "url": "https://github.com/FFmpeg/FFmpeg.git",
+    "commit": "38b88335f99e76ed89ff3c93f877fdefce736c13",
+    "version": "8.1.2",
+    "packages": [
+      "libavcodec",
+      "libavformat",
+      "libavutil",
+      "libavfilter",
+      "libavdevice",
+      "libswresample",
+      "libswscale",
+      "ocean-ffmpeg-native"
+    ],
+    "package": "libavdevice",
+    "target": "aarch64-linux-android28",
+    "physicalDeviceTested": false,
+    "artifact": "libavdevice_8.1.2-1+ocean1_aarch64.deb",
+    "sha256": "f71acd28baf2a907d4802207b1d849caeaaa0cafe9b3fbff225e22ed3fb5a68b"
+  },
+  {
+    "name": "ffmpeg",
+    "url": "https://github.com/FFmpeg/FFmpeg.git",
+    "commit": "38b88335f99e76ed89ff3c93f877fdefce736c13",
+    "version": "8.1.2",
+    "packages": [
+      "libavcodec",
+      "libavformat",
+      "libavutil",
+      "libavfilter",
+      "libavdevice",
+      "libswresample",
+      "libswscale",
+      "ocean-ffmpeg-native"
+    ],
+    "package": "libswresample",
+    "target": "aarch64-linux-android28",
+    "physicalDeviceTested": false,
+    "artifact": "libswresample_8.1.2-1+ocean1_aarch64.deb",
+    "sha256": "0d5a973da62de582fb2b29e15447bcc5b56b4f60e4eacb1a3dc141a9a90be6a0"
+  },
+  {
+    "name": "ffmpeg",
+    "url": "https://github.com/FFmpeg/FFmpeg.git",
+    "commit": "38b88335f99e76ed89ff3c93f877fdefce736c13",
+    "version": "8.1.2",
+    "packages": [
+      "libavcodec",
+      "libavformat",
+      "libavutil",
+      "libavfilter",
+      "libavdevice",
+      "libswresample",
+      "libswscale",
+      "ocean-ffmpeg-native"
+    ],
+    "package": "libswscale",
+    "target": "aarch64-linux-android28",
+    "physicalDeviceTested": false,
+    "artifact": "libswscale_8.1.2-1+ocean1_aarch64.deb",
+    "sha256": "ef4eb3a2ad3d7a498eec1b048fce365bc074e4f7d9345b58d6f35a80777326b4"
+  },
+  {
+    "name": "ffmpeg",
+    "url": "https://github.com/FFmpeg/FFmpeg.git",
+    "commit": "38b88335f99e76ed89ff3c93f877fdefce736c13",
+    "version": "8.1.2",
+    "packages": [
+      "libavcodec",
+      "libavformat",
+      "libavutil",
+      "libavfilter",
+      "libavdevice",
+      "libswresample",
+      "libswscale",
+      "ocean-ffmpeg-native"
+    ],
+    "package": "ocean-ffmpeg-native",
+    "target": "aarch64-linux-android28",
+    "physicalDeviceTested": false,
+    "artifact": "ocean-ffmpeg-native_8.1.2-1+ocean1_aarch64.deb",
+    "sha256": "d94aab7f48ba22ea3199b0f3434e4c76012dc5afa50286d6f6ab08d227ac2bde"
+  },
+  {
+    "name": "libwebsockets",
+    "url": "https://github.com/warmcat/libwebsockets.git",
+    "commit": "4415e84c095857629863804e941b9e1c2e9347ef",
+    "version": "4.3.3",
+    "packages": [
+      "libwebsockets"
+    ],
+    "package": "libwebsockets",
+    "target": "aarch64-linux-android28",
+    "physicalDeviceTested": false,
+    "artifact": "libwebsockets_4.3.3-1+ocean1_aarch64.deb",
+    "sha256": "4b13c291b5212fb611776eac7c6f90becea29204f929743764e5eaba48002839"
+  },
+  {
+    "name": "llama.cpp",
+    "url": "https://github.com/ggml-org/llama.cpp.git",
+    "commit": "4d9176092d00586775af140581bb0b558ddc4389",
+    "version": "10818",
+    "packages": [
+      "ocean-llama-runtime"
+    ],
+    "package": "ocean-llama-runtime",
+    "target": "aarch64-linux-android28",
+    "physicalDeviceTested": false,
+    "artifact": "ocean-llama-runtime_10818-1+ocean1_aarch64.deb",
+    "sha256": "4de11514183360158010037416a46ba1f6a52ba4508033a8eb8aea1e445ec523"
+  }
+]
