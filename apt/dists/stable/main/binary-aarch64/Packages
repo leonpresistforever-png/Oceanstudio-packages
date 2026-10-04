@@ -42583,6 +42583,66 @@ MD5sum: 4ce50dcf14a42c389f58c051800b6d0f
 SHA1: 9bfee97ae7348a7cae4621eb64cfa325f8f3dcbd
 SHA256: 0d4cdaa6da1e43237be4488937839e5704ac63e0d26e8bd4334cb8413f263d57
 
+Package: libavcodec
+Version: 8.1.2-1+ocean1
+Architecture: aarch64
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: libs
+Priority: optional
+Depends: libavutil, libswresample
+Homepage: https://github.com/FFmpeg/FFmpeg
+Description: Upstream Android API 28 build of libavcodec
+Filename: pool/main/libavcodec_8.1.2-1+ocean1_aarch64.deb
+Size: 4663276
+MD5sum: 9a7fde311a6987fee12a617e79c9ee45
+SHA1: 7d9ffeea20838c368d899008ecc5c2833b0bd727
+SHA256: f446db1bc10861ca0f719ba69922c41c813ea9b188a7e12daafe4555babc12f3
+
+Package: libavdevice
+Version: 8.1.2-1+ocean1
+Architecture: aarch64
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: libs
+Priority: optional
+Depends: libavformat, libavcodec, libavfilter, libavutil
+Homepage: https://github.com/FFmpeg/FFmpeg
+Description: Upstream Android API 28 build of libavdevice
+Filename: pool/main/libavdevice_8.1.2-1+ocean1_aarch64.deb
+Size: 34724
+MD5sum: 4a86b187b4fbf5a825ec9da100e51b19
+SHA1: edf5327019daca8d29277b02e67867d5cb37de62
+SHA256: d1b7e8ee8f5d4a2e46c9f57ca68aa7ad0b34396714f8f429ad03ba5dd95b0de1
+
+Package: libavfilter
+Version: 8.1.2-1+ocean1
+Architecture: aarch64
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: libs
+Priority: optional
+Depends: libavformat, libavcodec, libswscale, libswresample, libavutil
+Homepage: https://github.com/FFmpeg/FFmpeg
+Description: Upstream Android API 28 build of libavfilter
+Filename: pool/main/libavfilter_8.1.2-1+ocean1_aarch64.deb
+Size: 1205936
+MD5sum: 593ea64671bb7dff32e28cae86049baf
+SHA1: d863c4733656b6067b159f4d9772c0bf21f73147
+SHA256: 9673d1ddfc09da70472fcfd29c0227617f3d78bc1b0f82ae5b01a1fe3afbf603
+
+Package: libavformat
+Version: 8.1.2-1+ocean1
+Architecture: aarch64
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: libs
+Priority: optional
+Depends: libavcodec, libavutil, libmbedtls, libmbedx509, libmbedcrypto
+Homepage: https://github.com/FFmpeg/FFmpeg
+Description: Upstream Android API 28 build of libavformat
+Filename: pool/main/libavformat_8.1.2-1+ocean1_aarch64.deb
+Size: 979092
+MD5sum: cbe605cb04efc9503bbb1b3925551bc3
+SHA1: 132d657b13126e0b536cd051d1c7a3f4b7740220
+SHA256: 825bf6798c8feadd340714d8ab97d5ea04c4f344a99d140431d12f10f3693f00
+
 Package: libavif
 Architecture: aarch64
 Installed-Size: 1484
@@ -42596,6 +42656,20 @@ Size: 385424
 MD5sum: 47da325074d99e2580020cc9101feaaa
 SHA1: 4a18a52c943ec4654957a2af8e09c146d2c00a94
 SHA256: fe0ee07e29f92894ca9a9860fa71bddf6c597a50c13baddc4e6c036b1de6142e
+
+Package: libavutil
+Version: 8.1.2-1+ocean1
+Architecture: aarch64
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: libs
+Priority: optional
+Homepage: https://github.com/FFmpeg/FFmpeg
+Description: Upstream Android API 28 build of libavutil
+Filename: pool/main/libavutil_8.1.2-1+ocean1_aarch64.deb
+Size: 255040
+MD5sum: 6ec30bf3cd075485af5418b7646f67db
+SHA1: b8d68197014e5c0bb6d8352ba029abdcca4f958c
+SHA256: 2c6bf5ecc575a62418bb1a9a374e85ee48ab77008b1f55ebb8b3be7ee78c64d7
 
 Package: libblkid
 Architecture: aarch64
@@ -43748,6 +43822,50 @@ MD5sum: c9c6cb794c4ed094cd45048fe0230de5
 SHA1: 46c775bbfafc18e062f4435ed36473949db379be
 SHA256: fc5ab0aefa2a25302d30bb81761d9cae3106b33faacec24c1839d9d6d6a76535
 
+Package: libmbedcrypto
+Version: 3.6.4-1+ocean1
+Architecture: aarch64
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: libs
+Priority: optional
+Homepage: https://github.com/Mbed-TLS/mbedtls
+Description: Upstream Android API 28 build of libmbedcrypto
+Filename: pool/main/libmbedcrypto_3.6.4-1+ocean1_aarch64.deb
+Size: 688328
+MD5sum: cc9f9aebd4076836056a086be65a880c
+SHA1: bc5ea2bcf525212419c479543cc0fbc8adb70605
+SHA256: 5db1c22912b318069414fd9d954515ac9f3ca068ff0dfb7276a9fcab6402873d
+
+Package: libmbedtls
+Version: 3.6.4-1+ocean1
+Architecture: aarch64
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: libs
+Priority: optional
+Depends: libmbedx509, libmbedcrypto
+Homepage: https://github.com/Mbed-TLS/mbedtls
+Description: Upstream Android API 28 build of libmbedtls
+Filename: pool/main/libmbedtls_3.6.4-1+ocean1_aarch64.deb
+Size: 343752
+MD5sum: d746ea924ba57c1208e2657fe09f72ce
+SHA1: ed8b098e90e42b98917b2945a87228e892f91b93
+SHA256: 830ab6232545af97f708b7a130a887272c1df0039d1e1b5f69e79f920b35f4dd
+
+Package: libmbedx509
+Version: 3.6.4-1+ocean1
+Architecture: aarch64
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: libs
+Priority: optional
+Depends: libmbedcrypto
+Homepage: https://github.com/Mbed-TLS/mbedtls
+Description: Upstream Android API 28 build of libmbedx509
+Filename: pool/main/libmbedx509_3.6.4-1+ocean1_aarch64.deb
+Size: 99908
+MD5sum: 2f4f5012f5a7c532784238d2cc972b9d
+SHA1: 5c1c2579646755638e72c8b004838b8484efe263
+SHA256: 025c0bb496be37124a0137f6cfd2ecdc47ca0a85350d7d27591a460acb0978a9
+
 Package: libmd
 Architecture: aarch64
 Installed-Size: 188
@@ -44563,6 +44681,36 @@ MD5sum: 5f658ae4eab9ccb6e33b71c1f21e1400
 SHA1: 171276d8bececaaefb85eca7e39e57d461b341ce
 SHA256: 8d743ddf97808794e0cd859b15972b3f62b5ab7fb2b74ec9247ba4564bb29ae5
 
+Package: libswresample
+Version: 8.1.2-1+ocean1
+Architecture: aarch64
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: libs
+Priority: optional
+Depends: libavutil
+Homepage: https://github.com/FFmpeg/FFmpeg
+Description: Upstream Android API 28 build of libswresample
+Filename: pool/main/libswresample_8.1.2-1+ocean1_aarch64.deb
+Size: 48544
+MD5sum: 8378f8f05fa8168e57edccc19760ebef
+SHA1: 0f41778c146ffb6850b6001ce9efdfccbe70eb37
+SHA256: f7f7c85c866d856e18d63c8066c506ab2e1f96c856ee500aa8e719f07848dc19
+
+Package: libswscale
+Version: 8.1.2-1+ocean1
+Architecture: aarch64
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: libs
+Priority: optional
+Depends: libavutil
+Homepage: https://github.com/FFmpeg/FFmpeg
+Description: Upstream Android API 28 build of libswscale
+Filename: pool/main/libswscale_8.1.2-1+ocean1_aarch64.deb
+Size: 375480
+MD5sum: 105948e650e45f8163d25dc40a414ab9
+SHA1: cc051070b48571ca77c942bd7b37e54403dd19f9
+SHA256: 448354ee5ce54c6490b1b4364e873b83842f982bf96f26adc96518ed53dc1b49
+
 Package: libtalloc
 Architecture: aarch64
 Installed-Size: 164
@@ -44986,6 +45134,20 @@ Size: 408680
 MD5sum: 6d2c873145c384cb6bd5462e56ade385
 SHA1: 9e470726bc02121e0f1da6b21c9bae071959394e
 SHA256: 61090caf003150e513abda7232a30b310dfe6c9e74f2ea711cfe93c14868b261
+
+Package: libwebsockets
+Version: 4.3.3-1+ocean1
+Architecture: aarch64
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: libs
+Priority: optional
+Homepage: https://github.com/warmcat/libwebsockets
+Description: Upstream Android API 28 build of libwebsockets
+Filename: pool/main/libwebsockets_4.3.3-1+ocean1_aarch64.deb
+Size: 611896
+MD5sum: a329c2396972d499d60c6bdeb5e74cdb
+SHA1: 83bcc4198aca93d4378652bed29e3acdbc093757
+SHA256: add86bd2050034ce1d4a16c058c789cf8e23bb2da4856c7d25439e8a60a7cd23
 
 Package: libx11
 Architecture: aarch64
@@ -46775,6 +46937,20 @@ Size: 1114
 MD5sum: ad9315216943fb6d052da14aca1528d0
 SHA1: 7a03ba4dc67e8177a30cfcd3600071d85cd16848
 SHA256: e5a593b1700319894ce485062a652bacbb4455a999b4e2a262abcbcbeccf7cc8
+
+Package: mandoc
+Version: 1.14.6-1+ocean1
+Architecture: aarch64
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: libs
+Priority: optional
+Homepage: https://mandoc.bsd.lv/snapshots/mandoc-1.14.6.tar.gz
+Description: Upstream Android API 28 build of mandoc
+Filename: pool/main/mandoc_1.14.6-1+ocean1_aarch64.deb
+Size: 194716
+MD5sum: 7d052024419d847e421fef0ab6d6db42
+SHA1: 3520a249243bc2fdafc4006b890fa5d787cd5d1b
+SHA256: f99ee370869690bac71435dfb3d9b365f17f4d7fdd098614aa9076a3e1ef4043
 
 Package: manpage-troff-linter
 Version: 1.0.0-2+ocean1
@@ -53306,19 +53482,22 @@ SHA1: e481d9e0bb04789af988b4108b7c9944a40d6ac9
 SHA256: dcb29329ac8a95284a1913155adc8998ee3dc9b62eb31250b62c79868be93326
 
 Package: npm
+Version: 11.19.1-2+ocean1
 Architecture: all
-Installed-Size: 18228
-Maintainer: OceanStudio <maintainer@ocean.studio>
-Version: 11.19.1
-Homepage: https://docs.npmjs.com/cli/
-Depends: nodejs | nodejs-lts
-Conflicts: nodejs (<= 25.3.0), nodejs-lts (<= 24.13.0)
-Description: The package manager for JavaScript
-Filename: pool/main/npm_11.19.1_all.deb
-Size: 2030296
-MD5sum: 150fc93c5d971c92b32fe527dbe5578f
-SHA1: a786122e1e37582511674fcf2b75602a6bf92697
-SHA256: 9c0f73989ac6e9225bbaa622a7fa9bb0dc396f3fa021d680b44f10e1867aed2d
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: devel
+Depends: nodejs (>= 20.17)
+Homepage: https://github.com/npm/cli
+Replaces: npx (<< 11.19.1)
+Breaks: npx (<< 11.19.1)
+Provides: npx (= 11.19.1)
+Description: Official npm CLI with relocation-safe Ocean Android launchers
+Filename: pool/main/npm_11.19.1-2+ocean1_all.deb
+Size: 1840016
+MD5sum: e25ac4cb8e2954cf53a3df405d2e89a6
+SHA1: 19154120d74f21c809672e7a90dc7551a0f5f7b8
+SHA256: d2bb4c3f2f6cf04497ff536819a4c7d27808f169297415d3543432d6a4414748
 
 Package: npm-audit-tool
 Version: 1.0.0-1
@@ -56289,6 +56468,21 @@ MD5sum: 28465667af11b8b36ef91685f8ab3348
 SHA1: 480cc87e8e5dedb47e8368987fd8e22958134092
 SHA256: bb075082e0e37c9404469315975c9791aac5e841ac98cc51f54123ce733d0cdd
 
+Package: ocean-ffmpeg-native
+Version: 8.1.2-1+ocean1
+Architecture: aarch64
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: libs
+Priority: optional
+Depends: libavdevice, libavfilter, libavformat, libavcodec, libswresample, libswscale, libavutil
+Homepage: https://github.com/FFmpeg/FFmpeg
+Description: Upstream Android API 28 build of ocean-ffmpeg-native
+Filename: pool/main/ocean-ffmpeg-native_8.1.2-1+ocean1_aarch64.deb
+Size: 181560
+MD5sum: b78600c787a3e33d889a96a25432da2f
+SHA1: 8cebf55720ce2326c5dde1414005494decb0d818
+SHA256: 26294406e449da3c0cd05a8db083587d12c888a7b31a2d1f855bb00659dd30ff
+
 Package: ocean-file-bytes
 Version: 1.0.0-1
 Architecture: all
@@ -56876,6 +57070,21 @@ Size: 824
 MD5sum: 3dc2c2c54b9cd77db72ca6c4f649d7a7
 SHA1: a757ea5ca95143ccfb650d438de24b1dda392a51
 SHA256: b4f84156f56dde9844648fb64bf0080a5916347cc4f47bc9a5f3c5524d037b6f
+
+Package: ocean-gateway
+Version: 4.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: net
+Depends: nodejs (>= 22), ca-certificates
+Homepage: https://github.com/leonpresistforever-png/Oceanstudio-packages
+Description: Independent Ocean encrypted account gateway with browser authorization and OpenAI-compatible inference
+Filename: pool/main/ocean-gateway_4.0.0-1+ocean1_all.deb
+Size: 18712
+MD5sum: 35961900eea3a3fa9659a5b0ceb8e4d7
+SHA1: 65d17bd7e4f44f7391db39d975d55bfde62baa4e
+SHA256: 864dcc305289651e4ae18d0a5c9ec1a530c408201e155f43d5c014ff32084d3f
 
 Package: ocean-gitx-author
 Version: 1.0.0-1
@@ -60623,6 +60832,20 @@ Size: 9640
 MD5sum: ff0fb0b04877a8d8d464067be602f2b6
 SHA1: 2596e953d0f0eb93f87544ad706076df268f6131
 SHA256: 6c41b2e0e2e17d60ac0fe5b6f028e9c0f2c9e07326b12cf143c5a639f723b8da
+
+Package: ocean-llama-runtime
+Version: 10818-1+ocean1
+Architecture: aarch64
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: libs
+Priority: optional
+Homepage: https://github.com/ggml-org/llama.cpp
+Description: Upstream Android API 28 build of ocean-llama-runtime
+Filename: pool/main/ocean-llama-runtime_10818-1+ocean1_aarch64.deb
+Size: 27424220
+MD5sum: 35b2810944fc69e4041ea8559076c1dd
+SHA1: 6ba2297967e514695b3edbc04cd5e45c87592ca6
+SHA256: 6a21f99e602fed5b4462d5a806a25a91b9f584d8053676b1a19371aad117d8f8
 
 Package: ocean-long-press
 Version: 1.0.0-1
@@ -65293,6 +65516,20 @@ MD5sum: 2a2919eb8e75af0705c570a6b2cbc792
 SHA1: 037539e0a4a6a16f5ce55d45b1e440f614250a84
 SHA256: 55d17eb33d6ccb726ecd907c0871d57fe10ebe6003a13b896740c75c364005ba
 
+Package: ocean-python-site
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: python (>= 3.14.6)
+Description: Shared additive import path and entry point loader for upstream Python libraries
+Filename: pool/main/ocean-python-site_1.0.0-1+ocean1_all.deb
+Size: 1160
+MD5sum: 39663f7f090c7240fc542c8c53f2e84b
+SHA1: 3e961f49002e78c6973852d6315a939718c2b060
+SHA256: 23f1128950377512bafb9e28b0078bc7c6ecd9485acf7ad9178084cf36601974
+
 Package: ocean-quick-settings
 Version: 1.0.0-1
 Architecture: all
@@ -65580,6 +65817,20 @@ Size: 824
 MD5sum: 35926245f1c4a5428ee9775493188b78
 SHA1: 5aec233229cb3c1abbbd8141efe67ff264e33112
 SHA256: da0c4ba7347a4fbb88814fb89d3bed470503834efdce6cb956a39302e983ae26
+
+Package: ocean-runtime-compat
+Version: 1.0.1-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: utils
+Depends: python
+Description: Inspect runtime compatibility, repair npm launchers and provide the missing Ocean shebang helper
+Filename: pool/main/ocean-runtime-compat_1.0.1-1+ocean1_all.deb
+Size: 3508
+MD5sum: 010399020967f4c014edd9543e4341f4
+SHA1: 1e5c699045907bcc7b2e5315ffbfb9ee9095e99d
+SHA256: 7f3641bf56a011ba97153f9164094489b70bf42460b2e63dd50663a17d6eef2a
 
 Package: ocean-runtime-ocean-workbench
 Version: 1.0.0-1
@@ -75108,20 +75359,19 @@ SHA1: aee72f0dce276963dd052926ce6043b02e121cc6
 SHA256: 26f66cf270bc1d6b53687d23132eecaf8c1d361e279897e72f1257d18f6657a5
 
 Package: ollama-cli
-Version: 0.5.11
+Version: 0.35.0-1+ocean1
 Architecture: aarch64
-Maintainer: OceanStudio <maintainer@ocean.studio>
-Installed-Size: 12
-Section: utils
+Maintainer: OceanStudio <packages@ocean.studio>
+Section: libs
 Priority: optional
-Homepage: https://ocean.studio
 Provides: ollama
-Description: Get up and running with large language models locally (CLI interface)
-Filename: pool/main/ollama-cli_0.5.11_aarch64.deb
-Size: 1226
-MD5sum: 2c44d71dbba79b44f37a1d896ee1a867
-SHA1: 081785787850d3d4ea8d808d5213428088527ec0
-SHA256: 321a5d54e2dee99f3075f2a09a7969f03029481b909f509d1b6cf41600b8728e
+Homepage: https://github.com/ollama/ollama
+Description: Upstream Android API 28 build of ollama-cli
+Filename: pool/main/ollama-cli_0.35.0-1+ocean1_aarch64.deb
+Size: 9500496
+MD5sum: 043e25164f3ddab8489fa5bf811a5a79
+SHA1: 529d66df14d4ebf6887c521fabbc81921f4b2bce
+SHA256: 17e581b3bc40e310ec313ec32bec482e97284eb22b3cbdd4f6e644d68a68d7de
 
 Package: one-gadget
 Version: 1.9.0
@@ -80636,6 +80886,561 @@ MD5sum: e9018dd5086b4fcd8e46b7174ab9b08a
 SHA1: 3f24a24a6171eeabe1b6712babb14b0a731ba72e
 SHA256: 20d377c1ff164dc0e729016728c8910cb616de83e7858deb9ab808ce1d094f13
 
+Package: python-aiofiles
+Version: 25.1.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/aiofiles/
+Description: File support for asyncio.
+Filename: pool/main/python-aiofiles_25.1.0-1+ocean1_all.deb
+Size: 12280
+MD5sum: cc95426aabe00e0150b2c0c3653f186a
+SHA1: abba17b7ac8c09add8fe47f2f1f8c0c1e77ac7b5
+SHA256: 3d855f7b5bf734681f17bedc520556e40961b43215de121cd5685e6dd9fbb8df
+
+Package: python-aiohappyeyeballs
+Version: 2.7.1-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/aiohappyeyeballs/
+Description: Happy Eyeballs for asyncio
+Filename: pool/main/python-aiohappyeyeballs_2.7.1-1+ocean1_all.deb
+Size: 13488
+MD5sum: 1732570b266ab1a56a6810edc1419442
+SHA1: 0f5a89e99dacfec1b1dff78a5e82186faa51f417
+SHA256: ce31da6c4bf3f745b679830a0c12c662a5dbd67f0cf900cf0b75461ba5e02015
+
+Package: python-aiosqlite
+Version: 0.22.1-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/aiosqlite/
+Description: asyncio bridge to the standard sqlite3 module
+Filename: pool/main/python-aiosqlite_0.22.1-1+ocean1_all.deb
+Size: 14096
+MD5sum: 1586d359d836fb44f1cf5adba81331df
+SHA1: 211d9d86de8b53a403e4256965bd044bcfbd3a2d
+SHA256: 3a9a3482ee155d9de1534991203f56ab7ca24f81681bb3295d6be62084475418
+
+Package: python-annotated-doc
+Version: 0.0.5-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/annotated-doc/
+Description: Document parameters, class attributes, return types, and variables inline, with Annotated.
+Filename: pool/main/python-annotated-doc_0.0.5-1+ocean1_all.deb
+Size: 5360
+MD5sum: 52a76d379ddfdf64957df79194e21491
+SHA1: a7b27e50e822e7256d7285ef1f7785e5c649519f
+SHA256: 2d0f79739a8a21f532e750774356fc205c7375909b46cd90b9f01332bc981227
+
+Package: python-annotated-types
+Version: 0.8.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/annotated-types/
+Description: Reusable constraint types to use with typing.Annotated
+Filename: pool/main/python-annotated-types_0.8.0-1+ocean1_all.deb
+Size: 12092
+MD5sum: 45de465a76b22d03c95548a352904544
+SHA1: bf981e2a3301b7006ad7af39dc777924d16bbe4f
+SHA256: d6c67707dc43928d8abfe2327179b9c0e21fae0eb81382c2ea7cb88b0e799902
+
+Package: python-anyio
+Version: 4.15.1-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1), python-idna (= 3.20-1+ocean1), python-typing-extensions (= 4.16.0-1+ocean1)
+Homepage: https://pypi.org/project/anyio/
+Description: High-level concurrency and networking framework on top of asyncio or Trio
+Filename: pool/main/python-anyio_4.15.1-1+ocean1_all.deb
+Size: 86672
+MD5sum: 99d90307e41f6ae202d1a6c53bc693cc
+SHA1: b6b437986256b2414a5757dc712543da0ef52c4a
+SHA256: c577f27c6fa14086025a487366054b46bab444168ab98f43d6d17a065a615954
+
+Package: python-arrow
+Version: 1.4.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1), python-python-dateutil (= 2.9.0.post0-1+ocean1), python-tzdata (= 2026.5-1+ocean1)
+Homepage: https://pypi.org/project/arrow/
+Description: Better dates & times for Python
+Filename: pool/main/python-arrow_1.4.0-1+ocean1_all.deb
+Size: 55864
+MD5sum: adff1267bea28aa8d10399447d238739
+SHA1: 233bd1450348bf9eec7831eea6ecd5491c5cd923
+SHA256: 43ca9e14fe767f76b3accaa073c2d548fa1d69e2f689401ee015ce9afbb4ee7b
+
+Package: python-asgiref
+Version: 3.12.1-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/asgiref/
+Description: ASGI specs, helper code, and adapters
+Filename: pool/main/python-asgiref_3.12.1-1+ocean1_all.deb
+Size: 21268
+MD5sum: 490357ddf7d632391c8f118fead0ddea
+SHA1: f590dd1a7f89d0ca394f33633677514f49eca2ae
+SHA256: 6111842899dc50826dd66c9fe44bd9bfa858e78d39e6475a0204dfc210f50471
+
+Package: python-asn1crypto
+Version: 1.5.1-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/asn1crypto/
+Description: Fast ASN.1 parser and serializer with definitions for private keys, public keys, certificates, CRL, OCSP, CMS, PKCS#3, PKCS#7, PKCS#8, PKCS#12, PKCS#5, X.509 and TSP
+Filename: pool/main/python-asn1crypto_1.5.1-1+ocean1_all.deb
+Size: 77156
+MD5sum: e6dfa136f959eea228f5bc62174e77c0
+SHA1: bf0327fcedb15b9689e4c33fac7e1a1f0fe0736c
+SHA256: 3ffe8bcdbf7ff3bd3c907320e2d7934e681cd7724ef59495f8788260e3b5de49
+
+Package: python-async-timeout
+Version: 5.0.1-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/async-timeout/
+Description: Timeout context manager for asyncio programs
+Filename: pool/main/python-async-timeout_5.0.1-1+ocean1_all.deb
+Size: 6060
+MD5sum: 079c859970fa2405950473e88b325cfd
+SHA1: 9b11d0f23ec2830d32bbdc6391682b2f2e0028f0
+SHA256: a7e4092f1d9bb1bab94740356f3c4930836c2de754f7c4ca58803a057f8a9cc4
+
+Package: python-attrs
+Version: 26.1.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/attrs/
+Description: Classes Without Boilerplate
+Filename: pool/main/python-attrs_26.1.0-1+ocean1_all.deb
+Size: 50800
+MD5sum: b6c1a806870a7ff08c27814f8ea7a967
+SHA1: ebf872152045a8d2ea32d24b8cbb3e81a04a715b
+SHA256: dc0f74dfd7a9504f89c13ae3f37759c9e0bc1530512dfb5f9a0f82deae98da39
+
+Package: python-backoff
+Version: 2.2.1-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/backoff/
+Description: Function decoration for backoff and retry
+Filename: pool/main/python-backoff_2.2.1-1+ocean1_all.deb
+Size: 12208
+MD5sum: bc9ad8f7b86c34791f32b33746cb07e1
+SHA1: 35774258f65a0fba93c0fda005ad0dbfdb6a1848
+SHA256: 77e12a5507da8d1e916c848a30a2bb9fb9bcfdcd872ad4e86f2089ddf34c15f3
+
+Package: python-beautifulsoup4
+Version: 4.15.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1), python-soupsieve (= 2.10-1+ocean1), python-typing-extensions (= 4.16.0-1+ocean1)
+Homepage: https://pypi.org/project/beautifulsoup4/
+Description: Screen-scraping library
+Filename: pool/main/python-beautifulsoup4_4.15.0-1+ocean1_all.deb
+Size: 82644
+MD5sum: 60d722b780dc7e23090788007d3c9ee7
+SHA1: df3dbb6f9e922a619a9e61c902d2ed270f4c10b6
+SHA256: 9885a3ebeb42ee661eda04f22bbcf1d463ad98d4115a8c4bc40e8964432d0bbb
+
+Package: python-bleach
+Version: 6.4.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1), python-webencodings (= 0.6.1-1+ocean1)
+Homepage: https://pypi.org/project/bleach/
+Description: An easy safelist-based HTML-sanitizing tool.
+Filename: pool/main/python-bleach_6.4.0-1+ocean1_all.deb
+Size: 120224
+MD5sum: 12c658eb5c7aade13588c808a979895e
+SHA1: 855bb4a77d2699dba96891181c12afd93bec7632
+SHA256: e890c2553d204adbfd3eea8965ea5cea2919d9a1db2d969a5ad90f10961b04ee
+
+Package: python-blinker
+Version: 1.9.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/blinker/
+Description: Fast, simple object-to-object and broadcast signaling
+Filename: pool/main/python-blinker_1.9.0-1+ocean1_all.deb
+Size: 8232
+MD5sum: c8901196f6c52d68d318af298d8de01f
+SHA1: af573614b1e7966bf56135055c3020a77060d192
+SHA256: 964718a390a0bd3537116d3b6a2f0522e6033e318b7bcf19adc55a459e030422
+
+Package: python-boltons
+Version: 26.2.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/boltons/
+Description: When they're not builtins, they're boltons.
+Filename: pool/main/python-boltons_26.2.0-1+ocean1_all.deb
+Size: 134228
+MD5sum: 281748d2883f5ef986bf45c3e7ff9235
+SHA1: 224a85ba01919c104cd2f99828fd2c245c58610a
+SHA256: e35d3adc27d85d5c54f1523fc5e16c18f05d9c5075bc52c997bf5702a87dc08a
+
+Package: python-bottle
+Version: 0.13.4-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/bottle/
+Description: Fast and simple WSGI-framework for small web-applications.
+Filename: pool/main/python-bottle_0.13.4-1+ocean1_all.deb
+Size: 47472
+MD5sum: b374f9dabe2c9a47180eec1859cbb7e3
+SHA1: 895fa6f4f20fb7a5b04ce71f1b81dca4dfb213eb
+SHA256: ce11764d20febd27f37c6a779b010bb4ec539f9ba3347d95c6962a10c57d7e52
+
+Package: python-bracex
+Version: 3.0.1-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/bracex/
+Description: Bash style brace expander.
+Filename: pool/main/python-bracex_3.0.1-1+ocean1_all.deb
+Size: 10204
+MD5sum: 26ebf99546e2282267598ee517a7f007
+SHA1: 3ce150ac6681370a50583fddc472daa3eee35948
+SHA256: 1f24dbdda8c630909adfeeb2d004eaa8448f9e28d7b8ac3df884b6b5e89b29f5
+
+Package: python-build
+Version: 1.6.1-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1), python-packaging (= 26.3-1+ocean1), python-pyproject-hooks (= 1.3.3-1+ocean1)
+Homepage: https://pypi.org/project/build/
+Description: A simple, correct Python build frontend
+Filename: pool/main/python-build_1.6.1-1+ocean1_all.deb
+Size: 24772
+MD5sum: d2ef3020b974f46e7bd7bd83f56a7393
+SHA1: 506cd0cfa34b708997789896c689010b70aa4712
+SHA256: 5c25e0156346b6f5fe2830d9dcb3d1cab7538a82d99a2ceba46757babf8eabff
+
+Package: python-cachetools
+Version: 7.2.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/cachetools/
+Description: Extensible memoizing collections and decorators
+Filename: pool/main/python-cachetools_7.2.0-1+ocean1_all.deb
+Size: 13832
+MD5sum: c850d0030235167144952b1c2af3540f
+SHA1: f92472703405d108bc0297e0614734a52fe849e5
+SHA256: dbb5cc62085759a7ccc42bc41d3a4839dde78ad10d22ad927d7ff00c3c6742ba
+
+Package: python-certifi
+Version: 2026.7.22-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/certifi/
+Description: Python package for providing Mozilla's CA Bundle.
+Filename: pool/main/python-certifi_2026.7.22-1+ocean1_all.deb
+Size: 126676
+MD5sum: 96a085d11fa35164a45d1f982ff2bef1
+SHA1: dedb6712073615cd520bed5bbada57787bc2d6c0
+SHA256: f402c534f715f4e4b8e17a34ae6006f24b61cd433455f66f8c4c32dc69d715cd
+
+Package: python-charset-normalizer
+Version: 3.5.2-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/charset-normalizer/
+Description: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
+Filename: pool/main/python-charset-normalizer_3.5.2-1+ocean1_all.deb
+Size: 53984
+MD5sum: b9cf9b2832217196f7f0ff129484cc8a
+SHA1: cf5700dd3f7aa5c50b43ed384e25e00483936eb9
+SHA256: d7c09b6a621fd9550b2a8a1779ba99272641a59657bb555baa9f1d2a3c0c9d56
+
+Package: python-click
+Version: 8.5.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/click/
+Description: Composable command line interface toolkit
+Filename: pool/main/python-click_8.5.0-1+ocean1_all.deb
+Size: 96804
+MD5sum: 3ce2c8339b0652011cad32437b338bb5
+SHA1: d60bf361534927a46bac2a3be8413ebb37c24e4f
+SHA256: 1f001aac5063345b196f9affcb46db4da4fdf56c39334051b8b3b22e67c883ba
+
+Package: python-cloudpickle
+Version: 3.1.2-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/cloudpickle/
+Description: Pickler class to extend the standard pickle.Pickler functionality
+Filename: pool/main/python-cloudpickle_3.1.2-1+ocean1_all.deb
+Size: 19756
+MD5sum: f4cb87ad33bc47d1a72222890a32e108
+SHA1: 9b5925d083136ae5b190fc92b935c3d89ccd1e38
+SHA256: 0db453f4aa54e54bb47854ee180a85722ff9dd7011a96b39b8e4abf181c2b6c5
+
+Package: python-colorama
+Version: 0.4.6-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/colorama/
+Description: Cross-platform colored terminal text.
+Filename: pool/main/python-colorama_0.4.6-1+ocean1_all.deb
+Size: 19932
+MD5sum: 821d7c82b8202ec8f2ad0644dc316a6b
+SHA1: 663bcbc9d2feac07bcf386d866be5514119f5264
+SHA256: 72834ea8ee143eb2e9bd24c0ea8581fbe91e7014a434a1b8182f3b0d7342fa2b
+
+Package: python-colorlog
+Version: 6.12.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/colorlog/
+Description: Add colours to the output of Python's logging module.
+Filename: pool/main/python-colorlog_6.12.0-1+ocean1_all.deb
+Size: 10436
+MD5sum: cd45f59434f527c3786bd71cc1bd0bbb
+SHA1: bd6dfbfe0c2fdd693af16bb12334c9b84ec52add
+SHA256: 8c46e025dc2054003709b22a323d179ee3f0c90511b15287e0278d42b0f7e7df
+
+Package: python-configargparse
+Version: 1.8.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/configargparse/
+Description: A drop-in replacement for argparse that allows options to also be set via config files and/or environment variables.
+Filename: pool/main/python-configargparse_1.8.0-1+ocean1_all.deb
+Size: 30524
+MD5sum: 4837dec5ac8fe4540920f7942f5425ad
+SHA1: f9d2f2371d50cb28a9f1f02843a3a325e64147e1
+SHA256: 83624e323c891f23530394794c3fa07d980d8cc6a05c66b05e89405418b17d1f
+
+Package: python-configobj
+Version: 5.0.9-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/configobj/
+Description: Config file reading, writing and validation.
+Filename: pool/main/python-configobj_5.0.9-1+ocean1_all.deb
+Size: 31368
+MD5sum: 3f304767abbdc36e682f640492bcdebd
+SHA1: fc0f4ee69ff2f2cf9ce547d2a87fca024e7cf603
+SHA256: e1d73446ba3e03f5bf26dff216ee95fa4cb77e004c7b78e0d19d4d72a82d9eca
+
+Package: python-configparser
+Version: 7.2.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/configparser/
+Description: Updated configparser from stdlib for earlier Pythons.
+Filename: pool/main/python-configparser_7.2.0-1+ocean1_all.deb
+Size: 16468
+MD5sum: c5a83ea4b683acf1745636d2da5ecf4d
+SHA1: 0834fb17a1ea1aef25cf700d66c8896144c369a8
+SHA256: 97559164fe18f03176ae4d1c4db5ab13d5ba3b5703d6b59871f8b20292134403
+
+Package: python-croniter
+Version: 6.2.4-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1), python-python-dateutil (= 2.9.0.post0-1+ocean1)
+Homepage: https://pypi.org/project/croniter/
+Description: croniter provides iteration for datetime object with cron like format
+Filename: pool/main/python-croniter_6.2.4-1+ocean1_all.deb
+Size: 38112
+MD5sum: 9a310787d6bc34eec870f7cdac3e8591
+SHA1: a0e3b645f3520723fef822f7d96015ca588040f0
+SHA256: 3e4a50af14595cd25a10b9bc83f79ff2562a6a3abec42aeb7d5521282ce069c2
+
+Package: python-decorator
+Version: 5.3.1-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/decorator/
+Description: Decorators for Humans
+Filename: pool/main/python-decorator_5.3.1-1+ocean1_all.deb
+Size: 9284
+MD5sum: 98e8fbfb7a8ef24d93e9c3e148120784
+SHA1: 6352c5e755a2fa583050863fc0aa39ed090d6ba3
+SHA256: 6c56ca6f2c71950c206c2d4995be544a2a6ece443652e7295be2de4d2d0ff185
+
+Package: python-defusedxml
+Version: 0.7.1-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/defusedxml/
+Description: XML bomb protection for Python stdlib modules
+Filename: pool/main/python-defusedxml_0.7.1-1+ocean1_all.deb
+Size: 19308
+MD5sum: 09279500c37c7fa33fde74afbd20f325
+SHA1: fd8f0218400b25703ccdb3a293d49c9f6fbe90f5
+SHA256: 43d615d8c9817f67b506392242be2e9f8f3f86e3e533a2e5264a1ade776c5a8d
+
+Package: python-dill
+Version: 0.4.1-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/dill/
+Description: serialize all of Python
+Filename: pool/main/python-dill_0.4.1-1+ocean1_all.deb
+Size: 79556
+MD5sum: c07719e1a13af48bbc4f6e0db2919de6
+SHA1: b280f33b2c57d08f1cc389330e77f7014ac26c54
+SHA256: 0ef473e3348afd3b3b64f2ba9436599bfe87410d1e5ce7955e1b18db869bec3b
+
+Package: python-distlib
+Version: 0.4.3-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/distlib/
+Description: Distribution utilities
+Filename: pool/main/python-distlib_0.4.3-1+ocean1_all.deb
+Size: 249508
+MD5sum: ceada85f48d239b9a83ff42c9ee74e68
+SHA1: bb8a1f43814790e48a12652155d6d488b219c1d6
+SHA256: 49018e054025d5e401cdc6701f2dd2a76c40b482bd7b735270b96f11da8c3791
+
+Package: python-docutils
+Version: 0.23-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/docutils/
+Description: Docutils -- Python Documentation Utilities
+Filename: pool/main/python-docutils_0.23-1+ocean1_all.deb
+Size: 400404
+MD5sum: 79363c893308566466edcdfc0caa4db3
+SHA1: 065354657c0b24efa25679f460057910a8fa4f06
+SHA256: 05e02f12e1664303c1bdaff3be0aa71258f47ce928f7b5994edaee061ef058dc
+
+Package: python-ecdsa
+Version: 0.19.2-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1), python-six (= 1.17.0-1+ocean1)
+Homepage: https://pypi.org/project/ecdsa/
+Description: ECDSA cryptographic signature library (pure python)
+Filename: pool/main/python-ecdsa_0.19.2-1+ocean1_all.deb
+Size: 116060
+MD5sum: 1874e50188cb31b96707ddc04259adae
+SHA1: 3d531d544c73e592e03b50f9e910cfda3172d0f3
+SHA256: 680994abea5a83bfc033dabe58f4ff2c8f64fcf6cf3b71253237a95bb7703322
+
+Package: python-editables
+Version: 0.6-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/editables/
+Description: Editable installations
+Filename: pool/main/python-editables_0.6-1+ocean1_all.deb
+Size: 5560
+MD5sum: 9343aa7654d9a4da89969ad6143d97dd
+SHA1: 3cb21080906cd004835d589705a4c23398be7535
+SHA256: 940c4e5ff5828c9393dab31e649894b4b9ecebd6bd3e5200ba43d1fbf067dc95
+
 Package: python-ensurepip-wheels
 Architecture: all
 Installed-Size: 1812
@@ -80651,6 +81456,666 @@ Size: 1740108
 MD5sum: b8a06885923775ddf709c95e4d411d40
 SHA1: 089310a441fec284cef9056c1f7a489991dc4439
 SHA256: 957ec78a10a30a9e94bc19d409f1d7f4fc61dd4e7a5b5b45b523bb804c56deb3
+
+Package: python-exceptiongroup
+Version: 1.3.1-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/exceptiongroup/
+Description: Backport of PEP 654 (exception groups)
+Filename: pool/main/python-exceptiongroup_1.3.1-1+ocean1_all.deb
+Size: 14568
+MD5sum: c37015e05fb3e3f99680b40fd2629690
+SHA1: 74486946412194448c415f8228a1f6cf701ccded
+SHA256: 29d042faa5bb686b3f8b12dd10f88e47af28e9300cb762509621be2538d0b5d3
+
+Package: python-fastjsonschema
+Version: 2.22.2-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/fastjsonschema/
+Description: Fastest Python implementation of JSON schema
+Filename: pool/main/python-fastjsonschema_2.22.2-1+ocean1_all.deb
+Size: 21540
+MD5sum: d703415263145ec9a6b7832f7a2451fd
+SHA1: e31d567e8434addb7aef427484e8422af0df0c12
+SHA256: 51e7c730fabe1a08bd6e096b4de3e5d14ea7acefed3c89ff22be0260651828b2
+
+Package: python-feedparser
+Version: 6.0.14-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1), python-feedparser-sgmllib (= 2.1.0-1+ocean1)
+Homepage: https://pypi.org/project/feedparser/
+Description: Universal feed parser, handles RSS 0.9x, RSS 1.0, RSS 2.0, CDF, Atom 0.3, and Atom 1.0 feeds
+Filename: pool/main/python-feedparser_6.0.14-1+ocean1_all.deb
+Size: 42656
+MD5sum: 136340e70aed65625d8d9e7da7d7a758
+SHA1: 465e06bb5abb6930f6a5935472247d5643483f15
+SHA256: c266d9e20760b9039a6ecc9371004c31768f911d751dba887d3b9366a78fc10b
+
+Package: python-feedparser-sgmllib
+Version: 2.1.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/feedparser-sgmllib/
+Description: sgmllib from Python 2.7. For feedparser use only.
+Filename: pool/main/python-feedparser-sgmllib_2.1.0-1+ocean1_all.deb
+Size: 11228
+MD5sum: 4cdc18289738293d5d98e396eefdc1d6
+SHA1: 93e2ee7e4c2b6be5796dfbcacb7e556b9d9f17d3
+SHA256: c33ef404cae52ce347514c14a157a234bbbb82fad67f3181eb3024d45e01a782
+
+Package: python-filelock
+Version: 4.0.10-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/filelock/
+Description: A platform independent file lock.
+Filename: pool/main/python-filelock_4.0.10-1+ocean1_all.deb
+Size: 75232
+MD5sum: e88caee13c871bd1aab5a9f947dc8e29
+SHA1: 725f6b886cd544a92428c7eb3905d606c15340e3
+SHA256: 604050e8eb88ea0bf8d3e07498b7d4d99d6fde28133c39d168c03e98b2a5200d
+
+Package: python-filetype
+Version: 1.2.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/filetype/
+Description: Infer file type and MIME type of any file/buffer. No external dependencies.
+Filename: pool/main/python-filetype_1.2.0-1+ocean1_all.deb
+Size: 14316
+MD5sum: 147ca3124d03bbc440d7c33d97be0c36
+SHA1: c1cd4395269f1346cb9f8ba0064abe1ac1847bb4
+SHA256: f34bd66e8eb23cddf79d468aa73a8816c3400c4ddc8f91991a333d5029c348e9
+
+Package: python-flask
+Version: 3.1.3-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1), python-blinker (= 1.9.0-1+ocean1), python-click (= 8.5.0-1+ocean1), python-itsdangerous (= 2.2.0-1+ocean1), python-jinja2 (= 3.1.6-1+ocean1), python-markupsafe (= 3.0.4-1+ocean1), python-werkzeug (= 3.1.9-1+ocean1)
+Homepage: https://pypi.org/project/flask/
+Description: A simple framework for building complex web applications.
+Filename: pool/main/python-flask_3.1.3-1+ocean1_all.deb
+Size: 72888
+MD5sum: 8995321a08e89ce7800193fd7a717f96
+SHA1: 028962ad78303542fd62dfeed3fb0e255967c943
+SHA256: b73656220164b54f8c3785d5488561ae13e967f17e33abfc69fadb2790d3a9cb
+
+Package: python-fsspec
+Version: 2026.9.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/fsspec/
+Description: File-system specification
+Filename: pool/main/python-fsspec_2026.9.0-1+ocean1_all.deb
+Size: 150268
+MD5sum: 945d4963c2088bdcfe2f9ff87a099c20
+SHA1: 56dc7aec42223aa2a16bd60d3ff2cc07510628d9
+SHA256: 379dd6c05b7a6d71f440923031702eb4f32fe68448281e9bc4ce4f600607c346
+
+Package: python-funcy
+Version: 2.1-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/funcy/
+Description: A fancy and practical functional tools
+Filename: pool/main/python-funcy_2.1-1+ocean1_all.deb
+Size: 23480
+MD5sum: 03dab28309625748fa77b14a99a7bf36
+SHA1: 9dbebfbb6ac239eb93c1710f371601e0ec868e39
+SHA256: eac3a29e727047bc36894c8b0e742ef7773cfa73e419fa4d8f36ddc31cc0a11e
+
+Package: python-h11
+Version: 0.16.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/h11/
+Description: A pure-Python, bring-your-own-I/O implementation of HTTP/1.1
+Filename: pool/main/python-h11_0.16.0-1+ocean1_all.deb
+Size: 30092
+MD5sum: b68bfe117bb971a4a940851d877df748
+SHA1: 3771e51f3a03b857a98cee569a9ba9e0f52251d2
+SHA256: 6d516ec011a89d2da3fa5a3c5b905904337512c72ed80099f511505b237a2fb2
+
+Package: python-h2
+Version: 4.4.1-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1), python-hpack (= 4.2.0-1+ocean1), python-hyperframe (= 6.1.0-1+ocean1)
+Homepage: https://pypi.org/project/h2/
+Description: Pure-Python HTTP/2 protocol implementation
+Filename: pool/main/python-h2_4.4.1-1+ocean1_all.deb
+Size: 48388
+MD5sum: 84ed8c09cb3d1b1105ca0128c29eb105
+SHA1: 7c915695d426fbbf7e172a88de90f9835e52398b
+SHA256: 386fa4e55bfca139a996516f8fc521f65dcf879f89a9efdbff408504bf04abb0
+
+Package: python-hatch-vcs
+Version: 0.5.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1), python-hatchling (= 1.32.4-1+ocean1), python-setuptools-scm (= 10.3.4-1+ocean1)
+Homepage: https://pypi.org/project/hatch-vcs/
+Description: Hatch plugin for versioning with your preferred VCS
+Filename: pool/main/python-hatch-vcs_0.5.0-1+ocean1_all.deb
+Size: 7160
+MD5sum: d976a6fbdffba6bef90b599c92beab02
+SHA1: e27c42ca097bc2c35d1725a88639a3f43bcbb542
+SHA256: 3a05958aa202c4c71d005837f85c1093218609c9a6150a7ff1f477f572a3f5b5
+
+Package: python-hatchling
+Version: 1.32.4-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1), python-packaging (= 26.3-1+ocean1), python-pathspec (= 1.1.1-1+ocean1), python-pluggy (= 1.6.0-1+ocean1), python-tomlkit (= 0.15.1-1+ocean1), python-trove-classifiers (= 2026.9.21.13-1+ocean1)
+Homepage: https://pypi.org/project/hatchling/
+Description: Modern, extensible Python build backend
+Filename: pool/main/python-hatchling_1.32.4-1+ocean1_all.deb
+Size: 49300
+MD5sum: dcc267faffa8f397b99d8d753a94705b
+SHA1: 1cc8870bc6bdfbfa92cb0c7dd4adc9547be89380
+SHA256: e9c64397e12be32540828ef4eb8cd248251123c967b83a3f4dc2c3e6654bc300
+
+Package: python-hpack
+Version: 4.2.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/hpack/
+Description: Pure-Python HPACK header encoding
+Filename: pool/main/python-hpack_4.2.0-1+ocean1_all.deb
+Size: 22808
+MD5sum: 7c9415835baa075915d55a5113763042
+SHA1: 787293b384836ed39756bb77a4dd7426b34b648c
+SHA256: 7c314256fd90dbc3325bf73c92627e4eb5bcfd5b0befe9cc0afba0baa0af5cd1
+
+Package: python-html5lib
+Version: 1.1-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1), python-six (= 1.17.0-1+ocean1), python-webencodings (= 0.6.1-1+ocean1)
+Homepage: https://pypi.org/project/html5lib/
+Description: HTML parser based on the WHATWG HTML specification
+Filename: pool/main/python-html5lib_1.1-1+ocean1_all.deb
+Size: 83876
+MD5sum: be08020171a194094e24604ec26627da
+SHA1: 7d8bd1eebf059b87758943e81cfb60a337f93cf6
+SHA256: e92512024b8749b30ad3870342ce023a46ac197959d814bdd740730b3d11f9e0
+
+Package: python-httpcore
+Version: 1.0.9-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1), python-certifi (= 2026.7.22-1+ocean1), python-h11 (= 0.16.0-1+ocean1)
+Homepage: https://pypi.org/project/httpcore/
+Description: A minimal low-level HTTP client.
+Filename: pool/main/python-httpcore_1.0.9-1+ocean1_all.deb
+Size: 37464
+MD5sum: 43a8cab1df7a898add3bea51fc970a9a
+SHA1: f36dbf081ee75f4f476960e596e1d0d914f8b272
+SHA256: 742f0b9dd0037f328991b294224f93313bf656a80e4604cbc5529645cb70f5da
+
+Package: python-httplib2
+Version: 0.32.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1), python-pyparsing (= 3.3.3-1+ocean1)
+Homepage: https://pypi.org/project/httplib2/
+Description: A comprehensive HTTP client library.
+Filename: pool/main/python-httplib2_0.32.0-1+ocean1_all.deb
+Size: 84156
+MD5sum: 3bb5fd39fe95c2a904b0b4bc6ca6044c
+SHA1: 2247b72a18dad78cceadbb3d0a3671b77938a60b
+SHA256: 6eaa016fffffc68a50cd7bcb0fbea5e51680e8366cd59e4d3a63377e92d24285
+
+Package: python-httpx
+Version: 0.28.1-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1), python-anyio (= 4.15.1-1+ocean1), python-certifi (= 2026.7.22-1+ocean1), python-httpcore (= 1.0.9-1+ocean1), python-idna (= 3.20-1+ocean1), python-socksio (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/httpx/
+Description: The next generation HTTP client.
+Filename: pool/main/python-httpx_0.28.1-1+ocean1_all.deb
+Size: 54836
+MD5sum: d41692b7ad30bc233f1e316f19d8d555
+SHA1: d7a6a3c62845a3a9f1f2508f52e77d5e4d1f2289
+SHA256: f71c789a82561963626a3cec25858113f734338ecfa0a0ba7405c13a9cebe4c8
+
+Package: python-humanize
+Version: 4.16.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/humanize/
+Description: Python humanize utilities
+Filename: pool/main/python-humanize_4.16.0-1+ocean1_all.deb
+Size: 55652
+MD5sum: 06a951480f9a36debd42f2ef9cb1167a
+SHA1: 1b72a9290f3814f1e11b8719eb6812f663113613
+SHA256: fed9dc26fc8363f54e3179cf79c94486a3cbd7c0442a95ed082502ea8b57405b
+
+Package: python-hyperframe
+Version: 6.1.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/hyperframe/
+Description: Pure-Python HTTP/2 framing
+Filename: pool/main/python-hyperframe_6.1.0-1+ocean1_all.deb
+Size: 11572
+MD5sum: 14b29bc902d5df3e1d193df560183e36
+SHA1: 8b8724f6eb834af4ac22282c905da4f001d95172
+SHA256: 572c8331e127305f62aab3b064e76a8fa82c24a9da9d5178c3097d22903482b4
+
+Package: python-idna
+Version: 3.20-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/idna/
+Description: Internationalized Domain Names in Applications (IDNA)
+Filename: pool/main/python-idna_3.20-1+ocean1_all.deb
+Size: 37448
+MD5sum: 3af9bb76ec315bffc8bd4f2de911209a
+SHA1: 389d335573d786912e65b597760b66b12c7462a7
+SHA256: 26fc310536f59b740287d5d8ef3b165765012e9e86d8a45966307a6e9ecdc7bf
+
+Package: python-importlib-metadata
+Version: 9.0.1-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1), python-zipp (= 4.1.1-1+ocean1)
+Homepage: https://pypi.org/project/importlib-metadata/
+Description: Read metadata from Python packages
+Filename: pool/main/python-importlib-metadata_9.0.1-1+ocean1_all.deb
+Size: 23404
+MD5sum: dad5c742cfe4cb6e192e5dbe58c2c33a
+SHA1: 2775dac8dcd6471bfe09bd9e9ee92f1a76f27cb4
+SHA256: f46bbc4187b384f78cac6dec8db7b2683708794baa938d38f07b2c525847143b
+
+Package: python-importlib-resources
+Version: 7.1.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/importlib-resources/
+Description: Read resources from Python packages
+Filename: pool/main/python-importlib-resources_7.1.0-1+ocean1_all.deb
+Size: 26036
+MD5sum: 0517e26e6b9d3db16291744be019eccb
+SHA1: 3082432de6b2962875137f4d76c6f274d3c158a9
+SHA256: 510408c744aaa88d2a78866ee4c4aebb5afeb1bf8b1ccbead0b7e6b7985a1f9e
+
+Package: python-iniconfig
+Version: 2.3.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/iniconfig/
+Description: brain-dead simple config-ini parsing
+Filename: pool/main/python-iniconfig_2.3.0-1+ocean1_all.deb
+Size: 6904
+MD5sum: 1a077b4c7a2b24ba04d7ad71643e4cfe
+SHA1: e4b602f20b33b1eea99090586ecaef65721dda9d
+SHA256: 808fe6f8d2b2d1af3560e84a18cde3a19da15a1fb1d35c72c2281ca0ddc11e9c
+
+Package: python-installer
+Version: 1.0.1-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/installer/
+Description: A library for installing Python wheels.
+Filename: pool/main/python-installer_1.0.1-1+ocean1_all.deb
+Size: 210420
+MD5sum: 0ed7096be7dfe803f91c8c165640a032
+SHA1: 2b4e83789ecc0a6f0ecfefd31d9ee5232521e892
+SHA256: 21d4a395dc8f51adf711c491d4b1ffb312db20f82d1fa47f56249a0d919fe187
+
+Package: python-itsdangerous
+Version: 2.2.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/itsdangerous/
+Description: Safely pass data to untrusted environments and back.
+Filename: pool/main/python-itsdangerous_2.2.0-1+ocean1_all.deb
+Size: 12804
+MD5sum: 04ce1d7e82949150d4165f8fa663dcf3
+SHA1: f01e2f737697df5696f620e796cb5bbaeaa95b7e
+SHA256: a36d6a14f42cb70b4a083724db3055b4aba8aa62ca3921d0c3d3212d14b65076
+
+Package: python-jinja2
+Version: 3.1.6-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1), python-markupsafe (= 3.0.4-1+ocean1)
+Homepage: https://pypi.org/project/jinja2/
+Description: A very fast and expressive template engine.
+Filename: pool/main/python-jinja2_3.1.6-1+ocean1_all.deb
+Size: 102700
+MD5sum: 817a6e50f900decef8bb292f94ab8325
+SHA1: a8a2136b8ff243f5fc30805dd00660910806b034
+SHA256: bceb9314532fb18cbba371e840e6a069b8163e3623222a467b2ffdf689c4b093
+
+Package: python-joblib
+Version: 1.6.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1), python-cloudpickle (= 3.1.2-1+ocean1)
+Homepage: https://pypi.org/project/joblib/
+Description: Lightweight pipelining with Python functions
+Filename: pool/main/python-joblib_1.6.0-1+ocean1_all.deb
+Size: 203016
+MD5sum: cc270484d4830cb37d7a459bcfc6acf6
+SHA1: c2438892134b53e462ea2a32f2f4c7c9ec5f41ad
+SHA256: b0fe517bf27517ac616120e9535f57a6d09a4a11850151d34a4160ca82447e6a
+
+Package: python-jsonpatch
+Version: 1.33-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1), python-jsonpointer (= 3.1.1-1+ocean1)
+Homepage: https://pypi.org/project/jsonpatch/
+Description: Apply JSON-Patches (RFC 6902)
+Filename: pool/main/python-jsonpatch_1.33-1+ocean1_all.deb
+Size: 11300
+MD5sum: 0da95367f6efc198efd65f9a095439e7
+SHA1: 42d5a14894d8bccc9c797ff0007d2c30b186e5c5
+SHA256: a22866ead59783ca4b7b9d986e64059fb059267c65458f20f8b859861e91fbbd
+
+Package: python-jsonpointer
+Version: 3.1.1-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/jsonpointer/
+Description: Identify specific nodes in a JSON document (RFC 6901)
+Filename: pool/main/python-jsonpointer_3.1.1-1+ocean1_all.deb
+Size: 6900
+MD5sum: 535d2b052287fa12ecdedde338fa638e
+SHA1: 7f522ac6cd1d18362be7abaeeae061d2d7f26c29
+SHA256: 084758a81978ea9438687166354a11aa1f431ec68bf72dcb548d80bed5e2e248
+
+Package: python-loguru
+Version: 0.7.3-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/loguru/
+Description: Python logging made (stupidly) simple
+Filename: pool/main/python-loguru_0.7.3-1+ocean1_all.deb
+Size: 50156
+MD5sum: 27c3e9f1793aca961387e0c4e1efdb68
+SHA1: f08dedbea667bdd66c67a809a07a9062e42e103a
+SHA256: d54f3af96de3bd00ff697cd51d422d5db4cbd6eab3bb5e9589d4f9aa920a394b
+
+Package: python-markdown
+Version: 3.11-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/markdown/
+Description: Python implementation of John Gruber's Markdown.
+Filename: pool/main/python-markdown_3.11-1+ocean1_all.deb
+Size: 72976
+MD5sum: 5c86a283bab98c4438b00ae2fcbbf329
+SHA1: 092503d1751045fe39c10182573ab70b92c5d3b1
+SHA256: 3b6561aa384a8b0f557013f4023f82ee40704d0263bacc5d9e748863848cdc5e
+
+Package: python-markdown-it-py
+Version: 4.2.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1), python-mdurl (= 0.1.2-1+ocean1)
+Homepage: https://pypi.org/project/markdown-it-py/
+Description: Python port of markdown-it. Markdown parsing, done right!
+Filename: pool/main/python-markdown-it-py_4.2.0-1+ocean1_all.deb
+Size: 56604
+MD5sum: dc052f26ff32299314b79f636cdbafa3
+SHA1: 859fe0c63be4988feaf3d40797a362eaa07e1bfb
+SHA256: 6e424d67688d2028588e26cf9fe8cbe1c84ca12a1107b5e94b4935c49d6631b6
+
+Package: python-markdown2
+Version: 2.5.5-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/markdown2/
+Description: A fast and complete Python implementation of Markdown
+Filename: pool/main/python-markdown2_2.5.5-1+ocean1_all.deb
+Size: 48800
+MD5sum: a63c6b6bcf24264d1b9f0fbc37b97929
+SHA1: e85aceaead23f3df47a717bdcccbdbf905e79e91
+SHA256: 366c4329554be9443727f2d917fd2f01afb2193997730b9450dd0ebd6e43e629
+
+Package: python-markupsafe
+Version: 3.0.4-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/markupsafe/
+Description: Safely add untrusted strings to HTML/XML markup.
+Filename: pool/main/python-markupsafe_3.0.4-1+ocean1_all.deb
+Size: 8628
+MD5sum: dac8e28860ee895fe42955e34166bda2
+SHA1: 07682b98d8bb01f6bace8e18406771b6d078f0dd
+SHA256: 06f5f90098bfeb2ec1413abd4a6b419c7ac896f0fdc2b20eb715298f6c99557b
+
+Package: python-mdurl
+Version: 0.1.2-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/mdurl/
+Description: Markdown URL utilities
+Filename: pool/main/python-mdurl_0.1.2-1+ocean1_all.deb
+Size: 8364
+MD5sum: dbdd64cf79193953a12e70dfe6fd8f27
+SHA1: 5b7d005f3c5220d6cf54e0bf601ddf09d919dd41
+SHA256: bb7ee296dda4fd525db99965a4955da91faf599654c937d68a2e9e018e2d8af9
+
+Package: python-mistune
+Version: 3.3.4-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/mistune/
+Description: A sane and fast Markdown parser with useful plugins and renderers
+Filename: pool/main/python-mistune_3.3.4-1+ocean1_all.deb
+Size: 43692
+MD5sum: 3ffaf782fe9ccf9b5f703a73d9a422cb
+SHA1: f3ec4fd3277a71c0848742d5eb373a7792b3e624
+SHA256: c0cf48c822ca82266ffa21ce34fba01f6dc8707795349cb60b11e438fad34479
+
+Package: python-more-itertools
+Version: 11.1.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/more-itertools/
+Description: More routines for operating on iterables, beyond itertools
+Filename: pool/main/python-more-itertools_11.1.0-1+ocean1_all.deb
+Size: 59432
+MD5sum: df612740ca9fa1c5b30c24cc67787ca9
+SHA1: 82821718861e4bb1ad7e1c62cd5eb24d6b59ba15
+SHA256: ef891984bdeb07b5377d35b48369b02591105c427bc651eb19837bd8661c35eb
+
+Package: python-networkx
+Version: 3.7-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/networkx/
+Description: Python package for creating and manipulating graphs and networks
+Filename: pool/main/python-networkx_3.7-1+ocean1_all.deb
+Size: 1489100
+MD5sum: 976b3a6d6a8d1d6a54aa4e787ad8e2a4
+SHA1: 68a58bcde7e9c18f631994ac4f7a188d6b77c190
+SHA256: e232485e6a9dbd041230083b819f447f94fbe4e5c2cf259910b87f74802a1365
+
+Package: python-oauthlib
+Version: 4.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/oauthlib/
+Description: A generic, spec-compliant, thorough implementation of the OAuth request-signing logic
+Filename: pool/main/python-oauthlib_4.0.0-1+ocean1_all.deb
+Size: 89988
+MD5sum: 80e6ef55b9e457f6bc29459fe58b7b1d
+SHA1: 6949162752c7f9a5b8302b70dbf8689547057b9f
+SHA256: f002d10e91e36ccc4e6955f28abd8623195706fc10cfb540b279b849c292eef7
+
+Package: python-outcome
+Version: 1.3.0.post0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1), python-attrs (= 26.1.0-1+ocean1)
+Homepage: https://pypi.org/project/outcome/
+Description: Capture the outcome of Python function calls.
+Filename: pool/main/python-outcome_1.3.0.post0-1+ocean1_all.deb
+Size: 9612
+MD5sum: c2adbaec11ca27db167c7ac750d60846
+SHA1: 5405748a3fc9a5fbed3b73353ad42489e3ac7f72
+SHA256: 4fb2b916007118311ce97bdd011e5b40aa79c1313a455c02ed628e2838d87a54
+
+Package: python-packaging
+Version: 26.3-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/packaging/
+Description: Core utilities for Python packages
+Filename: pool/main/python-packaging_26.3-1+ocean1_all.deb
+Size: 99724
+MD5sum: c6b210c229ad3720581988ac912b9449
+SHA1: 88895930e2932a32beaf35a1c7cef59e49e10b66
+SHA256: 947cf271e1d30d773404547dfff09f23380f1822ee9500cd41c3c072c0b20f08
+
+Package: python-pathspec
+Version: 1.1.1-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/pathspec/
+Description: Utility library for gitignore style pattern matching of file paths.
+Filename: pool/main/python-pathspec_1.1.1-1+ocean1_all.deb
+Size: 34156
+MD5sum: 3834c827286a029c4641dbb51b0f9a31
+SHA1: 547fab6ab1a14a2d16b543290184d9cdbf6ebc60
+SHA256: 04ce5f238503f42bf3f53d4a4309a338dc265b2305e6619f197d41a17bd9587a
+
+Package: python-pdm-backend
+Version: 2.5.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/pdm-backend/
+Description: The build backend used by PDM that supports latest packaging standards
+Filename: pool/main/python-pdm-backend_2.5.0-1+ocean1_all.deb
+Size: 141820
+MD5sum: 8cd33e0ec4f1f7ed7a597dc23b7d8d84
+SHA1: d0cdc21b9cfd66e6d23d805058bd5afe895e1e68
+SHA256: e6f27baf32a86ebaa2736dcb1903ef09bcbc53eadbfc95dcce70f0a72251affb
 
 Package: python-pip
 Architecture: all
@@ -80668,6 +82133,681 @@ MD5sum: 176b0354ecf0be8f496a57955e0b77c3
 SHA1: 9dcb5617e8a38eb64285b2559ff5c26b432971f2
 SHA256: 39568760373944b4f699c7dd9b7b22d4f2e5dd316d0a1c889b9eac70d169b503
 
+Package: python-platformdirs
+Version: 4.12.3-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/platformdirs/
+Description: A small Python package for determining appropriate platform-specific dirs, e.g. a `user data dir`.
+Filename: pool/main/python-platformdirs_4.12.3-1+ocean1_all.deb
+Size: 23840
+MD5sum: 75303444b7d4c65716f9643782fb86de
+SHA1: eddce4e60b9586e35db4e5fd29d1c2aa0914366a
+SHA256: 43ea90e0fc4299b25a0cd209e130f76e397a198b53268db8af8f9e701f4513a3
+
+Package: python-pluggy
+Version: 1.6.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/pluggy/
+Description: plugin and hook calling mechanisms for python
+Filename: pool/main/python-pluggy_1.6.0-1+ocean1_all.deb
+Size: 17184
+MD5sum: 790a191492bf6fdf80749cd99692e88a
+SHA1: 081e124302b3924322900408cf82be235838018b
+SHA256: 2adca39d53e08e4ae8d82384a390273dffdbb15c338fae8c1690da65cb22e6dc
+
+Package: python-poetry-core
+Version: 2.5.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/poetry-core/
+Description: Poetry PEP 517 Build Backend
+Filename: pool/main/python-poetry-core_2.5.0-1+ocean1_all.deb
+Size: 282064
+MD5sum: 498648deaa0634bbbf137747a24821d7
+SHA1: ece2a47a3da76b3b46ab53cbed9b6523be15e59f
+SHA256: cddddfc4a6806dfe27499794af9aab12408b4732206583ace6bb02938a299eeb
+
+Package: python-prompt-toolkit
+Version: 3.0.53-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1), python-wcwidth (= 0.9.1-1+ocean1)
+Homepage: https://pypi.org/project/prompt-toolkit/
+Description: Library for building powerful interactive command lines in Python
+Filename: pool/main/python-prompt-toolkit_3.0.53-1+ocean1_all.deb
+Size: 251948
+MD5sum: fc84c3bf55d1d3381a65d42a279139b4
+SHA1: 22f4f2c3be6d5ca4c53d4c7f277783cb4c10662a
+SHA256: ed5497a6bb0641991640baddc07fc7bf1c52d5fea964e225e599b38ca2b29a27
+
+Package: python-pyasn1
+Version: 0.6.4-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/pyasn1/
+Description: Pure-Python implementation of ASN.1 types and DER/BER/CER codecs (X.208)
+Filename: pool/main/python-pyasn1_0.6.4-1+ocean1_all.deb
+Size: 54680
+MD5sum: b6968e19a4da65cfca88685d96a3d9ac
+SHA1: 95f66a9fee42523a221a44c915d48a8acbdd51d7
+SHA256: 3f71db5cc6c262ad2460208445f0f26f4417c082ec040559f8baa94278a46ff7
+
+Package: python-pyasn1-modules
+Version: 0.4.2-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1), python-pyasn1 (= 0.6.4-1+ocean1)
+Homepage: https://pypi.org/project/pyasn1-modules/
+Description: A collection of ASN.1-based protocols modules
+Filename: pool/main/python-pyasn1-modules_0.4.2-1+ocean1_all.deb
+Size: 80904
+MD5sum: a5ad9ebe9dbbb7ab004e0936035d6811
+SHA1: 4566046d31c1f8ec8da254a1a72e159f710723a7
+SHA256: a61c78bbfb782009b5bfbe5140577b7d5f7be9e9f646bd25218ea6b496c0b941
+
+Package: python-pygments
+Version: 2.21.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/pygments/
+Description: Pygments is a syntax highlighting package written in Python.
+Filename: pool/main/python-pygments_2.21.0-1+ocean1_all.deb
+Size: 840296
+MD5sum: 109f18d5803709774a0b0c6d1a90b4d6
+SHA1: 1658e9606aed9c082de095de7c447dcc0e659dea
+SHA256: e2e04d524707bb85eb4bba552e4bc4b18e676e716b3d639c0baa74b42d060440
+
+Package: python-pyjwt
+Version: 2.15.1-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/pyjwt/
+Description: JSON Web Token implementation in Python
+Filename: pool/main/python-pyjwt_2.15.1-1+ocean1_all.deb
+Size: 26988
+MD5sum: 0782d73347c711da645628d8d067023a
+SHA1: a9dd7c6da0a05bc1fa62153899bc86ecd0aad37b
+SHA256: a71463701b9d2d97efc7fdb01540384c74a634a05cd6eb4381b4083ae08b9c56
+
+Package: python-pyparsing
+Version: 3.3.3-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/pyparsing/
+Description: pyparsing - Classes and methods to define and execute parsing grammars
+Filename: pool/main/python-pyparsing_3.3.3-1+ocean1_all.deb
+Size: 97768
+MD5sum: 248ddd58ef6f4b61cd7d50d5e30ee11a
+SHA1: 4c9ceea097dec1e2f9dab48dd42307ee6094b2fb
+SHA256: 5fb143ffb88bd21279dd863e018d5028a99dfb065d14e89eeecb4787050b46bf
+
+Package: python-pyproject-hooks
+Version: 1.3.3-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/pyproject-hooks/
+Description: Wrappers to call pyproject.toml-based build backend hooks.
+Filename: pool/main/python-pyproject-hooks_1.3.3-1+ocean1_all.deb
+Size: 9672
+MD5sum: 261c0aeb413fd14aedab8dc940cd6799
+SHA1: e39aad0cf55dc405f742e0d2d1565cd5d0f8d51c
+SHA256: 35ebbf926152a977be12e93e2b4235c2815e970cd4fb217d949fbb2072fbe6f4
+
+Package: python-pysocks
+Version: 1.7.1-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/pysocks/
+Description: A Python SOCKS client module. See https://github.com/Anorov/PySocks for more information.
+Filename: pool/main/python-pysocks_1.7.1-1+ocean1_all.deb
+Size: 15148
+MD5sum: a71de12877534237276e05bf8e4bb3b4
+SHA1: aa18d9ac472b350a86aab0ef12ee24a7b6113ab6
+SHA256: 350594063d805e516ed33f9cf65250ee5de64f8fcd7d18976c038085de6cf80f
+
+Package: python-pytest
+Version: 9.1.1-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1), python-iniconfig (= 2.3.0-1+ocean1), python-packaging (= 26.3-1+ocean1), python-pluggy (= 1.6.0-1+ocean1), python-pygments (= 2.21.0-1+ocean1)
+Homepage: https://pypi.org/project/pytest/
+Description: pytest: simple powerful testing with Python
+Filename: pool/main/python-pytest_9.1.1-1+ocean1_all.deb
+Size: 273060
+MD5sum: f6c570f976b2d96b22fecd7bbfda64da
+SHA1: 766651fd3f0ea28482a709a8edf56586bc55eea4
+SHA256: 79ea98657d60abc6e5b62ed2550700922c1565b74c5962974141e522edf59810
+
+Package: python-pytest-asyncio
+Version: 1.4.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1), python-pytest (= 9.1.1-1+ocean1)
+Homepage: https://pypi.org/project/pytest-asyncio/
+Description: Pytest support for asyncio
+Filename: pool/main/python-pytest-asyncio_1.4.0-1+ocean1_all.deb
+Size: 15928
+MD5sum: 279b22ba6bb8faac2cf4dc252a14090f
+SHA1: 0d7be616bc033378d90ce0ae17d6a5ba2ee38c35
+SHA256: 1a212f0cc943a1a894380a96d276b12cceef0fa31af5e9b1241878feb52f4d0c
+
+Package: python-pytest-timeout
+Version: 2.4.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1), python-pytest (= 9.1.1-1+ocean1)
+Homepage: https://pypi.org/project/pytest-timeout/
+Description: pytest plugin to abort hanging tests
+Filename: pool/main/python-pytest-timeout_2.4.0-1+ocean1_all.deb
+Size: 13520
+MD5sum: c9f27ce56b706fb5d75edc86de63795a
+SHA1: 3fe7227805c283a05423b5ff854f95814cfcf9ab
+SHA256: e495a5262e5558b714cdd216db92b05dc8f2294be4ae62e3e1ba35add691590d
+
+Package: python-python-dateutil
+Version: 2.9.0.post0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1), python-six (= 1.17.0-1+ocean1)
+Homepage: https://pypi.org/project/python-dateutil/
+Description: Extensions to the standard Python datetime module
+Filename: pool/main/python-python-dateutil_2.9.0.post0-1+ocean1_all.deb
+Size: 210112
+MD5sum: 0e60803d061a35df64ab396cd690f478
+SHA1: da87abd94a60399a8d13bda8418e1690b01534d9
+SHA256: 68006d6f7909385ded1b41b9031eeabeeb9ae6e91616030c67e12d91d2808970
+
+Package: python-python-discovery
+Version: 1.6.1-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1), python-filelock (= 4.0.10-1+ocean1)
+Homepage: https://pypi.org/project/python-discovery/
+Description: Python interpreter discovery
+Filename: pool/main/python-python-discovery_1.6.1-1+ocean1_all.deb
+Size: 29456
+MD5sum: 5bdf2934a03b0c024c0acd5155c7d18a
+SHA1: fd0440be602d88b8382354884e7b178c0540c4c1
+SHA256: 53e5c58a876a82981724c4c8f3520801e8c4fdbcdadcf8ed4b0c803840ecf178
+
+Package: python-python-dotenv
+Version: 1.2.4-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/python-dotenv/
+Description: Read key-value pairs from a .env file and set them as environment variables
+Filename: pool/main/python-python-dotenv_1.2.4-1+ocean1_all.deb
+Size: 20132
+MD5sum: 1f8060520327c835aeea3b4d562a384f
+SHA1: 1674109c7ba7032dec2f5f3731feea5dd8b4d7b9
+SHA256: 5876132d5c2b2376175f83165e749bf9265f26fe324920b7db6f278ce0941dab
+
+Package: python-python-jose
+Version: 3.5.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1), python-ecdsa (= 0.19.2-1+ocean1), python-pyasn1 (= 0.6.4-1+ocean1), python-rsa (= 4.9.1-1+ocean1)
+Homepage: https://pypi.org/project/python-jose/
+Description: JOSE implementation in Python
+Filename: pool/main/python-python-jose_3.5.0-1+ocean1_all.deb
+Size: 25668
+MD5sum: 40bbc863d0971110d2a18fa137e1abe6
+SHA1: 5b6bc14fe512b9c3b5bf3f192b63c1cf6b09e524
+SHA256: 5dfa54a4322a5f24bfef63a8f666a2a5b68110e7d07770ee0b90f95d92206d9c
+
+Package: python-python-json-logger
+Version: 4.2.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/python-json-logger/
+Description: JSON Log Formatter for the Python Logging Package
+Filename: pool/main/python-python-json-logger_4.2.0-1+ocean1_all.deb
+Size: 11416
+MD5sum: c6321d2aefbd39aac53bed13b44eab6a
+SHA1: 6539ebbb3a736354f2fe0a4ca038fb9a869687f6
+SHA256: ada2a34fc7abef4edc574f644436cf41716d3554e16b7f5dd9d20e653c4ca1ac
+
+Package: python-python-multipart
+Version: 0.0.32-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/python-multipart/
+Description: A streaming multipart parser for Python
+Filename: pool/main/python-python-multipart_0.0.32-1+ocean1_all.deb
+Size: 25592
+MD5sum: 981924f6fff7335b9f7d1ddac11cc10d
+SHA1: 7f30a2d24ec830a26ff015d911ade8b22015fe5d
+SHA256: 5f56969cfee9b5bf333b353e0e93cf0cab57b3ab57f1f027ef7fa273d6ab9de5
+
+Package: python-python-slugify
+Version: 9.1.2-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1), python-text-unidecode (= 1.3-1+ocean1)
+Homepage: https://pypi.org/project/python-slugify/
+Description: A Python slugify application that also handles Unicode
+Filename: pool/main/python-python-slugify_9.1.2-1+ocean1_all.deb
+Size: 12864
+MD5sum: 279da3ae410c2d9dfb5e9457929d0fd6
+SHA1: 0996e9b81bda485262050bc46a42da0e9bbf8b63
+SHA256: d7c3d3000bedd3a12410bd8f2a34866e53066698fdbd881fc85c6064900d2c46
+
+Package: python-python-socks
+Version: 3.1.1-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/python-socks/
+Description: Proxy (SOCKS4, SOCKS5, HTTP CONNECT) client for Python
+Filename: pool/main/python-python-socks_3.1.1-1+ocean1_all.deb
+Size: 23412
+MD5sum: 90fe63a10cbf90fe7be084e0523ffc84
+SHA1: 0802d6120922b9f8721a158d1b541fcbf500bcd5
+SHA256: 33797217688a75c23ce0b344aa3d665c0df75b46406dd98b42ab35cab62a9b22
+
+Package: python-pytz
+Version: 2026.5-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/pytz/
+Description: World timezone definitions, modern and historical
+Filename: pool/main/python-pytz_2026.5-1+ocean1_all.deb
+Size: 142300
+MD5sum: ee66a65bc39761ad3939026457a728f1
+SHA1: 23f4d37ffb068a539322ab648e7318ffd7a8d53b
+SHA256: b9024763f292ad582d1ed6d4b238c59df4af69a753566f2b74165ad3261a2fc8
+
+Package: python-questionary
+Version: 2.1.1-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1), python-prompt-toolkit (= 3.0.53-1+ocean1)
+Homepage: https://pypi.org/project/questionary/
+Description: Python library to build pretty command line user prompts ������
+Filename: pool/main/python-questionary_2.1.1-1+ocean1_all.deb
+Size: 22656
+MD5sum: 0c0e49e5cd1e88fb7227b32473e85e1a
+SHA1: e6331ac1a97b26d35eb1e9250fdda9b4afcd5bcd
+SHA256: bfb1110d51e14c838264832b8598371266382cf81a8636a27aea5f650c53f9ce
+
+Package: python-requests
+Version: 2.34.2-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1), python-certifi (= 2026.7.22-1+ocean1), python-charset-normalizer (= 3.5.2-1+ocean1), python-idna (= 3.20-1+ocean1), python-pysocks (= 1.7.1-1+ocean1), python-urllib3 (= 2.8.0-1+ocean1)
+Homepage: https://pypi.org/project/requests/
+Description: Python HTTP for Humans.
+Filename: pool/main/python-requests_2.34.2-1+ocean1_all.deb
+Size: 55896
+MD5sum: aa2b4db37222aa36e496ead54129c8ee
+SHA1: 004f1ab604e0d513774c9e1b36b5d7f677fc7aa7
+SHA256: 0b8955544ebc6f4ea8a53b57af386913280ed6abe77c30523680cd86abfd4982
+
+Package: python-requests-oauthlib
+Version: 2.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1), python-oauthlib (= 4.0.0-1+ocean1), python-requests (= 2.34.2-1+ocean1)
+Homepage: https://pypi.org/project/requests-oauthlib/
+Description: OAuthlib authentication support for Requests.
+Filename: pool/main/python-requests-oauthlib_2.0.0-1+ocean1_all.deb
+Size: 18012
+MD5sum: 7c85fc3002fb853b9866d403d2672dc2
+SHA1: 1c89052d9a65176fd6f52b3f7745f177f426dc1f
+SHA256: 58031dad89fa94306d1964316cfa247bc5dbc70905150d5dcb9b68b168260080
+
+Package: python-requests-toolbelt
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1), python-requests (= 2.34.2-1+ocean1)
+Homepage: https://pypi.org/project/requests-toolbelt/
+Description: A utility belt for advanced users of python-requests
+Filename: pool/main/python-requests-toolbelt_1.0.0-1+ocean1_all.deb
+Size: 38076
+MD5sum: afc104a4ef0fc48a70091b53d4d67edd
+SHA1: ed51cd30d9b48371addecf739b0152cc4c25dcca
+SHA256: a8fb91888f6bfbeb927abd949ce6d4584f664329f3eacc647c1efaebac54abcb
+
+Package: python-resolvelib
+Version: 1.2.1-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/resolvelib/
+Description: Resolve abstract dependencies into concrete ones
+Filename: pool/main/python-resolvelib_1.2.1-1+ocean1_all.deb
+Size: 15032
+MD5sum: b50b68bd079045ea8e234816d18372a9
+SHA1: 99b9ba9e68070d48d17b6f73d20064ceb8476aa7
+SHA256: 94097295d39c0ae64f4bab253b9411bcdeca9e83b98ebfa307719fba1a9054ca
+
+Package: python-retrying
+Version: 1.4.2-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/retrying/
+Description: Retrying
+Filename: pool/main/python-retrying_1.4.2-1+ocean1_all.deb
+Size: 10236
+MD5sum: 8f5c5ea148340be9cd25e6573d3464f5
+SHA1: 08d5df878ef14ca99e720c8f5f4b78ecdee41353
+SHA256: ab405bc599072ada05693c860b3f603db68f0d70efb7690c977ab1640af5a357
+
+Package: python-rich
+Version: 15.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1), python-markdown-it-py (= 4.2.0-1+ocean1), python-pygments (= 2.21.0-1+ocean1)
+Homepage: https://pypi.org/project/rich/
+Description: Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal
+Filename: pool/main/python-rich_15.0.0-1+ocean1_all.deb
+Size: 174356
+MD5sum: 7c3d505d1a9b98da26bab849e00732fd
+SHA1: 011860194b3592356e35265e5d0d890555911c84
+SHA256: 5be8317b4dff71d8a221dcb3be1228fd99300ba074a88cc0779214a1b2ff0d60
+
+Package: python-rsa
+Version: 4.9.1-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1), python-pyasn1 (= 0.6.4-1+ocean1)
+Homepage: https://pypi.org/project/rsa/
+Description: Pure-Python RSA implementation
+Filename: pool/main/python-rsa_4.9.1-1+ocean1_all.deb
+Size: 23744
+MD5sum: f039a100c92aaffdfd5f27337cd445f2
+SHA1: 6a5002492fa1d36dbb8ebce46daac6cf54043ddc
+SHA256: c3cfa016486ce2f6a27add71069cc31f7178c33f37d63544055bb5bb6d7ad678
+
+Package: python-schedule
+Version: 1.2.2-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/schedule/
+Description: Job scheduling for humans.
+Filename: pool/main/python-schedule_1.2.2-1+ocean1_all.deb
+Size: 11636
+MD5sum: d3f7aa12ee6a65336b09e3ce23d83075
+SHA1: ab787fb635ab1e5641f4c4c36be607f461ce8793
+SHA256: e1dc72037d2c24e76bdc10dc61d2b624ba6aa0c7b9ef9f0b1476d73464eae5b4
+
+Package: python-semantic-version
+Version: 2.10.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/semantic-version/
+Description: A library implementing the 'SemVer' scheme.
+Filename: pool/main/python-semantic-version_2.10.0-1+ocean1_all.deb
+Size: 14112
+MD5sum: 0f2478e1bc1cea04336ada7b7a83d655
+SHA1: c3ff20718250ebbceba0c4a86323731a0523d901
+SHA256: 5166ef7189c6b5b58b22129d982865ecd19e971014ac5802f6522f19f9274c8a
+
+Package: python-semver
+Version: 3.1.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/semver/
+Description: Python helper for Semantic Versioning (https://semver.org)
+Filename: pool/main/python-semver_3.1.0-1+ocean1_all.deb
+Size: 15584
+MD5sum: 7cc53743a69679eb680712542701ca07
+SHA1: 41213d1f916e613627aa3ae06e4225f9367f1859
+SHA256: 2e04c586bae8de3f2605496e95362626aaafed0b1c0512291e1f08d9a39b5841
+
+Package: python-send2trash
+Version: 2.1.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/send2trash/
+Description: Send file to trash natively under Mac OS X, Windows and Linux
+Filename: pool/main/python-send2trash_2.1.0-1+ocean1_all.deb
+Size: 12568
+MD5sum: fdf3274702d72ab49b5f3b3e22d85620
+SHA1: 03b9bb40c970045950819ac29554ea463c669b78
+SHA256: 89df45bacb6fa90e7f791ecd3bd5e646ee1c4ce64785b7909f05e4d86e861924
+
+Package: python-setuptools
+Version: 84.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/setuptools/
+Description: Most extensible Python build backend with support for C/C++ extension modules
+Filename: pool/main/python-setuptools_84.0.0-1+ocean1_all.deb
+Size: 492436
+MD5sum: f82394b9914500fd879669df1ddde4b9
+SHA1: f997cbd826feac86842f78d96e44fea3b11ee70e
+SHA256: 0cc2b96244135e7608de5fc6d7e0a501e8204e9ecd50f90e4c4b303783109c0f
+
+Package: python-setuptools-scm
+Version: 10.3.4-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1), python-packaging (= 26.3-1+ocean1), python-setuptools (= 84.0.0-1+ocean1), python-vcs-versioning (= 2.5.0-1+ocean1)
+Homepage: https://pypi.org/project/setuptools-scm/
+Description: the blessed package to manage your versions by scm tags
+Filename: pool/main/python-setuptools-scm_10.3.4-1+ocean1_all.deb
+Size: 23024
+MD5sum: 5c91a328c225eb06d55ca79ff2fe7c8d
+SHA1: 5f771be61ec07f4e41bd0d2b2f9aca5baba8c372
+SHA256: 13656b34d3963437459309fbc37566b22db23951361205c9b32f31faaaa0e58e
+
+Package: python-shellingham
+Version: 1.5.4-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/shellingham/
+Description: Tool to Detect Surrounding Shell
+Filename: pool/main/python-shellingham_1.5.4-1+ocean1_all.deb
+Size: 8316
+MD5sum: 503dc0773f43adb91fae2911100da9bb
+SHA1: e29e9d8f22b77a33fa4d5c243e4f4b056980ee99
+SHA256: e00426c76352319dcb501c16d88b1019a16da5899f7dc731f727192d631abcea
+
+Package: python-six
+Version: 1.17.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/six/
+Description: Python 2 and 3 compatibility utilities
+Filename: pool/main/python-six_1.17.0-1+ocean1_all.deb
+Size: 10496
+MD5sum: 1efc64ff38c36b00d27bba43fa20366d
+SHA1: 95930c25eea19ebc35e760c1b1b16393f24d8d29
+SHA256: e3f34e291408c475364a9dd29b302cda62c11a72ccd73a3cd50b13c0abdbf8c9
+
+Package: python-sniffio
+Version: 1.3.1-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/sniffio/
+Description: Sniff out which async library your code is running under
+Filename: pool/main/python-sniffio_1.3.1-1+ocean1_all.deb
+Size: 9076
+MD5sum: 1f400c7269cd00a1d6351fa830514a0a
+SHA1: ac14fc690137907280a1bab8fe7692a6378c8b43
+SHA256: 881448fe7845893f9fe6d657ae3e4587251080ea041ba2601ba51b53e771ebfc
+
+Package: python-socksio
+Version: 1.0.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/socksio/
+Description: Sans-I/O implementation of SOCKS4, SOCKS4A, and SOCKS5.
+Filename: pool/main/python-socksio_1.0.0-1+ocean1_all.deb
+Size: 10424
+MD5sum: 1d3d43b84b10fd6cc9eb40aba16ff514
+SHA1: 38ca839777d466c2e55ba16b436463ab87da2edc
+SHA256: be1ca0ac9c79f7166e7ad964a3d2ce7961ff262faf044d1da36f82d6d3cec381
+
+Package: python-sortedcontainers
+Version: 2.4.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/sortedcontainers/
+Description: Sorted Containers -- Sorted List, Sorted Dict, Sorted Set
+Filename: pool/main/python-sortedcontainers_2.4.0-1+ocean1_all.deb
+Size: 22396
+MD5sum: 1cb048eaf48c735e592f4bd904d4ecd1
+SHA1: acdebcaf612effa9f424f53d0f0ee71acebb6ee0
+SHA256: 28149d18a63993669fecc024dbfbc09f9e093e37db68745b9878178a588c391d
+
+Package: python-soupsieve
+Version: 2.10-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/soupsieve/
+Description: A modern CSS selector implementation for Beautiful Soup.
+Filename: pool/main/python-soupsieve_2.10-1+ocean1_all.deb
+Size: 31840
+MD5sum: e501bdcb4ac57172b9baf156cce9b913
+SHA1: 1b698d86a966ec69d60d8969e09e87088430be68
+SHA256: d1a9ae8f3834019d4904f95f260fe844e9dc90141ee58f0324bdfb765ec9d74c
+
+Package: python-sse-starlette
+Version: 3.5.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1), python-anyio (= 4.15.1-1+ocean1), python-starlette (= 1.7.0-1+ocean1)
+Homepage: https://pypi.org/project/sse-starlette/
+Description: SSE plugin for Starlette
+Filename: pool/main/python-sse-starlette_3.5.0-1+ocean1_all.deb
+Size: 15544
+MD5sum: c836dd92cadccbd9fdbc0aba2e0de526
+SHA1: e8a0adc7b0ab7ad27f470fba39ab5be07c748c55
+SHA256: 7069c0d6d2820e169964971f6b22c15d930acd50c833c24a1639e66e50fc4220
+
+Package: python-starlette
+Version: 1.7.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1), python-anyio (= 4.15.1-1+ocean1)
+Homepage: https://pypi.org/project/starlette/
+Description: The little ASGI library that shines.
+Filename: pool/main/python-starlette_1.7.0-1+ocean1_all.deb
+Size: 53800
+MD5sum: a2632214ece7333ec4fedf6f4b088129
+SHA1: 00f172421aed6558d291059efb531d72a5568985
+SHA256: 825ead09fbb21d1ead09146024ff5b583fbc178f4ca9b999271a37d74ba97c1a
+
 Package: python-static
 Architecture: aarch64
 Installed-Size: 51960
@@ -80681,6 +82821,51 @@ Size: 7717068
 MD5sum: d5b23a3f7fa10f101b1cc4e0e09b3a96
 SHA1: f8753bbbaffd91f3261ad1ac2faa4072cfae219e
 SHA256: 5c0db196253fe143eabe7eda52a6c18d41cbf9f79a7c827d35145e8a6d63b5c4
+
+Package: python-structlog
+Version: 26.1.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/structlog/
+Description: Structured Logging for Python
+Filename: pool/main/python-structlog_26.1.0-1+ocean1_all.deb
+Size: 52360
+MD5sum: 22537c970766efda040f092927454fb7
+SHA1: d75af57d59a6312ddc89ba88511d1de5889d4d36
+SHA256: 431e7c7a88c0d2295f8f1963358b01e51e2fe96db6ecab42e2861aa8a5fb058f
+
+Package: python-tenacity
+Version: 9.1.4-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/tenacity/
+Description: Retry code until it succeeds
+Filename: pool/main/python-tenacity_9.1.4-1+ocean1_all.deb
+Size: 18584
+MD5sum: b1877f14f43146cd1793763cf2056199
+SHA1: 51e57a345298afc65276040060ca99d1b7152b7f
+SHA256: bc666fb222159b4a7f6bfbc3e0d920d817e0323ec08efc23b8f535f3fb9718ec
+
+Package: python-text-unidecode
+Version: 1.3-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/text-unidecode/
+Description: The most basic Text::Unidecode port
+Filename: pool/main/python-text-unidecode_1.3-1+ocean1_all.deb
+Size: 55436
+MD5sum: 6923df66ca897985ff2576994055c528
+SHA1: f5d12ec5bf10a95fdee4520d1ec303c1ffdb9e25
+SHA256: f541010a1e675b2650c97bacf40542cbd229858bb5e6a123c551b768c31fb917
 
 Package: python-tkinter
 Architecture: aarch64
@@ -80698,6 +82883,381 @@ MD5sum: c8382d6fe7e8ff11a3d549da108de630
 SHA1: 60cc5ac8fef49c9e8b2271ba7eb92bce29d61d6e
 SHA256: 990912e00fec3be9c3343790ff555ac9109c3914f3b6e8ff5b251f12dfe1b0d9
 
+Package: python-toml
+Version: 0.10.2-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/toml/
+Description: Python Library for Tom's Obvious, Minimal Language
+Filename: pool/main/python-toml_0.10.2-1+ocean1_all.deb
+Size: 14856
+MD5sum: a14a570c6591ece31412d644fef84953
+SHA1: bbe5bc81af641f64b8894fe8dca6e98090eddb70
+SHA256: 73a6a075063b8b1a24d107489f57bbd46e4c68602ed2057a55bde9794a220cc4
+
+Package: python-tomli
+Version: 2.4.1-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/tomli/
+Description: A lil' TOML parser
+Filename: pool/main/python-tomli_2.4.1-1+ocean1_all.deb
+Size: 13408
+MD5sum: 38119d035ed368842c90ce5bec9e85a8
+SHA1: fd37e71b733aae675b7f2f05fb4dd2768809f8a9
+SHA256: 6bb5046d12d95856dcf9fc66c8f814a3df377ca6269f8b79a5ebfb85db094ad1
+
+Package: python-tomli-w
+Version: 1.2.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/tomli-w/
+Description: A lil' TOML writer
+Filename: pool/main/python-tomli-w_1.2.0-1+ocean1_all.deb
+Size: 6860
+MD5sum: 3ef32be8a8c3f69bd0a9615a9acb3ea6
+SHA1: 881fd0c0a58df3f3a62101542db7c264a6c26acf
+SHA256: 5bf4df317109722e82d72c99394950e6599c6ffe5c7b82527ee7459e18fed361
+
+Package: python-tomlkit
+Version: 0.15.1-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/tomlkit/
+Description: Style preserving TOML library
+Filename: pool/main/python-tomlkit_0.15.1-1+ocean1_all.deb
+Size: 40092
+MD5sum: 9d29a3ee293a30dfedfdae10ea805486
+SHA1: aaeb29d7bdc0f671b445820861749e44adf28322
+SHA256: f7b1ce3a11b483af1ba7473f6f8eab96111f46edc82fba62b9aacdd424bcd6b0
+
+Package: python-toolz
+Version: 1.1.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/toolz/
+Description: List processing tools and functional utilities
+Filename: pool/main/python-toolz_1.1.0-1+ocean1_all.deb
+Size: 44560
+MD5sum: 2c281b23fe8fe3ac2192a05caf007fe6
+SHA1: a0391df72eaae797bd6d9100fe1e1345a2727af9
+SHA256: fa54d4a07796f7718bc9245f0f0ae9056774f3db42344efa0a5a133018db96e9
+
+Package: python-trio
+Version: 0.34.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1), python-attrs (= 26.1.0-1+ocean1), python-idna (= 3.20-1+ocean1), python-outcome (= 1.3.0.post0-1+ocean1), python-sniffio (= 1.3.1-1+ocean1), python-sortedcontainers (= 2.4.0-1+ocean1)
+Homepage: https://pypi.org/project/trio/
+Description: A friendly Python library for async concurrency and I/O
+Filename: pool/main/python-trio_0.34.0-1+ocean1_all.deb
+Size: 338712
+MD5sum: cb4d5c7398151a00b30ea81796b08c0f
+SHA1: faee0cceaa3297d55e100028ae83e37aca681876
+SHA256: c64c80aea9e20c01b8c4d9869aae2379d3d3931eda904f4e74752ca2ab4b0b0b
+
+Package: python-trove-classifiers
+Version: 2026.9.21.13-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/trove-classifiers/
+Description: Canonical source for classifiers on PyPI (pypi.org).
+Filename: pool/main/python-trove-classifiers_2026.9.21.13-1+ocean1_all.deb
+Size: 12732
+MD5sum: d8dcf4fb6920816c582925440947c672
+SHA1: efaf9a75c0e930064cbf13809b5b414286274c0d
+SHA256: 632ed1c8a1c92cf4777e11e425aa573d1294df3cb09d7e7e4740690de9384c14
+
+Package: python-typer
+Version: 0.27.2-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1), python-annotated-doc (= 0.0.5-1+ocean1), python-rich (= 15.0.0-1+ocean1), python-shellingham (= 1.5.4-1+ocean1)
+Homepage: https://pypi.org/project/typer/
+Description: Typer, build great CLIs. Easy to code. Based on Python type hints.
+Filename: pool/main/python-typer_0.27.2-1+ocean1_all.deb
+Size: 90052
+MD5sum: 060bda31856580cae462d0249e86e031
+SHA1: edd8da512ae04dc083d242e451eeb42f33111a25
+SHA256: 6704bc4e130fcfbdd11dc5426fce148a6f1b9331408645317e0b0cf7af4ebf56
+
+Package: python-typing-extensions
+Version: 4.16.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/typing-extensions/
+Description: Backported and Experimental Type Hints for Python 3.9+
+Filename: pool/main/python-typing-extensions_4.16.0-1+ocean1_all.deb
+Size: 40176
+MD5sum: a195da3096bd5b52ef42daa0dde2e563
+SHA1: e768e6e39de689b759f980ded244fbc608b0ec72
+SHA256: 5ff0a5a5184ccc927ef10951dd64e2317d81dd9ec986aa59f7d686769e3d31db
+
+Package: python-typing-inspection
+Version: 0.4.4-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1), python-typing-extensions (= 4.16.0-1+ocean1)
+Homepage: https://pypi.org/project/typing-inspection/
+Description: Runtime typing introspection tools
+Filename: pool/main/python-typing-inspection_0.4.4-1+ocean1_all.deb
+Size: 12608
+MD5sum: d51b46120a79a27f718bc02309442dee
+SHA1: f70305b346a3b40933587584c7041c331e1fa409
+SHA256: dd5f9e7e74dd0d9eb0cd64c15ab17da55e262db524001d57cef8c59f9f21ed5c
+
+Package: python-tzdata
+Version: 2026.5-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/tzdata/
+Description: Provider of IANA time zone data
+Filename: pool/main/python-tzdata_2026.5-1+ocean1_all.deb
+Size: 104708
+MD5sum: eba8ca648f9e55fcdbcb2a251c3b1e06
+SHA1: 119c3852fefdea6f2169c61073ae12e24b4a41c0
+SHA256: 5401060c7d8dcb46fceaa6f1e7fe030bbd49651ced2a28bacf5b4c980cc7361c
+
+Package: python-unidecode
+Version: 1.4.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/unidecode/
+Description: ASCII transliterations of Unicode text
+Filename: pool/main/python-unidecode_1.4.0-1+ocean1_all.deb
+Size: 118864
+MD5sum: 14319ce33ad378b99b56428994fb766a
+SHA1: 1d5c0b380f9bccd3d4813afd24dc1b48ec938016
+SHA256: 983203bf79bcd03fd308f8ae4997fd8a9f306119e2a256392ddee64a94429300
+
+Package: python-uritemplate
+Version: 4.2.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/uritemplate/
+Description: Implementation of RFC 6570 URI Templates
+Filename: pool/main/python-uritemplate_4.2.0-1+ocean1_all.deb
+Size: 9816
+MD5sum: 6274543ddb1f4e7ba3a75f77e97b6704
+SHA1: 6ea2964071e7f0ca47f83673a29518b11c50dfe9
+SHA256: 90aab8d3b37f4333eac8d939e70c50f844beccf9b71a7d8f40871e5fa4494dfd
+
+Package: python-urllib3
+Version: 2.8.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/urllib3/
+Description: HTTP library with thread-safe connection pooling, file post, and more.
+Filename: pool/main/python-urllib3_2.8.0-1+ocean1_all.deb
+Size: 95820
+MD5sum: 153dea7e2c7aa52aebffc376d43d66b2
+SHA1: 8c0e2bf2c05af28d1d1d7c1198990e6a08805432
+SHA256: 8ec9e101afc2e3cf9beb2630104791fd412bb0088b6a1fffff298a903e201312
+
+Package: python-uvicorn
+Version: 0.54.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1), python-click (= 8.5.0-1+ocean1), python-h11 (= 0.16.0-1+ocean1)
+Homepage: https://pypi.org/project/uvicorn/
+Description: The lightning-fast ASGI server.
+Filename: pool/main/python-uvicorn_0.54.0-1+ocean1_all.deb
+Size: 49532
+MD5sum: e0b2e2a4f3e9a4df8ed091f5284f2422
+SHA1: 6c471a56b1d9f2bb8999b2d577bb3efba79dbf22
+SHA256: f59171722e6030ed1955d4d24ee6741a11102f52ceb495e6033b22e98386e4f4
+
+Package: python-vcs-versioning
+Version: 2.5.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1), python-packaging (= 26.3-1+ocean1)
+Homepage: https://pypi.org/project/vcs-versioning/
+Description: the blessed package to manage your versions by vcs metadata
+Filename: pool/main/python-vcs-versioning_2.5.0-1+ocean1_all.deb
+Size: 79660
+MD5sum: 9341f12c30e9ebe51ebe7a08e108271f
+SHA1: a1fa8b5e3b6e483c76b7ecc9e260978db27ae1eb
+SHA256: 9dd837ec76f87bc8997755cf927f3db2f3e3317af71f04d7d8c7b1284f8919c3
+
+Package: python-virtualenv
+Version: 21.14.5-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1), python-distlib (= 0.4.3-1+ocean1), python-filelock (= 4.0.10-1+ocean1), python-packaging (= 26.3-1+ocean1), python-platformdirs (= 4.12.3-1+ocean1), python-python-discovery (= 1.6.1-1+ocean1)
+Homepage: https://pypi.org/project/virtualenv/
+Description: Virtual Python Environment builder
+Filename: pool/main/python-virtualenv_21.14.5-1+ocean1_all.deb
+Size: 3979788
+MD5sum: 1257bb7191c4835492af4a2f13d15821
+SHA1: 9da603b05be7befc05ca909285489aec90a7d0c1
+SHA256: 3b891d4a7de60c89248eb04018d3f60f6098a4f4d0cb6b70e9e16719a408e9e2
+
+Package: python-waitress
+Version: 3.0.2-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/waitress/
+Description: Waitress WSGI server
+Filename: pool/main/python-waitress_3.0.2-1+ocean1_all.deb
+Size: 42084
+MD5sum: fb17e3a99469b8e9e8b96790fc88d6ea
+SHA1: d876dc4a2f21b9553283020dbd95df63fd5685ab
+SHA256: 5c9dbda784d2d96e6290646befa5b2f2fc8627ce73a1125a64bb239c38b612d4
+
+Package: python-wcmatch
+Version: 11.0.1-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1), python-bracex (= 3.0.1-1+ocean1)
+Homepage: https://pypi.org/project/wcmatch/
+Description: Wildcard/glob file name matcher.
+Filename: pool/main/python-wcmatch_11.0.1-1+ocean1_all.deb
+Size: 34028
+MD5sum: 969daa888f79e3b163f46375bdd08b89
+SHA1: 4eb36b949fdfee2162fb1aa163bb138d1c5617fc
+SHA256: a1b094428ef222271eca7df1b89d5c8fce1993147dc3d9f8a600683559366f83
+
+Package: python-wcwidth
+Version: 0.9.1-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/wcwidth/
+Description: Measures the displayed width of unicode strings in a terminal
+Filename: pool/main/python-wcwidth_0.9.1-1+ocean1_all.deb
+Size: 108824
+MD5sum: c53eb7915d083784fce6a0be4d24df29
+SHA1: 8afbe57a5cd9586c41d0618421724a357eca77a6
+SHA256: 6dce01a1d101e836642f0cf6776df6639d969369dbb58b4b0b16d42b535f9ac1
+
+Package: python-webencodings
+Version: 0.6.1-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/webencodings/
+Description: Character encoding aliases for legacy web content
+Filename: pool/main/python-webencodings_0.6.1-1+ocean1_all.deb
+Size: 8200
+MD5sum: 12c42643dde64e1f3dbece6d70d2955a
+SHA1: 198abae97bd9b7470c2d178dbd1c993f77b213ab
+SHA256: 3c6878b9c4879b5e6f3f2c5e3c52467ee21bcfae0c2d8a81343fd1d5d0615f76
+
+Package: python-websocket-client
+Version: 1.9.2-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/websocket-client/
+Description: WebSocket client for Python with low level API options
+Filename: pool/main/python-websocket-client_1.9.2-1+ocean1_all.deb
+Size: 61004
+MD5sum: 5ab6096f7860a86b5375d32833e3fe62
+SHA1: eac010fea41444972bf8ec203d279aadf8750059
+SHA256: b614264edfe967a9afc38e29993bb7fad90060bcd199d2d813c7dd6e0299ff21
+
+Package: python-werkzeug
+Version: 3.1.9-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1), python-markupsafe (= 3.0.4-1+ocean1)
+Homepage: https://pypi.org/project/werkzeug/
+Description: The comprehensive WSGI web application library.
+Filename: pool/main/python-werkzeug_3.1.9-1+ocean1_all.deb
+Size: 159804
+MD5sum: 6977f5d5496196f155aa8fbba1f4222a
+SHA1: 32e6d7888eb61ac73217fd36d409aca682b9c1ed
+SHA256: 0b85376738e7f03683db1b77f62b0081ad8fabc2d3e5110dce4e1382b2a6b102
+
+Package: python-wheel
+Version: 0.48.0-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1), python-packaging (= 26.3-1+ocean1)
+Homepage: https://pypi.org/project/wheel/
+Description: Command line tool for manipulating wheel files
+Filename: pool/main/python-wheel_0.48.0-1+ocean1_all.deb
+Size: 26264
+MD5sum: 6dab40e65f625f0a2a71604dea05b945
+SHA1: b21a67efb377675a63f0881f222234969406c260
+SHA256: 7c13f3c84ed25868dfa6ab83866789ae35474a7a27b60763a45b5a123a64c771
+
+Package: python-wsproto
+Version: 1.3.2-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1), python-h11 (= 0.16.0-1+ocean1)
+Homepage: https://pypi.org/project/wsproto/
+Description: Pure-Python WebSocket protocol implementation
+Filename: pool/main/python-wsproto_1.3.2-1+ocean1_all.deb
+Size: 19680
+MD5sum: 9ca17422b975247a11ba6b89ecf010c5
+SHA1: 778c9faf57532243d1fb8bd0ef2d08a5741c02ce
+SHA256: 440bef6713448351b624ba397496aaab82954ed5a0b588c7ce3f17d2ae04dbde
+
 Package: python-xcbgen
 Architecture: all
 Installed-Size: 132
@@ -80714,6 +83274,51 @@ Size: 15232
 MD5sum: a8d0916eb9cfdb97b1f6255cba79faf5
 SHA1: 5d2531d0cc53686fd115f739f9ec407b3fba5a1c
 SHA256: 858436a0c78d6da74778518bbd6d18dbd4ab83c0725c8a68689ec6fe5ba6fb07
+
+Package: python-xmltodict
+Version: 1.0.4-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/xmltodict/
+Description: Makes working with XML feel like you are working with JSON
+Filename: pool/main/python-xmltodict_1.0.4-1+ocean1_all.deb
+Size: 12972
+MD5sum: 4927069549c72a01081f9365800f4219
+SHA1: 39fa5ec605eec628a60efd893bb3ee76398560d3
+SHA256: 28910cf0150c6bea4988a82f470624fb5db7c37d37eb57bbb518c4562347b39a
+
+Package: python-zipp
+Version: 4.1.1-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/zipp/
+Description: Backport of pathlib-compatible object wrapper for zip files
+Filename: pool/main/python-zipp_4.1.1-1+ocean1_all.deb
+Size: 9808
+MD5sum: d9cacde5b9d9dcffc67f80d17ab6875c
+SHA1: 7b836581357ea7882ebab1bb61fb1f1603f44526
+SHA256: c32d0b014b149a3261d3deae1d790785889ba4b6b972115d1a02d79349cf2ab6
+
+Package: python-zipstream-ng
+Version: 1.9.3-1+ocean1
+Architecture: all
+Maintainer: OceanStudio <packages@ocean.studio>
+Priority: optional
+Section: python
+Depends: ocean-python-site (= 1.0.0-1+ocean1)
+Homepage: https://pypi.org/project/zipstream-ng/
+Description: A modern and easy to use streamable zip file generator
+Filename: pool/main/python-zipstream-ng_1.9.3-1+ocean1_all.deb
+Size: 21324
+MD5sum: cb19b2c3f6ec16453cfcb7a32d9465ac
+SHA1: ae68ceaac0f0075dde78cc7766e2d2fd34569b78
+SHA256: 4146680c3f416a6097014a0d2ab14404e47abf45f20b25362290d9c88f7221a2
 
 Package: pyunbound
 Architecture: aarch64
