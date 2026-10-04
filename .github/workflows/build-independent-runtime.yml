@@ -70,6 +70,10 @@ jobs:
             tests
           filter: blob:none
       - name: Install Android NDK and build tools
+        uses: android-actions/setup-android@v3
+        with:
+          log-accepted-android-sdk-licenses: false
+      - name: Install the pinned NDK and native build tools
         run: |
           sdkmanager 'ndk;27.2.12479018'
           sudo apt-get update -q

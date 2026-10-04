@@ -1801,7 +1801,8 @@
       "build": {
         "type": "sdist-pure-wheel",
         "environment": {
-          "MARKUPSAFE_BUILD_SPEEDUPS": "0"
+          "CC": "/bin/false",
+          "CIBUILDWHEEL": "0"
         }
       },
       "url": "https://files.pythonhosted.org/packages/38/9b/e422a865e1d5d57d0e509b4e0bf1c1a70a7f6382c29a5aa428df994c8bc8/markupsafe-3.0.4.tar.gz",
