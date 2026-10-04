@@ -73,6 +73,7 @@ jobs:
         uses: android-actions/setup-android@v3
         with:
           log-accepted-android-sdk-licenses: false
+          packages: platform-tools
       - name: Install the pinned NDK and native build tools
         run: |
           sdkmanager 'ndk;27.2.12479018'
