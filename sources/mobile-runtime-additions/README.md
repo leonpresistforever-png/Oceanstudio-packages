@@ -10,7 +10,7 @@ This proposal stages **11 library packages** from pinned official upstream sourc
 - libmbedcrypto, libmbedx509, libmbedtls
 - libwebsockets
 
-It additionally stages ocean-ffmpeg-native (ocean-ffmpeg and ocean-ffprobe commands) and ocean-llama-runtime (llama-server-ocean), preserving existing ffmpeg/ffprobe/llama-server paths. Mbed TLS enables HTTPS in the separate native FFmpeg build. The proposed libwebsockets build has TLS disabled; do not label it WSS-capable.
+It additionally stages ocean-ffmpeg-native (ocean-ffmpeg and ocean-ffprobe commands) and ocean-llama-runtime (llama-server-ocean), preserving existing ffmpeg/ffprobe/llama-server paths. Mbed TLS enables HTTPS in the separate native FFmpeg build. FFmpeg uses its version-3 license option with Mbed TLS 3 and ships both applicable LGPL notices. The proposed libwebsockets build has TLS disabled; do not label it WSS-capable.
 
 Upstream tags and peeled commit IDs were checked, and FFmpeg, Mbed TLS and libwebsockets sources were downloaded for recipe inspection. The llama.cpp b10818 commit was checked. Native compilation is **UNVERIFIED**: Android NDK, CMake and on-device runtime testing are unavailable in this environment.
 

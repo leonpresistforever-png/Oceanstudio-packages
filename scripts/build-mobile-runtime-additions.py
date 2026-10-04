@@ -67,7 +67,7 @@ def build(args):
                              '--strip=' + str(tools / 'llvm-strip'), '--prefix=' + PREFIX,
                              '--enable-shared', '--disable-static', '--disable-autodetect', '--disable-doc',
                              '--disable-debug', '--disable-zlib', '--disable-bzlib', '--disable-lzma', '--disable-iconv',
-                             '--disable-openssl', '--enable-mbedtls', '--extra-cflags=-I' + str(mbed / 'include'),
+                             '--disable-openssl', '--enable-mbedtls', '--enable-version3', '--extra-cflags=-I' + str(mbed / 'include'),
                              '--extra-ldflags=-L' + str(mbed / 'lib') + ' -Wl,-z,max-page-size=16384']
                 run(configure, cwd=source)
                 run(['make', '-j', args.jobs], cwd=source)
@@ -129,7 +129,7 @@ def build(args):
                     depends = mapping.get(package, [])
                 documentation = dest / 'share/doc' / package
                 documentation.mkdir(parents=True)
-                for license_name in ['LICENSE', 'LICENSE.md', 'COPYING.LGPLv2.1']:
+                for license_name in ['LICENSE', 'LICENSE.md', 'COPYING.LGPLv2.1', 'COPYING.LGPLv3']:
                     license_file = source / license_name
                     if license_file.is_file(): shutil.copy2(license_file, documentation / license_name)
                 receipt = dict(item, package=package, target=manifest['target'], physicalDeviceTested=False)
