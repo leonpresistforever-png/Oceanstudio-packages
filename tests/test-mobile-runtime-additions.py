@@ -15,12 +15,16 @@ class MobileRuntimeRecipes(unittest.TestCase):
         manifest = json.loads((ROOT / 'sources/mobile-runtime-additions/manifest.json').read_text())
         packages = []
         official = {'https://github.com/FFmpeg/FFmpeg.git', 'https://github.com/Mbed-TLS/mbedtls.git',
-                    'https://github.com/warmcat/libwebsockets.git', 'https://github.com/ggml-org/llama.cpp.git'}
+                    'https://github.com/warmcat/libwebsockets.git', 'https://github.com/ggml-org/llama.cpp.git',
+                    'https://github.com/ollama/ollama.git', 'https://mandoc.bsd.lv/snapshots/mandoc-1.14.6.tar.gz'}
         for source in manifest['sources']:
             self.assertIn(source['url'], official)
-            self.assertRegex(source['commit'], r'^[a-f0-9]{40}$')
+            if 'sha256' in source:
+                self.assertRegex(source['sha256'], r'^[a-f0-9]{64}$')
+            else:
+                self.assertRegex(source['commit'], r'^[a-f0-9]{40}$')
             packages.extend(source['packages'])
-        self.assertEqual(13, len(set(packages)))
+        self.assertEqual(15, len(set(packages)))
         self.assertEqual(len(packages), len(set(packages)))
         self.assertEqual('mbedtls', manifest['sources'][0]['name'])
         self.assertNotIn('ffmpeg', packages)
