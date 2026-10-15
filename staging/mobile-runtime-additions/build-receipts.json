@@ -13,7 +13,7 @@
     "target": "aarch64-linux-android28",
     "physicalDeviceTested": false,
     "artifact": "libmbedcrypto_3.6.4-1+ocean1_aarch64.deb",
-    "sha256": "5db1c22912b318069414fd9d954515ac9f3ca068ff0dfb7276a9fcab6402873d"
+    "sha256": "8f56c0c978ade756e52939de2c2a511281d2c1fe63455f7db6706348d5aad0a4"
   },
   {
     "name": "mbedtls",
@@ -29,7 +29,7 @@
     "target": "aarch64-linux-android28",
     "physicalDeviceTested": false,
     "artifact": "libmbedx509_3.6.4-1+ocean1_aarch64.deb",
-    "sha256": "025c0bb496be37124a0137f6cfd2ecdc47ca0a85350d7d27591a460acb0978a9"
+    "sha256": "80be5fb02b02079c31a6ae4f1ea550d5acb257cb5f6bf9d291cd98a444226509"
   },
   {
     "name": "mbedtls",
@@ -45,7 +45,7 @@
     "target": "aarch64-linux-android28",
     "physicalDeviceTested": false,
     "artifact": "libmbedtls_3.6.4-1+ocean1_aarch64.deb",
-    "sha256": "830ab6232545af97f708b7a130a887272c1df0039d1e1b5f69e79f920b35f4dd"
+    "sha256": "9f91b484bbeb2aabb7dac0ea7fe757d0c512a5d2e4e47fc95c97d168a056d381"
   },
   {
     "name": "ffmpeg",
@@ -66,7 +66,7 @@
     "target": "aarch64-linux-android28",
     "physicalDeviceTested": false,
     "artifact": "libavcodec_8.1.2-1+ocean1_aarch64.deb",
-    "sha256": "f446db1bc10861ca0f719ba69922c41c813ea9b188a7e12daafe4555babc12f3"
+    "sha256": "33a2770e380b55e4896ce283ebd669e6f767278a35de686f9a89ccf13bca6d43"
   },
   {
     "name": "ffmpeg",
@@ -87,7 +87,7 @@
     "target": "aarch64-linux-android28",
     "physicalDeviceTested": false,
     "artifact": "libavformat_8.1.2-1+ocean1_aarch64.deb",
-    "sha256": "825bf6798c8feadd340714d8ab97d5ea04c4f344a99d140431d12f10f3693f00"
+    "sha256": "142f38e748b401631852fea0798a6fd1636eb8cd2c7baa0b6488dcd1abf1c6cf"
   },
   {
     "name": "ffmpeg",
@@ -108,7 +108,7 @@
     "target": "aarch64-linux-android28",
     "physicalDeviceTested": false,
     "artifact": "libavutil_8.1.2-1+ocean1_aarch64.deb",
-    "sha256": "2c6bf5ecc575a62418bb1a9a374e85ee48ab77008b1f55ebb8b3be7ee78c64d7"
+    "sha256": "4c38d85536395c17e454652c71ae8dc7c4e9b7d3f5edfe5349dab0a7a8fb2bd3"
   },
   {
     "name": "ffmpeg",
@@ -129,7 +129,7 @@
     "target": "aarch64-linux-android28",
     "physicalDeviceTested": false,
     "artifact": "libavfilter_8.1.2-1+ocean1_aarch64.deb",
-    "sha256": "9673d1ddfc09da70472fcfd29c0227617f3d78bc1b0f82ae5b01a1fe3afbf603"
+    "sha256": "33f52fff8bd6d81e45a3e984397116b939565d391994fb6189e1a7c4f26e77cf"
   },
   {
     "name": "ffmpeg",
@@ -150,7 +150,7 @@
     "target": "aarch64-linux-android28",
     "physicalDeviceTested": false,
     "artifact": "libavdevice_8.1.2-1+ocean1_aarch64.deb",
-    "sha256": "d1b7e8ee8f5d4a2e46c9f57ca68aa7ad0b34396714f8f429ad03ba5dd95b0de1"
+    "sha256": "70a5f5fbb61e0773ca84bec25a1ab42ef7a6dc6710a1795fcb98d7cba0c89330"
   },
   {
     "name": "ffmpeg",
@@ -171,7 +171,7 @@
     "target": "aarch64-linux-android28",
     "physicalDeviceTested": false,
     "artifact": "libswresample_8.1.2-1+ocean1_aarch64.deb",
-    "sha256": "f7f7c85c866d856e18d63c8066c506ab2e1f96c856ee500aa8e719f07848dc19"
+    "sha256": "33f69c73b9c5551f5df616f904b610f4e6fd9c92d911333ef47d7519d2b3a5a2"
   },
   {
     "name": "ffmpeg",
@@ -192,7 +192,7 @@
     "target": "aarch64-linux-android28",
     "physicalDeviceTested": false,
     "artifact": "libswscale_8.1.2-1+ocean1_aarch64.deb",
-    "sha256": "448354ee5ce54c6490b1b4364e873b83842f982bf96f26adc96518ed53dc1b49"
+    "sha256": "d41aa1b3252cbc16624ecf9269bbe7e7b7ec063a7f65ccce3adfec627484f4da"
   },
   {
     "name": "ffmpeg",
@@ -213,7 +213,7 @@
     "target": "aarch64-linux-android28",
     "physicalDeviceTested": false,
     "artifact": "ocean-ffmpeg-native_8.1.2-1+ocean1_aarch64.deb",
-    "sha256": "26294406e449da3c0cd05a8db083587d12c888a7b31a2d1f855bb00659dd30ff"
+    "sha256": "e45f3660853e938a62218b21331ab86644a9bf9bc571fc6d0381aab71d7aa4f4"
   },
   {
     "name": "libwebsockets",
@@ -227,7 +227,7 @@
     "target": "aarch64-linux-android28",
     "physicalDeviceTested": false,
     "artifact": "libwebsockets_4.3.3-1+ocean1_aarch64.deb",
-    "sha256": "add86bd2050034ce1d4a16c058c789cf8e23bb2da4856c7d25439e8a60a7cd23"
+    "sha256": "49fb8160a9b8a3dfb722505d59bdbfb3d98de6967974ca44d04d0f505f722b79"
   },
   {
     "name": "llama.cpp",
@@ -241,7 +241,7 @@
     "target": "aarch64-linux-android28",
     "physicalDeviceTested": false,
     "artifact": "ocean-llama-runtime_10818-1+ocean1_aarch64.deb",
-    "sha256": "6a21f99e602fed5b4462d5a806a25a91b9f584d8053676b1a19371aad117d8f8"
+    "sha256": "4ca8516e2d3b6a4eb50b03a8c10efc6eaa3b822cdc51edfe5503a520d1cd0678"
   },
   {
     "name": "ollama",
@@ -256,12 +256,12 @@
     "target": "aarch64-linux-android28",
     "physicalDeviceTested": false,
     "artifact": "ollama-cli_0.35.0-1+ocean1_aarch64.deb",
-    "sha256": "17e581b3bc40e310ec313ec32bec482e97284eb22b3cbdd4f6e644d68a68d7de"
+    "sha256": "cc757d3ceffb99b9f38ef7ece43037139e7c76e3eba1018b63ad58e0fa2e3ee4"
   },
   {
     "name": "mandoc",
     "url": "https://mandoc.bsd.lv/snapshots/mandoc-1.14.6.tar.gz",
-    "sha256": "f99ee370869690bac71435dfb3d9b365f17f4d7fdd098614aa9076a3e1ef4043",
+    "sha256": "c00ca982fe80a26782dc8c5149642a61d9d464b303729f2650626b88b8da02df",
     "version": "1.14.6",
     "packages": [
       "mandoc"
