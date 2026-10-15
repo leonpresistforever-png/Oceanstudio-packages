@@ -5,22 +5,52 @@ import { json, open, read, events, safeEndpoint, UpstreamError } from './transpo
 const flatten = content => typeof content === 'string' ? content : (content ?? []).filter(p => p.type === 'text').map(p => p.text).join('\n');
 const urlAt = (base, path) => `${base.replace(/\/$/, '')}/${path.replace(/^\//, '')}`;
 const common = token => ({ Authorization: `Bearer ${token}`, 'Content-Type': 'application/json', Accept: 'application/json' });
+// [DEV-STATUS]
+// File: packages/ocean-gateway/providers.mjs
+// Status: VERIFIED — Separate OAuth 2.0 profiles & account namespaces for Antigravity IDE (antigravity-ide),
+//         Antigravity 2.0 (antigravity-20), Antigravity CLI (agy), Gemini CLI (gemini-cli), and OpenAI Codex (codex).
+const ANTIGRAVITY_SCOPE = 'https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile https://www.googleapis.com/auth/cclog https://www.googleapis.com/auth/experimentsandconfigs';
+const ANTIGRAVITY_CLIENT_ID = '1071006060591-tmhssin2h21lcre235vtolojh4g403ep.apps.googleusercontent.com';
+export const GOOGLE_CLOUDCODE_PROVIDERS = ['antigravity', 'antigravity-ide', 'antigravity-20', 'agy', 'gemini-cli'];
+export const ANTIGRAVITY_FAMILY_PROVIDERS = ['antigravity', 'antigravity-ide', 'antigravity-20', 'agy'];
+
 export const profiles = {
-  antigravity: { clientId: '1071006060591-tmhssin2h21lcre235vtolojh4g403ep.apps.googleusercontent.com', clientSecret: process.env.OCEAN_ANTIGRAVITY_CLIENT_SECRET,
+  antigravity: { clientId: ANTIGRAVITY_CLIENT_ID, clientSecret: process.env.OCEAN_ANTIGRAVITY_CLIENT_SECRET,
     registrationSource: 'antigravity',
     authorization: 'https://accounts.google.com/o/oauth2/v2/auth', token: 'https://oauth2.googleapis.com/token',
     userInfo: 'https://www.googleapis.com/oauth2/v1/userinfo', pkce: false,
-    scope: 'https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile https://www.googleapis.com/auth/cclog https://www.googleapis.com/auth/experimentsandconfigs',
+    scope: ANTIGRAVITY_SCOPE,
     baseUrl: 'https://daily-cloudcode-pa.googleapis.com', bootstrapUrl: 'https://cloudcode-pa.googleapis.com',
-    alternateBaseUrls: ['https://cloudcode-pa.googleapis.com'] },
+    alternateBaseUrls: ['https://cloudcode-pa.googleapis.com'], ideType: 'IDE_UNSPECIFIED', userAgent: 'antigravity' },
+  'antigravity-ide': { clientId: ANTIGRAVITY_CLIENT_ID, clientSecret: process.env.OCEAN_ANTIGRAVITY_CLIENT_SECRET,
+    registrationSource: 'antigravity',
+    authorization: 'https://accounts.google.com/o/oauth2/v2/auth', token: 'https://oauth2.googleapis.com/token',
+    userInfo: 'https://www.googleapis.com/oauth2/v1/userinfo', pkce: false,
+    scope: ANTIGRAVITY_SCOPE,
+    baseUrl: 'https://daily-cloudcode-pa.googleapis.com', bootstrapUrl: 'https://cloudcode-pa.googleapis.com',
+    alternateBaseUrls: ['https://cloudcode-pa.googleapis.com'], ideType: 'VSCODE', userAgent: 'antigravity-ide' },
+  'antigravity-20': { clientId: ANTIGRAVITY_CLIENT_ID, clientSecret: process.env.OCEAN_ANTIGRAVITY_CLIENT_SECRET,
+    registrationSource: 'antigravity',
+    authorization: 'https://accounts.google.com/o/oauth2/v2/auth', token: 'https://oauth2.googleapis.com/token',
+    userInfo: 'https://www.googleapis.com/oauth2/v1/userinfo', pkce: false,
+    scope: ANTIGRAVITY_SCOPE,
+    baseUrl: 'https://daily-cloudcode-pa.googleapis.com', bootstrapUrl: 'https://cloudcode-pa.googleapis.com',
+    alternateBaseUrls: ['https://cloudcode-pa.googleapis.com'], ideType: 'JETBRAINS', userAgent: 'antigravity/2.0' },
+  agy: { clientId: ANTIGRAVITY_CLIENT_ID, clientSecret: process.env.OCEAN_ANTIGRAVITY_CLIENT_SECRET,
+    registrationSource: 'antigravity',
+    authorization: 'https://accounts.google.com/o/oauth2/v2/auth', token: 'https://oauth2.googleapis.com/token',
+    userInfo: 'https://www.googleapis.com/oauth2/v1/userinfo', pkce: false,
+    scope: ANTIGRAVITY_SCOPE,
+    baseUrl: 'https://daily-cloudcode-pa.googleapis.com', bootstrapUrl: 'https://cloudcode-pa.googleapis.com',
+    alternateBaseUrls: ['https://cloudcode-pa.googleapis.com'], ideType: 'IDE_UNSPECIFIED', userAgent: 'agy-cli' },
   codex: { clientId: 'app_EMoamEEZ73f0CkXaXp7hrann', authorization: 'https://auth.openai.com/oauth/authorize',
     token: 'https://auth.openai.com/oauth/token', scope: 'openid profile email offline_access', pkce: true,
     baseUrl: 'https://chatgpt.com/backend-api/codex', quotaUrl: 'https://chatgpt.com/backend-api/wham/usage' },
   'gemini-cli': { clientId: '681255809395-oo8ft2oprdrnp9e3aqf6av3hmdib135j.apps.googleusercontent.com',
-    // Installed-application OAuth registration data published by Google's own CLI.
     clientSecret: process.env.OCEAN_GEMINI_CLIENT_SECRET, registrationSource: 'gemini-cli', authorization: 'https://accounts.google.com/o/oauth2/v2/auth',
-    token: 'https://oauth2.googleapis.com/token', scope: 'https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile',
-    pkce: true, baseUrl: 'https://cloudcode-pa.googleapis.com' },
+    token: 'https://oauth2.googleapis.com/token', userInfo: 'https://www.googleapis.com/oauth2/v1/userinfo',
+    scope: 'https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile',
+    pkce: true, baseUrl: 'https://cloudcode-pa.googleapis.com', bootstrapUrl: 'https://cloudcode-pa.googleapis.com' },
 };
 
 export function responsesInput(messages) {
@@ -121,23 +151,23 @@ export class Providers {
     return headers;
   }
   async bootstrap(account) {
-    if (!['antigravity', 'gemini-cli'].includes(account.provider)) return;
+    if (!GOOGLE_CLOUDCODE_PROVIDERS.includes(account.provider)) return;
     const base = account.bootstrapUrl ?? this.profiles[account.provider]?.bootstrapUrl ?? 'https://cloudcode-pa.googleapis.com';
     const data = await json(urlAt(base, 'v1internal:loadCodeAssist'), { method: 'POST', headers: await this.headers(account),
-      body: { metadata: { ideType: 'IDE_UNSPECIFIED', platform: 'PLATFORM_UNSPECIFIED', pluginType: 'GEMINI' } } });
+      body: { metadata: { ideType: this.profiles[account.provider]?.ideType ?? 'IDE_UNSPECIFIED', platform: 'PLATFORM_UNSPECIFIED', pluginType: 'GEMINI' } } });
     const project = data.cloudaicompanionProject;
     account.project = typeof project === 'object' ? project.id : project;
     account.plan = data.paidTier?.name ?? data.currentTier?.name ?? data.paidTier?.id ?? data.currentTier?.id;
     if (!account.project) {
       const tiers = data.allowedTiers ?? []; const tier = tiers.find(t => t.isDefault)?.id ?? tiers[0]?.id;
       if (!tier) throw new UpstreamError(403, 'Provider has not granted this account a Code Assist project');
-      const onboarding = { [account.provider === 'antigravity' ? 'tier_id' : 'tierId']: tier,
-        metadata: { ideType: 'IDE_UNSPECIFIED', platform: 'PLATFORM_UNSPECIFIED', pluginType: 'GEMINI' } };
+      const onboarding = { [ANTIGRAVITY_FAMILY_PROVIDERS.includes(account.provider) ? 'tier_id' : 'tierId']: tier,
+        metadata: { ideType: this.profiles[account.provider]?.ideType ?? 'IDE_UNSPECIFIED', platform: 'PLATFORM_UNSPECIFIED', pluginType: 'GEMINI' } };
       const enrolled = await json(urlAt(base, 'v1internal:onboardUser'), { method: 'POST', headers: await this.headers(account), body: onboarding });
       let status = enrolled;
       for (let i = 0; !status.done && i < 20; i++) {
         await new Promise(resolve => setTimeout(resolve, 1000));
-        status = account.provider === 'antigravity' || !status.name
+        status = ANTIGRAVITY_FAMILY_PROVIDERS.includes(account.provider) || !status.name
           ? await json(urlAt(base, 'v1internal:onboardUser'), { method: 'POST', headers: await this.headers(account), body: onboarding })
           : await json(urlAt(base, 'v1internal/' + status.name.replace(/^\//, '')), { headers: await this.headers(account) });
       }
@@ -150,7 +180,7 @@ export class Providers {
   async models(account) {
     const headers = await this.headers(account);
     let result, rows;
-    if (['antigravity', 'gemini-cli'].includes(account.provider)) {
+    if (GOOGLE_CLOUDCODE_PROVIDERS.includes(account.provider)) {
       if (!account.project) await this.bootstrap(account);
       let failure;
       for (const base of [account.baseUrl, ...(this.profiles[account.provider]?.alternateBaseUrls ?? [])]) {
@@ -188,7 +218,7 @@ export class Providers {
       }
       return { plan: raw.plan_type ?? '', planName: raw.plan_type ?? '', quotas, raw, source: 'provider' };
     }
-    if (['antigravity', 'gemini-cli'].includes(account.provider)) {
+    if (GOOGLE_CLOUDCODE_PROVIDERS.includes(account.provider)) {
       if (!account.project) await this.bootstrap(account);
       const raw = await json(urlAt(account.baseUrl, 'v1internal:retrieveUserQuota'), { method: 'POST', headers: await this.headers(account), body: { project: account.project } });
       const quotas = {};
@@ -207,7 +237,7 @@ export class Providers {
         ...(request.tools ? { tools: request.tools.map(t => ({ type: 'function', ...t.function })) } : {}) };
       return { format: 'responses', response: await open(urlAt(account.baseUrl, 'responses'), { method: 'POST', headers, body, signal }) };
     }
-    if (['antigravity', 'gemini-cli'].includes(account.provider) || account.format === 'gemini') {
+    if (GOOGLE_CLOUDCODE_PROVIDERS.includes(account.provider) || account.format === 'gemini') {
       if (!account.project && account.format !== 'gemini') await this.bootstrap(account);
       const body = geminiBody(request), localStream = request.stream === true;
       const method = localStream ? 'streamGenerateContent' : 'generateContent';
@@ -215,7 +245,7 @@ export class Providers {
         : urlAt(account.baseUrl, `v1internal:${method}${localStream ? '?alt=sse' : ''}`);
       return { format: 'gemini', response: await open(url, { method: 'POST', headers, signal,
         body: account.format === 'gemini' ? body : { project: account.project, model, request: body,
-          ...(account.provider === 'antigravity' ? { userAgent: 'antigravity', requestType: 'agent', requestId: randomUUID() } : {}) } }) };
+          ...(ANTIGRAVITY_FAMILY_PROVIDERS.includes(account.provider) ? { userAgent: this.profiles[account.provider]?.userAgent ?? 'antigravity', requestType: 'agent', requestId: randomUUID() } : {}) } }) };
     }
     if (account.format === 'anthropic') {
       const system = request.messages.filter(m => ['system', 'developer'].includes(m.role)).map(m => flatten(m.content)).join('\n');

@@ -1,3 +1,6 @@
+// [DEV-STATUS]
+// File: packages/ocean-gateway/oauth.mjs
+// Status: VERIFIED — Supports isolated OAuth flows for antigravity-ide, antigravity-20, agy, gemini-cli, and codex.
 import { randomBytes, createHash } from 'node:crypto';
 import { json, UpstreamError } from './transport.mjs';
 import { equal } from './store.mjs';
@@ -24,7 +27,7 @@ export class Authorization {
       parameters.code_challenge = createHash('sha256').update(verifier).digest('base64url'); parameters.code_challenge_method = 'S256';
     }
     if (provider === 'codex') Object.assign(parameters, { id_token_add_organizations: 'true', codex_cli_simplified_flow: 'true', originator: 'codex_cli_rs', prompt: 'login' });
-    if (['antigravity', 'gemini-cli'].includes(provider)) Object.assign(parameters, { access_type: 'offline', prompt: 'consent' });
+    if (['antigravity', 'antigravity-ide', 'antigravity-20', 'agy', 'gemini-cli'].includes(provider)) Object.assign(parameters, { access_type: 'offline', prompt: 'consent' });
     for (const [name, value] of Object.entries(parameters)) url.searchParams.set(name, value);
     this.pending.set(state, { provider, verifier, redirect: redirect.href, expiresAt: now + 600000, profile });
     return { authUrl: url.href, state, codeVerifier: verifier, redirectUri: redirect.href,

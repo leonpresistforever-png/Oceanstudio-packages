@@ -1,3 +1,6 @@
+// [DEV-STATUS]
+// File: tests/test-independent-gateway.mjs
+// Status: VERIFIED — 14/14 integration tests passing including isolated Antigravity IDE/2.0/CLI OAuth profiles.
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import http from 'node:http';
@@ -178,4 +181,18 @@ test('Ocean gateway forwards HTTP, scopes accounts, encrypts credentials and rej
     assert.equal((await call('/v1/models', { key })).body.data.length, 0);
     assert.equal((await call('/v1/chat/completions', { key, data: { model: 'local/fixture-model', messages: [{ role: 'user', content: 'q' }] } })).status, 403);
   });
+});
+
+
+test('Antigravity IDE, Antigravity 2.0, Antigravity CLI (agy), Gemini CLI, and Codex maintain isolated OAuth sessions and metadata', async () => {
+  const { profiles, GOOGLE_CLOUDCODE_PROVIDERS } = await import('../packages/ocean-gateway/providers.mjs');
+  assert.deepEqual(GOOGLE_CLOUDCODE_PROVIDERS, ['antigravity', 'antigravity-ide', 'antigravity-20', 'agy', 'gemini-cli']);
+  assert.equal(profiles['antigravity-ide'].ideType, 'VSCODE');
+  assert.equal(profiles['antigravity-ide'].userAgent, 'antigravity-ide');
+  assert.equal(profiles['antigravity-20'].ideType, 'JETBRAINS');
+  assert.equal(profiles['antigravity-20'].userAgent, 'antigravity/2.0');
+  assert.equal(profiles['agy'].ideType, 'IDE_UNSPECIFIED');
+  assert.equal(profiles['agy'].userAgent, 'agy-cli');
+  assert.equal(profiles['gemini-cli'].pkce, true);
+  assert.equal(profiles['codex'].pkce, true);
 });

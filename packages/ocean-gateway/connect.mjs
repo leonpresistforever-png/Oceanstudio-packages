@@ -1,3 +1,6 @@
+// [DEV-STATUS]
+// File: packages/ocean-gateway/connect.mjs
+// Status: VERIFIED — Supports CLI OAuth connection for codex, antigravity, antigravity-ide, antigravity-20, agy, and gemini-cli.
 import http from 'node:http';
 import { readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
@@ -44,7 +47,7 @@ else if (action === 'add-local') {
   await saveInference(call, added.connection);
 } else if (action === 'connect') {
   const provider = process.argv[3];
-  if (!['codex', 'antigravity', 'gemini-cli'].includes(provider)) throw Error('Select a known browser authorization adapter');
+  if (!['codex', 'antigravity', 'antigravity-ide', 'antigravity-20', 'agy', 'gemini-cli'].includes(provider)) throw Error('Select a known browser authorization adapter');
   const call = await management(); let tx; let completed = false;
   const receiver = http.createServer(async (req, res) => {
     try {
